@@ -31,7 +31,7 @@ Tensor.index_reduce_(dim, index, source, reduce, *, include_self=True)
   - `'amax'`: Maximum of elements with the same index.
   - `'amin'`: Minimum of elements with the same index.
 - `include_self` (Optional): Determines whether the existing values in the current tensor are included in the reduction operation.
-  - If `True`, the values already present in the tensor are included.
+  - If `True`, the values already present in the tensor are included. If no value is provided for the parameter, `include_self` defaults to `True`.
   - If `False`, only the `source` tensor values contribute to the reduction.
 
 ## Example
