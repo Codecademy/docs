@@ -42,7 +42,7 @@ The following example demonstrates the usage of the `.index_reduce()` method:
 import torch
 
 # Define the target tensor
-target = torch.zeros(5)
+target = torch.zeros(2)
 
 # Source tensor
 source = torch.tensor([1.0, 2.0, 3.0, 4.0])
