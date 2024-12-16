@@ -16,7 +16,7 @@ CatalogContent:
 
 In [sklearn](https://www.codecademy.com/resources/docs/sklearn), **Multioutput Regression** is a type of regression task where the model predicts multiple dependent variables (outputs) simultaneously for each input, allowing for the modeling of relationships between multiple target variables and the features, which can improve prediction accuracy when outputs are correlated.
 
-This can be achieved using the `MultiOutputRegressor` class, which wraps a single-output regressor (like `LinearRegression` or `DecisionTreeRegressor`) and fits a separate model for each target variable. The model then predicts all outputs at once for each input, treating each target independently.
+This can be achieved using the `MultiOutputRegressor` class, which wraps a single-output regressor (like [`LinearRegression`](https://www.codecademy.com/resources/docs/sklearn/linear-regression-analysis) or [`DecisionTreeRegressor`](https://www.codecademy.com/resources/docs/sklearn/decision-trees)) and fits a separate model for each target variable. The model then predicts all outputs at once for each input, treating each target independently.
 
 ## Syntax
 
