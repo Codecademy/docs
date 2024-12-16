@@ -58,7 +58,7 @@ The output of the above code is a table that features a new column `previous_age
 
 | first_name | last_name | age | previous_age |
 | ---------- | --------- | --- | ------------ |
-| kyle       | xy        | 60  | null         |
+| kyle       | xy        | 60  | NULL         |
 | jenna      | black     | 35  | 60           |
 | chris      | smith     | 30  | 35           |
 | dave       | james     | 19  | 30           |
