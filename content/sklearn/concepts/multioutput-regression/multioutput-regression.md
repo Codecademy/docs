@@ -21,7 +21,9 @@ This can be achieved using the `MultiOutputRegressor` class, which wraps a singl
 ## Syntax
 
 ```pseudo
-sklearn.multioutput.MultiOutputRegressor(estimator, n_jobs=None)
+from sklearn.multioutput import MultiOutputRegressor
+
+multi_output_regressor = MultiOutputRegressor(estimator, n_jobs=None)
 ```
 
 - `estimator`: The base regressor that is used to fit each target independently. This can be any regression model that supports single-output regression (e.g., `LinearRegression`, `DecisionTreeRegressor`, etc.).
