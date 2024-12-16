@@ -22,7 +22,7 @@ In PyTorch, **`.index_reduce()`** performs a reduction operation (such as sum, p
 Tensor.index_reduce_(dim, index, source, reduce, *, include_self=True)
 ```
 
-- `dim`: The dimension along which the reduction is performed. It specifies which axis of the tensor is being reduced.
+- `dim`: The axis of the tensor along which the reduction is performed.
 - `index`: A 1D tensor containing indices that map the elements in the source tensor to specific positions in the current tensor.
 - `source`: The tensor whose values are reduced and added to the current tensor at positions specified by `index`.
 - `reduce`: Specifies the reduction operation to apply. Possible values include:
