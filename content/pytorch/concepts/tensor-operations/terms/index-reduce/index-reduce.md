@@ -1,6 +1,6 @@
 ---
 Title: '.index_reduce_()'
-Description: 'Reduces a tensor along a specified dimension using a given reduction operation based on indices that map elements to the output tensor.'
+Description: 'Reduces a tensor along a specified dimension using indices to map input elements to positions in the output tensor, applying reduction operations such as sum, product, or mean.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
