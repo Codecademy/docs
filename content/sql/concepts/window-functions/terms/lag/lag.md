@@ -43,9 +43,13 @@ Users Table
 | kyle       | xy        | 60  |
 
 ```sql
-SELECT *,
+SELECT 
+    first_name,
+    last_name,
+    age,
     LAG(age, 1) OVER (
-  ORDER BY age DESC) AS previous_age
+        ORDER BY age DESC
+    ) AS previous_age
 FROM Users;
 ```
 
@@ -77,7 +81,10 @@ This example demonstrates how to use the `LAG()` function to create a new column
 | 2           | 2024-11-20     |Data Analyst  |
 
 ```sql
-SELECT *,
+SELECT 
+    employee_id,
+    promotion_date,
+    new_position,
     LAG(new_position) OVER (
         PARTITION BY employee_id
         ORDER BY promotion_date
