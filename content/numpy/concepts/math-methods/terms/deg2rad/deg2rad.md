@@ -9,8 +9,8 @@ Tags:
   - 'Math'
   - 'NumPy'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/computer-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 In NumPy, the **`.deg2rad()`** function converts an angle from degrees to radians.
