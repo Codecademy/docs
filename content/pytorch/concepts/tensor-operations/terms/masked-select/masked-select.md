@@ -19,7 +19,7 @@ In PyTorch, **`.masked_select()`** is a function that selects elements from an i
 ## Syntax
 
 ```pseudo
-torch.masked_select(input, mask, *, out=None) → Tensor
+torch.masked_select(input, mask, *, out=None)
 ```
 
 - `input`: The input tensor from which elements will be selected.
