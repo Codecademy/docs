@@ -2,9 +2,9 @@
 Title: 'Gradient Descent'
 Description: 'Gradient Descent is an optimization algorithm that minimizes a cost function by iteratively moving towards its minimum using the function's gradient.'
 Subjects:
+  - 'Computer Science'
   - 'Machine Learning'
   - 'Data Science'
-  - 'Computer Science'
 Tags:
   - 'AI'
   - 'Machine Learning'
