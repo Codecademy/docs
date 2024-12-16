@@ -1,6 +1,6 @@
 ---
-Title: 'sort()'
-Description: 'Sorts an array or matrix along a specified axis.'
+Title: '.sort()'
+Description: 'Sorts an array in ascending order along the specified axis and returns a sorted copy of the input array.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.sort()`** function is used to sort an array's elements or matrix along a specified axis and returns a new sorted array without modifying the original.
+In NumPy, the **`.sort()`** function sorts the elements of an array or matrix along a specified axis. It returns a new array with elements sorted in ascending order, leaving the original array unchanged. Sorting can be performed along different axes (such as rows or columns in a 2D array), with the default being along the last axis (`axis=-1`).
 
 ## Syntax
 
@@ -21,26 +21,16 @@ The **`.sort()`** function is used to sort an array's elements or matrix along a
 numpy.sort(a, axis=-1, kind=None, order=None)
 ```
 
-`numpy.sort()` method provides the following arguments:
-
 - `a`: The array of elements to be sorted.
--- `axis`: This specifies the axis along which to sort the array. int or None, optional, default=-1
--axis=-1: Sorts along the last axis (default for multi-dimensional arrays).
--axis=0: Sorts along the first axis (columns).
--axis=1: Sorts along the second axis (rows).
--- `None`: Flattens the array and sorts it globally, ignoring the shape of the array.
--- `kind`: {‘quicksort’, ‘mergesort’, ‘heapsort’, ‘stable’}, optional, default=’quicksort’
--'quicksort': Fast, divide-and-conquer algorithm.
--'mergesort': Stable sorting algorithm that uses merge sort.
--'heapsort': Less efficient but guaranteed to be in-place.
--'stable': A stable version of quicksort.
--- `order`: This parameter is used when a is a structured array (i.e., an array with fields). It specifies the field or fields to sort by. If a is not a structured array, this parameter is ignored. str or list of str, optional
-+- `axis` (int or None, optional): The axis along which to sort. It can be an integer value or `None`.
-+- `kind` (str,optional): The algorithm used for sorting (e.g., `quicksort`, `mergesort`, `heapsort`).
-+- `order` (str or list of str, optional): Specifies the field(s) to sort by in a structured array.
+- `axis`: The axis along which to sort. If `None`, the array is flattened before sorting. The default is `-1`, which sorts along the last axis.
+- `kind`: The sorting algorithm to use. The options are:
+  - `['quicksort'](https://www.codecademy.com/resources/docs/general/algorithm/quick-sort)`: Default algorithm, a fast, comparison-based algorithm.
+  - `['mergesort'](https://www.codecademy.com/resources/docs/general/algorithm/merge-sort)`: SStable sort using a divide-and-conquer algorithm.
+  - `['heapsort'](https://www.codecademy.com/resources/docs/general/algorithm/heap-sort)`: A comparison-based sort using a heap.
+  - `'stable'`: A stable sorting algorithm, typically mergesort.
+- `order`: If `a` is a structured array, this specifies the field(s) to sort by. If not provided, sorting will be done based on the order of the fields in `a`.
 
-
-## Example 
+## Example
 
 The following example demonstrates how to use `.sort()` function with various parameters:
 
@@ -86,5 +76,4 @@ print(np.sort(arr, axis=1))
 
 print("\nSorted array (flattened):")
 print(np.sort(arr, axis=None))
-
 ```
