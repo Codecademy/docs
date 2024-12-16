@@ -34,7 +34,7 @@ multi_output_regressor = MultiOutputRegressor(estimator, n_jobs=None)
 
 ## Example
 
-In the following example, a multi-output regression model is trained using `MultiOutputRegressor` with `LinearRegression` as the base estimator to predict two target variables from a dataset with 100 samples and 10 features:
+In the following example, a multi-output regression model is trained using `MultiOutputRegressor` with `LinearRegression` as the base `estimator` to predict two target variables from a dataset with 100 samples and 10 features:
 
 ```py
 from sklearn.datasets import make_regression
