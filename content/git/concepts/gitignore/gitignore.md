@@ -43,7 +43,7 @@ Sometimes we want to ignore entire directories or specify certain files in a dir
 ```
 node_modules/
 ```
-This will ignore the **node_modules** directory, and all subdirectories and files inside them. The forward slash `/` specifies that we are ignoring the directory.
+This will ignore the `node_modules` directory, and all subdirectories and files inside them. The forward slash `/` specifies that we are ignoring the directory.
 
 ## `.gitignore` Patterns
 
