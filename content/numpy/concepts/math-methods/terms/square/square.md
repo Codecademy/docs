@@ -18,7 +18,7 @@ In NumPy, the **`.square()`** method computes the square of a number or the squa
 
 ## Syntax
 
-```python
+```pseudo
 numpy.square(array, out = None, where = True, dtype = None)
 ```
 
@@ -35,17 +35,19 @@ objects. Numpy makes use of arrays composed of contiguous blocks of memory (like
 for the purposes of optimization. Therefore, arrays supplied for this argument must be initialized
 with the `numpy.array` function like so...
 
-```python
+```pseudo
 output_array = numpy.array([0, 0, 0, 0, 0])
 ```
 
 This array can now be called as the `out` parameter in your .square() function.
 
-```python
+```pseudo
 array = [1, 2, 3, 4, 5]
 numpy.square(array, out = output_array)
 print(output_array)
 ```
+
+Output
 
 ```shell
 [1, 4, 9, 16, 25]
@@ -55,12 +57,14 @@ print(output_array)
 
 With the use of the "where" parameter, the function will execute conditionally. For instance:
 
-```python
+```pseudo
 import numpy as np
 array = [1, 2, 3, 4, 5]
 conditions = np.array([False, True, True, False, True])
 np.square(array, where=conditions)
 ```
+
+Output
 
 ```shell
 array([1, 4, 9, 4, 25])
@@ -75,11 +79,13 @@ parameter is set equal to a single boolean value, the entire input array is eith
 
 Sometimes, it is important to increase or decrease the size of the datatype of the output array. This can be done by setting the 'dtype' parameter to an np datatype, like:
 
-```python
+```pseudo
 import numpy as np
 array = [1, 2, 3, 4, 5]
 np.square(array, dtype=np.float32)
 ```
+
+Output
 
 ```shell
 array([ 1.,  4.,  9., 16., 25.], dtype=float32)
