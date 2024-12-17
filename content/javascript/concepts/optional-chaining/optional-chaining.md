@@ -12,8 +12,6 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-
-
 The **optional chanining** operator simplifies the comparison of multiple data properties in a chain of connected objects. This is especially valuable if any of the properties are null as the operatior will return as undefined instead of throwing an error.
 
 Optional chaning can be used to validate nested object properties, call optional functions or methods on optional objects, accessing arrary elements, and more. 
