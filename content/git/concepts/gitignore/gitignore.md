@@ -61,10 +61,10 @@ Examples of usage:
     * `example*`
 * Negation any file that would otherwise be ignored
     * ```
-    index*
-    !public/index.css
-    ```
+      index*
+      !public/index.css
+      ```
 * Ignore all files in the `temp` directory where a `temp` folder exists inside all folders in the root directory
-    * **/temp/**
+    * `**/temp/**`
 
 GitHub provides predefined `.gitignore` templates for different languages and frameworks, available at [GitHub’s gitignore repository](https://github.com/github/gitignore).
