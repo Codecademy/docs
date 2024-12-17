@@ -34,7 +34,7 @@ src/main.js
 
 ```
 
-![alt text](https://static-assets.codecademy.com/Courses/learn-git-github/gitignore/create-gitignore.png "A screenshot of a Linux terminal showing the creation of a .gitignore file using the command "touch .gitignore". Next, the commands "ls" and "ls -a" are used to show that since .gitignore is a hidden file, the "-a" flag is necessary")
+![A screenshot of a Linux terminal showing the creation of a .gitignore file using the command `touch .gitignore`. Next, the commands `ls` and `ls -a` are used to show that since `.gitignore` is a hidden file, the `-a` flag is necessary.](https://static-assets.codecademy.com/Courses/learn-git-github/gitignore/create-gitignore.png)
 
 **Note:** since **.gitignore** is a hidden file, we will need to add the `-a` flag to `ls` to see it.
 
