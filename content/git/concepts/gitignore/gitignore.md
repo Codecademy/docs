@@ -24,7 +24,7 @@ A **.gitignore** file is used in Git to specify which files or directories versi
 
 ## Creating a `.gitignore` file
 
-We can create a **.gitignore** file easily using a terminal editor like *nano* or *emacs*, or just using a File explorer. Don’t forget the `.` before the filename!
+We can easily create a `.gitignore` file using a terminal editor like Nano or Emacs or just File Explorer.
 
 **.gitignore** is usually placed in the root directory of the repository. The filenames inside a **.gitignore** file can be written relative to the location of the **.gitignore** file. For example, we could add the line
 ```
