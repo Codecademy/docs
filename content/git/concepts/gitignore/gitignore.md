@@ -10,6 +10,7 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'GitHub'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-git'
+  - 'paths/computer-science'
 ---
 
 When pushing your project to GitHub, there are often files you do not want to be shared with others. A **.gitignore** file is used to specify which files or folders you want Git to ignore when staging. Follow the steps below to include this file in your GitHub project, which can result in cleaner staging areas and prevent sensitive information from accidentally being pushed.
