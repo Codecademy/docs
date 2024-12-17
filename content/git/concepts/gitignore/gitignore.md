@@ -36,7 +36,7 @@ src/main.js
 
 ![A screenshot of a Linux terminal showing the creation of a .gitignore file using the command `touch .gitignore`. Next, the commands `ls` and `ls -a` are used to show that since `.gitignore` is a hidden file, the `-a` flag is necessary.](https://static-assets.codecademy.com/Courses/learn-git-github/gitignore/create-gitignore.png)
 
-**Note:** since **.gitignore** is a hidden file, we will need to add the `-a` flag to `ls` to see it.
+> **Note**: Since `.gitignore` is a hidden file, we must add the `-a` flag to `ls` to see it.
 
 ## Ignore a directory with .gitignore
 
