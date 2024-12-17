@@ -22,15 +22,15 @@ The general syntax for creating a pivot table in Pandas is:
 pandas.pivot_table(data, values=None, index=None, columns=None, aggfunc='mean', fill_value=None, margins=False, dropna=True, margins_name='All')
 ```
 
-- `data`: The input DataFrame.
+- `data`: The input `DataFrame`.
 - `values`: The column(s) to aggregate.
 - `index`: Column(s) to group data by (rows).
 - `columns`: Column(s) to group data by (columns).
-- `aggfunc`: The aggregation function(s) (default is 'mean').
-- `fill_value`: Value to replace NaNs.
+- `aggfunc`: The aggregation function(s) (default is `mean`).
+- `fill_value`: Value to replace `NaN`s.
 - `margins`: Add subtotals (row/column totals).
 - `margins_name`: Name for row/column totals.
-- `dropna`: Whether to drop columns with NaN values.
+- `dropna`: Whether to drop columns with `NaN` values.
 
 ## Example
 
