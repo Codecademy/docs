@@ -1,6 +1,6 @@
 ---
 Title: 'text-decoration'
-Description: 'To add lines on the text.'
+Description: 'Adds a line beneath, over, or through the text.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,12 +13,14 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-To add lines on the text.
+The **text-decoration** CSS property adds a line beneath, over, or through the text. To reset it, the property can be set to `none`.
+
+The line can also be styled as wavy, dotted, or in a custom colour.
 
 ## Syntax
 
 ```css
-text-decoration: <text-align-value>;
+text-decoration: <text-decoration-value>;
 ```
 
 The `text-decoration-value` can be the following:
@@ -28,9 +30,9 @@ The `text-decoration-value` can be the following:
 - `overline`
 - `line-through`
 
-## Example 1
+## Examples
 
-Set the `p` tag to `center`:
+### Paragraph with an underline
 
 ```css
 p {
@@ -38,4 +40,50 @@ p {
 }
 ```
 
-Above code indicating that the text in `p` tag will be underlined.
+```HTML
+<p>Example Paragraph</p>
+```
+
+![text decoration underline](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-decoration-underline.png)
+
+### Paragraph with an overline
+
+```css
+p {
+  text-decoration: overline;
+}
+```
+
+```HTML
+<p>Example Paragraph</p>
+```
+
+![text decoration overline](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-decoration-overline.png)
+
+### Paragraph with a line through
+
+```css
+p {
+  text-decoration: line-through;
+}
+```
+
+```HTML
+<p>Example Paragraph</p>
+```
+
+![text decoration line through](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-decoration-line-through.png)
+
+### Paragraph with a wavy red underline
+
+```css
+p {
+  text-decoration: red wavy underline;
+}
+```
+
+```HTML
+<p>Example Paragraph</p>
+```
+
+![text decoration red wavy underline](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-decoration-red-wavy-underline.png)
