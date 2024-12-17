@@ -35,7 +35,7 @@ git commit --amend -m "Your new commit message"
 
 ## Examples
 
-### Scenario:
+### Scenario
 
 The developer created and committed a feature, but forgot to include a file:
 
@@ -69,7 +69,7 @@ git log --oneline
 def5678 Add initial code for the feature and forgotten file # Commit abc1234 has been replaced by def5678
 ```
 
-### Example:
+### Example
 
 To amend only the commit message:
 
