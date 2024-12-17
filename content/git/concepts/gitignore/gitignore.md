@@ -26,7 +26,9 @@ A **.gitignore** file is used in Git to specify which files or directories versi
 
 We can easily create a `.gitignore` file using a terminal editor like Nano or Emacs or just File Explorer.
 
-**.gitignore** is usually placed in the root directory of the repository. The filenames inside a **.gitignore** file can be written relative to the location of the **.gitignore** file. For example, we could add the line
+`.gitignore` is usually placed in the root directory of the repository. The filenames inside a `.gitignore` file can be written relative to the location of the `.gitignore` file. 
+
+For example, to ignore the file `main.js` under the `src/` directory, we can write as follows:
 ```
 src/main.js
 
