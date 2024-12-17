@@ -16,13 +16,13 @@ CatalogContent:
 
 In TensorFlow, **math operations** are fundamental for performing various mathematical computations on tensors. Tensors are multi-dimensional arrays that can be manipulated using various operations.
 
-TensorFlow offers a rich set of mathematical operations under the `tf.math` module. These operations include including arithmetic, trigonometric and exponential functions, and more.
+TensorFlow offers a rich set of mathematical operations under the `tf.math` module. These operations include arithmetic, trigonometric and exponential functions, and more.
 
-Here are some of the key mathematical operations available in TensorFlow:
+Some of the key mathematical operations available in TensorFlow are listed below.
 
 ## Arithmetic Operations
 
-TensorFlow provides a wide range of arithmetic operations that can be performed on tensors. These operations include addition, subtraction, multiplication, division, and more. Here are some examples of arithmetic operations in TensorFlow:
+TensorFlow provides a wide range of arithmetic operations that can be performed on tensors, including addition, subtraction, multiplication, division, and more. Here are some examples of arithmetic operations in TensorFlow:
 
 ```py
 import tensorflow as tf
@@ -70,7 +70,6 @@ tf.math.cos(a)  # Element-wise cosine
 tf.math.tan(a)  # Element-wise tangent
 tf.math.asin(a)  # Element-wise arcsine
 tf.math.acos(a)  # Element-wise arccosine
-
 tf.math.atan(a)  # Element-wise arctangent
 ```
 
@@ -142,4 +141,4 @@ tf.math.lgamma(a)  # Element-wise natural logarithm of the absolute value of the
 tf.math.bessel_i0(a)  # Element-wise modified Bessel function of the first kind of order 0
 ```
 
-By leveraging these mathematical operations, you can perform a wide range of computations on tensors in TensorFlow, making it a powerful tool for scientific computing, machine learning, and deep learning applications.
+By leveraging these mathematical operations, a wide range of computations on tensors can be performed in TensorFlow, making it a powerful tool for scientific computing, machine learning, and deep learning applications.
