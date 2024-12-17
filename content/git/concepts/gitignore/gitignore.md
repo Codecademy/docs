@@ -60,6 +60,5 @@ will ignore all files starting with *index* except for *src/index.css*. But, we 
 * Square brackets `[]` can be used to match a single character from a set of characters or a range of characters. Note that the range can be alphabetical: `[a-z]` or `[A-Z]`, numeric `[0-9]`, or a set of characters. If we added `index.[a-i]*` with both the square bracket and wildcard to **.gitignore**, we would ignore *index.css* and *index.html* but not *index.js*, since “j” is outside of the `[a-i]` range.
 * Double asterisk `**` is used to match 0 or more directories. If we had a temp folder inside all of the folders in the root directory and we only wanted to match files with the `.log` extension, we could use the pattern `**/temp/*.log`.
 
-## GitHub Provided Templates
 
 When we create a new repository on GitHub, we have the option to add a .gitignore file from a list of templates. These templates are pulled from [GitHub’s gitignore repository](https://github.com/github/gitignore). For example, below is the template for Java projects.
