@@ -4,11 +4,7 @@ Description: 'A `.gitignore` file is a plain text file that tells Git which file
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Data Science'
   - 'Developer Tools'
-  - 'Information Technology'
-  - 'Web Design'
-  - 'Web Development'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
   - 'Git'
   - 'GitHub'
