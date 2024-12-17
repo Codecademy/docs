@@ -20,7 +20,7 @@ The primary benefits of using optional chaining instead of regular syntax includ
 
 ## Syntax
 
-The basic syntax for `optional chaining` can be defined as: 
+The basic syntax for using optional chaining is as follows: 
 
 ```js
 // To access an object property
