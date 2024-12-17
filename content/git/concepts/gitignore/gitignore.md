@@ -40,7 +40,7 @@ src/main.js
 
 ## Ignore a directory with .gitignore
 
-Sometimes we want to ignore entire directories or specify certain files in a directory. Common directories to leave out of a Git repository are **node_modules** or **logs** folder. We can ignore an entire directory by simply adding its name to **.gitignore**:
+Sometimes, we want to ignore entire directories or specify certain files in a directory. Common directories to leave out of a Git repository are `node_modules` or `logs` folders. We can ignore an entire directory by simply adding its name to `.gitignore`:
 ```
 node_modules/
 ```
