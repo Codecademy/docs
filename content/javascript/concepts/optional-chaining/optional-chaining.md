@@ -153,11 +153,13 @@ const people = [
   }
 ];
 
+// Regular syntax for checking if a person's city exists
 people.forEach((person, index) => {
   const city = person && person.address && person.address.city;
   console.log(`Person ${index + 1}: City: ${city}`);
 });
 
+// Optional chaining for simpler access
 people.forEach((person, index) => {
 const age = person?.age;
 console.log(`Person ${index + 1}: Age: ${age}`);
