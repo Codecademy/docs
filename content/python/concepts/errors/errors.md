@@ -103,7 +103,7 @@ ZeroDivisionError: division by zero
 
 ## Custom Exceptions
 
-Custom exceptions can be used to define and handle application-specific errors. This can be done by creating a sub-class of the built-in `Exception` class. Custom exceptions are useful for providing descriptive user feedback for unexpected behaviour. They can also help developers in debugging or be used elsewhere in the program.
+Custom exceptions can be used to define and handle application-specific errors. This can be done by creating a sub-class of the built-in `Exception` class. Custom exceptions are useful for providing descriptive user feedback for unexpected behaviour. They can also help developers in debugging or be used elsewhere in the program. 
 
 ### Defining Custom Exceptions
 
@@ -129,37 +129,14 @@ def validate_age(age):
         raise InvalidAgeError(f"{age} is not a valid age. Please choose an age between 0 and 130.", age)
 ```
 
-## Example
+### Example Custom Exception Usage
 
-### Custom Exception Usage
-
-Custom exceptions in Python can be used within functions to validate inputs or handle specific error cases. When such a function is called with invalid input, it can throw the custom exception to the user.
-
-Here's an example demonstrating how a custom exception is used in a function :
-
-```py
-class InvalidAgeError(Exception):
-    """Custom exception for invalid age."""
-    def __init__(self, age, message="Age must be between 0 and 130."):
-        self.age = age
-        self.message = f"{age} is not a valid age. {message}"
-        super().__init__(self.message)
-
-# Function using the custom exception
-def validate_age(age):
-    if age < 0 or age > 130:
-        raise InvalidAgeError(age)
-    print(f"Age {age} is valid.")
-
-# Usage
-try:
-    validate_age(-5)
-except InvalidAgeError as e:
-    print(f"Error: {e}")
-```
-
-The code generates the following error as output:
+Once the custom exception has been used in a function, this function can be used to throw the custom error to the user.
 
 ```shell
-Error: -5 is not a valid age. Age must be between 0 and 130.
+try:
+    validate_age(-5)  
+except InvalidAgeError as e:
+    print(f"Error: {e}")
+# Prints: "Error: -5 is not a valid age. Please choose an age between 0 and 130".
 ```
