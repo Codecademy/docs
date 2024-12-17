@@ -13,7 +13,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-When pushing your project to GitHub, there are often files you do not want to be shared with others. A **.gitignore** file is used to specify which files or folders you want Git to ignore when staging. Follow the steps below to include this file in your GitHub project, which can result in cleaner staging areas and prevent sensitive information from accidentally being pushed.
+A **.gitignore** file is used in Git to specify which files or directories version control should ignore. This file helps maintain cleaner repositories by preventing unnecessary or sensitive files, such as configuration files, logs, or system-generated files, from being tracked or committed.
 
 ## What is a `.gitignore` file?
 
