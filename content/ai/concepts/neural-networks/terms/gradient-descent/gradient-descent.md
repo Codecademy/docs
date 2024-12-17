@@ -11,8 +11,8 @@ Tags:
   - 'Neural Networks'
   - 'Functions'
 CatalogContent:
-  - 'machine-learning'
-  - 'path/data-science'
+  - 'paths/data-science'
+  - 'paths/machine-learning'
 ---
 
 **Gradient Descent** is an optimization algorithm commonly used in machine learning and neural networks to minimize a cost function. Its goal is to iteratively find the optimal parameters (weights) that minimize the error or loss.
