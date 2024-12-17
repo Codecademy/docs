@@ -1,6 +1,6 @@
 ---
 Title: 'Optional Chaining'
-Description: 'The optional chanining operator simplifies the comparison of multiple data properties in a chain of connected objects' 
+Description: 'The optional chaining operator simplifies the comparison of multiple data properties in a chain of connected objects.' 
 Subjects: 
   - 'Web Development'
   - 'Computer Science'
