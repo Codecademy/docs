@@ -115,3 +115,39 @@ The output of the above code will be as follows:
 | North  | 220 | 0   | 110.0 | 0.0   |
 | South  | 150 | 180 | 150.0 | 180.0 |
 | West   | 0   | 130 | 0.0   | 130.0 |
+
+## Codebyte Example
+
+Run the following example to see how pivot tables can be used to aggregate `Quantity` by `Category` and `Region`:
+
+```codebyte/python
+import pandas as pd
+
+# Sample data
+data = {
+    'Category': ['Electronics', 'Electronics', 'Clothing', 'Clothing', 'Electronics', 'Clothing'],
+    'Sub-Category': ['Phones', 'Laptops', 'Shirts', 'Shirts', 'Phones', 'Pants'],
+    'Region': ['North', 'South', 'North', 'East', 'East', 'South'],
+    'Quantity': [2, 3, 4, 1, 3, 2],
+    'Discount': [0.1, 0.2, 0.15, 0.1, 0.25, 0.05]
+}
+
+# Create a DataFrame
+df = pd.DataFrame(data)
+
+print("Original DataFrame:")
+print(df)
+
+# Create a pivot table to aggregate 'Quantity' by 'Category' and 'Region'
+pivot_table = pd.pivot_table(
+    df,
+    values='Quantity',         # Column to aggregate
+    index='Category',          # Rows
+    columns='Region',          # Columns
+    aggfunc=['sum', 'mean'],   # Aggregation functions
+    fill_value=0               # Replace NaN with 0
+)
+
+print("\nPivot Table Aggregating 'Quantity' with Sum and Mean:")
+print(pivot_table)
+```
