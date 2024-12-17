@@ -15,9 +15,6 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 A **.gitignore** file is used in Git to specify which files or directories version control should ignore. This file helps maintain cleaner repositories by preventing unnecessary or sensitive files, such as configuration files, logs, or system-generated files, from being tracked or committed.
 
-## What is a `.gitignore` file?
-
-What happens when our Git repository contains certain files we never want to commit to a shared or public codebase? We want to be careful that git add doesn’t accidentally move them to the staging area. That’s where a **.gitignore** file comes in. **.gitignore** is a plain text file that tells Git to intentionally ignore changes in certain files. This also ensures that no other contributor in the repository accidentally commits those files.
 
 ## Why use a `.gitignore` file?
 
