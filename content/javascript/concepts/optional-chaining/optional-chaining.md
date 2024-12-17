@@ -16,7 +16,7 @@ The **optional chaining** operator simplifies comparing multiple data properties
 
 Optional chaning can be used to validate nested object properties, call optional functions or methods on optional objects, accessing arrary elements, and more. 
 
-The primary benefits of using optional chaining instead of regular syntax include simplifying the code to achieve the same result so it's easier to read, protecting against runtime errors and enhances maintainability.
+The primary benefits of using optional chaining instead of regular syntax include simplifying the code to achieve the same result, making it easier to read, protecting against runtime errors, and enhancing maintainability.
 
 ## Syntax
 
