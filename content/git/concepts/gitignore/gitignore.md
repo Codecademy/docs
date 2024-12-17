@@ -63,25 +63,3 @@ will ignore all files starting with *index* except for *src/index.css*. But, we 
 ## GitHub Provided Templates
 
 When we create a new repository on GitHub, we have the option to add a .gitignore file from a list of templates. These templates are pulled from [GitHub’s gitignore repository](https://github.com/github/gitignore). For example, below is the template for Java projects.
-```
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-```
