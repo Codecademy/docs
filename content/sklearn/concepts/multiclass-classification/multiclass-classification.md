@@ -19,6 +19,8 @@ In [Sklearn](https://www.codecademy.com/resources/docs/sklearn), **Multiclass Cl
 
 Multiclass classification in Sklearn is implemented using algorithms such as [`Decision Trees`](https://www.codecademy.com/resources/docs/sklearn/decision-trees), [`Support Vector Machines (SVMs)`](https://www.codecademy.com/resources/docs/sklearn/support-vector-machines), and `Logistic Regression`. These algorithms handle multiple classes through strategies like One-vs-Rest (OvR) or One-vs-One (OvO), depending on the model and configuration.
 
+> **Note:** Scikit-learn offers many algorithms for multi-class classification.
+
 ## Syntax
 
 Here's a syntax for using multi-class classification in sklearn:
@@ -48,11 +50,13 @@ predictions = model.predict(X_test)
 accuracy = model.score(X_test, y_test)
 print("Accuracy:", accuracy)
 ```
+
 - `load_iris()`: Function that loads the popular `iris`dataset with three classes for multiclass classification.
 - `train_test_split()`: Divides the dataset into training and testing subsets.
-- `RandomForestClassifier()`: Algorithm that is used for multiclass classification. Other classifiers like `LogisticRegression`, `SVC`, can also be used for the same.
+- `RandomForestClassifier()`: A machine learning algorithm used for classification, suitable for multiclass problems. It can be replaced with other classifiers like `LogisticRegression` or `SVC`
 - `fit()`: Method used to train the model on training data.
 - `predict()`: Method makes predicitions on the test data.
+- `score()`: Calculates the model's accuracy on the test data.
 
 ## Example
 
@@ -95,7 +99,7 @@ Accuracy: 1.00
 
 ## Codebyte Example
 
-The following codebyte example trains a `Random Forest classifier` for multiclass classification on synthetic data and predicts the category of a new product.
+The following codebyte example trains a `Random Forest classifier` for multiclass classification on synthetic data and predicts the category of a new product:
 
 ```codebyte/python
 from sklearn.ensemble import RandomForestClassifier
