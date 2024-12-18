@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-visualization'
 ---
 
-The **`.Candlestick()`** method in the `graph_objects` module in Plotly is used to create candlestick charts widely for visualizing financial data. A candlestick chart displays four key data points for a specific period:
+The **`.Candlestick()`** method in Plotly's [`graph_objects`](https://www.codecademy.com/resources/docs/plotly/graph-objects) module is used to create candlestick charts, widely used for visualizing financial data. A candlestick chart displays four key data points for a specific time period:
 
 1. **Open** - The starting value of the asset.
 2. **High** - The highest value achieved within the time period.
