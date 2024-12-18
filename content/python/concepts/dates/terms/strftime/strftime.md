@@ -47,5 +47,5 @@ now = datetime.datetime.now()
 #Format the current date and time
 formatted_date = now.strftime('%a %d %b %Y, %I:%M%p')
 
-print("Formatted Date:",formatted_date)
+print(formatted_date)
 ```
