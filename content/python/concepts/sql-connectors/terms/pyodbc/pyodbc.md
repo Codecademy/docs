@@ -1,6 +1,6 @@
 ---
 Title: 'pyodbc'
-Description: 'pyodbc is a Python library that provides a bridge between Python applications and ODBC-compliant databases, allowing efficient database operations.'
+Description: 'pyodbc is a library in Python that provides a bridge between Python applications and ODBC-compliant databases, allowing efficient database operations.'
 Subjects:
   - 'Data Science'
   - 'Web Development'
@@ -14,13 +14,11 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**pyodbc** is a Python library that enables Python programs to interact with databases through **ODBC (Open Database Connectivity)**, a standard API for accessing database management systems (DBMS).
-
-It provides a powerful and efficient way to execute SQL queries, retrieve results, and perform other database operations.
+**`pyodbc`** is a Python library that enables Python programs to interact with databases through **ODBC (Open Database Connectivity)**, a standard API for accessing database management systems (DBMS). It provides a powerful and efficient way to execute SQL queries, retrieve results, and perform other database operations.
 
 ## Installation
 
-To install `pyodbc`, use `pip`:
+To install `pyodbc`, `pip` can be used:
 
 ```bash
 pip install pyodbc
@@ -30,7 +28,7 @@ pip install pyodbc
 
 A basic connection to an ODBC database and query execution with `pyodbc` follows this structure:
 
-```py
+```pseudo
 import pyodbc
 
 # Connect to the database
@@ -51,7 +49,7 @@ rows = cursor.fetchall()
 
 # Process results
 for row in rows:
-    print(row)
+  print(row)
 
 # Close the connection
 connection.close()
@@ -81,28 +79,30 @@ connection_string = ("Driver={ODBC Driver 17 for SQL Server};"
                      "PWD=your_password;")
 
 try:
-    # Establish connection
-    conn = pyodbc.connect(connection_string)
-    cursor = conn.cursor()
+  # Establish connection
+  conn = pyodbc.connect(connection_string)
+  cursor = conn.cursor()
 
-    # Execute a SQL query
-    cursor.execute("SELECT * FROM Employees")
+  # Execute a SQL query
+  cursor.execute("SELECT * FROM Employees")
 
-    # Fetch and print results
-    for row in cursor:
-        print(row)
+  # Fetch and print results
+  for row in cursor:
+    print(row)
 
 except pyodbc.Error as ex:
-    print("An error occurred:", ex)
+  print("An error occurred:", ex)
 
 finally:
-    # Close the connection
-    if 'conn' in locals():
-        conn.close()
+  # Close the connection
+  if 'conn' in locals():
+    conn.close()
 ```
 
 ## Use Cases
 
-- Connecting to a variety of databases (e.g., SQL Server, MySQL, PostgreSQL) via ODBC.
-- Executing dynamic SQL queries.
-- Efficiently handling large datasets.
+Here are some use cases for `pyodbc`:
+
+- Connecting to a variety of databases (e.g., SQL Server, MySQL, PostgreSQL) via ODBC
+- Executing dynamic SQL queries
+- Efficiently handling large datasets
