@@ -43,7 +43,7 @@ BEGIN
 END
 ```
 
-### FOR Loop
+### 2. FOR Loop
 
 In SQL, a `FOR` loop is often used for iterating over a specific range of values. It is more common in Oracle databases than other SQL variants.
 
