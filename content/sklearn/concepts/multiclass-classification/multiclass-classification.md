@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/intermediate-machine-learning-skill-path'
 ---
 
-In Sklearn, **Multiclass classification** is a supervised machine learning task where instances are categorized into one of three or more distinct classes. Unlike binary classification, which involves only two classes, multiclass classification requires the model to distinguish between multiple categories.
+In [Sklearn](https://www.codecademy.com/resources/docs/sklearn), **Multiclass Classification** is a supervised machine learning task where instances are categorized into one of three or more distinct classes. Unlike binary classification, which involves two classes, multiclass classification requires the model to differentiate among multiple categories.
 
 In Sklearn, multiclass classification is implemented using algorithms such as `Decision Trees,` `Support Vector Machines,` and `Logistic Regression,` which can handle multiple classes using strategies like `One-vs-Rest` or `One-vs-One.`
 
