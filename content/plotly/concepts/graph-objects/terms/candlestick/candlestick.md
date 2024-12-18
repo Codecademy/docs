@@ -22,7 +22,7 @@ The **`.Candlestick()`** method in Plotly's [`graph_objects`](https://www.codeca
 3. **Low** - The smallest value during the period.
 4. **Close** - The final value of the asset.
 
-Candlestick charting is applied mainly to identify trends and patterns in stock prices and forex. The main visualization of market behavior makes the decision-making process easier for analysts and traders to make the correct decision.
+Candlestick charts are commonly used to identify trends and patterns in stock prices and forex, helping analysts and traders visualize market behavior and make informed decisions.
 
 ## Syntax
 
