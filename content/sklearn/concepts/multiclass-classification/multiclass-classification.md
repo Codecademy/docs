@@ -104,7 +104,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 # Generate synthetic data for multiclass classification (3 classes)
-X, y = make_classification(n_samples=1000, n_features=20, n_classes=3, random_state=42)
+X, y = make_classification(n_samples=1000, n_features=20, n_informative=4, n_classes=3, random_state=42)
 
 # Split the dataset into training and testing sets (80% train, 20% test)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
