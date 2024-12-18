@@ -56,7 +56,7 @@ LOOP
 END LOOP;
 ```
 
-Here's an example to print the value of `@counter` from 1 to 5 using a `FOR` loop:
+Here's an example to print the value of `counter` from 1 to 5 using a `FOR` loop:
 
 ```sql
 BEGIN
@@ -81,7 +81,7 @@ LOOP
 END LOOP;
 ```
 
-Here's an example to print the value of `@counter` from 1 to 5 using a `LOOP`:
+Here's an example to print the value of `counter` from 1 to 5 using a `LOOP`:
 
 ```sql
 DECLARE
