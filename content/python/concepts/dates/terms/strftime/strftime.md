@@ -21,7 +21,7 @@ datetime.strftime(format)
 ```
 Here are some commonly used format codes:
 
-| Directive | Description                                |            Example                      |
+| Directive | Meaning                                    |            Example                      |
 | ----------| ------------------------------------------ | ----------------------------------------|
 | `%a`      | Abbreviated name of days                   | Sun, Mon, …, Sat                        |
 | `%d`      | Day of the month                           | 01, 02, …, 31                           |
