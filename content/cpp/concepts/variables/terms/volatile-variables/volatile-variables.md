@@ -89,7 +89,7 @@ public:
         while (active) {
             // Simulating processing.
         }
-        std::cout << "Loop terminated due to 'active' being false." << std::endl;
+        std::cout << "Loop is terminated due to 'active' being false." << std::endl;
     }
 };
 
