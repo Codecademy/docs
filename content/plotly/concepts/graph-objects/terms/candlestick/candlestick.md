@@ -1,6 +1,6 @@
 ---
 Title: '.Candlestick()'
-Description: 'Creates candlestick charts for visualizing financial data with open, high, low, and close values.'
+Description: 'Creates candlestick charts to visualize financial data, showing open, high, low, and close values over time.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
