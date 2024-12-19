@@ -1,5 +1,5 @@
 ---
-Title: 'lower()'
+Title: '.lower()'
 Description: 'Returns a copy of the string given, with all uppercase characters transformed to lowercase.'
 Subjects:
   - 'Code Foundations'
