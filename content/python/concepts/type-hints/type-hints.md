@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Type hints** in Python are a feature that allows developers to specify the expected data types of variables, function arguments, and return values. It was introduced in Python 3.5.
+**Type hints** in Python are a feature that enables developers to specify the expected data types of variables, function arguments, and return values. It was introduced in Python 3.5.
 
 > **Note**: Type hints are part of the **`typing` module**, which provides a comprehensive set of tools for type annotations.
 
@@ -26,7 +26,7 @@ This is the general syntax for type hints in function annotations:
 from typing import List, Dict, Union
 
 def function_name(parameter_name: parameter_type) -> return_type:
-    # Function body
+  # Function body
 ```
 
 - `parameter_name`: This represents the name of the parameter that the function accepts.
@@ -35,7 +35,7 @@ def function_name(parameter_name: parameter_type) -> return_type:
 
 ### Commonly Used Type Hints
 
-- `int`, `float`, `str`, `bool`: These are basic data types.
+- `int`, `float`, `str`, `bool`: These are the basic data types.
 - `List[ElementType]`: This is a list containing elements of `ElementType`.
 - `Dict[KeyType, ValueType]`: This is a dictionary with keys of `KeyType` and values of `ValueType`.
 - `Union[Type1, Type2]`: This is a value that can be of either `Type1` or `Type2`.
@@ -51,32 +51,35 @@ This is an example of a function using type hints:
 from typing import List, Dict, Union
 
 def process_data(data: List[Dict[str, Union[int,str]]]) -> List[str]:
-    """
-    Processes a list of dictionaries to extract string values.
+  """
+  Processes a list of dictionaries to extract string values.
 
-    Args:
-        (data: List[Dict[str, Union[int,str]]]): A list of dictionaries with string keys and integer or string values.
+  Args:
+    (data: List[Dict[str, Union[int,str]]]): A list of dictionaries including string keys and integer or string values.
 
-    PEP 604 Args:
-        (data: List[Dict[str, int | str]]): A list of dictionaries with string keys and integer or string values as per PEP 604.
+  PEP 604 Args:
+    (data: List[Dict[str, int | str]]): A list of dictionaries including string keys and integer or string values as per PEP 604.
 
-    Returns:
-        List[str]: A list of string values extracted from the dictionaries.
-    """
-    result = []
-    for item in data:
-        for key, value in item.items():
-            if isinstance(value, str):
-                result.append(value)
-    return result
+  Returns:
+    List[str]: A list of string values extracted from the dictionaries.
+  """
+
+  result = []
+
+  for item in data:
+    for key, value in item.items():
+      if isinstance(value, str):
+        result.append(value)
+  return result
 
 # Example usage
 data = [
-    {"name": "Alice", "age": 25},
-    {"name": "Bob", "city": "New York"}
+  {"name": "Alice", "age": 25},
+  {"name": "Bob", "city": "New York"}
 ]
 
 output = process_data(data)
+
 print(output)
 ```
 
@@ -88,20 +91,23 @@ The above example would output the following:
 
 ## Codebyte Example
 
+Here is a codebyte example demonstrating the usage of type hints:
+
 ```codebyte/python
 from typing import List, Optional
 
 def greet(name: Optional[str] = None) -> str:
-    """
-    Args:
-        name (Optional[str]): Name of the person to greet. Defaults to None.
+  """
+  Args:
+    name (Optional[str]): Name of the person to greet. Defaults to None.
 
-    Returns:
-        str: A greeting message.
-    """
-    if name:
-        return f"Hello, {name}!"
-    return "Hello, World!"
+  Returns:
+    str: A greeting message.
+  """
+
+  if name:
+    return f"Hello, {name}!"
+  return "Hello, World!"
 
 # Test the function
 print(greet("Dani"))
