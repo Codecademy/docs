@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Volatile variables** in C++ will not be optimized and cached by the compiler.
-Marking a variable as volatile is valid when its value may be subject to external changes outside of the program itself, This makes the compiler read the latest value from memory instead of a previously cached version that may be outdated.
-However, volatility does not guarantee atomicity or memory synchronization between threads; it only prevents compiler optimization, which is particularly important in multithreaded environments
+**Volatile variables** in C++ are not optimized or cached by the compiler. Marking a variable as volatile is appropriate when its value may be altered by external factors beyond the program's control. This instructs the compiler to read the most recent value from memory instead of a potentially outdated cached version. However, it's important to note that declaring a variable as volatile does not ensure atomicity or synchronize memory between threads; it solely prevents compiler optimization, which is particularly crucial in multithreaded environments.
 
 ## Syntax
 
@@ -27,9 +25,7 @@ volatile data_type variable_name;
 
 ## Example
 
-In the following example, a volatile variable is used to signal a worker thread to stop running/doing tasks.
-`volatile` keyword prevents the compiler from optimizing away continuously checking the variable while in the loop.
-The worker thread will keep running until the `isRunning` variable is set to false.
+In the following example, a volatile variable signals a worker thread to stop running and stop performing tasks. The `volatile` keyword prevents the compiler from optimizing away, continuously checking the variable while in the loop. The worker thread will continue until the `isRunning` variable is false.
 
 ```cpp
 #include <iostream>
