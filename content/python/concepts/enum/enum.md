@@ -47,7 +47,7 @@ Enums also provide methods like:
 
 ## Example
 
-The below example demonstrates how to create an enum for days of the week with integer values:
+This example demonstrates how to create an enum for days of the week with integer values:
 
 ```py
 from enum import Enum
