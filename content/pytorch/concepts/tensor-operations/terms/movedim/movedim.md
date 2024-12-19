@@ -77,6 +77,7 @@ d1 = torch.movedim(d, [0, 1], [2, 3])
 print("Four Dimensional tensor:")
 print(d1)
 ```
+This example will generate the following output:
 
 ```shell
 One Dimensional tensor:
