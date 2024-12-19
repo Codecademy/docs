@@ -14,11 +14,12 @@ CatalogContent:
 ---
 
 **`scipy.signal`** is a submodule of SciPy that provides tools for signal processing, including filter design, spectral analysis, and convolution. It supports both continuous and discrete signals, with applications in areas like audio processing, communications, and data analysis. Key features include:
+
 - **Filter Design and Application**: Design and apply various types of filters.
 - **Fourier Transform**: Analyze frequency components of signals.
 - **Convolution and Correlation**: Apply convolution and correlation for signal processing tasks.
 - **Signal Generation**: Generate standard test signals like sinusoids and square waves.
-  
+
 `scipy.signal` is a powerful tool for working with signals in scientific and engineering fields.
 
 ## Syntax
