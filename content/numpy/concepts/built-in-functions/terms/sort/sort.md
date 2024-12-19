@@ -22,7 +22,7 @@ numpy.sort(a, axis=-1, kind=None, order=None)
 ```
 
 - `a`: The array of elements to be sorted.
-- `axis`: The axis along which to sort. If `None`, the array is flattened before sorting. The default is `-1`, which sorts along the last axis.
+- `axis`: The axis along which to sort. If set to `None`, the array is flattened before sorting. The default is `-1`, which sorts along the last axis.
 - `kind`: The sorting algorithm to use. The options are:
   - [`'quicksort'`](https://www.codecademy.com/resources/docs/general/algorithm/quick-sort): Default algorithm, a fast, comparison-based algorithm.
   - [`'mergesort'`](https://www.codecademy.com/resources/docs/general/algorithm/merge-sort): Stable sort using a divide-and-conquer algorithm.
@@ -32,7 +32,7 @@ numpy.sort(a, axis=-1, kind=None, order=None)
 
 ## Example
 
-The following example demonstrates how to use `.sort()` function with various parameters:
+The following example demonstrates how to use the `.sort()` function with various parameters:
 
 ```py
 import numpy as np
@@ -56,14 +56,14 @@ This example results in the following output:
 
 ## Codebyte Example
 
-Run the example to better understand the `.sort()` function:
+Run the following codebyte example to better understand the `.sort()` function:
 
 ```codebyte/python
 import numpy as np
 
 arr = np.array([[23, 54, 19], [45, 34, 12]])
 
-print("Original array: ")
+print("Original array:")
 print(arr)
 
 # Sort along axis 0 (sort by columns)
