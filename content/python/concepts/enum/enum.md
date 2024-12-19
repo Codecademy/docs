@@ -67,7 +67,7 @@ for day in Weekday:
   print(day)
 ```
 
-This would output with the following:
+This example results in the following output:
 
 ```shell
 Weekday.MONDAY
