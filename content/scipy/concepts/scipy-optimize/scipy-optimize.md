@@ -63,4 +63,3 @@ optimize.curve_fit(f, xdata, ydata, p0=...)
 - **f**: The model function, f(x, …).
 - **xdata**, **ydata**: The observed data.
 - **p0**: Initial guess for the parameters.
-  
