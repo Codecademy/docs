@@ -46,7 +46,6 @@ stats.describe(data)
 - `mode()`: Most frequently occurring value.
 - `describe()`: Provides a quick summary of multiple statistics including count, min, max, mean, variance, skewness, and kurtosis.
 
-
 ## Hypothesis Testing
 
 Perform a variety of statistical tests to assess differences or relationships:
@@ -60,7 +59,7 @@ stats.mannwhitneyu(group1, group2)    # Non-parametric test
 - `ttest_ind()`: Checks if the means of two independent samples differ significantly.
 - `chisquare()`: Compares observed frequencies to expected frequencies to determine goodness of fit.
 - `mannwhitneyu()`: Tests for a difference in distribution between two independent samples without assuming normality.
-  
+
 ## Correlation and Regression
 
 Evaluate relationships between variables:
