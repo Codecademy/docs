@@ -92,7 +92,7 @@ Predicted Labels for First 5 Samples:
 
 ## Codebyte Example
 
-The following codebyte example trains a Random Forest classifier for multilabel classification on dataset and predicts multiple categories for new samples.
+The following codebyte example trains a Random Forest classifier for multilabel classification on dataset and predicts multiple categories for new samples:
 
 ```codebyte/python
 # This code demonstrates multilabel classification using scikit-learn.
