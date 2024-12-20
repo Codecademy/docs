@@ -19,69 +19,109 @@ In NumPy, the **`.square()`** method computes the square of a number or the squa
 ## Syntax
 
 ```pseudo
-numpy.square(array, out = None, where = True, dtype = None)
+numpy.square(x, out = None, where = True, dtype = None)
 ```
 
-- `array`: Input array, it can be a number, an array, or a multidimensional array. Required.
-- `out`: An optional array storing the result. Optional.
-- `where`: (Optional) Used for conditional replacements of the elements in the output array. It must be a numpy
-  array. 
-- `dtype`: The datatype of the output array. Optional.
+- `x`: The input data, which can be a number, an array, or a multidimensional array.
+- `out` (Optional): A location where the result is stored. If provided, it must have the same shape as the expected output.
+- `where` (Optional): A boolean array specifying which elements to compute. The result is only computed for elements where `where` is `True`.
+- `dtype` (Optional): The desired data type for the output array. If not specified, it defaults to the data type of x.
 
-## Modifying the output array
+## Examples
 
-The output array cannot simply be a Python array since Python arrays are [lists](https://www.codecademy.com/resources/docs/python/built-in-functions/list) of pointers to
-objects. Numpy makes use of arrays composed of contiguous blocks of memory (like in C) for the purposes of optimization. Therefore, arrays supplied for this argument must be initialized with the `numpy.array` function like so...
+### Modifying the output array
+
+The output array for NumPy operations cannot be a Python [list](https://www.codecademy.com/resources/docs/python/built-in-functions/list) because lists are not optimized for numerical computations. NumPy arrays are composed of contiguous blocks of memory, which enhances performance. Therefore, the array passed for the out parameter must be a NumPy array initialized with the `numpy.array` function:
 
 ```py
-output_array = numpy.array([0, 0, 0, 0, 0])
+import numpy as np
+
+output_array = np.array([0, 0, 0, 0, 0])
 ```
 
-This array can now be called the `out` parameter in your .square() function.
+This array can then be used as the `out` parameter in the `numpy.square()` function:
 
 ```py
+import numpy as np
+
+output_array = np.array([0, 0, 0, 0, 0])
+
 array = [1, 2, 3, 4, 5]
-numpy.square(array, out = output_array)
+np.square(array, out = output_array)
 print(output_array)
 ```
 
-Output
+This generates the output as follows:
 
 ```shell
 [1, 4, 9, 16, 25]
 ```
 
-## Operating conditionally
+### Operating conditionally
 
-Using the "where" parameter, the function will execute conditionally. For instance:
+Using the `where` parameter, the function will execute conditionally. The `where` parameter specifies where to apply the operation, based on a condition. If the condition is `True` at a particular index, the corresponding element in the array will be squared. If the condition is `False`, the element will remain unchanged. For instance:
 
 ```py
 import numpy as np
-array = [1, 2, 3, 4, 5]
+
+array = np.array([1, 2, 3, 4, 5])
 conditions = np.array([False, True, True, False, True])
-np.square(array, where=conditions)
+
+result = np.square(array, where=conditions)
+print(result)
 ```
 
-Output
+Output:
 
 ```shell
 array([1, 4, 9, 4, 25])
 ```
 
-The "where" parameter takes a boolean value (True, False, 1, 0, etc.) or a matrix of boolean values and squares values at matrix indexes that correspond with true values and vice versa. If the "where" parameter is set equal to a single boolean value, the entire input array is either squared (if it is '1' or 'True') or not squared (if it is '0' or 'False).
+The `where` parameter takes a boolean array or condition. It determines where the squaring operation will take place:
 
-## Changing types
+- True at an index: The element at that index will be squared.
+- False at an index: The element at that index will remain unchanged.
 
-Sometimes, it is important to increase or decrease the size of the datatype of the output array. This can be done by setting the 'dtype' parameter to an np datatype, like:
+If the `where` parameter is set to a single boolean value (either `True` or `False`), the entire array is either squared (if `True`) or left unchanged (if `False`).
+
+### Changing types
+
+Sometimes, it is important to increase or decrease the size of the datatype of the output array. This can be done by setting the `dtype` parameter to an np datatype, like:
 
 ```py
 import numpy as np
-array = [1, 2, 3, 4, 5]
-np.square(array, dtype=np.float32)
+array = np.array([1, 2, 3, 4, 5])  # Ensuring it's a numpy array
+result = np.square(array, dtype=np.float32)
+
+# Print the result
+print(result)
 ```
 
-Output
+Output generated will be as follows:
 
 ```shell
 array([ 1.,  4.,  9., 16., 25.], dtype=float32)
+```
+
+## Codebyte Example
+
+Run the following example to understand how the `.square()` method works:
+
+```codebyte/python
+import numpy as np
+
+# Create a NumPy array
+array = np.array([1, 2, 3, 4, 5])
+
+# Create an output array initialized with zeros
+output_array = np.zeros_like(array)
+
+# Set the condition for the 'where' parameter (square values where condition is True)
+conditions = np.array([False, True, True, False, True])
+
+# Use numpy.square() with all parameters
+result = np.square(array, out=output_array, where=conditions)
+
+# Print the result
+print("Squared values with conditions:", result)
 ```
