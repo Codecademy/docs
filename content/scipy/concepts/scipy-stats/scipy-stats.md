@@ -1,4 +1,3 @@
-```yaml
 ---
 Title: 'scipy.stats'
 Description: 'scipy.stats is a module in Python that provides a wide range of statistical functions, distributions, and tests for analyzing datasets and drawing informed conclusions from data.'
@@ -14,7 +13,6 @@ CatalogContent:
   - 'learn-python'
   - 'paths/data-science'
 ---
-```
 
 The **`scipy.stats`** module is part of the broader [SciPy](https://www.codecademy.com/resources/docs/scipy) library for scientific computing in Python. It provides functionality for working with various probability distributions, conducting hypothesis tests, and computing descriptive statistics. By leveraging `scipy.stats`, data scientists and analysts can quickly explore their data, model it using theoretical distributions, and draw meaningful conclusions through statistical inference.
 
