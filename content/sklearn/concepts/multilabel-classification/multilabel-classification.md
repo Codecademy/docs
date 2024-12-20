@@ -1,6 +1,6 @@
 ---
 Title: 'Multilabel Classification'
-Description: 'Multilabel classification assigns multiple labels to a single instance, using scikit-learn tools and models.'
+Description: 'Multilabel classification is a machine learning task where each instance can be assigned multiple labels or categories simultaneously.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -16,9 +16,9 @@ CatalogContent:
   - 'paths/intermediate-machine-learning-skill-path'
 ---
 
-In Sklearn, **Multilabel classification** assigns multiple labels to a single instance using scikit-learn tools and models. This method differs from traditional classification, where each instance belongs to one class, and this technique predicts multiple outputs simultaneously.
+In sklearn, **Multilabel Classification** assigns multiple labels to a single instance, allowing models to predict multiple outputs simultaneously. This method differs from traditional classification, where each instance belongs to only one class.
 
-Scikit-learn offers tools like `OneVsRestClassifier`, `ClassifierChain`, and `MultiOutputClassifier` to facilitate multilabel classification and enable efficient model training and evaluation.
+Scikit-learn offers tools like `OneVsRestClassifier`, `ClassifierChain`, and `MultiOutputClassifier` to handle multilabel classification and enable efficient model training and evaluation.
 
 ## Syntax
 
@@ -27,6 +27,7 @@ Here's the syntax for using multiabel classification in sklearn:
 ```pseudo
 from sklearn.multioutput import MultiOutputClassifier
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
 
 # Step 1: Initialize the base classifier
 base_model = RandomForestClassifier(random_state=42)
@@ -44,10 +45,9 @@ predicted_labels = multi_label_model.predict(X_test)
 print(predicted_labels)
 ```
 
-- `RandomForestClassifier`: Used as the base estimator, and can be replaced with any scikit-learn classifier.
-- `MultiOutputClassifier`: Wraps the base model to handle multiple output labels.
-- `Fit`: Method used to train the model on training data.
-- `predict()`: Method makes predicitions on the test data.
+- `RandomForestClassifier`: The base classifier for multilabel classification.
+- `MultiOutputClassifier`: A wrapper to extend the base classifier for multilabel tasks.
+- `Training and testing`: The model is trained with `fit()` and predictions are made using `predict()`.
 
 ## Example
 
@@ -57,6 +57,7 @@ This code demonstrates multilabel classification using scikit-learn by training 
 from sklearn.datasets import make_multilabel_classification
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.multioutput import MultiOutputClassifier
+from sklearn.metrics import classification_report
 
 # Generate synthetic multilabel data
 X, y = make_multilabel_classification(n_samples=100, n_features=10, n_classes=3, n_labels=2, random_state=42)
@@ -82,10 +83,10 @@ The code results the following output:
 
 ```shell
 Predicted Labels for First 5 Samples:
-[[1 1 1]
+[[1 1 0]
  [1 1 0]
+ [0 0 1]
  [1 1 1]
- [1 1 0]
  [0 1 0]]
 ```
 
