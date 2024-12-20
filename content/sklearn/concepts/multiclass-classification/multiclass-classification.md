@@ -23,40 +23,42 @@ Multiclass classification in Sklearn is implemented using algorithms such as [`D
 
 ## Syntax
 
-Here's a syntax for using multi-class classification in sklearn:
+Scikit-learn offers variety of algorithms for multi-class classification.
+Here's a syntax for using multi-class classification in sklearn using `RandomForestClassifier`:
 
 ```pseudo
-from sklearn.model_selection import train_test_split
-from sklearn.datasets import load_iris
-from sklearn.ensemble import RandomForestClassifier
-
-# Load dataset
-data = load_iris()
-X, y = data.data, data.target
-
-# Split data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
-
-# Create the model
-model = RandomForestClassifier()
-
-# Train the model
-model.fit(X_train, y_train)
-
-# Make predictions
-predictions = model.predict(X_test)
-
-# Evaluate the model
-accuracy = model.score(X_test, y_test)
-print("Accuracy:", accuracy)
+RandomForestClassifier(
+    n_estimators=100,
+    criterion='gini',
+    max_depth=None,
+    min_samples_split=2,
+    min_samples_leaf=1,
+    min_weight_fraction_leaf=0.0,
+    max_features='sqrt',
+    max_leaf_nodes=None,
+    min_impurity_decrease=0.0,
+    bootstrap=True,
+    oob_score=False,
+    n_jobs=None,
+    random_state=None,
+    verbose=0,
+    warm_start=False,
+    class_weight=None,
+    ccp_alpha=0.0,
+    max_samples=None,
+    monotonic_cst=None
+)
 ```
 
-- `load_iris()`: Function that loads the popular `iris`dataset with three classes for multiclass classification.
-- `train_test_split()`: Divides the dataset into training and testing subsets.
-- `RandomForestClassifier()`: A machine learning algorithm used for classification, suitable for multiclass problems. It can be replaced with other classifiers like `LogisticRegression` or `SVC`
-- `fit()`: Method used to train the model on training data.
-- `predict()`: Method makes predicitions on the test data.
-- `score()`: Calculates the model's accuracy on the test data.
+- `n_estimators`: Number of trees in the forest.
+- `criterion`: Specifies the function used to measure the quality of a split. It can be set to `gini` for Gini impurity or `entropy` for information gain.
+- `max_depth`: Limits the depth of trees. If `None`, trees grow until all leaves are pure or have fewer than `min_samples_split` samples.
+- `min_samples_leaf`: Minimum samples required at a leaf node.
+- `bootstrap`: used to train each tree on random subsets of the data with replacement, if set to `True`.
+- `random_state`: Controls randomness for ensuring consistent results.
+- `n_jobs`: Specifies the number of parallel jobs for fitting and predicting.
+- `oob_score`: Used to estimate accuracy and provide internal validation if set to `True`.
+- `class_weight`: Assigns weights to classes, helping manage class imbalance.
 
 ## Example
 
