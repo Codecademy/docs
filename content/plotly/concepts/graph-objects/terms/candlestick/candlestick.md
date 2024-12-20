@@ -29,41 +29,37 @@ Candlestick charts are commonly used to identify trends and patterns in stock pr
 ```pseudo
 import plotly.graph_objects as go
 
-fig = go.Figure(data=[go.Candlestick(
-    x=df['date'],  # Time or date data
-    open=df['open'],  # Opening prices
-    high=df['high'],  # Highest prices
-    low=df['low'],  # Lowest prices
-    close=df['close'],  # Closing prices
-    increasing_line_color='green',  # Color for increasing candlesticks
-    decreasing_line_color='red',  # Color for decreasing candlesticks
-    increasing_fillcolor='rgba(0, 255, 0, 0.3)',  # Fill color for increasing candlesticks
-    decreasing_fillcolor='rgba(255, 0, 0, 0.3)'  # Fill color for decreasing candlesticks
-)])
-
-fig.update_layout(
-    title='Candlestick Chart',  # Title for the chart
-    xaxis_title='Date',  # X-axis label
-    yaxis_title='Price',  # Y-axis label
-    xaxis_rangeslider_visible=False  # Disables the range slider under the candlestick chart
+go.Candlestick(
+    x=None,  # X-axis data (time or date)
+    open=None,  # Opening prices
+    high=None,  # High prices
+    low=None,  # Low prices
+    close=None,  # Closing prices
+    increasing=None,  # Increasing line style (color, width, etc.)
+    decreasing=None,  # Decreasing line style (color, width, etc.)
+    line=None,  # Line settings (e.g., width, color)
+    hoverinfo=None,  # Tooltip information format
+    name=None,  # Name for the trace (appears in legend)
+    opacity=None,  # Opacity of the candlestick
+    visible=None,  # Determines visibility (True/False)
+    xaxis=None,  # X-axis to associate the trace with
+    yaxis=None   # Y-axis to associate the trace with
 )
-
-fig.show()
 ```
 
 - `x`: The data for the x-axis (usually dates or time values) representing the time of each candlestick.
 - `open`: The opening price for each time period (candlestick).
 - `high`: The highest price attained within the time period.
 - `low`: The lowest price recorded within the period.
-- `close`: - `close`: Close price for the period of time.
-- `increasing_line_color`: Color of line for candlesticks where close price is greater than an open price (bullish).
-- `decreasing_line_color`: Color of the line for candlesticks where the closing price is lower than the opening price (bearish).
-- `increasing_fillcolor`: Fill color for the body of increasing candlesticks (bullish).
-- `decreasing_fillcolor`: Fill color for the body of decreasing candlesticks (bearish).
-- `title`: The title is displayed at the chart's top.
-- `xaxis_title`: Label for the x-axis (usually indicating time, e.g., 'Date').
-- `yaxis_title`: Label for the y-axis (usually indicating price, e.g., 'Price').
-- `xaxis_rangeslider_visible`: Controls visibility of the range slider at the bottom; set to `False` to hide it.
+- `close`: Closing price for the time period.
+- `increasing`: Specifies the style of candlesticks where the close price is higher than the open price(bullish).
+- `decreasing`: Specifies the style of candlesticks where the close price is lower than the open price(bearish) .
+- `line`: Configures the line settings for the candlesticks.
+- `hoverinfo`: Defines the information displayed when hovering over the candlesticks(such as 'x', 'open', 'close', etc.).
+- `name`: The trace name that appears in the legend.
+- `opacity`: The transparency level of candlestick trace.
+- `visible`: Controls the visibility of the trace.
+- `xaxis` and `yaxis`: Allows you to assign specific axes to the trace.
 
 ## Example
 
