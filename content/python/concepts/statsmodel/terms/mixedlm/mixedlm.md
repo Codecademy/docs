@@ -1,46 +1,45 @@
 ---
-Title: 'mixedlm model'
-Description: 'The mixedlm model is found in the Python statsmodels library. Its purpose is to model mixed effects, which combine both fixed and random effects to analyze trends.'
+Title: 'MixedLM'
+Description: 'MixedLM in Statsmodels is a class for fitting linear mixed-effects models, which account for both fixed and random effects in data.'
 Subjects:
-  - 'Biostatistic and medicine'
-  - 'social science and psychology'
+  - 'Data Science'
+  - 'Machine Learning'
 Tags:
-  - 'mixed effect'
-  - 'fixed effect'
-  - 'hirarchical model'
-  - 'random effect'
-  - 'statsmodel'
-  - 'regression'
-  - generalized linear mixed models'
-  - 
+  - 'Linear Regression'
+  - 'Machine Learning'
+  - 'Python'
+  - 'Statistics'
+  - 'Supervised Learning'
 CatalogContent:
-  - 'model formula'
-  - 'covariance structure'
+  - 'learn-python-3'
+  - paths/data-science
 ---
 
-The **mixedlm model** captures predictable factors (fixed effect) and unpredictable factors (random effect). The ability of **mixedlm model** to estimate random and fixed effects is what defines the **mixed-effect** modeling.
-> Note: fixed effect explains the trend, while random effects extrapolate the groups' variability.
+**MixedLM** in Python's [Statsmodels](https://www.codecademy.com/resources/docs/python/statsmodels) library is a tool for fitting mixed-effects models, combining fixed and random effects to analyze data. It captures fixed effects (predictable factors) and random effects (unpredictable factors), defining mixed-effect modeling. Fixed effects explain the trend, while random effects account for variability across groups.
 
-## Application of mixedlm model:
-<ul>
-<li>Random intercept model:</li>
-  <li>Random slope model:</li>
-  <li>And the variance components model</li>
-</ul>
+## Application of mixedlm model
 
-##  syntax
+- **Random Intercept Model**: Captures group-level variability in the intercept while keeping the slope fixed.
+- **Random Slope Model**: Allows the slope to vary across groups to account for differences in trends.
+- **Variance Components Model**: Decomposes variance into different components to understand variability sources.
+
+## Syntax
+
 ```
 import statsmodels.api as sm
-from statsmodels.formula.api import mixedlm
 
-model = mixedlm("response ~ predictor", data, groups="group_var")
-result = model.fit()
+model = sm.MixedLM(endog, exog, groups, exog_re=None)
 ```
+
+- `endog`: Dependent variable (response).
+- `exog`: Independent variables (fixed effects).
+- `groups`: Grouping variable to model random effects.
+- `exog_re` (optional): Design matrix for random effects.
+
 ## Example
-The fixed effect is the time at which points are scored across two nba teams. Then a random effect is each specific pattern in which points are scored in relationship to time.
 
+In this example, a mixed-effects model is fitted to NBA team performance data, with `'Minutes'` as a fixed effect and `'Team'` as a random effect to analyze points scored:
 
-## Codeblock
 ```
 import pandas as pd
 from statsmodels.formula.api import mixedlm
@@ -53,9 +52,29 @@ data = pd.DataFrame({
 })
 
 # Fit mixed-effects model: Fixed effect for minutes played, random effect for teams
-model = mixedlm("points ~ minutes", data, groups="team")
+model = mixedlm("Points ~ Minutes", data, groups="Team")
 result = model.fit()
 
 # Display the results
 print(result.summary())
+```
+
+The code generates the output as follows:
+
+```shell
+        Mixed Linear Model Regression Results
+======================================================
+Model:            MixedLM Dependent Variable: Points
+No. Observations: 10      Method:             REML
+No. Groups:       2       Scale:              45.7191
+Min. group size:  5       Log-Likelihood:     -30.8931
+Max. group size:  5       Converged:          Yes
+Mean group size:  5.0
+------------------------------------------------------
+            Coef.  Std.Err.   z   P>|z|  [0.025 0.975]
+------------------------------------------------------
+Intercept    1.759   22.753 0.077 0.938 -42.835 46.353
+Minutes      0.641    0.624 1.027 0.304  -0.582  1.863
+Team Var    28.935    8.542
+======================================================
 ```
