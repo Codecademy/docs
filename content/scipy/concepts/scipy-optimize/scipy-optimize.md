@@ -1,5 +1,5 @@
 ---
-Title: 'Optimize'
+Title: 'scipy.optimize'
 Description: 'The Optimize module in SciPy has algorithms for optimization and root-finding, solving tasks like curve fitting, parameter estimation, and resource allocation.'
 Subjects:
   - 'Data Science'
