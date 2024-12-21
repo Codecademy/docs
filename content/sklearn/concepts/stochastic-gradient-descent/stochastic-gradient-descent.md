@@ -60,7 +60,8 @@ y_pred = model.predict(X_test)
   - For `SGDRegressor`, the options include `squared_loss` (default), `huber`, and `epsilon_insensitive`.
 - `penalty`: Specifies the regularization penalty. Common options include `l2` (L2 regularization, default), `l1` (L1 regularization), and `elasticnet` (a combination of L1 and L2 regularization).
 - `max_iter`: Specifies the maximum number of iterations for the optimization algorithm. The default value is `1000`. Excessive values can lead to overfitting or unnecessary computations.
-- `random_state`: Specifies the random seed for reproducibility. The default value is `None`.
+- `random_state`: Specifies the random seed for reproducibility. The default value is `None`. Setting `random_state` ensures consistent results across runs by fixing the randomness of data splitting or model initialization.
+
 
 ## Example
 
