@@ -21,7 +21,7 @@ Unlike traditional [gradient descent](https://www.codecademy.com/resources/docs/
 Sklearn provides two primary classes for implementing SGD:
 
 - `SGDClassifier`: Well-suited for classification tasks. Supports various loss functions and penalties for fitting linear classification models.
-- `SGDRegressor`: Well-suited for regression tasks. Supports various loss functions and penalties for fitting linear regression models.
+- `SGDRegressor`: Well-suited for regression tasks. Supports various loss functions and penalties for fitting [linear regression models](https://www.codecademy.com/resources/docs/sklearn/linear-regression-analysis).
 
 ## Syntax
 
