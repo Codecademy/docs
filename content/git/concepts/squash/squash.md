@@ -1,4 +1,17 @@
-Merging a series of smaller commits into a single, cohesive one can significantly clean up your project’s commit history. This practice, commonly known as "squashing," is particularly helpful when previous commits are small tweaks or corrections that clutter the commit history.
+---
+Title: 'Squash'
+Description: 'Squashing in Git merges multiple commits into a single one, helping streamline and clarify the commit history'
+Subjects:
+  - 'Bash/Shell'
+  - 'Developer Tools'
+Tags:
+  - 'Git'
+  - 'Version Control'
+CatalogContent:
+  - 'learn-the-command-line'
+  - 'learn-git'
+---
+Merging a series of smaller commits into a single, cohesive one can significantly clean up your project’s commit history. This practice, commonly known as "squashing", is particularly helpful when previous commits are small tweaks or corrections that clutter the commit history.
 
 Though Git doesn’t offer a straightforward `squash` command, you can achieve this functionality through an interactive rebase. Below, we explore how you can squash your commits for a tidier project history.
 
@@ -10,13 +23,13 @@ Your current commit log might look something like this:
 
 ```shell
 12345678 Initial commit
-23456789 Added Santa's new address
+23456789 Added Santa`s new address
 87654321 Corrected grammar in the address
 98765544 Updated house number for Santa
 ```
 These last three commits relate to updates and corrections to the same component, and combining them will create a more meaningful history.
 
-### Interactive Rebase: The Path to Squashing
+### Interactive Rebase: The path to squashing
 To start squashing, initiate an interactive rebase for the last three commits:
 
 ```shell
@@ -25,7 +38,7 @@ git rebase -i HEAD~3
 Executing the command will launch an editor displaying something similar to this:
 
 ```shell
-pick 23456789 Added Santa's new address
+pick 23456789 Added Santa`s new address
 pick 87654321 Corrected grammar in the address
 pick 98765544 Updated house number for Santa
 
@@ -47,10 +60,10 @@ pick 98765544 Updated house number for Santa
 #
 # Note that empty commits are commented out
 ```
-The goal here is to transform each pick command into a squash (or simply s), thereby combining them into one commit:
+The goal here is to transform each `pick` command into a `squash` (or simply `s`), thereby combining them into one commit:
 
 ```shell
-pick 23456789 Added Santa's new address
+pick 23456789 Added Santa`s new address
 squash 87654321 Corrected grammar in the address
 squash 98765544 Updated house number for Santa
 ```
