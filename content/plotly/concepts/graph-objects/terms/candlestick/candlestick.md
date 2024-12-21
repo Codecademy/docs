@@ -29,37 +29,17 @@ Candlestick charts are commonly used to identify trends and patterns in stock pr
 ```pseudo
 import plotly.graph_objects as go
 
-go.Candlestick(
-    x=None,  # X-axis data (time or date)
-    open=None,  # Opening prices
-    high=None,  # High prices
-    low=None,  # Low prices
-    close=None,  # Closing prices
-    increasing=None,  # Increasing line style (color, width, etc.)
-    decreasing=None,  # Decreasing line style (color, width, etc.)
-    line=None,  # Line settings (e.g., width, color)
-    hoverinfo=None,  # Tooltip information format
-    name=None,  # Name for the trace (appears in legend)
-    opacity=None,  # Opacity of the candlestick
-    visible=None,  # Determines visibility (True/False)
-    xaxis=None,  # X-axis to associate the trace with
-    yaxis=None   # Y-axis to associate the trace with
-)
+go.Candlestick(x=None, open=None, high=None, low=None, close=None, increasing=None, ...)
 ```
 
-- `x`: The data for the x-axis (usually dates or time values) representing the time of each candlestick.
-- `open`: The opening price for each time period (candlestick).
-- `high`: The highest price attained within the time period.
-- `low`: The lowest price recorded within the period.
-- `close`: Closing price for the time period.
-- `increasing`: Specifies the style of candlesticks where the close price is higher than the open price(bullish).
-- `decreasing`: Specifies the style of candlesticks where the close price is lower than the open price(bearish) .
-- `line`: Configures the line settings for the candlesticks.
-- `hoverinfo`: Defines the information displayed when hovering over the candlesticks(such as 'x', 'open', 'close', etc.).
-- `name`: The trace name that appears in the legend.
-- `opacity`: The transparency level of candlestick trace.
-- `visible`: Controls the visibility of the trace.
-- `xaxis` and `yaxis`: Allows you to assign specific axes to the trace.
+- `x`: Represents the x-axis values, typically dates or time intervals for the candlestick chart.
+- `open`: Represents the opening price of the asset for each time period.
+- `high`: Represents the highest price of the asset for each time period.
+- `low`: Represents the lowest price of the asset for each time period.
+- `close`: Represents the closing price of the asset for each time period.
+- `increasing`: Customizes the appearance of candles in cases where the closing price is higher than the opening price. The line color, width, or other styles can be defined.
+
+> **Note**: The ellipsis (`...`) indicates that additional optional parameters can be specified to customize the candlestick chart further.
 
 ## Example
 
@@ -77,7 +57,7 @@ close_prices = [105, 110, 115]
 
 # Create the figure
 fig = go.Figure(data=[go.Candlestick(
-    # Time Periods for the x-axis.
+    # Dates or time periods for the x-axis.
     x=dates,
     # Opening prices for each date.
     open=open_prices,
