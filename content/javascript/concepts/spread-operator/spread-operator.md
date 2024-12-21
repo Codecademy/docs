@@ -14,31 +14,41 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `Spread Operator` in JavaScript, represented by three dots (`...`), is used to expand or unpack elements of arrays, objects, or other iterables into individual elements.
+The **Spread Operator** in JavaScript, represented by three dots (`...`), is used to expand or unpack elements of arrays, objects, or other iterables into individual elements.
 
-The `Spread-operator` performs a shallow copy, so changes in nested objects or arrays might reflect in the copied object/array.
+The spread operator performs a shallow copy, meaning that for nested objects or arrays, changes in the copied object/array might reflect in the original.
 
 ## Syntax
 
+The syntax of spread operator for arrays is as follows:
+
 ```pseudo
 const nums = [...nums1 , ...nums2]   // arrays
+```
+
+The syntax of spread operator for objects is as follows:
+
+```pseudo
 const obj = {...obj1, ...obj2}      // objects
 ```
 
-## Example 
+- `nums1` and `nums2` are arrays. They represent any two arrays that need to be merged into a single array.
+- `obj1` and `obj2` are objects. They represent two objects that should be combined into one.
 
-The following example demonstrates how to use `spread-operator` 
+## Example
+
+The following example demonstrates how to use the spread operator:
 
 ```js
 const nums1 = [1, 2, 3];
 const nums2 = [4, 5, 6];
 const nums = [...nums1, ...nums2];
-console.log(nums); 
+console.log(nums);
 
 const obj1 = { name: 'Subro' };
 const obj2 = { age: 22 };
 const obj = { ...obj1, ...obj2 };
-console.log(obj); 
+console.log(obj);
 ```
 
 This example results in the following output:
@@ -50,15 +60,15 @@ This example results in the following output:
 
 ## CodeByte Example
 
-Run the example to better understand the `spread-operator` :
+Run the example to understand how the spread-operator works:
 
-```js
+```codebyte/javascript
 function sum(a, b, c) {
   return a + b + c;
 }
 
 const numbers = [1, 2, 3];
-console.log(sum(...numbers)); // Output: 6
+console.log(sum(...numbers));
 
 // Original object with nested data
 const originalObj = {
@@ -69,15 +79,13 @@ const originalObj = {
   }
 };
 
-// Create a shallow copy using the spread operator
+// Creating a shallow copy using the spread operator
 const shallowCopyObj = { ...originalObj };
 
 // Modifying the nested object in the copy
 shallowCopyObj.address.city = 'Wonderland';
 
-console.log('Shallow Copy:', shallowCopyObj); 
-console.log('Original Object:', originalObj); 
-// The nested 'address' object is shared between the original and the shallow copy,
-// so modifying it affects both objects.
- 
+console.log('Shallow Copy:', shallowCopyObj);
+console.log('Original Object:', originalObj);
+// The nested 'address' object is shared between the original and the shallow copy, so modifying it affects both objects.
 ```
