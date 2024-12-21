@@ -1,12 +1,12 @@
 ---
 Title: 'Blockchain'
-Description: 'Blockchain is a transformative technology enabling secure, decentralized, and transparent record-keeping. It has reshaped industries like finance, supply chain, and healthcare.'
+Description: 'Blockchain is a decentralized digital ledger that securely records transactions across a network. It ensures transparency, immutability, and trust without requiring a central authority, enabling applications like cryptocurrencies and supply chain management.'
 CatalogContent:
   - 'rust-for-programmers'
   - 'paths/computer-science'
 ---
 
-**Blockchain** is a transformative technology enabling secure, decentralized, and transparent record-keeping. It has reshaped industries like finance, supply chain, and healthcare.
+**Blockchain** is a decentralized and distributed digital ledger that securely records transactions across multiple nodes in a network. It ensures data integrity through cryptographic techniques and transparency by allowing participants to access an immutable, shared history of transactions. By eliminating the need for a central authority, blockchain enables trust and collaboration in various applications, from cryptocurrencies to supply chain management.
 
 Blockchain’s origins trace back to 1991 when cryptographers Stuart Haber and W. Scott Stornetta introduced a system for timestamping digital documents. The technology gained prominence in 2008 with Satoshi Nakamoto’s creation of Bitcoin, the first decentralized cryptocurrency using blockchain as its backbone. Over time, its applications have expanded beyond cryptocurrencies to include smart contracts, supply chain management, and enterprise solutions.
 
