@@ -62,6 +62,6 @@ Fits a model to observed data by performing nonlinear least squares fitting, fin
 optimize.curve_fit(f, xdata, ydata, p0=...)
 ```
 
-- `f`: The model function, f(x, …).
+- `f`: The model function, `f(x, …)`.
 - `xdata`, **ydata**: The observed data.
 - `p0`: Initial guess for the parameters.
