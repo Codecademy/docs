@@ -58,9 +58,9 @@ This example results in the following output:
 { name: 'Subro', age: 22 }
 ```
 
-## CodeByte Example
+## Codebyte Example
 
-Run the example to understand how the spread-operator works:
+Run the codebyte example below to understand how the spread operator works:
 
 ```codebyte/javascript
 function sum(a, b, c) {
