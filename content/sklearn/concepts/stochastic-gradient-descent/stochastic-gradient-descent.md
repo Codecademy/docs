@@ -14,7 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Sklearn, **Stochastic Gradient Descent (SGD)** is a popular optimization algorithm that focuses on finding the best set of parameters for a model that minimizes a given loss function. Unlike traditional gradient descent, which calculates the gradient using the entire dataset, SGD computes the gradient using a single training example at a time. This makes it computationally efficient for large datasets.
+In [Sklearn](https://www.codecademy.com/resources/docs/sklearn), **Stochastic Gradient Descent (SGD)** is a popular optimization algorithm that focuses on finding the best set of parameters for a model that minimizes a given loss function. 
+
+Unlike traditional [gradient descent](https://www.codecademy.com/resources/docs/ai/search-algorithms/gradient-descent), which calculates the gradient using the entire dataset, SGD computes the gradient using a single training example at a time. This makes it computationally efficient for large datasets.
 
 Sklearn provides two primary classes for implementing SGD:
 
