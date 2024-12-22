@@ -1,1 +1,1 @@
-content/ruby/concepts/gems/gems.md
+content/c/concepts/user-input/user-input.md
