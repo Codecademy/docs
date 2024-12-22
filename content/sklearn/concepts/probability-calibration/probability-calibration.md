@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In [Sklearn](https://www.codecademy.com/resources/docs/sklearn), **Probability Calibration** is a technique used to improve the reliability of predicted probabilities from machine learning models. When a model outputs a probability, it makes a statement about the likelihood of a specific outcome. 
+In [Sklearn](https://www.codecademy.com/resources/docs/sklearn), **Probability Calibration** is a technique used to improve the reliability of predicted probabilities from machine learning models. When a model outputs a probability, it makes a statement about the likelihood of a specific outcome.
 
 A well-calibrated model ensures that these probabilities accurately reflect the true likelihoods, meaning the predicted probabilities align closely with observed outcomes.
 
@@ -26,6 +26,16 @@ Sklearn provides two primary methods for implementing probability calibration:
 ## Syntax
 
 The `CalibratedClassifierCV` class is used to implement probability calibration.
+
+Platt Scaling uses a `sigmoid` function to map raw model scores to calibrated probabilities, ensuring they better reflect true likelihoods.
+
+The sigmoid function, σ(x) = 1 / (1 + e^(-x)), maps any real-valued number to a range between 0 and 1.
+
+In Platt Scaling, this function is parameterized as:
+
+P(y=1 | x) = 1 / (1 + e^(-(A \* x + B)))
+
+Where A and B are parameters learned during calibration.
 
 Following is the syntax for implementing probability calibration using Platt Scaling:
 
@@ -46,6 +56,10 @@ model_calibrated.fit(X_train, y_train)
 # Make predictions using the calibrated classifier
 y_pred_prob = model_calibrated.predict_proba(X_test)
 ```
+
+Isotonic regression is a non-parametric regression technique that fits a piecewise constant, monotonic (increasing or decreasing) function to the data.
+
+In the context of calibration, the isotonic method uses isotonic regression to map the model's raw probabilities to calibrated probabilities while preserving their relative order.
 
 Following is the syntax for implementing probability calibration using Isotonic Regression:
 
