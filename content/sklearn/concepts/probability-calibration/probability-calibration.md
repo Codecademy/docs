@@ -60,6 +60,7 @@ model = LogisticRegression()
 model_calibrated = CalibratedClassifierCV(model, cv=5, method="isotonic")
 
 # Fit the calibrated classifier to the training data
+# X_train: Features for the training set; y_train: Target labels for the training set
 model_calibrated.fit(X_train, y_train)
 
 # Make predictions using the calibrated classifier
