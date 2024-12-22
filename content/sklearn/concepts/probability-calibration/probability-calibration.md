@@ -68,7 +68,7 @@ y_pred_prob = model_calibrated.predict_proba(X_test)
 ```
 
 - `cv`: The number of cross-validation folds. The default value is `None`.
-- `method`: The calibration method. Common options include `"sigmoid"` (default) and `"isotonic"`.
+- `method`: The calibration method. Common options include `sigmoid` (default) and `isotonic`.
 
 ## Example
 
