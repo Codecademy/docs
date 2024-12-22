@@ -14,7 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Sklearn, **Probability Calibration** is a technique used to improve the reliability of predicted probabilities from machine learning models. When a model outputs a probability, it's essentially making a statement about the likelihood of a specific outcome. A well-calibrated model ensures that these probabilities accurately reflect the true likelihoods.
+In [Sklearn](https://www.codecademy.com/resources/docs/sklearn), **Probability Calibration** is a technique used to improve the reliability of predicted probabilities from machine learning models. When a model outputs a probability, it makes a statement about the likelihood of a specific outcome. 
+
+A well-calibrated model ensures that these probabilities accurately reflect the true likelihoods, meaning the predicted probabilities align closely with observed outcomes.
 
 Sklearn provides two primary methods for implementing probability calibration:
 
