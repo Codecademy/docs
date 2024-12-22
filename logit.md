@@ -60,3 +60,4 @@ result = model.fit()
 # Output the results
 result.summary()
 This code performs the logistic regression and outputs the summary directly in an interactive code environment.
+```
