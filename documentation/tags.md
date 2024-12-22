@@ -316,6 +316,7 @@ Stacks
 Static Site
 Statistics
 Storage
+Strict Mode
 Stringr
 Strings
 Structure
