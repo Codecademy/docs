@@ -40,7 +40,7 @@ model.fit(data_matrix)
 
 ## Example
 
-Here's an example of biclustering using `SpectralBiclustering` from sklearn:
+Here's an example of implementing biclustering using `SpectralBiclustering` from sklearn:
 
 ```py
 import numpy as np
