@@ -6,7 +6,6 @@ Subjects:
   - 'Data Visualization'
   - 'Machine Learning'
 Tags:
-  - 'Clustering'
   - 'Machine Learning'
   - 'Scikit-learn'
   - 'Unsupervised learning'
