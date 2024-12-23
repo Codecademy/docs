@@ -1,6 +1,6 @@
 ---
 Title: '.permute()'
-Description: 'Returns a copy of a given tensor with its dimensions permuted or rearranged according to a specific order.'
+Description: 'Returns a view of the given tensor with its dimensions permuted or rearranged according to a specific order.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -14,16 +14,16 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In PyTorch, the **`.permute()`** function returns a copy of a given [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) with its dimensions permuted or rearranged according to a specific order.
+In PyTorch, the **`.permute()`** function returns a view of a given [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) with its dimensions permuted or rearranged according to a specific order.
 
 ## Syntax
 
 ```pseudo
-torch.permute(ten, order)
+torch.permute(input, dims)
 ```
 
-- `ten`: The tensor whose dimensions are to be permuted.
-- `order`: The order in which the dimensions are to be permuted.
+- `input`: The tensor whose dimensions are to be permuted.
+- `dims`: The order in which the dimensions are to be permuted.
 
 ## Example
 
