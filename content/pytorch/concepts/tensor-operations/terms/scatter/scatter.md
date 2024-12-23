@@ -1,6 +1,6 @@
 ---
 Title: '.scatter()'
-Description: 'Inserts given values into specific locations in a given tensor.'
+Description: 'Writes values from a source into specific locations of a tensor along a specified dimension, based on indices.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In PyTorch, the **`.scatter()`** function inserts given values into specific locations in a given [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors).
+In PyTorch, the **`.scatter()`** function writes values from a source ([tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) or scalar) into specific locations of a tensor along a specified dimension, based on given indices.
 
 ## Syntax
 
