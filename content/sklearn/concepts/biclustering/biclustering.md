@@ -69,15 +69,14 @@ print("Column Biclusters:", column_labels)
 The above code results in the following output:
 
 ```shell
-Row Biclusters: [[ True  True False False]
- [ True  True False False]
- [False False  True  True]
- [False False  True  True]]
-Column Biclusters: [[ True  True False False]
+Row Biclusters: [[False False  True  True]
  [False False  True  True]
  [ True  True False False]
- [False False  True  True]]
-
+ [ True  True False False]]
+Column Biclusters: [[False False  True  True]
+ [ True  True False False]
+ [False False  True  True]
+ [ True  True False False]]
 ```
 
 ## Codebyte Example
