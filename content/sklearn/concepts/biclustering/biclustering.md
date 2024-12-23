@@ -83,7 +83,7 @@ Column Biclusters: [[False False  True  True]
 
 ## Codebyte Example
 
-Here the example demonstrates how to perform Spectral Biclustering on a simple 6x6 binary data matrix using SpectralBiclustering from sklearn:
+Here the example demonstrates how to perform Spectral Biclustering on a simple **6x6** binary data matrix using `SpectralBiclustering` from `sklearn`:
 
 ```codebyte/python
 import numpy as np
