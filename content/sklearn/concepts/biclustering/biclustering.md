@@ -66,7 +66,7 @@ print("Column Biclusters:", column_labels)
 
 ```
 
-The code results in the following output:
+The above code results in the following output:
 
 ```shell
 Row Biclusters: [[ True  True False False]
