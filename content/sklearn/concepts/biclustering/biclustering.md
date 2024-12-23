@@ -34,7 +34,7 @@ model.fit(data_matrix)
 
 - `n_clusters`: Number of biclusters to create.
 - `random_state`: Ensures the randomness for reproducible results.
-- `method`(For SpectralBiclustering): Specifies the algorithm variant, e.g., `log` or `bistochastic`.
+- `method`(For SpectralBiclustering): Specifies the algorithm variant, e.g., `log` or `bistochastic`. The `log` method applies logarithmic scaling, while `bistochastic` normalizes rows and columns. The choice of method can affect the results depending on the dataset.
 
 > **Note**: Since Bicluster is not directly available in sklearn, alternative methods for biclustering, such as `SpectralBiclustering`, can be used.
 
@@ -63,7 +63,6 @@ column_labels = model.columns_
 # Print biclusters
 print("Row Biclusters:", row_labels)
 print("Column Biclusters:", column_labels)
-
 ```
 
 The above code results in the following output:
@@ -78,6 +77,9 @@ Column Biclusters: [[False False  True  True]
  [False False  True  True]
  [ True  True False False]]
 ```
+
+- In the **Row Biclusters**, `True` in a position means that the corresponding row is part of the bicluster.
+- Similarly, in the **Column Biclusters**, `True` indicates that the corresponding column is part of the bicluster.
 
 ## Codebyte Example
 
