@@ -34,7 +34,7 @@ model.fit(data_matrix)
 
 - `n_clusters`: Number of biclusters to create.
 - `random_state`: Ensures the randomness for reproducible results.
-- `method:`(For SpectralBiclustering) Specifies the algorithm variant, e.g., "log" or "bistochastic."
+- `method`(For SpectralBiclustering): Specifies the algorithm variant, e.g., `log` or `bistochastic`.
 
 > **Note**: Since Bicluster is not directly available in sklearn, alternative methods for biclustering, such as `SpectralBiclustering`, can be used.
 
