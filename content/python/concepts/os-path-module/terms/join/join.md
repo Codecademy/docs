@@ -31,7 +31,7 @@ import os.path
 
 cc_courses_slug = "https://www.codecademy.com/catalog"
 
-python_3_lessons_slug = "learn-python-3/lessons/"
+python_3_lessons_slug = "learn-python-3/lessons"
 
 second_lesson_slug = "string-methods/exercises/introduction-ii"
 
