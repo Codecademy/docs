@@ -1,6 +1,7 @@
 ---
 Title: 'Blockchain'
-Description: 'Blockchain is a decentralized digital ledger that securely records transactions across a network. It ensures transparency, immutability, and trust without requiring a central authority, enabling applications like cryptocurrencies and supply chain management.'
+Description: 'Blockchain is a decentralized ledger that securely records transactions, ensuring transparency, trust, and immutability without a central authority.'
+Codecademy Hub Page: 'https://www.codecademy.com/catalog/subject/blockchain'
 CatalogContent:
   - 'rust-for-programmers'
   - 'paths/computer-science'
