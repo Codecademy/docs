@@ -1,6 +1,6 @@
 ---
 Title: 'UPDATE'
-Description: 'Modifies existing records in a table based on specified conditions.'
+Description: 'Modifies existing records in a table according to specified conditions.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -9,14 +9,12 @@ Tags:
   - 'Queries'
   - 'PostgreSQL'
   - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`UPDATE`** statement in SQL is used to modify existing records in a table. This powerful **Data Manipulation Language (DML)** command allows you to update one or multiple rows simultaneously.
+The **`UPDATE`** statement in SQL is used to modify existing records in a table. This powerful **Data Manipulation Language (DML)** command allows developers to update one or multiple rows simultaneously.
 
 ## Syntax
 
@@ -32,7 +30,7 @@ WHERE condition;
 
 ## Example
 
-Let's say we have a table `Employees`:
+Let's say there's a table `Employees`:
 
 | ID  | Name  | Department | Salary |
 | --- | ----- | ---------- | ------ |
