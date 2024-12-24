@@ -1,14 +1,14 @@
 ---
-Title: 'gitignore' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Title: 'gitignore'
 Description: 'A `.gitignore` file is a plain text file that tells Git which files or directories to ignore in a repository, preventing them from being tracked or staged.'
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
   - 'Developer Tools'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'Git'
   - 'GitHub'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'learn-git'
   - 'paths/computer-science'
 ---
@@ -29,6 +29,7 @@ We can easily create a `.gitignore` file using a terminal editor like Nano or Em
 `.gitignore` is usually placed in the root directory of the repository. The filenames inside a `.gitignore` file can be written relative to the location of the `.gitignore` file. 
 
 For example, to ignore the file `main.js` under the `src/` directory, we can write as follows:
+
 ```
 src/main.js
 
@@ -41,30 +42,34 @@ src/main.js
 ## Ignore a directory with .gitignore
 
 Sometimes, we want to ignore entire directories or specify certain files in a directory. Common directories to leave out of a Git repository are `node_modules` or `logs` folders. We can ignore an entire directory by simply adding its name to `.gitignore`:
+
 ```
 node_modules/
 ```
+
 This will ignore the `node_modules` directory, and all subdirectories and files inside them. The forward slash `/` specifies that we are ignoring the directory.
 
 ## `.gitignore` Patterns
 
-We can take advantage of patterns to match multiple filenames. These help us handle special cases such as ignoring specific file types or ignoring all but one file inside a directory. The possible patterns are:
+We can take advantage of patterns to match multiple filenames. These help us handle special cases such as ignoring specific file types or ignoring all but one file inside a directory. 
+
+The possible patterns are:
 - `*` matches zero or more characters.
 - `**` matches files in all subdirectories.
 - `!` negates an ignore rule.
 - `/` specifies a directory.
 
-Examples of usage:
-* Ignore all files ending with the `.html` extension
-    * `*.html`
-* Ignore any file starting with `example`
-    * `example*`
-* Negation any file that would otherwise be ignored
-    * ```
+The above patterns can be used as follows:
+- Ignore all files ending with the `.html` extension
+    - `*.html`
+- Ignore any file starting with `example`
+    - `example*`
+- Negation any file that would otherwise be ignored
+    - ```
       index*
       !public/index.css
       ```
-* Ignore all files in the `temp` directory where a `temp` folder exists inside all folders in the root directory
-    * `**/temp/**`
+- Ignore all files in the `temp` directory where a `temp` folder exists inside all folders in the root directory
+  - `**/temp/**`
 
 GitHub provides predefined `.gitignore` templates for different languages and frameworks, available at [GitHub’s gitignore repository](https://github.com/github/gitignore).
