@@ -47,10 +47,10 @@ Button(action: {
 
 SwiftUI provides several built-in button styles that can change the appearance of buttons globally:
 
-- **`DefaultButtonStyle`**: The standard button appearance.
+- **`DefaultButtonStyle`**: The standard button appearance, which adapts its look based on the platform and context.
 - **`PlainButtonStyle`**: Removes visual styling, leaving only the label content.
 - **`BorderedButtonStyle`**: Adds a border to the button (available in iOS 15+).
-- **`BorderlessButtonStyle`**: Removes borders, often used in toolbars or lists.
+- **`BorderlessButtonStyle`**: Removes borders, often used in toolbars or lists (available in iOS 15+).
 
 You can apply these styles using the `.buttonStyle()` modifier:
 
@@ -102,7 +102,7 @@ struct ButtonExampleView: View {
 }
 ```
 
- Explanation:
+Explanation:
 
 - The **first button** is a simple text button.
 - The **second button** uses custom styling with a green background and rounded corners.
@@ -138,7 +138,7 @@ Button(action: {
 In this example:
 
 The button displays an image and text.
-The HStack is used to arrange the image and text horizontally.
+The `HStack` is used to arrange the image and text side by side (horizontally).
 
 ## Button Actions
 
@@ -173,7 +173,7 @@ Button("Styled Button") {
 
 ## Disabled Buttons
 
-You can disable buttons by using the `.disabled()` modifier. Disabled buttons are non-interactive and will appear grayed out:
+Disabled buttons are non-interactive and appear grayed out to indicate their inactive state. Buttons can be disabled by using the `.disabled()` modifier as follows:
 
 ```swift
 Button("Disabled Button") {
