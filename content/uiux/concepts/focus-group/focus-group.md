@@ -43,7 +43,7 @@ Some principles to keep in mind when conducting a focus group are:
 - **Clear Objectives:** Clearly define the goals of the focus group for effective discussions.
 - **Neutral Facilitation:** Emphasize neutral moderation and encourage honest feedback.
 - **User Interactivity:** Incorporate prototypes or interactive elements to enhance user engagement.
-- **User-centric Storytelling:** Use real-life scenarios or user stories to contextualize discussions.
+- **User-centric Storytelling:** Contextualize discussions with real-life scenarios or user stories.
 
 ## Additional Focus Group Resources
 
