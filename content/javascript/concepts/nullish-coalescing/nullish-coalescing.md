@@ -1,19 +1,19 @@
 ---
 Title: 'Nullish Coalescing'
-Description: 'A JavaScript nullish coalescing (??) operator is a logical operator that evaluates the left-hand value and returns it if it isn't nullish (null or undefined). If it is, the operator returns the right-hand side value.'
+Description: 'Returns the right-hand operand if the left-hand operand is null or undefined, otherwise, it returns the left-hand operand.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
   - 'Comparison'
   - 'Logical'
-  - 'Operator'
+  - 'Operators'
 CatalogContent:
 - 'introduction-to-javascript'
 - 'paths/front-end-engineer-career-path'
 ---
 
-A JavaScript **nullish coalescing** (??) operator is a logical operator that evaluates the left-hand value and returns it if it isn't nullish (null or undefined). If it is, the operator returns the right-hand side value.
+A JavaScript **nullish coalescing** (`??`) operator is a logical operator that evaluates the left-hand operand and returns it if it is not nullish (i.e., not `null` or `undefined`). Otherwise, it returns the right-hand operand.
 
 ## Syntax
 
@@ -21,14 +21,33 @@ A JavaScript **nullish coalescing** (??) operator is a logical operator that eva
 value1 ?? value2
 ```
 
+- `value1`: The first operand to check if it is nullish (`null` or `undefined`).
+- `value2`: The second operand that acts as the default value, returned only if `value1` is nullish.
+
+## Example
+
+The following example demonstrates the use of the nullish coalescing operator to provide a default value when the variable is `null` or `undefined`:
+
+```js
+const age = undefined;
+const defaultAge = 18;
+
+console.log(age ?? defaultAge);
+```
+
+The above code produces the following output:
+
+```shell
+18
+```
+
 ## Codebyte Example
 
-The following code checks if name is null or undefined and if it is, logs a default name to the console.
+The following example uses the nullish coalescing operator (`??`) to return "Guest" as a fallback value when `name` is `null`:
 
 ```codebyte/javascript
 const name = null;
 const defaultName = "Guest";
 
 console.log(name ?? defaultName);
-// Output: "Guest"
 ```
