@@ -28,7 +28,7 @@ The following are some examples of qualitative data that can be obtained through
 A typical focus group involves the following steps:
 
 1. **Participant Selection:** Researchers select a diverse group of users representing the target demographic, usually through a screening process.
-2. **Preparation of Materials:** Researchers prepare the prototypes, wireframes, or design concepts to be evaluated.
+2. **Preparation of Materials:** Researchers prepare materials such as prototypes, wireframes, or design concepts for evaluation.
 3. **Facilitation:** During the focus group, a moderator guides the discussion and encourages participants to express their thoughts, opinions, and concerns.
 4. **Observation:** Researchers observe the session, noting participants' reactions and feedback.
 5. **Post-Session Analysis:** Researchers analyze the collected data to derive actionable insights for design improvements.
