@@ -19,11 +19,11 @@ In PyTorch, the **`.row_stack()`** function stacks or arranges a sequence of [te
 ## Syntax
 
 ```pseudo
-torch.row_stack(tens, *, out=None)
+torch.row_stack(tensors, *, out=None)
 ```
 
-- `tens`: The sequence of tensors to be stacked vertically.
-- `out` (Optional): The tensor for storing the output.
+- `tensors`: The sequence of tensors to be stacked vertically.
+- `out` (Optional): A tensor to store the output. It must have the correct shape to accommodate the result.
 
 ## Example
 
