@@ -1,57 +1,58 @@
 ---
 Title: 'Optional Chaining'
-Description: 'The optional chaining operator simplifies the comparison of multiple data properties in a chain of connected objects.' 
-Subjects: 
+Description: 'The optional chaining operator simplifies the comparison of multiple data properties in a chain of connected objects.'
+Subjects:
   - 'Web Development'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Data'
   - 'Operators'
-CatalogContent: 
+CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
 The **optional chaining** operator simplifies comparing multiple data properties in a chain of connected objects. This is especially valuable if any of the properties are `null`, as the operator will return `undefined` instead of throwing an error.
 
-Optional chaning can be used to validate nested object properties, call optional functions or methods on optional objects, accessing array elements, and more. 
+Optional chaning can be used to validate nested object properties, call optional functions or methods on optional objects, accessing array elements, and more.
 
 The primary benefits of using optional chaining instead of regular syntax include simplifying the code to achieve the same result, making it easier to read, protecting against runtime errors, and enhancing maintainability.
 
 ## Syntax
 
-The basic syntax for using optional chaining is as follows: 
+The basic syntax for using optional chaining is as follows:
 
 ```js
 // To access an object property
-object?.property
+object?.property;
 
 //To access an element in an array
-array?.[index]
+array?.[index];
 
 //To invoke a function (if it exists)
-object?.method?.()
+object?.method?.();
 ```
 
 ## Examples
 
 ### Accessing Object Properties
+
 To search for the `state` object of `person`:
 
 ```js
 const person = {
-  name: "Alice",
-  gender: "Female",
+  name: 'Alice',
+  gender: 'Female',
   age: 12,
   address: {
-    street: "1111 Palm Ave", 
-    city: "Broken Arrow",
-    state1: "Oklahoma"
+    street: '1111 Palm Ave',
+    city: 'Broken Arrow',
+    state1: 'Oklahoma',
   },
-  favoriteFoods: ["pizza", "ice cream", "cake"], 
-  commonPhrase: function() {
+  favoriteFoods: ['pizza', 'ice cream', 'cake'],
+  commonPhrase: function () {
     return `${this.name} always says "I love ${this.address.state1}."`;
-  }
+  },
 };
 
 // Regular syntax for checking if the state1 property exists
@@ -71,30 +72,34 @@ State (optional chaining) is: Oklahoma
 ```
 
 ### Accessing Array Elements
+
 To search for the `cake` in the `favoriteFoods` array of `person`:
 
 ```js
 const person = {
-  name: "Alice",
-  gender: "Female",
+  name: 'Alice',
+  gender: 'Female',
   age: 12,
   address: {
-    street: "1111 Palm Ave", 
-    city: "Broken Arrow",
-    state1: "Oklahoma"
+    street: '1111 Palm Ave',
+    city: 'Broken Arrow',
+    state1: 'Oklahoma',
   },
-  favoriteFoods: ["pizza", "ice cream", "cake"], 
-  commonPhrase: function() {
+  favoriteFoods: ['pizza', 'ice cream', 'cake'],
+  commonPhrase: function () {
     return `${this.name} always says "I love ${this.address.state1}."`;
-  }
+  },
 };
 
 // Regular Syntax for searching favorite food
-const foodRegular = person && person.favoriteFoods && person.favoriteFoods.find(item => item === "cake");
+const foodRegular =
+  person &&
+  person.favoriteFoods &&
+  person.favoriteFoods.find((item) => item === 'cake');
 console.log(`Favorite Food (regular syntax) is: ${foodRegular}`);
 
 // This can be rewritten as:
-const foodChaining = person?.favoriteFoods.find(item => item === "cake");
+const foodChaining = person?.favoriteFoods.find((item) => item === 'cake');
 console.log(`Favorite Food (optional chaining) is: ${foodChaining}`);
 ```
 
@@ -106,6 +111,7 @@ Favorite Food (optional chaining) is: cake
 ```
 
 ### Accessing Object Functions
+
 To determine if the `commonPhrase` function exists in `person` before invoking it:
 
 ```js
@@ -119,10 +125,9 @@ console.log(`${phrase}`);
 const phrase = person?.commonPhrase?.();
 console.log(`${phrase}`);
 
-//The output for both is: 
+//The output for both is:
 Alice always says "I love Oklahoma."
 ```
-
 
 ## Codebyte Example
 
