@@ -18,13 +18,13 @@ CatalogContent: [Machine Learning, Deep Learning, PyTorch, Optimizers]
 
 ## Adam Optimizer
 
-The **Adam optimizer** (short for Adaptive Moment Estimation) is one of the most commonly used optimizers in machine learning and deep learning. It adjusts the learning rate for each parameter dynamically, making it more efficient than standard gradient descent. The **Adam optimizer** is used in frameworks like **PyTorch** and **TensorFlow** to train neural networks effectively.
+The **Adam optimizer** (short for Adaptive Moment Estimation) is one of the most commonly used optimizers in machine learning and deep learning. It adjusts the learning rate for each parameter dynamically, making it more efficient than standard gradient descent. The **Adam optimizer** is used in frameworks like PyTorch and TensorFlow to train neural networks effectively.
 
 **What is Gradient Descent?**
 **Gradient Descent** is an optimization algorithm used to minimize a model's loss function by updating its weights in the direction of the negative gradient. The goal of gradient descent is to find the lowest point of the loss function, which allows the model to make better predictions.
 
 **How It Relates to Adam**
-The **Adam optimizer** builds on gradient descent by using **momentum** and **adaptive learning rates**, which make the updates smarter, faster, and more stable.
+The **Adam optimizer** builds on gradient descent by using momentum and adaptive learning rates, which make the updates smarter, faster, and more stable.
 
 ## How Adam Works
 
@@ -93,7 +93,7 @@ Here’s a breakdown of each key part of the syntax for `optim.Adam()`:
 
 ## Common Use Cases for the Adam Optimizer
 
-The **Adam optimizer** is widely used in machine learning and deep learning because of its ability to converge quickly, handle noisy gradients, and work efficiently with large datasets. Below are some of the most common use cases where The **Adam Optimizer** is preferred over other optimizers.
+The **Adam optimizer** is widely used in machine learning and deep learning because of its ability to converge quickly, handle noisy gradients, and work efficiently with large datasets. Below are some of the most common use cases where The **Adam optimizer** is preferred over other optimizers.
 
 ---
 
@@ -193,7 +193,7 @@ optimizer_nlp = AdamW(model_nlp.parameters(), lr=2e-5)  # AdamW is a variant of 
 
 ### Advanced Insight
 
-For a more technical explinattion, here is the mathematical process behind the **Adam optimizer**.
+For a more technical explanation, here is the mathematical process behind the **Adam optimizer**.
 
 #### Advanced Explanation of the Key Steps
 
@@ -231,7 +231,12 @@ This is the final step in which the weights of the model are updated. Instead of
 
 This process allows the model to make more precise and stable updates than regular gradient descent.
 
-## Related Resources
+## General Resources
 
-- [Optimizers](../optimizers.md) — Learn about other popular optimizers like **SGD** and **RMSProp**.
-- [PyTorch](https://pytorch.org/docs/) — Official PyTorch documentation.
+1. Kingma, D. P., & Ba, J. (2014). _Adam: A method for stochastic optimization_. arXiv preprint arXiv:1412.6980. Retrieved from [https://arxiv.org/abs/1412.6980](https://arxiv.org/abs/1412.6980)
+
+2. PyTorch. (n.d.). _torch.optim.Adam_. Retrieved from [https://pytorch.org/docs/stable/generated/torch.optim.Adam.html](https://pytorch.org/docs/stable/generated/torch.optim.Adam.html)
+
+3. TensorFlow. (n.d.). _Adam optimizer_. Retrieved from [https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam)
+
+4. Brownlee, J. (2020). _Gentle Introduction to the Adam Optimization Algorithm for Deep Learning_. Machine Learning Mastery. Retrieved from [https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/](https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/)
