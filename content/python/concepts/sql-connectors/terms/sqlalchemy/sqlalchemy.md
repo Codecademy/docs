@@ -4,7 +4,6 @@ Description: 'SQLAlchemy is a flexible SQL toolkit and Object-Relational Mapping
 Subjects:
   - 'Data Science'
   - 'Web Development'
-  - 'Developer Tools'
 Tags:
   - 'Database'
   - 'SQL'
@@ -26,21 +25,21 @@ engine = create_engine('dialect+driver://username:password@host:port/database')
 
 # Example of querying using SQLAlchemy
 with engine.connect() as connection:
-    result = connection.execute("SELECT * FROM users")
-    for row in result:
-        print(row)
+  result = connection.execute("SELECT * FROM users")
+  for row in result:
+    print(row)
 ```
 
 - `create_engine`: Initializes the connection to the database with the provided database URI.
   - `dialect`: Specifies the type of database (e.g., `mysql`, `postgresql`, `sqlite`).
-  - `driver` (optional): Specifies the database driver to be used.
+  - `driver` (Optional): Specifies the database driver to be used.
   - `username`, `password`: Credentials for authentication.
-  - `host`, `port`: Database server’s location.
+  - `host`, `port`: Database server's location.
   - `database`: Name of the database to connect to.
 
 ## Example
 
-The following example shows how to connect to a SQLite database and query it using `SQLAlchemy`:
+The following example shows how to connect to a SQLite database and query it using SQLAlchemy:
 
 ```py
 from sqlalchemy import create_engine
@@ -48,11 +47,11 @@ from sqlalchemy import create_engine
 # Create an engine instance for SQLite
 engine = create_engine('sqlite:///example.db')
 
-# Connect to the database and execute a query
+# Connect to the database and then execute a query
 with engine.connect() as connection:
-    result = connection.execute("SELECT * FROM users")
-    for row in result:
-        print(row)
+  result = connection.execute("SELECT * FROM users")
+  for row in result:
+    print(row)
 ```
 
 This code will output the rows from the `users` table in the `example.db` SQLite database.
