@@ -1,6 +1,6 @@
 ---
 Title: 'Optional Chaining'
-Description: 'The optional chaining operator simplifies the comparison of multiple data properties in a chain of connected objects.'
+Description: 'The optional chaining operator allows safe access to nested object properties or methods without having to explicitly check if intermediate properties exist.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **optional chaining** operator simplifies comparing multiple data properties in a chain of connected objects. This is especially valuable if any of the properties are `null`, as the operator will return `undefined` instead of throwing an error.
+The **optional chaining** (**`?.`**) operator simplifies comparing multiple data properties in a chain of connected objects. This is especially valuable if any of the properties are `null`, as the operator will return `undefined` instead of throwing an error.
 
 Optional chaning can be used to validate nested object properties, call optional functions or methods on optional objects, accessing array elements, and more.
 
@@ -22,7 +22,7 @@ The primary benefits of using optional chaining instead of regular syntax includ
 
 The basic syntax for using optional chaining is as follows:
 
-```js
+```pseudo
 // To access an object property
 object?.property;
 
@@ -124,16 +124,20 @@ console.log(`${phrase}`);
 //This can be rewritten as:
 const phrase = person?.commonPhrase?.();
 console.log(`${phrase}`);
+```
 
-//The output for both is:
+The output of the above code will be as follows:
+
+```shell
+Alice always says "I love Oklahoma."
 Alice always says "I love Oklahoma."
 ```
 
 ## Codebyte Example
 
-Run the following example and compare the regular syntax of conditional statements and optional chaining on a more complex data set.
+Run the following example and compare the regular syntax of conditional statements and optional chaining on a more complex data set:
 
-```codebyte/js
+```codebyte/javascript
 const people = [
   {
     name: "Blake",
