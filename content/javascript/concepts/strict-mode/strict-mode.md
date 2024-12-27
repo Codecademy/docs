@@ -1,6 +1,6 @@
 ---
 Title: 'Strict Mode'
-Description: 'The strict mode in JavaScript is a way to make the language follow stricter rules. It helps prevent errors and makes the code more predictable by restricting certain behaviors that can lead to problems.'
+Description: 'Strict mode in JavaScript is a way to make the language follow stricter rules. It helps prevent errors and makes the code more predictable by restricting certain behaviors that can lead to problems.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -11,20 +11,20 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **strict mode** in JavaScript is a way to make the language follow stricter rules. It helps prevent errors and makes the code more predictable by restricting certain behaviors that can lead to problems.
+**Strict mode** in JavaScript is a way to make the language follow stricter rules. It helps prevent errors and makes the code more predictable by restricting certain behaviors that can lead to problems.
 
 ## Syntax
 
-`Strict mode` can be enabled for an entire code by adding "use strict"; at the very beginning of the script.
+`Strict mode` can be enabled for an entire file by adding "use strict"; at the very beginning of the script.
 
-```pseudo
+```codebyte/javascript
 "use strict";
 // All code here runs in strict mode
 ```
 
 `Strict mode` can also be enabled within a specific function, which will only affect the code inside that function.
 
-```pseudo
+```codebyte/javascript
 function example() {
     "use strict";
     // Only this function's code runs in strict mode
