@@ -116,9 +116,9 @@ To determine if the `commonPhrase` function exists in `person` before invoking i
 
 ```js
 //Regular Syntax
-if (person && typeof person.commonPhrase === "function") {
+if (person && typeof person.commonPhrase === 'function') {
   const phrase = person.commonPhrase();
-console.log(`${phrase}`);
+  console.log(`${phrase}`);
 }
 
 //This can be rewritten as:
