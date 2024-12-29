@@ -1,1 +1,1 @@
-content/c/concepts/user-input/user-input.md
+content/general/concepts/jit-compilation/jit-compilation.md
