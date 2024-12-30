@@ -26,7 +26,7 @@ datetime.strptime(date_string, format)
 ### Parameters:
 
 - `date_string` (str): The string representing the date and/or time to be parsed..
-- `format` (str): The format that defines the structure of `date_string`. This uses the directives from the `datetime` module (e.g., `%Y` for a four-digit year, `%m` for a two-digit month).
+- `format` (str): A string that defines the structure of `date_string` using format codes from the `datetime` module (e.g., `%Y` for a four-digit year, `%m` for a two-digit month).
 
 ### Returns:
 
