@@ -30,6 +30,21 @@ datetime.strptime(date_string, format)
 
 It returns a `datetime` object, which represents the parsed date and time from the provided `date_string` according to the specified `format`.
 
+## Example
+
+```python
+from datetime import datetime
+
+# Define the date-time string and format
+datetime_string = "27/12/2024 15:30:00"
+datetime_format = "%d/%m/%Y %H:%M:%S"
+
+# Parse the string into a datetime object
+dt_object = datetime.strptime(datetime_string, datetime_format)
+
+print(dt_object) #Output: 2024-12-27 15:30:00
+```
+
 ## Codebyte Example
 
 ```codebyte/python
