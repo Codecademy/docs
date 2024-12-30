@@ -28,9 +28,7 @@ datetime.strptime(date_string, format)
 - `date_string` (str): The string representing the date and/or time to be parsed..
 - `format` (str): A string that defines the structure of `date_string` using format codes from the `datetime` module (e.g., `%Y` for a four-digit year, `%m` for a two-digit month).
 
-### Returns:
-
-- A `datetime` object corresponding to the parsed date and time.
+It returns a `datetime` object, which represents the parsed date and time from the provided `date_string` according to the specified `format`.
 
 ## Codebyte Example
 
