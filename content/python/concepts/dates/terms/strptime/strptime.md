@@ -17,7 +17,7 @@ The **`.strptime()`** is a method included in the [`datetime`](https://www.codec
 
 ## Syntax
 
-```python
+```pseudo
 from datetime import datetime
 
 datetime.strptime(date_string, format)
