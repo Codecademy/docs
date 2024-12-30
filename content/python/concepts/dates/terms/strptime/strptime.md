@@ -1,6 +1,6 @@
 ---
 Title: '.strptime()' 
-Description: 'Return a datetime corresponding to date_string, parsed according to format.'
+Description: 'Returns a datetime object that represents the parsed date and time from the given string, based on the specified format.'
 Subjects:
 - 'Python'
 - 'Computer Science'
