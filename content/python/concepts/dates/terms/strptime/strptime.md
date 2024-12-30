@@ -13,7 +13,7 @@ CatalogContent:
 - 'paths/computer-science'
 ---
 
-The **`.strptime()`** is a method included in the `datetime` module. It is used to parse a string representing a date and/or time and convert it into a `datetime` object using a specified format.
+The **`.strptime()`** is a method included in the [`datetime`](https://www.codecademy.com/resources/docs/python/dates) module. It is used to parse a string representing a date and/or time and convert it into a `datetime` object using a specified format.
 
 ## Syntax
 
