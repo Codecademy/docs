@@ -1,46 +1,48 @@
-name: pytorch parallelizing models
-description: Request for edits to a single existing topic, concept, or term entry.
-title: "pytorch"
-labels: ["enhancement", "typo"]
-assignees: "Name here"
-body:
-  - type: dropdown
-    id: edits
-    attributes:
-      label: Type of Edit (select all that apply)
-      multiple: true
-      options:
-        - Fix grammar, spelling, formatting
-        - Clarify unclear content and/or terms
-        - Add new content (definitions, codeblocks, etc.)
-    validations:
-      required: true
-  - type: textarea
-    id: desc
-    attributes:
-      label: Description (optional)
-      description: "Additional context behind edits."
-      placeholder: "Please provide any additional context/reasoning behind the edits here."
-  - type: markdown
-    attributes:
-      value: |
-        In addition to the [Contributing Guide](https://github.com/Codecademy/docs/blob/main/CONTRIBUTING.md), we recommend checking out the following before submtting a PR:
-        - [Entry templates](https://github.com/Codecademy/docs/blob/main/documentation/)
-        - [Content standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md)
-        - [Markdown style guide](https://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/)
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      options:
-        - label: By submitting this issue, I agree to follow Codecademy Doc's [Code of Conduct](https://github.com/Codecademy/docs/blob/main/.github/CODE_OF_CONDUCT.md).
-          required: true
-  - type: checkboxes
-    id: maintainers
-    attributes:
-      label: For Maintainers
-      options:
-        - label: Labels added
-          required: false
-        - label: Issue is assigned
-          required: false
+---
+Title: 'parallelizing-models' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Description: 'A brief description.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+  - 'Computer Science'
+  - 'A second subject name'
+  - 'An nth subject name'
+Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+  - 'A tag'
+  - 'A second tag'
+  - 'An nth tag'
+CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - 'learn-example-course'
+  - 'paths/example-path'
+---
+
+[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+
+## Subsection 1
+
+[Text about subsection 1]
+
+## Subsection 2
+
+[Text about subsection 2]
+
+## Subsection n
+
+[Text about subsection n]
+
+## Codebyte Example (if applicable)
+
+We can currently support:
+
+- Python
+- JavaScript
+- Ruby
+- C++
+- C#
+- Go
+- PHP
+
+See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+
+```codebyte/js
+# Example runnable code block.
+console.log('Hello, World!');
+```
