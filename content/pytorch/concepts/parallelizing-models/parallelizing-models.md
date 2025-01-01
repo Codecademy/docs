@@ -1,6 +1,6 @@
 name: pytorch parallelizing models
 description: Request for edits to a single existing topic, concept, or term entry.
-title: "[Edit] Subject: Entry Name"
+title: "pytorch"
 labels: ["enhancement", "typo"]
 assignees: "Name here"
 body:
