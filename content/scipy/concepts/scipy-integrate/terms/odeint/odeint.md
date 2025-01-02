@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`scipy.integrate.odeint()`** function in SciPy is a powerful tool for solving ordinary differential equations (ODEs). It uses the LSODA algorithm, which automatically switches between stiff and non-stiff solving methods, making it adaptable to a wide range of problems.
+The **`odeint()`** function from SciPy's **`integrate`** module is a powerful tool for solving initial value problems for ordinary differential equations (ODEs). It integrates a system of ordinary differential equations using the LSODA method from the FORTRAN library odepack. This method automatically switches between stiff and non-stiff methods based on the problem characteristics.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ from scipy.integrate import odeint
 solution = odeint(func, y0, t, args=(), Dfun=None, col_deriv=0, full_output=0, ml=None, mu=None, rtol=None, atol=None, tcrit=None, h0=0.0, hmax=0.0, hmin=0.0, ixpr=0, mxstep=500, mxhnil=10, mxordn=12, mxords=5)
 ```
 
-### Parameters:
+### Parameters
 
 - **`func`**: A callable that defines the derivative of the system, \( \frac{dy}{dt} = f(y, t, ...) \).
 - **`y0`**: Initial condition(s) (array-like).
@@ -33,7 +33,7 @@ solution = odeint(func, y0, t, args=(), Dfun=None, col_deriv=0, full_output=0, m
 - **`args`**: Extra arguments to pass to `func` (optional).
 - **Other parameters**: Control solver behavior, precision, and output verbosity (optional).
 
-### Returns:
+### Returns
 
 - **`solution`**: An array of the integrated values for each time point in `t`.
 
