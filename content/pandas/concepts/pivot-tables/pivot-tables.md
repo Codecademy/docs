@@ -78,7 +78,7 @@ The output of the above code will be as follows:
 | South    | 150 | 180 |
 | West     | 0   | 130 |
 
-## Adding Margins for Totals
+### Adding Margins for Totals
 
 To include row and column totals in the pivot table, set `margins=True`:
 
