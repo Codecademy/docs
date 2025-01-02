@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Amend** iis a Git feature that allows developers to modify the most recent commit. It is commonly used to correct mistakes such as adding a missing file, fixing an incorrect commit message, or making minor adjustments without creating an entirely new commit.
+**Amend** is a Git feature that allows developers to modify the most recent commit. It is commonly used to correct mistakes such as adding a missing file, fixing an incorrect commit message, or making minor adjustments without creating an entirely new commit.
 
 This feature is particularly helpful for maintaining a clean and concise commit history, ensuring that changes are logically grouped and easy to understand.
 
