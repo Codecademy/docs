@@ -11,6 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
+
 In React, components are able to use props, or "properties", to display and share data throughout the application. In other words, props is the information that gets passed from one component to another.
 
 With the introduction of functional components in modern React, props are handled directly as parameters in the function definition, making the code simpler and more intuitive.
