@@ -14,11 +14,15 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/example-path'
 ---
 
-**Model parallelization** is used to train models that require more memory than what is available on a single GPU. This is also known as FullyShardedDataParallel (FSDP) in pytorch.
+**Model parallelization** is used to train models that require more memory than what is available on a single graphic processing unit (GPU). This is also known as **FullyShardedDataParallel (FSDP)** in pyTorch.
 
-The model is separated into parts (i.e. layers or modules) and assigned to different GPUs. The GPUS performs the computations simultaneously, allowing for faster processing of large models. The GPUs communicate with each other and share the data to ensure the data output from one GPU is used in another GPU as needed. 
+The model is separated into parts (i.e. layers or modules) and assigned to different GPUs. The GPUs performs the computations simultaneously, allowing for faster processing of large models. The GPUs communicate with each other and share the data to ensure the data output from one GPU is used in another GPU as needed. 
 
-## Subsection 1
+## Setting up the environment
+```py
+import torch
+import torch.nn as nn
+```
 
 ## Subsection 2
 
