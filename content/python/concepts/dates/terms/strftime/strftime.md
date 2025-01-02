@@ -1,6 +1,6 @@
 ---
 Title: '.strftime()'
-Description: 'Format time and date objects into readable strings'
+Description: 'Format time and date objects into readable strings based on specified patterns.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
