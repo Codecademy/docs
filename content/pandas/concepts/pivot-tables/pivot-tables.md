@@ -97,7 +97,7 @@ The output of the above code will be as follows:
 | West     | 0   | 130 | 130 |
 | All      | 370 | 510 | 880 |
 
-## Aggregating with Multiple Functions
+### Aggregating with Multiple Functions
 
 Multiple aggregation functions can be applied using a list:
 
