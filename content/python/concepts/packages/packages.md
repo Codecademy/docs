@@ -40,7 +40,7 @@ project_name/
 
 To use a package or its modules, the syntax is:
 
-```python
+```pseudo
 import package_name.module_name
 
 # OR
