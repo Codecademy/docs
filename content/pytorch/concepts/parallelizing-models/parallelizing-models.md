@@ -1,24 +1,24 @@
 ---
-Title: 'parallelizing-models' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Model parallelization is used to train models that require more memory than what is available on a single GPU.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: 'parallelizing-models' 
+Description: 'Model parallelization is used to train models that require more memory than what is available on a single GPU.' 
+Subjects:
   - 'Computer Science'
   - 'Machine Learning'
   - 'Developer Tools'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
+Tags: 
+  - 'Algorithms'
+  - 'PyTorch'
+  - 'Machine Learning'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-example-course'
   - 'paths/example-path'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+**Model parallelization** is used to train models that require more memory than what is available on a single GPU. This is also known as FullyShardedDataParallel (FSDP) in pytorch.
+
+The model is separated into parts (i.e. layers or modules) and assigned to different GPUs. The GPUS performs the computations simultaneously, allowing for faster processing of large models. The GPUs communicate with each other and share the data to ensure the data output from one GPU is used in another GPU as needed. 
 
 ## Subsection 1
-
-[Text about subsection 1]
 
 ## Subsection 2
 
