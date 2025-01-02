@@ -35,7 +35,7 @@ For a complete list, refer to the [Python documentation](https://docs.python.org
 
 ## Codebyte Example
 
-The formatted time can be retrieved and stored in a variable as shown below:
+The formatted time can be retrieved and stored in a variable as shown in this codebyte example :
 
 ```codebyte/python
 import datetime
