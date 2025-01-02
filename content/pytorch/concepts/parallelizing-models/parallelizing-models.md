@@ -24,7 +24,28 @@ import torch
 import torch.nn as nn
 ```
 
-## Subsection 2
+## Assigning model parts to a specific GPU
+The layers or modules should then be assigned to a specified GPU. The following example demonstrates how this can be accomplished. 
+
+```py
+# Define a model split across two GPUs
+class ModelParallel(nn.Module):
+    def __init__(self):
+        super(ModelParallel, self).__init__()
+        self.layer1 = nn.Linear(1000, 500).to('cuda:0')  # First GPU
+        self.layer2 = nn.Linear(500, 100).to('cuda:1')   # Second GPU
+
+    def forward(self, x):
+        x = x.to('cuda:0')  # Input to first GPU
+        x = self.layer1(x)
+        x = x.to('cuda:1')  # Output of first layer to second GPU
+        x = self.layer2(x)
+        return x
+
+model = ModelParallel()
+x = torch.randn(64, 1000)
+output = model(x)
+```
 
 [Text about subsection 2]
 
