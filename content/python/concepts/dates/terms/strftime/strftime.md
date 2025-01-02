@@ -18,7 +18,6 @@ The `datetime.strftime()` method format time and date objects into readable stri
 
 ```pseudo
 datetime.strftime(format)
-```
 Here are some commonly used format codes:
 
 | Directive | Meaning                                    |            Example                      |
