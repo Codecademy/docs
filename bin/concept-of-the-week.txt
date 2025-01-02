@@ -1,1 +1,1 @@
-content/ruby/concepts/gems/gems.md
+content/general/concepts/jit-compilation/jit-compilation.md
