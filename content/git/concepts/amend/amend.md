@@ -14,13 +14,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Amend** is a Git feature that modifies the most recent commit. It allows developers to correct mistakes such as a missing file, an incorrect commit message, or minor changes without creating an entirely new commit.
+**Amend** iis a Git feature that allows developers to modify the most recent commit. It is commonly used to correct mistakes such as adding a missing file, fixing an incorrect commit message, or making minor adjustments without creating an entirely new commit.
 
-Using the amend feature is helpful for keeping a project's commit history clean and concise.
+This feature is particularly helpful for maintaining a clean and concise commit history, ensuring that changes are logically grouped and easy to understand.
 
 ## Syntax
 
-The basic syntax for the amend feature is:
+The syntax for using the amend feature in Git is:
 
 ```pseudo
 git commit --amend
