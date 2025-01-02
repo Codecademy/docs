@@ -34,7 +34,7 @@ pandas.pivot_table(data, values=None, index=None, columns=None, aggfunc='mean', 
 
 ## Example
 
-Consider the following DataFrame `df`:
+Consider the following DataFrame:
 
 ```py
 import pandas as pd
