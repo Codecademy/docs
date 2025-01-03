@@ -318,6 +318,7 @@ Static Site
 Statistics
 Statsmodels
 Storage
+Strict Mode
 Stringr
 Strings
 Structure
