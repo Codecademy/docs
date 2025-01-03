@@ -1,15 +1,13 @@
 ---
 Title: 'minimize()'
-Description: 'Returns the minimum of a scalar function of one or more variables using SciPy.'  
+Description: 'Returns the minimum of a scalar function of one or more variables using optimization methods from SciPy.'  
 Subjects: 
   - 'Data Science'
   - 'Machine Learning'
 Tags:
-  - 'Python'
+  - 'Math'
   - 'Optimization'
-  - 'Mathematics'
-  
- 
+  - 'Python'
 CatalogContent: 
   - 'learn-python'
   - 'paths/data-science'
