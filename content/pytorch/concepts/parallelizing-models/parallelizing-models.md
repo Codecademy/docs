@@ -31,7 +31,7 @@ To utilize model parallelization the model should be wrapped using the following
 class ModelParallel(nn.Module)
 ```
 
-## Assigning model parts to a specific GPU
+## Example
 The layers or modules should then be assigned to a specified GPU. The following example demonstrates how this can be accomplished. 
 
 ```py
@@ -53,28 +53,12 @@ model = ModelParallel()
 x = torch.randn(64, 1000)
 output = model(x)
 ```
+## Output
 
-[Text about subsection 2]
-
-## Subsection n
-
-[Text about subsection n]
-
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+The output of the above code would result in a tensor. The exact values would depend on the initialization of the model weights and the input data, but could be expected to look similar to the following output:
+```py
+tensor([[ 0.1324, -0.2847,  ...,  0.5921],  # First sample in the batch
+        [-0.0412,  0.4891,  ..., -0.2345],  # Second sample in the batch
+        ...
+        [ 0.2347, -0.1011,  ...,  0.4567]]) # 64 rows, each with 100 values
 ```
