@@ -19,7 +19,7 @@ CatalogContent:
 The model is separated into parts (i.e. layers or modules) and assigned to different GPUs. The GPUs performs the computations simultaneously, allowing for faster processing of large models. The GPUs communicate with each other and share the data to ensure the data output from one GPU is used in another GPU as needed. 
 
 ## Setting up the environment
-```py
+```pseudo 
 import torch
 import torch.nn as nn
 ```
@@ -56,7 +56,7 @@ output = model(x)
 ## Output
 
 The output of the above code would result in a tensor. The exact values would depend on the initialization of the model weights and the input data, but could be expected to look similar to the following output:
-```py
+```shell
 tensor([[ 0.1324, -0.2847,  ...,  0.5921],  # First sample in the batch
         [-0.0412,  0.4891,  ..., -0.2345],  # Second sample in the batch
         ...
