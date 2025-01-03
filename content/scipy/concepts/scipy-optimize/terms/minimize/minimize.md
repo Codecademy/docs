@@ -60,17 +60,6 @@ print("Optimal point:", result.x)
 
 ## Codebyte Example (if applicable)
 
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
 
 ```codebyte/python
 from scipy.optimize import minimize
