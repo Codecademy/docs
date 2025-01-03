@@ -24,6 +24,13 @@ import torch
 import torch.nn as nn
 ```
 
+## Syntax
+To utilize model parallelization the model should be wrapped using the following syntax:
+
+```shell
+class ModelParallel(nn.Module)
+```
+
 ## Assigning model parts to a specific GPU
 The layers or modules should then be assigned to a specified GPU. The following example demonstrates how this can be accomplished. 
 
