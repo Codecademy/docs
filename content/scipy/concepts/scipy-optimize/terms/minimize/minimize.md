@@ -40,7 +40,7 @@ scipy.optimize.minimize(fun, x0, args=(), method=None, jac=None, hess=None, cons
 
 ## Example
 
-```python
+```py
 from scipy.optimize import minimize
 
 # Define the objective function
