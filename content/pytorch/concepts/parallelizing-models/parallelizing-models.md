@@ -9,9 +9,9 @@ Tags:
   - 'Algorithms'
   - 'PyTorch'
   - 'Machine Learning'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'paths/example-path'
+CatalogContent: 
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/build-a-machine-learning-model'
 ---
 
 **Model parallelization** is used to train models that require more memory than what is available on a single graphic processing unit (GPU). This is also known as **FullyShardedDataParallel (FSDP)** in pyTorch.
