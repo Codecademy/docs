@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**minimize()** is a function in the SciPy library used to find the minimum of a scalar function. It offers various optimization algorithms, including gradient-based and derivative-free methods.
+The **`minimize()`** function in the SciPy library is used to find the minimum of a scalar function. It provides various optimization algorithms, including both gradient-based and derivative-free methods.
 
 ## Syntax
 
