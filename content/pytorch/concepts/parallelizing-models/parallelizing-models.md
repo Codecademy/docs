@@ -4,7 +4,7 @@ Description: 'Model parallelization is used to train models that require more me
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
-  - 'Developer Tools'
+  - 'Data Science'
 Tags: 
   - 'Algorithms'
   - 'PyTorch'
