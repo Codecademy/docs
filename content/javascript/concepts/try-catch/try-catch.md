@@ -1,6 +1,6 @@
 ---
 Title: 'Try/Catch'
-Description: 'The try...catch...finally statement defines one block of code to execute, a second block of code to be executed if the first block throws an exception, and a third block of code to be executed regardless of the error status. The catch and finally blocks of code are optional, but any try blocks must be followed by one or the other. javascript try { // Statements here are executed until an exception is thrown } catch (err) {'
+Description: 'The `try...catch...finally` in JavaScript handles errors where `try` tests code, `catch` handles exceptions, and `finally` runs regardless of errors.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -16,9 +16,9 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The `try...catch...finally` statement defines one block of code to execute and test for possible errors, a second block of code to handle errors that may be present in the try block, and a third block of code to be executed regardless of the error status.
+The **`try...catch...finally`** statement defines three blocks of code. The `try` block contains code that is tested for possible errors. If an error occurs, the `catch` block handles the exception. Finally, the `finally` block contains code that will execute regardless of whether an error occurred, ensuring that cleanup or final actions take place.
 
-The `catch` and `finally` blocks of code are optional, but any `try` blocks must be followed by one or the other.
+All `try` blocks must be followed by either `catch`, `finally`, or both.
 
 ## Syntax
 
@@ -99,4 +99,25 @@ try {
     throw e;
   }
 }
+```
+
+## Codebyte Example
+
+```codebyte/javascript
+function validateAge(age) {
+  try {
+    if (age < 18) {
+      throw "Age must be 18 or older.";
+    } else {
+      console.log("Valid age: " + age);
+    }
+  } catch (error) {
+    console.log("Error: " + error);
+  } finally {
+    console.log("Input validation completed.");
+  }
+}
+
+validateAge(17); // This will throw an error and print the error message
+validateAge(20); // This will log the valid age message
 ```
