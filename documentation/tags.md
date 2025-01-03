@@ -86,6 +86,7 @@ Cybersecurity
 D3
 Dart
 Data
+Data Parallelism
 Data Structures
 Data Types
 Database
