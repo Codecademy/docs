@@ -38,7 +38,7 @@ scipy.optimize.minimize(fun, x0, args=(), method=None, jac=None, hess=None, cons
 
 - **result**: An `OptimizeResult` object containing the optimization result.
 
-## Example Usage
+## Example
 
 ```python
 from scipy.optimize import minimize
