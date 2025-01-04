@@ -60,6 +60,13 @@ print("Optimal value:", result.fun)
 print("Optimal point:", result.x)
 ```
 
+```shell
+Optimal value: 0.0
+Optimal point: [0.]
+```
+
+This code demonstrates the use of the `minimize()` function from the SciPy library to find the minimum of a simple quadratic function \( f(x) = x^2 \). The initial guess for the variable \( x \) is set to 2. The `minimize()` function performs the optimization and returns the result, which includes the optimal value of the objective function and the point at which this minimum occurs. The output shows that the optimal value is 0, and the optimal point is \( x = 0 \).
+
 We can currently support:
 
 - Python
@@ -79,10 +86,10 @@ from scipy.optimize import minimize
 
 # Define the objective function
 def objective_function(x):
-    return x**2
+    return (x - 3)**2 + 4
 
 # Initial guess
-x0 = 2
+x0 = 0
 
 # Perform the minimization
 result = minimize(objective_function, x0)
@@ -93,8 +100,8 @@ print("Optimal point:", result.x)
 ```
 
 ```shell
-Optimal value: 0.0
-Optimal point: [0.]
+Optimal value: 4.0
+Optimal point: [3.]
 ```
 
-This code demonstrates the use of the `minimize()` function from the SciPy library to find the minimum of a simple quadratic function \( f(x) = x^2 \). The initial guess for the variable \( x \) is set to 2. The `minimize()` function performs the optimization and returns the result, which includes the optimal value of the objective function and the point at which this minimum occurs. The output shows that the optimal value is 0, and the optimal point is \( x = 0 \).
+This example finds the minimum of the function \( f(x) = (x - 3)^2 + 4 \). The initial guess for the variable \( x \) is set to 0. The `minimize()` function performs the optimization and returns the result, which includes the optimal value of the objective function and the point at which this minimum occurs. The output shows that the optimal value is 4, and the optimal point is \( x = 3 \).
