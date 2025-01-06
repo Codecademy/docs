@@ -57,4 +57,4 @@ This example results in the following output which displays the current date and
 Mon 06 Jan 2025, 09:01PM
 ```
 
-> **Note**: The actual output will vary depending on the current date and time when the script is executed.
+> **Note:** The actual output will vary depending on the current date and time when the script is executed.
