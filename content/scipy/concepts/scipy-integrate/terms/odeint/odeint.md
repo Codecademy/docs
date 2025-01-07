@@ -1,6 +1,6 @@
 ---
 Title: '.odeint()'
-Description: 'A function in SciPy for solving ordinary differential equations using the LSODA method.'
+Description: 'Solves ordinary differential equations in SciPy using the LSODA method, automatically handling stiff and non-stiff problems.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
