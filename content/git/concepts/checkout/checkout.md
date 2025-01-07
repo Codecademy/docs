@@ -13,16 +13,16 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The git **`checkout`** command switches, creates and restores branches in the working directory to a specific state. 
-
-The `git checkout` command also allows switching to a specific commit without changing branches.
+The **`git checkout`** command switches, creates and restores branches in the working directory to a specific state. The `git checkout` command also allows switching to a specific commit without changing branches.
 
 ## Syntax
 
 Checkout with branches:
+
 ```pseudo
 git checkout [options] <branch-name>
 ```
+
 - `<branch-name>` specifies the name of the branch to switch to or create.
 - `[options]` optional flags that can be used with the checkout command. Here are some of the most commonly used options:
   - `-b` creates a new branch with the specified name and switches to it immediately. 
@@ -47,7 +47,7 @@ git checkout existing-branch
 
 ## Create and switch to a new branch
 
-It is possible to create and switch to a new branch with a single command, using the `-b` option:
+It is possible to create and switch to a new branch with a single command using the `-b` option:
 
 ```pseudo
 git checkout -b new-branch
@@ -63,7 +63,7 @@ git checkout <commit-hash> -- example.txt
 
 ## Examine a Previous Commit
 
-`git checkout` also allows to temporarily move to a specific commit without changing branches. This state is called **detached `HEAD` state**:
+`git checkout` also allows temporarily moving to a specific commit without changing branches. This state is called **detached `HEAD` state**:
 
 ```pseudo
 git checkout <commit-hash>
