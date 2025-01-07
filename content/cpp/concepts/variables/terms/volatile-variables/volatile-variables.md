@@ -25,7 +25,7 @@ volatile data_type variable_name;
 
 ## Example
 
-In the following example, a volatile variable signals a worker thread to stop running and stop performing tasks. The `volatile` keyword prevents the compiler from optimizing away, continuously checking the variable while in the loop. The worker thread will continue until the `isRunning` variable is false.
+A volatile variable signals a worker thread to stop running and performing tasks in the following example. The `volatile` keyword prevents the compiler from optimizing away, continuously checking the variable while in the loop. The worker thread will continue until the `isRunning` variable is false.
 
 ```cpp
 #include <iostream>
@@ -50,41 +50,10 @@ public:
 int main() {
     VolatileExample example;
     std::thread workerThread(&VolatileExample::runTask, &example);
-    // Lets the task run for a while before stopping it.
+    // The task runs for a while before stopping it.
     std::this_thread::sleep_for(std::chrono::seconds(5));
     example.stopTask(); // Stop the task
     workerThread.join(); // Waits for the thread to finish.
-    return 0;
-}
-```
-
-## Codebyte Example
-
-Here the `volatile` keyword prevents the compiler from optimizing away reads or writes to the active variable and ensures fetching the most up-to-date value from memory. However, it does not guarantee thread-safe synchronization:
-
-```codebyte/cpp
-#include <iostream>
-#include <thread>
-#include <chrono>
-class VolatileCodeByteExample {
-private:
-    volatile bool active = true;
-public:
-    void execute() {
-        // The loop continues as long as 'active' is true.
-        while (active) {
-            // Simulating processing.
-        }
-        std::cout << "Loop terminated due to 'active' being false." << std::endl;
-    }
-};
-int main() {
-    VolatileCodeByteExample example;
-    std::thread demoThread(&VolatileCodeByteExample::execute, &example);
-    // Changes 'active' to false after a short delay to stop the loop.
-    std::this_thread::sleep_for(std::chrono::seconds(2));
-    example.active = false; // Update the value of 'active'
-    demoThread.join(); // Waits for the thread to finish.
     return 0;
 }
 ```
