@@ -1,7 +1,7 @@
 ---
 Title: 'Checkout'
 Description: 'The git checkout command switches, creates and restores branches in the working directory to a specific state.'
-Subjects: 
+Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
 Tags:
@@ -25,7 +25,7 @@ git checkout [options] <branch-name>
 
 - `<branch-name>` specifies the name of the branch to switch to or create.
 - `[options]` optional flags that can be used with the checkout command. Here are some of the most commonly used options:
-  - `-b` creates a new branch with the specified name and switches to it immediately. 
+  - `-b` creates a new branch with the specified name and switches to it immediately.
   - `-` returns to the previously checked-out branch. This flag does not need the `<branch-name>`.
   - `-f` (--force) forces the checkout, discarding any local changes in the working directory.
 
@@ -70,6 +70,7 @@ git checkout <commit-hash>
 ```
 
 The detached `HEAD` state allows to:
+
 - Examine the state of the repository at that specified commit.
 - Create new branches if the developer needs to start from that point.
 - Any code changes made in this state will not be associated with any existing branch unless a new branch is created.
