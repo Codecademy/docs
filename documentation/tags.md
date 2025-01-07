@@ -209,6 +209,7 @@ Lists
 Logic
 Logical
 Logistic Regression
+Logit
 Loops
 Map
 Machine Learning
@@ -315,6 +316,7 @@ SQL Server
 Stacks
 Static Site
 Statistics
+Statsmodels
 Storage
 Stringr
 Strings
