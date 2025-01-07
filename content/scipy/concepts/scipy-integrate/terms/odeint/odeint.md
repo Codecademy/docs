@@ -19,7 +19,7 @@ The **`odeint()`** function from SciPy's [`integrate`](https://www.codecademy.co
 
 The general syntax for using **`odeint()`** is as follows:
 
-```python
+```pseudo
 from scipy.integrate import odeint
 
 solution = odeint(func, y0, t, args=(), Dfun=None, col_deriv=0, full_output=0, ml=None, mu=None, rtol=None, atol=None, tcrit=None, h0=0.0, hmax=0.0, hmin=0.0, ixpr=0, mxstep=500, mxhnil=10, mxordn=12, mxords=5)
