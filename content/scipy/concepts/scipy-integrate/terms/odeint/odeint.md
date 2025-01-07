@@ -43,7 +43,7 @@ Solve the following ODE:
 
 ### Python Code
 
-```python
+```py
 import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
