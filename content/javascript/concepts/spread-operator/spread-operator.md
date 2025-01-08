@@ -1,6 +1,6 @@
 ---
 Title: 'Spread Operator'
-Description: 'The Spread Operator in JavaScript is used to expand elements of an array, object, or iterable.'
+Description: 'Expands elements of an array, object, or iterable in JavaScript.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
