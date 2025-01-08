@@ -1,6 +1,6 @@
 ---
 Title: 'Ownership'
-Description: 'A compile-time system enforcing strict memory safety rules, preventing errors like dangling pointers and double-free issues.'
+Description: 'A compile-time system enforcing strict memory safety rules.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
