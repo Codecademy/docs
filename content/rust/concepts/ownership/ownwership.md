@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Ownership** in Rust is one of the core memory management concepts that ensures every value has a single owner responsible for it. This system avoids memory leaks and data races without needing a garbage collector. Ownership features include move semantics,where the ownership is transferred between variables, borrowing, and the borrow checker, by which these rules are checked at compile time to keep memory safe.
+**Ownership** in Rust is one of the core memory management concepts that ensures every value has a single owner responsible for it. This system avoids memory leaks and data races without needing a garbage collector. Ownership features include move semantics, where the ownership is transferred between variables, borrowing, and the borrow checker, by which these rules are checked at compile time to keep memory safe.
 
 ## Syntax
 
