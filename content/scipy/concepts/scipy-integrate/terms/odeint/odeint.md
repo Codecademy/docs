@@ -70,15 +70,17 @@ plt.grid()
 plt.show()
 ```
 
+### Explanation
+
+In the code, `odeint` is used to numerically solve the ODE \( \frac{dy}{dt} = -2y + 3 \) with an initial condition \( y(0) = 5 \). The `model` function defines the derivative, and `odeint` integrates this function over the specified time points, returning the solution as an array.
+
 ### Output
 
 The plot shows the solution \( y(t) \) over time, illustrating the system's dynamics as it approaches a steady state.
+
+![Output from above code](https://raw.githubusercontent.com/Codecademy/docs/main/media/odeint_solution_plot.png)
 
 ## Notes
 
 - **`odeint()`** is ideal for many scientific and engineering applications due to its robustness and flexibility.
 - For more advanced control or alternative solvers, consider using **`scipy.integrate.solve_ivp()`**, which offers a more modern API.
-
-## References
-
-- [SciPy Documentation on `odeint`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html)
