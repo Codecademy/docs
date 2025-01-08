@@ -1,6 +1,6 @@
 ---
 Title: 'Props'
-Description: 'In React, components are able to use props, or "properties", to display and share data throughout the application. In other words, props is the information that gets passed from one component to another. Parent components can pass props to their child components, but not the other way around. Props can be many data types, including: - Numbers - Strings - Functions - Objects jsx'
+Description: 'In React, props are read-only data passed from parent to child components, enabling communication and behavior customization through values and functions.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,15 +11,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
+In React, components use **props** (short for "properties") to share and display data throughout the application. Props are passed from parent to child components only and cannot flow in the reverse direction.
 
-In React, components are able to use props, or "properties", to display and share data throughout the application. In other words, props is the information that gets passed from one component to another.
+With functional components, props are handled as parameters in the function definition, making the code simpler and more intuitive.
 
-With the introduction of functional components in modern React, props are handled directly as parameters in the function definition, making the code simpler and more intuitive.
-
-Props flow from parent to child components only, data cannot be passed back from a child to its parent directly.
-
-Parent components can pass props to their child components, but not the other way around. Props can be many data types, including:
-
+Props can be various data types, including:
 - Numbers
 - Strings
 - Functions
@@ -29,7 +25,7 @@ Parent components can pass props to their child components, but not the other wa
 
 ## Syntax
 
-```jsx
+```pseudo
 import React from 'react';
 
 function ParentComponent() {
@@ -45,23 +41,25 @@ export default ParentComponent;
 
 ## `Props` in Functional Components
 
-In functional components, `props` are handled differently compared to class-based components. Unlike class components that use `this.props`, functional components receive `props` directly as an argument. This makes them simpler and more intuitive to use.
+In functional components, props are received directly as an argument, making them simpler and more intuitive compared to class-based components, which use `this.props`.
 
+### Class-Based Components
 
-Class-Based Components
+```js
+class Greeting extends React.Component {
+  render() {
+    // Printing the props object 
+    console.log(this.props);
 
-```jsx
-render() {
-  // Printing the props object 
-  console.log(this.props);
-
-  return <h1>Hello world</h1>;
+    return <h1>Hello world</h1>;
+  }
 }
 ```
 
-Function-Based Components
+### Function-Based Components
 
-```jsx
+```js
+function Greeting(props) {
 function Greeting(props) {
   // Printing the props object
   console.log(props);
@@ -70,34 +68,31 @@ function Greeting(props) {
 }
 ```
 
-
 ## Pass `props` to a Component
 
-You can pass information to a React component. How? By giving that component an attribute:
+Information can be passed to a React component by giving it an attribute:
 
 ```js
 <MyComponent foo="bar" />
 ```
 
-Let’s say that you want to pass a component the message, `"This is some top secret info."`. Here’s how you could do it:
+For example, to pass a message, `"This is some top secret info."`, it can be done like this:
 
 ```js
 <Example message="This is some top secret info." />
 ```
 
-As you can see, to pass information to a component, you need a name for the information that you want to pass.
+To pass information to a component, a name is assigned to the information that is being passed.
 
-In the above example, we used the name `message`. You can use any name you want.
+In the above example, the name `message` is used, but any name can be chosen.
 
-If you want to pass information that isn’t a string, then wrap that information in curly braces. Here’s how you would pass an array:
-
+For non-string information, wrap the data in curly braces. Here’s how an array can be passed:
 
 ```js
 <Greeting myInfo={['top', 'secret', 'lol']} />
 ```
 
-In this next example, we pass several pieces of information to `<Greeting />`. The values that aren’t strings are wrapped in curly braces:
-
+In this next example, several pieces of information are passed to `<Greeting />`, with values that aren't strings wrapped in curly braces:
 
 ```js
 <Greeting name="Frarthur" town="Flundon" age={2} haunted={false} />
@@ -105,8 +100,7 @@ In this next example, we pass several pieces of information to `<Greeting />`. T
 
 In functional components, props are directly received as an argument to the component function.
 
-
-```jsx
+```js
 function Greeting({ name, town, age, haunted }) {
   return (
     <div>
@@ -120,15 +114,14 @@ function Greeting({ name, town, age, haunted }) {
 
 ## Displaying the Props
 
-You will often want a component to display the information that you pass.
+A component often needs to display the information that is passed to it.
 
-Here’s how to make a component display passed-in information:
+To make a component display passed-in information:
 
-1. Find the component class that is going to receive that information.
-2. Access the `prop` directly in the function’s parameter and use it inside the `JSX`.
+1. Identify the component that will receive the information.
+2. Access the prop directly in the function's parameter and use it inside the JSX.
 
-
-```jsx
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 
