@@ -2,8 +2,8 @@
 Title: 'Ownership'
 Description: 'A compile-time system enforcing strict memory safety rules.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
   - 'Developer Tools'
 Tags:
   - 'Alias'
