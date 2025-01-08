@@ -36,7 +36,7 @@ More can be learned about JSON by visiting [json.org](https://www.json.org/).
 {
   "propertyOne": "valueOne",
   "propertyTwo": "valueTwo",
-  "propertyThree": "valueThree",
+  "propertyThree": "valueThree"
 }
 ```
 
@@ -60,12 +60,12 @@ Multiple JSON objects can be collected in an array-like sequence:
   {
     "propertyOne": "valueOne",
     "propertyTwo": "valueTwo",
-    "propertyThree": "valueThree",
+    "propertyThree": "valueThree"
   },
   {
     "propertyA": "valueA",
     "propertyB": "valueB",
-    "propertyC": "valueC",
+    "propertyC": "valueC"
   }
 ]
 ```
