@@ -40,12 +40,12 @@ fn main() {
     println!("s1: {}", s1);
     let s2 = take_ownership(s1);
     // println!("s1: {}", s1);  // Uncommenting this line would result in a compile-time error because 's1' no longer owns the value.
-    println!("s2: {}", s2);  // Prints: s2: Hello, Rust!
+    println!("s2: {}", s2);  // Prints: s2: Hello, Welcome to Codecademy!
 }
 
 fn take_ownership(s: String) -> String {  // Function takes ownership of the passed value
-    println!("Taking ownership: {}", s);  // Prints: Taking ownership: Hello, Rust!
-    s // Ownership is returned to the caller, moving it back to the caller.
+    println!("Taking ownership: {}", s);  // Prints: Taking ownership: Hello, Welcome to Codecademy!
+    s  // Ownership is returned to the caller, moving it back to the caller.
 }
 ```
 
