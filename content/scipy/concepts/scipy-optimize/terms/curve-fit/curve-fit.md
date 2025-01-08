@@ -25,30 +25,29 @@ popt, pcov = curve_fit(f, xdata, ydata, p0=None, sigma=None, absolute_sigma=Fals
 - `xdata`: An array-like input representing the independent variable values (e.g., time, x-coordinates, etc.).
 - `ydata`: An array-like input representing the dependent variable values (e.g., measured data corresponding to `xdata`).
 - `p0`: Inital guess of the parameters.
-- `sigma`: Defines the uncertainty in `ydata`. 
-- `absolute_sigma`: If `True`, `sigma` is interpreted absolutely, and the parameter covariance pcov reflects absolute values. If `False` which is the default, `sigma` is scaled to normalize residual variance. Here, pcov(absolute_sigma=False) = pcov(absolute_sigma=True) * chisq(popt)/(M-N).
+- `sigma`: Defines the uncertainty in `ydata`.
+- `absolute_sigma`: If `True`, `sigma` is interpreted absolutely, and the parameter covariance pcov reflects absolute values. If `False` which is the default, `sigma` is scaled to normalize residual variance. Here, pcov(absolute_sigma=False) = pcov(absolute_sigma=True) \* chisq(popt)/(M-N).
 - `check_finite`: Ensures input arrays do not contain `NaN` or `inf`. If `True`, a `ValueError` is raised when such values are found. Defaults to `True` unless `nan_policy` is explicitly specified.
 - `bounds`: Specifies parameter bounds. Defaults to no bounds. Options include:
-    - An instance of the `Bounds` class.
-    - A 2-tuple of array-like objects or scalars: Scalars apply bounds uniformly and `np.inf` can disable bounds partially.
+  - An instance of the `Bounds` class.
+  - A 2-tuple of array-like objects or scalars: Scalars apply bounds uniformly and `np.inf` can disable bounds partially.
 - `method` - Optimization method. Choices are:
-    - `'lm'` (default for unconstrained problems): Levenberg-Marquardt.
-    - `'trf'` (default if bounds are set): Trust Region Reflective.
-    - `'dogbox'`: Dogleg.
-  `'lm'` cannot handle cases where observations < variables. Use `'trf'` or `'dogbox'` instead.
+  - `'lm'` (default for unconstrained problems): Levenberg-Marquardt.
+  - `'trf'` (default if bounds are set): Trust Region Reflective.
+  - `'dogbox'`: Dogleg.
+    `'lm'` cannot handle cases where observations < variables. Use `'trf'` or `'dogbox'` instead.
 - `jac`: Jacobian matrix computation for `jac(x, ...)`. Defaults to numerical estimation if None. Supports finite difference schemes for `'trf'` and `'dogbox'` methods.
 - `full_output`: If `True`, returns additional information such as infodict, mesg, ier.
 - `nan_policy`: Decides behavior when `NaN` values exist in input data:
-    - None (default): No special handling, behavior depends on implementation.
-    - `'raise'`: Throws an error.
-    - `'omit'`: Ignores NaN values during computation.
+  - None (default): No special handling, behavior depends on implementation.
+  - `'raise'`: Throws an error.
+  - `'omit'`: Ignores NaN values during computation.
 - `**kwargs`: Additional keyword arguments passed to leastsq (if method = 'lm') or least_squares otherwise.
 
 It returns:
 
 - `popt`: A 1D array containing the optimal values of the parameters (`a`, `b`, `c`, etc.) that minimize the difference between the function and the data (`ydata`).
 - `pcov`: A 2D array representing the covariance matrix of the estimated parameters, which provides an estimate of the uncertainties (or standard errors) associated with the optimized parameters.
-
 
 ## Example
 
