@@ -45,7 +45,7 @@ fn main() {
 
 fn take_ownership(s: String) -> String {  // Function takes ownership of the passed value
     println!("Taking ownership: {}", s);  // Prints: Taking ownership: Hello, Rust!
-    s  // Ownership is returned to the caller, moving it back to the caller.
+      // Ownership is returned to the caller, moving it back to the caller.
 }
 ```
 
