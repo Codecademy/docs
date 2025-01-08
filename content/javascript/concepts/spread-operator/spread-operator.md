@@ -2,8 +2,8 @@
 Title: 'Spread Operator'
 Description: 'Expands elements of an array, object, or iterable in JavaScript.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Arrays'
   - 'Functions'
