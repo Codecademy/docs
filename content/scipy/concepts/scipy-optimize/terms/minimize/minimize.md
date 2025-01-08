@@ -27,7 +27,6 @@ scipy.optimize.minimize(fun, x0, args=(), method=None, jac=None, hess=None, cons
 - `fun`: The objective function to be minimized.
 - `x0`: Initial guess for the variables.
 - `args`: Extra arguments passed to the objective function.
-
 - `method`: The optimization method to use (e.g., `'BFGS'`, `'Nelder-Mead'`, `'Powell'`, etc.).
 - `jac` (Optional): The gradient (Jacobian) of the objective function. If not provided, numerical differentiation is used.
 - `hess` (Optional): The Hessian matrix of the objective function. Typically used with second-order methods like 'Newton-CG' or 'trust-ncg'.
@@ -36,11 +35,11 @@ scipy.optimize.minimize(fun, x0, args=(), method=None, jac=None, hess=None, cons
 - `tol` (Optional): Tolerance for termination. Specifies the convergence threshold.
 - `options` (Optional): A dictionary of additional options specific to the selected optimization method (e.g., maximum number of iterations, tolerance, etc.).
 
-## Returns
-
-It returns an OptimizeResult object with the optimal solution, function value at the solution, success status, and other optimization details.
+It returns an `OptimizeResult` object with the optimal solution, function value at the solution, success status, and other optimization details.
 
 ## Example
+
+In this example, we are using the `minimize()` function to find the minimum value of a quadratic objective function:
 
 ```py
 from scipy.optimize import minimize
@@ -60,26 +59,16 @@ print("Optimal value:", result.fun)
 print("Optimal point:", result.x)
 ```
 
+It produces the following output:
+
 ```shell
-Optimal value: 0.0
-Optimal point: [0.]
+Optimal value: 3.5662963072207506e-16
+Optimal point: [-1.88846401e-08]
 ```
 
-This code demonstrates the use of the `minimize()` function from the SciPy library to find the minimum of a simple quadratic function \( f(x) = x^2 \). The initial guess for the variable \( x \) is set to 2. The `minimize()` function performs the optimization and returns the result, which includes the optimal value of the objective function and the point at which this minimum occurs. The output shows that the optimal value is 0, and the optimal point is \( x = 0 \).
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-- See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
 ## Codebyte Example
+
+Run the following codebyte example to understand how the `minimize()` function works: 
 
 ```codebyte/python
 from scipy.optimize import minimize
@@ -98,10 +87,3 @@ result = minimize(objective_function, x0)
 print("Optimal value:", result.fun)
 print("Optimal point:", result.x)
 ```
-
-```shell
-Optimal value: 4.0
-Optimal point: [3.]
-```
-
-This example finds the minimum of the function \( f(x) = (x - 3)^2 + 4 \). The initial guess for the variable \( x \) is set to 0. The `minimize()` function performs the optimization and returns the result, which includes the optimal value of the objective function and the point at which this minimum occurs. The output shows that the optimal value is 4, and the optimal point is \( x = 3 \).
