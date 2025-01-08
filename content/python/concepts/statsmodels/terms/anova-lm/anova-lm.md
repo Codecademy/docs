@@ -53,7 +53,7 @@ anova_results = anova_lm(model, typ=2)
 print(anova_results)
 ```
 
-This example produces an ANOVA table showing `sum of squares`, `degrees of freedom`, `F-statistics`, and `p-values`, helping to assess the significance of each predictor in the model.
+The ANOVA table produced shows the sum of squares, degrees of freedom, F-statistics, and p-values, helping to evaluate the significance of each predictor in the model:
 
 ```shell
                  sum_sq     df          F        PR(>F)
