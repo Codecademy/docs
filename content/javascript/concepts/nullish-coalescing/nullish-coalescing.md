@@ -1,6 +1,6 @@
 ---
 Title: 'Nullish Coalescing'
-Description: 'Returns the right-hand operand if the left-hand operand is null or undefined, otherwise, it returns the left-hand operand.'
+Description: 'Returns the right-hand operand in case the left-hand operand is null or undefined. Otherwise, it returns the left-hand operand.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -9,11 +9,11 @@ Tags:
   - 'Logical'
   - 'Operators'
 CatalogContent:
-- 'introduction-to-javascript'
-- 'paths/front-end-engineer-career-path'
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-A JavaScript **nullish coalescing** (`??`) operator is a logical operator that evaluates the left-hand operand and returns it if it is not nullish (i.e., not `null` or `undefined`). Otherwise, it returns the right-hand operand.
+In JavaScript, the **nullish coalescing** (`??`) operator is a logical operator that evaluates the left-hand operand and returns it if it is not nullish (i.e., not `null` or `undefined`). Otherwise, it returns the right-hand operand.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ value1 ?? value2
 
 ## Example
 
-The following example demonstrates the use of the nullish coalescing operator to provide a default value when the variable is `null` or `undefined`:
+The following example demonstrates the use of the nullish coalescing operator to return `18` as a default or fallback value when the variable `age` is `null` or `undefined`:
 
 ```js
 const age = undefined;
@@ -43,7 +43,7 @@ The above code produces the following output:
 
 ## Codebyte Example
 
-The following example uses the nullish coalescing operator (`??`) to return "Guest" as a fallback value when `name` is `null`:
+The following codebyte example uses the nullish coalescing operator (`??`) to return `"Guest"` as a fallback value when `name` is `null`:
 
 ```codebyte/javascript
 const name = null;
