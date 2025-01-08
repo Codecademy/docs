@@ -5,10 +5,10 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'Spread Operator'
   - 'Arrays'
-  - 'Objects'
   - 'Functions'
+  - 'Objects'
+  - 'Spread Operator'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
