@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `overflow` property controls what happens to content that spills, or overflows, outside its box. 
+The `overflow` property controls what happens to content that spills, or overflows, outside its box.
 
 The most commonly used values are:
 
