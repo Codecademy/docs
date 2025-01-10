@@ -46,6 +46,8 @@ Python has the following arithmetic operators:
 - Modulus, `%`, which returns the remainder of one number divided by another.
 - Floor division, `//`, which returns the integer quotient of two numbers.
 
+The following code demonstrates how to use arithmetic operators in Python:
+
 ```py
 3 + 2 # Addition | Output: 5
 3 - 2 # Subtraction | Output: 1
@@ -67,6 +69,8 @@ Python includes the following assignment operators:
 - The `/=` operator updates a variable by dividing its value and reassigning it.
 - The `%=` operator updates a variable by calculating its modulus against another value and reassigning it.
 
+The following code demonstrates how to use assignment operators in Python:
+
 ```py
 x = 5 # Assign | Output: x = 5
 x += 2 # Increment and Assign | Output: x = 7
@@ -87,6 +91,8 @@ Python has the following comparison operators:
 - Greater than, `>`, for returning `True` if left value greater than right value.
 - Greater than or equal to, `>=`, for returning `True` if left value greater than or equal to right value.
 
+The following code demonstrates how to use comparison operators in Python:
+
 ```py
 3 == 3 # Output: True
 3 != 2 # Output: True
@@ -103,6 +109,8 @@ Python has the following logical operators:
 - The `and` operator returns `True` if both statements are `True`.
 - The `or` operator returns `True` if either statement is `True`.
 - The `not` operator returns `True` if its associated statement is `False`.
+
+The following code demonstrates how to use logical operators in Python:
 
 ```py
 x = 10
@@ -166,7 +174,7 @@ result = 3 + 2 * (4 ** 2) / 2
 print(result) # Output: 19.0
 ```
 
-**Note:** Items at the same precedence are evaluated left to right. The exception to this is exponentiation, which evaluates right to left.
+> **Note:** Items at the same precedence are evaluated left to right. The exception to this is exponentiation, which evaluates right to left.
 
 ## Codebyte Example
 
