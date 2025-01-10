@@ -129,7 +129,7 @@ not_result = not (x < y) # not False -> Output: True
 
 ## Ternary Operators
 
-Ternary operators in Python provide a shorthand way of writing simple `if-else` statements. They are often used for conditional arguments or evaluations.
+Ternary operators in Python provide a shorthand way of writing simple `if-else` statements. They are often used for conditional expressions or evaluations.
 
 ### Syntax
 
@@ -147,8 +147,12 @@ print(status) # Output: Adult
 
 ## Membership operators
 
-- The `in` operator returns `True` if the element on the left is found within the iterable object on the right. Here, the element on the right side of the `in` operator must be an iterable object like a list, string, dictionary, etc.
-- The `not in` operator returns `True` if the element on the left is not found within the iterable object on the right. Again, the element on the right side of the `not in` operator must be an iterable object.
+Membership operators test whether a value exists within an iterable object like a list, string, or dictionary.
+
+- The `in` operator returns `True` if the element on the left is found in the iterable object on the right.
+- The `not in` operator returns `True` if the element on the left is not found in the iterable object on the right.
+
+Below is an example that shows how to use the membership operators in Python.
 
 ```py
 x = "a" in "apple" # Output: True
@@ -169,6 +173,8 @@ Python evaluates an expression in order of precedence as follows:
 - `and`
 - `or`
 
+Below is an example that shows the order of operations in an expression in Python.
+
 ```py
 result = 3 + 2 * (4 ** 2) / 2
 print(result) # Output: 19.0
@@ -177,6 +183,8 @@ print(result) # Output: 19.0
 > **Note:** Items at the same precedence are evaluated left to right. The exception to this is exponentiation, which evaluates right to left.
 
 ## Codebyte Example
+
+The following code demonstrates the use of various operators in Python, including arithmetic, comparison, logical, ternary, and membership operators:
 
 ```codebyte/python
 a = 10
@@ -189,21 +197,29 @@ product = a * b
 quotient = a / b
 modulus = a % b
 
+print(f"Sum: {sum}, Difference: {difference}, Product: {product}, Quotient: {quotient}, Modulus: {modulus}.")
+
 # Comparison
 is_equal = (a == b)
 is_greater = (a > b)
+
+
 
 # Logical
 logical_and = is_equal and is_greater
 logical_or = is_equal or is_greater
 
+
+
 # Ternary
 status = "Greater" if a > b else "Smaller or Equal"
+
+
 
 # Membership
 letter = 'a'
 word = 'apple'
 membership_check = letter in word
 
-print(f"Sum: {sum}, Product: {product}, Status: {status}, In Word: {membership_check}")
+print(f"
 ```
