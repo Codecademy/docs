@@ -46,7 +46,7 @@ Python has the following arithmetic operators:
 - Modulus, `%`, which returns the remainder of one number divided by another.
 - Floor division, `//`, which returns the integer quotient of two numbers.
 
-```python
+```py
 3 + 2 # Addition | Output: 5
 3 - 2 # Subtraction | Output: 1
 3 * 2 # Multiplication | Output: 6
@@ -67,7 +67,7 @@ Python includes the following assignment operators:
 - The `/=` operator updates a variable by dividing its value and reassigning it.
 - The `%=` operator updates a variable by calculating its modulus against another value and reassigning it.
 
-```python
+```py
 x = 5 # Assign | Output: x = 5
 x += 2 # Increment and Assign | Output: x = 7
 x -= 2 # Decrement and Assign | Output: x = 5
@@ -87,7 +87,7 @@ Python has the following comparison operators:
 - Greater than, `>`, for returning `True` if left value greater than right value.
 - Greater than or equal to, `>=`, for returning `True` if left value greater than or equal to right value.
 
-```python
+```py
 3 == 3 # Output: True
 3 != 2 # Output: True
 3 < 5 # Output: True
@@ -104,7 +104,7 @@ Python has the following logical operators:
 - The `or` operator returns `True` if either statement is `True`.
 - The `not` operator returns `True` if its associated statement is `False`.
 
-```python
+```py
 x = 10
 y = 5
 z = 15
@@ -131,7 +131,7 @@ value_if_true if condition else value_if_false
 
 The expression evaluates the `condition`, and if it is `True`, it returns `value_if_true`. Otherwise, it returns `value_if_false`.
 
-```python
+```py
 age = 20
 status = "Adult" if age >= 18 else "Minor"
 print(status) # Output: Adult
@@ -142,7 +142,7 @@ print(status) # Output: Adult
 - The `in` operator returns `True` if the element on the left is found within the iterable object on the right. Here, the element on the right side of the `in` operator must be an iterable object like a list, string, dictionary, etc.
 - The `not in` operator returns `True` if the element on the left is not found within the iterable object on the right. Again, the element on the right side of the `not in` operator must be an iterable object.
 
-```python
+```py
 x = "a" in "apple" # Output: True
 y = "z" not in "apple" # Output: True
 ```
@@ -161,16 +161,16 @@ Python evaluates an expression in order of precedence as follows:
 - `and`
 - `or`
 
-```python
+```py
 result = 3 + 2 * (4 ** 2) / 2
 print(result) # Output: 19.0
 ```
 
 **Note:** Items at the same precedence are evaluated left to right. The exception to this is exponentiation, which evaluates right to left.
 
-## Codebyte
+## Codebyte Example
 
-```python
+```codebyte/python
 a = 10
 b = 5
 
