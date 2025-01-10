@@ -21,7 +21,7 @@ Go provides built-in functions to work with JSON effectively. Below are some of 
 
 | Feature      | json.Marshal                                                                  | json.NewDecoder                                  |
 | ------------ | ----------------------------------------------------------------------------- | ------------------------------------------------ |
-| Input        | Go value (struct, map, etc.)                                                  | io.ReadCloser (network connection)               |
+| Input        | Go value (`struct`, `map`, etc.)                                                  | `io.ReadCloser` (network connection)               |
 | Output       | JSON byte slice                                                               | Go value (struct, map, etc.)                     |
 | Memory Usage | Can potentially use more memory if the input data is large                    | Generally more memory-efficient for large inputs |
 | Use Cases    | Converting Go data to JSON for various purposes, suitable for small data sets | Decoding JSON data from streams or large files   |
