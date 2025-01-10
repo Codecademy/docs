@@ -1,6 +1,6 @@
 ---
 Title: 'Working with JSON'
-Description: 'Working with JSON files, requests, or responses is an essential part of interacting with data that will be used to exchange information between the Frontend and Backend in web applications.'
+Description: 'Working with JSON files, requests, or responses is essential to interacting with data that is exchanged between the Frontend and Backend in web applications.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
