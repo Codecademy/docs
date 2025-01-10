@@ -19,7 +19,7 @@ CatalogContent:
 
 Go provides built-in functions to work with JSON effectively. Below are some of the most commonly used functions:
 
-| Feature      | json.Marshal                                                                  | json.NewDecoder                                  |
+| Feature      | `json.Marshal`                                                                  | `json.NewDecoder`                                  |
 | ------------ | ----------------------------------------------------------------------------- | ------------------------------------------------ |
 | Input        | Go value (`struct`, `map`, etc.)                                                  | `io.ReadCloser` (network connection)               |
 | Output       | JSON byte slice                                                               | Go value (struct, map, etc.)                     |
