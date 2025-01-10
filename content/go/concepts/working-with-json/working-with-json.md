@@ -15,8 +15,9 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-**JSON** is one of the most commonly used data interchange formats for communication between web applications, other services, mobile applications, and so on.
-In Go there are functions dedicated to work with **JSON**, here we are going to describe the most used.
+**JSON** is one of the most commonly used data exchange formats for communication between web applications, other services, mobile applications, etc.
+
+Go provides built-in functions to work with JSON effectively. Below are some of the most commonly used functions:
 
 | Feature      | json.Marshal                                                                  | json.NewDecoder                                  |
 | ------------ | ----------------------------------------------------------------------------- | ------------------------------------------------ |
