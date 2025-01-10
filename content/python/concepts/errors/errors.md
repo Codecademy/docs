@@ -133,7 +133,7 @@ def validate_age(age):
 
 ### Example Custom Exception Usage
 
-Once the custom exception has been used in a function, this function can be used to throw the custom error to the user.
+Once the custom exception is defined, it can be used to handle errors in a `try-except` block. The following example demonstrates how to raise the custom exception when an invalid age is provided.
 
 ```shell
 try:
