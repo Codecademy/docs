@@ -1,6 +1,6 @@
 ---
 Title: 'find_peaks()'
-Description: 'Finds the peaks in a signal.'
+Description: 'Finds the indices of local maxima (peaks) in a 1D signal array based on specified conditions.'
 Subjects:
   - 'Machine Learning'
   - 'Data Visualization'
