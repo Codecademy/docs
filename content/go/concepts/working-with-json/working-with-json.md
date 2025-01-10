@@ -28,7 +28,10 @@ Go provides built-in functions to work with JSON effectively. Below are some of 
 
 ## Marshal and Unmarshal
 
-In Go `json.Unmarshall` is used to decode JSON data formatted as a string. This allows us to add new elements, extract specific values like configurations, and modify existing ones. Subsequently, Next is `json.Marshal` a function that is used to encode the modified Go data structure into a string, which can then be saved to a file or used for other purposes, as demonstrated in the example below:
+
+In Go, `json.Marshal` encodes a Go data structure into a JSON-formatted string. This encoded data can then be saved to a file, transmitted, or used in other applications. 
+
+Conversely, `json.Unmarshal` decodes JSON data into a Go data structure. This allows for operations such as adding new elements, extracting specific values (e.g., configurations), or modifying existing ones, as demonstrated in the example below:
 
 ```go
 package main
