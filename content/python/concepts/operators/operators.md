@@ -203,23 +203,23 @@ print(f"Sum: {sum}, Difference: {difference}, Product: {product}, Quotient: {quo
 is_equal = (a == b)
 is_greater = (a > b)
 
-
+print(f"Is Equal: {is_equal}, Is Greater: {is_greater}")
 
 # Logical
 logical_and = is_equal and is_greater
 logical_or = is_equal or is_greater
 
-
+print(f"Logical AND: {logical_and}, Logical OR: {logical_or}")
 
 # Ternary
 status = "Greater" if a > b else "Smaller or Equal"
 
-
+print(f"Status: {status}")
 
 # Membership
 letter = 'a'
 word = 'apple'
 membership_check = letter in word
 
-print(f"
+print(f"Is '{letter}' in '{word}': {membership_check}")
 ```
