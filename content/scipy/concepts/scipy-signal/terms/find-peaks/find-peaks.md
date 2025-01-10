@@ -41,5 +41,7 @@ peaks, _ = find_peaks(signal)
 # Print the indices of the peaks
 print(peaks)
 ```
-
+```
+[4]
+``` 
 The above code creates a signal with some peaks, finds the peaks in the signal, and prints the indices of the peaks.
