@@ -103,7 +103,9 @@ ZeroDivisionError: division by zero
 
 ## Custom Exceptions
 
-Custom exceptions can be used to define and handle application-specific errors. This can be done by creating a sub-class of the built-in `Exception` class. Custom exceptions are useful for providing descriptive user feedback for unexpected behaviour. They can also help developers in debugging or be used elsewhere in the program. 
+Custom exceptions can be used to define and handle application-specific errors. This can be done by creating a sub-class of the built-in `Exception` class. 
+
+Custom exceptions help provide clear feedback to users about unexpected behavior, aid in debugging, and can be used throughout the program. 
 
 ### Defining Custom Exceptions
 
