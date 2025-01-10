@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-python-3'
 ---
 
-The **`find_peaks()`** function is used to find peaks in a signal. It returns the indices of local maxima in a signal.
+In SciPy, the **`find_peaks()`** function identifies the indices of local maxima (peaks) in a 1D signal array based on specified conditions.
 
 ## Syntax
 
