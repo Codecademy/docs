@@ -53,7 +53,7 @@ WHERE last_name = 'Smith';
 
 ### 2. Avoid `SELECT *`
 
-Fetching all columns from a table increases data transfer time and memory usage. Specify only the columns needed for your query. 
+Fetching all columns from a table increases data transfer time and memory usage. Specify only the columns needed for your query.
 
 Instead of:
 
