@@ -27,7 +27,7 @@ import torch
 import torch.nn.functional as F
 
 output = F.layer_name(input, *parameters, **kwargs)
-Example:
+## Example
 
 ```python
 import torch
