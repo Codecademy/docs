@@ -1,44 +1,58 @@
 ---
 Title: 'Squash'
-Description: 'Squashing in Git merges multiple commits into a single one, helping streamline and clarify the commit history'
+Description: 'Squashing in Git merges multiple commits into one, streamlining and clarifying the commit history.'
 Subjects:
   - 'Bash/Shell'
+  - 'Computer Science'
   - 'Developer Tools'
 Tags:
   - 'Git'
+  - 'Command Line'
   - 'Version Control'
 CatalogContent:
   - 'learn-the-command-line'
   - 'learn-git'
 ---
-Merging a series of smaller commits into a single, cohesive one can significantly clean up your project’s commit history. This practice, commonly known as "squashing", is particularly helpful when previous commits are small tweaks or corrections that clutter the commit history.
 
-Though Git doesn’t offer a straightforward `squash` command, you can achieve this functionality through an interactive rebase. Below, we explore how you can squash your commits for a tidier project history.
+Merging a series of smaller commits into a single, cohesive one can significantly clean up a project’s commit history. This practice, commonly known as "**squashing**", is particularly helpful when previous commits contain minor changes that clutter the commit history.
+
+Though Git doesn’t offer a straightforward `squash` command, you can achieve this through an interactive rebase. Below, we explore how you can squash your commits for a tidier project history.
+
+## Syntax
+
+To squash commits using an interactive rebase, the following command can be used:
+
+```pseudo
+git rebase -i HEAD~<number_of_commits>
+```
 
 ## Example
 
-Imagine you’ve been working on a feature branch, generating several incremental commits. Before integrating these changes into the main branch, you decide it’s best to `squash` your commits to maintain a clean history.
+Imagine working on a feature branch, generating several incremental commits. Before integrating these changes into the main branch, it’s best to `squash` your commits to maintain a clean history.
 
 Your current commit log might look something like this:
 
 ```shell
 12345678 Initial commit
-23456789 Added Santa`s new address
+23456789 Added Santa's new address
 87654321 Corrected grammar in the address
 98765544 Updated house number for Santa
 ```
-These last three commits relate to updates and corrections to the same component, and combining them will create a more meaningful history.
+
+These last three commits relate to updates and corrections to the same component, and squashing them into a single commit will make the commit history more concise and meaningful.
 
 ### Interactive Rebase: The path to squashing
-To start squashing, initiate an interactive rebase for the last three commits:
+
+To start squashing, initiate an interactive rebase for the last three commits the following command can be used:
 
 ```shell
 git rebase -i HEAD~3
 ```
+
 Executing the command will launch an editor displaying something similar to this:
 
 ```shell
-pick 23456789 Added Santa`s new address
+pick 23456789 Added Santa's new address
 pick 87654321 Corrected grammar in the address
 pick 98765544 Updated house number for Santa
 
@@ -60,6 +74,7 @@ pick 98765544 Updated house number for Santa
 #
 # Note that empty commits are commented out
 ```
+
 The goal here is to transform each `pick` command into a `squash` (or simply `s`), thereby combining them into one commit:
 
 ```shell
@@ -68,7 +83,7 @@ squash 87654321 Corrected grammar in the address
 squash 98765544 Updated house number for Santa
 ```
 
-After saving and closing the editor, `Git` will prompt you to draft a new commit message:
+After saving and closing the editor, `Git` will prompts the user to draft a new commit message:
 
 ```shell
 # This is a combination of 3 commits.
@@ -86,7 +101,9 @@ Updated house number for Santa
 
 # Lines starting with '#' are ignored, and an empty message cancels the commit.
 ```
+
 Now, create a clear, comprehensive message that reflects the changes introduced by these combined commits. Remember, lines with `#` are comments and will be excluded.
 
-### Conclusion
-By using interactive rebase to squash commits, you ensure that your project's history remains clear and easy to follow, highlighting key changes without unnecessary clutter. Be cautious when squashing commit history, particularly if your branch is already available on a remote repository. Since squashing alters history, it can lead to complications if done remotely. It's advisable to perform this operation locally before pushing your changes to avoid potential issues.
+## Conclusion
+
+Squashing commits via interactive rebase keeps the project history clear and focused. Caution is advised when squashing a branch already pushed to a remote repository, as it alters history and can cause complications. It's best to perform this locally before pushing changes.
