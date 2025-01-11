@@ -30,7 +30,7 @@ git rebase -i HEAD~<number_of_commits>
 
 Imagine working on a feature branch, generating several incremental commits. Before integrating these changes into the main branch, it’s best to `squash` your commits to maintain a clean history.
 
-Your current commit log might look something like this:
+The current commit log might look something like this:
 
 ```shell
 12345678 Initial commit
