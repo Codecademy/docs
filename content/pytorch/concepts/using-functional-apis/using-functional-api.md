@@ -98,8 +98,3 @@ output = F.relu(x)
 2. **Reusability**: Since functional layers are stateless, they can be reused with different parameters without any side effects.
 3. **Customizability**: Easily define custom layers, loss functions, and activation functions to suit your specific needs.
 
-## Conclusion
-
-Functional APIs in PyTorch offer a powerful and flexible way to define and manipulate neural networks. By understanding and utilizing these APIs, you can create more complex and customized models, experiment with new architectures, and have greater control over the forward pass.
-
-For more information, refer to the [PyTorch documentation](https://pytorch.org/docs/stable/nn.functional.html).
