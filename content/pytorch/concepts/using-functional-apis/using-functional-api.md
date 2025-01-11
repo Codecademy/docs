@@ -58,7 +58,15 @@ tensor([[-1.1570, -1.0890, -0.4154, -0.1795,  1.6989],
 ### Custom Loss Functions
 
 Using functional APIs, you can easily define custom loss functions. This is useful when the predefined loss functions in PyTorch do not meet your requirements.
+## Syntax
 
+```pseudo
+import torch
+
+def custom_loss(output, target):
+    # Define the loss calculation
+    loss = some_loss_function(output, target)
+    return loss
 Example:
 ```python
 def custom_loss(output, target):
