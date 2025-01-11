@@ -20,7 +20,13 @@ CatalogContent:
 ### Functional Layers
 
 Functional layers are stateless and do not store parameters. Instead, parameters are passed explicitly. This can be useful for creating custom layers or when you need to reuse the same layer with different parameters.
+## Syntax
 
+```pseudo
+import torch
+import torch.nn.functional as F
+
+output = F.layer_name(input, *parameters, **kwargs)
 Example:
 
 ```python
