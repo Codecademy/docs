@@ -77,6 +77,7 @@ def custom_loss(output, target):
 output = torch.randn(10, 5)
 target = torch.randn(10, 5)
 loss = custom_loss(output, target)
+print("Custom MSE Loss:", loss)
 ```
 
 ### Activation Functions
