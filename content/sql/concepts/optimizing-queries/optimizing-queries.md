@@ -15,11 +15,9 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-Optimizing SQL queries is the process of improving the efficiency of SQL statements to reduce execution time, minimize resource consumption, and enhance overall database performance.
+**Optimizing SQL queries** is the process of improving the efficiency of SQL statements to reduce execution time, minimize resource consumption, and enhance overall database performance.
 
-This involves using techniques such as indexing, query restructuring, execution plan analysis, and proper use of SQL constructs to ensure that queries retrieve or manipulate data in the most effective way possible.
-
-The goal of optimization is to handle large datasets, complex joins, or frequent transactions efficiently while maintaining accuracy and scalability.
+This involves using techniques such as indexing, query restructuring, execution plan analysis, and proper use of SQL constructs to ensure that queries retrieve or manipulate data in the most effective way possible. The goal of optimization is to handle large datasets, complex joins, or frequent transactions efficiently while maintaining accuracy and scalability.
 
 ## Common Techniques for Query Optimization
 
@@ -55,7 +53,7 @@ WHERE last_name = 'Smith';
 
 ### 2. Avoid `SELECT *`
 
-Fetching all columns from a table increases data transfer time and memory usage. Specify only the columns needed for your query.
+Fetching all columns from a table increases data transfer time and memory usage. Specify only the columns needed for your query. 
 
 Instead of:
 
