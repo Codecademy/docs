@@ -68,7 +68,7 @@ END;
 
 ### 3. LOOP
 
-A `LOOP` without an explicit condition can create an infinite loop. To exit the loop, a conditional `EXIT` statement is used.
+The `LOOP` structure in SQL is a powerful tool for executing a block of statements repeatedly until a specific condition is met. Unlike other loop types, a `LOOP` does not inherently depend on an initial condition. Instead, it runs unconditionally and requires an explicit exit condition within the loop body to stop execution. This flexibility makes it highly versatile but demands careful implementation to avoid infinite loops.
 
 The syntax for using `LOOP` is as follows:
 
@@ -93,6 +93,22 @@ BEGIN
         counter := counter + 1;
     END LOOP;
 END;
+```
+
+## Infinite Loops
+
+Loops without a properly defined exit condition can lead to infinite loops, where the code continues executing indefinitely. This often occurs when the condition in a `WHILE` or `LOOP` structure is never met or incorrectly updated.
+
+Here is an example of an infinite loop in SQL:
+
+```sql
+DECLARE @counter INT = 1;
+
+WHILE @counter > 0
+BEGIN
+    PRINT 'This loop will run indefinitely';
+    -- No exit condition or update to @counter
+END
 ```
 
 > **Note**: Be cautious of creating infinite loops, especially if the exit condition is not correctly defined, as it can lead to system performance degradation.
