@@ -1,16 +1,16 @@
 ---
-Title: '.strptime()' 
+Title: '.strptime()'
 Description: 'Returns a datetime object that represents the parsed date and time from the given string, based on the specified format.'
 Subjects:
-- 'Python'
-- 'Computer Science'
+  - 'Python'
+  - 'Computer Science'
 Tags:
-- 'Date'
-- 'Time'
-- 'Strings'
+  - 'Date'
+  - 'Time'
+  - 'Strings'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/computer-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 The **`.strptime()`** is a method included in the [`datetime`](https://www.codecademy.com/resources/docs/python/dates) module. It is used to parse a string representing a date and/or time and convert it into a `datetime` object using a specified format.
@@ -23,7 +23,7 @@ from datetime import datetime
 datetime.strptime(date_string, format)
 ```
 
-- `date_string`: The string representing the date and/or time to be parsed..
+- `date_string`: The string representing the date and/or time to be parsed.
 - `format`: A string that defines the structure of `date_string` using format codes from the `datetime` module (e.g., `%Y` for a four-digit year, `%m` for a two-digit month).
 
 It returns a `datetime` object, which represents the parsed date and time from the provided `date_string` according to the specified `format`.
