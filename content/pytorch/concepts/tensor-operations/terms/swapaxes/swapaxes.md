@@ -4,7 +4,6 @@ Description: 'Swaps two specified axes (dimensions) of a tensor, effectively rea
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
-  - 'Data Science'
 Tags:
   - 'AI'
   - 'Data Types'
@@ -23,7 +22,7 @@ In PyTorch, the **`.swapaxes()`** function swaps two specified axes (dimensions)
 torch.swapaxes(input, axis0, axis1)
 ```
 
-- `input`: The tensor input array.
+- `input`: The input tensor.
 - `axis0`: The first axis to be swapped.
 - `axis1`: The second axis to be swapped.
 
