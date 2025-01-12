@@ -103,42 +103,58 @@ ZeroDivisionError: division by zero
 
 ## Custom Exceptions
 
-Custom exceptions can be used to define and handle application-specific errors. This can be done by creating a sub-class of the built-in `Exception` class. 
+Custom exceptions can be used to define and handle application-specific errors. This can be done by creating a sub-class of the built-in `Exception` class.
 
-Custom exceptions help provide clear feedback to users about unexpected behavior, aid in debugging, and can be used throughout the program. 
+Custom exceptions help provide clear feedback to users about unexpected behavior, aid in debugging, and can be used throughout the program.
 
 ### Defining Custom Exceptions
 
-To define a custom exception, create a new class that inherits from `Exception` and optionally override the constructor to provide additional information.
+To define a custom exception, a new class can be created by inheriting `Exception` and the constructor can be optionally overridden to provide additional information:
 
 ```pseudo
-#Custom Exception for invalid age input
+# Custom exception for invalid age input
 class InvalidAgeError(Exception):
-    def __init__(self, message, age=None):
-        super().__init__(message)
-        self.age = age
+  def __init__(self, message, age=None):
+    super().__init__(message)
+    self.age = age
 ```
 
 ### Using Custom Exceptions
 
-Once a custom exception has been created, it can raise custom error messages for invalid inputs. For example, the following function raises an error if the user inputs an age not between 0 and 130.
+Once a custom exception has been created, it can raise custom error messages for invalid inputs. For example, the following function raises an error if the user inputs an age not between 0 and 130:
 
 ```pseudo
 def validate_age(age):
-    if not isinstance(age, int):
-        raise InvalidAgeError("Age must be an integer.", age)
-    if age < 0 or age > 130:
-        raise InvalidAgeError(f"{age} is not a valid age. Please choose an age between 0 and 130.", age)
+  if not isinstance(age, int):
+    raise InvalidAgeError("Age must be an integer.", age)
+  if age < 0 or age > 130:
+    raise InvalidAgeError(f"{age} is not a valid age. Please choose an age between 0 and 130.", age)
 ```
 
-### Example Custom Exception Usage
+### Example
 
-Once the custom exception is defined, it can be used to handle errors in a `try-except` block. The following example demonstrates how to raise the custom exception when an invalid age is provided.
+Once the custom exception is defined, it can be used to handle errors in a `try-except` block. The following example demonstrates how to raise the custom exception when an invalid age is provided:
+
+```py
+class InvalidAgeError(Exception):
+  def __init__(self, message, age=None):
+    super().__init__(message)
+    self.age = age
+
+def validate_age(age):
+  if not isinstance(age, int):
+    raise InvalidAgeError("Age must be an integer.", age)
+  if age < 0 or age > 130:
+    raise InvalidAgeError(f"{age} is not a valid age. Please choose an age between 0 and 130.", age)
+
+try:
+  validate_age(-5)
+except InvalidAgeError as e:
+  print(f"Error: {e}")
+```
+
+Here is the output:
 
 ```shell
-try:
-    validate_age(-5)  
-except InvalidAgeError as e:
-    print(f"Error: {e}")
-# Prints: "Error: -5 is not a valid age. Please choose an age between 0 and 130".
+Error: -5 is not a valid age. Please choose an age between 0 and 130.
 ```
