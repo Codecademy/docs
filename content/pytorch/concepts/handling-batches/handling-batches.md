@@ -21,7 +21,6 @@ CatalogContent:
 
 Below is the general syntax for setting up a `DataLoader`:
 
-
 ```py
 from torch.utils.data import DataLoader, Dataset
 
