@@ -65,7 +65,6 @@ plt.grid()
 plt.show()
 ```
 
-### Output
 
 The plot shows the numerical solution of the ODE, illustrating how y(t) evolves over time:
 
