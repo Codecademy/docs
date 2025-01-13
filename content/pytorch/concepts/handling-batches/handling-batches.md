@@ -59,18 +59,18 @@ from torch.utils.data import Dataset, DataLoader
 
 # Define a custom dataset with temperature readings and weather conditions
 class WeatherDataset(Dataset):
-    def __init__(self):
-        # Simple weather data: (temperature, is_sunny)
-        self.data = [
-            (20, 1), (25, 1), (18, 0), (22, 1),
-            (17, 0), (23, 1), (19, 0), (21, 1)
-        ]
+  def __init__(self):
+    # Simple weather data: (temperature, is_sunny)
+    self.data = [
+      (20, 1), (25, 1), (18, 0), (22, 1),
+      (17, 0), (23, 1), (19, 0), (21, 1)
+    ]
 
-    def __len__(self):
-        return len(self.data)
+  def __len__(self):
+    return len(self.data)
 
-    def __getitem__(self, idx):
-        return self.data[idx]
+  def __getitem__(self, idx):
+    return self.data[idx]
 
 # Create dataset and DataLoader
 dataset = WeatherDataset()
@@ -78,10 +78,11 @@ dataloader = DataLoader(dataset, batch_size=3, shuffle=True)
 
 # Process batches
 for batch_idx, batch in enumerate(dataloader):
-    print(f"Batch {batch_idx + 1}")
-    print("Temperatures:", [temp.item() for temp in batch[0]])
-    print("Weather (1=sunny, 0=cloudy):", [w.item() for w in batch[1]])
-    print()
+  print(f"Batch {batch_idx + 1}")
+  print("Temperatures:", [temp.item() for temp in batch[0]])
+  print("Weather (1=sunny, 0=cloudy):", [w.item() for w in batch[1]])
+  print()
+
 ```
 
 The output of the above code will be:
