@@ -5,13 +5,13 @@ Subjects:
   - 'Computer Science'
   - 'Machine Learning'
 Tags:
-    - 'Functions'
-    - 'Machine Learning'
-    - 'Methods'
-    - 'Python'
+  - 'Functions'
+  - 'Machine Learning'
+  - 'Methods'
+  - 'Python'
 CatalogContent:
-    - 'intro-to-py-torch-and-neural-networks'
-    - 'paths/computer-science'
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/computer-science'
 ---
 
 In Pytorch, **`.narrow_copy()`** is a function that creates a new tensor containing the same data as the input tensor but with a narrowed dimension. Unlike [`.narrow()`](https://www.codecademy.com/resources/docs/pytorch/tensor-operations/narrow), which returns a view of the original tensor, `.narrow_copy()` returns a new tensor.
