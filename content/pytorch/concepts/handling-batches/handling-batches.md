@@ -16,7 +16,6 @@ CatalogContent:
 
 **Handling batches** is an essential practice in **PyTorch** for managing and processing large datasets efficiently. PyTorch simplifies batch handling through the `DataLoader` class. Batch processing groups data samples into fixed-sized subsets, enabling parallel computation, faster training, and better use of GPU resources. This technique is especially critical for deep learning workflows, where training on entire datasets at once is often computationally infeasible.
 
-
 ## Syntax
 
 Below is the general syntax for setting up a `DataLoader`:
