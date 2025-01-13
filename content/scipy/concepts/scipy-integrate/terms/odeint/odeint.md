@@ -27,7 +27,7 @@ from scipy.integrate import odeint
 solution = odeint(func, y0, t, args=(), Dfun=None, col_deriv=0, full_output=0, ml=None, mu=None, rtol=None, atol=None, tcrit=None, h0=0.0, hmax=0.0, hmin=0.0, ixpr=0, mxstep=500, mxhnil=10, mxordn=12, mxords=5)
 ```
 
-- `func`: A callable that defines the derivative of the system, \( \frac{dy}{dt} = f(y, t, ...) \).
+- `func`: A callable that defines the derivative of the system, ({dy}/{dt} = f(y, t, ...)).
 - `y0`: Initial condition(s) (array-like). Represents the initial state of the system.
 - `t`: Array of time points at which the solution is to be computed (1D array-like).
 - `args` (Optional): Tuple of extra arguments to pass to `func`.
