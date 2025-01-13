@@ -42,7 +42,6 @@ dataset = CustomDataset(data=[[1, 2], [3, 4], [5, 6]], labels=[0, 1, 0])
 
 # Create a DataLoader for batch processing
 dataloader = DataLoader(dataset, batch_size=2, shuffle=True)
-
 ```
 
 - **`batch_size`**: The number of samples in each batch.
