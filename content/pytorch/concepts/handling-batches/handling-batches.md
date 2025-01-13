@@ -82,7 +82,6 @@ for batch_idx, batch in enumerate(dataloader):
   print("Temperatures:", [temp.item() for temp in batch[0]])
   print("Weather (1=sunny, 0=cloudy):", [w.item() for w in batch[1]])
   print()
-
 ```
 
 The output of the above code will be:
