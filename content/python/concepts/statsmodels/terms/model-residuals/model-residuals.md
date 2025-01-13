@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Model residuals** are calculated as the differences between observed and predicted values for a statistical model. This is a method of error or deviation measuring for each data point by using the formula:
+**Model residuals** are calculated as the differences between observed and predicted values for a statistical model. This method measures error or deviation for each data point by using the formula:
 
 \[
 \text{Residual} = \text{Observed Value} - \text{Predicted Value}
