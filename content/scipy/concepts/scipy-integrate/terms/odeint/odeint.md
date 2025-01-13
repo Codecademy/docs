@@ -57,7 +57,7 @@ t = np.linspace(0, 5, 100)
 solution = odeint(model, y0, t)
 
 # Plot results (indexing the solution to get the actual y values)
-plt.plot(t, solution[:, 0])  # solution is 2D, so we select the first column
+plt.plot(t, solution[:, 0])  Since solution is a 2D array, we index its first column to extract the solution values.
 plt.title('Solution of dy/dt = -2y + 3')
 plt.xlabel('Time (t)')
 plt.ylabel('y(t)')
