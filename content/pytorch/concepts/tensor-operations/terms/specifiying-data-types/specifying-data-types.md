@@ -20,7 +20,7 @@ In PyTorch, specifying the data types for [`tensors`](https://www.codecademy.com
 
 To specify a data type in a PyTorch tensor, use the `dtype` parameter when creating a tensor or the `.to()` method for converting an existing one.
 
-### Syntax for specifying `dtype` when creating a tensor
+### For specifying `dtype` when creating a tensor
 
 ```pseudo
 torch.tensor(data, dtype=torch.<data_type>)
