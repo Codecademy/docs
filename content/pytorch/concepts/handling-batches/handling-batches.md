@@ -27,21 +27,22 @@ from torch.utils.data import DataLoader, Dataset
 
 # Define a custom dataset
 class CustomDataset(Dataset):
-    def __init__(self, data, labels):
-        self.data = data
-        self.labels = labels
+  def __init__(self, data, labels):
+    self.data = data
+    self.labels = labels
 
-    def __len__(self):
-        return len(self.data)
+  def __len__(self):
+    return len(self.data)
 
-    def __getitem__(self, idx):
-        return self.data[idx], self.labels[idx]
+  def __getitem__(self, idx):
+    return self.data[idx], self.labels[idx]
 
 # Instantiate the dataset
 dataset = CustomDataset(data=[[1, 2], [3, 4], [5, 6]], labels=[0, 1, 0])
 
 # Create a DataLoader for batch processing
 dataloader = DataLoader(dataset, batch_size=2, shuffle=True)
+
 ```
 
 - **`batch_size`**: The number of samples in each batch.
