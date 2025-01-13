@@ -13,7 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`odeint()`** function from SciPy's [`integrate`](https://www.codecademy.com/resources/docs/scipy/scipy-integrate) module is a powerful tool for solving initial value problems for ordinary differential equations (ODEs). It integrates a system of ordinary differential equations using the LSODA method from the FORTRAN library `odepack`. This method automatically switches between stiff and non-stiff methods based on the problem characteristics.
+The **`odeint()`** function from SciPy's [`integrate`](https://www.codecademy.com/resources/docs/scipy/scipy-integrate) module is a powerful tool for solving initial value problems for _Ordinary Differential Equations (ODEs)_. 
+
+It integrates a system of ordinary differential equations using the LSODA method from the FORTRAN library `odepack`, which automatically switches between stiff and non-stiff methods based on the problem's characteristics.
 
 ## Syntax
 
