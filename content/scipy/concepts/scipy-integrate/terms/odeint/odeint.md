@@ -34,7 +34,7 @@ solution = odeint(func, y0, t, args=(), Dfun=None, col_deriv=0, full_output=0, m
 
 Other parameters are optional and control solver behavior, precision, and output verbosity.
 
-It returns a 2D NumPy array, where each row corresponds to the solution at a specific time point in `t`.
+It returns a 2D [NumPy](https://www.codecademy.com/resources/docs/numpy) array, where each row corresponds to the solution at a specific time point in `t`.
 
 ## Example
 
