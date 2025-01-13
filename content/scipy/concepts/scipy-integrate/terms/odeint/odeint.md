@@ -66,7 +66,7 @@ plt.show()
 ```
 
 
-The plot shows the numerical solution of the ODE, illustrating how y(t) evolves over time:
+The output plot shows the numerical solution of the ODE, illustrating how `y(t)` evolves over time:
 
 ![Output from above code](https://raw.githubusercontent.com/Codecademy/docs/main/media/odeint_solution_plot.png)
 
