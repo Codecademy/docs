@@ -19,7 +19,8 @@ CatalogContent:
 
 ## Syntax
 
-PyTorch simplifies batch handling through the `DataLoader` class. Below is the general syntax for setting up a `DataLoader`:
+Below is the general syntax for setting up a `DataLoader`:
+
 
 ```py
 from torch.utils.data import DataLoader, Dataset
