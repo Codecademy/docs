@@ -22,7 +22,7 @@ CatalogContent:
 \text{Residual} = \text{Observed Value} - \text{Predicted Value}
 \]
 
-Residuals are a the key concept used in statistical modeling for evaluating the goodness of fit, identifying patterns, detecting outliers, and validating assumptions regarding the model. Analysis of residuals helps in enhancing model accuracy and reliability by providing information about areas where the model is underperforming.
+Residuals are a key concept in statistical modeling. They are used to evaluate the goodness of fit, identify patterns, detect outliers, and validate assumptions about the model. Analyzing residuals helps enhance model accuracy and reliability by providing information about areas where the model is underperforming.
 
 ## Syntax
 
