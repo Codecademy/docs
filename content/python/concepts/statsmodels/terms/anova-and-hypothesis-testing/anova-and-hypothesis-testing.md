@@ -48,8 +48,8 @@ print(anova_table)
 - `dependent_variable ~ C(independent_variable)`: This formula defines the relationship between the `dependent` and `independent` variables in the formula. The `C()` function treats the independent variable as categorical.
 - `data=dataset`: This specifies the dataset for analysis. It must be a structured data format, such as a **[Pandas DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe)**, where the variables in the formula are columns in the dataset.
 - `sm.stats.anova_lm(model, typ=1)`: This function performs an [ANOVA analysis](https://www.codecademy.com/resources/docs/python/statsmodels/anova-lm) on the fitted model:
- - `model`: This is the fitted model created by the `ols` function.
- - `typ=1`: This specifies the type of sum of squares to use in the ANOVA calculation. Type 1 is a sequential sum of squares, which evaluates each variable in the order it appears in the formula.
+  - `model`: This is the fitted model created by the `ols` function.
+  - `typ=1`: This specifies the type of sum of squares to use in the ANOVA calculation. Type 1 is a sequential sum of squares, which evaluates each variable in the order it appears in the formula.
 
 ## Example
 
