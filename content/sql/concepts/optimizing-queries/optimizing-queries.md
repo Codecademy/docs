@@ -17,11 +17,11 @@ CatalogContent:
 
 **Optimizing SQL queries** is the process of improving the efficiency of SQL statements to reduce execution time, minimize resource consumption, and enhance overall database performance.
 
-This involves using techniques such as indexing, query restructuring, execution plan analysis, and proper use of SQL constructs to ensure that queries retrieve or manipulate data in the most effective way possible. The goal of optimization is to handle large datasets, complex joins, or frequent transactions efficiently while maintaining accuracy and scalability.
+This involves using techniques such as indexing, query restructuring, execution plan analysis, and proper use of SQL constructs to ensure that queries retrieve or manipulate data most effectively. Optimisation aims to handle large datasets, complex joins, or frequent transactions efficiently while maintaining accuracy and scalability.
 
 ## Common Techniques for Query Optimization
 
-### 1. **Use Indexes Effectively**
+### **Use Indexes Effectively**
 
 Indexes are essential for speeding up data retrieval. They act as pointers to the rows in a table, allowing the database to locate data without scanning the entire table.
 
@@ -51,7 +51,7 @@ FROM employees
 WHERE last_name = 'Smith';
 ```
 
-### 2. Avoid `SELECT *`
+### Avoid `SELECT *`
 
 Fetching all columns from a table increases data transfer time and memory usage. Specify only the columns needed for your query.
 
@@ -69,7 +69,7 @@ SELECT first_name, last_name
 FROM employees;
 ```
 
-### 3. Filter Early with `WHERE`
+### Filter Early with `WHERE`
 
 Reduce the number of rows processed by filtering data as early as possible in the query using the `WHERE` clause.
 
@@ -90,7 +90,7 @@ WHERE department = 'Sales'
 ORDER BY last_name;
 ```
 
-### 4. Avoid Functions on Indexed Columns in `WHERE` Clauses
+### Avoid Functions on Indexed Columns in `WHERE` Clauses
 
 When using functions on columns in the `WHERE` clause, the database cannot use an index on that column effectively, leading to a full table scan. Rewrite queries to avoid applying functions directly to indexed columns.
 
@@ -114,7 +114,7 @@ WHERE hire_date BETWEEN '2023-01-01' AND '2023-12-31';
 
 By transforming the query, the index on `hire_date` can be used effectively, improving performance.
 
-### 5. Use Joins Instead of Subqueries
+### Use Joins Instead of Subqueries
 
 In many cases, joins perform better than subqueries because the database can optimize them more efficiently.
 
@@ -135,14 +135,14 @@ JOIN departments d ON e.department_id = d.id
 WHERE d.name = 'Sales';
 ```
 
-### 6. Optimize `JOIN`
+### Optimize `JOIN`
 
 - Ensure the joined columns are indexed.
 - Use the appropriate join type (e.g., INNER `JOIN`, `LEFT JOIN`) for the specific use case.
 
-### 7. Limit the Use of `DISTINCT`
+### Limit the Use of `DISTINCT`
 
-Using `DISTINCT` can be costly for performance as it requires sorting and deduplication. Use it only when absolutely necessary.
+Using `DISTINCT` can be costly for performance, requiring sorting and deduplication. Use it only when absolutely necessary.
 
 Instead of:
 
@@ -159,7 +159,7 @@ FROM employees
 GROUP BY department;
 ```
 
-### 8. Partition Large Tables
+### Partition Large Tables
 
 Partitioning divides a table into smaller, more manageable pieces based on column values, improving query performance for specific subsets of data.
 
@@ -169,10 +169,10 @@ To partition a `sales` table by year:
 CREATE TABLE sales_2023 PARTITION OF sales FOR VALUES IN (2023);
 ```
 
-### 9. Use Caching
+### Use Caching
 
 Cache frequently executed queries to reduce database load. This can be done using a caching layer like Redis or in-memory caching.
 
-### 10. Optimize Data Types
+### Optimize Data Types
 
-Use appropriate data types for columns to minimize storage and processing overhead. For example, use `INT` instead of `BIGINT` when possible, or `CHAR` instead of `VARCHAR` for fixed-length data.
+Use appropriate data types for columns to minimize storage and processing overhead. For example, use `INT` instead of `BIGINT` when possible or `CHAR` instead of `VARCHAR` for fixed-length data.
