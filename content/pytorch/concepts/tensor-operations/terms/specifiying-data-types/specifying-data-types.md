@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In PyTorch, specifying the data types for [`tensors`](https://www.codecademy.com/resources/docs/pytorch/tensors) is crucial as they are the core data structures used to store and process data. Each tensor's data type (dtype) defines the kind of values it holds (e.g., integers, floats, booleans), ensuring precision, improving performance, and maintaining compatibility during computations.
+In PyTorch, specifying the data types for [`tensors`](https://www.codecademy.com/resources/docs/pytorch/tensors) is crucial as they are the core data structures used to store and process data. Each tensor's data type (`dtype`) defines the kind of values it holds (e.g., `integer`, `float`, `boolean`), ensuring precision, improving performance, and maintaining compatibility during computations.
 
 ## Syntax
 
