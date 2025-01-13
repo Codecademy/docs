@@ -72,4 +72,6 @@ The output plot shows the numerical solution of the ODE, illustrating how `y(t)`
 
 ![A plot showing the solution of an ODE using odeint, with time on the x-axis and y(t) on the y-axis.](https://raw.githubusercontent.com/Codecademy/docs/main/media/odeint_solution_plot.png)
 
-`odeint()` is ideal for many scientific and engineering applications due to its robustness and flexibility. For more advanced control or alternative solvers, consider using `scipy.integrate.solve_ivp()`, which offers a more modern API.
+`odeint()` is ideal for many scientific and engineering applications due to its robustness and flexibility. 
+
+> For more advanced control or alternative solvers, consider using `scipy.integrate.solve_ivp()`, which offers a more modern API.
