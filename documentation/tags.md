@@ -336,6 +336,7 @@ Tags
 Target
 Technical Interviews
 Templates
+Tensor
 TensorFlow
 Text-To-Image
 Text Processing
