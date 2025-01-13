@@ -38,7 +38,7 @@ It returns a 2D [NumPy](https://www.codecademy.com/resources/docs/numpy) array, 
 
 ## Example
 
-The code below numerically solves a first-order ordinary differential equation (ODE) using odeint. The model function defines the ODE, odeint integrates it over specified time points starting from the initial condition, and the results are plotted to visualize the solution:
+The code below numerically solves a first-order ordinary differential equation using `odeint`. The model function defines the ODE, and `odeint` integrates it over specified time points starting from the initial condition, and the results are plotted to visualize the solution:
 
 ```py
 import numpy as np
