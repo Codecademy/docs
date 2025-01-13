@@ -51,7 +51,8 @@ dataloader = DataLoader(dataset, batch_size=2, shuffle=True)
 
 ## Example
 
-Here is an example that demonstrates how to iterate through batches using DataLoader. This code defines a dataset, initializes the DataLoader, and processes the data in batches:
+Here is an example that demonstrates how to iterate through batches using `DataLoader`. This code defines a dataset, initializes the DataLoader, and processes the data in batches:
+
 
 ```py
 from torch.utils.data import Dataset, DataLoader
