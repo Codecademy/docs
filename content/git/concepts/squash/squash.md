@@ -89,20 +89,20 @@ squash 98765544 Updated house number for Santa
 After saving and closing the editor, `Git` will prompt the user to draft a new commit message:
 
 ```shell
-# This is a combination of 3 commits.  
-# The first commit's message is:  
-Added Santa's new address  
-# This is the 2nd commit message:  
-Corrected grammar in the address  
-# This is the 3rd commit message:  
-Updated house number for Santa  
-# Lines starting with '#' are ignored, and an empty message cancels the commit.  
+# This is a combination of 3 commits.
+# The first commit's message is:
+Added Santa's new address
+# This is the 2nd commit message:
+Corrected grammar in the address
+# This is the 3rd commit message:
+Updated house number for Santa
+# Lines starting with '#' are ignored, and an empty message cancels the commit.
 ```
 
-Now, create a clear, comprehensive message reflecting the changes these combined commits introduced. 
+Now, create a clear, comprehensive message reflecting the changes these combined commits introduced.
 
 > **Note**: Remember, lines with `#` are comments and will be excluded.
 
-Squashing commits via an interactive rebase keeps the project history clean, concise, and easier to navigate. 
+Squashing commits via an interactive rebase keeps the project history clean, concise, and easier to navigate.
 
 > **Note**: Caution is advised when squashing commits in a branch that has already been pushed to a remote repository, as it rewrites history and may cause conflicts. To avoid such issues, perform squashing locally before pushing changes.
