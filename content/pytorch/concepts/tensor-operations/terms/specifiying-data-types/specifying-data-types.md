@@ -28,11 +28,11 @@ torch.tensor(data, dtype=torch.<data_type>)
 
 - `data`: The input data used to create the tensor. This can be a list, NumPy array, or another tensor.
 - `dtype`: Specifies the data type of the tensor. Common data types include:
-  - `torch.float32` (default): 32-bit floating-point.
-  - `torch.float64`: 64-bit floating-point.
-  - `torch.int32`: 32-bit integer.
-  - `torch.int64`: 64-bit integer.
-  - `torch.bool`: Boolean.
+  - `torch.float32` (default): 32-bit floating-point
+  - `torch.float64`: 64-bit floating-point
+  - `torch.int32`: 32-bit integer
+  - `torch.int64`: 64-bit integer
+  - `torch.bool`: Boolean
 
 ### For converting an existing tensor to a different data type
 
