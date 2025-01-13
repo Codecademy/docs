@@ -5,9 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
+  - 'Data'
+  - 'Math'
   - 'Python'
-  - 'Differential Equations'
-  - 'SciPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -17,7 +17,7 @@ The **`odeint()`** function from SciPy's [`integrate`](https://www.codecademy.co
 
 ## Syntax
 
-The general syntax for using **`odeint()`** is as follows:
+The general syntax for using `odeint()` is as follows:
 
 ```pseudo
 from scipy.integrate import odeint
@@ -36,14 +36,7 @@ It returns a 2D NumPy array, where each row corresponds to the solution at a spe
 
 ## Example
 
-Solve the following ODE:
-\[
-\frac{dy}{dt} = -2y + 3, \quad y(0) = 5.
-\]
-
-In the code, `odeint` is used to numerically solve the ODE \( \frac{dy}{dt} = -2y + 3 \) with an initial condition \( y(0) = 5 \). The `model` function defines the derivative, and `odeint` integrates this function over the specified time points, returning the solution as an array.
-
-### Python Code
+The code below numerically solves a first-order ordinary differential equation (ODE) using odeint. The model function defines the ODE, odeint integrates it over specified time points starting from the initial condition, and the results are plotted to visualize the solution:
 
 ```py
 import numpy as np
@@ -74,11 +67,8 @@ plt.show()
 
 ### Output
 
-The plot shows the solution \( y(t) \) over time, illustrating the system's dynamics as it approaches a steady state.
+The plot shows the numerical solution of the ODE, illustrating how y(t) evolves over time:
 
 ![Output from above code](https://raw.githubusercontent.com/Codecademy/docs/main/media/odeint_solution_plot.png)
 
-## Notes
-
-- **`odeint()`** is ideal for many scientific and engineering applications due to its robustness and flexibility.
-- For more advanced control or alternative solvers, consider using **`scipy.integrate.solve_ivp()`**, which offers a more modern API.
+`odeint()` is ideal for many scientific and engineering applications due to its robustness and flexibility. For more advanced control or alternative solvers, consider using `scipy.integrate.solve_ivp()`, which offers a more modern API.
