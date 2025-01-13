@@ -34,7 +34,7 @@ torch.tensor(data, dtype=torch.<data_type>)
   - `torch.int64`: 64-bit integer.
   - `torch.bool`: Boolean.
 
-### Syntax for converting an existing tensor to a different data type
+### For converting an existing tensor to a different data type
 
 ```pseudo
 tensor.to(torch.<data_type>)
