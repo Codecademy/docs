@@ -41,6 +41,8 @@ Solve the following ODE:
 \frac{dy}{dt} = -2y + 3, \quad y(0) = 5.
 \]
 
+In the code, `odeint` is used to numerically solve the ODE \( \frac{dy}{dt} = -2y + 3 \) with an initial condition \( y(0) = 5 \). The `model` function defines the derivative, and `odeint` integrates this function over the specified time points, returning the solution as an array.
+
 ### Python Code
 
 ```py
@@ -69,10 +71,6 @@ plt.ylabel('y(t)')
 plt.grid()
 plt.show()
 ```
-
-### Explanation
-
-In the code, `odeint` is used to numerically solve the ODE \( \frac{dy}{dt} = -2y + 3 \) with an initial condition \( y(0) = 5 \). The `model` function defines the derivative, and `odeint` integrates this function over the specified time points, returning the solution as an array.
 
 ### Output
 
