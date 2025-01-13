@@ -1,6 +1,6 @@
 ---
 Title: 'Model Residuals'
-Description: 'Analyzes residuals for Python statistical models,measure model performance, detect patterns, and diagnose problems using concise syntax and examples.'
+Description: 'Analyzes residuals for Python statistical models, measure model performance, detect patterns, and diagnose problems using concise syntax and examples.'
 Subjects:
   - 'AI'
   - 'Data Science'
