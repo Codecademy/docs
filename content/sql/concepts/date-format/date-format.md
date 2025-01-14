@@ -43,7 +43,7 @@ FROM table_name;
 
 ## Example
 
-SQL Server stores dates in `YYYY-MM-DD` format by default but allows you to use `FORMAT()` to display custom formats:
+SQL Server stores dates in `YYYY-MM-DD` format by default but allow to use `FORMAT()` to display custom formats:
 
 ```sql
 SELECT FORMAT('2024-12-05', 'dd/MM/yyyy') AS formatted_date;
