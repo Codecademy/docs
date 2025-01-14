@@ -29,48 +29,43 @@ scipy.stats.chisquare(f_obs, f_exp=None, ddof=0, axis=0)
 
 ## Example
 
-In this example, a chi-square test is performed to compare observed proportions across four categories with the expected proportions to determine if they significantly differ:
+In this example, a chi-square test is performed to compare observed proportions across four categories with the expected proportions to determine if they differ:
 
 ```py
-from statsmodels.stats.proportion import proportions_chisquare
+from scipy.stats import chisquare
 
 # Observed counts
 counts = [150, 80, 100, 70]
 
-# Total number of observations
-nobs = sum(counts)
+# For equal expected proportions (null hypothesis)
+# Expected counts would be total/number of categories
+n_categories = len(counts)
+total = sum(counts)
+expected = [total/n_categories] * n_categories
 
-# Perform the chi-square test
-chi2, p_value, expected_table = proportions_chisquare(counts, nobs)
+# Perform chi-square test
+chi2_stat, p_value = chisquare(
+  f_obs=counts,        # Observed frequencies
+  f_exp=expected,      # Expected frequencies
+  ddof=0               # Degrees of freedom adjustment
+)
 
-# Print the results
-print(f"Chi-square statistic: {chi2}")
+# Print results
+print(f"Chi-square statistic: {chi2_stat}")
 print(f"P-value: {p_value}")
-print("\nExpected Counts:")
-print(expected_table)
 
-# Interpret the p-value
+# Interpret results
 alpha = 0.05
 if p_value < alpha:
-    print("\nReject the null hypothesis: The proportions are significantly different.")
+  print("Reject the null hypothesis: The proportions are significantly different.")
 else:
-    print("\nFail to reject the null hypothesis: The proportions are not significantly different.")
+  print("Fail to reject the null hypothesis: The proportions are not significantly different.")
 ```
 
 The code above generates the ouput as follows:
 
 ```shell
-Chi-square statistic: 50.66666666666667
-P-value: 5.761101160109705e-11
-
-Expected Counts:
-(array([[150., 250.],
-       [ 80., 320.],
-       [100., 300.],
-       [ 70., 330.]]), array([[100., 300.],
-       [100., 300.],
-       [100., 300.],
-       [100., 300.]]))
-
+Chi-square statistic: 38.0
+P-value: 2.8264748814532456e-08
 Reject the null hypothesis: The proportions are significantly different.
 ```
