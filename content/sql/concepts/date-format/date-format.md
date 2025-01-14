@@ -51,6 +51,8 @@ SELECT FORMAT('2024-12-05', 'dd/MM/yyyy') AS formatted_date;
 
 The output of the above code will be as follows:
 
+```shell
 | formatted_date |
 | -------------- |
 | 05/12/2024     |
+```
