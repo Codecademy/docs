@@ -50,9 +50,9 @@ This gives an output as follows:
 In strict mode, this results in an error, helping prevent unintended global variables:
 
 ```js
-"use strict";
+'use strict';
 x = 10;
- // Throws an error: 'x is not defined'
+// Throws an error: 'x is not defined'
 ```
 
 The output for this code will be:
