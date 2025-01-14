@@ -29,8 +29,9 @@ class ModelParallel(nn.Module)
 The layers or modules should then be assigned to a specified GPU. The following example demonstrates how this can be accomplished.
 
 ```py
-# Define a model split across two GPUs
+
 class ModelParallel(nn.Module):
+    # Define a model split across two GPUs
     def __init__(self):
         super(ModelParallel, self).__init__()
         self.layer1 = nn.Linear(1000, 500).to('cuda:0')  # First GPU
