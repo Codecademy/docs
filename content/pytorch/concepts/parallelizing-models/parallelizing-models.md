@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-a-machine-learning-model'
 ---
 
-**Model parallelization** trains deep learning models that require more memory than what is available on a single graphic processing unit (GPU). It is used within the pyTorch library. The model is separated into parts (i.e. layers or modules) and assigned to different GPUs. The GPUs perform the computations simultaneously, allowing for faster processing of large models. The GPUs communicate with each other and share the data to ensure the data output from one GPU is used in another GPU as needed.
+**Model parallelization** in PyTorch allows the training of deep learning models that require more memory than a single GPU can provide. The model is divided into different parts (e.g., layers or modules), with each part assigned to a separate GPU. These GPUs perform computations simultaneously, speeding up the processing of large models. They communicate with each other and share data to ensure that the output from one GPU can be used by another when necessary.
 
 ## Setting up the environment
 
