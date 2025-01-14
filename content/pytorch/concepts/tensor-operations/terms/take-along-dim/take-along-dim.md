@@ -1,12 +1,25 @@
-# .take_along_dim()
-
-## Introduction
-
-The `.take_along_dim()` function in PyTorch is used to select elements from a tensor along a specified dimension. This is particularly useful for advanced indexing and when working with multi-dimensional arrays.
-
-It allows for selecting elements based on indices provided in a separate tensor.
-
 ---
+Title: '.take_along_dim()'
+Description: 'Select elements from a tensor along a specified dimension using indices.'
+Subjects:
+  - 'Data Science'
+  - 'AI'
+  - 'Computer Science'
+Tags:
+  - 'Tensors'
+  - 'PyTorch'
+  - 'Deep Learning'
+  - 'Neural Networks'
+  - 'Machine Learning'
+CatalogContent:
+  - 'learn-pytorch'
+  - 'paths/machine-learning'
+  - 'paths/data-science'
+---
+
+The **`.take_along_dim()`** function in PyTorch is used to select elements from a tensor along a specified dimension. This operation is essential for advanced indexing operations and manipulating multi-dimensional tensors in deep learning applications.
+
+Similar to **`.take()`**, which extracts elements based on indices and always returns a 1D tensor, **`.take_along_dim()`** provides a more flexible approach by allowing indexing along a specific dimension while preserving the tensor's shape.
 
 ## Syntax
 
@@ -16,54 +29,60 @@ torch.take_along_dim(input, indices, dim)
 
 ### Parameters
 
-- **input (Tensor)**: The source tensor.
-- **indices (Tensor)**: The indices to gather along the specified dimension.
-- **dim (int)**: The dimension along which to index.
+- **input (Tensor)**: The source tensor from which elements will be selected.
+- **indices (Tensor)**: A tensor of indices specifying which elements to select along the specified dimension.
+- **dim (int)**: The dimension along which to perform the selection.
 
 ### Returns
 
-- **Tensor**: A tensor containing the gathered elements.
-
----
+- **Tensor**: A new tensor containing the selected elements, maintaining the same dimensionality as the input tensor.
 
 ## Example
 
-### Example 1: Basic Usage
+### Basic Usage
 
 ```python
 import torch
 
-# Source tensor
-input_tensor = torch.tensor([[10, 20, 30], [40, 50, 60]])
+# Create a source tensor
+input_tensor = torch.tensor([[10, 20, 30], 
+                           [40, 50, 60]])
 
-# Indices tensor
-indices = torch.tensor([[2, 1, 0], [1, 0, 2]])
+# Define indices for selection
+indices = torch.tensor([[2, 1, 0], 
+                       [1, 0, 2]])
 
-# Gathering elements along dimension 1
-output = torch.take_along_dim(input_tensor, indices, dim=1)
-print(output)
+# Select elements along dimension 1
+result = torch.take_along_dim(input_tensor, indices, dim=1)
+print(result)
 ```
 
-### Example 1 Output
+### Output
 
 ```
 tensor([[30, 20, 10],
         [50, 40, 60]])
 ```
 
----
-
-### Example 2: Multi-Dimensional Tensor
+### Advanced Example: Multi-Dimensional Selection
 
 ```python
-input_tensor = torch.tensor([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
-indices = torch.tensor([[[0, 1], [1, 0]], [[0, 0], [1, 1]]])
+import torch
 
-output = torch.take_along_dim(input_tensor, indices, dim=2)
-print(output)
+# Create a 3D tensor
+input_tensor = torch.tensor([[[1, 2], [3, 4]], 
+                           [[5, 6], [7, 8]]])
+
+# Define indices for selection
+indices = torch.tensor([[[0, 1], [1, 0]], 
+                       [[0, 0], [1, 1]]])
+
+# Select elements along the last dimension
+result = torch.take_along_dim(input_tensor, indices, dim=2)
+print(result)
 ```
 
-### Example 2 Output
+### Multi-Dimensional Selection Output
 
 ```
 tensor([[[1, 2],
@@ -72,16 +91,49 @@ tensor([[[1, 2],
          [8, 8]]])
 ```
 
----
+## Key Features
+
+1. Preserves tensor dimensionality during selection
+2. Supports batch operations
+3. Works with any number of dimensions
+4. Maintains gradient information for backpropagation
+
+## Common Use Cases
+
+- Sorting tensor elements
+- Implementing attention mechanisms
+- Selecting top-k elements
+- Custom pooling operations
 
 ## Notes
 
-- The dimensions of `indices` must match the dimensions of the `input` tensor.
-- This function is helpful in implementing algorithms where selecting specific data points along certain dimensions is required.
+- The indices tensor must have the same shape as the input tensor
+- Supports automatic differentiation
+- More flexible than `.take()` for multi-dimensional operations
+- Memory-efficient for large tensor operations
 
----
+## Codebyte Example
 
-## Related Concepts
+```codebyte/python
+import torch
 
-- `.gather()`
-- Advanced Indexing in PyTorch
+# Create a tensor
+tensor = torch.tensor([[10, 20, 30], 
+                      [40, 50, 60]])
+
+# Create indices for top-2 values along dim=1
+indices = torch.topk(tensor, k=2, dim=1).indices
+
+# Select top-2 values using take_along_dim
+result = torch.take_along_dim(tensor, indices, dim=1)
+print("Original tensor:")
+print(tensor)
+print("\nTop-2 values along dimension 1:")
+print(result)
+```
+
+## Related Operations
+
+- **[`.take()`](../take/take.md)**: For 1D tensor selection
+- **[`.gather()`](../gather/gather.md)**: Alternative indexing operation
+- **[`.index_select()`](../index-select/index-select.md)**: Simple dimension-based selection
