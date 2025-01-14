@@ -49,7 +49,6 @@ x = torch.randn(64, 1000)
 output = model(x)
 ```
 
-## Output
 
 The output of the above code would result in a tensor. The exact values would depend on the initialization of the model weights and the input data, but could be expected to look similar to the following output:
 
