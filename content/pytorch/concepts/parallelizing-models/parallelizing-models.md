@@ -29,9 +29,10 @@ class ModelParallel(nn.Module)
 The layers or modules should then be assigned to a specified GPU. The following example demonstrates how this can be accomplished.
 
 ```py
+import torch.nn as nn
 
+# Define a model split across two GPUs
 class ModelParallel(nn.Module):
-    # Define a model split across two GPUs
     def __init__(self):
         super(ModelParallel, self).__init__()
         self.layer1 = nn.Linear(1000, 500).to('cuda:0')  # First GPU
@@ -48,7 +49,6 @@ model = ModelParallel()
 x = torch.randn(64, 1000)
 output = model(x)
 ```
-
 
 The output of the above code would result in a tensor. The exact values would depend on the initialization of the model weights and the input data, but could be expected to look similar to the following output:
 
