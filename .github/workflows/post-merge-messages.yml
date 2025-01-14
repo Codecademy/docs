@@ -43,7 +43,6 @@ jobs:
             ${{ env.urls }}
             
             Please note it may take a little while for changes to become visible.
-            If you're appearing as anonymous and want to be credited, see [here](https://discuss.codecademy.com/t/my-contribution-is-live-but-im-not-being-shown-as-a-contributor-why-is-this/758036).
+            If you're appearing as anonymous and want to be credited, visit the [linked accounts](https://www.codecademy.com/account/linked_accts) page and ensure that your GitHub account is linked.
           issuesClosed: |
             🌸 Thanks for closing this Issue!
-            Please head over to the [Docs Forum](https://discuss.codecademy.com/c/community/community-docs/2205) if you have any questions about Docs, or reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues that will help expand Docs!
