@@ -16,13 +16,6 @@ CatalogContent:
 
 **Model parallelization** in PyTorch allows the training of deep learning models that require more memory than a single GPU can provide. The model is divided into different parts (e.g., layers or modules), with each part assigned to a separate GPU. These GPUs perform computations simultaneously, speeding up the processing of large models. They communicate with each other and share data to ensure that the output from one GPU can be used by another when necessary.
 
-## Setting up the environment
-
-```pseudo
-import torch
-import torch.nn as nn
-```
-
 ## Syntax
 
 To utilize model parallelization the model should be wrapped using the following syntax:
