@@ -1,28 +1,30 @@
 ---
-Title: 'parallelizing-models' 
-Description: 'Model parallelization is used to train models that require more memory than what is available on a single GPU.' 
+Title: 'parallelizing-models'
+Description: 'PyTorch parallelizing models distribute computations across multiple processors or GPUs, improving performance and enabling faster training of large models.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Algorithms'
   - 'PyTorch'
   - 'Machine Learning'
-CatalogContent: 
+CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/build-a-machine-learning-model'
 ---
 
-**Model parallelization** trains deep learning models that require more memory than what is available on a single graphic processing unit (GPU). It is used within the pyTorch library. The model is separated into parts (i.e. layers or modules) and assigned to different GPUs. The GPUs perform the computations simultaneously, allowing for faster processing of large models. The GPUs communicate with each other and share the data to ensure the data output from one GPU is used in another GPU as needed. 
+**Model parallelization** trains deep learning models that require more memory than what is available on a single graphic processing unit (GPU). It is used within the pyTorch library. The model is separated into parts (i.e. layers or modules) and assigned to different GPUs. The GPUs perform the computations simultaneously, allowing for faster processing of large models. The GPUs communicate with each other and share the data to ensure the data output from one GPU is used in another GPU as needed.
 
 ## Setting up the environment
-```pseudo 
+
+```pseudo
 import torch
 import torch.nn as nn
 ```
 
 ## Syntax
+
 To utilize model parallelization the model should be wrapped using the following syntax:
 
 ```shell
@@ -30,7 +32,8 @@ class ModelParallel(nn.Module)
 ```
 
 ## Example
-The layers or modules should then be assigned to a specified GPU. The following example demonstrates how this can be accomplished. 
+
+The layers or modules should then be assigned to a specified GPU. The following example demonstrates how this can be accomplished.
 
 ```py
 # Define a model split across two GPUs
@@ -51,9 +54,11 @@ model = ModelParallel()
 x = torch.randn(64, 1000)
 output = model(x)
 ```
+
 ## Output
 
 The output of the above code would result in a tensor. The exact values would depend on the initialization of the model weights and the input data, but could be expected to look similar to the following output:
+
 ```shell
 tensor([[ 0.1324, -0.2847,  ...,  0.5921],  # First sample in the batch
         [-0.0412,  0.4891,  ..., -0.2345],  # Second sample in the batch
