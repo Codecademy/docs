@@ -25,7 +25,7 @@ scipy.stats.chisquare(f_obs, f_exp=None, ddof=0, axis=0)
 - `f_obs`: The observed frequencies or values. This should be a 1D or 2D array where each value represents the observed count in a category or group.
 - `f_exp`: The expected frequencies or values. This is also a 1D or 2D array, where each value represents the expected count in the corresponding category or group.
 - `ddof`: The "Delta Degrees of Freedom" adjustment for the test. This is used to adjust for the number of parameters estimated from the data. For a goodness-of-fit test, `ddof=0` is standard, but you can adjust it for specific models or tests.
-- `axis`: The axis along which to compute the test. For multi-dimensional data, you can specify the axis (0 for rows and 1 for columns). If `axis` is set to `None`, the test is applied to all dimensions of the array.
+- `axis`: The axis along which the test is computed. For multi-dimensional data, you can specify the axis (0 for rows and 1 for columns). If `axis` is set to `None`, the test is applied to all dimensions of the array.
 
 ## Example
 
