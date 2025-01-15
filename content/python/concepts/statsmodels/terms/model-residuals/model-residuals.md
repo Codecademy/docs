@@ -18,7 +18,7 @@ CatalogContent:
 
 **Model residuals** are calculated as the differences between observed and predicted values for a statistical model. This method measures error or deviation for each data point by using the formula:
 
-![Model Residuals formula](https://raw.githubusercontent.com/Codecademy/docs/main/media/model-residual-example.png)
+![Model Residuals formula](https://raw.githubusercontent.com/Codecademy/docs/main/media/model-residuals-example.png)
 
 Residuals are a key concept in statistical modeling. They are used to evaluate the goodness of fit, identify patterns, detect outliers, and validate assumptions about the model. Analyzing residuals helps enhance model accuracy and reliability by providing information about areas where the model is underperforming.
 
