@@ -1,5 +1,5 @@
 ---
-Title: 'find_peaks()'
+Title: '.find_peaks()'
 Description: 'Finds the indices of local maxima (peaks) in a 1D signal array based on specified conditions.'
 Subjects:
   - 'Machine Learning'
@@ -8,27 +8,33 @@ Tags:
   - 'Scikit-learn'
   - 'Machine Learning'
 CatalogContent:
-  - 'paths/intermediate-machine-learning-skill-path'
   - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-In SciPy, the **`find_peaks()`** function identifies the indices of local maxima (peaks) in a 1D signal array based on specified conditions.
+In SciPy, the **`.find_peaks()`** function identifies the indices of local maxima (peaks) in a 1D signal array based on specified conditions.
 
 ## Syntax
 
 ```pseudo
-find_peaks(signal);
+scipy.signal.find_peaks(x, height=None, threshold=None, distance=None, prominence=None, width=None, wlen=None, rel_height=0.5, plateau_size=None)
 ```
 
-* `signal` : parameter is an array of numbers.
-
-The default height of the peaks is defined by the height parameter. If the parameter is unspecified, the height is set to 0. The width parameter is used to filter out peaks that have a width less than the specified width. The rel_height parameter is used to filter out peaks that have a relative height less than the specified relative height. The threshold parameter is used to filter out peaks that have a value less than the specified threshold. The distance parameter is used to filter out peaks that have a distance between peaks less than the specified distance. The prominence parameter is used to filter out peaks that have a prominence less than the specified prominence. The wlen parameter is used to filter out peaks that have a width less than the specified width. The plateau_size parameter is used to filter out peaks that have a plateau size less than the specified plateau size.
+- `x`: The input data in which to search for peaks.
+- `height` (Optional): Specifies the required height of peaks.
+- `threshold` (Optional): The vertical distance to the neighboring samples.
+- `distance` (Optional): Minimum horizontal distance (in samples) between neighboring peaks.
+- `prominence` (Optional): Minimum prominence of peaks.
+- `width` (Optional): Required width of peaks in samples.
+- `wlen` (Optional): Used for calculating the prominence of peaks; specifies the size of the window.
+- `rel_height` (Otional): Used for measuring the width at relative height.
+- `plateau_size` (Optional): Specifies the size of flat peaks (plateaus).
 
 ## Example
 
-The following example showcases the `find_peaks()` function:
+The following example showcases the `.find_peaks()` function:
 
-```python
+```py
 import numpy as np
 from scipy.signal import find_peaks
 
@@ -41,7 +47,9 @@ peaks, _ = find_peaks(signal)
 # Print the indices of the peaks
 print(peaks)
 ```
-```
+
+The code above generates the following output:
+
+```shell
 [4]
-``` 
-The above code creates a signal with some peaks, finds the peaks in the signal, and prints the indices of the peaks.
+```
