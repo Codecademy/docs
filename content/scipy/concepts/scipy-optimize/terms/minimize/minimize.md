@@ -68,7 +68,7 @@ Optimal point: [-1.88846401e-08]
 
 ## Codebyte Example
 
-Run the following codebyte example to understand how the `minimize()` function works: 
+Run the following codebyte example to understand how the `minimize()` function works:
 
 ```codebyte/python
 from scipy.optimize import minimize
