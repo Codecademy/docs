@@ -75,6 +75,8 @@ print(popt)
 
 The above will give the following output:
 
+Note: since we are using np.random() for rng variable the output is expected to change for each run.
+
 ```shell
 [2.47681145 1.32375703 0.53063146]
 ```
