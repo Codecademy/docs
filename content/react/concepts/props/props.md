@@ -16,6 +16,7 @@ In React, components use **props** (short for "properties") to share and display
 With functional components, props are handled as parameters in the function definition, making the code simpler and more intuitive.
 
 Props can be various data types, including:
+
 - Numbers
 - Strings
 - Functions
@@ -48,7 +49,7 @@ In functional components, props are received directly as an argument, making the
 ```js
 class Greeting extends React.Component {
   render() {
-    // Printing the props object 
+    // Printing the props object
     console.log(this.props);
 
     return <h1>Hello world</h1>;
@@ -104,9 +105,11 @@ In functional components, props are directly received as an argument to the comp
 function Greeting({ name, town, age, haunted }) {
   return (
     <div>
-      <h1>Hello, {name} from {town}!</h1>
+      <h1>
+        Hello, {name} from {town}!
+      </h1>
       <p>Age: {age}</p>
-      <p>Haunted: {haunted ? "Yes" : "No"}</p>
+      <p>Haunted: {haunted ? 'Yes' : 'No'}</p>
     </div>
   );
 }
