@@ -39,7 +39,7 @@ torch.take_along_dim(input, indices, dim)
 
 ## Example
 
-### Basic Usage
+Here is a basic usage example of `.take_along_dim()` in PyTorch to select elements along a specific dimension:
 
 ```python
 import torch
@@ -57,14 +57,14 @@ result = torch.take_along_dim(input_tensor, indices, dim=1)
 print(result)
 ```
 
-### Output
+The following will be the output of the above code:
 
 ```
 tensor([[30, 20, 10],
         [50, 40, 60]])
 ```
 
-### Advanced Example: Multi-Dimensional Selection
+Moreover, the function can also be used to select elements along a specific dimension in a multi-dimensional tensor. For instance, consider the following example:
 
 ```python
 import torch
@@ -82,7 +82,7 @@ result = torch.take_along_dim(input_tensor, indices, dim=2)
 print(result)
 ```
 
-### Multi-Dimensional Selection Output
+The output of the above code will be:
 
 ```
 tensor([[[1, 2],
@@ -92,6 +92,8 @@ tensor([[[1, 2],
 ```
 
 ## Key Features
+
+Here are some key features of the `.take_along_dim()` function:
 
 1. Preserves tensor dimensionality during selection
 2. Supports batch operations
