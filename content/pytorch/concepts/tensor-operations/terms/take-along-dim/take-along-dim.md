@@ -27,15 +27,11 @@ Similar to **`.take()`**, which extracts elements based on indices and always re
 torch.take_along_dim(input, indices, dim)
 ```
 
-### Parameters
-
 - **input (Tensor)**: The source tensor from which elements will be selected.
 - **indices (Tensor)**: A tensor of indices specifying which elements to select along the specified dimension.
 - **dim (int)**: The dimension along which to perform the selection.
 
-### Returns
-
-- **Tensor**: A new tensor containing the selected elements, maintaining the same dimensionality as the input tensor.
+It returns a new tensor with the same dimensionality as the input tensor, containing the selected elements.
 
 ## Example
 
@@ -111,31 +107,5 @@ Here are some key features of the `.take_along_dim()` function:
 
 - The indices tensor must have the same shape as the input tensor
 - Supports automatic differentiation
-- More flexible than `.take()` for multi-dimensional operations
+- More flexible than [`.take()`](../take/take.md) for multi-dimensional operations
 - Memory-efficient for large tensor operations
-
-## Codebyte Example
-
-```codebyte/python
-import torch
-
-# Create a tensor
-tensor = torch.tensor([[10, 20, 30],
-                      [40, 50, 60]])
-
-# Create indices for top-2 values along dim=1
-indices = torch.topk(tensor, k=2, dim=1).indices
-
-# Select top-2 values using take_along_dim
-result = torch.take_along_dim(tensor, indices, dim=1)
-print("Original tensor:")
-print(tensor)
-print("\nTop-2 values along dimension 1:")
-print(result)
-```
-
-## Related Operations
-
-- **[`.take()`](../take/take.md)**: For 1D tensor selection
-- **[`.gather()`](../gather/gather.md)**: Alternative indexing operation
-- **[`.index_select()`](../index-select/index-select.md)**: Simple dimension-based selection
