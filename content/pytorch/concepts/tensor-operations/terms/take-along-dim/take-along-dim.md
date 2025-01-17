@@ -27,9 +27,9 @@ Similar to **`.take()`**, which extracts elements based on indices and always re
 torch.take_along_dim(input, indices, dim)
 ```
 
-- **input (Tensor)**: The source tensor from which elements will be selected.
-- **indices (Tensor)**: A tensor of indices specifying which elements to select along the specified dimension.
-- **dim (int)**: The dimension along which to perform the selection.
+- **`input` (Tensor)**: The source tensor from which elements will be selected.
+- **`indices` (Tensor)**: A tensor of indices specifying which elements to select along the specified dimension.
+- **`dim` (int)**: The dimension along which to perform the selection.
 
 It returns a new tensor with the same dimensionality as the input tensor, containing the selected elements.
 
