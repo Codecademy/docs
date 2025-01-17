@@ -86,7 +86,7 @@ First add.h is defined and contains the following code:
 
 // Header that declares an addition function
 
-int add(int x, int y)
+int add(int x, int y);
 
 #endif
 ```
