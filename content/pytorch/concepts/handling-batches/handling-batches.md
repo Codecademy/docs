@@ -14,13 +14,13 @@ CatalogContent:
   - 'paths/build-a-machine-learning-model'
 ---
 
-**Handling batches** is an essential practice in **PyTorch** for managing and processing large datasets efficiently. PyTorch simplifies batch handling through the `DataLoader` class. Batch processing groups data samples into fixed-sized subsets, enabling parallel computation, faster training, and better use of GPU resources. This technique is especially critical for deep learning workflows, where training on entire datasets at once is often computationally infeasible.
+**Handling batches** is an essential practice in PyTorch for managing and processing large datasets efficiently. PyTorch simplifies batch handling through the `DataLoader` class. Batch processing groups data samples into fixed-sized subsets, enabling parallel computation, faster training, and better use of GPU resources. This technique is especially critical for deep learning workflows, where training on entire datasets at once is often computationally infeasible.
 
 ## Syntax
 
 Below is the general syntax for setting up a `DataLoader`:
 
-```py
+```pseudo
 from torch.utils.data import DataLoader, Dataset
 
 # Define a custom dataset
@@ -42,9 +42,9 @@ dataset = CustomDataset(data=[[1, 2], [3, 4], [5, 6]], labels=[0, 1, 0])
 dataloader = DataLoader(dataset, batch_size=2, shuffle=True)
 ```
 
-- **`batch_size`**: The number of samples in each batch.
-- **`shuffle`**: Randomizes the order of data each epoch, ensuring better model generalization.
-- **`num_workers`** (optional): Specifies the number of subprocesses for data loading to speed up training.
+- `batch_size`: The number of samples in each batch.
+- `shuffle`: Randomizes the order of data each epoch, ensuring better model generalization.
+- `num_workers` (Optional): Specifies the number of subprocesses for data loading to speed up training.
 
 ## Example
 
@@ -97,6 +97,8 @@ Weather (1=sunny, 0=cloudy): [0, 1]
 ```
 
 > **Note:** The output order may vary, due to `shuffle=True` randomizing the order of the data.
+
+In the above example, three processes are used:
 
 1. **Dataset Definition**: A custom dataset is defined to hold the data and labels.
 2. **DataLoader Initialization**: The dataset is passed to the `DataLoader`, along with parameters like `batch_size` and `shuffle`.
