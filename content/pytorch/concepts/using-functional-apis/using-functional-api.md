@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Functional APIs** in PyTorch provide a flexible and powerful way to define and manipulate neural networks. Unlike the `torch.nn.Module` class, which uses an object-oriented approach, functional APIs allow you to define models using functions. 
+**Functional API** in PyTorch provides a flexible and powerful way to define and manipulate neural networks. Unlike the `torch.nn.Module` class, which uses an object-oriented approach, functional API allows you to define models using functions. 
 
 This can be particularly useful for creating complex models, experimenting with new architectures, or needing more control over the forward pass.
 
