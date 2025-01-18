@@ -1,5 +1,5 @@
 ---
-Title: 'Curve Fit' 
+Title: 'Curve Fit'
 Description: 'Fits a custom function to data by adjusting its parameters to match the data as closely as possible.'
 Subjects:
   - 'Data Science'
@@ -75,8 +75,8 @@ print(popt)
 
 The above will give the following output:
 
-> **Note:** Since we are using `np.random()` for `rng` variable the output is expected to change for each run.
-
 ```shell
 [2.47681145 1.32375703 0.53063146]
 ```
+
+> **Note:** Since we are using `np.random()` for `rng` variable the output is expected to change for each run.
