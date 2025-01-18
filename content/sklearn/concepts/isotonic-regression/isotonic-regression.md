@@ -17,7 +17,6 @@ CatalogContent:
 
 ***Isotonic Regression*** is a technique of using a free-form line to establish a non-linear path. The path is created by a set of data points. In this technique, predictor variables and target vairables increase or decrease, monotonically, in a non-oscilatory manner. The word "isotonic" (*iso* and *tonos*) comes from the Greek, meaning *equal* and *to stretch*, respectively.
 
-
 ## Syntax
 
 This is the basic syntax for implementing Isotonic Regression in Python:
@@ -48,7 +47,7 @@ plot.show()
 ```
 
 - `increasing`: This is a boolean parameter that specifies whether the fitted values should increase monotonically (`True`) or decrease monotonically (`False`). 
-  - `increasing=True` enforces a non-decreasing relationship between the predictor (`x`) and the target (`y`) variables.
+- `increasing=True` enforces a non-decreasing relationship between the predictor (`x`) and the target (`y`) variables.
 
 ## Example
 
@@ -82,7 +81,7 @@ plt.show()
 
 The example results in the following output:
 
-![Isotonic Regression Example] (https://github.com/S3an28/docs/tree/main/content/sklearn/concepts/isotonic-regression/isotonic-regression-example.jpg)
+![Isotonic Regression Example] (https://github.com/S3an28/docs/blob/SK_5305/content/sklearn/concepts/isotonic-regression/isotonic-regression-example.jpg)
 
 ## Codebyte
 
