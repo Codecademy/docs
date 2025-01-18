@@ -165,7 +165,7 @@ tensor([[0.0000, 0.2345, 1.4567, 0.0000, 0.9876],
 
 ## Advantages of Using Functional APIs
 
-1. **Flexibility**: Functional APIs provide more control over the forward pass and allow for easy experimentation with different architectures.
+1. **Flexibility**: Functional API provide more control over the forward pass and allow for easy experimentation with different architectures.
 2. **Reusability**: Since functional layers are stateless, they can be reused with different parameters without any side effects.
 3. **Customizability**: Easily define custom layers, loss functions, and activation functions to suit your specific needs.
 
