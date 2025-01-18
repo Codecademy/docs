@@ -145,14 +145,14 @@ status = "Adult" if age >= 18 else "Minor"
 print(status) # Output: Adult
 ```
 
-## Membership operators
+## Membership Operators
 
 Membership operators test whether a value exists within an iterable object like a list, string, or dictionary.
 
 - The `in` operator returns `True` if the element on the left is found in the iterable object on the right.
 - The `not in` operator returns `True` if the element on the left is not found in the iterable object on the right.
 
-Below is an example that shows how to use the membership operators in Python.
+Below is an example that shows how to use the membership operators in Python:
 
 ```py
 x = "a" in "apple" # Output: True
@@ -173,7 +173,7 @@ Python evaluates an expression in order of precedence as follows:
 - `and`
 - `or`
 
-Below is an example that shows the order of operations in an expression in Python.
+Below is an example that shows the order of operations in an expression in Python:
 
 ```py
 result = 3 + 2 * (4 ** 2) / 2
@@ -190,7 +190,7 @@ The following code demonstrates the use of various operators in Python, includin
 a = 10
 b = 5
 
-# Arithmetic
+# Arithmetic Operators
 sum = a + b
 difference = a - b
 product = a * b
@@ -199,24 +199,24 @@ modulus = a % b
 
 print(f"Sum: {sum}, Difference: {difference}, Product: {product}, Quotient: {quotient}, Modulus: {modulus}.")
 
-# Comparison
+# Comparison Operators
 is_equal = (a == b)
 is_greater = (a > b)
 
 print(f"Is Equal: {is_equal}, Is Greater: {is_greater}")
 
-# Logical
+# Logical Operators
 logical_and = is_equal and is_greater
 logical_or = is_equal or is_greater
 
 print(f"Logical AND: {logical_and}, Logical OR: {logical_or}")
 
-# Ternary
+# Ternary Operators
 status = "Greater" if a > b else "Smaller or Equal"
 
 print(f"Status: {status}")
 
-# Membership
+# Membership Operators
 letter = 'a'
 word = 'apple'
 membership_check = letter in word
