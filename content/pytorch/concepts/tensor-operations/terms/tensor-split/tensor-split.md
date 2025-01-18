@@ -1,6 +1,6 @@
 ---
-Title: 'tensor-split'
-Description: 'Takes an input tensor and splits it into multiple sub-tensors.'
+Title: '.tensor_split'
+Description: 'Splits a tensor into multiple sub-tensors along a specified dimension, based on either specified indices or the number of equal parts.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In PyTorch, the **`.tensor_split()`** function splits a tensor into multiple sub-tensors. If the tensor cannot be split evenly, PyTorch distributes the elements as evenly as possible. The shape of the sub-tensors can also be controlled using the `dim` (dimension) parameter.
+In PyTorch, the **`.torch.tensor_split()`** function splits a tensor into multiple sub-tensors along a specified dimension. If the tensor cannot be split evenly, the function distributes the elements across the sub-tensors as evenly as possible.
 
 ## Syntax
 
@@ -23,9 +23,11 @@ In PyTorch, the **`.tensor_split()`** function splits a tensor into multiple sub
 torch.tensor_split(input, indices_or_sections, dim=0)
 ```
 
-- `input(Tensor)`: The tensor to be split.
-- `indices_or_sections(int)`: Number of sub-tensors to split the input tensor into, or the indices at which to split along the specified dimension.
-- `dim(int, optional)`: The dimension along which to split the tensor. Default is `0`.
+- `input`: The tensor to be split.
+- `indices_or_sections`:
+  - **If int**: The number of sub-tensors to split the input tensor into. If the split is uneven, the resulting sub-tensors will differ in size to distribute elements as evenly as possible.
+  - **If list or tuple of ints**: The indices at which to split the tensor along the specified dimension.
+- `dim`: The dimension along which to split the tensor. Default is `0`.
 
 ## Example
 
@@ -34,10 +36,20 @@ The following example demonstrates the use of the `.tensor_split()` function:
 ```py
 import torch
 
-x = torch.arange(10) #create a one dimensional tensor
-torch.tensor_split(x, 2) #split the tensor into 2 parts
+# Create a one-dimensional tensor
+x = torch.arange(10)
+
+# Split the tensor into 2 parts
+result = torch.tensor_split(x, 2)
+
+# Print the result
+print(result)  # [tensor([0, 1, 2, 3, 4]), tensor([5, 6, 7, 8, 9])]
 ```
+
+The code above gives the output as follows:
+
 ```shell
-#the above code produces the tensor in 2 equal parts. 10 goes into 2 5 times so each subtensor has 5 elements
 (tensor([0, 1, 2, 3, 4]), tensor([5, 6, 7, 8, 9]))
 ```
+
+The output is a list of two sub-tensors, where the input tensor is evenly split into two parts along its only dimension.
