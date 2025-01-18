@@ -129,7 +129,7 @@ func main() {
 }
 ```
 
-When you run the above Go program, the following will happen:
+When running the above Go program, the following will happen:
 
 - The menu of meals will be printed to the console.
 - The serialized JSON data will be printed to the console.
