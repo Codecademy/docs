@@ -5,9 +5,9 @@ Subjects:
   - 'Machine Learning'
   - 'Data Science' 
 Tags:
-  - 'PyTorch'
   - 'Deep Learning'
   - 'Neural Networks'
+  - 'PyTorch'
 CatalogContent:
   - 'learn-python'
   - 'paths/data-science'
