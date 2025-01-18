@@ -14,9 +14,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-**JSON** is one of the most commonly used data exchange formats for communication between web applications, other services, mobile applications, etc.
-
-Go provides built-in functions to work with JSON effectively.
+**JSON** is one of the most commonly used data exchange formats for communication between web applications, other services, mobile applications, etc. Go provides built-in functions to work with JSON effectively.
 
 ## Using Marshal and Unmarshal
 
