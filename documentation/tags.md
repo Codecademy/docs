@@ -318,6 +318,7 @@ Static Site
 Statistics
 Statsmodels
 Storage
+Strict Mode
 Stringr
 Strings
 Structure
@@ -336,6 +337,7 @@ Tags
 Target
 Technical Interviews
 Templates
+Tensor
 TensorFlow
 Text-To-Image
 Text Processing
