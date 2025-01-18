@@ -1,10 +1,9 @@
 ---
-Title: '.tensor_split'
+Title: '.tensor_split()'
 Description: 'Splits a tensor into multiple sub-tensors along a specified dimension, based on either specified indices or the number of equal parts.'
 Subjects:
   - 'AI'
   - 'Data Science'
-  - 'Machine Learning'
 Tags:
   - 'Data Structures'
   - 'Deep Learning'
@@ -15,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In PyTorch, the **`.torch.tensor_split()`** function splits a tensor into multiple sub-tensors along a specified dimension. If the tensor cannot be split evenly, the function distributes the elements across the sub-tensors as evenly as possible.
+In PyTorch, the **`.tensor_split()`** function splits a tensor into multiple sub-tensors along a specified dimension. If the tensor cannot be split evenly, the function distributes the elements across the sub-tensors as evenly as possible.
 
 ## Syntax
 
@@ -25,8 +24,8 @@ torch.tensor_split(input, indices_or_sections, dim=0)
 
 - `input`: The tensor to be split.
 - `indices_or_sections`:
-  - **If int**: The number of sub-tensors to split the input tensor into. If the split is uneven, the resulting sub-tensors will differ in size to distribute elements as evenly as possible.
-  - **If list or tuple of ints**: The indices at which to split the tensor along the specified dimension.
+  - If _int_: The number of sub-tensors to split the input tensor into. If the split is uneven, the resulting sub-tensors will differ in size to distribute elements as evenly as possible.
+  - If _list or tuple of ints_: The indices at which to split the tensor along the specified dimension.
 - `dim`: The dimension along which to split the tensor. Default is `0`.
 
 ## Example
@@ -43,7 +42,7 @@ x = torch.arange(10)
 result = torch.tensor_split(x, 2)
 
 # Print the result
-print(result)  # [tensor([0, 1, 2, 3, 4]), tensor([5, 6, 7, 8, 9])]
+print(result)
 ```
 
 The code above gives the output as follows:
