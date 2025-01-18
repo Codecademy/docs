@@ -2,8 +2,8 @@
 Title: 'Using Functional API'
 Description: 'Functional API in PyTorch provide a flexible way to define and manipulate neural networks using functions rather than object-oriented classes.'
 Subjects:
-  - 'Machine Learning'
-  - 'Data Science' 
+  - 'Data Science'
+  - 'Machine Learning' 
 Tags:
   - 'Deep Learning'
   - 'Neural Networks'
