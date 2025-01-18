@@ -17,7 +17,7 @@ CatalogContent:
 
 This can be particularly useful for creating complex models, experimenting with new architectures, or needing more control over the forward pass.
 
-Functional APIs offer several advantages and unique features that set them apart. Below are essential concepts to understand how they work and how to use them effectively.
+Functional API offer several advantages and unique features that set them apart. Below are essential concepts to understand how they work and how to use them effectively.
 
 ## Functional Layers
 
