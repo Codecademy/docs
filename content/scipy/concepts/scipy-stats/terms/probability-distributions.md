@@ -1,6 +1,6 @@
 ---
 Title: 'probability-distributions.md'
-Description: 'This entry provides an introduction to probability distributions, their syntax, and an example using SciPy.'
+Description: 'Probability Distribution is a function that describes the likelihood of different outcomes for a random variable.'
 Subjects:
   - 'Bash/Shell'
   - 'Data Visualization'
