@@ -1,5 +1,5 @@
 ---
-Title: 'probability-distributions.md'
+Title: 'Probability Distribution'
 Description: 'Probability Distribution is a function that describes the likelihood of different outcomes for a random variable.'
 Subjects:
   - 'Bash/Shell'
