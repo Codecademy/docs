@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The element of surprise. **Probability distributions** describe how the structure of random variables are allocated.  In the context of SciPy, the scipy.stats module provides various functions for working with different probability distributions that deliver consistent information such as Cumulative Distribution Functions (CDF), Probability Density Functions (PDF), and other statistical metrics.They convey the probabilities of various outcomes, and are fundamental to statistics and data analysis;.
+**Probability distribution** describes how the values of random variables are distributed. In the context of [SciPy](https://www.codecademy.com/resources/docs/scipy), the `scipy.stats` module provides various functions for working with different probability distributions, offering consistent information such as **Cumulative Distribution Functions (CDF)**, **Probability Density Functions (PDF)**, and other statistical metrics. These distributions convey the probabilities of various outcomes and are fundamental to statistics and data analysis.
 
 ## Syntax
 from scipy.stats import distribution_name
