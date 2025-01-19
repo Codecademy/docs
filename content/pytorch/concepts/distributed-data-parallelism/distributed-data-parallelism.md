@@ -1,13 +1,13 @@
 ---
 Title: 'Distributed Data Parallelism'
-Description: 'An overview of distributed data parallelism in PyTorch.'
+Description: 'An overview of distributed data parallelism in PyTorch on how it enables efficient training of large models across multiple GPUs.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
 Tags:
-  - 'PyTorch'
   - 'Data'
   - 'Data Parallelism'
+  - 'PyTorch'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/build-a-machine-learning-model'
@@ -15,7 +15,8 @@ CatalogContent:
 
 ## Introduction to Distributed Data Parallelism
 
-Distributed Data Parallelism (DDP) in PyTorch is a module that enables users to efficiently train models across multiple GPUs and machines. By splitting the training process across multiple machines, DDP helps reduce training time and facilitates scaling to larger models and datasets. It achieves parallelism by splitting the input data into smaller chunks, processing them on different GPUs, and aggregating results for updates. Compared to `DataParallel`, DDP offers better performance and scalability by minimising device communication overhead.
+Distributed Data Parallelism (DDP) in PyTorch is a module that enables users to efficiently train models across multiple GPUs and machines. By splitting the training process across multiple machines, DDP helps reduce training time and facilitates scaling to larger models and datasets.
+It achieves parallelism by splitting the input data into smaller chunks, processing them on different GPUs, and aggregating results for updates. Compared to `DataParallel`, DDP offers better performance and scalability by minimizing device communication overhead.
 
 ### Key Features
 
@@ -27,7 +28,7 @@ Distributed Data Parallelism (DDP) in PyTorch is a module that enables users to 
 
 To use DDP, a distributed process group needs to be initialised and wrapped to a model with `torch.nn.parallel.DistributedDataParallel`.
 
-```py
+```pseudo
 import os
 import torch
 import torch.distributed as dist
@@ -71,7 +72,7 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 def setup(rank, world_size):
     os.environ['MASTER_ADDR'] = 'localhost'
     os.environ['MASTER_PORT'] = '8000'
-    dist.init_process("nccl", rank=rank, world_size=world_size)
+    dist.init_process_group("nccl", rank=rank, world_size=world_size)
 
 # All resources allocated to the process group are released after process is complete
 def cleanup():
