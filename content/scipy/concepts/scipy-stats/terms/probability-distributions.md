@@ -39,7 +39,7 @@ mean_value = rv.mean()
 variance_value = rv.var()
 
 
-## Example: Normal distribution using SciPy
+## Example
 from scipy.stats import norm
 
 rv = norm(loc=0, scale=1)
