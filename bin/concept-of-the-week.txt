@@ -1,1 +1,1 @@
-content/general/concepts/jit-compilation/jit-compilation.md
+content/swift/concepts/inheritance/inheritance.md
