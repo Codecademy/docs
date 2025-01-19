@@ -1,1 +1,1 @@
-content/r/concepts/built-in-functions/built-in-functions.md
+content/swift/concepts/inheritance/inheritance.md
