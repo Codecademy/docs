@@ -1,8 +1,8 @@
 ---
 Title: 'Header Files'
-Description: 'Header files are used in C to allow common functions to be used across multiple files without copying their declarations and definitions.'
+Description: 'Header files in C allow common functions to be used across multiple files without copying their declarations and definitions.'
 Subjects:
-  - 'Code Foundations
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Functions'
@@ -14,21 +14,25 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Header files**, normally denoted by a '.h' suffix, are files used to provide forward declarations of functions, data types, macros, etc., but are not used to provide the definitions; this is to not have multiple definitions throughout the codebase (One Definition Rule). Exceptions exist, such as very simple functions and data types, but the general advice is to separate definitions and declarations; these exceptions fall under more advanced topics beyond the scope of this summary. They are often accompanied by a source file that then provides the definitions of the terms declared in the header file. Creating header files this way allows said terms to be easily reused across multiple source files without redeclaring each function wherever it is used.
+**Header files**, typically denoted by a **`.h`** suffix, are used to provide forward declarations of functions, data types, macros, and more, but they do not contain the definitions. This prevents multiple definitions across the codebase, adhering to the _One Definition Rule_. While simple functions and data types may occasionally defy this rule, the general best practice is to separate declarations and definitions, with exceptions covered in more advanced topics beyond this summary. 
 
-Header files also come in user-defined forms, as well as those found in the standard library. The former are those made by the user and kept in the same directory as the source file currently being worked on (exceptions do exist depending on the configuration and capabilities of what is used to write and compile the code). The latter are those found in the system directory - for example, [```stdio.h```](https://en.wikipedia.org/wiki/C_file_input/output) (standard input and output).
+These files are usually paired with a source file that defines the terms declared in the header, allowing them to be reused across multiple source files without redeclaring each function.
+
+Header files come in two forms: _user-defined_ and those _from the standard library_. The developer creates user-defined headers, which are typically located in the same directory as the source file being worked on (though this can vary depending on the configuration and tools used). Standard library headers like `stdio.h` are found in system directories.
 
 ## Syntax
 
 ### Header File Usage
 
-A header file is added to a source file through the ```#include``` preprocessor followed by the name of the header file you wish to include. For example:
+A header file is included in a source file using the `#include` preprocessor directive, followed by the header file's name.  For example:
 
-```#include <stdio.h>```
-
-Which will allow you to use the functions contained within the stdio.h file such as ```printf```. As shown below:
-
+```pseudo
+#include <header-file-name.h>
 ```
+
+This allows the use of functions from the `stdio.h` file, such as `printf`, as shown below:
+
+```c
 #include <stdio.h>
 
 int main()
@@ -39,21 +43,25 @@ int main()
 }
 ```
 
-For user defined header files the syntax is slightly different, instead of ```<filename.h>```, ```"filename.h"``` is used instead. For example:
+For user-defined header files, the syntax is slightly different; instead of `<filename.h>`, `"filename.h"` is used instead. For example:
 
-```#include "myHeader.h"```
-
-If the header file is not co-located with the source file, then the header file can be included using a relative (best practice) or absolute (not recommended) path. For example:
-
-```#include "../myHeaders/myHeader.h"```
-
-A better way, though, is to simply tell your compiler to include these additional directories, and then you can call the header file directly without a path. Please consult the documentation of your Integrated Development Environment (IDE) for specific directions on how to do this, as it is different for each IDE.
-
-### Header File Construction
-
-A proper header file only contains declarations and not definitions, the definitions are contained within a paired source file that best practice denotes has the same name, an example pairing would be ```myHeader.h``` and ```myHeader.c```. This header file will also contain a header guard, which is a preprocessor macro that tells the compiler to check if the contents have already been defined (based on the unique name of the macro) and, if not, to include the terms within the header file, and if already defined not to define it again (One Definition Rule). A header guard for the ```myHeader.h``` file looks like this at the top of the file:
-
+```pseudo
+#include "myHeader.h"
 ```
+
+If the header file is not in the same directory as the source file, it can be included using a relative (recommended) or absolute (not recommended) path, like this:
+
+```pseudo
+#include "../myHeaders/myHeader.h"
+```
+
+A better approach is to configure the compiler to include the directory containing the header files, allowing the header to be included without specifying the full path. Check your Integrated Development Environment (IDE) documentation for specific instructions on configuring this, as the process may vary.
+
+## Header File Construction
+
+A proper header file should only contain declarations, not definitions. The corresponding source file contains the definitions, which generally share the same name as the header. For example, a header file named `myHeader.h` is typically paired with a source file named `myHeader.c`. The header file should also include a header guard and a preprocessor macro that prevents multiple file inclusions. If the contents are not already defined (based on the unique name of the macro), they are included; otherwise, the compiler skips the file. A header guard for `myHeader.h` looks like this:
+
+```pseudo
 #ifndef UNIQUE_NAME
 #define UNIQUE_NAME
 
@@ -75,12 +83,11 @@ The accompanying C file will include the header file itself (as this is where th
 
 ## Example
 
-Now that we've seen that a header file contains forward declarations of functions paired with a C file that defines these functions and how to include this header into a program, let's see a simple program that adds two integers and then prints the output.
+Let's see a simple program that adds two integers and prints the result. 
 
+First, define the `add.h` header file with the following code:
 
-First, `add.h` is defined and contains the following code:
-
-```
+```c
 #ifndef ADD
 #define ADD
 
@@ -91,9 +98,9 @@ int add(int x, int y);
 #endif
 ```
 
-The paired `add.c` source file contains the following code:
+Next, define the paired `add.c` source file with the following code:
 
-```
+```c
 #include "add.h"
 
 int add(int x, int y)
@@ -102,25 +109,22 @@ int add(int x, int y)
 }
 ```
 
-Now let's see the program that calls the add.h header, computes a simple addition and prints the answer to the console:
+Now let's see the program that calls the `add.h` header, computes a simple addition and prints the answer:
 
-```
-int main()
-{
-    #include <stdio.h> // Used to print to the window. Notice the usage of <> due to it being part of the standard library
-    #include "add.h" // " used due to it being a user-defined header
-    
-    // Define the variables
+```c
+#include <stdio.h>  // Used for printing, notice the angle brackets for standard library headers
+#include "add.h"    // Double quotes for user-defined header
+
+int main() {
     int x = 3;
     int y = 5;
-    int result = 0; // Initialising this to zero
+    int result = 0;  // Initialize to zero
 
     // Compute the addition
     result = add(x, y);
 
-    // Display result
-    printf(
-        "%d + %d = %d", x, y, result); // Prints 3 + 5 = 8
+    // Display the result
+    printf("%d + %d = %d\n", x, y, result);  // Prints 3 + 5 = 8
 
     return 0;
 }
