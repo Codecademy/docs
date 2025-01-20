@@ -1,6 +1,6 @@
 ---
 Title: 'Distributed Data Parallelism'
-Description: 'An overview of distributed data parallelism in PyTorch on how it enables efficient training of large models across multiple GPUs.'
+Description: 'Enables users to efficiently train models across multiple GPUs and machines.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
