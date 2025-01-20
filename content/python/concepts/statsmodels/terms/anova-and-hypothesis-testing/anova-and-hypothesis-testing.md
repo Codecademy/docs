@@ -74,6 +74,6 @@ anova_table = sm.stats.anova_lm(model, typ=1)
 print(anova_table)
 ```
 
-The following table presents the output of the ANOVA analysis for this example:
+The following table presents the output of the `ANOVA` analysis for this example, showing that the teaching method has a statistically significant effect on the scores, with a `p-value` of `0.027`:
 
 ![ANOVA Table Result](https://raw.githubusercontent.com/Codecademy/docs/main/media/anova-result.png)
