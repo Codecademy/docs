@@ -10,8 +10,7 @@ Tags:
   - 'Pandas'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - 'paths/data-science'
 ---
 
 **Multi-indexing** in Pandas refers to the ability to use multiple levels of indexing (rows and/or columns) to organize data hierarchically. It enables advanced operations like grouping, slicing, and reshaping data with ease, especially in multi-dimensional datasets.
