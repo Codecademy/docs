@@ -66,10 +66,10 @@ data = pd.DataFrame({
     'Method': ['A', 'A', 'A', 'B', 'B', 'B', 'C', 'C', 'C']
 })
 
-# Define the model
+# Define the model to be used
 model = ols('Score ~ C(Method)', data=data).fit()
 
-# Perform ANOVA
+# Perform ANOVA analysis
 anova_table = sm.stats.anova_lm(model, typ=1)
 print(anova_table)
 ```
