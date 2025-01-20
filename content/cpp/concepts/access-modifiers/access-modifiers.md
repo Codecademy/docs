@@ -18,9 +18,9 @@ CatalogContent:
 
 **Access Modifiers** are keywords used to specify the visibility and accessibility of the members (attributes and methods) of a class or structure.
 
-They control how and where class members can be accessed in a program, providing a mechanism to enforce **encapsulation** and protect sensitive data. 
+They control how and where class members can be accessed in a program, providing a mechanism to enforce **encapsulation** and protect sensitive data.
 
-These modifiers are essential in creating robust, maintainable, and secure code in object-oriented programming (OOP). 
+These modifiers are essential in creating robust, maintainable, and secure code in object-oriented programming (OOP).
 
 C++ supports *three* main access modifiers:
 
@@ -38,16 +38,19 @@ private:
 ```
 
 ## 1. Public
+
 Members declared as `public` are accessible from anywhere in the program. They are typically used for the interface of a class, such as methods that allow interaction with private data.
 
+## 2. Protected
 
-## 2. Protected 
 Members declared as `protected` are accessible within the defining class and derived classes. This is useful for **inheritance**, where child classes can access and reuse members from the parent class.
 
 ## 3. Private
+
 Members declared as `private` can only be accessed within the defining class or structure. They are used to hide implementation details and prevent modification or access to sensitive data.
 
 ## Example
+
 Here's an example of the use of **access modifiers** within the classes `Planet` and `GasGiant`:
 
 ```cpp
