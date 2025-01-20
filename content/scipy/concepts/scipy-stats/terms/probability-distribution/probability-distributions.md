@@ -5,11 +5,11 @@ Subjects:
   - 'Bash/Shell'
   - 'Data Visualization'
   - 'Information Technology'
-Tags: 
+Tags:
   - 'Data Structures'
   - 'Functions'
   - 'Probability'
-CatalogContent: 
+CatalogContent:
   - 'learn-data-science'
   - 'paths/data-science-foundations'
 ---
@@ -17,6 +17,7 @@ CatalogContent:
 **Probability distribution** describes how the values of random variables are distributed. In the context of [SciPy](https://www.codecademy.com/resources/docs/scipy), the `scipy.stats` module provides various functions for working with different probability distributions, offering consistent information such as **Cumulative Distribution Functions (CDF)**, **Probability Density Functions (PDF)**, and other statistical metrics. These distributions convey the probabilities of various outcomes and are fundamental to statistics and data analysis.
 
 ## Syntax
+
 ```pseudo
 from scipy.stats import distribution_name
 
@@ -37,22 +38,40 @@ mean_value = rv.mean()
 
 # Compute the variance of the distribution
 variance_value = rv.var()
-
+```
 
 ## Example
+
+```py
 from scipy.stats import norm
 
+# Create a normal distribution with mean 0 and standard deviation 1
 rv = norm(loc=0, scale=1)
 
-cdf_value = rv.cdf(1)
+# Compute the CDF (Cumulative Distribution Function) at x = 1
+cdf_value = rv.cdf(1)  # The probability that a value from the distribution is <= 1
 
-pdf_value = rv.pdf(1)
+# Compute the PDF (Probability Density Function) at x = 1
+pdf_value = rv.pdf(1)  # The likelihood (height of the curve) at x = 1
 
-mean_value = rv.mean()
+# Compute the mean of the distribution
+mean_value = rv.mean()  # The expected value (center) of the distribution
 
-variance_value = rv.var()
+# Compute the variance of the distribution
+variance_value = rv.var()  # The measure of spread of the distribution
 
+# Output the results
 print("CDF at x=1:", cdf_value)
 print("PDF at x=1:", pdf_value)
 print("Mean of the distribution:", mean_value)
 print("Variance of the distribution:", variance_value)
+```
+
+The output of the code will be as follows:
+
+```shell
+CDF at x=1: 0.8413447460685429
+PDF at x=1: 0.24197072451914337
+Mean of the distribution: 0.0
+Variance of the distribution: 1.0
+```
