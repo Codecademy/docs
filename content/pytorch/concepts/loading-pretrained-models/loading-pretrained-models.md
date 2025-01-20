@@ -4,15 +4,15 @@ Description: 'Initializes a model architecture with pre-trained weights learned 
 Subjects:
   - 'Machine Learning'
 Tags:
+  - 'AI'
+  - 'Datasets'
+  - 'Deep Learning'
   - 'Machine Learning'
   - 'Models'
   - 'Neural Networks'
-  - 'Deep Learning'
-  - 'TensorFlow'
   - 'PyTorch'
-  - 'Datasets'
   - 'Scikit-learn'
-  - 'AI'
+  - 'TensorFlow'
 CatalogContent: 
   - 'learn-python-3'
   - 'paths/computer-science'
