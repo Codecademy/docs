@@ -107,5 +107,5 @@ Here are some key features of the `.take_along_dim()` function:
 
 - The indices tensor must have the same shape as the input tensor
 - Supports automatic differentiation
-- More flexible than [`.take()`](../take/take.md) for multi-dimensional operations
+- More flexible than `.take()` function  for multi-dimensional operations
 - Memory-efficient for large tensor operations
