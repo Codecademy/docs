@@ -48,7 +48,8 @@ Members declared as `protected` are accessible within the defining class and der
 Members declared as `private` can only be accessed within the defining class or structure. They are used to hide implementation details and prevent modification or access to sensitive data.
 
 ## Example
-Here's an example of the use of **access modifiers** within the classes `Planet` and `GasGiant`: 
+Here's an example of the use of **access modifiers** within the classes `Planet` and `GasGiant`:
+
 ```cpp
 using namespace std;
 
@@ -85,7 +86,7 @@ public:
 };
 ```
 
-## Summary 
+## Summary
 
 | Access Modifier | Accessible in Class | Accessible in Derived Classes | Accessible in Outside Classes |
 | --- | --- | --- | --- |
@@ -95,7 +96,7 @@ public:
 
 ## Default accessibility of `class` and `struct` members
 
-The keywords `class` and `struct` use the same canvas in C++. The thing that differentiates them is the default accessibility of their members (the attributes and methods). 
+The keywords `class` and `struct` use the same canvas in C++. The thing that differentiates them is the default accessibility of their members (the attributes and methods).
 
 In a `struct`, the default accessibility of members is `public`, whereas in a `class`, it is `private`. This means that unless specified otherwise, members of a `struct` are accessible outside the structure, while members of a `class` are not.
 
