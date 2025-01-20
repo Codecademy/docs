@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Header files**, typically denoted by a **`.h`** suffix, are used to provide forward declarations of functions, data types, macros, and more, but they do not contain the definitions. This prevents multiple definitions across the codebase, adhering to the _One Definition Rule_. While simple functions and data types may occasionally defy this rule, the general best practice is to separate declarations and definitions, with exceptions covered in more advanced topics beyond this summary. 
+**Header files**, typically denoted by a **`.h`** suffix, are used to provide forward declarations of functions, data types, macros, and more, but they do not contain the definitions. This prevents multiple definitions across the codebase, adhering to the _One Definition Rule_. While simple functions and data types may occasionally defy this rule, the general best practice is to separate declarations and definitions, with exceptions covered in more advanced topics beyond this summary.
 
 These files are usually paired with a source file that defines the terms declared in the header, allowing them to be reused across multiple source files without redeclaring each function.
 
@@ -24,7 +24,7 @@ Header files come in two forms: _user-defined_ and those _from the standard libr
 
 ### Header File Usage
 
-A header file is included in a source file using the `#include` preprocessor directive, followed by the header file's name.  For example:
+A header file is included in a source file using the `#include` preprocessor directive, followed by the header file's name. For example:
 
 ```pseudo
 #include <header-file-name.h>
@@ -80,10 +80,9 @@ The accompanying C file will include the header file itself (as this is where th
 //Your function definitions
 ```
 
-
 ## Example
 
-Let's see a simple program that adds two integers and prints the result. 
+Let's see a simple program that adds two integers and prints the result.
 
 First, define the `add.h` header file with the following code:
 
