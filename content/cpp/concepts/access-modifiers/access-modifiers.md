@@ -24,7 +24,7 @@ These modifiers are essential in creating robust, maintainable, and secure code 
 
 C++ supports *three* main access modifiers:
 
-```cpp
+```pseudo
 class Example {
 public:
     // public members
