@@ -26,6 +26,8 @@ Button(action: {
 }
 ```
 
+> **Note**: Buttons in SwiftUI can use any SwiftUI view as a label, not just `Text`. This allows for highly customizable and complex button content, such as combining icons, shapes, or even animations.
+
 ## Customizing Buttons
 
 Buttons can be styled and customized using SwiftUI modifiers to change their appearance. For example, you can modify fonts, colors, backgrounds, and more.
@@ -42,6 +44,10 @@ Button(action: {
         .cornerRadius(10)
 }
 ```
+
+The output will look like this:
+
+![Custom Button in Swift](https://raw.githubusercontent.com/Codecademy/docs/main/media/swift-custom-button.png)
 
 ## Button Styles
 
@@ -102,6 +108,10 @@ struct ButtonExampleView: View {
 }
 ```
 
+The output will look like this:
+
+![VStack containing custom button](https://raw.githubusercontent.com/Codecademy/docs/main/media/swift-buttons-vstack.png)
+
 Explanation:
 
 - The **first button** is a simple text button.
@@ -134,6 +144,10 @@ Button(action: {
     }
 }
 ```
+
+The output will look like this:
+
+![Buttons with Custom Content](https://raw.githubusercontent.com/Codecademy/docs/main/media/swift-custom-content-button.png)
 
 In this example:
 
