@@ -10,7 +10,6 @@ Tags:
   - 'Access Control'
   - 'Encapsulation'
   - 'OOP'
- 
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
