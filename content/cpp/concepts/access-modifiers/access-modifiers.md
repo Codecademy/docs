@@ -1,5 +1,5 @@
 ---
-Title: 'Access modifiers'
+Title: 'Access Modifiers'
 Description: 'Access modifiers are keywords used to control the visibility and accessibility of class members.'
 Subjects:
   - 'Computer Science'
@@ -18,11 +18,11 @@ CatalogContent:
 
 **Access Modifiers** are keywords used to specify the visibility and accessibility of the members (attributes and methods) of a class or structure.
 
-They control how and where class members can be accessed in a program, providing mechanism to enforce **encapsulation** and protect sensitive data. 
+They control how and where class members can be accessed in a program, providing a mechanism to enforce **encapsulation** and protect sensitive data. 
 
-These modifiers are essential in creating robust, maintanable, and secure code in object-oriented programming (OOP). 
+These modifiers are essential in creating robust, maintainable, and secure code in object-oriented programming (OOP). 
 
-C++ supports *three* main access modifiers :
+C++ supports *three* main access modifiers:
 
 ```cpp
 class Example {
@@ -34,7 +34,7 @@ protected:
 
 private:
     // private members
-}
+};
 ```
 
 ## 1. Public
@@ -45,11 +45,13 @@ Members declared as `public` are accessible from anywhere in the program. They a
 Members declared as `protected` are accessible within the defining class and derived classes. This is useful for **inheritance**, where child classes can access and reuse members from the parent class.
 
 ## 3. Private
-Members declared as `private`can only be accessed within the defining class or structure. They are used to hide implementation details and prevent modification or access to sensitive data.
+Members declared as `private` can only be accessed within the defining class or structure. They are used to hide implementation details and prevent modification or access to sensitive data.
 
 ## Example
-Here's an example of the use of **access modifiers** within the classes `Planet` and `GasGiant` : 
+Here's an example of the use of **access modifiers** within the classes `Planet` and `GasGiant`: 
 ```cpp
+using namespace std;
+
 class Planet {
 public:
     Planet(string name, double diameter, double mass)
@@ -91,9 +93,9 @@ public:
 | Private | Yes | No |No|
 
 ## Default accessibility of `class` and `struct` members
-The keywords `class` and `struct` use the same canvas in C++. The thing that differentiate them is the default accessibility of their members (the attributes and methods). 
+The keywords `class` and `struct` use the same canvas in C++. The thing that differentiates them is the default accessibility of their members (the attributes and methods). 
 
-In a `struct`, the default accessibility of members is `public`, whereas in a `class`, it is `private`. This means that unless specified otherwise, members of a `struct` are accesssible outside the structure, while members of a `class` are not.
+In a `struct`, the default accessibility of members is `public`, whereas in a `class`, it is `private`. This means that unless specified otherwise, members of a `struct` are accessible outside the structure, while members of a `class` are not.
 
 ```cpp
 class MyClass {
@@ -104,4 +106,3 @@ struct MyStruct {
     int publicData; // Public by default
 };
 ```
-
