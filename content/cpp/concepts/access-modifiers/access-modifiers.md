@@ -19,7 +19,7 @@ CatalogContent:
 
 They control how and where class members can be accessed in a program, providing a mechanism to enforce **encapsulation** and protect sensitive data.
 
-These modifiers are essential in creating robust, maintainable, and secure code in object-oriented programming (OOP).
+These modifiers are essential in writing robust, maintainable, and secure code in [Object-Oriented Programming (OOP)](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming).
 
 C++ supports _three_ main access modifiers:
 
