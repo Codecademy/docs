@@ -46,7 +46,7 @@ Members declared as `protected` are accessible within the defining class and der
 
 ## 3. Private
 
-Members declared as `private` can only be accessed within the defining class or structure. They are used to hide implementation details and prevent modification or access to sensitive data.
+Members declared `private` can only be accessed within the defining class or structure. They hide implementation details and prevent unauthorized access or modification of sensitive data.
 
 ## Example
 
