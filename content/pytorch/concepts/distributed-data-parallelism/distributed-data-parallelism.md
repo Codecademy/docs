@@ -53,7 +53,16 @@ model = DDP(model)
 	- `gloo`:
 		- A cross-platform backend.
 		- Used for CPU-based training or on systems without GPUs.
-- `init_method`: This is optional as well and the default is `env://`.
+- `init_method` (Optional): Specifies the method for initializing the process group.
+	- `env://`:
+		- Uses environment variables to initialize the process group.
+		- Simple and commonly used.
+	- `file://<path-to-file>`:
+		- Uses a shared file to store initialization information.
+		- Useful for setups where environment variables aren't feasible.
+	- `tcp://<ip>:<port>`:
+		- Uses a TCP address for initialization.
+		- Typically used in manual multi-node setups.
 
 ### Required Environment Variables
 
