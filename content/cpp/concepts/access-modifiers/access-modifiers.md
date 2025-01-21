@@ -44,7 +44,7 @@ Members declared as `public` are accessible from anywhere in the program. They a
 
 Members declared as `protected` are accessible within the defining class and derived classes. This is useful for [**inheritance**](https://www.codecademy.com/resources/docs/general/programming-paradigms/inheritance), where child classes can access and reuse members from the parent class.
 
-## 3. Private
+### 3. Private
 
 Members declared `private` can only be accessed within the defining class or structure. They hide implementation details and prevent unauthorized access or modification of sensitive data.
 
