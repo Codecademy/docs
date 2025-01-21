@@ -21,7 +21,7 @@ They control how and where class members can be accessed in a program, providing
 
 These modifiers are essential in creating robust, maintainable, and secure code in object-oriented programming (OOP).
 
-C++ supports *three* main access modifiers:
+C++ supports _three_ main access modifiers:
 
 ```pseudo
 class Example {
@@ -75,12 +75,12 @@ private:
     double mass; // Only accessible in this class
 };
 
-// GasGiant inherits from the Planet class, inheriting all attributes and methods. 
+// GasGiant inherits from the Planet class, inheriting all attributes and methods.
 class GasGiant : public Planet {
 public:
     GasGiant(string name, double diameter, double mass)
         : Planet(name, diameter, mass) {}
-        
+
     // Use of the protected attribute "diameter"
     void displayFeatures() {
         cout << "Diameter: " << diameter << " km" << endl;
@@ -91,10 +91,10 @@ public:
 ## Summary
 
 | Access Modifier | Accessible in Class | Accessible in Derived Classes | Accessible in Outside Classes |
-| --- | --- | --- | --- |
-| Public | Yes | Yes |Yes|
-| Protected | Yes | Yes |No|
-| Private | Yes | No |No|
+| --------------- | ------------------- | ----------------------------- | ----------------------------- |
+| Public          | Yes                 | Yes                           | Yes                           |
+| Protected       | Yes                 | Yes                           | No                            |
+| Private         | Yes                 | No                            | No                            |
 
 ## Default accessibility of `class` and `struct` members
 
