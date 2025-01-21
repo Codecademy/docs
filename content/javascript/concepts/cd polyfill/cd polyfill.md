@@ -57,7 +57,7 @@ console.log(arr.includes(3));
 console.log(arr.includes(5));
 ```
 
-Here the code first checks if the `Array.prototype.includes` method exists. If it's missing, the polyfill defines it. The polyfill works by iterating through the array and returning `true` if the specified element is found, or `false` if it's not.
+Here this code first checks if the `Array.prototype.includes` method exists. If it's missing, the polyfill defines it. The polyfill works by iterating through the array and returning `true` if the specified element is found, or `false` if it's not.
 
 ```shell
 true
