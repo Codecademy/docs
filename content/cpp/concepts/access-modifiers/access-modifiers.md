@@ -50,7 +50,7 @@ Members declared as `private` can only be accessed within the defining class or 
 
 ## Example
 
-Here's an example of the use of **access modifiers** within the classes `Planet` and `GasGiant`:
+Here's an example of the use of access modifiers within the classes `Planet` and `GasGiant`:
 
 ```cpp
 using namespace std;
