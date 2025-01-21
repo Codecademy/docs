@@ -13,7 +13,6 @@ CatalogContent:
   - 'paths/build-a-machine-learning-model'
 ---
 
-## Introduction to Distributed Data Parallelism
 
 Distributed Data Parallelism (DDP) in PyTorch is a module that enables users to efficiently train models across multiple GPUs and machines. By splitting the training process across multiple machines, DDP helps reduce training time and facilitates scaling to larger models and datasets.
 It achieves parallelism by splitting the input data into smaller chunks, processing them on different GPUs, and aggregating results for updates. Compared to `DataParallel`, DDP offers better performance and scalability by minimizing device communication overhead.
