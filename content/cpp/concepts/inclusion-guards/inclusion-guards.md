@@ -1,5 +1,5 @@
 ---
-Title: 'inclusion-guards'
+Title: 'Inclusion Guards'
 Description: 'Used in C++ to prevent multiple inclusions of the same header file.'
 Subjects:
   - 'Computer Science'
