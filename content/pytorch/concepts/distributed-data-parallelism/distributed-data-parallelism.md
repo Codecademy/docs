@@ -66,7 +66,7 @@ model = DDP(model)
 
 ### Required Environment Variables
 
-- `WORLD_SIZE`: The total number of processes.
+- `WORLD_SIZE`: Defines the total number of processes participating in the distributed training.
 - `RANK`: Specifies the rank (unique ID) of the current process within the group and must be between `0` and `WORLD_SIZE - 1`.
 - `MASTER_ADDR`: The address of the master node.
 - `MASTER_PORT`: The port of the master node.
