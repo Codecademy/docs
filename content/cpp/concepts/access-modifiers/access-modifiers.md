@@ -97,7 +97,7 @@ public:
 
 ## Default accessibility of `class` and `struct` members
 
-The keywords `class` and `struct` use the same canvas in C++. The thing that differentiates them is the default accessibility of their members (the attributes and methods).
+The keywords `class` and `struct` in C++ share similar functionality, with their primary distinction being the default accessibility of their members (attributes and methods).
 
 In a `struct`, the default accessibility of members is `public`, whereas in a `class`, it is `private`. This means that unless specified otherwise, members of a `struct` are accessible outside the structure, while members of a `class` are not.
 
