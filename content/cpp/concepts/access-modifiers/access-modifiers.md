@@ -57,34 +57,33 @@ using namespace std;
 
 class Planet {
 public:
-    Planet(string name, double diameter, double mass)
-        : name(name), diameter(diameter), mass(mass) {}
+ Planet(string name, double diameter, double mass)
+     : name(name), diameter(diameter), mass(mass) {}
 
-    // Public method to display planet details
-    void displayDetails() {
-        cout << "Planet Name: " << name << endl;
-        cout << "Diameter (km): " << diameter << endl;
-        cout << "Mass (kg): " << mass << endl;
-    }
+ // Public method to display planet details
+ void displayDetails() {
+  cout << "Planet Name: " << name << endl;
+  cout << "Diameter (km): " << diameter << endl;
+  cout << "Mass (kg): " << mass << endl;
+ }
 
 protected:
-    double diameter; // Accessible in derived classes
+ double diameter;  // Accessible in derived classes
 
 private:
-    string name; // Only accessible in this class
-    double mass; // Only accessible in this class
+ string name;  // Only accessible in this class
+ double mass;  // Only accessible in this class
 };
 
-// GasGiant inherits from the Planet class, inheriting all attributes and methods.
+// GasGiant inherits from the Planet class, inheriting all attributes and
+// methods.
 class GasGiant : public Planet {
 public:
-    GasGiant(string name, double diameter, double mass)
-        : Planet(name, diameter, mass) {}
+ GasGiant(string name, double diameter, double mass)
+     : Planet(name, diameter, mass) {}
 
-    // Use of the protected attribute "diameter"
-    void displayFeatures() {
-        cout << "Diameter: " << diameter << " km" << endl;
-    }
+ // Use of the protected attribute "diameter"
+ void displayFeatures() { cout << "Diameter: " << diameter << " km" << endl; }
 };
 ```
 
