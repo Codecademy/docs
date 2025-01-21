@@ -13,7 +13,6 @@ CatalogContent:
   - 'paths/build-a-machine-learning-model'
 ---
 
-
 **Distributed Data Parallelism (DDP)** in PyTorch is a module that enables users to train models across multiple GPUs and machines efficiently. By splitting the training process across multiple machines, DDP helps reduce training time and facilitates scaling to larger models and datasets.
 DDP achieves parallelism by partitioning input data into smaller chunks, processing them on multiple GPUs, and aggregating the results for updates. Compared to `DataParallel`, DDP offers better performance and scalability by minimizing device communication overhead.
 
@@ -46,23 +45,23 @@ model = DDP(model)
 ```
 
 - `backend` (Optional): Specifies the backend for distributed communication.
-	- `nccl` (NVIDIA Collective Communications Library):
-		- Optimized for NVIDIA GPUs.
-		- Supports high-performance GPU communication using CUDA.
-		- Preferred choice for GPU-based distributed training.
-	- `gloo`:
-		- A cross-platform backend.
-		- Used for CPU-based training or on systems without GPUs.
+  - `nccl` (NVIDIA Collective Communications Library):
+    - Optimized for NVIDIA GPUs.
+    - Supports high-performance GPU communication using CUDA.
+    - Preferred choice for GPU-based distributed training.
+  - `gloo`:
+    - A cross-platform backend.
+    - Used for CPU-based training or on systems without GPUs.
 - `init_method` (Optional): Specifies the method for initializing the process group.
-	- `env://`:
-		- Uses environment variables to initialize the process group.
-		- Simple and commonly used.
-	- `file://<path-to-file>`:
-		- Uses a shared file to store initialization information.
-		- Useful for setups where environment variables aren't feasible.
-	- `tcp://<ip>:<port>`:
-		- Uses a TCP address for initialization.
-		- Typically used in manual multi-node setups.
+  - `env://`:
+    - Uses environment variables to initialize the process group.
+    - Simple and commonly used.
+  - `file://<path-to-file>`:
+    - Uses a shared file to store initialization information.
+    - Useful for setups where environment variables aren't feasible.
+  - `tcp://<ip>:<port>`:
+    - Uses a TCP address for initialization.
+    - Typically used in manual multi-node setups.
 
 ### Required Environment Variables
 
