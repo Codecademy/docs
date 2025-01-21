@@ -44,7 +44,7 @@ myFunction();
 #endif // EXAMPLE_H
 ```
 
-And your source file is main.cpp:
+And your source file is `main.cpp`:
 
 ```cpp
 // main.cpp
