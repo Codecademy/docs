@@ -56,4 +56,4 @@ int main() {
     return 0;
 }
 ```
-By using inclusion guards, you ensure that example.h is only included once, even if you include it multiple times in different files or within the same file.
+By using inclusion guards, you ensure that `example.h` is only included once, even if you include it multiple times in different files or within the same file.
