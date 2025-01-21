@@ -47,6 +47,6 @@ df.plot(kind='line', x='Year', y='Sales', title='Sales Over Years', xlabel='Year
 plt.show()
 ```
 
-The code will generate the output as follows:
+The above code will generate the output as follows:
 
 ![Built in Plotting](https://raw.githubusercontent.com/Codecademy/docs/main/media/built-in-plotting.png)
