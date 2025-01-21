@@ -17,7 +17,7 @@ CatalogContent:
 
 **Access modifiers** are keywords used to specify the visibility and accessibility of a class or structure's members (attributes and methods).
 
-They control how and where class members can be accessed in a program, providing a mechanism to enforce **encapsulation** and protect sensitive data.
+They regulate how and where class members can be accessed, enabling [**encapsulation**](https://www.codecademy.com/resources/docs/general/programming-paradigms/encapsulation) and safeguarding sensitive data.
 
 These modifiers are essential in writing robust, maintainable, and secure code in [Object-Oriented Programming (OOP)](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming).
 
