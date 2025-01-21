@@ -95,7 +95,7 @@ public:
 | Protected       | Yes                 | Yes                           | No                            |
 | Private         | Yes                 | No                            | No                            |
 
-## Default accessibility of `class` and `struct` members
+## Default Accessibility in `class` and `struct`
 
 The keywords `class` and `struct` in C++ share similar functionality, with their primary distinction being the default accessibility of their members (attributes and methods).
 
