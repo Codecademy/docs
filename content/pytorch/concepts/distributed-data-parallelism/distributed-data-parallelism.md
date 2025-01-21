@@ -19,9 +19,9 @@ DDP achieves parallelism by partitioning input data into smaller chunks, process
 
 ## Key Features
 
-- High performance: Efficient communication using NVIDIA Collective Communications Library (NCCL) or Gloo backend (for Windows platforms).
-- Fault tolerance: Handles errors during distributed training.
-- Scalability: Suitable for multi-node, multi-GPU setups.
+- **High performance**: Enables efficient communication using _NVIDIA Collective Communications Library (NCCL)_ or _Gloo backend_ (for Windows platforms).
+- **Fault tolerance**: Provides mechanisms to handle errors during distributed training.
+- **Scalability**: Designed for seamless scaling in multi-node and multi-GPU environments.
 
 ## Syntax
 
