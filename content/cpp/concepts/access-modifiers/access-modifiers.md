@@ -87,7 +87,7 @@ public:
 };
 ```
 
-## Summary
+## Key Differences Between Access Modifiers
 
 | Access Modifier | Accessible in Class | Accessible in Derived Classes | Accessible in Outside Classes |
 | --------------- | ------------------- | ----------------------------- | ----------------------------- |
