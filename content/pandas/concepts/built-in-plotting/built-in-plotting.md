@@ -1,6 +1,6 @@
 ---
 Title: 'Built-in Plotting'
-Description: 'Pandas' built-in plotting provides an easy way to generate various plots directly from DataFrames and Series using the plot() function.'
+Description: 'built-in plotting in Pandas provides an easy way to generate various plots directly from DataFrames and Series using the plot() function.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Pandas provides a convenient and powerful way to visualize data directly from DataFrames and Series with built-in plotting capabilities. Using the **`plot()`** function, Pandas makes it easy to generate various types of plots, such as line plots, bar plots, histograms, and more. The plot() function uses Matplotlib behind the scenes to render these plots.
+Pandas provides a convenient and powerful way to visualize data directly from DataFrames and Series with built-in plotting capabilities. Using the **`plot()`** function, Pandas makes it easy to generate various types of plots, such as line plots, bar plots, histograms, and more. The `plot()` function uses Matplotlib behind the scenes to render these plots.
 
 ## Syntax
 
@@ -24,8 +24,8 @@ DataFrame.plot(kind='line', x=None, y=None, ax=None, **kwargs)
 - `kind`: The type of plot to create (e.g., `'line'`, `'bar'`, `'hist'`, etc.).
 - `x` (Optional): The column to use as the x-axis.
 - `y` (Optional): The column(s) to plot.
-- `ax` (Optional): The axis to plot on.
-- `**kwargs`: Additional arguments passed to the underlying Matplotlib function.
+- `ax` (Optional): A Matplotlib `Axes` object to draw the plot on. If not specified, a new figure and axes are created.
+- `**kwargs`: Additional arguments passed to the underlying Matplotlib function (e.g., `color`, `linewidth`, `title`).
 
 ## Example
 
@@ -48,3 +48,5 @@ plt.show()
 ```
 
 The code will generate the output as follows:
+
+![Built in Plotting](https://raw.githubusercontent.com/Codecademy/docs/main/media/built-in-plotting.png)
