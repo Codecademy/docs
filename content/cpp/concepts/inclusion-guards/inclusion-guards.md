@@ -10,6 +10,7 @@ Tags:
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
+  - 'paths/computer-science'
 ---
 
 **Inclusion guards**, also known as header guards, are a common technique used in C++ to prevent multiple inclusions of the same header file, which can cause errors and increase compilation time. These are preprocessor directives that ensure the file is included only once.
