@@ -6,8 +6,8 @@ Subjects:
   - 'Code Foundations'
 Tags:
   - 'Classes'
-  - 'Structures'
-  - 'Access Control'
+  - 'Structure'
+  - 'Data Structures'
   - 'Encapsulation'
   - 'OOP'
 CatalogContent:
