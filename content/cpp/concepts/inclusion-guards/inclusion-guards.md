@@ -32,7 +32,7 @@ These guards use preprocessor directives to ensure a header file is included onl
 
 ## Example
 
-Let's say you have a header file named example.h:
+Let's say you have a header file named `example.h`:
 
 ```cpp
 // example.h
