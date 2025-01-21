@@ -17,6 +17,8 @@ CatalogContent:
 
 These guards use preprocessor directives to ensure a header file is included only once during compilation.
 
+These guards use preprocessor directives to ensure a header file is included only once during compilation.
+
 ## Syntax
 
 ```cpp
