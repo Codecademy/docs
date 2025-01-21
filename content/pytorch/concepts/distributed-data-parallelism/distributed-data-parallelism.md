@@ -45,7 +45,14 @@ model = torch.nn.Linear(10, 10).cuda()
 model = DDP(model)
 ```
 
-- `backend`: This is optional and by default, a `gloo` and `nccl` backend will be created.
+- `backend` (Optional): Specifies the backend for distributed communication.
+	- `nccl` (NVIDIA Collective Communications Library):
+		- Optimized for NVIDIA GPUs.
+		- Supports high-performance GPU communication using CUDA.
+		- Preferred choice for GPU-based distributed training.
+	- `gloo`:
+		- A cross-platform backend.
+		- Used for CPU-based training or on systems without GPUs.
 - `init_method`: This is optional as well and the default is `env://`.
 
 ### Required Environment Variables
