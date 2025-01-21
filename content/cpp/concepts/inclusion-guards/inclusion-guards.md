@@ -36,8 +36,8 @@ Let's say you have a header file named `example.h`:
 
 ```cpp
 // example.h
-#ifndef EXAMPLE_H
-#define EXAMPLE_H
+#ifndef EXAMPLE_H  // Checks if EXAMPLE_H has been defined
+#define EXAMPLE_H // Defines it and includes the header content
 
 myFunction();
 
