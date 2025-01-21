@@ -36,7 +36,7 @@ private:
 };
 ```
 
-## 1. Public
+### 1. Public
 
 Members declared as `public` are accessible from anywhere in the program. They are typically used for the interface of a class, such as methods that allow interaction with private data.
 
