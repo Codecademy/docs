@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Access Modifiers** are keywords used to specify the visibility and accessibility of the members (attributes and methods) of a class or structure.
+**Access modifiers** are keywords used to specify the visibility and accessibility of a class or structure's members (attributes and methods).
 
 They control how and where class members can be accessed in a program, providing a mechanism to enforce **encapsulation** and protect sensitive data.
 
