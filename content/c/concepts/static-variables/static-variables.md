@@ -1,5 +1,5 @@
 ---
-Title: 'Data Types'
+Title: 'Static Variables'
 Description: 'Static variables retain their value across function calls and exist for the lifetime of the program, providing persistent storage.'
 Subjects:
   - 'Computer Science'
