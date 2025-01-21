@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 Title: 'Polyfill'
 Description: 'A polyfill is JavaScript code that adds modern functionality to older browsers lacking native support, ensuring compatibility and consistent behavior.'
