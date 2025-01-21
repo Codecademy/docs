@@ -67,7 +67,7 @@ model = DDP(model)
 ### Required Environment Variables
 
 - `WORLD_SIZE`: The total number of processes.
-- `RANK`: Rank of the current process and must be between 0 and WORLD_SIZE - 1.
+- `RANK`: Specifies the rank (unique ID) of the current process within the group and must be between `0` and `WORLD_SIZE - 1`.
 - `MASTER_ADDR`: The address of the master node.
 - `MASTER_PORT`: The port of the master node.
 
