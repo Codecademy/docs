@@ -63,7 +63,7 @@ int main() {
     return 0;
 }
 ```
-### In this example:
+In this example:
 
 `BaseClass` has a protected [`variable`](https://www.codecademy.com/resources/docs/cpp/variables) myVar and a protected [`function`](https://www.codecademy.com/resources/docs/cpp/functions) `myFunc()`.
 
