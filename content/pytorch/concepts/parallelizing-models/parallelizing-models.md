@@ -21,12 +21,13 @@ CatalogContent:
 To utilize model parallelization the model should be wrapped using the following syntax:
 
 ```shell
-class ModelParallel(nn.Module)
+class ModelParallel(nn.Module):
+    # Model definition goes here
 ```
 
 ## Example
 
-The layers or modules should then be assigned to a specified GPU. The following example demonstrates how this can be accomplished.
+The code demonstrates how to assign different layers of a neural network model to different GPUs for parallelizing models in PyTorch:
 
 ```py
 import torch.nn as nn
