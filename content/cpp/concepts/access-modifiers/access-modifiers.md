@@ -113,7 +113,7 @@ Mass (kg): 5.972e+24
 Diameter: 139820 km
 ```
 
-## Key Differences Between Access Modifiers
+## Key differences between Access Modifiers
 
 | Access Modifier | Accessible in Class | Accessible in Derived Classes | Accessible in Outside Classes |
 | --------------- | ------------------- | ----------------------------- | ----------------------------- |
