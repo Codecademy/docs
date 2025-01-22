@@ -2,6 +2,7 @@
 Title: 'Protected'
 Description: 'Protected access modifier allows class members to be accessed within their class and by derived classes.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Accessibility'
