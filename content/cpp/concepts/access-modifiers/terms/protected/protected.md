@@ -28,7 +28,7 @@ protected:
 
 ## Example
 Next example demonstrating the use of the protected access specifier in C++:
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
