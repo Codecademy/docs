@@ -56,7 +56,7 @@ int main() {
     DerivedClass obj;
     obj.useProtectedMembers();
 
-    // Next lines will cause compilation errors if uncommented
+    // The following lines will cause compilation errors if uncommented.
     // obj.myVar = 20; 
     // obj.myFunc();
 
