@@ -1,6 +1,6 @@
 ---
 Title: 'Inclusion Guards'
-Description: 'Used in C++ to prevent multiple inclusions of the same header file.'
+Description: 'Prevents multiple inclusions of the same header file in C++ using inclusion guards.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -10,12 +10,9 @@ Tags:
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
-  - 'paths/computer-science'
 ---
 
 **Inclusion guards**, also known as **header guards**, are a common technique used in C++ to prevent multiple inclusions of the same header file. Without inclusion guards, including the same header file multiple times in a project could lead to redefinition errors and increased compilation time.
-
-These guards use preprocessor directives to ensure a header file is included only once during compilation.
 
 These guards use preprocessor directives to ensure a header file is included only once during compilation.
 
@@ -25,26 +22,26 @@ These guards use preprocessor directives to ensure a header file is included onl
 #ifndef MY_HEADER_H
 #define MY_HEADER_H
 
-// Your header file content here
+// Header file content goes here
 
 #endif // MY_HEADER_H
 ```
 
 ## Example
 
-Let's say you have a header file named `example.h`:
+Let's say there is a header file named **example.h**:
 
 ```cpp
 // example.h
 #ifndef EXAMPLE_H  // Checks if EXAMPLE_H has been defined
-#define EXAMPLE_H // Defines it and includes the header content
+#define EXAMPLE_H  // Defines it and includes the header content
 
-myFunction();
+void myFunction();  // Declare the function
 
 #endif // EXAMPLE_H
 ```
 
-And your source file is `main.cpp`:
+And your source file is **main.cpp**:
 
 ```cpp
 // main.cpp
@@ -56,4 +53,5 @@ int main() {
     return 0;
 }
 ```
-By using inclusion guards, you ensure that `example.h` is only included once, even if you include it multiple times in different files or within the same file.
+
+The inclusion guard in **example.h** ensures that the content of the header file is only included once, even if it is included multiple times (as shown with the duplicate `#include "example.h"` in `main.cpp`). This avoids issues like redefinition errors or increased compilation time.
