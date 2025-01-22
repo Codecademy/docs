@@ -3,7 +3,7 @@ Title: 'Using Functional API'
 Description: 'Functional API in PyTorch provide a flexible way to define and manipulate neural networks using functions rather than object-oriented classes.'
 Subjects:
   - 'Data Science'
-  - 'Machine Learning' 
+  - 'Machine Learning'
 Tags:
   - 'Deep Learning'
   - 'Neural Networks'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Functional API** in PyTorch provides a flexible and powerful way to define and manipulate neural networks. Unlike the `torch.nn.Module` class, which uses an object-oriented approach, functional API allows you to define models using functions. 
+**Functional API** in PyTorch provides a flexible and powerful way to define and manipulate neural networks. Unlike the `torch.nn.Module` class, which uses an object-oriented approach, functional API allows you to define models using functions.
 
 This can be particularly useful for creating complex models, experimenting with new architectures, or needing more control over the forward pass.
 
@@ -35,8 +35,8 @@ output = F.layer_name(input, *parameters, **kwargs)
 
 - `input`: The tensor to which the functional layer is applied. This is the primary input to the function, representing data or intermediate computations in the neural network.
 - `*parameters`: These are the specific parameters required by the functional layer. These are explicitly passed because functional layers do not store parameters internally. Examples include:
-   - Weights: Weights are required for layers like `F.linear`.
-   - Bias: Optional bias terms can also be passed.
+  - Weights: Weights are required for layers like `F.linear`.
+  - Bias: Optional bias terms can also be passed.
 - `**kwargs`: Represents additional keyword arguments that modify the behavior of the functional layer. Examples include:
   - `Padding`: Used in convolutional layers to add padding.
   - `Stride`: Specifies the step size for moving the kernel in convolution.
@@ -64,7 +64,6 @@ def custom_loss(output, target):
   - Mean Squared Error (MSE)
   - Cross-Entropy Loss
   - Binary Cross-Entropy Loss
-
 
 ## Activation Functions
 
@@ -100,7 +99,8 @@ bias = torch.randn(5, requires_grad=True)
 # Apply linear transformation
 output = F.linear(x, weight, bias)
 ```
-The code will output a tensor of shape `(10, 5)` representing the result of the linear transformation. However, the actual values of the tensor will be random due to the use of `torch.randn`, which generates random values from a normal distribution. 
+
+The code will output a tensor of shape `(10, 5)` representing the result of the linear transformation. However, the actual values of the tensor will be random due to the use of `torch.randn`, which generates random values from a normal distribution.
 
 The output might look like this:
 
@@ -149,7 +149,7 @@ output = F.relu(x)  # Applies the ReLU activation function
 print(output)
 ```
 
-The `F.relu(x)` function replaces all negative values in the tensor with zero while retaining positive values. 
+The `F.relu(x)` function replaces all negative values in the tensor with zero while retaining positive values.
 
 A sample output might look like this:
 
@@ -168,4 +168,3 @@ tensor([[0.0000, 0.2345, 1.4567, 0.0000, 0.9876],
 1. **Flexibility**: Functional API provide more control over the forward pass and allow for easy experimentation with different architectures.
 2. **Reusability**: Since functional layers are stateless, they can be reused with different parameters without any side effects.
 3. **Customizability**: Easily define custom layers, loss functions, and activation functions to suit your specific needs.
-
