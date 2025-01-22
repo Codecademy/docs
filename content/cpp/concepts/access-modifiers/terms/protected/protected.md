@@ -1,6 +1,6 @@
 ---
 Title: 'Protected'
-Description: 'In C++, the protected access specifier is used to define the accessibility of class members. Members declared as protected are accessible within their own class and by derived classes (subclasses). However, they are not accessible from outside the class or derived classes. This ensures a certain level of encapsulation while still allowing subclass-specific extensions.'
+Description: 'Protected access modifier allows class members to be accessed within their class and by derived classes.'
 Subjects:
   - 'Computer Science'
 Tags:
