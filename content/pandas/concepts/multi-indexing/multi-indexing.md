@@ -27,10 +27,10 @@ The syntax is as follows:
 pd.MultiIndex.from_tuples(tuples, names=None)
 ```
 
-- **tuples**: List of tuples, where each tuple represents a multi-index entry.
-- **names**: List of strings representing the names of the index levels (default is `None`).
+- `tuples`: List of tuples, where each tuple represents a multi-index entry.
+- `names`: List of strings representing the names of the index levels (default is `None`).
 
-Here's an example where a `DataFrame` is created using a multi-index from a list of tuples, where each tuple represents a hierarchical key -
+Here's an example where a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) is created using a multi-index from a list of tuples, where each tuple represents a hierarchical key.
 
 ```py
 import pandas as pd
@@ -49,7 +49,7 @@ df = pd.DataFrame(data, index=index)
 print(df)
 ```
 
-The output will as follows:
+The output will be as follows:
 
 ```shell
                 Sales  Profit
@@ -73,6 +73,8 @@ DataFrame.groupby([columns]).aggregate()
 Here's an example where a `DataFrame` is grouped by two columns (`Category` and `Subcategory`), creating a multi-index for the grouped result -
 
 ```py
+import pandas as pd
+
 df = pd.DataFrame({
     'Category': ['A', 'A', 'B', 'B'],
     'Subcategory': ['X', 'Y', 'X', 'Y'],
@@ -154,7 +156,7 @@ DataFrame.sort_index(level=None, ascending=True, inplace=False)
 
 ## Codebyte Example
 
-The below example demonstrates creating, accessing, slicing, resetting, setting, sorting, and grouping a multi-indexed DataFrame in Pandas.
+The below example demonstrates creating, accessing, slicing, resetting, setting, sorting, and grouping a multi-indexed DataFrame in Pandas:
 
 ```codebyte/python
 import pandas as pd
