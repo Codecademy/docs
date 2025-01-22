@@ -20,7 +20,9 @@ CatalogContent:
 They regulate how and where class members can be accessed, enabling [**encapsulation**](https://www.codecademy.com/resources/docs/general/programming-paradigms/encapsulation) and safeguarding sensitive data.
 
 These modifiers are essential in writing robust, maintainable, and secure code in [Object-Oriented Programming (OOP)](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming).
+
 ## Types of Access Modifiers
+
 C++ supports _three_ main access modifiers:
 
 ```pseudo
@@ -53,38 +55,62 @@ Members declared `private` can only be accessed within the defining class or str
 Here's an example of the use of access modifiers within the classes `Planet` and `GasGiant`:
 
 ```cpp
+#include <iostream>
+#include <string>
+
 using namespace std;
 
 class Planet {
 public:
- Planet(string name, double diameter, double mass)
-     : name(name), diameter(diameter), mass(mass) {}
+    // Constructor
+    Planet(string name, double diameter, double mass)
+        : name(name), diameter(diameter), mass(mass) {}
 
- // Public method to display planet details
- void displayDetails() {
-  cout << "Planet Name: " << name << endl;
-  cout << "Diameter (km): " << diameter << endl;
-  cout << "Mass (kg): " << mass << endl;
- }
+    // Public method to display planet details
+    void displayDetails() {
+        cout << "Planet Name: " << name << endl;
+        cout << "Diameter (km): " << diameter << endl;
+        cout << "Mass (kg): " << mass << endl;
+    }
 
 protected:
- double diameter;  // Accessible in derived classes
+    double diameter;  // Accessible in derived classes
 
 private:
- string name;  // Only accessible in this class
- double mass;  // Only accessible in this class
+    string name;  // Only accessible in this class
+    double mass;  // Only accessible in this class
 };
 
-// GasGiant inherits from the Planet class, inheriting all attributes and
-// methods.
+// GasGiant inherits from the Planet class, inheriting all attributes and methods.
 class GasGiant : public Planet {
 public:
- GasGiant(string name, double diameter, double mass)
-     : Planet(name, diameter, mass) {}
+    GasGiant(string name, double diameter, double mass)
+        : Planet(name, diameter, mass) {}
 
- // Use of the protected attribute "diameter"
- void displayFeatures() { cout << "Diameter: " << diameter << " km" << endl; }
+    // Use of the protected attribute "diameter"
+    void displayFeatures() {
+        cout << "Diameter: " << diameter << " km" << endl;
+    }
 };
+
+int main() {
+    Planet earth("Earth", 12742, 5.972e24);  // Create an instance of Planet
+    earth.displayDetails();  // Call the displayDetails method
+
+    GasGiant jupiter("Jupiter", 139820, 1.898e27);  // Create an instance of GasGiant
+    jupiter.displayFeatures();  // Call the displayFeatures method
+
+    return 0;
+}
+```
+
+This code outputs:
+
+```shell
+Planet Name: Earth
+Diameter (km): 12742
+Mass (kg): 5.972e+24
+Diameter: 139820 km
 ```
 
 ## Key Differences Between Access Modifiers
