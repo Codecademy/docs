@@ -10,14 +10,7 @@ Tags:
   - 'Inheritance'
 CatalogContent:
   - 'learn-c-plus-plus'
-  - 'c-plus-plus-for-programmers'
-  - 'learn-c-plus-plus-introduction'
-  - 'learn-object-oriented-programming-with-c-plus-plus'
-  - 'learn-c-plus-plus-classes-and-objects'
-  - 'learn-c-plus-plus-references-and-pointers'
-  - 'learn-c-plus-plus-loops'
-  - 'learn-c-plus-plus-vectors'
-  - 'learn-c-plus-plus-functions'
+  - 'paths/computer-science'
 ---
 
 In C++, the **`protected`** access specifier is used to define the accessibility of class members. Members declared as **`protected`** are accessible within their own class and by derived [`classes`](https://www.codecademy.com/resources/docs/cpp/classes) (subclasses). However, they are not accessible from outside the class or derived [`classes`](https://www.codecademy.com/resources/docs/cpp/classes). This ensures a certain level of [`encapsulation`](https://www.codecademy.com/resources/docs/cpp/encapsulation) while still allowing subclass-specific extensions.
