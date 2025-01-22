@@ -18,7 +18,7 @@ In C++, the **`protected`** access specifier is used to define the accessibility
 This approach balances [**encapsulation**](https://www.codecademy.com/resources/docs/cpp/encapsulation and [**inheritance**](https://www.codecademy.com/resources/docs/cpp/inheritance) by restricting access while enabling derived classes to extend functionality.
 
 ## Syntax
-The following code fragment defines a base [`class`](https://www.codecademy.com/resources/docs/cpp/classes) with two **`protected`** members, that can be accessed from derived classes.
+The following code fragment defines a base class with two `protected` members that can be accessed from derived classes.
 ```cpp
 class BaseClass {
 protected:
