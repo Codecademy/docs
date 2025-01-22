@@ -1,8 +1,8 @@
-[**Scopes** are variables that are only accessible inside the region they are created]
+[In C, **Scopes** defines the region of a program where a variable can be accessed. Variables in C are categorized based on their scope into local and global. Let's explore each:]
 
 ## Local Scope Example
 
-A variable created inside a function belongs to the local scope of that function, and can only be used inside that function:
+A variable declared inside a function is said to have local scope. It can only be accessed and used within that function.
 
 ```codebyte/js
 void myFunction() {
@@ -19,11 +19,11 @@ int main() {
 }
 ```
 
+In this example, the variable x is created and used within myFunction. Trying to access x outside of myFunction will result in an error.
+
 ## Global Scope Example
 
-A variable created outside of a function, is called a global variable and belongs to the global scope.
-
-Global variables are available from within any scope, global and local:
+Variables declared outside of any function have global scope. Such variables can be accessed and modified from any function in the program.
 
 ```codebyte/js
 // Global variable x
@@ -43,19 +43,6 @@ int main() {
 }
 ```
 
+In this example, the variable x is declared globally and is accessible both in main and myFunction.
 
-
-
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+By distinguishing between local and global scopes, C ensures controlled variable access and better memory management, making it easier to track and debug code.
