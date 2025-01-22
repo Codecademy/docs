@@ -5,11 +5,9 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Accessibility'
   - 'Classes'
   - 'Encapsulation'
   - 'Inheritance'
-  - 'Members'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'c-plus-plus-for-programmers'
