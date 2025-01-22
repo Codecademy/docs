@@ -1,5 +1,5 @@
 ---
-Title: 'parallelizing-models'
+Title: 'Parallelizing Models'
 Description: 'PyTorch parallelizing models distribute computations across multiple processors or GPUs, improving performance and enabling faster training of large models.'
 Subjects:
   - 'Computer Science'
