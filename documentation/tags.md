@@ -86,6 +86,7 @@ Cybersecurity
 D3
 Dart
 Data
+Data Parallelism
 Data Structures
 Data Types
 Database
@@ -318,6 +319,7 @@ Static Site
 Statistics
 Statsmodels
 Storage
+Strict Mode
 Stringr
 Strings
 Structure
@@ -336,6 +338,7 @@ Tags
 Target
 Technical Interviews
 Templates
+Tensor
 TensorFlow
 Text-To-Image
 Text Processing
