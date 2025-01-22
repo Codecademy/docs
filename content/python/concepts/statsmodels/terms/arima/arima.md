@@ -2,10 +2,9 @@
 Title: 'ARIMA'
 Description: 'Models and predicts time series data using past values and trends to forecast future values.'
 Subjects:
-
 - 'Data Science'
 - 'Machine Learning'
-  Tags:
+Tags:
 - 'Algorithms'
 - 'Data'
 - 'Machine Learning'
@@ -13,7 +12,6 @@ Subjects:
   CatalogContent:
 - 'learn-python-3'
 - 'paths/data science'
-
 ---
 
 The **Auto-Regressive Integrated Moving Average**`(ARIMA)` model is a statistical tool that can be used for analyzing and forecasting the time series data. It is particularly useful when the data shows trends or non-stationary behavior and is most commonly used in economics and finance to predict patterns and seasonality.
