@@ -1,3 +1,17 @@
+---
+Title: C Scope
+Description: 'scope defines the region of a program where a variable can be accessed.'
+Subjects:
+  - 'Computer Science'
+  - 'C'
+  - 'Web Development'
+Tags:
+  - 'variables'
+CatalogContent:
+  - 'learn-c'
+  - 'paths/computer-science'
+---
+
 [In C, **Scopes** defines the region of a program where a variable can be accessed. Variables in C are categorized based on their scope into local and global. Let's explore each:]
 
 ## Local Scope Example
