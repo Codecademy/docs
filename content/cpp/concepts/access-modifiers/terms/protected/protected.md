@@ -65,10 +65,8 @@ int main() {
 ```
 In this example:
 
-`BaseClass` has a protected [`variable`](https://www.codecademy.com/resources/docs/cpp/variables) myVar and a protected [`function`](https://www.codecademy.com/resources/docs/cpp/functions) `myFunc()`.
+`BaseClass` includes a protected [variable](https://www.codecademy.com/resources/docs/cpp/variables) `myVar` and a protected [function](https://www.codecademy.com/resources/docs/cpp/functions) `myFunc()`, which `DerivedClass` can access and modify through inheritance. 
 
-`DerivedClass`, which [`inherits`](https://www.codecademy.com/resources/docs/cpp/inheritance) from `BaseClass`, can access and modify the **protected** members of `BaseClass`.
+In the `main` function, `useProtectedMembers()` demonstrates accessing these members in a controlled manner. 
 
-In the `main` function, an object of `DerivedClass` is created and its public member function `useProtectedMembers()` is called. This function demonstrates the ability to access and manipulate the protected members [`inherited`](https://www.codecademy.com/resources/docs/cpp/inheritance) from `BaseClass`.
-
-Any lines that attempt to access the protected members directly from an object of `BaseClass` or `DerivedClass` (outside their classes) would result in compilation errors, ensuring [`encapsulation`](https://www.codecademy.com/resources/docs/cpp/encapsulation).
+Attempts to access protected members directly from objects of `BaseClass` or `DerivedClass` result in compilation errors, maintaining encapsulation.
