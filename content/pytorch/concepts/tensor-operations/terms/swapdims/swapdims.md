@@ -47,7 +47,7 @@ print("\nSwapped Tensor:")
 print(swapped_tensor)
 ```
 
-This code creates a 2x3 tensor and swaps its rows and columns:
+This code creates a _2x3_ tensor and swaps its rows and columns:
 
 ```shell
 Original Tensor:
