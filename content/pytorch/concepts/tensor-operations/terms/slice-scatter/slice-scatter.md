@@ -1,6 +1,6 @@
 ---
 Title: '.slice_scatter()'
-Description: 'Inserts all values from the source tensor into the input tensor at the given dimension.'
+Description: 'Inserts all values from the source tensor into the input tensor at the given dimension and returns a new tensor.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In PyTorch, the **`.slice_scatter()`** function inserts all values from the source [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) into the input tensor at the given dimension.
+In PyTorch, the **`.slice_scatter()`** function inserts all values from the source [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) into the input tensor at the given dimension. It returns a new tensor with fresh storage, rather than creating a view.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ torch.slice_scatter(input, src, dim=0, start=None, end=None, step=1)
 ```
 
 - `input`: The input tensor.
-- `src`: The source tensor containing the values to be inserted.
+- `src`: The source tensor containing the values to insert into the `input` tensor.
 - `dim`: The dimension along which the values are to be inserted. The default value is `0`.
 - `start` (Optional): The starting index for inserting the values. The default value is `None`.
 - `end` (Optional): The ending index for inserting the values. The default value is `None`.
