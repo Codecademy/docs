@@ -25,6 +25,7 @@ torch.unbind(tensor, dim=0)
 
 - `tensor`: The tensor to be unbinded;
 - `dim`: The dimension to be removed from the original tensor. If not provided, it's set value is 0.
+
 ## Example
 
 ```python
@@ -51,21 +52,3 @@ The code above should output the following:
 ```
 
 
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
-```
