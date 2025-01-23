@@ -1,6 +1,6 @@
 ---
 Title: '.swapdims()'
-Description: 'Swaps two dimensions of a PyTorch tensor to simplify reshaping and working with multidimensional data.'
+Description: 'Swaps two specified dimensions of a tensor, effectively transposing those dimensions.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-The **`.swapdims()`** function in PyTorch exchanges two specified dimensions of a tensor, simplifying [tensor manipulation and reshaping operations](https://www.codecademy.com/resources/docs/pytorch/tensor-operations). This method enables efficient handling of multidimensional data for tasks such as deep learning and data analysis and provides a view with swapped dimensions without making a copy of the tensor.
+The **`.swapdims()`** function in PyTorch exchanges two specified dimensions of a tensor, simplifying [tensor manipulation and reshaping operations](https://www.codecademy.com/resources/docs/pytorch/tensor-operations). This method provides a view with the dimensions swapped, enabling efficient handling of multidimensional data for tasks like deep learning and data analysis, without copying the tensor.
 
 ## Syntax
 
@@ -25,8 +25,8 @@ torch.swapdims(input, dim0, dim1) -> Tensor
 ```
 
 - `input`: The tensor whose dimensions are to be swapped.
-- `dim0`(int): First dimension to be swapped.
-- `dim1`(int): Second dimension to be swapped.
+- `dim0` (int): The first dimension to swap.
+- `dim1` (int): The second dimension to swap.
 
 ## Example
 
