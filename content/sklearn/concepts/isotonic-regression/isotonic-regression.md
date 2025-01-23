@@ -81,32 +81,4 @@ plt.show()
 
 The example results in the following output:
 
-![Isotonic Regression Example] (https://github.com/S3an28/docs/blob/SK_5305/content/sklearn/concepts/isotonic-regression/isotonic-regression-example.jpg)
-
-## Codebyte
-
-```codebyte/python
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.isotonic import IsotonicRegression
-
-# Generate some synthetic data
-np.random.seed(0)
-x = np.arange(1, 11)
-y = np.array([1, 2, 1.5, 3, 2.5, 3.5, 4, 4.5, 5, 6]) + np.random.normal(0, 0.3, 10)
-
-# Fit isotonic regression
-iso_reg = IsotonicRegression(increasing=True)
-y_pred = iso_reg.fit_transform(x, y)
-
-# Plot
-plt.figure(figsize=(8, 6))
-plt.scatter(x, y, color='blue', label='Original Data')
-plt.plot(x, y_pred, color='red', label='Isotonic Regression Fit', linewidth=2)
-plt.title("Isotonic Regression")
-plt.xlabel("X")
-plt.ylabel("Y")
-plt.legend()
-plt.grid(True)
-plt.show()
-```
+![Isotonic Regression Example] (https://github.com/Codecademy/docs/media/isotonic-regression-example.jpg)
