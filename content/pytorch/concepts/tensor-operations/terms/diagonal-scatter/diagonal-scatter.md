@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In PyTorch, the **`.diagonal_scatter()`** function inserts all values from the source [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) into the input tensor at specified diagonal indices.
+In PyTorch, the **`.diagonal_scatter()`** function scatters all values from the source [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) into the specified diagonal of the input tensor.
 
 ## Syntax
 
@@ -22,12 +22,12 @@ In PyTorch, the **`.diagonal_scatter()`** function inserts all values from the s
 torch.diagonal_scatter(input, src, offset=0, dim1=0, dim2=1)
 ```
 
-- `input`: The input tensor.
+- `input`: The input tensor that serves as the base tensor where values from `src` will be scattered into the specified diagonal.
 - `src`: The source tensor containing the values to be inserted.
-- `offset` (Optional): The diagonal along which the values are to be inserted.
-  - If the value is `0` (default), it indicates the main diagonal.
-  - If the value is more than `0`, it indicates above the main diagonal.
-  - If the value is less than `0`, it indicates below the main diagonal.
+- `offset` (Optional): Specifies which diagonal to modify.
+  - `offset = 0` (default): The main diagonal.
+  - `offset > 0`: Diagonals above the main diagonal.
+  - `offset < 0`: Diagonals below the main diagonal.
 - `dim1` (Optional): The first dimension along which the values are to be inserted. The default value is `0`.
 - `dim2` (Optional): The second dimension along which the values are to be inserted. The default value is `1`.
 
