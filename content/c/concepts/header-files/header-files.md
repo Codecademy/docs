@@ -116,13 +116,13 @@ int main() {
   int x = 3;
   int y = 5;
   int result = 0;  // Initialize to zero
-  
+
   // Compute the addition
   result = add(x, y);
-  
+
   // Display the result
   printf("%d + %d = %d\n", x, y, result);
-  
+
   return 0;
 }
 ```
