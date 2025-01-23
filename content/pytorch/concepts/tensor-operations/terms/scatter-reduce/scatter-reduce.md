@@ -1,6 +1,6 @@
 ---
 Title: '.scatter_reduce()'
-Description: 'Reduces all values in the source tensor using the given reduction method and scatters the result to the input tensor.'
+Description: 'Reduces values from the source tensor using the given reduction method and scatters the result into the input tensor at the specified indices.'
 Subjects:
   - 'AI'
   - 'Data Science'
