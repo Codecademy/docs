@@ -1,6 +1,6 @@
 ---
 Title: '.unbind()'
-Description: 'Removes a dimension and returns a tuple of slices along the given dimension' 
+Description: 'Removes a dimension and returns a tuple of slices along the given dimension.' 
 Subjects:
   - 'AI'
   - 'Machine Learning'
@@ -19,7 +19,7 @@ In PyTorch, the **`.unbind()`** function takes two arguments:
 1. The tensor to unbind.
 2. The dimension (axis) to remove.
 
-The function removes the specified dimension and returns a tuple of tensors, each representing a slice along the given dimension.
+The function removes the specified dimension and returns a tuple of [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors), each representing a slice along the given dimension.
 
 ## Syntax
 
@@ -27,7 +27,7 @@ The function removes the specified dimension and returns a tuple of tensors, eac
 torch.unbind(tensor, dim=0)
 ```
 
-- `tensor`: The tensor to unbind
+- `tensor`: The tensor to unbind.
 - `dim`: The dimension to remove from the tensor.
 
 ## Example
