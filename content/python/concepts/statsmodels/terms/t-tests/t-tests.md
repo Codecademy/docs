@@ -56,9 +56,9 @@ print(f"P-value: {p_value}")
 # Interpretation
 alpha = 0.05
 if p_value < alpha:
-    print("Reject the null hypothesis: The sample mean is significantly different from 10.")
+  print("Reject the null hypothesis: The sample mean is significantly different from 10.")
 else:
-    print("Fail to reject the null hypothesis: No significant difference from 10.")
+  print("Fail to reject the null hypothesis: No significant difference from 10.")
 ```
 
 The code above generates the following ouput:
