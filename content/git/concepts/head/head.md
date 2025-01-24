@@ -22,7 +22,7 @@ In Git, **`HEAD`** is a reference to the current branch or commit that the user 
 
 ## Viewing `HEAD`
 
-To check the current commit or branch where `HEAD` is pointing, use the following command:
+To check the current commit or branch where `HEAD` is pointing, the following command can be used:
 
 ```shell
 git log --oneline
@@ -44,17 +44,17 @@ Changes made in detached `HEAD` state won't be associated with any branch unless
 
 ## Updating `HEAD`
 
-`HEAD` is updated when switching branches, as it points to the latest commit of the newly checked-out branch.
+`HEAD` is updated when switching branches, as it points to the latest commit of the newly checked-out branch:
 
-```pseudo
-git checkout <branch_name>
+```shell
+git checkout develop
 ```
 
-This command switches the current branch to develop, and `HEAD` points to the most recent commit on the develop branch.
+This command switches the current branch to `develop` and `HEAD` points to the most recent commit on the `develop` branch.
 
 ## Resetting `HEAD`
 
-We can use `git reset` to move `HEAD` to a previous commit, changing the state of the working directory.
+We can use `git reset` to move `HEAD` to a previous commit, changing the state of the working directory:
 
 ```pseudo
 git reset --hard <commit_hash>
