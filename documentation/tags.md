@@ -86,9 +86,12 @@ Cybersecurity
 D3
 Dart
 Data
+Data Parallelism
 Data Structures
 Data Types
 Database
+DataLoader
+Datasets
 Date
 Dart Operators
 Debugging
@@ -207,6 +210,7 @@ Lists
 Logic
 Logical
 Logistic Regression
+Logit
 Loops
 Map
 Machine Learning
@@ -270,6 +274,7 @@ Programming
 Properties
 Protocols
 Python
+PyTorch
 Queries
 Queues
 Quicksort
@@ -312,7 +317,9 @@ SQL Server
 Stacks
 Static Site
 Statistics
+Statsmodels
 Storage
+Strict Mode
 Stringr
 Strings
 Structure
@@ -331,6 +338,7 @@ Tags
 Target
 Technical Interviews
 Templates
+Tensor
 TensorFlow
 Text-To-Image
 Text Processing

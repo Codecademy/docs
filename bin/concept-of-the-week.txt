@@ -1,1 +1,1 @@
-content/rust/concepts/conditionals/conditionals.md
+content/swift/concepts/inheritance/inheritance.md
