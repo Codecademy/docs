@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-**Learning Rate Scheduling** is a method to adjust the learning rate during the training process of a neural network. The learning rate defines the step size used by optimization algorithms, such as Stochastic Gradient Descent (SGD), to minimize the loss function. By modifying the learning rate throughout training, a schedule can help models converge faster and achieve better accuracy.
+**Learning Rate Scheduling** is a method to adjust the learning rate during the training process of a [neural network](https://www.codecademy.com/resources/docs/ai/neural-networks). The learning rate defines the step size used by optimization algorithms, such as [Stochastic Gradient Descent (SGD)](https://www.codecademy.com/resources/docs/ai/neural-networks/stochastic-gradient-descent), to minimize the loss function. By modifying the learning rate throughout training, a schedule can help models converge faster and achieve better accuracy.
 
 ## Key Points
 
