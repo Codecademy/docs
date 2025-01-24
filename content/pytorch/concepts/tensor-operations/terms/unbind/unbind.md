@@ -1,34 +1,38 @@
 ---
 Title: '.unbind()'
-
 Description: 'Removes a dimension and returns a tuple of slices along the given dimension' 
 Subjects:
   - 'AI'
   - 'Machine Learning'
   - 'Data Science'
 Tags:
+  - 'Functions'
   - 'PyTorch'
   - 'Tensor'
-  - 'Functions'
 CatalogContent: 
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/data-science'
 ---
 
-In PyTorch, the **.unbind()** function takes two arguments: The first being the tensor you wish to unbind, and the second being the dimension to remove. The function then returns a tuple of tensors along the specified dimension.
+In PyTorch, the **`.unbind()`** function takes two arguments:
+
+1. The tensor to unbind.
+2. The dimension (axis) to remove.
+
+The function removes the specified dimension and returns a tuple of tensors, each representing a slice along the given dimension.
 
 ## Syntax
 
-```python
+```pseudo
 torch.unbind(tensor, dim=0)
 ```
 
-- `tensor`: The tensor to be unbinded;
-- `dim`: The dimension to be removed from the original tensor. If not provided, it's set value is 0.
+- `tensor`: The tensor to unbind
+- `dim`: The dimension to remove from the tensor.
 
 ## Example
 
-```python
+```py
 import torch
 
 # Create a tensor
@@ -38,11 +42,11 @@ ten = torch.tensor([
     [7, 8, 9]
 ])
 
-# Unbind the tensor, and save it as the tuple "unbinded"
-unbinded = torch.unbind(ten)
+# Unbind the tensor along the first dimension (default dim=0)
+unbound = torch.unbind(ten)
 
-# Print the tuple
-print(unbinded)
+# Print the resulting tuple
+print(unbound)
 ```
 
 The code above should output the following:
