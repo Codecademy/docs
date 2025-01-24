@@ -38,7 +38,7 @@ In this example, a one-sample t-test is performed to determine whether the mean 
 
 ```py
 import numpy as np
-from statsmodels.stats.weightstats import ttest_ind
+from scipy.stats import ttest_1samp
 
 # Sample data
 data = np.array([9.5, 10.1, 9.8, 10.2, 9.9, 10.0, 9.7])
@@ -46,17 +46,12 @@ data = np.array([9.5, 10.1, 9.8, 10.2, 9.9, 10.0, 9.7])
 # Hypothesized population mean
 population_mean = 10
 
-# Perform t-test
-t_stat, p_value, df = ttest_ind(
-    data,
-    np.full(len(data), population_mean),
-    alternative='two-sided'
-)
+# Perform one-sample t-test
+t_stat, p_value = ttest_1samp(data, population_mean)
 
 # Output results
 print(f"t-statistic: {t_stat}")
 print(f"P-value: {p_value}")
-print(f"Degrees of freedom: {df}")
 
 # Interpretation
 alpha = 0.05
@@ -70,7 +65,6 @@ The code above generates the following ouput:
 
 ```shell
 t-statistic: -1.2545000963743562
-P-value: 0.23354509216171446
-Degrees of freedom: 12.0
+P-value: 0.25631545891582497
 Fail to reject the null hypothesis: No significant difference from 10.
 ```
