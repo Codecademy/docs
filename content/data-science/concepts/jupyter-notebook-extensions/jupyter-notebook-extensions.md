@@ -9,7 +9,7 @@ Subjects:
 
 CatalogContent:
     - 'paths/machine-learning-engineer'
-    - 'paths/visualize-data-with-python
+    - 'paths/visualize-data-with-python'
 
 ---
 
