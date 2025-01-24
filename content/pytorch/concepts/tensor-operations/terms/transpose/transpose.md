@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the `.transpose()` operation creates a view of the input tensor with the specified dimensions swapped, commonly used for matrix operations and reshaping data for neural network inputs. Unlike `permute()`, `transpose()` only swaps two dimensions at a time.
+In PyTorch, the **`.transpose()`** operation creates a view of the input tensor with the specified dimensions swapped, commonly used for matrix operations and reshaping data for neural network inputs. Unlike **`.permute()`**, `.transpose()` only swaps two dimensions at a time.
 
 ## Syntax
 
@@ -22,20 +22,24 @@ In PyTorch, the `.transpose()` operation creates a view of the input tensor with
 tensor.transpose(dim0, dim1)
 ```
 
-- `dim0`: First dimension to be transposed
-- `dim1`: Second dimension to be transposed
+- `dim0`: The first dimension to be transposed.
+- `dim1`: The second dimension to be transposed.
 
 ## Example
 
-The following code creates a 2x3 tensor with 2 rows and 3 columns, then uses `transpose()` to swap row and column dimensions, resulting in a 3x2 tensor where original rows become columns and vice versa:
+The following code creates a 2x3 tensor and then uses `.transpose()` to swap row and column dimensions, resulting in a 3x2 tensor where original rows become columns and vice versa:
 
 ```py
 import torch
 
-# Create a 2x3 tensor and transpose its dimensions
+# Create a 2x3 tensor
 x = torch.tensor([[1, 2, 3],
-                 [4, 5, 6]])
+                  [4, 5, 6]])
+
+# Transpose its dimensions
 y = x.transpose(0, 1)
+
+# Print the resultant tensor
 print(y)
 ```
 
