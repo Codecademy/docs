@@ -1,6 +1,6 @@
 ---
 Title: 'Keywords'
-Description: 'Reserved words that have predefined meanings and purposes in the programming language and cannot be used as identifiers.'
+Description: 'Reserved words with predefined meanings and purposes in the C programming language and cannot be used as identifiers.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
