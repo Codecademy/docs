@@ -26,7 +26,7 @@ C provides a small set of keywords compared to modern programming languages, ens
 - They provide specific instructions to the compiler to perform operations like branching, looping, data type definition, and memory management.
 - Some compilers may introduce additional keywords as extensions, but these are non-standard.
 
-  ## Table of Keywords
+## Table of Keywords
 
 | Keyword    | Description                                         |
 | ---------- | --------------------------------------------------- |
