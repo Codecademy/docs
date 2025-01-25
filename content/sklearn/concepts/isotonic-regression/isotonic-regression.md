@@ -1,6 +1,6 @@
 ---
 Title: 'Isotonic Regression'
-Description: 'Isotonic Regression is a technique of using a fre-form line to establish a non-linear path, created by a set of data points.' 
+Description: 'Isotonic Regression is a technique of using a free-form line to establish a non-linear path, created by a set of data points.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -8,14 +8,13 @@ Tags:
   - 'Booleans'
   - 'Datasets'
   - 'Matplotlib'
-  - 'Numpy'
-  - 'Scikit-learn'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/intermediate-machine-learning-skill-path'
 ---
 
-***Isotonic Regression*** is a technique of using a free-form line to establish a non-linear path. The path is created by a set of data points. In this technique, predictor variables and target vairables increase or decrease, monotonically, in a non-oscilatory manner. The word "isotonic" (*iso* and *tonos*) comes from the Greek, meaning *equal* and *to stretch*, respectively.
+**Isotonic Regression** is a technique of using a free-form line to establish a non-linear path. The path is created by a set of data points. In this technique, predictor variables and target vairables increase or decrease, monotonically, in a non-oscilatory manner. The word "isotonic" (_iso_ and _tonos_) comes from the Greek, meaning _equal_ and _to stretch_, respectively.
 
 ## Syntax
 
@@ -46,7 +45,7 @@ plot.legend()
 plot.show()
 ```
 
-- `increasing`: This is a boolean parameter that specifies whether the fitted values should increase monotonically (`True`) or decrease monotonically (`False`). 
+- `increasing`: This is a boolean parameter that specifies whether the fitted values should increase monotonically (`True`) or decrease monotonically (`False`).
 - `increasing=True` enforces a non-decreasing relationship between the predictor (`x`) and the target (`y`) variables.
 
 ## Example
@@ -63,11 +62,11 @@ np.random.seed(123)
 x = np.linspace(0, 10, 15) # Predictor variables
 y = np.sin(x) + np.random.normal(0, 0.2, len(x)) # Non-monotonic target variable with noise
 
-# Initialize and fit isotonic regression model
+# Initialize and fit Isotonic Regression model
 iso_reg = IsotonicRegression(increasing=True)
 y_isotonic = iso_reg.fit_transform(x, y)
 
-# Plot the original data and isotonic regression fit
+# Plot the original data and Isotonic Regression fit
 plt.figure(figsize=(8, 6))
 plt.scatter(x, y, color='green', label='Original Data', marker='o')
 plt.step(x, y_isotonic, color-'orange', label='Isotonic Fit', where='post', linewidth=2)
@@ -81,4 +80,4 @@ plt.show()
 
 The example results in the following output:
 
-![Isotonic Regression Example] (https://github.com/Codecademy/docs/media/isotonic-regression-example.jpg)
+![Output for the above example on Isotonic Regression](https://raw.githubusercontent.com/Codecademy/docs/main/media/isotonic-regression-example.jpg)
