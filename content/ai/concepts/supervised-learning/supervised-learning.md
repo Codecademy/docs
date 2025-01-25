@@ -1,6 +1,6 @@
 ---
 Title: 'Supervised Learning'
-Description: 'Supervised learning is a type of machine learning where algorithms learn from labeled data to make predictions or decisions.'
+Description: 'Supervised learning is a machine learning technique where algorithms learn from labeled data to make predictions.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Machine learning (ML)** is a type of machine learning where the algorithm learns from labeled data. It involves training a model on input-output pairs to generalize and predict outcomes for new, unseen data. This label acts as a "supervisor," guiding the learning process.
+**Supervised learning (ML)** is a type of machine learning where the algorithm learns from labeled data. It involves training a model on input-output pairs to generalize and predict outcomes for new, unseen data. This label acts as a "supervisor," guiding the learning process.
 
 Imagine teaching a child by showing them examples with correct answers. Similarly, the algorithm learns patterns from these examples and uses them to make predictions on new, unseen data.
 
