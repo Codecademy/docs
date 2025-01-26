@@ -1,62 +1,83 @@
 ---
-Title: C Scope
-Description: 'scope defines the region of a program where a variable can be accessed.'
+Title: Scope
+Description: 'Scope defines the region in a program where a variable can be accessed.'
 Subjects:
   - 'Computer Science'
-  - 'C'
+  - 'Developer Tools'
   - 'Web Development'
 Tags:
-  - 'variables'
+  - 'Control Flow'
+  - 'Memory'
+  - 'Programming'
+  - 'Variables'
 CatalogContent:
   - 'learn-c'
   - 'paths/computer-science'
 ---
 
-[In C, **Scopes** defines the region of a program where a variable can be accessed. Variables in C are categorized based on their scope into local and global. Let's explore each:]
+In C, **scope** defines the region of a program where a variable can be accessed. Variables in C are categorized into local and global scopes based on their accessibility.
 
-## Local Scope Example
+## Local Scope 
 
 A variable declared inside a function is said to have local scope. It can only be accessed and used within that function.
 
-```codebyte/js
-void myFunction() {
-  // Local variable that belongs to myFunction
-  int x = 5;
+Here’s the syntax for local scope in `C`:
 
-  // Print the variable x
-  printf("%d", x);
-}
+## Syntax
 
-int main() {
-  myFunction();
-  return 0;
-}
-```
+```pseudo
+return_type function_name() {
+    // Variable with local scope
+    data_type variable_name = value;
 
-In this example, the variable x is created and used within myFunction. Trying to access x outside of myFunction will result in an error.
-
-## Global Scope Example
-
-Variables declared outside of any function have global scope. Such variables can be accessed and modified from any function in the program.
-
-```codebyte/js
-// Global variable x
-int x = 5;
-
-void myFunction() {
-  // We can use x here
-  printf("%d", x);
-}
-
-int main() {
-  myFunction();
-
-  // We can also use x here
-  printf("%d", x);
-  return 0;
+    // Code that uses the variable
+    ...
 }
 ```
+- `data_type`: Represents the type of the variable.
+- `variable_name`: Name of the variable used in the code.
+- `value`: Value assigned to the variable.
 
-In this example, the variable x is declared globally and is accessible both in main and myFunction.
+## Global Scope
 
-By distinguishing between local and global scopes, C ensures controlled variable access and better memory management, making it easier to track and debug code.
+Variables declared outside of any function have global scope and can be accessed and modified from any function within the program.
+
+Here’s the syntax for global scope in `C`:
+
+## Syntax
+
+```pseudo
+
+data_type variable_name = value;
+// Global variable (declared outside any function)
+return_type function_name() {
+    // Code that can access the global variable
+} 
+```
+
+Here's a concise code snippet demonstrating both local and global scope in `C`:
+
+## Example
+
+```c
+#include <stdio.h>
+// Global variable
+int globalVar = 100;
+void myFunction() {
+    // Local variable
+    int localVar = 10;
+
+    // Accessing both local and global variables
+    printf("Local variable inside myFunction: %d\n", localVar);
+    printf("Global variable inside myFunction: %d\n", globalVar);
+}
+int main() {
+    // Accessing the global variable
+    printf("Global variable inside main: %d\n", globalVar);
+    
+    // Calling the function which accesses both local and global variables
+    myFunction();
+    
+    return 0;
+}
+```
