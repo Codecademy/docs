@@ -83,6 +83,7 @@ end_time = time.time()
 print(f"Time taken without streams: {end_time - start_time:.3f} seconds")
 ```
 > **Note:** The Stream calculation varies on the complexity of command execution. If the calculation is simple, the stream might slow the operation instead.  
+
 Output example of sample size = 10**9
 ```shell
 Time taken with streams: 5.316 seconds
