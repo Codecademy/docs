@@ -1,1 +1,1 @@
-content/swift/concepts/inheritance/inheritance.md
+content/ruby/concepts/sets/sets.md
