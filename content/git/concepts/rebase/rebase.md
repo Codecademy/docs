@@ -55,6 +55,7 @@ When merging a pull request, Git provides three strategies: **Merge Commit**, **
 Merge commits integrate a feature branch into the main branch while keeping the full commit history and adding a **merge commit** to record the integration.
 
 **Scenario:**
+
 - Your main branch has two commits.
 - You create a feature branch, make two commits, and your team adds a commit to the main branch.
 - When you merge the feature branch into the main branch, a **merge commit** is added, preserving the history of all feature branch commits.
@@ -75,25 +76,28 @@ git commit -m "Main branch commit"
 git merge feature-branch
 
 ```
-**Terminal Output**
+
+**Terminal Output:**
 
 ```shell
 *   b4d1f6c Merge branch 'feature'
-|\  
+|\
 | * 9f8e7a2 Feature Commit 2
 | * 8c7d6b1 Feature Commit 1
 * | 6a5f4c3 Main Commit 3
-|/  
+|/
 * 4e3d2f1 Main Commit 2
 * 1a2b3c4 Main Commit 1
 
 ```
 
 **Pros:**
+
 - Retains the complete commit history.
 - Useful for debugging and tracing changes.
 
 **Cons:**
+
 - Creates a cluttered history, especially in large teams with frequent commits.
 - `git log` can become confusing.
 
@@ -104,9 +108,11 @@ git merge feature-branch
 Squash commits condense multiple commits from a feature branch into a single commit when merging into the main branch.
 
 **Scenario:**
+
 - Your main branch has two commits.
 - You create a feature branch, make two commits, and your team adds a commit to the main branch.
 - When you squash merge, the two feature branch commits are combined into one and added as a single commit on top of the main branch.
+
 ```shell
 # Create a feature branch and switch to it
 git checkout -b feature-branch
@@ -124,7 +130,9 @@ git merge --squash feature-branch
 git commit -m "Squashed Feature Commit"
 
 ```
-**Terminal Output**
+
+**Terminal Output:**
+
 ```shell
 * 3f4e5d6 Squashed Feature Commit
 * 6a5f4c3 Main Commit 3
@@ -134,10 +142,12 @@ git commit -m "Squashed Feature Commit"
 ```
 
 **Pros:**
+
 - Produces a clean, linear history.
 - Only a single commit represents the entire feature.
 
 **Cons:**
+
 - Loses granular commit history, making debugging harder.
 
 ---
@@ -147,9 +157,11 @@ git commit -m "Squashed Feature Commit"
 Rebase merges integrate commits from a feature branch by "replaying" them onto the main branch without adding a merge commit. This results in a linear history.
 
 **Scenario:**
+
 - Your main branch has two commits.
 - You create a feature branch, make two commits, and your team adds a commit to the main branch.
 - When rebasing, the two feature branch commits are applied on top of the latest main branch commit, creating a straight-line history.
+
 ```shell
 # Create a feature branch and switch to it
 git checkout -b feature-branch
@@ -167,7 +179,8 @@ git checkout feature-branch
 git rebase main
 
 ```
-**Terminal Output**
+
+**Terminal Output:**
 
 ```shell
 * 9f8e7a2 Feature Commit 2
@@ -177,19 +190,21 @@ git rebase main
 * 1a2b3c4 Main Commit 1
 
 ```
+
 **Pros:**
+
 - Creates a clean, linear commit history.
 - Avoids unnecessary merge commits.
 
 **Cons:**
+
 - Resolving merge conflicts during a rebase can be more challenging.
 - If the feature branch has multiple commits that modify the same code, conflicts may need to be resolved repeatedly.
 
 ---
 
 ## Considerations for Using Git Rebase
->Avoid rebasing on the main branch.
 
->Use rebase only on local branches.
-
->Never rebase a branch after it has been pushed to a shared repository.
+> Avoid rebasing on the main branch.
+> Use rebase only on local branches.
+> Never rebase a branch after it has been pushed to a shared repository.
