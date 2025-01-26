@@ -16,19 +16,19 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-PyTourch can use **torch.cuda** library to set up and run CUDA operations. One exaple of these function is '.Stream()', this function can set a linear sequence of execution to do asynchronous tasks.
+PyTorch can use **torch.cuda** library to set up and run CUDA operations. An example of this function is '.Stream()', this function can set a linear sequence of execution to do asynchronous tasks.
 
 ## Syntax
 
 ```pseudo
 torch.cuda.Stream(device, priority)
 ```
-- `device`: An integer indecating a device that hold the stream (optional). If this parameter is set to 'None' (default) or negative integer, the current device will be chosen.
-- `priority`: A set range of negative, zero, or positive integer. The lower the integer the higher the priority. 'priority' is set to 0 by default. If the value falls beyond the allowed priority range, the nearest correct priority will be mapped automatically (highest for large negative numbers and lowest for large positive numbers).
+- `device`: An integer indicating a device that holds the stream (optional). If this parameter is set to 'None' (default) or negative integer, the current device will be chosen.
+- `priority`: A set range of negative, zero, or positive integers. The lower the integer the higher the priority. 'priority' is set to 0 by default. If the value falls beyond the allowed priority range, the nearest correct priority will be mapped automatically (highest for large negative numbers and lowest for large positive numbers).
 
 ## Example
 
-The following Python/PyTorch code section demonstrate a heavy calculation with and without Stream 
+The following Python/PyTorch code section demonstrates a heavy calculation with and without Stream 
 
 ```py
 import torch
