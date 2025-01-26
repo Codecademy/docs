@@ -47,8 +47,7 @@ In Classification, the algorithm learns from labeled training data, where each i
 
 ### Regression
 
-Regression, in the realm of machine learning and statistics, is a supervised learning task focused on predicting a continuous numerical output.
-Unlike classification, which assigns data points to categories, regression aims to estimate a value within a range.
+Regression is a supervised learning task focused on predicting a continuous numerical output. Unlike classification, which assigns data points to categories, regression aims to estimate a value within a range.
 
 **Examples:** House Price Prediction, Stock Price Prediction, Temperature Forecasting, Sales Forecasting.
 
