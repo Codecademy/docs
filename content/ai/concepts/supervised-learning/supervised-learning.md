@@ -22,39 +22,39 @@ Imagine teaching a child by showing them examples with correct answers. Similarl
 
 Examples: Identifying Handwritten Digits, predicting the prices of cars, spam emails detection.
 
+Key Components
+Training Data: A dataset of input-output pairs (e.g., emails labeled as "spam" or "not spam").
+
+Model: The algorithm (e.g., decision tree, neural network) that learns from the data.
+
+Loss Function: Measures how far the model's predictions are from the true labels (e.g., mean squared error for regression, cross-entropy for classification).
+
+Optimization: Adjusting the model’s parameters (weights) to minimize the loss (e.g., using gradient descent).
+
 ## Types of Supervised Learning
 
 ### Classification
 
 In Classification, the algorithm learns from labeled training data, where each input is associated with a specific class, and then uses this knowledge to classify new, unseen data.
 
-Examples:
-Key Components: Spam detection, Handwritten Digit Recognition, Image Classification, Medical Diagnosis.
+- Examples:
 
-Features (Input Variables): These are the measurable characteristics or attributes of the data points. They can be numerical or categorical
-Labels (Output Variables/Classes/Categories): These are the predefined categories to which data points are assigned. They are discrete values, meaning they belong to a finite set.
-Training Data: A dataset where each data point is paired with its correct label. This is what the model learns from.
-Model: The algorithm or function that learns the mapping between the features and the labels.
+  - Spam detection, Handwritten Digit Recognition, Image Classification, Medical Diagnosis.
 
-Types of Classification:
-Binary Classification: The task of classifying data points into one of two classes.
-Examples: Spam detection (spam or not spam), Medical diagnosis (disease present or absent)
-Multi-class Classification: The task of classifying data points into one of more than two classes.
-Examples: Image classification (cat, dog, bird, fish), Handwritten digit recognition (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
-Multi-label Classification: The task of assigning multiple labels to each data point. This is different from multi-class classification, where each data point can only belong to one class.
-Examples: Tagging a movie with multiple genres (action, adventure, comedy), Classifying a document with multiple topics (politics, economics, international relations)
+- Key Components:
 
-Common Classification Algorithms: Logistic Regression, Support Vector Machines (SVMs), Decision Trees, Random Forests, Naive Bayes, K-Nearest Neighbors (KNN)
-//
+  - Features (Input Variables): These are the measurable characteristics or attributes of the data points. They can be numerical or categorical
+  - Labels (Output Variables/Classes/Categories): These are the predefined categories to which data points are assigned. They are discrete values, meaning they belong to a finite set.
+  - Training Data: A dataset where each data point is paired with its correct label. This is what the model learns from.
+  - Model: The algorithm or function that learns the mapping between the features and the labels.
 
-- Example: In a spam filter, the classes are "spam" and "not spam."
-  - Linear regression: Plots the line or plane of "best fit" of optimal values for prediction tasks.
-  - Logistic regression: Classifies elements in a data set into discrete categories.
-- Classification: Categorizes data points into discrete groups.
-  - Naïve-Bayes classifier: Uses Bayes' theorem of probability to perform classification of elements.
-  - Support vector machine (SVM): Margin classifiers that define hyperplanes to separate data points into discrete categories.
-  - Artificial Neural Networks (ANN): Classifiers modeled after biological neural networks with relatively high-performance capabilities in regression and classification tasks.
-    //
+- Types of Classification:
+
+  - Binary Classification: The task of classifying data points into one of two classes.
+  - Multi-class Classification: The task of classifying data points into one of more than two classes.
+  - Multi-label Classification: The task of assigning multiple labels to each data point. This is different from multi-class classification, where each data point can only belong to one class.
+
+- Common Classification Algorithms: Logistic Regression, Support Vector Machines (SVMs), Decision Trees, Random Forests, Naive Bayes, K-Nearest Neighbors (KNN)
 
 ### Regression
 
@@ -62,12 +62,11 @@ Regression, in the realm of machine learning and statistics, is a supervised lea
 
 Unlike classification, which assigns data points to categories, regression aims to estimate a value within a range.
 
-Key Components:
-
-Features (Input Variables): These are the independent variables used to make predictions. They can be numerical or categorical, but they ultimately influence the numerical output.  
-Target Variable (Output Variable/Dependent Variable): This is the continuous numerical value we want to predict.  
-Training Data: A dataset containing examples of input features and their corresponding target values. The model learns from these examples.  
-Model: The learned function that maps the input features to the target variable.
+- Key Components:
+  - Features (Input Variables): These are the independent variables used to make predictions. They can be numerical or categorical, but they ultimately influence the numerical output.
+  - Target Variable (Output Variable/Dependent Variable): This is the continuous numerical value we want to predict.
+  - Training Data: A dataset containing examples of input features and their corresponding target values. The model learns from these examples.
+  - Model: The learned function that maps the input features to the target variable.
 
 Types of Regression:
 
@@ -81,6 +80,7 @@ Neural Network Regression: Uses neural networks to learn complex non-linear rela
 
 Examples: House Price Prediction, Stock Price Prediction, Temperature Forecasting, Sales Forecasting.
 
+Common Classification Algorithms: Linear Regression, Polynomial Regression, Support Vector Regression (SVR), Decision Tree Regression, Random Forest Regression, Neural Network Regression.
 //
 
 - Clustering: Recognize patterns and structures in unlabeled data by grouping them into clusters.
