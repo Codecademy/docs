@@ -37,13 +37,6 @@ In Classification, the algorithm learns from labeled training data, where each i
 
 **Examples:** Spam Detection, Handwritten Digit Recognition, Image Classification, Medical Diagnosis.
 
-**Key Components:**
-
-- **_Features (Input Variables):_** These are the measurable characteristics or attributes of the data points. They can be numerical or categorical
-- **_Labels (Output Variables/Classes/Categories):_** These are the predefined categories to which data points are assigned. They are discrete values, meaning they belong to a finite set.
-- **_Training Data:_** A dataset where each data point is paired with its correct label. This is what the model learns from.
-- **_Model:_** The algorithm or function that learns the mapping between the features and the labels.
-
 **Types of Classification:**
 
 - **_Binary Classification:_** The task of classifying data points into one of two classes.
@@ -58,13 +51,6 @@ Regression, in the realm of machine learning and statistics, is a supervised lea
 Unlike classification, which assigns data points to categories, regression aims to estimate a value within a range.
 
 **Examples:** House Price Prediction, Stock Price Prediction, Temperature Forecasting, Sales Forecasting.
-
-**Key Components:**
-
-- **_Features (Input Variables):_** These are the independent variables used to make predictions. They can be numerical or categorical, but they ultimately influence the numerical output.
-- **_Target Variable (Output Variable/Dependent Variable):_** This is the continuous numerical value we want to predict.
-- **_Training Data:_** A dataset containing examples of input features and their corresponding target values. The model learns from these examples.
-- **_Model:_** The learned function that maps the input features to the target variable.
 
 **Types of Regression:**
 
