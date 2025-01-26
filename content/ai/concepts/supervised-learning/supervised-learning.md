@@ -20,7 +20,7 @@ CatalogContent:
 
 Imagine teaching a child by showing them examples with correct answers. Similarly, the algorithm learns patterns from these examples and uses them to make predictions on new, unseen data.
 
-**Examples:** Identifying Handwritten Digits, predicting the prices of cars, spam emails detection.
+**Examples:** Identifying Handwritten Digits, Predicting the prices of cars, Spam emails detection.
 
 **Key Components:**
 
@@ -35,7 +35,7 @@ Imagine teaching a child by showing them examples with correct answers. Similarl
 
 In Classification, the algorithm learns from labeled training data, where each input is associated with a specific class, and then uses this knowledge to classify new, unseen data.
 
-**Examples:** Spam detection, Handwritten Digit Recognition, Image Classification, Medical Diagnosis.
+**Examples:** Spam Detection, Handwritten Digit Recognition, Image Classification, Medical Diagnosis.
 
 **Key Components:**
 
@@ -50,7 +50,7 @@ In Classification, the algorithm learns from labeled training data, where each i
 - **_Multi-class Classification:_** The task of classifying data points into one of more than two classes.
 - **_Multi-label Classification:_** The task of assigning multiple labels to each data point. This is different from multi-class classification, where each data point can only belong to one class.
 
-- **Common Classification Algorithms:** Logistic Regression, Support Vector Machines (SVMs), Decision Trees, Random Forests, Naive Bayes, K-Nearest Neighbors (KNN)
+**Common Classification Algorithms:** Logistic Regression, Support Vector Machines (SVMs), Decision Trees, Random Forests, Naive Bayes, K-Nearest Neighbors (KNN)
 
 ### Regression
 
