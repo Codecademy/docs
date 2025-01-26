@@ -1,6 +1,6 @@
 ---
 Title: 'PyTorch GPU Acceleration with Cuda'
-Description: 'Accelerate training and deep learning models with PyTorch.'
+Description: 'Accelerate training and deep learning models with PyTorch Cuda library.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -40,7 +40,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Heavy calculation mathematic
 def heavy_computation(tensor):
-    return tensor ** 2 + tensor ** 3 ** tensor.sin() ** tensor.cos() + tensor.tan()
+  return tensor ** 2 + tensor ** 3 ** tensor.sin() ** tensor.cos() + tensor.tan()
 
 # Sample number
 size = 10**9
@@ -58,10 +58,10 @@ start_time = time.time()
 
 # Asynchronous calculation with Stream
 with torch.cuda.stream(stream1):
-    result1 = heavy_computation(data[:size // 2])
+  result1 = heavy_computation(data[:size // 2])
 
 with torch.cuda.stream(stream2):
-    result2 = heavy_computation(data[size // 2:])
+  result2 = heavy_computation(data[size // 2:])
 
 # Synchronize all kernels in all Streams before time tracking
 torch.cuda.synchronize()
@@ -84,7 +84,11 @@ end_time = time.time()
 print(f"Time taken without streams: {end_time - start_time:.3f} seconds")
 ```
 
+To see more on ['.time()'](https://github.com/Codecademy/docs/blob/main/content/python/concepts/dates/terms/time/time.md) explanation.
+
 > **Note:** The Stream calculation varies on the complexity of command execution. If the calculation is simple, the stream might slow the operation instead.
+
+## Output
 
 Output example of sample size = 10\*\*9
 
