@@ -84,7 +84,7 @@ end_time = time.time()
 print(f"Time taken without streams: {end_time - start_time:.3f} seconds")
 ```
 
-To see more on ['.time()'](https://github.com/Codecademy/docs/blob/main/content/python/concepts/dates/terms/time/time.md) explanation.
+See more on ['.time()'](https://github.com/Codecademy/docs/blob/main/content/python/concepts/dates/terms/time/time.md) explanation.
 
 > **Note:** The Stream calculation varies on the complexity of command execution. If the calculation is simple, the stream might slow the operation instead.
 
