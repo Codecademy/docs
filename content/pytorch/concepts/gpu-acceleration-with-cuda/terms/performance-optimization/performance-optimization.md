@@ -2,13 +2,15 @@
 Title: 'PyTorch GPU Acceleration with Cuda'
 Description: 'Accelerate training and deep learning models with PyTorch.'
 Subjects:
+  - 'AI'
   - 'Data Science'
   - 'Machine Learning'
 Tags:
-  - 'Deep Learning'
-  - 'Dara Parallelism'
-  - 'PyTorch'
   - 'AI'
+  - 'Dara Parallelism'
+  - 'Deep Learning'
+  - 'Optimization'
+  - 'PyTorch'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/data-science'
