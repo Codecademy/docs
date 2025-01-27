@@ -32,15 +32,15 @@ Here’s a general syntax for implementing a learning rate schedule in PyTorch:
 
 ```pseudo
 torch.optim.lr_scheduler.<SchedulerClass>(
-    optimizer,
-    step_size=<int>,
-    gamma=<float>,
-    <other_parameters>
+  optimizer,
+  step_size=<int>,
+  gamma=<float>,
+  <other_parameters>
 )
 ```
 
 - `optimizer`: The optimizer whose learning rate will be updated.
-- `step_size`: Interval (in epochs) at which the learning rate will be reduced.
+- `step_size`: Interval (in epochs) at which the learning rate will be reduced. An epoch refers to one complete pass through the entire training dataset by the model. During each epoch, the model processes all training examples and updates its weights accordingly.
 - `gamma`: Multiplicative factor by which the learning rate is reduced.
 - **<other_parameters>**: Additional parameters specific to the chosen scheduler.
 
@@ -55,12 +55,12 @@ import torch.optim as optim
 
 # Define a simple neural network
 class SimpleNN(nn.Module):
-    def __init__(self):
-        super(SimpleNN, self).__init__()
-        self.fc = nn.Linear(10, 1)
+  def __init__(self):
+    super(SimpleNN, self).__init__()
+    self.fc = nn.Linear(10, 1)
 
-    def forward(self, x):
-        return self.fc(x)
+  def forward(self, x):
+    return self.fc(x)
 
 # Initialize the model, loss function, and optimizer
 model = SimpleNN()
@@ -72,20 +72,20 @@ scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.9)
 
 # Training loop
 for epoch in range(30):  # Train for 30 epochs
-    # Simulate training step
-    inputs = torch.randn(5, 10)
-    targets = torch.randn(5, 1)
-    optimizer.zero_grad()
-    outputs = model(inputs)
-    loss = criterion(outputs, targets)
-    loss.backward()
-    optimizer.step()
+  # Simulate training step
+  inputs = torch.randn(5, 10)
+  targets = torch.randn(5, 1)
+  optimizer.zero_grad()
+  outputs = model(inputs)
+  loss = criterion(outputs, targets)
+  loss.backward()
+  optimizer.step()
 
-    # Update the learning rate
-    scheduler.step()
+  # Update the learning rate
+  scheduler.step()
 
-    # Print learning rate
-    print(f"Epoch {epoch + 1}: Learning Rate = {scheduler.get_last_lr()[0]:.5f}")
+  # Print learning rate
+  print(f"Epoch {epoch + 1}: Learning Rate = {scheduler.get_last_lr()[0]:.5f}")
 ```
 
 The code above produces the output as below:
