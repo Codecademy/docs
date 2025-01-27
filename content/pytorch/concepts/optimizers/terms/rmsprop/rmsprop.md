@@ -75,6 +75,12 @@ optimizer.step()
 print(f"Loss after one update: {loss.item():.4f}")
 ```
 
+The above code prints the following output:
+
+```shell
+Loss after one update: 0.6504
+```
+
 1. **Model Definition**: Creates a simple feed-forward network with `Linear` layers and a `ReLU` activation.  
 2. **Criterion**: Uses **`nn.MSELoss`** to compute the mean squared error between predictions and targets.  
 3. **Optimizer Configuration**: Sets up **RMSProp** with a specified learning rate, alpha, and momentum.  
