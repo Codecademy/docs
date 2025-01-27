@@ -57,7 +57,7 @@ int main() {
 }
 ```
 
-The result of the following code:
+The output of the above code will be:
 
 ```shell
 The constructor was executed!
