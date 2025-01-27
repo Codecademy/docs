@@ -53,7 +53,7 @@ The above example sets `data.number = 65` stores the integer value 65 in the sha
 
 ## Example
 
-The above code demonstrates the use of a union in C, where different data types (integer, float, and string) share the same memory location:
+The following code demonstrates the use of a union in C, where different data types (integer, float, and string) share the same memory location:
 
 ```c
 #include <stdio.h>
