@@ -75,6 +75,12 @@ optimizer.step()
 print(f"Loss after one update: {loss.item():.4f}")
 ```
 
+The above code prints the following output:
+
+```shell
+Loss after one update: 0.2851
+```
+
 1. **Define the Model**: A simple feed-forward network is created with two `Linear` layers and a `ReLU` activation.
 2. **Set Up Criterion**: `MSELoss` is used in this example, but any suitable loss function can be substituted.
 3. **Initialize Optimizer**: The optimizer is configured with `model.parameters()`, a learning rate of **0.01**, and a momentum of **0.9**.
