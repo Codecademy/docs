@@ -20,7 +20,7 @@ CatalogContent:
 
 **Examples:** Identifying Handwritten Digits, Predicting the prices of cars, Spam emails detection.
 
-## Key Components
+### Key Components
 
 - **_Training Data:_** A dataset of input-output pairs (e.g., emails labeled as "spam" or "not spam").
 - **_Model:_** The algorithm (e.g., decision tree, neural network) that learns from the data.
@@ -29,13 +29,13 @@ CatalogContent:
 
 ## Types of Supervised Learning
 
-### Classification
+## Classification
 
 In Classification, the algorithm learns from labeled training data, where each input is associated with a specific class, and then uses this knowledge to classify new, unseen data.
 
 **Examples:** Spam Detection, Handwritten Digit Recognition, Image Classification, Medical Diagnosis.
 
-## Types of Classification
+### Types of Classification
 
 - **_Binary Classification:_** The task of classifying data points into one of two classes.
 - **_Multi-class Classification:_** The task of classifying data points into one of more than two classes.
@@ -43,13 +43,13 @@ In Classification, the algorithm learns from labeled training data, where each i
 
 **Common Classification Algorithms:** Logistic Regression, Support Vector Machines (SVMs), Decision Trees, Random Forests, Naive Bayes, K-Nearest Neighbors (KNN)
 
-### Regression
+## Regression
 
 Regression is a supervised learning task focused on predicting a continuous numerical output. Unlike classification, which assigns data points to categories, regression aims to estimate a value within a range.
 
 **Examples:** House Price Prediction, Stock Price Prediction, Temperature Forecasting, Sales Forecasting.
 
-## Types of Regression
+### Types of Regression
 
 - **_[Linear Regression:](https://www.codecademy.com/learn/linear-regression-mssp)_** Models a linear relationship between inputs and a target variable by finding the line of best fit that minimizes the sum of squared errors.
 - **_Polynomial Regression:_** Used when the relationship between the features and the target variable is non-linear. It fits a polynomial curve to the data.
