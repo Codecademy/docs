@@ -18,7 +18,7 @@ A **destructor** is a special method in a C++ class that is automatically called
 
 ## Syntax
 
-A destructor method is defined by using the tilde (~) character followed by the ClassName. It has no parameters and no return type.
+A destructor method is defined by using the tilde (~) character followed by the `ClassName`. It has no parameters and no return type.
 
 ```pseudo
 class ClassName {
