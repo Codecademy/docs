@@ -16,13 +16,11 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Supervised learning (ML)** is a type of machine learning where the algorithm learns from labeled data. It involves training a model on input-output pairs to generalize and predict outcomes for new, unseen data. This label acts as a "supervisor," guiding the learning process.
-
-Imagine teaching a child by showing them examples with correct answers. Similarly, the algorithm learns patterns from these examples and uses them to make predictions on new, unseen data.
+**Supervised learning (ML)** is a type of machine learning in which the algorithm learns from labeled data. It involves training a model using input-output pairs so that it can generalize and make predictions for new, unseen data. The labels serve as "supervisors," guiding the learning process.
 
 **Examples:** Identifying Handwritten Digits, Predicting the prices of cars, Spam emails detection.
 
-**Key Components:**
+## Key Components
 
 - **_Training Data:_** A dataset of input-output pairs (e.g., emails labeled as "spam" or "not spam").
 - **_Model:_** The algorithm (e.g., decision tree, neural network) that learns from the data.
@@ -37,7 +35,7 @@ In Classification, the algorithm learns from labeled training data, where each i
 
 **Examples:** Spam Detection, Handwritten Digit Recognition, Image Classification, Medical Diagnosis.
 
-**Types of Classification:**
+## Types of Classification
 
 - **_Binary Classification:_** The task of classifying data points into one of two classes.
 - **_Multi-class Classification:_** The task of classifying data points into one of more than two classes.
@@ -51,14 +49,14 @@ Regression is a supervised learning task focused on predicting a continuous nume
 
 **Examples:** House Price Prediction, Stock Price Prediction, Temperature Forecasting, Sales Forecasting.
 
-**Types of Regression:**
+## Types of Regression
 
-- **_Linear Regression:_** Models a linear relationship between inputs and a target variable by finding the line of best fit that minimizes the sum of squared errors.
+- **_[Linear Regression:](https://www.codecademy.com/learn/linear-regression-mssp)_** Models a linear relationship between inputs and a target variable by finding the line of best fit that minimizes the sum of squared errors.
 - **_Polynomial Regression:_** Used when the relationship between the features and the target variable is non-linear. It fits a polynomial curve to the data.
-- **_Multiple Linear Regression:_** Used when there are multiple input features influencing the target variable.
-- **_Support Vector Regression (SVR):_** Uses SVM principles to find the best-fitting hyperplane within a margin of error.
-- **_Decision Tree Regression:_** Uses a tree structure where nodes represent feature-based decisions, and leaves represent predicted values.
-- **_Random Forest Regression:_** An ensemble method that combines multiple decision trees to improve prediction accuracy and reduce overfitting.
+- **_[Multiple Linear Regression:](https://www.codecademy.com/learn/multiple-linear-regression-course)_** Used when there are multiple input features influencing the target variable.
+- **_[Support Vector Regression (SVR):](https://www.codecademy.com/resources/docs/sklearn/support-vector-machines)_** Uses SVM principles to find the best-fitting hyperplane within a margin of error.
+- **_[Decision Tree Regression:](https://www.codecademy.com/article/mlfun-decision-trees-article)_** Uses a tree structure where nodes represent feature-based decisions, and leaves represent predicted values.
+- **_[Random Forest Regression:](https://www.codecademy.com/learn/machine-learning-random-forests-decision-trees)_** An ensemble method that combines multiple decision trees to improve prediction accuracy and reduce overfitting.
 - **_Neural Network Regression:_** Uses neural networks to learn complex non-linear relationships between features and the target variable.
 
 **Common Classification Algorithms:** Linear Regression, Polynomial Regression, Support Vector Regression (SVR), Decision Tree Regression, Random Forest Regression, Neural Network Regression.
