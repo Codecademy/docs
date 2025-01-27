@@ -9,18 +9,18 @@ Tags:
 - 'Data'
 - 'Machine Learning'
 - 'Statistics'
-  CatalogContent:
+CatalogContent:
 - 'learn-python-3'
 - 'paths/data science'
 ---
 
-The **Auto-Regressive Integrated Moving Average**`(ARIMA)` model is a statistical tool that can be used for analyzing and forecasting the time series data. It is particularly useful when the data shows trends or non-stationary behavior and is most commonly used in economics and finance to predict patterns and seasonality.
+The **Auto-Regressive Integrated Moving Average (ARIMA)** model is a statistical tool used for analyzing and forecasting time series data. It is particularly useful when data exhibits trends or non-stationary behavior. ARIMA is widely applied in fields like economics and finance to detect patterns and forecast future values.
 
 It combines the following three components:
 
-- **`AR (Autoregression)`**: Models the relationship between current values in a time series and their past values (lags).
-- **`I(Differencing)`**: Converts non-stationary data into stationary data by subtracting the previous value from the current one, helping to remove trends and seasonality.
-- **`MA(Moving Average)`**: Smooths the data by capturing the correlation between the current observation and the inaccuracies from earlier predictions.
+- **AR (Autoregression)**: Models the relationship between current values in a time series and their past values (lags).
+- **I(Differencing)**: Converts non-stationary data into stationary data by subtracting the previous value, removing trends and seasonality.
+- **MA(Moving Average)**: Smooths the data by incorporating past forecast errors into the model.
 
 ## Syntax
 
@@ -31,9 +31,9 @@ ARIMA(time_series_data, order=(p, d, q))
 ```
 
 - `time_series_data`: The dataset containing the time series to be modeled or forecasted.
-- `order`: A tuple (p, d, q) where:
+- `order`: A tuple `(p, d, q)` where:
   - `p`: Number of lagged observations for the Auto-Regressive (AR) component.
-  - `d`: Differencing order to make the data stationary (use 0 for ARMA models).
+  - `d`: Differencing order to make the data stationary (e.g., `1` for first-order differencing).
   - `q`: Number of lagged forecast errors for the Moving Average (MA) component.
 
 ## Example
