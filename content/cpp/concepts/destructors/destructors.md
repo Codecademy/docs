@@ -33,7 +33,7 @@ class ClassName {
 
 ### Basic Destructor
 
-A **basic destructor** is defined to perform cleanup tasks, such as releasing dynamically allocated memory or closing file streams.
+A basic destructor is defined to perform cleanup tasks, such as releasing dynamically allocated memory or closing file streams.
 
 ```cpp
 #include <iostream>
@@ -66,7 +66,7 @@ The destructor was executed!
 
 ### Destructor with Dynamic Memory Cleanup
 
-**Destructors** are especially useful when a class allocates memory dynamically, ensuring proper cleanup to avoid memory leaks.
+Destructors are especially useful when a class allocates memory dynamically, ensuring proper cleanup to avoid memory leaks.
 
 ```cpp
 #include <iostream>
@@ -97,7 +97,7 @@ int main() {
 }
 ```
 
-The result of the following code:
+The output of the above code will be:
 
 ```shell
 Array of size 5 created.
@@ -141,7 +141,7 @@ int main() {
 }
 ```
 
-The result of the following code:
+The output of the above code will be:
 
 ```shell
 Resource allocated with value 10
