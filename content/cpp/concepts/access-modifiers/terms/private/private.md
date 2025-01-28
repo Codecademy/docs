@@ -1,6 +1,6 @@
 ---
 Title: 'Private Access Modifiers'
-Description: 'Specifies that class members are only accessible from within the class itself'
+Description: 'Specifies that class members are only accessible from within the class itself.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -24,7 +24,7 @@ private:
 
 ## Example
 
-In the example below, attempting to directly access the **`private`** data member `secretVar` from outside the class would result in a compilation error:
+In the example below, attempting to directly access the `private` data member `secretVar` from outside the class would result in a compilation error:
 
 ```cpp
 #include <iostream>
