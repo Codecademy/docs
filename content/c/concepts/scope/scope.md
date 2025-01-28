@@ -19,11 +19,11 @@ In C, **scope** defines the region of a program where a variable can be accessed
 
 ## Local Scope 
 
-A variable declared inside a function is said to have local scope. It can only be accessed and used within that function.
+Variables declared inside a function or block have local scope, meaning they are accessible only within that function or block.
 
 Here’s the syntax for local scope in `C`:
 
-## Syntax
+## Syntax for local scope
 
 ```pseudo
 return_type function_name() {
@@ -41,8 +41,6 @@ return_type function_name() {
 ## Global Scope
 
 Variables declared outside of any function have global scope and can be accessed and modified from any function within the program.
-
-Here’s the syntax for global scope in `C`:
 
 ## Syntax
 
@@ -80,4 +78,10 @@ int main() {
     
     return 0;
 }
+```
+
+```console
+Global variable inside main: 100
+Local variable inside myFunction: 10
+Global variable inside myFunction: 100
 ```
