@@ -88,21 +88,21 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
-    {
-        // Single-line comment: This is the entry point of the program.
-        Console.WriteLine("Hello, World!"); // This prints a greeting to the console.
+  static void Main(string[] args)
+  {
+    // Single-line comment: This is the entry point of the program.
+    Console.WriteLine("Hello, World!"); // This prints a greeting to the console.
 
-        /*
-         Multi-line comment:
-         The following code demonstrates basic addition
-         and prints the result to the console.
-        */
-        int a = 5;  // Declare an integer variable 'a' and assign it the value 5.
-        int b = 10; // Declare an integer variable 'b' and assign it the value 10.
+    /*
+     Multi-line comment:
+     The following code demonstrates basic addition
+     and prints the result to the console.
+    */
+    int a = 5;  // Declare an integer variable 'a' and assign it the value 5.
+    int b = 10; // Declare an integer variable 'b' and assign it the value 10.
 
-        int sum = a + b; // Add the two numbers and store the result in 'sum'.
-        Console.WriteLine("The sum of a and b is: " + sum); // Output the sum to the console.
-    }
+    int sum = a + b; // Add the two numbers and store the result in 'sum'.
+    Console.WriteLine("The sum of a and b is: " + sum); // Output the sum to the console.
+  }
 }
 ```
