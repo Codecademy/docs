@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - 'Classes'
   - 'Objects'
-  - 'Destructors'
+  - 'Memory'
   - 'OOP'
 CatalogContent:
   - 'learn-c-plus-plus'
