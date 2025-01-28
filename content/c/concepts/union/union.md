@@ -38,7 +38,7 @@ In C unions, memory is allocated based on the largest member. For example, if a 
 
 ## Accessing Members
 
-Union members can be accessed in two ways: using the dot (.) operator for regular union variables, and the arrow (->) operator for union pointers. However, it is important to remember that only the member that was last assigned a value should be accessed. Since all members share the same memory, accessing an unassigned member will yield unpredictable results.
+Union members are accessed using the dot (`.`) operator for regular union variables or the arrow (`->`) operator for pointers to unions. However, it is important to remember that only the last member assigned a value should be accessed. Accessing an uninitialized or overwritten member leads to undefined behavior due to shared memory.
 
 ```c
 union Data {
