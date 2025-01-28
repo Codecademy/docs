@@ -15,6 +15,8 @@ CatalogContent:
 
 **SARIMAX** (Seasonal AutoRegressive Integrated Moving Average with eXogenous regressors) in Python's statsmodels is a versatile model for analyzing and forecasting time series data. It accounts for trends, seasonality, and autoregressive/moving average components, while also allowing the inclusion of external factors (exogenous variables) that influence the data. This makes it ideal for complex time series with seasonal patterns and external dependencies.
 
+SARIMAX is an extended version of [`ARIMA`](https://www.codecademy.com/resources/docs/python/statsmodels/arima) that incorporates seasonal components and the ability to include exogenous variables (external factors influencing the time series). While ARIMA is suitable for non-seasonal data, SARIMAX handles seasonal patterns and can account for additional independent variables, making it more flexible for complex time series forecasting.
+
 ## Syntax
 
 ```pseudo
