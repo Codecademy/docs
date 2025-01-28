@@ -51,7 +51,7 @@ printf("%d\n", data.number);  // Prints 65
 printf("%c\n", data.letter);  // Prints 'A' (ASCII 65)
 ```
 
-The above example sets `data.number = 65` stores the integer value 65 in the shared memory. While `data.letter` is not explicitly set, it shares the same memory as `data.number`, so interpreting the memory as a char results in 'A', the ASCII representation of 65.
+Here, `data.number = 65` stores the integer 65 in the shared memory. Since `data.letter` uses the same memory, interpreting the value as a character (`char`) results in `'A'`, which is the ASCII representation of 65.
 
 ## Example
 
