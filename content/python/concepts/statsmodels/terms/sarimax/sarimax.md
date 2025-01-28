@@ -31,7 +31,7 @@ model = SARIMAX(endog, exog=None, order=(p, d, q), seasonal_order=(P, D, Q, s), 
   - `p`: Number of autoregressive terms.
   - `d`: Differencing order to make the series stationary.
   - `q`: Number of moving average terms.
-- `seasonal_order`: Specifies the seasonal components in the form (P, D, Q, s), where:
+- `seasonal_order`: Specifies the seasonal components in the form (`P`, `D`, `Q`, `s`), where:
   - `P`: Seasonal autoregressive terms.
   - `D`: Seasonal differencing order.
   - `Q`: Seasonal moving average terms.
