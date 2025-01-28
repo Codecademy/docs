@@ -19,16 +19,18 @@ PyTorch provides simple methods to transfer tensors between CPU and GPU devices,
 ## Syntax
 
 ```pseudo
-tensor.to(device)
-tensor.cuda()      # Moves to GPU
-tensor.cpu()       # Moves to CPU
+tensor.to(device)   # Transfers tensor to the specified device
+tensor.cuda()       # Transfers tensor to GPU
+tensor.cpu()        # Transfers tensor to CPU
 ```
 
-- `device`: Destination device (e.g., `cuda`, `cpu`, or `torch.device` object)
+- `device`: The destination device, which can be:
+  - A string, e.g., `'cuda'`, `'cpu'`.
+  - A `torch.device` object, e.g., `torch.device('cuda')` or `torch.device('cpu')`.
 
 ## Example
 
-The follwoing example demonstrates moving a tensor between CPU and GPU, showing device location at each step, while checking for GPU availability to ensure code works on all systems:
+The following example demonstrates moving a tensor between CPU and GPU, showing device location at each step, while checking for GPU availability to ensure code works on all systems:
 
 ```py
 import torch
@@ -60,3 +62,5 @@ Original tensor (CPU): cpu
 Moved to GPU: cuda:0
 Back to CPU: cpu
 ```
+
+Here, `cuda:0` indicates the tensor is on the first GPU device.
