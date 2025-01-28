@@ -106,10 +106,3 @@ class Program
     }
 }
 ```
-
-The code above produces the output as follows:
-
-```shell
-Hello, World!
-The sum of a and b is: 15
-```
