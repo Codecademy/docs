@@ -1,6 +1,6 @@
 ---
 Title: 'Null Pointer'
-Description: 'A NULL pointer in C is a pointer that doesn't point to any valid memory location.'
+Description: 'A NULL pointer in C is a pointer that does not point to any valid memory location.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -28,6 +28,8 @@ pointer_type *pointer_name = NULL;
 
 - `pointer_type`: The data type of the pointer .
 - `pointer_name`: The name of the pointer.
+
+## Example
 
 In the example, we declare an integer pointer `ptr` and initialize it to `NULL`, indicating that it doesn't point to any valid memory location:
 
