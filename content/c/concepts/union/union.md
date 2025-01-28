@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **union** in C is a special data type that enables a single memory location to hold different types of variables at different times. 
+A **union** in C is a special data type that enables a single memory location to hold different types of variables at different times.
 
 Unlike [structures](https://www.codecademy.com/resources/docs/c/structures), where each member has its own memory space, all members of a union share the same memory space, and only one member can hold a value at any given time.
 
