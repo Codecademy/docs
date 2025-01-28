@@ -109,4 +109,4 @@ plt.show()
 
 The code produces the following output:
 
-![ARIMA Model](https://raw.githubusercontent.com/Codecademy/docs/main/media/sarimax-example.png)
+![The plot compares the original data with the forecasted values and includes a shaded confidence interval to show the range of possible future outcomes based on the model.](https://raw.githubusercontent.com/Codecademy/docs/main/media/sarimax-example.png)
