@@ -67,7 +67,7 @@ code .gitignore
 vim .gitignore
 ```
 
-> **Note:** You can use wildcards like * for pattern matching and # for comments in your .gitignore file.
+> **Note:** You can use wildcards like \* for pattern matching and # for comments in your .gitignore file.
 
 ## Common .gitignore Rules
 
