@@ -35,7 +35,7 @@ The syntax for using `malloc()` is as follows:
 int *arr = (int *)malloc(size * sizeof(int));
 ```
 
-#### `.calloc()`
+#### `calloc()`
 
 This function is also used to allocate memory dynamically, but it differs from `.malloc()` in that it initializes the allocated memory to zero. It takes two arguments: the number of elements and the size of each element.
 
