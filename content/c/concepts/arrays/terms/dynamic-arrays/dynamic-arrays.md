@@ -55,7 +55,7 @@ Once memory is allocated, use the pointer like a normal array to store and modif
 
 Use `realloc()` to adjust the array size if necessary.
 
-The syntax for using `.realloc()` is as follows:
+The syntax for using `realloc()` is as follows:
 
 ```pseudo
 arr = (int *)realloc(arr, new_size * sizeof(int));
