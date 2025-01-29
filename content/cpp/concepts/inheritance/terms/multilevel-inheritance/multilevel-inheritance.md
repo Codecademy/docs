@@ -14,13 +14,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Multilevel inheritance** is an Object-Oriented Programming (OOP) concept where a class can inherit properties and methods from a class that is already inherited from another class, creating a hierarchy of classes. This forms a parent-child-grandchild relationship between classes, allowing for the creation of specialized classes based on existing ones.
+**Multilevel inheritance** is an [Object-Oriented Programming (OOP)](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming) concept where a class can inherit properties and methods from a class that is already inherited from another class, forming a hierarchical class structure. This forms a parent-child-grandchild relationship between classes, enabling the creation of specialized classes from existing ones.
 
 ## Syntax
 
-In C++, multilevel inheritance follows this general syntax:
+In C++, multilevel inheritance follows this syntax:
 
-```cpp
+```pseudo
 class BaseClass {
     // Base class members
 };
@@ -36,7 +36,7 @@ class DerivedClass2 : public DerivedClass1 {
 
 ## Example
 
-Simple example to demonstrate multilevel inheritance in C++
+Here's an example demonstrating multilevel inheritance in C++:
 
 ```cpp
 #include <iostream>
@@ -83,6 +83,8 @@ Puppy is weeping.
 ```
 
 ## Codebyte Example
+
+This example demonstrates how multilevel inheritance allows a class to inherit features across multiple levels, forming a structured class hierarchy. The implementation includes virtual functions for proper [polymorphic behavior](https://www.codecademy.com/resources/docs/cpp/polymorphism) and access specifiers (`public`, `protected`, `private`) to control member accessibility.
 
 ```codebyte/cpp
 #include <iostream>
@@ -140,5 +142,3 @@ int main() {
     return 0;
 }
 ```
-
-This example demonstrates how multilevel inheritance allows a class to inherit features from multiple levels of parent classes, creating a clear and organized hierarchy of related classes. The C++ implementation includes additional features like virtual functions for proper polymorphic behavior and access specifiers (public, protected, private) to control member accessibility.
