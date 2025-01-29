@@ -37,7 +37,7 @@ int *arr = (int *)malloc(size * sizeof(int));
 
 #### `calloc()`
 
-This function is also used to allocate memory dynamically, but it differs from `.malloc()` in that it initializes the allocated memory to zero. It takes two arguments: the number of elements and the size of each element.
+This function also allocates memory dynamically, but unlike `malloc()`, it initializes the allocated memory to zero. It takes two arguments: the number of elements and the size of each element.
 
 The syntax for using `.calloc()` is as follows:
 
