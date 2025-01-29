@@ -68,7 +68,7 @@ end
 
 ]]--
 
-for i = 1, 3, -1 do
+for i = 3, 1, -1 do
     print(i) -- 3, 2, 1
 end
 ```
