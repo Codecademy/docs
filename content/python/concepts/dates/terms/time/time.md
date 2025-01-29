@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `datetime.time()` method returns a time in seconds that has passed since the epoch set on the computer. The `.sleep()` function suspends execution of the current thread for the specified number of seconds.
+The **`datetime.time()`** method returns a time in seconds that has passed since the epoch set on the computer. The [`.sleep()`](https://www.codecademy.com/resources/docs/python/time-module/sleep) function suspends execution of the current thread for the specified number of seconds.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ The epoch is usually set as `January 1, 1970, 00:00:00 (UTC)` on most operating 
 
 ## Example
 
-The following example demonstrates using `datetime.time()` to track when tea brewing starts and ends, with `.sleep()` creating a pause to simulate brewing time.
+The following example demonstrates using `datetime.time()` to track when tea brewing starts and ends, with `.sleep()` creating a pause to simulate brewing time:
 
 ```py
 import datetime
@@ -58,7 +58,7 @@ Tea is ready at: 21:54:57
 
 ## Codebyte Example
 
-Try executing the following code to get better understanding of how `.time()` and `.sleep()` works:
+Run the following code to get a better understanding of how `.time()` and `.sleep()` works:
 
 ```codebyte/python
 import datetime
