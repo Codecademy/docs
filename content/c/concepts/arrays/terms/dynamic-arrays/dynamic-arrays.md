@@ -53,7 +53,7 @@ Once memory is allocated, use the pointer like a normal array to store and modif
 
 ### 3. **Resize the Array**
 
-Use `.realloc()` to adjust the size of the array if necessary.
+Use `realloc()` to adjust the array size if necessary.
 
 The syntax for using `.realloc()` is as follows:
 
