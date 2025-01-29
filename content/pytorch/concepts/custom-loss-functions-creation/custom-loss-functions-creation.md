@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-**Loss functions** are a critical component in training deep learning models, as they quantify the difference between predicted and actual values, guiding the model’s learning process. While PyTorch provides several built-in loss functions like `MSELoss`, `CrossEntropyLoss`, and `L1Loss`, these may not always be suitable for specialized tasks.
+Loss functions are a critical component in training deep learning models, as they quantify the difference between predicted and actual values, guiding the model’s learning process. While PyTorch provides several [built-in loss functions](https://www.codecademy.com/resources/docs/pytorch/nn/loss-functions) like `MSELoss`, `CrossEntropyLoss`, and `L1Loss`, these may not always be suitable for specialized tasks.
 
-Custom loss functions offer the flexibility to define domain-specific error calculations tailored to particular problems. PyTorch allows users to implement these functions by subclassing `torch.nn.Module` or defining a simple Python function that operates on tensors. These functions are particularly useful in scenarios where unique constraints, penalties, or weighted losses are required.
+**Custom loss functions** offer the flexibility to define domain-specific error calculations tailored to particular problems. PyTorch allows users to implement these functions by subclassing [`torch.nn.Module`](https://www.codecademy.com/resources/docs/pytorch/nn) or defining a simple Python function that operates on [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors). These functions are particularly useful in scenarios where unique constraints, penalties, or weighted losses are required.
 
 By creating a custom loss function, developers can enhance model performance and adapt it to specific applications such as imbalanced datasets, reinforcement learning, or multi-task learning
 
