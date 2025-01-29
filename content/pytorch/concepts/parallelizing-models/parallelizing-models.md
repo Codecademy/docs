@@ -1,6 +1,6 @@
 ---
 Title: 'Parallelizing Models'
-Description: 'PyTorch parallelizing models distribute computations across multiple processors or GPUs, improving performance and enabling faster training of large models.'
+Description: 'Parallelizing Models in PyTorch allows the training of deep learning models that require more memory than a single GPU can provide.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
