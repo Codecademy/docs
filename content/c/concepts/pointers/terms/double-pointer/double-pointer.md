@@ -1,6 +1,6 @@
 ---
 Title: 'Double Pointer'
-Description: 'A double pointer is a pointer that stores the address of another pointer.'
+Description: 'A double pointer in C is a pointer that holds the address of another pointer.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
