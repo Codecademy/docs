@@ -63,7 +63,7 @@ arr = (int *)realloc(arr, new_size * sizeof(int));
 
 ### 4. **Free Memory**
 
-Use `free()` to release the allocated memory when it is no longer needed.
+When the dynamically allocated memory is no longer needed, use [`free()`](https://www.codecademy.com/resources/docs/c/memory-management/free) to release it and prevent memory leaks.
 
 The syntax for using `free()` is as follows:
 
