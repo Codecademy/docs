@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **dynamic array** in C refers to an array whose size can be adjusted during runtime. Unlike static arrays, whose size must be fixed at compile time, dynamic arrays offer flexibility by utilizing memory allocation functions from the `stdlib.h` library, such as [`.malloc()`](https://www.codecademy.com/resources/docs/c/memory-management/malloc), [`.calloc()`](https://www.codecademy.com/resources/docs/c/memory-management/calloc), [`.realloc()`](https://www.codecademy.com/resources/docs/c/memory-management/realloc), and [`free()`](https://www.codecademy.com/resources/docs/c/memory-management/free).
+A **dynamic array** in C refers to an array whose size can be adjusted during runtime. Unlike static arrays, whose size must be fixed at compile time, dynamic arrays offer flexibility by utilizing memory allocation functions from the `stdlib.h` library, such as [`malloc()`](https://www.codecademy.com/resources/docs/c/memory-management/malloc), [`calloc()`](https://www.codecademy.com/resources/docs/c/memory-management/calloc), [`realloc()`](https://www.codecademy.com/resources/docs/c/memory-management/realloc), and [`free()`](https://www.codecademy.com/resources/docs/c/memory-management/free).
 
 Dynamic arrays are useful when the required size of an array cannot be determined in advance. They allow efficient memory management by allocating or freeing memory as needed, avoiding wastage or insufficient allocation.
 
