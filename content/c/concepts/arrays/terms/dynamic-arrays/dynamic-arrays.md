@@ -49,7 +49,7 @@ int *arr = (int *)calloc(size, sizeof(int));
 
 ### 2. **Access and Modify**
 
-Use the allocated memory like a normal array.
+Once memory is allocated, use the pointer like a normal array to store and modify values.
 
 ### 3. **Resize the Array**
 
