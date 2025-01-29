@@ -7,8 +7,8 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Algorithms'
-  - 'PyTorch'
   - 'Machine Learning'
+  - 'PyTorch'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/build-a-machine-learning-model'
