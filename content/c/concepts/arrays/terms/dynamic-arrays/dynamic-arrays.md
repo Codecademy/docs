@@ -25,7 +25,7 @@ To implement a dynamic array, the following steps are involved:
 
 Use `malloc()` or `calloc()` to allocate memory for the array dynamically.
 
-#### `.malloc()`
+#### `malloc()`
 
 This function is used to allocate a block of memory on the heap at runtime. It takes a single argument, which specifies the size of the memory block in bytes. The memory allocated by `.malloc()` is not initialized, meaning the contents are undefined.
 
