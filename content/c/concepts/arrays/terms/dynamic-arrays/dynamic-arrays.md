@@ -23,7 +23,7 @@ To implement a dynamic array, the following steps are involved:
 
 ### 1. **Allocate Memory**
 
-Use `.malloc()` or `.calloc()` to allocate memory for the array dynamically.
+Use `malloc()` or `calloc()` to allocate memory for the array dynamically.
 
 #### `.malloc()`
 
