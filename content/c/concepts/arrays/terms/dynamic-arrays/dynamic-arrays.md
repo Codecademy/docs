@@ -29,7 +29,7 @@ Use `malloc()` or `calloc()` to allocate memory for the array dynamically.
 
 This function allocates a block of memory on the heap at runtime. It takes a single argument specifying the size of the memory block in bytes. However, the memory allocated by `malloc()` is not initialized, meaning it contains garbage values.
 
-The syntax for using `.malloc()` is as follows:
+The syntax for using `malloc()` is as follows:
 
 ```pseudo
 int *arr = (int *)malloc(size * sizeof(int));
