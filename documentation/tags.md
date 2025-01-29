@@ -249,6 +249,7 @@ Open Source
 Operating Systems
 Operators
 Optimization
+Optimizers
 Optionals
 Output
 p5
@@ -325,6 +326,7 @@ Stringr
 Strings
 Structure
 Style
+Stochastic Gradient Descent
 Subqueries
 Supervised Learning
 Swift
