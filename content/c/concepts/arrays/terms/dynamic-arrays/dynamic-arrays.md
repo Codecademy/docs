@@ -45,7 +45,7 @@ The syntax for using `calloc()` is as follows:
 int *arr = (int *)calloc(size, sizeof(int));
 ```
 
-> **Note**: Both functions `.malloc()` and `.calloc()` return a pointer to the allocated memory. If memory allocation fails, they return `NULL`, so it's important to check if the allocation was successful.
+> **Note**: Both functions `malloc()` and `calloc()` return a pointer to the allocated memory. If memory allocation fails, they return `NULL`, so it's important to check if the allocation was successful.
 
 ### 2. **Access and Modify**
 
