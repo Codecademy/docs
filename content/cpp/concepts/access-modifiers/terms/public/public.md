@@ -24,7 +24,7 @@ public:
 
 ## Example
 
-The following example demonstrates how to use the **`public`** keyword in a class definition:
+The following example demonstrates how to use the `public` keyword in a class definition:
 
 ```cpp
 #include <iostream>
@@ -63,7 +63,7 @@ Hello from MyClass!
 
 ## Codebyte Example
 
-Below is a runnable snippet showcasing **`public`** access in a simple C++ class:
+Below is a runnable snippet showcasing `public` access in a simple C++ class:
 
 ```codebyte/cpp
 #include <iostream>
