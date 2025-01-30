@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.vstack()`** function stacks a sequence of [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors) vertically (row-wise). This function is part of the **`.torch()`** module.
+In PyTorch, the .vstack() function stacks a sequence of [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors) along the first axis (dim=0), concatenating them row-wise. This function is part of the `torch` module.
 
 ## Syntax
 
