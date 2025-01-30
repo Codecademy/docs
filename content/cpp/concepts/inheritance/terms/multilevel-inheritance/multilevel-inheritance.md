@@ -1,6 +1,6 @@
 ---
 Title: 'Multilevel Inheritance'
-Description: 'Implements a chain of inheritance where a derived class inherits from another derived class, forming a parent-child-grandchild relationship between classes.'
+Description: 'Multilevel inheritance is when a derived class inherits from another derived class, forming a parent-child-grandchild class hierarchy.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -84,7 +84,7 @@ Puppy is weeping.
 
 ## Codebyte Example
 
-This example demonstrates how multilevel inheritance allows a class to inherit features across multiple levels, forming a structured class hierarchy. The implementation includes virtual functions for proper [polymorphic behavior](https://www.codecademy.com/resources/docs/cpp/polymorphism) and access specifiers (`public`, `protected`, `private`) to control member accessibility.
+The following example demonstrates how multilevel inheritance allows a class to inherit features across multiple levels, forming a structured class hierarchy:
 
 ```codebyte/cpp
 #include <iostream>
