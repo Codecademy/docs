@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In SciPy, the **`.quad()`** function calculates the definite integral of a function over a particular limit. This function is part of the `scipy.integrate` module.
+The **`.quad()`** function in SciPy calculates the definite integral of a given function over a specified interval `[a, b]`. It is part of the [`scipy.integrate`](https://www.codecademy.com/resources/docs/scipy/scipy-integrate) module and provides both the integral value and an estimate of the absolute error. The function is useful for numerical integration, especially when dealing with complicated functions or when an analytical solution is difficult to obtain.
 
 ## Syntax
 
@@ -25,11 +25,11 @@ integrate.quad(func, a, b, args=(), full_output=0, complex_func=False, ...)
 - `func`: The function to integrate.
 - `a`: The lower limit to use for integration.
 - `b`: The upper limit to use for integration.
-- `args` (Optional): The arguments which will be passed to the function.
+- `args` (Optional): A tuple of additional arguments to pass to `func`. Default is an empty tuple `()`.
 - `full_output` (Optional): If non-zero, it returns additional information (such as the error estimate and evaluation statistics).
-- `complex_func` (Optional): Indicates if the return type of the function is real (`False`, default) or complex (`True`).
+- `complex_func` (Optional): If `True`, the function is assumed to return complex values. Default is `False`.
 
-> **Note:** The ellipsis (...) indicates that there can be additional optional parameters beyond those listed here.
+> **Note:** The ellipsis (`...`) indicates that there can be additional optional parameters beyond those listed here.
 
 ## Example
 
