@@ -63,3 +63,21 @@ The above code produces the following output:
 ```shell
 DescribeResult(nobs=5, minmax=(12, 56), mean=34.0, variance=302.5, skewness=0.0, kurtosis=-1.3)
 ```
+
+## Codebyte Example
+
+The following codebyte example demonstrates the usage of the `.describe()` function to calculate the descriptive statistics of a given array:
+
+```codebyte/python
+import numpy as np
+from scipy import stats
+
+# Define an array
+arr = np.array([5, 10, 20, 40, 80])
+
+# Calculate the descriptive statistics of the array
+res = stats.describe(arr)
+
+# Print the result
+print(res)
+```
