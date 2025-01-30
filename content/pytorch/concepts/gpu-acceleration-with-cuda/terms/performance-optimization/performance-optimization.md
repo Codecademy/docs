@@ -38,7 +38,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Heavy calculation function
 def heavy_computation(tensor):
-    return tensor**2 + (tensor**3) * (tensor.sin() * tensor.cos()) + tensor.tan()
+  return tensor**2 + (tensor**3) * (tensor.sin() * tensor.cos()) + tensor.tan()
 
 # Sample number (reduce size to prevent OOM issues)
 size = 10**7  # Instead of 10**9
