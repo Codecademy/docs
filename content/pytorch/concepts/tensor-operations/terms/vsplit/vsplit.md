@@ -1,6 +1,6 @@
 ---
 Title: '.vsplit()'
-Description: 'Divides a tensor into multiple sub-tensors vertically (row-wise).'
+Description: 'Divides a tensor into multiple sub-tensors vertically.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
@@ -19,10 +19,10 @@ In PyTorch, the **`.vsplit()`** function divides a [tensor](https://www.codecade
 ## Syntax
 
 ```pseudo
-torch.vsplit(ten, sections)
+torch.vsplit(tensor, sections)
 ```
 
-- `ten`: The tensor to be split vertically.
+- `tensor`: The tensor to be split vertically.
 - `sections`: The value for this parameter can be either an integer or a list of integers.
   - If the value is an integer, the tensor is split into the specified number of equal parts.
   - If the value is a list of integers, it specifies the indices where the tensor is to be split.
