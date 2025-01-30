@@ -36,40 +36,38 @@ import time
 # Verify GPU selection else use CPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Heavy calculation mathematic
+# Heavy calculation function
 def heavy_computation(tensor):
-  return tensor ** 2 + tensor ** 3 ** tensor.sin() ** tensor.cos() + tensor.tan()
+    return tensor**2 + (tensor**3) * (tensor.sin() * tensor.cos()) + tensor.tan()
 
-# Sample number
-size = 10**9
-data = torch.randn(size, device=device)
+# Sample number (reduce size to prevent OOM issues)
+size = 10**7  # Instead of 10**9
+data = torch.randn(size, device=device, dtype=torch.float16)  # Reduced dtype to float16
 
 # Create 2 Streams
-stream1 = torch.cuda.Stream()
-stream2 = torch.cuda.Stream()
+stream1 = torch.cuda.Stream(device=device)
+stream2 = torch.cuda.Stream(device=device)
 
-# Synchronize all kernels in all Streams before time tracking
+# Synchronize all kernels before time tracking
 torch.cuda.synchronize()
 
-# Start time tracking for Stream calculation
+# Start time tracking for Stream computation
 start_time = time.time()
 
-# Asynchronous calculation with Stream
+# Asynchronous execution with streams
 with torch.cuda.stream(stream1):
-  result1 = heavy_computation(data[:size // 2])
+    result1 = heavy_computation(data[:size // 2])
 
 with torch.cuda.stream(stream2):
-  result2 = heavy_computation(data[size // 2:])
+    result2 = heavy_computation(data[size // 2:])
 
-# Synchronize all kernels in all Streams before time tracking
+# Synchronize all kernels before measuring time
 torch.cuda.synchronize()
-
-# Stop time tracking for Stream calculation
 end_time = time.time()
 
 print(f"Time taken with streams: {end_time - start_time:.3f} seconds")
 
-# Sequential calculation section
+# Sequential computation
 torch.cuda.synchronize()
 start_time = time.time()
 
@@ -86,9 +84,9 @@ See more on [`.time()`](https://www.codecademy.com/resources/docs/python/dates/t
 
 > **Note:** The Stream calculation varies on the complexity of command execution. If the calculation is simple, the stream might slow the operation instead.
 
-The following will be the output for the sample `size = 10\*\*9`:
+The following will be the output for the sample `size = 10\*\*7`:
 
 ```shell
-Time taken with streams: 5.316 seconds
-Time taken without streams: 6.551 seconds
+Time taken with streams: 0.035 seconds
+Time taken without streams: 0.003 seconds
 ```
