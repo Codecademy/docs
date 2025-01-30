@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In SciPy, **descriptive stats** refers to the process of summarizing and describing the essential features of a dataset. It enables users to understand the basic characteristics of the given data through various metrics such as central tendency, variability, and distribution shape.
+In SciPy, **descriptive statistics** refers to summarizing and analyzing a dataset's key characteristics. It helps summarize essential properties such as central tendency, variability, and distribution shape.
 
 The **`.describe()`** function in the `scipy.stats` module is used to calculate common descriptive statistics of a given array, such as:
 
