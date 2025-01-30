@@ -1,6 +1,6 @@
 ---
 Title: 'Descriptive Stats'
-Description: 'Refers to the process of summarizing and describing the essential features of a dataset.'
+Description: 'Summarizes and describes the essential features of a dataset.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
