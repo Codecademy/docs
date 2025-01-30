@@ -56,10 +56,10 @@ start_time = time.time()
 
 # Asynchronous execution with streams
 with torch.cuda.stream(stream1):
-    result1 = heavy_computation(data[:size // 2])
+  result1 = heavy_computation(data[:size // 2])
 
 with torch.cuda.stream(stream2):
-    result2 = heavy_computation(data[size // 2:])
+  result2 = heavy_computation(data[size // 2:])
 
 # Synchronize all kernels before measuring time
 torch.cuda.synchronize()
