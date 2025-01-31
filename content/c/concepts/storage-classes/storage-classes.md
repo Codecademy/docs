@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C, **storage classes** determines where and for how long a variable is stored in memory, as well as its default value and scope. C provides four storage classes:
+In C, **storage classes** determine where and for how long a variable is stored in memory, as well as its default value and scope. C provides four storage classes:
 
 1. `auto`
 2. `register`
@@ -25,23 +25,23 @@ Each storage class has a specific role in how variables behave in a program.
 
 ## 1. `auto` Storage Class
 
-The `auto` storage class is the default for local variables. Variables declared with `auto` are automatically created when the block of code (such as a function) is entered, and they are destroyed when the block is exited. These variables have automatic storage duration.
+The `auto` storage class acts as the default class for local variables. Variables declared with `auto` are automatically created when the block of code (such as a function) is entered, and they are destroyed when the block is exited. These variables have automatic storage duration.
 
-Here is how we can declare a variable using the `auto` storage class:
+Here is how a variable can be declared using the `auto` storage class:
 
 ```pseudo
 auto type variable_name;
 ```
 
-Let’s look at an example that demonstrates the behavior of the `auto` storage class:
+Let's look at an example that demonstrates the behavior of the `auto` storage class:
 
 ```c
 #include <stdio.h>
 
 int main() {
-    auto int num = 5; // 'auto' is optional here as it's the default for local variables
-    printf("%d\n", num);  // Output: 5
-    return 0;
+  auto int num = 5; // 'auto' is optional here as it's the default for local variables
+  printf("%d\n", num);  // Output: 5
+  return 0;
 }
 ```
 
@@ -49,9 +49,9 @@ In this case, the `num` variable is created and destroyed within the `main` func
 
 ## 2. `register` Storage Class
 
-The `register` storage class is used to suggest to the compiler that a variable should be stored in a CPU register instead of RAM. This can improve the speed of access, but it is just a suggestion and not a guarantee. The `register` keyword can only be used for local variables.
+The `register` storage class suggests the compiler that a variable can be stored in a CPU register instead of RAM. This can improve the speed of access, but it is just a suggestion and not a guarantee. The `register` keyword can only be used for local variables.
 
-Here is how you declare a variable using the `register` storage class:
+Here is how a variable can be declared using the `register` storage class:
 
 ```pseudo
 register type variable_name;
@@ -63,11 +63,11 @@ Below is an example demonstrating the `register` storage class:
 #include <stdio.h>
 
 int main() {
-    register int count;
-    for (count = 0; count < 5; count++) {
-        printf("%d ", count);
-    }
-    return 0;
+  register int count;
+  for (count = 0; count < 5; count++) {
+    printf("%d ", count);
+  }
+  return 0;
 }
 ```
 
@@ -77,28 +77,28 @@ In this example, the `count` variable is suggested to be stored in a register fo
 
 The `static` storage class is used to maintain the value of a variable across function calls. A static variable retains its value even after the function in which it is declared finishes executing. Additionally, static variables are initialized only once, and their lifetime is the entire program runtime.
 
-Here is how you declare a variable using the `static` storage class:
+Here is how a variable can be declared using the `static` storage class:
 
 ```pseudo
 static type variable_name;
 ```
 
-Let’s see an example where a `static` variable retains its value across multiple function calls:
+Let's see an example where a `static` variable retains its value across multiple function calls:
 
 ```c
 #include <stdio.h>
 
 void counter() {
-    static int count = 0;  // This variable retains its value across function calls
-    count++;
-    printf("Count: %d\n", count);
+  static int count = 0;  // This variable retains its value across function calls
+  count++;
+  printf("Count: %d\n", count);
 }
 
 int main() {
-    counter(); // Output: Count: 1
-    counter(); // Output: Count: 2
-    counter(); // Output: Count: 3
-    return 0;
+  counter(); // Output: Count: 1
+  counter(); // Output: Count: 2
+  counter(); // Output: Count: 3
+  return 0;
 }
 ```
 
@@ -106,9 +106,9 @@ In this example, the `count` variable retains its value across multiple calls to
 
 ## 4. `extern` Storage Class
 
-The `extern` storage class is used to declare a variable that is defined in another file or elsewhere in the program. It tells the compiler that the variable exists, but its definition will be provided later. It is used for sharing variables between files.
+The `extern` storage class helps declare a variable that is defined in another file or elsewhere in the program. It tells the compiler that the variable exists, but its definition will be provided later. It is used for sharing variables between files.
 
-Here is how you declare a variable using the `extern` storage class:
+Here is how a variable can be declared using the `extern` storage class:
 
 ```pseudo
 extern type variable_name;
@@ -123,15 +123,15 @@ Below is an example demonstrating how the `extern` storage class is used across 
 int count = 10;  // Definition of count
 
 void display() {
-    printf("Count: %d\n", count);
+  printf("Count: %d\n", count);
 }
 
 // file2.c
 extern int count;  // Declaration of count from file1.c
 
 int main() {
-    display();  // Output: Count: 10
-    return 0;
+  display();  // Output: Count: 10
+  return 0;
 }
 ```
 
@@ -139,7 +139,7 @@ In this example, the `extern` keyword in `file2.c` allows access to the `count` 
 
 Each of these storage classes provides different advantages, depending on how and where the variable is used in the program.
 
-The table below provides a concise comparison of the four storage classes in C, outlining their lifetime, scope, initialization behavior, and typical use cases.
+The table below provides a concise comparison of the four storage classes in C, outlining their lifetime, scope, initialization behavior, and typical use case:
 
 | Storage Class | Lifetime               | Scope                          | Initialization               | Use Case                                     |
 | ------------- | ---------------------- | ------------------------------ | ---------------------------- | -------------------------------------------- |
