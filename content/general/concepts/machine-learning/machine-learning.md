@@ -27,7 +27,9 @@ Machine learning is broadly categorized into three types based on how models lea
 2. **Unsupervised Learning**: In unsupervised learning, models analyze unlabeled data and detect patterns without predefined categories. It is used for clustering, anomaly detection, and dimensionality reduction. 
 	- **Applications**: Customer segmentation, anomaly detection, data compression.
 	- **Algorithms**: K-means clustering, hierarchical clustering, Principal Component Analysis (PCA) (for dimensionality reduction).
-3. **Reinforcement Learning**: In reinforcement learning, an agent learns by interacting with an environment and receiving rewards or penalties for its actions. This trial-and-error approach is widely used in robotics, game playing (such as AlphaGo), and autonomous systems. Reinforcement learning algorithms include Q-learning and deep Q-networks (DQN).
+3. **Reinforcement Learning**: In reinforcement learning, an agent interacts with an environment and learns optimal actions by maximizing cumulative rewards.
+	- **Applications**: Robotics, game playing (e.g., AlphaGo), self-driving cars.
+	- **Algorithms**: Q-learning, Deep Q-Networks (DQN), Proximal Policy Optimization (PPO).
 
 ## How Machine Learning works
 
