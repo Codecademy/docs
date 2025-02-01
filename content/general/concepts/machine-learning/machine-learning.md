@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Machine learning (ML)** is a branch of artificial intelligence (AI) that allows computers to analyze data, identify patterns, and make decisions without explicit programming. Instead of following hard-coded rules, ML algorithms identify patterns in data and improve their performance over time. This ability makes ML essential in applications such as recommendation systems, fraud detection, natural language processing, and self-driving cars.
+**Machine learning (ML)** is a branch of [Artificial Intelligence (AI)](https://www.codecademy.com/resources/docs/ai) that allows computers to analyze data, identify patterns, and make decisions without explicit programming. Instead of following hard-coded rules, ML algorithms identify patterns in data and improve their performance over time. This ability makes ML essential in applications such as recommendation systems, fraud detection, natural language processing, and self-driving cars.
 
 The growing availability of large datasets, computational power, and advanced algorithms has fueled the rapid evolution of ML. Businesses and researchers use ML to automate tasks, enhance decision-making, and drive innovation across industries. By leveraging different types of learning techniques, such as supervised, unsupervised, and reinforcement learning, ML models can solve complex problems and generate accurate predictions.
 
