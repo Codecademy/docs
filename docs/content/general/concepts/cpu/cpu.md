@@ -6,7 +6,7 @@ Subjects:
   - 'Web Development'
 Tags:
   - 'Algorithms'
-  - 'Sort'
+  - 'Memory'
 CatalogContent:
   - 'paths/computer-science'
   - 'paths/front-end-engineer-career-path'
