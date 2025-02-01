@@ -21,7 +21,9 @@ The growing availability of large datasets, computational power, and advanced al
 
 Machine learning is broadly categorized into three types based on how models learn from data:
 
-1. **Supervised Learning**: In supervised learning, models are trained on labeled datasets, meaning the input data is paired with the correct output. The algorithm learns to map inputs to the desired outputs using examples. Common applications include spam detection, image classification, and speech recognition. Examples of supervised learning algorithms include linear regression, decision trees, and support vector machines (SVMs).
+1. **Supervised Learning**: In supervised learning, models learn from labeled datasets, where each input is paired with a known output. The algorithm maps inputs to outputs based on training examples. 
+	- **Applications**: Spam detection, image classification, speech recognition.
+	- **Algorithms**: Linear regression, decision trees, support vector machines (SVMs), neural networks.
 2. **Unsupervised Learning**: Unsupervised learning involves training models on unlabeled data, meaning the algorithm must find patterns and relationships in the data without predefined outputs. This type of learning is useful for clustering, anomaly detection, and data compression. Examples include k-means clustering and principal component analysis (PCA).
 3. **Reinforcement Learning**: In reinforcement learning, an agent learns by interacting with an environment and receiving rewards or penalties for its actions. This trial-and-error approach is widely used in robotics, game playing (such as AlphaGo), and autonomous systems. Reinforcement learning algorithms include Q-learning and deep Q-networks (DQN).
 
