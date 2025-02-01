@@ -24,7 +24,9 @@ Machine learning is broadly categorized into three types based on how models lea
 1. **Supervised Learning**: In supervised learning, models learn from labeled datasets, where each input is paired with a known output. The algorithm maps inputs to outputs based on training examples. 
 	- **Applications**: Spam detection, image classification, speech recognition.
 	- **Algorithms**: Linear regression, decision trees, support vector machines (SVMs), neural networks.
-2. **Unsupervised Learning**: Unsupervised learning involves training models on unlabeled data, meaning the algorithm must find patterns and relationships in the data without predefined outputs. This type of learning is useful for clustering, anomaly detection, and data compression. Examples include k-means clustering and principal component analysis (PCA).
+2. **Unsupervised Learning**: In unsupervised learning, models analyze unlabeled data and detect patterns without predefined categories. It is used for clustering, anomaly detection, and dimensionality reduction. 
+	- **Applications**: Customer segmentation, anomaly detection, data compression.
+	- **Algorithms**: K-means clustering, hierarchical clustering, Principal Component Analysis (PCA) (for dimensionality reduction).
 3. **Reinforcement Learning**: In reinforcement learning, an agent learns by interacting with an environment and receiving rewards or penalties for its actions. This trial-and-error approach is widely used in robotics, game playing (such as AlphaGo), and autonomous systems. Reinforcement learning algorithms include Q-learning and deep Q-networks (DQN).
 
 ## How Machine Learning works
