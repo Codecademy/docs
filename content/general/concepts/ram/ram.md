@@ -51,19 +51,19 @@ With continuous advancements, RAM technology continues to evolve, offering bette
 
 RAM is broadly classified into two main types: **Static RAM (SRAM)** and **Dynamic RAM (DRAM)**:
 
-1. Static RAM (SRAM)
+1. **Static RAM (SRAM)**
 
-- Uses flip-flop circuits to store data.
-- Faster and more reliable than DRAM.
-- Commonly used in CPU cache (L1, L2, L3).
-- More expensive and consumes more power.
+   - Uses flip-flop circuits to store data.
+   - Faster and more reliable than DRAM.
+   - Commonly used in CPU cache (L1, L2, L3).
+   - More expensive and consumes more power.
 
-2. Dynamic RAM (DRAM)
+2. **Dynamic RAM (DRAM)**
 
-- Stores data using capacitors that need frequent refreshing.
-- Slower than SRAM but more affordable and widely used.
-- Used as the main system memory in computers.
-- Available in different generations, including:
-  - **DDR (Double Data Rate) RAM**: Successor to SDRAM with improved speed.
-  - **DDR2, DDR3, DDR4, DDR5**: Successive generations offering higher bandwidth, lower power consumption, and better efficiency.
-  - **GDDR (Graphics DDR) RAM**: Specialized for GPUs, optimized for high-speed graphics processing.
+   - Stores data using capacitors that need frequent refreshing.
+   - Slower than SRAM but more affordable and widely used.
+   - Used as the main system memory in computers.
+   - Available in different generations, including:
+     - **DDR (Double Data Rate) RAM**: Successor to SDRAM with improved speed.
+     - **DDR2, DDR3, DDR4, DDR5**: Successive generations offering higher bandwidth, lower power consumption, and better efficiency.
+     - **GDDR (Graphics DDR) RAM**: Specialized for GPUs, optimized for high-speed graphics processing.
