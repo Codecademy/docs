@@ -3,10 +3,11 @@ Title: 'Machine Learning'
 Description: 'Machine learning is a branch of artificial intelligence that enables systems to learn from data and make predictions or decisions without explicit programming.'
 Subjects:
   - 'Computer Science'
+  - 'Machine Learning'
   - 'Web Development'
 Tags:
   - 'Algorithms'
-  - 'Sort'
+  - 'Machine Learning'
 CatalogContent:
   - 'paths/computer-science'
   - 'paths/front-end-engineer-career-path'
