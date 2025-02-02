@@ -73,7 +73,9 @@ int main () {
   return 0;
 }   
 ```
-Ambiguity errors can also occur if multiple base classes inherit from a common ancestor. This is known as the Diamond Problem.
+### The Diamond Problem
+
+Ambiguity errors can also occur if multiple base classes inherit from a common ancestor. This is known as the **Diamond Problem**.
 ```cpp
 class Vehicle {
   public:
