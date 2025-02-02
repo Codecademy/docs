@@ -107,6 +107,8 @@ int main () {
   return 0;
 }
 ```
+### Resolving the Diamond Problem with Virtual Inheritance
+
 One way to fix the diamond problem is to use virtual inheritance in the intermediate classes.
 ```cpp
 class Vehicle {
