@@ -50,7 +50,7 @@ class ManBat : public Man, public Bat {
 }; 
 ```
 ### Ambiguity errors
-With multiple inheritance, a class can inherit from multiple classes with identical member names. This can cause ambiguity errors as it won't be obvious which ancestor's members are being referred to. One way to fix these errors is with the scope resolution operator (::).
+With multiple inheritance, if two base classes have members with identical names, ambiguity errors can occur. This happens because it is unclear which base class member should be referenced. The **scope resolution operator** (`::`) can resolve such conflicts.
 ```cpp
 class Dancer { 
   public: 
