@@ -16,7 +16,7 @@ CatalogContent:
 **Multiple inheritance** is a type of [inheritance](https://www.codecademy.com/resources/docs/cpp/inheritance) where classes can inherit from more than one base class.
 
 ## Syntax
-The syntax for multiple inheritance is similar to the syntax for [single inheritance](https://www.codecademy.com/resources/docs/cpp/inheritance).
+The syntax for multiple inheritance is similar to the syntax for single inheritance:
 ```cpp
 class DerivedClass : public BaseClass1, public BaseClass2 {
     // Derived class members
