@@ -24,7 +24,12 @@ class DerivedClass : public BaseClass1, public BaseClass2 {
 ```
 Classes can inherit from as many base classes as necessary and, as with single inheritance, access modifiers can be used to modify access to inherited members.
 
-The ordering of base classes affects the ordering of calls to [constructors](https://www.codecademy.com/resources/docs/cpp/constructors) and [destructors](https://www.codecademy.com/resources/docs/cpp/destructors). Virtual base class constructors are called first, from left to right, followed by direct base class constructors from left to right. Destructors are called in reverse order to constructors.
+The ordering of base classes affects the order in which [constructors](https://www.codecademy.com/resources/docs/cpp/constructors) and [destructors](https://www.codecademy.com/resources/docs/cpp/destructors) are called:
+
+- Virtual base class constructors are called first (from left to right).
+- Direct base class constructors are then called (from left to right).
+- Destructors are called in reverse order of constructors.
+
 
 ## Examples
 
