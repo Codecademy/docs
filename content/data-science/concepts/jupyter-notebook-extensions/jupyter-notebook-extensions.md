@@ -13,21 +13,12 @@ CatalogContent:
 
 ---
 
-***Jupyter notebook extensions*** serve many purposes, from pedagogical tools to tools for converting and editing notebooks.Jupyter contributed notebook extensions are community-contributed and maintained plug-ins for Jupyter notebook.
+***Jupyter notebook extensions*** are add-ons that improve the functionality of Jupyter Notebook by installing them as add-ons. They can be used to run code, edit code as well as manage notebboks.
 
-## Syntax
-***Enabling extensions via the command line***
-1. There are multiple ways to install contributed extensions. For this example, we will use pip.
+## Some Examples of Jupyter Notebbok Extensions
+1. Notification : Sending notification after it has Jupyter Notebook becomes idle for a long-running task
 
-        sudo -E pip install jupyter_contrib_nbextensions
-1. Next, add the notebook extension style files to the Jupyter configuration files.
+1. LaTex : Permits live-editing of LaTex documents
 
-        sudo -E jupyter contrib nbextension install --sys-prefix
-1. Then, you will enable the extensions you would like to use. The syntax for this is jupyter nbextension enable followed by the path to the desired extension’s main file. For example, to enable scratchpad, you would type the following:
-
-        sudo -E jupyter nbextension enable scratchpad/main --sys-prefix
-1. When this is completed, the enabled extension should be visible in the extension list:
-
-        jupyter nbextension list
-1. You can also verify the availability of the extension via its user interface in the notebook. For        example, spellchecker adds an ABC checkmark icon to the interface.
+1. Collapsable Headings: It is used to collapse entire group of cells under the same header
 
