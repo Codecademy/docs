@@ -1,6 +1,6 @@
 ---
 Title: 'Multiple Inheritance'
-Description: 'Enables classes to inherit characteristics from more than one class.'
+Description: 'Allows classes to inherit characteristics from more than one base class.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
