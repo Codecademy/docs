@@ -3,6 +3,7 @@ Title: 'Multiple Inheritance'
 Description: 'Enables classes to inherit characteristics from more than one class.'
 Subjects:
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
   - 'Abstraction'
   - 'Classes'
