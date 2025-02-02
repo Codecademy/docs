@@ -21,15 +21,15 @@ The growing availability of large datasets, computational power, and advanced al
 
 Machine learning is broadly categorized into three types based on how models learn from data:
 
-1. **Supervised Learning**: In supervised learning, models learn from labeled datasets, where each input is paired with a known output. The algorithm maps inputs to outputs based on training examples. 
-	- **Applications**: Spam detection, image classification, speech recognition.
-	- **Algorithms**: Linear regression, decision trees, support vector machines (SVMs), neural networks.
-2. **Unsupervised Learning**: In unsupervised learning, models analyze unlabeled data and detect patterns without predefined categories. It is used for clustering, anomaly detection, and dimensionality reduction. 
-	- **Applications**: Customer segmentation, anomaly detection, data compression.
-	- **Algorithms**: K-means clustering, hierarchical clustering, Principal Component Analysis (PCA) (for dimensionality reduction).
+1. **Supervised Learning**: In supervised learning, models learn from labeled datasets, where each input is paired with a known output. The algorithm maps inputs to outputs based on training examples.
+   - **Applications**: Spam detection, image classification, speech recognition.
+   - **Algorithms**: Linear regression, decision trees, support vector machines (SVMs), neural networks.
+2. **Unsupervised Learning**: In unsupervised learning, models analyze unlabeled data and detect patterns without predefined categories. It is used for clustering, anomaly detection, and dimensionality reduction.
+   - **Applications**: Customer segmentation, anomaly detection, data compression.
+   - **Algorithms**: K-means clustering, hierarchical clustering, Principal Component Analysis (PCA) (for dimensionality reduction).
 3. **Reinforcement Learning**: In reinforcement learning, an agent interacts with an environment and learns optimal actions by maximizing cumulative rewards.
-	- **Applications**: Robotics, game playing (e.g., AlphaGo), self-driving cars.
-	- **Algorithms**: Q-learning, Deep Q-Networks (DQN), Proximal Policy Optimization (PPO).
+   - **Applications**: Robotics, game playing (e.g., AlphaGo), self-driving cars.
+   - **Algorithms**: Q-learning, Deep Q-Networks (DQN), Proximal Policy Optimization (PPO).
 
 ## How Machine Learning works
 
