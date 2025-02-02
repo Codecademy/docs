@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Syntax
 The syntax for multiple inheritance is similar to the syntax for single inheritance:
-```cpp
+```pseudo
 class DerivedClass : public BaseClass1, public BaseClass2 {
     // Derived class members
 };
