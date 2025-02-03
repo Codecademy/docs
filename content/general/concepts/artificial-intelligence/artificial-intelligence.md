@@ -29,11 +29,11 @@ CatalogContent:
 
 
 ## Artificial Intelligence Applications 
-Artificial-Intelligence in the field of computer science and programming has specific areas of application. The most popular ones the following:
+Artificial-Intelligence in the field of computer science and programming has specific areas of application. The most popular ones are the following:
 
 - **Business**: AI is playing an increasingly important role in businesses. AI-powered tools can help businesses collect, analyze, and visualize data more efficiently and effectively. This can lead to improved decision-making, increased productivity, and reduced costs.
 - **Healthcare**: AI plays an increasingly important role in healthcare. AI-powered tools can help doctors diagnose diseases, develop new treatments, and provide personalized care to patients.
 - **Education**: AI could be used in education to personalize learning, improve student engagement, and automate administrative tasks for schools and other organizations.    
 - **Finance**: AI can help financial services institutions in five general areas: personalize services and products, create opportunities, manage risk and fraud, enable transparency and compliance, and automate operations and cost reduction.
-- **Manufacturing**: Some ways that AI may be used in manufacturing including automating tasks, such as assembly and inspection, optimizing production processes
+- **Manufacturing**: AI is used in manufacturing including automating tasks, such as assembly and inspection, optimizing production processes
 and can be used to detect defects and improve quality control.
