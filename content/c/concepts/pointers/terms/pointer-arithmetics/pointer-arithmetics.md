@@ -66,29 +66,29 @@ This gives the number of elements between the two pointers, assuming both point 
 #include <stdio.h>
 
 int main() {
-    int arr[] = {10, 20, 30, 40, 50};
-    int *ptr = arr;
+  int arr[] = {10, 20, 30, 40, 50};
+  int *ptr = arr;
 
-    // Accessing elements using pointer arithmetic
-    printf("First element: %d\n", *ptr);          // Access arr[0]
-    ptr++;                                       // Increment pointer
-    printf("Second element: %d\n", *ptr);         // Access arr[1]
+  // Accessing elements using pointer arithmetic
+  printf("First element: %d\n", *ptr);          // Access arr[0]
+  ptr++;                                       // Increment pointer
+  printf("Second element: %d\n", *ptr);         // Access arr[1]
 
-    ptr += 2;                                    // Move pointer 2 elements ahead
-    printf("Fourth element: %d\n", *ptr);         // Access arr[3]
+  ptr += 2;                                    // Move pointer 2 elements ahead
+  printf("Fourth element: %d\n", *ptr);         // Access arr[3]
 
-    ptr--;                                       // Move pointer 1 element back
-    printf("Third element: %d\n", *ptr);          // Access arr[2]
+  ptr--;                                       // Move pointer 1 element back
+  printf("Third element: %d\n", *ptr);          // Access arr[2]
 
-    // Subtracting pointers
-    int *ptr2 = &arr[4];
-    printf("Difference between pointers: %ld\n", ptr2 - ptr); // Output: 4
+  // Subtracting pointers
+  int *ptr2 = &arr[4];
+  printf("Difference between pointers: %ld\n", ptr2 - ptr); // Output: 4
 
-    return 0;
+  return 0;
 }
 ```
 
-The output of this code would look like this:
+The output of above code will the following output:
 
 ```shell
 First element: 10
