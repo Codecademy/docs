@@ -38,17 +38,17 @@ In the example, we declare an integer pointer `ptr` and initialize it to `NULL`,
 #include <stddef.h>
 
 int main() {
-    int *ptr = NULL;  // Initialize pointer to NULL
+  int *ptr = NULL;  // Initialize pointer to NULL
 
-    if (ptr == NULL) {
-        printf("Pointer is NULL\n");
-    }
+  if (ptr == NULL) {
+    printf("Pointer is NULL\n");
+  }
 
-    return 0;
+  return 0;
 }
 ```
 
-The `if` statement checks if `ptr` is `NULL`, and if true, it prints "Pointer is NULL" to the screen. This ensures that the pointer is not used before being properly initialized to a valid memory address.
+The `if` statement checks if `ptr` is `NULL`, if true, it prints "Pointer is NULL" to the screen. This ensures the pointer is not used before properly initialising to a valid memory address.
 
 ## Usage
 
@@ -66,10 +66,10 @@ Before dereferencing a pointer, it is a good practice to check whether it is `NU
 
 ```c
 if (ptr != NULL) {
-    // Safe to dereference ptr
-    printf("%d", *ptr);
+  // Safe to dereference ptr
+  printf("%d", *ptr);
 } else {
-    printf("Pointer is NULL\n");
+  printf("Pointer is NULL\n");
 }
 ```
 
@@ -80,7 +80,7 @@ Functions that involve memory allocation or searching operations often return a 
 ```c
 int *ptr = malloc(sizeof(int));
 if (ptr == NULL) {
-    printf("Memory allocation failed!\n");
+  printf("Memory allocation failed!\n");
 }
 ```
 
