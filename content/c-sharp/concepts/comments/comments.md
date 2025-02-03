@@ -78,3 +78,31 @@ XML tags embedded in XML comments are used to signal a specific functionality of
 /// </summary>
 public class MyClass {}
 ```
+
+## Codebyte Example
+
+In this example, single-line comments (`//`) are used for brief notes, while multi-line comments (`/* */`) are used to explain larger blocks of code or provide more context:
+
+```codebyte/csharp
+using System;
+
+class Program
+{
+  static void Main(string[] args)
+  {
+    // Single-line comment: This is the entry point of the program.
+    Console.WriteLine("Hello, World!"); // This prints a greeting to the console.
+
+    /*
+     Multi-line comment:
+     The following code demonstrates basic addition
+     and prints the result to the console.
+    */
+    int a = 5;  // Declare an integer variable 'a' and assign it the value 5.
+    int b = 10; // Declare an integer variable 'b' and assign it the value 10.
+
+    int sum = a + b; // Add the two numbers and store the result in 'sum'.
+    Console.WriteLine("The sum of a and b is: " + sum); // Output the sum to the console.
+  }
+}
+```
