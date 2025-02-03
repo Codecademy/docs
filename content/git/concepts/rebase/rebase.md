@@ -46,10 +46,6 @@ git rebase --interactive <base>
 
 ## Rebase vs Squash vs Merge
 
-When merging a pull request, Git provides three strategies: **Merge Commit**, **Squash Commit**, and **Rebase Merge**. While all achieve the same task of integrating changes, they do so with different approaches and outcomes.
-
----
-
 ## Merge Commit
 
 Merge commits integrate a feature branch into the main branch while keeping the full commit history and adding a **merge commit** to record the integration.
