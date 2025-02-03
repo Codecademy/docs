@@ -23,10 +23,10 @@ Y = \beta_0 + \beta_1 X + \epsilon
 $$
 
 - **Y**: The dependent variable to be predicted.
-- **β₀**: The intercept, representing the predicted value of Y when X has no effect.
-- **β₁**: The coefficient that measures the relationship between X and Y.
+- **β₀**: The intercept represents Y's predicted value when X has no effect.
+- **β₁**: The coefficient measures the relationship between X and Y.
 - **X**: The independent variable used to predict Y.
-- **ε**: The error term, representing the difference between the observed and predicted values of Y.
+- **ε**: The error term representing the difference between the observed and predicted values of Y.
 
 ## Syntax
 
