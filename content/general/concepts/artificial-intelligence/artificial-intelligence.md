@@ -9,9 +9,7 @@ Tags:
   - 'AI'
   - 'Automation'
   - 'Algorithms'
-  - 'Neural Networks'
-  - 'Natural Language Processing'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent: 
   - 'paths/computer_science'
   - 'paths/data-science'
 ---
@@ -20,20 +18,22 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 ## Types of Artificial-Intelligence 
 
-- Reactive Machines
-  - These are the most basic type of AI systems that do not have memory or used past data to inform new decision or factor them into solutions. They react to specific inputs with specific outputs.
-- Limited Memory
-  - These AI systems can used memory and stored data to make future decisions and outputs. They have only temporary memory that are only stored for a brief time.
-- Theory of Mind
-  - These are advanced AI systems that involve machines that emotions, behavior, and interactions to a human like quality. This allows for AI systems to understand and interact with humans. 
-- Self-Aware AI
-  - This would be the most advanced type of AI system and is currently hypothetical. This is where a machine would have a defined consciousness and be self-aware. They can make decision, feel emotions, and act on them based on their own intentions and desires.
+- **Reactive Machines AI**
+  - These are the most basic types of AI systems. They do not have memory or use past data to inform new decisions or factor them into solutions. They react to specific inputs with specific outputs.
+- **Limited Memory AI**
+  - These AI systems can use memory and stored data to make future decisions and outputs. However, they have only temporary memory that is only stored for a brief time.
+- **Theory of Mind AI**
+  - These are advanced AI systems that involve machines that emotions, behavior, and interactions to a human like quality. This allows for AI systems to understand and interact with humans.
+- **Self-Aware AI**
+  - This would be the most advanced type of AI system and is currently hypothetical. In this type of system, a machine would have a defined consciousness and be self-aware. It would be able to make decisions, feel emotions, and act on them based on its own intentions and desires.
 
 
 ## Artificial Intelligence Applications 
 Artificial-Intelligence in the field of computer science and programming has specific areas of application. The most popular ones the following:
 
-- **Natural Language Processing**: Language Translation, AI Chatbots, 
-- **Computer Vision**: Facial Recognition, Autonomous vehicles, Surveillance
-- **Machine Learning**: Image and Speech recognition, Recommendation systems, fraud detection   
-- **Robotics**: Manufacturing automation, service robots 
+- **Business**: AI is playing an increasingly important role in businesses. AI-powered tools can help businesses collect, analyze, and visualize data more efficiently and effectively. This can lead to improved decision-making, increased productivity, and reduced costs.
+- **Healthcare**: AI plays an increasingly important role in healthcare. AI-powered tools can help doctors diagnose diseases, develop new treatments, and provide personalized care to patients.
+- **Education**: AI could be used in education to personalize learning, improve student engagement, and automate administrative tasks for schools and other organizations.    
+- **Finance**: AI can help financial services institutions in five general areas: personalize services and products, create opportunities, manage risk and fraud, enable transparency and compliance, and automate operations and cost reduction.
+- **Manufacturing**: Some ways that AI may be used in manufacturing including automating tasks, such as assembly and inspection, optimizing production processes
+and can be used to detect defects and improve quality control.
