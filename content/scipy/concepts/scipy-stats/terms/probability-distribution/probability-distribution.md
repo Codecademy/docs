@@ -42,6 +42,8 @@ variance_value = rv.var()
 
 ## Example
 
+The following code creates a standard normal distribution (mean 0, standard deviation 1) and computes its cumulative distribution function (CDF), probability density function (PDF), mean, and variance using SciPy's norm function:
+
 ```py
 from scipy.stats import norm
 
