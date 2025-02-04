@@ -18,32 +18,39 @@ A **double pointer** is a [pointer](https://www.codecademy.com/resources/docs/c/
 
 ## Syntax
 
-A double pointer is declared using two asterisks (`**`):
+A double pointer is declared using two asterisks (`**`) before the pointer variable name:
 
-```psedudo
+```pseudo
 type **name
 ```
 
-- `type`: data type of variable being pointed to.
-- `name`: the identifier for the double pointer.
+- `type`: The type of data the double pointer will point to (e.g., `int`, `char`, etc.).
+- `name`: The identifier for the double pointer.
 
 ## Example
 
-The following examples demonstrates how a double pointer is declared and used.
+The following examples demonstrates how a double pointer is declared and used:
 
 ```c
-int value = 35;
-int *pointer = &value; // Pointer to an integer
-int **doublePointer = &pointer; // Double pointer to an integer pointer
+# include <stdio.h>
 
-// Printing the value and addresses
-printf("Value of value: %d\n", value); // Direct value
-printf("Value of *pointer: %d\n", *pointer); // Value via pointer
-printf("Value of **doublePointer: %d\n", **doublePointer); // Value via double pointer
+int main() {
+  int value = 35;
+  int *pointer = &value; // Pointer to an integer (stores the address of 'value')
+  int **doublePointer = &pointer; // Double pointer to an integer pointer (stores the address of 'pointer')
 
-printf("Address of value: %p\n", (void*)&value); // Address of value
-printf("Address of pointer: %p\n", (void*)&pointer); // Address of pointer
-printf("Address of doublePointer: %p\n", (void*)&doublePointer); // Address of double pointer
+  // Printing the value and the addresses
+  printf("Value of value: %d\n", value); // Direct access to value
+  printf("Value of *pointer: %d\n", *pointer); // Dereferencing pointer to access value
+  printf("Value of **doublePointer: %d\n", **doublePointer); // Dereferencing double pointer twice to access value
+
+  // Printing addresses
+  printf("Address of value: %p\n", (void*)&value); // Address of the variable 'value'
+  printf("Address of pointer: %p\n", (void*)&pointer); // Address of the pointer 'pointer'
+  printf("Address of doublePointer: %p\n", (void*)&doublePointer); // Address of double pointer 'doublePointer'
+
+  return 0;
+}
 ```
 
 The above code will give the following output:
