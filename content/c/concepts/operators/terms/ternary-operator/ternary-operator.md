@@ -9,6 +9,7 @@ Tags:
   - 'Comparison'
   - 'Logical'
   - 'Operators'
+  - 'Ternary'
 CatalogContent:
   - 'learn-c'
   - 'paths/computer-science'
