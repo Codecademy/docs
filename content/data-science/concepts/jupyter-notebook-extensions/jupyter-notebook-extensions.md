@@ -13,12 +13,31 @@ CatalogContent:
 
 ---
 
-***Jupyter notebook extensions*** are add-ons that improve the functionality of Jupyter Notebook by installing them as add-ons. They can be used to run code, edit code as well as manage notebboks.
 
-## Some Examples of Jupyter Notebbok Extensions
-1. Notification : Sending notification after it has Jupyter Notebook becomes idle for a long-running task
+### What are Jupyter Notebook Extensions? ###
+They are used to add functionalities to Jupyter Notebook interface. It is used to customize and improve ones Jupyter Notebook Experience.
 
-1. LaTex : Permits live-editing of LaTex documents
+Examples of Jupyter Extensions
 
-1. Collapsable Headings: It is used to collapse entire group of cells under the same header
+1. Code Folding 
 
+	Jupyter_fold aids in focusing on specific parts by allowing Jupyter      	notebook user to fold and unfold code cells
+2.  Spellchecking
+		
+	 Spellchecker highlights misspelled words in code and markdown 		 cells.
+ 3. Table of contents
+
+	The ‘toc’ extensions help Jupyter Notebook users to generate table 		of contents based on markdown headers
+
+Installing Jupyter Notebook extensions
+
+The mentioned extensions above and many more are available through open source package ‘jupyter_contrib_nbextensions’.  It is a python package that contains several unofficial extensions provided through open source to improve Jupyter Notebook capabilities.
+
+Run the following in the command prompt:
+
+	!sudo pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install —user
+
+
+To add the nbextensions into the Jupyter servers’s search directory, tun this code
+
+	jupyter contributed nbextension install
