@@ -1,1 +1,1 @@
-content/ruby/concepts/sets/sets.md
+content/go/concepts/data-types/data-types.md
