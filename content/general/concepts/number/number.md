@@ -1,16 +1,13 @@
 ---
-Title: 'Number' 
+Title: 'Number'
 Description: 'A number is a mathematical value used to represent a quantity.'
+Subjects:
   - 'Code Foundations'
   - 'Information Technology'
-Subjects:
-  - 'Computer Science'
-  - 'Machine Learning'
-  - 'Web Development'
 Tags:
   - 'Data Types'
   - 'Information Technology'
-CatalogContent: 
+CatalogContent:
   - 'paths/computer-science'
   - 'paths/code-foundations'
 ---
