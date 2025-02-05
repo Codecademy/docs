@@ -23,7 +23,7 @@ There are two main ways to implement a hash table/associative array in JavaScrip
 
 The simplest implementation is using the `Object` data type. This is because all non-scalar objects in JavaScript behave as associative arrays, a mapping from property keys to values. So an `Object` itself can behave as a basic hash table.
 
-```javascript
+```js
 var simplehash = new Object();
 // or
 // var simplehash = {};
@@ -74,7 +74,7 @@ A `Map` object also comes with the following methods:
 
 **Note:** Key-value pairs must be set with the `set` method in order for the `Map` object to behave as expected. Using the syntax for `Object` above will appear to work, but will not associate the key-value pair to its internal collection.
 
-```javascript
+```js
 var maphash = new Map();
 
 maphash.set('key1', 'value1');
@@ -102,4 +102,31 @@ for (const [key, value] of maphash) {
 }
 // Output: key1 = new value
 //         key3 = value3
+```
+
+## Codebyte Example
+
+Run the following code to understand the concept of hash tables:
+
+```codebyte/javascript
+// Hash table implementation using an Object
+var simpleHash = {};
+
+// Adding key-value pairs
+simpleHash["name"] = "Alice";
+simpleHash["age"] = 30;
+simpleHash["profession"] = "Developer";
+
+// Retrieving and displaying values
+console.log("Name:", simpleHash["name"]);
+console.log("Age:", simpleHash["age"]);
+console.log("Profession:", simpleHash["profession"]);
+
+// Iterating through keys
+console.log("Hash table contents using Object:");
+for (var key in simpleHash) {
+  if (simpleHash.hasOwnProperty(key)) {
+    console.log(`${key}: ${simpleHash[key]}`);
+  }
+}
 ```
