@@ -1,49 +1,44 @@
 ---
 Title: '.is_nonzero()'
-Description: 'Checks if all elements of a tensor are non-zero. Returns a boolean value indicating whether the tensor contains any non-zero elements.'
+Description: 'Checks if a tensor's single element is non-zero, returning a boolean indicating whether the element is non-zero.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
+  - 'Boolean'
   - 'Data Structures'
   - 'Functions'
-  - 'Boolean'
   - 'Tensors'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.is_nonzero()`** method is used to check if a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) contains any non-zero elements. It returns a boolean value (True or False) indicating whether the tensor has at least one element that is not zero. This method is particularly useful for conditional checks or validation in tensor operations.
+In PyTorch, the **`.is_nonzero()`** method is used to check if a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) contains a non-zero element. It returns `True` if the tensor's element is non-zero and `False` if it is zero. This method is particularly useful for conditional checks or validation in tensor operations.
 
 ## Syntax
 
 ```pseudo
-Tensor.is_nonzero()
+torch.is_nonzero(input)
 ```
 
-The method takes no parameters and returns:
-
-- `True` if the tensor has exactly one element and that element is non-zero
-- `False` in all other cases (multiple elements, single zero element, or empty tensor)
+- `input`: tensor with a single element. The method checks if this single element is non-zero.
 
 ## Example
 
+This code demonstrates how PyTorch's `torch.is_nonzero()` function checks whether a tensor contains a non-zero value, returning `True` for `tensor1 (5.0)` and `False` for `tensor2 (0.0)`.
+
 ```py
 import torch
-
-# Define a tensor with non-zero elements
-tensor1 = torch.tensor([0.0, 1.0, 2.0])
-
-# Check if the tensor contains any non-zero elements
-result1 = tensor1.is_nonzero()
-print(result1)  # Output: True
-
-# Define a tensor with all zero elements
-tensor2 = torch.tensor([0.0, 0.0, 0.0])
-
-# Check if the tensor contains any non-zero elements
-result2 = tensor2.is_nonzero()
+# Define a tensor with a non-zero element
+tensor1 = torch.tensor(5.0)
+# Check if the tensor contains a non-zero element
+result1 = torch.is_nonzero(tensor1)
+print(result1)
+# Define a tensor with a zero element
+tensor2 = torch.tensor(0.0)
+# Check if the tensor contains a non-zero element
+result2 = torch.is_nonzero(tensor2)
 print(result2)
 ```
 
