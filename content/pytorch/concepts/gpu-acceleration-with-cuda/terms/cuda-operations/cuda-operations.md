@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-a-machine-learning-model'
 ---
 
-PyTorch's CUDA operations are essential for efficient GPU programming, enabling fine-grained control over GPU resources and execution flow. They help optimize memory usage, manage parallel execution streams, and coordinate CPU-GPU operations.
+PyTorch's **CUDA operations** are essential for efficient GPU programming, enabling fine-grained control over GPU resources and execution flow. They help optimize memory usage, manage parallel execution streams, and coordinate CPU-GPU operations.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ PyTorch's CUDA operations are essential for efficient GPU programming, enabling 
 torch.cuda.memory_allocated()
 ```
 
-- Returns bytes currently allocated on GPU
+- Returns the number of bytes currently allocated on the GPU
 - Essential for monitoring GPU memory usage
 
 ```pseudo
