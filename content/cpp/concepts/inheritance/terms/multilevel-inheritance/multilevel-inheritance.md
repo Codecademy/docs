@@ -2,13 +2,13 @@
 Title: 'Multilevel Inheritance'
 Description: 'Multilevel inheritance is when a derived class inherits from another derived class, forming a parent-child-grandchild class hierarchy.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'Inheritance'
-  - 'OOP'
   - 'Classes'
+  - 'Inheritance'
   - 'Objects'
+  - 'OOP'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
@@ -25,18 +25,18 @@ class BaseClass {
     // Base class members
 };
 
-class DerivedClass1 : public BaseClass {
+class DerivedClass1 : AccessSpecifier BaseClass {
     // First level derived class members
 };
 
-class DerivedClass2 : public DerivedClass1 {
+class DerivedClass2 : AccessSpecifier DerivedClass1 {
     // Second level derived class members
 };
 ```
 
 ## Example
 
-Here's an example demonstrating multilevel inheritance in C++:
+In the following example, multilevel inheritance is demonstrated where `Puppy` inherits from `Dog`, which in turn inherits from `Animal`, allowing `Puppy` to access methods from both `Dog` and `Animal`:
 
 ```cpp
 #include <iostream>
