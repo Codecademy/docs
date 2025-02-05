@@ -1,6 +1,6 @@
 ---
 Title: 'Event Loop' 
-Description: 'A brief description.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'An event loop allows Javascript to handle multiple tasks at once instead of executing one at a time.' 
 Subjects: 
   - 'Web Development'
   - 'Computer Science'
@@ -12,35 +12,24 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+Javascript is a single-threaded language meaning it can only execute one task at a time.  The **Event Loop** makes it possible for Javascript to execute multiple tasks at once.  The Event Loop is not a specific piece of Javascript code, but a runtime mechanism for asynchronous operations. 
 
-## Subsection 1
+## How the Event Loop Works
 
-[Text about subsection 1]
+Function calls form a stack of frames. Objects are allocated to a heap which is a large, unstrucutred region of memory. Functions get processed until the stack is empty.  The event loop then processes messages in the other queues.
 
-## Subsection 2
+The event loop will execute code in order starting with syncronous code first, followed by microtasks and then macrotasks. Each set of tasks has it's own queue for prioritizing execution.
 
-[Text about subsection 2]
+## Example
+The exmple below shows that even though the pieces of code look like they will execute in order, the console logs, which are syncronous code will run first and then the promise callback will run. 
 
-## Subsection n
-
-[Text about subsection n]
-
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
 
 ```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+console.log("Start");
+
+Promise.resolve().then(() => {
+    console.log("Promise callback comes after");
+});
+
+console.log("End");
 ```
