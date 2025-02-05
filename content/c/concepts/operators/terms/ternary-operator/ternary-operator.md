@@ -37,9 +37,7 @@ In this example, the ternary operator is used to determine the maximum of two nu
 int main() {
   int a = 10, b = 20;
   int max;
-
   max = (a > b) ? a : b;
-
   printf("The maximum value is: %d\n", max);
   return 0;
 }
