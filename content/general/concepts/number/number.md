@@ -14,7 +14,7 @@ CatalogContent:
 
 A **number** is a primitive data type used to represent mathematical values and is commonly used in arithmetic operations, data encoding, and other computations. Examples of numbers include _0_, _-1_, _0.3_, and other numeric values.
 
-> **Note:** In some programming languages, decimals may be treated as a separate data type, such as `float` or `double`.)
+> **Note:** In some programming languages, decimals may be treated as a separate data type, such as `float` or `double`.
 
 ## Number Systems
 
