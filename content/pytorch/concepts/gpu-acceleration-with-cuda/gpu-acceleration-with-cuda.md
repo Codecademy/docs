@@ -24,35 +24,35 @@ model.to(device)  # Move model to GPU
 tensor.to(device)  # Move tensor to GPU
 ```
 
-- `cuda:N`: Specifies GPU device number N (0-indexed)
-- `device`: Object representing the compute device (GPU/CPU)
+- `cuda:N`: Specifies GPU device number N (0-indexed).
+- `device`: Object representing the compute device (GPU/CPU).
 
 ## Memory Hierarchy
 
-- CUDA operates with distinct memory spaces: host (CPU) and device (GPU) memory
-- Data must be explicitly transferred between these spaces via CUDA memory operations
-- GPU memory types include global memory, shared memory, and registers, each with different access speeds and capacities
+- CUDA operates with distinct memory spaces: host (CPU) and device (GPU) memory.
+- Data must be explicitly transferred between these spaces via CUDA memory operations.
+- GPU memory types include global memory, shared memory, and registers, each with different access speeds and capacities.
 
 ## Parallel Processing
 
-- CUDA organizes computation into grids of thread blocks
-- Thread blocks contain multiple threads that execute in parallel
-- Warps are groups of 32 threads that execute simultaneously on NVIDIA GPUs
-- Thread synchronization and coordination are crucial for correct parallel execution
+- CUDA organizes computation into grids of thread blocks.
+- Thread blocks contain multiple threads that execute in parallel.
+- Warps are groups of 32 threads that execute simultaneously on NVIDIA GPUs.
+- Thread synchronization and coordination are crucial for correct parallel execution.
 
 ## Memory Transfer Optimization
 
-- synchronous data transfer using CUDA streams reduces overhead
-- Pinned memory enables faster CPU-GPU transfers
-- Coalesced memory access patterns improve memory bandwidth utilization
-- Memory prefetching can hide transfer latency
+- Synchronous data transfer using CUDA streams reduces overhead.
+- Pinned memory enables faster CPU-GPU transfers.
+- Coalesced memory access patterns improve memory bandwidth utilization.
+- Memory prefetching can hide transfer latency.
 
 ## Compute Architecture
 
-- Each GPU contains multiple Streaming Multiprocessors (SMs)
-- SMs manage resources like registers, shared memory, and cache
-- CUDA cores within SMs execute arithmetic operations in parallel
-- Different GPU architectures (compute capabilities) support varying features
+- Each GPU contains multiple Streaming Multiprocessors (SMs).
+- SMs manage resources like registers, shared memory, and cache.
+- CUDA cores within SMs execute arithmetic operations in parallel.
+- Different GPU architectures (compute capabilities) support varying features.
 
 ## Example
 
