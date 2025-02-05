@@ -1,6 +1,6 @@
 ---
 Title: 'Statistical Distributions'
-Description: 'Statsmodels provides tools for analyzing empirical and test-related distributions, primarily focusing on the Empirical Cumulative Distribution Function.'
+Description: 'Statsmodels provides tools for analyzing empirical and theoretical statistical distributions, including ECDF, for fitting models and performing statistical analyses.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
@@ -14,21 +14,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `statsmodels` library provides tools for working with **empirical distributions**, making it particularly useful for non-parametric data analysis. Its implementation of the **Empirical Cumulative Distribution Function** (ECDF) allows for estimating the cumulative distribution function directly from data, without assuming any specific theoretical distribution. This feature proves especially valuable for exploratory data analysis and assessing the goodness of fit.
+The `statsmodels` library provides tools for working with **empirical distributions**, making it especially useful for non-parametric data analysis. Its **Empirical Cumulative Distribution Function (ECDF)** implementation estimates the cumulative distribution directly from data, without assuming a specific theoretical distribution. This is valuable for exploratory data analysis and assessing goodness of fit
 
 ## Syntax
 
-```psuedo
+```pseudo
 from statsmodels.distributions.empirical_distribution import ECDF
 ecdf = ECDF(data, side='right')
 ```
 
 - `data`: The array-like input data points for which the empirical distribution will be calculated.
-- `side`(optional): Defines the side of the interval to include. 'right' creates right-continuous step function, 'left' creates left-continuous step function.
+- `side`(optional): Defines the side of the interval to include. The options are:
+  - 'right': Creates a right-continuous step function (default behavior).
+  - 'left': Creates a left-continuous step function.
 
 ## Example
 
-The following example demonstrates how to create an Empirical Cumulative Distribution Function (ECDF) from exponentially distributed data, visualize it using `matplotlib`, and calculate cumulative probabilities for specific values, showing how ECDF can be used for non-parametric estimation of the probability distribution.
+The following example demonstrates how to create an Empirical Cumulative Distribution Function (ECDF) from exponentially distributed data, visualize it using `matplotlib`, and calculate cumulative probabilities for specific values, showing how ECDF can be used for non-parametric estimation of the probability distribution:
 
 ```py
 import numpy as np
