@@ -344,6 +344,7 @@ Technical Interviews
 Templates
 Tensor
 TensorFlow
+Ternary
 Text-To-Image
 Text Processing
 Threads
