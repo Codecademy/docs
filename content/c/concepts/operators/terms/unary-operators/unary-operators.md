@@ -68,7 +68,7 @@ Determines the size (in bytes) of a variable or data type.
 
 ## Example
 
-In this example, various unary operators are demonstrated, such as negation, increment, decrement, bitwise operations, and the sizeof operator to show their effects on integer values:
+In this example, various unary operators are demonstrated, such as negation, increment, decrement, bitwise operations, and the `sizeof` operator to show their effects on integer values:
 
 ```c
 #include <stdio.h>
