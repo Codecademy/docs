@@ -74,20 +74,20 @@ In this example, various unary operators are demonstrated, such as negation, inc
 #include <stdio.h>
 
 int main() {
-  int a = 5;
-  int b = -a;    // Unary minus
-  int c = !a;    // Logical NOT
-  int d = ~a;    // Bitwise NOT
-  int e = ++a;   // Pre-increment
-  int f = a--;   // Post-decrement
-  int size = sizeof(a); // Sizeof operator
+  int number = 5;
+  int negation = -number;    // Unary minus
+  int logicalNot = !number;  // Logical NOT
+  int bitwiseNot = ~number;  // Bitwise NOT
+  int preIncrement = ++number;   // Pre-increment
+  int postDecrement = number--;  // Post-decrement
+  int sizeInBytes = sizeof(number); // Sizeof operator
 
-  printf("Unary minus: %d\n", b);
-  printf("Logical NOT: %d\n", c);
-  printf("Bitwise NOT: %d\n", d);
-  printf("Pre-increment: %d\n", e);
-  printf("Post-decrement: %d\n", f);
-  printf("Sizeof operator: %d\n", size);
+  printf("Unary minus: %d\n", negation);
+  printf("Logical NOT: %d\n", logicalNot);
+  printf("Bitwise NOT: %d\n", bitwiseNot);
+  printf("Pre-increment: %d\n", preIncrement);
+  printf("Post-decrement: %d\n", postDecrement);
+  printf("Sizeof operator: %d\n", sizeInBytes);
 
   return 0;
 }
