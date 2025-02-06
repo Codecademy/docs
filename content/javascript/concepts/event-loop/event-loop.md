@@ -1,6 +1,6 @@
 ---
 Title: 'Event Loop' 
-Description: 'An event loop allows Javascript to handle multiple tasks at once instead of executing one at a time.' 
+Description: 'The event loop in JavaScript manages the execution of asynchronous callbacks, allowing non-blocking operations and keeping the main thread responsive.' 
 Subjects: 
   - 'Web Development'
   - 'Computer Science'
@@ -12,19 +12,25 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-Javascript is a single-threaded language meaning it can only execute one task at a time.  The **Event Loop** makes it possible for Javascript to execute multiple tasks at once.  The Event Loop is not a specific piece of Javascript code, but a runtime mechanism for asynchronous operations. 
+JavaScript is a single-threaded language, meaning it executes one task at a time. The **Event Loop** enables JavaScript to handle asynchronous operations efficiently by managing the execution of callbacks without blocking the main thread. It is not a specific piece of JavaScript code but a runtime mechanism for scheduling tasks.
 
 ## How the Event Loop Works
 
-Function calls form a stack of frames. Objects are allocated to a heap which is a large, unstrucutred region of memory. Functions get processed until the stack is empty.  The event loop then processes messages in the other queues.
+Function calls form a call stack, where each function execution is pushed and popped in a Last In, First Out (LIFO) manner. Objects are allocated in the heap, which is a large, unstructured region of memory. The JavaScript engine processes functions until the call stack is empty, after which the event loop begins processing tasks from various queues.
 
-The event loop will execute code in order starting with syncronous code first, followed by microtasks and then macrotasks. Each set of tasks has it's own queue for prioritizing execution.
+The event loop executes code in the following order:
+
+- **Synchronous code** (executed immediately in the call stack).
+- **Microtasks** (e.g., `Promise.then()`, `MutationObserver` - executed before rendering updates).
+- **Macrotasks** (e.g., `setTimeout`, `setInterval`, `setImmediate`, I/O tasks - executed after microtasks).
+
+Each type of task has its own queue, ensuring efficient scheduling and execution.
 
 ## Example
-The exmple below shows that even though the pieces of code look like they will execute in order, the console logs, which are syncronous code will run first and then the promise callback will run. 
 
+The example below shows that even though the code appears to execute sequentially, synchronous console logs will run first. The `Promise` callback, which is an asynchronous microtask, will execute only after all synchronous code has finished running:
 
-```codebyte/js
+```js
 console.log("Start");
 
 Promise.resolve().then(() => {
@@ -32,4 +38,12 @@ Promise.resolve().then(() => {
 });
 
 console.log("End");
+```
+
+The code above generates:
+
+```shell
+Start
+End
+Promise callback comes after
 ```
