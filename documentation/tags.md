@@ -249,6 +249,7 @@ Open Source
 Operating Systems
 Operators
 Optimization
+Optimizers
 Optionals
 Output
 p5
@@ -288,6 +289,7 @@ Readr
 Rectangle
 Recursion
 Redux
+RMSProp
 References
 Regular Expressions
 Requests
@@ -325,6 +327,7 @@ Stringr
 Strings
 Structure
 Style
+Stochastic Gradient Descent
 Subqueries
 Supervised Learning
 Swift
@@ -341,6 +344,7 @@ Technical Interviews
 Templates
 Tensor
 TensorFlow
+Ternary
 Text-To-Image
 Text Processing
 Threads
