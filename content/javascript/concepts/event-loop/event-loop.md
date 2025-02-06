@@ -14,15 +14,15 @@ CatalogContent:
 
 JavaScript is a single-threaded language, meaning it executes one task at a time. The **Event Loop** enables JavaScript to handle asynchronous operations efficiently by managing the execution of callbacks without blocking the main thread. It is not a specific piece of JavaScript code but a runtime mechanism for scheduling tasks.
 
-## How the Event Loop Works
+## Working of the Event Loop
 
 Function calls form a call stack, where each function execution is pushed and popped in a Last In, First Out (LIFO) manner. Objects are allocated in the heap, which is a large, unstructured region of memory. The JavaScript engine processes functions until the call stack is empty, after which the event loop begins processing tasks from various queues.
 
 The event loop executes code in the following order:
 
 - **Synchronous code** (executed immediately in the call stack).
-- **Microtasks** (e.g., `Promise.then()`, `MutationObserver` - executed before rendering updates).
-- **Macrotasks** (e.g., `setTimeout`, `setInterval`, `setImmediate`, I/O tasks - executed after microtasks).
+- **Microtasks** (e.g., [`Promise.then()`](https://www.codecademy.com/resources/docs/javascript/promise/then), `MutationObserver` - executed before rendering updates).
+- **Macrotasks** (e.g., [`setTimeout`](https://www.codecademy.com/resources/docs/javascript/window/setTimeout), [`setInterval`](https://www.codecademy.com/resources/docs/javascript/window/setInterval), `setImmediate`, I/O tasks - executed after microtasks).
 
 Each type of task has its own queue, ensuring efficient scheduling and execution.
 
