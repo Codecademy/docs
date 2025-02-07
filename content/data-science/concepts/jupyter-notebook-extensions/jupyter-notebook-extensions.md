@@ -1,43 +1,48 @@
 ---
 Title: 'Jupyter Notebook Extension'
-
-Description: 'Jupyter contributed notebook extensions are community-contributed and maintained plug-ins to the Jupyter notebook.'
-
+Description: 'Jupyter Notebook extensions are community-developed plugins that enhance the functionality, customization, and usability of Jupyter Notebooks.'
 Subjects:
     - 'Data Visualization'
     - 'Machine Learning'
-
 CatalogContent:
     - 'paths/machine-learning-engineer'
     - 'paths/visualize-data-with-python'
-
 ---
 
+**Jupyter Notebook extensions** are add-ons that enhance the functionality of the Jupyter Notebook interface. They allow users to customize and improve their experience by adding various features.
 
-### What are Jupyter Notebook Extensions? ###
-They are used to add functionalities to Jupyter Notebook interface. It is used to customize and improve ones Jupyter Notebook Experience.
+## Examples of Jupyter Notebook Extensions
 
-Examples of Jupyter Extensions
+1. **Code Folding**: The `jupyter_fold` extension helps users focus on specific sections by enabling code cells to be folded and unfolded.
+2. **Spellchecking**: The `spellchecker` extension highlights misspelt words in both code and Markdown cells.
+3. **Table of contents**: The `toc` extension automatically generates a table of contents based on Markdown headers, improving navigation within a notebook.
 
-1. Code Folding 
+## Installing Jupyter Notebook extensions
 
-	Jupyter_fold aids in focusing on specific parts by allowing Jupyter      	notebook user to fold and unfold code cells
-2.  Spellchecking
-		
-	 Spellchecker highlights misspelled words in code and markdown 		 cells.
- 3. Table of contents
+The Jupyter Notebook extensions are available through the open-source package `jupyter_contrib_nbextensions`. This Python package provides several unofficial extensions designed to enhance Jupyter Notebook’s capabilities.
 
-	The ‘toc’ extensions help Jupyter Notebook users to generate table 		of contents based on markdown headers
+To install it, run the following command:
 
-Installing Jupyter Notebook extensions
+```shell
+pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install --user
+```
 
-The mentioned extensions above and many more are available through open source package ‘jupyter_contrib_nbextensions’.  It is a python package that contains several unofficial extensions provided through open source to improve Jupyter Notebook capabilities.
+To add the `nbextensions` to the Jupyter server’s search directory, use:
 
-Run the following in the command prompt:
+```shell
+jupyter contrib nbextension install
+```
 
-	!sudo pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install —user
+## Enabling/Disabling Extensions
 
+After installation, users need to enable specific extensions like this:
 
-To add the nbextensions into the Jupyter servers’s search directory, tun this code
+```pseudo
+jupyter nbextension enable <extension-name>
+```
 
-	jupyter contributed nbextension install
+And to disable:
+
+```pseudo
+jupyter nbextension disable <extension-name>
+```
