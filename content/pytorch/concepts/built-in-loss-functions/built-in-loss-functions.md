@@ -241,9 +241,9 @@ tensor(0.0215)
 
 ## Choosing the Right Loss Function
 
-When selecting a loss function for your model, it is essential to consider the task you're working on.
+When selecting a loss function for a model, it is essential to consider the task at hand.
 
-Here’s a quick guide:
+Here’s a quick guide to choosing the right loss function for a model:
 
 - **Regression**: Use `MSELoss` or `SmoothL1Loss`.
 - **Binary Classification**: Use `BCEWithLogitsLoss`.
