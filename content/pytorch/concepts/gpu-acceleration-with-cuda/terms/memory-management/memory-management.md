@@ -27,19 +27,19 @@ torch.cuda.empty_cache()
 
 ### Memory Monitoring Methods
 
-- `.memory_allocated()`: Returns current GPU memory in use by tensors in bytes.
+- `.memory_allocated()`: Returns current memory used by tensors (in bytes).
 
 ```pseudo
 torch.cuda.memory_allocated()
 ```
 
-- `.memory_reserved()`: Returns total GPU memory managed by PyTorch (allocated + cached) in bytes.
+- `.memory_reserved()`: Returns total memory allocated by PyTorch (includes allocated + cached memory).
 
 ```pseudo
 torch.cuda.memory_reserved()
 ```
 
-- `.max_memory_allocated()`: Returns maximum GPU memory allocated since start/last reset.
+- `.max_memory_allocated()`: Returns the peak GPU memory usage since the start of the program or last reset.
 
 ```pseudo
 torch.cuda.max_memory_allocated()
@@ -51,7 +51,7 @@ torch.cuda.max_memory_allocated()
 torch.cuda.reset_peak_memory_stats()
 ```
 
-### Memory Limit Methods
+### Memory Limiting Methods
 
 - `.set_per_process_memory_fraction()`: Limits PyTorch to use only specified fraction of GPU memory.
 
@@ -73,7 +73,7 @@ torch.cuda.get_device_properties(device).total_memory
 tensor.pin_memory()
 ```
 
-- `.zero_grad()`: Efficiently clears gradients by setting to None instead of zero.
+- `.zero_grad()`: Efficiently clears gradients by setting to `None` instead of zero.
 
 ```pseudo
 model.zero_grad(set_to_none=True)
