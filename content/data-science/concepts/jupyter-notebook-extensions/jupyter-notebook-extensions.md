@@ -2,11 +2,11 @@
 Title: 'Jupyter Notebook Extension'
 Description: 'Jupyter Notebook extensions are community-developed plugins that enhance the functionality, customization, and usability of Jupyter Notebooks.'
 Subjects:
-    - 'Data Visualization'
-    - 'Machine Learning'
+  - 'Data Visualization'
+  - 'Machine Learning'
 CatalogContent:
-    - 'paths/machine-learning-engineer'
-    - 'paths/visualize-data-with-python'
+  - 'paths/machine-learning-engineer'
+  - 'paths/visualize-data-with-python'
 ---
 
 **Jupyter Notebook extensions** are add-ons that enhance the functionality of the Jupyter Notebook interface. They allow users to customize and improve their experience by adding various features.
