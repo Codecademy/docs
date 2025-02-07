@@ -17,9 +17,9 @@ In PyTorch, [loss functions](https://www.codecademy.com/resources/docs/pytorch/n
 
 ## Types of built-in loss functions
 
-PyTorch provides a variety of loss functions, each serving different purposes, depending on the type of task (e.g., regression, classification) at hand.
+PyTorch provides various loss functions, each serving a different purpose depending on the task (e.g., regression, classification) at hand.
 
-### 1. Mean Squared Error Loss (MSELoss)
+### 1. Mean Squared Error Loss (`MSELoss`)
 
 For regression problems, Mean Squared Error (MSE) is one of the most commonly used loss functions. It calculates the square of the difference between predicted and actual values, averaging the result over all samples.
 
@@ -44,23 +44,27 @@ loss_fn = nn.MSELoss()
 predictions = torch.tensor([2.0, 3.0, 4.0])
 targets = torch.tensor([2.5, 3.5, 4.5])
 loss = loss_fn(predictions, targets)
-print(loss)  # Output: tensor(0.0833)
+print(loss)
 ```
 
-### 2. Cross-Entropy Loss (CrossEntropyLoss)
+The output will be:
 
-For classification tasks, `CrossEntropyLoss` is used to measure the performance of a classification model. It compares the predicted class probabilities with the actual class labels. PyTorch combines `log_softmax` and `nll_loss` in this function for numerical stability.
+```shell
+tensor(0.2500)
+```
+
+### 2. Cross-Entropy Loss (`CrossEntropyLoss`)
+
+For classification tasks, `CrossEntropyLoss` measures the performance of a classification model. It compares the predicted class probabilities with the actual class labels. PyTorch combines `log_softmax` and `nll_loss` in this function for numerical stability.
 
 The syntax is as follows:
 
 ```pseudo
-torch.nn.CrossEntropyLoss(weight=None, size_average=None, ignore_index=-100, reduce=None, reduction='mean')
+torch.nn.CrossEntropyLoss(weight=None, ignore_index=-100, reduction='mean')
 ```
 
 - `weight` (Tensor, optional): A manual rescaling weight given to each class. It has to be a tensor of size `C` where `C` is the number of classes. Default is `None`, meaning no rescaling.
-- `size_average` (bool, optional): Deprecated (use `reduction` instead). If `True`, the loss is averaged over observations for each mini-batch. Default is `True`.
 - `ignore_index` (int, optional): Specifies a target value that is ignored and does not contribute to the loss calculation.
-- `reduce` (bool, optional): Deprecated (use `reduction` instead). If `True`, it sums the losses across the batch. Default is `True`.
 - `reduction` (str, default='mean'): Specifies the reduction method to apply:
   - `'mean'`: The mean loss across the batch.
   - `'sum'`: The sum of the loss across the batch.
@@ -76,22 +80,26 @@ loss_fn = nn.CrossEntropyLoss()
 logits = torch.tensor([[1.0, 2.0, 3.0], [1.0, 2.0, 3.0]])
 labels = torch.tensor([2, 0])
 loss = loss_fn(logits, labels)
-print(loss)  # Output: tensor(0.4076)
+print(loss)
+```
+
+The output will be:
+
+```shell
+tensor(1.4076)
 ```
 
 ### 3. Binary Cross-Entropy Loss (`BCEWithLogitsLoss`)
 
-For binary classification tasks, the `BCEWithLogitsLoss` loss function is commonly used. It calculates the cross-entropy between the target labels and predictions. This loss function is suitable for tasks where there are two possible classes, typically 0 and 1.
+The `BCEWithLogitsLoss` loss function is commonly used for binary classification tasks. It calculates the cross-entropy between the target labels and predictions. This loss function is suitable for tasks where there are two possible classes, typically 0 and 1.
 
 The syntax is as follows:
 
 ```pseudo
-torch.nn.BCEWithLogitsLoss(weight=None, size_average=None, reduce=None, reduction='mean')
+torch.nn.BCEWithLogitsLoss(weight=None, reduction='mean')
 ```
 
 - `weight` (Tensor, optional): A manual rescaling weight given to each class. Default is `None`.
-- `size_average` (bool, optional): Deprecated (use `reduction` instead). If `True`, the loss is averaged. Default is `True`.
-- `reduce` (bool, optional): Deprecated (use `reduction` instead). If `True`, it sums the losses. Default is `True`.
 - `reduction` (str, default='mean'): Specifies the `reduction` method to apply:
   - `'mean'`: The mean loss across the batch.
   - `'sum'`: The sum of the loss across the batch.
@@ -108,21 +116,25 @@ loss_fn = nn.BCEWithLogitsLoss()
 logits = torch.tensor([0.5, -1.5, 2.0])
 labels = torch.tensor([1.0, 0.0, 1.0])
 loss = loss_fn(logits, labels)
-print(loss)  # Output: tensor(0.4891)
+print(loss)
+```
+
+The output will be:
+
+```shell
+tensor(0.2675)
 ```
 
 ### 4. Huber Loss (`SmoothL1Loss`)
 
-The Huber Loss function is less sensitive to outliers than `MSELoss`. It combines the properties of both MSE and Mean Absolute Error (MAE) and is less prone to large gradient changes when compared to MSE.
+The **Huber Loss function** is less sensitive to outliers than `MSELoss`. It combines the properties of MSE and Mean Absolute Error (MAE) and is less prone to large gradient changes than MSE.
 
 The syntax is as follows:
 
 ```pseudo
-torch.nn.SmoothL1Loss(size_average=None, reduce=None, reduction='mean')
+torch.nn.SmoothL1Loss(reduction='mean')
 ```
 
-- `size_average` (bool, optional): Deprecated (use `reduction` instead). If `True`, the loss is averaged. Default is `True`.
-- `reduce` (bool, optional): Deprecated (use `reduction` instead). If `True`, it sums the losses. Default is `True`.
 - `reduction` (str, default='mean'): Specifies the `reduction` method to apply:
   - `'mean'`: The mean loss across the batch.
   - `'sum'`: The sum of the loss across the batch.
@@ -139,22 +151,26 @@ loss_fn = nn.SmoothL1Loss()
 predictions = torch.tensor([2.0, 3.0, 4.0])
 targets = torch.tensor([2.5, 3.5, 4.5])
 loss = loss_fn(predictions, targets)
-print(loss)  # Output: tensor(0.1250)
+print(loss)
+```
+
+The output will be:
+
+```shell
+tensor(0.1250)
 ```
 
 ### 5. Cosine Similarity Loss (`CosineEmbeddingLoss`)
 
-Cosine similarity measures the cosine of the angle between two vectors. This loss function is useful in tasks like measuring the similarity between two vectors, such as in information retrieval or recommendation systems.
+**Cosine similarity** measures the cosine of the angle between two vectors. This loss function is useful in tasks like measuring the similarity between two vectors, such as in information retrieval or recommendation systems.
 
 The syntax is as follows:
 
 ```pseudo
-torch.nn.CosineEmbeddingLoss(margin=0.0, size_average=None, reduce=None, reduction='mean')
+torch.nn.CosineEmbeddingLoss(margin=0.0, reduction='mean')
 ```
 
 - `margin` (float, default=0.0): The margin by which the cosine similarity should be greater than or less than. If `target` is 1, the cosine similarity should be greater than `1 - margin`; if `target` is -1, the cosine similarity should be less than `-1 + margin`.
-- `size_average` (bool, optional): Deprecated (use `reduction` instead). If `True`, the loss is averaged. Default is `True`.
-- `reduce` (bool, optional): Deprecated (use `reduction` instead). If `True`, it sums the losses. Default is `True`.
 - `reduction` (str, default='mean'): Specifies the reduction method to apply:
   - `'mean'`: The mean loss across the batch.
   - `'sum'`: The sum of the loss across the batch.
@@ -166,27 +182,30 @@ Here's an example that shows how to use `CosineEmbeddingLoss`:
 import torch
 import torch.nn as nn
 
-# Example of CosineEmbeddingLoss
 loss_fn = nn.CosineEmbeddingLoss()
-input1 = torch.tensor([1.0, 0.0])
-input2 = torch.tensor([0.0, 1.0])
-target = torch.tensor([1])  # 1 means the inputs should be similar
+input1 = torch.tensor([[1.0, 0.0]])
+input2 = torch.tensor([[0.0, 1.0]])
+target = torch.tensor([1])  # Expecting inputs to be similar
 loss = loss_fn(input1, input2, target)
-print(loss)  # Output: tensor(2.0)
+print(loss)
+```
+
+The output will be:
+
+```shell
+tensor(1.)
 ```
 
 ### 6. Kullback-Leibler Divergence (`KLDivLoss`)
 
-KL Divergence is a measure of how one probability distribution diverges from a second, expected probability distribution. It is widely used in tasks such as variational autoencoders (VAEs) and generative models.
+**KL Divergence** measures how one probability distribution diverges from a second, expected probability distribution. It is widely used in tasks such as variational autoencoders (VAEs) and generative models.
 
 The syntax is as follows:
 
 ```pseudo
-torch.nn.KLDivLoss(size_average=None, reduce=None, reduction='mean')
+torch.nn.KLDivLoss(reduction='mean')
 ```
 
-- `size_average` (bool, optional): Deprecated (use `reduction` instead). If `True`, the loss is averaged. Default is `True`.
-- `reduce` (bool, optional): Deprecated (use `reduction` instead). If `True`, it sums the losses. Default is `True`.
 - `reduction` (str, default='mean'): Specifies the `reduction` method to apply:
   - `'mean'`: The mean loss across the batch.
   - `'sum'`: The sum of the loss across the batch.
@@ -198,12 +217,26 @@ Here's an example that shows how to use `KLDivLoss`:
 import torch
 import torch.nn as nn
 
-# Example of KLDivLoss
+# Define KLDivLoss with batchmean reduction
 loss_fn = nn.KLDivLoss(reduction='batchmean')
-input = torch.tensor([[0.0, 0.1, 0.2], [0.1, 0.0, 0.3]])
-target = torch.tensor([[0.0, 0.1, 0.3], [0.1, 0.2, 0.2]])
-loss = loss_fn(input.log(), target)
-print(loss)  # Output: tensor(0.0237)
+
+# Define input logits (must be log probabilities)
+input_probs = torch.tensor([[0.4, 0.6], [0.3, 0.7]], dtype=torch.float32)
+input_log_probs = input_probs.log()  # Convert probabilities to log probabilities
+
+# Define target distribution (must be a valid probability distribution)
+target_probs = torch.tensor([[0.5, 0.5], [0.4, 0.6]], dtype=torch.float32)
+
+# Compute loss
+loss = loss_fn(input_log_probs, target_probs)
+
+print(loss)  # Expected output: A small positive tensor value indicating divergence
+```
+
+The output will be:
+
+```shell
+tensor(0.0215)
 ```
 
 ## Choosing the Right Loss Function
