@@ -1,6 +1,6 @@
 ---
-Title: 'C++ Inheritance: Hierarchical Inheritance'
-Description: 'Hierarchical Inheritance in C++ is a type of inheritance where multiple derived classes inherit from a single base class'
+Title: 'Hierarchical Inheritance'
+Description: 'A type of inheritance where multiple derived classes inherit from a single base class, sharing its properties and methods.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,27 +13,29 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Hierarchical Inheritance in C++** is a type of inheritance where multiple derived classes inherit from a single base class. Thus this means that one parent (base) class has multiple child (derived) classes.
+**Hierarchical Inheritance** in C++ is a type of inheritance where multiple derived classes inherit from a single base class, meaning one parent class has multiple child classes. This allows for code reusability, as common properties and methods in the base class can be shared across different derived classes.
 
 ## Syntax
 
-You can use the following syntax to achieve Hierarchical Inheritance in C++:
+The following syntax can be used to achieve Hierarchical Inheritance in C++:
 
 ```pseudo
-class base_class {
+class BaseClass {
+    // Base class members (properties and methods)
+};
 
-}
+class DerivedClass1 : accessSpecifier BaseClass {
+    // Derived class 1 members
+};
 
-class first_derived_class: public base_class {
-
-}
-
-class second_derived_class: public base_class {
-    
-}
+class DerivedClass2 : accessSpecifier BaseClass {
+    // Derived class 2 members
+};
 ```
 
 ## Example
+
+The following example demonstrates hierarchical inheritance in C++:
 
 ```cpp
 // C++ program to demonstrate hierarchical inheritance
@@ -94,4 +96,51 @@ This animal eats food.
 Cat meows.
 ```
 
-Here, the base class `Animal` has a function `eat()`. The `Dog` class and `Cat` class both inherit from `Animal`. Objects of both derived classes (`Dog` and `Cat`)  can access the `eat()` function from the base class. Each derived class has its own unique function (`bark()` for `Dog` and `meow()` for `Cat`).
+In this example, the base class `Animal` has a function `eat()`. The derived classes `Dog` and `Cat` inherit from `Animal`, allowing them to access the `eat()` function. Each derived class also has its own unique function: `bark()` for `Dog` and `meow()` for `Cat`.
+
+
+## Codebyte Example
+
+Run the following codebyte example to understand how Hierarchical Inheritance works in C++:
+
+```codebyte/cpp
+#include <iostream>
+
+using namespace std;
+
+// Base class
+class Vehicle {
+public:
+    void startEngine() {
+        cout << "Engine started." << endl;
+    }
+};
+
+// Derived class 1
+class Car : public Vehicle {
+public:
+    void playMusic() {
+        cout << "Playing music in the car." << endl;
+    }
+};
+
+// Derived class 2
+class Bike : public Vehicle {
+public:
+    void kickStart() {
+        cout << "Bike started with a kick." << endl;
+    }
+};
+
+int main() {
+    Car myCar;
+    myCar.startEngine();  // Inherited from Vehicle
+    myCar.playMusic();    // Car-specific function
+
+    Bike myBike;
+    myBike.startEngine(); // Inherited from Vehicle
+    myBike.kickStart();   // Bike-specific function
+
+    return 0;
+};
+```
