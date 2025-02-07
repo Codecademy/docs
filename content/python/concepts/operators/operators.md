@@ -74,9 +74,9 @@ The following code demonstrates how to use assignment operators in Python:
 ```py
 x = 5 # Assign | Output: x = 5
 x += 2 # Increment and Assign | Output: x = 7
-x -= 2 # Decrement and Assign | Output: x = 5
+x -= 2 # Decrement and Assign | Output: x = 3
 x *= 2 # Multiply and Assign | Output: x = 10
-x /= 2 # Divide and Assign | Output: x = 5
+x /= 2 # Divide and Assign | Output: x = 2.5
 x %= 2 # Modulus and Assign | Output: x = 1
 ```
 
