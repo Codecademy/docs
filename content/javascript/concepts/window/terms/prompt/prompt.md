@@ -1,19 +1,19 @@
 ---
 Title: 'prompt()'
-Description: 'Displays a dialog box to accept user input.'
+Description: 'Displays a dialog with an optional message asking users to input some text.'
 Subjects:
+  - 'Computer Science'
   - 'Web Development'
-  - 'JavaScript'
 Tags:
-  - 'Browser'
-  - 'User Input'
-  - 'Dialog Box'
+  - 'Arguments'
+  - 'Functions'
+  - 'Parameters'
 CatalogContent:
-  - 'learn-javascript'
-  - 'paths/full-stack-engineer-career-path'
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-The **`prompt()`** function is a built-in method in JavaScript that displays a dialog box to accept user input. It is part of the Web API provided by the browser's Window object and pauses JavaScript execution until the user responds.
+The **`prompt()`** function is a built-in JavaScript method that displays a modal dialog box prompting the user for input. It is part of the Web API, provided by the browser's `window` object, and pauses script execution until the user responds. The function returns the user's input as a string or `null` if the user cancels the dialog.
 
 ## Syntax
 
@@ -21,15 +21,20 @@ The `prompt()` function accepts two parameters and returns a string or null:
 
 ```js
 prompt(message)
+```
+
+or, alternatively
+
+```pseudo
 prompt(message, defaultValue)
 ```
 
 - `message`: A string that will be displayed in the dialog box.
-- `defaultValue`: (Optional) A string to pre-populate the input field.
+- `defaultValue` (Optional): A default value pre-filled in the input field.
 
 The function returns:
-- A string containing the text entered by the user if OK is clicked
-- `null` if Cancel is clicked or the dialog is dismissed
+- The user’s input as a string.
+- `Null` if the user clicks "Cancel" or closes the dialog.
 
 ## Example
 
