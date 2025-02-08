@@ -29,7 +29,7 @@ torch.optim.Adam(params, lr=0.001, betas=(0.9, 0.999), eps=1e-8, weight_decay=0,
 - `weight_decay` (Optional): The L2 regularization factor (default is `0`).
 - `amsgrad` (Optional): If `True`, uses the AMSGrad variant of the Adam optimizer (default is `False`).
 
-> **Note:** The ellipsis (`...`) indicates that there can be additional optional parameters beyond those listed here.
+> **Note:** The ellipsis (`...`) indicates that there can be additional optional parameters beyond those listed here, depending on specific use cases.
 
 ## Example
 
