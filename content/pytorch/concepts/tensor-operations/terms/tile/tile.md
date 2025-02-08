@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.tile()`** function creates a new [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) by repeating the elements in the given tensor. This function is part of the `torch` module.
+In PyTorch, the **`torch.tile()`** function generates a new [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) by repeating the elements of an existing tensor along specified dimensions. This function is available in the torch module and allows element-wise repetition along multiple dimensions.
 
 ## Syntax
 
