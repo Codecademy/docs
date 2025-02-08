@@ -31,14 +31,13 @@ The following example demonstrates the usage of the `.is_tensor()` function:
 ```py
 import torch
 
-# Define an object
-obj = torch.tensor([11, 22, 33, 44, 55])
+# Define objects
+tensor_obj = torch.tensor([11, 22, 33, 44, 55])  # Tensor object
+list_obj = [11, 22, 33, 44, 55]  # Non-tensor object
 
-# Check if the given object is a PyTorch tensor
-res = torch.is_tensor(obj)
-
-# Print the result
-print(res)
+# Check if the objects are PyTorch tensors
+print(torch.is_tensor(tensor_obj))  # True
+print(torch.is_tensor(list_obj))    # False
 ```
 
 The above code produces the following output:
