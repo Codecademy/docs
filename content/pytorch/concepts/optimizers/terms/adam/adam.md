@@ -1,6 +1,6 @@
 ---
 Title: 'Adam'
-Description: 'Adam (Adaptive Moment Estimation) is a well-known optimization algorithm used to train neural networks in PyTorch.'
+Description: 'Adam (Adaptive Moment Estimation) is an optimization algorithm designed to train neural networks efficiently by combining elements of AdaGrad and RMSProp.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
