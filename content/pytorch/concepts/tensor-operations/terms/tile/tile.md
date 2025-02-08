@@ -23,7 +23,7 @@ torch.tile(input, dims)
 ```
 
 - `input`: The input tensor to be repeated.
-- `dims`: A tuple specifying the number of times the tensor is to be repeated along each dimension.
+- `dims`: A tuple specifying the number of times the tensor is to be repeated along each dimension. The length of `dims` must match the number of dimensions in `input`.
 
 ## Example
 
