@@ -21,15 +21,15 @@ The following syntax can be used to achieve Hierarchical Inheritance in C++:
 
 ```pseudo
 class BaseClass {
-    // Base class members (properties and methods)
+  // Base class members (properties and methods)
 };
 
 class DerivedClass1 : accessSpecifier BaseClass {
-    // Derived class 1 members
+  // Derived class 1 members
 };
 
 class DerivedClass2 : accessSpecifier BaseClass {
-    // Derived class 2 members
+  // Derived class 2 members
 };
 ```
 
@@ -97,7 +97,6 @@ Cat meows.
 ```
 
 In this example, the base class `Animal` has a function `eat()`. The derived classes `Dog` and `Cat` inherit from `Animal`, allowing them to access the `eat()` function. Each derived class also has its own unique function: `bark()` for `Dog` and `meow()` for `Cat`.
-
 
 ## Codebyte Example
 
