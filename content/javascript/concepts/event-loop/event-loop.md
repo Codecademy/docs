@@ -1,13 +1,13 @@
 ---
-Title: 'Event Loop' 
-Description: 'The event loop in JavaScript manages the execution of asynchronous callbacks, allowing non-blocking operations and keeping the main thread responsive.' 
-Subjects: 
+Title: 'Event Loop'
+Description: 'The event loop in JavaScript manages the execution of asynchronous callbacks, allowing non-blocking operations and keeping the main thread responsive.'
+Subjects:
   - 'Web Development'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Events'
   - 'Loops'
-CatalogContent: 
+CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/create-a-back-end-app-with-javascript'
 ---
@@ -31,13 +31,13 @@ Each type of task has its own queue, ensuring efficient scheduling and execution
 The example below shows that even though the code appears to execute sequentially, synchronous console logs will run first. The `Promise` callback, which is an asynchronous microtask, will execute only after all synchronous code has finished running:
 
 ```js
-console.log("Start");
+console.log('Start');
 
 Promise.resolve().then(() => {
-    console.log("Promise callback comes after");
+  console.log('Promise callback comes after');
 });
 
-console.log("End");
+console.log('End');
 ```
 
 The code above generates:
