@@ -7,6 +7,7 @@ Feel free to add suggestions for new tags to the list as part of your PR! Be sur
 ```
 Abstraction
 Accessibility
+Access Modifiers
 Aggregate Functions
 AI
 Algorithms
@@ -86,6 +87,7 @@ Cybersecurity
 D3
 Dart
 Data
+Data Parallelism
 Data Structures
 Data Types
 Database
@@ -247,6 +249,7 @@ Open Source
 Operating Systems
 Operators
 Optimization
+Optimizers
 Optionals
 Output
 p5
@@ -286,6 +289,7 @@ Readr
 Rectangle
 Recursion
 Redux
+RMSProp
 References
 Regular Expressions
 Requests
@@ -318,10 +322,12 @@ Static Site
 Statistics
 Statsmodels
 Storage
+Strict Mode
 Stringr
 Strings
 Structure
 Style
+Stochastic Gradient Descent
 Subqueries
 Supervised Learning
 Swift
@@ -336,7 +342,9 @@ Tags
 Target
 Technical Interviews
 Templates
+Tensor
 TensorFlow
+Ternary
 Text-To-Image
 Text Processing
 Threads
