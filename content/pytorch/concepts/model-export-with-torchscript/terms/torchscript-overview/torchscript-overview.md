@@ -1,0 +1,109 @@
+---
+Title: 'TorchScript Overview'
+Description: 'Way to serialize and optimize PyTorch models for production deployment, enabling model execution in high-performance environments without Python dependencies.'
+Subjects:
+  - 'Machine Learning'
+  - 'AI'
+Tags:
+  - 'PyTorch'
+  - 'Batch Processing'
+  - 'DataLoader'
+  - 'Neural Networks'
+CatalogContent:
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/build-a-machine-learning-model'
+---
+
+**TorchScript** provides a transition between eager mode PyTorch development and production deployment by creating serializable and optimizable models. It converts Python code into a statically typed subset that can be saved and loaded in C++ environments. TorchScript supports both automatic conversion (torch.jit.script) and manual annotation (torch.jit.trace) approaches, allowing for flexible model optimization and deployment strategies.
+
+## Syntax
+
+Below is the general syntax for setting up a `DataLoader`:
+
+```pseudo
+# Scripting
+scripted_model = torch.jit.script(model, method_name=None)
+```
+
+- `model`: The PyTorch model/function to be scripted.
+- `method_name`: Optional string specifying which method to script (default: `forward`).
+
+```pseudo
+# Tracing
+traced_model = torch.jit.trace(func, example_inputs, optimize=True, strict=True)
+```
+
+- `func`: The PyTorch model/function to be traced.
+- `example_inputs`: Example inputs that the model will be traced with.
+- `optimize`: Boolean to enable/disable optimizations (default: `True`).
+- `strict`: Boolean to enable/disable strict checking (default: `True`).
+
+```pseudo
+# Save
+scripted_model.save(f, _extra_files=None)
+```
+
+- `f`: File object or string containing a file name.
+- `_extra_files`: Dictionary of filename to content to save in the archive.
+
+```pseudo
+# Load
+loaded_model = torch.jit.load(f, map_location=None, _extra_files=None)
+```
+
+- `f`: File object containing a TorchScript model.
+- `map_location`: Location to load model (cpu/cuda).
+- `_extra_files`: Dictionary to store deserialized extra files.
+
+## Example
+
+This example demonstrates creating a simple neural network, converting it to TorchScript using both scripting and tracing methods, comparing their outputs, and saving the models for deployment, showcasing the basic TorchScript workflow:
+
+```py
+import torch
+import torch.nn as nn
+
+# Define a simple model
+class SimpleModel(nn.Module):
+  def __init__(self):
+    super().__init__()
+    self.fc = nn.Linear(10, 1)
+
+  def forward(self, x):
+    return torch.relu(self.fc(x))
+
+# Create model and example input
+model = SimpleModel()
+example_input = torch.randn(5, 10)
+
+# Convert to TorchScript using both methods
+scripted_model = torch.jit.script(model)
+traced_model = torch.jit.trace(model, example_input)
+
+# Test both models
+with torch.no_grad():
+  script_output = scripted_model(example_input)
+  trace_output = traced_model(example_input)
+
+# Print model code and results
+print("Scripted Model Code:\n", scripted_model.code)
+print("\nOutputs equal:", torch.allclose(script_output, trace_output))
+
+# Save models
+scripted_model.save("scripted_model.pt")
+traced_model.save("traced_model.pt")
+```
+
+The output of the above code will be:
+
+```shell
+ def forward(self,
+    x: Tensor) -> Tensor:
+  fc = self.fc
+  return torch.relu((fc).forward(x, ))
+
+
+Outputs equal: True
+```
+
+This indicates that the outputs from both the scripted and traced versions of the model are numerically equal.
