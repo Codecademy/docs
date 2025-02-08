@@ -22,6 +22,8 @@ Linux operates on a kernel-based architecture where the kernel manages hardware 
 
 ## Architecture of Linux
 
+![Linux Architecture](https://raw.githubusercontent.com/Codecademy/docs/main/media/general-linux.png)
+
 - Hardware Layer (Core)
 
   - Physical components like CPU, memory, storage devices
