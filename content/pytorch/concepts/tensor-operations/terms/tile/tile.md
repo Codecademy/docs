@@ -19,7 +19,7 @@ In PyTorch, the **`torch.tile()`** function generates a new [tensor](https://www
 ## Syntax
 
 ```pseudo
-torch.tile(ten, dims)
+torch.tile(input, dims)
 ```
 
 - `input`: The input tensor to be repeated.
