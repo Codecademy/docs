@@ -1,6 +1,6 @@
 ---
 Title: '.tile()'
-Description: 'Creates a new tensor by repeating the elements in the given tensor.'
+Description: 'Creates a new tensor by repeating the elements of an existing tensor along specified dimensions.'
 Subjects:
   - 'AI'
   - 'Data Science'
