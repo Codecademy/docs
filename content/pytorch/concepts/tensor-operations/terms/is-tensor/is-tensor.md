@@ -19,7 +19,7 @@ In PyTorch, the **`.is_tensor()`** function checks if the given object is a PyTo
 ## Syntax
 
 ```pseudo
-torch.is_tensor(obj, /)
+torch.is_tensor(obj)
 ```
 
 - `obj`: The input object to be tested.
