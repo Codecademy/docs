@@ -1,6 +1,6 @@
 ---
 Title: 'sizeof()'
-Description: 'Returns an integer representing the memory size of a data type or variable in bytes.'
+Description: 'Determines the memory size (in bytes) of a given data type or variable and returns it as an integer.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
