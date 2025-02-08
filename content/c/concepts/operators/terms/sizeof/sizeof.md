@@ -36,7 +36,7 @@ int main() {
   int res = sizeof(int);
 
   // Print the result
-  printf("%d bytes", res);
+  printf("Size of int: %d bytes\n", res);
 
   return 0;
 }
