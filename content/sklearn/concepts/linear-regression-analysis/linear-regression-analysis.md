@@ -22,12 +22,11 @@ $$
 Y = \beta_0 + \beta_1 X + \epsilon
 $$
 
-- `Y`: `Y` is the dependent variable which is to be predicted.
-- `beta_0`: It represents the predicted value of `Y`
-  when `X` has no effect.
-- `beta_1`: It is the coefficient that measures relationship between variable `X` and `Y`.
-- `X`: `X` is the independent variable that is used to predict `Y`.
-- `epsilon`: It is used to calculate the difference between the `observed` and `predicted` values of `Y`.
+- **Y**: The dependent variable to be predicted.
+- **β₀**: The intercept represents Y's predicted value when X has no effect.
+- **β₁**: The coefficient measures the relationship between X and Y.
+- **X**: The independent variable used to predict Y.
+- **ε**: The error term representing the difference between the observed and predicted values of Y.
 
 ## Syntax
 
@@ -93,8 +92,7 @@ Coefficient (β₁): 1.0
 Predictions: [1. 2. 3. 4. 5.]
 ```
 
-![A scatter plot showing the data points (red dots) and the corresponding regression line (green) representing the simple linear regression model.]
-(https://raw.githubusercontent.com/Codecademy/docs/main/media/linear-regressin-analysis.png)
+![A scatter plot showing the data points (red dots) and the corresponding regression line (green) representing the simple linear regression model.](https://raw.githubusercontent.com/Codecademy/docs/main/media/linear-regressin-analysis.png)
 
 ## Codebyte Example
 
@@ -127,5 +125,4 @@ plt.ylabel('y')
 plt.title('Simple Linear Regression')
 plt.legend()
 plt.show()
-
 ```
