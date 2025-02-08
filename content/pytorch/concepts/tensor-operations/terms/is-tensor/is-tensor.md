@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.is_tensor()`** function checks if the given object is a PyTorch [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) and returns `True` if it is. This function is part of the `torch` module.
+In PyTorch, the **`.is_tensor()`** function checks if the given object is a PyTorch [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It returns `True` if the object is a tensor; otherwise, it returns `False`. This function is part of the `torch` module.
 
 ## Syntax
 
