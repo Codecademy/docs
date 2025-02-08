@@ -44,4 +44,5 @@ The above code produces the following output:
 
 ```shell
 True
+False
 ```
