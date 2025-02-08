@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Adam (Adaptive Moment Estimation)** is a popular optimization algorithm used to train [neural networks](https://www.codecademy.com/resources/docs/ai/neural-networks) in PyTorch. It incorporates the benefits of **AdaGrad** and [RMSProp](https://www.codecademy.com/resources/docs/pytorch/optimizers/rmsprop) algorithms, making it an effective algorithm for handling sparse gradients and non-stationary objectives. Adam uses adaptive learning rates for each parameter and incorporates momentum to accelerate convergence.
+**Adam (Adaptive Moment Estimation)** is a popular optimization algorithm used to train [neural networks](https://www.codecademy.com/resources/docs/ai/neural-networks) in PyTorch. It incorporates the benefits of **AdaGrad** and [RMSProp](https://www.codecademy.com/resources/docs/pytorch/optimizers/rmsprop) algorithms, making it effective for handling sparse gradients and optimizing non-stationary objectives. Adam uses adaptive learning rates for each parameter and incorporates momentum to accelerate convergence.
 
 ## Syntax
 
