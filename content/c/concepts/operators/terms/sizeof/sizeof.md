@@ -45,5 +45,5 @@ int main() {
 The above code produces the following output:
 
 ```shell
-4 bytes
+Size of int: 4 bytes
 ```
