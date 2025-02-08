@@ -16,7 +16,7 @@ JavaScript is a single-threaded language, meaning it executes one task at a time
 
 ## Working of the Event Loop
 
-Function calls form a call stack, where each function execution is pushed and popped in a Last In, First Out (LIFO) manner. Objects are allocated in the heap, which is a large, unstructured region of memory. The JavaScript engine processes functions until the call stack is empty, after which the event loop begins processing tasks from various queues.
+Function calls form a call stack, where each function execution is pushed and popped in a Last In, First Out (LIFO) manner. Objects are allocated in the heap, a large, unstructured memory region. The JavaScript engine processes functions until the call stack is empty, after which the event loop begins processing tasks from various queues.
 
 The event loop executes code in the following order:
 
