@@ -69,7 +69,7 @@ for epoch in range(50):
     print(f'Epoch [{epoch}/100], Loss: {loss.item():.4f}')
 ```
 
-The above code produces the following output:
+A sample output from the training loop might look like this (actual values may vary due to randomness):
 
 ```shell
 Epoch [0/100], Loss: 0.4287
