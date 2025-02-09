@@ -71,14 +71,14 @@ for d, r, c in zip(*coords_3d):
   print(f"({d}, {r}, {c})")
 ```
 
-**Output**:
+The above code returns the following output:
+
 ```shell
 Coordinates (depth, row, column):
 (1, 0, 1)
 (0, 0, 2)
 ```
 
-### Explanation
 - For the 2D example, index `3` in a `(2, 3)` tensor corresponds to row `1` (since `3 // 3 = 1`) and column `0` (since `3 % 3 = 0`).
 - In the 3D example, index `7` in a `(2, 2, 3)` tensor resolves to depth `1` (`7 // (2*3) = 1`), row `0` (`(7 % 6) // 3 = 0`), and column `1` (`(7 % 6) % 3 = 1`).
 
