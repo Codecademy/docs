@@ -25,7 +25,7 @@ window.resizeBy(width, height);
 - *Negative* values **decrease** the dimensions.
 
 ## Example
-In this example, the window will be resized to `100` pixels in witdh and `50` pixels in height.
+In this example, the window will be resized to `100` pixels in width and `50` pixels in height.
 ```js
 window.resizeBy(100, 50);
 ```
