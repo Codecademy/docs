@@ -36,7 +36,7 @@ scripted_model = torch.jit.script(model, method_name=None)
 ### Trace Conversion
 ```pseudo
 # Tracing
-traced_model = torch.jit.trace(func, example_inputs, optimize=True, strict=True)
+traced_model = torch.jit.trace(model, example_inputs, optimize=True, strict=True)
 ```
 
 - `func`: The PyTorch model/function to be traced.
