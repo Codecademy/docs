@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In statistics and probability theory, a probability distribution describes how the values of a random variable are spread or distributed. It gives the probabilities of the possible outcomes of an experiment or event. In the context of SciPy, the `scipy.stats` module provides a wide range of probability distributions that can be used for modeling, simulating, and analyzing random processes.
+In statistics and probability theory, a probability distribution describes how the values of a random variable are spread or distributed. It gives the probabilities of the possible outcomes of an experiment or event. In the context of SciPy, the `scipy.stats` module provides a wide range of probability distributions that can be used for modelling, simulating, and analyzing random processes.
 
-SciPy's `scipy.stats` module includes both continuous and discrete distributions. **Continuous distributions**, such as the normal or exponential distributions, are used to model variables that can take any real value within a range. **Discrete distributions**, such as the binomial or Poisson distributions, model scenarios where outcomes are limited to specific, countable values.
+SciPy's `scipy.stats` module includes continuous and discrete distributions. **Continuous distributions**, such as normal or exponential distributions, are used to model variables that can take any real value within a range. **Discrete distributions**, such as the binomial or Poisson distributions, model scenarios where outcomes are limited to specific, countable values.
 
 The `scipy.stats` module offers various functions for each distribution type, including:
 
@@ -25,11 +25,11 @@ The `scipy.stats` module offers various functions for each distribution type, in
 - **Random Variates**: Functions to generate random samples from a specified distribution.
 - **Statistical Moments**: Functions for calculating the mean, variance, skewness, and kurtosis of the distribution.
 
-These distributions are essential tools for tasks such as hypothesis testing, statistical modeling, simulations, and generating synthetic data that follows known statistical properties.
+These distributions are essential tools for tasks such as hypothesis testing, statistical modelling, simulations, and generating synthetic data that follows known statistical properties.
 
 ## Syntax
 
-Each distribution is represented by a corresponding class in `scipy.stats`, and it provides methods for computing properties like probability density, cumulative distribution, and random sampling.
+Each distribution is represented by a corresponding class in `scipy.stats`, which provides methods for computing properties like probability density, cumulative distribution, and random sampling.
 
 ```pseudo
 from scipy import stats
@@ -53,7 +53,7 @@ dist_binom = stats.binom(n=10, p=0.5)  # Binomial distribution with 10 trials an
 
 ### Normal Distribution
 
-In this example, we calculate the probability density function (PDF) and generate random samples from a normal distribution.
+In this example, the probability density function (PDF) will be calculated, and random samples from a normal distribution will be generated.
 
 ```py
 import numpy as np
@@ -85,7 +85,7 @@ The output will be:
 
 ## Binomial Distribution
 
-In this example, we work with the binomial distribution to compute the probability of a specific number of successes in a series of trials.
+In this example, the binomial distribution will be calculated to compute the probability of a specific number of successes in a series of trials.
 
 ```py
 from scipy import stats
@@ -107,7 +107,7 @@ plt.title('Binomial Distribution: n = 10, p = 0.5')
 plt.show()
 ```
 
-In this case, we define a binomial distribution with 10 trials and a 50% chance of success. The example computes the probability of obtaining exactly 5 successes and visualizes the distribution of random samples.
+In this case, a binomial distribution with 10 trials and a 50% chance of success is defined. The example computes the probability of obtaining exactly 5 successes and visualizes the distribution of random samples.
 
 The output will be:
 
