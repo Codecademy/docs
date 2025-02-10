@@ -1,6 +1,6 @@
 ---
 Title: 'TorchScript Overview'
-Description: 'Way to serialize and optimize PyTorch models for production deployment, enabling model execution in high-performance environments without Python dependencies.'
+Description: 'Serializes and optimizes PyTorch models for production deployment, enabling execution in high-performance environments without Python dependencies.'
 Subjects:
   - 'Machine Learning'
   - 'AI'
