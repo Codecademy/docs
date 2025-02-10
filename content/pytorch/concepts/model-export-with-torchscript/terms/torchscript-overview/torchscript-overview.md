@@ -26,6 +26,7 @@ By enabling efficient model execution, TorchScript facilitates deployment in hig
 ## Syntax
 
 ### Script Conversion
+
 ```pseudo
 # Scripting
 scripted_model = torch.jit.script(model, method_name=None)
@@ -33,7 +34,9 @@ scripted_model = torch.jit.script(model, method_name=None)
 
 - `model`: The PyTorch model/function to be scripted.
 - `method_name` (Optional): String specifying which method to script (default: `forward`).
+
 ### Trace Conversion
+
 ```pseudo
 # Tracing
 traced_model = torch.jit.trace(model, example_inputs, optimize=True, strict=True)
@@ -43,7 +46,9 @@ traced_model = torch.jit.trace(model, example_inputs, optimize=True, strict=True
 - `example_inputs`: Example inputs that the model will be traced with.
 - `optimize`(Boolean): Enables/disables optimizations (default: `True`).
 - `strict`(Boolean): Enables/disables strict checking, ensuring operations match the recorded trace. (default: `True`).
+
 ### Saving a Model
+
 ```pseudo
 # Save
 scripted_model.save(f, _extra_files=None)
@@ -51,14 +56,16 @@ scripted_model.save(f, _extra_files=None)
 
 - `f`: File object or string containing a file name.
 - `_extra_files`(Optional): A dictionary of filenames for content to save in the archive (default is `None`).
+
 ### Loading a Model
+
 ```pseudo
 # Load
 loaded_model = torch.jit.load(f, map_location=None, _extra_files=None)
 ```
 
 - `f`: File object containing a TorchScript model.
-- `map_location` (Optional):  Specifies where to load the model (`cpu`/`cuda`).
+- `map_location` (Optional): Specifies where to load the model (`cpu`/`cuda`).
 - `_extra_files` (Optional): Dictionary to store deserialized extra files.
 
 ## Example
