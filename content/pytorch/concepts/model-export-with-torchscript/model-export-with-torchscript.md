@@ -38,7 +38,6 @@ catalog_content:
    ```pseudo
    @torch.jit.script
    def custom_function(x: torch.Tensor) -> torch.Tensor:
-       # JIT-compiled logic
        return x * 2
    ```
 
