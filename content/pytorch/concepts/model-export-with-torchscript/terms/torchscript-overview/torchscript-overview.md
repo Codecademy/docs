@@ -25,7 +25,6 @@ By enabling efficient model execution, TorchScript facilitates deployment in hig
 
 ## Syntax
 
-Below is the general syntax for setting up a `DataLoader`:
 ### Script Conversion
 ```pseudo
 # Scripting
