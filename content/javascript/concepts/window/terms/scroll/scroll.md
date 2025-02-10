@@ -1,56 +1,59 @@
 ---
 Title: 'scroll()'
-Description: 'Scrolls the document to a specific position on the page.'
+Description: 'Scrolls the document to a specific position based on given coordinates.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'Window'
-  - 'Scrolling'
+  - 'Methods'
   - 'Functions'
+  - 'Window Functions'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-**`scroll()`** is a method of the global `window` object that allows users to programmatically scroll the document to a specified position.
+**`scroll()`** is a method of the global [`window`](https://www.codecademy.com/resources/docs/javascript/window) object that programmatically scrolls the document to a specified position.
 
-## Syntax  
-
-The `scroll()` method accepts either two numerical parameters (`x` and `y` coordinates) or an object with specific properties that control scrolling behavior.
-## Syntax  
+## Syntax
 
 The `scroll()` method accepts either two numerical parameters (`x` and `y` coordinates) or an object with specific properties that control scrolling behavior.
 
 ```pseudo
 window.scroll(x, y)
-
-window.scroll(options) 
 ```
 
+Or, alternatively:
+
+```pseudo
+window.scroll(options)
+```
+
+- `x`: The horizontal scroll position in pixels.
+- `y`: The vertical scroll position in pixels.
+- `options` (Optional): An object specifying scroll behavior:
+  - `top`: Vertical position in pixels.
+  - `left`: Horizontal position in pixels.
+  - `behavior`: Defines the scrolling behavior:
+    - `"auto"` (default): Instantly jumps to position.
+    - `"smooth"`: Animates the scroll movement.
+
 ## Example 1
-The following example scrolls the page to the top-left corner:
 
+The following example instantly scrolls the page to the top-left (0,0) position:
+
+```js
 window.scroll(0, 0);
-
+```
 
 ## Example 2
-The following example scrolls smoothly to 500 pixels down the page:
 
+The following example smoothly scrolls 500 pixels down while keeping the horizontal position unchanged:
+
+```js
 window.scroll({
   top: 500,
   left: 0,
   behavior: "smooth"
 });
-
-
-## Codebyte Example
-In the following example, the scroll() method moves the page down by 300 pixels:
-
-console.log('Scrolling down...');
-setTimeout(() => {
-  window.scroll({
-    top: 300,
-    behavior: 'smooth'
-  });
-}, 2000);
+```
