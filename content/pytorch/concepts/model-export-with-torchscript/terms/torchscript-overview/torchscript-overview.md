@@ -64,7 +64,7 @@ loaded_model = torch.jit.load(f, map_location=None, _extra_files=None)
 
 ## Example
 
-This example demonstrates creating a simple neural network, converting it to TorchScript using both scripting and tracing methods, comparing their outputs, and saving the models for deployment, showcasing the basic TorchScript workflow:
+This example demonstrates how to create a simple neural network and convert it to TorchScript using both scripting and tracing methods. It then compares their outputs and saves the models for deployment, illustrating the TorchScript workflow:
 
 ```py
 import torch
