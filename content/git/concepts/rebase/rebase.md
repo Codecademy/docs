@@ -44,16 +44,16 @@ git rebase --interactive <base>
 7. Push the rebased branch: When working on a shared branch, it's essential to push the rebased branch with `git push` to update the remote branch.
 8. Clean up (optional): Once the rebase is successful, the old branch can be deleted if needed with `git branch -d <old-branch-name>`.
 
-## Rebase vs Squash vs Merge
+## Merge vs Squash vs Rebase
 
-## Merge Commit
+### Merge Commit
 
-Merge commits integrate a feature branch into the main branch while keeping the full commit history and adding a **merge commit** to record the integration.
+Merge commits integrate a feature branch into the main branch, keeping the full commit history and adding a **merge commit** to record the integration.
 
 **Scenario:**
 
 - Your main branch has two commits.
-- You create a feature branch, make two commits, and your team adds a commit to the main branch.
+- You create a feature branch and make two commits, and your team adds a commit to the main branch.
 - When you merge the feature branch into the main branch, a **merge commit** is added, preserving the history of all feature branch commits.
 
 ```shell
@@ -70,7 +70,6 @@ git commit -m "Main branch commit"
 
 # Merge the feature branch into main
 git merge feature-branch
-
 ```
 
 **Terminal Output:**
@@ -97,8 +96,6 @@ git merge feature-branch
 - Creates a cluttered history, especially in large teams with frequent commits.
 - `git log` can become confusing.
 
----
-
 ## Squash Commit
 
 Squash commits condense multiple commits from a feature branch into a single commit when merging into the main branch.
@@ -124,7 +121,6 @@ git commit -m "Main Commit 3"
 # Squash merge the feature branch into main
 git merge --squash feature-branch
 git commit -m "Squashed Feature Commit"
-
 ```
 
 **Terminal Output:**
@@ -145,8 +141,6 @@ git commit -m "Squashed Feature Commit"
 **Cons:**
 
 - Loses granular commit history, making debugging harder.
-
----
 
 ## Rebase Merge
 
@@ -196,8 +190,6 @@ git rebase main
 
 - Resolving merge conflicts during a rebase can be more challenging.
 - If the feature branch has multiple commits that modify the same code, conflicts may need to be resolved repeatedly.
-
----
 
 ## Considerations for Using Git Rebase
 
