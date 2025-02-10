@@ -1,31 +1,33 @@
 ---
 Title: 'resizeBy()'
-Description: 'resizes the browser window by a specified amount.'
+Description: 'Resizes the browser window by a specified amount.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
+  - 'Arguments'
   - 'Functions'
   - 'Parameters'
-  - 'Arguments'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`resizeBy()`** function under the `window` object resizes the browser window by a specified amount relative to its current size.
+The **`resizeBy()`** function under the [`window`](https://www.codecademy.com/resources/docs/javascript/window) object resizes the browser window by a specified number of pixels relative to its current size.
 
 ## Syntax
-`resizeBy()` takes two arguments: the change in width and the change in height, both measured in pixels.
 
-```js
-window.resizeBy(width, height);
+```pseudo
+window.resizeBy(widthDelta, heightDelta);
 ```
-- *Positive* values **increase** the dimensions
-- *Negative* values **decrease** the dimensions.
+
+- `widthDelta`: The number of pixels to increase or decrease the window’s width. Positive values increase the width, negative values decrease it.
+- `heightDelta`: The number of pixels to increase or decrease the window’s height. Positive values increase the height, negative values decrease it.
 
 ## Example
-In this example, the window will be resized to `100` pixels in width and `50` pixels in height.
+
+In this example, the window size will increase by _100_ pixels in width and _50_ pixels in height:
+
 ```js
 window.resizeBy(100, 50);
 ```
