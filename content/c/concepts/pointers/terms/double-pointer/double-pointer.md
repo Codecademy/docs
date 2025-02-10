@@ -1,6 +1,6 @@
 ---
 Title: 'Double Pointer'
-Description: 'A double pointer in C is a pointer that holds the address of another pointer.'
+Description: 'Holds the memory address of a pointer.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **double pointer** is a [pointer](https://www.codecademy.com/resources/docs/c/concepts/pointers/terms/pointer/pointer) that stores the memory address of another pointer. It allows indirect access to the value of a variable.
+In C, a **double pointer** is a [pointer](https://www.codecademy.com/resources/docs/c/concepts/pointers/terms/pointer/pointer) that holds the memory address of another pointer. It allows indirect access to the value of a variable.
 
 ## Syntax
 
@@ -29,7 +29,7 @@ type **name
 
 ## Example
 
-The following examples demonstrates how a double pointer is declared and used:
+The following example demonstrates how a double pointer is declared and used:
 
 ```c
 # include <stdio.h>
@@ -39,15 +39,15 @@ int main() {
   int *pointer = &value; // Pointer to an integer (stores the address of 'value')
   int **doublePointer = &pointer; // Double pointer to an integer pointer (stores the address of 'pointer')
 
-  // Printing the value and the addresses
+  // Printing the values
   printf("Value of value: %d\n", value); // Direct access to value
   printf("Value of *pointer: %d\n", *pointer); // Dereferencing pointer to access value
   printf("Value of **doublePointer: %d\n", **doublePointer); // Dereferencing double pointer twice to access value
 
-  // Printing addresses
+  // Printing the addresses
   printf("Address of value: %p\n", (void*)&value); // Address of the variable 'value'
   printf("Address of pointer: %p\n", (void*)&pointer); // Address of the pointer 'pointer'
-  printf("Address of doublePointer: %p\n", (void*)&doublePointer); // Address of double pointer 'doublePointer'
+  printf("Address of doublePointer: %p\n", (void*)&doublePointer); // Address of the double pointer 'doublePointer'
 
   return 0;
 }
