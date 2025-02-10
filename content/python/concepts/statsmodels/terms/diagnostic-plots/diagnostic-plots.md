@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Diagnostic plots are essential tools for evaluating the assumptions and performance of regression models. In the context of linear regression, these plots help identify potential issues such as non-linearity, non-constant variance, outliers, high leverage points, and collinearity. The `statsmodels` library in Python provides several functions to generate these diagnostic plots, aiding in the assessment of model fit and validity
+Diagnostic plots are essential tools for evaluating the assumptions and performance of regression models. In the context of linear regression, these plots help identify potential issues such as non-linearity, non-constant variance, outliers, high leverage points, and collinearity. The `statsmodels` library in Python provides several functions to generate these diagnostic plots, aiding in assessing model fit and validity.
 
 Common diagnostic plots include:
 
@@ -25,7 +25,7 @@ Common diagnostic plots include:
 
 ## Syntax
 
-There are a few different methods for generating diagnostic plots in `statsmodels`. Two common methods are `plot_partregress_grid()` and `plot_regress_exog()`. These methods work with a fitted regression results object.
+There are several different methods for generating diagnostic plots in statsmodels. Two common methods are `plot_partregress_grid()` and `plot_regress_exog()`. These methods work with a fitted regression results object.
 
 ### `plot_partregress_grid()`
 
@@ -41,7 +41,7 @@ results.plot_partregress_grid()
 
 ### `plot_regress_exog()`
 
-The `plot_regress_exog()` method generates residual plots for a specific independent variable. This can be helpful for checking the assumption of linearity with respect to a particular predictor.
+The `plot_regress_exog()` method generates residual plots for a specific independent variable. This can help check the assumption of linearity with respect to a particular predictor.
 
 The syntax for using `plot_regress_exog()` is:
 
