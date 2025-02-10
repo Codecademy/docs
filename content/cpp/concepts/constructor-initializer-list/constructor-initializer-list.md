@@ -1,6 +1,6 @@
 ---
 Title: 'Constructor Initializer List'
-Description: 'A constructor initializer list in C++ allows direct initialization of member variables before the constructor body executes.'
+Description: 'Allows direct initialization of member variables before the constructor body executes.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -9,7 +9,6 @@ Tags:
   - 'Objects'
   - 'Constructors'
   - 'OOP'
-  - 'Initialization'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
@@ -19,7 +18,7 @@ A **constructor initializer list** in C++ is a way to directly initialize member
 
 ## Syntax
 
-A constructor initializer list comes after the constructor’s name and parameter list. It starts with a colon (\:) and is followed by a list of variables being initialized.
+A constructor initializer list comes after the constructor's name and parameter list. It starts with a colon (:) and is followed by a list of variables being initialized:
 
 ```pseudo
 class ClassName {
@@ -37,7 +36,7 @@ class ClassName {
 
 ### Using Constructor Initializer List
 
-This example shows how to use a constructor initializer list to set values when an object is created.
+This example shows how to use a constructor initializer list to set values when an object is created:
 
 ```cpp
 #include <iostream>
@@ -59,7 +58,7 @@ int main() {
 }
 ```
 
-The result of the following code:
+The result of the above code is following:
 
 ```shell
 Point initialized with x = 3 and y = 4
@@ -67,7 +66,7 @@ Point initialized with x = 3 and y = 4
 
 ### Initializing Constant and Reference Members
 
-If a class has const or reference variables, they must be initialized using a constructor initializer list since they cannot be assigned values later.
+If a class has const or reference variables, they must be initialized using a constructor initializer list since they cannot be assigned values later:
 
 ```cpp
 #include <iostream>
@@ -89,7 +88,7 @@ int main() {
 }
 ```
 
-The result of the following code:
+The result of the above code is following:
 
 ```shell
 Const value: 5 | Reference value: 10
@@ -97,14 +96,7 @@ Const value: 5 | Reference value: 10
 
 ## Codebyte Example
 
-This example demonstrates how a **constructor initializer list** can be used to initialize multiple members, including a base class and constant members.
-
-### Explanation
-
-- The Base class has a constructor that initializes baseValue using an initializer list.
-- The Derived class inherits from Base and initializes its own members using an initializer list.
-- The Derived class constructor first calls the Base class constructor and then initializes derivedValue (a const member) and normalValue.
-- The initializer list ensures all members are set before the constructor body executes.
+This example demonstrates how a **constructor initializer list** can be used to initialize multiple members, including a base class and constant members:
 
 ```codebyte/cpp
 #include <iostream>
@@ -134,3 +126,10 @@ int main() {
   return 0;
 }
 ```
+
+### Explanation
+
+- The `Base` class has a constructor that initializes `baseValue` using an initializer list.
+- The `Derived` class inherits from `Base` and initializes its own members using an initializer list.
+- The `Derived` class constructor first calls the `Base` class constructor and then initializes `derivedValue` (a const member) and `normalValue`.
+- The initializer list ensures all members are set before the constructor body executes.
