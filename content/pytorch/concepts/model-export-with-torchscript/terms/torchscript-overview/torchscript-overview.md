@@ -14,7 +14,14 @@ CatalogContent:
   - 'paths/build-a-machine-learning-model'
 ---
 
-**TorchScript** provides a transition between eager mode PyTorch development and production deployment by creating serializable and optimizable models. It converts Python code into a statically typed subset that can be saved and loaded in C++ environments. TorchScript supports both automatic conversion (torch.jit.script) and manual annotation (torch.jit.trace) approaches, allowing for flexible model optimization and deployment strategies.
+**TorchScript** bridges the gap between PyTorch’s eager execution mode and optimized production deployment. It converts Python-based models into a statically typed, serialized format that can be loaded and executed in C++ environments without requiring Python dependencies.
+
+TorchScript supports two conversion methods:
+
+- **Scripting** (`torch.jit.script`) – Automatically converts a model to TorchScript by analyzing its structure and control flow.
+- **Tracing** (`torch.jit.trace`) – Records operations from an example input, creating a TorchScript representation without modifying control flow logic.
+
+By enabling efficient model execution, TorchScript facilitates deployment in high-performance environments such as mobile devices, embedded systems, and cloud services.
 
 ## Syntax
 
