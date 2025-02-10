@@ -13,7 +13,7 @@ CatalogContent:
 - 'paths/data-science'
 ---
 
-The **`.unravel_index()`** function in PyTorch maps flat (1D) indices to multi-dimensional coordinates using a specified tensor shape. This is particularly useful when working with operations that return linear indices and to find the positions in the original tensor’s dimensions.
+The **`.unravel_index()`** function in PyTorch maps flat (1D) indices to multi-dimensional coordinates using a specified [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) shape. This is particularly useful when working with operations that return linear indices and to find the positions in the original tensor’s dimensions.
 
 ## Syntax
 
