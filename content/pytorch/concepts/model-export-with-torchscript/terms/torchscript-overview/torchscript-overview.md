@@ -41,8 +41,8 @@ traced_model = torch.jit.trace(model, example_inputs, optimize=True, strict=True
 
 - `model`: The PyTorch model/function to be traced.
 - `example_inputs`: Example inputs that the model will be traced with.
-- `optimize`: Boolean to enable/disable optimizations (default: `True`).
-- `strict`: Boolean to enable/disable strict checking (default: `True`).
+- `optimize`(Boolean): Enables/disables optimizations (default: `True`).
+- `strict`(Boolean): Enables/disables strict checking, ensuring operations match the recorded trace. (default: `True`).
 ### Saving a Model
 ```pseudo
 # Save
