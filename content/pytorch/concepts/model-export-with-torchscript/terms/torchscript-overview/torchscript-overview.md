@@ -33,7 +33,7 @@ scripted_model = torch.jit.script(model, method_name=None)
 ```
 
 - `model`: The PyTorch model/function to be scripted.
-- `method_name`: Optional string specifying which method to script (default: `forward`).
+- `method_name` (Optional): String specifying which method to script (default: `forward`).
 
 ```pseudo
 # Tracing
