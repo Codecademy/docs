@@ -20,7 +20,7 @@ The history of processors ranges from primitive vacuum tubes to multi-core proce
 
 - **1940s-1950s**: Early computers used bulky vacuum tubes for processing, which made them large and inefficient.
 - **1960s**: The invention of transistors led to smaller, faster, and more reliable processors.
-- **1970s**: The Intel 4004, the first microprocessor, integrated all processing functions onto a single chip.
+- **1970s**: The Intel 4004, the first microprocessor, integrated all processing functions into a single chip.
 - **1980s**: The Intel 8086 introduced the x86 architecture, which powered personal computers like the IBM PC.
 - **1990s**: The Intel Pentium processors revolutionized personal computer performance.
 - **2000s-Present**: Multi-core processors enabled improved multitasking, while ARM chips became dominant in mobile devices.
@@ -36,4 +36,4 @@ Depending upon their function, processors are divided into many types. Some of t
 - **Application-Specific Integrated Circuit (ASIC)**: A custom-designed processor for a specific application, often used in specialized systems such as cryptocurrency mining or network equipment.
 - **Microcontrollers**: Small, embedded processors found in everyday devices like microwaves, washing machines, and cars. They are often responsible for managing tasks and controls in these devices.
 
-Additionally, as Artificial Intelligence (AI) continues to grow, specialized processors called **Neural Processing Units (NPUs)**, also known as AI accelerators, are being developed to handle AI-specific workloads more efficiently.
+Additionally, as artificial intelligence (AI) continues to grow, specialized processors called **Neural Processing Units (NPUs)**, also known as AI accelerators, are being developed to handle AI-specific workloads more efficiently.
