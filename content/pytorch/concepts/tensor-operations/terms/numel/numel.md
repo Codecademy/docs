@@ -19,12 +19,15 @@ In PyTorch, the **`.numel()`** method calculates the product of all dimensions o
 ## Syntax
 
 ```pseudo
-tensor.numel()
+torch.numel(Tensor)
 ```
+- `Tensor`: The input tensor whose total number of elements is to be computed.
+
+It returns an integer representing the total number of elements in the given tensor.
 
 ## Example
 
-The following example creates a 2x3 tensor and demonstrates how `.numel()` counts all elements across all dimensions:
+The following example creates a _2x3_ tensor and demonstrates how `.numel()` counts all elements across all dimensions:
 
 ```py
 import torch
@@ -33,7 +36,9 @@ import torch
 x = torch.randn(2, 3)
 print("Tensor x:")
 print(x)
-print("\nTotal number of elements:", x.numel())
+
+y = torch.numel(x)
+print("\nTotal number of elements:", y)
 ```
 
 The above code produces the following output:
@@ -45,3 +50,5 @@ tensor([[-1.0727,  0.3469, -1.2021],
 
 Total number of elements: 6
 ```
+
+> **Note:** The output varies on each run because `torch.randn(2, 3)` generates random values from a normal distribution.
