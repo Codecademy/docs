@@ -59,8 +59,8 @@ loaded_model = torch.jit.load(f, map_location=None, _extra_files=None)
 ```
 
 - `f`: File object containing a TorchScript model.
-- `map_location`: Location to load model (cpu/cuda).
-- `_extra_files`: Dictionary to store deserialized extra files.
+- `map_location` (Optional):  Specifies where to load the model (`cpu`/`cuda`).
+- `_extra_files` (Optional): Dictionary to store deserialized extra files.
 
 ## Example
 
