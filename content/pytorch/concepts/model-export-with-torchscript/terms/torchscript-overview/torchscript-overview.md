@@ -52,7 +52,7 @@ scripted_model.save(f, _extra_files=None)
 
 - `f`: File object or string containing a file name.
 - `_extra_files`: Dictionary of filename to content to save in the archive.
-
+### Loading a Model
 ```pseudo
 # Load
 loaded_model = torch.jit.load(f, map_location=None, _extra_files=None)
