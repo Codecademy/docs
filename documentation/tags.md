@@ -85,6 +85,7 @@ CSS
 CSV
 Cybersecurity
 D3
+Deployment
 Dart
 Data
 Data Parallelism
@@ -109,6 +110,7 @@ Dictionary
 Dijkstra's
 Display
 Distance
+Dimensions
 Distinct
 Div
 Django
@@ -229,6 +231,7 @@ Models
 Modules
 Multitask Learning
 MultiTaskLasso
+Model Export
 MySQL
 Naive Bayes
 Natural Language Processing
@@ -245,6 +248,7 @@ Obsolete
 Ontologies
 OOP
 Opacity
+ONNX
 Open Source
 Operating Systems
 Operators
