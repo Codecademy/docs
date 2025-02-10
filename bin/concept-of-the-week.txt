@@ -1,1 +1,1 @@
-content/ruby/concepts/sets/sets.md
+content/react/concepts/components/components.md
