@@ -2,15 +2,15 @@
 Title: '.unravel_index()'
 Description: 'Converts flat indices into coordinate tuples based on the shape of a tensor, enabling multi-dimensional indexing.'
 Subjects:
-- 'Computer Science'
-- 'Data Science'
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-- 'Tensor'
-- 'Index'
-- 'PyTorch'
+  - 'Tensor'
+  - 'Index'
+  - 'PyTorch'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/data-science'
+  - 'learn-python-3'
+  - 'paths/data-science'
 ---
 
 The **`.unravel_index()`** function in PyTorch maps flat (1D) indices to multi-dimensional coordinates using a specified [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) shape. This is particularly useful when working with operations that return linear indices and to find the positions in the original tensor’s dimensions.
