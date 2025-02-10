@@ -19,23 +19,18 @@ The **`scrollBy()`** method is a function provided by the browser's window objec
 
 `scrollBy()` receives up to two parameters. The first is a number, which represents the number of pixels the user desires to scroll horizontally, for the x-coordinate. The second is a number, which represents the number of pixels the user desires to scroll vertically, for the y-coordinate.
 
-When `scrollBy()` is only used with one parameter, the x-coordinate defaults to 0, and the y-coordinate is instead defined by the parameter input.
-
 These numbers can be **positive** or **negative**. Positive numbers in the x-coordinate parameter will scroll right, and positive numbers in the y-coordinate parameter will scroll down. Negative numbers in the x-coordinate parameter will scroll left, and negative numbers in the y-coordinate parameter will scroll up.
-
-If no parameters are specified, both will default to 0, which results in no scrolling at all. 
 
 Below are some examples of how `scrollBy()` is composed:
 
 ```pseudo
-scrollBy(y-coordinate);
 
-scrollBy(x-coordinate,y-coordinate);
+window.scrollBy(x-coordinate,y-coordinate);
 ```
 
 ## Example 1
 
-The following example uses the `scrollBy()` function to scroll a window down when a button is pressed. This syntax demonstrates using `scrollBy()` with only one parameter.
+The following example uses the `scrollBy()` function to scroll a window down when a button is pressed.
 
 ```js
 // Creating a reference to a scroll button on an external HTML document.
@@ -43,12 +38,12 @@ const scrollButton = document.getElementById("scrollButton");
 
 // When the button is pressed, the window scrolls down by 200 pixels.
 scrollButton.addEventListener("click", function() {
-	window.scrollBy(200); 
+	window.scrollBy(0,200); 
 });
 ```
 ## Example 2
 
-The following example uses the `scrollBy()` function to scroll a window to the left and up 100 pixels each. This syntax demonstrates using `scrollBy()` both with two parameters and with negative numbers.
+The following example uses the `scrollBy()` function to scroll a window to the left and up 100 pixels each. This syntax demonstrates using `scrollBy()` with negative numbers.
 
 ```js
 // Creating a reference to a scroll button on an external HTML document.
