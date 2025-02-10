@@ -44,7 +44,7 @@ traced_model = torch.jit.trace(func, example_inputs, optimize=True, strict=True)
 - `example_inputs`: Example inputs that the model will be traced with.
 - `optimize`: Boolean to enable/disable optimizations (default: `True`).
 - `strict`: Boolean to enable/disable strict checking (default: `True`).
-
+### Saving a Model
 ```pseudo
 # Save
 scripted_model.save(f, _extra_files=None)
