@@ -21,6 +21,7 @@ In PyTorch, the **`.numel()`** method calculates the product of all dimensions o
 ```pseudo
 torch.numel(Tensor)
 ```
+
 - `Tensor`: The input tensor whose total number of elements is to be computed.
 
 It returns an integer representing the total number of elements in the given tensor.
