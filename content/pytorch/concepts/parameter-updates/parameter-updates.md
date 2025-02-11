@@ -7,8 +7,8 @@ Subjects:
   - 'Machine Learning'
 Tags:
   - 'Functions'
-  - 'PyTorch'
-  - 'Optimizers'
+  - 'Optimizers
+  - 'PyTorch''
 CatalogContent:
   - 'learn-pytorch'
   - 'paths/machine-learning'
