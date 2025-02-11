@@ -3,8 +3,8 @@ Title: 'Parameter Updates'
 Description: 'Parameter updates adjust model weights using an optimizer, which updates parameters based on gradients computed via backpropagation.'
 Subjects:
   - 'Computer Science'
-  - 'Machine Learning'
   - 'Deep Learning'
+  - 'Machine Learning'
 Tags:
   - 'Functions'
   - 'PyTorch'
