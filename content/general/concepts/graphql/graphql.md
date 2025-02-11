@@ -40,7 +40,7 @@ GraphQL operates through a single endpoint where clients can:
 | **Endpoints**                      | Single endpoint (`/graphql`) for all queries         | Multiple endpoints for different resources (`/users`, `/posts`, etc.)                                 |
 | **Performance**                    | Efficient as only required data is fetched           | Can be inefficient due to multiple round trips                                                        |
 | **Flexibility**                    | Highly flexible; clients control response structure  | Less flexible; fixed responses based on server design                                                 |
-| **Versioning**                     | No versioning needed; schema evolves                 | Often requires versioning (`/v1/users`, `/v2/users`)                                                  |
+| **Versioning**                     | No versioning needed; schema evolves dynamically     | Often requires versioning (`/v1/users`, `/v2/users`)                                                  |
 | **Batch Requests**                 | Can retrieve multiple resources in one request       | Requires multiple requests for multiple resources                                                     |
 | **Real-time Support**              | Built-in support via subscriptions                   | Requires WebSockets or polling for real-time data                                                     |
 | **Ease of Use**                    | Requires learning a query language (GraphQL)         | Familiar, follows standard HTTP methods (GET, POST, PUT, DELETE)                                      |
