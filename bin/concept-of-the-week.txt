@@ -1,1 +1,1 @@
-content/go/concepts/data-types/data-types.md
+content/react/concepts/components/components.md
