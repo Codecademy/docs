@@ -53,23 +53,24 @@ import torch.optim as optim
 
 # Define a simple self-supervised learning model (Autoencoder)
 class SimpleSSLModel(nn.Module):
-    def __init__(self, input_dim, hidden_dim):
-        super(SimpleSSLModel, self).__init__()
-        # Encoder: Learns meaningful feature representations
-        self.encoder = nn.Sequential(
-            nn.Linear(input_dim, hidden_dim),
-            nn.ReLU()
-        )
-        # Decoder: Reconstructs input from learned representations
-        self.decoder = nn.Sequential(
-            nn.Linear(hidden_dim, input_dim),
-            nn.Sigmoid()
-        )
+  def __init__(self, input_dim, hidden_dim):
+    super(SimpleSSLModel, self).__init__()
+    # Encoder: Learns meaningful feature representations
+    self.encoder = nn.Sequential(
+      nn.Linear(input_dim, hidden_dim),
+      nn.ReLU()
+    )
 
-    def forward(self, x):
-        encoded = self.encoder(x)  # Generate feature representation
-        decoded = self.decoder(encoded)  # Reconstruct input from encoded features
-        return decoded
+    # Decoder: Reconstructs input from learned representations
+    self.decoder = nn.Sequential(
+      nn.Linear(hidden_dim, input_dim),
+      nn.Sigmoid()
+    )
+
+  def forward(self, x):
+    encoded = self.encoder(x)  # Generate feature representation
+    decoded = self.decoder(encoded)  # Reconstruct input from encoded features
+    return decoded
 
 # Generate random unlabeled input data
 data = torch.randn(100, 20)
@@ -81,11 +82,11 @@ optimizer = optim.Adam(model.parameters(), lr=0.01)
 
 # Training loop for self-supervised learning
 for epoch in range(100):
-    optimizer.zero_grad()
-    reconstructed = model(data)
-    loss = criterion(reconstructed, data)
-    loss.backward()
-    optimizer.step()
+  optimizer.zero_grad()
+  reconstructed = model(data)
+  loss = criterion(reconstructed, data)
+  loss.backward()
+  optimizer.step()
 
 print("Self-supervised model training complete!")
 ```
