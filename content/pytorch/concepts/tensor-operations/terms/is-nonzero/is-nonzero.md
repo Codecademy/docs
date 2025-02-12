@@ -1,6 +1,6 @@
 ---
 Title: '.is_nonzero()'
-Description: 'Checks if a tensor's single element is non-zero, returning a boolean indicating whether the element is non-zero.'
+Description: 'Checks if a scalar tensor contains a non-zero element, returning a boolean indicating whether the element is non-zero.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
