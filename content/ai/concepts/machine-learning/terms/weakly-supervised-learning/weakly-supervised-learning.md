@@ -45,7 +45,7 @@ print(predictions)    # Outputs predicted labels, including inferred ones
 
 ## Example
 
-A practical example of weakly-supervised learning is in *image classification*, where only a subset of images is labeled, and the model learns to infer labels for the remaining dataset.
+A practical example of weakly-supervised learning is in _image classification_, where only a subset of images is labeled, and the model learns to infer labels for the remaining dataset.
 
 ```py
 from sklearn.semi_supervised import SelfTrainingClassifier
