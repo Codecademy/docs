@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/intermediate-machine-learning-skill-path'
 ---
 
-**Semi-Supervised Learning** is a machine learning approach that combines elements of both [**supervised learning**](https://www.codecademy.com/resources/docs/ai/machine-learning/supervised-learning) and **unsupervised learning**. It is particularly useful when a dataset contains a small amount of labeled data and a large amount of unlabeled data.
+**Semi-Supervised Learning** is a machine learning approach that combines elements of both [**supervised learning**](https://www.codecademy.com/resources/docs/ai/machine-learning/supervised-learning) and unsupervised learning. It is particularly useful when a dataset contains a small amount of labeled data and a large amount of unlabeled data. 
 
-By leveraging the structure in the unlabeled data, semi-supervised learning can improve model accuracy and generalization while reducing the need for extensive labeled datasets.
+By leveraging patterns in the unlabeled data, semi-supervised learning improves model accuracy and generalization while reducing the reliance on extensive labeled datasets.
 
 ## Syntax
 
@@ -25,14 +25,14 @@ The general approach for implementing semi-supervised learning follows these ste
 ```pseudo
 1. Train an initial model using the available labeled data.
 2. Use the trained model to predict labels for the unlabeled data.
-3. Select the most confident predictions and add them to the labeled dataset.
+3. Select high-confidence pseudo-labels and add them to the labeled dataset.
 4. Retrain the model with the expanded labeled dataset.
 5. Repeat steps 2-4 iteratively until convergance or stopping criteria are met.
 ```
 
 ## Example
 
-A common example of semi-supervised learning is using a [**Self-training**](https://www.codecademy.com/resources/docs/sklearn/self-training) classifier with [`Scikit-learn`](https://www.codecademy.com/resources/docs/sklearn) in Python:
+A common example of semi-supervised learning is using a [Self-training](https://www.codecademy.com/resources/docs/sklearn/self-training) classifier with [`Scikit-learn`](https://www.codecademy.com/resources/docs/sklearn) in Python:
 
 ```py
 import numpy as np
