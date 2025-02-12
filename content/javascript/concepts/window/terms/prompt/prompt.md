@@ -13,13 +13,13 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`prompt()`** function is a built-in JavaScript method that displays a modal dialog box prompting the user for input. It is part of the Web API, provided by the browser's `window` object, and pauses script execution until the user responds. The function returns the user's input as a string or `null` if the user cancels the dialog.
+The **`prompt()`** function is a built-in JavaScript method that displays a modal dialogue box prompting the user for input. It is part of the Web API, provided by the browser's `window` object, and pauses script execution until the user responds. The function returns the user's input as a string or `null` if the user cancels the dialogue.
 
 ## Syntax
 
 The `prompt()` function accepts two parameters and returns a string or null:
 
-```js
+```pseudo
 prompt(message)
 ```
 
@@ -50,4 +50,4 @@ if (name !== null) {
 }
 ```
 
-In this example, if the user enters their name and clicks OK, a greeting with their name will be displayed. If they click Cancel, a message indicating no name was entered will be shown.
+A greeting displaying that name appears when a name is entered and `OK` is clicked. If Cancel is clicked, a message indicating that no name was entered is shown.
