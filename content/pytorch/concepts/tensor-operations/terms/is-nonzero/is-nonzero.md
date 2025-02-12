@@ -22,7 +22,7 @@ In PyTorch, the **`.is_nonzero()`** function is used to check if a scalar [tenso
 torch.is_nonzero(input)
 ```
 
-- `input`: tensor with a single element. The method checks if this single element is non-zero.
+- `input`: Tensor with a single element.
 
 ## Example
 
