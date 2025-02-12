@@ -2,16 +2,16 @@
 Title: 'Semi-Supervised Learning'
 Description: 'A machine learning approach that leverages both labeled and unlabeled data for training, improving model performance when labeled data is scarce.'
 Subjects:
- - 'AI'
- - 'Machine Learning'
+  - 'AI'
+  - 'Machine Learning'
 Tags:
- - 'AI'
- - 'Machine Learning'
- - 'Supervised Learning'
- - 'Unsupervised Learning'
+  - 'AI'
+  - 'Machine Learning'
+  - 'Supervised Learning'
+  - 'Unsupervised Learning'
 CatalogContent:
- - 'learn-python-3'
- - 'paths/intermediate-machine-learning-skill-path'
+  - 'learn-python-3'
+  - 'paths/intermediate-machine-learning-skill-path'
 ---
 
 **Semi-Supervised Learning** is a machine learning approach that combines elements of both [**supervised learning**](https://www.codecademy.com/resources/docs/ai/machine-learning/supervised-learning) and **unsupervised learning**. It is particularly useful when a dataset contains a small amount of labeled data and a large amount of unlabeled data.
