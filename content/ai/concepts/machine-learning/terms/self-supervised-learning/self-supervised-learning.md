@@ -2,16 +2,16 @@
 Title: 'Self-Supervised Learning'
 Description: 'A machine learning paradigm that leverages unlabeled data by generating pseudo-labels from inherent structures within the data.'
 Subjects:
- - 'AI'
- - 'Machine Learning'
+  - 'AI'
+  - 'Machine Learning'
 Tags:
- - 'AI'
- - 'Deep Learning'
- - 'Machine Learning'
- - 'Unsupervised Learning'
+  - 'AI'
+  - 'Deep Learning'
+  - 'Machine Learning'
+  - 'Unsupervised Learning'
 CatalogContent:
- - 'learn-python-3'
- - 'paths/intermediate-machine-learning-skill-path'
+  - 'learn-python-3'
+  - 'paths/intermediate-machine-learning-skill-path'
 ---
 
 **Self-Supervised Learning (SSL)** is a branch of machine learning that falls between supervised and unsupervised learning. It enables models to learn meaningful representations from unlabeled data by generating pseudo-labels through pretext tasks.
