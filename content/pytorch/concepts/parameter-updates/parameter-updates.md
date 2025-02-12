@@ -30,7 +30,7 @@ Parameter updates typically involve the following steps:
 
 ## Example
 
-This code defines a simple neural network in PyTorch, computes the loss, performs backpropagation, updates the parameters using SGD, and prints the updated model weights:
+This code defines a simple neural network in PyTorch, computes the loss, performs backpropagation, updates the parameters using `SGD`, and prints the updated model weights:
 
 ```py
 import torch
