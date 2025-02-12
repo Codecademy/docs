@@ -26,7 +26,7 @@ torch.is_nonzero(input)
 
 ## Example
 
-This code demonstrates how PyTorch's `.is_nonzero()` function checks whether a tensor contains a non-zero value, returning `True` for `tensor1 (5.0)` and `False` for `tensor2 (0.0)`:
+This code demonstrates how PyTorch's `.is_nonzero()` function checks whether a tensor contains a non-zero value:
 
 ```py
 import torch
