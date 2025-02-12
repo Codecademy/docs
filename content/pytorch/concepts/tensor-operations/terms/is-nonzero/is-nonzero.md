@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.is_nonzero()`** function is used to check if a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) contains a non-zero element. It returns `True` if the tensor's element is non-zero and `False` if it is zero. This method is particularly useful for conditional checks or validation in tensor operations.
+In PyTorch, the **`.is_nonzero()`** function is used to check if a scalar [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) contains a non-zero element. It returns `True` if the tensor's element is non-zero and `False` if it is zero. This method is particularly useful for conditional checks or validation in tensor operations.
 
 ## Syntax
 
