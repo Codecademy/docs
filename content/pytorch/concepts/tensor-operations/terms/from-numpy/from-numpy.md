@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.from_numpy()`** function in PyTorch creates a tensor from a NumPy array. The returned tensor shares the same memory as the original NumPy array, so changes made to one will affect the other.
+The **`.from_numpy()`** function in PyTorch creates a tensor from a NumPy array, sharing memory with it, so changes in one affect the other.
 
 ## Syntax
 
@@ -21,27 +21,26 @@ The **`.from_numpy()`** function in PyTorch creates a tensor from a NumPy array.
 torch.from_numpy(ndarray)
 ```
 
-- `memory sharing`: The tensor shares the same memory with the NumPy array, so they are not copies. This is efficient in memory, but changes to one will affect the other.
-- `dtype`: The tensor will have the same `dtype` as the NumPy array. For example, if the array is `float64`, the tensor will be `torch.float64`.
-- `device`: The tensor is created on the CPU, as NumPy arrays are on the CPU. To move the tensor to a GPU or other device, use the `.to()` method after conversion.
-- `requires_grad`: The default value is `False`. To create a tensor that tracks gradients, set `requires_grad=True`.
+- `ndarray`: A NumPy array to be converted into a PyTorch tensor. It must be a NumPy array with a supported dtype (e.g., `float32`, `int64`).
 
 ## Example
 
 The following example uses the `.from_numpy()` function to convert a NumPy array into a PyTorch tensor:
-```
+
+```py
 import numpy as np
 import torch
 
+# Create a NumPy array
 np_array = np.array([1, 2, 3, 4])
 
+# Convert NumPy array to a PyTorch tensor (shared memory)
 tensor = torch.from_numpy(np_array)
-
 print(tensor)
 ```
-```
+
 The output is:
-```
-```
+
+```shell
 tensor([1, 2, 3, 4])
 ```
