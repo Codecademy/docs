@@ -18,7 +18,7 @@ Loss functions are a critical component in training deep learning models, as the
 
 **Custom loss functions** offer the flexibility to define domain-specific error calculations tailored to particular problems. PyTorch allows users to implement these functions by subclassing [`torch.nn`](https://www.codecademy.com/resources/docs/pytorch/nn) module or defining a simple Python function that operates on [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors). These functions are particularly useful in scenarios where unique constraints, penalties, or weighted losses are required.
 
-By creating a custom loss function, developers can enhance model performance and adapt it to specific applications such as imbalanced datasets, reinforcement learning, or multi-task learning
+By creating a custom loss function, developers can enhance model performance and adapt it to specific applications such as imbalanced datasets, reinforcement learning, or multi-task learning.
 
 ## Steps to create a Custom Loss Function in PyTorch
 
