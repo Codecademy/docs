@@ -11,7 +11,7 @@ Tags:
  - 'Unsupervised Learning'
 CatalogContent:
  - 'learn-python-3'
- - 'paths/intermediate-machine-learning-skill-path
+ - 'paths/intermediate-machine-learning-skill-path'
 ---
 
 **Weakly-Supervised Learning** is a machine learning paradigm that trains models using a small amount of labeled data alongside a large amount of unlabeled data. 
