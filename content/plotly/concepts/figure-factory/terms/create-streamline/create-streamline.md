@@ -70,8 +70,8 @@ import plotly.figure_factory as ff
 import plotly.offline as pyo
 
 # Generate evenly spaced points in the y and x axis.
-x = np.linspace(-3, 3, 2) # x axis
-y = np.linspace(-3, 3, 2) # y axis
+x = np.linspace(-3, 3, 2) # x axis.
+y = np.linspace(-3, 3, 2) # y axis.
 
 # Create 2D arrays u, v for the horizontal and vertical velocity.
 X, Y = np.meshgrid(x, y)
