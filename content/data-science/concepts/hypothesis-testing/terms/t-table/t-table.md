@@ -12,7 +12,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **t-table**, also known as the Student's t-distribution table, is a fundamental reference tool in statistical analysis that helps researchers determine whether to reject or fail to reject their null hypothesis. It provides critical values based on degrees of freedom and desired significance levels, allowing for precise statistical inference in scenarios where sample sizes are small or population standard deviation is unknown.
+The **t-table**, also known as the Student's t-distribution table, is a critical reference tool in statistical analysis. It helps researchers determine whether to reject or fail to reject their null hypothesis, particularly in cases where sample sizes are small or the population standard deviation is unknown. The table provides critical values based on degrees of freedom (df) and significance levels (α), making it essential for statistical inference.
+
+The t-distribution is bell-shaped like the normal distribution but has heavier tails, which account for variability in smaller samples. As df increases, the t-distribution gradually approaches the normal distribution.
 
 ## One-Tailed T-Test Critical Values
 
@@ -48,11 +50,24 @@ The **t-table**, also known as the Student's t-distribution table, is a fundamen
 
 ### How to Use These Tables:
 
-1. Determine whether a one-tailed is needed or two-tailed test based on the hypothesis.
-2. Calculate degrees of freedom (df = n - 1 for single sample tests).
-3. Choose the significance level (`α`).
+1.  Determine the Test Type:
+
+- **One-tailed test**: Used when testing for an effect in a specific direction (greater than or less than).
+- **Two-tailed test**: Used when testing for any significant difference, regardless of direction.
+
+2. Calculate degrees of freedom (df):
+
+- For a single-sample test: df = n - 1
+
+3. Choose the significance level (`α`):
+
+- Common values: 0.05 (5%), 0.01 (1%), 0.10 (10%)
+
 4. Find the critical value where the `df` row intersects with the chosen `α` column.
-5. Compare the calculated t-statistic with this critical value to make the decision.
+5. Compare with the t-statistic:
+
+- If the calculated t-statistic exceeds the critical value, reject the null hypothesis.
+- If it does not exceed the critical value, fail to reject the null hypothesis.
 
 **Note:**
 
