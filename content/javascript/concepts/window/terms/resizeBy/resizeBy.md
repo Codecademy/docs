@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`resizeBy()`** function under the [`window`](https://www.codecademy.com/resources/docs/javascript/window) object resizes the browser window by a specified number of pixels relative to its current size.
+The **`resizeBy()`** function under the `window` object resizes the browser window by a specified number of pixels relative to its current size.
 
 ## Syntax
 
