@@ -14,7 +14,7 @@ CatalogContent:
 --- 
 
 The **`.find()`** method in C++ searches for a specific element in a `std::set`. If the element is found, `.find()` returns an iterator pointing to the element; otherwise, it returns an iterator to `set.end()`. This method is part of the Standard Template Library (STL). 
-It allows efficient lookups in `std::set`, which is typically implemented as a balanced binary search tree. This ensures average **O(log n)** time complexity for lookups. 
+It allows efficient lookups in `std::set`, which is typically implemented as a balanced binary search tree. This ensures an average time complexity of **`O(log n)`** for lookups.
 
 ## Syntax 
 
