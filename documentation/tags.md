@@ -85,6 +85,7 @@ CSS
 CSV
 Cybersecurity
 D3
+Deployment
 Dart
 Data
 Data Parallelism
@@ -109,6 +110,7 @@ Dictionary
 Dijkstra's
 Display
 Distance
+Dimensions
 Distinct
 Div
 Django
@@ -223,12 +225,14 @@ Matrices
 Media Queries
 Memory
 Metadata
+Model Export
 Methods
 Middleware
 Models
 Modules
 Multitask Learning
 MultiTaskLasso
+Model Export
 MySQL
 Naive Bayes
 Natural Language Processing
@@ -245,6 +249,7 @@ Obsolete
 Ontologies
 OOP
 Opacity
+ONNX
 Open Source
 Operating Systems
 Operators
@@ -344,6 +349,7 @@ Technical Interviews
 Templates
 Tensor
 TensorFlow
+Ternary
 Text-To-Image
 Text Processing
 Threads
@@ -357,6 +363,7 @@ Trigonometry
 Try
 Tuples
 Types
+TorchScript
 Type Guard
 Type Narrowing
 Typography
