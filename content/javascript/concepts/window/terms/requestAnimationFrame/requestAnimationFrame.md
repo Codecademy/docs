@@ -13,19 +13,15 @@ CatalogContent:
   - 'introduction-to-javascript'
 ---
 
-The **`requestAnimationFrame()`** is a function provided by the browser that schedules a function to run before the next repaint. It is used to create smooth animations.
+**`requestAnimationFrame()`** is a function offered by the browser that schedules a function to run before the next repaint. It is used to create smooth animations.
 
 ## Syntax
-
-The `requestAnimationFrame()` function takes one parameter.
 
 ```pseudo
 requestAnimationFrame(callback)
 ```
 
-`requestAnimationFrame()` takes the following parameter:
-
-- The `callback` function that will be executed before the next repaint.
+- `callback`: The callback function to be executed before the next repaint.
 
 ## Example
 
@@ -49,27 +45,4 @@ function animate() {
 requestAnimationFrame(animate);
 ```
 
-Expected output:
-
-```shell
-An HTML element with the id="box" horizontally across the screen by 2 pixels per frame until it reaches 300 pixels.
-```
-
-## Codebyte Example
-
-In the following example, `requestAnimationFrame()` is used to `animate a bouncing ball`:
-
-```codebyte/javascript
-const ball = document.getElementById("ball");
-let y = 0, speed = 3;
-
-function bounce() {
-  y += speed;
-  if (y > 150 || y < 0) speed = -speed;
-  ball.style.transform = `translateY(${y}px)`;
-
-  requestAnimationFrame(bounce);
-}
-
-requestAnimationFrame(bounce);
-```
+This example moves an HTML element with `id="box"` horizontally across the screen by 2 pixels per frame until it reaches 300 pixels.
