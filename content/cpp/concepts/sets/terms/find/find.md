@@ -148,7 +148,7 @@ Name found: Bob
 
 ## Codebyte Example 
 
-This example demonstrates a simple use of `.find()` in a C++ set. It checks for the presence of a specific integer in a set and prints whether the element was found or not. 
+This example demonstrates a simple use of `.find()` in a C++ STL set. It checks for the presence of a specific integer in a set and prints whether the element was found or not. 
 
 ```codebyte/cpp 
 #include <iostream> 
