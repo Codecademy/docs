@@ -41,10 +41,8 @@ An alternative way to create a code block is by adding four `spaces` before each
 The result will look like this:
 
 ```
-{
     This is a line of code.
     This is a line of code.
-}
 ```
 
 ## Syntax Highlighting
