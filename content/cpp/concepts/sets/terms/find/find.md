@@ -32,7 +32,6 @@ std::set<data_type>::iterator set_name.find(const data_type &value);
 - If the element is found, it returns an iterator pointing to the element. 
 - If the element is not found, it returns an iterator to `set.end()`. 
 
-Before diving into real-world applications, let's start with a generic example that demonstrates the fundamental usage of `.find()` in a `std::set`. 
 
 ## Example 1 - How to find an element in an array using `.find()` 
 
