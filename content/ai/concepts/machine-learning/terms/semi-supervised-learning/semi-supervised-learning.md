@@ -40,12 +40,13 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.semi_supervised import SelfTrainingClassifier
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
 
 # Load dataset
 X, y = datasets.load_digits(return_X_y=True)
 
 # Create a mask to simulate unlabeled data (-1 represents unlabeled samples)
-unlabled_mask = np.random.rand(len(y)) < 0.8
+unlabeled_mask = np.random.rand(len(y)) < 0.8
 y_unlabeled = np.copy(y)
 y_unlabeled[unlabeled_mask] = -1
 
@@ -61,8 +62,12 @@ self_training_model = SelfTrainingClassifier(base_classifier)
 # Train the model
 self_training_model.fit(X_train, y_train)
 
+# Get predictions only for labeled test samples
+y_test_true = y[~unlabeled_mask][-len(y_test):]
+y_pred = self_training_model.predict(X_test)
+
 # Evaluate the model
-accuracy = self_training_model.score(X_test, y[~unlabeled_mask])
+accuracy = accuracy_score(y_test_true, y_pred)
 print(f"Semi-Supervised Model Accuracy: {accuracy:.2f}")
 ```
 
