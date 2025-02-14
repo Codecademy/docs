@@ -2,19 +2,19 @@
 Title: 'Weakly-Supervised Learning'
 Description: 'A machine learning approach that uses limited labeled data alongside large amounts of unlabeled data for training models.'
 Subjects:
- - 'AI'
- - 'Machine Learning'
+  - 'AI'
+  - 'Machine Learning'
 Tags:
- - 'AI'
- - 'Machine Learning'
- - 'Supervised Learning'
- - 'Unsupervised Learning'
+  - 'AI'
+  - 'Machine Learning'
+  - 'Supervised Learning'
+  - 'Unsupervised Learning'
 CatalogContent:
- - 'learn-python-3'
- - 'paths/intermediate-machine-learning-skill-path'
+  - 'learn-python-3'
+  - 'paths/intermediate-machine-learning-skill-path'
 ---
 
-**Weakly-Supervised Learning** is a machine learning paradigm that trains models using a small amount of labeled data alongside a large amount of unlabeled data. 
+**Weakly-Supervised Learning** is a machine learning paradigm that trains models using a small amount of labeled data alongside a large amount of unlabeled data.
 
 This approach is particularly valuable when obtaining fully labeled datasets is costly or impractical. By incorporating elements of both supervised and unsupervised learning, it bridges the gap between the two, enabling more efficient model training with minimal labeled data.
 
