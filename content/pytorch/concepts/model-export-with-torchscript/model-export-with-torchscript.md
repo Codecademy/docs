@@ -1,7 +1,7 @@
 ---
 Title: 'Model Export with TorchScript'
 Description: 'Convert PyTorch models to TorchScript for optimized deployment in non-Python environments like mobile and embedded systems.'
-Subject:
+Subjects:
   - 'Computer Science'
   - 'Data Science'
   - 'Machine Learning'
