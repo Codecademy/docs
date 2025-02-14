@@ -223,6 +223,7 @@ Matrices
 Media Queries
 Memory
 Metadata
+Model Export
 Methods
 Middleware
 Models
@@ -358,6 +359,7 @@ Trigonometry
 Try
 Tuples
 Types
+TorchScript
 Type Guard
 Type Narrowing
 Typography
