@@ -13,11 +13,11 @@ CatalogContent:
   - 'introduction-to-javascript'
 ---
 
-**`reportError()`** is a function of the window interface that is used to report errors to the console or global event listeners, such as browser's error handler. It ensures that the errors are properly reported and improves debugging and monitoring.
+**`reportError()`** is a function of the `window` interface that is used to report errors to the console or global event listeners, such as browser's error handler. It ensures that the errors are properly reported and improves debugging and monitoring.
 
 ## Syntax
 
-The `reportError()` method takes in an instance of [Error](https://www.codecademy.com/resources/docs/javascript/errors) object as a single parameter.
+The `reportError()` function takes in an instance of the [`Error`](https://www.codecademy.com/resources/docs/javascript/errors) object as a single parameter:
 
 ```pseudo
 window.reportError(error);
@@ -34,12 +34,12 @@ window.reportError(myError);
 
 ## Example 2
 
-The `reportError()` can also be used with the `try..catch` statement:
+The `reportError()` function can also be used with the `try..catch` statement:
 
 ```js
 try {
-    throw new Error("Wrong execution!");
+  throw new Error("Wrong execution!");
 } catch (error) {
-    window.reportError(error);
+  window.reportError(error);
 }
 ```
