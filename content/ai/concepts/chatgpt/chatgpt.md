@@ -19,20 +19,20 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**ChatGPT** is an AI-powered chatbot developed by **OpenAI**, built on large language models (LLM) like GPT-4 (Generative Pre-Trained Transformer). It generates human-like text responses by analyzing input context and predicting the most likely continuation of a conversation. ChatGPT is widely used for content creation, coding assitance, customer service, and more.
+[**ChatGPT**](https://chatgpt.com) is an AI-powered chatbot developed by **OpenAI**, built on Large Language Models (LLMs) like GPT-4 (Generative Pre-Trained Transformer). It generates human-like text responses by analyzing input context and predicting the most likely continuation of a conversation. ChatGPT is widely used for content creation, coding assistance, customer service, and more.
 
 ## How ChatGPT Works
 
-**ChatGPT** is based on**transformer neural networks**, an AI architecture designed for handling sequential text data. It predicts words based on patterns it has learned during training. Other notable LLMs include **BERT** (used by Google for search), **Claude** (Anthropic's AI model), and Mistral (an open-source competitor).
+**ChatGPT** is based on **transformer neural networks**, an AI architecture designed for handling sequential text data. It predicts words based on patterns it has learned during training. Other notable LLMs include **BERT** (used by Google for search), **Claude** (Anthropic's AI model), and **Mistral** (an open-source competitor).
 
 ### What Sets ChatGPT Apart from Search Engines?
 
 ChatGPT differs from search engines in several ways:
 
-- Does not browse the internet in real-time (unless using specific plugins or connected to retrieval-based systems).
-- Knowledge is limited to training data, meaning it lacks awareness of recent events unless fine-tuned.
-- Does not retrieve exact sources but instead generates responses based on patterns.
-- Uses Reinforcement Learning from Human Feedback (RLHF) to improve quality and alignment with human expectations.
+- It does not browse the internet in real-time (unless using specific plugins or connected to retrieval-based systems).
+- Its knowledge is limited to training data, meaning it lacks awareness of recent events unless fine-tuned.
+- It does not retrieve exact sources but instead generates patterns-based responses.
+- It uses **Reinforcement Learning from Human Feedback (RLHF)** to improve quality and alignment with human expectations.
 
 ## Advancements in ChatGPT
 
@@ -65,7 +65,7 @@ While RNNs are very useful for language translation, they do not scale well with
 
 ### Breakthrough with Transformers
 
-The breakthrough that allowed BERT and ChatGPT-based models is called **transformers**, introduced in a paper from 2017 entitled _“Attention is all you need”_. It was presented as a way to build machine translation but to have much faster parallel execution. It also introduced a new concept called _Self Attention_ to further make sense of long language sequences. It creates connections between different parts of the sequence. This allowed for highly scalable and efficient text generation, leading to models like GPT-3, GPT-4, and beyond.
+The breakthrough that allowed BERT and ChatGPT-based models is called **transformers**, introduced in a paper from 2017 entitled [_“Attention is all you need”_](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need). It was presented as a way to build machine translation with much faster parallel execution. It also introduced a new concept called _Self Attention_ to make sense of long language sequences further. It creates connections between different parts of the sequence. This allowed for highly scalable and efficient text generation, leading to models like GPT-3, GPT-4, and beyond.
 
 So how does it all work? In the transformer-based model, each word is transformed into a token. As tokens are read as part of an input sentence the model starts predicting what the output should be - similar in concept to sentence completion.
 
