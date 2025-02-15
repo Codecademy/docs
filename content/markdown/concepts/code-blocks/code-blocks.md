@@ -45,6 +45,8 @@ The result will look like this:
     This is a line of code.
 ```
 
+However, the recommended way to create a code block in GitHub Markdown is using triple backticks (```).
+
 ## Syntax Highlighting
 
 Optionally, a language can be specified for a code block to enable syntax highlighting. This can be done by appending the language to the starting backticks. The indent lines method (four `spaces`) does not support syntax highlighting, so using the former method is preferred:
