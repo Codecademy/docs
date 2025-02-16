@@ -91,8 +91,4 @@ for epoch in range(100):
 print("Self-supervised model training complete!")
 ```
 
-If the code runs successfully, the output will be:
-
-```shell
-Self-supervised model training complete!
 This approach trains a model to reconstruct input data, allowing it to learn meaningful features without labeled supervision.
