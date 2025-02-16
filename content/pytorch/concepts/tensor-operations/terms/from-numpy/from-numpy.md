@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.from_numpy()`** function in PyTorch creates a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) from a NumPy array, sharing memory with it, so changes in one affect the other.
+The **`.from_numpy()`** function in PyTorch creates a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) from a NumPy array, sharing the underlying memory. Changes to the NumPy array will affect the tensor. However, only in-place operations on the tensor will affect the NumPy array, while operations that create new tensors will not.
 
 ## Syntax
 
-```python
+```pseudo
 torch.from_numpy(ndarray)
 ```
 
