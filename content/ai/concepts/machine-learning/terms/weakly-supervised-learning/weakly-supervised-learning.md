@@ -32,10 +32,10 @@ For example, in Python using the `scikit-learn` library, weakly-supervised learn
 # 1. Load or generate labeled and unlabeled data
 data = [labeled_data, unlabeled_data]
 
-# 2. Select a weakly supervised learning technique:
-- Semi-supervised learning (uses a small labeled dataset with a large unlabeled dataset)
-- Weak labeling (uses noisy or incomplete labels)
-- Distant supervision (uses external sources for labeling)
+# 2. Select a weakly-supervised learning technique:
+- Semi-supervised learning
+- Weak labeling
+- Distant supervision
 
 # 3. Apply the selected weak supervision method:
 - Train a model using weak supervision
@@ -71,6 +71,12 @@ model.fit(X_train, y_train)
 # Predict labels for all data points
 predicted_labels = model.predict(X_train)
 print(predicted_labels)  # Outputs predicted labels, including inferred ones
+```
+
+Here is the output:
+
+```shell
+[0 0 0 1 1 1]
 ```
 
 Weakly-supervised learning is widely used in fields like natural language processing, medical diagnosis, and autonomous systems, where fully labeled data is scarce or expensive to obtain.
