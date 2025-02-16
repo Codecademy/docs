@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**`scroll()`** is a method of the global [`window`](https://www.codecademy.com/resources/docs/javascript/window) object that programmatically scrolls the document to a specified position.
+**`scroll()`** is a method of the global `window` object that programmatically scrolls the document to a specified position.
 
 ## Syntax
 
-The `scroll()` method accepts either two numerical parameters (`x` and `y` coordinates) or an object with specific properties that control scrolling behavior.
+The `scroll()` method accepts either two numerical parameters (`x` and `y` coordinates) or a particular object with specific properties that control scrolling behavior:
 
 ```pseudo
 window.scroll(x, y)
@@ -35,12 +35,12 @@ window.scroll(options)
   - `top`: Vertical position in pixels.
   - `left`: Horizontal position in pixels.
   - `behavior`: Defines the scrolling behavior:
-    - `"auto"` (default): Instantly jumps to position.
+    - `"auto"` (Default): Instantly jumps to position.
     - `"smooth"`: Animates the scroll movement.
 
 ## Example 1
 
-The following example instantly scrolls the page to the top-left (0,0) position:
+The following example instantly scrolls the page to the top-left (0, 0) position:
 
 ```js
 window.scroll(0, 0);
@@ -48,12 +48,12 @@ window.scroll(0, 0);
 
 ## Example 2
 
-The following example smoothly scrolls 500 pixels down while keeping the horizontal position unchanged:
+The following example smoothly scrolls the page 500 pixels down while keeping the horizontal position unchanged:
 
 ```js
 window.scroll({
   top: 500,
   left: 0,
-  behavior: "smooth"
+  behavior: 'smooth',
 });
 ```
