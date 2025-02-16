@@ -18,7 +18,7 @@ CatalogContent:
 
 SSL is widely applied in domains such as natural language processing (NLP), computer vision, and speech recognition.
 
-## Syntax
+## Pipeline
 
 Self-Supervised Learning (SSL) follows a structured pipeline consisting of the following steps:
 
