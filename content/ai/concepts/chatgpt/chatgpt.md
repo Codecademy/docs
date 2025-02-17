@@ -1,6 +1,6 @@
 ---
 Title: 'ChatGPT'
-Description: 'ChatGPT an AI-powered chatbot by OpenAI, built on large language models (LLMs) like GPT-4, generating human-like responses through deep learning.'
+Description: 'ChatGPT is an AI-powered chatbot developed by OpenAI, built on large language models (LLMs) like GPT-4, and designed to generate human-like responses using deep learning.'
 Subjects:
   - 'AI'
   - 'Data Science'
