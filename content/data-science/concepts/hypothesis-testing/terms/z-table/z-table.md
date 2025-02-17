@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **Z-table**, also known as the standard normal table, is a normal distribution with a mean of _0_ and a standard deviation of _1_. It is used to convert raw scores into standardized z-scores, which help in comparing different data points relative to the mean.
-
-Z-scores indicate how many standard deviations a data point is from the mean:
+The **Z-table** is a statistical reference that shows cumulative probabilities for z-scores in a standard normal distribution (which has a mean of _0_ and standard deviation of _1_). The table helps find probabilities associated with z-scores, where:
 
 - **Positive z-values** represent values **above** the mean.
 - **Negative z-values** represent values **below** the mean.
