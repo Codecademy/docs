@@ -48,7 +48,7 @@ The t-distribution is bell-shaped like the normal distribution but has heavier t
 | 60                      | 1.296    | 1.671    | 2.000    | 2.390    | 2.660    |
 | ∞                       | 1.282    | 1.645    | 1.960    | 2.326    | 2.576    |
 
-### How to Use These Tables:
+### How to Use These Tables
 
 1. **Determine the Test Type**:
 
