@@ -58,7 +58,7 @@ fig = ff.create_table(data)
 # Show figure
 fig.show()
 ```
-**Output:**
+The code above produces the following output:
 
 The code depicted above produces the following output:
 
