@@ -40,7 +40,7 @@ model.eval()  # Set to evaluation mode if needed
 
 ## Example
 
-Below is a simple example demonstrating how to save and load a model:
+Here is an example demonstrating how to save and load a model in PyTorch:
 
 ```py
 import torch
