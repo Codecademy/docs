@@ -41,7 +41,7 @@ plotly.figure_factory.create_table(data, index=True, **kwargs)
 
 The following example showcases the use of the `.create_table()` function:
 
-```python
+```py
 import plotly.figure_factory as ff
 import pandas as pd
 
