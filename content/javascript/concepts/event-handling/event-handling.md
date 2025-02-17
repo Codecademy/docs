@@ -6,6 +6,7 @@ Subjects:
   - 'Web Development'
 Tags:
   - 'Events'
+  - 'Event Handling'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/create-a-back-end-app-with-javascript'
