@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Saving model states in PyTorch allows users to store and reload model parameters, ensuring continuity in training, easy model sharing, and smooth deployment. This capability helps in maintaining progress during long training sessions, enables collaboration by allowing models to be shared, and simplifies deployment by ensuring models can be easily reloaded in production environments. Additionally, saving model states aids in experimentation, where different model versions can be compared and analyzed.
+**Saving model states** in PyTorch allows users to store and reload model parameters, ensuring continuity in training, easy model sharing, and smooth deployment. This capability helps in maintaining progress during long training sessions, enables collaboration by allowing models to be shared, and simplifies deployment by ensuring models can be easily reloaded in production environments. Additionally, saving model states aids in experimentation, where different model versions can be compared and analyzed.
 
 ## Syntax
 
