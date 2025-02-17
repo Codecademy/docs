@@ -23,18 +23,14 @@ The **`.create_table()`** is a function in the Plotly's [`figure_factory`](https
 ## Syntax
 
 ```pseudo
-plotly.figure_factory.create_table(data, index=True, **kwargs)
+plotly.figure_factory.create_table(table_text, index=True, font_color=None, index_title=' ',**kwargs)
 ```
 
 ### Parameters
-- `data` (list of lists or Pandas DataFrame): The table data to be displayed.
+- `table_text` (list of lists or Pandas DataFrame): The table data to be displayed.
 - `index` (bool, default=`True`): Whether to include index values when using a Pandas DataFrame.
-- `colorscale` (str or list of lists, optional): Defines the color scale for the table. The default is `[[0, '#66b2ff'], [0.5, '#d9d9d9'], [1, '#ffffff']]`, where `0` corresponds to the header color, `0.5` to the first row color, and `1` to the second row color. Adjusting `0.5` and `1` can remove the striped effect.
 - `font_colors` (list, optional): Specifies the font colors for the table text. It can be a single color for all text, three colors, or a color for each row. The default is `['#000000'] `(black text for the entire table).
 - `index_title` (str, optional): Sets the title for the index column. The default is an empty string.
-- `annotation_offset` (float, optional): Offsets the annotations within the table cells. The default is `0.45`.
-- `height_constant` (int, default=30): A constant multiplied by the number of rows to determine the table's height.
-- `hoverinfo` (str, optional): Specifies the hover information. The default is`'none'`.
 - `**kwargs`: Additional keyword arguments passed to [plotly.graph_objects.Heatmap](https://github.com/Codecademy/docs/blob/main/content/plotly/concepts/graph-objects/terms/heatmap/heatmap.md) for further customization.
 
 ## Example
@@ -60,6 +56,4 @@ fig.show()
 ```
 The code above produces the following output:
 
-The code depicted above produces the following output:
-
-![Output of plotly.figure_factory.create_table() function example]() _image needs to be added_
+![Output of plotly.figure_factory.create_table() function example](https://raw.githubusercontent.com/ManaRaza987/create_table_entry/content/plotly/concepts/figure-factory/terms/create-table/media/create_table_fig.png) 
