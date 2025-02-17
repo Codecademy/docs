@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Algorithms'
   - 'Conceptual'
+  - 'DOM'
   - 'Dynamic Programming'
 CatalogContent:
   - 'introduction-to-javascript'
