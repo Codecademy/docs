@@ -1,24 +1,21 @@
 ---
-Title: 'Create table' #I believe this is the only viable title for this file
-Description: 'New term entry for the `create_table()` function in plotly, Python' #Simple description of the intended goal
-Subjects: # request fulfilled from subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md)
+Title: '.create_table()'
+Description: 'Creates a table visualization from a list of lists or a pandas DataFrame.'
+Subjects:
 - 'Computer Science'
 - 'Data Science'
 - 'Data Visulisation'
-Tags: # request fulfilled from tags.md (https://github.com/Codecademy/docs/blob/main/documentation/tags.md)
+Tags:
 - 'APIs'
 - 'Data Structures'
-- 'Data Visualization'
 - 'Documentation'
 - 'Functions'
 - 'Plotly'
 - 'Python'
-- 'Plotly Graph Objects'
 - 'Tables'
 CatalogContent:
 - 'learn-python-3'
 - 'paths/computer-science'
-- 'paths/data-science'
 ---
 
 # Create_table() - Plotly
