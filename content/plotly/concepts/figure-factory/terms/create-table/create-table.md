@@ -37,9 +37,6 @@ plotly.figure_factory.create_table(data, index=True, **kwargs)
 - `hoverinfo` (str, optional): Specifies the hover information. The default is`'none'`.
 - `**kwargs`: Additional keyword arguments passed to [plotly.graph_objects.Heatmap](https://github.com/Codecademy/docs/blob/main/content/plotly/concepts/graph-objects/terms/heatmap/heatmap.md) for further customization.
 
-### Returns
-- A Plotly `figure` object containing the table visualization.
-
 ## Example
 
 The following example showcases the use of the `create_table()` function:
