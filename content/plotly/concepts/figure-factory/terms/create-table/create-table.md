@@ -22,7 +22,7 @@ The **`.create_table()`** is a function in the Plotly's [`figure_factory`](https
 
 ## Syntax
 
-```python
+```pseudo
 plotly.figure_factory.create_table(data, index=True, **kwargs)
 ```
 
