@@ -56,4 +56,4 @@ fig.show()
 ```
 The code above produces the following output:
 
-![Output of plotly.figure_factory.create_table() function example](https://raw.githubusercontent.com/ManaRaza987/create_table_entry/content/plotly/concepts/figure-factory/terms/create-table/media/create_table_fig.png) 
+![Output of plotly.figure_factory.create_table() function example](https://raw.githubusercontent.com/Codecademy/docs/main/media/create_table_fig.png) 
