@@ -50,24 +50,24 @@ The t-distribution is bell-shaped like the normal distribution but has heavier t
 
 ### How to Use These Tables:
 
-1.  Determine the Test Type:
+1. **Determine the Test Type**:
 
-- **One-tailed test**: Used when testing for an effect in a specific direction (greater than or less than).
-- **Two-tailed test**: Used when testing for any significant difference, regardless of direction.
+   - **One-tailed test**: Used when testing for an effect in a specific direction (greater than or less than).
+   - **Two-tailed test**: Used when testing for any significant difference, regardless of direction.
 
-2. Calculate degrees of freedom (df):
+2. **Calculate degrees of freedom (df)**:
 
-- For a single-sample test: df = n - 1
+   - For a single-sample test: \( df = n - 1 \)
 
-3. Choose the significance level (`α`):
+3. **Choose the significance level (\(\alpha\))**:
 
-- Common values: 0.05 (5%), 0.01 (1%), 0.10 (10%)
+   - Common values: 0.05 (5%), 0.01 (1%), 0.10 (10%)
 
-4. Find the critical value where the `df` row intersects with the chosen `α` column.
-5. Compare with the t-statistic:
+4. **Find the critical value** where the `df` row intersects with the chosen \(\alpha\) column.
 
-- If the calculated t-statistic exceeds the critical value, reject the null hypothesis.
-- If it does not exceed the critical value, fail to reject the null hypothesis.
+5. **Compare with the t-statistic**:
+   - If the calculated t-statistic exceeds the critical value, reject the null hypothesis.
+   - If it does not exceed the critical value, fail to reject the null hypothesis.
 
 **Note:**
 
