@@ -18,7 +18,7 @@ CatalogContent:
 - 'paths/computer-science'
 ---
 
-[The **`create_table()`** is a function in the Plotly's [`figure_factory`](https://www.codecademy.com/resources/docs/plotly/figure-factory) module (_Python Libray_). It accepts data in the form of a list of lists or a **Pandas DataFrame** and returns a Plotly Figure object representing the table.]
+The **`.create_table()`** is a function in the Plotly's [`figure_factory`](https://www.codecademy.com/resources/docs/plotly/figure-factory) module in Python. It accepts data in the form of a list of lists or a [Pandas DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) and returns a Plotly Figure object representing the table.
 
 ## Syntax
 
