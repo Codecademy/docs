@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/intermediate-machine-learning-skill-path'
 ---
 
-**Semi-Supervised Learning** is a machine learning approach that combines elements of both [**supervised learning**](https://www.codecademy.com/resources/docs/ai/machine-learning/supervised-learning) and unsupervised learning. It is particularly useful when a dataset contains a small amount of labeled data and a large amount of unlabeled data.
+**Semi-Supervised Learning** is a machine learning approach that combines elements of both [supervised learning](https://www.codecademy.com/resources/docs/ai/machine-learning/supervised-learning) and unsupervised learning. It is particularly useful when a dataset contains a small amount of labeled data and a large amount of unlabeled data.
 
 By leveraging patterns in the unlabeled data, semi-supervised learning improves model accuracy and generalization while reducing the reliance on extensive labeled datasets.
 
@@ -48,10 +48,13 @@ X, y = datasets.load_digits(return_X_y=True)
 # Create a mask to simulate unlabeled data (-1 represents unlabeled samples)
 unlabeled_mask = np.random.rand(len(y)) < 0.8
 y_unlabeled = np.copy(y)
-y_unlabeled[unlabeled_mask] = -1
+y_unlabeled[unlabeled_mask] = -1  # Set 80% of labels to -1 (unlabeled)
 
 # Split into training and test sets
-X_train, X_test, y_train, y_test = train_test_split(X, y_unlabeled, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test_masked = train_test_split(X, y_unlabeled, test_size=0.2, random_state=42)
+
+# Get the true labels for the test set
+_, y_test_true = train_test_split(y, test_size=0.2, random_state=42)  # True labels for evaluation
 
 # Define the base classifier
 base_classifier = RandomForestClassifier(n_estimators=100, random_state=42)
@@ -62,8 +65,7 @@ self_training_model = SelfTrainingClassifier(base_classifier)
 # Train the model
 self_training_model.fit(X_train, y_train)
 
-# Get predictions only for labeled test samples
-y_test_true = y[~unlabeled_mask][-len(y_test):]
+# Get predictions
 y_pred = self_training_model.predict(X_test)
 
 # Evaluate the model
@@ -71,4 +73,10 @@ accuracy = accuracy_score(y_test_true, y_pred)
 print(f"Semi-Supervised Model Accuracy: {accuracy:.2f}")
 ```
 
-This example demonstrates the use of a Self-Training classifier, where an initial model is trained on labeled data and iteratively labels the unlabeled data to improve its learning capability.
+This example demonstrates the use of a Self-Training classifier, where an initial model is trained on labeled data and iteratively labels the unlabeled data to improve its learning capability. The output of this code will be:
+
+```shell
+Semi-Supervised Model Accuracy: 0.89
+```
+
+> **Note:** Since the dataset splitting and unlabeled mask generation involve randomness (`np.random.rand()` and `train_test_split()`), the accuracy may change slightly each time unless a fixed random seed (`np.random.seed()`) is set before creating the mask.
