@@ -62,7 +62,6 @@ Displays the cumulative probability of a value occurring below a negative Z-scor
 1. **Calculate the Z-Score**: Determine the z-score based on the data point’s distance from the mean.
 2. **Locate the Z-Score**: Find the first decimal in the left column and the second decimal in the top row; their intersection gives the probability.
 3. **Interpret the Probability**:
-
-- **Left-tail table**: The value represents the probability to the left of Z.
-- **Right-tail**: Subtract from 1 to get the probability to the right.
-- **Between two z-scores**: Subtract the smaller probability from the larger one to find the probability of a value falling between two z-scores.
+  - **Left-tail table**: The value represents the probability to the left of Z.
+  - **Right-tail**: Subtract from 1 to get the probability to the right.
+  - **Between two z-scores**: Subtract the smaller probability from the larger one to find the probability of a value falling between two z-scores.
