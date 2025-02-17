@@ -1,1 +1,1 @@
-content/react/concepts/components/components.md
+content/postgresql/concepts/comments/comments.md
