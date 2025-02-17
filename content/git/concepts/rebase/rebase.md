@@ -48,16 +48,16 @@ git rebase --interactive <base>
 
 ### Merge Commit
 
-Merge commits integrate a feature branch into the main branch, keeping the full commit history and adding a **merge commit** to record the integration.
+**Merge commits** integrate a feature branch into the main branch, keeping the full commit history and adding a merge commit to record the integration.
 
 **Scenario:**
 
 - Your main branch has two commits.
 - You create a feature branch and make two commits, and your team adds a commit to the main branch.
-- When you merge the feature branch into the main branch, a **merge commit** is added, preserving the history of all feature branch commits.
+- When you merge the feature branch into the main branch, a merge commit is added, preserving the history of all feature branch commits.
 
 ```shell
-# Create a feature branch and switch to it
+# Create and switch to a feature branch
 git checkout -b feature-branch
 
 # Make two commits on the feature branch
@@ -83,7 +83,6 @@ git merge feature-branch
 |/
 * 4e3d2f1 Main Commit 2
 * 1a2b3c4 Main Commit 1
-
 ```
 
 **Pros:**
@@ -98,7 +97,7 @@ git merge feature-branch
 
 ## Squash Commit
 
-Squash commits condense multiple commits from a feature branch into a single commit when merging into the main branch.
+**Squash commits** condense multiple commits from a feature branch into a single commit while merging into the main branch.
 
 **Scenario:**
 
@@ -107,7 +106,7 @@ Squash commits condense multiple commits from a feature branch into a single com
 - When you squash merge, the two feature branch commits are combined into one and added as a single commit on top of the main branch.
 
 ```shell
-# Create a feature branch and switch to it
+# Create and switch to a feature branch
 git checkout -b feature-branch
 
 # Make two commits on the feature branch
@@ -130,7 +129,6 @@ git commit -m "Squashed Feature Commit"
 * 6a5f4c3 Main Commit 3
 * 4e3d2f1 Main Commit 2
 * 1a2b3c4 Main Commit 1
-
 ```
 
 **Pros:**
@@ -144,7 +142,7 @@ git commit -m "Squashed Feature Commit"
 
 ## Rebase Merge
 
-Rebase merges integrate commits from a feature branch by "replaying" them onto the main branch without adding a merge commit. This results in a linear history.
+**Rebase merges** integrate commits from a feature branch by _replaying_ them onto the main branch without adding a merge commit. This results in a linear history.
 
 **Scenario:**
 
@@ -153,7 +151,7 @@ Rebase merges integrate commits from a feature branch by "replaying" them onto t
 - When rebasing, the two feature branch commits are applied on top of the latest main branch commit, creating a straight-line history.
 
 ```shell
-# Create a feature branch and switch to it
+# Create and switch to a feature branch
 git checkout -b feature-branch
 
 # Make two commits on the feature branch
@@ -167,7 +165,6 @@ git commit -m "Main branch commit"
 # Rebase the feature branch onto main
 git checkout feature-branch
 git rebase main
-
 ```
 
 **Terminal Output:**
@@ -178,7 +175,6 @@ git rebase main
 * 6a5f4c3 Main Commit 3
 * 4e3d2f1 Main Commit 2
 * 1a2b3c4 Main Commit 1
-
 ```
 
 **Pros:**
@@ -193,6 +189,6 @@ git rebase main
 
 ## Considerations for Using Git Rebase
 
-> Avoid rebasing on the main branch.
-> Use rebase only on local branches.
-> Never rebase a branch after it has been pushed to a shared repository.
+- Avoid rebasing on the main branch.
+- Use rebase only on local branches.
+- Never rebase a branch after it has been pushed to a shared repository.
