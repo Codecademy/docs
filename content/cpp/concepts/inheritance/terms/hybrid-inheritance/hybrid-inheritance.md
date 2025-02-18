@@ -65,11 +65,11 @@ public:
 
 int main() {
   Child myChild;
-  
+
   myChild.method1();    // Inherited from Parent1
   myChild.method2();    // Inherited from Parent2
   myChild.method3();    // Defined in Child
-  
+
   return 0;
 }
 ```
@@ -97,7 +97,7 @@ protected:
 
 public:
   Person(std::string n, int a) : name(n), age(a) {}
-  
+
   virtual void displayInfo() {
     std::cout << "Name: " << name << "\nAge: " << age << std::endl;
   }
@@ -109,7 +109,7 @@ protected:
 
 public:
   Employee(int i) : id(i) {}
-  
+
   virtual void displayInfo() {
     std::cout << "ID: " << id << std::endl;
   }
@@ -122,7 +122,7 @@ private:
 public:
   Manager(std::string name, int age, int id, std::string dept)
     : Person(name, age), Employee(id), department(dept) {}
-  
+
   void displayInfo() override {
     Person::displayInfo();
     Employee::displayInfo();
