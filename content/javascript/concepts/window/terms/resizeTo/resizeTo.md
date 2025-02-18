@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.resizeTo()`** function resizes the browser window to the specified width and height in pixels.
+In JavaScript, the **`.resizeTo()`** function resizes the browser window to the given width and height in pixels.
 
 ## Syntax
 
@@ -21,8 +21,8 @@ The **`.resizeTo()`** function resizes the browser window to the specified width
 window.resizeTo(width, height);
 ```
 
-- `width` : The new width of the window in pixels after resizing.
-- `height` : The new height of the window in pixels after resizing.
+- `width`: Indicates the width of the window in pixels after resizing.
+- `height`: Indicates the height of the window in pixels after resizing.
 
 ## Example
 
