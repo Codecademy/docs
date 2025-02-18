@@ -1,3 +1,4 @@
+---
 Title: 'Multimodal models'
 Description: 'Multimodal models process and integrate multiple data types, such as text, images, and audio, to enhance AI capabilities and improve decision-making.'
 Subjects:
@@ -12,7 +13,7 @@ CatalogContent:
 
 **Multimodal models** are AI systems capable of processing and integrating multiple types of data, such as text, images, audio, and video. These models enhance machine understanding and decision-making by leveraging information from different modalities simultaneously.
 
-## Why Multimodal AI?
+## Why use Multimodal AI?
 
 Traditional AI models are often unimodal, meaning they work with only one type of data (e.g., text-only or image-only). However, real-world data is inherently multimodal. For example:
 
@@ -44,8 +45,6 @@ Multimodal AI models process different data types by:
 - **Data Alignment**: Ensuring that different modalities correctly correspond (e.g., matching text to the right image).
 - **Computational Complexity**: Processing multiple data streams requires more power and memory.
 - **Interpretability**: Understanding how AI integrates information across modalities remains a challenge.
-
-Multimodal AI continues to advance, leading to more intuitive, context-aware AI systems that can interact with the world like humans.
 
 ## Implementation structure
 
