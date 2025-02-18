@@ -24,7 +24,7 @@ Event handling is essential for making web pages interactive and dynamic. It all
 
 ## How do Event Handlers work?
 
-When an event is triggered, the event handler function is executed to respond to the action.
+When an event occurs, the associated handler function executes, responding to the user’s action. This process involves three key steps:
 
 1. **Event Binding:**
    First, an event handler is bound to an element. This can be done through inline HTML attributes, as DOM properties, or by using the `addEventListener` method. Binding links the event (like a click) to the function that should run when that event occurs.
