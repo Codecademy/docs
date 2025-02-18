@@ -26,11 +26,6 @@ Event handling is essential for making web pages interactive and dynamic. It all
 
 When an event occurs, the associated handler function executes, responding to the user’s action. This process involves three key steps:
 
-1. **Event Binding:**
-   First, an event handler is bound to an element. This can be done through inline HTML attributes, as DOM properties, or by using the `addEventListener` method. Binding links the event (like a click) to the function that should run when that event occurs.
-
-2. **Event Triggering:**
-   When a user interacts with an element (e.g., clicking a button), the event is triggered. This action sends an event object to the handler, providing details about the event (like which key was pressed or where the mouse was clicked).
-
-3. **Event Execution:**
-   The event handler function executes, performing the defined action (e.g., showing an alert, changing content, or submitting a form).
+1. **Event Binding**: The event handler is attached to an element using inline HTML attributes, DOM properties, or the `addEventListener` method. This links the event (e.g., a button click) to a function that should run when the event occurs.
+2. **Event Triggering**: When a user interacts with an element (e.g., clicking a button), the event is triggered. This action sends an event object to the handler, providing details about the event (like which key was pressed or where the mouse was clicked).
+3. **Event Execution**: The event handler function executes, performing the defined action (e.g., showing an alert, changing content, or submitting a form).
