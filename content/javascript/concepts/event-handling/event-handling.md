@@ -18,9 +18,9 @@ Event handling is essential for making web pages interactive and dynamic. It all
 
 ## Types of Event Handlers
 
-- **Inline Event Handlers:** Event handlers can be added directly within HTML elements using attributes like `onclick`, `onmouseover`, etc.
-- **DOM Property Event Handlers:** These handlers are assigned to elements as properties in JavaScript, such as `element.onclick` or `element.onmouseover`.
-- **Event Listener Method (`addEventListener`):** This is the most flexible method for adding event handlers, allowing multiple handlers for the same event and giving more control over event propagation.
+- **Inline Event Handlers**: Event handlers can be added directly within HTML elements using attributes like `onclick`, `onmouseover`, etc.
+- **DOM Property Event Handlers**: These handlers are assigned to elements as properties in JavaScript, such as `element.onclick` or `element.onmouseover`.
+- **Event Listener Method (`addEventListener`)**: This is the most flexible method for adding event handlers, allowing multiple handlers for the same event and giving more control over event propagation.
 
 ## How do Event Handlers work?
 
