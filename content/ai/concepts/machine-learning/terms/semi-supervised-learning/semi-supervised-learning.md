@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/intermediate-machine-learning-skill-path'
 ---
 
-**Semi-Supervised Learning** is a machine learning approach that combines elements of both [supervised learning](https://www.codecademy.com/resources/docs/ai/machine-learning/supervised-learning) and unsupervised learning. It is particularly useful when a dataset contains a small amount of labeled data and a large amount of unlabeled data.
+**Semi-Supervised Learning** is an approach in machine learning that combines elements of both [supervised learning](https://www.codecademy.com/resources/docs/ai/machine-learning/supervised-learning) and unsupervised learning. It is particularly helpful when a dataset contains a small amount of labeled data and a large amount of unlabeled data.
 
 By leveraging patterns in the unlabeled data, semi-supervised learning improves model accuracy and generalization while reducing the reliance on extensive labeled datasets.
 
@@ -27,12 +27,12 @@ The general approach for implementing semi-supervised learning follows these ste
 2. Use the trained model to predict labels for the unlabeled data.
 3. Select high-confidence pseudo-labels and add them to the labeled dataset.
 4. Retrain the model with the expanded labeled dataset.
-5. Repeat steps 2-4 iteratively until convergance or stopping criteria are met.
+5. Repeat steps 2-4 iteratively until convergence or stopping criteria is met.
 ```
 
 ## Example
 
-A common example of semi-supervised learning is using a [Self-training](https://www.codecademy.com/resources/docs/sklearn/self-training) classifier with [`Scikit-learn`](https://www.codecademy.com/resources/docs/sklearn) in Python:
+A common example of semi-supervised learning is using a [self-training](https://www.codecademy.com/resources/docs/sklearn/self-training) classifier with [Scikit-learn](https://www.codecademy.com/resources/docs/sklearn) in Python:
 
 ```py
 import numpy as np
@@ -50,7 +50,7 @@ unlabeled_mask = np.random.rand(len(y)) < 0.8
 y_unlabeled = np.copy(y)
 y_unlabeled[unlabeled_mask] = -1  # Set 80% of labels to -1 (unlabeled)
 
-# Split into training and test sets
+# Split into training and test datasets
 X_train, X_test, y_train, y_test_masked = train_test_split(X, y_unlabeled, test_size=0.2, random_state=42)
 
 # Get the true labels for the test set
@@ -73,7 +73,7 @@ accuracy = accuracy_score(y_test_true, y_pred)
 print(f"Semi-Supervised Model Accuracy: {accuracy:.2f}")
 ```
 
-This example demonstrates the use of a Self-Training classifier, where an initial model is trained on labeled data and iteratively labels the unlabeled data to improve its learning capability. The output of this code will be:
+This example demonstrates the use of a self-training classifier, where an initial model is trained on labeled data and iteratively labels the unlabeled data to improve its learning capability. The output of this code will be:
 
 ```shell
 Semi-Supervised Model Accuracy: 0.89
