@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-**Event handling** is a concept in JavaScript that allows web pages to respond dynamically to user interactions, also called [events](https://www.codecademy.com/resources/docs/javascript/events). By listening for specific events triggered by the user, developers can execute functions that modify the webpage's behavior. These events can range from simple actions like a user clicking a button to more complex interactions such as submitting a form or resizing the browser window.
+**Event handling** in JavaScript enables web pages to dynamically respond to user interactions, known as [events](https://www.codecademy.com/resources/docs/javascript/events). By listening for specific events triggered by the user, developers can execute functions that modify the web page's behavior. These events can range from simple actions like a user clicking a button to more complex interactions such as submitting a form or resizing the browser window.
 
 Event handling is essential for making a webpage interactive and dynamic. It enables developers to create applications that respond to user input in real-time, such as displaying messages, updating content, validating form data, or triggering animations. By using events, developers can build user interfaces that feel responsive and intuitive.
 
