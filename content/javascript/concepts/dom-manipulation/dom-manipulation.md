@@ -1,6 +1,6 @@
 ---
 Title: 'DOM Manipulation'
-Description: 'The Document Object Model (DOM) is a tree-like structure representing HTML or XML documents, allowing JavaScript to interact with and modify webpage elements.'
+Description: 'The DOM is a tree-like structure representing HTML or XML documents, allowing JavaScript to interact with and modify webpage elements.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Document Object Model (DOM)** is a programming interface for web documents. It represents an HTML or XML document as a tree structure where each element, attribute, and piece of text is a node. This structure allows JavaScript to access and manipulate the content and structure of web pages in a structured way.
+The **Document Object Model (DOM)** is a cross-platform programming interface for web documents. It represents an HTML or XML document as a tree structure where each element, attribute, and piece of text is a node. This structure allows JavaScript to access and manipulate the design and content of web pages in a structured way.
 
 The DOM makes it possible to dynamically update content, styles, and structure of a webpage after the page has loaded, enabling interactivity and user-driven changes.
 
@@ -52,22 +52,25 @@ Document
 In the DOM tree, each part of the webpage is represented as a node. There are several types of nodes in the DOM:
 
 - **Element Nodes**: Represent HTML elements such as `<h1>`, `<p>`, or `<div>`. In the DOM tree, each element is a node with its own attributes and content.
-  Example: `<h1> Hello, World! </h1>` is an element node.
+
+  - Example: `<h1> Hello, World! </h1>` is an element node.
 
 - **Text Nodes**: Contain the textual content within an element. These nodes are children of element nodes.
-  Example: The text "Hello, World!" inside the `<h1>` tag is a text node.
+
+  - Example: The text "Hello, World!" inside the `<h1>` tag is a text node.
 
 - **Attribute Nodes**: Represent attributes of an element, such as `id`, `class`, or `src`.
-  Example: The attribute `id="heading"` in `<h1 id="heading">` is an attribute node.
+
+  - Example: The attribute `id="heading"` in `<h1 id="heading">` is an attribute node.
 
 - **Comment Nodes**: Represent comments in the HTML code. These are nodes but not visible to the user.
-  Example: `<!-- This is a comment -->` is a comment node.
+  - Example: `<!-- This is a comment -->` is a comment node.
 
 ## How Nodes Work in the DOM Tree
 
-- The **root node** of the DOM tree is the Document node, which represents the entire HTML or XML document.
-- **Child nodes** are elements that fall under a parent node in the hierarchy. For example, the <body> element is a child of the <html> element.
-- Each node can have **sibling nodes** that share the same parent. For example, the <h1> and <p> elements are siblings under the <body> node.
+- The **root node** within the DOM tree is the Document node, which represents the entire HTML or XML document.
+- **Child nodes** are elements that fall under a parent node in the hierarchy. For example, the `<body>` element is a child of the `<html>` element.
+- Each node can have **sibling nodes** that share the same parent. For example, the `<h1>` and `<p>` elements are siblings under the `<body>` node.
 
 ## DOM Manipulation
 
