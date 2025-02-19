@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Reinforcement Learning (RL)** is a type of [machine learning](https://www.codecademy.com/resources/docs/ai/machine-learning) where an agent learns to make decisions by interacting with an environment. The agent takes actions, receives feedback in the form of rewards or penalties, and improves its strategy over time to maximize cumulative rewards. RL is commonly used in robotics, game playing, autonomous systems, and decision-making applications.
+**Reinforcement Learning (RL)** is a type of [machine learning](https://www.codecademy.com/resources/docs/ai/machine-learning) Reinforcement Learning (RL) is a type of machine learning where an agent learns to make optimal decisions by interacting with an environment, receiving rewards or penalties, and refining its strategy to maximize cumulative rewards. RL is widely used in robotics, game-playing, autonomous systems, and decision-making applications.
 
 ## Key Concepts
 
