@@ -45,7 +45,7 @@ CatalogContent:
 ## Types of Reinforcement Learning
 
 1. **Model-free RL**: The agent learns through interactions without building a model of the environment. Example algorithms include Q-learning and Deep Q Networks (DQN).
-2. **Model-based RL**: The agent builds a model of the environment and uses this model to plan actions. Example methods include Monte Carlo Tree Search (MCTS).
+2. **Model-based RL**: The agent builds a model of the environment and uses it to plan actions. Example methods include Monte Carlo Tree Search (MCTS).
 
 ## Applications
 
