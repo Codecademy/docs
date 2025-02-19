@@ -1,6 +1,6 @@
 ---
 Title: 'Events'
-Description: 'Events in refer to user interactions or browser-triggered actions that allow a webpage to respond dynamically.'
+Description: 'Events refer to user interactions or browser-triggered actions that allow a webpage to respond dynamically.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
