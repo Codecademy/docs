@@ -1,47 +1,31 @@
 ---
 Title: 'Events'
-Description: 'Events are things that happen in HTML objects that can trigger scripting code. JavaScript can be executed by events in HTML via two methods: - The JavaScript code can appear within the appropriate HTML attribute in the HTML object. - Or a separate script can define an event handler on the object that executes when the event is fired. You can assign JavaScript code to an event attribute in an HTML object.'
+Description: 'Events refer to user interactions or browser-triggered actions that allow a webpage to respond dynamically.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
   - 'Events'
-  - 'Functions'
   - 'HTML'
+  - 'Functions'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-Events are things that happen in HTML objects that can trigger scripting code. JavaScript can be executed by events in HTML via two methods:
+**Events** in JavaScript represent actions or occurrences detected by the browser, often triggered by user interactions or system processes. These events enable web pages to respond dynamically, allowing changes to content, styles, or behaviors when specific actions occur.
 
-- The JavaScript code can appear within the appropriate HTML attribute in the HTML object.
-- Or a separate script can define an event handler on the object that executes when the event is fired.
+Events occur when actions are performed on HTML elements, such as clicking a button, entering text in an input field, or submitting a form. JavaScript provides the ability to detect and respond to these events, making it possible to create dynamic and interactive web applications. JavaScript can handle events in two primary ways:
 
-## Syntax 1
+- By embedding JavaScript code directly within an HTML event attribute (inline event handling).
+- By defining an event handler in a separate script, which executes when the event occurs (using DOM properties or the `addEventListener` method).
 
-You can assign JavaScript code to an event attribute in an HTML object.
+## Types of Events
 
-```html
-<!-- Clicking pops up a "Hello World!" dialog box -->
-<button onclick="window.alert('Hello World!');">Click Me!</button>
-```
-
-## Syntax 2
-
-There's HTML on the page with the object of interest.
-
-```html
-<button id="hello-button">Click Me!</button>
-```
-
-In a separate script the object is referred to and assigned an event handler.
-
-```javascript
-// Clicking the "hello-button" button pops up a "Hello World!" dialog box
-var btn = document.getElementById('hello-button');
-
-btn.addEventListener('click', () => {
-  window.alert('Hello World!');
-});
-```
+| **Event Type**      | **Description**                                | **Common Events**                                                                    |
+| ------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **Mouse Events**    | Triggered by mouse interactions.               | `click`, `dblclick`, `mousedown`, `mouseup`, `mousemove`, `mouseenter`, `mouseleave` |
+| **Keyboard Events** | Triggered by keyboard actions.                 | `keydown`, `keyup`, `keypress`                                                       |
+| **Form Events**     | Triggered when interacting with form elements. | `submit`, `change`, `input`, `focus`, `blur`                                         |
+| **Window Events**   | Triggered by browser window actions.           | `load`, `resize`, `scroll`, `unload`                                                 |
+| **Touch Events**    | Triggered by touch gestures (mobile devices).  | `touchstart`, `touchmove`, `touchend`                                                |

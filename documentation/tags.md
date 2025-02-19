@@ -26,6 +26,7 @@ Assert
 Assignment
 Asymptotic Notation
 Async Await
+Attention
 Attributes
 Authentication
 Automation
@@ -133,6 +134,7 @@ Errors
 ES6
 Ethical Hacking
 Events
+Event Handling
 Exceptions
 Expo
 Express
@@ -356,6 +358,7 @@ Threads
 Tidyr
 Time
 Title
+Transformers
 Transitions
 Transpilation
 Trees
