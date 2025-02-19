@@ -1,29 +1,24 @@
 ---
 Title: 'ChatGPT'
-Description: 'ChatGPT is an AI-powered chatbot developed by OpenAI, built on large language models (LLMs) like GPT-4, and designed to generate human-like responses using deep learning.'
+Description: 'ChatGPT is an AI-powered chatbot designed by OpenAI to generate human-like responses using deep learning.'
 Subjects:
   - 'AI'
-  - 'Data Science'
-  - 'Large Language Model'
   - 'Machine Learning'
-  - 'Transformers'
 Tags:
   - 'AI'
   - 'Attention'
-  - 'Embeddings'
-  - 'Prompts'
-  - 'Prompt Engineering'
+  - 'Data'
   - 'Transformers'
 CatalogContent:
-  - 'machine-learning'
+  - 'intro-to-generative-ai'
   - 'paths/data-science'
 ---
 
-[**ChatGPT**](https://chatgpt.com) is an AI-powered chatbot developed by **OpenAI**, built on Large Language Models (LLMs) like GPT-4 (Generative Pre-Trained Transformer). It generates human-like text responses by analyzing input context and predicting the most likely continuation of a conversation. ChatGPT is widely used for content creation, coding assistance, customer service, and more.
+[**ChatGPT**](https://chatgpt.com) is an AI-powered chatbot designed by OpenAI, built on Large Language Models (LLMs) like GPT-4 (Generative Pre-Trained Transformer). It generates human-like text responses by analyzing input context and predicting the most likely continuation of a conversation. ChatGPT is widely used for content creation, coding assistance, customer service, and more.
 
 ## How ChatGPT Works
 
-**ChatGPT** is based on **transformer neural networks**, an AI architecture designed for handling sequential text data. It predicts words based on patterns it has learned during training. Other notable LLMs include **BERT** (used by Google for search), **Claude** (Anthropic's AI model), and **Mistral** (an open-source competitor).
+ChatGPT is based on **transformer neural networks**, an AI architecture designed for handling sequential text data. It predicts words based on patterns it has learned during training. Other notable LLMs include **BERT** (used by Google for search), **Claude** (Anthropic's AI model), and **Mistral** (an open-source competitor).
 
 ### What Sets ChatGPT Apart from Search Engines?
 
@@ -39,7 +34,7 @@ ChatGPT differs from search engines in several ways:
 Since its initial release, ChatGPT has seen several advancements:
 
 - **GPT-4 (2023)**: Improved reasoning, factual accuracy, and multimodal capabilities.
-- **ChatGPT Plus**: A premium subscription plan offering faster response times and access to the latest models.
+- **ChatGPT Plus**: A premium subscription plan offering faster responses and access to the latest models.
 - **Plugins and Browsing (2023)**: Optional features allowing access to real-time data retrieval and API integrations.
 - **Memory Capabilities (2024)**: ChatGPT can now retain information across conversations, improving personalization.
 - **Integration with Microsoft Products**: ChatGPT technology is embedded into Microsoft Copilot, powering AI-driven workflows in Word, Excel, and Teams.
@@ -59,17 +54,17 @@ One example of a common ANN is a **Convolutional Neural Network** (CNN). These a
 
 One limitation of ANNs is that they don’t have the concept of time sequences and the input size is fixed. So for language processing where a sequence of words or a sentence exists, **Recurrent Neural Networks** (RNNs) were created.
 
-RNNs feed decision results back into the system. So for example, if the sentence “What time is it?” were to be translated, when the word “it” is encountered, the system would already know all about the question.
+RNNs feed decision results back into the system. So for example, if the sentence “What time is it?” were to be translated, the system would already know all about the question when the word “it” is encountered.
 
 While RNNs are very useful for language translation, they do not scale well with large amounts of information. Also, computations cannot be done in parallel.
 
 ### Breakthrough with Transformers
 
-The breakthrough that allowed BERT and ChatGPT-based models is called **transformers**, introduced in a paper from 2017 entitled [_“Attention is all you need”_](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need). It was presented as a way to build machine translation with much faster parallel execution. It also introduced a new concept called _Self Attention_ to make sense of long language sequences further. It creates connections between different parts of the sequence. This allowed for highly scalable and efficient text generation, leading to models like GPT-3, GPT-4, and beyond.
+The breakthrough that allowed BERT and ChatGPT-based models to flourish is called **transformers**, introduced in a paper from 2017 entitled [_Attention Is All You Need_](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need). It was presented as a way to build machine translation with much faster parallel execution. It also introduced a new concept called _Self Attention_ to make sense of long language sequences further. It creates connections between different parts of the sequence. This allowed for highly scalable and efficient text generation, leading to models like GPT-3, GPT-4, and beyond.
 
-So how does it all work? In the transformer-based model, each word is transformed into a token. As tokens are read as part of an input sentence the model starts predicting what the output should be - similar in concept to sentence completion.
+So how does it all work? In the transformer-based model, each word is transformed into a token. As tokens are read as part of an input sentence, the model starts predicting what the output should be - similar in concept to sentence completion.
 
-Due to the use of transformers in creating the model, the potential output is not just a prediction of the next word. Because the model is trained with deep understanding and "attention", whole sentences and groupings of text are generated. The model used by ChatGPT can accept several thousand tokens as input.
+Due to the use of transformers in creating the model, the potential output is not just a prediction of the next word. Because the model is trained with deep understanding and _attention_, whole sentences and groupings of text are generated. The model used by ChatGPT can accept several thousand tokens as input.
 
 ## Risks and Limitations
 
@@ -96,7 +91,7 @@ Training LLMs like ChatGPT requires massive computing power, raising concerns ab
 ChatGPT is evolving beyond text-based chat. Future enhancements include:
 
 - Improved memory for contextual awareness over multiple conversations.
-- Expanded multimodel capabilities (processing images, audio, and video).
+- Expanded multimodal capabilities (processing images, audio, and video).
 - Advanced personalization for tailored user experiences.
 
 ### AI in Everyday Use
@@ -104,7 +99,7 @@ ChatGPT is evolving beyond text-based chat. Future enhancements include:
 ChatGPT is already embedded into:
 
 - Microsoft Copilot (Windows & Office integration)
-- Google AI-powered search
+- AI-powered Google search
 - AI-assisted customer service platforms
 - Code generation tools (e.g., GitHub Copilot)
 
@@ -115,4 +110,4 @@ ChatGPT is already embedded into:
 
 ### Cost
 
-Costs to train a LLM can be in the millions of dollars - so training frequently may hit commercial challenges. After training, each _inference_ or transaction costs some amount of money and computing power.
+Costs to train an LLM can be millions of dollars - so training frequently may hit commercial challenges. After training, each _inference_ or transaction costs some amount of money and computing power.
