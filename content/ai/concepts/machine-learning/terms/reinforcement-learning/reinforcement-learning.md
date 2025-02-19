@@ -55,6 +55,7 @@ Reinforcement Learning enables AI systems to learn optimal strategies through tr
 - **Robotics**: Teaching robots to walk, grasp objects, and navigate.
 - **Autonomous Vehicles**: Self-driving cars optimizing navigation.
 - **Finance**: Stock trading strategies using RL models.
+- **Healthcare**: Optimizing personalized treatment plans.
 
 ## Challenges
 
