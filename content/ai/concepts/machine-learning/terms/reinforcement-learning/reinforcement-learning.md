@@ -1,6 +1,6 @@
 ---
 Title: 'Reinforcement Learning'
-Description: 'Reinforcement Learning is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative rewards.'
+Description: 'Reinforcement Learning is a branch of machine learning where an agent learns optimal decision-making by interacting with an environment and receiving feedback in the form of rewards.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
