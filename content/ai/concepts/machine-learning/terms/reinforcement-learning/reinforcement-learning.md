@@ -62,3 +62,4 @@ Reinforcement Learning enables AI systems to learn optimal strategies through tr
 - **Exploration vs Exploitation**: Balancing between exploring new actions and exploiting learned strategies.
 - **Sample Efficiency**: The amount of data and interactions required for effective learning.
 - **Sparse Rewards**: Environments where feedback is infrequent or delayed.
+- **Credit Assignment Problem**: Determining which action was responsible for a delayed reward.
