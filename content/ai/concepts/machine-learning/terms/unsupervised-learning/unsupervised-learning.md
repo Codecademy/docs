@@ -26,7 +26,9 @@ CatalogContent:
 
 ## Types of Unsupervised Learning
 
-1. **Clustering**: Organizing data into groups (clusters) where items within a group are more similar to each other than to items in other groups. Common algorithms include:
+1. **Clustering**: Organizing data into groups (clusters) where items within the same cluster are more similar to each other than to those in other clusters. Common algorithms include:
+
+
 
    - **K-Means Clustering**: Partitions data into k distinct clusters based on similarity.
    - **Hierarchical Clustering**: Builds a tree-like structure that groups data in a hierarchy.
