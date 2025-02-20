@@ -65,7 +65,7 @@ transform = transforms.Compose([
 ])
 
 # Load an image
-image = Image.open("image.jpg")
+image = Image.open("image.jpg").convert("RGB")
 
 # Apply transformations
 image_transformed = transform(image)
