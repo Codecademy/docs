@@ -2,42 +2,53 @@
 Title: 'prompt()'
 Description: 'Displays a dialog with an optional message asking users to input some text.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
+  - 'Arguments'
   - 'Functions'
   - 'Parameters'
-  - 'Arguments'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`prompt()`** function is serviced globally by the `window` object provided by the user's browser. It displays a dialog with an optional message asking users to input some text.
+The **`prompt()`** function is a built-in JavaScript method that displays a modal dialogue box prompting the user for input. It is part of the Web API, provided by the browser's `window` object, and pauses script execution until the user responds. The function returns the user's input as a string or `null` if the user cancels the dialogue.
 
 ## Syntax
 
-`prompt()` expects up to two parameters.
-
-Below are examples of how `prompt()` can be composed:
+The `prompt()` function accepts two parameters and returns a string or null:
 
 ```pseudo
-prompt()
-
 prompt(message)
+```
 
+or, alternatively
+
+```pseudo
 prompt(message, defaultValue)
 ```
 
-- `message` is used to display the title of the dialog.
-- `defaultValue` is used for an optional default value used in case the user does not input any data, otherwise `prompt()` returns null.
+- `message`: A string that will be displayed in the dialog box.
+- `defaultValue` (Optional): A default value pre-filled in the input field.
+
+The function returns:
+
+- The user’s input as a string.
+- `Null` if the user clicks "Cancel" or closes the dialog.
 
 ## Example
 
-In the following code sample, the browser will automatically stop any running JavaScript code until the user clicks on the `OK` or `cancel` button. If the user clicks on the cancel button, `'Chihuahuas'` will be printed out:
+This example demonstrates how to use the `prompt()` function to get user input:
 
 ```js
-const dog = prompt("What's your favorite dog?", 'Chihuahuas');
+let name = prompt('Please enter your name:');
 
-console.log(`I really love ${dog}!`);
+if (name !== null) {
+  console.log('Hello, ' + name + '!');
+} else {
+  console.log("You didn't enter a name.");
+}
 ```
+
+A greeting displaying that name appears when a name is entered and `OK` is clicked. If Cancel is clicked, a message indicating that no name was entered is shown.
