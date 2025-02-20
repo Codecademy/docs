@@ -4,7 +4,6 @@ Description: 'Saving model states in PyTorch enables users to store and reload m
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Machine Learning'
 Tags:
   - 'Deployment'
   - 'Model Export'
@@ -49,15 +48,15 @@ import torch.optim as optim
 
 # Define a simple neural network
 class SimpleNN(nn.Module):
-    def __init__(self):
-        super(SimpleNN, self).__init__()
-        self.fc1 = nn.Linear(10, 5)
-        self.fc2 = nn.Linear(5, 1)
+  def __init__(self):
+    super(SimpleNN, self).__init__()
+    self.fc1 = nn.Linear(10, 5)
+    self.fc2 = nn.Linear(5, 1)
 
-    def forward(self, x):
-        x = torch.relu(self.fc1(x))
-        x = self.fc2(x)
-        return x
+  def forward(self, x):
+    x = torch.relu(self.fc1(x))
+    x = self.fc2(x)
+    return x
 
 # Initialize model
 model = SimpleNN()
@@ -65,7 +64,7 @@ optimizer = optim.SGD(model.parameters(), lr=0.01)
 
 # Dummy training step
 for param in model.parameters():
-    param.data -= 0.01 * param.grad if param.grad is not None else 0
+  param.data -= 0.01 * param.grad if param.grad is not None else 0
 
 # Save model state
 torch.save(model.state_dict(), "model.pth")
