@@ -33,6 +33,7 @@ prompt(message, defaultValue)
 - `defaultValue` (Optional): A default value pre-filled in the input field.
 
 The function returns:
+
 - The user’s input as a string.
 - `Null` if the user clicks "Cancel" or closes the dialog.
 
@@ -41,10 +42,10 @@ The function returns:
 This example demonstrates how to use the `prompt()` function to get user input:
 
 ```js
-let name = prompt("Please enter your name:");
+let name = prompt('Please enter your name:');
 
 if (name !== null) {
-  console.log("Hello, " + name + "!");
+  console.log('Hello, ' + name + '!');
 } else {
   console.log("You didn't enter a name.");
 }
