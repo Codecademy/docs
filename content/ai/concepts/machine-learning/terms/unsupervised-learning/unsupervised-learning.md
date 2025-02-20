@@ -49,7 +49,7 @@ CatalogContent:
 
 - **Customer Segmentation**: Grouping customers based on purchasing behavior to target marketing efforts.
 - **Market Basket Analysis**: Identifying associations between products frequently bought together.
-- **Image Compression**: Reducing the number of pixels or features in an image without losing significant information.
+- **Image Compression**: Reducing image size while preserving essential details.
 - **Anomaly Detection**: Detecting unusual behavior, such as fraud detection in financial transactions or outlier detection in sensor data.
 
 ## Challenges
