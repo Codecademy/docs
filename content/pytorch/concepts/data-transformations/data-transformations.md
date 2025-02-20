@@ -20,7 +20,7 @@ CatalogContent:
 - **Normalization and Standardization:** These transformations adjust the data scale so that each feature contributes equally during training. Normalization rescales the data between a defined range (e.g., 0 to 1), while standardization centers the data around zero with unit variance.
 - **Resizing Images:** When dealing with image data, it's important to ensure all images have the same size. Using transformations like `Resize` ensures consistency across images.
 - **Augmentation:** Data augmentation techniques like rotation, flipping, and cropping introduce variability into the dataset, helping prevent overfitting and improving the model's generalization.
-- **Tensor Conversion:** PyTorch models expect data to be in tensor format, so the transformation of raw data (e.g., images, text) into tensors using `torch.tensor()` is a crucial step.
+- **Tensor Conversion:** PyTorch models expect data to be in tensor format, so transforming raw data (e.g., images, text) into tensors using `torch.tensor()` is a crucial step.
 
 ## Syntax
 
