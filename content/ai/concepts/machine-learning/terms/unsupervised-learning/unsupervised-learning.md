@@ -27,14 +27,17 @@ CatalogContent:
 ## Types of Unsupervised Learning
 
 1. **Clustering**: Organizing data into groups (clusters) where items within the same cluster are more similar to each other than to those in other clusters. Common algorithms include:
+
    - **K-Means Clustering**: Partitions data into k distinct clusters based on similarity.
    - **Hierarchical Clustering**: Builds a tree-like structure that groups data in a hierarchy.
    - **DBSCAN (Density-Based Spatial Clustering)**: Groups data based on density, effective for irregularly shaped clusters.
 
 2. **Association**: Finding rules that describe relationships between variables in large datasets. A common algorithm is:
+
    - **Apriori**: Used for discovering association rules in transactional data.
 
 3. **Dimensionality Reduction**: Reducing the number of input variables in a dataset while retaining important information, making the data easier to visualize and process. Key methods include:
+
    - **Principal Component Analysis (PCA)**: Identifies the principal components that explain the variance in the data.
    - **t-SNE (t-Distributed Stochastic Neighbor Embedding)**: A non-linear method that reduces dimensions while preserving local data structure.
 
