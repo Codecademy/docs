@@ -20,7 +20,7 @@ CatalogContent:
 ## Key Concepts
 
 - **Data Without Labels**: Unlike [supervised learning](https://www.codecademy.com/resources/docs/ai/machine-learning/supervised-learning), the data used in unsupervised learning does not have associated target labels. The model must infer relationships and structures from the input data alone.
-- **Clusters**: Grouping similar data points together, based on some criteria.
+- **Clusters**: Grouping similar data points together based on shared characteristics.
 - **Dimensionality Reduction**: Reducing the number of features in the dataset while preserving essential information, often to improve model efficiency or visualization.
 - **Anomaly Detection**: Identifying data points that deviate significantly from the expected pattern.
 
