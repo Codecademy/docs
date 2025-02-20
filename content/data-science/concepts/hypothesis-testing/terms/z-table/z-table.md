@@ -28,7 +28,7 @@ Z-tables come in different formats depending on how probabilities are calculated
 
 ## Z-Distribution Table for Positive Z-Values
 
-Shows the cumulative probabilities of values occurring below a positive Z-score in a standard normal distribution:
+Shows the cumulative probabilities of values occurring below positive Z-scores in a standard normal distribution:
 
 | Z   | 0.00    | 0.01    | 0.02    | 0.03    | 0.04    | 0.05    | 0.06    | 0.07    | 0.08    | 0.09    |
 | --- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
@@ -76,7 +76,7 @@ Shows the cumulative probabilities of values occurring below a positive Z-score 
 
 ## Z-Distribution Table for Negative Z-Values
 
-Displays the cumulative probabilities of values occurring below a negative Z-score, representing values to the left of the mean:
+Displays the cumulative probabilities of values occurring below negative Z-scores, representing values to the left of the mean:
 
 | Z    | 0.00    | 0.01    | 0.02    | 0.03    | 0.04    | 0.05    | 0.06    | 0.07    | 0.08    | 0.09    |
 | ---- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
