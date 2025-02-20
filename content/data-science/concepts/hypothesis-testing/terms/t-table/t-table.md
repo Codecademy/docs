@@ -136,6 +136,5 @@ From the t-table:
 Therefore, the critical t-value for df = 15 at α = 0.05 is 2.131
 
 
-- For a two-tailed test at 95% confidence level
 - If the calculated t-value is > 2.131 or < -2.131
 - Reject the null hypothesis.
