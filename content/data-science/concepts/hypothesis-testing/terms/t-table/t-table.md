@@ -136,5 +136,4 @@ From the t-table:
 Therefore, the critical t-value for df = 15 at α = 0.05 is 2.131
 
 
-- If the calculated t-value is > 2.131 or < -2.131
 - Reject the null hypothesis.
