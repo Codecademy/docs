@@ -135,4 +135,3 @@ From the t-table:
 
 Therefore, the critical t-value for df = 15 at α = 0.05 is 2.131
 
-
