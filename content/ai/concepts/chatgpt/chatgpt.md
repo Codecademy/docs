@@ -1,40 +1,44 @@
 ---
 Title: 'ChatGPT'
-Description: 'ChatGPT is a publicly available web-based chatbot and API interface created by OpenAI. It connects to a large language model (LLM) called GPT (Generative Pre-Trained Transformer). GPT includes some of the largest models ever created. After the model training, there is further fine-tuning to improve its generated responses.'
+Description: 'ChatGPT is an AI-powered chatbot designed by OpenAI to generate human-like responses using deep learning.'
 Subjects:
+  - 'AI'
   - 'Machine Learning'
-  - 'Data Science'
-  - 'Large Language Model'
-  - 'Transformers'
 Tags:
   - 'AI'
-  - 'Transformers'
-  - 'Embeddings'
-  - 'Prompts'
-  - 'Prompt Engineering'
   - 'Attention'
+  - 'Data'
+  - 'Transformers'
 CatalogContent:
-  - 'machine-learning'
+  - 'intro-to-generative-ai'
   - 'paths/data-science'
 ---
 
-**ChatGPT** is a publicly available web-based chatbot and API interface created by **OpenAI**. It connects to a large language model (LLM) called GPT (Generative Pre-Trained Transformer). GPT includes some of the largest models ever created. After the model training, there is further fine-tuning to improve its generated responses.
+[**ChatGPT**](https://chatgpt.com) is an AI-powered chatbot designed by OpenAI, built on Large Language Models (LLMs) like GPT-4 (Generative Pre-Trained Transformer). It generates human-like text responses by analyzing input context and predicting the most likely continuation of a conversation. ChatGPT is widely used for content creation, coding assistance, customer service, and more.
 
 ## How ChatGPT Works
 
-**ChatGPT** is part of a new group of LLMs that are now made available by a technology called **transformers**. Other notable and similar LLMs include **BERT** used by Google to understand user searches; **DALL-E**, which can generate images; and **GPT-Neo**, a promising open-source LLM.
+ChatGPT is based on **transformer neural networks**, an AI architecture designed for handling sequential text data. It predicts words based on patterns it has learned during training. Other notable LLMs include **BERT** (used by Google for search), **Claude** (Anthropic's AI model), and **Mistral** (an open-source competitor).
 
-ChatGPT is the packaging of a set of trained LLMs into a chatbot and developer friendly interface. This has created a system where there is low barrier to entry and almost everyone can start using the LLM.
+### What Sets ChatGPT Apart from Search Engines?
 
-### What is the Relation to Internet Search?
+ChatGPT differs from search engines in several ways:
 
-**ChatGPT** is trained by using vast quantities of data from the internet. However, LLMs are different from internet search engines in the following ways:
+- It does not browse the internet in real-time (unless using specific plugins or connected to retrieval-based systems).
+- Its knowledge is limited to training data, meaning it lacks awareness of recent events unless fine-tuned.
+- It does not retrieve exact sources but instead generates patterns-based responses.
+- It uses **Reinforcement Learning from Human Feedback (RLHF)** to improve quality and alignment with human expectations.
 
-- No ongoing daily web crawlers and updates.
-- Data can be out of date. **ChatGPT 3** uses data from 2021.
-- The size of the data trained in the model.
-- ChatGPT uses a type of fine-tuning called Reinforcement Learning from Human Feedback (RLHF).
-- ChatGPT-specific approaches including **prompts**, **embeddings**, and parameters such as **temperature**.
+## Advancements in ChatGPT
+
+Since its initial release, ChatGPT has seen several advancements:
+
+- **GPT-4 (2023)**: Improved reasoning, factual accuracy, and multimodal capabilities.
+- **ChatGPT Plus**: A premium subscription plan offering faster responses and access to the latest models.
+- **Plugins and Browsing (2023)**: Optional features allowing access to real-time data retrieval and API integrations.
+- **Memory Capabilities (2024)**: ChatGPT can now retain information across conversations, improving personalization.
+- **Integration with Microsoft Products**: ChatGPT technology is embedded into Microsoft Copilot, powering AI-driven workflows in Word, Excel, and Teams.
+- **GPT-4o (2024)**: Can reason across audio, vision, and text.
 
 ## History of ChatGPT
 
@@ -50,54 +54,60 @@ One example of a common ANN is a **Convolutional Neural Network** (CNN). These a
 
 One limitation of ANNs is that they don’t have the concept of time sequences and the input size is fixed. So for language processing where a sequence of words or a sentence exists, **Recurrent Neural Networks** (RNNs) were created.
 
-RNNs feed decision results back into the system. So for example, if the sentence “What time is it?” were to be translated, when the word “it” is encountered, the system would already know all about the question.
+RNNs feed decision results back into the system. So for example, if the sentence “What time is it?” were to be translated, the system would already know all about the question when the word “it” is encountered.
 
 While RNNs are very useful for language translation, they do not scale well with large amounts of information. Also, computations cannot be done in parallel.
 
 ### Breakthrough with Transformers
 
-The breakthrough that allowed BERT and ChatGPT-based models is called **transformers**, introduced in a paper from 2017 entitled _“Attention is all you need”_. It was presented as a way to build machine translation but to have much faster parallel execution. It also introduced a new concept called _Self Attention_ to further make sense of long language sequences. It creates connections between different parts of the sequence.
+The breakthrough that allowed BERT and ChatGPT-based models to flourish is called **transformers**, introduced in a paper from 2017 entitled [_Attention Is All You Need_](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need). It was presented as a way to build machine translation with much faster parallel execution. It also introduced a new concept called _Self Attention_ to make sense of long language sequences further. It creates connections between different parts of the sequence. This allowed for highly scalable and efficient text generation, leading to models like GPT-3, GPT-4, and beyond.
 
-So how does it all work? In the transformer-based model, each word is transformed into a token. As tokens are read as part of an input sentence the model starts predicting what the output should be - similar in concept to sentence completion.
+So how does it all work? In the transformer-based model, each word is transformed into a token. As tokens are read as part of an input sentence, the model starts predicting what the output should be - similar in concept to sentence completion.
 
-Due to the use of transformers in creating the model, the potential output is not just a prediction of the next word. Because the model is trained with deep understanding and "attention", whole sentences and groupings of text are generated. The model used by ChatGPT can accept several thousand tokens as input.
+Due to the use of transformers in creating the model, the potential output is not just a prediction of the next word. Because the model is trained with deep understanding and _attention_, whole sentences and groupings of text are generated. The model used by ChatGPT can accept several thousand tokens as input.
 
 ## Risks and Limitations
 
-### Misinformation
+### Misinformation & Hallucinations
 
-Because current LLMs are trained against data sets from some period in the past, they don't always give accurate information. Also, their correctness is only as good as the data they are trained with. This doesn't always lead to accurate results.
-
-### Disinformation
-
-ChatGPT and LLMs in general often give confident and plausible generated results, but sometimes they are wrong or do not make sense. In AI, these are called **hallucinations**. With prompt engineering, ChatGPT can be told to not give an answer unless it has high confidence in the results. This can reduce hallucinations but not completely solve the problem.
-
-### Data Security
-
-Using ChatGPT requires the sending of information over the internet. Sending personal or sensitive information presents a possible security risk.
+ChatGPT may produce confident but incorrect responses (hallucinations). While improvements have reduced errors, it remains a significant challenge. With prompt engineering, ChatGPT can be told to not give an answer unless it has high confidence in the results. This can reduce hallucinations but not completely solve the problem.
 
 ### Bias
 
-The internet is full of biased negative information. For ChatGPT to be useful, this information needs to be filtered so that it is not produced in responses. OpenAI has identified this as a major concern with ChatGPT and LLMs in general.
+All models inherit biases from training data, which can impact fairness in responses. OpenAI continues to refine its moderation techniques to minimize harmful outputs.
+
+### Data Privacy
+
+ChatGPT does not store user data permanently, but queries are analyzed to improve the model. Users should avoid sharing sensitive information.
+
+### Cost and Energy Consumption
+
+Training LLMs like ChatGPT requires massive computing power, raising concerns about sustainability and accessibility.
 
 ## The Future
 
-### Usage
+### Expanding Capabilities
 
-ChatGPT was intended to be a demonstration product. Companies around the world are evaluating how to use this new technology. There are usage scenarios that may reduce or replace some work being performed by human beings. These include:
+ChatGPT is evolving beyond text-based chat. Future enhancements include:
 
-- Processing and summarizing text
-- Filtering human-generated content
-- Creating advanced chatbots
-- Writing code
-- Customer service and support
-- Generating styled documents (i.e. resumes, proposals, emails)
-- Much more!
+- Improved memory for contextual awareness over multiple conversations.
+- Expanded multimodal capabilities (processing images, audio, and video).
+- Advanced personalization for tailored user experiences.
+
+### AI in Everyday Use
+
+ChatGPT is already embedded into:
+
+- Microsoft Copilot (Windows & Office integration)
+- AI-powered Google search
+- AI-assisted customer service platforms
+- Code generation tools (e.g., GitHub Copilot)
+
+### OpenAI's Roadmap
+
+- **GPT-5 (TBA)**: Expected to bring even greater reasoning, memory and adaptability.
+- **AI Regulation & Safety**: OpenAI collaborates with governments to ensure responsible AI development.
 
 ### Cost
 
-Costs to train a LLM can be in the millions of dollars - so training frequently may hit commercial challenges. After training, each _inference_ or transaction costs some amount of money and computing power.
-
-### New Areas of Tech
-
-ChatGPT **Prompt Engineering**, **Embeddings**, and **Fine tuning** are necessary in using new LLM technology. There are predictions that some types of coding may change as these technologies continue to develop, however, work in the assessment and refinement of new programming approaches is just beginning.
+Costs to train an LLM can be millions of dollars - so training frequently may hit commercial challenges. After training, each _inference_ or transaction costs some amount of money and computing power.
