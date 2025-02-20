@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Unsupervised Learning** is a type of machine learning where the model is trained on data without explicit labels or supervision. The goal is for the algorithm to identify underlying patterns, structures, or distributions within the data without any predefined outcomes.
+**Unsupervised Learning** is a machine learning approach where the model is trained on unlabeled data, meaning there are no predefined target values. The goal is for the algorithm to identify hidden patterns, structures, or relationships in the data.
 
 ## Key Concepts
 
