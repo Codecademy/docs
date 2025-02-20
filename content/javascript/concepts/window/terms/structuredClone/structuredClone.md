@@ -1,19 +1,19 @@
 ---
 Title: 'structuredClone()'
-Description: 'Creates a deep clone of a JavaScript value, properly handling circular references and complex objects.'
+Description: 'Creates a deep clone of a JavaScript value, preserving circular references and handling complex objects.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
+  - 'Arguments'
   - 'Functions'
   - 'Parameters'
-  - 'Arguments'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`structuredClone()`** method creates a deep copy of JavaScript values, supporting circular references and built-in types that the JSON serialize-parse technique cannot handle.
+The **`structuredClone()`** method creates a deep copy of JavaScript values, supporting circular references and built-in types that cannot be handled by the JSON `stringify`-`parse` method.
 
 ## Syntax
 
@@ -21,27 +21,22 @@ The **`structuredClone()`** method creates a deep copy of JavaScript values, sup
 clone = structuredClone(value)
 ```
 
-`structuredClone()` takes the following parameters:
+- `value`: The JavaScript value to be deep-cloned. It can be an object, array, map, set, or other structured data types.
 
-- The `value` to be cloned, which can be any structured-clonable type.
+It returns a new deep copy of the provided `value`, with all nested objects and special types properly cloned.
 
-It returns a new deep copy of the input value, with all nested objects and special types properly cloned.
+## Example
 
-## Example 1
-
-The following code demonstrates how structuredClone() handles nested objects.
+The following example shows how `structuredClone()` deep copies a nested object, preserving the original structure while allowing independent modifications:
 
 ```js
-// Creating an object with various data types
+// Creating an object with nested properties
 const original = {
   numbers: [1, 2, 3],
   nested: {
     name: 'Example',
   },
 };
-
-// Create circular reference
-const self = (original.self = original);
 
 // Clone the object
 const clone = structuredClone(original);
