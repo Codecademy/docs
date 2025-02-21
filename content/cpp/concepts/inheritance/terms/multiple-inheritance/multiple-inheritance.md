@@ -179,17 +179,17 @@ public:
 // Derived class inheriting from both Employee and Skill
 class SoftwareEngineer : public Employee, public Skill {
 public:
-    void debug() {
-        cout << "Software Engineer is debugging the code.\n";
-    }
+  void debug() {
+    cout << "Software Engineer is debugging the code.\n";
+  }
 };
 
 int main() {
-    SoftwareEngineer dev;
-    dev.work();   // Inherited from Employee
-    dev.coding(); // Inherited from Skill
-    dev.debug();  // Defined in SoftwareEngineer
+  SoftwareEngineer dev;
+  dev.work();   // Inherited from Employee
+  dev.coding(); // Inherited from Skill
+  dev.debug();  // Defined in SoftwareEngineer
 
-    return 0;
+  return 0;
 }
 ```
