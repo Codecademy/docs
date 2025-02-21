@@ -69,7 +69,7 @@ The following example scrolls the window _200_ pixels to the right, _150_ pixels
 // Get a reference to the button element.
 const scrollButton3 = document.getElementById("scrollButton3");
 
-// Scroll right by 200 pixels, 
+// Scrolls smoothly right by 200 pixels and down by 150 pixels when the button is clicked.
 window.scrollBy({
 	top: 150,
 	left: 200,
