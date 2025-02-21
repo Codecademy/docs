@@ -1,6 +1,6 @@
 ---
 Title: '.icicle()'
-Description: 'Creates icicle charts, which are used for visualizing multi-level categorical data.'
+Description: 'Creates an icicle chart, a hierarchical visualization that displays data as nested rectangles, where each level represents a breakdown of the parent category.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Plotly, the **`.icicle()`** function under the `plotly.express` module is used to create icicle charts, which are hierarchical visualizations similar to [sunburst charts](https://www.codecademy.com/resources/docs/plotly/express/sunburst) and [treemaps](https://www.codecademy.com/resources/docs/plotly/express/treemap). Icicle charts display hierarchical data with nested rectangles, where each level of the hierarchy is represented as a segment. This chart type is useful for visualizing multi-level categorical data in a structured and intuitive way.
+In Plotly, the **`.icicle()`** function under the [`plotly.express`](https://www.codecademy.com/resources/docs/plotly/express) module is used to create icicle charts, which are hierarchical visualizations similar to [sunburst charts](https://www.codecademy.com/resources/docs/plotly/express/sunburst) and [treemaps](https://www.codecademy.com/resources/docs/plotly/express/treemap). Icicle charts display hierarchical data with nested rectangles, where each level of the hierarchy is represented as a segment. This chart type is useful for visualizing multi-level categorical data in a structured and intuitive way.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ plotly.express.icicle(data_frame=None, path=None, values=None, color=None, color
 - `data_frame`: The [Pandas DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) containing hierarchical data.
 - `path`: A list of column names representing different levels of the hierarchy.
 - `values` (Optional): The column that defines the values of the segments.
-- `color` (Optional): The column used for coloring the chart.
+- `color` (Optional): The column used for segment coloring.
 - `color_continuous_scale` (Optional): A color scale for continuous data.
 - `title` (Optional): The title of the icicle chart.
 
