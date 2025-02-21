@@ -24,8 +24,8 @@ torch.normal(mean, std, *, gen=None, out=None)
 
 - `mean`: A tensor containing the means of the normal distribution.
 - `std`: A tensor containing the standard deviations of the normal distribution.
-- `gen` (Optional): Generates a pseudorandom number for sampling.
-- `out` (Optional): The output tensor.
+- `gen` (Optional): A pseudorandom number generator for sampling.
+- `out` (Optional): A tensor where the output will be stored in-place.
 
 ## Example
 
