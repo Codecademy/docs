@@ -42,7 +42,7 @@ The following example scrolls the window _200_ pixels down:
 // Get a reference to the button element.
 const scrollButton = document.getElementById("scrollButton");
 
-// Scroll down by 200 pixels when the button is clicked
+// Scroll down by 200 pixels when the button is clicked.
 scrollButton.addEventListener("click", function() {
 	window.scrollBy(0,200); 
 });
@@ -55,7 +55,7 @@ The following example scrolls the window _100_ pixels to the left and _100_ pixe
 // Get a reference to the button element.
 const scrollButton2 = document.getElementById("scrollButton2");
 
-// Scroll left by 100 pixels and up by 100 pixels when the button is clicked
+// Scroll left by 100 pixels and up by 100 pixels when the button is clicked.
 scrollButton2.addEventListener("click", function() {
 	window.scrollBy(-100,-100);
 });
@@ -69,7 +69,7 @@ The following example scrolls the window _200_ pixels to the right, _150_ pixels
 // Get a reference to the button element.
 const scrollButton3 = document.getElementById("scrollButton3");
 
-// Scrolls smoothly right by 200 pixels and down by 150 pixels when the button is clicked
+// Scrolls smoothly right by 200 pixels and down by 150 pixels when the button is clicked.
 window.scrollBy({
 	top: 150,
 	left: 200,
