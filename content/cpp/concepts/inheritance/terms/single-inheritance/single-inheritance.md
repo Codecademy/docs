@@ -31,7 +31,7 @@ class DerivedClass : AccessSpecifier BaseClass {
 
 - `BaseClass` is the parent (superclass), containing common functionality.
 - `DerivedClass` inherits from `BaseClass`, gaining its attributes and methods.
-- `AccessSpecifier` (`public`, `protected`, or `private`) controls access to inherited members.
+- `AccessSpecifier` ([`public`](https://www.codecademy.com/resources/docs/cpp/access-modifiers/public), [`protected`](https://www.codecademy.com/resources/docs/cpp/access-modifiers/protected), or [`private`](https://www.codecademy.com/resources/docs/cpp/access-modifiers/private)) controls access to inherited members.
 
 ## Example
 
