@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Plotly, the **`.ecdf()`** function under the `plotly.express` module is used to generate an Empirical Cumulative Distribution Function (ECDF) plot. An ECDF plot visualizes the proportion or count of observations that are less than or equal to a given value, making it useful for analyzing distributions of data without assuming an underlying probability distribution.
+In Plotly, the **`.ecdf()`** function under the `plotly.express` module is used to generate an [Empirical Cumulative Distribution Function (ECDF)](https://www.codecademy.com/resources/docs/python/statsmodels/statistical-distributions) plot. An ECDF plot visualizes the proportion or count of observations that are less than or equal to a given value, making it useful for analyzing distributions of data without assuming an underlying probability distribution.
 
 ## Syntax
 
