@@ -19,12 +19,12 @@ In PyTorch, the **`.bernoulli()`** function is used to generate a [tensor](https
 ## Syntax
 
 ```pseudo
-torch.bernoulli(prob, *, gen=None, out=None)
+torch.bernoulli(input, *, gen=None, out=None)
 ```
 
-- `prob`: A tensor containing probabilities of the Bernoulli distribution.
-- `gen` (Optional): Generates a pseudorandom number for sampling.
-- `out` (Optional): The output tensor.
+- `input`: A tensor containing probabilities (values between 0 and 1).
+- `gen` (Optional): Generates a pseudorandom number for sampling. Defaults to `None`.
+- `out` (Optional): The output tensor to store the result.
 
 ## Example
 
@@ -37,7 +37,7 @@ import torch
 prob = torch.tensor([0.3, 0.6, 0.9, 0.4, 0.8, 0.5])
 
 # Generate samples from the Bernoulli distribution
-res = torch.bernoulli(ten)
+res = torch.bernoulli(prob)
 
 # Print the resultant tensor
 print(res)
