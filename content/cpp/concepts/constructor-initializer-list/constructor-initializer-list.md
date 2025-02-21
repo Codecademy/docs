@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **constructor initializer list** in C++ is a way to directly initialize member variables when an object is created. It is used to set values for variables before the constructor body runs. This helps make the program more efficient and is required for const variables, references, and base class objects.
+A **constructor initializer list** in C++ is a way to directly initialize member variables when an object is created. It sets variable values before the [constructor](https://www.codecademy.com/resources/docs/cpp/constructors) body runs. This helps make the program more efficient and is required for [const variables](https://www.codecademy.com/resources/docs/cpp/variables/constant-variables), [references](https://www.codecademy.com/resources/docs/cpp/references), and base class [objects](https://www.codecademy.com/resources/docs/cpp/objects).
 
 ## Syntax
 
@@ -58,7 +58,7 @@ int main() {
 }
 ```
 
-The result of the above code is following:
+The result of the above code is the following:
 
 ```shell
 Point initialized with x = 3 and y = 4
@@ -66,7 +66,7 @@ Point initialized with x = 3 and y = 4
 
 ### Initializing Constant and Reference Members
 
-If a class has const or reference variables, they must be initialized using a constructor initializer list since they cannot be assigned values later:
+If a class has `const` or reference `variables`, they must be initialized using a constructor initializer list since they cannot be assigned values later:
 
 ```cpp
 #include <iostream>
@@ -88,7 +88,7 @@ int main() {
 }
 ```
 
-The result of the above code is following:
+The result of the above code is the following:
 
 ```shell
 Const value: 5 | Reference value: 10
