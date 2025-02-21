@@ -1,4 +1,4 @@
-There are also tags which are used for changing the appearance of tekst on the screen. For example <b>the Bold </b>, and <i>Italic </i>. 
+There are also tags which are used for changing the appearance of tekst on the screen. For example <b>the Bold </b>, and <i>Italic </i> tags. 
 
 Some examples in usage:
  <p>This is plain tekst (as we know it) - <b>and this text is bold,</b> <i> where by contrast this tekst is italic</i> .</p>
