@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Single inheritance** is an [Object-Oriented Programming (OOP)](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming) feature where a class (derived class) inherits attributes and behaviors from a single base class. This allows code reuse, modular design, and the ability to extend functionalities of existing classes.
+**Single inheritance** is an [Object-Oriented Programming (OOP)](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming) feature in which a class (derived class) inherits attributes and behaviors from a single base class. This allows code reuse, modular design, and the ability to extend the functionalities of existing classes.
 
 ## Syntax
 
@@ -21,11 +21,11 @@ In C++, single inheritance follows this syntax:
 
 ```pseudo
 class BaseClass {
-    // Base class members
+  // Base class members
 };
 
 class DerivedClass : AccessSpecifier BaseClass {
-    // Derived class members
+  // Derived class members
 };
 ```
 
@@ -43,25 +43,25 @@ using namespace std;
 
 class Vehicle {
 public:
-    void startEngine() {
-        cout << "Engine started." << endl;
-    }
+  void startEngine() {
+    cout << "Engine started." << endl;
+  }
 };
 
 class Car : public Vehicle {
 public:
-    void drive() {
-        cout << "Car is driving." << endl;
-    }
+  void drive() {
+    cout << "Car is driving." << endl;
+  }
 };
 
 int main() {
-    Car myCar;
+  Car myCar;
 
-    myCar.startEngine();  // Inherited from Vehicle
-    myCar.drive();        // Car's own method
+  myCar.startEngine(); // Inherited from Vehicle
+  myCar.drive(); // Car's own method
 
-    return 0;
+  return 0;
 }
 ```
 
@@ -87,33 +87,33 @@ Run the following example to understand how the single inheritance works:
 
 class Person {
 protected:
-    std::string name;
-    int age;
+  std::string name;
+  int age;
 
 public:
-    Person(std::string n, int a) : name(n), age(a) {}
+  Person(std::string n, int a) : name(n), age(a) {}
 
-    void display() {
-        std::cout << "Name: " << name << "\nAge: " << age << std::endl;
-    }
+  void display() {
+    std::cout << "Name: " << name << "\nAge: " << age << std::endl;
+  }
 };
 
 class Student : public Person {
 private:
-    int studentID;
+  int studentID;
 
 public:
-    Student(std::string n, int a, int id) : Person(n, a), studentID(id) {}
+  Student(std::string n, int a, int id) : Person(n, a), studentID(id) {}
 
-    void display() {
-        Person::display();
-        std::cout << "Student ID: " << studentID << std::endl;
-    }
+  void display() {
+    Person::display();
+    std::cout << "Student ID: " << studentID << std::endl;
+  }
 };
 
 int main() {
-    Student student1("Alice", 20, 101);
-    student1.display();
-    return 0;
+  Student student1("Alice", 20, 101);
+  student1.display();
+  return 0;
 }
 ```
