@@ -2,13 +2,13 @@
 Title: 'Multimodal models'
 Description: 'Multimodal models process and integrate multiple data types, such as text, images, and audio, to enhance AI capabilities and improve decision-making.'
 Subjects:
-- 'Machine Learning'
-- 'Data Science'
+  - 'Machine Learning'
+  - 'Data Science'
 Tags:
-- 'AI'
+  - 'AI'
 CatalogContent:
-- 'paths/machine-learning-engineer'
-- 'paths/build-a-machine-learning-model'
+  - 'paths/machine-learning-engineer'
+  - 'paths/build-a-machine-learning-model'
 ---
 
 **Multimodal models** are AI systems capable of processing and integrating multiple types of data, such as text, images, audio, and video. These models enhance machine understanding and decision-making by leveraging information from different modalities simultaneously.
