@@ -117,3 +117,5 @@ int main() {
   return 0;
 }
 ```
+
+> **Note**: The above code snippet uses the concept of [`Constructor Initialization Lists`](https://www.codecademy.com/resources/docs/cpp/constructor-initializer-list) which is a common practice in C++ to call the base class constructor and initialize private data members.
