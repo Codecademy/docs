@@ -163,17 +163,17 @@ using namespace std;
 // Base class 1
 class Employee {
 public:
-    void work() {
-        cout << "Employee is working on tasks.\n";
-    }
+  void work() {
+    cout << "Employee is working on tasks.\n";
+  }
 };
 
 // Base class 2
 class Skill {
 public:
-    void coding() {
-        cout << "Employee is coding in C++.\n";
-    }
+  void coding() {
+    cout << "Employee is coding in C++.\n";
+  }
 };
 
 // Derived class inheriting from both Employee and Skill
