@@ -48,7 +48,7 @@ Multimodal AI models process different data types by:
 
 ## Implementation structure
 
-Multimodal AI can be implemented in various ways using deep learning frameworks like TensorFlow, PyTorch, or Hugging Face Transformers. However, a common structure involves:
+Multimodal AI can be implemented in various ways using deep learning frameworks like TensorFlow, PyTorch, or HuggingFace Transformers. However, a common structure involves:
 
 1. **Defining Separate Modalities**: Identify and prepare data sources like text, images, or audio.
 2. **Processing Each Modality**: Use specialized models (e.g., CNNs for images, Transformers for text, RNNs for audio) to extract features.
