@@ -22,3 +22,13 @@ In HTML, **tags** are commonly defined as a set of characters constituting a for
 ```
 
 A single tag is made of an opening angle bracket `<`, followed by the `element-name`, followed by the closing angle bracket. While most elements are made of opening and closing tags some are self-closing. Furthermore, some self-closing elements like [`<br>`](https://www.codecademy.com/resources/docs/html/elements/br) can have a slash at the end like so: `<br />`. The other self-closing tags include: `<area>`, `<base>`, `<col>`, `<embed>`, `<hr>`, `<img>`, `<input>`, `<keygen>`, `<link>`, `<meta>`, `<param>`, `<source>`, `<track>`, and `<wbr>`.
+
+
+There are also tags which are used for changing the appearance of tekst on the screen. For example the Bold <b>, and Italic <i>. 
+
+Some examples in usage:
+ <p>This is plain tekst (as we know it) - <b> **and this text is bold** </b> <i> *this tekst is italic* </i> .</p>
+ 
+
+You can also mix the tags, which doesn't improve readability, but it is nice to know it is a possibility. For that we nest the tags.
+<p><b><i>This is very busy text.</i></b></p> 
