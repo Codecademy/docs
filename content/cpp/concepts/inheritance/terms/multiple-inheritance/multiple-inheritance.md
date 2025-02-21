@@ -18,6 +18,7 @@ CatalogContent:
 ## Syntax
 
 The syntax for multiple inheritance is similar to the syntax for single inheritance:
+
 ```pseudo
 class DerivedClass : public BaseClass1, public BaseClass2 {
     // Derived class members
@@ -32,25 +33,24 @@ The ordering of base classes affects the order in which [constructors](https://w
 - Direct base class constructors are then called (from left to right).
 - Destructors are called in reverse order of constructors.
 
-
 ## Examples
 
 ### Basic multiple inheritance
 
 ```cpp
-class Bat { 
-  public: 
+class Bat {
+  public:
     void fly();
-}; 
+};
 
-class Man { 
-  public: 
+class Man {
+  public:
       void run();
 };
 
-class ManBat : public Man, public Bat { 
-  // run() and fly() are both available as they're inherited from Man and Bat 
-}; 
+class ManBat : public Man, public Bat {
+  // run() and fly() are both available as they're inherited from Man and Bat
+};
 ```
 
 ### Ambiguity errors
@@ -58,26 +58,26 @@ class ManBat : public Man, public Bat {
 With multiple inheritance, ambiguity errors can occur if two base classes have members with identical names. This happens because it is unclear which base class member should be referenced. The **scope resolution operator** (`::`) can resolve such conflicts.
 
 ```cpp
-class Dancer { 
-  public: 
+class Dancer {
+  public:
     void jump();
-}; 
+};
 
-class Frog { 
-  public: 
+class Frog {
+  public:
       void jump();
 };
 
-class DancingFrog : public Dancer, public Frog { 
+class DancingFrog : public Dancer, public Frog {
   // jump() is inherited from Dancer and Frog
-}; 
+};
 
 int main () {
   DancingFrog df;
   df.jump(); // This will cause an ambiguity error as it isn't clear which ancestor's jump() we mean
   df.Dancer::jump(); // This won't cause an ambiguity error as the scope resolution operator explicitly references Dancer
   return 0;
-}   
+}
 ```
 
 ### The Diamond Problem
@@ -96,11 +96,11 @@ class Car : public Vehicle {
       void drive();
 };
 
-class Plane : public Vehicle { 
+class Plane : public Vehicle {
   // Inherits weight() from Vehicle
   public:
       void fly();
-}; 
+};
 
 class CarPlane : public Car, public Plane {
   // Inherits drive() from Car and fly() from Plane
@@ -132,11 +132,11 @@ class Car : virtual Vehicle {
       void drive();
 };
 
-class Plane : virtual Vehicle { 
+class Plane : virtual Vehicle {
   // Inherits weight() from Vehicle
   public:
       void fly();
-}; 
+};
 
 class CarPlane : public Car, public Plane {
   // Inherits drive() from Car and fly() from Plane
