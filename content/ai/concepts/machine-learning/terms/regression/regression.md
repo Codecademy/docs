@@ -11,7 +11,7 @@ Tags:
 - "Python"
 - "Regression"
 CatalogContent:
--"Learn Git & GitHub"
+- "Learn Git & GitHub"
 ---
 **Regression is a mathematical process applied to data.   The aim is to identify the function that represents data occurrence in the best possible manner.  
 In the context of machine learning the function identified with a regression technique can be used for predictive purposes.**  
