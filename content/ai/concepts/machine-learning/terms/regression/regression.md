@@ -2,16 +2,16 @@
 Title: "Regression"
 Descripton: "Explains the term regression in the context of machine learning.  Provides a simple example in Python."
 Subjects:
-	- "Machine Learning"
-	- "Mathematics"
-	- "Python"
+- "Machine Learning"
+- "Mathematics"
+- "Python"
 Tags:
-	- "Machine Learning"
-	- "Mathematics"
-	- "Python"
-	- "Regression"
+- "Machine Learning"
+- "Mathematics"
+- "Python"
+- "Regression"
 CatalogContent:
-	-"Learn Git & GitHub"
+-"Learn Git & GitHub"
 ---
 **Regression is a mathematical process applied to data.   The aim is to identify the function that represents data occurrence in the best possible manner.  
 In the context of machine learning the function identified with a regression technique can be used for predictive purposes.**  
@@ -25,4 +25,33 @@ x is the predictor variable on the x axis (horizontal);
 the intercept is the value of y (outcome) if x is set to zero (hence intercept = b);  
 the slope is the variation of the outcome y if the predictor x is increased by one unit.  
   
-A simple example in Python
+### A simple example in Python:  
+The following code predicts a person's weight based on a person's height.  
+```python
+import pandas as pd
+import statsmodels.api as sm
+import matplotlib.pyplot as plt
+
+# Provided data
+heights = [150, 152, 160, 172, 176, 176, 180, 189]
+weights = [50, 65, 65, 70, 80, 90, 90, 89]
+
+# Create a DataFrame
+measurements = pd.DataFrame({'height': heights, 'weight': weights})
+
+# Fit the linear regression model
+model = sm.OLS.from_formula("weight ~ height", data=measurements)
+results = model.fit()
+
+# Print the summary of the model
+print(results.summary())
+
+# Plot the data and the regression line
+plt.scatter(measurements['height'], measurements['weight'], label='Data')
+plt.plot(measurements['height'], results.predict(measurements), color='red', label='Regression Line')
+plt.xlabel('Height (cm)')
+plt.ylabel('Weight (kg)')
+plt.title('Height vs Weight with Regression Line')
+plt.legend()
+plt.show()
+``` 
