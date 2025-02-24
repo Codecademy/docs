@@ -1,6 +1,6 @@
 ---
 Title: 'Data Distributions'
-Description: 'Data distributions describe how data values are spread out or clustered in a dataset.'
+Description: 'Data distributions describe how the data values are spread out or clustered in a dataset.'
 Subjects:
   - 'Data Science'
   - 'AI'
@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Data distributions** show how values occur in a dataset. It helps in highlighting patterns, measure variability, and reveal the overall shape of the data. Distributions are often grouped into two categories: **continuous and discrete**.
+**Data distributions** show how values occur in a dataset. It helps highlight patterns, measure variability, and reveal the overall shape of the data. Distributions are often grouped into two categories: **continuous** and **discrete**.
 
 ## Discrete distribution
 
-**Discrete data** consists of integer or count-based values that cannot be split into fractions. For example, the number of students in a class or the number of cars passing through an intersection. Each possible value is distinct, unlike continuous data, which can take any value within a range.
+**Discrete data** consists of integer or count-based values that cannot be split into fractions. For example, the number of students in a class or the number of cars passing through an intersection. Unlike continuous data, each possible value is distinct and can take any value within a range.
 
 Here, discrete distributions describe variables that take on distinct, separate values. These values often represent counts or whole-number outcomes. Examples include the number of heads in coin flips or the count of arrivals at a store in a given hour.
 
@@ -24,7 +24,7 @@ Here, discrete distributions describe variables that take on distinct, separate 
 
 | **Distributions**               | **Description**                                                                                                                                     |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Binomial Distribution**       | Records how many times success appears in a set number of independent, two-outcome trials. Each trial has a fixed chance of success.                |
+| **Binomial Distribution**       | Record how often success appears in a set number of independent, two-outcome trials. Each trial has a fixed chance of success.                |
 | **Poisson Distribution**        | Estimates how many events occur within a set interval, assuming each event takes place at a known average rate and happens on its own.              |
 | **Hypergeometric Distribution** | Represents the probability of drawing a certain number of successes from a finite population without replacement, given a known total of successes. |
 | **Geometric Distribution**      | Shows how many trials are needed to reach the first success in a series of independent, two-outcome trials with a constant chance of success.       |
@@ -43,7 +43,7 @@ Here, a continuous distribution represents the behaviour of a continuous data va
 | **Lognormal Distribution**   | Occurs when the logarithm of a variable follows a normal pattern. Often used for data that cannot go below zero.                   |
 | **F Distribution**           | Evaluates the ratio of two sample variances. Common in analysis of variance (ANOVA).                                               |
 | **Chi-Square Distribution**  | Summation of the squares of independent normal variables. Used in independence and goodness-of-fit tests.                          |
-| **Exponential Distribution** | Models the time between events in a Poisson process, where events happen steadily and on their own.                                |
+| **Exponential Distribution** | Models the time between events in a Poisson process, where events happen steadily and independently.                                |
 | **t-Student Distribution**   | Resembles the normal curve but has heavier tails. Often used for small samples or unknown variance.                                |
 | **Weibull Distribution**     | Common in reliability and survival studies. Models how external factors affect failure or survival.                                |
 | **Non-normal Distributions** | Covers any continuous distributions that do not match a normal pattern. These may have skewness, heavy tails, or other variations. |
