@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Data distributions** show how values occur in a dataset. It helps highlight patterns, measure variability, and reveal the overall shape of the data. Distributions are often grouped into two categories: **continuous** and **discrete**.
+**Data distributions** show how values are spread in a dataset. It helps highlight patterns, measure variability, and reveal the overall shape of the data. Distributions are often grouped into two categories: **continuous** and **discrete**.
 
 ## Discrete distribution
 
