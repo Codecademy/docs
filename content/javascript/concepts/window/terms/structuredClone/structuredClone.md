@@ -13,24 +13,24 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`structuredClone()`** method creates a deep copy of JavaScript values, supporting circular references and built-in types that cannot be handled by the JSON `stringify`-`parse` method.
+In JavaScript, the **`structuredClone()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) under the `Window` interface creates a deep copy of a JavaScript value, supporting circular references and built-in types that cannot be handled by the [`stringify()`](https://www.codecademy.com/resources/docs/javascript/json/stringify) and [`parse()`](https://www.codecademy.com/resources/docs/javascript/json/parse) methods in [JSON](https://www.codecademy.com/resources/docs/javascript/json).
 
 ## Syntax
 
 ```pseudo
-clone = structuredClone(value)
+structuredClone(value)
 ```
 
-- `value`: The JavaScript value to be deep-cloned. It can be an object, array, map, set, or other structured data types.
+- `value`: The JavaScript value to be deep-cloned. It can be an [object](https://www.codecademy.com/resources/docs/javascript/objects), [array](https://www.codecademy.com/resources/docs/javascript/arrays), [map](https://www.codecademy.com/resources/docs/javascript/map), [set](https://www.codecademy.com/resources/docs/javascript/sets), or other structured [data types](https://www.codecademy.com/resources/docs/javascript/data-types).
 
-It returns a new deep copy of the provided `value`, with all nested objects and special types properly cloned.
+This method returns a new deep copy of the provided `value`, with all nested objects and special types properly cloned.
 
 ## Example
 
 The following example shows how `structuredClone()` deep copies a nested object, preserving the original structure while allowing independent modifications:
 
 ```js
-// Creating an object with nested properties
+// Create an object with nested properties
 const original = {
   numbers: [1, 2, 3],
   nested: {
