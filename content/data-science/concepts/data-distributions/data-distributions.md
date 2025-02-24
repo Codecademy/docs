@@ -24,7 +24,7 @@ Here, discrete distributions describe variables that take on distinct, separate 
 
 | **Distributions**               | **Description**                                                                                                                                     |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Binomial Distribution**       | Record how often success appears in a set number of independent, two-outcome trials. Each trial has a fixed chance of success.                |
+| **Binomial Distribution**       | Records how often success appears in a set number of independent, two-outcome trials. Each trial has a fixed chance of success.                |
 | **Poisson Distribution**        | Estimates how many events occur within a set interval, assuming each event takes place at a known average rate and happens on its own.              |
 | **Hypergeometric Distribution** | Represents the probability of drawing a certain number of successes from a finite population without replacement, given a known total of successes. |
 | **Geometric Distribution**      | Shows how many trials are needed to reach the first success in a series of independent, two-outcome trials with a constant chance of success.       |
@@ -42,8 +42,8 @@ Here, a continuous distribution represents the behaviour of a continuous data va
 | **Normal Distribution**      | This is also known as Gaussian. Displays a bell shape, with values clustering around the mean in a symmetric pattern.              |
 | **Lognormal Distribution**   | Occurs when the logarithm of a variable follows a normal pattern. Often used for data that cannot go below zero.                   |
 | **F Distribution**           | Evaluates the ratio of two sample variances. Common in analysis of variance (ANOVA).                                               |
-| **Chi-Square Distribution**  | Summation of the squares of independent normal variables. Used in independence and goodness-of-fit tests.                          |
-| **Exponential Distribution** | Models the time between events in a Poisson process, where events happen steadily and independently.                                |
+| **Chi-Square Distribution**  | Summation of the squares of independent standard normal variables. Used in independence and goodness-of-fit tests.                          |
+| **Exponential Distribution** | Models the time between events in a Poisson point process, where events happen steadily and independently.                                |
 | **t-Student Distribution**   | Resembles the normal curve but has heavier tails. Often used for small samples or unknown variance.                                |
 | **Weibull Distribution**     | Common in reliability and survival studies. Models how external factors affect failure or survival.                                |
 | **Non-normal Distributions** | Covers any continuous distributions that do not match a normal pattern. These may have skewness, heavy tails, or other variations. |
