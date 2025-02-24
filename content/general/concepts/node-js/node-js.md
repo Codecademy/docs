@@ -1,6 +1,6 @@
 ---
 Title: 'Node.js'
-Description: 'Node.js is an open-source runtime that allows developers to run JavaScript outside the browser, enabling its use for server-side development.'
+Description: 'Node.js is an open-source runtime that lets developers run JavaScript outside the browser, enabling server-side development.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
