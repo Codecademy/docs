@@ -17,26 +17,26 @@ The **`scrollBy()`** method is a function provided by the browser's [window](htt
 
 ## Syntax
 
-`scrollBy()` receives up to two parameters:
-* `x-coordinate`: The number of pixels to scroll **horizontally**. A positive number will scroll *right*, and a negative number will scroll *left*.
-* `y-coordinate`: The number of pixels to scroll **vertically**. A positive number will scroll *down*, and a negative number will scroll *up*.
-
-Alternatively, `scrollBy*()` can be used with only one parameter, `options`:
-* `options`: An object that takes up to three properties: 
-	* `top`: The number of pixels to scroll **vertically**.
-	* `left`: The number of pixels to scroll **horizontally**.
-	* `behavior`: Determines the scrolling animation. This can either be `instant`, `smooth`, or `auto`.
-
 ```pseudo
 window.scrollBy(x-coordinate,y-coordinate);
+```
+
+Or, alternatively:
+
+```pseudo
 window.scrollBy(options);
 ```
 
-Below are some examples of how `scrollBy()` is composed:
+- `x-coordinate`: The number of pixels to scroll horizontally. A positive number will scroll _right_, and a negative number will scroll _left_.
+- `y-coordinate`: The number of pixels to scroll vertically. A positive number will scroll _down_, and a negative number will scroll _up_.
+- `options`: An object that takes up to three properties:
+  - `left`: The number of pixels to scroll horizontally.
+  - `top`: The number of pixels to scroll vertically.
+  - `behavior`: Determines the scrolling animation. This can either be `instant`, `smooth`, or `auto`.
 
 ## Example 1
 
-The following example scrolls the window _200_ pixels down:
+The following example uses the `scrollBy()` function to scroll the window down by _200_ pixels when a button is clicked:
 
 ```js
 // Get a reference to the button element
@@ -44,20 +44,21 @@ const scrollButton = document.getElementById("scrollButton");
 
 // Scroll down by 200 pixels when the button is clicked
 scrollButton.addEventListener("click", function() {
-	window.scrollBy(0,200); 
+  window.scrollBy(0, 200);
 });
 ```
+
 ## Example 2
 
 The following example scrolls the window _100_ pixels to the left and _100_ pixels up using negative values:
 
 ```js
-// Get a reference to the button element
+// Get a reference to the second button element.
 const scrollButton2 = document.getElementById("scrollButton2");
 
-// Scroll left by 100 pixels and up by 100 pixels when the button is clicked
+// Scroll left by 100 pixels and up by 100 pixels when the button is clicked.
 scrollButton2.addEventListener("click", function() {
-	window.scrollBy(-100,-100);
+  window.scrollBy(-100, -100);
 });
 ```
 
@@ -71,11 +72,8 @@ const scrollButton3 = document.getElementById("scrollButton3");
 
 // Scrolls smoothly right by 200 pixels and down by 150 pixels when the button is clicked
 window.scrollBy({
-	top: 150,
-	left: 200,
-	behavior: "smooth",
+  top: 150,
+  left: 200,
+  behavior: "smooth",
 });
 ```
-
-
-
