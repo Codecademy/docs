@@ -21,7 +21,7 @@ Created in 2009 by Ryan Dahl, Node.js addressed the inefficiencies of traditiona
 
 ## Node.js Architecture
 
-Node.js uses a single-threaded event loop to handle incoming requests asynchronously. This non-blocking approach allows it to process many connections at once without pausing for any single task to complete. As a result, Node.js excels in real-time applications, such as chat apps, online gaming, and streaming services, where rapid data updates and fast response times are critical.
+Node.js uses a single-threaded event loop to handle incoming requests asynchronously. This non-blocking approach allows it to process multiple connections simultaneously without waiting for any single task to complete. As a result, Node.js excels in real-time applications such as chat apps, online gaming, and streaming services, where rapid data updates and fast response times are crucial.
 
 ## Pros and Cons of Node.js
 
