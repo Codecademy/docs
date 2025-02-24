@@ -44,7 +44,7 @@ Here, a continuous distribution represents the behaviour of a continuous data va
 | **F Distribution**           | Evaluates the ratio of two sample variances. Common in analysis of variance (ANOVA).                                               |
 | **Chi-Square Distribution**  | Summation of the squares of independent standard normal variables. Used in independence and goodness-of-fit tests.                          |
 | **Exponential Distribution** | Models the time between events in a Poisson point process, where events happen steadily and independently.                                |
-| **t-Student Distribution**   | Resembles the normal curve but has heavier tails. Often used for small samples or unknown variance.                                |
+| **Student's t-Distribution**   | Resembles the normal curve but has heavier tails. Often used for small samples or unknown variance.                                |
 | **Weibull Distribution**     | Common in reliability and survival studies. Models how external factors affect failure or survival.                                |
 | **Non-normal Distributions** | Covers any continuous distributions that do not match a normal pattern. These may have skewness, heavy tails, or other variations. |
 
