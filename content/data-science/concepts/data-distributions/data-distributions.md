@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Discrete distribution
 
-**Discrete data** consists of integer or count-based values that cannot be split into fractions. For example, the number of students in a class or the number of cars passing through an intersection. Unlike continuous data, each possible value is distinct and can take any value within a range.
+**Discrete data** consists of integer or count-based values that cannot be split into fractions. For example, the number of students in a class or the number of cars passing through an intersection is discrete data.
 
 Here, discrete distributions describe variables that take on distinct, separate values. These values often represent counts or whole-number outcomes. Examples include the number of heads in coin flips or the count of arrivals at a store in a given hour.
 
