@@ -2,8 +2,8 @@
 Title: '.scrollTo()'
 Description: 'Scrolls document to specified coordinate in pixels'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Arguments'
   - 'Functions'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In Javascript, **`.scrollTo()`** scrolls window document to a specified position in pixels.
+In JavaScript, **`.scrollTo()`** scrolls the window or document to a specified position in pixels.
 
 ## Syntax
 
@@ -21,32 +21,34 @@ In Javascript, **`.scrollTo()`** scrolls window document to a specified position
 window.scrollTo(x, y)
 ```
 
-- `x` is the direction in the horizontal direction.
-- `y` is the direction in the vertical direction.
+- `x`: The horizontal coordinate (in pixels) to scroll to.
+- `y`: The vertical coordinate (in pixels) to scroll to.
+
+Or, alternatively:
 
 ```pseudo
 window.scrollTo(options)
 ```
 
-- `options` is an object with the following properties:
+- `options`: An object with the following optional properties:
+  - `left`: The horizontal scroll position in pixels.
+  - `top`: The vertical scroll position in pixels.
+  - `behavior`: Defines the scrolling behavior. Accepted values:
+    - `smooth`: Scrolls with an animation.
+    - `instant`: Scrolls immediately.
+    - `auto`: Uses the browser's default scrolling behavior.
 
-  - `top` is the pixels in the y-axis.
-  - `left` is the pixels in the x-axis.
-  - `behavior` is a string that determines whether the crolling is done instant or animates smoothly:
-    - `smooth` : animate scrolling smoothly.
-    - `instant` : scrolling is done instant.
-    - `auto` : scrolling is determined by a computed value of **_scroll-behavior_**.
+## Example 1
 
-## Example
-
-The code below scrolls the window to 298 pixels from the left (x-axis) and 57 pixels from the top (y-axis).
+The code below scrolls the window to _298_ pixels from the left (x-axis) and _57_ pixels from the top (y-axis) using absolute coordinates:
 
 ```js
 window.scrollTo(298, 57);
 ```
 
-Using options:
-The code below scrolls the window smoothly 57 pixels from the top (y-axis) and 298 pixels from the left (x-axis).
+## Example 2
+
+The code below scrolls the window smoothly to _57_ pixels from the top (y-axis) and _298_ pixels from the left (x-axis) using the options object:
 
 ```js
 window.scrollTo({
