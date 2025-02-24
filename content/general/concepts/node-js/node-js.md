@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-[Node.js](https://nodejs.org/en) is an open-source runtime that allows developers to run [JavaScript](https://www.codecademy.com/resources/docs/javascript) outside the browser. By leveraging an event-driven, non-blocking model, Node.js efficiently handles tasks such as [server-side](https://www.codecademy.com/resources/docs/general/server-side-rendering) scripting, file operations, and database interactions, making JavaScript a versatile full-stack language.
+[Node.js](https://nodejs.org/en) is an open-source runtime that allows developers to run [JavaScript](https://www.codecademy.com/resources/docs/javascript) outside the browser. Using an event-driven, non-blocking model, Node.js efficiently handles tasks like [server-side](https://www.codecademy.com/resources/docs/general/server-side-rendering) scripting, file operations, and database interactions, making JavaScript a versatile full-stack language.
 
 ## History of Node.js
 
