@@ -17,7 +17,7 @@ CatalogContent:
 
 ## History of Node.js
 
-Created in 2009 by Ryan Dahl, Node.js emerged to address the inefficiencies of traditional multi-threaded server models. Built on Chrome’s V8 engine, it introduced a single-threaded, event-driven architecture, enabling efficient handling of multiple connections. The launch of [npm (Node Package Manager)](<(https://www.codecademy.com/resources/docs/javascript/npm)>) further extended its capabilities, fostering a vast ecosystem of reusable libraries. Today, Node.js powers backend development, microservices, desktop apps, and IoT solutions across a wide range of industries.
+Created in 2009 by Ryan Dahl, Node.js addressed the inefficiencies of traditional multi-threaded server models. Built on Chrome’s V8 engine, it introduced a single-threaded, event-driven architecture, enabling efficient handling of multiple connections. The launch of [npm (Node Package Manager)](https://www.codecademy.com/resources/docs/javascript/npm) further expanded its capabilities, fostering a vast ecosystem of reusable libraries. Today, Node.js powers backend development, microservices, desktop applications, and IoT solutions across various industries.
 
 ## Node.js Architecture
 
