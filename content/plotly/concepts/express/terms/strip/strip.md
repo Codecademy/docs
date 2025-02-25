@@ -25,18 +25,31 @@ px.strip(data_frame=None, x=None, y=None, color=None, facet_row=None, facet_col=
          log_x=False, log_y=False, range_x=None, range_y=None, title=None, template=None, width=None, height=None)
 ```
 
-- `data_frame`: DataFrame or array-like object containing the data
-- `x`, `y`: Columns in `data_frame` to be used as x and y coordinates
-- `color`: Column to be used for color encoding
-- `facet_row`, `facet_col`: Columns to create multiple subplots organized in rows and columns
-- `hover_name`: Column with values displayed in bold in hover information
-- `hover_data`: List of column names to include in hover information
-- `stripmode`: Sets how points are arranged: 'group', 'overlay', or 'box'
-- `orientation`: 'h' for horizontal, 'v' for vertical strip chart
-- `log_x`, `log_y`: Boolean to transform respective axis to log scale
-- `range_x`, `range_y`: List of two values to define axis range
-- `title`: Title of the figure
-- `template`: Template for figure styling
+- `data_frame`: DataFrame or array-like object containing the data to be plotted
+- `x`: Column name or array of values to be used for the x-axis
+- `y`: Column name or array of values to be used for the y-axis
+- `color`: Column name or array of values used to assign colors to markers
+- `facet_row`: Column name to create multiple subplots arranged in rows
+- `facet_col`: Column name to create multiple subplots arranged in columns
+- `hover_name`: Column name to display in bold in the hover tooltip
+- `hover_data`: List or dict of column names to display in the hover tooltip
+- `custom_data`: List of column names to be extra data for callbacks or hover templates
+- `animation_frame`: Column name to be used for animation frames
+- `animation_group`: Column name to identify objects that should be animated together
+- `category_orders`: Dict mapping column names to lists defining the ordering of categorical values
+- `labels`: Dict mapping column names to display labels for axes, legends, and hover
+- `color_discrete_sequence`: List of colors to be used for discrete color values
+- `color_discrete_map`: Dict mapping categorical values to specific colors
+- `orientation`: Direction of the strip chart, 'h' for horizontal or 'v' for vertical
+- `stripmode`: How points are arranged - 'overlay' (default), 'group', or 'box'
+- `log_x`: Boolean indicating if x-axis should use log scale
+- `log_y`: Boolean indicating if y-axis should use log scale
+- `range_x`: List of two values defining the x-axis range
+- `range_y`: List of two values defining the y-axis range
+- `title`: Title text for the figure
+- `template`: Template name or template object for figure styling
+- `width`: Width of the figure in pixels
+- `height`: Height of the figure in pixels
 
 ## Example
 
