@@ -45,6 +45,6 @@ function animate() {
 requestAnimationFrame(animate);
 ```
 
-If the HTML and CSS are added, it'll look like as follows:
+Once the HTML and CSS have been added, the result will be as follows:
 
 ![Browser Output of the above code](https://raw.githubusercontent.com/Codecademy/docs/main/media/requestAnimationFrame_1.gif)
