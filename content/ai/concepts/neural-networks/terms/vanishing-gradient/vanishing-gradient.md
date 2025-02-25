@@ -16,15 +16,15 @@ The **Vanishing gradient problem** happens when gradients shrink as they move ba
 
 ## How does it occur?
 
-- **Deep Architectures**: Deeper networks have more layers that can multiply small gradient values.  
-- **Sigmoid or Tanh Activations**: These functions squash input values into a narrow range, which can reduce gradient magnitude.  
-- **Poor Weight Initialization**: Wrong initial weight scales can cause gradients to vanish.  
+- **Deep Architectures**: Deeper networks have more layers that can multiply small gradient values.
+- **Sigmoid or Tanh Activations**: These functions squash input values into a narrow range, which can reduce gradient magnitude.
+- **Poor Weight Initialization**: Wrong initial weight scales can cause gradients to vanish.
 
 ## How to Fix It
 
-- **Use ReLU or Related Activations**: ReLU functions help avoid squashing the gradient in early layers.  
-- **Proper Initialization**: Techniques like Xavier or He initialization maintain healthier gradients.  
-- **Batch Normalization**: Normalizing layer inputs can stabilize gradient flow.  
+- **Use ReLU or Related Activations**: ReLU functions help avoid squashing the gradient in early layers.
+- **Proper Initialization**: Techniques like Xavier or He initialization maintain healthier gradients.
+- **Batch Normalization**: Normalizing layer inputs can stabilize gradient flow.
 - **Skip Connections**: Shortcut paths reduce the effective depth of the network.
 
 ## Example: Demonstrating and Addressing the Vanishing Gradient Problem
@@ -107,8 +107,8 @@ Gradient norm (Sigmoid net, first layer): 0.004324
 Gradient norm (ReLU net, first layer): 0.118170
 ```
 
-1. **DeepSigmoidNet**: A fully connected network with multiple layers of sigmoid activation. The gradient often shrinks as it propagates back through each layer.  
-2. **Gradient Norm**: The code checks the gradient norm of the first layer. A very small value suggests that those parameters receive negligible updates.  
-3. **DeepReLUNet**: Switching to ReLU reduces the vanishing effect, which can be seen in the larger gradient norm for the first layer.  
+1. **DeepSigmoidNet**: A fully connected network with multiple layers of sigmoid activation. The gradient often shrinks as it propagates back through each layer.
+2. **Gradient Norm**: The code checks the gradient norm of the first layer. A very small value suggests that those parameters receive negligible updates.
+3. **DeepReLUNet**: Switching to ReLU reduces the vanishing effect, which can be seen in the larger gradient norm for the first layer.
 
 By using suitable activations, initialization, or techniques like batch normalization and skip connections, the vanishing gradient problem becomes less severe, making training faster and more reliable.
