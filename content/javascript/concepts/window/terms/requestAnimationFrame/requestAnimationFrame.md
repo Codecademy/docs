@@ -13,7 +13,7 @@ CatalogContent:
   - 'introduction-to-javascript'
 ---
 
-**`requestAnimationFrame()`** is a function offered by the browser that schedules a function to run before the next repaint. It is used to create smooth animations.
+The **`requestAnimationFrame()`** function schedules a function to run before the next repaint. It is used to create smooth animations.
 
 ## Syntax
 
@@ -25,11 +25,11 @@ requestAnimationFrame(callback)
 
 ## Example
 
-The following example moves a box across the screen using `requestAnimationFrame()`:
+In the following example, the JavaScript will animate the red box, moving it from left to right within the container using `requestAnimationFrame()`. The animation will continue until the box reaches 300px:
 
 ```js
 // Selecting the box element
-const box = document.getElementById("box");
+const box = document.getElementById('box');
 let position = 0;
 
 function animate() {
@@ -45,4 +45,6 @@ function animate() {
 requestAnimationFrame(animate);
 ```
 
-This example moves an HTML element with `id="box"` horizontally across the screen by 2 pixels per frame until it reaches 300 pixels.
+If the HTML and CSS are added, it'll look like as follows:
+
+![Browser Output of the above code](https://raw.githubusercontent.com/Codecademy/docs/main/media/requestAnimationFrame_1.gif)
