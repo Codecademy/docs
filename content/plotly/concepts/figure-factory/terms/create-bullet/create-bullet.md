@@ -1,6 +1,6 @@
 ---
 Title: 'Create Bullet'
-Description: 'This function generates bullet charts for performance measurement or goal comparison using Plotly.'
+Description: 'It generates bullet charts for performance measurement or goal comparison using Plotly.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-analysis'
 ---
 
-**`create_bullet()`** is a function from the [Plotly Figure Factory](https://www.codecademy.com/resources/docs/plotly/figure-factory) module that produces **bullet charts**. Bullet charts compare a single performance measure against a set of thresholds or ranges. They are commonly used to display progress toward targets or key performance indicators (KPIs).
+**`create_bullet()`** is a function from the [Plotly Figure Factory](https://www.codecademy.com/resources/docs/plotly/figure-factory) module that produces **bullet charts**. Bullet charts compare a single performance measure against a set of thresholds or ranges. They commonly display progress toward targets or key performance indicators (KPIs).
 
 ## Syntax
 
