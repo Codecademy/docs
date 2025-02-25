@@ -2,18 +2,18 @@
 Title: 'stop()'
 Description: 'Stops the loading of the current window, equivalent to clicking the stop button of browser.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
+  - 'Arguments'
   - 'Functions'
   - 'Parameters'
-  - 'Arguments'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`window.stop()`** method immediately terminates the loading of content in the current window, including images, animations, and scripts. This provides programmatic control over page loading, similar to manually stopping a page using the browser's stop button or the Escape key.
+The **`.stop()`** method immediately terminates the loading of content in the current window, including images, animations, and scripts. This provides programmatic control over page loading, similar to manually stopping a page using the browser's stop button or the Escape key.
 
 ## Syntax
 
@@ -21,13 +21,13 @@ The **`window.stop()`** method immediately terminates the loading of content in 
 window.stop()
 ```
 
-## Example 1
+## Example
 
 This JavaScript code demonstrates the usage of `.stop()` by creating a simple resource loading interface. The code creates three main elements:
 
-- A "Load Resources" button that triggers the resource loading
-- A "Stop Loading" button that halts the loading process
-- A status display `div` that shows the current loading state
+- A "Load Resources" button that starts loading images.
+- A "Stop Loading" button that prevents further loading.
+- A status display (`div`) to show the loading progress.
 
 ```js
 const loadButton = document.createElement('button');
