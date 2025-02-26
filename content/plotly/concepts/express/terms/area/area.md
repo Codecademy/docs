@@ -52,7 +52,9 @@ fig.show()
 - **`hover_data`** (optional): Additional columns to display in the hover tooltip.
 - **`template`** (optional): Specifies a predefined Plotly template.
 
-## Example
+## Examples
+
+### Basic Area Chart
 
 The following example demonstrates how to create an area chart using Plotly Express. This example uses a sample dataset showing daily sales over a period of time.
 
@@ -77,3 +79,30 @@ The output will be as follows:
 ![The output is an area chart where the x-axis represents the dates and the y-axis represents sales figures.](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotly-area.png)
 
 The output image displays an area chart where the x-axis represents the dates and the y-axis represents sales figures. The area under the line is filled, showcasing the trend of increasing sales over time. Peaks and valleys in the data are clearly visible, making it easy to identify fluctuations in daily sales.
+
+### Stacked Area Chart
+
+The following example demonstrates how to create a stacked area chart by grouping data using the `color` parameter.
+
+```py
+import plotly.express as px
+import pandas as pd
+import numpy as np
+
+# Sample data
+dates = pd.date_range(start="2024-01-01", periods=10, freq='D')
+data = {
+    "Date": np.tile(dates, 2),  # Repeat the dates for two categories
+    "Sales": [100, 120, 150, 130, 170, 180, 200, 190, 210, 230] + [80, 110, 140, 120, 160, 170, 190, 180, 200, 220],
+    "Category": ["A"] * 10 + ["B"] * 10
+}
+df = pd.DataFrame(data)
+
+# Create stacked area chart
+fig = px.area(df, x="Date", y="Sales", color="Category", title="Stacked Area Chart")
+fig.show()
+```
+
+The output will be as follows:
+
+![The output is a stacked area chart where different categories are represented by different colors, showing their contribution to the total values over time.](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotly-stacked-area-chart.png)
