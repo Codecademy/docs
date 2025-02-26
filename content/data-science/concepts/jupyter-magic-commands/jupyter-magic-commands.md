@@ -49,7 +49,8 @@ print("Hello, Jupyter Magic!")
 3. Environment & Debugging:
   - `%matplotlib inline`: Displays plots within the notebook.
   - `%debug`: Activates the interactive debugger when an exception occurs.
-  - `%who / %whos`: Lists active variables.
+  - `%who`: Lists only the names of active variables in the current namespace.
+  -  `%whos`: Lists the name, type, and value of active variables in the current namespace.
 4. Running External Code:
   - `%run script.py`: Executes a Python script.
 
