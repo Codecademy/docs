@@ -20,7 +20,7 @@ In PyTorch, the **`.where`** function returns a new [tensor](https://www.codecad
 ## Syntax
 
 ```pseudo
-torch.where(condition, x, y) → Tensor
+torch.where(condition, input, other) → Tensor
 ```
 
 - `condition`: The condition tensor.
