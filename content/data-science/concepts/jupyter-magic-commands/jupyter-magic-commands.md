@@ -40,7 +40,8 @@ print("Hello, Jupyter Magic!")
 
 1. Execution & Timing:
   - `%timeit`: Runs an statement multiple times to get average execution time.
-  - `%%time`: Measures execution time of an entire cell.
+  - `%time`: Measures the execution time of a single run of a statement or expression.
+  - `%%time`: Measures the execution time of a single run of an entire cell.
 2. File & System Operations:
   - `%pwd`: Displays the current working directory.
   - `%ls`: Lists files in the directory.
