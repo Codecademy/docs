@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-In PyTorch, the **`.where()`** function returns a new tensor with elements selected from either `input` or `other`, depending on the condition. The function is part of the `torch` module.
+In PyTorch, the **`.where`** function returns a new [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) with elements chosen based on a condition, selecting values from one source when the condition is met and from another when it is not.
 
 ## Syntax
 
