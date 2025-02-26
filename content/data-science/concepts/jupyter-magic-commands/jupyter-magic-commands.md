@@ -44,7 +44,7 @@ print("Hello, Jupyter Magic!")
   - `%%time`: Measures the execution time of a single run of an entire cell.
 2. File & System Operations:
   - `%pwd`: Displays the current working directory.
-  - `%ls`: Lists files in the directory.
+  - `%ls`: Lists all the files and directories in the current working directory.
   - `%%writefile filename.py`: Saves code to a file.
 3. Environment & Debugging:
   - `%matplotlib inline`: Displays plots within the notebook.
