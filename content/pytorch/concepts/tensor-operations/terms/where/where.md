@@ -1,6 +1,6 @@
 ---
 Title: '.where()'
-Description: 'Returns a new tensor with elements selected from either `input` or `other`, depending on the condition.'
+Description: 'Returns values from one tensor if a condition is true; otherwise, it takes values from another tensor.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
