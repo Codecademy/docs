@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/neural-networks'
 ---
 
-The **Vanishing gradient problem** happens when gradients shrink as they move backward through a deep network. This causes slow or stalled training because updates to early layers become extremely small. It often appears in networks that use certain activation functions, such as sigmoid or hyperbolic tangent, or when the network has many layers.
+The **Vanishing gradient problem** occurs when gradients shrink as they move backward through a deep network. This causes slow or stalled training because updates to early layers become extremely small. It often appears in networks that use certain activation functions, such as sigmoid or hyperbolic tangent, or when the network has many layers.
 
 ## How does it occur?
 
@@ -38,20 +38,20 @@ import torch.optim as optim
 
 # Deep feedforward network with Sigmoid
 class DeepSigmoidNet(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.layers = nn.Sequential(
-            nn.Linear(100, 128),
-            nn.Sigmoid(),
-            nn.Linear(128, 128),
-            nn.Sigmoid(),
-            nn.Linear(128, 128),
-            nn.Sigmoid(),
-            nn.Linear(128, 10)
-        )
+  def __init__(self):
+    super().__init__()
+    self.layers = nn.Sequential(
+      nn.Linear(100, 128),
+      nn.Sigmoid(),
+      nn.Linear(128, 128),
+      nn.Sigmoid(),
+      nn.Linear(128, 128),
+      nn.Sigmoid(),
+      nn.Linear(128, 10)
+    )
 
-    def forward(self, x):
-        return self.layers(x)
+  def forward(self, x):
+    return self.layers(x)
 
 # Create random data
 x = torch.randn(32, 100)  # batch of 32
@@ -74,20 +74,20 @@ print(f"Gradient norm (Sigmoid net, first layer): {grad_norm:.6f}")
 
 # Potential fix: Using ReLU
 class DeepReLUNet(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.layers = nn.Sequential(
-            nn.Linear(100, 128),
-            nn.ReLU(),
-            nn.Linear(128, 128),
-            nn.ReLU(),
-            nn.Linear(128, 128),
-            nn.ReLU(),
-            nn.Linear(128, 10)
-        )
+  def __init__(self):
+    super().__init__()
+    self.layers = nn.Sequential(
+      nn.Linear(100, 128),
+      nn.ReLU(),
+      nn.Linear(128, 128),
+      nn.ReLU(),
+      nn.Linear(128, 128),
+      nn.ReLU(),
+      nn.Linear(128, 10)
+    )
 
-    def forward(self, x):
-        return self.layers(x)
+  def forward(self, x):
+    return self.layers(x)
 
 model_relu = DeepReLUNet()
 optimizer = optim.SGD(model_relu.parameters(), lr=0.01)
@@ -111,4 +111,4 @@ Gradient norm (ReLU net, first layer): 0.118170
 2. **Gradient Norm**: The code checks the gradient norm of the first layer. A very small value suggests that those parameters receive negligible updates.
 3. **DeepReLUNet**: Switching to ReLU reduces the vanishing effect, which can be seen in the larger gradient norm for the first layer.
 
-By using suitable activations, initialization, or techniques like batch normalization and skip connections, the vanishing gradient problem becomes less severe, making training faster and more reliable.
+Using suitable activations, initialization, or techniques like batch normalization and skip connections makes the vanishing gradient problem less severe, making training faster and more reliable.
