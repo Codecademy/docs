@@ -57,4 +57,4 @@ tensor([[1, 8],
 
 In this example, the `.where()` function selects elements from the `x` tensor where the condition tensor is `True` and from the `y` tensor where the condition tensor is `False`. The resulting tensor is created by selecting elements from `x` or `y` based on the condition tensor.
 
-The `.where()` function is particularly useful in conditional operations where you need to select elements from different tensors based on a condition.
+The `.where()` function is particularly useful in conditional operations where element-wise selection between tensors is required.
