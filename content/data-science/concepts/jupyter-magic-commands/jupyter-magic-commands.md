@@ -56,7 +56,7 @@ print("Hello, Jupyter Magic!")
 
 ## Use Cases
 
-Jupyter magic commands are widely used in data science, machine learning, and research to:
+Jupyter magic commands are widely used to:
 - Improve efficiency by quickly checking execution times.
 -  Manage the notebook environment and workspace.
 -  Integrate system operations without switching interfaces.
