@@ -39,7 +39,7 @@ print("Hello, Jupyter Magic!")
 ## Common Jupyter Magic Commands
 
 1. Execution & Timing:
-  - `%timeit`: Measures execution time of a statement.
+  - `%timeit`: Runs an statement multiple times to get average execution time.
   - `%%time`: Measures execution time of an entire cell.
 2. File & System Operations:
   - `%pwd`: Displays the current working directory.
