@@ -65,9 +65,9 @@ fig.show()
 
 The output will be:
 
-![The output is a hierarchical dendrogram where clusters are formed based on similarities in the dataset.](https://raw.githubusercontent.com/Codecademy/docs/main/media/hierarchical-clustering-dendrogram.png)
+![A hierarchical dendrogram where clusters are formed based on similarities in the dataset.](https://raw.githubusercontent.com/Codecademy/docs/main/media/hierarchical-clustering-dendrogram.png)
 
-The output is a hierarchical dendrogram where clusters are formed based on similarities in the dataset. The x-axis represents the labels of the data points, and the y-axis represents the clustering distance. Branches merge as clusters combine, illustrating hierarchical relationships between data points.
+The x-axis represents the labels of the data points, and the y-axis represents the clustering distance. Branches merge as clusters combine, illustrating hierarchical relationships between data points.
 
 ### Dendrogram with Custom Colors
 
@@ -89,9 +89,7 @@ fig.show()
 
 The output will be:
 
-![The output is a dendrogram with custom branch colors, improving visualization for distinguishing different clusters.](https://raw.githubusercontent.com/Codecademy/docs/main/media/custom-colored-dendrogram.png)
-
-The output is a dendrogram with custom branch colors, improving visualization for distinguishing different clusters.
+![A dendrogram with custom branch colors, improving visualization for distinguishing different clusters.](https://raw.githubusercontent.com/Codecademy/docs/main/media/custom-colored-dendrogram.png)
 
 ### Horizontal Dendrogram
 
@@ -113,6 +111,4 @@ fig.show()
 
 The output will be:
 
-![The output is a dendrogram rotated 90 degrees, with hierarchical clustering displayed from left to right.](https://raw.githubusercontent.com/Codecademy/docs/main/media/horizontal-dendrogram.png)
-
-The output is a dendrogram rotated 90 degrees, with hierarchical clustering displayed from left to right.
+![A dendrogram rotated 90 degrees, with hierarchical clustering displayed from left to right.](https://raw.githubusercontent.com/Codecademy/docs/main/media/horizontal-dendrogram.png)
