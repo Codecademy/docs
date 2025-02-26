@@ -23,7 +23,7 @@ In PyTorch, the **`.where`** function returns a new [tensor](https://www.codecad
 torch.where(condition, input, other) → Tensor
 ```
 
-- `condition`: The condition tensor.
+- `condition`: The boolean tensor that controls selection.
 - `x`: The tensor to select elements from when the condition is `True`.
 - `y`: The tensor to select elements from when the condition is `False`.
 
