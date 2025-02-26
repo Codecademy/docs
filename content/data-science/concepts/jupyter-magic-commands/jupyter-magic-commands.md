@@ -45,7 +45,7 @@ print("Hello, Jupyter Magic!")
 2. File & System Operations:
   - `%pwd`: Displays the current working directory.
   - `%ls`: Lists all the files and directories in the current working directory.
-  - `%%writefile filename.py`: Saves code to a file.
+  - `%%writefile filename.py`: Saves the code in a cell to a file.
 3. Environment & Debugging:
   - `%matplotlib inline`: Displays plots within the notebook.
   - `%debug`: Activates the interactive debugger.
