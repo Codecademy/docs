@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/neural-networks'
 ---
 
-The **Vanishing gradient problem** occurs when gradients shrink as they move backward through a deep network. This causes slow or stalled training because updates to early layers become extremely small. It often appears in networks that use certain activation functions, such as sigmoid or hyperbolic tangent, or when the network has many layers.
+The **Vanishing gradient problem** occurs when gradients shrink as they move backward through a deep neural network. This causes slow or stalled training because updates to early layers become extremely small. It often appears in neural networks that use certain activation functions, such as sigmoid or hyperbolic tangent, or when the network has many layers.
 
 ## How does it occur?
 
