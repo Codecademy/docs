@@ -41,16 +41,16 @@ fig.show()
 
 **Parameters**:
 
-- **data_frame**: The DataFrame containing the data.
-- **x**: Column name for the x-axis values.
-- **y**: Column name for the y-axis values.
-- **color** (optional): Column name for grouping and coloring different areas.
-- **line_group** (optional): Defines which lines share the same fill area.
-- **markers** (default=`False`): Adds markers to data points if set to `True`.
-- **text** (optional): Adds text labels to data points.
-- **hover_name** (optional): Column used for hover labels.
-- **hover_data** (optional): Additional columns to display in the hover tooltip.
-- **template** (optional): Specifies a predefined Plotly template.
+- **`data_frame`**: The DataFrame containing the data.
+- **`x`**: Column name for the x-axis values.
+- **`y`**: Column name for the y-axis values.
+- **`color`** (optional): Column name for grouping and coloring different areas.
+- **`line_group`** (optional): Defines which lines share the same fill area.
+- **`markers`** (default=`False`): Adds markers to data points if set to `True`.
+- **`text`** (optional): Adds text labels to data points.
+- **`hover_name`** (optional): Column used for hover labels.
+- **`hover_data`** (optional): Additional columns to display in the hover tooltip.
+- **`template`** (optional): Specifies a predefined Plotly template.
 
 ## Example
 
