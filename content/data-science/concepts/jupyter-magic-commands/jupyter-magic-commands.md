@@ -48,7 +48,7 @@ print("Hello, Jupyter Magic!")
   - `%%writefile filename.py`: Saves the code in a cell to a file.
 3. Environment & Debugging:
   - `%matplotlib inline`: Displays plots within the notebook.
-  - `%debug`: Activates the interactive debugger.
+  - `%debug`: Activates the interactive debugger when an exception occurs.
   - `%who / %whos`: Lists active variables.
 4. Running External Code:
   - `%run script.py`: Executes a Python script.
