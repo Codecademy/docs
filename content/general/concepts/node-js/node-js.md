@@ -39,7 +39,7 @@ Node.js offers several advantages, making it a popular choice for developers bui
 
 ### Cons
 
-Despite its strengths, Node.js has some limitations, particularly when handling CPU-intensive tasks or managing dependencies within its vast ecosystem.
+Despite its strengths, Node.js has limitations, particularly when handling CPU-intensive tasks or managing dependencies within its vast ecosystem.
 
 - **CPU-Intensive Limitations**: The single-threaded architecture can become a bottleneck for heavy computation without workarounds like worker threads.
 - **Callback Complexity**: Managing nested callbacks in asynchronous code can make it harder to read and maintain, though Promises and `async/await` help mitigate this issue.
