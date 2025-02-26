@@ -5,9 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Machine Learning'
 Tags:
-  - 'Python'
-  - 'Machine Learning'
   - 'Functions'
+  - 'Machine Learning'
+  - 'Python'
   - 'Tensor'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
