@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.create_dendrogram()`** function in Plotly's figure_factory module generates hierarchical cluster trees (dendrograms) for visualizing the arrangement of data clusters. It is useful in hierarchical clustering applications, such as bioinformatics and machine learning, to depict relationships between data points.
+The **`.create_dendrogram()`** function in Plotly's `figure_factory` module generates hierarchical cluster trees (dendrograms) for visualizing the arrangement of data clusters. It is useful in hierarchical clustering applications, such as bioinformatics and machine learning, to depict relationships between data points.
 
 ## Syntax
 
