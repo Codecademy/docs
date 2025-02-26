@@ -24,8 +24,8 @@ torch.where(condition, input, other) → Tensor
 ```
 
 - `condition`: The boolean tensor that controls selection.
-- `x`: The tensor to select elements from when the condition is `True`.
-- `y`: The tensor to select elements from when the condition is `False`.
+- `input`: The tensor to select elements from when the condition is `True`.
+- `other`: The tensor to select elements from when the condition is `False`.
 
 ## Returns
 
