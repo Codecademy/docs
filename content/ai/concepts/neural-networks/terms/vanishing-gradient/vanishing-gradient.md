@@ -8,8 +8,8 @@ Tags:
   - 'Machine Learning'
   - 'Deep Learning'
 CatalogContent:
-  - 'learn-ai'
-  - 'paths/neural-networks'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 The **Vanishing gradient problem** occurs when gradients shrink as they move backward through a deep neural network. This causes slow or stalled training because updates to early layers become extremely small. It often appears in neural networks that use certain activation functions, such as sigmoid or hyperbolic tangent, or when the network has many layers.
@@ -23,15 +23,15 @@ The **Vanishing gradient problem** occurs when gradients shrink as they move bac
 ## How to Fix It
 
 - **Use ReLU or Related Activations**: ReLU functions help avoid squashing the gradient in early layers.
-- **Proper Initialization**: Techniques like Xavier or He initialization maintain healthier gradients.
+- **Proper Initialization**: Techniques like Xavier or He initialization maintain stable gradients.
 - **Batch Normalization**: Normalizing layer inputs can stabilize gradient flow.
 - **Skip Connections**: Shortcut paths reduce the effective depth of the network.
 
 ## Example: Demonstrating and Addressing the Vanishing Gradient Problem
 
-The following PyTorch example shows a simple deep network with sigmoid activation. The gradients in the earliest layers may become too small, slowing training. Switching to ReLU in the final code snippet provides a potential fix.
+The following PyTorch example shows a simple deep network with sigmoid activation. The gradients in the earliest layers may become too small, slowing training. Switching to ReLU in the final code snippet provides a potential fix:
 
-```python
+```py
 import torch
 import torch.nn as nn
 import torch.optim as optim
