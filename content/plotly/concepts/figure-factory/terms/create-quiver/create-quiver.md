@@ -1,6 +1,6 @@
 ---
-Title: '.create-quiver()'
-Description: 'Generates quiver plots to visualize vector fields with direction and magnitude.'
+Title: '.create_quiver()'
+Description: 'Generates quiver plots to visualize vector fields using arrows to indicate direction and magnitude.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
