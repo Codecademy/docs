@@ -46,7 +46,7 @@ quiver = ff.create_quiver(
 
 ### Basic Quiver Plot
 
-The following example creates a simple quiver plot with a circular pattern.
+In this example, a quiver plot is created to visualize a circular vector field where arrows radiate outward in a radial pattern:
 
 ```py
 import plotly.figure_factory as ff
