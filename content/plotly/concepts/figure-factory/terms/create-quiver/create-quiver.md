@@ -74,7 +74,7 @@ The output will be:
 
 ### Customized Quiver Plot
 
-This example demonstrates how to modify the arrow styles with custom colors and scaling.
+This example demonstrates how to customize arrow styles in a quiver plot by modifying colors, line width, and scaling:
 
 ```py
 import plotly.figure_factory as ff
