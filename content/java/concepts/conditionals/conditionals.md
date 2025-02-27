@@ -96,3 +96,15 @@ The output would be:
 Output: Best of luck today!
 Output: You are prepared for your exam!
 ```
+
+## Ternary Operator
+
+The ternary operator (`? :`) is a shorthand way to write simple `if-else` statements. It evaluates a condition and returns one value if the condition is true and another if it is false.
+
+```java
+int age = 18;
+String message = (age >= 18) ? "You are an adult." : "You are a minor.";
+System.out.println(message);
+
+// Output: You are an adult.
+```
