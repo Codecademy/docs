@@ -33,14 +33,14 @@ quiver = ff.create_quiver(
 
 **Parameters**:
 
-- **`x`**: A list or NumPy array representing the x-coordinates of the arrow bases.
-- **`y`**: A list or NumPy array representing the y-coordinates of the arrow bases.
-- **`u`**: A list or NumPy array representing the x-components (horizontal) of the arrow vectors.
-- **`v`**: A list or NumPy array representing the y-components (vertical) of the arrow vectors.
-- **`scale`** (default=`1`): A scaling factor for the arrow lengths.
-- **`arrow_scale`** (default=`0.3`): Determines the size of the arrowhead.
-- **`angle`** (default=`math.pi/9`): The opening angle of the arrowhead.
-- **`line`** (optional): A dictionary defining the line properties, such as color and width.
+- `x`: A list or NumPy array representing the x-coordinates of the arrow bases.
+- `y`: A list or NumPy array representing the y-coordinates of the arrow bases.
+- `u`: A list or NumPy array representing the x-components (horizontal) of the arrow vectors.
+- `v`: A list or NumPy array representing the y-components (vertical) of the arrow vectors.
+- `scale` (default=`0.1`): A scaling factor for the arrow lengths.
+- `arrow_scale` (default=`0.3`): Determines the size of the arrowhead.
+- `angle` (default=`math.pi/9`): The opening angle of the arrowhead.
+- `line` (optional): A dictionary defining the line properties, such as color and width.
 
 ## Examples
 
