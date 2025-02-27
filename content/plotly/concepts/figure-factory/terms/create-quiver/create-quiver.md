@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.create_quiver()`** function in Plotly's `figure_factory` module generates a quiver plot, which is used to visualize vector fields. It is commonly applied in physics, fluid dynamics, and engineering to depict direction and magnitude of vectors in a given space.
+The **`.create_quiver()`** function in Plotly's [`figure_factory`](https://www.codecademy.com/resources/docs/plotly/figure-factory) module generates a quiver plot, which is used to visualize vector fields. It is commonly applied in physics, fluid dynamics, and engineering to depict direction and magnitude of vectors in a given space.
 
 ## Syntax
 
