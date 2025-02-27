@@ -24,7 +24,7 @@ import plotly.figure_factory as ff
 
 quiver = ff.create_quiver(
     x, y, u, v,
-    scale=1,
+    scale=0.1,
     arrow_scale=0.3,
     angle=math.pi/9,
     line=dict(color='blue', width=1)
