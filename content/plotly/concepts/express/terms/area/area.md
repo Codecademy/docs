@@ -41,7 +41,7 @@ fig.show()
 
 **Parameters**:
 
-- **`data_frame`**: The DataFrame containing the data.
+- **`data_frame`**: The DataFrame containing the data. If `data_frame` is not provided, `x` and `y` must be passed as separate lists.
 - **`x`**:  If `data_frame` is given, `x` should be a column name in `data_frame` representing the x-axis values. Otherwise, it takes as input a list of values for the x-axis. 
 - **`y`**: Column name for the y-axis values.
 - **`color`** (optional): Column name for grouping and coloring different areas.
