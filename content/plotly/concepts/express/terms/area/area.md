@@ -42,7 +42,7 @@ fig.show()
 **Parameters**:
 
 - **`data_frame`**: The DataFrame containing the data. If `data_frame` is not provided, `x` and `y` must be passed as separate lists.
-- **`x`**:  If `data_frame` is given, `x` should be a column name in `data_frame` representing the x-axis values. Otherwise, it takes as input a list of values for the x-axis. 
+- **`x`**: If `data_frame` is given, `x` should be a column name in `data_frame` representing the x-axis values. Otherwise, it takes as input a list of values for the x-axis.
 - **`y`**: If `data_frame` is given, `y` should be column name(s) in `data_frame` representing the y-axis values. Otherwise, it takes as input a list of values for the y-axis. If multiple column names are provided, stacked area plots are created.
 - **`color`** (optional): Column name for grouping and coloring different areas.
 - **`line_group`** (optional): Defines which lines share the same fill area.
