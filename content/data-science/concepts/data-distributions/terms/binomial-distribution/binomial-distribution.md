@@ -37,18 +37,32 @@ Where:
 
 ## Example
 
-Suppose an e-commerce company analyzes customer behavior. They observe that, on average, 30% of visitors make a purchase on their website. If 10 visitors come to the website, what is the probability that exactly 3 customers make a purchase?
+The following example simulates 1000 experiments of flipping a coin 10 times, with each flip having a 50% probability of landing heads. Then, it visualizes the distribution of the number of heads observed in those experiments in a histogram plot:
 
-According to the binomial distribution formula:
+```py
+import numpy as np
+import matplotlib.pyplot as plt
 
-- $`n`$ = 10 (The total number of visitors)
-- $`k`$ = 3 (The number of customers making a purchase)
-- $`p`$ = 30% or 0.3 (The probability of purchase for each visitor)
+# Set random seed for reproducibility
+np.random.seed(42)
 
-Therefore, the equation stands:
+# Parameters for the binomial distribution
+n = 10  # Number of trials (e.g., 10 coin flips)
+p = 0.5  # Probability of success (e.g., probability of heads)
+size = 1000  # Number of experiments
 
-$$P(X = 3) = \binom{10}{3} (0.3)^3 (1 - 0.3)^{10 - 3}$$
+# Generate binomial distribution data
+binomial_data = np.random.binomial(n, p, size)
 
-The approximate value obtained after simplifying this equation is 0.2668 (or 26.68%).
+# Plot the binomial distribution in a histogram
+plt.hist(binomial_data, bins=range(n+2), color='skyblue', edgecolor='black', alpha=0.7)
+plt.title(f'Binomial Distribution (n={n}, p={p}, size={size})')
+plt.xlabel('Number of Successes')
+plt.ylabel('Frequency')
+plt.grid(True)
+plt.show()
+```
 
-So, the probability that exactly 3 out of 10 visitors make a purchase is approximately 26.68%.
+The above example produces the following output:
+
+![The output for the above example](https://raw.githubusercontent.com/Codecademy/docs/main/media/binomial-histogram.png)
