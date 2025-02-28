@@ -1,6 +1,6 @@
 ---
 Title: 'Poisson Distribution'
-Description: 'The Poisson distribution is a probability distribution representing the count of events occurring in a fixed interval of time or space.'
+Description: 'The Poisson distribution is a probability distribution representing the count of events occurring in a particular interval of time or space.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **Poisson distribution** is a probability distribution representing the count of events occurring in a fixed interval of time, space, or any other continuous domain, given that the events occur independently and at a constant average rate. It is widely used in data science for modeling events such as website traffic spikes, customer arrivals at a store, or the number of defects in a manufacturing process.
+The **Poisson distribution** is a probability distribution representing the count of events occurring in a particular interval of time, space, or any other continuous domain, given that the events occur independently and at a constant average rate. It is widely used in data science for modeling events such as website traffic spikes, customer arrivals at a store, or the number of defects in a manufacturing process.
 
 A Poisson experiment must satisfy the following conditions:
 
@@ -35,17 +35,28 @@ Where:
 
 ## Example
 
-Suppose a customer support center receives an average of 5 calls per hour. What is the probability that exactly 3 calls are received in a given hour?
+The following example generates 1000 samples representing the number of events occurring in fixed intervals, with an average rate of 4 events per interval. Then, it visualizes the frequency of events in a histogram plot:
 
-According to the Poisson distribution formula:
+```py
+import numpy as np
+import matplotlib.pyplot as plt
 
-- $`λ`$ = 5 (Expected calls per hour)
-- $`k`$ = 3 (Calls received)
+# Parameters for the Poisson distribution
+lambda_rate = 4  # Average rate of events per interval
+size = 1000  # Number of samples
 
-Therefore, the equation stands:
+# Generate Poisson distribution data
+poisson_data = np.random.poisson(lambda_rate, size)
 
-$$P(X = 3) = \frac{e^{-5} 5^3}{3!}$$
+# Plot the Poisson distribution in a histogram
+plt.hist(poisson_data, bins=np.arange(0, 16)-0.5, density=True, color='lightgreen', edgecolor='black', alpha=0.7)
+plt.title(f'Random Poisson-Distributed Data (λ={lambda_rate})')
+plt.xlabel('Number of Events')
+plt.ylabel('Frequency')
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.show()
+```
 
-The approximate value obtained after simplifying this equation is 0.1404 (or 14.04%).
+The above example produces the following output:
 
-So, the probability of getting exactly 3 calls in an hour is approximately 14.04%.
+![The output for the above example](https://raw.githubusercontent.com/Codecademy/docs/main/media/poisson-histogram.png)
