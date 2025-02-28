@@ -42,7 +42,7 @@ fig.show()
 **Parameters**:
 
 - **`data_frame`**: The DataFrame containing the data.
-- **`x`**: Column name for the x-axis values.
+- **`x`**:  If `data_frame` is given, `x` should be a column name in `data_frame` representing the x-axis values. Otherwise, it takes as input a list of values for the x-axis. 
 - **`y`**: Column name for the y-axis values.
 - **`color`** (optional): Column name for grouping and coloring different areas.
 - **`line_group`** (optional): Defines which lines share the same fill area.
