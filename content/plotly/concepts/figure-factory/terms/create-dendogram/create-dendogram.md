@@ -37,7 +37,7 @@ dendrogram = ff.create_dendrogram(
 
 - **`X`**: A matrix-like 2D list or NumPy array containing the data to be clustered.
 - **`orientation`** (default="bottom"): Specifies the orientation of the dendrogram (`'top'`, `'bottom'`, `'left'`, or `'right'`).
-- **`labels`** (optional): A list of labels for the data points.
+- **`labels`** (optional): A list of labels for the data points. If `None`, default labels `(0, 1, 2,...)` are used.
 - **`colorscale`** (default="Viridis"): Determines the color scale used for branch coloring.
 - **`distfun`** (default=`scipy.spatial.distance.pdist`): A function to compute pairwise distances between observations.
 - **`linkagefun`** (default=`scipy.cluster.hierarchy.linkage`): A function to compute the hierarchical clustering.
