@@ -102,9 +102,13 @@ Output: You are prepared for your exam!
 The ternary operator (`? :`) is a shorthand way to write simple `if-else` statements. It evaluates a condition and returns one value if the condition is true and another if it is false.
 
 ```java
-int age = 18;
-String message = (age >= 18) ? "You are an adult." : "You are a minor.";
-System.out.println(message);
+public class Main {
+    public static void main(String[] args) {
+        int age = 18;
+        String message = (age >= 18) ? "You are an adult." : "You are a minor.";
+        System.out.println(message);
+    }
+}
 
 // Output: You are an adult.
 ```
