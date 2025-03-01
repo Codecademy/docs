@@ -1,5 +1,5 @@
 ---
-Title: 'Geometric Distributions'
+Title: 'Geometric Distribution'
 Description: 'Represents the number of trials needed to get the first success in repeated independent Bernoulli trials.'
 Subjects:
   - 'Data Science'
@@ -12,19 +12,19 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **geometric distribution** is a discrete probability distribution that models the number of Bernoulli trials required to achieve the first success. It is commonly used in scenarios where events occur independently with a constant probability of success.
+The **geometric distribution** is a probability distribution used to model the number of Bernoulli trials required to achieve the first success. It is commonly used in scenarios where events occur independently with a constant probability of success.
 
 ## Probability Mass Function (PMF)
 
 The probability of observing the first success on the k-th trial is given by:
 
 ```
-P(X = k) = (1 - p)^{k-1} p
+P(X = k) = (1 - p)^{k - 1} p
 ```
 
-- `X` is the number of trials until the first success
-- `p` is the probability of success in a single trial
-- `(1 - p)` is the probability of failure in a single trial
+- `X`: The number of trials until the first success.
+- `p`: The probability of getting success in a single trial.
+- `(1 - p)`: The probability of getting failure in a single trial.
 
 ## Properties
 
@@ -34,7 +34,7 @@ P(X = k) = (1 - p)^{k-1} p
 
 ## Example
 
-### Simulating a Geometric Distribution in Python
+The following example simulates a geometric distribution in Python:
 
 ```py
 import numpy as np
@@ -44,7 +44,7 @@ import scipy.stats as stats
 # Define probability of success
 p = 0.3
 
-# Generate geometric distributed data
+# Generate geometric-distributed data
 samples = np.random.geometric(p, size=1000)
 
 # Plot histogram
@@ -62,6 +62,6 @@ plt.grid()
 plt.show()
 ```
 
-The output will be a histogram showing the distribution of trials needed to achieve the first success, with an overlaid theoretical probability mass function.
+The output will be a histogram showing the distribution of trials needed to achieve the first success, with an overlaid theoretical probability mass function:
 
-![The output image is a histogram displaying the distribution of trials required to achieve the first success, with a red line overlay representing the theoretical probability mass function.](ttps://raw.githubusercontent.com/Codecademy/docs/main/media/geometric-distribution.png)
+![The output image is a histogram displaying the distribution of trials required to achieve the first success, with a red line overlay representing the theoretical probability mass function.](https://raw.githubusercontent.com/Codecademy/docs/main/media/geometric-distribution.png)
