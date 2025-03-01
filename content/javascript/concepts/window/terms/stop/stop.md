@@ -75,4 +75,4 @@ stopButton.onclick = () => {
 
 When the "Stop Loading" button is clicked, it'll stop the process and will display this:
 
-![Window.stop() Code Output](https://raw.githubusercontent.com/Codecademy/docs/main/media/window-stop-1)
+![Window.stop() Code Output](https://raw.githubusercontent.com/Codecademy/docs/main/media/window-stop-1.png)
