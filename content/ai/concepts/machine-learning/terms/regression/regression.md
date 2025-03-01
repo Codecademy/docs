@@ -24,7 +24,9 @@ This equation can be visualized as a straight line on a 2D graph:
 - `a`: The slope, indicating how y changes when x increases by one unit.
   
 ## Example
-The following code predicts a person's weight based on a person's height.  
+
+The following code predicts a person's weight based on a person's height:
+
 ```python
 import pandas as pd
 import statsmodels.api as sm
