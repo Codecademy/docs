@@ -23,7 +23,7 @@ This equation can be visualized as a straight line on a 2D graph:
 - `b`: The intercept, representing the value of y when x = 0.
 - `a`: The slope, indicating how y changes when x increases by one unit.
   
-### A simple example in Python:  
+## Example
 The following code predicts a person's weight based on a person's height.  
 ```python
 import pandas as pd
