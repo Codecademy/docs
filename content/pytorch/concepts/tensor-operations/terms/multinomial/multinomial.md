@@ -19,11 +19,11 @@ In PyTorch, the **`.multinomial()`** function is used to sample elements from a 
 ## Syntax
 
 ```pseudo
-torch.multinomial(ten, num_samples, replacement=False, *, gen=None, out=None)
+torch.multinomial(input, num_samples, replacement=False, *, gen=None, out=None)
 ```
 
-- `ten`: A [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) containing probabilities for each element. The values must be non-negative.
-- `num_samples`: The number of samples to draw.
+- `input`: A [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) containing probabilities for each element. The values must be non-negative.
+- `num_samples`: The number of samples to draw from the probability distribution.
 - `replacement` (Optional): If `False`, the same element is not chosen more than once.
 - `gen` (Optional): A random number generator for reproducibility.
 - `out` (Optional): The output tensor to store results.
