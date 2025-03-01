@@ -16,11 +16,12 @@ CatalogContent:
   
 There are various regression techniques, and the choice depends on factors such as data distribution. A simple form is linear regression, represented by the equation:
 y = a*x + b  
-This function can be drawn as a line on a 2 dimensional graph:  
-y is the outcome variable on the y axis (vertical);    
-x is the predictor variable on the x axis (horizontal);  
-the intercept is the value of y (outcome) if x is set to zero (hence intercept = b);  
-the slope is the variation of the outcome y if the predictor x is increased by one unit.  
+This equation can be visualized as a straight line on a 2D graph:
+
+- `y`: The dependent (outcome) variable, plotted on the y-axis (vertical).
+- `x`: The independent (predictor) variable, plotted on the x-axis (horizontal).
+- `b`: The intercept, representing the value of y when x = 0.
+- `a`: The slope, indicating how y changes when x increases by one unit.
   
 ### A simple example in Python:  
 The following code predicts a person's weight based on a person's height.  
