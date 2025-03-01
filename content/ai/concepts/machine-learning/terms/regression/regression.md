@@ -12,8 +12,7 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
-**Regression is a mathematical process applied to data.   The aim is to identify the function that represents data occurrence in the best possible manner.  
-In the context of machine learning the function identified with a regression technique can be used for predictive purposes.**  
+**Regression** is a mathematical process used to model data by identifying a function that best represents its patterns. In machine learning, regression functions are used for predictive analysis.
   
 There are many different regression techniques.  The choice of the appropriate technique depends on the circumstances at hand, such as data distribution.  
 A simple form of regression is linear regression.  Here the data is represented by the function:  
