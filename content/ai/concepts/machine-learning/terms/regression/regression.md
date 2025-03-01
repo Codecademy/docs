@@ -14,8 +14,7 @@ CatalogContent:
 ---
 **Regression** is a mathematical process used to model data by identifying a function that best represents its patterns. In machine learning, regression functions are used for predictive analysis.
   
-There are many different regression techniques.  The choice of the appropriate technique depends on the circumstances at hand, such as data distribution.  
-A simple form of regression is linear regression.  Here the data is represented by the function:  
+There are various regression techniques, and the choice depends on factors such as data distribution. A simple form is linear regression, represented by the equation:
 y = a*x + b  
 This function can be drawn as a line on a 2 dimensional graph:  
 y is the outcome variable on the y axis (vertical);    
