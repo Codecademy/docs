@@ -1,17 +1,16 @@
 ---
-Title: "Regression"
-Descripton: "Explains the term regression in the context of machine learning.  Provides a simple example in Python."
+Title: 'Regression'
+Descripton: 'Regression models relationships between variables to predict a dependent variable based on one or more independent variables.'
 Subjects:
-- "Machine Learning"
-- "Mathematics"
-- "Python"
+  - 'AI'
+  - 'Data Science'
+  - 'Machine Learning'
 Tags:
-- "Machine Learning"
-- "Mathematics"
-- "Python"
-- "Regression"
+  - 'Machine Learning'
+  - 'Python'
 CatalogContent:
-- "Learn Git & GitHub"
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 **Regression is a mathematical process applied to data.   The aim is to identify the function that represents data occurrence in the best possible manner.  
 In the context of machine learning the function identified with a regression technique can be used for predictive purposes.**  
