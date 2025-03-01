@@ -27,7 +27,7 @@ This equation can be visualized as a straight line on a 2D graph:
 
 The following code predicts a person's weight based on a person's height:
 
-```python
+```py
 import pandas as pd
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
