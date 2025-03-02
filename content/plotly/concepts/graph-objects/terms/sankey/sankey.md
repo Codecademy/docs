@@ -15,9 +15,9 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-**`.Sankey()`** is a method in Plotly's [`graph_objects`](https://www.codecademy.com/resources/docs/plotly/graph-objects) module that generates **Sankey diagrams
-**. These diagrams are a type of visualization that illustrates flow from one set of values to another. The items being
-connected are called **nodes**, and the connections between them are called **links**. The width of the links is
+**`.Sankey()`** is a method in Plotly's [`graph_objects`](https://www.codecademy.com/resources/docs/plotly/graph-objects) module that generates Sankey diagrams. 
+These diagrams are a type of visualization that illustrates flow from one set of values to another. The items being
+connected are called nodes, and the connections between them are called links. The width of the links is
 proportional to the flow quantity.
 
 ## Syntax
@@ -51,16 +51,14 @@ plotly.graph_objects.Sankey(node=None, link=None, arrangement = 'snap', orientat
       corresponds to the order of the source-target pairs.
 
   > **Note:** The `source`, `target`, and `value` arrays must have the same
-  > length. Each set of elements at the same index in these arrays defines a
-  > single link. The index used in the `source` and `target` array, refer to
-  > the position of the node in the `label` array.
-  
+  > length.
+
 - `arrangement`: Sets the arrangement of the nodes in the Sankey diagram. The
-  possible values are: `'snap'`, `'perpendicular'`, `'freeform'` and
+  possible values are: `'snap'`, `'perpendicular'`, `'freeform'`, and
   `'fixed'`. The default value is `'snap'`.
 
 - `orientation`: Sets the orientation of the Sankey diagram. The possible
-  values are: `'h'` for horizontal and `'v'` for vertical. The default value
+  values are: `'h'` for horizontal, and `'v'` for vertical. The default value
   is `'h'`.
 
 - `valueformat`: Sets the format of the numerical values displayed on the
@@ -69,9 +67,9 @@ plotly.graph_objects.Sankey(node=None, link=None, arrangement = 'snap', orientat
 > **Note:** There are many additional, optional parameters that are not listed
 > here, as indicated by the ellipsis (`...`) in the syntax.
 
-## Example 
+## Example
 
-This code displays a Sankey diagram, illustrating the advertising cash flow through its nodes and links. 
+This code displays a Sankey diagram, illustrating the advertising cash flow through its nodes, and links.
 
 ```py
 import plotly.graph_objects as go
@@ -89,7 +87,7 @@ all_nodes = data['source'] + data['target']
 # Create a dictionary that links the name of the node to its index.
 node_to_index = {node: i for i, node in enumerate(all_nodes)}
 
-# Convert source and target names to indices.
+# Convert source, and target names to indices.
 source_indices = [node_to_index[source] for source in data['source']]
 target_indices = [node_to_index[target] for target in data['target']]
 
