@@ -45,6 +45,10 @@ myElement.style.color = "blue";
 
 ```
 
--`Output`:
+- `Result`:
 
-![The resulting display ](/Users/edmondkodua/Desktop/projects/new/docs/media/getelementbyid.png)
+  - The example will display the element with a matching string `id` _atd_ as blue.
+
+- `Output`:
+
+![Display of color of an element after getElementById() method](../../../../../../media/getelementbyid.png)
