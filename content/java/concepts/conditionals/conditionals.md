@@ -1,6 +1,6 @@
 ---
 Title: 'Conditionals'
-Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false. If it’s true, we can tell our program to do one thing — we can even account for false to do another.'
+Description: 'Conditionals evaluate an expression as true or false, executing code accordingly. If true, one action occurs; if false, another can be executed.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -95,4 +95,28 @@ The output would be:
 ```shell
 Output: Best of luck today!
 Output: You are prepared for your exam!
+```
+
+## Ternary Operator
+
+The ternary operator (`? :`) is a shorthand way to write simple `if-else` statements. It evaluates a condition and returns one value if the condition is true and another if it is false. It follows the syntax:
+
+```pseudo
+condition ? expression_if_true : expression_if_false;
+```
+
+- **Condition**: An expression that evaluates to true or false.
+- **Expression if true**: The value returned if the condition is true.
+- **Expression if false**: The value returned if the condition is false.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int age = 18;
+        String message = (age >= 18) ? "You are an adult." : "You are a minor.";
+        System.out.println(message);
+    }
+}
+
+// Output: You are an adult.
 ```
