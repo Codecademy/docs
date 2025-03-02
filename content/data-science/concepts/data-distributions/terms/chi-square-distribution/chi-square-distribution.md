@@ -4,7 +4,6 @@ Description: 'The chi-square distribution is a continuous probability distributi
 Subjects:
   - 'Data Science'
   - 'AI'
-
 Tags:
   - 'Data Distributions'
   - 'Chi-Square'
