@@ -44,3 +44,7 @@ myElement.style.color = "blue";
 </html>
 
 ```
+
+## Output
+
+(https://raw.githubusercontent.com/aatiduaCodecademy/docs/main/media/getelementbyid.png)
