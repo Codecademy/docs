@@ -58,6 +58,7 @@ Charts
 Chatbots
 Cryptocurrency
 Classes
+Chi-Square
 Classification
 Cloud Computing
 Code Editors
