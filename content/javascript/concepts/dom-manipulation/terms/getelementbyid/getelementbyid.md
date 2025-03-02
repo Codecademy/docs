@@ -45,6 +45,6 @@ myElement.style.color = "blue";
 
 ```
 
-## Output
+-`Output`:
 
-(https://raw.githubusercontent.com/aatiduaCodecademy/docs/main/media/getelementbyid.png)
+![The resulting display ](/Users/edmondkodua/Desktop/projects/new/docs/media/getelementbyid.png)
