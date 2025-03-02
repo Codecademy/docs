@@ -105,7 +105,7 @@ fig = go.Figure(data=[go.Sankey(
         source=source_indices,
         target=target_indices,
         value=data['value'],
-        color=['lightblue', 'lightgreen', 'lightcoral', 'khaki', 'blueviolet', 'teal', 'chartreuse', 'darkmagenta', 'dodgerblue', 'lightblue'],  # Define the color of the links.
+        color=['lightblue', 'lightgreen', 'lightcoral', 'indigo', 'turquoise', 'mediumvioletred', 'darkorange', 'yellowgreen', 'dodgerblue', 'lightblue'],  # Define the color of the links.
         line=dict(color='black', width=0.2)  # Define the border of the links.
     ),
     arrangement='snap',  # Set the arrangement of the nodes.
@@ -118,4 +118,8 @@ fig.update_layout(title_text="Advertising Cash Flow", font_size=10)
 # Display the plot.
 fig.show()
 ```
+
+This example results in the following output:
+
+![The output will be a Sankey diagram illustrating the advertising cash flow.](https://raw.githubusercontent.com/Codecademy/docs/main/media/sankey-cash-flow.png)
 
