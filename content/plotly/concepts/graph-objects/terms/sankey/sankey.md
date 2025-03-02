@@ -49,12 +49,6 @@ plotly.graph_objects.Sankey(node=None, link=None, arrangement = 'snap', orientat
     - `value`: An array of numerical values. Each value represents the flow
       quantity associated with a specific link. The order of values
       corresponds to the order of the source-target pairs.
-    - `color`: A string or an array of strings specifying the color of each
-      link.
-    - `line`: A dictionary used to define the border of the links, contains
-      the following keys:
-        - `color`: Defines the color of the link border.
-        - `width`: Defines the width of the link border.
 
   > **Note:** The `source`, `target`, and `value` arrays must have the same
   > length. Each set of elements at the same index in these arrays defines a
@@ -75,5 +69,53 @@ plotly.graph_objects.Sankey(node=None, link=None, arrangement = 'snap', orientat
 > **Note:** There are many additional, optional parameters that are not listed
 > here, as indicated by the ellipsis (`...`) in the syntax.
 
+## Example 
 
+This code displays a Sankey diagram, illustrating the advertising cash flow through its nodes and links. 
+
+```py
+import plotly.graph_objects as go
+
+# Define the data for the Sankey diagram (Advertising Cash Flow).
+data = {
+    'source': ['Ad Campaign', 'Social Media', 'Search Engines', 'Referrals', 'Social Media', 'Search Engines', 'Referrals', 'Social Media', 'Search Engines', 'Referrals'],
+    'target': ['Clicks', 'Clicks', 'Clicks', 'Clicks', 'Leads', 'Leads', 'Leads', 'Conversions', 'Conversions', 'Conversions'],
+    'value': [500, 300, 200, 100, 150, 80, 40, 60, 30, 10]
+}
+
+# Create a list of unique nodes.
+all_nodes = data['source'] + data['target']
+
+# Create a dictionary that links the name of the node to its index.
+node_to_index = {node: i for i, node in enumerate(all_nodes)}
+
+# Convert source and target names to indices.
+source_indices = [node_to_index[source] for source in data['source']]
+target_indices = [node_to_index[target] for target in data['target']]
+
+# Create the Sankey diagram.
+fig = go.Figure(data=[go.Sankey(
+    node=dict(
+        label=all_nodes,
+        pad=20,  # Add padding between nodes.
+        thickness=10,  # Define the thickness of the nodes.
+        line=dict(color="black", width=0.5)  # Add a border to the nodes.
+    ),
+    link=dict(
+        source=source_indices,
+        target=target_indices,
+        value=data['value'],
+        color=['lightblue', 'lightgreen', 'lightcoral', 'khaki', 'blueviolet', 'teal', 'chartreuse', 'darkmagenta', 'dodgerblue', 'lightblue'],  # Define the color of the links.
+        line=dict(color='black', width=0.2)  # Define the border of the links.
+    ),
+    arrangement='snap',  # Set the arrangement of the nodes.
+    orientation='h'  # Set the orientation of the diagram.
+)])
+
+# Update layout to add a title.
+fig.update_layout(title_text="Advertising Cash Flow", font_size=10)
+
+# Display the plot.
+fig.show()
+```
 
