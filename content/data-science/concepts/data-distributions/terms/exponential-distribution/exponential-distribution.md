@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **exponential distribution** models the time between independent events that occur at a constant average rate. It is frequently used in reliability analysis, queuing theory, and survival analysis. The distribution is defined by a single parameter, the rate (\\( \\lambda \\)), which determines how quickly events occur.
+The **exponential distribution** models the time between independent events that occur at a constant average rate. It is frequently used in reliability analysis, queuing theory, and survival analysis. The distribution is defined by a single parameter, the rate λ which determines how quickly events occur.
 
 ## Example
 
