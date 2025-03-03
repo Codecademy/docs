@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **Normal Distribution**, also known as the Gaussian Distribution, is one of the most important probability distributions in statistics and data science. It is defined by two parameters:
+The **Normal Distribution**, also known as the Gaussian Distribution, is one of the most important probability distributions used for continuous data. It is defined by two parameters:
 
 - **Mean (μ)**: The central value of the distribution
 - **Standard Deviation (σ)**: A measure of the amount of variation or dispersion in the data
