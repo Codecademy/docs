@@ -1,5 +1,5 @@
 ---
-Title: '.Sankey()'
+Title: 'Sankey'
 Description: 'Creates a Sankey diagram in Plotly using the graph_objects module.'
 Subjects:
   - 'Data Science'
@@ -15,10 +15,8 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-**`.Sankey()`** is a method in Plotly's [`graph_objects`](https://www.codecademy.com/resources/docs/plotly/graph-objects) module that generates Sankey diagrams.
-These diagrams are a type of visualization that illustrates flow from one set of values to another. The items being
-connected are called nodes, and the connections between them are called links. The width of the links is
-proportional to the flow quantity.
+**`.Sankey()`** is a method in Plotly's [`graph_objects`](https://www.codecademy.com/resources/docs/plotly/graph-objects) module that creates visualizations to illustrate the flow between different values. Sankey diagrams. The connected elements are referred to as nodes, and the connections between nodes are called links. The width of each link represents
+the quantity of flow.
 
 ## Syntax
 
@@ -56,9 +54,8 @@ plotly.graph_objects.Sankey(node=None, link=None, arrangement = 'snap', orientat
   possible values are: `snap`, `perpendicular`, `freeform`, and
   `fixed`. The default value is `snap`.
 
-- `orientation`: Sets the orientation of the Sankey diagram. The possible
-  values are: `h` for horizontal, and `v` for vertical. The default value
-  is `h`.
+- `orientation`: Determines whether the Sankey diagram is displayed horizontally or vertically. The
+  possible values are: `h` for horizontal, and `v` for vertical. The default value is `h`.
 
 - `valueformat`: Sets the format of the numerical values displayed on the
   links, using d3-format's syntax.
