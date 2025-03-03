@@ -55,6 +55,7 @@ Calendar
 Catch
 Characters
 Charts
+Chi-Square
 Chatbots
 Cryptocurrency
 Classes
