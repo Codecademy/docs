@@ -1,6 +1,6 @@
 ---
 Title: 'Normal Distribution'
-Description: 'A continuous probability distribution characterized by a bell-shaped curve that is symmetric around its mean.'
+Description: 'A kind of continuous probability distribution characterized by a bell-shaped curve that is symmetric around its mean.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -13,14 +13,14 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **Normal Distribution**, also known as the Gaussian Distribution, is one of the most important probability distributions used for continuous data. It is defined by two parameters:
+The **normal distribution**, otherwise known as the Gaussian distribution, is one of the most signifcant probability distributions used for continuous data. It is defined by two parameters:
 
-- **Mean (μ)**: The central value of the distribution
-- **Standard Deviation (σ)**: A measure of the amount of variation or dispersion in the data
+- **Mean (μ)**: The central value of the distribution.
+- **Standard Deviation (σ)**: Computes the amount of variation or dispersion in the data.
 
-Mathematically, the probability density function (PDF) of the normal distribution is:
+Mathematically, the probability density function (PDF) used for the normal distribution is:
 
-![Normal Distribution Formula](https://raw.githubusercontent.com/Codecademy/docs/main/media/normal_distribution_formula.png)
+![Normal distribution formula](https://raw.githubusercontent.com/Codecademy/docs/main/media/normal-distribution-formula.png)
 
 Where:
 
@@ -35,14 +35,14 @@ Where:
 1. **Bell-shaped and Symmetric**: The distribution is perfectly symmetrical around its mean.
 2. **Mean, Median, and Mode are Equal**: All three measures of central tendency have the same value.
 3. **Empirical Rule (68-95-99.7 Rule)**:
-   - Approximately 68% of data falls within 1 standard deviation of the mean
+   - Approximately 68% of the given data falls within 1 standard deviation of the mean
    - Approximately 95% falls within 2 standard deviations
    - Approximately 99.7% falls within 3 standard deviations
 4. **Standardized Form**: Any normal distribution can be converted to a standard normal distribution (`μ=0`, `σ=1`) using the formula `z = (x-μ)/σ`.
 
 ### Applications
 
-The normal distribution is widely used in various fields:
+The normal distribution is broadly used in various fields:
 
 - **Finance**: Modeling stock returns
 - **Natural Sciences**: Measurement errors
@@ -52,7 +52,7 @@ The normal distribution is widely used in various fields:
 
 ## Example
 
-The following code creates a sample of 1,000 normally distributed data points with mean=70 and standard deviation=10 and displays this data in a 2×2 grid of plots for analysis:
+The following code creates a sample of 1,000 normally distributed data points with a mean of `70` and a standard deviation of `10`, and displays this data in a 2×2 grid of plots for analysis:
 
 ```py
 import numpy as np
@@ -121,7 +121,7 @@ print(f"Data within 2 standard deviations: {within_2_std:.2f}% (theoretical: 95%
 print(f"Data within 3 standard deviations: {within_3_std:.2f}% (theoretical: 99.7%)")
 ```
 
-The output of the above code wille be:
+The output of the above code will be:
 
 ```shell
 Statistical Summary:
@@ -137,18 +137,18 @@ Data within 2 standard deviations: 95.60% (theoretical: 95%)
 Data within 3 standard deviations: 99.70% (theoretical: 99.7%)
 ```
 
-The Histogram with density curve Shows the bell-shaped curve characteristic of normal distributions:
+The histogram with density curve shows the bell-shaped curve characteristic of normal distributions:
 
-![Bell-shaped Curve](https://raw.githubusercontent.com/Codecademy/docs/main/media/normal_distribution_histogram.png)
+![Bell-shaped curve](https://raw.githubusercontent.com/Codecademy/docs/main/media/normal-distribution-histogram.png)
 
-Q-Q plot Compares the data quantiles against theoretical normal distribution quantiles to check if the data follows a normal distribution (points following the diagonal line indicate normality):
+Q-Q plot compares the data quantiles against theoretical normal distribution quantiles to check if the data follows a normal distribution (points following the diagonal line indicate normality):
 
-![Q-Q plot](https://raw.githubusercontent.com/Codecademy/docs/main/media/normal_distribution_q_plot.png)
+![Q-Q plot](https://raw.githubusercontent.com/Codecademy/docs/main/media/normal-distribution-q-plot.png)
 
-Box plot Visualizes the central tendency and spread of the data:
+Box plot visualizes the central tendency and spread of the data:
 
-![Box plot](https://raw.githubusercontent.com/Codecademy/docs/main/media/normal_distribution_box_plot.png)
+![Box plot](https://raw.githubusercontent.com/Codecademy/docs/main/media/normal-distribution-box-plot.png)
 
-Bar chart Tests whether the data follows the 68-95-99.7 rule by calculating the percentage of data points within 1, 2, and 3 standard deviations:
+Bar chart tests whether the data follows the 68-95-99.7 rule by calculating the percentage of data points that fall within 1, 2, and 3 standard deviations:
 
-![Bar plot](https://raw.githubusercontent.com/Codecademy/docs/main/media/normal_distribution_empirical_rule.png)
+![Bar plot](https://raw.githubusercontent.com/Codecademy/docs/main/media/normal-distribution-empirical-rule.png)
