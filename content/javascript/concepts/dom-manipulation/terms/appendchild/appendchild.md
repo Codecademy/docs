@@ -7,10 +7,12 @@ Subjects:
 Tags:
   - 'DOM'
   - 'ES6'
-  - 'An nth tag'
+  - 'Arguments'
+  - 'Functions'
+  - 'Parameters'
 CatalogContent:
   - 'introduction-to-javascript'
-  - 'paths/computer-science'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The **`.appendChild()`** method in JavaScript is a key DOM (Document Object Model) manipulation tool that appends a node, such as an element or text node, as the last child of a specified parent node. It enables developers to dynamically modify a webpage’s structure by adding or repositioning elements in the DOM tree. When called on a parent node with a single node argument, it adds the node as the last child or moves it from its current position if it already exists in the DOM. The method returns the appended node.
