@@ -1,6 +1,6 @@
 ---
 Title: '.Carpet()'
-Description: 'C'
+Description: 'Creates visualization technique that displays interaction between variables'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
