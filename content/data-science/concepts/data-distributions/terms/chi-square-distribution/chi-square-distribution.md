@@ -17,7 +17,7 @@ The **chi-square distribution** is derived from the sum of squared standard norm
 
 ## Example
 
-The example below demonstrates how to generate random samples from a chi-square distribution and visualize them with a [histogram](https://www.codecademy.com/learn/statistics-histograms). In this demonstration, [SciPy](https://www.codecademy.com/resources/docs/scipy) is used to generate the samples and [Matplotlib](https://www.codecademy.com/resources/docs/matplotlib) is used for plotting.
+The example below demonstrates how to generate random samples from a chi-square distribution and visualize them with a [histogram](https://www.codecademy.com/learn/statistics-histograms). In this demonstration, [SciPy](https://www.codecademy.com/resources/docs/scipy) is used to generate the samples and [Matplotlib](https://www.codecademy.com/resources/docs/matplotlib) is used for plotting:
 
 ```py
 import numpy as np
