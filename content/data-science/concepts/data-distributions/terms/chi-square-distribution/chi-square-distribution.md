@@ -13,13 +13,13 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **chi-square distribution** arises from the sum of squared standard normal variables. It is widely used in statistical tests, including the chi-square test for independence and goodness of fit. The distribution's shape depends on its degrees of freedom; lower degrees of freedom produce a skewed curve, while higher degrees yield a more symmetric shape.
+The **chi-square distribution** is derived from the sum of squared standard normal variables. It plays a crucial role in statistical tests, such as the chi-square test for independence and goodness of fit. The shape of the distribution varies with its degrees of freedom; for lower degrees of freedom, it is skewed, while higher degrees of freedom result in a more symmetric shape.
 
 ## Example
 
 The example below demonstrates how to generate random samples from a chi-square distribution and visualize them with a [histogram](https://www.codecademy.com/learn/statistics-histograms). In this demonstration, [SciPy](https://www.codecademy.com/resources/docs/scipy) is used to generate the samples and [Matplotlib](https://www.codecademy.com/resources/docs/matplotlib) is used for plotting.
 
-```python
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import chi2
@@ -38,6 +38,6 @@ plt.ylabel("Density")
 plt.show()
 ```
 
-The above example produces the following output:
+The above code generates a histogram illustrating the chi-square distribution:
 
 ![The output for the above example](https://raw.githubusercontent.com/Codecademy/docs/main/media/chi-square-distribution.png)
