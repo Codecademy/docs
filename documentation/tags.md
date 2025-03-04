@@ -400,6 +400,7 @@ WebRTC
 Weight & Bias
 While
 Whiteboarding
+Weibull
 Window Functions
 WordPress
 World Wide Web
