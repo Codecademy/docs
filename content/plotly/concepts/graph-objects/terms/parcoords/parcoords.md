@@ -9,6 +9,7 @@ Tags:
   - 'Graphs'
   - 'Data'
   - 'Values'
+  - 'Parcoords'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
