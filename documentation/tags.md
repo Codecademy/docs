@@ -55,6 +55,7 @@ Calendar
 Catch
 Characters
 Charts
+Chi-Square
 Chatbots
 Cryptocurrency
 Classes
@@ -89,6 +90,7 @@ D3
 Deployment
 Dart
 Data
+Data Distributions
 Data Parallelism
 Data Structures
 Data Types
@@ -393,10 +395,12 @@ Visibility
 VR
 Vue
 Web3
+Exponential
 WebRTC
 Weight & Bias
 While
 Whiteboarding
+Weibull
 Window Functions
 WordPress
 World Wide Web
