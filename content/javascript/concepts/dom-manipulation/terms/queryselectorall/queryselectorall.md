@@ -29,7 +29,7 @@ This is a string representing one or more CSS selectors used to identify the ele
 
 ## Example
 
-To obtain a [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) of all of the [< p >](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p) elements in the document:
+In this example, a `NodeList` of all `<p>` elements in the document is obtained:
 
 ```js
 const matches = document.querySelectorAll("p");
