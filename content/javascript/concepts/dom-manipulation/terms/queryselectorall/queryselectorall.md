@@ -3,9 +3,9 @@ Title: '.querySelectorAll()'
 Description: 'Returns a static (non-live) NodeList of all elements in the document that match the specified CSS selectors.'
 
 Subjects:
-  - 'Web Development'
-  - 'Developer Tools'
   - 'Code Foundations'
+  - 'Developer Tools'
+  - 'Web Development'
 Tags:
   - 'Methods'
   - 'Selectors'
