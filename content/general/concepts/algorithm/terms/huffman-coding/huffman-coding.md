@@ -29,7 +29,7 @@ Huffman coding works through the following steps:
     - Create a new internal node with these two nodes as children, with a frequency equal to the sum of both nodes' frequencies.
     - Add the new node back to the priority queue.
   - The remaining node is the root of the Huffman tree.
-- Generate Codes:
+- Generate Huffman Codes:
   - Traverse the tree from the root to each leaf.
   - Assign '0' for a left branch and '1' for a right branch.
   - The code for each character is the sequence of 0s and 1s on the path from the root to the character's leaf node.
