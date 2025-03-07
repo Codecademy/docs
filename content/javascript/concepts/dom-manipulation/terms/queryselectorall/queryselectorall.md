@@ -24,6 +24,8 @@ The document method **`querySelectorAll()`** returns a static (not live) `NodeLi
 ```pseudo
 querySelectorAll(selectors);
 ```
+- **`selectors`**:
+This is a string representing one or more CSS selectors used to identify the elements you want to select from the document. You can use any valid CSS selector, including element selectors (e.g., `div`, `p`), class selectors (e.g., `.class-name`), id selectors (e.g., `#id-name`), and complex selectors (e.g., `div > p.class-name`). If multiple selectors are provided, they should be separated by commas (e.g., `'.class-name, #id-name'`).
 
 ## Example
 
