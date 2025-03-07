@@ -1,6 +1,6 @@
 ---
 Title: '.abs()'
-Description: 'Computes the absolute value of each element in a PyTorch tensor. For complex numbers, returns their magnitude.'
+Description: 'Computes the absolute value of each element in a PyTorch tensor, returning the magnitude for complex numbers.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,19 +13,21 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.abs()`** method in PyTorch calculates the absolute value (magnitude) of each element in a tensor. For real numbers, this returns their non-negative value. For complex numbers, it computes the magnitude using the formula √(real² + imag²). This operation is widely used in data preprocessing, signal processing, and mathematical transformations.
+The **`.abs()`** method in PyTorch computes the absolute value of each [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) element. For real numbers, it returns the non-negative value. For complex numbers, it calculates the magnitude using √(real² + imag²). This function is useful in data preprocessing, signal processing, and mathematical transformations.
 
 ## Syntax
 
 ```pseudo
-tensor.abs()
+torch.abs(input)
 ```
+
+- `input` (Tensor): The input tensor (can be real or complex).
 
 The `.abs()` method returns a tensor where each element is the absolute value of the corresponding element in the input tensor.
 
 ## Example
 
-This example shows how to use .abs() to compute absolute values for both real and complex tensors:
+This example shows how to use `.abs()` function to compute absolute values for both real and complex tensors:
 
 ```py
 import torch
