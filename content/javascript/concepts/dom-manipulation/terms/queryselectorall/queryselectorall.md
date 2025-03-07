@@ -1,6 +1,7 @@
 ---
 Title: '.querySelectorAll()'
-Description: 'Returns a static (not live) NodeList representing a list of the document`s elements that match the specified group of selectors.'
+Description: 'Returns a static (non-live) NodeList of all elements in the document that match the specified CSS selectors.'
+
 Subjects:
   - 'Web Development'
   - 'Developer Tools'
