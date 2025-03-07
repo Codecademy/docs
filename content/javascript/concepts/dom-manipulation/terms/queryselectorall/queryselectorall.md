@@ -8,8 +8,8 @@ Subjects:
   - 'Web Development'
 Tags:
   - 'Methods'
-  - 'Selectors'
   - 'Node'
+  - 'Selectors'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
