@@ -17,7 +17,7 @@ CatalogContent:
 
 # Document: querySelectorAll() method
 
-The [Document](https://developer.mozilla.org/en-US/docs/Web/API/Document) method **querySelectorAll()** returns a static (not live) NodeList representing a list of the document's elements that match the specified group of selectors.
+The document method **`querySelectorAll()`** returns a static (not live) `NodeList` of all elements that match the specified group of selectors.
 
 ## Syntax
 
