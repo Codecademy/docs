@@ -26,6 +26,7 @@ Assert
 Assignment
 Asymptotic Notation
 Async Await
+Attention
 Attributes
 Authentication
 Automation
@@ -54,6 +55,7 @@ Calendar
 Catch
 Characters
 Charts
+Chi-Square
 Chatbots
 Cryptocurrency
 Classes
@@ -88,6 +90,7 @@ D3
 Deployment
 Dart
 Data
+Data Distributions
 Data Parallelism
 Data Structures
 Data Types
@@ -133,6 +136,7 @@ Errors
 ES6
 Ethical Hacking
 Events
+Event Handling
 Exceptions
 Expo
 Express
@@ -356,6 +360,7 @@ Threads
 Tidyr
 Time
 Title
+Transformers
 Transitions
 Transpilation
 Trees
@@ -390,10 +395,12 @@ Visibility
 VR
 Vue
 Web3
+Exponential
 WebRTC
 Weight & Bias
 While
 Whiteboarding
+Weibull
 Window Functions
 WordPress
 World Wide Web

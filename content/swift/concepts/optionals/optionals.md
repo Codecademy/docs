@@ -54,12 +54,12 @@ print(myInt)
 var maybeString: String? = "maybeString"
 
 if let myString = maybeString {
-  print("\(maybeString) and myString are equal!")
+  print("\(myString) and myString are equal!")
 } else {
   print("myString could not be assigned to nil.")
 }
 
-// Output: Optional("maybeString") and myString are equal!
+// Output: maybeString and myString are equal!
 ```
 
 `myString` is declared and conditionally bound to the `maybeString` optional. The value of `myString` can be accessed from inside the `if` statement, but not in the outer scope. An alternative to `if let` that allows upwrapped values to be accessed in the outer scope, is the `guard let` statement.
