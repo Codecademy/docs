@@ -35,7 +35,7 @@ In this example, a `NodeList` of all `<p>` elements in the document is obtained:
 const matches = document.querySelectorAll("p");
 ```
 
-This example returns a list of all [< div >](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div) elements within the document with a class of either note or alert:
+This example returns a list of all `<div>` elements in the document with a class of either `note` or `alert`:
 
 ```js
 const matches = document.querySelectorAll("div.note, div.alert");
