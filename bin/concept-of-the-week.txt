@@ -1,1 +1,1 @@
-content/react/concepts/components/components.md
+content/typescript/concepts/interfaces/interfaces.md
