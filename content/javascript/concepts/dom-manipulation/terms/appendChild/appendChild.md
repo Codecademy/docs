@@ -46,13 +46,13 @@ Here is the JavaScript code:
 
 ```js
 // Select the parent node
-const parentDiv = document.getElementById("container");
+const parentDiv = document.getElementById('container');
 
 // Create a new paragraph element
-const newParagraph = document.createElement("p");
+const newParagraph = document.createElement('p');
 
 // Add text content to the element
-newParagraph.textContent = "This paragraph was added with .appendChild()!";
+newParagraph.textContent = 'This paragraph was added with .appendChild()!';
 
 // Append it as the last child to the parent node
 parentDiv.appendChild(newParagraph);
