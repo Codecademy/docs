@@ -13,7 +13,7 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
----
+--- 
 
 The **`Parcoords`** class creates a parallel coordinate plot using Plotly's `graph_objects` module. It can be used for the representation of multivariate data. Each row of a given dataset is plotted as a polyline between the parallel axes.
 
@@ -31,7 +31,6 @@ plotly.graph_objects.Parcoords(line=None, dimensions=None, ...)
 ## Example
 
 This code creates a parallel coordinate plot using Plotly's `Parcoords` class from the `graph_objects` module. As data source the iris dataset is loaded through the Plotly 'express' module into a 'pandas' dataframe first. The data in the dataframe can be accessed through the dimensions class. The lines of the parallel coordinate plot can be adjusted with the line class properties.
-
 
 ```py
 import plotly.graph_objects as go
