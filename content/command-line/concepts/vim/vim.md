@@ -33,7 +33,8 @@ This section describes some important features of the Vim editor.
 
 Vim has three modes of operation:
 
-- `COMMAND MODE` : Execute commands like undo, redo, find, replace, quit, etc.
+- `NORMAL MODE` : Used for editor commands. This is generally the default mode and by default hitting `ESC` returns the editor to this mode.
+- `COMMAND MODE` : Provides a single line input at the bottom of the Vim window. Commands (beginning with `:`) and some other keys for specific actions (including pattern search and the filter command) activate this mode. On completion of the command, Vim returns to the previous mode.
 - `INSERT MODE` : Type and edit text.
 - `VISUAL MODE` : Highlight, select and edit text.
 
