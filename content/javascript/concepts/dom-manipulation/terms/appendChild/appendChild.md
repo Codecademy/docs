@@ -5,16 +5,16 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Arguments'
   - 'DOM'
   - 'ES6'
-  - 'Arguments'
   - 'Functions'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.appendChild()`** method in JavaScript is a key DOM (Document Object Model) manipulation tool that appends a node, such as an element or text node, as the last child of a specified parent node. It enables developers to dynamically modify a webpage’s structure by adding or repositioning elements in the DOM tree. When called on a parent node with a single node argument, it adds the node as the last child or moves it from its current position if it already exists in the DOM. The method returns the appended node.
+The **`.appendChild()`** method in JavaScript is a key DOM manipulation tool that appends a node (element or text node) as the last child of a specified parent. It allows developers to dynamically modify a webpage’s structure. If the node already exists in the DOM, it is moved to its new position. The method returns the appended node.
 
 ## Syntax
 
@@ -22,13 +22,13 @@ The **`.appendChild()`** method in JavaScript is a key DOM (Document Object Mode
 parentNode.appendChild(childNode);
 ```
 
-- `parentNode`: The DOM node to which the child will be appended.
-- `childNode`: The node to append (e.g., an element or text node).
+- `parentNode`: The parent element to which the `childNode` will be appended.
+- `childNode`: The node to append (element or text node).
 
 > **Notes:**
-> 
-> - If `childNode` is already in the DOM, it is moved, not duplicated.
-> - Unlike **`.append()`**, it accepts only one node, not multiple nodes or strings.
+>
+> - If `childNode` already exists in the DOM, it is moved to the new position instead of being duplicated.
+> - Unlike `.append()`, `.appendChild()` accepts only a single node and does not support multiple nodes or strings.
 
 ## Example
 
@@ -58,7 +58,7 @@ newParagraph.textContent = "This paragraph was added with .appendChild()!";
 parentDiv.appendChild(newParagraph);
 ```
 
-The output is following:
+The output is of this code is as following:
 
 ```plaintext
 This paragraph was added with .appendChild()!
