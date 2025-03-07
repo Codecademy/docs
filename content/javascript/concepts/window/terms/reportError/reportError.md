@@ -28,7 +28,7 @@ window.reportError(error);
 The following example uses `reportError()` to log an error object:
 
 ```js
-const myError = new Error("Error Message 1", "File.js", 7);
+const myError = new Error('Error Message 1', 'File.js', 7);
 window.reportError(myError);
 ```
 
@@ -38,7 +38,7 @@ The `reportError()` function can also be used with the `try..catch` block to rep
 
 ```js
 try {
-  throw new Error("Wrong execution!");
+  throw new Error('Wrong execution!');
 } catch (error) {
   window.reportError(error);
 }
