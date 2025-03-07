@@ -2,12 +2,12 @@
 Title: 'reportError()'
 Description: 'Allows users to report errors to the console or global error handlers.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
+  - 'Arguments'
   - 'Functions'
   - 'Parameters'
-  - 'Arguments'
 CatalogContent:
   - 'paths/front-end-engineer-career-path'
   - 'introduction-to-javascript'
@@ -25,7 +25,7 @@ window.reportError(error);
 
 ## Example 1
 
-The following example uses the `reportError()` function to report error passed in as an error object:
+The following example uses `reportError()` to log an error object:
 
 ```js
 const myError = new Error("Error Message 1", "File.js", 7);
@@ -34,7 +34,7 @@ window.reportError(myError);
 
 ## Example 2
 
-The `reportError()` function can also be used with the `try..catch` statement:
+The `reportError()` function can also be used with the `try..catch` block to report caught errors:
 
 ```js
 try {
