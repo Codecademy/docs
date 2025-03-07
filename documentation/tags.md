@@ -26,6 +26,7 @@ Assert
 Assignment
 Asymptotic Notation
 Async Await
+Attention
 Attributes
 Authentication
 Automation
@@ -54,6 +55,7 @@ Calendar
 Catch
 Characters
 Charts
+Chi-Square
 Chatbots
 Cryptocurrency
 Classes
@@ -85,8 +87,10 @@ CSS
 CSV
 Cybersecurity
 D3
+Deployment
 Dart
 Data
+Data Distributions
 Data Parallelism
 Data Structures
 Data Types
@@ -109,6 +113,7 @@ Dictionary
 Dijkstra's
 Display
 Distance
+Dimensions
 Distinct
 Div
 Django
@@ -131,6 +136,7 @@ Errors
 ES6
 Ethical Hacking
 Events
+Event Handling
 Exceptions
 Expo
 Express
@@ -223,12 +229,14 @@ Matrices
 Media Queries
 Memory
 Metadata
+Model Export
 Methods
 Middleware
 Models
 Modules
 Multitask Learning
 MultiTaskLasso
+Model Export
 MySQL
 Naive Bayes
 Natural Language Processing
@@ -245,6 +253,7 @@ Obsolete
 Ontologies
 OOP
 Opacity
+ONNX
 Open Source
 Operating Systems
 Operators
@@ -351,6 +360,7 @@ Threads
 Tidyr
 Time
 Title
+Transformers
 Transitions
 Transpilation
 Trees
@@ -358,6 +368,7 @@ Trigonometry
 Try
 Tuples
 Types
+TorchScript
 Type Guard
 Type Narrowing
 Typography
@@ -384,10 +395,12 @@ Visibility
 VR
 Vue
 Web3
+Exponential
 WebRTC
 Weight & Bias
 While
 Whiteboarding
+Weibull
 Window Functions
 WordPress
 World Wide Web
