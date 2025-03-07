@@ -2,11 +2,17 @@
 Title: "File Operations"
 Description: "File operations in Bash allow users to create, delete, move, copy, and manipulate files from the command line."
 Subjects:
+  - "Bash/Shell"
+tags:
+  - "Bash/Shell"
   - "Command Line"
-  - "Bash"
+  - "Files"
+  - "Operating Systems"
+  - "Programming"
+  - "Scripting"
+  - "Unix"
 CatalogContent:
   - 'learn-the-command-line'
-  - 'paths/computer-science'
 ---
 
 ## Definition
@@ -32,6 +38,7 @@ cp source_file destination
 To move or rename a file:
 
 ```bash
+mv source_file destination_file  
 mv old_name new_name
 ```
 
@@ -63,7 +70,7 @@ rm -r directory_name
 ```
 
 ## Example
-Consider a scenario where a user wants to create a directory, move a file into it, and then delete the file.
+Consider a scenario where someone wants to create a directory, move a file into it, and then delete the file.
 
 ```bash
 # Create a new directory named 'project'
