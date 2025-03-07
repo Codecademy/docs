@@ -41,7 +41,7 @@ This example returns a list of all `<div>` elements in the document with a class
 const matches = document.querySelectorAll("div.note, div.alert");
 ```
 
-Here, we get a list of < p > elements whose immediate parent element is a < div > with the class highlighted and which are located inside a container whose ID is test.
+In this example, we get a list of `<p>` elements whose immediate parent is a `<div>` with the class `highlighted`, and which are inside a container with the ID `test`:
 
 ```js
 const container = document. querySelector("#test");
