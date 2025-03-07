@@ -21,7 +21,7 @@ The document method **`querySelectorAll()`** returns a static (not live) `NodeLi
 
 ## Syntax
 
-```js
+```pseudo
 querySelectorAll(selectors);
 ```
 
