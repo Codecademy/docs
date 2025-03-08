@@ -8,7 +8,6 @@ Tags:
   - 'DOM'
   - 'ES6'
   - 'Properties'
-  - 'HTML'
   - 'Strings'
 CatalogContent:
   - 'introduction-to-javascript'
