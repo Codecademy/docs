@@ -32,10 +32,11 @@ When reading `.innerHTML`, it returns the current HTML string inside the element
 
 ### Notes
 
-- Setting innerHTML replaces all existing content within the element.
-- The provided HTML string is parsed and any valid HTML tags are converted to DOM elements.
-- Be cautious with user-provided content as innerHTML can execute scripts, making it vulnerable to XSS attacks.
-- For plain text content, consider using `.textContent` instead for better security and performance.
+- Setting `.innerHTML` replaces all existing content within the element.
+- The provided HTML string is parsed, and valid HTML tags are converted to DOM elements.
+- Be cautious with user-provided content as `.innerHTML` can execute scripts, making it vulnerable to XSS (Cross-Site Scripting) attacks.
+- For plain text content, consider using `.textContent` for better security and performance.
+- If an element contains event handlers, replacing `.innerHTML` will remove them. Consider `appendChild` for better control.
 
 ## Example
 
