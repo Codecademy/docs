@@ -29,7 +29,6 @@ document.createElement(type)
 The following example demonstrates the usage of the `.createElement()` method:
 
 ```js
-document.body.onload = addElement;
 
 function addElement() {
   // Create a div element
