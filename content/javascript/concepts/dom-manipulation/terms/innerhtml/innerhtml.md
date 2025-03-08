@@ -18,7 +18,7 @@ The **`.innerHTML`** property in JavaScript is a fundamental [DOM (Document Obje
 
 ## Syntax
 
-```javascript
+```pseudo
 // Getting HTML content
 const content = element.innerHTML;
 
