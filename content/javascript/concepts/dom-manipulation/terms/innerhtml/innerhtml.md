@@ -26,7 +26,7 @@ const content = element.innerHTML;
 element.innerHTML = htmlString;
 ```
 
-- `element`: The DOM element whose content you want to get or set.
+- `element`: The DOM element whose content is being accessed or modified.
 - `htmlString`: A string containing HTML markup to set as the element's content.
 - `Return value`: When getting, returns a string containing the element's HTML content.
 
