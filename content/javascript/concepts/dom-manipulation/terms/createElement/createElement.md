@@ -22,7 +22,7 @@ In JavaScript, the **`.createElement()`** [method](https://www.codecademy.com/re
 document.createElement(type)
 ```
 
-- `type`: The type of element to create.
+- `type`: A string representing the tag name of the element to be created.
 
 ## Example
 
