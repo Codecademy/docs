@@ -27,7 +27,7 @@ element.innerHTML = htmlString;
 ```
 
 - `element`: The DOM element whose content is being accessed or modified.
-- `htmlString`: A string containing HTML markup to set as the element's content.
+- `htmlString`: A string containing HTML markup to be injected.
 - `Return value`: When getting, returns a string containing the element's HTML content.
 
 ### Notes
