@@ -1,5 +1,6 @@
 ---
 Title: '.scrollTo()'
+
 Description: 'Scrolls document to specified coordinate in pixels.'
 Subjects:
   - 'Computer Science'
