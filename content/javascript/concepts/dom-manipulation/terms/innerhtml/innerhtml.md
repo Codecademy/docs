@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.innerHTML`** property in JavaScript is a fundamental DOM (Document Object Model) manipulation tool that gets or sets the HTML content inside an element. It allows developers to dynamically modify a webpage's content by reading or writing HTML markup as a string. When setting innerHTML, the browser parses the provided string as HTML and updates the DOM accordingly. This property is particularly useful for inserting multiple elements or complex HTML structures at once.
+The **`.innerHTML`** property in JavaScript is a fundamental [DOM (Document Object Model) manipulation](https://www.codecademy.com/resources/docs/javascript/dom-manipulation) tool that allows setting or retrieving the HTML content inside an element. It allows developers to modify a webpage's content dynamically by reading or writing HTML markup as a string. When setting `innerHTML`, the browser parses the provided string as HTML and updates the DOM accordingly. This property is particularly useful for inserting multiple elements or complex HTML structures at once.
 
 ## Syntax
 
