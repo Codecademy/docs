@@ -45,7 +45,7 @@ function addElement() {
 }
 ```
 
-The example will result in the following output:
+The above code dynamically adds the following text to the webpage:
 
 ```plaintext
 Hi, Codecademy!
