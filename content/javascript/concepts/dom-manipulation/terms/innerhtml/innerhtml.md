@@ -42,7 +42,7 @@ When reading `.innerHTML`, it returns the current HTML string inside the element
 
 Here's how to use `.innerHTML` to modify content in a `<div>`:
 
-```javascript
+```js
 // HTML: <div id="container"></div>
 
 // Select the element
