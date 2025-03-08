@@ -47,6 +47,6 @@ function addElement() {
 
 The example will result in the following output:
 
-```shell
+```plaintext
 Hi, Codecademy!
 ```
