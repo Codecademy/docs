@@ -36,7 +36,7 @@ querySelectorAll(selectors);
 In this example, a `NodeList` of all `<p>` elements in the document is obtained:
 
 ```js
-const matches = document.querySelectorAll("p");
+const matches = document.querySelectorAll('p');
 ```
 
 ### Example 2
@@ -44,7 +44,7 @@ const matches = document.querySelectorAll("p");
 This example returns a list of all `<div>` elements in the document with a class of either `note` or `alert`:
 
 ```js
-const matches = document.querySelectorAll("div.note, div.alert");
+const matches = document.querySelectorAll('div.note, div.alert');
 ```
 
 ### Example 3
@@ -52,6 +52,6 @@ const matches = document.querySelectorAll("div.note, div.alert");
 In this example, we get a list of `<p>` elements whose immediate parent is a `<div>` with the class `highlighted`, and which are inside a container with the ID `test`:
 
 ```js
-const container = document. querySelector("#test");
-const matches = container.querySelectorAll("div.highlighted > p");
+const container = document.querySelector('#test');
+const matches = container.querySelectorAll('div.highlighted > p');
 ```
