@@ -64,7 +64,7 @@ container.innerHTML = `
   </ul>
 `;
 ```
-
+After execution, the `<div>` will contain:
 ```html
 <div id="container">
   <h2>Dynamic Content</h2>
