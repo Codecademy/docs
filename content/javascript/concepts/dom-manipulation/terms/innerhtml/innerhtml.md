@@ -76,31 +76,3 @@ After execution, the `<div>` will contain:
 </div>
 ```
 
-## Codebyte Example
-
-Run this example to see `.innerHTML` in action:
-
-```codebyte/js
-// Create a parent div
-const parentDiv = document.createElement("div");
-document.body.appendChild(parentDiv);
-
-// Set initial content
-parentDiv.innerHTML = "<p>Initial content</p>";
-console.log("Initial HTML:");
-console.log(parentDiv.outerHTML);
-
-// Update content with more complex HTML
-parentDiv.innerHTML = `
-  <h3>Updated Content</h3>
-  <p>This content was set using innerHTML</p>
-  <ul>
-    <li>Easy to add</li>
-    <li>Multiple elements</li>
-    <li>At once!</li>
-  </ul>
-`;
-
-console.log("\nUpdated HTML:");
-console.log(parentDiv.outerHTML);
-```
