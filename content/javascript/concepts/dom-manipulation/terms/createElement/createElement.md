@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, the **`.createElement()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) of the `document` [object](https://www.codecademy.com/resources/docs/javascript/objects) creates a new element node of the specified type.
+In JavaScript, the **`.createElement()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) of the `document` [object](https://www.codecademy.com/resources/docs/javascript/objects) creates a new element node of the specified type. This method returns an `HTMLElement` instance, which can be modified and appended to the DOM.
 
 ## Syntax
 
@@ -29,7 +29,6 @@ document.createElement(type)
 The following example demonstrates the usage of the `.createElement()` method:
 
 ```js
-
 function addElement() {
   // Create a div element
   const myDiv = document.createElement('div');
@@ -43,6 +42,9 @@ function addElement() {
   // Add the element to the body
   document.body.appendChild(myDiv);
 }
+
+// Call the function to add the element to the page
+addElement();
 ```
 
 The above code dynamically adds the following text to the webpage:
