@@ -8,6 +8,7 @@ Tags:
   - 'AI'
   - 'Data Types'
   - 'Deep Learning'
+  - 'Functions'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/data-science'
@@ -41,6 +42,7 @@ tensor = torch.arange(10)
 # Create a 2x3 strided view (overlapping windows)
 windowed_tensor = tensor.as_strided((2, 3), (2, 1))
 
+# Print the resultant tensor
 print(windowed_tensor)
 ```
 
@@ -53,6 +55,6 @@ tensor([[0, 1, 2],
 
 - The original tensor `tensor` contains values `[0, 1, 2, ..., 9]`.
 - The `.as_strided()` function generates a view where:
-  - The new shape is `(2,3)`, meaning two rows and three columns.
+  - The new shape is `(2, 3)`, meaning two rows and three columns.
   - The first stride is `2`, meaning each row starts 2 elements ahead in the original tensor.
   - The second stride is `1`, meaning elements within each row are consecutive.
