@@ -10,8 +10,8 @@ Tags:
   - 'Methods'
   - 'Elements'
 CatalogContent:
-  - 'learn-javascript'
-  - 'paths/computer-science'
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 In JavaScript, the **`.createElement()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) under the `document` [object](https://www.codecademy.com/resources/docs/javascript/objects) is used to generate a new element node of the specified type.
