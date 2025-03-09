@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-visualization'
 ---
 
-The **`.Carpet()`** , which is refered specifically as "carpet plot", is a Plotly function used to display interaction between multiple independent variables and one dependent variable.
+The **`.Carpet()`** , which is referred specifically as "carpet plot", is a Plotly function used to display interaction between one or more independent variables and one or more dependent variable in a two-dimensional plot.
 
 ## Syntax
 
@@ -47,4 +47,4 @@ fig.show()
 ```
 
 **Output**
-![alt text](../../../../../../media/carpet_plot.png)
+![.Carpet() showing the output of thge above plot.](../../../../../../media/carpet_plot.png)
