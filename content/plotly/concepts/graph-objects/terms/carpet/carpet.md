@@ -46,5 +46,6 @@ fig = go.Figure(go.Carpet(
 fig.show()
 ```
 
-**Output**
-![.Carpet() showing the output of thge above plot.](../../../../../../media/carpet_plot.png)
+The above code generates the following output:
+
+![The output of the .Carpet() plot](../../../../../../media/carpet_plot.png)
