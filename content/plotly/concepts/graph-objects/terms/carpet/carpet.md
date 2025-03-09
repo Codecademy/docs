@@ -24,14 +24,12 @@ plotly.graph_objects.Carpet(a=None,b=None,x=None, y=None, ...)
 
 ```
 
-- `a`: First parameter value as an array
-- `b`: y coordinates at each carpet point in two dimensional array.
-- `x`: It is a two dimensional x-coordinates at each carpet point and when omitted, the plot is cheater plot and x-axis is hidden by default
+- `a`: First parameter values as an array
+- `b`: Second parameter values as an array.
+- `x`: (optional) It is a two dimensional x-coordinates at each carpet point and when omitted, the plot is a cheater plot and x-axis is hidden by default
 - `y` : It is a two dimensional y-coordinates at each carpet point.
 
 - The ellipses is an indication of optional paratemeters that can be added.
-
-> Note : When an x parameter is not provided, a cheater plot will be created.
 
 ## Example
 
