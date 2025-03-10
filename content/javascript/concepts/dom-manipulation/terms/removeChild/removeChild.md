@@ -1,6 +1,6 @@
 ---
 Title: '.removeChild()'
-Description: 'Removes a child node from the DOM and returns the removed node.'
+Description: 'Removes a given child node from the DOM and returns the removed node.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -9,7 +9,6 @@ Tags:
   - 'ES6'
   - 'Arguments'
   - 'Functions'
-  - 'Parameters'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
@@ -19,13 +18,12 @@ The **`.removeChild()`** method in JavaScript is a key DOM (Document Object Mode
 
 ## Syntax
 
-```javascript
+```pseudo
 parentNode.removeChild(childNode);
 ```
 
 - `parentNode`: The parent DOM node from which the child will be removed.
 - `childNode`: The node to remove (must be a child of the parent node).
-- `Return value`: The removed childNode.
 
 ### Notes
 
@@ -35,7 +33,9 @@ parentNode.removeChild(childNode);
 
 ## Example
 
-Here's how to use `.removeChild()` to remove a paragraph from a `<div>`:
+The following example shows how to use `.removeChild()` to remove a paragraph from a `<div>`.
+
+Here's the HTML code:
 
 ```html
 <div id="container">
@@ -43,7 +43,9 @@ Here's how to use `.removeChild()` to remove a paragraph from a `<div>`:
 </div>
 ```
 
-```javascript
+Here's the JavaScript code:
+
+```js
 // Select the parent node
 const parentDiv = document.getElementById('container');
 
@@ -53,46 +55,12 @@ const paragraphToRemove = document.getElementById('removeme');
 // Remove the paragraph
 const removedParagraph = parentDiv.removeChild(paragraphToRemove);
 
-// Optional: We can still use the removed paragraph elsewhere if needed
-console.log(removedParagraph.textContent); // "This paragraph will be removed!"
+// Print the removed paragraph
+console.log(removedParagraph.textContent);
 ```
 
-```html
-<!-- Before -->
-<div id="container">
-  <p id="removeme">This paragraph will be removed!</p>
-</div>
+The above code produces the following output:
 
-<!-- After -->
-<div id="container"></div>
-```
-
-## Codebyte Example
-
-Run this example to see `.removeChild()` in action:
-
-```codebyte/js
-// Create a parent div with some children
-const parentDiv = document.createElement("div");
-document.body.appendChild(parentDiv);
-
-// Add two paragraphs
-const paragraph1 = document.createElement("p");
-paragraph1.textContent = "This paragraph will stay!";
-parentDiv.appendChild(paragraph1);
-
-const paragraph2 = document.createElement("p");
-paragraph2.textContent = "This paragraph will be removed!";
-parentDiv.appendChild(paragraph2);
-
-// Log initial state
-console.log("Before removal:");
-console.log(parentDiv.outerHTML);
-
-// Remove the second paragraph
-parentDiv.removeChild(paragraph2);
-
-// Log the result
-console.log("\nAfter removal:");
-console.log(parentDiv.outerHTML);
+```shell
+"This paragraph will be removed!"
 ```
