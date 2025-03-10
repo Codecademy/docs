@@ -1,28 +1,32 @@
----
-Title: 'Regression'
-Descripton: 'Regression models relationships between variables to predict a dependent variable based on one or more independent variables.'
+* * *
+
+Title: 'Regression'  
+Descripton: 'Regression models relationships between variables to predict a dependent variable based on one or more independent variables.'  
 Subjects:
-  - 'AI'
-  - 'Data Science'
-  - 'Machine Learning'
-Tags:
-  - 'Machine Learning'
-  - 'Python'
-CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
----
+
+- 'AI'
+- 'Data Science'
+- 'Machine Learning'  
+    Tags:
+- 'Machine Learning'
+- 'Python'  
+    CatalogContent:
+- 'learn-python-3'
+- 'paths/computer-science'
+
+* * *
+
 **Regression** is a mathematical process used to model data by identifying a function that best represents its patterns. In machine learning, regression functions are used for predictive analysis.
-  
-There are various regression techniques, and the choice depends on factors such as data distribution. A simple form is linear regression, represented by the equation:
-y = a*x + b  
+
+There are various regression techniques, and the choice depends on factors such as data distribution. A simple form is linear regression, represented by the equation:  
+y = a\*x + b  
 This equation can be visualized as a straight line on a 2D graph:
 
 - `y`: The dependent (outcome) variable, plotted on the y-axis (vertical).
 - `x`: The independent (predictor) variable, plotted on the x-axis (horizontal).
 - `b`: The intercept, representing the value of y when x = 0.
 - `a`: The slope, indicating how y changes when x increases by one unit.
-  
+
 ## Example
 
 The following code predicts a person's weight based on a person's height:
@@ -53,5 +57,20 @@ plt.xlabel('Height (cm)')
 plt.ylabel('Weight (kg)')
 plt.title('Height vs Weight with Regression Line')
 plt.legend()
+
+# Save the plot as an image file
+plt.savefig('height_vs_weight_plot.png')
+
+# Show the plot
 plt.show()
-``` 
+```
+
+### Explanation of the code:
+
+Pandas is a data analysis library.  
+Statsmodels.api is a library for statistics, including linear regression.  
+Matplotlib.pyplot is a module (of the Matplotlib library) for creating graphs.
+
+For the purpose of simplicity a very limited number of measured heights and weights is provided (8 measurements). Please note that such size is statistically insufficient to build a reliable model for the real world.
+
+Linear regression is used to identify a model that best fits the measurements provided. This model takes the form of an equation, weight = a\*height + b, which can be used to predict a person's weight based on their height.  The values of a and b are shown in the printed summary and the related graph is saved to the image height_vs_weight_plot.png.
