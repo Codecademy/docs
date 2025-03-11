@@ -16,8 +16,7 @@ CatalogContent:
 - 'paths/computer-science'
 ---
 
-## Definition
-File operations in Bash refer to commands that allow users to create, delete, move, copy, and manipulate files and directories through the command line.
+**File operations** in Bash refer to commands that allow users to create, delete, move, copy, and manipulate files and directories through the command line.
 
 ## Syntax
 
