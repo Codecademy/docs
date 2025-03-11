@@ -195,6 +195,7 @@ Interface
 iOS
 Iterators
 Java
+JavaScript
 Join
 jQuery
 JRuby
