@@ -91,6 +91,3 @@ rmdir project
 
 After running these commands, the directory `project` and its file `notes.txt` will no longer exist.
 
-## Additional Resources
-- [Bash Commands Cheat Sheet](https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-manipulating-files/cheatsheet)
-- [GNU Bash Manual](https://www.gnu.org/software/bash/manual/bash.html)
