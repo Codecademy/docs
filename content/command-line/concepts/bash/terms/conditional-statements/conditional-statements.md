@@ -1,23 +1,26 @@
 ---
 Title: 'Conditional Statements'
-Description: 'Learn about conditional statements in Bash scripting, including syntax and examples.'
+Description: 'Allow a script to make decisions based on conditions.'
+Subjects:
+  - 'Bash/Shell'
+  - 'Computer Science'
 Tags:
   - 'Bash/Shell'
   - 'Command Line'
-  - 'Scripting'
-  – 'Conditional'
+  - 'Script'
+  - 'Conditionals'
 CatalogContent:
   - 'learn-the-command-line'
   - 'paths/computer-science'
 ---
 
-## Introduction
 Conditional statements in Bash allow a script to make decisions based on conditions. These statements help in controlling the flow of execution by performing different actions based on whether a condition evaluates to true or false. Bash supports several types of conditional checks, including comparisons between numbers, strings, and file conditions.
 
 ## Syntax
+
 Bash conditional statements are typically written using `if`, `elif`, `else`, and `fi` keywords. The basic syntax is:
 
-```bash
+```pseudo
 if [ condition ]; then
   # Code to execute if condition is true
 elif [ another_condition ]; then
@@ -27,10 +30,12 @@ else
 fi
 ```
 
-### Conditions for Different Data Types
-Bash provides different operators for various types of conditions:
+### Basic Operators
 
-#### Numeric Comparisons:
+The different operators that Bash provides can be classified into several categories based on the data type of the operands.
+
+**Numeric Operators:**
+
 | Operator | Description |
 |----------|-------------|
 | `-eq` | Equal to |
@@ -40,14 +45,8 @@ Bash provides different operators for various types of conditions:
 | `-gt` | Greater than |
 | `-ge` | Greater than or equal to |
 
-Example:
-```bash
-if [ "$num" -gt 10 ]; then
-  echo "Number is greater than 10"
-fi
-```
+**String Operators:**
 
-#### String Comparisons:
 | Operator | Description |
 |----------|-------------|
 | `=` | Equal to |
@@ -55,14 +54,8 @@ fi
 | `-z` | String is empty |
 | `-n` | String is not empty |
 
-Example:
-```bash
-if [ "$name" = "Alice" ]; then
-  echo "Hello, Alice!"
-fi
-```
+**File Test Operators:**
 
-#### File Conditions:
 | Operator | Description |
 |----------|-------------|
 | `-e` | File exists |
@@ -72,17 +65,9 @@ fi
 | `-w` | File is writable |
 | `-x` | File is executable |
 
-Example:
-```bash
-if [ -f "myfile.txt" ]; then
-  echo "File exists."
-else
-  echo "File does not exist."
-fi
-```
-
 ## Example
-Here is an example demonstrating conditional statements in Bash:
+
+Here is an example that takes a number from the user and then uses conditional statements in Bash to check if the number is greater than, less than, or equal to 0:
 
 ```bash
 #!/bin/bash
@@ -98,15 +83,9 @@ else
 fi
 ```
 
-### Explanation:
-1. The script prompts the user to enter a number.
-2. It checks whether the number is greater than 0, less than 0, or equal to 0.
-3. The appropriate message is printed based on the condition.
+The above code produces the following output if the user inserts the number 5 when prompted:
 
-## Summary
-- Bash conditional statements use `if`, `elif`, `else`, and `fi`.
-- Various operators exist for numeric, string, and file conditions.
-- Conditional statements help control the execution flow in a Bash script.
-
-By mastering conditional statements, you can create more interactive and dynamic Bash scripts!
- 
+```shell
+Enter a number: 5
+The number is positive.
+```
