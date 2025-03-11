@@ -1,18 +1,19 @@
 ---
-Title: "File Operations"
-Description: "File operations in Bash allow users to create, delete, move, copy, and manipulate files from the command line."
+Title: 'File Operations'
+Description: 'File operations in Bash allow users to create, delete, move, copy, and manipulate files from the command line.'
 Subjects:
-  - "Bash/Shell"
-tags:
-  - "Bash/Shell"
-  - "Command Line"
-  - "Files"
-  - "Operating Systems"
-  - "Programming"
-  - "Scripting"
-  - "Unix"
+  - 'Bash/Shell'
+  - 'Code Foundations'
+Tags:
+  - 'Bash/Shell'
+  - 'Command Line'
+  - 'Files'
+  - 'Operating Systems'
+  - 'Programming'
+  - 'Unix'
 CatalogContent:
-  - 'learn-the-command-line'
+- 'learn-the-command-line'
+- 'paths/computer-science'
 ---
 
 ## Definition
