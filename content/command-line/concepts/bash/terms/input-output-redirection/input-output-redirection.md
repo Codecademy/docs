@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In shell programs such as [Bash](https://www.codecademy.com/resources/docs/command-line/bash), **redirection** is powerful mechanism
+In shell programs such as [Bash](https://www.codecademy.com/resources/docs/command-line/bash), **redirection** is a powerful mechanism
 that allows control over where the input comes from and where output goes. By default, commands read input (`stdin`) from the keyboard
 and send output (`stdout`) to the terminal. However, redirection makes it possible to read from files, write to files, or even discard
 output altogether.
@@ -20,7 +20,7 @@ output altogether.
 Special operators are used for redirection:
 
 - `<` redirects input.
-- `>' redirects output.
+- `>` redirects output.
 
 ## Output Redirection
 
