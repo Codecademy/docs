@@ -155,3 +155,93 @@ mv oldFileName.txt newFileName.txt
 # Move a file to a different directory (source path is the first argument, destination path is the second)
 mv sourceDirectory/filename.txt destinationDirectory/filename.txt
 ```
+
+## Bash Functions
+
+A Bash function is essentially a set of commands that can be called numerous times. The purpose of a _function_ is to help you make 
+your bash scripts more readable and to avoid writing the same code repeatedly.
+
+## Example
+```shell
+  hello() {  
+    echo 'Hello, World!'
+  }
+
+  # Call the function
+
+  hello 
+
+  # Output:
+  # Hello, world!
+```
+
+## Syntax
+
+Functions may be declared in two different formats:
+
+1. The most widely used format is:
+
+```shell 
+function_name () {
+  commands
+}
+```
+
+Single line version: 
+
+```shell
+function_name () { commands; }
+```
+ 
+2. The alternative way is using the reversed word ==function==, followed by the function name:
+
+```shell
+function function_name {
+  commands
+}
+```
+
+Single line version: 
+
+```shell 
+function function_name { commands; }
+```
+
+> _Notes when using functions:_ 
+> - Single line commands must end with a semicolon (;) - whether in bash scripts or the terminal directly.
+> - The commands between the curly braces =={ commands; }== are called the functions's _body_. The body can contain any number of `declarations`, `variables`, `loops`, or `conditional statements`.
+> - Use descriptive names for functions.
+
+#### How to Declare and Call a Function in the Terminal
+
+To declare and use a function in the terminal:
+
+1. Open the terminal and enter the following:
+
+```shell
+my_function () { echo "Hello I'm a function"; echo "Bye!"; }
+```
+
+2. Execute (call) the function by entering the function's name in the terminal:
+
+```shell
+my_function
+```
+
+## Example 
+
+  ```shell
+  my_function () {
+    echo "Hello I'm a function";
+    echo "Bye!"
+  }
+  
+ # Call the function 
+
+  my_function
+
+  # Output:
+  # Hello I'm a function
+  # Bye!
+```
+The output runs the commands from the function's body
