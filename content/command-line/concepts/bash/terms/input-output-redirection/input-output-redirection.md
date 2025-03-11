@@ -1,42 +1,74 @@
 ---
-Title: 'Bash: Input-Output Redirection'
-Description: 'Redirection allows the modification of the destination of standard input and standard output in a shell.'
+Title: 'Input Output Redirection'
+Description: 'Redirection modifies the destination of standard input and output in a shell.'
 Subjects:
   - 'Bash/Shell'
   - 'Computer Science'
 Tags:
-  - 'Bash/Shell'
   - 'Command Line'
   - 'Linux'
-  - 'Redirection'
 CatalogContent:
   - 'learn-the-command-line'
   - 'paths/computer-science'
 ---
 
-Redirection is a form of input-output manipulation in a shell program such as [Bash](https://www.codecademy.com/resources/docs/command-line/bash). Redirection allows changing the values of `stdout` and `stdin` in a shell to a different location, i.e., a file can be read to `stdin` instead of taking input from keyboard and the output can be written to a file instead of going to terminal which is the default value of `stdout` in most cases.
-To perform redirection special notations interpreted by the shell are used. The `<` and `>` operators are used for output and input redirections respectively.
+In shell programs such as [Bash](https://www.codecademy.com/resources/docs/command-line/bash), **redirection** is powerful mechanism
+that allows control over where the input comes from and where output goes. By default, commands read input (`stdin`) from the keyboard
+and send output (`stdout`) to the terminal. However, redirection makes it possible to read from files, write to files, or even discard
+output altogether.
 
-```bash
-echo "This is a redirection example." > red_file.txt
-cat red_file.txt
-This is a redirection example.
+Special operators are used for redirection:
+
+- `<` redirects input.
+- `>' redirects output.
+
+## Output Redirection
+
+```shell
+echo "This is a redirection example." > write_file.txt
+cat write_file.txt
+
+# Output:
+# This is a redirection example.
 ```
 
-In above example, `>` operator sets `stdout` to `red_file.txt`. It directs `echo` command to write the supplied string to `red_file.txt` file. Remember that the redirection happens before the `echo` is executed. If `red_file.txt` doesn't exist, it will be created. If it does exist, all the content of the original file will be erased.
+In the example above, the `>` operator redirects `stdout` to `write_file.txt`, instructing the `echo` command to write the supplied string to
+the file. Redirection occurs before `echo` is executed.
 
-Input redirection allows the processes to read from a file instead of the keyboard. Let's use a input redirection operator.
+> **Note**: If `write_file.txt` does not exist, it is created. If it already exists, its content is overwritten.
 
-```bash
-cat < red_file.txt
-This is a redirection example.
+## Input Redirection
+
+Input redirection allows a program to read from a file instead of the keyboard.
+
+If there is a file named `read_file.txt` containing a string _"Showing how input redirection works!"_:
+
+```shell
+cat read_file.txt
+
+# Output:
+# Showing how input redirection works!
 ```
 
-The result is same as `cat red_file.txt` but this time it works a little differently. In `cat red_file.txt`, the `cat` opens `red_file.txt` and prints out the content to the terminal but in `cat < red_file.txt`, `cat` reads directly from `stdin` as `<` operator has set the `stdin` to `red_file.txt`.
+If `<` is used, like this
 
-To suppress the output, you can redirect the output to `/dev/null`. `/dev/null` is a virtual device which is always empty.
+```shell
+cat < read_file.txt
 
-```bash
+# Output:
+# Showing how input redirection works!
+```
+
+In both cases, output is same but both approaches are very different fundamentally. In first case a `read_file.txt` is opened and its
+contents are printed out. In second case, the `<` operator redirected `stdin` to `read_file.txt` and `cat` command read from `stdin`
+instead of the file directly.
+
+## Suppressing output
+
+To suppress the output, redirect the output to `/dev/null`, which is a virtual device that is always empty.
+
+```shell
 echo "This is a redirection example." > /dev/null
-# This prints out nothing.
+
+# No output is printed
 ```
