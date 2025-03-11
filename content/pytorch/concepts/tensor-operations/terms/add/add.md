@@ -24,7 +24,7 @@ torch.add(input, other, alpha=1)
 
 - `input` (Tensor): The first input tensor.
 - `other` (Tensor or Number): The second tensor/scalar to add.
-- `alpha` (Number, optional): Multiplier for other before addition (default: 1).
+- `alpha` (Number) (Optional): A multiplier for `other` before addition (default: `1`).
 
 The `.add()` method returns a new tensor containing the element-wise sum.
 
@@ -66,12 +66,12 @@ tensor([[11, 14],
 
 In this example:
 
-- **Basic Addition**: Each element in a is added to the corresponding element in b (e.g., 1 + 5 = 6, 2 + 6 = 8).
-- **Scaled Addition**: The alpha=2 parameter scales b by 200% before adding it to a (e.g., 1 + (2 \* 5) = 11).
+- **Basic Addition**: Each element in `a` is added to the corresponding element in `b` (e.g., `1 + 5 = 6`, `2 + 6 = 8`).
+- **Scaled Addition**: The `alpha=2` parameter scales `b` by 200% before adding it to `a` (e.g., `1 + (2 * 5) = 11`, `2 + (2 * 6) = 14`).
 
 ## Additional Notes
 
-- `Broadcasting:` Supports operations between tensors with mismatched shapes (e.g., (3,1) + (1,4) → (3,4)).
-- `In-Place Operation:` Use .add\_() to modify the original tensor directly.
-- `Complex Numbers:` Handles complex tensors by adding real and imaginary components separately.
-- `Device Consistency:` Both tensors must reside on the same device (CPU/GPU).
+- **Broadcasting**: Supports operations between tensors with mismatched shapes (e.g., `(3,1) + (1,4) → (3,4)`).
+- **In-Place Operation**: Use `.add_()` to modify the original tensor directly.
+- **Complex Numbers**: Handles complex tensors by adding real and imaginary components separately.
+- **Device Consistency**: Both tensors must be on the same device (CPU/GPU) for the operation to work.
