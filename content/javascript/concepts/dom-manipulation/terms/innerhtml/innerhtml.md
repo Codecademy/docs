@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.innerHTML`** property in JavaScript is a fundamental [DOM (Document Object Model) manipulation](https://www.codecademy.com/resources/docs/javascript/dom-manipulation) tool that allows setting or retrieving the HTML content inside an element. It allows developers to modify a webpage's content dynamically by reading or writing HTML markup as a string. When setting `innerHTML`, the browser parses the provided string as HTML and updates the DOM accordingly. This property is particularly useful for inserting multiple elements or complex HTML structures at once.
+The **`.innerHTML`** property in JavaScript is a fundamental [DOM (Document Object Model) manipulation](https://www.codecademy.com/resources/docs/javascript/dom-manipulation) tool that allows setting or retrieving the HTML content inside an element. It allows developers to dynamically modify a webpage's content by reading or writing HTML markup as a string. When setting `innerHTML`, the browser parses the provided string as HTML and updates the DOM accordingly. This property is particularly useful for inserting multiple elements or complex HTML structures at once.
 
 ## Syntax
 
@@ -48,13 +48,13 @@ Here's how to use `.innerHTML` to modify content in a `<div>`:
 // Select the element
 const container = document.getElementById('container');
 
-// Set HTML content
-container.innerHTML = '<p>This paragraph was added with innerHTML!</p>';
+// Set new HTML content
+container.innerHTML = '<p>This paragraph was added using innerHTML!</p>';
 
-// Get HTML content
-console.log(container.innerHTML); // "<p>This paragraph was added with innerHTML!</p>"
+// Get the current HTML content
+console.log(container.innerHTML); // "<p>This paragraph was added using innerHTML!</p>"
 
-// Add more complex HTML
+// Replace with more complex HTML
 container.innerHTML = `
   <h2>Dynamic Content</h2>
   <p>First paragraph</p>
@@ -64,7 +64,9 @@ container.innerHTML = `
   </ul>
 `;
 ```
+
 After execution, the `<div>` will contain:
+
 ```html
 <div id="container">
   <h2>Dynamic Content</h2>
@@ -75,4 +77,3 @@ After execution, the `<div>` will contain:
   </ul>
 </div>
 ```
-
