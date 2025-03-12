@@ -17,7 +17,8 @@ The **`.setAttribute()`** method of the Element interface sets or updates an att
 ## Syntax
 
 ```pseudo
-setAttribute(name, value);
+// Sets the alignment of, e.g., a paragraph block to the right
+setAttribute(name:"align", value:"right");
 ```
 
 ## Example
