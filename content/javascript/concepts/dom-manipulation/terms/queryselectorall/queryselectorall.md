@@ -71,7 +71,7 @@ In this example:
 
 The `forEach()` method is used to iterate over the NodeList and change the text color of each item to blue.
 
-In addition, let's take a look at a more complex selector. In this instance, to select only the `<li>` elements with both the item and completed classes:
+In addition, let's take a look at a more complex selector, here we select only the `<li>` elements with both the item and completed classes:
 
 ```javascript
 const specialItem = document.querySelectorAll('.item.completed');
