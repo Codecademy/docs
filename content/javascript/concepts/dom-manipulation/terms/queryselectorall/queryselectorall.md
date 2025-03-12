@@ -67,9 +67,8 @@ items.forEach(item => {
 
 In this example:
 
-`.querySelectorAll('.item')` selects all `<li>` elements with the class item.
-
-The `forEach()` method is used to iterate over the NodeList and change the text color of each item to blue.
+- `.querySelectorAll('.item')` selects all `<li>` elements with the class item.
+- The `forEach()` method is used to iterate over the NodeList and change the text color of each item to blue.
 
 In addition, let's take a look at a more complex selector, here we select only the `<li>` elements with both the item and completed classes:
 
