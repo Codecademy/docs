@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.acosh()`** method in PyTorch computes the inverse hyperbolic cosine of each element in a tensor. This operation is element-wise and has common applications used in scientific computations involving hyperbolic functions.
+The **`.acosh()`** method in PyTorch computes the inverse hyperbolic cosine of each element in a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). This operation is element-wise and commonly used in scientific computations involving hyperbolic functions.
 
 ## Syntax
 
@@ -21,7 +21,8 @@ The **`.acosh()`** method in PyTorch computes the inverse hyperbolic cosine of e
 torch.acosh(input, *, out=None) → Tensor
 ```
 
-The `torch.acosh` function applies the inverse hyperbolic cosine to the elements of the input tensor. The input values must be greater than or equal to 1.
+- `input`: The input tensor containing values greater than or equal to 1.
+- `out` (Optional): The output tensor.
 
 ## Example
 
@@ -52,8 +53,3 @@ tensor([ 1.,  2.,  3., 10.])
 Output Tensor:
 tensor([0.0000, 1.3169, 1.7627, 2.9932])
 ```
-
-In this example:
-
-- **Input Tensor**: Contains values greater than or equal to 1.
-- **Output Tensor**: Represents the inverse hyperbolic cosine of each element in the input tensor.
