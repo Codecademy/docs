@@ -1,22 +1,20 @@
 ---
-Title: 'Sankey'
-Description: 'Creates a Sankey diagram in Plotly using the graph_objects module.'
+Title: '.Sankey()'
+Description: 'Creates Sankey diagrams, which visualize flow between categories using nodes and links.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
 Tags:
-  - 'Graphics'
   - 'Charts'
+  - 'Graphics'
   - 'Plotly'
   - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-**`.Sankey()`** is a method in Plotly's [`graph_objects`](https://www.codecademy.com/resources/docs/plotly/graph-objects) module that creates visualizations to illustrate the flow between different values. Sankey diagrams. The connected elements are referred to as nodes, and the connections between nodes are called links. The width of each link represents
-the quantity of flow.
+**`.Sankey()`** is a method in Plotly's [`graph_objects`](https://www.codecademy.com/resources/docs/plotly/graph-objects) module that creates Sankey diagrams, which visualize the flow between different values. The connected elements are called nodes, and the connections between them are links, where the width of each link represents the quantity of flow.
 
 ## Syntax
 
@@ -24,47 +22,25 @@ the quantity of flow.
 plotly.graph_objects.Sankey(node=None, link=None, arrangement = 'snap', orientation = 'h', valueformat = None, ...)
 ```
 
-- `node`: A dictionary that defines the properties of the nodes in the Sankey
-  diagram. It has the following keys:
-
-  - `label`: An array of strings, each representing the name of a node. The
-    order of the labels in this array corresponds to the node indices used
-    in the `link` parameter.
-  - `color`: A string or an array of strings specifying the color of each
-    node. If a single string is provided, all nodes will have the same
-    color. If an array is provided, each element defines the color of the
-    node with the same index.
-
-- `link`: A dictionary that defines the links (connections) between nodes and
-  their flow values. It contains the following keys:
-
-  - `source`: An array of numerical indices. Each index specifies the source
-    node of a link. The numerical index refers to the position of the node's
-    name in the `label` array.
-  - `target`: An array of numerical indices. Each index specifies the target
-    node of a link. The numerical index refers to the position of the node's
-    name in the `label` array.
-  - `value`: An array of numerical values. Each value represents the flow
-    quantity associated with a specific link. The order of values
-    corresponds to the order of the source-target pairs.
+- `node`: A dictionary that defines the properties of the nodes in the Sankey diagram. It has the following keys:
+  - `label`: Names of the nodes, where the order corresponds to their indices used in `link`.
+  - `color`: A string or an array of strings specifying the color of each node. If a single string is provided, all nodes will have the same color. If an array is provided, each element defines the color of the node with the same index.
+- `link`: A dictionary that defines the links (connections) between nodes and their flow values. It contains the following keys:
+  - `source`: An array of numerical indices. Each index specifies the source node of a link. The numerical index refers to the position of the node's name in the `label` array.
+  - `target`: An array of numerical indices. Each index specifies the target node of a link. The numerical index refers to the position of the node's name in the `label` array.
+  - `value`: An array of numerical values. Each value represents the flow quantity associated with a specific link. The order of values corresponds to the order of the source-target pairs.
 
 > **Note:** The `source`, `target`, and `value` arrays must have the same length.
 
-- `arrangement`: Sets the arrangement of the nodes in the Sankey diagram. The
-  possible values are: `snap`, `perpendicular`, `freeform`, and
-  `fixed`. The default value is `snap`.
-
-- `orientation`: Determines whether the Sankey diagram is displayed horizontally or vertically. The
-  possible values are: `h` for horizontal, and `v` for vertical. The default value is `h`.
-
-- `valueformat`: Sets the format of the numerical values displayed on the
-  links, using d3-format's syntax.
+- `arrangement`: Sets the arrangement of the nodes in the Sankey diagram. The possible values are: `snap`, `perpendicular`, `freeform`, and `fixed`. The default value is `snap`.
+- `orientation`: Determines whether the Sankey diagram is displayed horizontally or vertically. The possible values are: `h` for horizontal, and `v` for vertical. The default value is `h`.
+- `valueformat`: Sets the numerical format for flow values, using d3-format syntax.
 
 > **Note:** There are many additional, optional parameters that are not listed here, as indicated by the ellipsis (`...`) in the syntax.
 
 ## Example
 
-This code displays a Sankey diagram, illustrating the advertising cash flow through its nodes, and links.
+This code displays a Sankey diagram, illustrating the advertising cash flow through its nodes, and links:
 
 ```py
 import plotly.graph_objects as go
