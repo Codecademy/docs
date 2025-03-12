@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.setAttribute()`** method of the Element interface sets the value of an attribute on the specified element. If the attribute already exists, the value is updated; otherwise a new attribute is added with the specified name and value.
+The **`.setAttribute()`** method of the Element interface sets or updates an attribute on the specified element. If the attribute exists, its value is updated; otherwise, a new attribute is added with the given name and value.
 
 ## Syntax
 
