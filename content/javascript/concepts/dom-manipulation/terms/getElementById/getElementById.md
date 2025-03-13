@@ -36,23 +36,23 @@ document.getElementById("elementId");
 
 The following example demonstrates the usage of the `.getElementById()` method:
 
-```js
+```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>getElementById Example</title>
-</head>
-<body>
+  </head>
+  <body>
     <p id="demo">Hello, World!</p>
     <button onclick="changeText()">Click Me</button>
 
     <script>
-        function changeText() {
-            let element = document.getElementById("demo");
-            element.innerHTML = "Text changed!";
-        }
+      function changeText() {
+        let element = document.getElementById('demo');
+        element.innerHTML = 'Text changed!';
+      }
     </script>
-</body>
+  </body>
 </html>
 ```
 
