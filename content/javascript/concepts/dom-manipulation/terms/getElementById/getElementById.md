@@ -57,3 +57,7 @@ The following example demonstrates the usage of the `.getElementById()` method:
 ```
 
 In this example, the `getElementById("demo")` function retrieves the `<p>` element with `id="demo"` and the `innerHTML` property is updated when the button is clicked.
+
+The output will look like:
+
+![A webpage with a paragraph displaying "Hello, World!" and a button labeled "Click Me", when clicked, the text changes to "Text changed!".](https://raw.githubusercontent.com/Codecademy/docs/main/media/get-element-by-id-example.gif)
