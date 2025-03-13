@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-**`.addcmul()`** is a PyTorch [tensor]((https://www.codecademy.com/resources/docs/pytorch/tensors)) operation that performs element-wise multiplication of two tensors and then adds a third tensor to the result, optionally scaled by a value. This operation combines multiplication and addition in a single efficient function call.
+**`.addcmul()`** is a PyTorch [tensor](<(https://www.codecademy.com/resources/docs/pytorch/tensors)>) operation that performs element-wise multiplication of two tensors and then adds a third tensor to the result, optionally scaled by a value. This operation combines multiplication and addition in a single efficient function call.
 
 The function is particularly useful in tensor operations where there is a need to perform element-wise multiplication and addition in sequence. It provides a concise way to perform these operations without creating intermediate tensors, which can help optimize memory usage in PyTorch applications.
 
