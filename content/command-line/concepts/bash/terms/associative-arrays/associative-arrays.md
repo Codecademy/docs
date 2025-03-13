@@ -89,15 +89,15 @@ config[log_level]="info"
 
 # Function to get configuration value
 get_config() {
-    local key=$1
-    local default_value=$2
+  local key=$1
+  local default_value=$2
 
-    # If the key exists in the array, return its value
-    if [[ -n "${config[$key]+x}" ]]; then
-        echo "${config[$key]}"
-    else
-        # Otherwise return the default value
-        echo "$default_value"
+  # If the key exists in the array, return its value
+  if [[ -n "${config[$key]+x}" ]]; then
+    echo "${config[$key]}"
+  else
+    # Otherwise return the default value
+    echo "$default_value"
     fi
 }
 
@@ -139,17 +139,17 @@ Learn Bash to become more efficient at command line tasks."
 
 # Convert to lowercase and split into words
 for word in $(echo "$text" | tr '[:upper:]' '[:lower:]' | tr -d '.' | tr ' ' '\n'); do
-    # Skip empty words
-    if [[ -z "$word" ]]; then
-        continue
-    fi
+  # Skip empty words
+  if [[ -z "$word" ]]; then
+    continue
+  fi
 
-    # Increment the count for this word
-    if [[ -z "${word_counts[$word]}" ]]; then
-        word_counts[$word]=1
-    else
-        ((word_counts[$word]++))
-    fi
+  # Increment the count for this word
+  if [[ -z "${word_counts[$word]}" ]]; then
+    word_counts[$word]=1
+  else
+    ((word_counts[$word]++))
+  fi
 done
 
 # Print the results
