@@ -29,7 +29,7 @@ torch.angle(input, *, out=None)
 - `input`: The input complex tensor for which to compute the element-wise angle.
 - `out` (Optional): Output tensor to store the result. If provided, this tensor will be used for the output, otherwise a new tensor is created.
 
-**Return value:** 
+**Return value:**
 
 A new tensor containing the element-wise angle (in radians) of the input tensor.
 
@@ -112,7 +112,7 @@ from numpy import pi
 
 # Define a complex 2D tensor
 input = torch.tensor([
-    [1 - 2j, 2 + 3j, 3 - 3j], 
+    [1 - 2j, 2 + 3j, 3 - 3j],
     [4 + 3j, 5 - 4j, -6 + 2j],
     [-7 - 2j, 8 + 2j, 9 - 4j]
 ])
