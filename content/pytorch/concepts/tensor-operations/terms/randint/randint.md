@@ -149,8 +149,8 @@ print(single_die)
 
 # Count the frequency of each number
 for i in range(1, 7):
-    count = (single_die == i).sum().item()
-    print(f"Number {i} appeared {count} times")
+  count = (single_die == i).sum().item()
+  print(f"Number {i} appeared {count} times")
 
 # Simulate rolling 5 dice at once
 dice_rolls = torch.randint(1, 7, (5,))
