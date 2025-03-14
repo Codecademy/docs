@@ -1,5 +1,5 @@
 ---
-Title: '.Histogram2dContour()'
+Title: '.Ohlc()'
 Description: 'Creates an OHLC (Open-High-Low-Close) chart, which is commonly used in financial analysis to represent stock price movements over time.'
 Subjects:
   - 'Data Science'
