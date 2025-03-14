@@ -29,12 +29,12 @@ Unlike Cartesian plots, which use `(x, y)` coordinates, ternary plots use a tria
 ```pseudo
 import plotly.graph_objects as go
 
-go.Scatterternary(a=a_values, b=b_values, c=c_values, mode="markers", marker=dict(size=10))
+go.Scatterternary(a=None, b=None, c=None, mode=None, marker=None)
 ```
 
 - `a`, `b`, `c` (lists/arrays): Values representing the three components of each point.
-- `mode` (`str`, optional): Defines how points are displayed (e.g., `"markers"`, `"lines"`).
-- `marker` (`dict`, optional): Customizes point size, color, and style.
+- `mode` (str, optional): Defines how points are displayed (e.g., `"markers"`, `"lines"`).
+- `marker` (dict, optional): A dictionary that customizes the appearance of markers, including properties like size, color, opacity, symbol, and line properties.
 
 ## Example 1
 
