@@ -20,12 +20,14 @@ h1 {
 }
 ```
 
-It can be set with one of the following:
+The text color can be set to _aqua_  with one of the following:
 
-- Name keywords: `aqua`
-- Hexadecimal: `#00ffff`
-- RGB value: `rgb(0, 255, 255)`
-- HSL value: `hsl(180, 100%, 100%)`
+- Name keywords: `color: aqua;` 
+- Hexadecimal: `color: #00ffff;`
+- RGB value: `color: rgb(0, 255, 255);`
+- HSL value: `color: hsl(180, 100%, 100%);`
+
+Each method has its own use. The developer may decide to use Name keywords for simplicity. Or use Hexidecimal for web design, and use RGB or HSL to have more control over the color. 
 
 Color name keywords can be used to set color property values for elements in CSS. All browsers support the following:
 
