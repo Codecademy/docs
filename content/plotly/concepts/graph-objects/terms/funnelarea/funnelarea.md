@@ -21,11 +21,13 @@ The **`.Funnelarea()`** function in Plotly is used to create funnel area charts,
 ```pseudo
 import plotly.graph_objects as go
 
-go.Funnelarea(values=values, text=labels)
+go.Funnelarea(values=values, text=labels, ...)
 ```
 
 - `values` (list/array): Numerical values determining the area of each section.
 - `text` (list, optional): Labels corresponding to each funnel section.
+
+> **Note**: The ellipsis in the syntax (`...`) indicates that there are additional optional parameters beyond those listed here to customize the funnel area charts.
 
 ## Example
 
