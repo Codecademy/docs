@@ -1,6 +1,6 @@
 ---
 Title: '.merge()'
-Description: ''
+Description: 'Set of single band images into a new multiband image'
 Subjects:
   - 'Computer science'
   - 'Data Science'
