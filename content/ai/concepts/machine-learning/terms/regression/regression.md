@@ -1,6 +1,6 @@
 ---
 Title: 'Regression'
-Descripton: 'Regression models relationships between variables to predict a dependent variable utilizing one or more independent variables.'
+Description: 'Regression models relationships between variables to predict a dependent variable utilizing one or more independent variables.'
 Subjects:
   - 'AI'
   - 'Data Science'
