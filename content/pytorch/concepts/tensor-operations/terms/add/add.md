@@ -22,11 +22,15 @@ The **`.add()`** method in PyTorch computes the element-wise sum of two tensors,
 torch.add(input, other, alpha=1)
 ```
 
-- `input` (Tensor): The first input tensor.
-- `other` (Tensor or Number): The second tensor/scalar to add.
-- `alpha` (Number) (Optional): A multiplier for `other` before addition (default: `1`).
+**Parameters:**
 
-The `.add()` method returns a new tensor containing the element-wise sum.
+- `input` (Tensor): The first input tensor.
+- `other` (Tensor or Number): The second tensor/scalar to add to `input`.
+- `alpha` (Number, Optional): A multiplier applied to other before performing addition. Defaults to a value ``.
+
+**Return value:**
+
+It returns a new tensor containing the element-wise sum of input and other.
 
 ## Example
 
@@ -45,22 +49,20 @@ c = torch.add(a, b)
 # Scaled addition (a + 2 * b)
 d = a.add(b, alpha=2)
 
-print("Basic Addition:")
-print(c)
+print("Basic Addition:\n", c)
 
-print("\nScaled Addition (alpha=2):")
-print(d)
+print("\nScaled Addition (alpha=2):\n", d)
 ```
 
 This example results in the following output:
 
 ```shell
 Basic Addition:
-tensor([[ 6,  8],
+ tensor([[ 6,  8],
         [10, 12]])
 
 Scaled Addition (alpha=2):
-tensor([[11, 14],
+ tensor([[11, 14],
         [17, 20]])
 ```
 
@@ -71,7 +73,7 @@ In this example:
 
 ## Additional Notes
 
-- **Broadcasting**: Supports operations between tensors with mismatched shapes (e.g., `(3,1) + (1,4) → (3,4)`).
+- **Broadcasting**: Supports operations between tensors of different shapes by automatically expanding them to compatible dimensions (e.g., `(3,1) + (1,4) → (3,4)`).
 - **In-Place Operation**: Use `.add_()` to modify the original tensor directly.
 - **Complex Numbers**: Handles complex tensors by adding real and imaginary components separately.
 - **Device Consistency**: Both tensors must be on the same device (CPU/GPU) for the operation to work.
