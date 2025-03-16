@@ -5,10 +5,10 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
-  - 'JavaScript'
   - 'DOM'
-  - 'Methods'
   - 'Elements'
+  - 'JavaScript'
+  - 'Methods'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
