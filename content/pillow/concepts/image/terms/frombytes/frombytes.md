@@ -1,6 +1,6 @@
 ---
 Title: '.frombytes()'
-Description: '.frombytes() method in Pillow creates an image from raw byte data using a specified mode, size, and optional decoder arguments.'
+Description: 'Creates an image from raw byte data using a specified mode, size, and optional decoder arguments.'
 Subjects:
   - 'Computer science'
   - 'Data Science'
@@ -13,28 +13,27 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
-  - 'paths/computer-science'
 ---
 
-The **.frombytes()** method in Pillow is used to create an image from raw byte data. It reconstructs an image using a specified mode, size, and optional decoder arguments. This method is useful when working with raw image data that needs to be converted into a Pillow Image object.
-
+The **`.frombytes()`** method in Pillow is used to create an image from raw byte data. It reconstructs an image using a specified mode, size, and optional decoder arguments. This method is useful when working with raw image data that needs to be converted into a Pillow Image object.
 
 ## Syntax
 
-```py
+```pseudo
 Image.frombytes(mode, size, data, decoder_name='raw', *args)
 ```
-**Parameters**
-- mode (str, required) – The color mode of the image (e.g., "RGB", "L", "RGBA").
-- size (tuple, required) – The (width, height) of the image.
-- data (bytes, required) – The raw image data for the given mode.
-- decoder_name (str, optional, default: 'raw') – The decoder to use for processing the data.
-- *args (optional) – Additional arguments for the decoder.
 
+**Parameters:**
+- `mode` (str): The color mode of the image (e.g., `"RGB"`, `"RGBA"`, `"L"` for grayscale).
+- `size` (tuple): The width and height of the image as `(width, height)`
+- `data` (bytes): The raw image data for the given mode.
+- `decoder_name` (str, optional, default=`'raw'`): The decoder to use for processing the data.
+- `*args` (optional): Additional arguments for the decoder.
 
 ## Example
 
 The example below creates an RGB image from raw byte data:
+
 ```py
 from PIL import Image
 
@@ -45,19 +44,19 @@ size = (64, 64)
 pixels = []
 for y in range(size[1]):
     for x in range(size[0]):
-        r = (x * 4) % 256   # Varying Red
-        g = (y * 4) % 256   # Varying Green
-        b = ((x + y) * 2) % 256  # Mixed Blue
+        r = (x * 4) % 256   # Red intensity increases horizontally
+        g = (y * 4) % 256   # Green intensity increases vertically
+        b = ((x + y) * 2) % 256  # Blue is a mix of both coordinates
         pixels.extend([r, g, b])
 
-# Convert list to bytes and fill the image
+# Convert list to bytes and create an image from raw data
 data = bytes(pixels)
 img = Image.frombytes("RGB", size, data)
 
-# Save and show image
+# Display the image
 img.show()
 ```
 
 The above code generates the below output image:
-![Output Image](<https://raw.githubusercontent.com/Codecademy/docs/main/media/frombytes().png>)
 
+![Output Image](https://raw.githubusercontent.com/Codecademy/docs/main/media/frombytes().png)
