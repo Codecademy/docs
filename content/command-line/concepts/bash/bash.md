@@ -20,11 +20,11 @@ Developed by Brian Fox in 1989, Bash was released as part of the GNU Project to 
 
 ## Operating System Compatibility
 
-Over time, Bash has become available across many operating systems both as a default shell or an installable program.
+Over time, Bash has become available across many operating systems, both as a default shell and an installable program.
 
 ### Linux
 
-Due to their mutual relationship with the GNU Project, Bash is the default shell on most distributions of Linux such as the following:
+Due to their mutual relationship with the GNU Project, Bash is the default shell on most distributions of Linux, such as the following:
 
 - [CentOS](https://www.centos.org/)
 - [Debian](https://www.debian.org/)
@@ -32,9 +32,9 @@ Due to their mutual relationship with the GNU Project, Bash is the default shell
 
 ### macOS
 
-Apple macOS featured Bash as the default from 2003 with OS X Panther (version 10.3), to 2019 with Catalina (version 10.15). Since then, Z shell (or `zsh`) is the default shell for macOS.
+Apple macOS featured Bash as the default shell from 2003 with OS X Panther (version 10.3) to 2019 with Catalina (version 10.15). Since then, Z shell (or `zsh`) has been the default shell for macOS.
 
-> **Note:** Bash can still be used as an alternative in newer versions of macOS. The switch can be made by:
+> **Note:** Bash can still be used as an alternative in newer macOS versions. The switch can be made by:
 >
 > 1. Running `chsh -s bin/bash` in the Terminal window.
 > 2. Confirming the change with the user's credentials.
@@ -42,7 +42,7 @@ Apple macOS featured Bash as the default from 2003 with OS X Panther (version 10
 
 ### Windows
 
-Bash is not the default shell for Windows operating systems, but it can be enabled through the Windows Subsystem for Linux (WSL). This runs a Linux environment without the need for a [virtual machine](https://www.codecademy.com/resources/docs/general/virtual-machines).
+Bash is not the default shell for Windows operating systems, but it can be enabled through the Windows Subsystem for Linux (WSL). This runs a Linux environment without needing a [virtual machine](https://www.codecademy.com/resources/docs/general/virtual-machines).
 
 ### Bash Terminal Commands
 
@@ -159,7 +159,7 @@ mv sourceDirectory/filename.txt destinationDirectory/filename.txt
 ## Bash Functions
 
 A Bash function is essentially a set of commands that can be called numerous times. The purpose of a _function_ is to help you make 
-your bash scripts more readable and to avoid writing the same code repeatedly.
+your bash scripts more readable, and avoid writing the same code repeatedly.
 
 ## Example
 ```shell
@@ -244,4 +244,5 @@ my_function
   # Hello I'm a function
   # Bye!
 ```
+
 The output runs the commands from the function's body
