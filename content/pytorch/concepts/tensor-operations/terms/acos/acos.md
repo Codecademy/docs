@@ -22,8 +22,8 @@ In PyTorch, the **`.acos()`** function computes the inverse cosine (arccos) of e
 torch.acos(input, *, out=None)
 ```
 
-- `input`: The input tensor containing values in the range `[-1, 1]`.
-- `out` (Optional): The output tensor.
+- `input`: The input tensor containing values in the range `[-1, 1]`, since the arccosine function is only defined within this interval.
+- `out` (Optional): A tensor to store the output. If provided, it must have the same shape as `input`.
 
 ## Example
 
