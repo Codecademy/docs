@@ -1,6 +1,6 @@
 ---
 Title: '.Contour()'
-Description: 'Creates a contour plot, which is a graphical representation of 3D surface data in two dimensions using contour lines or filled contours.'
+Description: 'Creates a contour plot, which represents 3D surface data in 2D using contour lines or filled color regions to show variations in value.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In Plotly, the **`.Contour()`** function is used to create a contour plot, which is a graphical representation of 3D surface data in two dimensions using contour lines or filled contours. This function is particularly useful for visualizing variations in a dataset over a 2D plane, such as temperature distributions, elevation maps, and probability density functions.
+In Plotly, the **`.Contour()`** function creates a contour plot, which represents 3D surface data in a 2D projection using contour lines or filled color regions. This function is useful for visualizing gradual variations in a dataset over a 2D plane, such as temperature distributions, elevation maps, and probability density functions.
 
 ## Syntax
 
@@ -52,11 +52,11 @@ z = [[0.1, 0.2, 0.3, 0.2, 0.1],
      [0.1, 0.2, 0.3, 0.2, 0.1]]
 
 # Create a contour plot
-fig = go.Figure(data=[go.Contour(z=z,
-                                 x=x,
-                                 y=y,
-                                 colorscale="Viridis",
-                                 contours=dict(start=0, end=1, size=0.1))])
+fig = go.Figure(data=[go.Contour(z=z,  # Data values for contour levels
+                                 x=x,  # X-coordinates
+                                 y=y,  # Y-coordinates
+                                 colorscale="Viridis",  # Color scheme
+                                 contours=dict(start=0, end=1, size=0.1))])   # Define contour levels
 
 # Display the plot
 fig.show()
