@@ -1,13 +1,13 @@
 ---
 Title: '.replaceChildren()'
-Description: 'Replaces all child nodes of an element with new nodes or clear them if no arguments are provided.'
+Description: 'Replaces all child nodes of an element with new nodes or clears them if no arguments are provided.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Arguments'
   - 'DOM'
   - 'ES6'
-  - 'Arguments'
   - 'Functions'
 CatalogContent:
   - 'introduction-to-javascript'
@@ -32,7 +32,7 @@ This method is particularly useful when dynamically updating UI elements, such a
 element.replaceChildren(...nodes);
 ```
 
-- `nodes` (optional): One or more nodes or strings to insert as new children.
+- `nodes` (optional): One or more nodes or strings to insert as new children. If no arguments are provided, all child nodes are removed.
 
 ## Example
 
