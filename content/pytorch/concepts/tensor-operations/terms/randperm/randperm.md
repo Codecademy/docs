@@ -24,7 +24,7 @@ torch.randperm(n, *, generator=None, out=None, dtype=torch.int64, ...)
 
 - `n` (int): The upper bound (exclusive) for the range of integers.
 - `generator` (Optional): Generates a pseudorandom number for sampling.
-- `out` (Optional):  The output [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) to store the result.
+- `out` (Optional): The output [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) to store the result.
 - `dtype` (Optional): The desired data type of the returned tensor.
 
 > **Note:** The ellipsis (...) in the syntax indicates that there can be additional optional parameters beyond those listed here.
