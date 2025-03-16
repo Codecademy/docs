@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.add()`** method in PyTorch computes the element-wise sum of two tensors, enabling arithmetic operations even between tensors of different shapes through broadcasting. Broadcasting automatically expands tensors with mismatched dimensions to compatible shapes, following NumPy-style rules. This method is foundational for tasks like neural network weight updates, residual connections, and feature engineering.
+The **`.add()`** method in PyTorch computes the element-wise sum of two [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors), enabling arithmetic operations even between tensors of different shapes through broadcasting. Broadcasting automatically expands tensors with mismatched dimensions to compatible shapes, following NumPy-style rules. This method is foundational for tasks like neural network weight updates, residual connections, and feature engineering.
 
 ## Syntax
 
