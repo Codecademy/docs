@@ -1,11 +1,11 @@
 ---
 Title: '.querySelectorAll'
-Description: 'Selects multiple elements from the DOM that matches a specific CSS selector.'
+Description: 'Selects all DOM elements that match a specific CSS selector.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Web development'
-  - 'Web design'
+  - 'Web Development'
+  - 'Web Design'
 Tags:
   - 'Web API'
   - 'Conceptual'
@@ -16,25 +16,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.querySelectorAll()` method is a powerful tool in JavaScript for selecting multiple elements from the DOM that match a specified CSS selector. Unlike `.querySelector()`, that returns only the first matching element, `.querySelectorAll()` returns a static NodeList containing all elements that match the given selector.
+The **`.querySelectorAll()`** method selects all elements in the DOM that match a given CSS selector. Unlike `.querySelector()`, which returns only the first matching element, `.querySelectorAll()` returns a static NodeList containing every element that meets the criteria.
 
-This method is needed to manipulate or interact with multiple elements at once, such as applying styles, adding event listeners, or updating content across several elements.
+This method is essential for manipulating or interacting with multiple elements simultaneously. It enables operations like applying styles, adding event listeners, or updating content across several elements at once.
 
 ## Syntax
-
 
 ```javascript
 document.querySelectorAll(selector);
 ```
 
-`selector` is a string containing one or more CSS selectors separated by commas. This can include any valid CSS selector, such as class names, IDs, element types, attributes, etc.
+- **`selector`**: A string of one or more valid CSS selectors separated by commas. These selectors can include class names, IDs, element types, attributes, and more.
 
-
-The `querySelectorAll` method returns a NodeList, which is a collection of nodes (elements) that match the specified selector(s). Note that a NodeList is not an array, but it can be iterated over using methods like forEach() or converted into an array using `Array.from()`.
+The method returns a NodeList of matching elements. Although a NodeList is not an array, it supports iteration with `forEach()` and can be converted to an array using `Array.from()`.
 
 ## Example
 
-Here is a sample todo list with the following HTML structure:
+Given the following HTML structure for a todo list:
 
 ```html
 <!DOCTYPE html>
@@ -52,30 +50,28 @@ Here is a sample todo list with the following HTML structure:
   </body>
 </html>
 ```
-`.querySelectorAll()` would be used to select all list items (`<li>`) with the class `item` and apply a style change to them:
 
-    
+The following JavaScript code selects all `<li>` elements with the class `item` and applies a blue text color to them:
+
 ```javascript
 // Select all elements with the class "item"
 const items = document.querySelectorAll('.item');
 
-// Loop through the NodeList and apply a style change
+// Iterate over the NodeList and change the text color
 items.forEach(item => {
   item.style.color = 'blue';
 });
 ```
 
-In this example:
-
-- `.querySelectorAll('.item')` selects all `<li>` elements with the class item.
-- The `forEach()` method is used to iterate over the NodeList and change the text color of each item to blue.
-
-In addition, let's take a look at a more complex selector, here we select only the `<li>` elements with both the item and completed classes:
+In addition, to target only the `<li>` elements with both `item` and `completed` classes, use this selector:
 
 ```javascript
-const specialItem = document.querySelectorAll('.item.completed');
-specialItem.forEach(item => {
+const specialItems = document.querySelectorAll('.item.completed');
+
+specialItems.forEach(item => {
   item.style.fontWeight = 'bold';
   item.style.textDecoration = 'underline';
 });
 ```
+
+These examples demonstrate how to use `.querySelectorAll()` to access and style multiple elements within the DOM.
