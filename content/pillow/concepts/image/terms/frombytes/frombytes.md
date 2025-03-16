@@ -40,7 +40,6 @@ from PIL import Image
 
 # Create a new image (64x64) with a gradient pattern
 size = (64, 64)
-img = Image.new("RGB", size)
 
 # Generate pixel data (simple color gradient)
 pixels = []
@@ -49,12 +48,13 @@ for y in range(size[1]):
         r = (x * 4) % 256   # Varying Red
         g = (y * 4) % 256   # Varying Green
         b = ((x + y) * 2) % 256  # Mixed Blue
-        pixels.append((r, g, b))  # Add as a tuple
+        pixels.extend([r, g, b])
 
-# Set pixel data
-img.putdata(pixels)
+# Convert list to bytes and fill the image
+data = bytes(pixels)
+img = Image.frombytes("RGB", size, data)
 
-# Show image
+# Save and show image
 img.show()
 ```
 
