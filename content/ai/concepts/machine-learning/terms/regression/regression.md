@@ -1,13 +1,12 @@
 ---
-Title: 'Regression'  
-Descripton: 'Regression models relationships between variables to predict a dependent variable based on one or more independent variables.'  
+Title: 'Regression'
+Descripton: 'Regression models relationships between variables to predict a dependent variable utilizing one or more independent variables.'
 Subjects:
   - 'AI'
   - 'Data Science'
-  - 'Machine Learning'  
 Tags:
   - 'Machine Learning'
-  - 'Python'  
+  - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -15,14 +14,18 @@ CatalogContent:
 
 **Regression** is a mathematical process used to model data by identifying a function that best represents its patterns. In machine learning, regression functions are used for predictive analysis.
 
-There are various regression techniques, and the choice depends on factors such as data distribution. A simple form is linear regression, represented by the equation:  
-y = a\*x + b  
-This equation can be visualized as a straight line on a 2D graph:
+There are various regression techniques and the choice depends on factors such as data distribution. A simple form is linear regression, represented by the equation:
+
+```
+y = a\*x + b
+```
+
+Visualizing this equation as a straight line on a 2D graph:
 
 - `y`: The dependent (outcome) variable, plotted on the y-axis (vertical).
 - `x`: The independent (predictor) variable, plotted on the x-axis (horizontal).
-- `b`: The intercept, representing the value of y when x = 0.
-- `a`: The slope, indicating how y changes when x increases by one unit.
+- `b`: The intercept, representing the value of `y` when `x = 0`.
+- `a`: The slope, indicating how `y` changes when `x` increases by one unit.
 
 ## Example
 
@@ -33,7 +36,7 @@ import pandas as pd
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
 
-# Provided data
+# Sample data
 heights = [150, 152, 160, 172, 176, 176, 180, 189]
 weights = [50, 65, 65, 70, 80, 90, 90, 89]
 
@@ -56,7 +59,7 @@ plt.title('Height vs Weight with Regression Line')
 plt.legend()
 
 # Save the plot as an image file
-plt.savefig('height_vs_weight_plot.png')
+plt.savefig('height-vs-weight-plot.png')
 
 # Show the plot
 plt.show()
@@ -66,4 +69,4 @@ This code performs linear regression using `statsmodels` to analyze the relation
 
 The output of this code is as follows:
 
-![Output of regression](https://raw.githubusercontent.com/Codecademy/docs/media/height_vs_weight_plot.png)
+![The output for the above example](https://raw.githubusercontent.com/Codecademy/docs/main/media/height-vs-weight-plot.png)
