@@ -1,5 +1,5 @@
 ---
-Title: '.querySelectorAll'
+Title: '.querySelectorAll()'
 Description: 'Selects all DOM elements that match a specific CSS selector.'
 Subjects:
   - 'Code Foundations'
@@ -7,13 +7,12 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
-  - 'Web API'
   - 'Conceptual'
   - 'DOM'
   - 'ES6'
 CatalogContent:
   - 'introduction-to-javascript'
-  - 'paths/computer-science'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The **`.querySelectorAll()`** method selects all elements in the DOM that match a given CSS selector. Unlike `.querySelector()`, which returns only the first matching element, `.querySelectorAll()` returns a static NodeList containing every element that meets the criteria.
@@ -22,11 +21,11 @@ This method is essential for manipulating or interacting with multiple elements 
 
 ## Syntax
 
-```javascript
+```pseudo
 document.querySelectorAll(selector);
 ```
 
-- **`selector`**: A string of one or more valid CSS selectors separated by commas. These selectors can include class names, IDs, element types, attributes, and more.
+- `selector`: A string containing one or more valid CSS selectors, separated by commas. These selectors can include class names, IDs, element types, attributes, and more.
 
 The method returns a NodeList of matching elements. Although a NodeList is not an array, it supports iteration with `forEach()` and can be converted to an array using `Array.from()`.
 
@@ -53,7 +52,7 @@ Given the following HTML structure for a todo list:
 
 The following JavaScript code selects all `<li>` elements with the class `item` and applies a blue text color to them:
 
-```javascript
+```js
 // Select all elements with the class "item"
 const items = document.querySelectorAll('.item');
 
@@ -65,7 +64,7 @@ items.forEach(item => {
 
 In addition, to target only the `<li>` elements with both `item` and `completed` classes, use this selector:
 
-```javascript
+```js
 const specialItems = document.querySelectorAll('.item.completed');
 
 specialItems.forEach(item => {
