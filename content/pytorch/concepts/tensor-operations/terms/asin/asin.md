@@ -1,6 +1,6 @@
 ---
 Title: '.asin()'
-Description: 'Computes the inverse sine (arcsine) of each element in a PyTorch tensor. Input values must be in the range [-1, 1]. Outputs are in the range [-π/2, π/2].'
+Description: 'Computes the inverse sine (arcsine) of each element in a PyTorch tensor.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,15 +14,20 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.asin()`** method in PyTorch computes the inverse sine (arcsine) of each element in a tensor. For real numbers, it returns the angle in radians whose sine is the input value. This method is useful in trigonometric computations, signal processing, and geometric transformations.
+The **`.asin()`** method in PyTorch computes the inverse sine (arcsine) of each element in a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors), returning the angle in radians whose sine is the input value. The input values must be in the range `[-1, 1]`, and the output values lie within `[-π/2, π/2]`. This method is useful in trigonometry, signal processing, and geometric transformations.
 
 ## Syntax
 
 ```pseudo
-torch.asin(input)
+torch.asin(input, *, out)
 ```
 
-- `input` (Tensor): The input tensor (elements must be in the range [-1, 1]).
+**Parameters:**
+
+- `input` (Tensor): A tensor containing values in the range [-1, 1].
+- `out` (Tensor, optional): An optional tensor to store the output. If provided, it must have the same shape as `input`.
+
+**Return value:**
 
 The `.asin()` method returns a tensor where each element is the arcsine of the corresponding element in the input tensor. Outputs are in the range [-π/2, π/2].
 
@@ -58,13 +63,13 @@ tensor([ 0.0000,  0.5236, -1.5708,  1.5708])
 
 In this example, the output tensor shows the results of applying arcsin to each element.
 
-- 0.0 → arcsin(0.0) = 0.0 (since sin(0) = 0).
-- 0.5 → arcsin(0.5) = π/6 ≈ 0.5236 (since sin(π/6) = 0.5).
-- 1.0 → arcsin(-1.0) = -π/2 ≈ -1.5708 (since sin(-π/2) = -1).
-- 1.0 → arcsin(1.0) = π/2 ≈ 1.5708 (since sin(π/2) = 1).
+- `asin(0.0) = 0.0` → (since `sin(0) = 0`)
+- `asin(0.5) = π/6 ≈ 0.5236` → (since `sin(π/6) = 0.5`)
+- `asin(-1.0) = -π/2 ≈ -1.5708` → (since `sin(-π/2) = -1`)
+- `asin(1.0) = π/2 ≈ 1.5708` → (since `sin(π/2) = 1`)
 
 ## Additional Notes
 
-- **Valid Range**: Input values outside [-1, 1] will result in NaN (not a number).
+- **Valid Range**: Input values outside [-1, 1] will result in `NaN` (not a number).
 - **In-Place Operation**: Use `.asin_()` to modify the tensor directly.
 - **Complex Numbers**: PyTorch's `.asin()` supports complex tensors, computing the complex arcsine.
