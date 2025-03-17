@@ -135,7 +135,7 @@ While both the hypergeometric and binomial distributions describe the probabilit
 |----------------|----------------------------|----------------------|
 | Sampling method | Without replacement | With replacement |
 | Probability of success | Changes after each draw | Remains constant across all trials |
-| Population size | Finite and relatively small compared to sample | Very large or infinite relative to sample |
+| Population size | Finite | Very large or infinite relative to sample |
 | Trial independence | Trials are dependent (each draw affects remaining population) | Trials are independent |
 | Formula | P(X = k) = $\frac{\binom{K}{k} \binom{N-K}{n-k}}{\binom{N}{n}}$ | P(X = k) = $\binom{n}{k} p^k (1-p)^{n-k}$ |
 | Example scenarios | Card draws, jury selection, quality control sampling | Coin flips, dice rolls, repeated independent events |
