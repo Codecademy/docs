@@ -154,4 +154,4 @@ Element-wise angles in degrees:
 
 This example shows how `.angle()` preserves the dimensionality of the input tensor, calculating the phase angle for each complex value while maintaining the original structure.
 
-PyTorch provides a wide range of tensor operations for various computations. Explore functions in the [PyTorch Tensor Operations](https://www.codecademy.com/resources/docs/pytorch/tensor-operations) documentation to effectively manipulate tensors.
+To explore more, check out this [Intro to PyTorch and Neural Networks](https://www.codecademy.com/enrolled/courses/intro-to-py-torch-and-neural-networks) course, where you’ll learn to create, train, and test neural networks.
