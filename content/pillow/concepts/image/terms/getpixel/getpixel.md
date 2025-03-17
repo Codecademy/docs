@@ -1,17 +1,17 @@
 ---
-Title: '.getpixel()' 
-Description: 'Returns the pixel value at the specified co-ordinates.' 
-Subjects: 
+Title: '.getpixel()'
+Description: 'Returns the pixel value at the specified co-ordinates.'
+Subjects:
   - 'Computer Science'
   - 'Data Visualization'
   - 'Data Science'
   - 'Web Design'
   - 'Web Development'
-Tags: 
+Tags:
   - 'Computer Vision'
   - 'Images'
   - 'Pillow'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
   - 'paths/data-science'
