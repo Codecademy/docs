@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-**`.randint()`** is a function in [PyTorch](https://www.codecademy.com/resources/docs/pytorch) that generates [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors) filled with random integers. It creates a tensor filled with random integers generated uniformly between a lower bound (inclusive) and an upper bound (exclusive). This function is particularly useful when you need tensors with random integer values within a specific range for various machine learning tasks.
+**`.randint()`** is a function in [PyTorch](https://www.codecademy.com/resources/docs/pytorch) that generates [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors) filled with random integers sampled uniformly between a specified lower bound (inclusive) and an upper bound (exclusive) This function is particularly useful when you need tensors with random integer values within a specific range for various machine learning tasks.
 
 `.randint()` is commonly used in deep learning workflows for tasks such as creating random masks, generating synthetic datasets, initializing tensor values with random integers, and implementing various randomized algorithms. It provides a convenient way to introduce controlled randomness into tensor operations.
 
