@@ -6,7 +6,6 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Data'
-  - 'Discrete Math'
   - 'Probability'
   - 'Statistics'
 CatalogContent:
@@ -14,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **hypergeometric distribution** is a discrete probability distribution that calculates the probability of obtaining a specific number of successes in a fixed number of draws, without replacement, from a finite population. Unlike other probability distributions such as the binomial distribution which assumes sampling with replacement, the hypergeometric distribution accounts for how the probability changes with each selection as items are removed from the population.
+The **hypergeometric distribution** is a discrete probability distribution that calculates the probability of obtaining a specific number of successes in a fixed number of draws, without replacement, from a finite population. Unlike other probability distributions such as the [binomial distribution](https://www.codecademy.com/resources/docs/data-science/data-distributions/binomial-distribution) which assumes sampling with replacement, the hypergeometric distribution accounts for how the probability changes with each selection as items are removed from the population.
 
 The hypergeometric distribution is widely used in statistical sampling scenarios where the population size is finite and known. It's particularly valuable in quality control, survey sampling, genetic studies, and any situation where you need to calculate probabilities from a limited set of items without replacing them after selection.
 
