@@ -7,8 +7,8 @@ Subjects:
 Tags:
   - 'Functions'
   - 'PyTorch'
-  - 'Tensor'
   - 'Random'
+  - 'Tensor'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/machine-learning'
