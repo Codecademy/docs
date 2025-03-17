@@ -160,4 +160,4 @@ After x.addcmul_(y, z, value=2.0), x is now: tensor([1.3000, 3.0000, 5.1000])
 x now equals the previous result: True
 ```
 
-PyTorch offers many more tensor operations for efficient mathematical computations. To continue learning about similar tensor operations, explore the [PyTorch tensor operations](https://www.codecademy.com/resources/docs/pytorch/tensor-operations) documentation.
+To explore more, check out this [Intro to PyTorch and Neural Networks](https://www.codecademy.com/enrolled/courses/intro-to-py-torch-and-neural-networks) course, where you’ll learn to create, train, and test neural networks.
