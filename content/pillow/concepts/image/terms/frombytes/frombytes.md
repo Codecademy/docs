@@ -59,4 +59,4 @@ img.show()
 
 The above code generates the below output image:
 
-![Output Image](https://raw.githubusercontent.com/Codecademy/docs/main/media/frombytes().png)
+![The output is a 64x64 RGB gradient image, with red increasing horizontally, green vertically, and blue forming a diagonal blend.](https://raw.githubusercontent.com/Codecademy/docs/main/media/frombytes.png)
