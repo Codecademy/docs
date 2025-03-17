@@ -179,4 +179,4 @@ tensor([1, 3, 4, 6, 3])
 Sum of all dice: 17
 ```
 
-To learn more about other tensor operations, visit the [PyTorch Tensor Operations](https://www.codecademy.com/resources/docs/pytorch/tensor-operations) documentation.
+To explore more, check out this [Intro to PyTorch and Neural Networks](https://www.codecademy.com/enrolled/courses/intro-to-py-torch-and-neural-networks) course, where you’ll learn to create, train, and test neural networks.
