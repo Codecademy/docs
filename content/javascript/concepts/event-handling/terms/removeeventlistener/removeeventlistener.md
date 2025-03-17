@@ -97,7 +97,7 @@ This example removes a `mouseover` event listener from a div element after a cli
 </html>
 ```
 
-To deepen your understanding of event handling in JavaScript, check out these Codecademy courses:
+To level up your understanding of event handling in JavaScript, check out these Codecademy courses:
 
 - [Introduction to JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
 - [Interactive web design](https://www.codecademy.com/learn/interactive-web-design)
