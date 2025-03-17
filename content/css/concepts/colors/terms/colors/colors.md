@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-intermediate-css'
 ---
 
-# Colors
+## Colors
 
 The CSS **`color`** property sets the text color:
 
@@ -348,7 +348,7 @@ h1 {
 | `yellow`               |
 | `yellowgreen`          |
 
-## RGB(red, green, blue);
+## `RGB(red, green, blue);`
 
 ```css
 h1 {
@@ -363,7 +363,7 @@ RGB allows developers to fine tune the colors, while maintaining simplicity.
 
 See: [W3C rgb color](https://www.w3.org/TR/css-color-3/#rgb-color)
 
-## HSL(Hue, Saturation, Lightness);
+## `HSL(Hue, Saturation, Lightness);`
 
 ```css
   div {
