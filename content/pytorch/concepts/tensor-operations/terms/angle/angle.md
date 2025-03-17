@@ -5,8 +5,7 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Data Science'
-  - 'Mathematics'
+  - 'Math'
   - 'PyTorch'
   - 'Tensor'
 CatalogContent:
@@ -14,9 +13,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.angle()`** method in PyTorch is a tensor operation that computes the element-wise angle (in radians) of a given complex tensor. This function returns the phase angle of each complex value in the tensor, representing the argument of each complex number. The `.angle()` method is particularly useful in signal processing, Fourier transforms, and other applications that involve complex number operations.
+The **`.angle()`** method in [PyTorch](https://www.codecademy.com/resources/docs/pytorch) is a [tensor operation](https://www.codecademy.com/resources/docs/pytorch/tensor-operations) that computes the element-wise angle (in radians) of a given complex [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). This function returns the phase angle of each complex value in the tensor, representing the argument of each complex number. The `.angle()` method is particularly useful in signal processing, Fourier transforms, and other applications that involve complex number operations.
 
-When working with complex tensors in PyTorch, the `.angle()` method allows you to extract the phase information from your data. This is essential for analyzing wave phenomena, processing image data in the frequency domain, and understanding the directional components of complex-valued neural networks.
+When working with complex tensors in PyTorch, the `.angle()` method allows you to extract the phase information from your data. This is essential for analyzing wave phenomena, processing image data in the frequency domain, and understanding the directional components of complex-valued [neural networks](https://www.codecademy.com/resources/docs/ai/neural-networks).
 
 ## Syntax
 
@@ -35,7 +34,7 @@ A new tensor containing the element-wise angle (in radians) of the input tensor.
 
 > **Note:** Starting in PyTorch 1.8, `.angle()` returns π (pi) for negative real numbers, zero for non-negative real numbers, and propagates NaNs. In previous versions, it would return zero for all real numbers and not propagate floating-point NaNs.
 
-## Example 1: Basic usage of `.angle()`
+## Example 1: Calculating the element-wise angle of a complex tensor
 
 This example demonstrates how to calculate the element-wise angle of a complex tensor and understand the output in radians:
 
@@ -133,7 +132,7 @@ degree = radians * 180 / pi
 print("\nElement-wise angles in degrees:\n ", degree)
 ```
 
-This produces the following output:
+This example produces the following output:
 
 ```shell
 Input Tensor:
@@ -154,4 +153,4 @@ Element-wise angles in degrees:
 
 This example shows how `.angle()` preserves the dimensionality of the input tensor, calculating the phase angle for each complex value while maintaining the original structure.
 
-To explore more, check out this [Intro to PyTorch and Neural Networks](https://www.codecademy.com/enrolled/courses/intro-to-py-torch-and-neural-networks) course, where you’ll learn to create, train, and test neural networks.
+To learn more about how to create, train, and test neural networks, check out this [Intro to PyTorch and Neural Networks](https://www.codecademy.com/enrolled/courses/intro-to-py-torch-and-neural-networks) course on Codecademy.
