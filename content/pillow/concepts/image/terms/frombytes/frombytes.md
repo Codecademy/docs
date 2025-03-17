@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.frombytes()`** method in Pillow is used to create an image from raw byte data. It reconstructs an image using a specified mode, size, and optional decoder arguments. This method is useful when working with raw image data that needs to be converted into a Pillow Image object.
+The **`.frombytes()`** method in Pillow creates an image from raw byte data. It reconstructs an image using a specified mode, size, and optional decoder arguments. This method is useful when working with raw image data that needs to be converted into a Pillow `Image` object.
 
 ## Syntax
 
