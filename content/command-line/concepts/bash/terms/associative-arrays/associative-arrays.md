@@ -6,15 +6,14 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Arrays'
-  - 'Bash'
+  - 'Bash/Shell'
   - 'Data Structures'
-  - 'Scripting'
 CatalogContent:
   - 'learn-the-command-line'
   - 'paths/computer-science'
 ---
 
-**Associative arrays** in Bash are key-value pair data structures that allows to store and retrieve values using unique keys instead of numeric indices. First introduced in Bash version 4, they provide a powerful way to organize and manipulate data in shell scripts.
+**Associative arrays** in Bash are key-value pair [data structures](https://www.codecademy.com/resources/docs/general/data-structures) that allow users to store and retrieve values using unique keys instead of numeric indices. First introduced in Bash version 4, they provide a powerful way to organize and manipulate data in shell scripts.
 
 Associative arrays are particularly useful for creating lookup tables, storing configuration settings, counting occurrences, and organizing complex data in shell scripts. Their ability to use strings as indexes makes them more flexible than traditional indexed arrays when working with named data.
 
@@ -66,7 +65,7 @@ Available information: name email role age
 User details: John Doe john@example.com Developer 30
 ```
 
-In this example, we create an associative array called `user_details` and add various information about a user. The keys are strings (`'name'`, `'email'`, `'age'`, `'role'`), and we can access specific values using those keys.
+This example demonstrates the creation of an associative array called `user_details`, which stores various pieces of information about a user. The keys are strings (`'name'`, `'email'`, `'age'`, `'role'`), allowing access to specific values using those keys.
 
 ## Example 2: Building a configuration manager with associative arrays
 
