@@ -37,7 +37,7 @@ Unions do not take parameters directly, but their members can be of different da
 
 **Return Value**
 
-A union does not return a value itself, but its members can hold values. The memory is shared among all members, so assigning a value to one member overwrites the value of the others.
+A union does not hold a value itself, but its members can hold values. The memory is shared among all members, so assigning a value to one member overwrites the value of the others.
 
 ## Memory Allocation
 
