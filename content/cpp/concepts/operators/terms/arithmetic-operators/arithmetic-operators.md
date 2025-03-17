@@ -6,7 +6,7 @@ Subjects:
 - 'Computer Science'
 Tags:
 - 'Arithmetic'
-- 'operators'
+- 'Operators'
 - 'Math'
 CatalogContent:
 - 'learn-c-plus-plus'
@@ -99,7 +99,7 @@ Product: 50
 
 ### Division (`/`)
 
-The division operator `/` divides the first operand by the second. If both operands are integers, integer division is performed.
+The division operator `/` divides the first operand by the second. If both operands are integers, the result will also be an integer, dropping any reminder. If either of the operand is a floating point number, then the result will be in decimals. 
 
 ```cpp
 #include <iostream>
