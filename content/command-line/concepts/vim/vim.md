@@ -33,10 +33,10 @@ This section describes some important features of the Vim editor.
 
 Vim has four modes of operation:
 
-- `NORMAL MODE` : Used for editor commands. This is generally the default mode and hitting <kbd>Esc</kbd> (default) returns the editor to this mode.
+- `NORMAL MODE` : Used for editor commands like navigation, deletion, and copy-paste. This is the default mode, and pressing <kbd>Esc</kbd> returns to it.
 - `COMMAND MODE` : Provides a single line input at the bottom of the Vim window. Commands (beginning with `:`) and some other keys for specific actions (including pattern search and the filter command) activate this mode. On completion of the command, Vim returns to the previous mode.
-- `INSERT MODE` : Type and edit text.
-- `VISUAL MODE` : Highlight, select and edit text.
+- `INSERT MODE` : Allows to type and edit text. Entered via `i`, `a`, `o`, etc.
+- `VISUAL MODE` : Used for highlighting, selecting, and manipulating text. Sub-modes include character (`v`), line (`V`), and block (`Ctrl+v`) selection.
 
 ## Launching Vim
 
