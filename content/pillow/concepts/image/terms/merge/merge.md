@@ -30,7 +30,9 @@ Image.merge(mode, bands)
 
 ## Example
 
-![alt text](../../../../../../media/Boston.jpg)
+The code below splits this image into single bands and merge them.
+
+![Boston Skyline](../../../../../../media/Boston.jpg)
 
 ```py
 from PIL import Image
@@ -42,3 +44,6 @@ r,g,b = im.split()
 new_image= Image.merge('RGB', (b,r,g))
 new_image.show()
 ```
+
+**The output image**
+![Merged Boston Skyline](../../../../../../media/merged_boston.png)
