@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The **`.merge()`** is used to set a single band images into a new multiband image. We can create a new image by merging specific bands when we working with multispectral or multichannel images such as RGB or CMYK images.
+The **`.merge()`** is used to set of single band images into a new multiband image. We can create a new image by merging specific bands when we working with multispectral or multichannel images such as RGB or CMYK images.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ Image.merge(mode, bands)
 
 ## Example
 
-The code below splits this image into single bands and merge them.
+The code below splits the image into single bands and merge them.
 
 ![Boston Skyline](../../../../../../media/Boston.jpg)
 
