@@ -27,3 +27,18 @@ Image.merge(mode, bands)
 
 - `mode` : The parameter is the mode of the new multiband image.
 - `bands` :This parameter is a tuple of the individual image bands that is to be merged. The individual images should be single-channel image or a grayscale image.
+
+## Example
+
+![alt text](../../../../../../media/Boston.jpg)
+
+```py
+from PIL import Image
+image1= Image.open('media/Boston.jpg')
+image1.load()
+im = image1.resize((400,400))
+
+r,g,b = im.split()
+new_image= Image.merge('RGB', (b,r,g))
+new_image.show()
+```
