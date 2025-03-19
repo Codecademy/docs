@@ -22,14 +22,10 @@ The **`.asin()`** method in PyTorch computes the inverse sine (arcsine) of each 
 torch.asin(input, *, out)
 ```
 
-**Parameters:**
+- `input` (Tensor): A tensor containing values in the range `[-1, 1]`.
+- `out` (Tensor, optional): A tensor to store the output. If provided, it must have the same shape as `input`.
 
-- `input` (Tensor): A tensor containing values in the range [-1, 1].
-- `out` (Tensor, optional): An optional tensor to store the output. If provided, it must have the same shape as `input`.
-
-**Return value:**
-
-The `.asin()` method returns a tensor where each element is the arcsine of the corresponding element in the input tensor. Outputs are in the range [-π/2, π/2].
+The `.asin()` method returns a tensor where each element is the arcsine of the corresponding element in the input tensor.
 
 ## Example
 
@@ -61,7 +57,7 @@ Arcsine Values:
 tensor([ 0.0000,  0.5236, -1.5708,  1.5708])
 ```
 
-In this example, the output tensor shows the results of applying arcsin to each element.
+In this example, the output tensor shows the results of applying arcsin to each element:
 
 - `asin(0.0) = 0.0` → (since `sin(0) = 0`)
 - `asin(0.5) = π/6 ≈ 0.5236` → (since `sin(π/6) = 0.5`)
@@ -70,6 +66,6 @@ In this example, the output tensor shows the results of applying arcsin to each 
 
 ## Additional Notes
 
-- **Valid Range**: Input values outside [-1, 1] will result in `NaN` (not a number).
+- **Valid Range**: Input values outside `[-1, 1]` will result in `NaN` (Not a number).
 - **In-Place Operation**: Use `.asin_()` to modify the tensor directly.
 - **Complex Numbers**: PyTorch's `.asin()` supports complex tensors, computing the complex arcsine.
