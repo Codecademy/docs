@@ -1,3 +1,14 @@
+---
+Title: 'AWS Free Tier'
+Description: 'The AWS Free Tier is where new users can explore and use AWS services at no cost.'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Cloud Computing'
+CatalogContent:
+  - 'foundations-of-cloud-computing'
+  - 'paths/back-end-engineer-career-path'
+---
 The **AWS Free Tier** is where new users can explore and use AWS services at no cost, with certain limitations in place. This allows users to experiment with AWS offerings without any immediate financial commitments.
 
 Free Tier Pricing Models:
