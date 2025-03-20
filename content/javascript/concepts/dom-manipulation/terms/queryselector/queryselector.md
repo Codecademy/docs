@@ -55,26 +55,26 @@ This example demonstrates how to use querySelector to select an element by its c
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-  <title>querySelector Class Example</title>
-</head>
-<body>
-  <div class="container">
-    <p class="highlight">This is a highlighted paragraph.</p>
-    <p>This is a normal paragraph.</p>
-  </div>
+  <head>
+    <title>querySelector Class Example</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="highlight">This is a highlighted paragraph.</p>
+      <p>This is a normal paragraph.</p>
+    </div>
 
-  <script>
-    // Select the first element with class "highlight"
-    const highlightedElement = document.querySelector('.highlight');
+    <script>
+      // Select the first element with class "highlight"
+      const highlightedElement = document.querySelector('.highlight');
 
-    // Change the text color of the selected element
-    highlightedElement.style.color = 'red';
+      // Change the text color of the selected element
+      highlightedElement.style.color = 'red';
 
-    // Log the element to the console
-    console.log(highlightedElement);
-  </script>
-</body>
+      // Log the element to the console
+      console.log(highlightedElement);
+    </script>
+  </body>
 </html>
 ```
 
@@ -91,44 +91,48 @@ This example showcases the power of `querySelector()` with more complex selector
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-  <title>querySelector Complex Selectors</title>
-  <style>
-    .active { background-color: yellow; }
-  </style>
-</head>
-<body>
-  <div id="user-panel">
-    <input type="text" name="username" placeholder="Username">
-    <input type="password" name="password" placeholder="Password">
-    <button class="login-button">Login</button>
-  </div>
+  <head>
+    <title>querySelector Complex Selectors</title>
+    <style>
+      .active {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="user-panel">
+      <input type="text" name="username" placeholder="Username" />
+      <input type="password" name="password" placeholder="Password" />
+      <button class="login-button">Login</button>
+    </div>
 
-  <div id="content">
-    <ul class="menu">
-      <li class="active">Home</li>
-      <li>Products</li>
-      <li>About</li>
-    </ul>
-  </div>
+    <div id="content">
+      <ul class="menu">
+        <li class="active">Home</li>
+        <li>Products</li>
+        <li>About</li>
+      </ul>
+    </div>
 
-  <script>
-    // Select the password input field
-    const passwordField = document.querySelector('#user-panel input[type="password"]');
+    <script>
+      // Select the password input field
+      const passwordField = document.querySelector(
+        '#user-panel input[type="password"]'
+      );
 
-    // Add a border to the password field
-    passwordField.style.border = '2px solid blue';
+      // Add a border to the password field
+      passwordField.style.border = '2px solid blue';
 
-    // Select the active menu item
-    const activeMenuItem = document.querySelector('.menu .active');
+      // Select the active menu item
+      const activeMenuItem = document.querySelector('.menu .active');
 
-    // Add some padding to the active menu item
-    activeMenuItem.style.padding = '10px';
+      // Add some padding to the active menu item
+      activeMenuItem.style.padding = '10px';
 
-    console.log("Password field:", passwordField);
-    console.log("Active menu item:", activeMenuItem);
-  </script>
-</body>
+      console.log('Password field:', passwordField);
+      console.log('Active menu item:', activeMenuItem);
+    </script>
+  </body>
 </html>
 ```
 
@@ -145,76 +149,84 @@ This example shows how `querySelector()` can be used to dynamically update conte
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Dynamic Content with querySelector</title>
-  <style>
-    .hidden { display: none; }
-    .visible { display: block; }
-    .highlight { background-color: yellow; }
-  </style>
-</head>
-<body>
-  <div id="app">
-    <h1 id="title">Welcome to Our Website</h1>
+  <head>
+    <title>Dynamic Content with querySelector</title>
+    <style>
+      .hidden {
+        display: none;
+      }
+      .visible {
+        display: block;
+      }
+      .highlight {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <h1 id="title">Welcome to Our Website</h1>
 
-    <div class="tabs">
-      <button class="tab-button active" data-tab="tab1">Tab 1</button>
-      <button class="tab-button" data-tab="tab2">Tab 2</button>
-      <button class="tab-button" data-tab="tab3">Tab 3</button>
+      <div class="tabs">
+        <button class="tab-button active" data-tab="tab1">Tab 1</button>
+        <button class="tab-button" data-tab="tab2">Tab 2</button>
+        <button class="tab-button" data-tab="tab3">Tab 3</button>
+      </div>
+
+      <div class="tab-content visible" id="tab1">
+        <p>This is the content for Tab 1.</p>
+      </div>
+
+      <div class="tab-content hidden" id="tab2">
+        <p>This is the content for Tab 2.</p>
+      </div>
+
+      <div class="tab-content hidden" id="tab3">
+        <p>This is the content for Tab 3.</p>
+      </div>
     </div>
 
-    <div class="tab-content visible" id="tab1">
-      <p>This is the content for Tab 1.</p>
-    </div>
+    <script>
+      // Get all tab buttons
+      const tabButtons = document.querySelectorAll('.tab-button');
 
-    <div class="tab-content hidden" id="tab2">
-      <p>This is the content for Tab 2.</p>
-    </div>
+      // Add click event listeners to each button
+      tabButtons.forEach((button) => {
+        button.addEventListener('click', function () {
+          // Remove 'active' class from all buttons
+          document
+            .querySelector('.tab-button.active')
+            .classList.remove('active');
 
-    <div class="tab-content hidden" id="tab3">
-      <p>This is the content for Tab 3.</p>
-    </div>
-  </div>
+          // Add 'active' class to clicked button
+          this.classList.add('active');
 
-  <script>
-    // Get all tab buttons
-    const tabButtons = document.querySelectorAll('.tab-button');
+          // Hide all tab content
+          const allTabContent = document.querySelectorAll('.tab-content');
+          allTabContent.forEach((tab) => {
+            tab.classList.add('hidden');
+            tab.classList.remove('visible');
+          });
 
-    // Add click event listeners to each button
-    tabButtons.forEach(button => {
-      button.addEventListener('click', function() {
-        // Remove 'active' class from all buttons
-        document.querySelector('.tab-button.active').classList.remove('active');
+          // Show selected tab content
+          const tabToShow = this.getAttribute('data-tab');
+          const selectedTab = document.querySelector(`#${tabToShow}`);
+          selectedTab.classList.remove('hidden');
+          selectedTab.classList.add('visible');
 
-        // Add 'active' class to clicked button
-        this.classList.add('active');
+          // Update the page title
+          const title = document.querySelector('#title');
+          title.textContent = `You are viewing ${tabToShow}`;
+          title.classList.add('highlight');
 
-        // Hide all tab content
-        const allTabContent = document.querySelectorAll('.tab-content');
-        allTabContent.forEach(tab => {
-          tab.classList.add('hidden');
-          tab.classList.remove('visible');
+          // Remove highlight after 1 second
+          setTimeout(() => {
+            title.classList.remove('highlight');
+          }, 1000);
         });
-
-        // Show selected tab content
-        const tabToShow = this.getAttribute('data-tab');
-        const selectedTab = document.querySelector(`#${tabToShow}`);
-        selectedTab.classList.remove('hidden');
-        selectedTab.classList.add('visible');
-
-        // Update the page title
-        const title = document.querySelector('#title');
-        title.textContent = `You are viewing ${tabToShow}`;
-        title.classList.add('highlight');
-
-        // Remove highlight after 1 second
-        setTimeout(() => {
-          title.classList.remove('highlight');
-        }, 1000);
       });
-    });
-  </script>
-</body>
+    </script>
+  </body>
 </html>
 ```
 
