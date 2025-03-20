@@ -2,7 +2,7 @@
 Title: 'AWS Free Tier'
 Description: 'The AWS Free Tier is where new users can explore and use AWS services at no cost.'
 Subjects:
-  - 'Computer Science'
+  - 'Computer Computing'
 Tags:
   - 'Cloud Computing'
 CatalogContent:
