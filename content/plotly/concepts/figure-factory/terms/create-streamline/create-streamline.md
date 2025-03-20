@@ -64,7 +64,8 @@ fig = ff.create_streamline(x, y, u, v, arrow_scale=.1)
 fig.show()
 ```
 
-This example creates a streamline plot of a simple mathematical vector field. The vector field is defined by the equations `u = -1 - x² + y` and `v = 1 + x - y²`, where `u` and `v` represent the `x` and `y` components of the vector at each point. The `arrow_scale` parameter has been set to `0.1` to make the arrows slightly larger for better visibility. The output is as follows:
+This example creates a streamline plot of a simple mathematical vector field. The vector field is defined by the equations `u = -1 - x² + y` and `v = 1 + x - y²`, where `u` and `v` represent the `x` and `y` components of the vector at each point. The `arrow_scale` parameter has been set to `0.1` to make the arrows slightly larger for better visibility.
+This example will generate the following output:
 
 ![A streamline plot with curved flow lines following the vector field direction, showing velocity with arrows](https://raw.githubusercontent.com/Codecademy/docs/main/media/create_streamline_output1.png)
 
