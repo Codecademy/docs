@@ -71,7 +71,7 @@ result.save('composite_result.jpg')
 
 The output for this example will be as follows:
 
-![A circular masked composite image blending a mountain and ocean scene](https://raw.githubusercontent.com/Codecademy/docs/main/media/composite_output1.png)
+![A circular masked composite image blending a mountain and ocean scene](https://raw.githubusercontent.com/Codecademy/docs/main/media/composite_output1.jpg)
 
 This example creates a composite where `image1` appears inside the white circle area of the mask, while `image2` appears in the black areas. The result is a seamless blend of both images according to the mask pattern.
 
@@ -106,7 +106,7 @@ result.save('gradient_composite.jpg')
 
 The output for this example will be as follows:
 
-![A gradient-blended composite image transitioning from ocean to mountain](https://raw.githubusercontent.com/Codecademy/docs/main/media/composite_output2.png)
+![A gradient-blended composite image transitioning from ocean to mountain](https://raw.githubusercontent.com/Codecademy/docs/main/media/composite_output2.jpg)
 
 This creates a gradual transition from `image2` on the left to `image1` on the right. The blur applied to the mask softens the transition, resulting in a more natural blend between the images.
 
@@ -148,6 +148,6 @@ result.save('heart_composite.jpg')
 
 The output for this example will be as follows:
 
-![A heart-shaped masked composite image blending an ocean and mountain scene](https://raw.githubusercontent.com/Codecademy/docs/main/media/composite_output3.png)
+![A heart-shaped masked composite image blending an ocean and mountain scene](https://raw.githubusercontent.com/Codecademy/docs/main/media/composite_output3.jpg)
 
 This example creates a heart-shaped window where the portrait image appears within the heart shape, while the landscape image fills the rest of the canvas. The blurred mask creates soft edges for a polished look.
