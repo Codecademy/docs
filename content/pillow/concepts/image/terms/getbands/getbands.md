@@ -1,21 +1,19 @@
 ---
 Title: '.getbands()'
-Description: 'PIL.Image.getbands() returns a tuple that contains the name of each band in the image. '
+Description: 'Returns a tuple that contains the name of each band in the image.'
 Subjects:
   - 'Computer Science'
   - 'Data Visualization'
 Tags:
-  - 'Pillow'
-  - 'Methods'
   - 'Images'
+  - 'Methods'
+  - 'Pillow'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-In the Pillow library, the **`PIL.Image.getbands()`** method returns a tuple that contains the name of each band of the image. For example, on an CMYK image `.getbands()` will return ('C', 'M', 'Y', 'K').
+In the Pillow library, the **`getbands()`** method returns a [tuple](https://www.codecademy.com/resources/docs/python/tuples) that contains the name of each band in an image. For example, for a CMYK image, `getbands()` will return `('C', 'M', 'Y', 'K')`.
 
 ## Syntax
 
@@ -23,20 +21,26 @@ In the Pillow library, the **`PIL.Image.getbands()`** method returns a tuple tha
 Image.getbands()
 ```
 
-> Note: The .getbands() method does not take any arguments.
+**Parameters:**
+The `getbands()` method does not take any parameters.
+
+**Return value:**
+Returns a tuple of strings, where each string represents the name of a color band in the image.
 
 ## Example
 
 In this example, the `.getbands()` method returns the band names of the example image:
 
-```python
+```py
 from PIL import Image
 
 # Opening an image file
 img = Image.open("example.jpg")
 
 # Get the band names
-img.getbands()
+bands = img.getbands()
+
+print(bands)
 ```
 
 The above code produces the following output:
