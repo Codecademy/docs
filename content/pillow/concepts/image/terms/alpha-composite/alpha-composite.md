@@ -40,8 +40,8 @@ The following example demonstrates the use of the `.alpha_composite()` method:
 from PIL import Image
 
 # Open background and foreground images
-background = Image.open("background.png").convert("RGBA")
-foreground = Image.open("foreground.png").convert("RGBA")
+background = Image.open("ocean.png").convert("RGBA")
+foreground = Image.open("ship.png").convert("RGBA")
 
 # Composite the images
 result = Image.alpha_composite(background, foreground)
