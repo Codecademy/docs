@@ -71,7 +71,7 @@ This example will generate the following output:
 
 ## Example 2: Streamline Plot with Source Point
 
-This example shows how to visualize a radial vector field emanating from a source point, which is useful for representing phenomena like electric fields or fluid sources:
+This example shows how to visualize a radial vector field spreading out from a source point, which is useful for representing phenomena like electric fields or fluid sources:
 
 ```py
 import plotly.figure_factory as ff
