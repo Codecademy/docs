@@ -25,14 +25,14 @@ plotly.figure_factory.create_streamline(x, y, u, v, density=1, angle=0.349066, a
 
 **Parameters:**
 
-- `x`: 1-dimensional, evenly spaced list or array representing the x-coordinates of the vector field grid
-- `y`: 1-dimensional, evenly spaced list or array representing the y-coordinates of the vector field grid
-- `u`: 2-dimensional array representing the x-component of the vector field at each grid point
-- `v`: 2-dimensional array representing the y-component of the vector field at each grid point
-- `density`: Controls the density of streamlines in the plot (default=`1`), multiplied by 30 to scale similarly to other streamline functions
-- `angle`: The angle of arrowhead in radians (default=pi/9)
-- `arrow_scale`: A value between `0` and `1` to scale the length of arrowheads (default=0.09)
-- `**kwargs`: Additional keyword arguments passed to `plotly.graph_objects.Scatter`
+- `x`: 1-dimensional, evenly spaced list or array representing the x-coordinates of the vector field grid.
+- `y`: 1-dimensional, evenly spaced list or array representing the y-coordinates of the vector field grid.
+- `u`: 2-dimensional array representing the x-component of the vector field at each grid point.
+- `v`: 2-dimensional array representing the y-component of the vector field at each grid point.
+- `density` (Optional): Controls the density of streamlines in the plot (default=`1`), multiplied by 30 to scale similarly to other streamline functions.
+- `angle` (Optional): The angle of arrowhead in radians (default=`π/9`).
+- `arrow_scale` (Optional): A value between `0` and `1` to scale the length of arrowheads (default=`0.09`).
+- `**kwargs`: Additional keyword arguments passed to the function.
 
 **Return value:**
 
