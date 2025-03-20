@@ -55,6 +55,7 @@ The hypergeometric distribution returns the probability of obtaining exactly k s
 To understand the hypergeometric distribution, consider a classic example with a standard deck of cards. Suppose you want to find the probability of drawing exactly 2 aces when randomly selecting 5 cards from a deck.
 
 In this scenario:
+
 - N = 52 (total cards in the deck)
 - K = 4 (total aces in the deck)
 - n = 5 (cards drawn)
@@ -65,6 +66,7 @@ Applying the hypergeometric formula:
 $$P(X = 2) = \frac{\binom{4}{2} \times \binom{48}{3}}{\binom{52}{5}}$$
 
 Calculating each combination:
+
 - C(4,2) = 6 (ways to select 2 aces from 4 aces)
 - C(48,3) = 17,296 (ways to select 3 non-aces from 48 non-aces)
 - C(52,5) = 2,598,960 (ways to select 5 cards from 52 cards)
@@ -77,53 +79,57 @@ This example demonstrates the hypergeometric distribution's usefulness in calcul
 
 ## Example 2: Jury selection - Analyzing representation probabilities
 
-Another practical application of the hypergeometric distribution is in analyzing jury representation. Suppose a jury pool consists of 50 people, with 25 men and 25 women. If we randomly select 13 people for a jury, what is the probability of having exactly 8 women?
+Another practical application of the hypergeometric distribution is in analyzing jury representation. Suppose a jury pool consists of 30 people, with 15 men and 15 women. If we randomly select 8 people for a jury, what is the probability of having exactly 5 women?
 
 For this scenario:
-- N = 50 (total people in the jury pool)
-- K = 25 (total women in the pool)
-- n = 13 (size of the jury)
-- k = 8 (desired number of women)
+
+- N = 30 (total people in the jury pool)
+- K = 15 (total women in the pool)
+- n = 8 (size of the jury)
+- k = 5 (desired number of women)
 
 Using the hypergeometric distribution formula:
 
-$$P(X = 8) = \frac{\binom{25}{8} \times \binom{25}{5}}{\binom{50}{13}}$$
+$$P(X = 5) = \frac{\binom{15}{5} \times \binom{15}{3}}{\binom{30}{8}}$$
 
 Calculating:
-- C(25,8) = 1,081,575 (ways to select 8 women from 25 women)
-- C(25,5) = 53,130 (ways to select 5 men from 25 men)
-- C(50,13) = 10,400,600 (ways to select 13 people from 50 people)
 
-$$P(X = 8) = \frac{1,081,575 \times 53,130}{10,400,600} \approx 0.1619$$
+- C(15,5) = 3,003 (ways to select 5 women from 15 women)
+- C(15,3) = 455 (ways to select 3 men from 15 men)
+- C(30,8) = 5,852,925 (ways to select 8 people from 30 people)
 
-The probability of having exactly 8 women on the 13-person jury is approximately 0.1619 or about 16.2%.
+$$P(X = 5) = \frac{3003 \times 455}{5852925} \approx 0.2335$$
+
+The probability of having exactly 5 women is approximately 0.2335 or about 23.3%.
 
 This example shows how the hypergeometric distribution can be used to analyze demographic representation in randomly selected groups.
 
 ## Example 3: Quality control - Detecting defective items
 
-The hypergeometric distribution is particularly valuable in quality control and manufacturing settings. Consider a scenario where a manufacturer receives a shipment of 100 electronic components, and it's suspected that 10 of them might be defective. To test this, a quality control inspector randomly selects 15 components for testing.
+The hypergeometric distribution is particularly valuable in quality control and manufacturing settings. Consider a scenario where a manufacturer receives a shipment of 40 electronic components, and it's suspected that 8 of them might be defective. To test this, a quality control inspector randomly selects 8 components for testing.
 
 What is the probability of finding exactly 3 defective components in the sample?
 
 For this case:
-- N = 100 (total components)
-- K = 10 (potentially defective components)
-- n = 15 (sample size for testing)
+
+- N = 40 (total components)
+- K = 8 (potentially defective components)
+- n = 8 (sample size for testing)
 - k = 3 (number of defective components we want to find)
 
 Using the hypergeometric distribution:
 
-$$P(X = 3) = \frac{\binom{10}{3} \times \binom{90}{12}}{\binom{100}{15}}$$
+$$P(X = 3) = \frac{\binom{8}{3} \times \binom{32}{5}}{\binom{40}{8}}$$
 
 Calculating:
-- C(10,3) = 120 (ways to select 3 defective components from 10)
-- C(90,12) = 1,852,482,996 (ways to select 12 good components from 90)
-- C(100,15) = 253,338,471,349,988 (ways to select 15 components from 100)
 
-P(X = 3) ≈ 0.2138
+- C(8,3) = 56 (ways to select 3 defective components from 8)
+- C(32,5) = 201,376 (ways to select 5 good components from 32)
+- C(40,8) = 76,904,685 (ways to select 8 components from 40)
 
-The probability of finding exactly 3 defective components in the sample is approximately 21.4%.
+P(X = 3) = \frac{56 \times 201376}{76904685} \approx 0.1518$$
+
+The probability of finding exactly 3 defective components in the sample is approximately 15.2%.
 
 This application illustrates how the hypergeometric distribution helps businesses make informed decisions about quality control measures and sampling procedures.
 
@@ -131,14 +137,14 @@ This application illustrates how the hypergeometric distribution helps businesse
 
 While both the hypergeometric and binomial distributions describe the probability of successes in a series of trials, they differ in several key aspects:
 
-| Characteristic | Hypergeometric Distribution | Binomial Distribution |
-|----------------|----------------------------|----------------------|
-| Sampling method | Without replacement | With replacement |
-| Probability of success | Changes after each draw | Remains constant across all trials |
-| Population size | Finite | Very large or infinite relative to sample |
-| Trial independence | Trials are dependent (each draw affects remaining population) | Trials are independent |
-| Formula | P(X = k) = $\frac{\binom{K}{k} \binom{N-K}{n-k}}{\binom{N}{n}}$ | P(X = k) = $\binom{n}{k} p^k (1-p)^{n-k}$ |
-| Example scenarios | Card draws, jury selection, quality control sampling | Coin flips, dice rolls, repeated independent events |
+| Characteristic         | Hypergeometric Distribution                                     | Binomial Distribution                               |
+| ---------------------- | --------------------------------------------------------------- | --------------------------------------------------- |
+| Sampling method        | Without replacement                                             | With replacement                                    |
+| Probability of success | Changes after each draw                                         | Remains constant across all trials                  |
+| Population size        | Finite                                                          | Very large or infinite relative to sample           |
+| Trial independence     | Trials are dependent (each draw affects remaining population)   | Trials are independent                              |
+| Formula                | P(X = k) = $\frac{\binom{K}{k} \binom{N-K}{n-k}}{\binom{N}{n}}$ | P(X = k) = $\binom{n}{k} p^k (1-p)^{n-k}$           |
+| Example scenarios      | Card draws, jury selection, quality control sampling            | Coin flips, dice rolls, repeated independent events |
 
 Interestingly, as the population size (N) becomes very large relative to the sample size (n), the hypergeometric distribution approaches the binomial distribution. This is because the effect of removing items becomes negligible in large populations.
 
