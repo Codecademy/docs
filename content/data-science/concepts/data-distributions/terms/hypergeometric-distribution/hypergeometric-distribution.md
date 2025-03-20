@@ -98,7 +98,7 @@ Calculating:
 - C(15,3) = 455 (ways to select 3 men from 15 men)
 - C(30,8) = 5,852,925 (ways to select 8 people from 30 people)
 
-$$P(X = 5) = \frac{3003 \times 455}{5852925} \approx 0.2335$$
+$$P(X = 5) = \frac{3,003 \times 455}{5,852,925} \approx 0.2335$$
 
 The probability of having exactly 5 women is approximately 0.2335 or about 23.3%.
 
@@ -127,7 +127,7 @@ Calculating:
 - C(32,5) = 201,376 (ways to select 5 good components from 32)
 - C(40,8) = 76,904,685 (ways to select 8 components from 40)
 
-P(X = 3) = \frac{56 \times 201376}{76904685} \approx 0.1518$$
+$$P(X = 3) = \frac{56 \times 201,376}{76,904,685} \approx 0.1518$$
 
 The probability of finding exactly 3 defective components in the sample is approximately 15.2%.
 
