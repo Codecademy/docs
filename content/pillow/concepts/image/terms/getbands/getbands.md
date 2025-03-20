@@ -35,7 +35,7 @@ In this example, the `.getbands()` method returns the band names of the example 
 from PIL import Image
 
 # Opening an image file
-img = Image.open("example.jpg")
+img = Image.open("media/samandgos.jpg")
 
 # Get the band names
 bands = img.getbands()
