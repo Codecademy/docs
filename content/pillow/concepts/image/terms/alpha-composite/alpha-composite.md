@@ -2,8 +2,8 @@
 Title: '.alpha_composite()'
 Description: 'Merges two images by overlaying the foreground onto the background using their alpha (transparency) channels.'
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'Computer Vision'
   - 'Images'
@@ -17,14 +17,20 @@ In Pillow, the **`.alpha_composite()`** method _merges_ two images by overlaying
 
 ## Syntax
 
-```py
-Image.alpha_composite(background, foreground)
+```pseudo
+PIL.Image.alpha_composite(image1, image2)
 ```
 
-- `background` (Image): The background image, which must be in `RGBA` mode.
-- `foreground` (Image): The foreground image, which must also be in `RGBA` mode.
+**Parameters:**
 
-> **Note:** The `.alpha_composite()` method requires both `background` and `foreground` parameters to have the same size `(width & height)`, otherwise, it won't work as expected.
+- `image1` (Image): The background image, which must be in `RGBA` mode.
+- `image2` (Image): The foreground image, which must also be in `RGBA` mode.
+
+**Return value:**
+
+Returns a new RGBA image with the composite result.
+
+> **Note:** The `.alpha_composite()` method requires both `image1` and `image2` parameters to have the same dimensions (width and height); otherwise, it won't work as expected.
 
 ## Example
 
