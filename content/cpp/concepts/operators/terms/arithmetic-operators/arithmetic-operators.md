@@ -1,6 +1,6 @@
 ---
 Title: 'Arithmetic Operators' 
-Description: 'Performs mathematical operations such as addition, subtraction, multiplication, division, modulus, increment, and decrement in C++.' 
+Description: 'Arithmetic operators performs mathematical operations such as addition, subtraction, multiplication, division, modulus, increment, and decrement in C++.' 
 Subjects:
 - 'Code Foundations'
 - 'Computer Science'
@@ -15,7 +15,7 @@ CatalogContent:
 
 **Arithmetic operators** in C++ are used to perform mathematical calculations on numerical values. These include basic operations such as addition, subtraction, multiplication, division, modulus, increment, and decrement. They are commonly applied to variables and expressions in mathematical computations.
 
-Arithmetic operators in C++ are essential for performing mathematical operations efficiently. They allow programmers to handle numerical computations and manipulate values effectively within code. Understanding how these operators function is crucial for building algorithms and solving problems in C++ programming.
+Arithmetic operators allow programmers to handle numerical computations and manipulate values effectively within code. Understanding how these operators function is crucial for building algorithms and solving problems in C++ programming.
 
 The following table summarizes the seven arithmetic operators in C++:
 
