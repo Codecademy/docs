@@ -31,7 +31,7 @@ FaaS was first offered by start-ups like PiCloud around 2010. It has since been 
 
 FaaS architecture consists of several key components that enable event-driven execution, scalability, and seamless integration.
 
-**Components of FaaS**
+### Components of FaaS
 
 - **Function Execution Environment**: The runtime that executes functions on demand.
 - **Event Sources**: Triggers such as HTTP requests, database updates, or message queues.
@@ -42,6 +42,7 @@ FaaS architecture consists of several key components that enable event-driven ex
 ## Real-World Applications of FaaS
 
 FaaS is widely used across industries for different use cases:
+
 - **Web Applications** – Handles backend logic for web apps (e.g., authentication, payments).
 - **Data Processing** – Processes streams of data in real time (e.g., IoT sensor data, log analysis).
 - **Chatbots and AI** – Executes AI-based processing for chatbots and virtual assistants.
@@ -67,6 +68,7 @@ The disadvantages include:
 ## FaaS vs Other Cloud Service Models
 
 FaaS is often compared with **PaaS (Platform as a Service)** and **IaaS (Infrastructure as a Service)**. For a deeper dive into these concepts, refer to their respective entries:
+
 - [Platform as a Service (PaaS)](https://www.codecademy.com/resources/docs/cloud-computing/paas)
 - [Infrastructure as a Service (IaaS)](https://www.codecademy.com/resources/docs/cloud-computing/iaas)
 
