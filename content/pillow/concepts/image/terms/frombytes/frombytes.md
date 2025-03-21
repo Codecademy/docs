@@ -24,6 +24,7 @@ Image.frombytes(mode, size, data, decoder_name='raw', *args)
 ```
 
 **Parameters:**
+
 - `mode` (str): Specifies the color mode of the image (e.g., `"RGB"`, `"RGBA"`, `"L"` for grayscale).
 - `size` (tuple): The dimensions of the image as `(width, height)`
 - `data` (bytes): The raw image data for the given mode.
