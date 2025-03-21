@@ -40,10 +40,10 @@ The addition operator `+` adds two operands together.
 using namespace std;
 
 int main() {
-    int a = 10, b = 5;
-    int sum = a + b;
-    cout << "Sum: " << sum;
-    return 0;
+  int a = 10, b = 5;
+  int sum = a + b;
+  cout << "Sum: " << sum;
+  return 0;
 }
 ```
 
@@ -62,10 +62,10 @@ The subtraction operator `-` subtracts the second operand from the first.
 using namespace std;
 
 int main() {
-    int a = 10, b = 5;
-    int diff = a - b;
-    cout << "Difference: " << diff;
-    return 0;
+  int a = 10, b = 5;
+  int diff = a - b;
+  cout << "Difference: " << diff;
+  return 0;
 }
 ```
 
@@ -84,10 +84,10 @@ The multiplication operator `*` multiplies two operands.
 using namespace std;
 
 int main() {
-    int a = 10, b = 5;
-    int product = a * b;
-    cout << "Product: " << product;
-    return 0;
+  int a = 10, b = 5;
+  int product = a * b;
+  cout << "Product: " << product;
+  return 0;
 }
 ```
 
@@ -106,10 +106,10 @@ The division operator `/` divides the first operand by the second. If both opera
 using namespace std;
 
 int main() {
-    int a = 10, b = 5;
-    int quotient = a / b;
-    cout << "Quotient: " << quotient;
-    return 0;
+  int a = 10, b = 5;
+  int quotient = a / b;
+  cout << "Quotient: " << quotient;
+  return 0;
 }
 ```
 
@@ -130,10 +130,10 @@ The modulus operator `%` returns the remainder of integer division.
 using namespace std;
 
 int main() {
-    int a = 10, b = 3;
-    int remainder = a % b;
-    cout << "Remainder: " << remainder;
-    return 0;
+  int a = 10, b = 3;
+  int remainder = a % b;
+  cout << "Remainder: " << remainder;
+  return 0;
 }
 ```
 
@@ -157,12 +157,12 @@ The increment operator `++` increases the value of a variable by 1. It can be us
 using namespace std;
 
 int main() {
-    int a = 5;
-    cout << "Pre-increment: " << ++a << endl; // Increments then prints
-    a = 5;
-    cout << "Post-increment: " << a++ << endl; // Prints then increments
-    cout << "After post-increment: " << a;
-    return 0;
+  int a = 5;
+  cout << "Pre-increment: " << ++a << endl; // Increments then prints
+  a = 5;
+  cout << "Post-increment: " << a++ << endl; // Prints then increments
+  cout << "After post-increment: " << a;
+  return 0;
 }
 ```
 
@@ -186,12 +186,12 @@ The decrement operator `--` decreases the value of a variable by 1. It also has 
 using namespace std;
 
 int main() {
-    int a = 5;
-    cout << "Pre-decrement: " << --a << endl; // Decrements then prints
-    a = 5;
-    cout << "Post-decrement: " << a-- << endl; // Prints then decrements
-    cout << "After post-decrement: " << a;
-    return 0;
+  int a = 5;
+  cout << "Pre-decrement: " << --a << endl; // Decrements then prints
+  a = 5;
+  cout << "Post-decrement: " << a-- << endl; // Prints then decrements
+  cout << "After post-decrement: " << a;
+  return 0;
 }
 ```
 
