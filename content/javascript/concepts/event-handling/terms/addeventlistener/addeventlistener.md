@@ -29,13 +29,13 @@ addEventListener(event, function, useCapture)
 
 > **Note:** If the same event listener is added multiple times to the same element with identical parameters, it is only executed once.
 
-**Parameters**
+**Parameters:**
 
-- **`event`** *(string)*: The type of event to listen for.
-- **`function`** *(function)*: The callback function to be executed when the event occurs.
-- **`useCapture`** *(boolean, optional)*: Determines whether the event is captured or bubbled (default is `false`).
+- **`event`** _(string)_: The type of event to listen for.
+- **`function`** _(function)_: The callback function to be executed when the event occurs.
+- **`useCapture`** _(boolean, optional)_: Determines whether the event is captured or bubbled (default is `false`).
 
-**Return Value**
+**Return Value:**
 
 This method does not return a value. It registers an event listener on the specified element.
 
@@ -46,17 +46,19 @@ This example demonstrates how to attach an event listener to a button. When the 
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Button Click Example</title>
-</head>
-<body>
+  </head>
+  <body>
     <button id="clickButton">Click Me</button>
     <script>
-        document.getElementById("clickButton").addEventListener("click", function() {
-            alert("You clicked the button!");
+      document
+        .getElementById('clickButton')
+        .addEventListener('click', function () {
+          alert('You clicked the button!');
         });
     </script>
-</body>
+  </body>
 </html>
 ```
 
@@ -67,18 +69,21 @@ This example shows how clicking a button can dynamically change the text content
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Change Text Example</title>
-</head>
-<body>
+  </head>
+  <body>
     <p id="text">Click the button to change this text.</p>
     <button id="changeTextButton">Change Text</button>
     <script>
-        document.getElementById("changeTextButton").addEventListener("click", function() {
-            document.getElementById("text").innerText = "The text has been changed!";
+      document
+        .getElementById('changeTextButton')
+        .addEventListener('click', function () {
+          document.getElementById('text').innerText =
+            'The text has been changed!';
         });
     </script>
-</body>
+  </body>
 </html>
 ```
 
@@ -89,24 +94,24 @@ This example changes the background color of a box when the mouse pointer hovers
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Hover Effect Example</title>
     <style>
-        #box {
-            width: 150px;
-            height: 150px;
-            background-color: lightblue;
-        }
+      #box {
+        width: 150px;
+        height: 150px;
+        background-color: lightblue;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="box"></div>
     <script>
-        document.getElementById("box").addEventListener("mouseover", function() {
-            this.style.backgroundColor = "orange";
-        });
+      document.getElementById('box').addEventListener('mouseover', function () {
+        this.style.backgroundColor = 'orange';
+      });
     </script>
-</body>
+  </body>
 </html>
 ```
 
