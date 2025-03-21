@@ -82,4 +82,4 @@ Original Image:
 
 Converted Image:
 
-![Grayscale Image](https://raw.githubusercontent.com/Codecademy/docs/main/media//pillow-image-grayscale-example.jpg)
+![Grayscale Image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-image-grayscale-example.jpg)
