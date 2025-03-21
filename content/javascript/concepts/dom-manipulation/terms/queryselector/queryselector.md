@@ -32,9 +32,10 @@ document.querySelector(selectors);
 
 The `querySelector()` method returns the first element within the document that matches the specified selector, or `null` if no matches are found.
 
-## `querySelector()` vs `querySelectorAll()`
+## `querySelector()` Vs. `querySelectorAll()`
 
 The `querySelector()` and `querySelectorAll()` methods are both used to select elements from the DOM, but they have key differences:
+
 - `querySelector()` returns the first matching element based on the specified CSS selector.
 - `querySelectorAll()` returns a NodeList of all matching elements that fit the given CSS selector.
 
