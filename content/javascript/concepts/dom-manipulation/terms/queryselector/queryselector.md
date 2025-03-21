@@ -34,19 +34,11 @@ The `querySelector()` method returns the first element within the document that 
 
 ## `querySelector()` vs `querySelectorAll()`
 
-While both methods use CSS selectors to target elements, they serve different purposes. The `querySelector()` method returns only the **first** matching element, stopping its search once a match is found. In contrast, `querySelectorAll()` returns a static `NodeList` containing all elements that match the specified selector.
+The `querySelector()` and `querySelectorAll()` methods are both used to select elements from the DOM, but they have key differences:
+- `querySelector()` returns the first matching element based on the specified CSS selector.
+- `querySelectorAll()` returns a NodeList of all matching elements that fit the given CSS selector.
 
-This difference is important when working with multiple elements. If there is a need to manipulate just one specific element, `querySelector()` is more efficient. However, when there is a need to work with multiple elements matching the same criteria, `querySelectorAll()` is the appropriate choice.
-
-## `querySelector()` vs `getElementById()`
-
-| Feature         | querySelector                                      | getElementById                                    |
-| --------------- | -------------------------------------------------- | ------------------------------------------------- |
-| Selector type   | Any valid CSS selector                             | Only ID selectors                                 |
-| Return value    | First matching Element                             | Element with specific ID                          |
-| Performance     | Slightly slower as it searches the entire DOM tree | Faster as it directly retrieves the element by ID |
-| Flexibility     | High (supports complex selectors)                  | Limited (only IDs)                                |
-| Browser support | All modern browsers                                | All browsers including older ones                 |
+To know more about `querySelectorAll()`, refer to its detailed entry - [`querySelectorAll()`](https://www.codecademy.com/resources/docs/javascript/dom-manipulation/querySelectorAll).
 
 ## Example 1: Selecting Elements with Class Names
 
