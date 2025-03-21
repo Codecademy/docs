@@ -13,7 +13,7 @@ The **AWS Free Tier** is where new users can explore and use AWS services at no 
 
 Free Tier Pricing Models:
 
-* **Free Trials:** These services are available for a limited time period, they allow users to test out the service before committing financially. They are available to new an existing users.
+* **Free Trials:** These services are available for a limited time period, they allow users to test out the service before committing financially. They are available to new and existing users.
 
 * **12 Months Free:** These services are only available to new AWS users. They are available for 12 months from your initial sign-up date.
 
