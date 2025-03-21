@@ -19,5 +19,5 @@ Free Tier Pricing Models:
 
 * **Always Free:** These services do no expire after 12 month nor do they have a trial period. These services are available for new and existing users.
 
-Not all AWS service are available on these pricing models, and those that are have specific limits. Make sure you are aware of these limits to avoid unwanted charges.
+> **Note:** Not all AWS service are available on these pricing models, and those that are have specific limits. Make sure you are aware of these limits to avoid unwanted charges.
 
