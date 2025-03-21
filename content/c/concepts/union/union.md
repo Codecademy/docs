@@ -28,14 +28,15 @@ union union_name {
 };
 ```
 
-**Parameters**
+**Parameters:**
 
 Unions do not take parameters directly, but their members can be of different data types:
+
 - `union_name`: The name given to the union.
 - `data_type`: It can be any valid C data type (`int`, `float`, `char`, etc.).
 - `member`: The names given to the union members.
 
-**Return Value**
+**Return Value:**
 
 A union does not hold a value itself, but its members can hold values. The memory is shared among all members, so assigning a value to one member overwrites the value of the others.
 
@@ -104,10 +105,10 @@ Memory size: 20
 
 Structures and unions are both user-defined data types in C, but they serve different purposes. The following table highlights the key differences between structures and unions, making it easier to choose the appropriate data type based on memory usage and accessibility requirements.
 
-| Feature            | Structure                                   | Union                                |
-|--------------------|-------------------------------------------|--------------------------------------|
-| **Memory Allocation** | Allocates memory for all members         | Shares memory among members          |
-| **Accessibility**   | All members can hold values simultaneously | Only one member holds a value at a time |
-| **Use Case**        | Suitable when all data fields need to be stored | Suitable for memory-efficient operations |
-| **Data Integrity**  | Stores all data without overwriting       | Only the last assigned value is retained |
-| **Memory Usage**    | Uses more memory as all members exist     | Uses less memory as only one member is active |
+| Feature               | Structure                                       | Union                                         |
+| --------------------- | ----------------------------------------------- | --------------------------------------------- |
+| **Memory Allocation** | Allocates memory for all members                | Shares memory among members                   |
+| **Accessibility**     | All members can hold values simultaneously      | Only one member holds a value at a time       |
+| **Use Case**          | Suitable when all data fields need to be stored | Suitable for memory-efficient operations      |
+| **Data Integrity**    | Stores all data without overwriting             | Only the last assigned value is retained      |
+| **Memory Usage**      | Uses more memory as all members exist           | Uses less memory as only one member is active |
