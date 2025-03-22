@@ -9,7 +9,7 @@ Tags:
   - 'Images'
   - 'Libraries'
   - 'Pillow'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent: 
   - 'learn Git and GitHub'
   - 'paths/Python'
 ---
@@ -19,25 +19,22 @@ In the Pillow library, The **.save()** method is used to save an image under the
 
 ## Syntax
 
-Image.save(fp, format=None, **params)     
+Image.save(filename)     
 
 #### Parameters:
     -**Image**: The Image object to be saved.
-    -**fp**: filename to the file to be saved.
-    -**format**: This is an optional paramater used if there is a conversion of the file(i.e. JPEG to GIF).
-    -**params**: Extra parameters to the image writer 
+    -**filename**: filename to the file to be saved.
+
 
 #### RETURNS:
     none
 
 ## Example
 
-[Text, code, images, etc. about example 1]
-
-![Image](fluffy-bird.jpeg)
+![Image](https://unsplash.com/photos/close-up-of-a-yellow-and-blue-macaw-lylCw4zcA7I)
 
 ``` 
-im1 = Image.open(r"C:\Users\Codecademy\Desktop\bird.jpg") 
+newImage = Image.open(r"C:\Users\Codecademy\Desktop\bird.jpg") 
 
-im1 = im1.save("fluffy.jpg")
+newImage = newImage.save("fluffy.jpg")
 ```
