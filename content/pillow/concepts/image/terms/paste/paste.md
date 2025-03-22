@@ -26,9 +26,11 @@ Image.paste(im, box=None, mask=None)
 ```
 
 **Parameters:**
+
 - `im` (Image | integer | float | string | tuple): The source image or a color value to paste. If a color value is provided (as a tuple for RGB or RGBA images, integer or color string), the box parameter must be specified.
 - `box` (tuple, optional): A 2-tuple `(x, y)` or 4-tuple `(x, y, width, height)` specifying the region to paste into. If a 2-tuple is provided, it represents the upper left corner of the paste location. If a 4-tuple is provided, it represents the (left, upper, right, lower) bounding box.
 - `mask` (Image, optional): A mask image. If given, this should have mode "1", "L", "LA", "RGBA" or "RGBa". Only the pixels where the mask is non-zero are pasted.
+
 ## Example
 
 In this example, we'll create a simple collage by pasting one image onto another:
@@ -55,7 +57,7 @@ background.save('collage_result.png')
 background.show()
 ```
 
-In this example, foreground.png is pasted onto background.jpg at the position(100, 100). 
+In this example, foreground.png is pasted onto background.jpg at the position(100, 100).
 
 The code above produces the image below:
 
@@ -68,4 +70,3 @@ Background image:
 Foreground image:
 
 ![Foreground image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-paste-foreground.jpeg)
-
