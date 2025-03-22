@@ -22,17 +22,17 @@ Adagrad is particularly effective when dealing with infrequent data, such as in 
 
 Adagrad works by maintaining a sum of squared gradients for each parameter and using this information to adapt the learning rate. Here's how it works:
 
-1. **Initialization**: The model parameters are initialized, and a small value (ε) is defined to prevent division by zero.
+1\. **Initialization**: The model parameters are initialized, and a small value (ε) is defined to prevent division by zero.
 
-2. **Gradient Computation**: For each parameter at time step t, compute the gradient of the loss function with respect to that parameter.
+2\. **Gradient Computation**: For each parameter at time step t, compute the gradient of the loss function with respect to that parameter.
 
-3. **Accumulate Squared Gradients**: Keep track of the sum of squared gradients for each parameter over time.
+3\. **Accumulate Squared Gradients**: Keep track of the sum of squared gradients for each parameter over time.
 
 $$G_t = G_{t-1} + g_t^2$$
 
 Where $$\ G_t \$$ is the accumulated squared gradient and $$\ g_t \$$ is the current gradient.
 
-4. **Update Parameters**: Adjust each parameter using its own adaptive learning rate.
+4\. **Update Parameters**: Adjust each parameter using its own adaptive learning rate.
 
 $$\theta_{t+1} = \theta_t - \left( \frac{\eta}{\sqrt{G_t + \epsilon}} \right) g_t$$
 
@@ -49,6 +49,7 @@ This approach causes parameters with frequently occurring features to receive sm
 ## Comparison with Adam and RMSprop
 
 Adagrad adapts learning rates but suffers from diminishing rates, Adam balances first and second moment estimates for stability, and RMSprop prevents diminishing rates by using a moving average of squared gradients. To explore more about each, refer to their respective entries:
+
 - [Adam optimization](https://www.codecademy.com/resources/docs/ai/neural-networks/adam-optimization)
 - [RMSprop](https://www.codecademy.com/resources/docs/ai/neural-networks/rmsprop)
 
