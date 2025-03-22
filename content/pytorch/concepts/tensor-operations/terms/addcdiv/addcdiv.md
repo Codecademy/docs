@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-The **`.addcdiv()`** function performs element-wise division of [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors) followed by scalar multiplication and addition to another tensor. It returns a new tensor with the formula: `input + value * (tensor1 / tensor2)`. This operation is commonly used in optimization algorithms, particularly in the implementation of adaptive learning rate methods like [Adam](https://www.codecademy.com/resources/docs/ai/neural-networks/adam-optimization), [RMSprop](https://www.codecademy.com/resources/docs/ai/neural-networks/rmsprop), and Adagrad.
+The **`.addcdiv()`** function performs element-wise division of [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors) followed by scalar multiplication and addition to another tensor. It returns a new tensor with the formula: `input + value * (tensor1 / tensor2)`. This operation is commonly used in optimization algorithms, particularly in the implementation of adaptive learning rate methods like [Adam](https://www.codecademy.com/resources/docs/ai/neural-networks/adam-optimization), [RMSprop](https://www.codecademy.com/resources/docs/ai/neural-networks/rmsprop), and [Adagrad](https://www.codecademy.com/resources/docs/ai/neural-networks/adagrad).
 
 In [deep learning](https://www.codecademy.com/resources/blog/what-is-deep-learning/) frameworks, efficient tensor operations are crucial for performance. The `.addcdiv()` function provides a convenient way to perform multiple arithmetic operations in a single call, which can help reduce computational overhead and improve code readability in complex neural network implementations.
 
