@@ -27,7 +27,10 @@ Image.composite(image1, image2, mask)
 
 - `image1`: The first image to be composited.
 - `image2`: The second image to be composited. Must have the same mode and size as the first image.
-- `mask`: A mask image. This image can have mode `"1"`, `"L"`, or `"RGBA"`, and must have the same size as the other two images.
+- `mask`: A grayscale or transparency mask that determines how image1 and image2 are blended. The mask can have:
+  - `"L"` mode (grayscale): Uses pixel values (0–255) to control blending.
+  - "1"` mode (binary): Only allows fully visible (white) or fully hidden (black) areas.
+  - `"RGBA"` mode: Uses the alpha channel (A) for blending but requires correct transparency values.
 
 **Return value:**
 
@@ -35,11 +38,14 @@ The method returns a new composite image.
 
 ## `.composite()` Vs. `.paste()` Vs. `.alpha_composite()`
 
-| Method               | Purpose                                             | Mask Type                                    | Results                                                                |
-| -------------------- | --------------------------------------------------- | -------------------------------------------- | ---------------------------------------------------------------------- |
-| `.composite()`       | Blends two entire images using a mask               | Separate mask image                          | Creates a new image with pixels from both sources based on mask values |
-| `.paste()`           | Places one image onto another at specified position | Optional box region or mask                  | Modifies the original image in-place                                   |
-| `.alpha_composite()` | Combines images using alpha channels                | Uses alpha channels in the images themselves | Creates a new image with alpha-channel-based composition               |
+Each of these Pillow methods is used for combining images but works differently:
+- `.composite()` blends two images using a separate mask, allowing selective transparency.
+- `.paste()` directly overlays one image onto another at a specified position, optionally using a mask.
+- `.alpha_composite()` merges images based on their alpha channels, ensuring smooth transparency handling.
+
+For a deeper dive into each method, refer to their respective entries:
+- [`.paste()`](https://www.codecademy.com/resources/docs/pillow/image/alpha-composite)
+- [`.alpha_composite()`](https://www.codecademy.com/resources/docs/pillow/image/alpha-composite)
 
 ## Example 1: Basic Image Compositing Using a Mask
 
