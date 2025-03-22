@@ -71,7 +71,7 @@ println(d <= b) // false
 Logical operators are used to combine two or more conditions and determine the overall result. Kotlin supports the following logical operators:
 
 - `&&` And: Returns `true` when the argument or expression on either side of the operator are both `true`.
-- `!!` Or: Returns `true` when one of the arguments or expressions in the statement are `true`.
+- `||` Or: Returns `true` when one of the arguments or expressions in the statement are `true`.
 - `!` Not: Returns `true` when the argument or expression is `false`, otherwise `true`.
 
 Here's an example of how to use logical operators in Kotlin:

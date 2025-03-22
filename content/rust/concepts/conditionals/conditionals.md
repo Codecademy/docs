@@ -38,7 +38,7 @@ if number > 10 {
 
 ## Else If Statement
 
-The `else if` statement ladder is used to evaluate multiple conditions after the initial `if` statememt. An `else if` statement checks another condition if all prior ones are false.
+The `else if` statement ladder is used to evaluate multiple conditions after the initial `if` statement. An `else if` statement checks another condition if all prior ones are false.
 
 ### Syntax
 

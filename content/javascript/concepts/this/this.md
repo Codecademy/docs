@@ -1,6 +1,6 @@
 ---
 Title: 'this'
-Description: 'In JavaScript, the this keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what this returns can vary depending on the context.'
+Description: 'It is often used within an object method, but what it refers to will vary depending on the execution context.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -158,29 +158,29 @@ There are two methods of the `Function` type named `.call()` and `.apply()` whic
 
 ```js
 function showProp(prefix) {
-  console.log(prefix + this.someProperty;
+  console.log(prefix + this.someProperty);
 }
 
 let obj1 = {
-  someProperty:23
+  someProperty: 23,
 };
 
 let obj2 = {
-  someProperty:37
+  someProperty: 37,
 };
 
-showProp.call(obj1,"The property is");
+showProp.call(obj1, 'The property is');
 // Output: The property is 23
 
-showProp.call(obj2,"The property is");
+showProp.call(obj2, 'The property is');
 // Output: The property is 37
 
 // The .apply() method takes an array as its second argument
 
-showProp.apply(obj1,["The property is"]);
+showProp.apply(obj1, ['The property is']);
 // Output: The property is 23
 
-showProp.apply(obj2,["The property is"]);
+showProp.apply(obj2, ['The property is']);
 // Output: The property is 37
 ```
 
@@ -207,8 +207,45 @@ function Obj() {
   someFunction().someProperty = 25;
 }
 
-var o1 = new Obj();
+let obj = new Obj();
 
 console.log(obj.someProperty);
 // Output = 25;
+```
+
+## Codebyte Example
+
+To demonstrate `this`, the following codebyte example creates the function `getInfo`. First, the class `Student` is created, and the constructor is called with the necessary parameters. Using `this`, global objects are created, which are then accessed within the function to retrieve values and return a string object:
+
+```codebyte/javascript
+class Student {
+
+  constructor(name, lastName, bornYear) {
+    this.name = name;
+    this.lastName = lastName;
+    this.bornYear = bornYear;
+  }
+
+  getInfo() {
+    const randomArr = [
+      'Mary and John',
+      'Rose and Leonard',
+      'Lucy and Joshua',
+      'Lyla and James'
+    ];
+
+    const idx = Math.floor(Math.random() * randomArr.length);
+
+    const info = {
+      "fullName": `${this.name} ${this.lastName}`,
+      "bornYear": this.bornYear,
+      "parents": randomArr[idx]
+    };
+
+    return info;
+  }
+}
+
+let studentOne = new Student('Marcy', 'Alano', 1999);
+console.log(studentOne.getInfo())
 ```

@@ -20,7 +20,7 @@ Five attributes for foundation models include:
 
 1. Expressivity: Can capture information and present it with realism.
 2. Scalability: Can handle large amounts of high-dimensional data.
-3. Mutlimodality: Can consume, process, and create content from many sources and domains.
+3. Multimodality: Can consume, process, and create content from many sources and domains.
 4. Memory: Can store and access knowledge.
 5. Compositionality: Can generalize.
 

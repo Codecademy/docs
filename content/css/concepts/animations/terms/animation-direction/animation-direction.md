@@ -87,4 +87,4 @@ div {
 }
 ```
 
-![Animation with animation-direction as alternate and altrernate-reverse](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example2.gif)
+![Animation with animation-direction as alternate and alternate-reverse](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example2.gif)

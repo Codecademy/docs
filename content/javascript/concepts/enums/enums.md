@@ -51,3 +51,30 @@ direction: south
 direction: east
 direction: west
 ```
+
+## Codebyte Example
+
+This codebyte example demonstrates the creation of an `enum` using `Object.freeze()`, how to use the enum values, and list all possible enum values:
+
+```codebyte/javascript
+const UserRoles = Object.freeze({
+  ADMIN: 'admin',
+  EDITOR: 'editor',
+  VIEWER: 'viewer'
+});
+
+let userRole = UserRoles.ADMIN;
+console.log(userRole);
+
+function canEdit(userRole) {
+  return userRole === UserRoles.ADMIN || userRole === UserRoles.EDITOR;
+}
+
+console.log(canEdit(UserRoles.ADMIN));
+console.log(canEdit(UserRoles.EDITOR));
+console.log(canEdit(UserRoles.VIEWER));
+
+Object.keys(UserRoles).forEach((role) =>
+  console.log('role:', role)
+);
+```

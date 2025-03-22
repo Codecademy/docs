@@ -37,7 +37,7 @@ public class Check {
     double pi = Math.PI;
     double degree = 60;
     double radian = degree * pi/180;
-    //to get output upto first decimal place
+    //to get output up to the first decimal place
     double roundedResult = Math.round(Math.cos(radian) * 10.0) / 10.0;
 
     System.out.println("Cosine of 60 degrees is " + roundedResult);

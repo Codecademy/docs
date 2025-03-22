@@ -1,6 +1,6 @@
 ---
 Title: 'Casting'
-Description: 'In Ruby, the language comes with a variety of building typecasting methods for conerting values from one data type to another. For the most part methods usually begin with to[data-type]. To convert from String to Integer, use toi: rb meaningoflife = "42" puts meaningoflife.class # Output: String meaningoflife = meaningoflife.to_i'
+Description: 'In Ruby, the language comes with a variety of building typecasting methods for converting values from one data type to another. For the most part methods usually begin with to[data-type]. To convert from String to Integer, use toi: rb meaningoflife = "42" puts meaningoflife.class # Output: String meaningoflife = meaningoflife.to_i'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In Ruby, the language comes with a variety of building typecasting methods for conerting values from one data type to another.
+In Ruby, the language comes with a variety of building typecasting methods for converting values from one data type to another.
 
 ## Syntax
 

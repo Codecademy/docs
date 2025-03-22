@@ -1,1 +1,1 @@
-content/general/concepts/bot/bot.md
+content/typescript/concepts/interfaces/interfaces.md

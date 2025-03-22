@@ -66,7 +66,10 @@ int another_year = *(pointer_to_year) - 33; // Value of another_year: 1953
 Like other data types, pointers can be passed to and returned from [functions](https://www.codecademy.com/resources/docs/c/functions). One scenario in which this might be useful is "returning" two values from a function.
 
 ```c
-bool divide(int a, int b, bool *d) {
+#include <stdio.h>
+#include <stdbool.h>
+
+int divide(int a, int b, bool *d) {
   int c = a / b;
 
   if (c * b == a) {
@@ -81,7 +84,13 @@ int numerator = 10;
 int denominator = 5;
 bool divisible;
 
-int result = divide(numerator, denominator, divisible);
+int main() {
+  int result = divide(numerator, denominator, &divisible);
+
+  printf("%d", result);
+
+  return 0;
+}
 ```
 
 In the example above, the `divide()` function returns the result of `a / b` and sets the variable that `d` points at to represent whether or not `a` is divisible by `b`. When this function is called on the last line, `result` is assigned a value of 2 and `divisible` becomes true.

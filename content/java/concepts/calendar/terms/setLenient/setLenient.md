@@ -18,7 +18,7 @@ The **`.setLenient()`** method of the `Calendar` class is used to set the lenien
 ## Syntax
 
 ```pseudo
-calender.setLenient(bool_flag)
+calendar.setLenient(bool_flag)
 ```
 
 This method has only one parameter, `bool_flag`, which should be set as `false` for a strict interpretation, that is, leniency is turned off. And set to `true` for leniency to be turned on.
@@ -89,7 +89,7 @@ Now, as we have set the leniency to false using `.setLenient(false)`, it correct
 
 ## Example 3
 
-This example shows another implementation of `.setLenient()`, where the date format is followed correctly, and therefore, the code does not throuw an error.
+This example shows another implementation of `.setLenient()`, where the date format is followed correctly, and therefore, the code does not throw an error.
 
 ```java
 import java.text.SimpleDateFormat;

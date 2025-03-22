@@ -1,6 +1,6 @@
 ---
 Title: 'Python:NumPy'
-Description: 'NumPy is a popular open-source Python library, used for complex mathematical operations and multi-dimentional arrays.'
+Description: 'NumPy is a popular open-source Python library, used for complex mathematical operations and multi-dimensional arrays.'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/python'
 CatalogContent:
   - 'learn-python-3'

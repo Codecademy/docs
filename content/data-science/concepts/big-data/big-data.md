@@ -24,7 +24,7 @@ Big data is utilized across multiple industries and applied in many ways, includ
 
 - Marketing departments use this data for targeted advertising, promoting products, and services that align with company interests.
 - Healthcare professionals may track data such as heart rate and sleep habits to improve health surveillance and assist people with performing ADLs (activities of daily living).
-- The transportation and automobile industries may use big data to improve road safety and navigation, as well as take prevetative measures against inclement weather.
+- The transportation and automobile industries may use big data to improve road safety and navigation, as well as take preventative measures against inclement weather.
 
 ## Processing Big Data
 

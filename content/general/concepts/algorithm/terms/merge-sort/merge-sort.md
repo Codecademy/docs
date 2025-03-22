@@ -32,7 +32,7 @@ CatalogContent:
 
 ### Implementation Pt.1
 
-The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of the first part of the Merge Sort Algorithm — spliting the main array into subarrays:
+The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of the first part of the Merge Sort Algorithm — splitting the main array into subarrays:
 
 ```java
 public static void mergeSort(int[] data){

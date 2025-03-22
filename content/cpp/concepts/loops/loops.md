@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **loop** can execute a statement or group of statements multiple times and the following is the general from of a loop statement in most programming languages.
+A **loop** can execute a statement or group of statements multiple times and the following is the general form of a loop statement in most programming languages.
 
 ## While Loop
 

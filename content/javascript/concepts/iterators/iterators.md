@@ -26,7 +26,7 @@ The **iterator protocol**, by definition, implements the `next()` method and ret
 
 ## Example
 
-This range-based iterator, loops through a collection of integers and satisfies the iteration protocols.
+This range-based iterator loops through a collection of integers and satisfies the iteration protocols.
 
 ```js
 function createRangeIterator(min = 0, max = Infinity, step = 1) {
@@ -72,4 +72,20 @@ This will output:
 2
 4
 6
+```
+
+## Codebyte Example
+
+Run the codebyte example below to see how an iterator works with a string:
+
+```codebyte/javascript
+const str = "Hello";
+const iterator = str[Symbol.iterator]();
+
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
 ```

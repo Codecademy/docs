@@ -68,7 +68,7 @@ public class Example {
   public static void Main() {
     double number = 299792458;
 
-    Console.WriteLine("The absolute value of of " + number + " is: " + Math.Abs(number));
+    Console.WriteLine("The absolute value of " + number + " is: " + Math.Abs(number));
   }
 }
 ```

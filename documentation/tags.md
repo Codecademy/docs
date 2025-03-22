@@ -7,6 +7,8 @@ Feel free to add suggestions for new tags to the list as part of your PR! Be sur
 ```
 Abstraction
 Accessibility
+Access Modifiers
+Aggregate Functions
 AI
 Algorithms
 Alias
@@ -24,6 +26,7 @@ Assert
 Assignment
 Asymptotic Notation
 Async Await
+Attention
 Attributes
 Authentication
 Automation
@@ -51,12 +54,16 @@ Buttons
 Calendar
 Catch
 Characters
+Charts
+Chi-Square
 Chatbots
 Cryptocurrency
 Classes
+Classification
 Cloud Computing
 Code Editors
 Conditionals
+Collations
 Collections
 Colors
 Combinators
@@ -80,11 +87,16 @@ CSS
 CSV
 Cybersecurity
 D3
+Deployment
 Dart
 Data
+Data Distributions
+Data Parallelism
 Data Structures
 Data Types
 Database
+DataLoader
+Datasets
 Date
 Dart Operators
 Debugging
@@ -93,6 +105,7 @@ Deep Learning
 Denoising
 Dependency
 Design
+Deques
 Developer Tools
 Development
 DFS
@@ -100,6 +113,7 @@ Dictionary
 Dijkstra's
 Display
 Distance
+Dimensions
 Distinct
 Div
 Django
@@ -122,6 +136,7 @@ Errors
 ES6
 Ethical Hacking
 Events
+Event Handling
 Exceptions
 Expo
 Express
@@ -135,6 +150,7 @@ Flask
 Flexbox
 Flutter
 Fonts
+Footnotes
 For
 ForEach
 Foreign Key
@@ -179,6 +195,7 @@ Interface
 iOS
 Iterators
 Java
+JavaScript
 Join
 jQuery
 JRuby
@@ -201,6 +218,7 @@ Lists
 Logic
 Logical
 Logistic Regression
+Logit
 Loops
 Map
 Machine Learning
@@ -212,10 +230,14 @@ Matrices
 Media Queries
 Memory
 Metadata
+Model Export
 Methods
 Middleware
 Models
 Modules
+Multitask Learning
+MultiTaskLasso
+Model Export
 MySQL
 Naive Bayes
 Natural Language Processing
@@ -232,10 +254,12 @@ Obsolete
 Ontologies
 OOP
 Opacity
+ONNX
 Open Source
 Operating Systems
 Operators
 Optimization
+Optimizers
 Optionals
 Output
 p5
@@ -247,6 +271,8 @@ Parameters
 Perceptrons
 Phaser
 Physics
+Pillow
+Plotly
 Pointers
 Positioning
 PostgreSQL
@@ -259,6 +285,8 @@ Promise
 Programming
 Properties
 Protocols
+Python
+PyTorch
 Queries
 Queues
 Quicksort
@@ -271,6 +299,7 @@ Readr
 Rectangle
 Recursion
 Redux
+RMSProp
 References
 Regular Expressions
 Requests
@@ -295,17 +324,23 @@ Sorting Algorithms
 Span
 Specificity
 Spread
+SQL
 SQLite
 SQL Server
 Stacks
 Static Site
 Statistics
+Statsmodels
 Storage
+Strict Mode
 Stringr
 Strings
 Structure
 Style
+Stochastic Gradient Descent
 Subqueries
+Supervised Learning
+Swift
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
@@ -317,12 +352,16 @@ Tags
 Target
 Technical Interviews
 Templates
+Tensor
 TensorFlow
+Ternary
 Text-To-Image
+Text Processing
 Threads
 Tidyr
 Time
 Title
+Transformers
 Transitions
 Transpilation
 Trees
@@ -330,6 +369,7 @@ Trigonometry
 Try
 Tuples
 Types
+TorchScript
 Type Guard
 Type Narrowing
 Typography
@@ -339,7 +379,9 @@ Union
 Unicode
 Units
 Unix
+Unsupervised Learning
 URL
+Utility Types
 UX
 Validation
 Values
@@ -354,10 +396,13 @@ Visibility
 VR
 Vue
 Web3
+Exponential
 WebRTC
 Weight & Bias
 While
 Whiteboarding
+Weibull
+Window Functions
 WordPress
 World Wide Web
 Xcode

@@ -15,7 +15,7 @@ CatalogContent:
 
 **Virtual reality (VR)** is a technology that uses head-mounted headsets with displays to generate realistic images, sounds, and other sensations to put users into an immersive virtual environment. VR can create unbounded worlds that people can walk around and interact with using their hands, and to feel as if they were transported to another place.
 
-It’s still considered an evolving trend of the tech industry⁠ — fun, exciting, and bustling with opportunities.
+It’s still considered an evolving trend of the tech industry — fun, exciting, and bustling with opportunities.
 
 ## Augmented Reality vs. Virtual Reality
 
@@ -28,7 +28,7 @@ Virtual reality is poised to grow substantially in use during the 21st century a
 - Web development: [A-Frame](https://www.codecademy.com/learn/learn-a-frame) is a popular [open-source](https://www.codecademy.com/resources/docs/open-source) web framework for building virtual reality experiences in the web browser.
 - Automotive industry: Companies like [Jaguar](https://techwireasia.com/2020/02/how-jaguar-land-rover-uses-vr-to-design-and-engineer-new-vehicles/) are incorporating VR into their vehicle design before commissioning expensive prototypes.
 - Healthcare:
-  - Softwares like [Osso VR](https://www.ossovr.com/) allow for practicing surgical techniques on virtual bodies.
+  - Software like [Osso VR](https://www.ossovr.com/) allow for practicing surgical techniques on virtual bodies.
   - [BehaVR](https://www.behavr.com/) is used as pain relief for burn injuries.
 - Real estate: [Klapty](https://www.klapty.com/explore) features virtual tours of apartments and houses that are on the market.
 - Education: Products like [Engagevr](https://engagevr.io) provides learning experiences in a risk-free space mostly for soft skills such as public speaking and active listening.

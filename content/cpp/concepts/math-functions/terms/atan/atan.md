@@ -22,7 +22,7 @@ atan(n)
 The `n` parameter can be any real number (positive, negative, or zero).
 
 - If `n` is zero, the result will be zero with the same sign.
-- If `n` is postive or negative infinity, the result will be 1.5708 radians with the same sign.
+- If `n` is positive or negative infinity, the result will be 1.5708 radians with the same sign.
 
 ## Example
 

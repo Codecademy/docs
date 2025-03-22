@@ -16,18 +16,18 @@ In Git, the `status` command shows the state of the working directory, staging a
 
 ## Example
 
-Below is a short example of how the `git status` command works. Assuming a change was saved in a text file, **example.txt**, running `git status` will show that:
+Below is a short example of how the `git status` command works. Running `git status` will show the following, assuming a change was saved in a text file _example.txt_ (but not added to the staging area) and _README.txt_ is a new file that was added to the staging area:
 
 ```shell
 $ git status
 
 On branch main
 
-No commits yet
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+  new file: README.txt
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
   example.txt
-
-nothing added to commit but untracked files present (use "git add" to track)
 ```

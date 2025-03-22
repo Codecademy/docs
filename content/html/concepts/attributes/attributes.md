@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-HTML **attributes** are data that can be added to the opening tag of an HTML element. These attributes modify the default behavior of the element or provide additional information about it.
+HTML **attributes** are instructions that are placed inside the opening tag of an HTML element. These attributes modify the default setting of an element by adding additional features to it.
 
-Attributes consist of a name and are usually set equal to a value. Values are enclosed in double or single quotation marks.
+Attributes consist of a name and a value. The name describes the type of attribute, while the value, which can be enclosed in double or single quotation marks, determines the rate of changes that can be applied to the element.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ The syntax for adding attributes to an HTML element is as follows:
 
 ### Image Attributes
 
-Using an [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img) element, which is commonly used to display images, reveals several attributes, such as `src`, `width`, and `height`. These attributes exert significant influence over the manner in which the image appears on the web page. The dimensions of the particular element, once specified, enable precise control over the end result.
+Using an [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img) tag, which is commonly used to display images, reveals several attributes, such as 'src`,`width`, and`height`. These attributes exert significant influence over the manner in which the image appears on the web page. For example, when the dimensions of an element are specified, its size will be maintained when rendered by a browser.
 
 ```html
 <img src="source_of_image.png" width="500" height="600" />

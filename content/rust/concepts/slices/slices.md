@@ -107,7 +107,7 @@ In Rust, when a slice is designated as mutable, the alteration of the elements w
 
 ## Mutable Slice Syntax
 
-```pesudo
+```pseudo
 let slice = &mut data_structure[start_index..end_index];
 ```
 

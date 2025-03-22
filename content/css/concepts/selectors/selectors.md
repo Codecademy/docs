@@ -102,6 +102,31 @@ p.center {
 }
 ```
 
+## The CSS Grouping Selector
+
+The grouping selector selects a group of HTML elements and applies a specific set of styles to each one of them, helping in minimizing the codebase.
+
+### Syntax
+
+```pseudo
+elm1, elm2, elm3 {
+  /* Declarations are inserted here */
+}
+```
+
+In the following example, a particular set of styles is applied to all the `h1`, `h2`, and `p` elements:
+
+### Example
+
+```css
+h1,
+h2,
+p {
+  text-align: center;
+  color: red;
+}
+```
+
 ## Video Walkthrough
 
 Watch this video on how to compare the various selectors in CSS.

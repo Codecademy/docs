@@ -28,7 +28,7 @@ My name is Melanie
 !
 ```
 
-If just the `#gets` method is used, the keystroke on the <kbd>Enter</kbd> key is submitted with rest of the input, hence why thd `!` is on a new line. This can be avoided with the `#chomp` method:
+If just the `#gets` method is used, the keystroke on the <kbd>Enter</kbd> key is submitted with rest of the input, hence why the `!` is on a new line. This can be avoided with the `#chomp` method:
 
 ```rb
 name = gets.chomp

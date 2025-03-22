@@ -21,7 +21,7 @@ The **`colnames()`** function returns or sets the names of the columns in a data
 The column names can be retrieved and set using the following syntax:
 
 ```pseudo
-# Retrival
+# Retrieval
 colnames(df_object)
 
 # Setting

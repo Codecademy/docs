@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.setMinimalDaysInFirstWeek()`** method of the `Calendar` class sets the minimal number of days required in the first week of a year based on the the amount of days passed as an argument to the method.
+The **`.setMinimalDaysInFirstWeek()`** method of the `Calendar` class sets the minimal number of days required in the first week of a year based on the amount of days passed as an argument to the method.
 
 ## Syntax
 

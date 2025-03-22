@@ -78,7 +78,7 @@ if __name__ == '__main__':
   unittest.main()
 ```
 
-First the `unittest.TestCase` class is subclassed for our test case object. Then tests are defined as methods with names starting with `test`. This naming convention is manditory as it allows the test runner to find the methods that represent tests.
+First the `unittest.TestCase` class is subclassed for our test case object. Then tests are defined as methods with names starting with `test`. This naming convention is mandatory as it allows the test runner to find the methods that represent tests.
 
 Tests consist of methods containing calls to one or more `assert` methods of the test case object:
 

@@ -33,7 +33,7 @@ If any of the `condition_`s evaluate to `NOT TRUE`, then the entire `WHERE` clau
 
 ## Example
 
-THe following example filters the current students with GPA higher than 3.0 for the rest of the `students` table:
+The following example filters the current students with GPA higher than 3.0 for the rest of the `students` table:
 
 ```sql
 SELECT *

@@ -41,7 +41,7 @@ The implementation below can be broken down into the following steps:
 - The process starts in earnest by iterating over all edge-pairs to identify the starting node.
 - If the starting node is present in an edge-pair, as the source or destination, then the accompanying (neighboring) node is added to the `neighbors` list.
 - Once all the neighbors have been collected, another loop iterates over this list.
-- A second variable for updating the path (`curr_path`) is instatiated. This variable is the sum of the existing steps in addition to the current node.
+- A second variable for updating the path (`curr_path`) is instantiated. This variable is the sum of the existing steps in addition to the current node.
 - Each neighbor is tested. If it matches the destination node, the search is complete and `curr_path` is returned.
 - If the neighbor is not a match, the path is added to the queue.
 - Once all the neighbors have been exhausted, the `curr_node` is added to the tested nodes list. Now, the process starts again from the top with the next path in the queue.

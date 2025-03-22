@@ -2,8 +2,8 @@
 Title: 'Serialization'
 Description: 'The process of converting data into a format that can be stored or transmitted.'
 Subjects:
-  - 'Mobile Developement'
-  - 'Web Developement'
+  - 'Mobile Development'
+  - 'Web Development'
   - 'Data Science'
 Tags:
   - 'Kotlin'

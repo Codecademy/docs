@@ -32,7 +32,7 @@ Before beginning the Design Sprint, it is crucial to select people from differen
 
 At the end of the Design Sprint, the team learns which solutions work or don’t work with their target users facilitating informed decisions.
 
-![The Five Phases of Design Sprint](https://raw.githubusercontent.com/Codecademy/docs/main/media/design-sprint-phases)
+![The Five Phases of Design Sprint](https://raw.githubusercontent.com/Codecademy/docs/main/media/design-sprint-phases.png)
 
 ## About Design Sprint
 

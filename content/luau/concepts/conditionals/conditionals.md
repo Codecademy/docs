@@ -22,7 +22,7 @@ Conditionals are used to control the flow of the execution of code within a prog
 
 A basic `if` conditional in Luau is given as follows:
 
-```psuedo
+```pseudo
 if <condition> then
   <code block>
 end

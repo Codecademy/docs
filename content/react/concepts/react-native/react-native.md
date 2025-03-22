@@ -25,5 +25,5 @@ Traditional mobile app development required multiple codebases for each operatin
 
 React Native can be installed, configured, and used in two ways:
 
-- The [Expo CLI](https://reactnative.dev/docs/environment-setup) only requires Node.js to quicky build and troubleshoot an application. This can also be done in-browser with [Snack](https://snack.expo.dev/).
+- The [Expo CLI](https://reactnative.dev/docs/environment-setup) only requires Node.js to quickly build and troubleshoot an application. This can also be done in-browser with [Snack](https://snack.expo.dev/).
 - The [React Native CLI](https://reactnative.dev/docs/environment-setup#installing-dependencies) requires a few extra dependencies and configurations, depending on the scope of the project.

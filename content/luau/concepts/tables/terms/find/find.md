@@ -21,7 +21,7 @@ table.find(myTable,value)
 ```
 
 - `myTable`: A table containing values where the specified value being searched is present.
-- `value`: This represents paramter of the value being sought after in the table.
+- `value`: This represents parameter of the value being sought after in the table.
 
 ## Example
 

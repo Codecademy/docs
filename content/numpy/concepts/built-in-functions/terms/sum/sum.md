@@ -31,7 +31,7 @@ The `a` argument is required and represents the array of elements to sum. All ot
 - `dtype`: The type of the returned array and the accumulator used to sum elements. Defaults to the dtype of `array`.
 - `out`: An [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) to receive result. Must have the same shape as expected output.
 - `keepdims`: A boolean if true will keep reduced axes in the result as dimensions with size one.
-- `inital`: The starting value for sum.
+- `initial`: The starting value for sum.
 - `where`: A boolean array that maps to `array` and selects elements to include into the sum.
 
 ## Example

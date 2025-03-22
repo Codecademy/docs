@@ -29,7 +29,7 @@ The `text-align-value` can be the following:
 
 ## Example 1
 
-Set the `p` tag to `center`:
+In the example below, the `text-align` property for the `p` tag is set to `center`, which aligns the text inside the paragraph to the center:
 
 ```css
 p {
@@ -37,4 +37,6 @@ p {
 }
 ```
 
-The text in `p` tag will be centered.
+The above code produces the following output:
+
+![Centered text inside the paragraph](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-align-paragraph-example.png)

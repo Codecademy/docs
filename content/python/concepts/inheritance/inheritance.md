@@ -137,7 +137,7 @@ AttributeError: 'Python' object has no attribute '__private'
 Python has two built-in functions that work with inheritance:
 
 - `isinstance()`
-- `issubclasss()`
+- `issubclass()`
 
 `isinstance()` checks an instance’s type:
 

@@ -21,7 +21,7 @@ Specifies how hidden content is signaled to the user.
 text-overflow: <value>;
 ```
 
-The following values can be be appplied to the `text-overflow` property:
+The following values can be applied to the `text-overflow` property:
 
 - `clip`: Default value. Cuts off/hides the overflowing content.
 - `ellipsis`: Displays an ellipsis, "...".

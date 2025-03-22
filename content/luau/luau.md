@@ -12,4 +12,4 @@ Luau is open-source and information on it’s source code and associated tools c
 
 ## Luau vs. Lua
 
-The difference between Luau and Lua comes down to performance. Luau has a number of performance optimizations including a fast bytecode interpreter, making it faster and more efficient than Lua. Luau also doesn't have just-in-time (JIT) compilation since it's main focus is on stable high performance code and JIT compilation is not available on many platforms Luau runs on. This is different from Lua which has a focus on JIT and has a tracing just-in-time compiler called LuaJIT.
+The difference between Luau and Lua comes down to performance. Luau has a number of performance optimizations including a fast bytecode interpreter, making it faster and more efficient than Lua. Luau also doesn't have just-in-time (JIT) compilation since its main focus is on stable high performance code and JIT compilation is not available on many platforms Luau runs on. This is different from Lua which has a focus on JIT and has a tracing just-in-time compiler called LuaJIT.

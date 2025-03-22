@@ -31,7 +31,7 @@ Parameters of the `.amax()` function:
 - `axis`: (Default = None) An integer or a tuple of integers specifying the axis/axes along which to operate. If a tuple of integers, the maximum is across multiple axes.
 - `out`: (Default = None) An [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) to receive result. Must have the same shape as the expected output.
 - `keepdims`: (Default = <no value>) A boolean; if `True` will keep reduced axes in the result as dimensions with size one.
-- `inital`: (Default = <no value>) The minimum value of an output element.
+- `initial`: (Default = <no value>) The minimum value of an output element.
 - `where`: (Default = <no value>) A boolean array that maps to `a` with identical dimensions and selects which elements to compare for the maximum.
 
 Returns:
