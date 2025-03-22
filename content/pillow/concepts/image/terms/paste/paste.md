@@ -36,25 +36,32 @@ This method modifies the original image in-place and does not return a new image
 
 ## Example
 
-In this example, a collage is created by pasting one image onto another:
+This example demonstrates how to paste one image onto another to create a collage.
+
+This is the background image that will be used for the collage:
+![The background image used as the base for the collage](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-paste-background.jpeg)
+
+This is the foreground image that will be pasted onto the background:
+![The foreground image that will be pasted onto the background](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-paste-foreground.jpeg)
 
 ```py
 from PIL import Image
 
 # Open the background and foreground images
-background = Image.open('background.png')
-foreground = Image.open('foreground.png')
+background = Image.open('background.jpeg')
+foreground = Image.open('foreground.jpeg')
 
-# Resize the foreground image if needed
+# Resize the foreground image to fit better on the background
 foreground = foreground.resize((200, 200))
 
-# Define the position (top-left corner) to paste the foreground image
+# Define the position where the foreground will be pasted (top-left corner)
 position = (100, 100)
 
+# Paste the foreground image onto the background
 background.paste(foreground, position)
 
 # Save the result
-background.save('collage_result.png')
+background.save('collage_result.jpeg')
 
 # Display the image
 background.show()
@@ -64,12 +71,4 @@ In this example, **foreground.png** is pasted onto **background.jpg** at the pos
 
 The code above produces the image below:
 
-![Collage](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-paste-collage-result.jpeg)
-
-Background image:
-
-![Background image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-paste-background.jpeg)
-
-Foreground image:
-
-![Foreground image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-paste-foreground.jpeg)
+![The final image with the foreground pasted onto the background at a specified position](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-paste-collage-result.jpeg)
