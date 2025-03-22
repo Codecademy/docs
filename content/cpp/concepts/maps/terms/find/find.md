@@ -16,18 +16,19 @@ CatalogContent:
 
 The **`.find()`** method looks for an element with a given key in a map. It returns an iterator pointing to the element if the key is found; otherwise, it returns an iterator pointing to **`map.end()`**
 
-## Syntax 
+## Syntax
+
 ```pseudo
 mapName.find(key);
 ```
 
-The `key` is the element to be searched 
+The `key` is the element to be searched
 
-## Codebyte by example 
+## Codebyte by example
 
 The following codebyte example demonstrates how to use `.find()` to search for a key in a map:
 
-```codebyte/cpp 
+````codebyte/cpp
 #include <iostream>
 #include <map>
 
@@ -61,3 +62,4 @@ int main() {
     std::cout << key << " not found in the map.\n";
   }
 }```
+````
