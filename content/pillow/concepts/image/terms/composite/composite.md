@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`.composite()`** method creates composite images by blending two images using a transparency mask. This powerful feature allows selective combination of visual elements from different sources using a third image as a mask to control the blending.
 
-`.composite()` is particularly useful for photo manipulation, creative design work, and generating custom visuals where precise control over image composition is needed. Common applications include creating collages, applying watermarks selectively, generating special visual effects, or combining elements from multiple images.
+`.composite()` method is particularly useful for photo manipulation, creative design work, and generating custom visuals where precise control over image composition is needed. Common applications include creating collages, applying watermarks selectively, generating special visual effects, or combining elements from multiple images.
 
 ## Syntax
 
