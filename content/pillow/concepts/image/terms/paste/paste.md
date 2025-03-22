@@ -14,26 +14,29 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
-The `.paste()` **method** in Pillow allows for pasting one image onto another at a specified position. This method can be used for image composition, watermarking, or creating collages.
+The **`.paste()`** method in Pillow allows pasting one image onto another at a specified position. It is commonly used for image composition, watermarking, or creating collages. An optional mask can be provided to handle transparency.
 
 ## Syntax
 
-```py
+```pseudo
 Image.paste(im, box=None, mask=None)
 ```
 
 **Parameters:**
 
-- `im` (Image | integer | float | string | tuple): The source image or a color value to paste. If a color value is provided (as a tuple for RGB or RGBA images, integer or color string), the box parameter must be specified.
-- `box` (tuple, optional): A 2-tuple `(x, y)` or 4-tuple `(x, y, width, height)` specifying the region to paste into. If a 2-tuple is provided, it represents the upper left corner of the paste location. If a 4-tuple is provided, it represents the (left, upper, right, lower) bounding box.
-- `mask` (Image, optional): A mask image. If given, this should have mode "1", "L", "LA", "RGBA" or "RGBa". Only the pixels where the mask is non-zero are pasted.
+- `im` (Image | integer | float | string | tuple): The source image to paste or a solid color. If a color is provided (tuple for RGB/RGBA, integer for grayscale, or color string like `"red"`), the `box` parameter must be specified.
+- `box` (tuple, optional): Specifies where to paste the image. If a 2-tuple `(x, y)` is given, it defines the top-left corner. If a 4-tuple `(left, upper, right, lower)` is given, it defines a bounding box, and the pasted image is resized to fit it.
+- `mask` (Image, optional): A mask image controlling transparency. Must be in mode "1", "L", "LA", "RGBA", or "RGBa". Only areas where the mask is nonzero are pasted.
+
+**Return value:**
+
+This method modifies the original image in-place and does not return a new image.
 
 ## Example
 
-In this example, we'll create a simple collage by pasting one image onto another:
+In this example, a collage is created by pasting one image onto another:
 
 ```py
 from PIL import Image
@@ -57,7 +60,7 @@ background.save('collage_result.png')
 background.show()
 ```
 
-In this example, foreground.png is pasted onto background.jpg at the position(100, 100).
+In this example, **foreground.png** is pasted onto **background.jpg** at the position `(100, 100)`.
 
 The code above produces the image below:
 
