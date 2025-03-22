@@ -29,7 +29,7 @@ Image.composite(image1, image2, mask)
 - `image2`: The second image to be composited. Must have the same mode and size as the first image.
 - `mask`: A grayscale or transparency mask that determines how image1 and image2 are blended. The mask can have:
   - `"L"` mode (grayscale): Uses pixel values (0–255) to control blending.
-  - "1"` mode (binary): Only allows fully visible (white) or fully hidden (black) areas.
+  - `"1"` mode (binary): Only allows fully visible (white) or fully hidden (black) areas.
   - `"RGBA"` mode: Uses the alpha channel (A) for blending but requires correct transparency values.
 
 **Return value:**
@@ -39,11 +39,13 @@ The method returns a new composite image.
 ## `.composite()` Vs. `.paste()` Vs. `.alpha_composite()`
 
 Each of these Pillow methods is used for combining images but works differently:
+
 - `.composite()` blends two images using a separate mask, allowing selective transparency.
 - `.paste()` directly overlays one image onto another at a specified position, optionally using a mask.
 - `.alpha_composite()` merges images based on their alpha channels, ensuring smooth transparency handling.
 
 For a deeper dive into each method, refer to their respective entries:
+
 - [`.paste()`](https://www.codecademy.com/resources/docs/pillow/image/alpha-composite)
 - [`.alpha_composite()`](https://www.codecademy.com/resources/docs/pillow/image/alpha-composite)
 
