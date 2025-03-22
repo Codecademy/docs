@@ -1,6 +1,6 @@
 ---
 Title: '.merge()'
-Description: 'Set of single band images into a new multiband image'
+Description: 'Merges set of single-band images into a new multi-band image.'
 Subjects:
   - 'Computer science'
   - 'Data Science'
@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The **`.merge()`** is used to set of single band images into a new multiband image. We can create a new image by merging specific bands when we working with multispectral or multichannel images such as RGB or CMYK images.
+The **`.merge()`** function in Pillow combines multiple single-band images into a new multi-band image. This is particularly useful when working with multispectral or multichannel images, such as RGB or CMYK images, where individual channels can be processed separately before merging them into a final image.
 
 ## Syntax
 
@@ -25,25 +25,30 @@ The **`.merge()`** is used to set of single band images into a new multiband ima
 Image.merge(mode, bands)
 ```
 
-- `mode` : The parameter is the mode of the new multiband image.
-- `bands` :This parameter is a tuple of the individual image bands that is to be merged. The individual images should be single-channel image or a grayscale image.
+- `mode`: The mode of the new multiband image (e.g., "RGB", "CMYK", etc.).
+- `bands`: A tuple containing the individual image bands to be merged. Each band should be a single-channel (grayscale) image.
 
 ## Example
 
-The code below splits the image into single bands and merge them.
+The code below splits an image into its individual bands and then merges them back in a different order.
 
-![Boston Skyline](../../../../../../media/Boston.jpg)
+![Boston Skyline](https://raw.githubusercontent.com/Codecademy/docs/main/media/Boston.jpg)
 
 ```py
 from PIL import Image
+
+# Open the image
 image1= Image.open('media/Boston.jpg')
-image1.load()
 im = image1.resize((400,400))
 
+# Split the image into its RGB channels
 r,g,b = im.split()
+
+
+# Merge the bands in a different order (swapping red and blue)
 new_image= Image.merge('RGB', (b,r,g))
 new_image.show()
 ```
 
 **The output image**
-![Merged Boston Skyline](../../../../../../media/merged_boston.png)
+![Merged Boston Skyline](https://raw.githubusercontent.com/Codecademy/docs/main/media/merged-boston.png)
