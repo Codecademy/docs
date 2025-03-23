@@ -19,6 +19,7 @@ CatalogContent:
 ---
 
 The **`.putalpha()`** method in the Pillow library modifies the alpha channel of an image, allowing control over its transparency. This method can either apply a uniform transparency level to the entire image or use another image as an alpha mask.
+
 ## Syntax
 
 ```psuedo
@@ -26,11 +27,11 @@ image.putalpha(alpha)
 ```
 
 ### Parameters:
-  - **`alpha`** (`int` or `Image`) – Defines the transparency level of the image.
-  - **`int`** (`0-255`): Applies uniform transparency across the entire image (`0` = fully transparent, `255` = fully opaque).
-  - **`Image` object**: Uses the pixel values from the provided image as an alpha mask, determining varying levels of transparency.
+  - **`alpha`** (`int` or `Image`): Defines the transparency level of the image.
+    - **`int`** (`0-255`): Applies uniform transparency across the entire image (`0` = fully transparent, `255` = fully opaque).
+    - **`Image` object**: Uses the pixel values from the provided image as an alpha mask, determining varying levels of transparency.
 
-## Example 1: Applying Uniform Transparancy
+## Example 1: Applying Uniform Transparency
 
 ```py
 from PIL import Image
@@ -59,13 +60,8 @@ image.putalpha(alpha_mask)
 
 # Save the new image  
 image.save("example_masked.png") 
-
 ```
-
-
-
 
 ## Notes
 - The `.putalpha()` method only works on images in **RGBA** or **LA** mode.
 - When using an alpha mask, the mask must be in **L** (grayscale) or **1** (black-and-white) mode.
-
