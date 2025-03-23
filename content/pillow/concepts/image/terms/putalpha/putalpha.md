@@ -3,32 +3,36 @@ Title: '.putalpha()'
 Description: 'Modifies the alpha channel (transparency) of an image in the Pillow library.'
 Subjects:
   - 'Computer Science'
+  - 'Data Science'
+  - 'Data Visualization' 
+
 Tags:
   - 'Python'
   - 'Pillow'
-  - 'Image Processing'
+  - 'Computer Vision'
+  - 'Images'
+  - 'Values'
+
 CatalogContent:
   - 'learn-python'
   - 'paths/computer-science'
 ---
 
-## Description
-
-The `.putalpha()` method in the **Pillow** library modifies the alpha channel of an image, controlling its transparency. This method allows setting a uniform transparency level or using another image as an alpha mask.
+The **`.putalpha()`** method in the Pillow library modifies the alpha channel of an image, allowing control over its transparency. This method can either apply a uniform transparency level to the entire image or use another image as an alpha mask.
 ## Syntax
 
-```python
+```psuedo
 image.putalpha(alpha)
 ```
 
 ### Parameters:
-- `alpha` *(int or Image)*: The alpha value to be applied.
-  - If an integer (0-255), it sets a uniform transparency level for the entire image (0 is fully transparent, 255 is fully opaque).
-  - If an `Image` object, it applies the alpha values from that image as a transparency mask.
+  - **`alpha`** (`int` or `Image`) – Defines the transparency level of the image.
+  - **`int`** (`0-255`): Applies uniform transparency across the entire image (`0` = fully transparent, `255` = fully opaque).
+  - **`Image` object**: Uses the pixel values from the provided image as an alpha mask, determining varying levels of transparency.
 
-## Example
+## Example 1: Applying Uniform Transparancy
 
-```python
+```py
 from PIL import Image
 
 # Open an existing image
@@ -41,22 +45,27 @@ image.putalpha(128)
 image.save("example_transparent.png")
 ```
 
-### Example Using an Alpha Mask
+## Example 2: Using an Alpha Mask
 
-```python
-# Create an RGBA image and an alpha mask
-alpha_mask = Image.open("mask.png").convert("L")
-image.putalpha(alpha_mask)
-image.save("example_masked.png")
+``` py 
+from PIL import Image 
+
+# Open an existing image  
+image = Image.open("example.png").convert("RGBA")  
+
+# Create an RGBA image and an alpha mask  
+alpha_mask = Image.open("mask.png").convert("L")  
+image.putalpha(alpha_mask)  
+
+# Save the new image  
+image.save("example_masked.png") 
+
 ```
+
+
+
 
 ## Notes
 - The `.putalpha()` method only works on images in **RGBA** or **LA** mode.
 - When using an alpha mask, the mask must be in **L** (grayscale) or **1** (black-and-white) mode.
 
-## Related Methods
-- `.convert("RGBA")` – Ensures the image has an alpha channel before using `.putalpha()`.
-- `.split()` – Separates an image into its component bands, including the alpha channel.
-
-## Resources
-- [Pillow Documentation: Image.putalpha()](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.putalpha)
