@@ -22,8 +22,6 @@ The **`.find()`** method searches for an element with a given key in a `std::map
 mapName.find(key);
 ```
 
-The `key` is the element to be searched
-
 **Parameters:**
 
 - `key`: The key to search for in the map.
