@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.find()`** method looks for an element with a given key in a map. It returns an iterator pointing to the element if the key is found; otherwise, it returns an iterator pointing to **`map.end()`**
+The **`.find()`** method searches for an element with a given key in a `std::map`. If found, it returns an iterator pointing to the element if the key is found; otherwise, it returns an iterator pointing to **`map.end()`**.
 
 ## Syntax
 
@@ -24,11 +24,20 @@ mapName.find(key);
 
 The `key` is the element to be searched
 
-## Codebyte by example
+**Parameters:**
+
+- `key`: The key to search for in the map.
+
+**Return value:**
+
+- If the key is found, returns an iterator pointing to the key-value pair.
+- If the key is not found, returns an iterator to `map.end()`.
+
+## Codebyte Example
 
 The following codebyte example demonstrates how to use `.find()` to search for a key in a map:
 
-````codebyte/cpp
+```codebyte/cpp
 #include <iostream>
 #include <map>
 
@@ -61,5 +70,5 @@ int main() {
   } else {
     std::cout << key << " not found in the map.\n";
   }
-}```
-````
+}
+```
