@@ -13,18 +13,17 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.getpixel()`** method is part of the `Image` module in the Pillow image processing library.
+The **`.getpixel()`** method is part of the [`Image`](https://www.codecademy.com/resources/docs/pillow/image) module in the Pillow library.
 
-It takes the x, y coordinates of an image in the form of a tuple and returns the pixel value at that location in the image. If the image is grayscale, this will be an integer. An RGB image returns a tuple of the respective red/green/blue values.
-
+ It takes `(x, y)` coordinates as a tuple and returns the pixel value at that location. If the image is grayscale (mode `"L"`), it returns an integer. For an RGB image, it returns a tuple `(R, G, B)`, and for an RGBA image, it returns `(R, G, B, A)`.
+ 
 ## Syntax
 
 ```pseudo
-Image.getpixel((x, y))
+Image.getpixel(xy)
 ```
 
-- `Image`: The image object.
-- `(x, y)`: A 2-tuple representing the coordinates of the pixel, where `(0, 0)` indicates the top-left corner of the image.
+- `xy` (tuple or list of two integers): The `(x, y)` coordinates of the pixel to retrieve.
 
 ## Example
 
