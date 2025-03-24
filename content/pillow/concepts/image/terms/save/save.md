@@ -33,7 +33,7 @@ image.save(fp, format=none, **params)
 ## Example
 The code brings in Image from the pillow library. Image is used to open up the image and then save it under the specified name.
 
-![Image]("fluffybird.jpg")
+![Image](../../../../../../media/blueMacaw.jpg)
 
 ``` 
 from PIL import Image
