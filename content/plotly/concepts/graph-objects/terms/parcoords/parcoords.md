@@ -62,7 +62,7 @@ fig = go.Figure(data=
 fig.show()
 ```
 
-In the above code, the data in the DataFrame can be accessed through the `dimensions` class and the lines of the parallel coordinates plot can be adjusted with the `line` class properties.
+In the above code, the data in the `DataFrame` can be accessed through the `dimensions` class and the lines of the parallel coordinates plot can be adjusted with the `line` class properties.
 
 The above code generates the following output:
 
