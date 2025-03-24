@@ -4,13 +4,11 @@ Description: 'Pastes an image onto another image at a specified position.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Data Visualization'
 Tags:
   - 'Images'
   - 'Libraries'
   - 'Methods'
   - 'Pillow'
-  - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -28,21 +26,23 @@ Image.paste(im, box=None, mask=None)
 
 - `im` (Image | integer | float | string | tuple): The source image to paste or a solid color. If a color is provided (tuple for RGB/RGBA, integer for grayscale, or color string like `"red"`), the `box` parameter must be specified.
 - `box` (tuple, optional): Specifies where to paste the image. If a 2-tuple `(x, y)` is given, it defines the top-left corner. If a 4-tuple `(left, upper, right, lower)` is given, it defines a bounding box, and the pasted image is resized to fit it.
-- `mask` (Image, optional): A mask image controlling transparency. Must be in mode "1", "L", "LA", "RGBA", or "RGBa". Only areas where the mask is nonzero are pasted.
+- `mask` (Image, optional): A mask image controlling transparency. Must be in mode `"1"`, `"L"`, `"LA"`, `"RGBA"`, or `"RGBa"`. Only areas where the mask is nonzero are pasted.
 
-**Return value:**
+**Return Value:**
 
 This method modifies the original image in-place and does not return a new image.
 
 ## Example
 
-This example demonstrates how to paste one image onto another to create a collage.
-
 This is the background image that will be used for the collage:
+
 ![The background image used as the base for the collage](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-paste-background.jpeg)
 
 This is the foreground image that will be pasted onto the background:
+
 ![The foreground image that will be pasted onto the background](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-paste-foreground.jpeg)
+
+This example demonstrates how to paste one image onto another to create a collage:
 
 ```py
 from PIL import Image
@@ -67,7 +67,7 @@ background.save('collage_result.jpeg')
 background.show()
 ```
 
-In this example, **foreground.png** is pasted onto **background.jpg** at the position `(100, 100)`.
+In this example, **foreground.jpeg** is pasted onto **background.jpeg** at the position `(100, 100)`.
 
 The code above produces the image below:
 
