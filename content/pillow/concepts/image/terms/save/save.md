@@ -1,39 +1,43 @@
 ---
 Title: '.save()'
-Description: 'Saves an Image to be used.'
+Description: 'saves an image to a specified file.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  
 Tags: 
   - 'Images'
   - 'Libraries'
   - 'Pillow'
 CatalogContent: 
-  - 'learn Git and GitHub'
-  - 'paths/Python'
+  - 'learn-python-3'
+  - 'paths/data-science'
 ---
 
 
-In the Pillow library, The **.save()** method is used to save an image under the given filename. This allows for the image to be saved in a recognizable way to the writer of the code. The given filename is written by the writer of the code.
+In the Pillow library, the **`.save()`** method saves an image to a specified filename. The filename, provided by the user or the code writer,determines the format in which the image is saved.
 
 ## Syntax
-
-Image.save(filename)     
+```pseudo
+image.save(fp, format=none, **params)     
 
 #### Parameters:
-    -**Image**: The Image object to be saved.
-    -**filename**: filename to the file to be saved.
+    - **fp**: A filename (string), os.PathLike object or file object.
+    - **format**: Optional format override. If omitted, the format to use is determined from the filename extension.
+                  If a file object was used instead of a filename, this parameter should always be used.
+    - ** **params**: Extra parameters to the image writer.
 
 
 #### RETURNS:
     none
 
 ## Example
+The code brings in Image from the pillow library. Image is used to open up the image and then save it under the specified name.
 
-![Image](https://unsplash.com/photos/close-up-of-a-yellow-and-blue-macaw-lylCw4zcA7I)
+![Image]("fluffybird.jpg")
 
 ``` 
+from PIL import Image
+
 newImage = Image.open(r"C:\Users\Codecademy\Desktop\bird.jpg") 
 
 newImage = newImage.save("fluffy.jpg")
