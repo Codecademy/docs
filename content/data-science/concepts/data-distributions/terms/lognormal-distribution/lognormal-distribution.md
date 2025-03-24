@@ -1,6 +1,6 @@
 ---
 Title: 'Lognormal distribution'
-Description: 'A statistical distribution where the logarithm of the variable follows a normal distribution, typically used for modeling quantities that are always non-negative.'
+Description: 'A probability distribution where the logarithm of the variable follows a normal distribution, typically used for modeling quantities that are always non-negative.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -14,7 +14,7 @@ CatalogContent:
 
 The **lognormal distribution** is a probability distribution where the logarithm of a random variable follows a [normal distribution](https://www.codecademy.com/resources/docs/data-science/data-distributions/normal-distribution), characterized by a right-skewed shape with a positive tail.
 
-It naturally appears when studying variables affected by multiplicative processes. While the normal distribution emerges from additive random effects (as described by the Central Limit Theorem), the lognormal distribution appears when random effects multiply rather than add. This makes it ideal for modeling quantities that can only be positive and tend to have right-skewed distributions.
+This distribution is useful for modeling data that grows multiplicatively rather than additively, such as stock prices, income distributions, and biological growth. Unlike the normal distribution, which emerges from additive random effects (as described by the Central Limit Theorem), the lognormal distribution arises when random effects multiply rather than add.
 
 ## Example
 
@@ -29,8 +29,8 @@ import seaborn as sns
 np.random.seed(42)
 
 # Generate lognormal data
-mu = 0
-sigma = 0.5
+mu = 0   # Mean of the underlying normal distribution
+sigma = 0.5   # Standard deviation
 sample_size = 1000
 
 lognormal_data = np.random.lognormal(mean=mu, sigma=sigma, size=sample_size)
