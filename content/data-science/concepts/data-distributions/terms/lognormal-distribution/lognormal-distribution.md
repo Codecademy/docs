@@ -69,4 +69,4 @@ This code generates a sample of 1000 lognormal random values and visualizes thei
 
 The output of the above code will be:
 
-![Code output](https://raw.githubusercontent.com/Codecademy/docs/main/media/lognormal_1)
+![Code output](https://raw.githubusercontent.com/Codecademy/docs/main/media/lognormal_1.png)
