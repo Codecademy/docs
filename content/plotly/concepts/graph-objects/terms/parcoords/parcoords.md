@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 --- 
 
-In Plotly, the **`.Parcoords()`** function under the `graph_objects` module creates a parallel coordinates plot representing multivariate data. Each row of the given dataset is plotted as a polyline between the parallel axes.
+In Plotly, the **`.Parcoords()`** function under the [`graph_objects`](https://www.codecademy.com/resources/docs/plotly/graph-objects) module creates a parallel coordinates plot representing multivariate data. Each row of the given dataset is plotted as a polyline between the parallel axes.
 
 ## Syntax
 
