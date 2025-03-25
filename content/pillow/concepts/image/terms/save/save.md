@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In the Pillow library, the **`.save()`** method saves an image to a specified filename. The filename, provided by the user or the code writer,determines the format in which the image is saved.
+In the Pillow library, the **`.save()`** method saves an image to a specified filename. The filename, provided by the user or the code writer, determines the format in which the image is saved.
 
 ## Syntax
 
@@ -25,11 +25,11 @@ image.save(fp, format=none, **params)
 
 - `fp`: The file path or file object where the image will be saved. 
 - `format` (Optional): The format to save the image in (e.g., `"JPEG"`, `"PNG"`). If omitted, Pillow infers the format from the file extension.
-- `**params` (OPtional): Additional parameters specific to the image format.
+- `**params` (Optional): Additional parameters specific to the image format.
 
 **Return value:**
 
-The `.save()` method in Pillow does not return anything; it performs an in-place operation to save the image file.
+The `.save()` method in Pillow does not return anything. It performs an in-place operation to save the image file.
 
 ## Example
 
