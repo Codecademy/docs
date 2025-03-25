@@ -1,5 +1,5 @@
 ---
-Title: 'asinh()'
+Title: '.asinh()'
 Description: 'Returns the inverse hyperbolic sine of each element in an input tensor.'
 Subject:
  - 'AI'
