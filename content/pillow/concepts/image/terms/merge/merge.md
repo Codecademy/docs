@@ -30,7 +30,7 @@ Image.merge(mode, bands)
 
 ## Example
 
-The code below splits an image into its individual bands and then merges them back in a different order.
+The code below splits an image into its individual bands and then merges them in a different order.
 
 ![Boston Skyline](https://raw.githubusercontent.com/Codecademy/docs/main/media/Boston.jpg)
 
@@ -50,5 +50,6 @@ new_image= Image.merge('RGB', (b,r,g))
 new_image.show()
 ```
 
-**The output image**
+The output will be:
+
 ![Merged Boston Skyline](https://raw.githubusercontent.com/Codecademy/docs/main/media/merged-boston.png)
