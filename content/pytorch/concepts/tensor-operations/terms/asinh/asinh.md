@@ -31,7 +31,7 @@ torch.asinh(input, *, out=NONE) → Tensor
 
 **Returns**
 
-A new tensor with the inverse hyperbolic sine of each element from the input tensor.
+A new tensor containing the inverse hyperbolic sine of each element in the input tensor.
 
 ## Example
 
