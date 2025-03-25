@@ -1,7 +1,7 @@
 ---
 Title: '.asinh()'
 Description: 'Returns the inverse hyperbolic sine of each element in an input tensor.'
-Subject:
+Subjects:
  - 'AI'
  - 'Computer Science'
  - 'Data Science'
@@ -24,12 +24,12 @@ The PyTorch method **`.asinh()`** returns the inverse hyperbolic sine of each el
 torch.asinh(input, *, out=NONE) → Tensor
 ```
 
-**Parameters**
+### Parameters
 
 - `input`: A tensor containing real or complex values of any dimension.
 - `out` (Optional): A tensor to store the result. If not provided, a new tensor is created.
 
-**Returns**
+### Returns
 
 A new tensor containing the inverse hyperbolic sine of each element in the input tensor.
 
