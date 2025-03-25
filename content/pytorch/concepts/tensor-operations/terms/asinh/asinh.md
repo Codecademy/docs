@@ -12,8 +12,8 @@ Tags:
   - 'Machine Learning'
   - 'PyTorch'
 CatalogContent:
-  - 'intro-to-pytorch-and-neural-networks'
-  - 'paths/data-science
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/data-science'
 ---
 
 The PyTorch method **`.asinh()`** returns the inverse hyperbolic sine of each element in a given [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It is useful for mathematical and scientific computations involving hyperbolic functions.
