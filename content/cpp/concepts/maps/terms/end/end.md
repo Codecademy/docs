@@ -118,7 +118,7 @@ David is not in the database.
 Bob's grade: B
 ```
 
-## Example 3: Using `.end()` with STL Algorithms
+## Codebyte Example: Using `.end()` with STL Algorithms
 
 This example shows how to use `.end()` with STL algorithms to perform operations on map elements:
 
@@ -175,24 +175,5 @@ int main() {
 ```
 
 This example demonstrates how `.end()` is used with STL algorithms like `count_if` and `for_each`. These algorithms require a range defined by two iterators, and the common pattern is to use `.begin()` and `.end()` to specify the entire container.
-
-Here's how the output of the code will look like:
-
-```shell
-Map contents:
-Apple: 100
-Banana: 50
-Cherry: 120
-Date: 90
-------------------------
-Number of products with price > 95: 2
-After 10% discount:
-Map contents:
-Apple: 90
-Banana: 45
-Cherry: 108
-Date: 81
-------------------------
-```
 
 To explore more C++ concepts, check out our [Learn C++](https://www.codecademy.com/learn/learn-c-plus-plus) course to enhance your coding skills.
