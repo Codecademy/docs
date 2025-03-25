@@ -35,7 +35,7 @@ A new tensor containing the inverse hyperbolic sine of each element in the input
 
 ## Example
 
-The following demonstrates how to use `.asinh()` to compute the inverse hyperbolic sine for the real-valued 1D tensor.
+The following example demonstrates how to use `.asinh()` to compute the inverse hyperbolic sine for the real-valued 1D tensor.
 
 ```py
 import torch
