@@ -26,8 +26,8 @@ torch.asinh(input, *, out=NONE) → Tensor
 
 **Parameters**
 
-- `input`: Can accept both real-valued and complex valued input tensors of any dimension.
-- `out` (Optional): Stores the result of the `.asinh()` method. A new tensor will be created otherwise.
+- `input`: A tensor containing real or complex values of any dimension.
+- `out` (Optional): A tensor to store the result. If not provided, a new tensor is created.
 
 **Returns**
 
