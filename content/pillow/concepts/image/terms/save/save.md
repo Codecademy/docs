@@ -40,7 +40,7 @@ The code imports the `Image` module from the Pillow library. It opens an image f
 ```py
 from PIL import Image
 
-newImage = Image.open(r"C:\Users\Codecademy\Desktop\bird.jpg") 
+newImage = Image.open("blueMacaw.jpg") 
 
 newImage.save("fluffy.jpg")
 ```
