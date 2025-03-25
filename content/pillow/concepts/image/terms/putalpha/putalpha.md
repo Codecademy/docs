@@ -36,14 +36,16 @@ image.putalpha(alpha)
 ```py
 from PIL import Image
 
-# Open an existing image
-image = Image.open("example.png").convert("RGBA")
+# Create a red image (200x200) with full opacity
+image = Image.new("RGBA", (200, 200), (255, 0, 0, 255))
+image.show()
 
-# Modify the alpha channel (50% transparency)
+# Apply 50% transparency
 image.putalpha(128)
 
-# Save the new image
-image.save("example_transparent.png")
+# Save and show the result
+image.save("uniform_transparency.png")
+image.show()
 ```
 
 ## Example 2: Using an Alpha Mask
