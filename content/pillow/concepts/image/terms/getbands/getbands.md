@@ -25,23 +25,25 @@ Image.getbands()
 
 The `.getbands()` method does not take any parameters.
 
-**Return value:**
+**Return Value:**
 
 Returns a tuple of strings, where each string represents the name of a color band in the image.
 
 ## Example
 
-In this example, the `.getbands()` method returns the band names of the example image. The image used for this example is:
+The image to be used for this example is:
 
-![input image to perform the getbands operation](https://raw.githubusercontent.com/Codecademy/docs/main/media/samandgos.jpg)
+![Input image to perform the .getbands() operation](https://raw.githubusercontent.com/Codecademy/docs/main/media/samandgos.jpg)
+
+In this example, the `.getbands()` method returns the band names of the example image:
 
 ```py
 from PIL import Image
 
-# Opening an image file
+# Opening the image file
 img = Image.open("samandgos.jpg")
 
-# Get the band names
+# Getting the band names
 bands = img.getbands()
 
 print(bands)
