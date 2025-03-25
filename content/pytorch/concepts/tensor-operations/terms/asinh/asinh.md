@@ -1,6 +1,6 @@
 ---
 Title: 'asinh()'
-Dedscription: 'Returns the inverterd hyperbolic sine of each element of an input tensor'
+Description: 'Returns the inverse hyperbolic sine of each element in an input tensor.'
 Subject:
  - 'AI'
  - 'Computer Science'
