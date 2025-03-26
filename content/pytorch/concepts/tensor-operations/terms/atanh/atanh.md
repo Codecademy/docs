@@ -1,3 +1,18 @@
+---
+Title: '.atanh()'
+Description: 'Calculates the inverse hyperbolic tangent for each number in a tensor.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Deep Learning'
+  - 'Methods'
+  - 'Programming'
+  - 'PyTorch'
+CatalogContent:
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/data-science'
+---
 The **.atanh()** function in PyTorch stands for inverse hyperbolic tangent. It calculates the inverse hyperbolic tangent for each number in a tensor.
 
 ## Syntax
