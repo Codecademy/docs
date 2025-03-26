@@ -158,8 +158,7 @@ mv sourceDirectory/filename.txt destinationDirectory/filename.txt
 
 ## Bash Functions
 
-A Bash function is essentially a set of commands that can be called numerous times. The purpose of a _function_ is to help you make 
-your bash scripts more readable, and avoid writing the same code repeatedly.
+A **Bash function** is a reusable set of commands that enhances script readability and prevents code duplication.
 
 ## Example
 ```shell
