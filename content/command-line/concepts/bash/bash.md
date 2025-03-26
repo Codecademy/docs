@@ -206,9 +206,9 @@ Single line version:
 function function_name { commands; }
 ```
 
-> _Notes when using functions:_ 
-> - Single line commands must end with a semicolon (;) - whether in bash scripts or the terminal directly.
-> - The commands between the curly braces =={ commands; }== are called the functions's _body_. The body can contain any number of `declarations`, `variables`, `loops`, or `conditional statements`.
+> **Note**:
+> - Single line commands must end with a semicolon (`;`) - whether in bash scripts or the terminal directly.
+> - The commands between the curly braces `{ commands; }` are called the functions's _body_. The body can contain any number of `declarations`, `variables`, `loops`, or `conditional statements`.
 > - Use descriptive names for functions.
 
 #### How to Declare and Call a Function in the Terminal
