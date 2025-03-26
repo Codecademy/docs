@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.find()`** method searches for an element with a given key in a `std::map`. If found, it returns an iterator pointing to the element if the key is found; otherwise, it returns an iterator pointing to **`map.end()`**.
+The **`.find()`** method searches for an element with a given key in a `std::map`. If the key exists, `.find()` returns an iterator pointing to the key-value pair; otherwise, it returns `map.end()`.
 
 ## Syntax
 
@@ -33,29 +33,33 @@ mapName.find(key);
 
 ## Example
 
-Consider a **`std::map`** that stores the lifespan of various animals. Use \*\*`.find()` method to check whether aspecific animal exists in the map and retrieve its lifespan.
+This example demonstrates using `std::map` and the `.find()` method to check for an animal's existence and retrieve its lifespan efficiently:
 
-- Search for `"Lion"` in the map
+```cpp
+#include <iostream>
+#include <map>
 
-```
-example/cpp
-std::map<std::string, int> lifeSpan = {
-  {"Giraffe", 26},
-  {"Goat", 15},
-  {"Lion", 10},
-  {"Tiger", 8}
-};
+int main() {  // Added main function
+  std::map<std::string, int> lifeSpan = {
+    {"Giraffe", 26},
+    {"Goat", 15},
+    {"Lion", 10},
+    {"Tiger", 8}
+  };
 
-auto it = lifeSpan.find("Lion");
+  auto it = lifeSpan.find("Lion");
 
-if (it != lifeSpan.end()) {
-  std::cout << "Lion found! Lifespan: " << it->second << " years.\n";
-} else {
-  std::cout << "Lion not found in the map.\n";
+  if (it != lifeSpan.end()) {
+    std::cout << "Lion found! Lifespan: " << it->second << " years.\n";
+  } else {
+    std::cout << "Lion not found in the map.\n";
+  }
+
+  return 0; // Ensure proper program termination
 }
 ```
 
-**Output:**
+The code above results in the following output:
 
 ```shell
 Lion found! Lifespan: 10 years.
@@ -63,7 +67,7 @@ Lion found! Lifespan: 10 years.
 
 ## Codebyte Example
 
-The following codebyte example demonstrates how to use `.find()` to search for a key in a map:
+Run the following codebyte example to understand how to use `.find()` to search for a key in a map:
 
 ```codebyte/cpp
 #include <iostream>
