@@ -6,7 +6,6 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Deep Learning'
-  - 'Methods'
   - 'Programming'
   - 'PyTorch'
 CatalogContent:
