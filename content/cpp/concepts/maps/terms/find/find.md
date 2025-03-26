@@ -31,6 +31,30 @@ mapName.find(key);
 - If the key is found, returns an iterator pointing to the key-value pair.
 - If the key is not found, returns an iterator to `map.end()`.
 
+## Example
+
+Consider a **`std::map`** that stores the lifespan of various animals. Use \*\*`.find()` method to check whether aspecific animal exists in the map and retrieve its lifespan.
+
+- Search for `"Lion"` in the map
+
+```
+example/cpp
+std::map<std::string, int> lifeSpan = {
+  {"Giraffe", 26},
+  {"Goat", 15},
+  {"Lion", 10},
+  {"Tiger", 8}
+};
+
+auto it = lifeSpan.find("Lion");
+
+if (it != lifeSpan.end()) {
+  std::cout << "Lion found! Lifespan: " << it->second << " years.\n";
+} else {
+  std::cout << "Lion not found in the map.\n";
+}
+```
+
 ## Codebyte Example
 
 The following codebyte example demonstrates how to use `.find()` to search for a key in a map:
