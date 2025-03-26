@@ -2,9 +2,8 @@
 Title: '.merge()'
 Description: 'Merges set of single-band images into a new multi-band image.'
 Subjects:
-  - 'Computer science'
+  - 'Computer Science'
   - 'Data Science'
-  - 'Data Visualization'
 Tags:
   - 'Computer Vision'
   - 'Images'
@@ -13,8 +12,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
 The **`.merge()`** function in Pillow combines multiple single-band images into a new multi-band image. This is particularly useful when working with multispectral or multichannel images, such as RGB or CMYK images, where individual channels can be processed separately before merging them into a final image.
@@ -25,14 +22,16 @@ The **`.merge()`** function in Pillow combines multiple single-band images into 
 Image.merge(mode, bands)
 ```
 
-- `mode`: The mode of the new multiband image (e.g., "RGB", "CMYK", etc.).
+- `mode`: The mode of the new multi-band image (e.g., `"RGB"`, `"CMYK"`, etc.).
 - `bands`: A tuple containing the individual image bands to be merged. Each band should be a single-channel (grayscale) image.
 
 ## Example
 
-The code below splits an image into its individual bands and then merges them in a different order.
+The image to be used for this example is:
 
 ![Boston Skyline](https://raw.githubusercontent.com/Codecademy/docs/main/media/Boston.jpg)
+
+The code below splits the above image into its individual bands and then merges them in a different order:
 
 ```py
 from PIL import Image
@@ -44,8 +43,7 @@ im = image1.resize((400,400))
 # Split the image into its RGB channels
 r,g,b = im.split()
 
-
-# Merge the bands in a different order (swapping red and blue)
+# Merge the bands in a different order
 new_image= Image.merge('RGB', (b,r,g))
 new_image.show()
 ```
