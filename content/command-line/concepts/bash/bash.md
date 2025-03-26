@@ -178,7 +178,7 @@ A **Bash function** is a reusable set of commands that enhances script readabili
 
 Functions may be declared in two different formats:
 
-1. The most widely used format is:
+### 1. Standard format
 
 ```shell 
 function_name () {
