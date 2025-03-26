@@ -174,6 +174,6 @@ int main() {
 }
 ```
 
-This example demonstrates how `.end()` is used with STL algorithms like `count_if` and `for_each`. These algorithms require a range defined by two iterators, and the common pattern is to use `.begin()` and `.end()` to specify the entire container.
+This example demonstrates how `.end()` is used with various STL algorithms. These algorithms require a range defined by two iterators, and the common pattern is to use `.begin()` and `.end()` to specify the entire container.
 
 To explore more C++ concepts, check out our [Learn C++](https://www.codecademy.com/learn/learn-c-plus-plus) course to enhance your coding skills.
