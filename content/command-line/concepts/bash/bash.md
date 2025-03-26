@@ -192,7 +192,7 @@ Single line version:
 function_name () { commands; }
 ```
  
-2. The alternative way is using the reversed word ==function==, followed by the function name:
+### 2. Using the `function` keyword
 
 ```shell
 function function_name {
