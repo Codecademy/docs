@@ -160,25 +160,11 @@ mv sourceDirectory/filename.txt destinationDirectory/filename.txt
 
 A **Bash function** is a reusable set of commands that enhances script readability and prevents code duplication.
 
-## Example
-```shell
-  hello() {  
-    echo 'Hello, World!'
-  }
-
-  # Call the function
-
-  hello 
-
-  # Output:
-  # Hello, world!
-```
-
-## Syntax
+### Syntax
 
 Functions may be declared in two different formats:
 
-### 1. Standard format
+#### 1. Standard format
 
 ```shell 
 function_name () {
@@ -186,13 +172,13 @@ function_name () {
 }
 ```
 
-Single line version: 
+**Single line version**: 
 
 ```shell
 function_name () { commands; }
 ```
  
-### 2. Using the `function` keyword
+#### 2. Using the `function` keyword
 
 ```shell
 function function_name {
@@ -200,7 +186,7 @@ function function_name {
 }
 ```
 
-Single line version: 
+**Single line version**: 
 
 ```shell 
 function function_name { commands; }
@@ -211,37 +197,18 @@ function function_name { commands; }
 > - The commands between the curly braces `{ commands; }` are called the functions's _body_. The body can contain any number of `declarations`, `variables`, `loops`, or `conditional statements`.
 > - Use descriptive names for functions.
 
-#### How to Declare and Call a Function in the Terminal
-
-To declare and use a function in the terminal:
-
-1. Open the terminal and enter the following:
-
-```shell
-my_function () { echo "Hello I'm a function"; echo "Bye!"; }
-```
-
-2. Execute (call) the function by entering the function's name in the terminal:
-
-```shell
-my_function
-```
-
 ## Example 
 
-  ```shell
-  my_function () {
-    echo "Hello I'm a function";
-    echo "Bye!"
-  }
-  
- # Call the function 
+```shell
+my_function () {
+  echo "Hello I'm a function";
+  echo "Bye!"
+}
 
-  my_function
+# Call the function 
+my_function
 
-  # Output:
-  # Hello I'm a function
-  # Bye!
+# Output:
+# Hello I'm a function
+# Bye!
 ```
-
-The output runs the commands from the function's body
