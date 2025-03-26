@@ -302,4 +302,4 @@ greet "World"
 
 Functions can take arguments, accessed within the function as `$1`, `$2`, etc., and return values using the `return` statement (limited to integers 0-255, typically used for status codes).
 
-Learn more about Bash with the [Bash courses](https://www.codecademy.com/catalog/language/bash) on Codecademy.
+These were some of the fundamental concepts of Bash syntax to help you get started. Learn more about Bash with the [Bash courses](https://www.codecademy.com/catalog/language/bash) on Codecademy.
