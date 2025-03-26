@@ -1,6 +1,6 @@
 ---
 Title: 'lang'
-Description: 'The lang attribute specifies the language of the element’s content.'
+Description: 'Specifies the language of the element’s content.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,15 +13,19 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `lang` attribute is a global HTML attribute used to specify the language of the element’s content. It helps browsers, screen readers, and translation tools understand how to process and present the text.
+The `lang` attribute is a global HTML attribute used to set the language of the element’s content. It helps browsers, screen readers, and translation tools understand how to process and present the text.
 
 ## Syntax
 
-```html
+```pseudo
 <element lang="language-code"></element>
 ```
 
+- `language-code`: Sets the language code for the element's content.
+
 ## Example
+
+The following example demonstrates the usage of the `lang` attribute:
 
 ```html
 <html lang="en">
@@ -34,6 +38,4 @@ The `lang` attribute is a global HTML attribute used to specify the language of 
 </html>
 ```
 
-
-
-
+The above code sets the language of the `<html>` element's content to English (`en`).
