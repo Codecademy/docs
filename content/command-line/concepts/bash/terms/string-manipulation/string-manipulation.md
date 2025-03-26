@@ -6,7 +6,7 @@ Subjects:
   - 'Developer Tools'
 Tags:
   - 'Bash/Shell'
-  - 'Command Line' 
+  - 'Command Line'
   - 'Strings'
   - 'Text Processing'
 CatalogContent:
