@@ -1,20 +1,20 @@
 ---
 Title: '.emplace()'
-Description: 'Constructs and inserts an element into a map if the key does not already exist'
+Description: 'Constructs and inserts an element into a map if the key does not already exist.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
-  - 'Objects'
-  - 'OOP'
   - 'Classes'
   - 'Map'
+  - 'Objects'
+  - 'OOP'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The **`.emplace()`** method in C++ for `std::map` is used to construct and insert an element directly into the map efficiently. Unlike `.insert()`, `.emplace()` constructs the element in-place, avoiding unnecessary copies or moves.
+The **`.emplace()`** method in C++ for `std::map` efficiently constructs and inserts an element directly into the map. Unlike [`.insert()`](https://www.codecademy.com/resources/docs/cpp/maps/insert), `.emplace()` constructs the element in-place, avoiding unnecessary copies or moves.
 
 ## Syntax
 
@@ -25,6 +25,50 @@ mapName.emplace(key, value)
 - `mapName`: Refers to the specific map being modified.
 - `key`: The key for the new element.
 - `value`: The value associated with the key.
+
+## Example
+
+This example demonstrates using `.emplace()` method to add elements to a map and the behaviour on insert elements with the same key.
+
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+
+int main() {
+    // Initialize a map of products and their prices
+    std::map<std::string, double> product_prices;
+
+    // `.emplace()` new elements into `product_prices`::map
+    auto [prod1_iter, prod1_inserted] = product_prices.emplace("Laptop", 999.99);
+    auto [prod2_iter, prod2_inserted] = product_prices.emplace("Phone", 499.99);
+
+    // `.emplace()` an existing key
+    auto [prod3_iter, prod3_inserted] = product_prices.emplace("Laptop", 799.99);
+
+    // Print results
+    std::cout << "Laptop insertion (first attempt): " << (prod1_inserted ? "Successful" : "Failed") << std::endl;
+    std::cout << "Phone insertion: " << (prod2_inserted ? "Successful" : "Failed") << std::endl;
+    std::cout << "Laptop insertion (second attempt): " << (prod3_inserted ? "Successful" : "Failed") << std::endl;
+
+    // Print the content of the map
+    for (const auto& pair : product_prices) {
+        std::cout << pair.first << ": $" << pair.second << std::endl;
+    }
+
+    return 0;
+}
+```
+
+The code above results in the following output:
+
+```shell
+Laptop insertion (first attempt): Successful
+Phone insertion: Successful
+Laptop insertion (second attempt): Failed
+Laptop: $999.99
+Phone: $499.99
+```
 
 ## Codebyte Example
 
@@ -52,8 +96,8 @@ int main() {
   std::cout << "Alice's second insertion: " << (inserted3 ? "Successful" : "Failed") << std::endl;
 
   // Printing map contents
-  for (const auto& [name, score] : student_scores) {
-    std::cout << name << ": " << score << std::endl;
+  for (const auto& pair : student_scores) {
+    std::cout << pair.first << ": " << pair.second << std::endl;
   }
 
   return 0;
