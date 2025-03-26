@@ -122,7 +122,7 @@ Bob's grade: B
 
 This example shows how to use `.end()` with STL algorithms to perform operations on map elements:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <map>
 #include <algorithm>
