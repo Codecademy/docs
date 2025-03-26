@@ -1,19 +1,19 @@
 ---
-Title: 'Arithmetic Operators' 
-Description: 'Arithmetic operators performs mathematical operations such as addition, subtraction, multiplication, division, modulus, increment, and decrement in C++.' 
+Title: 'Arithmetic Operators'
+Description: 'Arithmetic operators perform mathematical operations such as addition, subtraction, multiplication, division, modulus, increment, and decrement in C++.'
 Subjects:
-- 'Code Foundations'
-- 'Computer Science'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-- 'Arithmetic'
-- 'Operators'
-- 'Math'
+  - 'Arithmetic'
+  - 'Operators'
+  - 'Math'
 CatalogContent:
-- 'learn-c-plus-plus'
-- 'paths/computer-science'
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
-**Arithmetic operators** in C++ are used to perform mathematical calculations on numerical values. These include basic operations such as addition, subtraction, multiplication, division, modulus, increment, and decrement. They are commonly applied to variables and expressions in mathematical computations.
+**Arithmetic operators** in C++ perform basic mathematical operations, including addition, subtraction, multiplication, division, modulus, increment, and decrement. These operators are commonly applied to variables and expressions in computations.
 
 Arithmetic operators allow programmers to handle numerical computations and manipulate values effectively within code. Understanding how these operators function is crucial for building algorithms and solving problems in C++ programming.
 
@@ -99,7 +99,7 @@ Product: 50
 
 ### Division (`/`)
 
-The division operator `/` divides the first operand by the second. If both operands are integers, the result will also be an integer, dropping any reminder. If either of the operand is a floating point number, then the result will be in decimals. 
+The division operator `/` divides the first operand by the second. If both operands are integers, the result will also be an integer, dropping any remainder. If either of the operand is a floating point number, then the result will be in decimals.
 
 ```cpp
 #include <iostream>
@@ -149,8 +149,8 @@ Remainder: 1
 
 The increment operator `++` increases the value of a variable by 1. It can be used in two ways:
 
-- **Pre-increment (**``**)**: Increments `a` first, then uses its value.
-- **Post-increment (**``**)**: Uses the current value of `a`, then increments it.
+- **Pre-increment (**`++a`**)**: Increments `a` first, then uses its value.
+- **Post-increment (**`a++`**)**: Uses the current value of `a`, then increments it.
 
 ```cpp
 #include <iostream>
@@ -178,8 +178,8 @@ After post-increment: 6
 
 The decrement operator `--` decreases the value of a variable by 1. It also has two types:
 
-- **Pre-decrement (**``**)**: Decreases `a` first, then uses its value.
-- **Post-decrement (**``**)**: Uses the current value of `a`, then decreases it.
+- **Pre-decrement (**`--a`**)**: Decreases `a` first, then uses its value.
+- **Post-decrement (**`a--`**)**: Uses the current value of `a`, then decreases it.
 
 ```cpp
 #include <iostream>
