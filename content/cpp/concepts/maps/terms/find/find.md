@@ -55,6 +55,12 @@ if (it != lifeSpan.end()) {
 }
 ```
 
+**Output:**
+
+```shell
+Lion found! Lifespan: 10 years.
+```
+
 ## Codebyte Example
 
 The following codebyte example demonstrates how to use `.find()` to search for a key in a map:
