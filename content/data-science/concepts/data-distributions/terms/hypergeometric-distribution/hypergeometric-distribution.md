@@ -148,4 +148,4 @@ While both the hypergeometric and binomial distributions describe the probabilit
 
 Interestingly, as the population size (N) becomes very large relative to the sample size (n), the hypergeometric distribution approaches the binomial distribution. This is because the effect of removing items becomes negligible in large populations.
 
-For exploring more data science concepts, check out our [Data Science](https://www.codecademy.com/catalog/subject/data-science) courses and articles. These courses provide interactive exercises and real-world examples to help solidify your understanding of the fundamental concepts in data science.
+​For a deeper understanding of probability distributions, including the hypergeometric distribution, consider exploring Codecademy's [Fundamental Math for Data Science](https://www.codecademy.com/enrolled/paths/fundamental-math-for-data-science) course.
