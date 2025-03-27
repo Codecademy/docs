@@ -4,7 +4,7 @@ Description: 'Modifies the alpha channel (transparency) of an image in the Pillo
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Data Visualization' 
+  - 'Data Visualization'
 
 Tags:
   - 'Python'
@@ -22,48 +22,79 @@ The **`.putalpha()`** method in the Pillow library modifies the alpha channel of
 
 ## Syntax
 
-```psuedo
+```pseudo
 image.putalpha(alpha)
 ```
 
-### Parameters:
-  - **`alpha`** (`int` or `Image`): Defines the transparency level of the image.
-    - **`int`** (`0-255`): Applies uniform transparency across the entire image (`0` = fully transparent, `255` = fully opaque).
-    - **`Image` object**: Uses the pixel values from the provided image as an alpha mask, determining varying levels of transparency.
+### Parameters
 
-## Example 1: Applying Uniform Transparency
+- **`alpha`** (`int` or `Image`): Defines the transparency level of the image.
+  - **`int`** (`0-255`): Applies uniform transparency across the entire image (`0` = fully transparent, `255` = fully opaque).
+  - **`Image` object**: Uses the pixel values from the provided image as an alpha mask, determining varying levels of transparency.
+
+## Example
+
+The following examples demonstrate how to apply transparency to an entire image using `.putalpha()`.
+
+The original image is a 200x200 red square with full opacity:
+
+![The original image is a 200x200 red square with full opacity.](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-putalpha-example.png)
+
+### Applying Uniform Transparency
 
 ```py
 from PIL import Image
 
-# Create a red image (200x200) with full opacity
-image = Image.new("RGBA", (200, 200), (255, 0, 0, 255))
-image.show()
+# Load an example image (red square)
+image = Image.open("pillow-putalpha-example.png").convert("RGBA")  # Ensure RGBA mode
 
-# Apply 50% transparency
+# Apply 50% transparency to the entire image
 image.putalpha(128)
 
 # Save and show the result
-image.save("uniform_transparency.png")
+image.save("pillow-putalpha-transparent-example.png")
 image.show()
 ```
 
-## Example 2: Using an Alpha Mask
+The above code loads the red square image, applies 50% transparency, and saves the modified version.
 
-``` py 
-from PIL import Image 
+The output will be:
 
-# Open an existing image  
-image = Image.open("example.png").convert("RGBA")  
+![The modified image has 50% transparency, making it appear faded.](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-putalpha-transparent-example.png)
 
-# Create an RGBA image and an alpha mask  
-alpha_mask = Image.open("mask.png").convert("L")  
-image.putalpha(alpha_mask)  
+### Using an Alpha Mask
 
-# Save the new image  
-image.save("example_masked.png") 
+Instead of applying uniform transparency, an alpha mask can be used to control transparency for each pixel.
+
+```py
+from PIL import Image, ImageDraw
+
+# Open an image and ensure it's in RGBA mode
+image = Image.open("pillow-putalpha-example.png").convert("RGBA")
+
+# Create an alpha mask with a vertical gradient
+width, height = image.size
+alpha_mask = Image.new("L", (width, height))  # 'L' mode for grayscale (alpha values)
+draw = ImageDraw.Draw(alpha_mask)
+
+# Fill the alpha mask with a gradient (top opaque, bottom transparent)
+for y in range(height):
+    alpha_value = int(255 * (1 - y / height))  # 255 (opaque) at top, 0 (transparent) at bottom
+    draw.line([(0, y), (width, y)], fill=alpha_value)
+
+# Apply the alpha mask
+image.putalpha(alpha_mask)
+
+# Save and show the result
+image.save("pillow-putalpha-gradient-example.png")
+image.show()
 ```
 
+The modified image now has a gradient transparency effect, where the top remains fully visible, and the transparency gradually increases toward the bottom:
+
+![The output image fades from fully opaque at the top to fully transparent at the bottom.](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-putalpha-gradient-example.png)
+
 ## Notes
-- The `.putalpha()` method only works on images in **RGBA** or **LA** mode.
+
+- The `.putalpha()` method only works on images in **RGBA**(Red, Green, Blue, Alpha) or **LA**(Grayscale + Alpha) mode.
 - When using an alpha mask, the mask must be in **L** (grayscale) or **1** (black-and-white) mode.
