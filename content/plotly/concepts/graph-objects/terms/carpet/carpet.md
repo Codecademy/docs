@@ -13,3 +13,5 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
+
+The **`Carpet()`** is a metheod of graph_objects class which shows the interaction between one or two independent varables and one or more dependent variables in a two-dimensional plot. The carpet plot accurately interpolate data points compared to other plots.
