@@ -1,6 +1,6 @@
 ---
 Title: '.find()'
-Description: 'Searches for an element with a specific key in a map.'
+Description: 'Searches for an element with a particular key in a map.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -39,7 +39,7 @@ This example demonstrates using `std::map` and the `.find()` method to check for
 #include <iostream>
 #include <map>
 
-int main() {  // Added main function
+int main() {
   std::map<std::string, int> lifeSpan = {
     {"Giraffe", 26},
     {"Goat", 15},
@@ -55,7 +55,7 @@ int main() {  // Added main function
     std::cout << "Lion not found in the map.\n";
   }
 
-  return 0; // Ensure proper program termination
+  return 0;
 }
 ```
 
