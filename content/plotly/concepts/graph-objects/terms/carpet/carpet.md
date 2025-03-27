@@ -5,9 +5,9 @@ Subjects:
   - 'Data Science'
   - 'Data Visualization'
 Tags:
-  - 'Plotly'
-  - 'Graphs'
   - 'Data'
+  - 'Graphs'
+  - 'Plotly'
   - 'Values'
 CatalogContent:
   - 'learn-python-3'
@@ -25,9 +25,9 @@ plotly.graph_objects.Carpet(a = None, carpet = None, x = None, y = None, aaxis =
 - `a` : An array containing values of the first parameter.
 - `carpet` : An identifier for this carpet, so that scattercarpet and contourcarpet traces can specify a carpet plot on which they lie
 - `x` : A two-dimensional array of x-coordinates at each carpet point. If ommitted, the plot is a cheater plot and the x-axis is hidden by default.
-- `y` :  A two-dimensional array of y-coordinates at each carpet point.
-- `aaxis`  : plotly.graph_objects.carpet.Aaxis instance or dict with compatible properties
-- `baxis`  :plotly.graph_objects.carpet.Baxis instance or dict with compatible properties
+- `y` : A two-dimensional array of y-coordinates at each carpet point.
+- `aaxis` : plotly.graph_objects.carpet.Aaxis instance or dict with compatible properties
+- `baxis` :plotly.graph_objects.carpet.Baxis instance or dict with compatible properties
 
 The three ellipsis indicates more parameters.
 
@@ -59,6 +59,6 @@ fig = go.Figure(go.Carpet(
 fig.show()
 ```
 
-The code above generate the following output.
+The code above generate the following output:
 
 ![.Carpet()](https://raw.githubusercontent.com/Codecademy/docs/main/media/carpet.png)
