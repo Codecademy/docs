@@ -135,7 +135,7 @@ This application illustrates how the hypergeometric distribution helps businesse
 
 ## Hypergeometric Vs. Binomial Distributions
 
-While both the hypergeometric and binomial distributions describe the probability of successes in a series of trials, they differ in several key aspects:
+While both the hypergeometric and [binomial distributions](https://www.codecademy.com/resources/docs/data-science/data-distributions/binomial-distribution) describe the probability of successes in a series of trials, they differ in several key aspects:
 
 | Characteristic         | Hypergeometric Distribution                                     | Binomial Distribution                               |
 | ---------------------- | --------------------------------------------------------------- | --------------------------------------------------- |
