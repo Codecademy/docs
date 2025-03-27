@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.end()`** method is a [built-in function](https://www.codecademy.com/resources/docs/cpp/functions) in C++ STL, which is defined in the `<map>` header file. It returns an iterator pointing to the theoretical element just after the last element in the [map](https://www.codecademy.com/resources/docs/cpp/maps) container. This element is referred to as the "past-the-end" element and does not represent an actual element in the map container. It serves as a marker indicating the end of the map sequence and should not be dereferenced.
+The **`.end()`** method is a [built-in function](https://www.codecademy.com/resources/docs/cpp/functions) in C++ Standard Template Library(STL), which is defined in the `<map>` header file. It returns an iterator pointing to the theoretical element just after the last element in the [map](https://www.codecademy.com/resources/docs/cpp/maps) container. This element is referred to as the "past-the-end" element and does not represent an actual element in the map container. It serves as a marker indicating the end of the map sequence and should not be dereferenced.
 
 The `.end()` method is commonly used in combination with `.begin()` to specify a range for iterating through all elements in a map container. This iterator-based approach is a fundamental pattern in the C++ Standard Template Library (STL) and is used across various algorithms and container operations.
 
