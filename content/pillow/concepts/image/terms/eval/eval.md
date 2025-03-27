@@ -53,8 +53,8 @@ new_img.show()
 
 In the example -
 
-- x: Represents the pixel intensity value, which typically ranges from 0 to 255 (for 8-bit grayscale or RGB images).
-- 255 - x: Subtracts the pixel value from 255, effectively inverting its brightness: 0 → 255 (pure black becomes pure white), 255 → 0 (pure white becomes pure black), 100 → 155 (mid-gray becomes a lighter gray).
+- `x`: Represents the pixel intensity value, which typically ranges from 0 to 255 (for 8-bit grayscale or RGB images).
+- `255 - x`: Subtracts the pixel value from 255, effectively inverting its brightness: 0 → 255 (pure black becomes pure white), 255 → 0 (pure white becomes pure black), 100 → 155 (mid-gray becomes a lighter gray).
 
 Here is the original image:
 
