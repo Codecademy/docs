@@ -20,3 +20,8 @@ The **`Carpet()`** is a metheod of graph_objects class which shows the interacti
 ```pseudo
 plotly.graph_objects.Carpet(a = None, carpet = None, x = None, y = None)
 ```
+- `a` : An array containing values of the first parameter.
+- `b` : An array containing value of the first parameter.
+- `x` : A two-dimensional array of x-coordinates at each carpet point. If ommitted, the plot is a cheater plot and the x-axis is hidden by default.
+- `y` :  A two-dimensional array of y-coordinates at each carpet point.
+- `carpet` : An identifier for this carpet, so that scattercarpet and contourcarpet traces can specify a carpet plot on which they lie
