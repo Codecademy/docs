@@ -55,5 +55,7 @@ fig = go.Figure(go.Carpet(
 
 fig.show()
 ```
+
 The results of the above code is shown below.
+
 ![.Carpet()](https://raw.githubusercontent.com/Codecademy/docs/main/media/carpet.png)
