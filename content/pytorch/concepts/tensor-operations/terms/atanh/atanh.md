@@ -49,5 +49,3 @@ The calculation in the example returns:
 ```shell
 tensor ([ 0.5493, 0.3143, 0,0000])
 ```
-
-
