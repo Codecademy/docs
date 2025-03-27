@@ -31,7 +31,7 @@ plotly.graph_objects.Histogram2d(x=None, y=None, nbinsx=None, nbinsy=None, color
 - `nbinsy` (Optional): The number of bins (intervals) to use for the y-axis. If not specified (`None`), Plotly automatically calculates an appropriate number of bins based on the data.
 - `colorscale` (Optional): Defines the color scale for bin intensities (e.g., `'Viridis'`, `'Blues'`). You can also define custom color scales.
 
-> **Note**: The ellipsis in the syntax (...) indicates that there are additional optional parameters beyond those listed here to customize the scatter plot on polar axes.
+> **Note**: The ellipsis in the syntax (...) indicates that there are additional optional parameters beyond those listed here to customize the 2D histogram plot.
 
 ## Example
 
