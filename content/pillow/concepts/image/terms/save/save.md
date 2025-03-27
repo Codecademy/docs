@@ -4,11 +4,11 @@ Description: 'Saves an image to a specified file.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Images'
   - 'Libraries'
   - 'Pillow'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
@@ -23,7 +23,7 @@ image.save(fp, format=none, **params)
 
 **Parameters:**
 
-- `fp`: The file path or file object where the image will be saved. 
+- `fp`: The file path or file object where the image will be saved.
 - `format` (Optional): The format to save the image in (e.g., `"JPEG"`, `"PNG"`). If omitted, Pillow infers the format from the file extension.
 - `**params` (Optional): Additional parameters specific to the image format.
 
@@ -33,16 +33,18 @@ The `.save()` method in Pillow does not return anything. It performs an in-place
 
 ## Example
 
-The code imports the `Image` module from the Pillow library. It opens an image file and saves it under a new name. The image used in this code is:
+The image to be used in this example is:
 
 ![Image to be opened](https://raw.githubusercontent.com/Codecademy/docs/main/media/blueMacaw.jpg)
+
+The following example demonstrates the usage of the `.save()` method:
 
 ```py
 from PIL import Image
 
-newImage = Image.open("blueMacaw.jpg") 
+newImage = Image.open("blueMacaw.jpg")
 
 newImage.save("fluffy.jpg")
 ```
 
-The given code opens an image file (`bird.jpg`) and saves it under a new name (`fluffy.jpg`).
+The given code opens an image file (`blueMacaw.jpg`) and saves it under a new name (`fluffy.jpg`).
