@@ -21,6 +21,7 @@ The formula for a t-statistic is given by:
 $$t = \frac{\bar{x} - \mu}{s / \sqrt{n}}$$
 
 Where:
+
 - `t`: t-statistic value
 - $\bar{x}$: sample mean
 - `μ`: population mean
@@ -32,6 +33,7 @@ The probability density function (PDF) of the t-distribution with v degrees of f
 $$f(t) = \frac{\Gamma(\frac{v+1}{2})}{\sqrt{v\pi}\Gamma(\frac{v}{2})} (1 + \frac{t^2}{v})^{-\frac{v+1}{2}}$$
 
 Where:
+
 - `Γ` is the gamma function
 - `v` represents the degrees of freedom (df = n-1)
 
