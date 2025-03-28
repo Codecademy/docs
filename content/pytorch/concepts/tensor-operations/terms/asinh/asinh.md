@@ -5,7 +5,7 @@ Subjects:
   - 'AI'
   - 'Computer Science'
   - 'Data Science'
-  - 'Data Visualtization'
+  - 'Data Visualization'
   - 'Machine Learning'
 Tags:
   - 'AI'
@@ -21,13 +21,13 @@ The PyTorch method **`.asinh()`** returns the inverse hyperbolic sine of each el
 ## Syntax
 
 ```psuedo
-torch.asinh(input, *, out=NONE) → Tensor
+torch.asinh(input, *, out=None) → Tensor
 ```
 
 ### Parameters
 
 - `input`: A tensor containing real or complex values of any dimension.
-- `out` (Optional): A tensor to store the result. If not provided, a new tensor is created.
+- `out` (Optional): The output tensor to store the result. If not specified, a new tensor is returned.
 
 ### Returns
 
@@ -35,7 +35,7 @@ A new tensor containing the inverse hyperbolic sine of each element in the input
 
 ## Example
 
-The following example demonstrates how to use `.asinh()` to compute the inverse hyperbolic sine for the real-valued 1D tensor.
+The following example demonstrates how to use `.asinh()` to compute the inverse hyperbolic sine for the real-valued 1D tensor:
 
 ```py
 import torch
@@ -60,3 +60,5 @@ tensor([0.1250, 0.2500, 0.5000, 0.7500])
 Output Tensor:
 tensor([0.1253, 0.2526, 0.5211, 0.8223])
 ```
+
+The values in `output_tensor` represents the inverse hyperbolic sine of the corresponding values in `input_tensor`.
