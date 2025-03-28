@@ -21,9 +21,7 @@ This law underlines the importance of consistency and convention in design. Meet
 
 A common example of Jacob’s Law in practice is navigation design where most users expect the navigation bar to be at the top of a webpage, with a logo on the left and clickable links for main sections. Moving this navigation to an unexpected place, or using unfamiliar icons without labels, can negatively affect usability.
 
-![Jacob's Law demonstration](https://raw.githubusercontent.com/Codecademy/docs/main/media/jacobs-law-diagram.png)
-
-You help them feel more comfortable and efficient when using your product by designing interfaces that follow patterns users have seen on other platforms.
+We help users feel more comfortable and efficient when using our product. It is by designing interfaces that follow patterns users have seen on other platforms.
 
 ## Resources
 
