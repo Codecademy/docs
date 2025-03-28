@@ -30,7 +30,7 @@ image.putalpha(alpha)
   - `int` (`0-255`): Applies uniform transparency across the entire image (`0` = fully transparent, `255` = fully opaque).
   - `Image` (object): Uses a grayscale image as an alpha mask, where pixel intensity (0-255) defines the transparency: 0 is fully transparent, and 255 is fully opaque.
 
-## Example
+## Examples
 
 The following examples demonstrate how to apply transparency to an entire image using `.putalpha()`:
 
