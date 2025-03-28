@@ -18,12 +18,13 @@ The **`.atanh()`** function in PyTorch calculates the inverse hyperbolic tangent
 ## Syntax
 
 ```pseudo
-torch.atanh(input)
+torch.atanh(input, *, out=None)
 ```
 
 **Parameters:**
 
-- `input` (Tensor): A tensor with values between (-1, 1) (excluding -1 and 1).
+- `input` (Tensor): A tensor containing values strictly between -1 and 1 (exclusive).
+- `out` (Tensor, optional): The output tensor to store the result. If not provided, a new tensor is created.
 
 **Return Value:**
 
