@@ -33,16 +33,14 @@ The example below converts the input image into a new image, where each pixel is
 from PIL import Image
 
 # Open an image
-img = Image.open('media/pillow-original.jpeg')
+img = Image.open('media/pillow-original.jpeg').convert("RGB")  # Ensure RGB mode
 
-# Display the original image
-img.show()
+# Define a function to invert pixel values
+def invert_pixel(x):
+  return 255 - x  # Works for grayscale and individual RGB channels
 
-# Define a function to invert pixel values (e.g., 255 → 0, 100 → 155)
-value = lambda x: 255 - x
-
-# Apply the function to every pixel
-new_img = Image.eval(img, value)
+# Apply the function to each pixel
+new_img = Image.eval(img, invert_pixel)
 
 # Display the new image
 new_img.show()
