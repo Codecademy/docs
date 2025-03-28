@@ -5,14 +5,12 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
   - 'Data Visualization'
-
 Tags:
-  - 'Python'
-  - 'Pillow'
   - 'Computer Vision'
   - 'Images'
+  - 'Python'
+  - 'Pillow'
   - 'Values'
-
 CatalogContent:
   - 'learn-python'
   - 'paths/computer-science'
@@ -28,17 +26,17 @@ image.putalpha(alpha)
 
 ### Parameters
 
-- **`alpha`** (`int` or `Image`): Defines the transparency level of the image.
-  - **`int`** (`0-255`): Applies uniform transparency across the entire image (`0` = fully transparent, `255` = fully opaque).
-  - **`Image` object**: Uses the pixel values from the provided image as an alpha mask, determining varying levels of transparency.
+- `alpha` (`int` or `Image`): Defines the transparency level of the image.
+  - `int` (`0-255`): Applies uniform transparency across the entire image (`0` = fully transparent, `255` = fully opaque).
+  - `Image` (object): Uses a grayscale image as an alpha mask, where pixel intensity (0-255) defines the transparency: 0 is fully transparent, and 255 is fully opaque.
 
 ## Example
 
-The following examples demonstrate how to apply transparency to an entire image using `.putalpha()`.
+The following examples demonstrate how to apply transparency to an entire image using `.putalpha()`:
 
-The original image is a 200x200 red square with full opacity:
+The original image is a _200x200_ red square with full opacity:
 
-![The original image is a 200x200 red square with full opacity.](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-putalpha-example.png)
+![The original image is a 200x200 red square with full opacity](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-putalpha-example.png)
 
 ### Applying Uniform Transparency
 
@@ -64,7 +62,7 @@ The output will be:
 
 ### Using an Alpha Mask
 
-Instead of applying uniform transparency, an alpha mask can be used to control transparency for each pixel.
+Instead of applying uniform transparency, an alpha mask can be used to control transparency for each pixel as follows:
 
 ```py
 from PIL import Image, ImageDraw
@@ -79,8 +77,8 @@ draw = ImageDraw.Draw(alpha_mask)
 
 # Fill the alpha mask with a gradient (top opaque, bottom transparent)
 for y in range(height):
-    alpha_value = int(255 * (1 - y / height))  # 255 (opaque) at top, 0 (transparent) at bottom
-    draw.line([(0, y), (width, y)], fill=alpha_value)
+  alpha_value = int(255 * (1 - y / height))  # 255 (opaque) at top, 0 (transparent) at bottom
+  draw.line([(0, y), (width, y)], fill=alpha_value)
 
 # Apply the alpha mask
 image.putalpha(alpha_mask)
@@ -96,5 +94,5 @@ The modified image now has a gradient transparency effect, where the top remains
 
 ## Notes
 
-- The `.putalpha()` method only works on images in **RGBA**(Red, Green, Blue, Alpha) or **LA**(Grayscale + Alpha) mode.
+- The `.putalpha()` method only modifies images in **RGBA (Red, Green, Blue, Alpha)** or **LA (Grayscale + Alpha)** mode. If the image is not in one of these modes, it must be converted first using `.convert("RGBA")` or `.convert("LA")`.
 - When using an alpha mask, the mask must be in **L** (grayscale) or **1** (black-and-white) mode.
