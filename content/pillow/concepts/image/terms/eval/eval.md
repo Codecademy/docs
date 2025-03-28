@@ -4,7 +4,6 @@ Description: 'Applies a function to each pixel of an image, returning a new imag
 Subjects:
   - 'Computer science'
   - 'Data Science'
-  - 'Data Visualization'
 Tags:
   - 'Computer Vision'
   - 'Images'
@@ -13,8 +12,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
 The **`.eval()`** method in Pillow processes an image by applying a given function to each pixel. This is useful for pixel-level transformations like adjusting brightness, inverting colors, or applying custom filters.
@@ -30,7 +27,7 @@ Image.eval(image, function)
 
 ## Example
 
-The example below shows a new image, where each pixel is transformed by `function`.
+The example below converts the input image into a new image, where each pixel is transformed by a function:
 
 ```py
 from PIL import Image
@@ -51,9 +48,9 @@ new_img = Image.eval(img, value)
 new_img.show()
 ```
 
-In the example -
+In this example:
 
-- `x`: Represents the pixel intensity value, which typically ranges from 0 to 255 (for 8-bit grayscale or RGB images).
+- `x`: Represents the pixel intensity value, which typically ranges from 0-255 (for 8-bit grayscale or RGB images).
 - `255 - x`: Subtracts the pixel value from 255, effectively inverting its brightness: 0 → 255 (pure black becomes pure white), 255 → 0 (pure white becomes pure black), 100 → 155 (mid-gray becomes a lighter gray).
 
 Here is the original image:
