@@ -22,14 +22,6 @@ Loops perform the same set of commands over and over with slight variations, suc
 
 A **`while` loop** executes a block of commands repeatedly as long as a specified condition evaluates to true. This type of loop is particularly useful when performing an action until a certain condition changes.
 
-### When to Use a `while` Loop
-
-The `while` loop is appropriate when:
-
-- Commands need to be executed based on a condition that might change during execution
-- The number of iterations is not known beforehand
-- Processing data until a specific state is reached
-
 ### Syntax
 
 ```pseudo
@@ -71,14 +63,6 @@ In this example, the loop initializes a counter to 1, then continues printing an
 ## `until` Loop
 
 An **`until` loop** is the logical opposite of a while loop. It executes commands repeatedly until a specified condition becomes true. In other words, the loop continues as long as the condition is false.
-
-### When to Use an `until` Loop
-
-The `until` loop is appropriate when:
-
-- An action needs to be performed until a specific condition is met
-- The code is more readable with a positive termination condition
-- Waiting for a specific event or state to occur
 
 ### Syntax
 
@@ -122,14 +106,6 @@ This example counts down from 5 to 1, executing the loop until the counter becom
 
 A **`for` loop** is designed to iterate over a list of items, executing a set of commands once for each item in the list. This loop type is especially useful for processing arrays, ranges of numbers, file lists, and command outputs.
 
-### When to Use a `for` Loop
-
-The `for` loop is appropriate when:
-
-- Each item in a known list or sequence needs to be processed
-- The number of iterations is fixed and known beforehand
-- The same operation must be performed on multiple items
-
 ### Syntax
 
 ```pseudo
@@ -170,13 +146,6 @@ In this example, the `for` loop iterates through each word in the `fruits` varia
 
 The **`break`** statement allows for exiting a loop immediately, regardless of whether the loop condition is still true. It terminates the innermost loop and execution continues with the command following the loop.
 
-### Uses of `break`
-
-- Exiting a loop when a specific condition is met
-- Preventing unnecessary iterations after finding a desired result
-- Implementing early loop termination logic
-- Handling exceptional cases within a loop
-
 **Example:**
 
 ```bash
@@ -212,13 +181,6 @@ In this example, the loop terminates as soon as the target file is found, avoidi
 ## The `continue` Statement
 
 The **`continue`** statement skips the remaining commands in the current iteration of a loop and moves to the next iteration. Unlike break, continue does not terminate the loop; it only skips the rest of the current cycle.
-
-### Uses of `continue`
-
-- Skipping processing of certain items that match specific criteria
-- Handling special cases within a loop without disrupting the loop flow
-- Implementing filtering logic within a loop
-- Avoiding nested conditional blocks for cleaner code
 
 **Example:**
 
