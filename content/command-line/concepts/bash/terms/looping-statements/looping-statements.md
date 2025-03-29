@@ -6,8 +6,8 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Automation'
-  - 'Control Flow'
   - 'Command Line'
+  - 'Control Flow'
   - 'Loops'
 CatalogContent:
   - 'learn-the-command-line'
