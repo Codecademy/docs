@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Syntax fundamentals** in [Bash](https://www.codecademy.com/resources/docs/command-line/bash) refer to the essential rules and structures that govern how commands and scripts are written in the Bash shell environment. Bash syntax defines how the shell interpreter reads and processes the commands, forming the foundation for shell scripting. These fundamental rules enable users to write effective scripts that automate tasks and manage system resources in Unix/Linux environments.
-
-Bash (Bourne-Again Shell) serves as the default command-line interpreter in most [Linux](https://www.codecademy.com/resources/docs/general/linux) distributions. Understanding its syntax fundamentals is crucial for system administrators, developers, and anyone working with Unix-based systems to create efficient and reliable scripts for task automation.
+**Syntax fundamentals** in [Bash (Bourne-Again Shell)](https://www.codecademy.com/resources/docs/command-line/bash) refer to the essential rules and structures that govern how commands and scripts are written in the Bash shell environment. These rules dictate how the shell interpreter processes commands, providing the foundation for scripting and automation in Unix/[Linux](https://www.codecademy.com/resources/docs/general/linux) systems. Mastering Bash syntax is essential for system administrators, developers, and users who need to efficiently manage system resources and automate tasks.
 
 ## Basic Command Structure
 
