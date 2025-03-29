@@ -28,7 +28,7 @@ mapName.emplace(key, value)
 
 ## Example
 
-This example demonstrates using `.emplace()` method to add elements to a map and the behaviour on insert elements with the same key.
+This example demonstrates using `.emplace()` method to add elements to a map and the behaviour on insert elements with the same key:
 
 ```cpp
 #include <iostream>
@@ -36,27 +36,25 @@ This example demonstrates using `.emplace()` method to add elements to a map and
 #include <string>
 
 int main() {
-    // Initialize a map of products and their prices
-    std::map<std::string, double> product_prices;
+  // Initialize a map of products and their prices
+  std::map<std::string, double> product_prices;
 
-    // `.emplace()` new elements into `product_prices`::map
-    auto [prod1_iter, prod1_inserted] = product_prices.emplace("Laptop", 999.99);
-    auto [prod2_iter, prod2_inserted] = product_prices.emplace("Phone", 499.99);
+  // Using std::pair instead of structured binding to support C++11 and later
+  std::pair<std::map<std::string, double>::iterator, bool> prod1 = product_prices.emplace("Laptop", 999.99);
+  std::pair<std::map<std::string, double>::iterator, bool> prod2 = product_prices.emplace("Phone", 499.99);
+  std::pair<std::map<std::string, double>::iterator, bool> prod3 = product_prices.emplace("Laptop", 799.99);
 
-    // `.emplace()` an existing key
-    auto [prod3_iter, prod3_inserted] = product_prices.emplace("Laptop", 799.99);
+  // Print results
+  std::cout << "Laptop insertion (first attempt): " << (prod1.second ? "Successful" : "Failed") << std::endl;
+  std::cout << "Phone insertion: " << (prod2.second ? "Successful" : "Failed") << std::endl;
+  std::cout << "Laptop insertion (second attempt): " << (prod3.second ? "Successful" : "Failed") << std::endl;
 
-    // Print results
-    std::cout << "Laptop insertion (first attempt): " << (prod1_inserted ? "Successful" : "Failed") << std::endl;
-    std::cout << "Phone insertion: " << (prod2_inserted ? "Successful" : "Failed") << std::endl;
-    std::cout << "Laptop insertion (second attempt): " << (prod3_inserted ? "Successful" : "Failed") << std::endl;
+  // Print the content of the map
+  for (const auto& pair : product_prices) {
+    std::cout << pair.first << ": $" << pair.second << std::endl;
+  }
 
-    // Print the content of the map
-    for (const auto& pair : product_prices) {
-        std::cout << pair.first << ": $" << pair.second << std::endl;
-    }
-
-    return 0;
+  return 0;
 }
 ```
 
@@ -72,9 +70,9 @@ Phone: $499.99
 
 ## Codebyte Example
 
-The following codebyte example uses `.emplace()` to add new elements to a map:
+Run the following codebyte example to understand how `.emplace()` method adds new elements to a map:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <map>
 #include <string>
