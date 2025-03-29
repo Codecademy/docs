@@ -255,6 +255,9 @@ Ontologies
 OOP
 Opacity
 ONNX
+IaC
+DevOps
+Automation
 Open Source
 Operating Systems
 Operators
