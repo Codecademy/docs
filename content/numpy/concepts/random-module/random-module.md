@@ -45,7 +45,7 @@ The general syntax for the functions under the `random` module in NumPy is follo
 np.random.func(params)
 ```
 
-- `func`: The function to be called.
+- `func`: The specific function from the NumPy random module (e.g., `.rand()`, `.randint()`, `.choice()`).
 - `params`: The parameters to be used in the function.
 
 ## Example
@@ -91,3 +91,5 @@ Random Normal Distribution: [ 1.42832105  0.54950071 -0.46675773]
 Random Uniform Distribution: [ 7.15527759  9.39970904 10.51563253]
 Random Binomial Distribution: [4 4 5 4 5]
 ```
+
+> **Note:** The output values will change each time the code is executed because the functions generate random numbers, meaning the results are not fixed and will vary on each run.
