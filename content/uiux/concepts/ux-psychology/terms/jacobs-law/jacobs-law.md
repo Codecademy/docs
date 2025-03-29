@@ -1,6 +1,6 @@
 ---
-Title: "Jacob's Law"
-Description: "Users prefer your site to work like others they already know, because they spend most of their time on other sites."
+Title: 'Jacob''s Law'
+Description: 'Jacob''s Law states that users expect new interfaces to work like the ones they already know, making familiarity essential for a smooth experience.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
@@ -13,15 +13,27 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Jacob’s Law**, proposed by Jakob Nielsen, highlights an important principle in UX Design: users spend most of their time on other websites and applications, which shapes their expectations for how things should work. Rather than creating entirely unique designs or interfaces, aligning with familiar patterns and conventions leads to smoother user experiences and less cognitive friction.
+**Jacob’s Law**, proposed by Jakob Nielsen, highlights a key UX design principle: users spend most of their time on other websites and applications, which shapes their expectations for how interfaces should work. Instead of creating entirely unique designs, aligning with familiar patterns and conventions results in a smoother user experience and reduces cognitive friction.
 
-This law underlines the importance of consistency and convention in design. Meeting users' expectations based on their existing experiences is how we reduce confusion and increase usability. Unfamiliar or overly original designs often lead to frustration, even if they are innovative or visually appealing.
+This law emphasizes the importance of consistency and convention in design. By meeting users' expectations based on their prior experiences, we minimise confusion and enhance usability. Even innovative or visually appealing designs can cause frustration if they deviate too much from established norms.
 
 ## Example
 
 A common example of Jacob’s Law in practice is navigation design where most users expect the navigation bar to be at the top of a webpage, with a logo on the left and clickable links for main sections. Moving this navigation to an unexpected place, or using unfamiliar icons without labels, can negatively affect usability.
 
-We help users feel more comfortable and efficient when using our product. It is by designing interfaces that follow patterns users have seen on other platforms.
+Designing interfaces that follow familiar patterns helps users feel comfortable and navigate efficiently.
+
+### Why Jacob’s Law Matters
+
+Research from Nielsen Norman Group indicates that familiar interfaces reduce cognitive load, improving task success and satisfaction. Products that align with users' expectations are easier to learn and use — increasing retention and reducing support needs.
+
+### Common Applications
+
+E-commerce platforms like Amazon, ASOS, and Shopify consistently place shopping carts in the top-right corner — a convention users now expect. Mobile apps, such as Instagram and WhatsApp, follow platform-specific design patterns, like bottom navigation on iOS, to ensure consistency and ease of use.
+
+### Exceptions & When to Innovate
+
+Tools like Notion and Figma break certain design conventions to serve expert or niche users. In such cases, innovation works when usability remains high and users see clear benefits. Even these platforms retain core UX norms, such as consistent icons and layout grids, to reduce the learning curve.
 
 ## Resources
 
