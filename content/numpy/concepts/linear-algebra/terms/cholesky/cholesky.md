@@ -2,8 +2,8 @@
 Title: '.cholesky()'
 Description: 'Returns the Cholesky decomposition of a matrix.'
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'Linear Algebra'
   - 'Matrices'
