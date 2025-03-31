@@ -160,11 +160,11 @@ A is positive-definite (verified by successful Cholesky decomposition)
 
 This example demonstrates how to use the Cholesky decomposition to verify if a matrix is positive-definite. It also shows how to manually reconstruct the original matrix from its Cholesky factor to understand how the decomposition works.
 
-## Example 3: Cholesky Decomposition for Data Covariance
+## Codebyte Example: Cholesky Decomposition for Data Covariance
 
 This example demonstrates how to use Cholesky decomposition to analyze the covariance structure of a dataset, a common task in statistical analysis:
 
-```py
+```codebyte/python
 import numpy as np
 
 # Generate some sample data with correlations
@@ -213,37 +213,6 @@ try:
 except np.linalg.LinAlgError:
   print("\nCholesky decomposition failed: Covariance matrix is not positive-definite.")
   print("This could happen due to numerical instability or if the data is perfectly correlated.")
-```
-
-This example results in the following output:
-
-```shell
-First 5 samples of dataset:
-[[ 0.49671415  0.99925674  0.28288469]
- [-0.1382643   0.29535087 -0.1651401 ]
- [ 0.90142861  1.46626106  0.22747086]
- [ 0.         -0.25767944 -0.12412325]
- [ 1.46210794  1.51265057  0.77905102]]
-
-Covariance matrix:
-[[ 1.03778801  0.8287191   0.53929224]
- [ 0.8287191   1.14660008  0.13022347]
- [ 0.53929224  0.13022347  0.73836775]]
-
-Cholesky factor of covariance matrix:
-[[1.01872214 0.         0.        ]
- [0.81348905 0.76407041 0.        ]
- [0.52937704 0.03359906 0.6602339 ]]
-
-Diagonal elements of L:
-[1.01872214 0.76407041 0.6602339 ]
-
-Correlation matrix:
-[[1.         0.7590535  0.61624882]
- [0.7590535  1.         0.14168345]
- [0.61624882 0.14168345 1.        ]]
-
-The Cholesky decomposition succeeded, confirming our covariance matrix is positive-definite.
 ```
 
 This example shows how to apply Cholesky decomposition to a covariance matrix calculated from actual data. It demonstrates the usefulness of Cholesky decomposition in statistical analysis by providing information about the correlation structure of the data. The diagonal elements of the Cholesky factor can give insight into the variance contributed by each independent component.
