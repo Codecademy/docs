@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **Student's t distribution** is a probability distribution that is crucial in statistical inference when working with small sample sizes or when the population standard deviation is unknown. It resembles the normal distribution but features heavier tails, making it more appropriate for estimating population parameters with limited data. This distribution is fundamental in hypothesis testing, confidence interval construction, and statistical modeling.
+The **Student's t distribution** is a probability distribution used in statistical inference when working with small sample sizes or when the population standard deviation is unknown. It resembles the normal distribution but features heavier tails, making it more appropriate for estimating population parameters with limited data. This distribution is fundamental in hypothesis testing, confidence interval construction, and statistical modeling.
 
 The formula for a t-statistic is given by:
 
@@ -54,82 +54,44 @@ The t-distribution has several distinctive characteristics:
 
 The Student's t distribution is widely used in various statistical scenarios:
 
-1. **Small Sample Inference**: When working with sample sizes less than 30, especially when the population standard deviation is unknown.
-2. **Hypothesis Testing**: In t-tests to determine if there's a significant difference between sample means and population means, or between two sample means.
-3. **Confidence Intervals**: To establish intervals for population parameters when the population standard deviation is unknown.
-4. **Regression Analysis**: In determining the significance of regression coefficients.
-5. **Quality Control**: In manufacturing and process control settings to analyze small batches.
+1. **Hypothesis Testing**: In t-tests to determine if there's a significant difference between sample means and population means, or between two sample means when sample sizes are small (n<30) or population standard deviation is unknown.
+2. **Confidence Intervals**: To establish intervals for population parameters when the population standard deviation is unknown or sample sizes are small (n<30).
+3. **Regression Analysis**: In determining the significance of regression coefficients.
 
-## Example 1: One-sample t-test in Python
+## Example: Plotting a t-Distribution in Python
 
-​To assess whether a new teaching method significantly impacts student performance, consider a sample of 25 students' test scores with a mean of 78 and a standard deviation of 8. The objective is to determine if this sample mean differs from the known population mean of 75 at a 95% confidence level:
+This example demonstrates how to generate and visualize a Student's t-distribution for different degrees of freedom (df):
 
 ```py
-import scipy.stats as stats
 import numpy as np
+import matplotlib.pyplot as plt
+from scipy.stats import t
 
-# Sample data
-sample_mean = 78
-sample_std = 8
-sample_size = 25
-population_mean = 75
+# Define x values
+x = np.linspace(-4, 4, 1000)
 
-# Calculate t-statistic
-t_stat = (sample_mean - population_mean) / (sample_std / np.sqrt(sample_size))
-print(f"t-statistic: {t_stat:.4f}")
+# Plot t-distributions for different degrees of freedom
+dfs = [1, 5, 10, 30]  # Different sample sizes
+for df in dfs:
+  plt.plot(x, t.pdf(x, df), label=f'df = {df}')
 
-# Calculate p-value (two-tailed test)
-p_value = 2 * (1 - stats.t.cdf(abs(t_stat), df=sample_size-1))
-print(f"p-value: {p_value:.4f}")
+# Plot standard normal distribution for comparison
+from scipy.stats import norm
+plt.plot(x, norm.pdf(x), 'k--', label='Normal (df → ∞)')
 
-# Determine if null hypothesis is rejected (α = 0.05)
-if p_value < 0.05:
-    print("Reject null hypothesis: The new teaching method has a significant effect.")
-else:
-    print("Fail to reject null hypothesis: No significant effect detected.")
+# Labels and legend
+plt.title("Student's t-Distribution for Different Degrees of Freedom")
+plt.xlabel("t value")
+plt.ylabel("Probability Density")
+plt.legend()
+plt.grid()
+
+# Show plot
+plt.show()
 ```
 
 This example results in the following output:
 
-```shell
-t-statistic: 1.8750
-p-value: 0.0730
-Fail to reject null hypothesis: No significant effect detected.
-```
-
-## Example 2: Confidence Interval Calculation
-
-Let's calculate a 95% confidence interval for a population mean based on a sample with the following characteristics: sample mean = 42, sample standard deviation = 5.2, sample size = 18.
-
-```py
-import scipy.stats as stats
-import numpy as np
-
-# Sample data
-sample_mean = 42
-sample_std = 5.2
-sample_size = 18
-confidence_level = 0.95
-
-# Degrees of freedom
-df = sample_size - 1
-
-# Critical t-value
-t_critical = stats.t.ppf((1 + confidence_level) / 2, df)
-
-# Margin of error
-margin_of_error = t_critical * (sample_std / np.sqrt(sample_size))
-
-# Confidence interval
-confidence_interval = (sample_mean - margin_of_error, sample_mean + margin_of_error)
-
-print(f"95% Confidence Interval: ({confidence_interval[0]:.2f}, {confidence_interval[1]:.2f})")
-```
-
-This example results in the following output:
-
-```shell
-95% Confidence Interval: (39.38, 44.62)
-```
+![Graph comparing Student's t-distributions for different degrees of freedom with a standard normal distribution](https://raw.githubusercontent.com/Codecademy/docs/main/media/stdistribution-output.png)
 
 ​For a comprehensive understanding of statistical distributions and their applications, consider exploring Codecademy's [Master Statistics with Python](https://www.codecademy.com/learn/paths/master-statistics-with-python) skill path.
