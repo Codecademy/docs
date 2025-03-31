@@ -23,7 +23,6 @@ The NumPy `.argmax()` function returns the indices of the maximum values along a
 ```python
 numpy.argmax(array, axis=None, out=None, keepdims=<no value>)
 
-
 import numpy as np
 
 # Create and analyze 1D array
