@@ -1,34 +1,40 @@
 ---
 Title: '.cumsum()'
-Description: 'Calculate the cumulative sum of elements in an array over a given axis.'
+Description: 'Calculates the cumulative sum of elements in an array along a specified axis.'
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Data Structures'
-  - 'NumPy'
-  - 'Functions'
   - 'Arrays'
+  - 'Data Structures'
+  - 'Functions'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-The **`.cumsum()`** function calculates the cumulative sum of elements in an array over a given axis.
+The **`.cumsum()`** function computes the cumulative sum of elements in an array along a specified axis.
 
 ## Syntax
 
 ```pseudo
-numpy.cumsum(a, axis, dtype, out)
+numpy.cumsum(a, axis=None, dtype=None, out=None)
 ```
-`a` = The array of elements to calculate the cumulative sum of.
-`axis` = Axis along which the cumulative sum is computed.
-`dtype` = Type of the returned array.If not specified defaults to the dtype of `a`.
-`out`: A different array to place the result. It must have the same shape as the expected result.
 
-**Note:** The `a` parameter is the only required parameter for this function. All other parameters are optional.
+**Parameters:**
 
+- `a`: The array of elements to calculate the cumulative sum of.
+- `axis` (Optional): Axis along which the cumulative sum is computed. Default is `None`, meaning the sum is computed over the flattened array.
+- `dtype` (Optional): The datatype of the returned array. If `None`, it defaults to the input array’s dtype.
+- `out` (Optional): Alternative output array in which to place the result.
+
+**Return value:**
+It returns a new NumPy array containing the cumulative sum of elements along the specified axis.
+  
 ## Example
+
+This example demonstrates how to compute the cumulative sum of a NumPy array using `.cumsum()`:
 
 ```py
 import numpy as np
@@ -52,9 +58,9 @@ Cumulative Sum : [1 3 6 10 15]
 
 ## Codebyte Example
 
-Run the following codebyte example the better understand the `.cumsum()` function:
+Run the following codebyte example to better understand the `.cumsum()` function:
 
-```codebyte/py
+```codebyte/python
 import numpy as np
 
 array = np.array([[1, 2, 3], [5, 10, 15]])
