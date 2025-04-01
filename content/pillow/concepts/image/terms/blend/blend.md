@@ -150,3 +150,5 @@ result.show()
 ![Output image after blending two images](https://raw.githubusercontent.com/Codecademy/docs/main/media/watermarked_image.png)
 
 This example creates a watermark text overlay on an image. By adjusting the alpha value in the `.blend()` the opacity of the watermark can be controlled. This technique is useful for adding copyright information, branding, or other textual overlays to images while maintaining control over their visibility.
+
+To improve your data visualization skills, check out our [Intro to Data Visualization with Python](https://www.codecademy.com/learn/intro-to-data-visualization-with-python) course, where you'll learn to create line, bar, and pie charts, scatterplots, histograms, and more. You'll also learn how to customize charts and annotate them with error bars and text.
