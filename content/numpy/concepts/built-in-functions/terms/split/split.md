@@ -5,8 +5,8 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Data Structures'
   - 'Arrays'
+  - 'Data Structures'
   - 'Functions'
   - 'NumPy'
 CatalogContent:
@@ -23,12 +23,14 @@ numpy.split(array, indices_or_sections, axis=0)
 ```
 
 - `array`: The input array to split.
-- `indices_or_sections`: If an integer, the array is split into N equal parts along the axis. If a list of integers, the entries represent the indices where splits occur.
-- `axis`: The axis along which to split (default is 0).
+- `indices_or_sections`:
+  - If an integer, it divides the array into equal-sized sub-arrays.
+  - If a list of indices, it splits at the specified positions.
+- `axis` (Optional): The axis along which the array is split (default is `0`, i.e., row-wise).
 
 ## Example
 
-The following example shows splitting arrays in different configurations
+The following example shows splitting arrays in different configurations using the `.split()` function:
 
 ```py
 import numpy as np
@@ -51,9 +53,21 @@ This produces the following output:
 
 [array([1, 2]), array([3, 4]), array([5, 6])]
 
-[array([[1, 2, 3], [4, 5, 6]]), array([[ 7,  8,  9], [10, 11, 12]])]
+[array([[1, 2, 3],
+        [4, 5, 6]]), 
+ array([[ 7,  8,  9],
+        [10, 11, 12]])]
 
-[array([[ 1], [ 4], [ 7], [10]]),
- array([[ 2], [ 5], [ 8], [11]]),
- array([[ 3], [ 6], [ 9], [12]])]
+[array([[ 1],
+        [ 4],
+        [ 7],
+        [10]]), 
+ array([[ 2],
+        [ 5],
+        [ 8],
+        [11]]), 
+ array([[ 3],
+        [ 6],
+        [ 9],
+        [12]])]
 ```
