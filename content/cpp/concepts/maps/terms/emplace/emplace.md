@@ -28,7 +28,7 @@ mapName.emplace(key, value)
 
 ## Example
 
-This example demonstrates using `.emplace()` method to add elements to a map and the behaviour on insert elements with the same key:
+This example demonstrates using the `.emplace()` method to add elements to a map and the behaviour on inserting elements with the same key:
 
 ```cpp
 #include <iostream>
@@ -70,7 +70,7 @@ Phone: $499.99
 
 ## Codebyte Example
 
-Run the following codebyte example to understand how `.emplace()` method adds new elements to a map:
+Run the following codebyte example to understand how the `.emplace()` method adds new elements to a map:
 
 ```codebyte/cpp
 #include <iostream>
@@ -82,16 +82,16 @@ int main() {
   std::map<std::string, int> student_scores;
 
   // Emplacing elements into the map
-  auto [iter1, inserted1] = student_scores.emplace("Alice", 95);
-  auto [iter2, inserted2] = student_scores.emplace("Bob", 87);
+  std::pair<std::map<std::string, int>::iterator, bool> inserted1 = student_scores.emplace("Alice", 95);
+  std::pair<std::map<std::string, int>::iterator, bool> inserted2 = student_scores.emplace("Bob", 87);
 
   // Attempting to emplace an existing key
-  auto [iter3, inserted3] = student_scores.emplace("Alice", 100);
+  std::pair<std::map<std::string, int>::iterator, bool> inserted3 = student_scores.emplace("Alice", 100);
 
   // Printing results
-  std::cout << "Alice's first insertion: " << (inserted1 ? "Successful" : "Failed") << std::endl;
-  std::cout << "Bob's insertion: " << (inserted2 ? "Successful" : "Failed") << std::endl;
-  std::cout << "Alice's second insertion: " << (inserted3 ? "Successful" : "Failed") << std::endl;
+  std::cout << "Alice's first insertion: " << (inserted1.second ? "Successful" : "Failed") << std::endl;
+  std::cout << "Bob's insertion: " << (inserted2.second ? "Successful" : "Failed") << std::endl;
+  std::cout << "Alice's second insertion: " << (inserted3.second ? "Successful" : "Failed") << std::endl;
 
   // Printing map contents
   for (const auto& pair : student_scores) {
