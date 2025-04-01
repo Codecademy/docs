@@ -17,7 +17,6 @@ CatalogContent:
 
 The `.show()` method in the Python Pillow library is used to open and display an image using the system’s default image viewer. It provides a quick way to visually inspect images during development or testing without saving them to disk.
 
-
 ## Syntax
 
 ```pseudo
