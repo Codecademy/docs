@@ -30,7 +30,7 @@ image.show(title=None, command=None)
 
 ## Example
 
-This code will open the image "example.jpg" using your system’s default image viewer:
+The following example opens and displays an image file, `example.jpg`, using the system’s default image viewer:
 ```py
 from PIL import Image
 
