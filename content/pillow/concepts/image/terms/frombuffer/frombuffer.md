@@ -63,7 +63,7 @@ image.show()
 
 It produces the output as follows:
 
-![A horizontal gradient image transitioning from black to red, created using raw RGB pixel data](https://raw.githubusercontent.com/Codecademy/docs/main/media/frombuffer_output1.png)
+![A horizontal gradient image transitioning from black to red, created using raw RGB pixel data](https://raw.githubusercontent.com/Codecademy/docs/main/media/red_gradient.png)
 
 This code generates an image with a horizontal gradient from black to red, demonstrating how to directly create an image from raw pixel data in memory.
 
@@ -98,7 +98,7 @@ image.show()
 
 It produces the output as follows:
 
-![A smooth gradient transitioning from black to yellow using NumPy-generated pixel values](https://raw.githubusercontent.com/Codecademy/docs/main/media/frombuffer_output2.png)
+![A smooth gradient transitioning from black to yellow using NumPy-generated pixel values](https://raw.githubusercontent.com/Codecademy/docs/main/media/numpy_gradient.png)
 
 This demonstrates how to convert a NumPy array to a Pillow Image efficiently, creating a gradient that transitions from black to yellow (combination of red and green channels).
 
@@ -145,7 +145,7 @@ image.show()
 
 It produces the output as follows:
 
-![A black-and-white checkerboard pattern image created from raw binary pixel data](https://raw.githubusercontent.com/Codecademy/docs/main/media/frombuffer_output3.png)
+![A black-and-white checkerboard pattern image created from raw binary pixel data](https://raw.githubusercontent.com/Codecademy/docs/main/media/checkerboard.png)
 
 This example demonstrates reading raw image data from a binary file, which is similar to processing raw image data received from external sources or hardware devices.
 
