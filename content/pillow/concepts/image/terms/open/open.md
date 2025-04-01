@@ -1,30 +1,30 @@
 ---
-Title: '.open()' 
-Description: 'Returns an image object from an image file.' 
-Subjects: 
+Title: '.open()'
+Description: 'Returns an image object from an image file.'
+Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Images'
   - 'Methods'
   - 'Pillow'
-  - 'Python'  
-CatalogContent: 
+  - 'Python'
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`.open()`** function opens an image file as an `Image` object. This is the first step in manipulating an image. However, it does not automatically read or display the image. To view or process the image, methods like `.show()` (to display) or `.load()` (to force loading into memory) can be used.
+In Pillow, the **`.open()`** function opens an image file as an `Image` object. This is the first step in manipulating an image. However, it does not automatically read or display the image. To view or process the image, methods like `.show()` (to display) or `.load()` (to force loading into memory) can be used.
 
 ## Syntax
 
-```pseudo 
+```pseudo
 Image.open(fp, mode='r')
 ```
 
 **Parameters:**
 
-- `fp`: The file path or a file-like object.                
+- `fp`: The file path or a file-like object.
 - `mode`: The mode to open the file. `'r'` (read) is the default and the only supported mode.
 
 **Return value:**
