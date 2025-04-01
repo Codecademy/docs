@@ -25,7 +25,7 @@ image.show(title=None, command=None)
 
 ### Parameters
 - `image`: An instance of the `Image` class from the Pillow library.
-- `title` (optional): A string specifying the window title (may not work on all platforms).
+- `title` (Optional): A string specifying the window title (may not work on all platforms).
 - `command` (optional): A shell command to execute for displaying the image (rarely used).
 
 ## Example
