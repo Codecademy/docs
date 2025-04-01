@@ -54,20 +54,54 @@ This produces the following output:
 [array([1, 2]), array([3, 4]), array([5, 6])]
 
 [array([[1, 2, 3],
-        [4, 5, 6]]), 
+        [4, 5, 6]]),
  array([[ 7,  8,  9],
         [10, 11, 12]])]
 
 [array([[ 1],
         [ 4],
         [ 7],
-        [10]]), 
+        [10]]),
  array([[ 2],
         [ 5],
         [ 8],
-        [11]]), 
+        [11]]),
  array([[ 3],
         [ 6],
         [ 9],
         [12]])]
+```
+
+## Codebyte Example
+
+The following example demonstrates splitting arrays using `.split()` function:
+
+```codebyte/python
+# Importing the NumPy library
+import numpy as np
+
+# Creating a sample array
+arr = np.array([1, 2, 3, 4, 5, 6])
+
+# Splitting into 3 equal parts
+result = np.split(arr, 3)
+
+# Printing the results
+print("Split into 3 equal parts:")
+print(result)
+
+# Creating a 2D array
+nd = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
+
+# Splitting along rows (axis=0)
+row_split = np.split(nd, 2, axis=0)
+
+# Splitting along columns (axis=1)
+col_split = np.split(nd, [1, 2], axis=1)
+
+print("\nRow split:")
+print(row_split)
+
+print("\nColumn split:")
+print(col_split)
 ```
