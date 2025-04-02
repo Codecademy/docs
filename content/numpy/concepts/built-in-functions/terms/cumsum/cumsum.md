@@ -1,7 +1,7 @@
 ---
 Title: '.cumsum()'
-Description: 'Calculates the cumulative sum of elements in an array along a specified axis.'
-Subjects: 
+Description: 'Computes the cumulative sum of elements in an array along a specified axis.'
+Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.cumsum()`** function computes the cumulative sum of elements in an array along a specified axis.
+In NumPy, the **`.cumsum()`** function computes the cumulative sum of elements in an array along a specified axis.
 
 ## Syntax
 
@@ -26,12 +26,13 @@ numpy.cumsum(a, axis=None, dtype=None, out=None)
 
 - `a`: The array of elements to calculate the cumulative sum of.
 - `axis` (Optional): Axis along which the cumulative sum is computed. Default is `None`, meaning the sum is computed over the flattened array.
-- `dtype` (Optional): The datatype of the returned array. If `None`, it defaults to the input array’s dtype.
+- `dtype` (Optional): The datatype of the returned array. If `None`, it defaults to the input array’s `dtype`.
 - `out` (Optional): Alternative output array in which to place the result.
 
 **Return value:**
-It returns a new NumPy array containing the cumulative sum of elements along the specified axis.
-  
+
+Returns a new NumPy array containing the cumulative sum of elements along the specified axis.
+
 ## Example
 
 This example demonstrates how to compute the cumulative sum of a NumPy array using `.cumsum()`:
@@ -39,21 +40,24 @@ This example demonstrates how to compute the cumulative sum of a NumPy array usi
 ```py
 import numpy as np
 
+# Create an array
 array = np.array([1, 2, 3, 4, 5])
+
+# Compute the cumulative sum of the array
 cumulative_sum = np.cumsum(array)
 
+# Print out the original array
 print("Original Array:", array)
-#Prints out the original array 
 
+# Print out the returned array
 print("Cumulative Sum:", cumulative_sum)
-#Computes the cumulative sum of the original array
 ```
 
 This produces the following output:
 
 ```shell  
 Original Array: [1 2 3 4 5]
-Cumulative Sum : [1 3 6 10 15]
+Cumulative Sum: [ 1  3  6 10 15]
 ```
 
 ## Codebyte Example
@@ -64,7 +68,6 @@ Run the following codebyte example to better understand the `.cumsum()` function
 import numpy as np
 
 array = np.array([[1, 2, 3], [5, 10, 15]])
-
 print("Original array:")
 print(array)
 
