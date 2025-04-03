@@ -3,12 +3,12 @@ Title: 'Linear Algebra'
 Description: 'Covers essential linear algebra operations in NumPy, including vector manipulations, matrix computations, and transformations.'
 Subjects:
   - 'Computer Science'
-  - 'Data Science'  
+  - 'Data Science'
 Tags:
   - 'Linear Algebra'
   - 'Matrices'
   - 'NumPy'
-  - 'Vectors'  
+  - 'Vectors'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
