@@ -22,7 +22,7 @@ torch.bitwise_and(input, other, *, out=None) → Tensor
 ```
 
 ## Example
-
+```py
 import torch
 
 # Define two tensors
@@ -34,6 +34,7 @@ result = torch.bitwise_and(a, b)
 
 print("Bitwise AND Result:")
 print(result)
+```
 
 ## output
 Bitwise AND Result:
