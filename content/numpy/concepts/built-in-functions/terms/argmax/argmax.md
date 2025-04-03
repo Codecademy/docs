@@ -21,34 +21,42 @@ The NumPy **`.argmax()`** function returns the indices of the maximum values alo
 numpy.argmax(array, axis=None, out=None, keepdims=<no value>)
 ```
 
-array: Input array to find the maximum values in.
-axis: Optional. The axis along which to find the maximum values. If None, the flattened array is used.
-out: Optional. An array to place the result in. Must be of appropriate shape and dtype.
-keepdims: Optional. If set to True, the axes which are reduced are left in the result as dimensions with size one.
+**Parameters:**
+
+- `array`: The input array in which to find the indices of maximum values.
+- `axis` (Optional): The axis along which to find the maximum values. If `None` (default), the function works on the flattened array.
+- `out` (Optional): An array to place the result in. It must match the expected output shape.
+- `keepdims` (Optional): If `True`, the reduced dimensions are kept with size 1, making the output broadcast-compatible with the input.
+
+**Return value:**
+
+Returns an integer index for 1D arrays and a NumPy array of indices for multi-dimensional arrays, indicating the positions of the maximum values along the specified axis.
 
 ## Example
 
-The following examples demonstrate how to use the `.argmax()` function with both 1D and 2D arrays.
+The following examples demonstrate how to use the `.argmax()` function with 1D and 2D arrays:
 
-```python
+```py
 import numpy as np
 
 # 1D array example
 scores = np.array([10, 30, 20, 50, 40])
 max_index = np.argmax(scores)
-print("Index of max value:", max_index)  # Output: 3
-print("Max value:", scores[max_index])   # Output: 50
+print("Index of max value:", max_index) 
+print("Max value:", scores[max_index])  
 
 # Create 2D array
 matrix = np.array([[1, 5, 3], 
                   [4, 2, 6]])
 
-# Analyze columns (axis=0)
-print("Max indices per column:", np.argmax(matrix, axis=0))  # Output: [1 0 1]
+# Find max indices along columns (axis=0)
+print("Max indices per column:", np.argmax(matrix, axis=0))  
 
-# Analyze rows (axis=1)
-print("Max indices per row:", np.argmax(matrix, axis=1))     # Output: [1 2]
+# Find max indices along rows (axis=1)
+print("Max indices per row:", np.argmax(matrix, axis=1))   
 ```
+
+The code above produces the following output:
 
 ```shell
 Index of max value: 3
@@ -59,7 +67,9 @@ Max indices per row: [1 2]
 
 ## Codebyte Example
 
-```python
+Run the following code to understand the working of the `.argmax()` function:
+
+```codebyte/python
 import numpy as np
 
 # Create a 2D array
