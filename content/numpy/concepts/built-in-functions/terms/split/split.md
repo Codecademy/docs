@@ -74,7 +74,7 @@ This produces the following output:
 
 ## Codebyte Example
 
-The following example demonstrates splitting arrays using `.split()` function:
+Run the following example to understand how to split the arrays using `.split()` function:
 
 ```codebyte/python
 # Importing the NumPy library
