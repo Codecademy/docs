@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.show()` method in the Python Pillow library is used to open and display an image using the system’s default image viewer. It provides a quick way to visually inspect images during development or testing without saving them to disk.
+The **`.show()`** method in the Python Pillow library opens and displays an image using the system’s default image viewer. It provides a quick way to inspect images during development or testing without saving them to disk.
 
 ## Syntax
 
@@ -24,6 +24,7 @@ image.show(title=None, command=None)
 ```
 
 ### Parameters
+
 - `image`: An instance of the `Image` class from the Pillow library.
 - `title` (Optional): A string specifying the window title (may not work on all platforms).
 - `command` (Optional): A shell command specifying an alternative image display method. This is rarely needed in typical use cases.
@@ -31,6 +32,7 @@ image.show(title=None, command=None)
 ## Example
 
 The following example opens and displays an image file, `example.jpg`, using the system’s default image viewer:
+
 ```py
 from PIL import Image
 
