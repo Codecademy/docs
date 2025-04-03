@@ -16,7 +16,7 @@ CatalogContent:
 
 **Linear algebra** is a branch of mathematics that deals with vectors, matrices, and linear transformations. NumPy provides linear algebra functions primarily through the `numpy.linalg` module, while some operations, like dot products and matrix multiplication, are available directly in NumPy.
 
-The `numpy.linalg` module serves as a bridge between Python and optimized linear algebra libraries like BLAS and LAPACK, allowing data scientists and engineers to solve complex mathematical problems with simple, readable code. This module enables operations such as matrix multiplication, finding determinants, solving linear systems of equations, decomposing matrices, and computing eigenvalues and eigenvectors.
+The `numpy.linalg` module serves as a bridge between Python and optimized linear algebra libraries like [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) and [LAPACK](https://en.wikipedia.org/wiki/LAPACK), allowing data scientists and engineers to solve complex mathematical problems with simple, readable code. This module enables operations such as matrix multiplication, finding determinants, solving linear systems of equations, decomposing matrices, and computing [eigenvalues and eigenvectors](https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors).
 
 Linear algebra forms the backbone of many scientific computing applications, including machine learning algorithms, computer graphics, optimization problems, and data analysis. Its efficient implementation in NumPy makes it an essential tool for researchers and developers working with numerical data.
 
