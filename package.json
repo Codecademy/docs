@@ -1,6 +1,7 @@
 {
   "name": "codecademy-docs",
   "dependencies": {
+    "codecademy-docs": "file:",
     "front-matter": "^4.0.2",
     "glob": "^7.1.7"
   },
