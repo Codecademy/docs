@@ -6,8 +6,8 @@ Subjects:
   - 'Data Science'  
 Tags:
   - 'Linear Algebra'
-  - 'NumPy'
   - 'Matrices'
+  - 'NumPy'
   - 'Vectors'  
 CatalogContent:
   - 'learn-python-3'
