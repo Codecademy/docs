@@ -1,3 +1,4 @@
+---
 Title: '.argmax()'
 Description: 'Returns the indices of the maximum values along a specified axis in an array.'
 Subjects:
