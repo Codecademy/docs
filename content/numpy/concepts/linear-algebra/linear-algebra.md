@@ -1,5 +1,5 @@
 ---
-Title: 'Linear Algebra'  
+Title: 'Linear Algebra'
 Description: 'Covers essential linear algebra operations in NumPy, including vector manipulations, matrix computations, and transformations.'
 Subjects:
   - 'Computer Science'
