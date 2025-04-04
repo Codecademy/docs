@@ -37,7 +37,7 @@ Returns an array of indices into the array. It has the same shape as the input a
 
 ## Example 1: Finding Maximum Element Position in a 1D Array
 
-The simplest application of `.argmax()` is finding the position of the maximum value in a one-dimensional array. This is useful when the position itself carries meaningful information. The code is as follows:
+The simplest application of `.argmax()` is finding the position of the maximum value in a one-dimensional array. This is useful when the position itself carries meaningful information, as illustrated in the following example:
 
 ```py
 import numpy as np
@@ -65,7 +65,7 @@ The code identifies position 3 (zero-indexed) as containing the maximum temperat
 
 ## Example 2: Working with Multi-dimensional Arrays
 
-`.argmax()` becomes especially powerful when working with multi-dimensional arrays. By specifying the axis parameter, maximum values along rows or columns can be found, which is useful for tasks like finding the highest value in each feature of a dataset. The example code is:
+`.argmax()` becomes especially powerful when working with multi-dimensional arrays. By specifying the axis parameter, maximum values along rows or columns can be found, making it useful for tasks like identifying the highest value in each feature of a dataset, as demonstrated here:
 
 ```py
 import numpy as np
@@ -109,7 +109,7 @@ The results tell us that Product A performs best in Q2, Product B in Q4, and Pro
 
 ## Example 3: [Machine Learning](https://www.codecademy.com/resources/docs/general/machine-learning) Applications with `keepdims`
 
-The `.argmax()` function is commonly used in machine learning to identify predicted classes from probability outputs. The `keepdims` parameter is particularly useful when integrating this operation into larger computational graphs. Here is the code:
+The `.argmax()` function is commonly used in machine learning to identify predicted classes from probability outputs. The `keepdims` parameter parameter helps maintain the original dimensions, making it easier to integrate into larger computational graphs, as shown in this case:
 
 ```py
 import numpy as np
@@ -201,5 +201,3 @@ subjects = ["Math", "Science", "English"]
 for i, subject in enumerate(subjects):
   print(f"Top scorer in {subject}: Student {best_students[i] + 1}")
 ```
-
-Explore the [Learn Statistics with NumPy](https://www.codecademy.com/enrolled/courses/intro-statistics-numpy) course on Codecademy to delve deeper into NumPy functionalities.
