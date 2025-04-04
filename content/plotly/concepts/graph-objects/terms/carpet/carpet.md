@@ -5,8 +5,11 @@ Subjects:
   - 'Data Science'
   - 'Data Visualization'
 Tags:
+  - 'Data'
   - 'Graphs'
   - 'Plotly'
+  - 'Python'
+  - 'Variables'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
@@ -130,5 +133,3 @@ The `cheatertype` parameter controls how axes are constructed. When set to `'ind
 > **Note:** The layout of cheater plots depends upon the cheaterslope and axis cheatertype parameters, which can be adjusted to achieve the desired visual representation.
 
 Carpet plots provide a powerful way to visualize and analyze multi-dimensional data on a two-dimensional surface, especially for applications in engineering, physics, and advanced data analysis.
-
-To improve your data visualization skills, check out our [Intro to Data Visualization with Python](https://www.codecademy.com/learn/intro-to-data-visualization-with-python) course, where you'll learn to create line, bar, and pie charts, scatterplots, histograms, and more. You'll also learn how to customize charts and annotate them with error bars and text.
