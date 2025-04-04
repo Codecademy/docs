@@ -97,7 +97,7 @@ fig.show()
 
 ![A carpet plot styled using the properties](https://raw.githubusercontent.com/Codecademy/docs/main/media/carpet_output2.png)
 
-​This example enhances the carpet plot by adding custom styling to the `a` and `b` axes. Tick prefixes and suffixes are included to indicate units, the smoothing parameter is adjusted, and minor grid lines are added. Additionally, the background colors are modified for better contrast:
+​This example enhances the carpet plot by adding custom styling to the `a` and `b` axes. Tick prefixes and suffixes are included to indicate units, the smoothing parameter is adjusted, and minor grid lines are added. Additionally, the background colors are modified for better contrast.
 
 ## Example 3: Advanced Carpet Plot with Cheatertype and Custom Layout
 
