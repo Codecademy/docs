@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Jacob’s Law**, proposed by Jakob Nielsen, highlights a key UX design principle: users spend most of their time on other websites and applications, which shapes their expectations for how interfaces should work. Instead of creating entirely unique designs, aligning with familiar patterns and conventions results in a smoother user experience and reduces cognitive friction.
+**Jacob’s Law**, proposed by Jakob Nielsen, highlights a key UX design principle: users spend most of their time on other applications and websites, which shapes their expectations for how interfaces should work. Instead of creating entirely unique designs, aligning with familiar patterns and conventions results in a smoother user experience and reduces cognitive friction.
 
 This law emphasizes the importance of consistency and convention in design. We minimize confusion and enhance usability by meeting users' expectations based on their prior experiences. Innovative or visually appealing designs can cause frustration if they deviate too much from established norms.
 
