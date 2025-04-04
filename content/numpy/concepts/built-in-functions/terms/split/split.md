@@ -1,6 +1,6 @@
 ---
 Title: '.split()'
-Description: 'Divides an array into multiple sub-arrays along a specified axis.'
+Description: 'Divides an array into separate sub-arrays along a specified axis.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -36,7 +36,7 @@ The following example shows splitting arrays in different configurations using t
 import numpy as np
 
 # Split a 1D array into 3 equal parts
-arr = np.array([1, 2, 3, 4, 5, 6])
+arr = np.array([11, 22, 33, 44, 55, 66])
 print(np.split(arr, 3))
 
 # Split a 2D array into 2 parts along rows (axis=0)
@@ -50,38 +50,31 @@ print(np.split(nd, [1, 2], axis=1))
 This produces the following output:
 
 ```shell
-
-[array([1, 2]), array([3, 4]), array([5, 6])]
-
+[array([11, 22]), array([33, 44]), array([55, 66])]
 [array([[1, 2, 3],
-        [4, 5, 6]]),
- array([[ 7,  8,  9],
-        [10, 11, 12]])]
-
+       [4, 5, 6]]), array([[ 7,  8,  9],
+       [10, 11, 12]])]
 [array([[ 1],
-        [ 4],
-        [ 7],
-        [10]]),
- array([[ 2],
-        [ 5],
-        [ 8],
-        [11]]),
- array([[ 3],
-        [ 6],
-        [ 9],
-        [12]])]
+       [ 4],
+       [ 7],
+       [10]]), array([[ 2],
+       [ 5],
+       [ 8],
+       [11]]), array([[ 3],
+       [ 6],
+       [ 9],
+       [12]])]
 ```
 
 ## Codebyte Example
 
-Run the following example to understand how to split the arrays using `.split()` function:
+Run the following example to understand how to split the arrays using the `.split()` function:
 
 ```codebyte/python
-# Importing the NumPy library
 import numpy as np
 
-# Creating a sample array
-arr = np.array([1, 2, 3, 4, 5, 6])
+# Creating a 1D array
+arr = np.array([11, 22, 33, 44, 55, 66])
 
 # Splitting into 3 equal parts
 result = np.split(arr, 3)
