@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Miller’s Law**, proposed by cognitive psychologist George A. Miller, states that the average person can only hold about seven items in their working memory at one time — give or take two. This insight into our cognitive limits forms the basis for designing clearer communication, better user interfaces, and more digestible information structures.
+**Miller's Law**, proposed by cognitive psychologist George A. Miller, states that the average person can only hold about seven items in their working memory at one time — give or take two. This insight into our cognitive limits forms the basis for designing clearer communication, better user interfaces, and more digestible information structures.
 
-The concept of ‘chunking’ stems from this principle: grouping individual elements into larger, meaningful units helps people retain more information. This technique is widely used in education, design, and communication to reduce cognitive load and improve memory.
+The concept of ‘chunking' stems from this principle: grouping individual elements into larger, meaningful units helps people retain more information. This technique is widely used in education, design, and communication to reduce cognitive load and improve memory.
 
 ## Example
 
@@ -23,9 +23,9 @@ A classic example is how phone numbers are formatted. Instead of writing all dig
 
 Similarly, menus or options grouped into categories in software interfaces are easier to navigate.
 
-### Why Miller’s Law Matters
+### Why Miller's Law Matters
 
-Acknowledging the limits of human memory allows us to create systems and content that don’t overload users. Organising information into digestible segments enhances understanding, maintains interest, and boosts usability — whether in websites, presentations, or educational settings.
+Acknowledging the limits of human memory allows us to create systems and content that don't overload users. Organising information into digestible segments enhances understanding, maintains interest, and boosts usability — whether in websites, presentations, or educational settings.
 
 ### Common Applications
 
@@ -33,8 +33,8 @@ Educational content is often divided into modules or lessons with no more than 5
 
 ### Exceptions & When to Innovate
 
-Some advanced users or specialised contexts may allow for more complexity. Experts can handle larger amounts of information due to domain familiarity and practiced chunking strategies. Still, even for expert systems, applying Miller’s Law can streamline onboarding and improve clarity.
+Some advanced users or specialised contexts may allow for more complexity. Experts can handle larger amounts of information due to domain familiarity and practiced chunking strategies. Still, even for expert systems, applying Miller's Law can streamline onboarding and improve clarity.
 
 ## Resources
 
-- [UX Laws – Miller’s Law](https://lawsofux.com/millers-law/)
+- [UX Laws – Miller's Law](https://lawsofux.com/millers-law/)
