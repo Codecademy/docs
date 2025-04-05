@@ -15,7 +15,7 @@ CatalogContent:
 
 **Miller's Law**, proposed by cognitive psychologist George A. Miller, states that the average person can only hold about seven items in their working memory at one time — give or take two. This insight into our cognitive limits forms the basis for designing clearer communication, better user interfaces, and more digestible information structures.
 
-The concept of ‘chunking' stems from this principle: grouping individual elements into larger, meaningful units helps people retain more information. This technique is widely used in education, design, and communication to reduce cognitive load and improve memory.
+The concept of 'chunking' stems from this principle: grouping individual elements into larger, meaningful units helps people retain more information. This technique is widely used in education, design, and communication to reduce cognitive load and improve memory.
 
 ## Example
 
