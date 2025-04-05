@@ -44,10 +44,9 @@ b = np.histogram(np.arange(4), bins=np.arange(5), density=True)
 
 #Print the above histogram
 print(str(2) + ':' + str(b))
-
-
 ```
 This produce the outputfollowing output:
+
 ```shell
 1:(array([2, 2, 2, 2, 1, 1]), array([0, 1, 2, 3, 4, 5, 6]))
 
