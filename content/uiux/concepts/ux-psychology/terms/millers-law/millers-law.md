@@ -19,7 +19,7 @@ The concept of 'chunking' stems from this principle: grouping individual element
 
 ## Example
 
-A classic example is how phone numbers are formatted. Instead of writing all digits in a continuous string like 07987654321, we break it up into chunks: 07987 654 321. This makes it easier to remember and recall. 
+A classic example is how phone numbers are formatted. Instead of writing all digits in a continuous string like 07987654321, we break it up into chunks: 07987 654 321. This makes it easier to remember and recall.
 
 Similarly, menus or options grouped into categories in software interfaces are easier to navigate.
 
