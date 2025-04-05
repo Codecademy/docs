@@ -32,4 +32,24 @@ numpy.histogram(a, bins=10, range=None, density=None, weights=None)
 The code below shows `.histogram()` used to show a histogram of a data set.
 
 ```py
+import numpy as np
+#Creating a numpy histogram from array and set bins
+a = np.histogram([1, 2, 1, 3, 2, 4, 3, 0, 0, 5], bins=[0, 1, 2, 3, 4, 5, 6])
+
+#Print the above histogram
+print(str(1)  + ':' + str(a))
+
+#Creatinhg a bumpy histogram with numpy.arange and setting density True
+b = np.histogram(np.arange(4), bins=np.arange(5), density=True)
+
+#Print the above histogram
+print(str(2) + ':' + str(b))
+
+
+```
+This produce the outputfollowing output:
+```shell
+1:(array([2, 2, 2, 2, 1, 1]), array([0, 1, 2, 3, 4, 5, 6]))
+
+2:(array([0.25, 0.25, 0.25, 0.25]), array([0, 1, 2, 3, 4]))
 ```
