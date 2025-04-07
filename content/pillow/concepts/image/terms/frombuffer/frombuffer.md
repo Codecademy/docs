@@ -148,5 +148,3 @@ It produces the output as follows:
 ![A black-and-white checkerboard pattern image created from raw binary pixel data](https://raw.githubusercontent.com/Codecademy/docs/main/media/checkerboard.png)
 
 This example demonstrates reading raw image data from a binary file, which is similar to processing raw image data received from external sources or hardware devices.
-
-To improve your data visualization skills, check out our [Intro to Data Visualization with Python](https://www.codecademy.com/learn/intro-to-data-visualization-with-python) course, where you'll learn to create line, bar, and pie charts, scatterplots, histograms, and more.
