@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The NumPy **`.argmax()`** function returns the indices of the maximum values along a specified axis in an array.
+The NumPy **`.argmax()`** function returns the indices of the maximum values along a specified axis in an [array](https://www.codecademy.com/resources/docs/numpy/ndarray).
 
 ## Syntax
 
@@ -27,7 +27,7 @@ numpy.argmax(array, axis=None, out=None, keepdims=<no value>)
 - `array`: The input array in which to find the indices of maximum values.
 - `axis` (Optional): The axis along which to find the maximum values. If `None` (default), the function works on the flattened array.
 - `out` (Optional): An array to place the result in. It must match the expected output shape.
-- `keepdims` (Optional): If `True`, the reduced dimensions are kept with size 1, making the output broadcast-compatible with the input.
+- `keepdims` (Optional): If `True`, the reduced dimensions are kept with size `1`, making the output broadcast-compatible with the input.
 
 **Return value:**
 
@@ -35,18 +35,21 @@ Returns an integer index for 1D arrays and a NumPy array of indices for multi-di
 
 ## Example
 
-The following examples demonstrate how to use the `.argmax()` function with 1D and 2D arrays:
+The following example demonstrates how to use the `.argmax()` function with 1D and 2D arrays:
 
 ```py
 import numpy as np
 
-# 1D array example
+# Create a 1D array
 scores = np.array([10, 30, 20, 50, 40])
+
+# Find max indices
 max_index = np.argmax(scores)
+
 print("Index of max value:", max_index)
 print("Max value:", scores[max_index])
 
-# Create 2D array
+# Create a 2D array
 matrix = np.array([[1, 5, 3],
                   [4, 2, 6]])
 
@@ -78,5 +81,6 @@ data = np.array([[10, 20, 30], [40, 50, 60]])
 
 # Find the index of the maximum value along axis 1 (rows)
 result = np.argmax(data, axis=1)
-print(result)  # Output: [2 2]
+
+print(result)
 ```
