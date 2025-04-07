@@ -214,16 +214,6 @@ for i, avg in enumerate(exam_averages, 1):
 print(f"\nOverall class average: {class_average:.1f}")
 ```
 
-This practical example shows how `.mean()` can be utilized to calculate various averages from a set of student exam scores, providing insights into individual student performance, exam difficulty, and overall class performance.
-
-## Best Practices
-
-1. **Choose the appropriate axis**: When working with multi-dimensional arrays, carefully select the axis parameter to ensure calculations are performed along the intended dimension.
-
-2. **Consider data type precision**: For scientific calculations requiring high precision, use the default `float64` or explicitly specify it. For less critical applications where memory efficiency is important, consider using `float32`.
-
-3. **Use keepdims for dimensional consistency**: Set `keepdims=True` when maintaining the same number of dimensions in the output as in the input is necessary, which can be useful for broadcasting operations.
-
 ## FAQs
 
 <details>
