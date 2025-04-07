@@ -1,6 +1,6 @@
 ---
 Title: '.argmax()'
-Description: 'Returns the indices of the maximum values along a specified axis in an array.'
+Description: 'Returns the indices of the maximum values along a specified axis in an array'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -17,8 +17,6 @@ CatalogContent:
 The NumPy **`.argmax()`** function returns the indices of the maximum values along a specified axis in an array. This powerful function helps identify the positions of peak values within arrays, rather than the values themselves. `.argmax()` is particularly useful in data analysis, machine learning, and scientific computing where locating maximal elements in datasets is essential.
 
 In data science workflows, `.argmax()` serves multiple purposes including finding winning classifications in neural networks, locating peaks in signal processing, and identifying optimal parameters in optimization problems. By returning indices instead of values, it provides positional information that can be used for further data manipulation or analysis.
-
-The NumPy **`.argmax()`** function returns the indices of the maximum values along a specified axis in an [array](https://www.codecademy.com/resources/docs/numpy/ndarray).
 
 ## Syntax
 
@@ -68,18 +66,6 @@ The code identifies position 3 (zero-indexed) as containing the maximum temperat
 ## Example 2: Working with Multi-dimensional Arrays
 
 `.argmax()` becomes especially powerful when working with multi-dimensional arrays. By specifying the axis parameter, maximum values along rows or columns can be found, making it useful for tasks like identifying the highest value in each feature of a dataset, as demonstrated here:
-- `array`: The input array in which to find the indices of maximum values.
-- `axis` (Optional): The axis along which to find the maximum values. If `None` (default), the function works on the flattened array.
-- `out` (Optional): An array to place the result in. It must match the expected output shape.
-- `keepdims` (Optional): If `True`, the reduced dimensions are kept with size `1`, making the output broadcast-compatible with the input.
-
-**Return value:**
-
-Returns an integer index for 1D arrays and a NumPy array of indices for multi-dimensional arrays, indicating the positions of the maximum values along the specified axis.
-
-## Example
-
-The following example demonstrates how to use the `.argmax()` function with 1D and 2D arrays:
 
 ```py
 import numpy as np
@@ -121,9 +107,9 @@ Product names for reference: [Product A, Product B, Product C]
 
 The results tell us that Product A performs best in Q2, Product B in Q4, and Product C in Q3. Additionally, the best-selling product per quarter is: Product B for Q1, Product A for Q2, and Product B for both Q3 and Q4.
 
-## Example 3: [Machine Learning](https://www.codecademy.com/resources/docs/general/machine-learning) Applications with `keepdims`
+## Example 3: Machine Learning Applications with keepdims
 
-The `.argmax()` function is commonly used in machine learning to identify predicted classes from probability outputs. The `keepdims` parameter parameter helps maintain the original dimensions, making it easier to integrate into larger computational graphs, as shown in this case:
+The `.argmax()` function is commonly used in machine learning to identify predicted classes from probability outputs. The `keepdims` parameter helps maintain the original dimensions, making it easier to integrate into larger computational graphs, as shown in this case:
 
 ```py
 import numpy as np
@@ -188,7 +174,7 @@ One-hot encoded predictions:
  [1. 0. 0.]]
 ```
 
-This example demonstrates how `.argmax()` helps convert [neural network](https://www.codecademy.com/resources/docs/ai/neural-networks) probability outputs into class predictions, and also showcases how the `keepdims` parameter preserves the array dimensions for further operations like broadcasting.
+This example demonstrates how `.argmax()` helps convert neural network probability outputs into class predictions, and also showcases how the `keepdims` parameter preserves the array dimensions for further operations like broadcasting.
 
 ## Codebyte Example
 
@@ -214,48 +200,4 @@ subjects = ["Math", "Science", "English"]
 # Display results
 for i, subject in enumerate(subjects):
   print(f"Top scorer in {subject}: Student {best_students[i] + 1}")
-=======
-# Create a 1D array
-scores = np.array([10, 30, 20, 50, 40])
-
-# Find max indices
-max_index = np.argmax(scores)
-
-print("Index of max value:", max_index)
-print("Max value:", scores[max_index])
-
-# Create a 2D array
-matrix = np.array([[1, 5, 3],
-                  [4, 2, 6]])
-
-# Find max indices along columns (axis=0)
-print("Max indices per column:", np.argmax(matrix, axis=0))
-
-# Find max indices along rows (axis=1)
-print("Max indices per row:", np.argmax(matrix, axis=1))
-```
-
-The code above produces the following output:
-
-```shell
-Index of max value: 3
-Max value: 50
-Max indices per column: [1 0 1]
-Max indices per row: [1 2]
-```
-
-## Codebyte Example
-
-Run the following code to understand the working of the `.argmax()` function:
-
-```codebyte/python
-import numpy as np
-
-# Create a 2D array
-data = np.array([[10, 20, 30], [40, 50, 60]])
-
-# Find the index of the maximum value along axis 1 (rows)
-result = np.argmax(data, axis=1)
-
-print(result)
 ```
