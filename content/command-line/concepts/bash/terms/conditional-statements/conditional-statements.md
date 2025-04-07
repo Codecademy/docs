@@ -36,34 +36,34 @@ The different operators that Bash provides can be classified into several catego
 
 **Numeric Operators:**
 
-| Operator | Description |
-|----------|-------------|
-| `-eq` | Equal to |
-| `-ne` | Not equal to |
-| `-lt` | Less than |
-| `-le` | Less than or equal to |
-| `-gt` | Greater than |
-| `-ge` | Greater than or equal to |
+| Operator | Description              |
+| -------- | ------------------------ |
+| `-eq`    | Equal to                 |
+| `-ne`    | Not equal to             |
+| `-lt`    | Less than                |
+| `-le`    | Less than or equal to    |
+| `-gt`    | Greater than             |
+| `-ge`    | Greater than or equal to |
 
 **String Operators:**
 
-| Operator | Description |
-|----------|-------------|
-| `=` | Equal to |
-| `!=` | Not equal to |
-| `-z` | String is empty |
-| `-n` | String is not empty |
+| Operator | Description         |
+| -------- | ------------------- |
+| `=`      | Equal to            |
+| `!=`     | Not equal to        |
+| `-z`     | String is empty     |
+| `-n`     | String is not empty |
 
 **File Test Operators:**
 
-| Operator | Description |
-|----------|-------------|
-| `-e` | File exists |
-| `-f` | File is a regular file |
-| `-d` | File is a directory |
-| `-r` | File is readable |
-| `-w` | File is writable |
-| `-x` | File is executable |
+| Operator | Description            |
+| -------- | ---------------------- |
+| `-e`     | File exists            |
+| `-f`     | File is a regular file |
+| `-d`     | File is a directory    |
+| `-r`     | File is readable       |
+| `-w`     | File is writable       |
+| `-x`     | File is executable     |
 
 ## Example
 
