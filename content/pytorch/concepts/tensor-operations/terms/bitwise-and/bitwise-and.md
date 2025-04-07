@@ -2,6 +2,7 @@
 Title: '.bitwise_and()'
 Description: 'Performs the element-wise bitwise AND operation on tensors in PyTorch.'
 Subjects:
+  - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Deep Learning'
@@ -13,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.bitwise_and()`** method in PyTorch performs an element-wise bitwise AND operation on two tensors or a tensor and a scalar. The result contains `1` where both corresponding bits are `1`, otherwise `0`. This function is useful for binary operations and low-level bit manipulation.
+The **`.bitwise_and()`** method in PyTorch performs an element-wise bitwise AND operation on two [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors) or a tensor and a scalar. The result contains `1` where both corresponding bits are `1`, otherwise `0`. This method is useful for binary operations and low-level bit manipulation.
 
 ## Syntax
 
@@ -21,13 +22,26 @@ The **`.bitwise_and()`** method in PyTorch performs an element-wise bitwise AND 
 torch.bitwise_and(input, other, *, out=None) → Tensor
 ```
 
+**Parameters:**
+
+- `input`: The first input tensor.
+- `other`: The second input tensor.
+- `out` (Optional): The output tensor.
+
+**Return value:**
+
+Returns a new tensor containing element-wise bitwise AND values of the input tensors.
+
 ## Example
+
+The following example demonstrates the usage of the `.bitwise_and()` method:
+
 ```py
 import torch
 
 # Define two tensors
-a = torch.tensor([5, 6, 7], dtype=torch.int32)  # Binary: [101, 110, 111]
-b = torch.tensor([3, 2, 1], dtype=torch.int32)  # Binary: [011, 010, 001]
+a = torch.tensor([5, 6, 7])  # Binary: [101, 110, 111]
+b = torch.tensor([3, 2, 1])  # Binary: [011, 010, 001]
 
 # Perform bitwise AND operation
 result = torch.bitwise_and(a, b)
@@ -36,7 +50,9 @@ print("Bitwise AND Result:")
 print(result)
 ```
 
-## output
+The above code produces the following output:
+
+```shell
 Bitwise AND Result:
 tensor([1, 2, 1])
-
+```
