@@ -17,7 +17,7 @@ The **`.blend()`** method in Pillow's Image module creates a new image by interp
 
 Image blending is commonly used in graphics, image processing, and computer vision to achieve various visual effects like smooth transitions, overlays, watermarks, and creating composite images. The blend operation performs a pixel-by-pixel calculation using a weighted sum controlled by the alpha parameter.
 
-# Syntax
+## Syntax
 
 ```pseudo
 PIL.Image.blend(im1, im2, alpha)
