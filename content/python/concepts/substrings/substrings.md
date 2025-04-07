@@ -6,8 +6,10 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
+  - 'Characters'
   - 'Methods'
   - 'Strings'
+  - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
