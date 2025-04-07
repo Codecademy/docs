@@ -97,7 +97,7 @@ print("All frames created successfully!")
 
 This example creates a series of images that gradually transition from the first image to the second by incrementally increasing the alpha value. This technique is useful for creating smooth transitions between images for animations, slideshows, or video effects.
 
-# Example 3: Creating a Watermark Effect with Variable Opacity
+## Example 3: Creating a Watermark Effect with Variable Opacity
 
 This example demonstrates how to use the `.blend()` method to apply a watermark to an image with adjustable opacity.
 
