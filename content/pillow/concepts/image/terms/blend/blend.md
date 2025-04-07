@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.blend()`** method in Pillow's Image module creates a new image by interpolating between two input images using a constant alpha value. This method is a powerful tool for image processing that allows to combine or mix two images with different levels of transparency. 
+The **`.blend()`** method in Pillow's Image module creates a new image by interpolating between two input images using a constant alpha value. This method is a powerful tool for image processing that allows to combine or mix two images with different levels of transparency.
 
 Image blending is commonly used in graphics, image processing, and computer vision to achieve various visual effects like smooth transitions, overlays, watermarks, and creating composite images. The blend operation performs a pixel-by-pixel calculation using a weighted sum controlled by the alpha parameter.
 
@@ -25,7 +25,7 @@ PIL.Image.blend(im1, im2, alpha)
 
 **Parameters:**
 
-- `im1`: The first image. 
+- `im1`: The first image.
 - `im2`: The second image. Must have the same mode and size as the first image.
 - `alpha`: The interpolation alpha factor. If alpha is 0.0, a copy of the first image is returned. If alpha is 1.0, a copy of the second image is returned. There are no restrictions on the alpha value. If necessary, the result is clipped to fit into the allowed output range.
 
@@ -82,13 +82,13 @@ frames = 10
 for i in range(frames + 1):
   # Calculate alpha for this frame
   alpha = i / frames
-    
+
   # Blend the images with the current alpha
   blended = Image.blend(image1, image2, alpha)
-  
+
   # Save the frame
   blended.save(f"frames/frame_{i:02d}.png")
-    
+
   # Print progress
   print(f"Created frame {i}/{frames} with alpha = {alpha:.2f}")
 
@@ -150,5 +150,3 @@ result.show()
 ![Output image after blending two images](https://raw.githubusercontent.com/Codecademy/docs/main/media/watermarked_image.png)
 
 This example creates a watermark text overlay on an image. By adjusting the alpha value in the `.blend()` the opacity of the watermark can be controlled. This technique is useful for adding copyright information, branding, or other textual overlays to images while maintaining control over their visibility.
-
-To improve your data visualization skills, check out our [Intro to Data Visualization with Python](https://www.codecademy.com/learn/intro-to-data-visualization-with-python) course, where you'll learn to create line, bar, and pie charts, scatterplots, histograms, and more. You'll also learn how to customize charts and annotate them with error bars and text.
