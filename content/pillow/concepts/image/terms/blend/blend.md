@@ -33,7 +33,7 @@ PIL.Image.blend(im1, im2, alpha)
 
 This method returns an `Image` object containing the blended result.
 
-# Example 1: Basic Image Blending with Pillow
+## Example 1: Basic Image Blending with Pillow
 
 This example demonstrates how to use the `.blend()` method to create a simple 50/50 blend of two images.
 
