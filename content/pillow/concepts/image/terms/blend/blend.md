@@ -59,7 +59,7 @@ blended_image.save("blended_image.png")
 
 This basic example loads two images, ensures they have the same size and mode (required by the `.blend()` method), and creates a new image that contains 50% of each input image. The alpha value of 0.5 gives equal weight to both images in the final result.
 
-# Example 2: Creating a Fade Effect Between Images
+## Example 2: Creating a Fade Effect Between Images
 
 This example shows how to create a series of images that fade from one image to another, which could be used to create transition animations.
 
