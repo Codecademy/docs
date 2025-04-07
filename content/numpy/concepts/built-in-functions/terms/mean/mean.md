@@ -61,7 +61,7 @@ Array: [0 1 2 3 4 5 6 7]
 Mean value: 3.5
 ```
 
-In this basic example, a 1D array with values from 0 to 7 is created and the arithmetic mean is calculated, which is 3.5 (the sum of all elements divided by the number of elements).
+In this example, a 1D array with values from 0 to 7 is created, and the arithmetic mean is calculated, which is 3.5 (the sum of all elements divided by the number of elements).
 
 ## Example 2: Calculating Mean Across Different Axes
 
