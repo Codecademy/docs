@@ -65,10 +65,19 @@ b = np.histogram(np.arange(4), bins=np.arange(5), density=True)
 print(str(2) + ':' + str(b))
 ```
 
-This producea the following output:
+This produces the following output:
 
 ```shell
 1:(array([2, 2, 2, 2, 1, 1]), array([0, 1, 2, 3, 4, 5, 6]))
 
 2:(array([0.25, 0.25, 0.25, 0.25]), array([0, 1, 2, 3, 4]))
+```
+
+## Codebyte Example
+
+The following codes show the use of numpy `.histogram()` to display an array in a histogram display
+
+```codebyte/python
+import numpy as np
+
 ```
