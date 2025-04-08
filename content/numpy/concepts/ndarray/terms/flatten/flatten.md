@@ -36,7 +36,7 @@ ndarray.flatten(order='C')
 
 Returns a new one-dimensional ndarray containing a copy of the flattened elements of the original array.
 
-## Example 1: Basic Array Flattening
+## Example 1: Converting two-dimensional array into a one-dimensional array
 
 This example demonstrates how to convert a basic two-dimensional array into a one-dimensional array with `.flatten()`:
 
@@ -70,7 +70,7 @@ Flattened array:
 Shape: (6,)
 ```
 
-This code creates a _3×2_ two-dimensional array and flattens it to a one-dimensional array with 6 elements. The `.flatten()` method preserves the order of elements, reading them row by row (C-style order by default).
+This code creates a _3×2_ two-dimensional array and flattens it to a one-dimensional array with six elements. The `.flatten()` method preserves the order of elements, reading them row by row(C-style order by default).
 
 ## Example 2: Flattening with Different Order Parameters
 
@@ -154,14 +154,6 @@ print("\nOriginal and reshaped images are identical:",
 
 This example shows how image data (represented as a 2D array) can be flattened for processing and then reshaped back to its original dimensions. This pattern is common in image processing and machine learning workflows where algorithms may require 1D input vectors.
 
-## Best Practices
-
-1. Always be aware that `.flatten()` creates a copy of the data. For large arrays, this can have memory implications. If there is no need of a copy, consider using `.ravel()` which returns a view when possible.
-
-2. When working with arrays that will be fed into algorithms, be consistent with the `order` parameter to ensure predictable results, especially when integrating with libraries that may have specific expectations about the order of elements.
-
-3. After processing a flattened array, `.reshape()` can be used to restore its original dimensions if needed, as shown in the image processing example.
-
 ## FAQs
 
 <details>
@@ -176,15 +168,15 @@ This example shows how image data (represented as a 2D array) can be flattened f
 
 <details>
 <summary>3. Can I specify the data type of the flattened array?</summary>
-<p>`.flatten()` preserves the data type of the original array. To change the data type, you can use the `.astype()` method on the flattened result, for example: `array.flatten().astype(np.float64)`.</p>
+<p>`.flatten()` preserves the data type of the original array. To change the data type, you can use the [`.astype()`](https://www.codecademy.com/resources/docs/numpy/ndarray/astype) method on the flattened result, for example: `array.flatten().astype(np.float64)`.</p>
 </details>
 
 <details>
-<summary>Does `.flatten()` work with masked arrays?</summary>
+<summary>4. Does `.flatten()` work with masked arrays?</summary>
 <p>Yes, for masked arrays (from `numpy.ma`), `.flatten()` preserves the mask in the flattened array, so the masked elements remain masked in the result.</p>
 </details>
 
 <details>
-<summary>How does `.flatten()` affect performance in numerical computations?</summary>
-<p>Since `.flatten()` creates a copy, it has memory and computational overhead. For large arrays or performance-critical code, consider if alternatives like `.ravel()` (which returns a view when possible) or direct operations on the multi-dimensional array would be more efficient.</p>
+<summary>5. How does `.flatten()` affect performance in numerical computations?</summary>
+<p>Since `.flatten()` creates a copy, it has memory and computational overhead. For large arrays or performance-critical code, consider if alternatives like `.ravel()`(which returns a view when possible) or direct operations on the multi-dimensional array would be more efficient.</p>
 </details>
