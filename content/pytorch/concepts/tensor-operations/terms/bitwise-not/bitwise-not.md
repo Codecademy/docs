@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In PyTorch, the **`.bitwise_not()`** function performs an element-wise bitwise NOT operation on the input tensor. This flips each bit of the tensor’s binary representation, turning `0` to `1` and `1` to `0`. It works for integer tensors (signed or unsigned) and boolean tensors (where it acts as a logical NOT).
+In PyTorch, the **`.bitwise_not()`** function performs an element-wise bitwise NOT operation on the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). This flips each bit of the tensor’s binary representation, turning `0` to `1` and `1` to `0`. It works for integer tensors (signed or unsigned) and boolean tensors (where it acts as a logical NOT).
 
 ## Syntax
 
@@ -22,12 +22,18 @@ In PyTorch, the **`.bitwise_not()`** function performs an element-wise bitwise N
 torch.bitwise_not(input, *, out=None)
 ```
 
+**Parameters:**
+
 - `input`: A tensor of integer or boolean dtype.
-- `out` (Optional): The output tensor to store the result.
+- `out` (Optional): A tensor to store the output result. Must have the same shape as the input tensor.
+
+**Return value:**
+
+The `.bitwise_not()` function returns a new tensor containing the result of applying the bitwise NOT operation to each element in the input tensor.
 
 ## Example
 
-The following example demonstrates the usage of the `.bitwise_not()` function:
+The following example illustrates the usage of the `.bitwise_not()` function in PyTorch:
 
 ```py
 import torch
