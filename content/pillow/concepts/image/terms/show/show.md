@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.show()`** method in the Python Pillow library opens and displays an image using the system’s default image viewer. It provides a quick way to inspect images during development or testing without saving them to disk.
+The **`.show()`** method in the Python Pillow library opens and displays an image using the system’s default image viewer. It's a convenient way to quickly inspect images during development or testing without saving them to disk.
 
 ## Syntax
 
