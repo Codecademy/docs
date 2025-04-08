@@ -1,6 +1,6 @@
 ---
 Title: '.show()'
-Description: 'Displays an image using the default image viewer on your system.'
+Description: 'Displays an image using the default image viewer on the system.'
 Subjects:
   - 'Computer science'
   - 'Data Science'
