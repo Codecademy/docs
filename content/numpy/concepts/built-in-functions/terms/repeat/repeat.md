@@ -5,8 +5,8 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Data Structures'
   - 'Arrays'
+  - 'Data Structures'
   - 'Functions'
   - 'NumPy'
 CatalogContent:
@@ -25,14 +25,14 @@ numpy.repeat(a, repeats, axis=None)
 **Parameters:**
 
 - `a`: The array to work with. This is where the elements come from.
-- `repeats`: Can be a single number or a list of numbers. If it's just one number, every element repeats that many times. If it's a list, it should match the number of elements along the specified axis or total items if the axis isn't used.
+- `repeats`: An `int` or array of `ints`. If an `int`, each element of `a` is repeated that many times. If an array, it must match the length of `a` (if `axis=None`) or the length of `a` along the specified axis.
 - `axis` (Optional): Sets the direction for repeating.
 
 **Return value:**
 
-Returns a new array with repeated elements, and the final shape depends on the use of the `axis` parameter.
+Returns a NumPy array with repeated elements. The shape of the result depends on the shape of `a`, the `repeats` value, and whether an `axis` is specified.
 
-## Example 1: Without Using the `axis` Parameter
+## Example 1: Repeating Elements Without Specifying the `axis` Parameter
 
 Here's a simple example where each value in a one-dimensional array gets repeated twice:
 
@@ -52,7 +52,7 @@ The above code produces the following output:
 [1 1 2 2 3 3]
 ```
 
-## Example 2: Using the `axis` Parameter
+## Example 2: Directional Repetition Using the `axis` Parameter
 
 For multi-dimensional arrays, using the `axis` parameter controls which direction the repetition flows:
 
@@ -79,7 +79,7 @@ The above code produces the following output:
  [3 3 4 4]]
 ```
 
-## Codebyte Example
+## Codebyte Example: Repeating Each Element Three Times
 
 This codebyte example repeats every item in an array three times in a row:
 
