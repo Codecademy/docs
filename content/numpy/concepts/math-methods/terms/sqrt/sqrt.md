@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.sqrt()`** function computes the positive square root of all elements in the input array. It is a [universal function (ufunc)](https://www.codecademy.com/article/what-are-ufuncs-in-numpy) in NumPy that operates element-wise on arrays, returning an array of the same shape with each element replaced by its square root value.
+The **`.sqrt()`** function computes the positive square root of all elements in the input array. As a [universal function (ufunc)](https://www.codecademy.com/article/what-are-ufuncs-in-numpy), it operates element-wise and returns an array of the same shape with square root values.
 
-The NumPy `.sqrt()` function is essential for scientific computing, data analysis, and mathematical operations in Python. It efficiently handles various numerical data types and array shapes, making it a fundamental tool for working with numerical arrays in areas such as statistics, physics, engineering, and machine learning.
+Widely used in fields like statistics, physics, engineering, and machine learning, `.sqrt()` is a powerful tool for performing efficient mathematical operations on numerical arrays of various shapes and data types.
 
 ## Syntax
 
@@ -108,7 +108,7 @@ Standard Deviation: 2.236067977499790
 NumPy's std function result: 2.236067977499790
 ```
 
-In this example, we demonstrate how the `.sqrt()` function is used in computing standard deviation, a common statistical measure that indicates how spread out values are from the mean.
+This example demonstrates how the `.sqrt()` function is used in computing standard deviation, a common statistical measure that indicates how spread out values are from the mean.
 
 ## Codebyte Example: Working with Complex and Negative Numbers
 
@@ -142,21 +142,6 @@ print(filtered_result)
 
 The example shows that `.sqrt()` works element-wise on 2D arrays, maintaining their shape. For negative numbers, it returns `nan` along with a warning, unless complex handling is specified. The `where` parameter allows selective square root computation based on a condition, such as non-negative values.
 
-## Best Practices
-
-1. **Type Awareness**: Remember that `.sqrt()` returns floating-point numbers even when used on integer inputs.
-
-2. **Error Handling**: When working with values that may be negative:
-
-   - Use `where` parameter to apply `.sqrt()` only to non-negative values
-   - Or explicitly cast the array to a complex dtype to handle square roots of negative numbers correctly
-
-3. **Memory Efficiency**: Use the `out` parameter when working with large arrays to avoid creating new arrays unnecessarily.
-
-4. **Performance Considerations**: NumPy's `.sqrt()` is optimized for array operations. Avoid using Python loops to calculate square roots element by element.
-
-5. **Numerical Stability**: For very large or very small numbers, consider normalizing your data first to avoid potential numerical precision issues.
-
 ## FAQs
 
 <details>
@@ -170,6 +155,6 @@ The example shows that `.sqrt()` works element-wise on 2D arrays, maintaining th
 </details>
 
 <details>
-<summary>3. What's the difference between `math.sqrt()` and `numpy.sqrt()`?</summary>
+<summary>3. What's the difference between [`math.sqrt()`](https://www.codecademy.com/resources/docs/python/math-module/math-sqrt) and `numpy.sqrt()`?</summary>
 <p>`math.sqrt()` works only on scalar values, while `numpy.sqrt()` works on both scalars and arrays, applying the operation element-wise to arrays.</p>
 </details>
