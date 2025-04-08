@@ -1,6 +1,6 @@
 ---
 Title: '.tile()'
-Description: 'Constructs an array by repeating the elements of another array'
+Description: "Constructs a new array by repeating the input array’s elements a specified number of times."
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,14 +12,12 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-The **`.tile()`** function is used to build an array by repeating the elements of another defined array A a fixed number of times (reps). The shape of the new array is determined by max(len(reps), A.ndim).
+The **`.tile()`** function constructs a new array by repeating the input array `A` according to the specified number of repetitions `reps`.
 
-- If A.ndim < len(reps) then dimensions of A will be changed. So, shape(3,) of an array will become (1,3)
-- If A.ndim > len(reps) then dimensions of reps will be changed. So, reps(2) will prepend as (1,2)
+- If `A.ndim < len(reps)`, dimensions of `A` are promoted by prepending ones to match the length of `reps`. For example, an array with shape `(3,)` will be treated as `(1, 3)`.
+- If `A.ndim > len(reps)`, the `reps` tuple is extended by prepending ones. For example, `reps=2` is treated as `(1, 2)`.
 
 ## Syntax
 
@@ -27,14 +25,14 @@ The **`.tile()`** function is used to build an array by repeating the elements o
 numpy.tile(A, reps)
 ```
 
-Parameters:
+**Parameters:**
 
-- `A`: The input array
-- `reps`: The number of times the values need to be repeated
+- `A`: The input array.
+- `reps`: The number of times the values need to be repeated.
 
-## Example
+## Example: Repeating Elements in 1D, 2D, and 3D Arrays
 
-The following example show how a 1D and 2D arrays interact with numpy.tile():
+The following example show how 1D and 2D arrays interact with `.tile()`:
 
 ```py
 import numpy as np
@@ -115,11 +113,11 @@ q: [[[5 7 8 5 7 8]
   [8 2 0 8 2 0]]]
 ```
 
-## Codebyte Example
+## Codebyte Example: Practical Usage of `.tile()`
 
 The following codebyte example shows the usage of the `.tile()` function:
 
-```codebyte\python
+```codebyte/python
 import numpy as np
 
 #Create a 1D and 2D array
