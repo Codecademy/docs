@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.bitwise_and()`** method in PyTorch performs an element-wise bitwise AND operation on two [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors) or a tensor and a scalar. The result contains `1` where both corresponding bits are `1`, otherwise `0`. This method is useful for binary operations and low-level bit manipulation.
+The **`.bitwise_and()`** method in PyTorch performs an element-wise bitwise AND operation on two [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors) or a tensor and a scalar. It returns a new tensor containing `1` where both corresponding bits are `1`, and `0` otherwise. This method is useful for binary operations and low-level bit manipulation.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ torch.bitwise_and(input, other, *, out=None) → Tensor
 
 - `input`: The first input tensor.
 - `other`: The second input tensor.
-- `out` (Optional): The output tensor.
+- `out` (Optional): The output tensor to store the result.
 
 **Return value:**
 
