@@ -124,7 +124,7 @@ frames = 10
 for i in range(frames + 1):
   alpha = i / frames  # Incremental alpha values
   blended = Image.blend(image1, image2, alpha)
-    
+
   frame_filename = f"frames/frame_{i:02d}.png"
   blended.save(frame_filename)
   frame_files.append(frame_filename)  # Store for GIF creation
