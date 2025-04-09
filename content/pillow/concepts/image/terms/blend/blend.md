@@ -35,7 +35,7 @@ This method returns an `Image` object containing the blended result.
 
 ## Example 1: Basic Image Blending with Pillow
 
-This example demonstrates how to use the `.blend()` method to create a simple 50/50 blend of two images.
+This example demonstrates how to use the `.blend()` method to create a simple 50/50 blend of two images:
 
 ```py
 from PIL import Image
@@ -97,56 +97,45 @@ print("All frames created successfully!")
 
 This example creates a series of images that gradually transition from the first image to the second by incrementally increasing the alpha value. This technique is useful for creating smooth transitions between images for animations, slideshows, or video effects.
 
-## Example 3: Creating a Watermark Effect with Variable Opacity
+## Example 3: Creating a smooth transition between two images
 
-This example demonstrates how to use the `.blend()` method to apply a watermark to an image with adjustable opacity.
+This example creates a smooth fade transition between two images and saves it as a GIF:
 
 ```py
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image
+import imageio
+import os
 
-def create_watermark(text, size, font_size=60, color=(255, 255, 255, 128)):
-    """Create a transparent image with text as a watermark."""
-    watermark = Image.new('RGBA', size, (0, 0, 0, 0))
-    draw = ImageDraw.Draw(watermark)
+# Load two images
+image1 = Image.open("mountains.jpg").convert("RGBA")
+image2 = Image.open("ocean.jpg").convert("RGBA")
 
-    # Load font
-    try:
-        font = ImageFont.truetype("arial.ttf", font_size)
-    except IOError:
-        font = ImageFont.load_default()
+# Resize the second image to match the first
+image2 = image2.resize(image1.size)
 
-    # Get text dimensions
-    text_bbox = draw.textbbox((0, 0), text, font=font)
-    text_width, text_height = text_bbox[2] - text_bbox[0], text_bbox[3] - text_bbox[1]
+# Create a directory for the frames if it doesn't exist
+os.makedirs("frames", exist_ok=True)
 
-    # Center text position
-    position = ((size[0] - text_width) // 2, (size[1] - text_height) // 2)
+# Store frame file names
+frame_files = []
 
-    # Draw the text
-    draw.text(position, text, font=font, fill=color)
+# Create 10 frames with different alpha values
+frames = 10
+for i in range(frames + 1):
+  alpha = i / frames  # Incremental alpha values
+  blended = Image.blend(image1, image2, alpha)
 
-    return watermark
+  frame_filename = f"frames/frame_{i:02d}.png"
+  blended.save(frame_filename)
+  frame_files.append(frame_filename)  # Store for GIF creation
 
-# Load base image
-base_image = Image.open("mountains.jpg").convert("RGBA")
+  print(f"Created frame {i}/{frames} with alpha = {alpha:.2f}")
 
-# Create a transparent watermark
-watermark = create_watermark("Copyright 2025", base_image.size)
-
-# Create a solid transparent image for blending
-transparent_layer = Image.new("RGBA", base_image.size, (255, 255, 255, 0))
-
-# Blend watermark onto the transparent layer
-blended_watermark = Image.blend(transparent_layer, watermark, alpha=1.0)
-
-# Blend the base image with the blended watermark
-result = Image.blend(base_image, blended_watermark, alpha=0.3)  # Adjust alpha as needed
-
-# Save and display
-result.save("watermarked_image.png")
-result.show()
+# Save frames as a GIF
+gif_filename = "fade_transition.gif"
+imageio.mimsave(gif_filename, [imageio.imread(f) for f in frame_files], duration=0.2)
 ```
 
-![Output image after blending two images](https://raw.githubusercontent.com/Codecademy/docs/main/media/watermarked_image.png)
+![Output gif after blending two images](https://raw.githubusercontent.com/Codecademy/docs/main/media/fade_transition.gif)
 
-This example creates a watermark text overlay on an image. By adjusting the alpha value in the `.blend()` the opacity of the watermark can be controlled. This technique is useful for adding copyright information, branding, or other textual overlays to images while maintaining control over their visibility.
+This code gradually blends two images by increasing the alpha value in steps, generating a sequence of transition frames. It then saves these frames as a GIF using `imageio.mimsave()`, creating a smooth fade effect between the images.
