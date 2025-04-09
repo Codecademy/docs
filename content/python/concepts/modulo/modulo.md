@@ -7,8 +7,8 @@ Subjects:
 Tags:
   - 'Arithmetic'
   - 'Comparison'
-  - 'Operators'
   - 'Math'
+  - 'Operators'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -91,7 +91,7 @@ The function works by checking if the remainder after dividing by 2 is zero(even
 
 ## Codebyte Example: Creating a Time Converter
 
-The code below uses modulo to convert total minutes into hours and minutes format:
+The code here uses modulo to convert total minutes into hours and minutes format:
 
 ```codebyte/python
 def convert_minutes_to_hours_and_minutes(total_minutes):
@@ -111,54 +111,6 @@ print(convert_minutes_to_hours_and_minutes(45))
 ```
 
 The modulo operator finds the remaining minutes while integer division calculates the complete hours. This pattern of converting between units is common in applications dealing with time, distance, currency, and other measurements that use different scales.
-
-## Common errors when using modulo and how to solve them
-
-1. **ZeroDivisionError**: This occurs when using 0 as the divisor in a modulo operation.
-
-   ```py
-   # This will raise an error
-   result = 10 % 0
-   ```
-
-   **Solution**: Always check that the divisor is not zero before performing modulo operations.
-
-   ```py
-   divisor = 0
-   if divisor != 0:
-     result = 10 % divisor
-   else:
-     print("Cannot perform modulo with zero divisor")
-   ```
-
-2. **Confusion with Negative Numbers**: The behavior of modulo with negative numbers can be confusing.
-
-   ```py
-   # These might not give expected results if you're coming from other languages
-   print(-10 % 3)  # Results in 2, not -1 as in some other languages
-   ```
-
-   **Solution**: Remember that in Python, the result of `a % b` always has the same sign as `b`.
-
-3. **Floating-Point Precision Issues**: Modulo operations with floating-point numbers may have precision issues.
-
-   ```py
-   print(10.1 % 0.3)  # Might not be exactly 0.1 due to floating-point precision
-   ```
-
-   **Solution**: For precise decimal calculations, consider using the `Decimal` type from the `decimal` module.
-
-   ```py
-   from decimal import Decimal
-   print(Decimal('10.1') % Decimal('0.3'))
-   ```
-
-4. **Type Errors**: Attempting to use modulo with non-numeric types results in TypeError.
-   ```py
-   # This will raise a TypeError
-   result = "hello" % 5
-   ```
-   **Solution**: Ensure both operands are numeric types.
 
 ## Best Practices
 
