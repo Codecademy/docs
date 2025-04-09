@@ -190,18 +190,6 @@ for action in actions:
 print(f"\nLimited history (latest 3 actions): {history}")
 ```
 
-## Best Practices
-
-1. **Use a deque instead of a list when you need frequent operations at both ends.** Deques are optimized for append and pop operations from both ends, whereas lists are only efficient for operations at the right end.
-
-2. **Set a maxlen when implementing a bounded collection.** This automatically handles removing elements from the opposite end when the limit is reached, which is useful for implementing sliding windows, recent history tracking, and memory-constrained applications.
-
-3. **Consider thread safety needs.** Deques are thread-safe for append and pop operations from opposite ends but not for operations on the same end. Use appropriate synchronization if multiple threads modify the same end of a deque.
-
-4. **Use standard deque methods instead of index access for manipulating ends.** The `append()`, `appendleft()`, `pop()`, and `popleft()` methods are optimized for performance, whereas index-based operations may not be as efficient.
-
-5. **Use built-in methods for common operations.** Deques provide methods like `rotate()`, `extend()`, and `extendleft()` that are more efficient than implementing the same functionality manually.
-
 ## FAQs
 
 <details>
