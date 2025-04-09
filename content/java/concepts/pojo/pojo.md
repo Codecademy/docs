@@ -217,7 +217,7 @@ When working with POJOs in Java, consider these best practices:
 7. **Validation**: Add validation in setter methods to ensure data integrity.
 8. **Minimize Dependencies**: Keep POJOs clean by avoiding dependencies on specific libraries or frameworks.
 
-## FAQs
+## Frequently Asked Questions
 
 <details>
 <summary>1. What is the difference between POJO and JavaBean?</summary>
