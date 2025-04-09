@@ -154,7 +154,7 @@ print("\nOriginal and reshaped images are identical:",
 
 This example shows how image data (represented as a 2D array) can be flattened for processing and then reshaped back to its original dimensions. This pattern is common in image processing and machine learning workflows where algorithms may require 1D input vectors.
 
-## FAQs
+## Frequently Asked Questions
 
 <details>
 <summary>1. What's the difference between `.flatten()` and `.ravel()`?</summary>
