@@ -232,4 +232,4 @@ print(f"\nLimited history (latest 3 actions): {history}")
 <details>
 <summary>6. What is the difference between stack and deque?</summary>
 <p>A stack is a LIFO (Last In, First Out) data structure with operations typically limited to pushing and popping elements from one end. A deque (double-ended queue) is a more flexible data structure that allows efficient insertion and removal at both ends. A deque can be used to implement a stack, but it offers additional functionality that a traditional stack does not have.</p>
-<details>
+</details>
