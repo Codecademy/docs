@@ -97,7 +97,7 @@ print("All frames created successfully!")
 
 This example creates a series of images that gradually transition from the first image to the second by incrementally increasing the alpha value. This technique is useful for creating smooth transitions between images for animations, slideshows, or video effects.
 
-## Example 3: Creating a smooth transition between to images
+## Example 3: Creating a smooth transition between two images
 
 This example creates a smooth fade transition between two images and saves it as a GIF:
 
@@ -136,6 +136,6 @@ gif_filename = "fade_transition.gif"
 imageio.mimsave(gif_filename, [imageio.imread(f) for f in frame_files], duration=0.2)
 ```
 
-![Output image after blending two images](https://raw.githubusercontent.com/Codecademy/docs/main/media/fade_transition.gif)
+![Output gif after blending two images](https://raw.githubusercontent.com/Codecademy/docs/main/media/fade_transition.gif)
 
 This code gradually blends two images by increasing the alpha value in steps, generating a sequence of transition frames. It then saves these frames as a GIF using `imageio.mimsave()`, creating a smooth fade effect between the images.
