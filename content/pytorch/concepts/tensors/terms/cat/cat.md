@@ -1,6 +1,6 @@
 ---
 Title: '.cat()'
-Description: 'Concatenates two or more tensors in the same dimension.'
+Description: 'Concatenates two or more tensors along a specified dimension.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -33,9 +33,9 @@ torch.cat(tensors, dim=0, out=None)
 
 A new tensor resulting from concatenating the input tensors along the specified dimension.
 
-## Example 1: Concatenating tensors along the first dimension
+## Example 1: Merging Tensors Along Dimension 0
 
-The example below showcases concatenating tensors along the first dimension using the `.cat()` function:
+This demonstration highlights how to combine tensors along the first axis (dimension 0) with the help of the `.cat()` method:
 
 ```py
 import torch
@@ -75,9 +75,9 @@ tensor([[ 1,  2,  3],
         [10, 11, 12]])
 ```
 
-## Example 2: Concatenating tensors along the second dimension
+## Example 2: Stacking Tensors Across the Second Axis
 
-The example below showcases concatenating tensors along the second dimension using the `.cat()` function:
+In this case, tensors are joined along the second dimension (axis 1) using the `.cat()` function to demonstrate horizontal concatenation:
 
 ```py
 import torch
@@ -115,9 +115,9 @@ tensor([[ 1,  2,  3,  7,  8,  9],
         [ 4,  5,  6, 10, 11, 12]])
 ```
 
-## Example 3: Concatenating tensors along the third dimension
+## Example 3: Appending Tensors on the Depth Dimension
 
-The example below showcases concatenating tensors along the third dimension using the `.cat()` function:
+This example illustrates how to append tensors along the third dimension (axis 2), effectively stacking them in depth using the `.cat()` method:
 
 ```py
 import torch
@@ -164,26 +164,22 @@ tensor([[[ 1,  2,  3, 13, 14, 15],
          [10, 11, 12, 22, 23, 24]]])
 ```
 
-## Best Practices for using `.cat()` in PyTorch
-
-1. **Match Shapes Across All Dimensions Except the Concatenation Axis:** Ensure all tensors have the same size in every dimension except the one you're concatenating along. Mismatched dimensions will cause errors.
-
-2. **Use a List or Tuple of Tensors:** Group tensors into a list or tuple when passing them to `.cat()` for cleaner, more readable code—especially when combining multiple tensors.
-
-3. **Avoid Unnecessary In-Place Operations:** Although torch.cat() supports an out parameter, it's usually best to let it return a new tensor unless memory usage is a concern.
-
 ## FAQs
 
 <details>
-<summary>1. What is the difference between torch.stack() and `.cat()`?</summary>
-- `.cat()` combines tensors along an existing dimension.
-- `.stack()` adds a new dimension and stacks tensors along that new axis.
+<summary>1. What is the difference between `.stack()` and `.cat()`?</summary>
+<p>
+<ul> 
+<li>`.cat()` combines tensors along an existing dimension.</li>
+<li>`.stack()` adds a new dimension and stacks tensors along that new axis.</li>
+</ul>
 Use stack when you want to create a new level of nesting; use cat to extend an existing one.
+</p>
 </details>
 
 <details>
 <summary>2. Can I concatenate tensors of different data types or devices?</summary>
-<p>No. All tensors must have the same data type and must be on the same device (e.g., all on CPU or all on GPU). Mismatches will raise an error.
+<p>No. All tensors must have the same data type and must be on the same device (e.g., all on [CPU](https://www.codecademy.com/resources/blog/what-is-a-cpu/) or all on GPU). Mismatches will raise an error.
 </p>
 </details>
 
