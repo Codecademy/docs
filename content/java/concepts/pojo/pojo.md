@@ -34,7 +34,7 @@ Typically, a POJO contains:
 3. Optional constructors (default and/or parameterized)
 4. Optional override of methods like [`toString()`](https://www.codecademy.com/resources/docs/java/stringbuilder/toString), [`equals()`](https://www.codecademy.com/resources/docs/java/strings/equals), and [`hashCode()`](https://www.codecademy.com/resources/docs/java/strings/hashCode).
 
-## Example 1: Basic Student POJO
+## Example 1: Creating a Simple POJO Class for Student Data
 
 This example demonstrates a simple POJO class to represent a student entity:
 
@@ -234,16 +234,6 @@ When working with POJOs in Java, consider these best practices:
 </details>
 
 <details>
-<summary>3. Are POJOs used in frameworks like Spring and Hibernate?</summary>
-<p>Yes, POJOs are widely used in frameworks like Spring and Hibernate. These frameworks work with regular Java objects (POJOs) and apply their functionality through configuration or annotations without requiring the objects to extend specific classes.</p>
-</details>
-
-<details>
-<summary>4. How do POJOs support data transfer between layers?</summary>
-<p>POJOs can serve as Data Transfer Objects (DTOs) to carry data between different layers of an application. Their simplicity makes them ideal for transferring data without carrying business logic or presentation logic.</p>
-</details>
-
-<details>
-<summary>5. What is the difference between POJO and JSON?</summary>
+<summary>3. What is the difference between POJO and JSON?</summary>
 <p>POJO is a simple Java object used to represent data in code, while JSON is a text-based format used to store and exchange data. POJOs exist in Java programs; JSON is used for communication between systems.</p>
 </details>
