@@ -84,137 +84,85 @@ True
 
 The code first creates a _2×2_ symmetric positive-definite matrix, then applies the Cholesky decomposition to obtain the lower triangular factor `L`. It then verifies that L multiplied by its transpose equals the original matrix.
 
-## Example 2: Matrix Verification and Properties
+## Example 2: Positive-Definite Check Using Eigenvalues
 
-This example shows how to verify the properties of a Cholesky decomposition and demonstrates that the factorization can be used to determine if a matrix is positive-definite:
+This example demonstrates how to verify if a matrix is positive-definite using its eigenvalues and how `np.linalg.cholesky()` behaves accordingly:
 
 ```py
 import numpy as np
 
-# Create a symmetric matrix that should be positive-definite
-A = np.array([[4, 1, 1], 
-              [1, 3, 2], 
-              [1, 2, 6]])
+# A symmetric, positive-definite matrix
+A = np.array([[6, 2], [2, 3]])
+print("Matrix A:\n", A)
 
-print("Matrix A:")
-print(A)
+# Check eigenvalues
+eigenvalues = np.linalg.eigvals(A)
+print("\nEigenvalues of A:", eigenvalues)
+print("Is A positive-definite?", np.all(eigenvalues > 0))
 
-# Check if A is symmetric
-is_symmetric = np.allclose(A, A.T)
-print("\nIs A symmetric?", is_symmetric)
-
+# Attempt Cholesky decomposition
 try:
-  # Compute the Cholesky decomposition of A
   L = np.linalg.cholesky(A)
-  print("\nCholesky factor L:")
-  print(L)
-    
-  # Manually reconstruct A from L
-  L_transpose = L.T
-  reconstructed_A = np.zeros_like(A)
-    
-  # Multiply L and L.T manually
-  for i in range(A.shape[0]):
-    for j in range(A.shape[1]):
-      for k in range(A.shape[0]):
-        if k <= i and k <= j:  # Only use elements that exist in L
-          reconstructed_A[i, j] += L[i, k] * L_transpose[k, j]
-    
-  print("\nManually reconstructed A:")
-  print(reconstructed_A)
-   
-  print("\nIs the reconstruction close to the original?")
-  print(np.allclose(reconstructed_A, A))
-  
-  print("\nA is positive-definite (verified by successful Cholesky decomposition)")
-    
+  print("\nCholesky factor L:\n", L)
 except np.linalg.LinAlgError:
-  print("\nCholesky decomposition failed: A is not positive-definite")
+  print("\nCholesky decomposition failed.")
+
+# A symmetric matrix that is not positive-definite
+B = np.array([[1, 2], [2, -3]])
+print("\nMatrix B:\n", B)
+
+# Check eigenvalues
+eigenvalues_B = np.linalg.eigvals(B)
+print("\nEigenvalues of B:", eigenvalues_B)
+print("Is B positive-definite?", np.all(eigenvalues_B > 0))
+
+# Attempt Cholesky decomposition
+try:
+  L_B = np.linalg.cholesky(B)
+  print("\nCholesky factor of B:\n", L_B)
+except np.linalg.LinAlgError:
+  print("\nCholesky decomposition failed for B: Matrix is not positive-definite.")
 ```
 
 This example results in the following output:
 
 ```shell
 Matrix A:
-[[4 1 1]
- [1 3 2]
- [1 2 6]]
+ [[6 2]
+ [2 3]]
 
-Is A symmetric? True
+Eigenvalues of A: [7. 2.]
+Is A positive-definite? True
 
 Cholesky factor L:
-[[2.         0.         0.        ]
- [0.5        1.6583124  0.        ]
- [0.5        1.05528971 2.15322169]]
+ [[2.44948974 0.        ]
+ [0.81649658 1.52752523]]
 
-Manually reconstructed A:
-[[4 1 1]
- [1 2 1]
- [1 1 5]]
+Matrix B:
+ [[ 1  2]
+ [ 2 -3]]
 
-Is the reconstruction close to the original?
-False
+Eigenvalues of B: [ 1.82842712 -3.82842712]
+Is B positive-definite? False
 
-A is positive-definite (verified by successful Cholesky decomposition)
+Cholesky decomposition failed for B: Matrix is not positive-definite.
 ```
 
-This example demonstrates how to use the Cholesky decomposition to verify if a matrix is positive-definite. It also shows how to manually reconstruct the original matrix from its Cholesky factor to understand how the decomposition works.
+## Codebyte Example: Error When Matrix is Not Square
 
-## Codebyte Example: Cholesky Decomposition for Data Covariance
-
-This example demonstrates how to use Cholesky decomposition to analyze the covariance structure of a dataset, a common task in statistical analysis:
+This example demonstrates how the Cholesky decomposition fails when the input matrix is not square:
 
 ```codebyte/python
 import numpy as np
 
-# Generate some sample data with correlations
-np.random.seed(42)
-n_samples = 100
-n_features = 3
+# A non-square matrix
+C = np.array([[1, 2, 3], [4, 5, 6]])
+print("Matrix C (non-square):\n", C)
 
-# Create correlated data manually
-x1 = np.random.normal(0, 1, n_samples)
-x2 = 0.8 * x1 + 0.6 * np.random.normal(0, 1, n_samples)  # Correlated with x1
-x3 = 0.7 * x1 - 0.5 * x2 + 0.4 * np.random.normal(0, 1, n_samples)  # Correlated with both
-
-# Combine into a dataset
-X = np.column_stack([x1, x2, x3])
-
-print("First 5 samples of dataset:")
-print(X[:5])
-
-# Calculate the covariance matrix
-cov_matrix = np.cov(X, rowvar=False)
-print("\nCovariance matrix:")
-print(cov_matrix)
-
-# Compute the Cholesky decomposition of the covariance matrix
 try:
-  L = np.linalg.cholesky(cov_matrix)
-  print("\nCholesky factor of covariance matrix:")
-  print(L)
-    
-  # Calculate the diagonal elements of L
-  # These are related to the variances explained by each independent component
-  print("\nDiagonal elements of L:")
-  print(np.diag(L))
-    
-  # Calculate the correlation matrix from the covariance matrix
-  # for easier interpretation of relationships
-  D = np.sqrt(np.diag(cov_matrix))
-  D_inv = np.diag(1.0 / D)
-  corr_matrix = D_inv @ cov_matrix @ D_inv
-    
-  print("\nCorrelation matrix:")
-  print(corr_matrix)
-    
-  print("\nThe Cholesky decomposition succeeded, confirming our covariance matrix is positive-definite.")
-    
+  # Attempt Cholesky decomposition
+  L = np.linalg.cholesky(C)
+  print("\nCholesky factor L:\n", L)
 except np.linalg.LinAlgError:
-  print("\nCholesky decomposition failed: Covariance matrix is not positive-definite.")
-  print("This could happen due to numerical instability or if the data is perfectly correlated.")
+  print("\nCholesky decomposition failed: Matrix is not square or not positive-definite.")
 ```
-
-This example shows how to apply Cholesky decomposition to a covariance matrix calculated from actual data. It demonstrates the usefulness of Cholesky decomposition in statistical analysis by providing information about the correlation structure of the data. The diagonal elements of the Cholesky factor can give insight into the variance contributed by each independent component.
-
-To explore more about NumPy and its role in statistics, consider exploring the [Learn Statistics with NumPy](https://www.codecademy.com/enrolled/courses/intro-statistics-numpy) course at Codecademy.
