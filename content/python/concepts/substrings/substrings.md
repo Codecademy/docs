@@ -6,14 +6,16 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Strings'
+  - 'Characters'
   - 'Methods'
+  - 'Strings'
+  - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-A substring is a sequence of characters that are part of an original [string](https://www.codecademy.com/resources/docs/python/strings). In Python, substrings can be obtained by using the slicing feature on a string variable. A slice can be made in a specific position within the string or it can be made at the default index.
+A Python **substring** is a sequence of characters that are part of an original [string](https://www.codecademy.com/resources/docs/python/strings). In Python, substrings can be obtained by using the slicing feature on a string [variable](https://www.codecademy.com/resources/docs/python/variables). A slice can be made in a specific position within the string, or it can be made at the default index.
 
 ## Syntax
 
@@ -102,3 +104,32 @@ The string method [`.find()`](https://www.codecademy.com/resources/docs/python/s
 name = "Code Ninja"
 print(name.find('ni'))
 ```
+
+## Best practices for using substrings in Python
+
+- **Use slicing for efficiency:** String slicing is optimized in Python and should be preferred over loops for extracting substrings.
+- **Utilize `in` for membership checks:** The `in` operator is the most efficient way to check if a substring exists within a string.
+- **Normalize case before comparisons:** Convert strings to lowercase or uppercase to avoid case-sensitive mismatches.
+- **Handle missing substrings gracefully:** Use `.find()` instead of [`.index()`](https://www.codecademy.com/resources/docs/python/strings/index) when searching for substrings to avoid exceptions.
+
+## FAQs
+
+<details>
+<summary>1. What happens if the end index is beyond the string length in slicing?</summary>
+<p>If the end index exceeds the string length, Python does not raise an error. It simply returns the available portion of the string.</p>
+</details>
+
+<details>
+<summary>2. How can I check if a substring exists within a string?</summary>
+<p>You can use the `in` operator or the `.find()` method. The `in` operator returns `True` or `False`, while `.find()` returns the starting index of the substring or `-1` if not found.</p>
+</details>
+
+<details>
+<summary>3. Why should I use `.find()` instead of `.index()`?</summary>
+<p>The `.find()` method returns `-1` if the substring is not found, whereas `.index()` raises an exception. If you don’t want to handle exceptions manually, `.find()` is a safer choice.</p>
+</details>
+
+<details>
+<summary>4. Can I use negative indexes for substring extraction?</summary>
+<p>Yes, Python allows negative indexing, which counts from the end of the string. You can use negative values for both the start and end positions when slicing.</p>
+</details>
