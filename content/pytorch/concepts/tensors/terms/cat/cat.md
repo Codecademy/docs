@@ -77,7 +77,7 @@ tensor([[ 1,  2,  3],
 
 ## Example 2: Stacking Tensors Across the Second Axis
 
-In this case, tensors are joined along the second dimension (axis 1) using the `.cat()` function to demonstrate horizontal concatenation:
+In this example, tensors are joined along the second dimension (axis 1) using the `.cat()` function to demonstrate horizontal concatenation:
 
 ```py
 import torch
