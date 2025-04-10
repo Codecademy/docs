@@ -178,5 +178,5 @@ This example shows how image data (represented as a 2D array) can be flattened f
 
 <details>
 <summary>5. How does `.flatten()` affect performance in numerical computations?</summary>
-<p>Since `.flatten()` creates a copy, it has memory and computational overhead. For large arrays or performance-critical code, consider if alternatives like `.ravel()`(which returns a view when possible) or direct operations on the multi-dimensional array would be more efficient.</p>
+<p>Since `.flatten()` creates a copy, it has memory and computational overhead. For large arrays or performance-critical code, consider if alternatives like `.ravel()` (which returns a view when possible) or direct operations on the multi-dimensional array would be more efficient.</p>
 </details>
