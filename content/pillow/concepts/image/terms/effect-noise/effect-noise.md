@@ -5,7 +5,9 @@ Subjects:
   - 'Data Science'
   - 'Data Visualization'
 Tags:
+  - 'Histograms'
   - 'Images'
+  - 'Objects'
   - 'Pillow'
 CatalogContent:
   - 'learn-python-3'
@@ -92,5 +94,3 @@ This produces the outputs as follows:
 ![Strong noise texture with a standard deviation of 150, displaying high contrast black and white pixels](https://raw.githubusercontent.com/Codecademy/docs/main/media/strong_noise.png)
 
 This code creates three different noise textures with varying levels of contrast. The subtle texture (`sigma=25`) will have a fine, low-contrast grain, while the strong texture (`sigma=150`) will show much more dramatic variations between black and white pixels. A slight Gaussian blur is applied to soften the noise, making it more suitable for background textures.
-
-To improve your data visualization skills, check out our [Intro to Data Visualization with Python](https://www.codecademy.com/learn/intro-to-data-visualization-with-python) course, where you'll learn to create line, bar, and pie charts, scatterplots, histograms, and more.
