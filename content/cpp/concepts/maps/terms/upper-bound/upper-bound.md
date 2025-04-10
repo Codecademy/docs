@@ -186,19 +186,7 @@ int main() {
 
 In this example, an inventory system is managed using a map where item IDs are the keys and item names are the values. The `.upper_bound()` is used to find the position where a new item with ID 1004 should be inserted to maintain the sorted order of the map. This showcases a practical use of `.upper_bound()` in a real-world scenario.
 
-## Best Practices
-
-1. **Check the return value**: Always verify if the iterator returned by `.upper_bound()` is valid before dereferencing it. If no element is found, it returns `map::end()`.
-
-2. **Use with `.lower_bound()` for ranges**: Combine `.upper_bound()` with `.lower_bound()` to define ranges within a map for efficient range-based operations.
-
-3. **Consider using `.equal_range()`**: For operations that require both lower and upper bounds, consider using `.equal_range()` which returns a pair of iterators representing the range.
-
-4. **Be aware of the comparison function**: The behavior of `.upper_bound()` depends on the comparison function used by the map. If you use a custom comparator, understand how it affects the results.
-
-5. **Prefer [`.find()`](https://www.codecademy.com/resources/docs/cpp/maps/find) for exact matches**: If you're looking for an exact match, use `.find()` instead of `.upper_bound()` as it's more semantically appropriate and may be more efficient.
-
-## FAQs
+## Frequently Asked Questions
 
 <details>
 <summary>1. What is the difference between `.upper_bound()` and `.lower_bound()` in C++ maps?</summary>   
