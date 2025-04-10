@@ -35,7 +35,7 @@ A new tensor resulting from concatenating the input tensors along the specified 
 
 ## Example 1: Merging Tensors Along Dimension 0
 
-This demonstration highlights how to combine tensors along the first axis (dimension 0) with the help of the `.cat()` method:
+This example highlights how to combine tensors along the first axis (dimension 0) with the help of the `.cat()` method:
 
 ```py
 import torch
