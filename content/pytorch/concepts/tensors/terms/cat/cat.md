@@ -169,7 +169,7 @@ tensor([[[ 1,  2,  3, 13, 14, 15],
 <details>
 <summary>1. What is the difference between `.stack()` and `.cat()`?</summary>
 <p>
-<ul> 
+<ul>
 <li>`.cat()` combines tensors along an existing dimension.</li>
 <li>`.stack()` adds a new dimension and stacks tensors along that new axis.</li>
 </ul>
