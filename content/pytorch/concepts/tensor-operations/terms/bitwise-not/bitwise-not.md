@@ -1,6 +1,6 @@
 ---
 Title: '.bitwise_not()'
-Description: 'Performs element-wise bitwise NOT operation on the input tensor, flipping each bit (0 becomes 1 and 1 becomes 0). Applicable to integer and boolean tensors.'
+Description: 'Performs element-wise bitwise NOT operation on the input tensor, flipping each bit (0 to 1 and 1 to 0). Applicable to integer and boolean tensors.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -25,7 +25,7 @@ torch.bitwise_not(input, *, out=None)
 **Parameters:**
 
 - `input`: A tensor of integer or boolean dtype.
-- `out` (Optional): A tensor to store the output result. Must have the same shape as the input tensor.
+- `out` (Optional): A tensor for storing the output result. Must have the same shape as the input tensor.
 
 **Return value:**
 
