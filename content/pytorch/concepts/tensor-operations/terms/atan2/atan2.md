@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.atan2()`** function in PyTorch is a powerful tool for computing the arctangent of the quotient of two tensors. It is particularly useful in applications involving polar coordinates and can be visualized to understand its behavior across a range of input values. By using this function, you can easily convert Cartesian coordinates to polar coordinates and vice versa.
+The **`.atan2()`** function in PyTorch is a powerful tool for computing the element-wise arctangent of the quotient of two tensors. It is particularly useful in applications involving polar coordinates and can be visualized to understand its behavior across a range of input values. By using this function, Cartesian coordinates can be easily converted to polar coordinates and vice versa.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ torch.atan2(input, other, *, out=None)
 
 - `input`: The first input tensor (numerator) containing values for which to calculate the arctangent.
 - `other`: The second input tensor (denominator) containing values for which to calculate the arctangent.
-- `out` (Optional): The output tensor to store the result. If provided, it must have a shape that the inputs broadcast to.
+- `out` (Optional): The output tensor to store the result. If provided, its shape must match with the shape that the inputs broadcast to.
 
 **Return value:**
 
@@ -34,7 +34,7 @@ Returns a tensor of the same shape as `input` and `other` containing the arctang
 
 ## Example 1: Basic Usage of `.atan2()`
 
-This example demonstrates how to apply the arctangent function to two tensors and understand its output:
+This example demonstrates how to apply the `.atan2()` function to two tensors and understand its output:
 
 ```py
 import torch
@@ -47,9 +47,9 @@ print("Input tensors:")
 print(x)
 print(y)
 
-# Apply the arctangent function
+# Apply the .atan2() function
 result = torch.atan2(x, y)
-print("\nArctangent of the input tensors:") 
+print("\nArctangent of the input tensors:")
 print(result)
 ```
 
@@ -66,9 +66,9 @@ tensor([-1.5708, -0.4636,  1.1659,  0.3805, -0.0000, -0.7854])
 
 In the output, it can be seen that the arctangent of (1.0, 0.0) is approximately -1.5708 radians (or -90 degrees), while the arctangent of (0.0, 1.0) is 0.0 radians (0 degrees).
 
-## Example 2: Visualizing the Arctangent Function
+## Example 2: Visualizing the `.atan2()` Function
 
-This example visualizes the arctangent function to better understand its behavior across a range of input values:
+This example visualizes the `.atan2()` function to better understand its behavior across a range of input values:
 
 ```py
 import torch
@@ -79,9 +79,9 @@ import matplotlib.pyplot as plt
 x = np.linspace(-10, 10, 100)
 y = np.linspace(-10, 10, 100)
 
-# Convert numpy arrays to PyTorch tensors
+# Convert NumPy arrays to PyTorch tensors
 x_tensor = torch.FloatTensor(x)
-y_tensor = torch.FloatTensor(y) 
+y_tensor = torch.FloatTensor(y)
 
 # Calculate arctangent values
 z_tensor = torch.atan2(x_tensor.unsqueeze(1), y_tensor.unsqueeze(0))
@@ -100,9 +100,4 @@ plt.show()
 
 This example results in the following output:
 
-![A 2D plot of the arctangent function using PyTorch, showing a smooth contour with labeled axes](https://raw.githubusercontent.com/Codecademy/docs/main/media/atan2_output1.png)
-
-```shell
-The range of arctangent is: [-3.1416, 3.1416] radians
-or approximately: [-180.0, 180.0] degrees 
-```
+![A 2D plot, representing the output for the above .atan2() example, showing a smooth contour with labeled axes](https://raw.githubusercontent.com/Codecademy/docs/main/media/atan2_output1.png)
