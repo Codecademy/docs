@@ -6,7 +6,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Arrays'
-  - 'Data' 
+  - 'Data'
   - 'Data Structures'
   - 'NumPy'
 CatalogContent:
