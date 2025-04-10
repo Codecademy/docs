@@ -189,7 +189,7 @@ In this example, an inventory system is managed using a map where item IDs are t
 ## Frequently Asked Questions
 
 <details>
-<summary>1. What is the difference between `.upper_bound()` and `.lower_bound()` in C++ maps?</summary>   
+<summary>1. What is the difference between `.upper_bound()` and `.lower_bound()` in C++ maps?</summary>
 <p>`.upper_bound(k)` returns an iterator to the first element whose key is greater than `k`, while `.lower_bound(k)` returns an iterator to the first element whose key is not less than `k` (i.e., greater than or equal to `k`).</p>
 </details>
 
