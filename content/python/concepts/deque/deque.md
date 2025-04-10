@@ -190,7 +190,7 @@ for action in actions:
 print(f"\nLimited history (latest 3 actions): {history}")
 ```
 
-## FAQs
+## Frequently Asked Questions
 
 <details>
 <summary>1. When should I use a deque instead of a list?</summary>
