@@ -141,6 +141,7 @@ The modulo operator finds the remaining minutes while integer division calculate
    ```
 
 6. **Use `divmod()` for Combined Operations**: Python provides a built-in function [`divmod()`](https://www.codecademy.com/resources/docs/python/built-in-functions/divmod) that returns both the quotient and remainder as a tuple.
+
    ```py
    quotient, remainder = divmod(a, b)
    ```
