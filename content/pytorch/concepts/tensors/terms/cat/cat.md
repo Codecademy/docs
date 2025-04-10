@@ -33,9 +33,9 @@ torch.cat(tensors, dim=0, out=None)
 
 A new tensor resulting from concatenating the input tensors along the specified dimension.
 
-## Example 1: Merging Tensors Along Dimension 0
+## Example 1: Concatenating tensors along the first dimension
 
-This example highlights how to combine tensors along the first axis (dimension 0) with the help of the `.cat()` method:
+This demonstration highlights how to combine tensors along the first axis (dimension 0) with the help of the `.cat()` method:
 
 ```py
 import torch
@@ -77,7 +77,7 @@ tensor([[ 1,  2,  3],
 
 ## Example 2: Stacking Tensors Across the Second Axis
 
-In this example, tensors are joined along the second dimension (axis 1) using the `.cat()` function to demonstrate horizontal concatenation:
+In this case, tensors are joined along the second dimension (axis 1) using the `.cat()` function to demonstrate horizontal concatenation:
 
 ```py
 import torch
@@ -115,9 +115,9 @@ tensor([[ 1,  2,  3,  7,  8,  9],
         [ 4,  5,  6, 10, 11, 12]])
 ```
 
-## Example 3: Appending Tensors on the Depth Dimension
+## Example 3: Concatenating tensors along the third dimension
 
-This example illustrates how to append tensors along the third dimension (axis 2), effectively stacking them in depth using the `.cat()` method:
+This example shows how to append tensors along the third dimension (axis 2), effectively stacking them in depth using the `.cat()` method:
 
 ```py
 import torch
@@ -164,7 +164,7 @@ tensor([[[ 1,  2,  3, 13, 14, 15],
          [10, 11, 12, 22, 23, 24]]])
 ```
 
-## FAQs
+## Frequently Asked Questions
 
 <details>
 <summary>1. What is the difference between `.stack()` and `.cat()`?</summary>
