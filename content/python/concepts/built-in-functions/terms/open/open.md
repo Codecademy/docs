@@ -128,28 +128,7 @@ Mike Johnson works in HR and earns $65000 per year.
 
 This example demonstrates opening a CSV file with specific parameters. The `newline=""` parameter ensures consistent newline handling across different platforms, and `encoding="utf-8"` specifies the character encoding to properly handle international characters.
 
-## Best Practices
-
-1. Always close files after using them by either calling the [`.close()`](https://www.codecademy.com/resources/docs/python/files/close) method or using the `with` statement (context manager).
-
-2. Specify the encoding explicitly (e.g., `encoding="utf-8"`) to ensure proper handling of characters across different platforms.
-
-3. Use appropriate mode parameters based on your needs:
-
-   - Use `"r"` for reading text (default)
-   - Use `"w"` for writing (overwrites existing content)
-   - Use `"a"` for appending to existing content
-   - Add `"b"` suffix (e.g., `"rb"`, `"wb"`) for binary files like images
-
-4. Handle exceptions when working with files to gracefully manage scenarios such as missing files or permission issues.
-
-5. Choose the right reading method based on your needs:
-   - `.read()` for the entire content
-   - `.readline()` for a single line
-   - `.readlines()` for all lines as a list
-   - Use a `for` loop to iterate through the file line by line
-
-## FAQs
+## Frequenty Asked Questionss
 
 <details>
 <summary>1. Does `open()` create a file in Python?</summary>
@@ -158,9 +137,10 @@ This example demonstrates opening a CSV file with specific parameters. The `newl
 
 <details>
 <summary>2. What is the difference between "r", "w", and "a" modes?</summary>
-- `"r"` (read): Opens a file for reading only. Raises an error if the file doesn't exist.
-- `"w"` (write): Opens a file for writing. Creates a new file if it doesn't exist or truncates (empties) the file if it exists.
-- `"a"` (append): Opens a file for appending content. Creates a new file if it doesn't exist but preserves existing content if the file exists.
+  <ul>
+<li>`"r"` (read): Opens a file for reading only. Raises an error if the file doesn't exist.</li>
+<li>`"w"` (write): Opens a file for writing. Creates a new file if it doesn't exist or truncates (empties) the file if it exists.</li>
+<li>`"a"` (append): Opens a file for appending content. Creates a new file if it doesn't exist but preserves existing content if the file exists.</li>
 </details>
 
 <details>
