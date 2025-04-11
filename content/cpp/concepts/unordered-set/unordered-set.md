@@ -59,7 +59,7 @@ This example demonstrates how to create an unordered set, insert elements, and c
 int main() {
   // Creating an unordered set of integers
   std::unordered_set<int> numbers;
-  
+
   // Inserting elements into the unordered set
   numbers.insert(10);
   numbers.insert(20);
@@ -132,11 +132,11 @@ int main() {
     std::cout << name << " ";
   }
   std::cout << std::endl;
-    
+
     // Count how many duplicates were removed
   std::cout << "Number of duplicates removed: "
             << names.size() - unique_names.size() << std::endl;
-    
+
   return 0;
 }
 ```
@@ -169,38 +169,38 @@ This example demonstrates how to use an unordered set and map together to count 
 int main() {
   // Sample text with repeated words
   std::string text = "the quick brown fox jumps over the lazy dog the fox was quick";
-    
+
   // Convert the string to lowercase for case-insensitive comparison
   std::transform(text.begin(), text.end(), text.begin(), ::tolower);
-    
+
   // Split the text into words
   std::istringstream iss(text);
   std::vector<std::string> words;
   std::string word;
-    
+
   while (iss >> word) {
     words.push_back(word);
   }
-    
+
   // Count word frequencies
   std::unordered_map<std::string, int> word_count;
   for (const auto& w : words) {
     word_count[w]++;
   }
-    
+
   // Find unique words using an unordered set
   std::unordered_set<std::string> unique_words(words.begin(), words.end());
-    
+
   // Print word frequencies for unique words
   std::cout << "Word frequencies:" << std::endl;
   for (const auto& w : unique_words) {
     std::cout << w << ": " << word_count[w] << std::endl;
   }
-    
+
   // Print total count
   std::cout << "\nTotal words: " << words.size() << std::endl;
   std::cout << "Unique words: " << unique_words.size() << std::endl;
-    
+
   return 0;
 }
 ```
