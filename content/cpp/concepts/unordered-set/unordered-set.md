@@ -20,7 +20,7 @@ An unordered set is implemented using a hash table, which allows for fast retrie
 
 ## Syntax
 
-### Syntax to create an unordered set:
+### Syntax to create an unordered set
 
 ```pseudo
 std::unordered_set<data_type> set_name;
@@ -34,7 +34,7 @@ std::unordered_set<data_type> set_name;
 
 Returns an empty unordered set that can store elements of the specified type.
 
-### Syntax to initialize an unordered set:
+### Syntax to initialize an unordered set
 
 ```pseudo
 std::unordered_set<data_type> set_name = {value1, value2, value3, ...};
@@ -65,26 +65,26 @@ int main() {
   numbers.insert(20);
   numbers.insert(30);
   numbers.insert(10);  // Duplicate, will be ignored
-    
+
   // Checking the size of the unordered set
   std::cout << "Size of the unordered set: " << numbers.size() << std::endl;
-    
+
   // Checking if an element exists in the unordered set
   if (numbers.find(20) != numbers.end()) {
     std::cout << "20 is in the set" << std::endl;
   }
-    
+
   if (numbers.find(40) == numbers.end()) {
     std::cout << "40 is not in the set" << std::endl;
   }
-    
+
   // Printing all elements of the unordered set
   std::cout << "Elements: ";
   for (const auto& num : numbers) {
     std::cout << num << " ";
   }
   std::cout << std::endl;
-    
+
   return 0;
 }
 ```
@@ -115,17 +115,17 @@ int main() {
   std::vector<std::string> names = {
     "Alice", "Bob", "Charlie", "Alice", "David", "Bob", "Eva"
   };
-    
+
   // Using unordered set to remove duplicates
   std::unordered_set<std::string> unique_names(names.begin(), names.end());
-    
+
   // Print original list
   std::cout << "Original list of names:" << std::endl;
   for (const auto& name : names) {
     std::cout << name << " ";
   }
   std::cout << std::endl;
-    
+
   // Print unique names
   std::cout << "List after removing duplicates:" << std::endl;
   for (const auto& name : unique_names) {
@@ -134,7 +134,7 @@ int main() {
   std::cout << std::endl;
     
     // Count how many duplicates were removed
-  std::cout << "Number of duplicates removed: " 
+  std::cout << "Number of duplicates removed: "
             << names.size() - unique_names.size() << std::endl;
     
   return 0;
@@ -145,9 +145,9 @@ This example results in the following possible output:
 
 ```shell
 Original list of names:
-Alice Bob Charlie Alice David Bob Eva 
+Alice Bob Charlie Alice David Bob Eva
 List after removing duplicates:
-Eva David Charlie Bob Alice 
+Eva David Charlie Bob Alice
 Number of duplicates removed: 2
 ```
 
@@ -220,7 +220,7 @@ int main() {
 </details>
 
 <details>
-<summary>3. What is the time complexity of operations in an unordered set?</summary>   
+<summary>3. What is the time complexity of operations in an unordered set?</summary>
 <p>On average, insertion, deletion, and search operations have O(1) time complexity. In rare worst-case scenarios (e.g., when many elements hash to the same bucket), these operations can degrade to O(n) time complexity.</p>
 </details>
 
