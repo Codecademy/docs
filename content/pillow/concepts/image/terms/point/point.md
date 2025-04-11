@@ -1,5 +1,5 @@
 ---
-Title: 'point()'
+Title: '.point()'
 Description: 'Applies a function or lookup table to each pixel in an image using the Pillow library.'
 Subjects:
   - 'Python'
@@ -25,34 +25,36 @@ Image.point(function, mode=None)
 
 **Parameters:**
 
-* `function` (callable or sequence):
-A function or sequence that maps each pixel value to a new value. If a function is used, it's called once per pixel.
-* 	`mode`(optional string):
-A mode string (like "L" or "RGB") that defines the mode of the output image. This is rarely needed unless changing the image mode.
+- `function` *(callable or sequence)*: A function or lookup table that maps each pixel value to a new value...
+
+- `mode` *(optional, str)*:
+ The mode of the output image. Typically not needed unless changing image type.
 
 **Returns:**
 * A new `image` object with the transformed pixel data.
 
 
 ## Example
+This example creates a horizontal grayscale gradient, inverts it using `.point()`, and saves the result:
 
 ```py
 from PIL import Image
 
-# Create a 4x4 grayscale image
-image = Image.new("L", (4, 4))
-pixels = [i * 16 for i in range(16)]  # Gradient values
-image.putdata(pixels)
+# Create a horizontal grayscale gradient image
+width, height = 256, 50
+image = Image.new("L", (width, height))
+for x in range(width):
+    for y in range(height):
+        image.putpixel((x, y), x)
 
-# Invert grayscale values using point()
-inverted_image = image.point(lambda p: 255 - p)
+# Invert grayscale values
+inverted = image.point(lambda p: 255 - p)
 
-# Save the result
-inverted_image.save("inverted-image.png")
+# Save
+inverted.save("inverted-gradient.png")
 ```
-![Inverted Grayscale Image](/codecademyDocs/media/inverted-image.png)
-
-
+## Output:
+![Output image ](/media/inverted-gradient.png)
 
 
 
