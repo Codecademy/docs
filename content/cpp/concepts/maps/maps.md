@@ -219,7 +219,7 @@ This example demonstrates various ways to add and modify elements in a map:
 
 Note that the elements are always sorted by key (alphabetically in this case).
 
-## FAQs
+## Frequently Asked Questions
 
 <details>
 <summary>1. What is the difference between a map and an unordered map in C++?</summary>
