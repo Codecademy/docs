@@ -84,7 +84,7 @@ This example creates an enum called `Weekday` with seven enumerators representin
 
 ## Example 2: Custom Enum Values
 
-This example shows how to customize the values assigned to enum constants and how they can make code more readable for status codes:
+This example demonstrates assigning custom values to enum constants and handling them using a [`switch`](https://www.codecademy.com/resources/docs/c/switch) statement for better readability and control flow.
 
 ```c
 #include <stdio.h>
@@ -153,74 +153,62 @@ This example demonstrates a simpler use case of enums for representing menu opti
 ```c
 #include <stdio.h>
 
-// Define an enum for menu options
-enum MenuOption {
-  NEW_GAME = 1,
-  LOAD_GAME,    // 2
-  SETTINGS,     // 3
-  HELP,         // 4
-  EXIT          // 5
+// Define an enum for user actions
+enum UserAction {
+  ACTION_LOGIN,
+  ACTION_LOGOUT,
+  ACTION_VIEW_PROFILE,
+  ACTION_EDIT_PROFILE,
+  ACTION_COUNT // Total number of actions
 };
 
-void processMenuSelection(enum MenuOption option) {
-  switch(option) {
-    case NEW_GAME:
-      printf("Starting new game...\n");
-      break;
-    case LOAD_GAME:
-      printf("Loading saved game...\n");
-      break;
-    case SETTINGS:
-      printf("Opening settings menu...\n");
-      break;
-    case HELP:
-      printf("Displaying help information...\n");
-      break;
-    case EXIT:
-      printf("Exiting game. Goodbye!\n");
-      break;
-    default:
-      printf("Invalid option selected.\n");
-    }
+// Define functions corresponding to each action
+void login() {
+  printf("User logged in.\n");
+}
+
+void logout() {
+  printf("User logged out.\n");
+}
+
+void viewProfile() {
+  printf("Displaying user profile.\n");
+}
+
+void editProfile() {
+  printf("Editing user profile.\n");
 }
 
 int main() {
-  int choice;
-  enum MenuOption selectedOption;
+  // Array of function pointers corresponding to user actions
+  void (*actionHandlers[ACTION_COUNT])() = {
+    login,
+    logout,
+    viewProfile,
+    editProfile
+  };
 
-  printf("GAME MENU\n");
-  printf("1. New Game\n");
-  printf("2. Load Game\n");
-  printf("3. Settings\n");
-  printf("4. Help\n");
-  printf("5. Exit\n");
-  printf("Enter your choice (1-5): ");
-  scanf("%d", &choice);
+  // Simulate user selecting an action
+  enum UserAction selectedAction = ACTION_VIEW_PROFILE;
 
-  // Convert user input to enum value
-  if (choice >= NEW_GAME && choice <= EXIT) {
-    selectedOption = choice;
-    processMenuSelection(selectedOption);
+  // Invoke the corresponding function without using switch or if
+  if (selectedAction >= 0 && selectedAction < ACTION_COUNT) {
+    actionHandlers[selectedAction]();
   } else {
-    printf("Invalid selection. Please choose 1-5.\n");
+    printf("Invalid action selected.\n");
   }
 
   return 0;
 }
 ```
 
+The output of the code above will be:
+
 ```shell
-GAME MENU
-1. New Game
-2. Load Game
-3. Settings
-4. Help
-5. Exit
-Enter your choice (1-5): 3
-Opening settings menu...
+Displaying user profile.
 ```
 
-This example shows how enums can be used to create a clear, type-safe representation of menu options in a program. By starting the enum with value 1, the menu options directly correspond to the numbers displayed to the user, making the code more intuitive and readable.
+In this example, each enum constant represents a user action, and the `actionHandlers` array maps these constants to their corresponding functions. By indexing into the array with the enum value, the appropriate function is called directly.
 
 ## FAQs
 
