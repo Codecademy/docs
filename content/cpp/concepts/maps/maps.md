@@ -5,8 +5,8 @@ Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
-  - 'Data Structures'
   - 'Collections'
+  - 'Data Structures'
   - 'Maps'
   - 'OOP'
 CatalogContent:
