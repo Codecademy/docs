@@ -1,10 +1,9 @@
 ---
 Title: '.tile()'
-Description: "Constructs a new array by repeating the input array’s elements a specified number of times."
+Description: 'Constructs a new array by repeating the input array’s elements a specified number of times.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Machine Learning'
 Tags:
   - 'Linear Algebra'
   - 'Machine Learning'
@@ -14,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.tile()`** function constructs a new array by repeating the input array `A` according to the specified number of repetitions `reps`.
+In NumPy, the **`.tile()`** function constructs a new [array](https://www.codecademy.com/resources/docs/numpy/ndarray) by repeating the input array `A` according to the specified number of repetitions `reps`.
 
 - If `A.ndim < len(reps)`, dimensions of `A` are promoted by prepending ones to match the length of `reps`. For example, an array with shape `(3,)` will be treated as `(1, 3)`.
 - If `A.ndim > len(reps)`, the `reps` tuple is extended by prepending ones. For example, `reps=2` is treated as `(1, 2)`.
@@ -30,9 +29,13 @@ numpy.tile(A, reps)
 - `A`: The input array.
 - `reps`: The number of times the values need to be repeated.
 
+**Return value:**
+
+Returns a new array containing the input array's elements repeated a specific number of times.
+
 ## Example: Repeating Elements in 1D, 2D, and 3D Arrays
 
-The following example show how 1D and 2D arrays interact with `.tile()`:
+The following example shows how 1D, 2D, and 3D arrays interact with `.tile()`:
 
 ```py
 import numpy as np
@@ -42,17 +45,17 @@ a = np.array([3,2,1])
 print("Shape of a:",np.shape(a))
 print("a:",a)
 
-# Use numpy.tile() to repeat the values twice horizontally
+# Use .tile() to repeat the values twice horizontally
 b = np.tile(a,2)
 print("b:",b)
 
-# Use numpy.tile() to create a 2D array
+# Use .tile() to create a 2D array
 c = np.tile(a,(1,2))
 d = np.tile(a,(2,1))
 print("c:",c)
 print("d:",d)
 
-# Use numpy.tile() to create a 3D array
+# Use .tile() to create a 3D array
 e = np.tile(a,(2,1,2))
 print("e:",e)
 
@@ -63,15 +66,15 @@ m = np.array([[5,7,8],[8,2,0]])
 print("Shape of m:",np.shape(m))
 print("m:",m)
 
-# Use numpy.tile() to repeat the values twice horizontally
+# Use .tile() to repeat the values twice horizontally
 n = np.tile(m,2)
 print("n:",n)
 
-# To repeat values horizontally only
+# To repeat the values horizontally only
 o = np.tile(m,(1,2))
 print("o:",o)
 
-# To repeat values horizontally and vertically
+# To repeat the values horizontally and vertically
 p = np.tile(m,(2,2))
 print("p:",p)
 
@@ -120,7 +123,7 @@ The following codebyte example shows the usage of the `.tile()` function:
 ```codebyte/python
 import numpy as np
 
-#Create a 1D and 2D array
+# Create a 1D and 2D array
 a = np.array([3,7,6])
 b = np.array([[5,-2,8],[8,2,0]])
 
