@@ -80,4 +80,36 @@ The following codes show the use of numpy `.histogram()` to display an array in 
 ```codebyte/python
 import numpy as np
 
+# create an array of data
+data = np.array([12, 14, 18, 19, 25])
+
+# create bin to set  the interval
+bin = [0, 10, 20, 30]
+
+#create histogram
+graph_1 = np.histogram(data, bin)
+
+print(graph_1)
+
+# create a random integer between 1 and 10
+p = random.randint(1, 10)
+
+# create a histogram with the number with default bin
+graph_2 = np.histogram(p)
+
+print(graph_2)
+
+
+# create a sample 10 elements between 1 and 20
+data = np.random.random_integers(1, 20, 1000)
+
+#create bins with linspace with in 2 intervals
+bins = np.linspace(0, 20, 2, dtype = int)
+
+#create histogram with density set as True
+graph_3 = np.histogram(data, bins, density = True)
+
+print(graph_3)
+
+
 ```
