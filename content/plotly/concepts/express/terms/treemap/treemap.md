@@ -30,7 +30,7 @@ plotly.express.treemap(data_frame = None, names = None, values=None, parents = N
 - `title`: An optional title for the treemap chart.
 - `labels`: A dictionary that overrides default column names for axis titles, legend entries, and hover information.
 
-> Note: The ellipsis in the syntax (...) indicates that there are additional optional parameters beyond those listed here to customize the 3D mesh.
+> Note: The ellipsis in the syntax (...) indicates that there are additional optional parameters beyond those listed here to customize the treemap charts.
 
 ## Example 1
 
