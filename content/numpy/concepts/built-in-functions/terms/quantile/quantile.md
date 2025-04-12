@@ -1,9 +1,9 @@
 ---
 Title: '.quantile()'
-Description: 'Returns the qth quantile of an array along a specified axis.'
+Description: 'Computes the qth quantile of the input array along the specified axis.'
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'Arrays'
   - 'Data'
@@ -23,23 +23,24 @@ The **`.quantile()`** function returns the qth quantile of an array along a spec
 numpy.quantile(a, q, axis=None, out=None, overwrite_input=False, method='linear', keepdims=False, weights=None)
 ```
 
-Required Parameters:
+**Parameters:**
 
-`a`: The array from which to calculate the qth quantile.
-`q`: The percentage of data (float) in `a` that falls below the qth quantile. For example, a value of .5 represents the median of that data.
+- `a`: The input array containing the data to compute the quantiles from.
+- `q`: The quantile(s) to compute. This can be a float or array-like of floats between `0` and `1`, where `0.5` represents the median.
+- `axis` (Optional): The axis or axes on which to calculate the quantile. `axis=0` computes along columns, and `axis=1` computes along rows. If set to `None` (default), the input is flattened before computation.
+- `out` (Optional): Specifies a different array in which to place the result. It must have the same shape as the expected result.
+- `overwrite_input` (Optional): If `True`, the input array `a` may be modified to save memory. Default is `False`.
+- `method` (Optional): The method used to compute the quantile. The default is `'linear'`. Valid options include: `'inverted_cdf'`, `'averaged_inverted_cdf'`, `'closest_observation'`, `'interpolated_inverted_cdf'`, `'hazen'`, `'weibull'`, `'median_unbiased'`, and `'normal_unbiased'`.
+  `keepdims` (Optional): If `True`, the reduced axes are retained with size one, maintaining the number of dimensions in the output.
+  `weights` (Optional): An array of weights corresponding to values in `a`, used to influence the quantile calculation. This parameter is only supported by the `'inverted_cdf'` method. The shape of `weights` must either match `a`, or be 1-dimensional with a length equal to `a` when flattened.
 
-Optional Parameters:
+**Return value:**
 
-- `axis`: The axis or axes on which to calculate the quantile. `axis=0` works along the column and `axis=1` works along the row. If left as default, the quantile is calculated along a flattened version of `a`.
-- `out`: Specifies a different array in which to place the result. It must have the same shape as the expected result.
-- `overwrite_input`: Allows the function to modify the input array, `a`, during computation to reduce memory usage.
-- `method`: The method used to estimate the quantile. The default is 'linear'. Other allowed values are 'inverted_cdf', 'averaged_inverted_cdf', 'closest_observation', 'interpolated_inverted_cdf', 'hazen', 'weibull', 'median_unbiased', and 'normal_unbiased'.
-`keepdims`: When `True`, the output retains the original number of dimensions from the input, with the reduced dimensions having a size of one.
-`weights`: An array of weights that correspond to the values in `a`. These weights determine the amount each of the values in `a` influences the quantile calculation. If used, this array must either correspond to the length of `a` (1-dimensional) or be the exact same dimensions as `a`. This parameter is only supported by the inverted_cdf method.
+The `.quantile()` function returns the qth quantile(s) of an array as a NumPy array ([`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray)) or a scalar (`float64`) if the result is a single value.
 
-## Example
+## Example: Computing multiple quantiles from data
 
-The following example creates and array and then uses the `.quantile()` to calculate various quantiles from the data:
+The following example creates an array and then uses the `.quantile()` to calculate various quantiles from the data:
 
 ```py
 import numpy as np
@@ -59,19 +60,19 @@ print(np.quantile(a, .75, axis=1, keepdims=True))
 # Computes the 75th quantile along the horizontal axis, while retaining the original dimensions of the input array
 ```
 
-This produces the following output:
+This code produces the following output:
 
 ```shell
 1.25
 [1.5 2.5 3.5]
 [1. 4.]
-[[1.5] 
+[[1.5]
  [4.5]]
 ```
 
 ## Codebyte Example
 
-The following example computes different quantiles for an input array, `a`:
+The following example computes various quantiles for an input array, `a`:
 
 ```codebyte/python
 import numpy as np
