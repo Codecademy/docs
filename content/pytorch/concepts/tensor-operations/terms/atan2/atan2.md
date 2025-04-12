@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.atan2()`** function in PyTorch is a powerful tool for computing the element-wise arctangent of the quotient of two tensors. It is particularly useful in applications involving polar coordinates and can be visualized to understand its behavior across a range of input values. By using this function, Cartesian coordinates can be easily converted to polar coordinates and vice versa.
+The **`.atan2()`** function in PyTorch computes the element-wise arctangent of the quotient of two tensors. It is particularly useful in applications involving polar coordinates and can be visualized to understand its behavior across a range of input values. This function is commonly used to convert Cartesian coordinates to polar form by computing the angle (θ), making it especially useful in vector and trigonometric computations.
 
 ## Syntax
 
