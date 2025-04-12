@@ -1,93 +1,244 @@
 ---
 Title: 'Enums'
-Description: 'An enum is used to assign custom names to integral constants.'
+Description: 'Defines a user-defined type with a set of named integral constants in C.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'Const'
+  - 'Data Types'
   - 'Enum'
-  - 'Variable Types'
 CatalogContent:
   - 'learn-c'
   - 'paths/computer-science'
 ---
 
-An **enum** (enumeration) is a user-defined data type in C. It is used to assign names to integral constants. The principal purpose of these names is to create a program that is easy to read and maintain. It is defined using the `enum` keyword.
+An **`enum`** (short for enumeration) is a user-defined data type in C that consists of integral constants. It provides a way to define a set of named integer constants, making code more readable and maintainable by replacing numeric literals with descriptive identifiers.
+
+Enums are particularly useful when a variable should only take one value from a limited set of possible values. Common use cases include representing states, flags, options, or any scenario where a variable can have only one value from a specific list of related values.
 
 ## Syntax
 
 ```pseudo
-enum name
-{
-  memberName1 = <integral constant>,
-  memberName2,
-  memberName3,
-  ...
-  memberNameN
+enum enum_name {
+    const1,
+    const2,
+    ...,
+    constN
 };
 ```
 
-An enum is made up of members where each `memberName` can have a defined integral constant (e.g. 0, 10, 2) or just the `memberName`.
+**Parameters:**
 
-## Examples
+- `enum_name`: Optional name for the enumeration type
+- `const1, const2, ..., constN`: Comma-separated list of enumerator identifiers
 
-If we do not explicitly assign values to `enum` `day`, the compiler by default assigns values starting from 0. For instance, `sunday` gets a value of 0, `monday` gets 1, and so on.
+By default, enum values are assigned incrementing integer values starting from 0. However, custom values can be explicitly assigned to enumerators.
 
-```c
-#include <stdio.h>
-enum fruits {apple, orange, banana, peach, grape};
+**Return value:**
 
-int main()
-{
-    enum fruits d = banana;
-    printf("The fruit number stored in d is %d", d);
-    return 0;
-}
-```
+Enum declarations do not return a value but define a new data type that can be used to declare variables.
 
-This example results in the following output:
+## Example 1: Defining and Using a Basic Enum Example
 
-```shell
-The fruit number stored in d is 2
-```
-
-Two `enum` names can have the same value. For instance, both `Running` and `In_Progress` have the same value of 1.
+This example demonstrates how to define and use a basic enum for representing weekdays:
 
 ```c
 #include <stdio.h>
-enum State {Todo = 0, Running = 1, In_Progress = 1};
-int main()
-{
-    printf("%d, %d, %d", Todo, Running, In_Progress);
-    return 0;
+
+// Define an enum for days of the week
+enum Weekday {
+  MONDAY,    // 0
+  TUESDAY,   // 1
+  WEDNESDAY, // 2
+  THURSDAY,  // 3
+  FRIDAY,    // 4
+  SATURDAY,  // 5
+  SUNDAY     // 6
+};
+
+int main() {
+  // Declare a variable of enum type
+  enum Weekday today = WEDNESDAY;
+
+  // Use the enum in a condition
+  if (today == WEDNESDAY) {
+    printf("It's the middle of the week!\n");
+  }
+
+  // Print the enum value
+  printf("Today is day %d of the week.\n", today);
+
+  return 0;
 }
 ```
 
-This example results in the following output.
+The output of this code is:
 
 ```shell
-0, 1, 1
+It's the middle of the week!
+Today is day 2 of the week.
 ```
 
-We can assign values to a particular name in any order. All unassigned names get value as the value of the previous name plus one.
+This example creates an enum called `Weekday` with seven enumerators representing days of the week. Note that enumerators are automatically assigned values starting from 0, though these values can be customized.
+
+## Example 2: Custom Enum Values
+
+This example demonstrates assigning custom values to enum constants and handling them using a [`switch`](https://www.codecademy.com/resources/docs/c/switch) statement for better readability and control flow.
 
 ```c
 #include <stdio.h>
-enum day {sunday = 1, monday, tuesday = 20,
-          wednesday, thursday = 10, friday, saturday};
 
-int main()
-{
-    printf("%d %d %d %d %d %d %d", sunday, monday, tuesday,
-            wednesday, thursday, friday, saturday);
-    return 0;
+// Define an enum for HTTP status codes with custom values
+enum HttpStatus {
+  OK = 200,
+  CREATED = 201,
+  BAD_REQUEST = 400,
+  UNAUTHORIZED = 401,
+  FORBIDDEN = 403,
+  NOT_FOUND = 404,
+  SERVER_ERROR = 500
+};
+
+void handleResponse(enum HttpStatus status) {
+  switch(status) {
+    case OK:
+      printf("Request successful!\n");
+      break;
+    case CREATED:
+      printf("Resource created successfully!\n");
+      break;
+    case BAD_REQUEST:
+    case UNAUTHORIZED:
+    case FORBIDDEN:
+    case NOT_FOUND:
+      printf("Client error: %d\n", status);
+      break;
+    case SERVER_ERROR:
+      printf("Server error: %d\n", status);
+      break;
+    default:
+      printf("Unknown status code: %d\n", status);
+    }
+}
+
+int main() {
+  // Simulate different HTTP responses
+  enum HttpStatus response1 = OK;
+  enum HttpStatus response2 = NOT_FOUND;
+  enum HttpStatus response3 = SERVER_ERROR;
+
+  handleResponse(response1); // 200
+  handleResponse(response2); // 404
+  handleResponse(response3); // 500
+
+  return 0;
 }
 ```
 
-This example results in the following output:
+The output generated by this code is as follows:
 
 ```shell
-1 2 20 21 10 11 12
+Request successful!
+Client error: 404
+Server error: 500
 ```
 
-> **Note:** All `enum` constants must be unique in their scope.
+This example demonstrates how enums with custom values can make code more intuitive when working with standardized codes. By assigning specific values to enum constants, we create meaningful identifiers for HTTP status codes that match their actual numeric values.
+
+## Example 3: Using Enums for Menu Options
+
+This example demonstrates a simpler use case of enums for representing menu options in a program:
+
+```c
+#include <stdio.h>
+
+// Define an enum for user actions
+enum UserAction {
+  ACTION_LOGIN,
+  ACTION_LOGOUT,
+  ACTION_VIEW_PROFILE,
+  ACTION_EDIT_PROFILE,
+  ACTION_COUNT // Total number of actions
+};
+
+// Define functions corresponding to each action
+void login() {
+  printf("User logged in.\n");
+}
+
+void logout() {
+  printf("User logged out.\n");
+}
+
+void viewProfile() {
+  printf("Displaying user profile.\n");
+}
+
+void editProfile() {
+  printf("Editing user profile.\n");
+}
+
+int main() {
+  // Array of function pointers corresponding to user actions
+  void (*actionHandlers[ACTION_COUNT])() = {
+    login,
+    logout,
+    viewProfile,
+    editProfile
+  };
+
+  // Simulate user selecting an action
+  enum UserAction selectedAction = ACTION_VIEW_PROFILE;
+
+  // Invoke the corresponding function without using switch or if
+  if (selectedAction >= 0 && selectedAction < ACTION_COUNT) {
+    actionHandlers[selectedAction]();
+  } else {
+    printf("Invalid action selected.\n");
+  }
+
+  return 0;
+}
+```
+
+The output of the code above will be:
+
+```shell
+Displaying user profile.
+```
+
+In this example, each enum constant represents a user action, and the `actionHandlers` array maps these constants to their corresponding functions. By indexing into the array with the enum value, the appropriate function is called directly.
+
+## FAQs
+
+<details>
+<summary>1. What is the difference between macros and enums in C?</summary>
+<p>
+Macros (created with `#define`) and enums both can be used to define constants, but they have key differences:
+<ul>
+<li>Enums are actual types, while macros are simple text replacements</li>
+<li>Enums provide type checking, whereas macros don't</li>
+<li>Enums are visible in debuggers, while macros are replaced before compilation</li>
+<li>Enums belong to a specific scope, while macros exist from their definition until the end of the file or until `#undef`</li>
+<li>Multiple related constants are grouped together in enums, while macros stand alone</li>
+</p>
+</details>
+
+<details>
+<summary>2. What is the difference between arrays and enums in C?</summary>
+<p>
+Arrays and enums serve completely different purposes:
+<ul>
+<li>Arrays store collections of elements of the same type that are accessed by index</li>
+<li>Enums define a set of named constants of integer type</li>
+<li>Arrays occupy memory to store values, whereas enums don't require storage (they're compile-time constants)</li>
+<li>Array elements are accessed using indices, while enum constants are used directly by name</li>
+</ul>
+</p>
+</details>
+
+<details>
+<summary>3. How does memory allocation work with enums?</summary>
+<p>Enum variables typically have the same memory size as an `int` on the system (usually 4 bytes on modern systems), regardless of how many enumerators are defined. This is because an enum variable needs to store only one value from the set of possible enumeration constants. The enum constants themselves don't occupy any memory during program execution, as they're replaced with their integer values by the compiler.</p>
+</details>
