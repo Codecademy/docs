@@ -2,14 +2,12 @@
 Title: '.point()'
 Description: 'Applies a function or lookup table to each pixel in an image using the Pillow library.'
 Subjects:
-  - 'Python'
-  - 'Image Processing'
-  - 'Pillow'
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - 'Image-manipulation'  
+  - 'Images'  
   - 'Pillow'
-  - 'point()'
-  - 'Python-method'
+  - 'Python'
 CatalogContent:
   - 'Learn-python-3'
   - 'paths/data-science'
