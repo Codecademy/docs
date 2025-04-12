@@ -67,8 +67,8 @@ False
 
 In the example below, sets are created with lists and the `set()` function. The following observations can be made:
 
-- The first time the `animals` set is created with no parameters and printed, "set()" is printed to the shell.
-- When the `dog_breeds` set is created, it has duplicate elements with a `corgi` value that is reduced to one by the time the set is printed.
+- When the `animals` set is initialized without parameters, the empty set is displayed as `set()`.
+- The `dog_breeds` set contains duplicates, but only one instance of each value is retained when printed.
 
 ```codebyte/python
 animals = set()
