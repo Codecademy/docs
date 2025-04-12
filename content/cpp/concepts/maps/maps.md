@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`map`** is an associative container in C++ that stores key-value pairs in a sorted order. Each key in a map is unique and maps to exactly one value, creating an efficient way to store and retrieve data based on keys. Maps in C++ implement a self-balancing [binary search tree](https://www.codecademy.com/resources/docs/general/binary-search-tree), typically a red-black tree, which provides logarithmic time complexity for common operations.
+A **`map`** is an associative container in C++ that stores key-value pairs in sorted order. Each key is unique and maps to a single value, enabling efficient data storage and retrieval based on keys. C++ maps use a self-balancing [binary search tree](https://www.codecademy.com/resources/docs/general/binary-search-tree), typically a red-black tree, to achieve logarithmic time complexity for common operations.
 
-Maps are widely used when efficient lookup, insertion, and deletion operations are required based on unique keys. They are perfect for scenarios like dictionaries, phone books, configuration settings, and any situation where you need to associate values with unique identifiers. Unlike [unordered maps](https://www.codecademy.com/resources/docs/cpp/unordered-map), standard maps always maintain their elements in a sorted order according to their keys, which can be beneficial for range-based operations.
+Maps support efficient lookup, insertion, and deletion based on unique keys. They suit use cases such as dictionaries, phone books, configuration settings, and any situation that requires associating values with unique identifiers. Unlike [unordered maps](https://www.codecademy.com/resources/docs/cpp/unordered-map), standard maps maintain their elements in sorted order by key, which is beneficial for range-based operations.
 
 ## Syntax
 
@@ -53,9 +53,12 @@ int main() {
   std::map<std::string, int> ages;
 
   // Insert key-value pairs using different methods
-  ages["Alice"] = 30;                           // Using operator[]
-  ages.insert(std::pair<std::string, int>("Bob", 25)); // Using insert with pair
-  ages.insert({"Charlie", 35});                // Using insert with initializer list
+  // Using operator[]
+  ages["Alice"] = 30;
+  // Using insert with pair
+  ages.insert(std::pair<std::string, int>("Bob", 25));
+  // Using insert with initializer list
+  ages.insert({"Charlie", 35});
 
   // Print the map contents
   std::cout << "Map contents:" << std::endl;
@@ -70,7 +73,7 @@ int main() {
 }
 ```
 
-This code creates a map that associates names (strings) with ages (integers). It demonstrates three different ways to insert elements into a map: using the subscript operator `[]`, using the [`.insert()`](https://www.codecademy.com/resources/docs/cpp/maps/insert) method with a `pair`, and using `.insert()` with an initializer list.
+This code creates a map that associates `names` (strings) with `ages` (integers). It demonstrates three different ways to insert elements into a map: using the subscript operator `[]`, using the [`.insert()`](https://www.codecademy.com/resources/docs/cpp/maps/insert) method with a `pair`, and using `.insert()` with an initializer list.
 
 The output produced by this code will be:
 
