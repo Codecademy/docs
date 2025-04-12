@@ -23,7 +23,7 @@ To create a comment in HTML, the content must be placed between the opening comm
 <!-- Comments go between these tags. -->
 ```
 
-There are several ways to use comments in HTML:
+There are several ways to use comments in HTML.
 
 ## Single-Line Comments
 
@@ -55,25 +55,35 @@ Developers often comment out HTML to temporarily disable it during development o
 HTML comments can be placed inside elements between tags, but not within the tags themselves:
 
 ```html
-<p>This text <!-- This comment is inside the paragraph element --> will display with the comment hidden.</p>
+<p>
+  This text
+  <!-- This comment is inside the paragraph element -->
+  will display with the comment hidden.
+</p>
 ```
 
 This renders properly, but the following example would cause errors:
 
 ```html
-<p <!-- This comment placement is incorrect -->>This text will not display properly.</p>
+<p <!-- This comment placement is incorrect -->
+  >This text will not display properly.
+</p>
 ```
 
-> **Note:** Nested comments are not recommended because they may cause unexpected behavior. Comments generally end after the first closing tag `-->`. Anything after that will be rendered on the page, including all outer closing tags. Thus, when commenting out HTML code, developers should remove any interior comment tags (or at least the trailing ones `-->`).
+## Nested comments
 
-```pseudo
-<!-- Outer comment <!-- Inner comment --> This text will render. -->
+Nested cooments are not recommended because they may cause unexpected behavior. An HTML comment ends at the first occurrence of a closing tag (`-->`), so anything written after that may be rendered on the page—even if it's intended to be hidden. Example:
+
+```html
+<!-- Outer comment <!-- Inner comment -->
+This text will render. -->
 ```
 
 This example will render as follows:
 
 ![HTML Comments A](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-comments-2.png)
 
+In this example, the browser sees the first `-->` as the end of the comment and renders everything after it. To avoid this, do not place comments within other comments.
 
 ## Example - Basic Use of Comments in HTML
 
@@ -87,13 +97,16 @@ Here's a practical example showing how to use HTML comments:
   </head>
   <body>
     <h1>HTML Comments Example</h1>
-    
+
     <!-- This heading is commented out -->
     <!-- <h2>This won't be visible</h2> -->
-    
+
     <p>This text is visible on the page.</p>
-    
-    <p>Another visible paragraph <!-- with a hidden comment -->.</p>
+
+    <p>
+      Another visible paragraph
+      <!-- with a hidden comment -->.
+    </p>
   </body>
 </html>
 ```
