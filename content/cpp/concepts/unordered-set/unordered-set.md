@@ -207,7 +207,7 @@ int main() {
 
 > **Note:** The order of the words in the output may vary due to the unordered nature of the container.
 
-## FAQs
+## Frequently Asked Questions
 
 <details>
 <summary>1. What is the difference between an unordered set and a set in C++?</summary>
