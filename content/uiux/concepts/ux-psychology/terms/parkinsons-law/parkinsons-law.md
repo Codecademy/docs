@@ -14,7 +14,7 @@ CatalogContent:
 
 **Parkinson's Law** is a design and productivity principle that states:
 
-> _"Work expands to fill the time available for its completion."_
+> "Work expands to fill the time available for its completion."
 
 In the context of UX design, Parkinson's Law can be observed in both user behavior and product team workflows. For users, it relates to how much time they'll spend completing a task depending on how much time they perceive they have. For teams, it reflects how longer timelines often lead to bloated solutions or overcomplication.
 
