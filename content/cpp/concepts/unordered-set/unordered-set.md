@@ -16,7 +16,7 @@ CatalogContent:
 
 **Unordered set** in C++ is an associative container that stores unique elements in no particular order. It is part of the C++ Standard Template Library (STL) and provides a way to store elements based on their values rather than their position in the container.
 
-An unordered set is implemented using a hash table, which allows for fast retrieval, insertion, and deletion of elements with an average constant time complexity of O(1). This makes it particularly useful for applications that require frequent lookups and where the order of elements is not important. Common use cases include checking for element existence in a collection, removing duplicates from a dataset, and implementing sets in algorithms like finding unique characters in a string or tracking visited nodes in graph traversal.
+An unordered set is implemented using a hash table, which allows for fast retrieval, insertion, and deletion of elements with an average constant time complexity of O(1). This makes it particularly useful for applications requiring frequent lookups and where the order of elements is unimportant. Common use cases include checking for element existence in a collection, removing duplicates from a dataset, and implementing sets in algorithms like finding unique characters in a string or tracking visited nodes in graph traversal.
 
 ## Syntax
 
@@ -207,16 +207,16 @@ int main() {
 
 > **Note:** The order of the words in the output may vary due to the unordered nature of the container.
 
-## Frequently Asked Questions
+## FAQs
 
 <details>
-<summary>1. What is the difference between unordered set and set in C++?</summary>
-<p>The `std::unordered_set` uses a hash table for implementation, providing average O(1) time complexity for search, insert, and delete operations. The `std::set` uses a balanced binary search tree (typically red-black tree), providing O(log n) time complexity for these operations. Additionally, `std::set` keeps elements in sorted order, while `std::unordered_set` does not maintain any ordering.</p>
+<summary>1. What is the difference between an unordered set and a set in C++?</summary>
+<p>The `std::unordered_set` uses a hash table for implementation, providing an average O(1) time complexity for search, insert, and delete operations. The `std::set` uses a balanced binary search tree (typically a red-black tree), providing O(log n) time complexity for these operations. Additionally, `std::set` keeps elements in sorted order, while `std::unordered_set` does not maintain any ordering.</p>
 </details>
 
 <details>
 <summary>2. Can I store custom objects in an unordered set?</summary>
-<p>Yes, but you need to define a custom hash function and equality comparator so that the unordered set can correctly manage your custom objects. This can be done by either specializing the `std::hash` template for your class or by providing a custom hash function object when creating the unordered set.</p>
+<p>Yes, but you need to define a custom hash function and equality comparator so the unordered set can correctly manage your custom objects. This can be done by either specializing the `std::hash` template for your class or by providing a custom hash function object when creating the unordered set.</p>
 </details>
 
 <details>
