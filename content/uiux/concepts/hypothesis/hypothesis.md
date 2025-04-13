@@ -93,7 +93,6 @@ Here are a few examples:
 - _We believe that showing delivery estimates on product pages will increase conversion because users are more likely to buy when they know how long shipping takes._
 - _We believe that onboarding tooltips will improve feature adoption for new users because they provide immediate guidance at the point of need._
 
-
 ## Limitations of Hypotheses in UX
 
 While powerful, hypotheses aren't foolproof:
