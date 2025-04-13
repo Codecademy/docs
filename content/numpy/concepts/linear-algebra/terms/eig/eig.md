@@ -47,7 +47,7 @@ This example demonstrates computing eigenvalues and eigenvectors of a simple squ
 import numpy as np
 
 # Create a 2x2 matrix
-A = np.array([[4, 2], 
+A = np.array([[4, 2],
               [1, 3]])
 print("Original matrix:")
 print(A)
@@ -66,7 +66,7 @@ print(eigenvectors)
 print("\nVerification for first eigenvector:")
 print("A * v:", np.dot(A, eigenvectors[:, 0]))
 print("lambda * v:", eigenvalues[0] * eigenvectors[:, 0])
-print("Are they equal?", np.allclose(np.dot(A, eigenvectors[:, 0]), 
+print("Are they equal?", np.allclose(np.dot(A, eigenvectors[:, 0]),
                                     eigenvalues[0] * eigenvectors[:, 0]))
 ```
 
@@ -100,7 +100,7 @@ This example shows how eigenvalues can be complex for certain matrices:
 import numpy as np
 
 # Create a matrix with complex eigenvalues
-B = np.array([[0, -1], 
+B = np.array([[0, -1],
               [1, 0]])
 print("Matrix B:")
 print(B)
@@ -118,7 +118,7 @@ print(eigenvectors)
 print("\nVerification for first eigenvector:")
 print("B * v:", np.dot(B, eigenvectors[:, 0]))
 print("lambda * v:", eigenvalues[0] * eigenvectors[:, 0])
-print("Are they equal?", np.allclose(np.dot(B, eigenvectors[:, 0]), 
+print("Are they equal?", np.allclose(np.dot(B, eigenvectors[:, 0]),
                                     eigenvalues[0] * eigenvectors[:, 0]))
 ```
 
@@ -152,7 +152,7 @@ This example explores the special properties of eigendecomposition for symmetric
 import numpy as np
 
 # Create a symmetric matrix
-C = np.array([[2, 1], 
+C = np.array([[2, 1],
               [1, 2]])
 print("Symmetric matrix C:")
 print(C)
@@ -212,7 +212,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Define a system matrix (represents a linear dynamical system)
-A = np.array([[0.5, 0.1], 
+A = np.array([[0.5, 0.1],
               [0.2, 0.8]])
 
 # Compute eigenvalues and eigenvectors
