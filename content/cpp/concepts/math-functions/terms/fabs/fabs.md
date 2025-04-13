@@ -165,16 +165,6 @@ int main() {
 }
 ```
 
-This example results in the following output:
-
-```shell
-Comparing 1 and 1.00001:
-The values are approximately equal
-
-Comparing 1 and 1.2:
-The values are not equal
-```
-
 ## Frequently Asked Questions
 
 ### 1. What is the difference between `fabs()` and [`abs()`](https://www.codecademy.com/resources/docs/cpp/math-functions/abs)?
