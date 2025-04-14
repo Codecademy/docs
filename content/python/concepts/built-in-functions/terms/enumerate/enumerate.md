@@ -126,7 +126,7 @@ for index, college in enumerate(colleges):
 
 <details>
   <summary>2. What is the difference between range and enumerate in Python?</summary>
-  <p>[`range()`](https://www.codecademy.com/resources/docs/python/built-in-functions/range) and `enumerate()` serve different purposes. `range()` generates a sequence of numbers which is commonly used for iterating a specific number of times. `enumerate()` adds counter indices to an existing iterable and returns an enumerate object with index-value pairs. While `range()` creates a new sequence of numbers, `enumerate()` works with an existing sequence and adds position information.</p>
+  <p>`range()` and `enumerate()` serve different purposes. `range()` generates a sequence of numbers which is commonly used for iterating a specific number of times. `enumerate()` adds counter indices to an existing iterable and returns an enumerate object with index-value pairs. While `range()` creates a new sequence of numbers, `enumerate()` works with an existing sequence and adds position information.</p>
 </details>
 
 <details>
