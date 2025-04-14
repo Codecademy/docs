@@ -26,12 +26,12 @@ numpy.linalg.eig(a)
 
 **Parameters:**
 
-- `a`: array_like of shape (M, M). A square matrix whose eigenvalues and eigenvectors will be computed.
+- `a`: A square matrix of shape (M, M) used as input to compute its eigenvalues and corresponding right eigenvectors.
 
 **Return value:**
 
-- `w`: ndarray of shape (M,). The eigenvalues of the matrix.
-- `v`: ndarray of shape (M, M). The eigenvectors of the matrix. The column `v[:, i]` corresponds to the eigenvalue `w[i]`.
+- `w`: An ndarray of shape (M,), containing the eigenvalues of the matrix.
+- `v`: An ndarray of shape (M, M), containing the eigenvectors of the matrix, where each column `v[:, i]` corresponds to the eigenvalue `w[i]`.
 
 **Notes:**
 
@@ -66,8 +66,10 @@ print(eigenvectors)
 print("\nVerification for first eigenvector:")
 print("A * v:", np.dot(A, eigenvectors[:, 0]))
 print("lambda * v:", eigenvalues[0] * eigenvectors[:, 0])
-print("Are they equal?", np.allclose(np.dot(A, eigenvectors[:, 0]),
-                                    eigenvalues[0] * eigenvectors[:, 0]))
+print(
+  "Are they equal?",
+  np.allclose(np.dot(A, eigenvectors[:, 0]), eigenvalues[0] *eigenvectors[:, 0])
+)
 ```
 
 This example results in the following output:
@@ -118,8 +120,10 @@ print(eigenvectors)
 print("\nVerification for first eigenvector:")
 print("B * v:", np.dot(B, eigenvectors[:, 0]))
 print("lambda * v:", eigenvalues[0] * eigenvectors[:, 0])
-print("Are they equal?", np.allclose(np.dot(B, eigenvectors[:, 0]),
-                                    eigenvalues[0] * eigenvectors[:, 0]))
+print(
+  "Are they equal?",
+  np.allclose(np.dot(B, eigenvectors[:, 0]), eigenvalues[0] * eigenvectors[:, 0])
+)
 ```
 
 This example results in the following output:
@@ -142,7 +146,7 @@ lambda * v: [0.        +0.70710678j 0.70710678+0.j        ]
 Are they equal? True
 ```
 
-This example demonstrates how the `eig()` function handles matrices with complex eigenvalues. The rotation matrix B has eigenvalues 1j and -1j, illustrating how complex eigenvalues often indicate rotational transformations.
+This example demonstrates how the `eig()` function handles matrices with complex eigenvalues. The rotation matrix B has eigenvalues `1j` and `-1j`, illustrating how complex eigenvalues often indicate rotational transformations.
 
 ## Example 3: Eigendecomposition of a Symmetric Matrix
 
@@ -202,52 +206,3 @@ Is reconstruction accurate? True
 ```
 
 This example highlights that for symmetric matrices, eigenvalues are always real, and eigenvectors form an orthogonal basis. The matrix can be perfectly reconstructed using the eigendecomposition formula A = QΛQ^T, where Q contains the eigenvectors and Λ is a diagonal matrix of eigenvalues.
-
-## Codebyte Example: Using Eigendecomposition for System Analysis
-
-This example uses eigenvalues to analyze a dynamical system:
-
-```codebyte/python
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Define a system matrix (represents a linear dynamical system)
-A = np.array([[0.5, 0.1],
-              [0.2, 0.8]])
-
-# Compute eigenvalues and eigenvectors
-eigenvalues, eigenvectors = np.linalg.eig(A)
-
-print("System matrix:")
-print(A)
-print("\nEigenvalues:", eigenvalues)
-
-# Check system stability (all eigenvalues must have magnitude < 1)
-stable = np.all(np.abs(eigenvalues) < 1)
-print("\nIs the system stable?", stable)
-
-# Simulate the system evolution
-x0 = np.array([1, 0])  # Initial state
-steps = 20
-states = [x0]
-
-for i in range(steps):
-    x0 = A @ x0
-    states.append(x0)
-
-states = np.array(states)
-
-# Plot the system trajectory
-plt.figure(figsize=(10, 5))
-plt.plot(range(steps+1), states[:, 0], 'b-', label='x1')
-plt.plot(range(steps+1), states[:, 1], 'r-', label='x2')
-plt.xlabel('Time Step')
-plt.ylabel('State Value')
-plt.title('System Evolution')
-plt.legend()
-plt.grid(True)
-plt.tight_layout()
-plt.show()
-
-print("\nFinal state after", steps, "steps:", states[-1])
-```
