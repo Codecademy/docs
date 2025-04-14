@@ -166,24 +166,15 @@ tensor([[[ 1,  2,  3, 13, 14, 15],
 
 ## Frequently Asked Questions
 
-<details>
-<summary>1. What is the difference between `.stack()` and `.cat()`?</summary>
-<p>
-<ul>
-<li>`.cat()` combines tensors along an existing dimension.</li>
-<li>`.stack()` adds a new dimension and stacks tensors along that new axis.</li>
-</ul>
+### 1. What is the difference between `.stack()` and `.cat()`?</summary>
+- `.cat()` combines tensors along an existing dimension.</li>
+- `.stack()` adds a new dimension and stacks tensors along that new axis.</li>
+
 Use stack when you want to create a new level of nesting; use cat to extend an existing one.
-</p>
-</details>
 
-<details>
-<summary>2. Can I concatenate tensors of different data types or devices?</summary>
-<p>No. All tensors must have the same data type and must be on the same device (e.g., all on [CPU](https://www.codecademy.com/resources/blog/what-is-a-cpu/) or all on GPU). Mismatches will raise an error.
-</p>
-</details>
+### 2. Can I concatenate tensors of different data types or devices?
+No. All tensors must have the same data type and must be on the same device (e.g., all on [CPU](https://www.codecademy.com/resources/blog/what-is-a-cpu/) or all on GPU). Mismatches will raise an error.
 
-<details>
-<summary>3. Can I concatenate along any dimension?</summary>
-<p>Yes, as long as all other dimensions match. You can concatenate along any valid axis that exists in the input tensors.</p>
-</details>
+### 3. Can I concatenate along any dimension?
+Yes, as long as all other dimensions match. You can concatenate along any valid axis that exists in the input tensors.
+   
