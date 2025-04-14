@@ -30,7 +30,7 @@ Image.point(lut, mode=None)
 - `mode` *(optional, str)*:
  The mode of the output image. Typically not needed unless changing image type.
 
-**Returns:**
+**Returns value:**
 * A new `image` object with the transformed pixel data.
 
 
