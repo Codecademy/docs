@@ -28,7 +28,15 @@ Image.point(lut, mode=None)
   - A function: Takes a single integer (0–255) and returns a value. It’s called once for each possible pixel value to build a lookup table internally.
 
 - `mode` *(optional, str)*:
- The mode of the output image. Typically not needed unless changing image type.
+The mode of the output image. Use this if you want to change the image type during transformation.  
+  Common modes include:
+  - `"L"`: 8-bit pixels, black and white (grayscale)
+  - `"RGB"`: 3x8-bit pixels, true color
+  - `"RGBA"`: 4x8-bit pixels, true color with transparency
+  - `"1"`: 1-bit pixels, black and white, stored with one pixel per byte
+  - `"P"`: 8-bit pixels, mapped to any other mode using a color palette
+
+  ⚠️ *Most uses of `.point()` don’t require this argument unless you’re explicitly changing image type (e.g., converting grayscale to binary).*
 
 **Returns:**
 * A new `image` object with the transformed pixel data.
