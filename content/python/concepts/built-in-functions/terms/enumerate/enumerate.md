@@ -22,10 +22,12 @@ enumerate(iterable, start=0)
 ```
 
 **Parameters:**
-- `iterable`: Required. A sequence, an iterator, or objects that support iteration
-- `start`: Optional. The index value from which the counter is to begin. The default value is 0
+
+- `iterable`: A sequence, an iterator, or objects that support iteration
+- `start` (Optional): The index value from which the counter is to begin. The default value is 0
 
 **Return Value:**
+
 Returns an enumerate object (iterator) containing tuples with the count (starting from the value of `start`) and values from the iterable.
 
 ## Example 1 - Enumerating a List
@@ -38,11 +40,11 @@ fruits = ['apple', 'banana', 'cherry']
 
 # Basic usage of enumerate() in a for loop
 for index, fruit in enumerate(fruits):
-    print(f"{index}: {fruit}")
+  print(f"{index}: {fruit}")
 
 # Using enumerate() with a custom start index
 for index, fruit in enumerate(fruits, start=1):
-    print(f"{index}: {fruit}")
+  print(f"{index}: {fruit}")
 ```
 
 This will print the following output:
@@ -98,27 +100,27 @@ The following examples show how the `enumerate()` function is used with several 
 word = 'Python'
 
 for index, letter in enumerate(word):
-    print(index, letter)
+  print(index, letter)
 
 # Using enumerate on a dictionary
 
 animal_dict = {'Cat':1, 'Dog':2, 'Horse':3}
 
 for index, (animal, number) in enumerate(animal_dict.items()):
-    print(index, animal, number)
+  print(index, animal, number)
 
 # Using enumerate on a list
 
 colleges = ['Cornell', 'Yale', 'MIT']
 
 for index, college in enumerate(colleges):
-    print(index, college)
+  print(index, college)
 ```
 
 ## FAQs
 
 <details>
-  <summary>1.What is the [zip()](https://www.codecademy.com/resources/docs/python/built-in-functions/zip) and enumerate() function in Python?</summary>
+  <summary>1.What is the [`zip()`](https://www.codecademy.com/resources/docs/python/built-in-functions/zip) and enumerate() function in Python?</summary>
   <p>Both `zip()` and `enumerate()` are built-in Python functions that work with iterables but serve different purposes. `enumerate()` adds a counter to an iterable and returns an enumerate object with index-value pairs. `zip()` aggregates elements from multiple iterables into a single iterator of tuples, pairing corresponding elements from each iterable together.</p>
 </details>
 
