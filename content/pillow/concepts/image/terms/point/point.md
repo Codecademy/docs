@@ -17,7 +17,7 @@ The **`.point()`** method in the Python Pillow library is used to apply a functi
 
 ## Syntax
 
-```python
+```pseudo
 Image.point(function, mode=None)
 ```
 
