@@ -9,7 +9,7 @@ Tags:
   - 'Pillow'
   - 'Python'
 CatalogContent:
-  - 'Learn-python-3'
+  - 'learn-python-3'
   - 'paths/data-science'
 ---
 
