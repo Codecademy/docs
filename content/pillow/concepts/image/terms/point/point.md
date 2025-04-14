@@ -23,7 +23,9 @@ Image.point(lut, mode=None)
 
 **Parameters:**
 
-- `function` *(callable or sequence)*: A function or lookup table that maps each pixel value to a new value...
+- `lut`: This parameter can be:
+  - A lookup table: A list or sequence with 256 values (or 65536 for 16-bit images) per band.
+  - A function: Takes a single integer (0–255) and returns a value. It’s called once for each possible pixel value to build a lookup table internally.
 
 - `mode` *(optional, str)*:
  The mode of the output image. Typically not needed unless changing image type.
