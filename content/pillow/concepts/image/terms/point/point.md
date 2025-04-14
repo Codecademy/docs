@@ -54,7 +54,7 @@ inverted = image.point(lambda p: 255 - p)
 inverted.save("inverted-gradient.png")
 ```
 ## Output:
-![Output image ](/media/inverted-gradient.png)
+![Output image](https://raw.githubusercontent.com/Codecademy/docs/main/media/inverted-gradient.png)
 
 
 
