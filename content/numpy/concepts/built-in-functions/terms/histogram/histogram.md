@@ -110,6 +110,4 @@ bins = np.linspace(0, 20, 2, dtype = int)
 graph_3 = np.histogram(data, bins, density = True)
 
 print(graph_3)
-
-
 ```
