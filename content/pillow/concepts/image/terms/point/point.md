@@ -38,7 +38,7 @@ The mode of the output image. Use this if you want to change the image type duri
 
   ⚠️ *Most uses of `.point()` don’t require this argument unless you’re explicitly changing image type (e.g., converting grayscale to binary).*
 
-**Returns:**
+**Returns value:**
 * A new `image` object with the transformed pixel data.
 
 
@@ -52,8 +52,8 @@ from PIL import Image
 width, height = 256, 50
 image = Image.new("L", (width, height))
 for x in range(width):
-    for y in range(height):
-        image.putpixel((x, y), x)
+  for y in range(height):
+    image.putpixel((x, y), x)
 
 # Invert grayscale values
 inverted = image.point(lambda p: 255 - p)
@@ -62,7 +62,7 @@ inverted = image.point(lambda p: 255 - p)
 inverted.save("inverted-gradient.png")
 ```
 ## Output:
-![Output image ](/media/inverted-gradient.png)
+![Output image](https://raw.githubusercontent.com/Codecademy/docs/main/media/inverted-gradient.png)
 
 
 
