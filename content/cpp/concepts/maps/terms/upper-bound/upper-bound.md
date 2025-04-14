@@ -188,17 +188,11 @@ In this example, an inventory system is managed using a map where item IDs are t
 
 ## Frequently Asked Questions
 
-<details>
-<summary>1. What is the difference between `.upper_bound()` and `.lower_bound()` in C++ maps?</summary>
-<p>`.upper_bound(k)` returns an iterator to the first element whose key is greater than `k`, while `.lower_bound(k)` returns an iterator to the first element whose key is not less than `k` (i.e., greater than or equal to `k`).</p>
-</details>
+### 1. What is the difference between `.upper_bound()` and `.lower_bound()` in C++ maps?
+`.upper_bound(k)` returns an iterator to the first element whose key is greater than `k`, while `.lower_bound(k)` returns an iterator to the first element whose key is not less than `k` (i.e., greater than or equal to `k`).
 
-<details>
-<summary>2. What is the time complexity of the `.upper_bound()` method?</summary>
-<p>The time complexity is O(log n), where n is the number of elements in the map. This efficiency is possible because maps in C++ are typically implemented as balanced binary search trees.</p>
-</details>
+### 2. What is the time complexity of the `.upper_bound()` method?
+The time complexity is O(log n), where n is the number of elements in the map. This efficiency is possible because maps in C++ are typically implemented as balanced binary search trees.
 
-<details>
-<summary>3. Can `.upper_bound()` be used on other container types besides maps?</summary>
-<p>Yes, `.upper_bound()` is available for other associative containers in the STL like `set`, `multiset`, `multimap`, and also as a standalone algorithm that can be used on any sorted range with `std::upper_bound()`.</p>
-</details>
+### 3. Can `.upper_bound()` be used on other container types besides maps?
+Yes, `.upper_bound()` is available for other associative containers in the STL like `set`, `multiset`, `multimap`, and also as a standalone algorithm that can be used on any sorted range with `std::upper_bound()`.
