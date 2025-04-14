@@ -33,23 +33,19 @@ This is a code block.
 
 An alternative way to create a code block is by adding four `spaces` before each line of code:
 
-````md
 ```
-{
 [space][space][space][space]This is a line of code.
 [space][space][space][space]This is a line of code.
-}
 ```
-````
 
 The result will look like this:
 
 ```
-{
     This is a line of code.
     This is a line of code.
-}
 ```
+
+However, the recommended way to create a code block in GitHub Markdown is using triple backticks (```).
 
 ## Syntax Highlighting
 
