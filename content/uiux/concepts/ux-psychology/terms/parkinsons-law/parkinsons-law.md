@@ -24,12 +24,12 @@ Understanding Parkinsons Law helps UX designers build **simpler, faster experien
 
 ## What It Means for UX
 
-In UX, Parkinsons Law suggests that users — when not guided or constrained — may take longer or become distracted while completing a task. Similarly, designers and developers given excessive time or lack of scope may over-design or over-build features.
+Parkinsons Law suggests that users when not guided or constrained may take longer or become distracted while completing a task. Similarly, designers and developers given excessive time or lack of scope may over-design or over-build features.
 
 ### UX implications include
 
 - **Long forms or multi-step flows can make users procrastinate or abandon.**
-  When users are unsure how long something will take, they mentally allocate more time than necessary — often leading to drop-off.
+  When users are unsure how long something will take, they mentally allocate more time than necessary often leading to drop-off.
 
 - **Unclear UI feedback can stretch task completion time.**
   If users do not know a process is progressing, they may assume it is slower or not working, increasing frustration or confusion.
@@ -87,6 +87,6 @@ Parkinsons Law is especially relevant in:
 
 - Parkinsons Law can backfire if misapplied. Adding artificial time pressure can cause anxiety or rushed user behavior.
 - Over-emphasizing speed can compromise accessibility or clarity.
-- Teams must balance time efficiency with design quality — not everything should be rushed.
+- Teams must balance time efficiency with design quality, not everything should be rushed.
 
 Use Parkinsons Law to simplify where it makes sense, but not at the cost of user trust or thoughtful design.
