@@ -26,11 +26,11 @@ In UX, Postels Law urges designers to:
 - Handle edge cases gracefully rather than failing rigidly
 - Provide consistent, accessible feedback without demanding perfection from the user
 
-The principle helps reduce user frustration by allowing users to complete tasks even when their input is not perfect — supporting a more forgiving, human-centered experience.
+The principle helps reduce user frustration by allowing users to complete tasks even when their input is not perfect, supporting a more forgiving, human-centered experience.
 
 ## Why It Matters
 
-People do not always interact with interfaces in the exact way designers expect. If a system requires perfection, users may hit frustrating dead ends. Designing with Postels Law in mind means anticipating human variability — and embracing it.
+People do not always interact with interfaces in the exact way designers expect. If a system requires perfection, users may hit frustrating dead ends. Thus, designing with Postels Law in mind means anticipating human variability and embracing it.
 
 ### Benefits include
 
@@ -51,7 +51,7 @@ People do not always interact with interfaces in the exact way designers expect.
 Postels Law is especially useful when:
 
 - **Designing forms or search bars**
-  Let users enter phone numbers with or without dashes, spaces, or country codes — and still validate successfully.
+  Let users enter phone numbers with or without dashes, spaces, or country codes and still validate successfully.
 
 - **Handling user errors or mistyped data**
   Allow minor spelling errors in search fields and suggest corrections instead of showing zero results.
@@ -77,7 +77,7 @@ Postels Law is especially useful when:
   Errors should inform, not shame. Make recovery easy and empathetic.
 
 - **Avoid punishing unexpected behavior**
-  Always consider how your system should respond to unusual — but still valid — input, and aim for graceful degradation.
+  Always consider how your system should respond to unusual but still valid input, and aim for graceful degradation.
 
 ![Diagram showing flexible input formats converging into a standardized system output](https://raw.githubusercontent.com/Codecademy/docs/main/media/postels-law-input-flexibility.png)
 
