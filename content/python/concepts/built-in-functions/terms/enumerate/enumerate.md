@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `enumerate()` function is a built-in Python function that adds a counter to an iterable and returns it as an enumerate object. It takes an iterable object (like a [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), or [string](https://www.codecademy.com/resources/docs/python/strings)) and returns a sequence of tuples containing indices and corresponding values from the iterable. This function is particularly useful when you need to track both the position and value while looping through sequences.
+The **`enumerate()`** function is a built-in Python function that adds a counter to an iterable and returns it as an enumerate object. It takes an iterable object (like a [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), or [string](https://www.codecademy.com/resources/docs/python/strings)) and returns a sequence of tuples containing indices and corresponding values from the iterable. This function is particularly useful when you need to track both the position and value while looping through sequences.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ enumerate(iterable, start=0)
 
 Returns an enumerate object (iterator) containing tuples with the count (starting from the value of `start`) and values from the iterable.
 
-## Example 1 - Enumerating a List
+## Example 1: Enumerating a List
 
 This example demonstrates how the `enumerate()` function is used on a list:
 
@@ -58,7 +58,7 @@ This will print the following output:
 3: cherry
 ```
 
-## Example 2 - Enumerating a Tuple
+## Example 2: Enumerating a Tuple
 
 This example demonstrates how to work with `enumerate()` on a tuple of colors. It illustrates converting an enumerate object to different data structures and how to use the `next()` function to access items from an enumerate object sequentially.
 
@@ -117,19 +117,19 @@ for index, college in enumerate(colleges):
   print(index, college)
 ```
 
-## FAQs
+## Frequently Asked Questions
 
 <details>
-  <summary>1.What is the [`zip()`](https://www.codecademy.com/resources/docs/python/built-in-functions/zip) and enumerate() function in Python?</summary>
+  <summary>1. What are the `zip()` and `enumerate()` functions in Python?</summary>
   <p>Both `zip()` and `enumerate()` are built-in Python functions that work with iterables but serve different purposes. `enumerate()` adds a counter to an iterable and returns an enumerate object with index-value pairs. `zip()` aggregates elements from multiple iterables into a single iterator of tuples, pairing corresponding elements from each iterable together.</p>
 </details>
 
 <details>
-  <summary>2.What is the difference between range and enumerate in Python?</summary>
+  <summary>2. What is the difference between range and enumerate in Python?</summary>
   <p>[`range()`](https://www.codecademy.com/resources/docs/python/built-in-functions/range) and `enumerate()` serve different purposes. `range()` generates a sequence of numbers which is commonly used for iterating a specific number of times. `enumerate()` adds counter indices to an existing iterable and returns an enumerate object with index-value pairs. While `range()` creates a new sequence of numbers, `enumerate()` works with an existing sequence and adds position information.</p>
 </details>
 
 <details>
-  <summary>3.Is enumerate slower than range?</summary>
+  <summary>3. Is enumerate slower than range?</summary>
   <p>In terms of computational efficiency, `enumerate()` is not significantly slower than `range()`. The slight overhead of `enumerate()` comes from creating tuples to pair indices with values, but this is negligible in most practical applications. In fact, using `enumerate()` is generally preferred over manually tracking indices with `range()` because it leads to cleaner, more readable code and eliminates common indexing errors. The Python interpreter is also optimized to handle `enumerate()` efficiently.</p>
 </details>
