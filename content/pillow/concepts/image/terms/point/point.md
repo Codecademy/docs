@@ -44,8 +44,8 @@ from PIL import Image
 width, height = 256, 50
 image = Image.new("L", (width, height))
 for x in range(width):
-    for y in range(height):
-        image.putpixel((x, y), x)
+  for y in range(height):
+    image.putpixel((x, y), x)
 
 # Invert grayscale values
 inverted = image.point(lambda p: 255 - p)
