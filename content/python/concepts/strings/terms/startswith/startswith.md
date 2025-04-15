@@ -1,6 +1,6 @@
 ---
 Title: '.startswith()'
-Description: 'Checks whether a string starts with a given value.'
+Description: 'Checks whether a string starts with a specified value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,17 +14,17 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.startswith()`** method checks a value against a given string and returns `True` if the string starts with that value. Otherwise, it returns `False`. This method is useful in many scenarios, such as parsing data, filtering results, validating input, or processing text files.
+The **`.startswith()`** method in Python checks whether a string begins with a specified value and returns `True` if it does. Otherwise, it returns `False`. This method is useful in many scenarios, such as parsing data, filtering results, validating input, or processing text files.
 
 ## Syntax
 
 ```pseudo
-str.startswith(value, start, end)
+string.startswith(value, start, end)
 ```
 
 **Parameters:**
 
-- `str`: The input string against which to check the given value.
+- `string`: The input string against which to check the given value.
 - `value`: A string or [tuple](https://www.codecademy.com/resources/docs/python/tuples) of strings to check for in the input string.
 - `start` (Optional): The position in the input string where the search starts.
 - `end` (Optional): The position in the input string where the search ends.
@@ -39,10 +39,10 @@ The following example uses the Python `.startswith()` method without the `start`
 
 ```py
 # Create a string
-str = "Coding is fun!"
+string = "Coding is fun!"
 
 # Check if the input string starts with "Coding"
-res = str.startswith("Coding")
+res = string.startswith("Coding")
 
 # Print the result
 print(res)
@@ -95,7 +95,7 @@ Since `str` starts with "Codecademy", the output for the above code will be `Tru
 ## Frequently Asked Questions
 
 <details>
-  <summary>How do .endswith() and .startswith() differ?</summary>
+  <summary>How do `.endswith()` and `.startswith()` differ?</summary>
   <p>.startswith() checks if a given string starts with a specific value, whereas .endswith() checks if a given string ends with a specific value.</p>
 </details>
 
