@@ -1,147 +1,250 @@
 ---
-Title: 'Maps'
-Description: 'Maps are associative containers that have elements with key-value pairs.'
+Title: 'Map'
+Description: 'An associative container that stores unique key-value pairs sorted by key.'
 Subjects:
   - 'Computer Science'
-  - 'Game Development'
+  - 'Web Development'
 Tags:
-  - 'Objects'
+  - 'Collections'
+  - 'Data Structures'
+  - 'Maps'
   - 'OOP'
-  - 'Classes'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-**Maps** are associative containers that have elements with key-value pairs. The keys are used to sort and identify the elements, while the values store the content associated with the keys. Each mapped value must have a unique key value.
+A **`map`** is an associative container in C++ that stores key-value pairs in sorted order. Each key is unique and maps to a single value, enabling efficient data storage and retrieval based on keys. C++ maps use a self-balancing [binary search tree](https://www.codecademy.com/resources/docs/general/binary-search-tree), typically a red-black tree, to achieve logarithmic time complexity for common operations.
+
+Maps support efficient lookup, insertion, and deletion based on unique keys. They suit use cases such as dictionaries, phone books, configuration settings, and any situation that requires associating values with unique identifiers. Unlike [unordered maps](https://www.codecademy.com/resources/docs/cpp/unordered-map), standard maps maintain their elements in sorted order by key, which is beneficial for range-based operations.
 
 ## Syntax
 
-An empty map can be created by using the map keyword, declaring the data types of the key and value, and setting a `mapName`:
+To use maps in C++, include the `<map>` header file:
 
 ```pseudo
-std::map<type1, type2> mapName;
+#include <map>
+
+// General syntax for creating a map
+std::map<KeyType, ValueType> mapName;
 ```
 
-`type1` and `type2` are the data types of the key and value, respectively.
+**Parameters:**
 
-To set a list at declaration, the following syntax is used:
+- `KeyType`: The type of the keys in the map. Common key types include `int`, `string`, or custom classes that have the less-than operator defined.
+- `ValueType`: The type of the mapped values. This can be any valid C++ type, including built-in types, STL containers, or user-defined classes.
+- `mapName`: The identifier for the map instance.
 
-```pseudo
-std::map<type1, type2> mapName { {key1, value1}, {key2, value2}, ...};
-```
+**Return value:**
 
-Each `value` must have a unique `key` assigned to it.
+Maps return various iterators and containers based on the operation performed. For example, [`.find()`](https://www.codecademy.com/resources/docs/cpp/maps/find) returns an iterator to the element if found, or to [`.end()`](https://www.codecademy.com/resources/docs/cpp/maps/end) if not found.
 
-## Example
+## Example 1: Creating and Initializing a Map
 
-The following example creates an empty map, `emptyMap`, and a map set with values, `clothingStore`:
+This example demonstrates how to create and initialize a map that associates names with ages:
 
 ```cpp
 #include <iostream>
-#include <iterator>
 #include <map>
+#include <string>
 
 int main() {
-  // Initializing empty map
-  std::map<std::string, int> emptyMap;
+  // Create a map with string keys and integer values
+  std::map<std::string, int> ages;
 
-  // Initializing map with items
-  std::map<std::string, int> clothingStore {{"tshirt", 10}, {"pants", 12}, {"sweaters", 18}};
-}
-```
+  // Insert key-value pairs using different methods
+  // Using operator[]
+  ages["Alice"] = 30;
+  // Using insert with pair
+  ages.insert(std::pair<std::string, int>("Bob", 25));
+  // Using insert with initializer list
+  ages.insert({"Charlie", 35});
 
-## Accessing Elements
-
-Elements can be accessed within a map using the following square bracket syntax:
-
-```pseudo
-mapName[key]
-```
-
-This returns the mapped value associated with the `key`.
-
-### Example
-
-The `sweaters` element is retrieved from the `clothingStore` map initialized in the previous example:
-
-```cpp
-std::cout << clothingStore["sweaters"]; // Output: 18
-```
-
-## Comparison Function
-
-By default, elements are sorted by their key in ascending order.
-
-```cpp
-#include <iostream>
-#include <iterator>
-#include <map>
-
-int main() {
- // Initializing map with items
-  std::map<int, std::string> reptiles {
-    {10, "Komodo Dragon"}, {15, "Saltwater Crocodile"}, {8, "Leatherback Sea Turtle"}
-  };
-
-
-  // Initializing iterator
-  std::map<int, std::string> :: iterator iter;
-
-  for (iter = reptiles.begin(); iter != reptiles.end(); ++iter) {
-    std::cout << '\t' << iter->first << '\t' << iter->second
-    << '\n';
+  // Print the map contents
+  std::cout << "Map contents:" << std::endl;
+  for (const auto& pair : ages) {
+    std::cout << pair.first << ": " << pair.second << std::endl;
   }
+
+  // Check the size of the map
+  std::cout << "Map size: " << ages.size() << std::endl;
+
+  return 0;
 }
 ```
 
-The snippet above outputs the following:
+This code creates a map that associates `names` (strings) with `ages` (integers). It demonstrates three different ways to insert elements into a map: using the subscript operator `[]`, using the [`.insert()`](https://www.codecademy.com/resources/docs/cpp/maps/insert) method with a `pair`, and using `.insert()` with an initializer list.
+
+The output produced by this code will be:
 
 ```shell
-8   Leatherback Sea Turtle
-10  Komodo Dragon
-15  Saltwater Crocodile
+Map contents:
+Alice: 30
+Bob: 25
+Charlie: 35
+Map size: 3
 ```
 
-The default comparison function can be changed to `std::greater<dataType>` in order to sort the elements in descending order.
+Notice that the elements are automatically sorted by key (alphabetically in this case).
 
-### Syntax
+## Example 2: Accessing Elements from a Map
 
-To set the comparison function while initializing an empty map:
+This example shows different ways to access elements in a map, including checking if a key exists.
 
-```pseudo
-std::map<type1, type2, std::greater<dataType>> mapName;
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+
+int main() {
+  // Create a map of country codes to country names
+  std::map<std::string, std::string> countries = {
+    {"US", "United States"},
+    {"CA", "Canada"},
+    {"UK", "United Kingdom"},
+    {"FR", "France"},
+    {"JP", "Japan"}
+  };
+
+  // Access using operator[] - simple but no error checking
+  std::cout << "US is for " << countries["US"] << std::endl;
+
+  // Access using at() - throws exception if key doesn't exist
+  try {
+    std::cout << "CA is for " << countries.at("CA") << std::endl;
+    std::cout << "DE is for " << countries.at("DE") << std::endl; // Will throw exception
+  } catch (const std::out_of_range& e) {
+    std::cout << "Exception: " << e.what() << std::endl;
+  }
+
+  // Access using find() - safer way to check if key exists
+  auto it = countries.find("UK");
+  if (it != countries.end()) {
+    std::cout << "Found: " << it->first << " is for " << it->second << std::endl;
+  } else {
+    std::cout << "Key not found!" << std::endl;
+  }
+
+  // Check if a key exists before accessing
+  if (countries.count("FR") > 0) {
+    std::cout << "France exists in the map" << std::endl;
+  }
+
+  // Using operator[] will create an entry if it doesn't exist
+  std::cout << "ZZ is " << countries["ZZ"] << std::endl; // Creates entry with empty string
+  std::cout << "Map size after accessing non-existent key: " << countries.size() << std::endl;
+
+  return 0;
+}
 ```
 
-To set the comparison function while initializing a map with items:
+The output generated by this code will be:
 
-```pseudo
-std::map<type1, type2, std::greater<dataType>> mapName { {key1, value1}, {key2, value2}, ...};
+```shell
+US is for United States
+CA is for Canada
+DE is for Exception: map::at
+Found: UK is for United Kingdom
+France exists in the map
+ZZ is
+Map size after accessing non-existent key: 6
 ```
 
-The `dataType` for the comparison function above must be the same as `type1` which is the data type for the keys.
+This example demonstrates four different ways to access elements in a map:
 
-### Codebyte Example
+1. Using the subscript operator `[]` - simple but creates a new element if the key doesn't exist.
+2. Using the `.at()` method - throws an exception if the key isn't found.
+3. Using the `.find()` method - returns an iterator that you can check.
+4. Using the [`.count()`](https://www.codecademy.com/resources/docs/cpp/maps/count) method - checks if a key exists without modifying the map.
 
-Setting the previous example's comparison function to `std::greater<int>`:
+Note how using the `[]` operator with a non-existent key "ZZ" created a new entry with an empty string value, increasing the map's size.
+
+## Codebyte Example: Adding and Modifying Elements in a Map
+
+This example shows how to add new elements and modify existing ones in a map:
 
 ```codebyte/cpp
 #include <iostream>
-#include <iterator>
 #include <map>
+#include <string>
 
 int main() {
-  // Initializing map with items
-  std::map<int, std::string, std::greater<int>> reptiles {
-    {10, "Komodo Dragon"}, {15, "Saltwater Crocodile"}, {8, "Leatherback Sea Turtle"}
-  };
+  // Create a map to store student grades
+  std::map<std::string, char> grades;
 
+  // Add elements
+  grades["John"] = 'B';
+  grades["Mary"] = 'A';
+  grades["Steve"] = 'C';
 
-  // Initializing iterator
-  std::map<int, std::string> :: iterator iter;
-
-  for (iter = reptiles.begin(); iter != reptiles.end(); ++iter) {
-    std::cout << '\t' << iter->first << '\t' << iter->second << '\n';
+  std::cout << "Initial grades:" << std::endl;
+  for (const auto& pair : grades) {
+    std::cout << pair.first << ": " << pair.second << std::endl;
   }
+
+  // Modify existing elements
+  grades["John"] = 'A';  // John's grade improved
+
+  // Add new elements with insert()
+  // insert() returns a pair: iterator to element and bool indicating success
+  auto result = grades.insert({"Lisa", 'B'});
+  if (result.second) {
+    std::cout << "\nSuccessfully added " << result.first->first << std::endl;
+  }
+
+  // insert() won't replace existing elements
+  auto result2 = grades.insert({"Mary", 'C'});
+  if (!result2.second) {
+    std::cout << "Couldn't replace Mary's grade using insert()" << std::endl;
+  }
+
+  // Use emplace() to construct element in-place
+  grades.emplace("David", 'B');
+
+  // Update an existing element using at()
+  grades.at("Steve") = 'B';  // Steve's grade improved
+
+  std::cout << "\nFinal grades:" << std::endl;
+  for (const auto& pair : grades) {
+    std::cout << pair.first << ": " << pair.second << std::endl;
+  }
+
+  return 0;
 }
 ```
+
+This example demonstrates various ways to add and modify elements in a map:
+
+1. Using the `[]` operator to add new elements or modify existing ones.
+2. Using the `.insert()` method which only adds elements if the key doesn't already exist.
+3. Using the [`.emplace()`](https://www.codecademy.com/resources/docs/cpp/maps/emplace) method to construct elements in-place.
+4. Using the `.at()` method to modify existing elements with bounds checking.
+
+Note that the elements are always sorted by key (alphabetically in this case).
+
+## Frequently Asked Questions
+
+<details>
+<summary>1. What is the difference between a map and an unordered map in C++?</summary>
+<p>A map keeps its elements sorted by key and is typically implemented as a balanced binary search tree, providing logarithmic time complexity for operations. An unordered map uses a hash table implementation, offering constant time complexity on average but without ordering guarantees.</p>
+</details>
+
+<details>
+<summary>2. Can I use custom objects as keys in a map?</summary>
+<p>Yes, but you must provide a comparison operator (`operator<`) for the key type or specify a custom comparator when declaring the map. The comparator must establish a strict weak ordering.</p>
+</details>
+
+<details>
+<summary>3. How do I iterate through all elements in a map?</summary>
+<p>You can use a range-based for loop: `for (const auto& pair : myMap) {...}` or traditional iterators: `for (auto it = myMap.begin(); it != myMap.end(); ++it) {...}`.</p>
+</details>
+
+<details>
+<summary>4. What happens if I use the subscript operator `[]` with a key that doesn't exist in the map?</summary>
+<p>A new element with that key will be inserted into the map with a value-initialized value (e.g., 0 for integers, empty string for std::string).</p>
+</details>
+
+<details>
+<summary>5. How can I check if a key exists in a map without adding it?</summary>
+<p>Use the `find()` method or the `count()` method, both of which don't modify the map. Don't use the `[]` operator for checking existence.</p>
+</details>
