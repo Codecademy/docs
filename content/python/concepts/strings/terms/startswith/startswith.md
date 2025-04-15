@@ -19,7 +19,7 @@ The **`.startswith()`** method in Python checks whether a string begins with a s
 ## Syntax
 
 ```pseudo
-str.startswith(value, start, end)
+string.startswith(value, start, end)
 ```
 
 **Parameters:**
