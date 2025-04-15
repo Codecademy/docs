@@ -42,7 +42,7 @@ for (<init>; <condition>; <repeat>) {
 - `<condition>`: Specifies the stop condition.
 - `<repeat>`: Increments/decrements the counter variable.
 
-### Example: Basic Usage of `for` Loop
+### Example of `for` Loop
 
 The following example uses the PowerShell `for` loop to calculate squares of the numbers 1-5:
 
