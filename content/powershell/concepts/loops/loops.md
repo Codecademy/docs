@@ -80,7 +80,7 @@ foreach ($<item> in $<collection>) {
 - `<item>`: A variable for iterating the collection or array.
 - `<collection>`: The collection or array to iterate.
 
-### Example: Basic Usage of `foreach` Loop
+### Example of `foreach` Loop
 
 The following example uses the `foreach` loop to check if the elements of an array are even or odd:
 
