@@ -193,7 +193,7 @@ do {
 } until (<condition>)
 ```
 
-### Example: Basic Usage of `do...until` Loop
+### Example of `do...until` Loop
 
 The following example uses the `do...until` loop to print numbers starting from `1` until the count reaches `5`:
 
