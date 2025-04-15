@@ -1,6 +1,6 @@
 ---
 Title: '.startswith()'
-Description: 'Checks whether a string starts with a given value.'
+Description: 'Checks whether a string starts with a specified value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
