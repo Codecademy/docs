@@ -44,7 +44,7 @@ for (<init>; <condition>; <repeat>) {
 
 ### Example of `for` Loop
 
-The following example uses the PowerShell `for` loop to calculate squares of the numbers 1-5:
+This example uses the PowerShell `for` loop to calculate squares of the numbers 1-5:
 
 ```shell
 for ($i = 1; $i -le 5; $i++) {
@@ -53,7 +53,7 @@ for ($i = 1; $i -le 5; $i++) {
 }
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 The square of 1 is 1
@@ -82,7 +82,7 @@ foreach ($<item> in $<collection>) {
 
 ### Example of `foreach` Loop
 
-The following example uses the `foreach` loop to check if the elements of an array are even or odd:
+This example uses the `foreach` loop to check if the elements of an array are even or odd:
 
 ```shell
 $array = 51, 12, 31, 4, 15
@@ -96,7 +96,7 @@ foreach ($element in $array) {
 }
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 51 is Odd
@@ -124,7 +124,7 @@ while(<condition>) {
 
 ### Example of `while` Loop
 
-The following example uses the `while` loop to increment numbers by 3 (starting from `0`) and print them until `count` is less than `15`:
+This example uses the `while` loop to increment numbers by 3 (starting from `0`) and print them until `count` is less than `15`:
 
 ```shell
 $count = 0
@@ -136,7 +136,7 @@ while($count -lt 15) {
 }
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 The count is 3
@@ -160,7 +160,7 @@ do {
 
 ### Example of `do...while` Loop
 
-The following example uses the `do...while` loop to ask the user to guess the given number repeatedly until it's guessed correctly:
+This example uses the `do...while` loop to ask the user to guess the given number repeatedly until it's guessed correctly:
 
 ```shell
 $answer = 4
@@ -172,7 +172,7 @@ do {
 Write-Host "Correct!"
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 Guess the number: 2
@@ -195,7 +195,7 @@ do {
 
 ### Example of `do...until` Loop
 
-The following example uses the `do...until` loop to print numbers starting from `1` until the count reaches `5`:
+This example uses the `do...until` loop to print numbers starting from `1` until the count reaches `5`:
 
 ```shell
 $count = 1
@@ -207,7 +207,7 @@ do {
 } until ($count -eq 5)
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 Count is 1
@@ -218,9 +218,11 @@ Count is 4
 
 ## `break` and `continue` Statements
 
+The `break` and `continue` statements are used for advanced loop control.
+
 The `break` statement allows users to exit a loop before it ends.
 
-The following example uses the `break` statement to exit a loop when the count reaches `2`:
+This example uses the `break` statement to exit a loop when the count reaches `2`:
 
 ```shell
 for ($i = 0; $i -lt 5; $i++) {
@@ -232,7 +234,7 @@ for ($i = 0; $i -lt 5; $i++) {
 }
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 0
@@ -241,7 +243,7 @@ The above code produces the following output:
 
 The `continue` statement allows users to skip the current iteration in a loop and move to the next one.
 
-The following example uses the `continue` statement to skip the iteration in the loop when the count is `4`:
+This example uses the `continue` statement to skip the iteration in the loop when the count is `4`:
 
 ```shell
 for ($i = 0; $i -le 5; $i++) {
@@ -253,7 +255,7 @@ for ($i = 0; $i -le 5; $i++) {
 }
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 0
@@ -273,27 +275,16 @@ The above code produces the following output:
 | `do...while`  | The loop must run at least once and continue while a condition is true.           |
 | `do...until`  | The loop must run at least once and continue until a condition becomes true.      |
 
-## Best Practices for Using PowerShell Loops
-
-- **Avoid infinite loops**: Ensure loop conditions will eventually be false or use `break` statements to prevent endless execution.
-- **Prefer `foreach` for collections**: When working with arrays or lists, `foreach` offers better readability and simplicity over `for`.
-- **Keep loop bodies simple**: Maintain small, focused loop bodies; extract complex logic into separate [functions](https://www.codecademy.com/resources/docs/powershell/functions) for clarity.
-- **Use comments**: When loops perform multiple actions or rely on tricky conditions, use comments to make the purpose of each part clear.
-- **Validate input before loops**: Check input data or preconditions before entering the loop to prevent errors and unnecessary execution.
-
 ## Frequently Asked Questions
 
-<details>
-  <summary>Which loop is mostly used?</summary>
-  <p>The foreach loop is mostly used in PowerShell, especially when working with arrays or collections, making scripts more readable and concise.</p>
-</details>
+### 1. Which loop is mostly used in PowerShell?
 
-<details>
-  <summary>What is the difference between for and foreach loop in PowerShell?</summary>
-  <p>The PowerShell for loop is used with a counter and is good for numeric iterations, whereas the foreach loop is used for looping through each item in a collection or array.</p>
-</details>
+The `foreach` loop is mostly used in PowerShell, especially when working with arrays or collections, making scripts more readable and concise.
 
-<details>
-  <summary>Which is faster, for or foreach?</summary>
-  <p>In general, for can be slightly faster for simple numeric loops. However, foreach is often preferred for readability and simplicity when working with collections.</p>
-</details>
+### 2. What is the difference between `for` and `foreach` loop in PowerShell?
+
+The PowerShell `for` loop is used with a counter and is good for numeric iterations, whereas the `foreach` loop is used for looping through each item in a collection or array.
+
+### 3. Which is faster, `for` or `foreach`?
+
+In general, `for` can be slightly faster for simple numeric loops. However, `foreach` is often preferred for readability and simplicity when working with collections.
