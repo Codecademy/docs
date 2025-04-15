@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`np.exp()`** [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) in NumPy computes the exponential of all elements in the input [array](https://www.codecademy.com/resources/docs/numpy/ndarray). The exponential function, `np.exp(x)`, returns `e^x`, where `e` is Euler's number with an approximate value of 2.71828. As a part of NumPy, a widely used library for numerical computing in [Python](https://www.codecademy.com/resources/docs/python), this function is particularly useful in scientific computations where exponential functions are common.
+The **`np.exp()`** [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) in NumPy computes the exponential of all elements in the input [array](https://www.codecademy.com/resources/docs/numpy/ndarray). The exponential function, `np.exp(x)`, returns `e^x`, where `e` is Euler's number with an approximate value of 2.71828. As a part of NumPy, a widely used library for numerical computing in Python, this function is particularly useful in scientific computations where exponential functions are common.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ The `np.exp()` function returns a new array containing the exponential of all el
 
 ## Example 1: Using `.exp()` with an Array
 
-The following example uses the `np.exp()` function to compute the exponential of all elements in the given array:
+This example uses the `np.exp()` function to compute the exponential of all elements in the given array:
 
 ```py
 import numpy as np
@@ -54,7 +54,7 @@ result = np.exp(arr)
 print("Exponential of input array:", result)
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 Exponential of input array: [ 1.          2.71828183  7.3890561  20.08553692]
@@ -62,7 +62,7 @@ Exponential of input array: [ 1.          2.71828183  7.3890561  20.08553692]
 
 ## Example 2: Using `.exp()` with a Positive Number
 
-The following example uses the `np.exp()` function to compute the exponential of a positive number:
+This example uses the `np.exp()` function to compute the exponential of a positive number:
 
 ```py
 import numpy as np
@@ -74,7 +74,7 @@ result = np.exp(5)
 print("Exponential of 5:", result)
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 Exponential of 5: 148.4131591025766
@@ -82,7 +82,7 @@ Exponential of 5: 148.4131591025766
 
 ## Codebyte Example: Using `.exp()` with a Negative Number
 
-The following codebyte example uses the `np.exp()` function to compute the exponential of a negative number:
+This codebyte example uses the `np.exp()` function to compute the exponential of a negative number:
 
 ```codebyte/python
 import numpy as np
@@ -96,17 +96,14 @@ print("Exponential of -10:", result)
 
 ## Frequently Asked Questions
 
-<details>
-  <summary>Can I use np.exp() with a list?</summary>
-  <p>Yes, np.exp() can be used with a list; it automatically converts the list to a NumPy array and applies the exponential function element-wise.</p>
-</details>
+### 1. Can I use `np.exp()` with a list?
 
-<details>
-  <summary>Does NumPy exp work with complex numbers?</summary>
-  <p>Yes, np.exp() supports complex numbers and returns the exponential of each complex input using Euler's formula.</p>
-</details>
+Yes, `np.exp()` can be used with a list; it automatically converts the list to a NumPy array and applies the exponential function element-wise.
 
-<details>
-  <summary>What is the difference between math exp and NumPy exp?</summary>
-  <p>math.exp() works only with single scalar values, while np.exp() can handle arrays, lists, and complex numbers, applying the function element-wise.</p>
-</details>
+### 2. Does NumPy exp work with complex numbers?
+
+Yes, `np.exp()` supports complex numbers and returns the exponential of each complex input using Euler's formula.
+
+### 3. What is the difference between math exp and NumPy exp?
+
+`math.exp()` works only with single scalar values, while `np.exp()` can handle arrays, lists, and complex numbers, applying the function element-wise.
