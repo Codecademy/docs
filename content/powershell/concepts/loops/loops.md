@@ -158,7 +158,7 @@ do {
 } while (<condition>)
 ```
 
-### Example: Basic Usage of `do...while` Loop
+### Example of `do...while` Loop
 
 The following example uses the `do...while` loop to ask the user to guess the given number repeatedly until it's guessed correctly:
 
