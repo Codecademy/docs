@@ -48,7 +48,7 @@ res = string.startswith("Coding")
 print(res)
 ```
 
-Since `str` starts with "Coding", the above code produces the following output:
+Since `string` starts with "Coding", the above code produces the following output:
 
 ```shell
 True
@@ -60,16 +60,16 @@ The following example uses `.startswith()` in Python with the `start` and `end` 
 
 ```py
 # Create a string
-str = "Python is a popular programming language."
+string = "Python is a popular programming language."
 
 # Check if indices 12-24 in the input string starts with "popular"
-res = str.startswith("popular", 12, 24)
+res = string.startswith("popular", 12, 24)
 
 # Print the result
 print(res)
 ```
 
-Since indices 12-24 in `str` starts with "popular", the above code produces the following output:
+Since indices 12-24 in `string` starts with "popular", the above code produces the following output:
 
 ```shell
 True
@@ -81,30 +81,27 @@ The following codebyte example uses the Python `.startswith()` method to determi
 
 ```codebyte/python
 # Create a string
-str = "Codecademy is helpful!"
+string = "Codecademy is helpful!"
 
 # Check if the input string starts with "Codecademy", "Google", or "Twitter"
-res = str.startswith(("Codecademy", "Google", "Twitter"))
+res = string.startswith(("Codecademy", "Google", "Twitter"))
 
 # Print the result
 print(res)
 ```
 
-Since `str` starts with "Codecademy", the output for the above code will be `True`.
+Since `string` starts with "Codecademy", the output for the above code will be `True`.
 
 ## Frequently Asked Questions
 
-<details>
-  <summary>How do `.endswith()` and `.startswith()` differ?</summary>
-  <p>.startswith() checks if a given string starts with a specific value, whereas .endswith() checks if a given string ends with a specific value.</p>
-</details>
+### 1. How do `.endswith()` and `.startswith()` differ?
 
-<details>
-  <summary>Is .startswith() case-sensitive?</summary>
-  <p>Yes, .startswith() is case-sensitive.</p>
-</details>
+`.startswith()` checks if a given string starts with a specific value, whereas `.endswith()` checks if a given string ends with a specific value.
 
-<details>
-  <summary>What happens if the prefix in .startswith() is longer than the input string?</summary>
-  <p>If the prefix in .startswith() is longer than the input string, the method returns 'False'.</p>
-</details>
+### 2. Is `.startswith()` case-sensitive?
+
+Yes, `.startswith()` is case-sensitive.
+
+### 3. What happens if the prefix in `.startswith()` is longer than the input string?
+
+If the prefix in `.startswith()` is longer than the input string, the method returns `False`.
