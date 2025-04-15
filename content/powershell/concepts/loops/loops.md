@@ -122,7 +122,7 @@ while(<condition>) {
 
 - `<condition>`: The condition to evaluate.
 
-### Example: Basic Usage of `while` Loop
+### Example of `while` Loop
 
 The following example uses the `while` loop to increment numbers by 3 (starting from `0`) and print them until `count` is less than `15`:
 
