@@ -2,8 +2,8 @@
 Title: 'Enums'
 Description: 'Enums are a data type that can hold a finite number of defined immutable values.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Arrays'
   - 'Data Types'
