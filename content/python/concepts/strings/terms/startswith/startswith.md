@@ -42,7 +42,7 @@ The following example uses the Python `.startswith()` method without the `start`
 string = "Coding is fun!"
 
 # Check if the input string starts with "Coding"
-res = str.startswith("Coding")
+res = string.startswith("Coding")
 
 # Print the result
 print(res)
