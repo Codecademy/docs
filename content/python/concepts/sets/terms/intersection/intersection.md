@@ -16,6 +16,10 @@ CatalogContent:
 
 The **`.intersection()`** method returns a new set with objects that exist inside two or more sets. It's a fundamental set operation that mirrors the mathematical concept of intersection. This method is widely used in data analysis, filtering datasets, and identifying shared elements between [collections](https://www.codecademy.com/resources/docs/python/collections-module). Its ability to operate on multiple sets at once makes it a concise and efficient tool for comparing groups of data.
 
+Here is a Venn diagram that shows how the `.intersection()` method finds the intersection of multiple sets:
+
+![A Venn diagram that shows how the .intersection() method finds the intersection of multiple sets](https://raw.githubusercontent.com/Codecademy/docs/main/media/intersection.png)
+
 ## Syntax
 
 ```pseudo
@@ -39,7 +43,7 @@ The `.intersection()` method returns a new set with values that exist inside the
 
 ## Example 1: Using `.intersection()` with Two Sets
 
-In the following example, a set of `mutual_friends` is created with the `.intersection()` method using two sets of friend groups:
+In this example, a set of `mutual_friends` is created with the `.intersection()` method using two sets of friend groups:
 
 ```py
 # Create two sets of friend groups
@@ -53,7 +57,7 @@ mutual_friends = friend_group_1.intersection(friend_group_2)
 print(mutual_friends)
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 {'Juan', 'Yukiko', 'Alice'}
@@ -61,22 +65,22 @@ The above code produces the following output:
 
 ## Example 2: Using `.intersection()` with Three or More Sets
 
-In the following example, the `.intersection()` method finds the intersection of three sets:
+In this example, the `.intersection()` method finds the intersection of three sets:
 
 ```py
 # Create three sets
-set = {1, 2, 3, 4}
-set1 = {2, 3, 5}
-set2 = {0, 2, 3, 7}
+base_set = {1, 2, 3, 4}
+base_set1 = {2, 3, 5}
+base_set2 = {0, 2, 3, 7}
 
 # Find the intersection of these sets
-res = set.intersection(set1, set2)
+res = base_set.intersection(base_set1, base_set2)
 
 # Print the result
 print(res)
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 {2, 3}
@@ -84,18 +88,18 @@ The above code produces the following output:
 
 ## Codebyte Example: Using `.intersection()` with Non-Set Iterables
 
-In the following codebyte example, the `.intersection()` method converts all the non-set [iterables](https://www.codecademy.com/resources/docs/python/iterators) to sets and then finds the intersection of all the sets:
+In this codebyte example, the `.intersection()` method converts all the non-set [iterables](https://www.codecademy.com/resources/docs/python/iterators) to sets and then finds the intersection of all the sets:
 
 ```codebyte/python
 # Create a set
-set = {1, 2, 3}
+base_set = {1, 2, 3}
 
 # Create two iterables
 iter1 = [2, 3, 4]
 iter2 = (3, 4, 5)
 
 # Find the intersection of the set and these iterables
-res = set.intersection(iter1, iter2)
+res = base_set.intersection(iter1, iter2)
 
 # Print the result
 print(res)
@@ -103,17 +107,14 @@ print(res)
 
 ## Frequently Asked Questions
 
-<details>
-  <summary>Can I chain multiple .intersection() calls?</summary>
-  <p>Yes, you can chain .intersection() calls to find the intersection of multiple sets or iterables. Each call returns a new set with the intersected result.</p>
-</details>
+### 1. Can I chain multiple `.intersection()` calls?
 
-<details>
-  <summary>Does .intersection() modify the original set?</summary>
-  <p>No, .intersection() returns a new set and does not change the original set. Use .intersection_update() to modify the original.</p>
-</details>
+Yes, you can chain `.intersection()` calls to find the intersection of multiple sets or iterables. Each call returns a new set with the intersected result.
 
-<details>
-  <summary>What happens if I use .intersection() with no arguments?</summary>
-  <p>If used with no arguments, .intersection() returns a shallow copy of the original set, which is a new set containing the same elements as the original.</p>
-</details>
+### 2. Does `.intersection()` modify the original set?
+
+No, `.intersection()` returns a new set and does not change the original set. Use `.intersection_update()` to modify the original.
+
+### 3. What happens if I use `.intersection()` with no arguments?
+
+If used with no arguments, `.intersection()` returns a shallow copy of the original set, which is a new set containing the same elements as the original.
