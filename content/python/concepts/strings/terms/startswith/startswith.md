@@ -95,7 +95,7 @@ Since `str` starts with "Codecademy", the output for the above code will be `Tru
 ## Frequently Asked Questions
 
 <details>
-  <summary>How do .endswith() and .startswith() differ?</summary>
+  <summary>How do `.endswith()` and `.startswith()` differ?</summary>
   <p>.startswith() checks if a given string starts with a specific value, whereas .endswith() checks if a given string ends with a specific value.</p>
 </details>
 
