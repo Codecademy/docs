@@ -24,7 +24,7 @@ string.startswith(value, start, end)
 
 **Parameters:**
 
-- `str`: The input string against which to check the given value.
+- `string`: The input string against which to check the given value.
 - `value`: A string or [tuple](https://www.codecademy.com/resources/docs/python/tuples) of strings to check for in the input string.
 - `start` (Optional): The position in the input string where the search starts.
 - `end` (Optional): The position in the input string where the search ends.
