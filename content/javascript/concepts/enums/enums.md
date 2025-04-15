@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In general, **enums** are a type that can hold a finite number of defined values. The values in enums are not mutable. Though JavaScript has no support for a native enum type, it is possible to define enums using various approaches. These approaches make the code more expressive, self-documenting, and less error-prone.
+In general, **enums** are a data type that can hold a finite number of defined values. The values in enums are not mutable. Though JavaScript has no support for a native enum type, it is possible to define enums using various approaches. These approaches make the code more expressive, self-documenting, and less error-prone.
 
 ## Implementing JavaScript Enums
 
