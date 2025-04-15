@@ -77,7 +77,7 @@ This approach guarantees uniqueness and is ideal when there is a need to create 
 
 ## Example 1: Traffic Light Management
 
-The following example uses JavaScript enums to display the current traffic light:
+This example uses JavaScript enums to display the current traffic light:
 
 ```js
 const TrafficLight = Object.freeze({
@@ -91,7 +91,7 @@ const currentTrafficLight = TrafficLight.GREEN;
 console.log(currentTrafficLight);
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 GREEN
@@ -99,7 +99,7 @@ GREEN
 
 ## Example 2: Order Status Handling
 
-The following example uses JavaScript enums to display the order status:
+This example uses JavaScript enums to display the order status:
 
 ```js
 const StatusOptions = Object.freeze({
@@ -114,7 +114,7 @@ const orderStatus = StatusOptions.DELIVERED;
 console.log(orderStatus);
 ```
 
-The above code produces the following output:
+The output for the example will be:
 
 ```shell
 DELIVERED
@@ -122,7 +122,7 @@ DELIVERED
 
 ## Codebyte Example: Role-Based Access Control
 
-The following codebyte example uses JavaScript enums to display the access level based on the user role:
+This codebyte example uses JavaScript enums to display the access level based on the user role:
 
 ```codebyte/javascript
 const UserRoles = Object.freeze({
@@ -138,17 +138,14 @@ console.log(userRole);
 
 ## Frequently Asked Questions
 
-<details>
-  <summary>Can enums be iterated in JavaScript?</summary>
-  <p>Yes. If you use plain objects, you can iterate enums using Object.keys() or Object.values(). However, enums using Symbols cannot be easily iterated since Symbols are not enumerable by default.</p>
-</details>
+### 1. Can enums be iterated in JavaScript?
 
-<details>
-  <summary>Are JavaScript enums good for performance?</summary>
-  <p>JavaScript enums generally have negligible performance overhead. In fact, they can improve performance indirectly by reducing bugs and logical errors in your code.</p>
-</details>
+Yes. If you use plain objects, you can iterate enums using `Object.keys()` or `Object.values()`. However, enums using Symbols cannot be easily iterated since Symbols are not enumerable by default.
 
-<details>
-  <summary>When should I avoid using enums in JavaScript?</summary>
-  <p>Avoid enums when your values are unlikely to repeat or belong to a limited set. In such cases, using simple variables or constants might be more appropriate. Also, overusing enums for trivial values can make code unnecessarily complex.</p>
-</details>
+### 2. Are JavaScript enums good for performance?
+
+JavaScript enums generally have negligible performance overhead. In fact, they can improve performance indirectly by reducing bugs and logical errors in your code.
+
+### 3. When should I avoid using enums in JavaScript?
+
+Avoid enums when your values are unlikely to repeat or belong to a limited set. In such cases, using simple variables or constants might be more appropriate. Also, overusing enums for trivial values can make code unnecessarily complex.
