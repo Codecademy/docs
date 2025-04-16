@@ -18,7 +18,7 @@ CatalogContent:
 
 In the context of UX design, Parkinsons Law can be observed in both user behavior and product team workflows. For users, it relates to how much time they will spend completing a task depending on how much time they perceive they have. For teams, it reflects how longer timelines often lead to bloated solutions or overcomplication.
 
-Understanding Parkinsons Law helps UX designers build **simpler, faster experiences** and avoid unnecessary friction caused by unrestricted time or complexity.
+Understanding Parkinsons Law helps UX designers build _simpler, faster experiences_ and avoid unnecessary friction caused by unrestricted time or complexity.
 
 ![Graph showing effort relative to time available](https://raw.githubusercontent.com/Codecademy/docs/main/media/parkinsons-law-graph-img.png)
 
@@ -28,59 +28,59 @@ Parkinsons Law suggests that users when not guided or constrained may take longe
 
 ### UX implications include
 
-- **Long forms or multi-step flows can make users procrastinate or abandon.**
+- _Long forms or multi-step flows can make users procrastinate or abandon._
   When users are unsure how long something will take, they mentally allocate more time than necessary often leading to drop-off.
 
-- **Unclear UI feedback can stretch task completion time.**
+- _Unclear UI feedback can stretch task completion time._
   If users do not know a process is progressing, they may assume it is slower or not working, increasing frustration or confusion.
 
-- **Designers may add unnecessary features if deadlines are too generous.**
+- _Designers may add unnecessary features if deadlines are too generous._
   Without time constraints or user-driven goals, design teams may continue iterating beyond what is needed for an MVP.
 
 ## Where It Applies
 
 Parkinsons Law is especially relevant in:
 
-- **Onboarding flows and form design**
+- _Onboarding flows and form design_
   Users are more likely to complete processes that feel fast and well-scoped.
 
-- **Time-sensitive tasks**
+- _Time-sensitive tasks_
   Booking, checkout, or deadline-driven actions benefit from clear time framing and visual progress cues.
 
-- **Agile UX workflows**
+- _Agile UX workflows_
   Designers working in sprints benefit from lean, time-boxed problem solving rather than unbounded feature development.
 
-- **Productivity tools or gamified apps**
+- _Productivity tools or gamified apps_
   Apps that use countdowns, daily goals, or progress tracking help guide user behavior more efficiently.
 
 ## Designing with Parkinsons Law
 
-- **Use progress indicators to set time expectations.**
+- _Use progress indicators to set time expectations._
   Let users know how many steps remain or how long a task typically takes. This encourages them to continue and finish faster.
 
-- **Break long tasks into small, time-bound chunks.**
+- _Break long tasks into small, time-bound chunks._
   If users can finish one screen or form in under a minute, they are more likely to stay engaged throughout.
 
-- **Introduce subtle time constraints when appropriate.**
+- _Introduce subtle time constraints when appropriate._
   Countdown timers, session reminders, or streak mechanics can nudge users toward completion without creating pressure.
 
-- **Avoid perfectionism in product design.**
+- _Avoid perfectionism in product design._
   Teams should prioritize solving core user problems over endless refinements, especially when shipping MVPs or experiments.
 
 ![Comparison of tight vs extended timelines](https://raw.githubusercontent.com/Codecademy/docs/main/media/parkinsons-law-comparison-img.png)
 
 ## Benefits
 
-- **Leaner, more focused designs**
+- _Leaner, more focused designs_
   Timeboxing design work often leads to simpler, more user-centered solutions.
 
-- **Faster user task completion**
+- _Faster user task completion_
   Reducing perceived complexity helps users complete flows with less hesitation.
 
-- **Improved engagement**
+- _Improved engagement_
   Clear expectations and boundaries make experiences feel more efficient and trustworthy.
 
-- **Healthier team delivery cycles**
+- _Healthier team delivery cycles_
   When designers and developers work within realistic, short timeframes, progress becomes more measurable and sustainable.
 
 ## Limitations and Cautions
