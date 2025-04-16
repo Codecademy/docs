@@ -37,7 +37,7 @@ cute_dog_image.getextrema()
 ```
 
 ## Example
-Here is the image used:
+Here is the image used:  
 ![Funny Husky Image](../../../../../../media/funny-husky.jpg)
 
 The following example demonstrates the usage of the `".getextrema()"` method:
