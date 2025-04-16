@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_Five Second Test_ is a [user research](https://codecademy.com/resources/docs/uiux/user-research) method used to assess the clarity and impact of a design in its earliest moments of exposure. Participants are shown a visual design — such as a homepage, marketing layout, or app screen — for five seconds. Then, the screen disappears, and they are asked a series of short questions.
+**Five Second Test** is a [user research](https://codecademy.com/resources/docs/uiux/user-research) method used to assess the clarity and impact of a design in its earliest moments of exposure. Participants are shown a visual design — such as a homepage, marketing layout, or app screen — for five seconds. Then, the screen disappears, and they are asked a series of short questions.
 
 This test helps designers and researchers evaluate what information stands out, what users remember, and how users interpret the purpose of the design. Since users typically make snap judgments about content and design, this method helps ensure that first impressions align with your design goals.
 
