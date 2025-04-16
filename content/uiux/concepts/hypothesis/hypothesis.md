@@ -32,26 +32,26 @@ Hypotheses bring clarity and purpose to design work. They turn abstract ideas in
 
 Key reasons to use hypotheses in UX:
 
-- **Encourages evidence-based decision making.**  
+- _Encourages evidence-based decision making._
   Grounding ideas in testable statements reduces guesswork and helps eliminate design bias.
 
-- **Aligns cross-functional teams.**  
+- _Aligns cross-functional teams._
   A shared hypothesis helps designers, researchers, and developers collaborate around measurable goals.
 
-- **Reduces time and resource waste.**  
+- _Reduces time and resource waste._
   Testing assumptions early can prevent over-investing in solutions that don't deliver real value.
 
-- **Strengthens learning loops.**  
+- _Strengthens learning loops._
   Whether proven true or false, every hypothesis leads to insights that inform better design decisions.
 
 ## When to Use a Hypothesis
 
 Hypotheses are valuable at various stages of the UX and product development process:
 
-- **During discovery and ideation** — When identifying user pain points and proposing solutions.
-- **Before usability tests** — To clarify what you expect users to do and why.
-- **In A/B or multivariate testing** — To compare performance between different versions of a design.
-- **While launching MVPs or experiments** — To validate core assumptions before scaling.
+- _During discovery and ideation_ — When identifying user pain points and proposing solutions.
+- _Before usability tests_ — To clarify what you expect users to do and why.
+- _In A/B or multivariate testing_ — To compare performance between different versions of a design.
+- _While launching MVPs or experiments_ — To validate core assumptions before scaling.
 
 If you're making a change and want to know whether it improves the user experience, you're in a good place to write a hypothesis.
 
@@ -59,10 +59,10 @@ If you're making a change and want to know whether it improves the user experien
 
 Hypotheses are not just for researchers — they can inform the work of:
 
-- **UX designers** — When creating flows, interfaces, or layouts that aim to solve specific user problems.
-- **UX writers** — When testing how different messaging affects user comprehension or action.
-- **Product managers** — When setting success criteria for features or releases.
-- **Developers and engineers** — When experimenting with performance optimizations or interface patterns.
+- _UX designers_ — When creating flows, interfaces, or layouts that aim to solve specific user problems.
+- _UX writers_ — When testing how different messaging affects user comprehension or action.
+- _Product managers_ — When setting success criteria for features or releases.
+- _Developers and engineers_ — When experimenting with performance optimizations or interface patterns.
 
 They typically appear at the start of an experiment or test cycle, are reviewed during analysis, and help shape design iterations.
 
@@ -70,19 +70,19 @@ They typically appear at the start of an experiment or test cycle, are reviewed 
 
 To write an effective hypothesis:
 
-- **Be specific about the change and the user group.**  
+- _Be specific about the change and the user group._  
   Avoid vague phrases like "improve the design" or "make it better."
 
-- **Include a measurable outcome.**  
+- _Include a measurable outcome._  
   This could be a behavior (e.g. "increase sign-ups") or a metric (e.g. "reduce time on task").
 
-- **Provide a rationale.**  
+- _Provide a rationale._  
   Explain _why_ you believe the change will lead to the desired outcome — ideally based on user research or previous observations.
 
-- **Keep it testable.**  
+- _Keep it testable._  
   If you can't validate or invalidate the statement with research or data, it's not a good hypothesis.
 
-- **Use plain language.**  
+- _Use plain language._  
   Hypotheses should be easy for stakeholders of all backgrounds to understand and engage with.
 
 ## Example Hypotheses
@@ -102,4 +102,4 @@ While powerful, hypotheses aren't foolproof:
 - Focusing too much on validating ideas can slow down experimentation and discovery.
 - Not every design change needs a formal hypothesis — balance is key.
 
-Use hypotheses as **tools for learning**, not rigid rules.
+Use hypotheses as _tools for learning_, not rigid rules.
