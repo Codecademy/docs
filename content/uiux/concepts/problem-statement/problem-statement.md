@@ -24,19 +24,23 @@ A strong problem statement clearly identifies the **who**, **what**, and **why**
 Key elements often include:
 
 - **The user or persona affected**
-  Who is experiencing the problem? Be specific: frequent travelers, first-time users, or non-technical team members are better than just users.
+
+Who is experiencing the problem? Be specific - frequent travelers, first-time users, or non-technical team members are better than just users.
 
 - **The specific problem or friction point**
-  What is preventing them from achieving their goal? Is it time-consuming, confusing, inaccessible, or inefficient?
+
+What is preventing them from achieving their goal? Is it time-consuming, confusing, inaccessible, or inefficient?
 
 - **The context in which the problem occurs**
-  Where and when does this issue arise? Is it during onboarding, on mobile, while working under time pressure?
+
+Where and when does this issue arise? Is it during onboarding, on mobile, while working under time pressure?
 
 - **The impact or consequence**
-  What happens if this problem is not addressed? Does it lead to abandonment, frustration, or lost revenue?
+
+What happens if this problem is not addressed? Does it lead to abandonment, frustration, or lost revenue?
 
 ## Example Problem Statements
 
-> Busy commuters struggle to find and download offline maps in our travel app, especially when preparing for trips in low-connectivity areas.
+Busy commuters struggle to find and download offline maps in our travel app, especially when preparing for trips in low-connectivity areas.
 
-> First-time users are overwhelmed by the setup process, which leads to incomplete profiles and high churn within the first week.
+First-time users are overwhelmed by the setup process, which leads to incomplete profiles and high churn within the first week.
