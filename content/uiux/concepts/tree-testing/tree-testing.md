@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_Tree testing_ is a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method where researchers evaluate how easily users can find information in a hierarchical structure without the aid of visual design. This method is often used to validate [information architecture](https://www.codecademy.com/resources/docs/uiux/information-architecture) and navigation structures before any wireframes or user interfaces are created.
+**Tree Testing** is a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method where researchers evaluate how easily users can find information in a hierarchical structure without the aid of visual design. This method is often used to validate [information architecture](https://www.codecademy.com/resources/docs/uiux/information-architecture) and navigation structures before any wireframes or user interfaces are created.
 
 There are several tools used to conduct a tree testing session. These include platforms such as [Treejack](https://www.optimalworkshop.com/treejack/), [UserZoom](https://www.userzoom.com/), [UXtweak](https://www.uxtweak.com/), and [Usabilitree](https://www.usabilitree.com/). Tree testing typically involves giving participants a task and asking them to navigate through a simplified site structure to locate the required information.
 
