@@ -40,7 +40,7 @@ my_set = set(iterable)
 
 This example demonstrates how to create and use a set in Python, and how it automatically removes duplicate values.
 
-```python
+```py
 # Create a set using curly braces
 numbers = {1, 2, 3, 4, 5, 2, 3}
 print(numbers)
