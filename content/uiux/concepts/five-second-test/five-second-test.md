@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Five Second Test** is a [user research](https://codecademy.com/resources/docs/uiux/user-research) method used to assess the clarity and impact of a design in its earliest moments of exposure. Participants are shown a visual design — such as a homepage, marketing layout, or app screen — for five seconds. Then, the screen disappears, and they are asked a series of short questions.
+*Five Second Test* is a [user research](https://codecademy.com/resources/docs/uiux/user-research) method used to assess the clarity and impact of a design in its earliest moments of exposure. Participants are shown a visual design — such as a homepage, marketing layout, or app screen — for five seconds. Then, the screen disappears, and they are asked a series of short questions.
 
 This test helps designers and researchers evaluate what information stands out, what users remember, and how users interpret the purpose of the design. Since users typically make snap judgments about content and design, this method helps ensure that first impressions align with your design goals.
 
@@ -57,15 +57,15 @@ Responses help highlight what users actually take away from your content vs. wha
 
 Five Second Tests are easy to set up and quick to run, making them a favorite for lean UX and design teams. Key benefits include:
 
-- **Clarity testing:** Verifies that your main message is getting across quickly.
-- **Fast feedback loops:** Each test takes only a few minutes, allowing rapid iteration.
-- **Lightweight setup:** Requires only static screens or mockups.
-- **First impression insight:** Helps optimize above-the-fold content where attention is most limited.
+- *Clarity testing:* Verifies that your main message is getting across quickly.
+- *Fast feedback loops:* Each test takes only a few minutes, allowing rapid iteration.
+- *Lightweight setup:* Requires only static screens or mockups.
+- *First impression insight:* Helps optimize above-the-fold content where attention is most limited.
 
 ## Tools to Use
 
-- [Lyssna](https://lyssna.com/) – Popular tool with built-in five second test functionality.
-- [UXtweak](https://www.uxtweak.com/) – Offers visual analysis features alongside time-limited testing.
+- Lyssna – Popular tool with built-in five second test functionality.
+- UXtweak – Offers visual analysis features alongside time-limited testing.
 - Google Slides or Figma – Manual setup for timed reveals during interviews or workshops.
 
 ## Limitations
