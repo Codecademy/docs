@@ -38,7 +38,7 @@ my_set = set(iterable)
 
 ## Example - Basic usage of set
 
-This example demonstrates how to create and use a set in Python. Notice how the set automatically removes duplicate values.
+This example demonstrates how to create and use a set in Python, and how it automatically removes duplicate values.
 
 ```python
 # Create a set using curly braces
