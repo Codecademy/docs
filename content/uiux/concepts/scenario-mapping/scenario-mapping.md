@@ -18,7 +18,7 @@ Scenario mapping combines insights from user research, personas, and jobs-to-be-
 
 ## What Is a Scenario?
 
-In UX, a **scenario** describes a short, narrative-based situation where a user tries to accomplish a specific task under certain conditions. These stories are fictional but rooted in real research and help reveal the context in which users interact with a product.
+In UX, a _scenario_ describes a short, narrative-based situation where a user tries to accomplish a specific task under certain conditions. These stories are fictional but rooted in real research and help reveal the context in which users interact with a product.
 
 Example scenario:
 
@@ -30,30 +30,30 @@ Scenario mapping helps teams understand user behavior in a structured, task-orie
 
 ### Key benefits
 
-- **Keeps design grounded in real-world behavior**
+- _Keeps design grounded in real-world behavior_
   Mapping scenarios forces teams to think about why, when, and how users will engage with features — not just what the features are.
 
-- **Supports cross-functional alignment**
+- _Supports cross-functional alignment_
   Designers, researchers, developers, and stakeholders can collaborate to explore pain points, edge cases, and user needs.
 
-- **Improves feature prioritization**
-  By examining which scenarios occur most often or have the highest risk of failure, teams can focus on the most impactful solutions.
+- _Improves feature prioritization_
+  Examining which scenarios occur most often or have the highest risk of failure, allows teams to focus on the most impactful solutions.
 
-- **Encourages empathy and user-centric thinking**
-  Thinking through scenarios encourages teams to consider the user's mindset, emotions, and goals — not just interface mechanics.
+- _Encourages empathy and user-centric thinking_
+  Thinking through scenarios encourages teams to consider the user's mindset, emotions, and goals, not just interface mechanics.
 
 ## When to Use Scenario Mapping
 
 Scenario mapping is most useful during:
 
-- **Early ideation or discovery phases**
+- _Early ideation or discovery phases_
   To explore how people might use your product in different contexts.
 
-- **Design sprints and workshops**
+- _Design sprints and workshops_
   To gather cross-disciplinary insights in real time.
 
-- **Feature planning**
+- _Feature planning_
   To understand what workflows need to be supported or simplified.
 
-- **Post-research synthesis**
+- _Post-research synthesis_
   To connect interview data with actionable design opportunities.
