@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**The Five Whys** is a user research and root cause analysis technique that helps identify the underlying reason behind a user behavior or problem by asking **"why" five times**. It is often used in [UX research](https://www.codecademy.com/resources/docs/uiux/user-research), usability testing, and post-mortem processes to dig beyond surface-level observations.
+*The Five Whys* is a user research and root cause analysis technique that helps identify the underlying reason behind a user behavior or problem by asking **"why" five times**. It is often used in [UX research](https://www.codecademy.com/resources/docs/uiux/user-research), usability testing, and post-mortem processes to dig beyond surface-level observations.
 
 This method was originally developed by Sakichi Toyoda and is widely used in lean manufacturing and Six Sigma. In UX, it provides insights into user motivation, pain points, and systemic design flaws.
 
@@ -20,27 +20,27 @@ This method was originally developed by Sakichi Toyoda and is widely used in lea
 
 Suppose a user quits onboarding midway through a mobile app setup process. The Five Whys technique might look like this:
 
-1. **Why** did the user leave the onboarding?  
+1. *Why* did the user leave the onboarding?  
    Because it was taking too long.
 
-2. **Why** was it taking too long?  
+2. *Why* was it taking too long?  
    Because there were too many steps.
 
-3. **Why** were there too many steps?  
+3. *Why* were there too many steps?  
    Because we ask for lots of user info upfront.
 
-4. **Why** do we ask for that info upfront?  
+4. *Why* do we ask for that info upfront?  
    Because we thought it was necessary to personalize the experience.
 
-5. **Why** did we think it was necessary?  
+5. *Why* did we think it was necessary?  
    Because we didn’t test if users are willing to provide that much data early on.
 
 Each "why" peels back a layer of assumptions and leads to actionable insights (root cause).
 
 ## Best Practices
 
-- Use in **user interviews**, usability tests, or retrospectives.
-- Don’t rigidly stick to five — the point is to go deep enough to uncover the **root cause**.
+- Use in *user interviews*, usability tests, or retrospectives.
+- Don’t rigidly stick to five — the point is to go deep enough to uncover the *root cause*.
 - Avoid leading questions; keep each "why" open-ended.
 - Document the process for stakeholder visibility.
 
