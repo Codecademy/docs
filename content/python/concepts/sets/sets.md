@@ -85,17 +85,14 @@ print("Dog Breeds:", dog_breeds)
 
 ## Frequently Asked Questions
 
-<details>
-  <summary>1. What is the difference between set and list in Python?</summary>
-  <p>**Sets** are unordered collections of unique elements, while **lists** are ordered collections that can contain duplicate elements. Sets are faster for membership testing (checking if an element exists) due to their hash-based implementation. Lists maintain insertion order and allow indexed access to elements, whereas sets do not support indexing or slicing. Lists can contain any data type including mutable objects, while sets can only contain immutable (hashable) objects.</p>
-</details>
+### 1. What is the difference between set and list in Python?
 
-<details>
-  <summary>2. Is set mutable or immutable in Python?</summary>
-<p>**Sets** in Python are **mutable**, meaning you can add or remove elements after creation using methods like [`.add()`](https://www.codecademy.com/resources/docs/python/sets/add), [`.remove()`](https://www.codecademy.com/resources/docs/python/sets/remove), [`.discard()`](https://www.codecademy.com/resources/docs/python/sets/discard), [`.update()`](https://www.codecademy.com/resources/docs/python/sets/update), and [`.clear()`](https://www.codecademy.com/resources/docs/python/sets/clear). If you need an immutable version of a set, you can use a [**frozenset**](https://www.codecademy.com/resources/docs/python/built-in-functions/frozenset), which has the same characteristics as a set but cannot be modified after creation.</p>
-</details>
+**Sets** are unordered collections of unique elements, while **lists** are ordered collections that can contain duplicate elements. Sets are faster for membership testing (checking if an element exists) due to their hash-based implementation. Lists maintain insertion order and allow indexed access to elements, whereas sets do not support indexing or slicing. Lists can contain any data type including mutable objects, while sets can only contain immutable (hashable) objects.
 
-<details>
-  <summary>3. Do sets have indexes?</summary>
-<p>No, sets in Python do not have indexes. Since sets are unordered collections, they do not support indexing, slicing, or other sequence-like operations. You cannot access set elements by position. If you need to access elements by index, you should use a list or tuple instead. To iterate through all elements in a set, you can use a for loop.</p>
-</details>
+### 2. Is set mutable or immutable in Python?
+
+**Sets** in Python are **mutable**, meaning you can add or remove elements after creation using methods like [`.add()`](https://www.codecademy.com/resources/docs/python/sets/add), [`.remove()`](https://www.codecademy.com/resources/docs/python/sets/remove), [`.discard()`](https://www.codecademy.com/resources/docs/python/sets/discard), [`.update()`](https://www.codecademy.com/resources/docs/python/sets/update), and [`.clear()`](https://www.codecademy.com/resources/docs/python/sets/clear). If you need an immutable version of a set, you can use a [**frozenset**](https://www.codecademy.com/resources/docs/python/built-in-functions/frozenset), which has the same characteristics as a set but cannot be modified after creation.
+
+### 3. Do sets have indexes?
+
+No, sets in Python do not have indexes. Since sets are unordered collections, they do not support indexing, slicing, or other sequence-like operations. You cannot access set elements by position. If you need to access elements by index, you should use a list or tuple instead. To iterate through all elements in a set, you can use a for loop.
