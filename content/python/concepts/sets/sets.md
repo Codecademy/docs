@@ -83,7 +83,7 @@ print("Oceans:", oceans)
 print("Dog Breeds:", dog_breeds)
 ```
 
-## FAQs
+## Frequently Asked Questions
 
 <details>
   <summary>1. What is the difference between set and list in Python?</summary>
