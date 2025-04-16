@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Postels Law**, or the **Robustness Principle**, originates from early internet protocol design and states:
+**Postels Law**, or the _Robustness Principle_, originates from early internet protocol design and states:
 
 > Be liberal in what you accept, and conservative in what you send. — Jon Postel
 
-While originally intended for software protocols, this principle is widely applicable to **UX design**. It encourages flexibility and forgiveness in how systems handle user input, while still delivering predictable, high-quality output. It is especially important in forms, input validation, error handling, and accessibility.
+While originally intended for software protocols, this principle is widely applicable to _UX design_. It encourages flexibility and forgiveness in how systems handle user input, while still delivering predictable, high-quality output. It is especially important in forms, input validation, error handling, and accessibility.
 
 ## What It Means in UX
 
@@ -34,49 +34,49 @@ People do not always interact with interfaces in the exact way designers expect.
 
 ### Benefits include
 
-- **Increased usability and task success rates**
+- _Increased usability and task success rates_
   Flexible input handling prevents user errors from turning into blockers.
 
-- **Greater inclusivity and accessibility**
+- _Greater inclusivity and accessibility_
   Supporting different patterns of interaction helps users with diverse needs and tools.
 
-- **Stronger resilience in edge cases**
+- _Stronger resilience in edge cases_
   Systems are less likely to crash or behave unexpectedly under unusual input conditions.
 
-- **Higher trust in the interface**
+- _Higher trust in the interface_
   When users feel understood and supported, they are more likely to engage fully with a product.
 
 ## When and Where to Apply Postels Law
 
 Postels Law is especially useful when:
 
-- **Designing forms or search bars**
+- _Designing forms or search bars_
   Let users enter phone numbers with or without dashes, spaces, or country codes and still validate successfully.
 
-- **Handling user errors or mistyped data**
+- _Handling user errors or mistyped data_
   Allow minor spelling errors in search fields and suggest corrections instead of showing zero results.
 
-- **Designing multi-platform interactions**
+- _Designing multi-platform interactions_
   Recognize inputs from different devices (e.g. touch, keyboard, voice) without rigid expectations.
 
-- **Building accessible interactions**
+- _Building accessible interactions_
   Ensure that screen readers, keyboard navigation, and alternate input methods receive appropriate, predictable responses.
 
 ## How to Apply It in UX Design
 
-- **Support multiple input formats**
+- _Support multiple input formats_
   Whether it is date fields, email formats, or file names, accept a range of input styles and normalize them behind the scenes.
 
-- **Add real-time validation and correction**
+- _Add real-time validation and correction_
   Guide users gently with hints or auto-formatting instead of stopping them with hard errors.
 
-- **Make defaults and fallbacks work intelligently**
+- _Make defaults and fallbacks work intelligently_
   If input is missing or incorrect, offer smart defaults or safe assumptions to keep users moving forward.
 
-- **Use clear, non-blaming error messages**
+- _Use clear, non-blaming error messages_
   Errors should inform, not shame. Make recovery easy and empathetic.
 
-- **Avoid punishing unexpected behavior**
+- _Avoid punishing unexpected behavior_
   Always consider how your system should respond to unusual but still valid input, and aim for graceful degradation.
 
 ![Diagram showing flexible input formats converging into a standardized system output](https://raw.githubusercontent.com/Codecademy/docs/main/media/postels-law-input-flexibility.png)
