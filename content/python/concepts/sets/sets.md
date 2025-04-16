@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **set** in Python is an unordered collection of unique elements. Sets are used to store multiple items in a single variable without duplicates. Unlike [lists](https://www.codecademy.com/resources/docs/python/lists) or [tuples](https://www.codecademy.com/resources/docs/python/tuples), sets do not maintain insertion order and cannot contain mutable objects such as lists or [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries). Sets are particularly useful for membership testing, removing duplicates from sequences, and performing mathematical set operations like union, intersection, and difference.
+A **set** in Python is an unordered collection of unique elements. Sets store multiple items in a single variable and automatically eliminate duplicates. Unlike [lists](https://www.codecademy.com/resources/docs/python/lists) or [tuples](https://www.codecademy.com/resources/docs/python/tuples), sets do not maintain insertion order and cannot contain mutable objects such as lists or [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries). Sets are particularly useful for membership testing, eliminating duplicates from sequences, and performing mathematical set operations such as union, intersection, and difference.
 
 Sets are implemented using [hash tables](https://www.codecademy.com/resources/docs/general/data-structures/hash-table), which allows for highly efficient operations, especially when working with large data collections.
 
