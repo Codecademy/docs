@@ -24,7 +24,7 @@ A strong problem statement clearly identifies the **who**, **what**, and **why**
 Key elements often include:
 
 - **The user or persona affected**
-  Who is experiencing the problem? Be specific — frequent travelers, first-time users, or non-technical team members are better than just users.
+  Who is experiencing the problem? Be specific: frequent travelers, first-time users, or non-technical team members are better than just users.
 
 - **The specific problem or friction point**
   What is preventing them from achieving their goal? Is it time-consuming, confusing, inaccessible, or inefficient?
