@@ -34,7 +34,7 @@ my_set = set(iterable)
 
 **Return Value**
 
-- Returns a set object containing the specified elements
+- Returns a set object containing unique, unordered elements from the input.
 
 ## Example - Basic usage of set
 
