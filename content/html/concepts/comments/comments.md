@@ -113,4 +113,4 @@ Here's a practical example showing how to use HTML comments:
 
 This will render as follows:
 
-![HTML Comments B](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-comments-1.png)
+![HTML Comments B](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-comments-3.png)
