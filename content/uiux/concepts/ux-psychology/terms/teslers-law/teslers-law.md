@@ -59,7 +59,7 @@ Teslers Law applies to nearly every interaction where complexity can be shifted 
 ## How to Design with Teslers Law in Mind
 
 - _Automate when possible_
-  Autofill addresses, calculate totals, infer context — anything that spares the user from doing it manually.
+  Autofill addresses, calculate totals, infer context, anything that spares the user from doing it manually.
 
 - _Reduce decision-making points_
   Offer fewer, more meaningful options. Avoid overwhelming users with unnecessary choices.
