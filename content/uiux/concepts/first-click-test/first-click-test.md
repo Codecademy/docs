@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**First Click Testing** is a usability method used to evaluate the effectiveness of an interface's information hierarchy and design clarity. The test measures **where users click first** when asked to complete a task — and whether that first click puts them on the correct path.
+**First Click Testing** is a usability method used to evaluate the effectiveness of an interface's information hierarchy and design clarity. The test measures _where users click first_ when asked to complete a task — and whether that first click puts them on the correct path.
 
 It is based on a simple but powerful insight:
 
@@ -22,11 +22,11 @@ Analyzing these initial interactions allows teams to spot usability issues early
 
 ## What It Measures
 
-First Click Testing is focused on **user decision-making at the very start of a task**. It helps identify whether users understand what to do next, and whether your interface intuitively supports their goals.
+First Click Testing is focused on _user decision-making at the very start of a task_. It helps identify whether users understand what to do next, and whether your interface intuitively supports their goals.
 
 Key metrics include:
 
-- **Click accuracy** – Did users click the correct item or path first?
-- **Time to first click** – How long did it take them to decide?
-- **User confidence** – How confident were they in their choice?
-- **Completion rate** – Did they finish the task successfully after the first click?
+- _Click accuracy_ – Did users click the correct item or path first?
+- _Time to first click_ – How long did it take them to decide?
+- _User confidence_ – How confident were they in their choice?
+- _Completion rate_ – Did they finish the task successfully after the first click?
