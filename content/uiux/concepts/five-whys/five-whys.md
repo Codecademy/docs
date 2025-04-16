@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_The Five Whys_ is a user research and root cause analysis technique that helps identify the underlying reason behind a user behavior or problem by asking **"why" five times**. It is often used in [UX research](https://www.codecademy.com/resources/docs/uiux/user-research), usability testing, and post-mortem processes to dig beyond surface-level observations.
+**The Five Whys** is a user research and root cause analysis technique that helps identify the underlying reason behind a user behavior or problem by asking **"why" five times**. It is often used in [UX research](https://www.codecademy.com/resources/docs/uiux/user-research), usability testing, and post-mortem processes to dig beyond surface-level observations.
 
 This method was originally developed by Sakichi Toyoda and is widely used in lean manufacturing and Six Sigma. In UX, it provides insights into user motivation, pain points, and systemic design flaws.
 
