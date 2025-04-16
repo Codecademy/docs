@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_Think Aloud Protocol_ is a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method where participants are asked to verbalize their thoughts while completing a task. This technique provides insight into the user's decision-making process, confusion points, and assumptions, all in real time.
+**Think Aloud Protocol** is a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method where participants are asked to verbalize their thoughts while completing a task. This technique provides insight into the user's decision-making process, confusion points, and assumptions, all in real time.
 
 It is widely used in usability testing to understand how users perceive and interact with a product or interface. Researchers listen, observe, and record the participant's spoken thoughts to gain a deeper understanding of user experience.
 
