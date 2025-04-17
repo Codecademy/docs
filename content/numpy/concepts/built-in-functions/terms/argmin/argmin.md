@@ -21,7 +21,7 @@ This function is commonly used in data analysis and numerical computations to qu
 ## Syntax
 
 ```pseudo
-numpy.argmin(a, axis=None, out=None)
+numpy.argmin(a, axis=None, out=None, keepdims=<no value>)
 ```
 
 ### Parameters
