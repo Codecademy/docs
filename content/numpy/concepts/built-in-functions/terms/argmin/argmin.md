@@ -14,7 +14,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.argmin()`** function in NumPy identifies the index of the smallest value in an array. When working with multi-dimensional arrays, it can also return the index position along a specified axis.
+The **`.argmin()`** function in NumPy is used to find the index of the smallest value in a NumPy array. It works on both 1D and multi-dimensional arrays, and when an axis is specified, it returns the index of the minimum value along that axis. 
+
+This function is commonly used in data analysis and numerical computations to quickly locate the position of the lowest value in an array.
 
 ## Syntax
 
