@@ -26,9 +26,9 @@ numpy.argmin(a, axis=None, out=None)
 
 ### Parameters
 
-- `a`: (Required) The input array containing values to evaluate.
-- `axis`: (Optional) The axis along which to find the minimum. If not provided, the array is flattened before computation.
-- `out`: (Optional) An alternative array to store the result. It must be the correct shape.
+- `a`: The input array containing values to evaluate.
+- `axis` (Optional): The axis along which to find the index of the minimum value. If not specified, the array is flattened and the index of the global minimum is returned.
+- `out` (Optional): An alternative array to store the result. It must have the appropriate shape and data type.
 
 ### Returns
 
