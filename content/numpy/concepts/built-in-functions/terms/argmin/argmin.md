@@ -1,13 +1,12 @@
 ---
 Title: '.argmin()'
-Description: 'Finds the index of the minimum value in a NumPy array or along a specified axis.'
-
+Description: 'Finds the index of the minimum value in a NumPy array, either across the entire array or along a specified axis.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Data Structures'
   - 'Arrays'
+  - 'Data Structures'
   - 'Functions'
   - 'NumPy'
 CatalogContent:
