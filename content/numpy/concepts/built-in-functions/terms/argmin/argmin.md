@@ -39,7 +39,7 @@ numpy.argmin(a, axis=None, out=None, keepdims=<no value>)
 
 Below is an example of using `.argmin()` on a 2-dimensional array to find index positions of minimum values:
 
-```python
+```py
 import numpy as np
 
 arr = np.array([[6, 3, 8],
