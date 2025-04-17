@@ -50,7 +50,8 @@ print(np.argmin(arr, axis=0))     # Minimum indices along columns
 print(np.argmin(arr, axis=1))     # Minimum indices along rows
 ```
 
-**Output:**
+This code produces the output as follows:
+
 ```shell
 4
 [1 1 0]
