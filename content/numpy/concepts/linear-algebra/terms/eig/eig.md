@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`.eig()`** function in NumPy's linear algebra module computes the eigenvalues and right eigenvectors of a square matrix. Eigendecomposition is a fundamental matrix factorization method that breaks down a matrix into its constituent eigenvalues and eigenvectors, revealing important properties about the linear transformation represented by the matrix.
 
-Eigenvalues and eigenvectors are essential in various applications, including principal component analysis (PCA), solving differential equations, quantum mechanics, vibration analysis, and stability analysis. They provide insights about a matrix's behavior, such as its scaling properties, diagonalizability, and characteristic dynamics.
+Eigenvalues and eigenvectors are essential in various applications, including [Principal Component Analysis (PCA)](https://www.codecademy.com/article/principal-component-analysis-intro), solving differential equations, quantum mechanics, vibration analysis, and stability analysis. They provide insights about a matrix's behavior, such as its scaling properties, diagonalizability, and characteristic dynamics.
 
 ## Syntax
 
@@ -35,7 +35,7 @@ numpy.linalg.eig(a)
 
 **Notes:**
 
-- For non-symmetric matrices, the left eigenvectors can be obtained by using `eig(a.T)`.
+- `eig()` computes right eigenvectors. To obtain left eigenvectors, compute the right eigenvectors of the transposed matrix: `v_left = np.linalg.eig(a.T)[1]`.
 - Eigenvalues may be complex even for real matrices.
 - The eigenvectors are normalized to have unit length.
 
@@ -68,7 +68,7 @@ print("A * v:", np.dot(A, eigenvectors[:, 0]))
 print("lambda * v:", eigenvalues[0] * eigenvectors[:, 0])
 print(
   "Are they equal?",
-  np.allclose(np.dot(A, eigenvectors[:, 0]), eigenvalues[0] *eigenvectors[:, 0])
+  np.allclose(np.dot(A, eigenvectors[:, 0]), eigenvalues[0] * eigenvectors[:, 0])
 )
 ```
 
@@ -148,7 +148,7 @@ Are they equal? True
 
 This example demonstrates how the `eig()` function handles matrices with complex eigenvalues. The rotation matrix B has eigenvalues `1j` and `-1j`, illustrating how complex eigenvalues often indicate rotational transformations.
 
-## Example 3: Eigendecomposition of a Symmetric Matrix
+## Codebyte Example: Eigendecomposition of a Symmetric Matrix
 
 This example explores the special properties of eigendecomposition for symmetric matrices:
 
@@ -181,28 +181,3 @@ print("\nReconstruction of C:")
 print(reconstructed)
 print("Is reconstruction accurate?", np.allclose(C, reconstructed))
 ```
-
-This example results in the following output:
-
-```shell
-Symmetric matrix C:
-[[2 1]
- [1 2]]
-
-Eigenvalues:
-[3. 1.]
-
-Eigenvectors:
-[[0.70710678 0.70710678]
- [0.70710678 -0.70710678]]
-
-Are eigenvectors orthogonal?
-v1 • v2 = 0.0
-
-Reconstruction of C:
-[[2. 1.]
- [1. 2.]]
-Is reconstruction accurate? True
-```
-
-This example highlights that for symmetric matrices, eigenvalues are always real, and eigenvectors form an orthogonal basis. The matrix can be perfectly reconstructed using the eigendecomposition formula A = QΛQ^T, where Q contains the eigenvectors and Λ is a diagonal matrix of eigenvalues.
