@@ -24,25 +24,23 @@ Image.point(lut, mode=None)
 **Parameters:**
 
 - `lut`: This parameter can be:
-  - A lookup table: A list or sequence with 256 values (or 65536 for 16-bit images) per band.
+  - A lookup table: A list or sequence with 256 values for 8-bit images per band (e.g., 768 values for RGB). For 16-bit images, 65536 values are required per band.
   - A function: Takes a single integer (0–255) and returns a value. It’s called once for each possible pixel value to build a lookup table internally.
-
-- `mode` *(optional, str)*:
-The mode of the output image. Use this if you want to change the image type during transformation.  
-  Common modes include:
+- `mode` (optional, str): The mode of the output image. Use this if you want to change the image type during transformation. Common modes include:
   - `"L"`: 8-bit pixels, black and white (grayscale)
   - `"RGB"`: 3x8-bit pixels, true color
-  - `"RGBA"`: 4x8-bit pixels, true color with transparency
-  - `"1"`: 1-bit pixels, black and white, stored with one pixel per byte
+  - `"RGBA"`: 4x8-bit pixels, true color with alpha channel
+  - `"1"`: 1-bit pixels, black and white
   - `"P"`: 8-bit pixels, mapped to any other mode using a color palette
 
-  ⚠️ *Most uses of `.point()` don’t require this argument unless you’re explicitly changing image type (e.g., converting grayscale to binary).*
+> **Note:** Most uses of `.point()` don’t require the argument `mode` unless there is a need to explicitly change the image type (e.g., converting grayscale to binary).
 
-**Returns value:**
-* A new `image` object with the transformed pixel data.
+**Return value:**
 
+A new `Image` object with the transformed pixel data.
 
 ## Example
+
 This example creates a horizontal grayscale gradient, inverts it using `.point()`, and saves the result:
 
 ```py
@@ -61,13 +59,7 @@ inverted = image.point(lambda p: 255 - p)
 # Save
 inverted.save("inverted-gradient.png")
 ```
-## Output:
-![Output image](https://raw.githubusercontent.com/Codecademy/docs/main/media/inverted-gradient.png)
 
+This example generates the output as follows:
 
-
-
-
-
-
-
+![Output image containing horizontal grayscale gradient](https://raw.githubusercontent.com/Codecademy/docs/main/media/inverted-gradient.png)
