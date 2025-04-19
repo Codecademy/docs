@@ -27,6 +27,47 @@ The Web Content Accessibility Guidelines (WCAG) break down accessibility into [f
 
 [Inclusive design](https://www.codecademy.com/resources/docs/uiux/design-methodologies/inclusive-design) focuses on designing for users of all demographics and abilities, while accessibility is specifically focused on designing for people with disabilities. Any product that doesn't consider accessibility and equity may (whether intentionally or not) exclude a portion of the population who would otherwise find it useful.
 
+## What Accessibility Looks Like in Practice
+
+Accessible UX design requires intentionality at every stage, from wireframing to testing:
+
+- _Use semantic HTML structure and headings_  
+  Proper use of elements like `<main>`, `<nav>`, `<section>`, and heading levels improves navigation for screen readers.
+
+- _Ensure color contrast meets minimum thresholds_  
+  Text and interactive elements must be readable in low-light conditions and by users with visual impairments.
+
+- _Label form fields and inputs clearly_  
+  Labels, placeholders, and instructions should be provided with screen-reader-accessible markup.
+
+- _Avoid using color alone to convey meaning_  
+  Use text, icons, or shapes in addition to color cues to support color-blind users.
+
+- _Design keyboard-accessible navigation_  
+  Users should be able to navigate and interact with all elements using just a keyboard.
+
+- _Write meaningful link text_  
+  Avoid vague labels like “click here”. Instead describe the purpose of each link clearly.
+
+> _Note: Accessibility is not just a legal or ethical requirement. It improves usability for all users, including those using small screens, older devices, or assistive technologies._
+
+## Challenges Designers Should Consider
+
+- _Animations and motion_  
+  Ensure that animations respect the user's motion preference settings and avoid triggering vestibular disorders.
+
+- _Alt text and media description_  
+  Every image, chart, or embedded media must include an appropriate description for non-visual consumption.
+
+- _Language and cognitive load_  
+  Avoid jargon, acronyms, or long blocks of text that can overwhelm users with cognitive disabilities or non-native fluency.
+
+- _Touch targets_  
+  Buttons and links must be large enough and spaced adequately for users with limited motor control.
+
+- _Testing tools may not catch everything_  
+  Automated tools like axe or Lighthouse can help, but manual testing with screen readers or diverse users is still essential.
+
 ## Resources
 
 - [Codecademy: What is Digital Accessibility?](https://www.codecademy.com/article/what-is-digital-accessibility)
