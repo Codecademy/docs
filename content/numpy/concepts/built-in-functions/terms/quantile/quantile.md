@@ -9,13 +9,12 @@ Tags:
   - 'Data'
   - 'Functions'
   - 'Methods'
-  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-The **`.quantile()`** function returns the qth quantile of an array along a specified axis. Quantiles are the division points that separate a data set into equal probabilities. For example, the 25th quantile is the point which 25% of the data set falls below.
+The **`.quantile()`** function in NumPy returns the qth quantile of an array along a specified axis. Quantiles are the division points that separate a data set into equal probabilities. For example, the 25th quantile is the point which 25% of the data set falls below.
 
 ## Syntax
 
@@ -30,7 +29,7 @@ numpy.quantile(a, q, axis=None, out=None, overwrite_input=False, method='linear'
 - `axis` (Optional): The axis or axes on which to calculate the quantile. `axis=0` computes along columns, and `axis=1` computes along rows. If set to `None` (default), the input is flattened before computation.
 - `out` (Optional): Specifies a different array in which to place the result. It must have the same shape as the expected result.
 - `overwrite_input` (Optional): If `True`, the input array `a` may be modified to save memory. Default is `False`.
-- `method` (Optional): The method used to compute the quantile. The default is `'linear'`. Valid options include: `'inverted_cdf'`, `'averaged_inverted_cdf'`, `'closest_observation'`, `'interpolated_inverted_cdf'`, `'hazen'`, `'weibull'`, `'median_unbiased'`, and `'normal_unbiased'`.
+- `method` (Optional): The method used to calculate the quantile. The default is `'linear'`. Valid options include: `'inverted_cdf'`, `'averaged_inverted_cdf'`, `'closest_observation'`, `'interpolated_inverted_cdf'`, `'hazen'`, `'weibull'`, `'median_unbiased'`, and `'normal_unbiased'`.
   `keepdims` (Optional): If `True`, the reduced axes are retained with size one, maintaining the number of dimensions in the output.
   `weights` (Optional): An array of weights corresponding to values in `a`, used to influence the quantile calculation. This parameter is only supported by the `'inverted_cdf'` method. The shape of `weights` must either match `a`, or be 1-dimensional with a length equal to `a` when flattened.
 
@@ -40,7 +39,7 @@ The `.quantile()` function returns the qth quantile(s) of an array as a NumPy ar
 
 ## Example: Computing multiple quantiles from data
 
-The following example creates an array and then uses the `.quantile()` to calculate various quantiles from the data:
+The following example creates an array and then uses `.quantile()` to calculate various quantiles from the data:
 
 ```py
 import numpy as np
@@ -72,7 +71,7 @@ This code produces the following output:
 
 ## Codebyte Example
 
-The following example computes various quantiles for an input array, `a`:
+The following codebyte example computes various quantiles for an input array, `a`:
 
 ```codebyte/python
 import numpy as np
