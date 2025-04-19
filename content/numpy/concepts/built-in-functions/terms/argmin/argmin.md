@@ -24,14 +24,14 @@ This method is often utilized in computational tasks and data analysis to determ
 numpy.argmin(a, axis=None, out=None, keepdims=<no value>)
 ```
 
-### Parameters
+**Parameters:**
 
 - `a`: Input array containing values for evaluation.
-- `axis` (Optional): Specifies the axis along which to determine the index of the minimum value. If omitted, the array is flattened and the index of the global minimum is returned.
-- `out` (Optional): Optional array to place the output. Shape and data type must be compatible.
+- `axis` (Optional): Axis along which to find the indices of minimum values. If `None` (default), the array is flattened before computation.
+- `out` (Optional): If provided, the result will be inserted into this array. It must have the appropriate shape to hold the output.
+- `keepdims` (Optional): If set to `True`, the reduced axes are left in the result as dimensions with size one, which maintains the original number of dimensions. Useful for broadcasting.
 
-### Returns
-
+**Return value:**
 - Without specifying `axis`, returns a scalar index of the smallest value in the flattened array.
 - With an axis specified, returns an array with indices of the minimum values along that axis.
 
@@ -50,7 +50,7 @@ print(np.argmin(arr, axis=0))     # Minimum indices along columns
 print(np.argmin(arr, axis=1))     # Minimum indices along rows
 ```
 
-Expected output:
+The output produced by the exammple code will be:
 
 ```shell
 4
