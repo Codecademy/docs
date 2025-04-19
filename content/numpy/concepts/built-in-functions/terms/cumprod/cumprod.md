@@ -53,6 +53,8 @@ print("Original Array:", array)
 print("Cumulative Product:", cumulative_product)
 ```
 
+The code produces the following output:
+
 ```shell
 Original Array: [1 2 3 4 5]
 Cumulative Product: [ 1 2 6 24 120]
