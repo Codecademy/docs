@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In NumPy, the **`.cumprod()`** function computes the cumulative product of elements in an array along a specified axis.
+In NumPy, the **`.cumprod()`** function computes the cumulative product of elements in an array along a specified axis. Each element in the result is the product of all preceding elements (including the current one) along the chosen axis.
 
 ## Syntax
 
@@ -24,14 +24,14 @@ numpy.cumprod(a, axis=None, dtype=None, out=None)
 
 **Parameters:**
 
-- `a`: The array of elements to calculate the cumulative product of.
-- `axis` (Optional): Axis along which the cumulative product is computed. Default is `None`, meaning the product is computed over the flattened array.
-- `dtype` (Optional): The datatype of the returned array. If `None`, it defaults to the input array's `dtype`.
-- `out` (Optional): Alternative output array in which to place the result.
+- `a`: Input array for which the cumulative product is to be calculated.
+- `axis` (Optional): Axis along which the cumulative product is computed. Default is `None`, the input is flattened.
+- `dtype` (Optional): The data type of the output array. Defaults to the type of the input array.
+- `out` (Optional): Alternative output array to place the result. If provided, it must have the same shape as the expected output.
 
 **Return value:**
 
-Returns a new Numpy array containing the cumulative product of elements along the specified axis.
+Returns a NumPy array containing the cumulative product of elements along the specified axis.
 
 ## Example
 
@@ -60,7 +60,7 @@ Cumulative Product: [ 1 2 6 24 120]
 
 ## Codebyte Example
 
-Run the following codebyte example to better understand the `.cumprod()` function:
+Run this interactive code example to see how `.cumprod()` works for both 1D and 2D arrays with axis variation:
 
 ```codebyte/python
 import numpy as np
@@ -78,6 +78,6 @@ print("\n2D array:")
 print(matrix)
 print("\nCumulative product along columns (axis=0):")
 print(np.cumprod(matrix, axis=0))
-print("\Cumulative product along rows (axis=1):")
+print("\nCumulative product along rows (axis=1):")
 print(np.cumprod(matrix, axis=1))
 ```
