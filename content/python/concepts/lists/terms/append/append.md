@@ -1,6 +1,6 @@
 ---
 Title: '.append()'
-Description: 'Adds an item to the end of a list'
+Description: 'Adds a single item to the end of a list in Python.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.append()` method adds a single item to the end of an existing Python list. [Lists](https://www.codecademy.com/resources/docs/python/lists) in Python are mutable sequences that can store multiple items of different [data types](https://www.codecademy.com/resources/docs/python/data-types). When new elements need to be added to a list after it's been created, the `.append()` method provides a simple and efficient way to add items to the end of the list.
+The **`.append()`** method adds a single item to the end of an existing Python list. [Lists](https://www.codecademy.com/resources/docs/python/lists) in Python are mutable sequences that can store multiple items of different [data types](https://www.codecademy.com/resources/docs/python/data-types). When new elements need to be added to a list after it's been created, the `.append()` method provides a simple and efficient way to add items to the end of the list.
 
 ## Syntax
 
@@ -23,14 +23,16 @@ list.append(item)
 ```
 
 **Parameters:**
+
 - `item`: An element of any data type (string, number, list, etc.) to be added to the end of the list.
 
-**Return Value:**
-- The method doesn't return any value (returns `None`). It modifies the original list in-place.
+**Return value:**
 
-## Example 1 - Adding an item to a list
+The method doesn't return any value (returns `None`). It modifies the original list in-place.
 
-This example demonstrates how to add a simple item to the end of a list:
+## Example 1: Adding an item to a list
+
+This example demonstrates how to add an item to the end of a list:
 
 ```py
 # Create a list of fruits
@@ -49,9 +51,9 @@ This example results in the following output:
 ['apple', 'banana', 'cherry', 'orange']
 ```
 
-The original list `fruits` has been modified to include 'orange' as the last element. The `.append()` method added the new item directly to the end of the list.
+The original list `fruits` has been modified to include `'orange'` as the last element. The `.append()` method added the new item directly to the end of the list.
 
-## Example 2 - Adding list to a list
+## Example 2: Adding list to a list
 
 When appending a list to another list, the entire list is added as a single element:
 
@@ -77,7 +79,7 @@ This example will generate the following output:
 
 Notice that the `berries` list has been added as a single item to the `fruits` list, creating a nested list structure. To add each element individually instead, the [`.extend()`](https://www.codecademy.com/resources/docs/python/lists/extend) method would be more appropriate.
 
-## Codebyte example
+## Codebyte example: Demonstrating `.append()` in Python
 
 ```codebyte/python
 # Create an empty shopping list
@@ -104,11 +106,11 @@ print("Final shopping list:", shopping_list)
 print("Dairy items:", shopping_list[4])
 ```
 
-## Frequently asked questions
+## Frequently Asked Questions
 
-### 1. What is append and extend in Python?
+### 1. What is `.append()` and `.extend()` in Python?
 
-**Append** adds a single item to the end of a list as one element, even if that item is itself a list. **Extend** adds individual elements from an iterable (like another list) to the end of the current list. For example:
+`.append()` adds a single item to the end of a list as one element, even if that item is itself a list. `.extend()` adds individual elements from an iterable (like another list) to the end of the current list. For example:
 
 ```py
 list1 = [1, 2, 3]
@@ -120,6 +122,7 @@ list2.extend([4, 5])  # Results in [1, 2, 3, 4, 5]
 ### 2. When can I use append?
 
 You can use `.append()` whenever you need to add a single item to the end of an existing list. Common use cases include:
+
 - Building a list dynamically as you collect data
 - Adding user input to a list
 - Accumulating results in a calculation
