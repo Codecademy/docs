@@ -1,20 +1,16 @@
-<<<<<<< HEAD
 ---
 Title: `.histogram()`
-Description: "Compute the histogram of an image."
+Description: 'Computes the histogram of an image.'
 Subjects:
-    - "Image Processing"
-    - "Computer Vision"
-    - "Data Analysis"
+  - 'Data Science'
+  - 'Data Visualization'
 Tags:
-    - "PIL"
-    - "Pillow"
-    - "Image Analysis"
-    - "Histogram"
-    - "Data Visualization"
+  - 'Images'
+  - 'Histograms'
+  - 'Pillow'
 CatalogContent:
-    - "learn-python-3"
-    - "paths/image-processing"
+  - "learn-python-3"
+  - "paths/image-processing"
 ---
 
 In Pillow, the **`.histogram()`** method is used to compute the histogram of an image. The histogram is a representation of the distribution of pixel values in the image, which can be useful for various image processing tasks, such as contrast adjustment and thresholding.
@@ -22,16 +18,15 @@ In Pillow, the **`.histogram()`** method is used to compute the histogram of an 
 ## Syntax
 
 ```pseudo
-Image.histogram(self, histogram=None, mask=None)
+Image.histogram(self, mask=None)
 ```
 
-## Parameters
+**Parameters:**
 
-- **`self`**: The image object for which the histogram is to be computed.
-- **`histogram`**: Optional. If provided, the histogram will be computed and stored in this list. If not provided, a new list will be created.
-- **`mask`**: Optional. A mask image that specifies which pixels to include in the histogram calculation. If not provided, all pixels are included.
+- `self`: The image object for which the histogram is to be computed.
+- `mask` (Optional): A mask image that specifies which pixels to include in the histogram calculation. If not provided, all pixels are included.
 
-## Return Value
+**Return Value:**
 
 Returns a list of integers representing the histogram of the image. The length of the list depends on the mode of the image:
 
@@ -40,9 +35,9 @@ Returns a list of integers representing the histogram of the image. The length o
 - For RGBA images, it will have 1024 values (256 for each channel plus an additional 256 for the alpha channel).
 - For other modes, the histogram will have a different number of values depending on the number of channels in the image.
 
-## Examples
+## Example 1: Plotting a Grayscale Image Histogram
 
-### Example of using `.histogram()` with grayscale images
+This example demonstrates how to convert an image to grayscale and plot its pixel value distribution using `.histogram()`:
 
 ```py
 from PIL import Image
@@ -65,9 +60,11 @@ plt.ylabel('Count')
 plt.show()
 ```
 
-In this example, we first open an image file and convert it to grayscale using the **`.convert('L')`** method. Then, we calculate the histogram using the **`.histogram()`** method and plot it using Matplotlib. The x-axis represents the pixel values, and the y-axis represents the count of pixels for each value.
+In this example, we first open an image file and convert it to grayscale using the [`.convert()`](https://www.codecademy.com/resources/docs/pillow/image/convert) method. Then, we calculate the histogram using the `.histogram()` method and plot it using Matplotlib. The x-axis represents the pixel values, and the y-axis represents the count of pixels for each value.
 
-### Example of using `.histogram()` with RGB images
+### Example 2: Visualizing Histogram Data for RGB Images
+
+This example shows how to compute and plot the pixel distribution of an RGB image using `.histogram()`:
 
 ```py
 from PIL import Image
@@ -87,9 +84,11 @@ plt.ylabel('Count')
 plt.show()
 ```
 
-In this example, we open an RGB image and calculate its histogram. The histogram will have 768 values (256 for each of the three channels: red, green, and blue). The plot will show the distribution of pixel values across all three channels.
+In this example, we open an RGB image and generate its histogram. The histogram will have 768 values (256 for each of the three channels: red, green, and blue). The plot will show the distribution of pixel values across all three channels.
 
-### Example of using `.histogram()` with transparency (RGBA images)
+### Example 3: Using `.histogram()` with transparency (RGBA images)
+
+This example illustrates how to generate a histogram for an RGBA image, including the alpha (transparency) channel:
 
 ```py
 from PIL import Image
@@ -109,4 +108,4 @@ plt.ylabel('Count')
 plt.show()
 ```
 
-In this example, we open an RGBA image and calculate its histogram. The histogram will have 1024 values (256 for each of the four channels: red, green, blue, and alpha). The plot will show the distribution of pixel values across all four channels.
+In this example, the histogram will have 1024 values (256 for each of the four channels: red, green, blue, and alpha). The plot will show the distribution of pixel values across all four channels.
