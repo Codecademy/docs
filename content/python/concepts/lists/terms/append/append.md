@@ -81,6 +81,8 @@ Notice that the `berries` list has been added as a single item to the `fruits` l
 
 ## Codebyte example: Demonstrating `.append()` in Python
 
+This example demonstrates how to use `.append()` to add various items including strings, numbers, and lists to a Python list:
+
 ```codebyte/python
 # Create an empty shopping list
 shopping_list = []
