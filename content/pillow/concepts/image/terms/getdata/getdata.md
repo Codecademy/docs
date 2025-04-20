@@ -1,5 +1,5 @@
 ---
-Title: 'getdata'
+Title: 'Image.getdata()'
 Description: 'Returns pixel values of an image as a sequence, useful for inspection and processing.'
 Subjects:
   - 'Pillow'
