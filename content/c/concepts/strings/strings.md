@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'Stores and manipulates sequences of characters in C programming.'
+Description: 'Strings in C programming are used to store and manipulate sequences of characters.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
