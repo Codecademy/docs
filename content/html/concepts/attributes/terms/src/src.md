@@ -74,7 +74,14 @@ The gif here shows how the video would be displayed:
 Here’s an example of embedding a YouTube video using the [`iframe`](https://www.codecademy.com/resources/docs/html/elements/iframe) element:
 
 ```html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0QHaxrUkSEU?list=PLFzsFUO-y0HCyF0smKSi0WMhbMR2mqz2V" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/0QHaxrUkSEU?list=PLFzsFUO-y0HCyF0smKSi0WMhbMR2mqz2V"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
 ```
 
 The following gif showcases how the output of this code would look like:
@@ -88,7 +95,6 @@ In this example, an embedded YouTube video is added to the webpage using the `if
 ### 1. What is the difference between URL and `src` in HTML?
 
 - **URL (Uniform Resource Locator)**: A URL is the address of a resource on the internet. It specifies the location of a resource (like an image, video, or webpage) using a protocol (e.g., `http://`, `https://`, `ftp://`) followed by the resource's location.
-  
 - **`src` (Source) Attribute**: The `src` attribute in HTML specifies the source location of embedded content (such as an image, video, or audio file). It points to a resource's URL or a local file path. The `src` attribute itself does not define a location on its own, but instead uses a URL to point to the location of an external or internal resource.
 
 ### 2. When to use `src` in HTML?
@@ -96,26 +102,31 @@ In this example, an embedded YouTube video is added to the webpage using the `if
 You use the `src` attribute when you want to embed external or internal content into an HTML page. Common scenarios include:
 
 - **Images**: To display an image using the `<img>` tag.
+
   ```html
-  <img src="image.jpg" alt="Image description">
+  <img src="image.jpg" alt="Image description" />
   ```
 
 - **Videos**: To embed a video using the `<video>` tag.
+
   ```html
   <video src="video.mp4" controls></video>
   ```
 
 - **Audio**: To embed audio using the `<audio>` tag.
+
   ```html
   <audio src="audio.mp3" controls></audio>
   ```
 
 - **External Scripts**: To include an external JavaScript file using the `<script>` tag.
+
   ```html
   <script src="script.js"></script>
   ```
 
 - **Other Content**: To link to other types of media, like `<iframe>` for embedding videos from YouTube or other external sources.
+
   ```html
   <iframe src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
   ```
