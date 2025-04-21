@@ -1,6 +1,6 @@
 ---
 Title: 'Five Whys'
-Description: 'The Five Whys is a user research technique that helps identify the underlying reason behind a user behavior or problem by asking why five times.'
+Description: 'The Five Whys identifies the root cause of a problem by asking why multiple times.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
