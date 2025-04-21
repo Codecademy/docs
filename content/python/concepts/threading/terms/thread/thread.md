@@ -123,14 +123,14 @@ print("Breakfast is ready!")
 
 ## Frequently Asked Questions
 
-### How to sleep a thread in Python?
+### 1. How to sleep a thread in Python?
 
 To sleep a thread in Python, use the [`time.sleep()`](https://www.codecademy.com/resources/docs/python/time-module/sleep) function. Import the [`time`](https://www.codecademy.com/resources/docs/python/time-module) module and call `time.sleep(seconds)` where `seconds` is the number of seconds to pause the thread. This is useful for simulating delays or implementing periodic tasks in python threading.
 
-### Is Pandas single-threaded?
+### 2. Is Pandas single-threaded?
 
 [Pandas](https://www.codecademy.com/resources/docs/pandas) is primarily single-threaded by default. Some operations can use multiple threads (like `read_csv` with `engine='pyarrow'`). 
 
-### Is Node.js single-threaded?
+### 3. Is Node.js single-threaded?
 
 Node.js operates on a single-threaded event loop model but handles concurrent operations through asynchronous callbacks. For true parallelism in Node.js, you can use the Worker Threads API or the cluster module.
