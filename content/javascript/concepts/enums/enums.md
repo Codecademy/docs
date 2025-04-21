@@ -1,80 +1,151 @@
 ---
 Title: 'Enums'
-Description: 'JavaScript has no support for a native enum type, but it is possible to define enums using Objects.'
+Description: 'Enums are a data type that can hold a finite number of defined immutable values.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Arrays'
   - 'Data Types'
+  - 'Enum'
+  - 'JavaScript'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-JavaScript has no support for a native **enum** type, but it is possible to define enums using `Object`s. In general, enums are a type that can hold a finite number of defined values. The values in enums are not mutable.
+In general, **enums** are a data type that can hold a finite number of defined values. The values in enums are not mutable. Though JavaScript has no support for a native enum type, it is possible to define enums using various approaches. These approaches make the code more expressive, self-documenting, and less error-prone.
 
-## Implementing an Enum in JavaScript
+## Implementing JavaScript Enums
 
-A way to implement an enum in JavaScript by creating an `Object` of key/value pairs and using the `Object.freeze()` function to make it immutable:
+There are three ways to implement enums in JavaScript:
 
-<!-- prettier-ignore-start -->
+- Using plain objects
+- Using `Object.freeze()`
+- Using Symbols
+
+### Using Plain Objects
+
+The simplest way to create JavaScript enums is by using plain objects:
+
 ```js
-const directions = Object.freeze({ 
-  north: 0,
-  south: 1,
-  east: 2,
-  west: 3
+const directions = {
+  NORTH: 0,
+  SOUTH: 1,
+  EAST: 2,
+  WEST: 3,
+};
+```
+
+The enum can then be used as follows:
+
+```js
+let direction = directions.NORTH;
+```
+
+This approach is straightforward and works well for most use cases, but the values can still be modified unless it is explicitly prevented.
+
+### Using `Object.freeze()`
+
+The `Object.freeze()` method is used to create an immutable JavaScript enum:
+
+```js
+const directions = Object.freeze({
+  NORTH: 0,
+  SOUTH: 1,
+  EAST: 2,
+  WEST: 3,
 });
 ```
-<!-- prettier-ignore-end -->
 
-The enum can be used as follows:
+This approach ensures that the object and its values cannot be changed, providing a more robust and predictable enum.
 
-```js
-let d = directions.north;
-```
+### Using Symbols
 
-All possible enum values can be listed as follows:
+Symbols are used to create truly unique enum values that are not prone to accidental collisions:
 
 ```js
-Object.keys(directions).forEach((direction) =>
-  console.log('direction:', direction)
-);
+const directions = {
+  NORTH: Symbol(0),
+  SOUTH: Symbol(1),
+  EAST: Symbol(2),
+  WEST: Symbol(3),
+};
 ```
 
-This would produce the output:
+This approach guarantees uniqueness and is ideal when there is a need to create enum values that should not clash or be compared to other values carelessly.
+
+## Example 1: Traffic Light Management
+
+This example uses JavaScript enums to display the current traffic light:
+
+```js
+const TrafficLight = Object.freeze({
+  RED: 'RED',
+  YELLOW: 'YELLOW',
+  GREEN: 'GREEN',
+});
+
+const currentTrafficLight = TrafficLight.GREEN;
+
+console.log(currentTrafficLight);
+```
+
+The output for the example will be:
 
 ```shell
-direction: north
-direction: south
-direction: east
-direction: west
+GREEN
 ```
 
-## Codebyte Example
+## Example 2: Order Status Handling
 
-This codebyte example demonstrates the creation of an `enum` using `Object.freeze()`, how to use the enum values, and list all possible enum values:
+This example uses JavaScript enums to display the order status:
+
+```js
+const StatusOptions = Object.freeze({
+  PENDING: 'PENDING',
+  SHIPPED: 'SHIPPED',
+  DELIVERED: 'DELIVERED',
+  CANCELED: 'CANCELED',
+});
+
+const orderStatus = StatusOptions.DELIVERED;
+
+console.log(orderStatus);
+```
+
+The output for the example will be:
+
+```shell
+DELIVERED
+```
+
+## Codebyte Example: Role-Based Access Control
+
+This codebyte example uses JavaScript enums to display the access level based on the user role:
 
 ```codebyte/javascript
 const UserRoles = Object.freeze({
-  ADMIN: 'admin',
-  EDITOR: 'editor',
-  VIEWER: 'viewer'
+  ADMIN: 'ADMIN',
+  EDITOR: 'EDITOR',
+  VIEWER: 'VIEWER'
 });
 
-let userRole = UserRoles.ADMIN;
+const userRole = UserRoles.ADMIN;
+
 console.log(userRole);
-
-function canEdit(userRole) {
-  return userRole === UserRoles.ADMIN || userRole === UserRoles.EDITOR;
-}
-
-console.log(canEdit(UserRoles.ADMIN));
-console.log(canEdit(UserRoles.EDITOR));
-console.log(canEdit(UserRoles.VIEWER));
-
-Object.keys(UserRoles).forEach((role) =>
-  console.log('role:', role)
-);
 ```
+
+## Frequently Asked Questions
+
+### 1. Can enums be iterated in JavaScript?
+
+Yes. If you use plain objects, you can iterate enums using `Object.keys()` or `Object.values()`. However, enums using Symbols cannot be easily iterated since Symbols are not enumerable by default.
+
+### 2. Are JavaScript enums good for performance?
+
+JavaScript enums generally have negligible performance overhead. In fact, they can improve performance indirectly by reducing bugs and logical errors in your code.
+
+### 3. When should I avoid using enums in JavaScript?
+
+Avoid enums when your values are unlikely to repeat or belong to a limited set. In such cases, using simple variables or constants might be more appropriate. Also, overusing enums for trivial values can make code unnecessarily complex.
