@@ -35,9 +35,9 @@ pip install pillow
 Pillow operations typically follow a clear, intuitive workflow:
 
 - Import the necessary classes from the `PIL` module
-- Open an image using `Image.open()`
+- Open an image using [`Image.open()`](https://www.codecademy.com/resources/docs/pillow/image/open)
 - Apply transformations like resizing, rotating, or filtering
-- Save the final output using `Image.save()`
+- Save the final output using [`Image.save()`](https://www.codecademy.com/resources/docs/pillow/image/save)
 
 ## Who Uses Pillow
 
