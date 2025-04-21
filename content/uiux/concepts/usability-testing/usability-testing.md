@@ -1,6 +1,6 @@
 ---
 Title: 'Usability Testing'
-Description: 'Usability testing uncovers pain points, confusion, and usability issues.'
+Description: 'Usability Testing evaluates how effectively users complete tasks using a product or interface.'
 Subjects:
   - 'Web Design'
 Tags:
