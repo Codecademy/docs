@@ -1,6 +1,6 @@
 ---
 Title: 'First Click Test'
-Description: 'The First Click Test is a usability testing method that evaluates where users click first when trying to complete a specific task on an interface.'
+Description: 'First Click Test evaluates where users click first to measure interface clarity and usability.'
 Subjects:
   - 'Web Design'
 Tags:
