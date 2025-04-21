@@ -1,6 +1,6 @@
 ---
 Title: 'Hypothesis'
-Description: 'In UX design, a hypothesis is a testable statement or assumption about user behavior or experience, often used to guide research and iterative improvement.'
+Description: 'Hypothesis defines a testable statement used to predict user behavior and guide UX research.'
 Subjects:
   - 'Web Design'
 Tags:
