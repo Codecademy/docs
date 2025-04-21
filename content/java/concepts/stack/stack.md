@@ -1,6 +1,6 @@
 ---
 Title: 'Stack'
-Description: 'Represents a last-in, first-out data structure for storing objects'
+Description: 'Represents a last-in, first-out data structure for storing objects.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,13 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **stack** in Java represents a *last-in, first-out* (LIFO) data structure for storing objects. It is implemented as the `Stack` class within the `java.util` package and extends the `Vector` class. A stack allows operations such as pushing items to the top, popping items off the top, and peeking at the top item without removing it.
+A **stack** in Java represents a _last-in, first-out_ (LIFO) data structure for storing objects. It is implemented as the `Stack` class within the `java.util` package and extends the `Vector` class. A stack allows operations such as pushing items to the top, popping items off the top, and peeking at the top item without removing it.
 
 Stacks are commonly used in programming problems involving recursion, expression evaluation, undo functionality, and backtracking algorithms.
 
-
-A common use of stacks is implementing the *undo* feature in text editors. Each action a user takes (e.g., typing a character) is pushed onto a stack. When the undo command is triggered, the most recent action is popped from the stack and reversed.
-
+A common use of stacks is implementing the _undo_ feature in text editors. Each action a user takes (e.g., typing a character) is pushed onto a stack. When the undo command is triggered, the most recent action is popped from the stack and reversed.
 
 To use the `Stack` class, it must first be imported using:
 
@@ -27,7 +25,7 @@ To use the `Stack` class, it must first be imported using:
 import java.util.Stack;
 ```
 
-Since Java 1.6, there is a more recent implementation of LIFO stack operations, the [`Deque`](https://www.codecademy.com/resources/docs/java/deque) interface. As stated in the JDK documentation, `Deque` interface should be used in preference to the legacy `Stack` class. Whenever a `Deque` is used as a `Stack`, elements are pushed and popped from the beginning of the `Deque`. The table below shows the equivalent methods between `Stack` and `Deque`:
+Since Java 1.6, the [`Deque`](https://www.codecademy.com/resources/docs/java/deque) interface has provided a more modern and efficient way to implement LIFO stack operations. According to the JDK documentation, `Deque` should be used in preference to the legacy `Stack` class.
 
 | `Stack` method | Equivalent `Deque` method |
 | :------------: | :-----------------------: |
@@ -103,7 +101,7 @@ Position of Java: 2
 
 ### 1. What is a stack in Java?
 
-A stack is a linear data structure that follows the *last-in, first-out* (LIFO) principle. In Java, it is represented by the `Stack` class in the `java.util` package.
+A stack is a linear data structure that follows the _last-in, first-out_ (LIFO) principle. In Java, it is represented by the `Stack` class in the `java.util` package.
 
 ### 2. How do you implement a stack in Java?
 
