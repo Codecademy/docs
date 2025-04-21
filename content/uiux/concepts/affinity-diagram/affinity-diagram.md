@@ -1,6 +1,6 @@
 ---
 Title: 'Affinity Diagram'
-Description: 'Organizes qualitative data into clusters to identify themes and insights.'
+Description: 'Affinity Diagram organizes qualitative data into clusters to identify themes and insights.'
 Subjects:
   - 'Web Design'
 Tags:
