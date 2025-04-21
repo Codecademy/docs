@@ -1,6 +1,6 @@
 ---
 Title: 'Five Second Test'
-Description: 'The Five Second Test is a UX research method that evaluates what users recall and understand after viewing a design for five seconds.'
+Description: 'The Five Second Test captures user thought processes during task completion by having participants verbalize their actions.'
 Subjects:
   - 'Web Design'
 Tags:
