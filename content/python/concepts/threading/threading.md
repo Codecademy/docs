@@ -34,7 +34,7 @@ The following example features five threads that are created, started, and end a
 ```py
 import threading, time, random
 
-# simulates waiting time (e.g., an API call/response)
+# Simulates waiting time (e.g., an API call/response)
 def slow_function(thread_index):
   time.sleep(random.randint(1, 10))
   print("Thread {} done!".format(thread_index))
@@ -47,7 +47,7 @@ def run_threads():
     threads.append(individual_thread)
     individual_thread.start()
 
-  # at this point threads are running independently from the main flow of application and each other
+  # At this point, threads are running independently from the main flow of application and each other
   print("Main flow of application")
 
   # This ensures that all threads finish before the main flow of application continues
@@ -59,7 +59,7 @@ def run_threads():
 run_threads()
 ```
 
-This results in the following output:
+The output for the example will be:
 
 ```shell
 Main flow of application
@@ -85,7 +85,7 @@ Python threading offers several advantages and is particularly useful in specifi
 
 5. **Concurrent Processing**: For operations that can run independently, threading allows concurrent execution, improving overall throughput.
 
-**Common use cases for threading include**:
+Common use cases for threading include:
 
 - Web scrapers and crawlers
 - Server applications handling multiple client connections
@@ -101,11 +101,12 @@ Neither is universally better. **Asyncio** uses coroutines for cooperative multi
 
 ### 2. Is Python single-threaded or multithreaded?
 
-Python supports **multithreading**, but the Global Interpreter Lock (GIL) in CPython allows only one thread to execute Python bytecode at any moment. This means Python can run multiple threads simultaneously for I/O operations, but CPU-bound Python threads won't get true parallel execution in the standard implementation.
+Python supports **multithreading**, but the Global Interpreter Lock (GIL) in CPython allows only a single thread to execute Python bytecode at any moment. This means Python can run multiple threads simultaneously for I/O operations, but CPU-bound Python threads won't get true parallel execution in the standard implementation.
 
 ### 3. How many Python threads can I run?
 
 The practical limit depends on:
+
 - Available system memory
 - CPU resources
 - Nature of the workload (I/O vs CPU bound)
@@ -114,8 +115,8 @@ For I/O-bound applications, 10-100 threads is typically effective. Beyond that, 
 
 ### 4. What is the difference between a thread and a process?
 
-- **Memory**: Threads share memory; processes have separate memory spaces
-- **Resources**: Threads are lightweight; processes have higher overhead
-- **Communication**: Threads use shared memory; processes require IPC
-- **Isolation**: Thread crashes can affect other threads; processes are isolated
-- **Parallelism**: In Python, the GIL limits thread parallelism for CPU tasks; processes can run truly in parallel
+- **Memory**: Threads share memory; processes have separate memory spaces.
+- **Resources**: Threads are lightweight; processes have higher overhead.
+- **Communication**: Threads use shared memory; processes require IPC.
+- **Isolation**: Thread crashes can affect other threads; processes are isolated.
+- **Parallelism**: In Python, the GIL limits thread parallelism for CPU tasks; processes can run truly in parallel.
