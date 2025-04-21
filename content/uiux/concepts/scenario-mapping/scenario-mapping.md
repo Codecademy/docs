@@ -1,6 +1,6 @@
 ---
 Title: 'Scenario Mapping'
-Description: 'Scenario Mapping is a collaborative UX method used to explore and prioritize user goals, pain points, and actions across various situations.'
+Description: 'Scenario Mapping visualizes how users interact with a product in various real-world situations to identify needs and opportunities.'
 Subjects:
   - 'Web Design'
 Tags:
