@@ -1,6 +1,6 @@
 ---
 Title: 'Think Aloud Protocol'
-Description: 'Think Aloud Protocol is a user research method where participants verbalize their thoughts while completing tasks, allowing researchers to capture in-the-moment insights.'
+Description: 'Think Aloud Protocol captures user thought processes during task completion by having participants verbalize their actions.'
 Subjects:
   - 'Web Design'
 Tags:
