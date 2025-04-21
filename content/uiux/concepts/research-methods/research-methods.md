@@ -1,6 +1,6 @@
 ---
 Title: 'Research Methods'
-Description: 'Research methods in UX are structured techniques used to gather qualitative and quantitative data about user behavior, needs, and pain points.'
+Description: 'Research methods uses structured techniques to gather data about user behavior, needs, and pain points.'
 Subjects:
   - 'Web Design'
 Tags:
