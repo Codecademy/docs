@@ -1,6 +1,6 @@
 ---
 Title: 'Teslers Law'
-Description: 'Teslers Law, also known as the Law of Conservation of Complexity, states that every application has an inherent complexity that must be handled either by the system or the user.'
+Description: 'Teslers Law states that every product has complexity that must be handled by the user, the system, or the designer.'
 Subjects:
   - 'Web Design'
 Tags:
