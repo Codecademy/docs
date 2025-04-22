@@ -56,7 +56,7 @@ The `Stack` class provides the following methods:
 - `.empty()`: Returns `true` if the stack is empty.
 - `.search(item)`: Returns the 1-based position from the top of the stack if found; otherwise, returns -1.
 
-![Diagram showing stack structure where push adds an element to the top and pop removes the top element](https://raw.githubusercontent.com/Codecademy/docs/main/media/java-stack-push-pop-diagram.png)
+![Diagram showing stack structure where push adds an element to the top and pop removes the top element](https://raw.githubusercontent.com/Codecademy/docs/main/media/java-stack-push-pop-diagram1.png)
 
 ## Example: Basic Stack Operations
 
