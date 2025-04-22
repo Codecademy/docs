@@ -8,13 +8,13 @@ Tags:
   - 'Functions'
   - 'Methods'
   - 'Strings'
+  - 'Values'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
-The `.endswith()` method checks a value against a given string and returns `True` if the string ends with that value. Otherwise, it returns `False`.
+The **`.endswith()`** method checks a value against a given string and returns `True` if the string ends with that value. Otherwise, it returns `False`. This method is particularly useful when filtering or validating strings, such as verifying file extensions or checking URL endings.
 
 ## Syntax
 
@@ -22,44 +22,76 @@ The `.endswith()` method checks a value against a given string and returns `True
 string.endswith(value, start, end)
 ```
 
-Given a string, the `.endswith()` method can be used in the following way:
+**Parameters:**
 
-- The required `value` argument, which is checked if it exists at the end of the string. It is also case-sensitive.
+- `value`: The string or [tuple](https://www.codecademy.com/resources/docs/python/tuples) of strings to check for.
+- `start` (Optional): The position in the original string where the search should start.
+- `end` (Optional): The position in the original string where the search should end.
 
-- Optionally, the `value` can be tested for whether it is at the end of a particular substring within the string using the `start` and `end` index arguments.
+**Return value:**
 
-## Example
+The method returns `True` if the original string ends with the given value and `False` otherwise.
+
+## Example 1: `.endswith()` Without `start` and `end` Parameters
+
+This example uses the `.endswith()` method without `start` and `end` parameters to verify if a string ends with the given value:
 
 ```py
 example_str = "This is a string"
 
-check_A = example_str.endswith("g")
-check_B = example_str.endswith("s")
-check_C = example_str.endswith("st", 5, 12)
+check = example_str.endswith("g")
 
-print("A: ", check_A)
-print("B: ", check_B)
-print("C: ", check_C)
+print(check)
 ```
 
-The output will look like this:
+Since the string ends with the given value, the example produces this output:
 
 ```shell
-A: True
-B: False
-C: True
+True
 ```
 
-From the above example, for `check_A` the output is `True` as the `.endswith()` function checks whether the `example_str` string ends with the character "g".
+## Example 2: `.endswith()` with `start` and `end` Parameters
 
-## Codebyte Example
+This example uses the `.endswith()` method with `start` and `end` parameters to check if the substring from index 8-13 in a string ends with the given value:
+
+```py
+text = "holiday_photo.jpg"
+
+res = text.endswith("photo", 8, 13)
+
+print(res)
+```
+
+Since the substring from index 8-13 in the string ends with the given value, the example produces this output:
+
+```shell
+True
+```
+
+## Codebyte Example: `.endswith()` with a Tuple of Strings
+
+This codebyte example uses the `.endswith()` method to check if a string ends with any of the values provided in the given tuple:
 
 ```codebyte/python
-example_A = "This is a string"
-check_A = example_A.endswith("ring")
-print(check_A)
+filename = "document.txt"
 
-example_B = "This is a string"
-check_B = example_B.endswith("G")
-print(check_B)
+res = filename.endswith((".txt", ".docx", ".pdf"))
+
+print(res)
 ```
+
+Since the string ends with `".txt"`, the output for the code will be `True`.
+
+## Frequently Asked Questions
+
+### 1. How does `.endswith()` and `.startswith()` differ?
+
+The `.endswith()` method checks if a string ends with a specific suffix, while [`.startswith()`](https://www.codecademy.com/resources/docs/python/strings/startswith) checks if it begins with a specific prefix.
+
+### 2. Is Python `.endswith()` case-sensitive?
+
+Yes, `.endswith()` is case-sensitive.
+
+### 3. Can `.endswith()` be used with empty strings?
+
+Yes. Any string ends with an empty string, so calling `.endswith("")` on any string will return `True`.
