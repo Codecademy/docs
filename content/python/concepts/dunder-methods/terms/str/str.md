@@ -30,7 +30,7 @@ class ClassName:
 
 - `self`: An implicit reference to the instance of the class.
 
-The `__str__()` method accepts no parameters other than the implicit `self` reference. 
+The `__str__()` method accepts no parameters other than the implicit `self` reference.
 
 **Return value:**
 
@@ -41,7 +41,6 @@ It must return a string that represents the object in a human-readable format.
 The `__str__()` and `__repr__()` methods both return string representations of objects, but they serve different purposes:
 
 - `__str__()`: Returns a human-readable, informal string representation intended for end users. It prioritizes readability over completeness.
-  
 - `__repr__()`: Returns an information-rich, official string representation intended for developers. Where possible, it should return a valid Python expression that could be used to recreate the object.
 
 In general, `__str__()` is meant for users, while `__repr__()` is meant for developers. If a class defines `__str__()` but not `__repr__()`, the built-in object implementation calls `__repr__()` method instead when using the `repr()` function.
@@ -57,7 +56,7 @@ class Student:
     self.name = name
     self.student_id = student_id
     self.gpa = gpa
-    
+
   def __str__(self):
     # Return a readable string representation
     return f"Student: {self.name}, ID: {self.student_id}, GPA: {self.gpa}"
@@ -92,11 +91,11 @@ class Product:
     self.name = name
     self.price = price
     self.quantity = quantity
-    
+
   def __str__(self):
     # Format product information as a readable string
     return f"{self.name} - ${self.price:.2f} (Quantity: {self.quantity})"
-    
+
   def __repr__(self):
     # Developer-focused representation
     return f"Product('{self.name}', {self.price}, {self.quantity})"
@@ -141,11 +140,11 @@ class Book:
     self.title = title
     self.author = author
     self.pages = pages
-    
+
   def __str__(self):
     # Human-readable string for end users
     return f"'{self.title}' by {self.author}, {self.pages} pages"
-   
+
   def __repr__(self):
     # Formal string for developers
     return f"Book('{self.title}', '{self.author}', {self.pages})"
@@ -177,10 +176,13 @@ This example demonstrates how the `__str__()` method provides a user-friendly re
 ## Frequently Asked Questions
 
 ### 1. Does print use `__str__()` or `__repr__()`?
+
 The `print()` function uses `__str__()` if it's defined. If `__str__()` is not defined, it falls back to using `__repr__()`. This behavior ensures that an object can always be printed, even if the developer has only defined one of these methods.
 
 ### 2. What is the difference between `__str__()` and `__init__()`?
+
 The `__init__()` method is a constructor that initializes a new instance of a class with provided values. It runs when an object is created and sets up the object's initial state. The `__str__()` method, on the other hand, defines how an object should be converted to a string when using functions like `str()` or `print()`. They serve entirely different purposes: `__init__()` for object creation and `__str__()` for string representation.
 
 ### 3. What happens if `__str__()` is not defined?
+
 If a class doesn't define the `__str__()` method, Python will use the `__repr__()` method instead when `str()` or `print()` is called on an instance of the class. If neither `__str__()` nor `__repr__()` is defined, Python will use the default implementation from the object class, which typically returns a string like `<__main__.ClassName object at 0x7f042103f390>` showing the class name and memory address.
