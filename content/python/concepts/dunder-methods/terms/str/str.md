@@ -4,13 +4,8 @@ Description: 'Returns a reader-friendly string representation of a class object.
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Web Development'
 Tags:
-  - 'Attributes'
-  - 'Classes'
-  - 'Functions'
   - 'Methods'
-  - 'Objects'
   - 'OOP'
   - 'Strings'
 CatalogContent:
@@ -189,4 +184,3 @@ The `__init__()` method is a constructor that initializes a new instance of a cl
 
 ### 3. What happens if `__str__()` is not defined?
 If a class doesn't define the `__str__()` method, Python will use the `__repr__()` method instead when `str()` or `print()` is called on an instance of the class. If neither `__str__()` nor `__repr__()` is defined, Python will use the default implementation from the object class, which typically returns a string like `<__main__.ClassName object at 0x7f042103f390>` showing the class name and memory address.
- 
