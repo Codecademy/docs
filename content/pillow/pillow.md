@@ -7,7 +7,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[**Pillow**](https://pypi.org/project/pillow/) is a Python library used for working with images. It is a user-friendly and actively maintained fork of the original Python Imaging Library (PIL). Pillow allows Python developers to open, manipulate, create, and save image files across various formats with minimal code. Its simplicity and power make it a go-to tool for image-related tasks in a wide range of Python applications. Pillow supports a wide range of file formats for opening and saving images, including JPEG, PNG, BMP, GIF, TIFF, etc.
+[**Pillow**](https://pypi.org/project/pillow/) is a Python library used for working with images. It is a user-friendly and actively maintained fork of the original Python Imaging Library (PIL). It not only supports various image formats like JPEG, PNG, GIF, TIFF, and BMP, but also offers capabilities such as resizing, cropping, rotating, and color adjustments. Pillow allows for applying filters, adding text and shapes, and performing image analysis tasks. Pillow allows Python developers to open, manipulate, create, and save image files across various formats with minimal code. Its simplicity and power make it a go-to tool for image-related tasks in a wide range of Python applications.
 
 ## Use cases of Pillow
 
