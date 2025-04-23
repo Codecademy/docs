@@ -28,9 +28,10 @@ math.floor(x)
 - `x`: A numeric value (required)
 
 **Return value:**
+
 - Returns an integer value representing the largest integer less than or equal to `x`
 
-## Example 1: Working With Postive Numbers using the `.floor()` function
+## Example 1: Basic Usage
 
 This example demonstrates the basic usage of the `math.floor()` function with positive numbers:
 
@@ -76,9 +77,10 @@ This example results in the following output:
 
 For negative numbers, `math.floor()` rounds down to the next smaller integer, so -3.2 becomes -4, -7.9 becomes -8, and -10.0 remains -10.
 
-# Codebyte Example: Comparing Floor with Other Rounding Methods
+## Codebyte Example: Comparing Floor with Other Rounding Methods
 
 This example compares `math.floor()` with other number conversion methods in Python, including:
+
 - `int()` conversion (which truncates by removing the decimal part)
 - [`math.ceil()`](https://www.codecademy.com/resources/docs/python/math-module/math-ceil) (rounds up to the nearest integer)
 - [`round()`](https://www.codecademy.com/resources/docs/python/built-in-functions/round) (rounds to the nearest integer, with ties rounding to the nearest even number)
@@ -97,7 +99,7 @@ for num in numbers:
   int_result = int(num)
   ceil_result = math.ceil(num)
   round_result = round(num)
-    
+
   print(f"{num:7} | {floor_result:7} | {int_result:6} | {ceil_result:6} | {round_result:6}")
 
 # Special case explanation
@@ -121,6 +123,7 @@ The floor of 2.4 equals 2 because `math.floor()` rounds down to the nearest inte
 ### 3. What is the difference between `.floor()` and `.ceil()`?
 
 The main difference between `.floor()` and `.ceil()` is their rounding direction:
+
 - `math.floor(x)` rounds down to the largest integer less than or equal to x
 - `math.ceil(x)` rounds up to the smallest integer greater than or equal to x
 
