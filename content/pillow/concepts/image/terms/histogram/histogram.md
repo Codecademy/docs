@@ -35,7 +35,11 @@ Returns a list of integers representing the histogram of the image. The length o
 - For RGBA images, it will have 1024 values (256 for each channel plus an additional 256 for the alpha channel).
 - For other modes, the histogram will have a different number of values depending on the number of channels in the image.
 
-## Example 1: Plotting a Grayscale Image Histogram
+## Example
+
+![image file](media/pillow-image-file-town.jpg)
+
+### Example 1: Plotting a Grayscale Image Histogram
 
 This example demonstrates how to convert an image to grayscale and plot its pixel value distribution using `.histogram()`:
 
@@ -62,6 +66,8 @@ plt.show()
 
 In this example, we first open an image file and convert it to grayscale using the [`.convert()`](https://www.codecademy.com/resources/docs/pillow/image/convert) method. Then, we calculate the histogram using the `.histogram()` method and plot it using Matplotlib. The x-axis represents the pixel values, and the y-axis represents the count of pixels for each value.
 
+![output image](media/pillow-grayscale-histogram.png)
+
 ### Example 2: Visualizing Histogram Data for RGB Images
 
 This example shows how to compute and plot the pixel distribution of an RGB image using `.histogram()`:
@@ -86,6 +92,8 @@ plt.show()
 
 In this example, we open an RGB image and generate its histogram. The histogram will have 768 values (256 for each of the three channels: red, green, and blue). The plot will show the distribution of pixel values across all three channels.
 
+![output image](media/pillow-rgb-histogram.png)
+
 ### Example 3: Using `.histogram()` with transparency (RGBA images)
 
 This example illustrates how to generate a histogram for an RGBA image, including the alpha (transparency) channel:
@@ -109,3 +117,5 @@ plt.show()
 ```
 
 In this example, the histogram will have 1024 values (256 for each of the four channels: red, green, blue, and alpha). The plot will show the distribution of pixel values across all four channels.
+
+![output image](media/pillow-rgba-histogram.png)
