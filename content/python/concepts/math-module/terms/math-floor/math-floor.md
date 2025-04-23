@@ -30,7 +30,7 @@ math.floor(x)
 **Return value:**
 - Returns an integer value representing the largest integer less than or equal to `x`
 
-## Example 1: Basic Usage
+## Example 1: Working With Postive Numbers using the `.floor()` function
 
 This example demonstrates the basic usage of the `math.floor()` function with positive numbers:
 
