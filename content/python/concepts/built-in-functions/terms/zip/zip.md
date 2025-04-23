@@ -25,14 +25,14 @@ zip(*iterables, strict=False)
 
 **Parameters:**
 
-- `*iterables`: One or more iterable objects to be zipped together.
+- `*iterables`: One or more iterable objects (lists, tuples, strings, etc.). The asterisk (`*`) allows passing any number of iterables as arguments.
 - `strict` (optional): If `True`, raises a `ValueError` if input iterables have different lengths (Python 3.10+). Default is `False`.
 
-**Return Value:**
+**Return value:**
 
 - Returns an iterator of tuples, where the i-th tuple contains the i-th element from each of the input iterables.
 
-## Example 1: Basic Usage
+## Example 1: Basic Usage of the `zip()` function
 
 This example demonstrates how `zip()` combines elements from multiple iterables into tuples:
 
@@ -67,11 +67,13 @@ print(result)
 
 # Using strict=True (Python 3.10+)
 try:
-    result_strict = list(zip(letters, numbers, strict=True))
-    print(result_strict)
+  result_strict = list(zip(letters, numbers, strict=True))
+  print(result_strict)
 except ValueError as e:
-    print(f"Error: {e}")
+  print(f"Error: {e}")
 ```
+
+> **Note:** `strict=True` requires Python 3.10 or later
 
 This example results in the following output:
 
@@ -107,7 +109,7 @@ print(f"Numbers: {numbers}")
 # Parallel iteration using zip()
 print("\nParallel iteration:")
 for letter, number in zip(letters, numbers):
-    print(f"{letter} -> {number}")
+  print(f"{letter} -> {number}")
 ```
 
 ## Frequently Asked Questions
@@ -135,7 +137,7 @@ numbers, letters = zip(*zipped)  # Separates the zipped data back into individua
 
 Unzipping is useful when you need to separate previously combined data back into its original sequences.
 
-### 3. What is dict(zip()) in Python?
+### 3. What is `dict(zip())` in Python?
 
 `dict(zip())` is a common pattern in Python that creates a dictionary by combining two iterables, where the first iterable provides the keys and the second provides the values:
 
