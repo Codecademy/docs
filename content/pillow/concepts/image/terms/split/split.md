@@ -21,7 +21,7 @@ The **`Image.split()`** method returns a tuple of individual image bands from an
 Image.split()
 ```
 
-Splitting an RGB image creates three new images each containing a copy of one of the original bands (red, green, blue)
+Splitting an RGB image creates three new images, each containing a copy of one of the original bands (red, green, blue).
 - `r, g, b = Image.split()` is used to split an RGB image into separate bands
 - `r, g, b, a = Image.split()` is used to split an RGBA image into separate bands
 
