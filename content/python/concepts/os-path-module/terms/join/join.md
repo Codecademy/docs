@@ -107,10 +107,10 @@ files = ["users.csv", "products.csv", "sales.csv"]
 for filename in files:
   # Create the full path for each file
   file_path = os.path.join(data_dir, filename)
-    
+
   # In a real application, you would open and process the file here
   print(f"Processing {file_path}")
-    
+
   # Example of how you might use the path
   # with open(file_path, 'r') as file:
   #   data = file.read()
@@ -122,16 +122,21 @@ In this example, `os.path.join()` is used in a loop to create complete file path
 ## Frequently Asked Questions
 
 ### 1. What happens if I pass an empty string as one of the arguments?
+
 Empty strings are ignored, unless they are the only argument provided. If all arguments are empty strings, the result will be an empty string.
 
 ### 2. Does `os.path.join()` check if the resulting path actually exists?
+
 No, the method only constructs the path string. It doesn't verify if the path exists on the file system. To check if a path exists, you can use `os.path.exists()`.
 
 ### 3. How does `os.path.join()` handle trailing slashes?
+
 If a path component has a trailing slash, the next component will still be added with a separator. The method handles this intelligently to avoid having duplicate separators.
 
 ### 4. Is `os.path.join()` the best option for all path manipulation tasks?
+
 While `os.path.join()` is excellent for basic path construction, the newer `pathlib` module in Python 3.4+ provides a more comprehensive, object-oriented approach to path manipulation.
 
 ### 5. Why should I use `os.path.join()` instead of string concatenation?
+
 Using `os.path.join()` ensures cross-platform compatibility and properly handles separators, absolute paths, and other path-specific issues that manual string concatenation might not handle correctly.
