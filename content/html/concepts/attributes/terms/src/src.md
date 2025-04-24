@@ -27,7 +27,7 @@ The **`src`** attribute specifies the location of a digital source, which is typ
 
 **Return value:**
 
-The `src` attribute doesn’t "return" anything as it's not a function or method but an attribute. Instead it points to a digital source (e.g., image, video, audio, etc.) and instructs the browser to load that resource into the HTML element.
+The `src` attribute doesn’t "return" anything as it's not a function or method but an attribute. Instead, it points to a digital source (e.g., image, video, audio, etc.) and instructs the browser to load that resource into the HTML element.
 
 `src` can also be used in the following elements:
 
