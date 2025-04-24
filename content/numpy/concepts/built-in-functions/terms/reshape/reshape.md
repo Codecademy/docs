@@ -37,7 +37,7 @@ numpy.reshape(a, shape=None, order='C')
 
 It returns a reshaped array. If possible, it returns a view of the original array; otherwise, it returns a new copy.
 
-## Example 1: Converting 1D to 2D Array
+## Example 1: Reshape 1D to 2D Array
 
 This following example shows how to convert a one-dimensional array into a two-dimensional array:
 
