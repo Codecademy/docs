@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Python **`unittest`** [module](https://www.codecademy.com/resources/docs/python/modules) is a built-in testing [framework](https://www.codecademy.com/resources/docs/general/framework) that provides a set of tools for testing our code's functionality in a more systematic and automated way. It supports creating and running [unit tests](https://www.codecademy.com/resources/docs/general/unit-testing), helping developers catch bugs early and ensure code reliability. Similar to unit testing frameworks in other languages, `unittest` allows for the following features:
+Python **`unittest`** [module](https://www.codecademy.com/resources/docs/python/modules) is a built-in testing [framework](https://www.codecademy.com/resources/docs/general/framework) that provides a set of tools for testing code's functionality in a more systematic and automated way. It supports creating and running [unit tests](https://www.codecademy.com/resources/docs/general/unit-testing), helping developers catch bugs early and ensure code reliability. Similar to unit testing frameworks in other languages, `unittest` allows for the following features:
 
 - Automation of test execution
 - Setup and teardown functionality for preparing and cleaning up before/after tests
