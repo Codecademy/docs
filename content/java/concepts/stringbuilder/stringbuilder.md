@@ -22,7 +22,7 @@ In Java, the **`StringBuilder`** class is a part of the `java.lang` package that
 To use StringBuilder in Java:
 
 ```pseudo
-// Creating a StringBuilder
+// Different ways to create a StringBuilder
 StringBuilder sb = new StringBuilder();                 // Creates an empty StringBuilder with default capacity (16)
 StringBuilder sb = new StringBuilder(int capacity);     // Creates a StringBuilder with the capacity specified
 StringBuilder sb = new StringBuilder(String str);       // Creates StringBuilder with initial content
