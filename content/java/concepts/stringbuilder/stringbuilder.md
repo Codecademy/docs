@@ -94,7 +94,7 @@ This example shows different ways to create a `StringBuilder` and illustrates th
 This example shows various methods for manipulating the content of a `StringBuilder`:
 
 ```java
-public class StringBuilderModificationExample {
+public class StringBuilderModificationExample { 
   public static void main(String[] args) {
     StringBuilder sb = new StringBuilder("Java");
     System.out.println("Original: " + sb);
@@ -105,7 +105,7 @@ public class StringBuilderModificationExample {
     System.out.println("After append: " + sb);
 
     // Insert content at a specific position
-    sb.insert(5, " programming");
+    sb.insert(5, "programming ");
     System.out.println("After insert: " + sb);
 
     // Replace content
@@ -113,7 +113,7 @@ public class StringBuilderModificationExample {
     System.out.println("After replace: " + sb);
 
     // Delete content
-    sb.delete(7, 18);
+    sb.delete(7, 19);
     System.out.println("After delete: " + sb);
 
     // Reverse the content
