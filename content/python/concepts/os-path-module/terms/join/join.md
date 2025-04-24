@@ -1,6 +1,6 @@
 ---
 Title: '.join()'
-Description: 'Combines multiple path components into a single path using the appropriate file separator for the current operating system.'
+Description: 'Merges multiple path components into a single path using the appropriate file separator for the current operating system.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.join()`** method of the [`os`](https://www.codecademy.com/resources/docs/python/os-path-module) module is used to intelligently combine path components into a complete file path. It takes one or more path components as arguments and joins them together with the appropriate directory separator, which varies depending on the operating system (forward slash `/` for Unix-based systems and backslash `\` for Windows).
+The **`.join()`** method of the `os` module is used to intelligently combine path components into a complete file path. It takes one or more path components as arguments and joins them together with the appropriate directory separator, which varies depending on the operating system (forward slash `/` for Unix-based systems and backslash `\` for Windows).
 
 The method handles the complexities of path creation, such as dealing with absolute paths, redundant separators, and platform-specific considerations. This makes it essential for writing cross-platform Python applications that need to manipulate file paths in a reliable manner.
 
@@ -55,7 +55,7 @@ The output generated will be:
 user_data/config.txt
 ```
 
-In this example, `os.path.join()` combines the directory name `"user_data"` with the filename **"config.txt"** using the appropriate separator for the current operating system. On a Unix-based system, the output would use a forward slash as shown above, while on Windows, it would use a backslash.
+In this example, `os.path.join()` combines the directory name `"user_data"` with the filename `"config.txt"` using the appropriate separator for the current operating system. On a Unix-based system, the output would use a forward slash as shown above, while on Windows, it would use a backslash.
 
 ## Example 2: Handling Absolute Paths
 
@@ -72,7 +72,7 @@ result_path = os.path.join(user_dir, absolute_path)
 # Print the result
 print(result_path)
 
-# Another example with Windows-style absolute path (on Windows)
+# Another example with Windows-style absolute path
 docs_dir = "Documents"
 windows_abs_path = "C:\\Program Files\\App"
 windows_result = os.path.join(docs_dir, windows_abs_path)
@@ -92,7 +92,7 @@ In this example, when an absolute path is encountered, all previous path compone
 
 ## Codebyte Example: Processing File Paths in Bulk
 
-This example demonstrates how to use `os.path.join()` to process multiple files in a directory.
+This codebyte example demonstrates how to use `os.path.join()` to process multiple files in a directory:
 
 ```codebyte/python
 import os
@@ -127,7 +127,7 @@ Empty strings are ignored, unless they are the only argument provided. If all ar
 
 ### 2. Does `os.path.join()` check if the resulting path actually exists?
 
-No, the method only constructs the path string. It doesn't verify if the path exists on the file system. To check if a path exists, you can use `os.path.exists()`.
+No, the method only constructs the path string. It doesn't verify if the path exists on the file system. To check whether a path exists, you can use `os.path.exists()`.
 
 ### 3. How does `os.path.join()` handle trailing slashes?
 
