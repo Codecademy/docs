@@ -27,9 +27,9 @@ list.count(value)
 
 - `value`: The element to count in the list.
 
-**Return Value:**
+**Return value:**
 
-- An **integer** representing the number of times the specified element appears in the list.
+- The `.count()` function returns an **integer** representing the number of times the specified element appears in the list.
 
 ## Example 1: Basic Usage of `.count()`
 
