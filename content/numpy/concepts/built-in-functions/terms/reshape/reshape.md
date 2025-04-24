@@ -183,7 +183,7 @@ No, the total number of elements must remain the same. For example, an array wit
 - `.reshape()` returns a new array (or view) with the new shape, leaving the original array unchanged.
 - `.resize()` modifies the array in-place and can change the total number of elements (either by truncating or padding with zeros).
 - Use `.reshape()` when you want to preserve all data and need the same number of elements.
-- Use `.resize()` when you need to modify the array’s total size, even if it involves truncating data or padding with zeros.
+- Use `.resize()` when modifying the array’s total size, even if it involves truncating data or padding with zeros.
 
 ### 4. How does the order parameter affect reshaping?
 
