@@ -1,6 +1,6 @@
 ---
 Title: 'ArrayList'
-Description: 'A dynamic array implementation in Java that provides flexible size, type safety, and convenient methods for data manipulation.'
+Description: 'A dynamic array class in Java that automatically resizes and offers type safety along with convenient methods for data access and manipulation.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -65,6 +65,8 @@ For example, to create an ArrayList of integers:
 ArrayList<Integer> numbers = new ArrayList<>();
 numbers.add(10);  // Auto-boxing converts int to Integer
 ```
+
+This process is called auto-boxing, where primitive values are automatically converted to their corresponding wrapper class.
 
 ## Comparison with Other Collections
 
