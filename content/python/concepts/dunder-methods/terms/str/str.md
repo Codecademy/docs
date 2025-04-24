@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`__str__()`** dunder method, also known as a magic method, returns a human-readable string representation of a class object. It can be called with the built-in [`str()`](https://www.codecademy.com/resources/docs/python/built-in-functions/str) and [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) functions. Unlike [`__repr__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/repr), it is not necessary that `__str__()` return a valid Python expression.
+The **`__str__()`** dunder method, also known as a magic method, returns a human-readable string representation of a class object. It can be called with the built-in [`str()`](https://www.codecademy.com/resources/docs/python/built-in-functions/str) and [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) functions. Unlike [`__repr__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/repr), it is not necessary that `__str__()` will return a valid Python expression.
 
-In Python, objects can be represented as strings to make them more meaningful and easier to read. The `__str__()` method is one of Python's special methods, also known as dunder methods (double underscore methods), it allows defining how an object should be converted to a string when used with `str()` function or when displayed using `print()`. This method is particularly useful for debugging and logging purposes, as well as for providing user-friendly representations of custom objects.
+In Python, objects can be represented as strings to make them more meaningful and easier to read. The `__str__()` method is one of Python's special methods, also known as dunder methods (double underscore methods). It allows defining how an object should be converted to a string when used with `str()` function or when displayed using `print()`. This method is particularly helpful in debugging and logging purposes, as well as for providing user-friendly representations of custom objects.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ It must return a string that represents the object in a human-readable format.
 The `__str__()` and `__repr__()` methods both return string representations of objects, but they serve different purposes:
 
 - `__str__()`: Returns a human-readable, informal string representation intended for end users. It prioritizes readability over completeness.
-- `__repr__()`: Returns an information-rich, official string representation intended for developers. Where possible, it should return a valid Python expression that could be used to recreate the object.
+- `__repr__()`: Returns an information-rich, official string representation intended for developers. Where possible, it should return a valid Python expression which can be used to recreate the object.
 
 In general, `__str__()` is meant for users, while `__repr__()` is meant for developers. If a class defines `__str__()` but not `__repr__()`, the built-in object implementation calls `__repr__()` method instead when using the `repr()` function.
 
@@ -78,7 +78,7 @@ Student: Alice Smith, ID: 12345, GPA: 3.8
 Student: Alice Smith, ID: 12345, GPA: 3.8
 ```
 
-In this example, the `__str__()` method formats the student's information into a human-readable string. When the object is printed or converted to a string, Python automatically calls the `__str__()` method.
+In this example, the `__str__()` method formats the student's information into a human-readable string. When the object is displayed or converted to a string, Python automatically calls the `__str__()` method.
 
 ## Example 2: Product Inventory Display
 
@@ -131,7 +131,7 @@ This example demonstrates how `__str__()` provides a user-friendly format for di
 
 ## Codebyte Example: Creating a Custom Book Class
 
-This example demonstrates the implementation of `__str__()` for a Book class, allowing for intuitive string representation when displaying book information:
+This example demonstrates the implementation of `__str__()` for a `Book` class, allowing for intuitive string representation when displaying book information:
 
 ```codebyte/python
 class Book:
