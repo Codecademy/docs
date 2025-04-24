@@ -94,7 +94,7 @@ In this example, an embedded YouTube video is added to the webpage using the `if
 
 ### 1. What is the difference between URL and `src` in HTML?
 
-- **URL (Uniform Resource Locator)**: A URL is the address of a resource on the internet. It specifies the location of a resource (like an image, video, or webpage) using a protocol (e.g., `http://`, `https://`, `ftp://`) followed by the resource's location.
+- **URL (Uniform Resource Locator)**: A URL is the address of a resource on the Internet. It specifies the location of a resource (like an image, video, or webpage) using a protocol (e.g., `http://`, `https://`, `ftp://`) followed by the resource's location.
 - **`src` (Source) Attribute**: The `src` attribute in HTML specifies the source location of embedded content (such as an image, video, or audio file). It points to a resource's URL or a local file path. The `src` attribute itself does not define a location on its own, but instead uses a URL to point to the location of an external or internal resource.
 
 ### 2. When to use `src` in HTML?
@@ -105,32 +105,3 @@ You use the `src` attribute when you want to embed external or internal content 
 
   ```html
   <img src="image.jpg" alt="Image description" />
-  ```
-
-- **Videos**: To embed a video using the `<video>` tag.
-
-  ```html
-  <video src="video.mp4" controls></video>
-  ```
-
-- **Audio**: To embed audio using the `<audio>` tag.
-
-  ```html
-  <audio src="audio.mp3" controls></audio>
-  ```
-
-- **External Scripts**: To include an external JavaScript file using the `<script>` tag.
-
-  ```html
-  <script src="script.js"></script>
-  ```
-
-- **Other Content**: To link to other types of media, like `<iframe>` for embedding videos from YouTube or other external sources.
-
-  ```html
-  <iframe src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-  ```
-
-### 3. What is the full form of `SRC`?
-
-The full form of `SRC` is **Source**. In HTML, it is an attribute used to specify the source location of an external resource, such as an image, video, or script.
