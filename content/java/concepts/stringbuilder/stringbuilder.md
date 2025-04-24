@@ -94,7 +94,7 @@ This example shows different ways to create a `StringBuilder` and illustrates th
 This example shows various methods for manipulating the content of a `StringBuilder`:
 
 ```java
-public class StringBuilderModificationExample { 
+public class StringBuilderModificationExample {
   public static void main(String[] args) {
     StringBuilder sb = new StringBuilder("Java");
     System.out.println("Original: " + sb);
