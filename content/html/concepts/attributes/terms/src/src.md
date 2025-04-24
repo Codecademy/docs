@@ -105,3 +105,4 @@ You use the `src` attribute when you want to embed external or internal content 
 
   ```html
   <img src="image.jpg" alt="Image description" />
+  ```
