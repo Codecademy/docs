@@ -170,6 +170,7 @@ except ValueError as e:
 ### 1. Is `.reshape(-1)` the same as `.flatten()`?
 
 While both `.reshape(-1)` and [`.flatten()`](https://www.codecademy.com/resources/docs/numpy/ndarray/flatten) can convert an array to a 1D array, they have key differences:
+
 - `.reshape(-1)` returns a view of the original array when possible, meaning changes to the reshaped array may affect the original.
 - `.flatten()` always returns a copy of the flattened array, so modifying it never affects the original.
 - For most use cases where you just need a flat version of an array, they can be used interchangeably, but `.reshape(-1)` may be more memory-efficient.
