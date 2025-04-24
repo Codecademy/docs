@@ -41,7 +41,7 @@ StringBuilder sb = new StringBuilder(CharSequence seq); // Creates StringBuilder
 
 ## StringBuilder vs StringBuffer
 
-**`StringBuffer`** is another mutable sequence class in Java that is similar to StringBuilder. Both classes provide methods for modifying character sequences, but they differ in significant ways:
+**`StringBuffer`** is another mutable sequence class in Java that is similar to `StringBuilder`. Both classes provide methods for modifying character sequences, but they differ in significant ways:
 
 | Feature           | StringBuilder                    | StringBuffer                                     |
 | ----------------- | -------------------------------- | ------------------------------------------------ |
