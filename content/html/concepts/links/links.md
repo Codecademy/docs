@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In HTML, **links** (also called *hyperlinks*) allow users to navigate between different web pages or external resources. They are created using the [`<a>` (anchor)](https://www.codecademy.com/resources/docs/html/elements/a) tag, which can point to another webpage, file, or location within the current document.
+In HTML, **links** (also called _hyperlinks_) allow users to navigate between different web pages or external resources. They are created using the [`<a>` (anchor)](https://www.codecademy.com/resources/docs/html/elements/a) tag, which can point to another webpage, file, or location within the current document.
 
 ## Syntax
 
@@ -45,7 +45,7 @@ Text wrapped in a linked anchor tag becomes a hyperlink to another page:
 
 The output of the example code will look like this:
 
-![Showcasing the usage of html links](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-link.gif)
+![Showcasing the use of html links](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-link.gif)
 
 ## Types of Links
 
@@ -65,7 +65,7 @@ The output of the example code will look like this:
 
 ### 2. External Link
 
-Points to a different website.
+Points to a web page on a different domain.
 
 ```html
 <a href="https://example.com">External Site</a>
@@ -83,9 +83,9 @@ Anything that is inside the anchor tag will be treated as a link. In this case, 
 </a>
 ```
 
-The output of the example code will look like this:
+The result of the example code will appear as:
 
-![Showcasing the usage of image as a link in html](https://raw.githubusercontent.com/Codecademy/docs/main/media/image-link.gif)
+![Showcasing the use of image as a link in html](https://raw.githubusercontent.com/Codecademy/docs/main/media/image-link.gif)
 
 ### 4. Email and Phone Links
 
