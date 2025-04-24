@@ -39,7 +39,7 @@ It returns a reshaped array. If possible, it returns a view of the original arra
 
 ## Example 1: Reshape 1D to 2D Array
 
-This following example shows how to convert a one-dimensional array into a two-dimensional array:
+The following example shows how to convert a 1D array into a 2D array:
 
 ```py
 import numpy as np
