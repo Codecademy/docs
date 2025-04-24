@@ -239,8 +239,8 @@ In the test cases:
 
 ### 2. What does `unittest.main()` do?
 
-`unittest.main()` launches the test runner, automatically discovering all test methods in the file and executing them. It also provides a command-line interface to control test behavior (e.g., verbosity).
+`unit test.main()` launches the test runner, which automatically discovers and executes all test methods in the file. It also provides a command-line interface to control test behavior (e.g., verbosity).
 
 ### 3. What does `if __name__ == '__main__'` mean in Python?
 
-This statement ensures that code inside it runs only when the script is executed directly, not when it’s imported as a module. It's commonly used to run test scripts or demo code.
+This statement ensures that the code inside runs only when the script is executed directly, not when it’s imported as a module. It's commonly used to run test scripts or demo code.
