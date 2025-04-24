@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.count()` method is a [built-in function](https://www.codecademy.com/resources/docs/python/built-in-functions) in Python [lists](https://www.codecademy.com/resources/docs/python/lists) that returns the number of occurrences of a specified element. This method provides an efficient way to count how many times a particular value appears in a list without writing custom loops or conditional statements. 
+The **`.count()`** is a [built-in function](https://www.codecademy.com/resources/docs/python/built-in-functions) in Python [lists](https://www.codecademy.com/resources/docs/python/lists) that returns the number of occurrences of a specified element. This function provides an efficient way to count how many times a particular value appears in a list without writing custom loops or conditional statements.
 
 It's commonly used in data analysis, frequency counting, and validation scenarios where you need to track the occurrence of specific elements.
 
@@ -25,7 +25,7 @@ list.count(value)
 
 **Parameters:**
 
-- `value`: The element to search for in the list.
+- `value`: The element to count in the list.
 
 **Return Value:**
 
@@ -33,7 +33,7 @@ list.count(value)
 
 ## Example 1: Basic Usage of `.count()`
 
-This example demonstrates how to use the `.count()` method to find the number of occurrences of a specific element in a list.
+This example demonstrates how to use the `.count()` function to find the number of occurrences of a specific element in a list:
 
 ```py
 numbers = [1, 2, 3, 1, 4, 1, 5]
@@ -47,11 +47,11 @@ This example results in the following output:
 The number 1 appears 3 times in the list.
 ```
 
-The `.count()` method iterates through the list and counts how many times the value 1 appears, which is 3 times.
+The `.count()` function iterates through the list and counts how many times the value 1 appears, which is 3 times.
 
 ## Example 2: Counting Elements in Lists with Mixed Data Types
 
-The `.count()` method works with lists containing different data types, including strings, numbers, and even boolean values.
+The `.count()` function works with lists containing different data types, including strings, numbers, and even boolean values:
 
 ```py
 mixed_list = [True, 'apple', 42, 'apple', False, 'apple', 1]
@@ -73,24 +73,24 @@ Note that `.count()` counts `True` and `1` as separate elements, even though the
 
 ## Codebyte Example: Finding the Most Frequent Element in a List
 
-This example shows how to use the `.count()` method to identify the most frequently occurring element in a list. It demonstrates a simple technique that works with any type of list elements and provides a practical application of frequency counting.
+This example demonstrates how to use `.count()` to find the most frequently occurring element in a list. It demonstrates a simple technique that works with any type of list elements and provides a practical application of frequency counting:
 
 ```codebyte/python
 # Find the most frequent element in a list using .count()
 def find_most_frequent(elements):
-    if not elements:
-        return None
-        
-    most_common = elements[0]
-    highest_count = elements.count(most_common)
-    
-    for element in set(elements):
-        current_count = elements.count(element)
-        if current_count > highest_count:
-            most_common = element
-            highest_count = current_count
-    
-    return most_common, highest_count
+  if not elements:
+    return None
+
+  most_common = elements[0]
+  highest_count = elements.count(most_common)
+
+  for element in set(elements):
+    current_count = elements.count(element)
+    if current_count > highest_count:
+      most_common = element
+      highest_count = current_count
+
+  return most_common, highest_count
 
 # Example with a list of numbers
 numbers = [3, 7, 2, 7, 3, 7, 5, 7, 6]
@@ -130,6 +130,7 @@ print(f"'Python' appears {count_title} time(s).")
 # 'python' appears 1 time(s).
 # 'Python' appears 2 time(s).
 ```
+
 ### 3. Is the `.count()` method time-efficient for large lists?
 
 The `.count()` method has a time complexity of O(n), where n is the length of the list. This means it needs to iterate through the entire list to count occurrences. For very large lists where you need to count multiple elements, it might be more efficient to use a dictionary or Counter from the collections module.
