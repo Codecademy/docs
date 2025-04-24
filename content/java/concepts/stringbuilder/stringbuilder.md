@@ -140,7 +140,7 @@ After reverse: emosewa si nohtyP
 After reset: Fresh start
 ```
 
-This example demonstrates the main operations you can perform with `StringBuilder` including append, insert, replace, delete, and reverse methods. It also shows how to reset a `StringBuilder` by setting its length to zero, which is more efficient than creating a new instance.
+This example demonstrates the main operations you can perform with `StringBuilder` including [append](https://www.codecademy.com/resources/docs/java/stringbuilder/append), [insert](https://www.codecademy.com/resources/docs/java/stringbuilder/insert), [replace](https://www.codecademy.com/resources/docs/java/stringbuilder/replace), [delete](https://www.codecademy.com/resources/docs/java/stringbuilder/delete), and [reverse](https://www.codecademy.com/resources/docs/java/stringbuilder/reverse) methods. It also shows how to reset a `StringBuilder` by setting its length to zero, which is more efficient than creating a new instance.
 
 ## Example 3: Performance Optimization with StringBuilder
 
