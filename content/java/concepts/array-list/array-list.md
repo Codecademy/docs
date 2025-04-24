@@ -72,13 +72,13 @@ This process is called auto-boxing, where primitive values are automatically con
 
 ArrayList has several important characteristics that distinguish it from other [collection](https://www.codecademy.com/resources/docs/java/collection) types:
 
-| Feature             | ArrayList    | LinkedList   | HashSet       |
-|---------------------|--------------|--------------|---------------|
-| Ordered             | Yes          | Yes          | No            |
-| Allows Duplicates   | Yes          | Yes          | No            |
-| Allows Nulls        | Yes          | Yes          | Yes           |
-| Fast Random Access  | Yes          | No           | N/A           |
-| Thread-Safe         | No           | No           | No            |
+| Feature            | ArrayList | LinkedList | HashSet |
+| ------------------ | --------- | ---------- | ------- |
+| Ordered            | Yes       | Yes        | No      |
+| Allows Duplicates  | Yes       | Yes        | No      |
+| Allows Nulls       | Yes       | Yes        | Yes     |
+| Fast Random Access | Yes       | No         | N/A     |
+| Thread-Safe        | No        | No         | No      |
 
 ## Example
 
