@@ -86,7 +86,7 @@ Here’s an example of embedding a YouTube video using the [`iframe`](https://ww
 
 The following gif showcases how the output of this code would look like:
 
-![HTML YouTube embedded video output gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/youtube-embedded-video-output)
+![HTML YouTube embedded video output gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/youtube-embedded-video-output.gif)
 
 In this example, an embedded YouTube video is added to the webpage using the `iframe` element. The `src` attribute in the `<iframe>` tag contains the YouTube video URL, which points to the embedded version of the video.
 
