@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'Strings are objects that represent sequences of characters.'
+Description: 'Strings in C++ are objects that represent sequences of characters.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,11 +13,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Strings** are objects that represent sequences of characters. In C++, there are two ways to create strings: with the `string` class from the Standard Template Library (STL) or with C-style character arrays.
+**Strings** are objects that represent sequences of characters. In C++, there are two ways to create strings:
 
-## String Class
+- Using the `string` class from the Standard Template Library (STL)
+- Using C-style character arrays
 
-The standard `string` class provides robust support for string operations in C++. To use this class, include the `<string>` header.
+## `string` Class
+
+The standard `string` class provides robust support for string operations in C++. To use this class, include the `<string>` header:
 
 ```cpp
 #include <string>
@@ -43,20 +46,20 @@ int main() {
   std::string s3("Programming");       // Using constructor
   std::string s4(s2);                  // Copy of another string
   std::string s5(5, 'a');              // String with 5 'a' characters: "aaaaa"
-  
+
   std::cout << "s1: " << s1 << std::endl;
   std::cout << "s2: " << s2 << std::endl;
   std::cout << "s3: " << s3 << std::endl;
   std::cout << "s4: " << s4 << std::endl;
   std::cout << "s5: " << s5 << std::endl;
-  
+
   return 0;
 }
 ```
 
 ### Accessing and Modifying Strings
 
-Individual characters in a string can be accessed and modified using indices, just like [arrays](https://www.codecademy.com/resources/docs/cpp/arrays):
+Individual characters inside a string can be accessed and modified using indices, just like [arrays](https://www.codecademy.com/resources/docs/cpp/arrays):
 
 ```cpp
 #include <iostream>
@@ -64,16 +67,16 @@ Individual characters in a string can be accessed and modified using indices, ju
 
 int main() {
   std::string text = "Hello";
-  
+
   // Accessing characters
   char first = text[0];    // 'H'
   char last = text[4];     // 'o'
-  
+
   // Modifying characters
   text[0] = 'J';           // Changes "Hello" to "Jello"
-  
+
   std::cout << "Modified string: " << text << std::endl;
-  
+
   return 0;
 }
 ```
@@ -88,31 +91,31 @@ The `string` class provides several useful methods for string manipulation:
 
 int main() {
   std::string text = "C++ Programming";
-  
+
   // String length/size
   std::cout << "Length: " << text.length() << std::endl;       // 15
   std::cout << "Size: " << text.size() << std::endl;           // 15 (same as length)
-  
+
   // Check if empty
   std::cout << "Is empty: " << text.empty() << std::endl;      // 0 (false)
-  
+
   // Substring extraction
   std::string sub = text.substr(0, 3);                         // "C++"
   std::cout << "Substring: " << sub << std::endl;
-  
+
   // Find position of a substring
   size_t position = text.find("Programming");
   if (position != std::string::npos) {
     std::cout << "Found at position: " << position << std::endl; // 4
   }
-  
+
   return 0;
 }
 ```
 
 ### String Concatenation
 
-Strings can be joined using the `+` operator or the `append()` method:
+Strings can be joined with the `+` operator or the `.append()` method:
 
 ```cpp
 #include <iostream>
@@ -121,22 +124,22 @@ Strings can be joined using the `+` operator or the `append()` method:
 int main() {
   std::string first_name = "Ada";
   std::string last_name = "Lovelace";
-  
+
   // Using + operator
   std::string full_name = first_name + " " + last_name;
-  
-  // Using append() method
+
+  // Using .append() method
   std::string greeting = "Hello, ";
   greeting.append(first_name);
-  
+
   // Using += operator
   std::string message = "Welcome ";
   message += "to C++!";
-  
+
   std::cout << full_name << std::endl;
   std::cout << greeting << std::endl;
   std::cout << message << std::endl;
-  
+
   return 0;
 }
 ```
@@ -151,7 +154,7 @@ Welcome to C++!
 
 ## C-Style Character Strings
 
-C-style strings are character arrays that originated from the [C](https://www.codecademy.com/resources/docs/c) language and continue to be supported in C++. In C, a string is represented as an array of characters, terminated by a `null` character `'\0'`.
+C-style strings are character arrays that originated from the [C](https://www.codecademy.com/resources/docs/c) language and continue to be supported in C++. In C, a string represents an array of characters, terminated by a `null` character `'\0'`.
 
 ```cpp
 char message[] = "Howdy";
@@ -178,12 +181,12 @@ int main() {
   char str2[4] = "C++";                          // Explicitly specify size (including null character)
   char str3[] = {'C', '+', '+', '\0'};           // Character by character with null terminator
   char str4[100] = "Programming";                // With extra space allocation
-  
+
   std::cout << "str1: " << str1 << std::endl;
   std::cout << "str2: " << str2 << std::endl;
   std::cout << "str3: " << str3 << std::endl;
   std::cout << "str4: " << str4 << std::endl;
-  
+
   return 0;
 }
 ```
@@ -200,19 +203,19 @@ int main() {
   char str1[20] = "Hello";
   char str2[20] = "World";
   char result[40];
-  
+
   // String length
   std::cout << "Length of str1: " << strlen(str1) << std::endl;
-  
+
   // String copy
   strcpy(result, str1);
   std::cout << "After strcpy: " << result << std::endl;
-  
+
   // String concatenation
   strcat(result, " ");
   strcat(result, str2);
   std::cout << "Concatenated string: " << result << std::endl;
-  
+
   // String comparison
   int comparison = strcmp(str1, str2);
   if (comparison < 0) {
@@ -222,12 +225,12 @@ int main() {
   } else {
     std::cout << "str1 equals str2" << std::endl;
   }
-  
+
   return 0;
 }
 ```
 
-This example results in the following output:
+The output looks like this:
 
 ```shell
 Length of str1: 5
@@ -236,21 +239,21 @@ Concatenated string: Hello World
 str1 is less than str2
 ```
 
-## String Class vs. C-Style Strings
+## `string` Class vs. C-Style Strings
 
-Here are key differences between the two string types:
+Here are some key differences between the two string types:
 
-| Feature | String Class | C-Style Strings |
-| --- | --- | --- |
-| Memory management | Automatic | Manual |
-| Bounds checking | Yes | No |
-| Size | Dynamic (can grow/shrink) | Fixed at declaration |
-| Null termination | Handled automatically | Must be managed manually |
-| Concatenation | Using `+` operator | Using `strcat()` |
-| Comparison | Using `==`, `!=`, etc. | Using `strcmp()` |
-| Character access | Using `[]` or `at()` | Using `[]` |
-| Required header | `<string>` | `<cstring>` |
-| Memory safety | Safe | Prone to buffer overflows |
+| Feature           | `string` Class            | C-Style Strings           |
+| ----------------- | ------------------------- | ------------------------- |
+| Memory management | Automatic                 | Manual                    |
+| Bounds checking   | Yes                       | No                        |
+| Size              | Dynamic (can grow/shrink) | Fixed at declaration      |
+| Null termination  | Handled automatically     | Must be managed manually  |
+| Concatenation     | Using `+` operator        | Using `strcat()`          |
+| Comparison        | Using `==`, `!=`, etc.    | Using `strcmp()`          |
+| Character access  | Using `[]` or `at()`      | Using `[]`                |
+| Required header   | `<string>`                | `<cstring>`               |
+| Memory safety     | Safe                      | Prone to buffer overflows |
 
 > **Note:** The `string` class is generally preferred in modern C++ for its safety and convenience features.
 
@@ -267,14 +270,14 @@ int main() {
   // C-style string to std::string
   char cstr[] = "Hello C++";
   std::string str1(cstr);
-  
+
   // std::string to C-style string
   std::string str2 = "C++ Programming";
   const char* cstr2 = str2.c_str();  // Get a C-style string pointer
-  
+
   std::cout << "str1: " << str1 << std::endl;
   std::cout << "cstr2: " << cstr2 << std::endl;
-  
+
   return 0;
 }
 ```
