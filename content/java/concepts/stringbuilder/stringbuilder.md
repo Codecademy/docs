@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, the **`StringBuilder`** class is a part of the `java.lang` package that creates a mutable sequence of characters. Unlike [`String`](https://www.codecademy.com/resources/docs/java/strings) objects which are immutable, `StringBuilder` allows modifying character sequences without creating new objects for each operation. This makes `StringBuilder` much more efficient when performing multiple string manipulations, especially within loops or when building strings incrementally.
+In Java, the **`StringBuilder`** class is a part of the `java.lang` package that creates a mutable sequence of characters. Unlike [`String`](https://www.codecademy.com/resources/docs/java/strings) objects, which are immutable, `StringBuilder` allows modifying character sequences without creating new objects for each operation. This makes `StringBuilder` much more efficient when performing multiple string manipulations, especially within loops or when building strings incrementally.
 
 `StringBuilder` is commonly used in Java applications for tasks such as constructing SQL queries, assembling JSON or XML data, formatting large text outputs, or any scenario where strings need to be concatenated or modified repeatedly. Its ability to modify strings in-place significantly reduces memory overhead and improves performance in string-intensive operations.
 
