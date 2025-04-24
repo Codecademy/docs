@@ -27,7 +27,7 @@ numpy.reshape(a, shape=None, order='C')
 **Parameters:**
 
 - `a`(array_like): Array to be reshaped.
-- `shape` (array_like): If an integer, then the result will be a 1-D array of that length. One shape dimension can be -1, which will be calculated from the length of the array and remaining dimensions.
+- `shape` (array_like): If an integer, the result will be a 1-D array of that length. One shape dimension can be -1, calculated from the length of the array and the remaining dimensions.
 - `order` (optional): Specifies the reading/writing order of the elements:
   - `'C'` means C-like index order (last axis index changes fastest).
   - `'F'` means Fortran-like index order (first axis index changes fastest).
