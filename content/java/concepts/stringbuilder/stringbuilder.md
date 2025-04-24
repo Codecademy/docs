@@ -37,7 +37,7 @@ StringBuilder sb = new StringBuilder(CharSequence seq); // Creates StringBuilder
 
 **Return value:**
 
-StringBuilder returns a reference to a mutable sequence of characters which can be converted to a String using the `toString()` method.
+`StringBuilder` returns a reference to a mutable sequence of characters which can be converted to a String using the `toString()` method.
 
 ## StringBuilder vs StringBuffer
 
