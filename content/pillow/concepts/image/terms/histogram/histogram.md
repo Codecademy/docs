@@ -5,12 +5,12 @@ Subjects:
   - 'Data Science'
   - 'Data Visualization'
 Tags:
-  - 'Images'
   - 'Histograms'
+  - 'Images'
   - 'Pillow'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/image-processing"
+  - 'learn-python-3'
+  - 'paths/image-processing'
 ---
 
 In Pillow, the **`.histogram()`** method is used to compute the histogram of an image. The histogram is a representation of the distribution of pixel values in the image, which can be useful for various image processing tasks, such as contrast adjustment and thresholding.
