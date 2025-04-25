@@ -16,7 +16,7 @@ CatalogContent:
 
 **Binary search** is an effective searching algorithm for finding an element within a sorted collection of items, primarily implemented with [arrays](https://www.codecademy.com/resources/docs/general/data-structures/array) or lists. The binary search algorithm follows a divide-and-conquer approach by repeatedly dividing the collection into two halves and comparing the target value with the middle element of the current search space. If there is a match, it provides the index of the middle element; otherwise, it proceeds to either side of the array, depending on the current comparison result.
 
-> **Note:** The collection must be sorted and have constant time indexing such as arrays to implement the binary search algorithm. Binary search is incompatible with [data structures](https://www.codecademy.com/resources/docs/general/data-structures) that do not support constant-time indexing.
+> **Note:** To implement the binary search algorithm, the collection must be sorted and have constant-time indexing, such as arrays. Binary search is incompatible with [data structures](https://www.codecademy.com/resources/docs/general/data-structures) that do not support constant-time indexing.
 
 ## How Binary Search Works
 
@@ -26,11 +26,11 @@ Here are the steps for the binary search algorithm:
 2. Set the `end` pointer to the end of the collection (`length(collection) - 1`).
 3. While the `start` is less than or equal to the `end` pointer, repeat these steps:
    1. Calculate the middle element index: `mid = start + (end - start) / 2`.
-   2. Compare the value at middle index (`mid`) with the target value.
-      1. If `arr[mid]` is equal to the target value, return `mid` (search successful).
+   2. Compare the value at the middle index (`mid`) with the target value.
+      1. If `arr[mid]` equals the target value, return `mid` (search successful).
       2. If `arr[mid]` is less than the target value, set the `start` to `mid + 1`.
-      3. If `arr[mid]` is greater than the target value, set the `end` to `mid - 1`.
-4. If the `start` pointer becomes greater than the `end` pointer, the target value is not in the collection. Return `-1` to indicate that the target is not present.
+      3. If `arr[mid]` exceeds the target value, set the `end` to `mid - 1`.
+4. The target value is not in the collection if the `start` pointer becomes greater than the `end` pointer. Return `-1` to indicate that the target is not present.
 
 ## Example of Binary Search
 
@@ -38,17 +38,17 @@ This example implements the binary search algorithm for searching the number `9`
 
 ![Sorted Array](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-search-1.png)
 
-In the first iteration, `start` is at `0`, `end` is at `6`, and `mid` becomes `3` after calculating. The algorithm compares `mid` to the target value. Since the target value (`9`) is greater than the middle element (`6`), the algorithm proceeds the search to the right half by updating the `start` index to `mid + 1`, which is `4`. Now, the algorithm will focus on finding the target value in the array's right portion (index `4` to `6`).
+In the first iteration, `start` is at `0`, `end` is at `6`, and `mid` becomes `3` after calculating. The algorithm compares `mid` to the target value. Since the target value (`9`) is greater than the middle element (`6`), the algorithm proceeds with the search to the right half by updating the `start` index to `mid + 1`, which is `4`. Now, the algorithm will focus on finding the target value in the array's right portion (index `4` to `6`).
 
 ![First Iteration of Binary Search](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-search-2.png)
 
-In the second iteration, `mid` becomes `5`, which is the index of the target value (`9`). Since the target value is equal to the `mid`, the algorithm identifies the element's position.
+In the second iteration, `mid` becomes `5`, the index of the target value (`9`). Since the target value is equal to the `mid`, the algorithm identifies the element's position.
 
-However, the search is not instantly completed; instead, the algorithm changes the search range. In this case, the `start` index is set to `mid + 1`, which starts a narrowed search on the right part of the array.
+However, the search is not instantly completed; the algorithm changes the search range. In this case, the `start` index is set to `mid + 1`, which starts a narrowed search on the right part of the array.
 
 ![Second Iteration of Binary Search](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-search-3.png)
 
-In the last iteration, the binary search algorithm has narrowed down the search to a single element. The middle index `mid`, `start`, and `end`, are now pointing directly to the target value (`9`).
+In the last iteration, the binary search algorithm narrowed the search to a single element. The middle indexes `mid`, `start`, and `end` now point directly to the target value (`9`).
 
 The algorithm recognizes the match, and the search concludes that the target value is found at index `5` and the binary search is successful.
 
@@ -98,15 +98,15 @@ Here's a detailed look at the time complexity of binary search across different 
 
 **Best-Case Time Complexity:**
 
-The best case occurs when the target element is exactly at the middle of the array during the first comparison. In this case, the algorithm finds the target immediately, completing the search in just one step. This results in a time complexity of _O(1)_, or constant time.
+The best case occurs when the target element is at the middle of the array during the first comparison. In this case, the algorithm finds the target immediately, completing the search in just one step. This results in a time complexity of _O(1)_, or constant time.
 
 **Average-Case Time Complexity:**
 
-On average, binary search reduces the search space by half with each iteration. After each comparison, it discards one half of the array and continues the search on the remaining half. As a result, the number of steps required grows logarithmically with the number of elements, giving it an average time complexity of _O(log n)_.
+On average, binary search reduces the search space by half with each iteration. After each comparison, it discards one half of the array and continues searching the remaining half. As a result, the number of steps required grows logarithmically with the number of elements, giving it an average time complexity of _O(log n)_.
 
 **Worst-Case Time Complexity:**
 
-The worst-case scenario happens when the algorithm must continue halving the array until only one element is left to check - this occurs when the target is either not present in the array or is located at the end of the search process. Even in this scenario, the time complexity remains _O(log n)_, since each iteration still halves the search interval.
+The worst-case scenario occurs when the algorithm must continue halving the array until only one element is left to check—this occurs when the target is either not present in the array or is located at the end of the search process. Even in this scenario, the time complexity remains _O(log n)_since each iteration still halves the search interval.
 
 ## Space Complexity of Binary Search
 
@@ -118,7 +118,7 @@ When implemented using a loop, binary search requires only a constant amount of 
 
 **Recursive Implementation:**
 
-In a recursive implementation, each function call adds a new frame to the call stack. Because the array is divided in half at each step, the maximum depth of recursion is _log n_, where `n` refers to the length of the array. Thus, the space complexity becomes _O(log n)_ due to the stack frames created by recursion.
+Each function call adds a new frame to the call stack in a recursive implementation. Because the array is divided in half at each step, the maximum depth of recursion is _log n_, where `n` refers to the length of the array. Thus, the space complexity becomes _O(log n)_ due to the stack frames created by recursion.
 
 ## Binary Search vs. Other Searching Algorithms
 
@@ -142,8 +142,8 @@ No, binary search only works on sorted arrays. If the array is not sorted, the a
 The main difference lies in efficiency:
 
 - Binary search divides the search range in half each time and has a time complexity of _O(log n)_, helping it operate much faster for large, sorted lists.
-- Linear search verifies each element one by one and has a time complexity of _O(n)_.
+- Linear search verifies each element individually and has a time complexity of _O(n)_.
 
 ### 3. Is binary search suitable for linked lists?
 
-Not typically. Although you can perform binary search on a linked list, it is inefficient because linked lists do not support constant-time indexing. Accessing the middle element takes linear time, which defeats the purpose of the algorithm’s efficiency.
+Not typically. Although you can perform binary search on a linked list, it is inefficient because linked lists do not support constant-time indexing. Accessing the middle element takes linear time, defeating the algorithm’s efficiency purpose.
