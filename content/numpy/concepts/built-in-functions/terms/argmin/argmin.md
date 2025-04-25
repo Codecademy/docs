@@ -29,10 +29,11 @@ numpy.argmin(a, axis=None, out=None, keepdims=<no value>)
 - `a`: Input array containing values for evaluation.
 - `axis` (Optional): Axis along which to find the indices of minimum values. If `None` (default), the array is flattened before computation.
 - `out` (Optional): If provided, the result will be inserted into this array. It must have the appropriate shape to hold the output.
-- `keepdims` (Optional): If set to `True`, the reduced axes are left in the result as dimensions with size one, which maintains the original number of dimensions. Useful for broadcasting.
+- `keepdims` (Optional): If set to `True`, the reduced axes are kept in the result as dimensions with size one, which maintains the original number of dimensions. Useful for broadcasting.
 
 **Return value:**
-- Without specifying `axis`, returns a scalar index of the smallest value in the flattened array.
+
+- Without an `axis` specified, returns a scalar index of the smallest value in the flattened array.
 - With an axis specified, returns an array with indices of the minimum values along that axis.
 
 ## Example
@@ -60,7 +61,7 @@ The output produced by the exammple code will be:
 
 ## Codebyte Example
 
-In the following Codebyte, a 2D array of random integers is generated, followed by various applications of `.argmin()`:
+In this codebyte example, a 2D array of random integers is generated, followed by various applications of `.argmin()`:
 
 ```codebyte/python
 import numpy as np
