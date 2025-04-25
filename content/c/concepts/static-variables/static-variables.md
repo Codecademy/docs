@@ -25,7 +25,7 @@ The syntax for declaring static variables in C is:
 static data_type variable_name = value;
 ```
 
-**Parameters**
+### Parameters
 
 Where **data_type** is any valid C [data type](https://www.codecademy.com/resources/docs/c/data-types) (int, char, float, etc.), **variable_name** is the identifier for the variable, and **value** is an optional initialization value.
 
@@ -110,12 +110,12 @@ int get_static() {
 }
 
 int main() {
-    printf("Non-static calls: %d, %d, %d\n", 
+    printf("Non-static calls: %d, %d, %d\n",
            get_non_static(), get_non_static(), get_non_static());
-    
-    printf("Static calls: %d, %d, %d\n", 
+
+    printf("Static calls: %d, %d, %d\n",
            get_static(), get_static(), get_static());
-    
+
     return 0;
 }
 ```
@@ -128,9 +128,10 @@ In C, **static** refers to variables or functions with static storage duration t
 
 ### 2. What is static in programming?
 
-In C programming, the **static** keyword serves two main purposes: 
-1) When applied to a variable inside a function, it preserves the variable's value between function calls. 
-2) When applied to global variables or functions, it restricts their visibility to the file where they are declared, implementing the concept of encapsulation at the file level.
+In C programming, the **static** keyword serves two main purposes:
+
+1. When applied to a variable inside a function, it preserves the variable's value between function calls.
+2. When applied to global variables or functions, it restricts their visibility to the file where they are declared, implementing the concept of encapsulation at the file level.
 
 ### 3. What is static typing in C?
 
