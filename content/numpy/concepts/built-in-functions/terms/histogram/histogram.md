@@ -75,10 +75,11 @@ This produces the following output:
 
 ## Codebyte Example
 
-The following codes show the use of numpy `.histogram()` to display an array in a histogram display
+The following codes show the use of numpy `.histogram()` to display an array in a histogram display:
 
 ```codebyte/python
 import numpy as np
+import random
 
 # create an array of data
 data = np.array([12, 14, 18, 19, 25])
@@ -98,7 +99,6 @@ p = random.randint(1, 10)
 graph_2 = np.histogram(p)
 
 print(graph_2)
-
 
 # create a sample 10 elements between 1 and 20
 data = np.random.random_integers(1, 20, 1000)
