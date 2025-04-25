@@ -4,9 +4,9 @@ Description: 'Tree testing evaluates how easily users find information in a hier
 Subjects:
   - 'Web Design'
 Tags:
+  - 'Research'
   - 'UI'
   - 'UX'
-  - 'Research'
 CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'
@@ -18,14 +18,20 @@ There are several tools used to conduct a tree testing session. These include pl
 
 ## Task-Based Navigation
 
-_Tree testing tasks_ are written as specific goals, such as "Where would someone go to update their account settings?" Participants then click through the tree structure to identify where they think that information would be located.
+Tree testing tasks are written as specific goals, such as:
+
+```plaintext
+Where would someone go to update their account settings?
+```
+
+Participants then click through the tree structure to identify where they think that information would be located.
 
 ![Diagram showing the process of tree testing: participant is given a task and selects a branch on the tree](https://raw.githubusercontent.com/Codecademy/docs/main/media/tree-testing-task.png)
 
 Researchers observe whether participants make the correct selections, how long it takes, and whether they backtrack. This helps identify where the structure is intuitive or where participants may get lost.
 
-## Moderated vs Unmoderated
+## Moderated vs. Unmoderated Tree Testing
 
-_Moderated tree testing_ is when the researcher observes the participant while tasks are being completed and can ask questions or clarify instructions. This approach provides additional context around user decisions and confusion points.
+Moderated tree testing is when the researcher observes the participant while tasks are being completed and can ask questions or clarify instructions. This approach provides additional context around user decisions and confusion points.
 
-_Unmoderated tree testing_ is conducted remotely without researcher interaction. It is often used for large-scale studies and produces quantitative data about success rates and navigation paths. One limitation is that researchers may miss out on the _why_ behind user decisions.
+Unmoderated tree testing is conducted remotely without researcher interaction. It is often used for large-scale studies and produces quantitative data about success rates and navigation paths. One limitation is that researchers may miss out on the _why_ behind user decisions.
