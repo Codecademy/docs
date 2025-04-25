@@ -35,9 +35,11 @@ Returns a list of integers representing the histogram of the image. The length o
 - For RGBA images, it will have 1024 values (256 for each channel plus an additional 256 for the alpha channel).
 - For other modes, the histogram will have a different number of values depending on the number of channels in the image.
 
-## Example
+## Examples
 
-![image file](media/pillow-image-file-town.jpg)
+The image file used in all the examples is as follows:
+
+![image file](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-image-file-town.jpg)
 
 ### Example 1: Plotting a Grayscale Image Histogram
 
@@ -64,9 +66,9 @@ plt.ylabel('Count')
 plt.show()
 ```
 
-In this example, we first open an image file and convert it to grayscale using the [`.convert()`](https://www.codecademy.com/resources/docs/pillow/image/convert) method. Then, we calculate the histogram using the `.histogram()` method and plot it using Matplotlib. The x-axis represents the pixel values, and the y-axis represents the count of pixels for each value.
+In this example, an image file is opened and converted to grayscale using the [`.convert()`](https://www.codecademy.com/resources/docs/pillow/image/convert) method. The grayscale image's histogram is then computed using the `.histogram()` method and visualized with Matplotlib. The x-axis of the plot shows the pixel intensity values, while the y-axis represents the frequency of each intensity level.
 
-![output image](media/pillow-grayscale-histogram.png)
+![output image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-grayscale-histogram.png)
 
 ### Example 2: Visualizing Histogram Data for RGB Images
 
@@ -90,9 +92,9 @@ plt.ylabel('Count')
 plt.show()
 ```
 
-In this example, we open an RGB image and generate its histogram. The histogram will have 768 values (256 for each of the three channels: red, green, and blue). The plot will show the distribution of pixel values across all three channels.
+In this example, an RGB image is opened, and its histogram is generated. The resulting histogram contains 768 values—256 for each of the three color channels: red, green, and blue. The plot displays the distribution of pixel values across all three channels.
 
-![output image](media/pillow-rgb-histogram.png)
+![output image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-rgb-histogram.png)
 
 ### Example 3: Using `.histogram()` with transparency (RGBA images)
 
@@ -118,4 +120,4 @@ plt.show()
 
 In this example, the histogram will have 1024 values (256 for each of the four channels: red, green, blue, and alpha). The plot will show the distribution of pixel values across all four channels.
 
-![output image](media/pillow-rgba-histogram.png)
+![output image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-rgba-histogram.png)
