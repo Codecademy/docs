@@ -1,6 +1,6 @@
 ---
 Title: '.eig()'
-Description: 'Computes the eigenvalues and eigenvectors of a square matrix.'
+Description: 'Returns the eigenvalues and eigenvectors of a square matrix.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.eig()`** function in NumPy's linear algebra module computes the eigenvalues and right eigenvectors of a square matrix. Eigendecomposition is a fundamental matrix factorization method that breaks down a matrix into its constituent eigenvalues and eigenvectors, revealing important properties about the linear transformation represented by the matrix.
+The **`.eig()`** function in the `numpy.linalg` module computes the eigenvalues and right eigenvectors of a square matrix. Eigendecomposition is a fundamental matrix factorization method that breaks down a matrix into its constituent eigenvalues and eigenvectors, revealing important properties about the linear transformation represented by the matrix.
 
 Eigenvalues and eigenvectors are essential in various applications, including [Principal Component Analysis (PCA)](https://www.codecademy.com/article/principal-component-analysis-intro), solving differential equations, quantum mechanics, vibration analysis, and stability analysis. They provide insights about a matrix's behavior, such as its scaling properties, diagonalizability, and characteristic dynamics.
 
@@ -35,9 +35,9 @@ numpy.linalg.eig(a)
 
 **Notes:**
 
-- `eig()` computes right eigenvectors. To obtain left eigenvectors, compute the right eigenvectors of the transposed matrix: `v_left = np.linalg.eig(a.T)[1]`.
+- `.eig()` computes right eigenvectors. To obtain left eigenvectors, compute the right eigenvectors of the transposed matrix: `v_left = np.linalg.eig(a.T)[1]`.
 - Eigenvalues may be complex even for real matrices.
-- The eigenvectors are normalized to have unit length.
+- The eigenvectors are normalized to have a unit length.
 
 ## Example 1: Basic Eigenvalue Decomposition
 
@@ -72,7 +72,7 @@ print(
 )
 ```
 
-This example results in the following output:
+The output for the example will be:
 
 ```shell
 Original matrix:
@@ -126,7 +126,7 @@ print(
 )
 ```
 
-This example results in the following output:
+The output for the example will be:
 
 ```shell
 Matrix B:
@@ -146,13 +146,13 @@ lambda * v: [0.        +0.70710678j 0.70710678+0.j        ]
 Are they equal? True
 ```
 
-This example demonstrates how the `eig()` function handles matrices with complex eigenvalues. The rotation matrix B has eigenvalues `1j` and `-1j`, illustrating how complex eigenvalues often indicate rotational transformations.
+This example demonstrates how the `.eig()` function handles matrices with complex eigenvalues. The rotation matrix B has eigenvalues `1j` and `-1j`, illustrating how complex eigenvalues often indicate rotational transformations.
 
 ## Codebyte Example: Eigendecomposition of a Symmetric Matrix
 
 This example explores the special properties of eigendecomposition for symmetric matrices:
 
-```py
+```codebyte/python
 import numpy as np
 
 # Create a symmetric matrix
