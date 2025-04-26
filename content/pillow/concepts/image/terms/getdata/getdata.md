@@ -1,46 +1,45 @@
 ---
-Title: 'Image.getdata()'
+Title: '.getdata()'
 Description: 'Returns pixel values of an image as a sequence, useful for inspection and processing.'
 Subjects:
-  - 'Pillow'
-  - 'Image Processing'
+  - 'Computer Science'
+  - 'Data Visualization'
 Tags:
-  - 'Python'
+  - 'Images'
   - 'Pillow'
-  - 'Image'
-  - 'Image.getdata()'
+  - 'Python'
 CatalogContent:
   - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-# `.getdata()`
-
-The `.getdata()` method in the Pillow library returns the pixel data of an image as a sequence. This allows you to inspect, manipulate, or analyze the individual pixel values of an image — useful in image processing, filtering, or computer vision tasks.
-
----
-
+The **`.getdata()`** method in the Pillow library returns the pixel data of an image as a sequence. This allows in inspecting, manipulating, or analyzing the individual pixel values of an image, which is useful in image processing, filtering, or computer vision tasks.
 
 ## Syntax
 
-```python
+```pseudo
 Image.getdata()
 ```
 
-**Returns:**  
-A sequence object containing pixel values of the image. The format of the pixel values depends on the image mode:
+**Parameters:**
 
-- For `"RGB"` images: each pixel is a tuple like `(R, G, B)`
-- For `"L"` (grayscale): each pixel is a single integer representing light intensity
-- For `"RGBA"` images: each pixel is a tuple like `(R, G, B, A)`
-
-**Parameters:**  
 This method does not take any parameters.
+
+**Returns:**  
+
+A sequence object containing pixel values of the image. The format depends on the image mode:
+
+- In "RGB" mode: each pixel is a tuple like `(R, G, B)`.
+- In "L" (grayscale) mode: each pixel is a single integer representing light intensity.
+- In "RGBA" mode: each pixel is a tuple like `(R, G, B, A)`.
 
 ## Example
 
+The image used in this example is as follows:
+
 ![Image of Landscape](https://github.com/TanyaDyakonova/docs/raw/main/media/pillow_getdata_sample.jpg)
 
-The example below opens an image, reads the pixel data using .getdata(), and prints the first 10 pixel values.
+The example below opens an image, reads the pixel data using `.getdata()`, and prints the first 10 pixel values:
 
 ```py
 # Import the Image module from the PIL library
@@ -57,7 +56,8 @@ print(list(pixels)[:10])
 ```
 
 The above code produces the following output:
-```python
+
+```shell
 [(135, 206, 234),
  (135, 206, 234),
  (135, 206, 234),
