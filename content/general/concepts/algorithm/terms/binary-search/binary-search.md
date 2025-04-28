@@ -106,7 +106,7 @@ On average, binary search reduces the search space by half with each iteration. 
 
 **Worst-Case Time Complexity:**
 
-The worst-case scenario occurs when the algorithm must continue halving the array until only one element is left to check—this occurs when the target is either not present in the array or is located at the end of the search process. Even in this scenario, the time complexity remains _O(log n)_since each iteration still halves the search interval.
+The worst-case scenario occurs when the algorithm must continue halving the array until only one element is left to check—this occurs when the target is either not present in the array or is located at the end of the search process. Even in this scenario, the time complexity remains \_O(log n)\_since each iteration still halves the search interval.
 
 ## Space Complexity of Binary Search
 
