@@ -24,10 +24,8 @@ string.substring(startIndex);
 string.substring(startIndex, endIndex);
 ```
 
-- `.substring()` returns characters from `startIndex` up to, but not including, the character at `endIndex`.
-
+- `.substring()` returns characters from `startIndex` up to, but does not include, the character at `endIndex`.
 - If `endIndex` is omitted, `.substring()` returns characters from `startIndex` to the end of the string.
-
 - If `startIndex` and `endIndex` are equal, `.substring()` returns an empty string.
 
 A [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/java/errors/stringindexoutofboundsexception) is thrown if any of the following are true:
@@ -38,13 +36,13 @@ A [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/
 
 ## Example 1: Extracting Characters From a Specific Index to the End
 
-This example demonstrates how to extract a substring using `substring(beginIndex)` method starting from a specific index to the end of the string:
+This example demonstrates how to extract a substring using `substring(beginIndex)` method, starting from a specific index to the end of the string:
 
 ```java
 class Main {
-
+  
   public static void main(String[] args) {
-
+    
     String text = "Hello, Java!";
 
     String result = text.substring(7);
@@ -98,11 +96,11 @@ In this example, `substring(0, 11)` extracts characters from index 0 (inclusive)
 
 ## Frequently Asked Questions
 
-### 1. Does substring start at 0 in Java?
+### 1. Does a substring start at 0 in Java?
 
 Yes, string indexing in Java starts at 0, so the first character of a string is at index 0. When using the `substring()` method, the `beginIndex` parameter follows this zero-based indexing.
 
-### 2. Is substring in Java inclusive?
+### 2. Is a substring in Java inclusive?
 
 The `beginIndex` parameter in the `substring()` method is inclusive, meaning the character at that index will be included in the result. However, the `endIndex` parameter is exclusive, meaning the character at that index will not be included in the result.
 
@@ -111,4 +109,4 @@ The `beginIndex` parameter in the `substring()` method is inclusive, meaning the
 Yes, an empty string is a valid substring in Java. You can get an empty string by:
 
 - Using the same value for both `beginIndex` and `endIndex` in `substring(beginIndex, endIndex)`
-- Using `substring(str.length())` which returns an empty string since it starts at the end of the string
+- Using `substring(str.length())`, which returns an empty string since it starts at the end of the string
