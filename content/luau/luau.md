@@ -6,7 +6,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Luau** is a scripting language derived from [Lua](https://www.codecademy.com/resources/docs/lua). It was created specifically for [Roblox](https://www.roblox.com/), an online game platform and game creation system. Luau is backwards compatible with Lua 5.1, meaning that Lua 5.1 code can be executed within the Luau environment. It is used by Roblox game developers to write game logic, and by Roblox engineers to implement large parts of the user-facing application code as well as plugins for Roblox Studio.
+**Luau** is a scripting language derived from [Lua](https://www.codecademy.com/resources/docs/lua). It was created specifically for [Roblox](https://www.roblox.com/), an online game platform and game creation system. Luau is backwards compatible with Lua 5.1, meaning that Lua 5.1 code can be executed within the Luau environment. Roblox game developers use it to write game logic and implement large parts of the user-facing application code and plugins for Roblox Studio.
 
 Luau is open source, and information about its source code and associated tools can be found in the [Luau Repository](https://github.com/Roblox/luau#readme).
 
