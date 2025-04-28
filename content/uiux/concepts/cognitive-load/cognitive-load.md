@@ -1,11 +1,11 @@
 ---
 Title: 'Cognitive Load'
-Description: 'Cognitive load is a term used to indicate the amount of mental effort required for a user to process information and complete a task.'
+Description: 'Cognitive load refers to the amount of mental effort required for a user to process information and complete a task.'
 Subjects:
   - 'Web Design'
+  - 'Web Development'
 Tags:
-  - 'Cognitive Psychology'
-  - 'Usability'
+  - 'UI'
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
@@ -41,6 +41,6 @@ There are three types of cognitive load relevant to UX:
 - **Prioritize and group content visually**: Use white space, alignment, and hierarchy to help users scan and understand faster.
 - **Simplify language and reduce jargon**: Speak in the user's language, not the organization's internal terminology.
 - **Progressively disclose complexity**: Show users only what they need at the moment. Reveal advanced options or extra information only when needed.
-- **Use consistent design patterns**: When users recognize interaction models from past experiences, they dont need to relearn basic behaviors.
+- **Use consistent design patterns**: When users recognize interaction models from past experiences, they don't need to relearn basic behaviors.
 - **Chunk information**: Break content into digestible pieces. Long paragraphs or dense instructions increase load.
 - **Provide immediate feedback and guidance**: Error messages, inline help, and visual confirmations all reduce uncertainty.
