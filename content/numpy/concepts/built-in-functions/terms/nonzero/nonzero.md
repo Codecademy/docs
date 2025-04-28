@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **'.nonzero()'** function computes and returns the indices of the elements in a NumPy array that are non-zero.
+The **`.nonzero()`** function function identifies and returns the indices of the non-zero elements in a NumPy array. The `.nonzero()` function is commonly used in data preprocessing and analysis to filter out or extract meaningful, non-zero elements from datasets. It is also valuable in sparse matrix operations and machine learning workflows, where zero values often represent missing, default, or irrelevant data that needs to be handled separately.
 
 ## Syntax
 
@@ -21,15 +21,15 @@ The **'.nonzero()'** function computes and returns the indices of the elements i
 numpy.nonzero(a)
 ```
 
-**Parameter:**
+**Parameters:**
 
-- 'a': The input array
+- `a`: The input array.
 
-**Return Value**
+**Return value:**
 
-The '.nonzero()' function returns a tuple of arrays. There's one array for each dimension of the input array.
+The `.nonzero()` function returns a tuple of arrays. There's one array for each dimension of the input array.
 
-## Example 1: .nonzero() with a 1D Array
+## Example 1: Using `.nonzero()` with a 1D Array
 
 The following demonstrates how to find the nonzero indices of a one-dimensional NumPy array and print the array of the nonzero values:
 
@@ -56,7 +56,7 @@ Nonzero Indices: (array([1, 3, 4, 7, 9]),)
 Nonzero Values: array([1, 2, 3, 4, 5])
 ```
 
-## Example 2: .nonzero() with a 2D Array
+## Example 2: Using `.nonzero()` with a 2D Array
 
 The following demonstrates how to find the nonzero indices of a two-dimensional NumPy array and print the array of the nonzero values:
 
@@ -66,7 +66,7 @@ import numpy as np
 # Create a 2D array
 array2 = np.array([[1, 2], [0, 3]])
 
-#Compute the indices of the nonzero values and then the array without the zeros
+# Compute the indices of the nonzero values and then the array without the zeros
 nonzero_indices = np.nonzero(array2)
 no_zero_array2 = array2[nonzero_indices]
 
@@ -74,6 +74,7 @@ print("Array:", array2)
 print("Nonzero Indices:", nonzero_indices)
 print("Nonzero Values:", no_zero_array2)
 ```
+
 This example results in the following output:
 
 ```shell
