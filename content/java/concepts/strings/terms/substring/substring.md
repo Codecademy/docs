@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.substring()`** method in Java returns a part of the string from some starting index to an (optional) ending index. If an ending index is not provided, the substring will be from the starting index to the end of the original string.
+The **`.substring()`** method in Java returns a portion of a string from a specified starting index to an (optional) ending index. If an ending index is not provided, the substring extends from the starting index to the end of the original string.
 
-This method is useful for text processing, data parsing, and string manipulation tasks. There are two variants of this method that allow you to extract characters from a specific starting index or between a range of indices.
+This method is commonly used for text processing, data parsing, and string manipulation tasks. It offers two variants that allow the extraction of characters either from a specific starting index or between a range of indices.
 
 ## Syntax
 
