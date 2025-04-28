@@ -3,6 +3,7 @@ Title: 'Accessibility'
 Description: 'Accessibility refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use them.'
 Subjects:
   - 'Web Design'
+  - 'Web Development'
 Tags:
   - 'UI'
   - 'UX'
@@ -11,8 +12,6 @@ CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'
 ---
-
-<link rel="canonical" href="https://www.codecademy.com/article/what-is-digital-accessibility" />
 
 **Accessibility** refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use them.
 
@@ -31,47 +30,19 @@ The Web Content Accessibility Guidelines (WCAG) break down accessibility into [f
 
 Accessible UX design requires intentionality at every stage, from wireframing to testing:
 
-- _Use semantic HTML structure and headings_  
-  Proper use of elements like `<main>`, `<nav>`, `<section>`, and heading levels improves navigation for screen readers.
+- **Use semantic HTML structure and headings:** Proper use of elements like `<main>`, `<nav>`, `<section>`, and heading levels improves navigation for screen readers.
+- **Ensure color contrast meets minimum thresholds:** Text and interactive elements must be readable in low-light conditions and by users with visual impairments.
+- **Label form fields and inputs clearly:** Labels, placeholders, and instructions should be provided with screen-reader-accessible markup.
+- **Avoid using color alone to convey meaning:** Use text, icons, or shapes in addition to color cues to support color-blind users.
+- **Design keyboard-accessible navigation:** Users should be able to navigate and interact with all elements using just a keyboard.
+- **Write meaningful link text:** Avoid vague labels like “click here”. Instead describe the purpose of each link clearly.
 
-- _Ensure color contrast meets minimum thresholds_  
-  Text and interactive elements must be readable in low-light conditions and by users with visual impairments.
-
-- _Label form fields and inputs clearly_  
-  Labels, placeholders, and instructions should be provided with screen-reader-accessible markup.
-
-- _Avoid using color alone to convey meaning_  
-  Use text, icons, or shapes in addition to color cues to support color-blind users.
-
-- _Design keyboard-accessible navigation_  
-  Users should be able to navigate and interact with all elements using just a keyboard.
-
-- _Write meaningful link text_  
-  Avoid vague labels like “click here”. Instead describe the purpose of each link clearly.
-
-> _Note: Accessibility is not just a legal or ethical requirement. It improves usability for all users, including those using small screens, older devices, or assistive technologies._
+> **Note:** Accessibility is not just a legal or ethical requirement. It improves usability for all users, including those using small screens, older devices, or assistive technologies.
 
 ## Challenges Designers Should Consider
 
-- _Animations and motion_  
-  Ensure that animations respect the user's motion preference settings and avoid triggering vestibular disorders.
-
-- _Alt text and media description_  
-  Every image, chart, or embedded media must include an appropriate description for non-visual consumption.
-
-- _Language and cognitive load_  
-  Avoid jargon, acronyms, or long blocks of text that can overwhelm users with cognitive disabilities or non-native fluency.
-
-- _Touch targets_  
-  Buttons and links must be large enough and spaced adequately for users with limited motor control.
-
-- _Testing tools may not catch everything_  
-  Automated tools like axe or Lighthouse can help, but manual testing with screen readers or diverse users is still essential.
-
-## Resources
-
-- [Codecademy: What is Digital Accessibility?](https://www.codecademy.com/article/what-is-digital-accessibility)
-- [W3C: Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
-- [The A11Y Project](https://www.a11yproject.com/)
-- [Interaction Design Foundation: What Is Accessibility?](https://www.interaction-design.org/literature/topics/accessibility)
-- [UX Planet: A Primer to Web Accessibility for Designers](https://uxplanet.org/a-primer-to-web-accessibility-for-designers-2c548448c612)
+- **Animations and motion:** Ensure that animations respect the user's motion preference settings and avoid triggering vestibular disorders.
+- **Alt text and media description:** Every image, chart, or embedded media must include an appropriate description for non-visual consumption.
+- **Language and cognitive load:** Avoid jargon, acronyms, or long blocks of text that can overwhelm users with cognitive disabilities or non-native fluency.
+- **Touch targets:** Buttons and links must be large enough and spaced adequately for users with limited motor control.
+- **Testing tools may not catch everything:** Automated tools like axe or Lighthouse can help, but manual testing with screen readers or diverse users is still essential.
