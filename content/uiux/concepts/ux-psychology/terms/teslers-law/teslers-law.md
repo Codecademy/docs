@@ -34,7 +34,7 @@ Every product, form, or flow contains decisions, logic, or steps that require ef
 - **Improves accessibility and inclusivity:** Simplified paths are more usable by a broader range of users with diverse needs and abilities.
 - **Enhances trust and usability:** Products that just work create positive emotional responses and deeper engagement.
 
-## When and Where It Applies
+## Where Does Tesler's Law Apply
 
 Tesler's Law applies to nearly every interaction where complexity can be shifted from the user to the system. Common areas include:
 
