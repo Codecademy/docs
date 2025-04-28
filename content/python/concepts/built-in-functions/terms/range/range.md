@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The `range()` [function](https://www.codecademy.com/resources/docs/python/functions) returns a sequence of numbers based on the given range. This function is commonly used for [looping](https://www.codecademy.com/resources/docs/python/loops) a specific number of times in `for` loops. It doesn’t generate all the numbers at once; instead, it returns a range object that yields numbers one by one, which makes it memory-efficient.
+The `range()` [function](https://www.codecademy.com/resources/docs/python/functions) returns a sequence of numbers based on the given range. This function is commonly used for [looping](https://www.codecademy.com/resources/docs/python/loops) a specific number of times in `for` loops. It doesn’t generate all the numbers at once. Instead, it returns a range object that yields numbers individually, making it memory-efficient.
 
 ## Syntax
 
@@ -27,7 +27,7 @@ range(start = 0, stop, step = 1)
 **Parameters:**
 
 - `stop` (Required): Specifies where the range will stop, ending at `stop - 1` due to zero-based indexing.
-- `start` (Optional): Specifies where the range will start, defaulting at `0`.
+- `start` (Optional): Specifies where the range will start, defaulting to `0`.
 - `step` (Optional): Specifies how many steps are taken between indices, defaulting to `1`.
 
 **Return value:**
