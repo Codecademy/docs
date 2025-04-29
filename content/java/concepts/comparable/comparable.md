@@ -82,10 +82,10 @@ public class ComparableExample {
   public static void main(String[] args) {
     // Create an array of Student objects
     Student[] students = {
-        new Student("Alice", 103),
-        new Student("Bob", 101),
-        new Student("Charlie", 105),
-        new Student("David", 102)
+      new Student("Alice", 103),
+      new Student("Bob", 101),
+      new Student("Charlie", 105),
+      new Student("David", 102)
     };
 
     // Display students before sorting
