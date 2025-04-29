@@ -39,7 +39,7 @@ public interface Comparable<T> {
 
 ## Example 1: Creating a Comparable Class
 
-This example demonstrates how to create a simple class that implements the Comparable interface to enable natural sorting of objects:
+This example demonstrates how to create a simple class that implements the `Comparable` interface to enable natural sorting of objects:
 
 ```java
 import java.util.Arrays;
