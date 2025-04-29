@@ -1,6 +1,6 @@
 ---
-Title: 'epochs'
-Description: 'Defines epochs in machine learning and explains their importance in training models.'
+Title: 'Epochs'
+Description: 'An epoch in machine learning is one complete pass through the entire training dataset by the learning algorithm to update the model’s weights.'
 Subjects:
  - 'Computer Science'
  - 'Data Science'
@@ -23,33 +23,29 @@ CatalogContent:
   - 'paths/machine-learning-ai-engineering-foundations'
 ---
 
-When training a machine learning model, several hyperparameters play a crutial role in determining the model’s performance and convergence. **Epochs** are a fundamental one in machine learning, particularly in the training of a model. 
+When training a machine learning model, several hyperparameters play a crucial role in determining the model’s performance and convergence. **Epochs** are a fundamental concept in machine learning, particularly in the training of a model.
 
-An epoch refers to one complete pass through the entire training dataset. During an epoch, the learning algorithm updates the model's parameters based on the training data.
+An epoch refers to one complete pass through the entire training dataset. During an epoch, the model processes every sample in the training data once and updates its parameters through backpropagation and gradient descent.
 
 ## Importance of Epochs in Training
 
-The number of epochs determine how many times the learning algorithm will work through the entire training dataset. 
-
-Training for too few epochs may result in underfitting, where the model fails to capture the dominant trends in the data. This results in errors and poor performance.
-
-More epochs can lead to better model performance, as the model has more opportunities to learn from the data. However, too many epochs can lead to overfitting, where the model performs well on training data but poorly on unseen data.
+- Epochs define how often the model processes the entire training dataset during the learning phase.
+- Training for too few epochs may result in underfitting, where the model fails to capture the dominant trends in the data, leading to errors and poor performance.
+- TIncreasing the number of epochs gives the model additional chances to learn from the data, potentially enhancing its accuracy. However, too many epochs can lead to overfitting, where the model fits the training data too closely and performs poorly on unseen data.
 
 ## Difference between Epochs, Iterations, Batches
 
 Understanding these concepts helps in effectively training machine learning models and optimizing their performance.
 
 - **Epochs**: One complete pass through the entire training dataset.
+- **Iterations**: Refer to how many batch updates are required to complete a single pass through the full dataset.
+- **Batches**: A subset of the training dataset used to train the model in one iteration. The batch size controls how many data samples are used at once before updating the model’s weights.
 
-- **Iterations**: The number of batches needed to complete one epoch. For example, if you have 1000 samples and a batch size of 100, it will take 10 iterations to complete one epoch.
-
-- **Batches**: A subset of the training dataset used to train the model in one iteration. Batch size determines the number of samples processed before the model's parameters are updated.
-
-##  Example
+## Example
 
 This example demonstrates how to train a neural network model using the Diabetes dataset and visualize the training and validation loss over multiple epochs:
 
-```python
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_diabetes
@@ -72,15 +68,15 @@ X_test = scaler.transform(X_test)
 
 # Build and train the neural network model
 mlp = MLPRegressor(hidden_layer_sizes=(128,), max_iter=20, alpha=1e-4,
-    solver='adam', random_state=42, learning_rate_init=0.001)
+  solver='adam', random_state=42, learning_rate_init=0.001)
 
 train_loss = []
 val_loss = []
 
 for i in range(5000):
-    mlp.partial_fit(X_train, y_train)
-    train_loss.append(mean_squared_error(y_train, mlp.predict(X_train)))
-    val_loss.append(mean_squared_error(y_test, mlp.predict(X_test)))
+  mlp.partial_fit(X_train, y_train) # Each partial_fit call processes the entire training data once, simulating one epoch.
+  train_loss.append(mean_squared_error(y_train, mlp.predict(X_train)))
+  val_loss.append(mean_squared_error(y_test, mlp.predict(X_test)))
 
 # Find the epoch with the minimum validation loss
 minimum_validation_loss_epoch = np.argmin(val_loss)
@@ -98,6 +94,7 @@ plt.grid(True)
 plt.yscale('log')
 plt.show()
 ```
+
 The model is trained for 5000 epochs. During each epoch, the training and validation loss are recorded. The epoch with the minimum validation loss is identified to help determine the optimal number of epochs for training.
 
 The above code generates the following output:
