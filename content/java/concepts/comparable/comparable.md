@@ -207,7 +207,7 @@ public class ComparableCollectionExample {
     System.out.println("\nBooks between $8 and $12:");
       for (Book book : bookList) {
         if (book.getPrice() >= 8.0 && book.getPrice() <= 12.0) {
-            System.out.println(book);
+          System.out.println(book);
         }
       }
     }
