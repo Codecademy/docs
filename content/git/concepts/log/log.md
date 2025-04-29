@@ -29,3 +29,26 @@ Date: Mon May 22 14:21:03 2023 -0400.
 ```
 
 The example log above shows the different elements that make up a commit, but the most useful is the git hash (f5b5bd8f9eaa443d4020cbe918x742e7ddd22000), which can be used to revert our commit changes using the git revert command.
+
+There are various ways to customize the information presented by `git log` using options.
+
+## git log --oneline
+
+The `--oneline` option gives the single commit that is supplied just on one line. Every commit includes a seven-digit SHA number and a commit message.
+  
+```shell
+$ git log --oneline
+
+9a4223b  (HEAD -> chapter_1) added the first paragraph
+0a10c27  fixed the spacing issue
+18d040d  added the second paragraph
+```
+Using `--online` along with the `--graph` significantly increases the readability of the git log.
+
+```shell
+$ git log --oneline --graph
+
+* 9a4223b  (HEAD -> chapter_1) added the first paragraph
+* 0a10c27  fixed the spacing issue
+* 18d040d  added the second paragraph
+```
