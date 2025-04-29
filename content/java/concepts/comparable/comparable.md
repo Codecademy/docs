@@ -358,7 +358,7 @@ Both `Comparable` and `Comparator` interfaces in Java are used for sorting objec
 
 | Comparable                                                 | Comparator                                                                         |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Part of `java.lang` package                                  | Part of `java.util` package                                                          |
+| Part of `java.lang` package                                | Part of `java.util` package                                                        |
 | Contains only one method: `compareTo()`                    | Contains multiple methods, with `compare()` being the main one                     |
 | Provides the natural ordering of objects                   | Provides custom ordering that may be different from natural ordering               |
 | Class itself must implement the interface                  | External class implements the interface                                            |
