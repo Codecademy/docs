@@ -28,7 +28,7 @@ public interface Comparable<T> {
 
 **Parameters:**
 
-- `T` is the type of objects that this object may be compared to.
+- `T` is the type of object this object may be compared to.
 - `obj` is the object to be compared with the current instance.
 
 **The `compareTo()` method returns:**
