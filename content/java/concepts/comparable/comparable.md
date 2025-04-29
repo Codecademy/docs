@@ -237,7 +237,7 @@ Books between $8 and $12:
 To Kill a Mockingbird by Harper Lee ($10.99)
 ```
 
-In this example, a `Book` class is created that implements the Comparable interface with comparison based on book prices. After sorting the collection, elements can be easily accessed in specific positions or filtered based on their properties, demonstrating how the natural ordering helps organize and retrieve data efficiently.
+In this example, a `Book` class is created that implements the `Comparable` interface with comparison based on book prices. After sorting the collection, elements can be easily accessed in specific positions or filtered based on their properties, demonstrating how the natural ordering helps organize and retrieve data efficiently.
 
 ## Example 3: Adding Elements and Custom Sorting
 
