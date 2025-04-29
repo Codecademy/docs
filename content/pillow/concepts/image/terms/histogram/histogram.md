@@ -1,5 +1,5 @@
 ---
-Title: `.histogram()`
+Title: '.histogram()'
 Description: 'Computes the histogram of an image.'
 Subjects:
   - 'Data Science'
@@ -37,9 +37,9 @@ Returns a list of integers representing the histogram of the image. The length o
 
 ## Examples
 
-The image file used in all the examples is as follows:
+The image file used in all the examples is:
 
-![image file](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-image-file-town.jpg)
+![Image file](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-image-file-town.jpg)
 
 ### Example 1: Plotting a Grayscale Image Histogram
 
@@ -49,7 +49,7 @@ This example demonstrates how to convert an image to grayscale and plot its pixe
 from PIL import Image
 import matplotlib.pyplot as plt
 
-# Open an image file
+# Open the image file
 image = Image.open('town.jpg')
 
 # Convert the image to grayscale
@@ -66,9 +66,9 @@ plt.ylabel('Count')
 plt.show()
 ```
 
-In this example, an image file is opened and converted to grayscale using the [`.convert()`](https://www.codecademy.com/resources/docs/pillow/image/convert) method. The grayscale image's histogram is then computed using the `.histogram()` method and visualized with Matplotlib. The x-axis of the plot shows the pixel intensity values, while the y-axis represents the frequency of each intensity level.
+In this example, an image file is opened and converted to grayscale using the [`.convert()`](https://www.codecademy.com/resources/docs/pillow/image/convert) method. The grayscale image's histogram is then computed using the `.histogram()` method and visualized with Matplotlib. The x-axis of the plot shows the pixel intensity values, while the y-axis represents the frequency of each intensity level:
 
-![output image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-grayscale-histogram.png)
+![Output image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-grayscale-histogram.png)
 
 ### Example 2: Visualizing Histogram Data for RGB Images
 
@@ -78,7 +78,7 @@ This example shows how to compute and plot the pixel distribution of an RGB imag
 from PIL import Image
 import matplotlib.pyplot as plt
 
-# Open an image file
+# Open the image file
 image = Image.open('town.jpg')
 
 # Calculate the histogram
@@ -92,11 +92,11 @@ plt.ylabel('Count')
 plt.show()
 ```
 
-In this example, an RGB image is opened, and its histogram is generated. The resulting histogram contains 768 values—256 for each of the three color channels: red, green, and blue. The plot displays the distribution of pixel values across all three channels.
+In this example, an RGB image is opened, and its histogram is generated. The resulting histogram contains 768 values — 256 for each color channel: red, green, and blue. The plot displays the distribution of pixel values across all three channels:
 
-![output image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-rgb-histogram.png)
+![Output image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-rgb-histogram.png)
 
-### Example 3: Using `.histogram()` with transparency (RGBA images)
+### Example 3: Using `.histogram()` with Transparency (RGBA Images)
 
 This example illustrates how to generate a histogram for an RGBA image, including the alpha (transparency) channel:
 
@@ -104,7 +104,7 @@ This example illustrates how to generate a histogram for an RGBA image, includin
 from PIL import Image
 import matplotlib.pyplot as plt
 
-# Open an image file
+# Open the image file
 image = Image.open('town.jpg')
 
 # Calculate the histogram
@@ -118,6 +118,6 @@ plt.ylabel('Count')
 plt.show()
 ```
 
-In this example, the histogram will have 1024 values (256 for each of the four channels: red, green, blue, and alpha). The plot will show the distribution of pixel values across all four channels.
+In this example, the histogram will have 1024 values (256 for each of the four channels: red, green, blue, and alpha). The plot will show the distribution of pixel values across all four channels:
 
-![output image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-rgba-histogram.png)
+![Output image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-rgba-histogram.png)
