@@ -122,7 +122,7 @@ Student [name=Alice, id=103]
 Student [name=Charlie, id=105]
 ```
 
-In this example, a `Student` class is created that implements the Comparable interface. The natural ordering of students is defined based on their ID by implementing the `compareTo()` method. When [`Arrays.sort()`](https://www.codecademy.com/resources/docs/java/arrays/sort) is called on an array of Student objects, Java uses the defined comparison logic to sort them in ascending order by ID.
+In this example, a `Student` class is created that implements the `Comparable` interface. The natural ordering of students is defined based on their ID by implementing the `compareTo()` method. When [`Arrays.sort()`](https://www.codecademy.com/resources/docs/java/arrays/sort) is called on an array of Student objects, Java uses the defined comparison logic to sort them in ascending order by ID.
 
 ## Example 2: Accessing Elements from a Comparable Collection
 
