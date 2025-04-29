@@ -350,7 +350,7 @@ John Smith (25)
 John Smith (30)
 ```
 
-In this example, a multi-field comparison is implemented in the `Person` class. The natural ordering is based on last name, then first name, and finally age when both names are identical. Using a `TreeSet` demonstrates how elements are automatically sorted when added to the collection, maintaining the order defined by the `compareTo()` method.
+In this example, a multi-field comparison is implemented in the `Person` class. The natural ordering is based on last name, then first name, and finally age when both names are identical. Using a [`TreeSet`](https://www.codecademy.com/resources/docs/java/set/treeset) demonstrates how elements are automatically sorted when added to the collection, maintaining the order defined by the `compareTo()` method.
 
 ## Comparable vs Comparator
 
