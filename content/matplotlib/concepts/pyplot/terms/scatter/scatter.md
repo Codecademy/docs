@@ -69,7 +69,7 @@ plt.grid(True, linestyle='--', alpha=0.7)
 plt.show()
 ```
 
-This code creates a scatter plot showing the relationship between randomly generated x and y values, where y has a linear relationship with x plus some random noise. The plot displays 50 data points, each represented by a circle marker.
+This code creates a scatter plot showing the relationship between randomly generated `x` and `y` values, where `y` has a linear relationship with `x` plus some random noise. The plot displays 50 data points, each represented by a circle marker.
 
 ![Scatter plot showing a linear relationship with noise between two variables, with 50 blue circular markers scattered around a diagonal trend, grid lines, and labeled axes](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplot-scatter-output-1.png)
 
