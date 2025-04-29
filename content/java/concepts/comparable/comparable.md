@@ -354,7 +354,7 @@ In this example, a multi-field comparison is implemented in the `Person` class. 
 
 ## Comparable vs Comparator
 
-Both Comparable and Comparator interfaces in Java are used for sorting objects, but they have key differences:
+Both `Comparable` and `Comparator` interfaces in Java are used for sorting objects, but they have key differences:
 
 | Comparable                                                 | Comparator                                                                         |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------- |
