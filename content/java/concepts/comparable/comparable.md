@@ -381,11 +381,11 @@ Both `Comparable` and `Comparator` interfaces in Java are used for sorting objec
 
 ### 1. When should I implement the Comparable interface?
 
-Implement Comparable when your class has a natural ordering that makes logical sense, such as ordering people by name, products by ID, or dates chronologically.
+Implement `Comparable` when a class has a natural ordering that makes logical sense, such as ordering people by name, products by ID, or dates chronologically.
 
 ### 2. Can I change the natural ordering of a class?
 
-The natural ordering defined by Comparable should be consistent and unchanging. For different sorting orders, use Comparator instead of modifying the compareTo method.
+The natural ordering defined by `Comparable` should be consistent and unchanging. For different sorting orders, use `Comparator` instead of modifying the `compareTo` method.
 
 ### 3. What happens if I don't implement compareTo correctly?
 
@@ -393,12 +393,12 @@ If your implementation doesn't follow the contract (reflexivity, symmetry, trans
 
 ### 4. How do I sort in descending order using Comparable?
 
-You can reverse the comparison logic in your compareTo method (return `other.field - this.field` instead of `this.field - other.field`), or use `Collections.reverseOrder()` with a collection of Comparable objects.
+You can reverse the comparison logic in your `compareTo` method (return `other.field - this.field` instead of `this.field - other.field`), or use `Collections.reverseOrder()` with a collection of `Comparable` objects.
 
 ### 5. Can I implement Comparable for classes I don't own?
 
-No, you need to modify the class to implement Comparable. For classes you don't control, use Comparator instead.
+No, you need to modify the class to implement `Comparable`. For classes you don't control, use `Comparator` instead.
 
 ### 6. Is Comparable thread-safe?
 
-The Comparable interface itself doesn't address thread safety. Thread safety depends on the implementation of the compareTo method and whether the fields being compared are properly synchronized in a multi-threaded environment.
+The `Comparable` interface itself doesn't address thread safety. Thread safety depends on the implementation of the `compareTo` method and whether the fields being compared are properly synchronized in a multi-threaded environment.
