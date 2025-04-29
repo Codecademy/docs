@@ -179,7 +179,7 @@ This example visualizes the relationship between height and weight for two diffe
 
 ### 1. How do I create a scatter plot with different colors for different categories?
 
-To create a scatter plot with different colors for different categories, use the `c` parameter with a list of colors or a categorical variable, and specify a colormap with the `cmap` parameter. For categorical data, you can manually assign colors to each category.
+To create a scatter plot with different colors for different categories, use the `c` parameter with a list of colors or a categorical variable, and specify a `Colormap` with the `cmap` parameter. For categorical data, you can manually assign colors to each category.
 
 ### 2. Can I adjust the size of the markers in a scatter plot?
 
