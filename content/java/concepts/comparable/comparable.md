@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Comparable`** interface in Java is used to define the natural ordering of objects for a user-defined class. It is part of the `java.lang` package and provides a mechanism for comparing objects of the same type with one another. By implementing this interface, a class indicates that its instances can be ordered or sorted.
+The **`Comparable`** interface in Java specifies the natural ordering for objects of a custom class. It is part of the `java.lang` package and provides a mechanism for comparing objects of the same type. By implementing this interface, a class indicates that its instances can be ordered or sorted.
 
 When a class implements the Comparable interface, it must override the `compareTo()` method to define the comparison logic between objects. This method determines how objects should be ranked in relation to each other, such as ascending or descending order. The Comparable interface is commonly used with sorting methods provided by Java's Collections framework, enabling the sorting of custom objects in arrays and collections.
 
