@@ -55,20 +55,7 @@ print(list(pixels)[:10])
 ```
 
 The above code produces the following output:
-<<<<<<< HEAD
 
-```shell
-[(135, 206, 234),
- (135, 206, 234),
- (135, 206, 234),
- (135, 206, 234),
- (135, 206, 234),
- (135, 206, 234),
- (135, 206, 234),
- (135, 206, 234),
- (135, 206, 234),
- (135, 206, 234)]
-=======
 ```python
 [(253, 252, 253),
  (254, 253, 254), 
@@ -80,7 +67,5 @@ The above code produces the following output:
  (252, 252, 254), 
  (253, 253, 253), 
  (252, 254, 254)]
-
->>>>>>> 504f28e8 (Update image and output for getdata method example)
 ```
 
