@@ -256,7 +256,7 @@ if __name__ == "__main__":
     print(f"{directory}: {size} bytes")
 ```
 
-This example illustrates how post order traversal naturally solves the problem of calculating directory sizes. Since we need to know the sizes of all subdirectories before we can calculate the size of a parent directory, post order traversal ensures that children are processed before their parents.
+This example illustrates how postorder traversal naturally solves the problem of calculating directory sizes. Since knowledge of the sizes of all subdirectories is needed before calculating the size of a parent directory, postorder traversal ensures processing of children occurs before processing of parents.
 
 ## Frequently Asked Questions
 
