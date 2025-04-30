@@ -36,8 +36,7 @@ A sequence object containing pixel values of the image. The format depends on th
 ## Example
 
 The image used in this example is as follows:
-
-![Image of Landscape](https://github.com/TanyaDyakonova/docs/raw/main/media/pillow_getdata_sample.jpg)
+![Sample Image](https://github.com/TanyaDyakonova/docs/raw/main/media/pillow_getdata_sample.jpg)
 
 The example below opens an image, reads the pixel data using `.getdata()`, and prints the first 10 pixel values:
 
@@ -56,6 +55,7 @@ print(list(pixels)[:10])
 ```
 
 The above code produces the following output:
+<<<<<<< HEAD
 
 ```shell
 [(135, 206, 234),
@@ -68,5 +68,19 @@ The above code produces the following output:
  (135, 206, 234),
  (135, 206, 234),
  (135, 206, 234)]
+=======
+```python
+[(253, 252, 253),
+ (254, 253, 254), 
+ (254, 253, 252),
+ (253, 252, 253), 
+ (253, 253, 253), 
+ (253, 252, 252), 
+ (252, 252, 254), 
+ (252, 252, 254), 
+ (253, 253, 253), 
+ (252, 254, 254)]
+
+>>>>>>> 504f28e8 (Update image and output for getdata method example)
 ```
 
