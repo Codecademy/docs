@@ -179,7 +179,7 @@ The output of this code will be:
 Iterative post order traversal: [4, 5, 2, 6, 3, 1]
 ```
 
-This example demonstrates an alternative non-recursive approach to post order traversal. The iterative solution is particularly useful when dealing with deep trees where recursive approaches might cause stack overflow issues.
+This example demonstrates an alternative non-recursive approach to postorder traversal. The iterative solution is particularly useful when dealing with deep trees where recursive approaches might cause stack overflow issues.
 
 ## Codebyte Example: Calculating Directory Size Using Python
 
