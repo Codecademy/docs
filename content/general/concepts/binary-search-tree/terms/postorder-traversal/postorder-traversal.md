@@ -22,7 +22,7 @@ Postorder traversal has several important applications in computer science and d
 
 ## Algorithm
 
-To perform a post order traversal of a binary tree:
+To perform a postorder traversal of a binary tree:
 
 1. Recursively traverse the left subtree
 2. Recursively traverse the right subtree
