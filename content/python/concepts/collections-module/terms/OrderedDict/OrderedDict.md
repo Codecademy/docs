@@ -38,7 +38,7 @@ ordered_dict = OrderedDict(existing_dict)
 
 **Return value:**
 
-OrderedDict returns an ordered dictionary object that maintains keys in the order they were first inserted.
+`OrderedDict` returns an ordered dictionary object that maintains keys in the order they were first inserted.
 
 ## Dict vs OrderedDict
 
