@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.begin()`** function is a built-in method in the C++ Standard Template Library (STL) used to retrieve an iterator pointing to the first element in a `std::map` container. This method is essential for accessing and traversing the elements stored in a map. 
+The **`.begin()`** function is a built-in method in the C++ Standard Template Library (STL) used to retrieve an iterator pointing to the first element in a `std::map` container. This method is essential for accessing and traversing the elements stored in a map.
 
 The `.begin()` method returns an iterator that provides access to the first key-value pair in the map, determined by the map's sorting criterion. Maps in C++ store elements in a sorted order based on their keys, and `.begin()` gives access to the element that comes first in this order.
 
@@ -30,6 +30,7 @@ This function does not take any parameters.
 **Return value:**
 
 The `.begin()` method returns:
+
 - An iterator pointing to the first element in the map container.
 - If the map is empty, it returns an iterator equivalent to `.end()`.
 
@@ -52,7 +53,7 @@ int main() {
 
   // Access the first element using begin()
   auto firstElement = studentNames.begin();
-  
+
   // Print the first key-value pair
   std::cout << "First student ID: " << firstElement->first << std::endl;
   std::cout << "First student name: " << firstElement->second << std::endl;
@@ -131,19 +132,19 @@ int main() {
 
   // Apply a 10% discount to all items
   std::cout << "Applying 10% discount to all items..." << std::endl;
-  
+
   // Output original prices
   std::cout << "Original prices:" << std::endl;
   for (auto it = prices.begin(); it != prices.end(); ++it) {
     std::cout << it->first << ": $" << it->second << std::endl;
   }
-  
+
   // Apply discount by modifying the values
   for (auto it = prices.begin(); it != prices.end(); ++it) {
     // Reduce each price by 10%
     it->second = it->second * 0.9;
   }
-  
+
   // Output new prices
   std::cout << "\nDiscounted prices:" << std::endl;
   for (auto it = prices.begin(); it != prices.end(); ++it) {
@@ -209,6 +210,7 @@ std::string firstValue2 = (*firstElement).second;
 Note that "first" here means the element with the smallest key according to the map's sorting criterion, not necessarily the first element inserted.
 
 ### 3. Can I use `.begin()` to modify the contents of a map?
+
 Yes, you can use the iterator returned by `.begin()` to modify the values of a map, but not the keys. In C++, map keys are constant (const), so they cannot be changed through the iterator.
 
 Here’s an example:
@@ -224,4 +226,5 @@ it->second = 95; // This is allowed – modifies value
 
 // it->first = "Charlie"; // Not allowed – keys are read-only
 ```
+
 If you need to change a key, the only way is to remove the key-value pair and insert a new one with the updated key.
