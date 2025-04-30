@@ -34,7 +34,7 @@ ordered_dict = OrderedDict(existing_dict)
 
 **Parameters:**
 
-- `iterable`: Optional parameter that can be a sequence of key-value pairs or a mapping object like a dictionary. If not provided, an empty OrderedDict is created.
+- `iterable`: Optional parameter that can be a sequence of key-value pairs or a mapping object like a dictionary. If not provided, an empty `OrderedDict` is created.
 
 **Return value:**
 
