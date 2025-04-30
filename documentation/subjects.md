@@ -18,6 +18,7 @@ iOS
 Machine Learning
 Mobile Development
 Networking
+Statistics
 Web Design
 Web Development
 AI
