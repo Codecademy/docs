@@ -235,9 +235,9 @@ Yes, `OrderedDict` typically uses more memory than a regular dictionary because 
 
 ### 4. How do I convert between a regular dict and `OrderedDict`?
 
-You can convert a regular dictionary to an `OrderedDict` by passing it to the OrderedDict constructor: `ordered_dict = OrderedDict(regular_dict)`. To convert an `OrderedDict` to a regular dictionary, you can use: `regular_dict = dict(ordered_dict)`.
+You can convert a regular dictionary to an `OrderedDict` by passing it to the `OrderedDict` constructor: `ordered_dict = OrderedDict(regular_dict)`. To convert an `OrderedDict` to a regular dictionary, you can use: `regular_dict = dict(ordered_dict)`.
 
-### 5. Is OrderedDict still relevant in Python 3.7 and newer?
+### 5. Is `OrderedDict` still relevant in Python 3.7 and newer?
 
 Yes, despite regular dictionaries preserving insertion order since Python 3.7, `OrderedDict` still has unique features like `move_to_end()`, order-sensitive equality comparisons, and a more explicit contract about order preservation. It's particularly useful for algorithms that need to modify the order of elements during execution.
 
