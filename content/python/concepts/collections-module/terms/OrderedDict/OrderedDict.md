@@ -157,7 +157,7 @@ This example creates an `OrderedDict` of product inventory and demonstrates how 
 
 ## Codebyte Example: Implementing an LRU Cache with OrderedDict
 
-This example shows how to implement a Least Recently Used (LRU) cache using `OrderedDict`, a common real-world application that takes advantage of OrderedDict's order manipulation features:
+This example shows how to implement a Least Recently Used (LRU) cache using `OrderedDict`, a common real-world application that takes advantage of `OrderedDict`'s order manipulation features:
 
 ```codebyte/python
 from collections import OrderedDict
