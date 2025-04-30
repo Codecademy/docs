@@ -153,7 +153,7 @@ grapes: 20
 watermelon: 10
 ```
 
-This example creates an OrderedDict of product inventory and demonstrates how to use the `move_to_end()` method to move items either to the beginning (by setting `last=False`) or to the end of the OrderedDict. This functionality is particularly useful for implementing priority queues or for reordering elements based on access patterns.
+This example creates an `OrderedDict` of product inventory and demonstrates how to use the `move_to_end()` method to move items either to the beginning (by setting `last=False`) or to the end of the `OrderedDict`. This functionality is particularly useful for implementing priority queues or for reordering elements based on access patterns.
 
 ## Codebyte Example: Implementing an LRU Cache with OrderedDict
 
