@@ -260,26 +260,26 @@ This example illustrates how postorder traversal naturally solves the problem of
 
 ## Frequently Asked Questions
 
-### 1. What is the difference between pre-order, in-order, and post-order traversal?
+### 1. What is the difference between preorder, in-order, and postorder traversal?
 
-- Pre-order: Visit root, then left subtree, then right subtree (Root → Left → Right)
-- In-order: Visit left subtree, then root, then right subtree (Left → Root → Right)
-- Post-order: Visit left subtree, then right subtree, then root (Left → Right → Root)
+- Preorder: Visit root, then left subtree, then right subtree (Root → Left → Right)
+- Inorder: Visit left subtree, then root, then right subtree (Left → Root → Right)
+- Postorder: Visit left subtree, then right subtree, then root (Left → Right → Root)
 
-### 2. What is the time complexity of post order traversal?
+### 2. What is the time complexity of postorder traversal?
 
 The time complexity is O(n), where n is the number of nodes in the tree, as each node is visited exactly once.
 
-### 3. What is the space complexity of post order traversal?
+### 3. What is the space complexity of postorder traversal?
 
 - For recursive implementation: O(h) where h is the height of the tree (due to the recursion stack)
 - For iterative implementation with stacks: O(n) in the worst case
 
-### 4. When should I use post order traversal instead of other traversal methods?
+### 4. When should I use postorder traversal instead of other traversal methods?
 
-- Use post order traversal when you need to process child nodes before their parent nodes
+- Use postorder traversal when you need to process child nodes before their parent nodes
 - Common applications include tree deletion, evaluating postfix expressions, and bottom-up computations
 
-### 5. Can post order traversal be used for non-binary trees?
+### 5. Can postorder traversal be used for non-binary trees?
 
-Yes, post order traversal can be generalized to n-ary trees by visiting all children before the parent node
+Yes, postorder traversal can be generalized to n-ary trees by visiting all children before the parent node
