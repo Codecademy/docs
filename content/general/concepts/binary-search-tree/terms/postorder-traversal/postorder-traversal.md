@@ -18,7 +18,7 @@ CatalogContent:
 
 **Postorder traversal** is a depth-first tree traversal [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) where each node is visited in a specific sequence: left subtree, right subtree, and finally the root node. This traversal technique recursively processes all children of a node before processing the node itself, making it especially useful for operations that require bottom-up processing.
 
-Postorder traversal has several important applications in computer science and data processing. It's commonly used for deleting trees (since children must be deleted before their parent nodes), evaluating postfix expressions, and calculating directory sizes in file systems. When applied to expression trees, post order traversal naturally produces postfix notation, which is valuable in compiler design and expression evaluation.
+Postorder traversal has several important applications in computer science and data processing. It's commonly used for deleting trees (since children must be deleted before their parent nodes), evaluating postfix expressions, and calculating directory sizes in file systems. When applied to expression trees, postorder traversal naturally produces postfix notation, which is valuable in compiler design and expression evaluation.
 
 ## Algorithm
 
