@@ -183,7 +183,7 @@ This example demonstrates an alternative non-recursive approach to postorder tra
 
 ## Codebyte Example: Calculating Directory Size Using Python
 
-This example demonstrates a practical application of post order traversal for calculating the total size of directories in a file system using Python:
+This example demonstrates a practical application of postorder traversal for calculating the total size of directories in a file system using Python:
 
 ```py
 class FileNode:
