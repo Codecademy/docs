@@ -29,9 +29,10 @@ Image.getcolors(maxcolors=256)
 
 **Return value:**
 
-Returns a list of tuples. Each tuple is of the form (count, color):
-- `count`: Number of pixels with that color
-- `color`: The color value (e.g., RGB or grayscale)
+Returns a list of tuples. Each tuple is of the form `(count, color)`:
+
+- `count`: Number of pixels with that color.
+- `color`: The color value (e.g., RGB or grayscale).
 
 ## Example
 
@@ -39,21 +40,21 @@ The image to be used for this example is:
 
 ![Input image to perform the .getcolors() operation](https://raw.githubusercontent.com/Codecademy/docs/main/media/samandgos.jpg)
 
-In this example, the `.getcolors()` method returns a list of (count, color) tuples representing the number of times each color occurs in the image:
+In this example, the `.getcolors()` method returns a list of `(count, color)` tuples representing the number of times each color occurs in the image:
 
 ```py
 from PIL import Image
 
-# Open an image
+# Open the image
 image = Image.open("samandgos.jpg")
 
-# Convert to RGB
+# Convert the image to RGB
 image = image.convert("RGB")
 
-# Reduce to 256 colors
+# Reduce the image to 256 colors
 image = image.quantize(colors=256)
 
-# Now get colors
+# Use the .getcolors() method
 colors = image.getcolors(maxcolors=256)
 
 if colors is None:
@@ -63,7 +64,7 @@ else:
     print(f"Color {color} occurs {count} times")
 ```
 
-The output lists each color in the simplified image along with the number of times it occurs. The output produced by this code will be:
+The output lists each color in the simplified image along with the number of times it occurs. The output for this example will be:
 
 ```shell
 Color 0 occurs 5351 times
