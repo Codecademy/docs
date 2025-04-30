@@ -111,7 +111,7 @@ In this example, we traverse the tree in postorder: left subtree (4, 5, 2), then
 
 ## Example 2: Iterative Post Order Traversal Using Python
 
-This example shows how to implement post order traversal without recursion, using an iterative approach with two stacks in Python:
+This example shows how to implement postorder traversal without recursion, using an iterative approach with two stacks in Python:
 
 ```py
 class TreeNode:
