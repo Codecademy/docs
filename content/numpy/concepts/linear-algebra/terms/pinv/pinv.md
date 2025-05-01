@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.pinv()`** function in NumPy's linear algebra module computes the Moore-Penrose pseudo-inverse of a matrix. Unlike the regular inverse which only exists for square non-singular matrices, the pseudo-inverse provides a generalized inverse that exists for any matrix, including rectangular and singular matrices where a true inverse doesn't exist. It calculates this generalized inverse using singular value decomposition (SVD) of the input matrix.
+The **`.pinv()`** function in NumPy's linear algebra module computes the Moore-Penrose pseudo-inverse of a matrix. Unlike the regular inverse, which only exists for square non-singular matrices, the pseudo-inverse provides a generalized inverse that exists for any matrix, including rectangular and singular matrices where a true inverse doesn't exist. It calculates this generalized inverse using the input matrix's singular value decomposition (SVD).
 
-The pseudo-inverse is particularly useful in [data science](https://www.codecademy.com/enrolled/paths/data-science-foundations), [machine learning](https://www.codecademy.com/resources/docs/general/machine-learning), and signal processing applications. It provides a way to find the "best approximate solution" to systems of linear equations that may be over-determined or under-determined. This function serves as a cornerstone for least-squares regression, computing projection matrices, and solving linear systems where traditional matrix inversion fails.
+The pseudo-inverse is particularly useful in [data science](https://www.codecademy.com/enrolled/paths/data-science-foundations), [machine learning](https://www.codecademy.com/resources/docs/general/machine-learning), and signal processing applications. It provides a way to find the "best approximate solution" to systems of linear equations that may be over-determined or under-determined. This function is a cornerstone for least-squares regression, computing projection matrices, and solving linear systems where traditional matrix inversion fails.
 
 ## Syntax
 
@@ -140,12 +140,12 @@ Use `pinv()` when dealing with non-square matrices or square matrices that might
 
 ### 2. What is the difference between `numpy.linalg.pinv()` and `scipy.linalg.pinv()`?
 
-Both functions compute the Moore-Penrose pseudo-inverse, but the SciPy version might offer additional options and could use different underlying implementations. The NumPy version is often sufficient for most applications, but if you need additional control or performance optimizations, you might consider the SciPy version.
+Both functions compute the Moore-Penrose pseudo-inverse, but the SciPy version might offer additional options and use different underlying implementations. The NumPy version is often sufficient for most applications, but if you need extra control or performance optimizations, consider the SciPy version.
 
 ### 3. How does changing the `rcond` parameter affect the results?
 
-A: The `rcond` parameter acts as a threshold for treating small singular values as zero. Increasing `rcond` means more singular values will be discarded, which can help with numerical stability but may reduce the accuracy of the solution. A smaller `rcond` retains more information but might be susceptible to numerical issues with ill-conditioned matrices.
+The `rcond` parameter is a threshold for treating small singular values as zero. Increasing `rcond` means more singular values will be discarded, which can help with numerical stability but may reduce the accuracy of the solution. A smaller `rcond` retains more information but might be susceptible to numerical issues with ill-conditioned matrices.
 
 ### 4. Can `pinv()` handle complex matrices?
 
-A: Yes, `numpy.linalg.pinv()` can handle complex matrices. When working with complex matrices, setting the `hermitian` parameter to `True` (if your matrix is indeed Hermitian) can improve performance by using a more efficient algorithm.
+Yes, `numpy.linalg.pinv()` can handle complex matrices. When working with complex matrices, setting the `hermitian` parameter to `True` (if your matrix is indeed Hermitian) can improve performance by using a more efficient algorithm.
