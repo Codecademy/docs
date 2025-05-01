@@ -185,7 +185,7 @@ arr2 = np.array([4, 5, 6])
 
 # Append arr2 to arr1
 result = np.concatenate((arr1, arr2))
-print(result)  
+print(result)
 ```
 
 The output produced by this code will be:
@@ -205,11 +205,11 @@ import numpy as np
 a = np.array([1, 2])
 b = np.array([3, 4])
 concatenated = np.concatenate((a, b))
-print("Concatenated array:", concatenated) 
+print("Concatenated array:", concatenated)
 
 # Stack adds a new dimension.
 stacked = np.stack((a, b))
-print("Stacked array:\n", stacked)  
+print("Stacked array:\n", stacked)
 ```
 
 The output produced by this code will be:
