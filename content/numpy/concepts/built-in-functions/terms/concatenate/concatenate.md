@@ -16,7 +16,7 @@ CatalogContent:
 
 NumPy's **`.concatenate()`** function joins a sequence of arrays along an existing axis. This method provides a powerful way to combine multiple arrays into a single array without changing their content or structure. It is commonly used in data preprocessing, feature engineering, and when working with multi-dimensional data structures in scientific computing and data analysis.
 
-When processing data with NumPy, it is often necessary to merge different arrays, such as combining data from multiple sources, appending new observations to existing datasets, or constructing complex arrays from simpler components. The `.concatenate()` function offers a flexible approach to these tasks by allowing precise control over how arrays are joined along a specified dimension.
+When processing data with NumPy, merging different arrays, such as combining data from multiple sources, appending new observations to existing datasets, or constructing complex arrays from simpler components is often necessary. The `.concatenate()` function offers a flexible approach to these tasks by allowing precise control over how arrays are joined along a specified dimension.
 
 ## Syntax
 
@@ -28,8 +28,8 @@ numpy.concatenate((a1, a2, ...), axis=0, out=None, dtype=None, casting="same_kin
 
 - `a1, a2, ...` (sequence of array_like objects): The arrays must have the same shape, except in the dimension corresponding to the specified axis.
 - `axis` (int, optional): The axis along which the arrays will be joined. If axis is None, arrays are flattened before use. Default is `0`.
-- `out` (ndarray, optional): If provided, this is the destination to place the result. The shape must be correct, matching that of what concatenate would have returned.
-- `dtype` (str or dtype, optional): If provided, the destination array will have this dtype. Cannot be used together with out parameter.
+- `out` (ndarray, optional): If provided, this is the destination to place the result. The shape must be correct, matching what concatenate would have returned.
+- `dtype` (str or dtype, optional): The destination array will have this dtype if provided. Cannot be used together with out parameter.
 - `casting` ({'no', 'equiv', 'safe', 'same_kind', 'unsafe'}, optional): Controls what kind of data casting may occur. Default is `'same_kind'`.
 
 **Return value:**
@@ -185,7 +185,13 @@ arr2 = np.array([4, 5, 6])
 
 # Append arr2 to arr1
 result = np.concatenate((arr1, arr2))
-print(result)  # Output: [1 2 3 4 5 6]
+print(result)  
+```
+
+The output produced by this code will be:
+
+```shell
+[1 2 3 4 5 6]
 ```
 
 ### 2. What is the difference between `np.concatenate()` and `np.stack()`?
@@ -193,14 +199,26 @@ print(result)  # Output: [1 2 3 4 5 6]
 `np.concatenate()` joins arrays along an existing axis, while `np.stack()` adds a new axis (e.g., stacking rows into a 2D array).
 
 ```py
+import numpy as np
+
 # Concatenate combines arrays along an existing axis.
 a = np.array([1, 2])
 b = np.array([3, 4])
-np.concatenate((a, b))  # Output: [1 2 3 4]
+concatenated = np.concatenate((a, b))
+print("Concatenated array:", concatenated) 
 
 # Stack adds a new dimension.
-np.stack((a, b))        # Output: [[1 2]
-                        #          [3 4]]
+stacked = np.stack((a, b))
+print("Stacked array:\n", stacked)  
+```
+
+The output produced by this code will be:
+
+```shell
+Concatenated array: [1 2 3 4]
+Stacked array:
+ [[1 2]
+ [3 4]]
 ```
 
 ### 3. Can I concatenate arrays of different shapes?
