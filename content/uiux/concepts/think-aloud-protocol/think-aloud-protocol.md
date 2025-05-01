@@ -18,12 +18,12 @@ It is widely used in usability testing to understand how users perceive and inte
 
 ## When to Use
 
-Think Aloud Protocol is best suited for:
+The think Aloud Protocol is best suited for:
 
-- Usability testing of new designs or prototypes
-- Early discovery research
-- Identifying pain points in user flows
-- Evaluating information architecture clarity
+- usability testing of new designs or prototypes.
+- early discovery research.
+- identifying pain points in user flows.
+- evaluating information architecture clarity.
 
 ## Example Scenario
 
