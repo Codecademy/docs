@@ -1,41 +1,41 @@
 ---
-Title: 'Think Aloud Protocol'
-Description: 'Think Aloud Protocol captures user thought processes during task completion by having participants verbalize their actions.'
+Title: 'Think-Aloud Protocol'
+Description: 'Think-Aloud Protocol captures user thought processes during task completion by having participants verbalize their actions.'
 Subjects:
   - 'Web Design'
 Tags:
-  - 'UX'
   - 'Research'
   - 'User Testing'
+  - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Think Aloud Protocol** is a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method where participants are asked to verbalize their thoughts while completing a task. This technique provides insight into the user's decision-making process, confusion points, and assumptions, all in real time.
+**Think Aloud Protocol** is a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method where participants are asked to express their thoughts in words while completing a task. This technique provides insight into the user's decision-making process, confusion points, and assumptions, all in real time.
 
-It is widely used in usability testing to understand how users perceive and interact with a product or interface. Researchers listen, observe, and record the participant's spoken thoughts to gain a deeper understanding of user experience.
+It is widely used in usability testing to understand the way users perceive and interact with a product or interface. Researchers listen, observe, and record the participant's spoken thoughts to gain a deeper understanding of user experience.
 
 ## When to Use
 
-The think Aloud Protocol is best suited for:
+The Think-Aloud Protocol is best suited for:
 
-- usability testing of new designs or prototypes.
-- early discovery research.
-- identifying pain points in user flows.
-- evaluating information architecture clarity.
+- Usability testing of new designs or prototypes
+- Early discovery research
+- Identifying pain points in user flows
+- Evaluating information architecture clarity
 
 ## Example Scenario
 
 A participant is asked to find and apply a promo code on an e-commerce checkout page. As they interact with the interface, they might say:
 
-- "I'm looking for where I can enter the code."
+- "I'm looking for a place where I can enter the code."
 - "Oh, it's probably under this dropdown."
 - "I thought it would be closer to the total price."
 
 These comments reveal where the design may not match the user's mental model.
 
-![An illustration of researcher observing a participant using think-aloud protocol in a test](https://raw.githubusercontent.com/Codecademy/docs/main/media/think-aloud-protocol.png)
+![An illustration of researcher observing a participant using Think-Aloud Protocol in a test](https://raw.githubusercontent.com/Codecademy/docs/main/media/think-aloud-protocol.png)
 
 ## Best Practices
 
