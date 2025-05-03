@@ -33,4 +33,4 @@ Common forms of placeholders include:
 - **UI component placeholders:** Blocks or lines indicating future dropdowns, tabs, or carousels in a layout.
 - **Loading placeholders (skeleton screens):** Shimmering or animated blocks displayed while real data is being fetched — often used in modern web applications.
 
-> _Note:_ Skeleton screens are a special category of placeholders focused on perceived performance rather than structural design.
+> **Note:** Skeleton screens are a special category of placeholders focused on perceived performance rather than structural design.
