@@ -145,7 +145,7 @@ In this real-life scenario, we have a sales dataset with missing values in the `
 
 This example demonstrates how to use method-based filling, which is particularly useful for time series data:
 
-```py
+```codebyte/python
 # Importing pandas library
 import pandas as pd
 import numpy as np
