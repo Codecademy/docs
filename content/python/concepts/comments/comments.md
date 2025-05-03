@@ -106,7 +106,7 @@ While this approach is sometimes used for multi-line comments, it's important to
 
 Python developers often use different types of comments for different purposes. Here's an example that demonstrates all three comment types in one program:
 
-```py
+```codebyte/python
 # This is a single-line comment
 
 # This is a multi-line comment
@@ -124,10 +124,10 @@ def calculate_average(numbers):
   """
   This is a docstring (a special type of comment)
   that describes what the function does.
-   
+
   Args:
     numbers: A list of numeric values
-        
+
   Returns:
     The average of the input numbers
   """
