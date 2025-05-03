@@ -18,96 +18,79 @@ CatalogContent:
 
 ## How ChatGPT Works
 
-ChatGPT is based on **transformer neural networks**, an AI architecture designed for handling sequential text data. It predicts words based on patterns it has learned during training. Other notable LLMs include **BERT** (used by Google for search), **Claude** (Anthropic's AI model), and **Mistral** (an open-source competitor).
+ChatGPT is based on **transformer neural networks**, a breakthrough architecture for processing sequential data. These models are trained on massive text datasets and learn to predict the next word in a sentence based on context.
 
-### What Sets ChatGPT Apart from Search Engines?
+Unlike traditional search engines, ChatGPT:
 
-ChatGPT differs from search engines in several ways:
+- Doesn’t fetch live web results (unless using special tools like browsing or plugins).
+- Responds based on training data, not current events.
+- Doesn’t cite sources but mimics patterns in language.
+- Is tuned using **Reinforcement Learning from Human Feedback (RLHF)** to align better with human expectations.
 
-- It does not browse the internet in real-time (unless using specific plugins or connected to retrieval-based systems).
-- Its knowledge is limited to training data, meaning it lacks awareness of recent events unless fine-tuned.
-- It does not retrieve exact sources but instead generates patterns-based responses.
-- It uses **Reinforcement Learning from Human Feedback (RLHF)** to improve quality and alignment with human expectations.
+## Key Advancements
 
-## Advancements in ChatGPT
+Recent improvements include:
 
-Since its initial release, ChatGPT has seen several advancements:
+- **GPT-4o (2024)**: Enhanced ability to process and generate audio, images, and text together.
+- **Memory (2024)**: Can now remember user preferences and context across chats.
+- **Integration with Microsoft Copilot**: Embedded in Word, Excel, and other tools.
+- **Canvas (2024)**: Side-by-side interface within ChatGPT lets users edit text and code directly, facilitating real-time human-AI collaboration.
+- **Deep Research (2025)**: AI agent integrated into ChatGPT that autonomously conducts web browsing to generate comprehensive, cited reports on user-specified topics.
 
-- **GPT-4 (2023)**: Improved reasoning, factual accuracy, and multimodal capabilities.
-- **ChatGPT Plus**: A premium subscription plan offering faster responses and access to the latest models.
-- **Plugins and Browsing (2023)**: Optional features allowing access to real-time data retrieval and API integrations.
-- **Memory Capabilities (2024)**: ChatGPT can now retain information across conversations, improving personalization.
-- **Integration with Microsoft Products**: ChatGPT technology is embedded into Microsoft Copilot, powering AI-driven workflows in Word, Excel, and Teams.
-- **GPT-4o (2024)**: Can reason across audio, vision, and text.
+## Practical Use Tips
 
-## History of ChatGPT
+### Prompting Effectively
 
-There were several generations of AI technologies that have led up to ChatGPT.
+Here are some basic tips to get the most out of ChatGPT:
 
-### Feed Forward Networks
+- **Role play**: Request ChatGPT to take on a role, e.g. "Act as a senior developer with 20 years of experience, working with me, a non-tech hobbyist."
+- **Give examples**: Show the structure or tone you want in your reply.
+- **Use bullet formatting**: Easier for ChatGPT to mirror and structure output.
+- **Confirm Understanding**: Ask ChatGPT to summarize its understanding of your request before providing a response — useful for complex asks with long responses.
 
-**Artificial Neural Networks** (ANNs) are a class of computational functions inspired by how neurons work in the human brain. Neurons are arranged in layers and training occurs by guiding the network to differentiate between correct and incorrect answers. These are called feed-forward networks because signals move forward through the system.
+### Support with Image Input
 
-One example of a common ANN is a **Convolutional Neural Network** (CNN). These are commonly used in image recognition. A _convolution_ can be thought of as a filter applied to the image to make things like edges or specific features stand out.
+One of the most powerful ways to use ChatGPT for technical help is by combining image inputs with natural language queries. For example, you can paste a screenshot of a terminal error or code output, for example:
 
-### Recurrent Neural Networks
+```bash
+$ git checkout -b new-branch
+fatal: A branch named 'new-branch' already exists.
+```
 
-One limitation of ANNs is that they don’t have the concept of time sequences and the input size is fixed. So for language processing where a sequence of words or a sentence exists, **Recurrent Neural Networks** (RNNs) were created.
+Then ask ChatGPT: *"Why is this error happening? What should I do instead?"* — and it explains the issue clearly, sometimes suggesting alternate commands or best practices.
 
-RNNs feed decision results back into the system. So for example, if the sentence “What time is it?” were to be translated, the system would already know all about the question when the word “it” is encountered.
+This capability can be used for anything, including math homework or understanding paperwork in a language one is not well-versed in.
 
-While RNNs are very useful for language translation, they do not scale well with large amounts of information. Also, computations cannot be done in parallel.
-
-### Breakthrough with Transformers
-
-The breakthrough that allowed BERT and ChatGPT-based models to flourish is called **transformers**, introduced in a paper from 2017 entitled [_Attention Is All You Need_](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need). It was presented as a way to build machine translation with much faster parallel execution. It also introduced a new concept called _Self Attention_ to make sense of long language sequences further. It creates connections between different parts of the sequence. This allowed for highly scalable and efficient text generation, leading to models like GPT-3, GPT-4, and beyond.
-
-So how does it all work? In the transformer-based model, each word is transformed into a token. As tokens are read as part of an input sentence, the model starts predicting what the output should be - similar in concept to sentence completion.
-
-Due to the use of transformers in creating the model, the potential output is not just a prediction of the next word. Because the model is trained with deep understanding and _attention_, whole sentences and groupings of text are generated. The model used by ChatGPT can accept several thousand tokens as input.
+**Tip:** Combine annotated screenshots with specific questions to get faster, more accurate support.
 
 ## Risks and Limitations
 
 ### Misinformation & Hallucinations
 
-ChatGPT may produce confident but incorrect responses (hallucinations). While improvements have reduced errors, it remains a significant challenge. With prompt engineering, ChatGPT can be told to not give an answer unless it has high confidence in the results. This can reduce hallucinations but not completely solve the problem.
+ChatGPT can sound confident while being wrong (hallucinations). While improvements have reduced errors, it remains a significant challenge. With prompt engineering, ChatGPT can be instructed to avoid answering unless it has high confidence in the results. This can reduce hallucinations but not completely solve the problem.
 
 ### Bias
 
 All models inherit biases from training data, which can impact fairness in responses. OpenAI continues to refine its moderation techniques to minimize harmful outputs.
 
-### Data Privacy
+### Privacy
 
 ChatGPT does not store user data permanently, but queries are analyzed to improve the model. Users should avoid sharing sensitive information.
 
-### Cost and Energy Consumption
+### Cost and Energy
 
-Training LLMs like ChatGPT requires massive computing power, raising concerns about sustainability and accessibility.
+LLMs require immense compute resources to train and operate. Inference (every response) also has a cost, which affects accessibility.
 
-## The Future
+## Behind the Model
 
-### Expanding Capabilities
+### Evolution of AI Models
 
-ChatGPT is evolving beyond text-based chat. Future enhancements include:
+- **Feedforward Networks**: Early networks that process inputs in one direction.
+- **RNNs**: Added memory for sequences but lacked scalability.
+- **Transformers (2017)**: Enabled parallel training and deeper context understanding using self-attention.
 
-- Improved memory for contextual awareness over multiple conversations.
-- Expanded multimodal capabilities (processing images, audio, and video).
-- Advanced personalization for tailored user experiences.
+## Future Outlook
 
-### AI in Everyday Use
-
-ChatGPT is already embedded into:
-
-- Microsoft Copilot (Windows & Office integration)
-- AI-powered Google search
-- AI-assisted customer service platforms
-- Code generation tools (e.g., GitHub Copilot)
-
-### OpenAI's Roadmap
-
-- **GPT-5 (TBA)**: Expected to bring even greater reasoning, memory and adaptability.
-- **AI Regulation & Safety**: OpenAI collaborates with governments to ensure responsible AI development.
-
-### Cost
-
-Costs to train an LLM can be millions of dollars - so training frequently may hit commercial challenges. After training, each _inference_ or transaction costs some amount of money and computing power.
+- **GPT-5 (TBD)**: Expected to push reasoning, memory, and safety boundaries.
+- **Deeper Multimodality**: More integration of audio, video, and real-world context.
+- **Regulatory Collaboration**: OpenAI and others are working with governments on safety frameworks.
