@@ -136,7 +136,7 @@ This example demonstrates how `.log10()` can transform exponentially growing dat
 
 This example demonstrates how to use `.log10()` to calculate decibel levels from sound pressure measurements, a common application in audio engineering and acoustics.
 
-```py
+```codebyte/python
 import numpy as np
 
 # Define reference sound pressure level (20 micropascals)
