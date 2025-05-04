@@ -17,19 +17,23 @@ CatalogContent:
 The **.rand()** is a function from the *numpy* library which generates an array of specified shapes and fills it with uniformly distributed random values between 0 and 1. The function's output is determined by the shape parameters provided and it is commonly used for creating random arrays in various applictaions such as machine learning and simulations.
 
 ## Syntax
+
 ```pseudo
 numpy.random.rand(a1, a2, a3 ..., an)
 ```
 
 **Parameters:**
+
 - `a1, a2, a3, ..., an` : [int, optional] it is dimension of the returned array and if no argument is given, a single python float is returned.
 
 **Return value:**
+
 It returns *array* of defined shape and filled with ranom values.
 
 ## Example
 
-The following examples demonstrate the use of `.rand()` from numpy library
+The following examples demonstrate the use of `.rand()` from numpy library:
+
 ```py
 import numpy as np
 
@@ -50,13 +54,12 @@ print("This is a 1D array with 5 elements:", oneD_array, "\n")
 twoD_array = np.random.rand(3, 4)
 print("This is a 2D array with shape (3, 4):", twoD_array, "\n")
 
-
-
 fourD_array = np.random.rand(2,4,3)
 print("This is a 4D array with shape (2, 4, 3):", fourD_array, "\n")
 ```
 
 The ouput for the examples above: 
+
 ```shell
 This is a single float: 0.062282333140694646
 
