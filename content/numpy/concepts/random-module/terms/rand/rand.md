@@ -58,7 +58,7 @@ fourD_array = np.random.rand(2,4,3)
 print("This is a 4D array with shape (2, 4, 3):", fourD_array, "\n")
 ```
 
-The ouput for the examples above: 
+The ouput for the examples above:
 
 ```shell
 This is a single float: 0.062282333140694646
