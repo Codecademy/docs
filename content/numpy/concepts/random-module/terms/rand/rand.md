@@ -26,4 +26,11 @@ numpy.random.rand(a1, a2, a3 ..., an)
 
 **Return value:**
 It returns *array* of defined shape and filled with ranom values.
-"
+
+## Example
+
+The following examples demonstrate the use of `.rand()` from numpy library
+```py
+import numpy as np
+
+```
