@@ -1,6 +1,6 @@
 ---
 Title: "Tesler's Law"
-Description: "Tesler’s Law states that every product has an inherent complexity that must be handled by the user, the system, or the designer."
+Description: 'Tesler’s Law states that every product has an inherent complexity that must be handled by the user, the system, or the designer.'
 Subjects:
   - 'Web Design'
   - 'Web Development'
