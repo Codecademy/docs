@@ -3,7 +3,10 @@ Title: 'Logo'
 Description: 'A logo is a symbol, graphic, or emblem, that is used to represent a company, product, or brand.'
 Subjects:
   - 'Web Design'
+  - 'Web Development'
 Tags:
+  - 'Graphics'
+  - 'Symbol'
   - 'UI'
   - 'UX'
 CatalogContent:
@@ -21,29 +24,17 @@ Companies such as [Google](https://www.google.com), [Nike](https://www.nike.com)
 
 Digital products require flexible logo systems that adapt across contexts. Common formats include:
 
-- _Primary logo._  
-  The full version including both symbol and wordmark.
+- **Primary logo:** The full version, including both symbol and wordmark.
+- **Logomark only:** A standalone icon or symbol used when the full logo is unnecessary or unsuitable.
+- **Responsive logo:** A simplified version used in small spaces like navbars or tab icons.
+- **Monochrome or inverted logo:** Versions designed for dark mode, grayscale, or print compatibility.
 
-- _Logomark only._  
-  A standalone icon or symbol without text.
-
-- _Responsive logo._  
-  A simplified version used in small spaces like navbars or tab icons.
-
-- _Monochrome or inverted logo._  
-  Versions designed for dark mode, grayscale, or print compatibility.
-
-> _Note: A logo must remain legible and balanced across formats, screen sizes, and accessibility contexts._
+> **Note:** A logo must remain legible and balanced across formats, screen sizes, and accessibility contexts.
 
 ## What a Logo Communicates
 
-A logo can convey subtle but powerful messages about the brand:
+A logo conveys subtle but powerful messages about the brand:
 
-- _Tone of voice._  
-  A logo sets expectations — playful, professional, experimental, minimalist.
-
-- _Industry or domain cues._  
-  Symbols, colors, and typefaces suggest alignment with sectors like education, health, or finance.
-
-- _Company values._  
-  Visual traits signal identity — bold vs. quiet, modern vs. traditional, innovative vs. stable.
+- **Tone of voice:** A logo sets expectations — playful, professional, experimental, minimalist.
+- **Industry or domain cues:** Symbols, colors, and typefaces suggest alignment with sectors like education, health, or finance.
+- **Company values:** Visual traits signal identity — bold vs. quiet, modern vs. traditional, innovative vs. stable.
