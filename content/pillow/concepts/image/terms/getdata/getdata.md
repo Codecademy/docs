@@ -25,7 +25,7 @@ Image.getdata()
 
 This method does not take any parameters.
 
-**Returns:**  
+**Return value:**  
 
 A sequence object containing pixel values of the image. The format depends on the image mode:
 
@@ -36,16 +36,16 @@ A sequence object containing pixel values of the image. The format depends on th
 ## Example
 
 The image used in this example is as follows:
-![Sample Image](https://github.com/TanyaDyakonova/docs/raw/main/media/pillow_getdata_sample.jpg)
+![Sample Image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow_getdata_sample.jpg)
 
-The example below opens an image, reads the pixel data using `.getdata()`, and prints the first 10 pixel values:
+The example here opens an image, reads the pixel data using `.getdata()`, and prints the first 10 pixel values:
 
 ```py
 # Import the Image module from the PIL library
 from PIL import Image
 
 # Load the image
-image = Image.open("docs/media/pillow_getdata_sample.jpg")
+image = Image.open("pillow_getdata_sample.jpg")
 
 # Get pixel data
 pixels = image.getdata()
@@ -56,16 +56,6 @@ print(list(pixels)[:10])
 
 The above code produces the following output:
 
-```python
-[(253, 252, 253),
- (254, 253, 254), 
- (254, 253, 252),
- (253, 252, 253), 
- (253, 253, 253), 
- (253, 252, 252), 
- (252, 252, 254), 
- (252, 252, 254), 
- (253, 253, 253), 
- (252, 254, 254)]
+```shell
+[(245, 182, 176, 255), (244, 183, 177, 255), (245, 185, 179, 255), (244, 184, 179, 255), (244, 184, 178, 255), (244, 184, 178, 255), (244, 182, 178, 255), (243, 183, 176, 255), (243, 182, 175, 255), (243, 182, 177, 255)]
 ```
-
