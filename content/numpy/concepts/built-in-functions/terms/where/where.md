@@ -1,37 +1,46 @@
 ---
-title: '.where()'
-description: 'Returns elements from arrays depending on a condition'
-Subjects: 'Computer Science, Data Science'
-Tags: 'Arrays, Functions, Numpy'
-contentType: 'term'
-CatalogContent: 'learn-python-3, paths/data-science'
+Title: '.where()'
+Description: 'Returns elements from arrays depending on a condition.'
+Subjects: 
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Arrays'
+  - 'Functions'
+  - 'Numpy'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/data-science'
 ---
 
-## Introduction
+The **`.where()`** function is a built-in method in NumPy used for conditional selection of elements in arrays. It returns elements based on a condition:
 
-The **.where()** function is a built-in method in NumPy used for conditional selection of elements in arrays. It returns elements chosen from one of two options, depending on whether a specified condition is `True` or `False`.
-
-When only the condition is provided, `.where()` returns the indices where the condition is `True`. When all three arguments are provided—`condition`, `x`, and `y`—it returns an array built from `x` and `y`, depending on the condition.
+- When only the condition is provided, `.where()` returns the indices where the condition is `True`.
+- When all three arguments are provided i.e. condition, x, and y, it returns an array where elements from `x` are selected where the condition is `True`, and elements from `y` are selected where the condition is `False`.
 
 ## Syntax
 
-```python
+```pseudo
 numpy.where(condition[, x, y])
 ```
 
-- condition: An array-like structure of boolean values.
+**Parameters:**
 
-- x: Optional. Values from which to choose when condition is True.
+- `condition`: A boolean array or condition expression. Elements that evaluate to `True` will take values from `x`, and elements that evaluate to `False` will take values from `y`.
+- `x` (optional): The array or value to be selected when the condition is `True`.
+- `y` (optional): The array or value to be selected when the condition is `False`.
 
-- y: Optional. Values from which to choose when condition is False.
+**Return value:**
 
-If only the condition is provided, the indices where the condition is True are returned.
+- When all three arguments are provided, it returns an array with elements taken from `x` where the condition is `True`, and elements taken from `y` where the condition is `False`.
+- When only the condition is provided, it returns the indices where the condition is `True`.
+-
 
 ## Example
 
-The following example demonstrates how to use the .where() function with the parameters:
+The following example demonstrates how to use the `.where()` function with the parameters:
 
-```
+```py
 import numpy as np
 
 arr = np.array([10, 15, 20, 25, 30])
@@ -47,16 +56,16 @@ print(result)
 
 This example results in the following output:
 
-```
+```shell
 (array([3, 4]),)
 ['small' 'small' 'small' 'big' 'big']
 ```
 
 ## Codebyte example
 
-Run the following codebyte example to better understand the .where() function:
+Run the following codebyte example to better understand the `.where()` function:
 
-```
+```codebyte/python
 import numpy as np
 
 arr = np.array([1, 2, 3, 4, 5])
@@ -68,4 +77,4 @@ print("Original array:", arr)
 print("Transformed array:", result)
 ```
 
-In this example, elements less than 3 are replaced with 0, and others with 1. This is a common pattern in data preprocessing and transformation.
+In this example, elements less than 3 are replaced with 0, and others with 1.
