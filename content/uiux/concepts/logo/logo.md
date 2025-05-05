@@ -20,7 +20,7 @@ Companies such as [Google](https://www.google.com), [Nike](https://www.nike.com)
 
 ![Codecademy Logo](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/wireframes/Codecademy_navy.svg)
 
-## Variations and Formats
+## Logo Variations and Formats
 
 Digital products require flexible logo systems that adapt across contexts. Common formats include:
 
@@ -31,7 +31,7 @@ Digital products require flexible logo systems that adapt across contexts. Commo
 
 > **Note:** A logo must remain legible and balanced across formats, screen sizes, and accessibility contexts.
 
-## What a Logo Communicates
+## What does a Logo Communicate about a Brand
 
 A logo conveys subtle but powerful messages about the brand:
 
