@@ -1,56 +1,250 @@
 ---
-Title: 'collections.OrderedDict'
-Description: 'Tracks the order in which items were added.'
+Title: 'OrderedDict'
+Description: 'Maintains the order in which keys were inserted in a dictionary.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
+  - 'Collections'
+  - 'Data Structures'
   - 'Dictionaries'
-  - 'Data Types'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-An **OrderedDict** is a data type in the `collections` module. It is a [`dict`](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that tracks the order in which items were added. It offers all the standard dictionary methods as well as two additional methods that deal with the ordering of the `OrderedDict`.
+**`OrderedDict`** in Python is a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that remembers the order in which keys were inserted. While a regular dictionary in Python doesn't guarantee any specific order when iterating over its keys, an `OrderedDict` maintains the insertion order of items. This specialized data structure is part of the [`collections`](https://www.codecademy.com/resources/docs/python/collections-module) module in Python's standard library.
+
+`OrderedDict` is useful when the order of items is important, such as when there is a need to process dictionary contents in a specific sequence or when building ordered mappings. It's commonly used in configurations, JSON data processing, and when implementing caching mechanisms like LRU (Least Recently Used) caches. Since Python 3.7, regular dictionaries also preserve insertion order, but OrderedDict still offers additional specialized methods for order manipulation.
 
 ## Syntax
 
 ```pseudo
-myOrderedDict = collections.OrderedDict()
+from collections import OrderedDict
+
+# Creating an empty OrderedDict
+ordered_dict = OrderedDict()
+
+# Creating an OrderedDict from key-value pairs
+ordered_dict = OrderedDict([('key1', value1), ('key2', value2), ...])
+
+# Creating an OrderedDict from another dictionary
+ordered_dict = OrderedDict(existing_dict)
 ```
 
-Like a regular dictionary, an `OrderedDict` can also be initialized with the [`.fromkeys()`](https://www.codecademy.com/resources/docs/python/dictionaries/fromkeys) method.
+**Parameters:**
 
-```pseudo
-myOrderedDict = collections.OrderedDict.fromkeys(keylist, value)
+- `iterable`: Optional parameter that can be a sequence of key-value pairs or a mapping object like a dictionary. If not provided, an empty `OrderedDict` is created.
+
+**Return value:**
+
+`OrderedDict` returns an ordered dictionary object that maintains keys in the order they were first inserted.
+
+## Dict vs OrderedDict
+
+| Feature                      | OrderedDict                                                                                      | dict (Python 3.7+)                                    | dict (before Python 3.7)               |
+| ---------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------- | -------------------------------------- |
+| Order Preservation           | Always guaranteed as a core feature                                                              | Guaranteed but as an implementation detail            | Not preserved (arbitrary order)        |
+| Order Manipulation           | Provides `move_to_end()` to reposition keys and `popitem(last=False)` to remove first/last items | No explicit order manipulation methods                | No order manipulation                  |
+| Equality Comparison          | Considers both content AND order (`==` returns False if same content but different order)        | Considers only content (order ignored)                | Considers only content (order ignored) |
+| Memory Usage                 | Higher (maintains additional linked list structure)                                              | Lower (more memory efficient)                         | Lower (most efficient)                 |
+| Performance                  | Slightly slower due to order tracking overhead                                                   | Faster for most operations                            | Fastest                                |
+| Ideal Use Cases              | When order manipulation is needed, LRU caches, order-sensitive equality comparisons              | General purpose use when order preservation is needed | When order doesn't matter              |
+| Python Version Compatibility | All versions (consistent behavior)                                                               | Python 3.7+ for guaranteed order                      | All versions (but no order guarantee)  |
+
+## Example 1: Creating and Using an OrderedDict
+
+This example demonstrates how to create an `OrderedDict` and shows how it maintains insertion order during iteration:
+
+```py
+from collections import OrderedDict
+
+# Creating an OrderedDict
+user_info = OrderedDict()
+
+# Adding key-value pairs
+user_info['name'] = 'Alice'
+user_info['age'] = 30
+user_info['email'] = 'alice@example.com'
+user_info['location'] = 'New York'
+
+# Iterating through the OrderedDict
+print("User Information:")
+for key, value in user_info.items():
+  print(f"{key}: {value}")
+
+# Regular dictionary for comparison
+regular_dict = {
+    'name': 'Bob',
+    'age': 25,
+    'email': 'bob@example.com',
+    'location': 'Boston'
+}
+
+print("\nRegular Dictionary:")
+for key, value in regular_dict.items():
+  print(f"{key}: {value}")
 ```
 
-## Additional Methods
+Output generated by this code will be:
 
-In addition to the standard `dict` methods, the following are specific to an `OrderedDict`:
+```shell
+User Information:
+name: Alice
+age: 30
+email: alice@example.com
+location: New York
 
-- `.popitem(last)`: Returns and removes a key-value pair from the `OrderedDict`. The pairs are returned in LIFO (last-in-first-out) order if `last` is `True` and FIFO (first-in-first-out) order if `last` is `False`. The `last` argument is optional and defaults to `True`.
-- `.move_to_end(key, last)`: Moves the `key` to one end of the `OrderedDict`. If `last` is `True` it is moved to the right end (last entered). Otherwise, it is moved to the start (first entered). The `last` argument is optional and defaults to `True`.
+Regular Dictionary:
+name: Bob
+age: 25
+email: bob@example.com
+location: Boston
+```
 
-## Codebyte Example
+In this example, an `OrderedDict` named `user_info` is created and populated with key-value pairs. When iterated, the keys appear in the same order in which they were inserted. Although a regular dictionary also maintains insertion order in Python 3.7 and later, this behavior is considered an implementation detail rather than a guaranteed feature.
 
-The following example creates an `OrderedDict` and rearranges some items in it.
+## Example 2: Reordering Items with move_to_end()
+
+This example demonstrates how to use the `move_to_end()` method to reorder elements in an `OrderedDict`, which is a unique feature not available in regular dictionaries:
+
+```py
+from collections import OrderedDict
+
+# Creating an OrderedDict of product inventory
+inventory = OrderedDict([
+    ('apples', 25),
+    ('bananas', 15),
+    ('oranges', 30),
+    ('grapes', 20),
+    ('watermelon', 10)
+])
+
+print("Original inventory order:")
+for item, quantity in inventory.items():
+  print(f"{item}: {quantity}")
+
+# Moving the most popular item to the beginning
+inventory.move_to_end('oranges', last=False)
+
+# Moving the least popular item to the end
+inventory.move_to_end('watermelon')
+
+print("\nReordered inventory (most and least popular repositioned):")
+for item, quantity in inventory.items():
+  print(f"{item}: {quantity}")
+```
+
+The output of this code will be:
+
+```shell
+Original inventory order:
+apples: 25
+bananas: 15
+oranges: 30
+grapes: 20
+watermelon: 10
+
+Reordered inventory (most and least popular repositioned):
+oranges: 30
+apples: 25
+bananas: 15
+grapes: 20
+watermelon: 10
+```
+
+This example creates an `OrderedDict` of product inventory and demonstrates how to use the `move_to_end()` method to move items either to the beginning (by setting `last=False`) or to the end of the `OrderedDict`. This functionality is particularly useful for implementing priority queues or for reordering elements based on access patterns.
+
+## Codebyte Example: Implementing an LRU Cache with OrderedDict
+
+This example shows how to implement a Least Recently Used (LRU) cache using `OrderedDict`, a common real-world application that takes advantage of `OrderedDict`'s order manipulation features:
 
 ```codebyte/python
-import collections
+from collections import OrderedDict
 
-d = collections.OrderedDict()
-d["A"] = 1
-d["B"] = 2
-d["C"] = 3
-d["D"] = 4
+class LRUCache:
+  def __init__(self, capacity):
+    """Initialize a new LRU cache with the given capacity."""
+    self.capacity = capacity
+    self.cache = OrderedDict()
 
-print(d.popitem())
-print(d)
+  def get(self, key):
+    """
+    Retrieve an item from the cache and move it to the end (most recently used).
+    Returns the value or -1 if not found.
+    """
+    if key not in self.cache:
+      return -1
 
-d.move_to_end("A")
-d.move_to_end("C", False)
+    # Move the accessed item to the end (mark as most recently used)
+    self.cache.move_to_end(key)
+    return self.cache[key]
 
-print(d)
+  def put(self, key, value):
+    """
+    Add or update an item in the cache and mark it as most recently used.
+    If cache exceeds capacity, remove the least recently used item.
+    """
+    # If key exists, delete it before inserting (to update its position)
+    if key in self.cache:
+      del self.cache[key]
+
+    # Add the new key-value pair
+    self.cache[key] = value
+
+    # If over capacity, remove the first item (least recently used)
+    if len(self.cache) > self.capacity:
+      self.cache.popitem(last=False)
+
+# Example usage
+cache = LRUCache(3)  # Cache with capacity of 3 items
+
+cache.put('a', 1)
+cache.put('b', 2)
+cache.put('c', 3)
+
+print("Cache after initial population:", list(cache.cache.items()))
+
+# Access 'a', making it the most recently used
+print("Get 'a':", cache.get('a'))
+print("Cache after accessing 'a':", list(cache.cache.items()))
+
+# Add a new item, which should evict the least recently used item (now 'b')
+cache.put('d', 4)
+print("Cache after adding 'd':", list(cache.cache.items()))
+
+# 'b' should be gone as it was the least recently used
+print("Get 'b':", cache.get('b'))
+```
+
+This example implements an LRU (Least Recently Used) cache. This common caching strategy tracks recently accessed items and removes the least recently used ones when the cache reaches its capacity. The `OrderedDict` class is well-suited for this purpose due to its ability to maintain insertion order and its `move_to_end()` and `popitem()` methods. The `popitem(last=False)` method removes the first-added (least recently used) item when the cache exceeds its limit.
+
+## Frequently Asked Questions
+
+### 1. When should I use `OrderedDict` instead of a regular dictionary?
+
+Use `OrderedDict` when you need explicit control over item order with methods like `move_to_end()`, when you want equality comparisons to consider order, or when you're working with Python versions before 3.7. In modern Python with version 3.7+, regular dictionaries maintain insertion order, so `OrderedDict` is needed mainly for its specialized order manipulation methods.
+
+### 2. Is `OrderedDict` slower than a regular dictionary?
+
+Yes, `OrderedDict` operations are generally slower than equivalent operations on a regular dictionary because `OrderedDict` needs to maintain the linked list that tracks item order. However, the difference is usually negligible for most applications.
+
+### 3. Does `OrderedDict` use more memory than regular dictionary?
+
+Yes, `OrderedDict` typically uses more memory than a regular dictionary because it needs to store additional information to track the order of items.
+
+### 4. How do I convert between a regular dict and `OrderedDict`?
+
+You can convert a regular dictionary to an `OrderedDict` by passing it to the `OrderedDict` constructor: `ordered_dict = OrderedDict(regular_dict)`. To convert an `OrderedDict` to a regular dictionary, you can use: `regular_dict = dict(ordered_dict)`.
+
+### 5. Is `OrderedDict` still relevant in Python 3.7 and newer?
+
+Yes, despite regular dictionaries preserving insertion order since Python 3.7, `OrderedDict` still has unique features like `move_to_end()`, order-sensitive equality comparisons, and a more explicit contract about order preservation. It's particularly useful for algorithms that need to modify the order of elements during execution.
+
+### 6. Can I sort an OrderedDict?
+
+`OrderedDict` itself doesn't have a built-in sort method, but you can create a new `OrderedDict` with sorted items:
+
+```py
+sorted_dict = OrderedDict(sorted(original_dict.items()))
 ```
