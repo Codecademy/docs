@@ -34,7 +34,6 @@ numpy.where(condition[, x, y])
 
 - When all three arguments are provided, it returns an array with elements taken from `x` where the condition is `True`, and elements taken from `y` where the condition is `False`.
 - When only the condition is provided, it returns the indices where the condition is `True`.
--
 
 ## Example
 
