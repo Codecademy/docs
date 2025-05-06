@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.randn()`** function generates an array of random numbers sampled from the standard normal distribution (a Gaussian distribution with mean = 0 and standard deviation = 1). It is commonly used in statistics, machine learning, and data analysis for creating synthetic data and testing algorithms.
+The **`.randn()`** function generates an array of random numbers sampled from the [standard normal distribution](https://www.codecademy.com/article/standard-normal-distribution-explained-with-real-world-examples) (a Gaussian distribution with mean = 0 and standard deviation = 1). It is commonly used in statistics, machine learning, and data analysis for creating synthetic data and testing algorithms.
 
 ## Syntax
 
