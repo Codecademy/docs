@@ -1,6 +1,6 @@
 ---
 Title: '.rand()'
-Description: 'Create an array of the given shape and populate it with random samples from a uniform distribution over [0, 1)'
+Description: 'Returns an array of the given shape with random samples from a uniform distribution over [0, 1).'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,21 +14,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **.rand()** is a function from the *numpy* library which generates an array of specified shapes and fills it with uniformly distributed random values between 0 and 1. The function's output is determined by the shape parameters provided and it is commonly used for creating random arrays in various applictaions such as machine learning and simulations.
+The **`.rand()`** function from the NumPy library returns an array of a specified shape filled with uniformly distributed random values between 0 and 1. The shape of the output array is determined by the parameters passed to the function.
+
+This function is commonly used for creating random arrays in applications like machine learning and simulations.
 
 ## Syntax
 
 ```pseudo
-numpy.random.rand(a1, a2, a3 ..., an)
+numpy.random.rand(d0, d1, ..., dn)
 ```
 
 **Parameters:**
 
-- `a1, a2, a3, ..., an` : [int, optional] it is dimension of the returned array and if no argument is given, a single python float is returned.
+- `d0, d1, ..., dn` (int, optional): Dimensions of the returned array. Each parameter represents the size along a particular axis.
 
 **Return value:**
 
-It returns *array* of defined shape and filled with ranom values.
+An array ([`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray)) of shape (`d0, d1, ..., dn`) filled with random floats from a uniform distribution over [0, 1).
 
 ## Example
 
@@ -37,28 +39,24 @@ The following examples demonstrate the use of `.rand()` from numpy library:
 ```py
 import numpy as np
 
-import numpy as np
-
-#Using .rand() to make a single float element 
+# Using .rand() to generate a single float value
 single_float = np.random.rand()
+print("This is a single float:", single_float, "\n")
 
-#print the outcome of the .rand() method
-print("This is a single float:", single_float,"\n")
-
-#Using .rand() to make a 1D array with 5 element 
+# Using .rand() to generate a 1D array with 5 elements
 oneD_array = np.random.rand(5)
-
-#print the outcome of 1D array of the .rand() method
 print("This is a 1D array with 5 elements:", oneD_array, "\n")
 
+# Using .rand() to generate a 2D array with shape (3, 4)
 twoD_array = np.random.rand(3, 4)
 print("This is a 2D array with shape (3, 4):", twoD_array, "\n")
 
-fourD_array = np.random.rand(2,4,3)
-print("This is a 4D array with shape (2, 4, 3):", fourD_array, "\n")
+# Using .rand() to generate a 3D array with shape (2, 4, 3)
+fourD_array = np.random.rand(2, 4, 3)
+print("This is a 3D array with shape (2, 4, 3):", fourD_array, "\n")
 ```
 
-The ouput for the examples above:
+The possible ouput for this code can be:
 
 ```shell
 This is a single float: 0.062282333140694646
@@ -80,6 +78,8 @@ This is a 4D array with shape (2, 4, 3): [[[0.66207525 0.72505789 0.56002624]
   [0.06081413 0.08813921 0.34166149]]]
 ```
 
+> **Note:** The output of `np.random.rand()` will change each time because it generates pseudo-random numbers based on the system's internal state, which varies with each execution.
+
 ## Codebyte Example
 
 The following codebyte is an example of the `.rand()` in use to generate different dimensional arrays:
@@ -87,25 +87,25 @@ The following codebyte is an example of the `.rand()` in use to generate differe
 ```codebyte/python
 import numpy as np
 import random
-#Create a float using .rand()
+
+# Create a float using .rand()
 single_float = np.random.rand()
 
-print("The float made using numpy.random.rand() is ", single_float, "\n")
+print("The float made using numpy.random.rand() is", single_float, "\n")
 
-
-#Create a random integer between 1-10
+# Create a random integer between 1 and 10
 t = random.randint(1, 10)
 
-#Create a random integer between 1, 5
+# Create a random integer between 1 and 5
 s = random.randint(1, 5)
 
-#Create a one dimensional array with a random number(between 1 and 10) of elements
+# Create a one-dimensional array with a random number (between 1 and 10) of elements
 one_d_array = np.random.rand(t)
 
-print('The 1-dimensional array using numpy.random.rand() is ',one_d_array,"\n")
+print('The 1-dimensional array using numpy.random.rand() is', one_d_array, "\n")
 
-#Create a five dimensional array
+# Create a five-dimensional array with random values
 five_d_array = np.random.rand(s, 4, 6, 7, 1)
 
-print("The 5-dimensional array using numpy.random.rand() is ",five_d_array, "\n")
+print("The 5-dimensional array using numpy.random.rand() is", five_d_array, "\n")
 ```
