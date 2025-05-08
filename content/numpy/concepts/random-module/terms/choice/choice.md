@@ -1,9 +1,9 @@
 ---
 Title: '.choice()' 
-Description: 'Chooses an element from a given array'
+Description: 'Generates a random selection of elements from an array with or without replacement.'
 Subjects: 
   - 'Computer science'
-  - 'Statistics'
+  - 'Data Science'
 Tags:
   - 'Arrays'
   - 'Data'
@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In NumPy, the **`numpy.random.choice()`** method is used to generate a random sample from a given 1-D array. It is widely used in simulations, random sampling, and testing scenarios where randomness is required.
+In the random module of NumPy, the **`.choice()`** method generates a random sample from a specified 1-D array. It is commonly used in simulations, random sampling, and testing scenarios where randomness is required.
 
 ## Syntax
 
@@ -23,23 +23,38 @@ In NumPy, the **`numpy.random.choice()`** method is used to generate a random sa
 numpy.random.choice(a, size=None, replace=True, p=None)
 ```
 
-- `a`: 1-D array-like or int. If an int `n` is given, the array `[0, 1, ..., n-1]` is used as the input.
-- `size` (Optional): The number of samples to draw. If `None`, a single value is returned.
-- `replace` (Optional): Whether the sample is with or without replacement.
-  - If `True` (default), a value can be selected multiple times.
-  - If `False`, each value can only be selected once.
-- `p` (Optional): The probabilities associated with each entry in `a`. Must sum to 1. If not provided, all values have equal probability.
+**Parameters:**
+
+- `a`: 1-D array-like or int. If an integer `n` is provided, the array `[0, 1, ..., n-1]` is used as the input.
+- `size` (Optional): The number of samples to draw. If `None`, a single sample is returned.
+- `replace` (Optional): Determines whether sampling is with or without replacement.
+  - If `True` (default), an element can be selected multiple times.
+  - If `False`, each element can only be selected once.
+- `p` (Optional): The probabilities associated with each element in `a`. Must sum to 1. If not specified, each element has an equal probability of being selected.
+
+**Return value:**
+
+In NumPy, the `.choice()` function returns a randomly selected sample or an array of randomly selected samples from the provided array `a`.
+
+- If `size` is `None`, it returns a single randomly selected value.
+- If `size` is specified, it returns an array of random selections, where the length of the array is equal to `size`. The selections can either be with or without replacement, depending on the `replace` parameter.
 
 ## Example
 
 The example below shows how to randomly select elements from an array:
 
-```python
+```py
 import numpy as np
 
 result = np.random.choice([10, 20, 30, 40], size=2, replace=False)
 
 print(result)
+```
+
+A possible output of this code can be:
+
+```shell
+[20 30]
 ```
 
 The code above randomly selects 2 different elements from the array `[10, 20, 30, 40]` without replacement.
@@ -60,3 +75,5 @@ print(sample)
 ```
 
 > **Note:** The output may differ every time you run it, as the selection is random. The probability distribution influences how often each item is chosen.
+
+> **Note:** The probability distribution influences how often each item is chosen, but since replace=True, elements may be selected more than once.
