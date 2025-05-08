@@ -24,9 +24,9 @@ torch.bitwise_xor(input, other, *, out=None)
 
 **Parameters:**
 
--`input`: The first input tensor with boolean or integer values to apply XOR on.
--`other`: The second input tensor or a single number.
--`out`: The output tensor to store the result.
+- `input`: The first input tensor with boolean or integer values to apply XOR on.
+- `other`: The second input tensor or a single number.
+- `out`: The output tensor to store the result.
 
 **Return value:**
 
