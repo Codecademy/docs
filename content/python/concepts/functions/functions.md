@@ -153,16 +153,16 @@ Python library functions are built-in functions that are always available for us
 
 Some examples for Python library functions are:
 
-- `print()`
-- `max()`
-- `min()`
-- `sum()`
-- `abs()`
-- `type()`
+- [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print)
+- [`max()`](https://www.codecademy.com/resources/docs/python/built-in-functions/max)
+- [`min()`](https://www.codecademy.com/resources/docs/python/built-in-functions/min)
+- [`sum()`](https://www.codecademy.com/resources/docs/python/built-in-functions/sum)
+- [`abs()`](https://www.codecademy.com/resources/docs/python/built-in-functions/abs)
+- [`type()`](https://www.codecademy.com/resources/docs/python/built-in-functions/type)
 
 ### Example: Using the `len()` Function
 
-The `len()` function is a commonly used library function in Python that returns the total number of elements in an object like a string, [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), etc.
+The [`len()`](https://www.codecademy.com/resources/docs/python/built-in-functions/len) function is a commonly used library function in Python that returns the total number of elements in an object like a string, [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), etc.
 
 ```py
 # Define a list
@@ -186,7 +186,7 @@ Functions are considered to be _higher-order_ values because they can be used as
 
 ## Example: Using the `filter()` Function
 
-The built-in `filter()` function in Python is used to filter elements from an iterable (like lists, tuples, or sets) that satisfy a specific condition:
+The built-in [`filter()`](https://www.codecademy.com/resources/docs/python/built-in-functions/filter) function in Python is used to filter elements from an iterable (like lists, tuples, or sets) that satisfy a specific condition:
 
 ```py
 # Function that returns True if n is a perfect square, and False otherwise
