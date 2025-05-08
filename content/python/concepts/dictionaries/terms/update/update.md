@@ -1,6 +1,6 @@
 ---
 Title: '.update()'
-Description: 'Adds the entries from a dictionary or an iterable of key-value pairs to another dictionary.'
+Description: 'Updates the dictionary with key-value pairs from another dictionary or iterable, overwriting existing keys if they exist.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`.update()`** method adds the entries from a dictionary or an [iterable](https://www.codecademy.com/resources/docs/python/iterators) of key-value pairs to another dictionary. This method is helpful in various scenarios, such as updating user profiles with new data, merging configuration dictionaries, or synchronizing values across multiple data sources.
+In Python, the **`.update()`** method adds key-value pairs from another dictionary or an [iterable](https://www.codecademy.com/resources/docs/python/iterators) of key-value pairs to the target dictionary. If a key already exists, its value is updated; otherwise, a new key-value pair is added. This method is useful for tasks like updating user profiles, merging configuration settings, or synchronizing data across sources.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ dict.update([other])
 
 The `.update()` method updates the dictionary in place and returns `None`.
 
-## Example 1: Basic Usage of `.update()`
+## Example 1: Basic Usage of `.update()` method in Python Dictionary
 
 This example uses the `.update()` method to add the entries from one dictionary to another:
 
@@ -39,7 +39,7 @@ This example uses the `.update()` method to add the entries from one dictionary 
 person = {'name': 'Alice', 'age': 25}
 new_info = {'city': 'New York', 'age': 26}
 
-# Add the entries from 'info' to 'person'
+# Add the entries from 'new_info' to 'person'
 person.update(new_info)
 
 # Print the modified 'person' dictionary
@@ -93,11 +93,11 @@ print(config)
 
 ### 1. What if the argument to `.update()` is `None` or not iterable?
 
-Passing `None` or a non-iterable object to `.update()` will raise a [`TypeError`](https://www.codecademy.com/resources/docs/python/errors). You must provide a dictionary or an iterable of key-value pairs.
+Passing `None` or a non-iterable object to `.update()` will raise a `TypeError`. You must provide a dictionary or an iterable of key-value pairs.
 
 ### 2. Is `.update()` thread-safe?
 
-No, `.update()` is not [thread](https://www.codecademy.com/resources/docs/python/threading)-safe. If you're working with shared dictionaries in a multi-threaded environment, use locks to avoid race conditions.
+No, `.update()` is not thread-safe. If you're working with shared dictionaries in a multi-threaded environment, use locks to avoid race conditions.
 
 ### 3. Can I chain `.update()` calls?
 
