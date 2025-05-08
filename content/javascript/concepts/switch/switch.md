@@ -89,6 +89,8 @@ Here is the output:
 We have this fruit in stock.
 ```
 
+This example uses fall-through to group multiple case labels that execute the same block of code.
+
 ## Codebyte Example: Using `switch` Without `break`
 
 This codebyte example uses the `switch` statement without the `break` statement to find out the grade of a student based on the score obtained:
@@ -138,4 +140,4 @@ No, duplicate case values are not allowed in a `switch` statement. If you do so,
 
 ### 3. Which data type cannot be used in a `switch` statement?
 
-You cannot use complex [data types](https://www.codecademy.com/resources/docs/javascript/data-types) like [objects](https://www.codecademy.com/resources/docs/javascript/objects) or [arrays](https://www.codecademy.com/resources/docs/javascript/arrays) reliably in a `switch` statement, because comparisons use strict equality (`===`), which doesn't work as expected for non-primitive types.
+You cannot use complex data types like objects or arrays reliably in a `switch` statement, because comparisons use strict equality (`===`), which doesn't work as expected for non-primitive types.
