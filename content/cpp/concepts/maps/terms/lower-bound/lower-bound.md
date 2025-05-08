@@ -2,38 +2,38 @@
 Title: '.lower_bound()'
 Description: 'Returns an iterator pointing to the first element in the map container whose key is greater than or equal to the specified key.'
 Subjects:
-  - C++
-  - Maps
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - Data Structures
-  - Iterators
-  - Map
-  - Range
+  - 'Data Structures'
+  - 'Iterators'
+  - 'Map'
+  - 'Range'
 CatalogContent:
   - learn-c-plus-plus
   - paths/computer-science
 ---
 
-The **`.lower_bound()`** method in C++ is a member function of the `std::map` and `std::multimap` containers. It is used to find the first element in the map that is not less than a specified key. This method returns an iterator pointing to the first element that is greater than or equal to the given key. If no such element exists, it returns an iterator to the end of the map.
+The **`.lower_bound()`** method in C++ is a member function of the `std::map` and `std::multimap` containers. It is used to find the first element whose key is not less than a specified key (i.e., greater than or equal to the given key). This method returns an iterator pointing to that element. If no such element exists (i.e., all keys in the map are less than the specified key), it returns an iterator to the `end()` of the map.
 
-It is important to note that the `std::map` container stores elements in a sorted order based on the keys, and the `.lower_bound()` method utilizes this property to efficiently locate the desired element. This method is particularly useful for tasks such as searching for elements, range queries, and implementing algorithms that require identifying the first element that meets a certain condition. The time complexity of the `.lower_bound()` method is logarithmic, making it efficient for large datasets.
+It is important to note that the `std::map` container stores elements in a sorted order based on the keys, and the `.lower_bound()` takes advantage of this ordering to perform efficient searches. This function is especially useful for range queries, binary search-like operations, and other algorithms that need to find boundary elements based on a condition. The time complexity of the `.lower_bound()` is O(log n) due to the underlying balanced binary search tree (Red-Black Tree) implementation used by `std::map`.
 
 ## Syntax
 
 ```pseudo
-map_name.lower_bound(key& k);
+map_name.lower_bound(const Key& k);
 ```
 
 **Parameters:**
 
-- `map_name`: The name of the map container on which the operation is performed.
-- `k`: The key value to search for. This parameter specifies the key for which the function will find the lower bound.
+- `map_name`: The name of the `std::map` or `std::multimap` container on which the method is called.
+- `k`: A constant reference to the key value. This specifies the key for which the function will find the lower bound.
 
 **Return value:**
 
 - Returns an iterator pointing to the first element in the map whose key is greater than or equal to `k`.
 - If no element is found (all keys are less than `k`), it returns `map_name.end()`.
-- If the map object is const-qualified, the function returns a `const_iterator`; otherwise, it returns an `iterator`.
+- If the map is const-qualified, it returns a `const_iterator`; otherwise, it returns an `iterator`.
 
 ## Example 1: Finding the First Element Greater Than or Equal to a Key
 
@@ -85,9 +85,7 @@ e : 5
 Lower bound for 'c': c : 3
 ```
 
-In this example, the `.lower_bound()` method is used to find the first element in the map that is greater than or equal to the key `'c'`. The iterator `it` points to the element with key `'c'`, and its value is displayed.
-
-If the key `'c'` were not present in the map, the program would indicate that the key was not found.
+In this example, the `.lower_bound()` method is used to find the first element in the map that is greater than or equal to the key `'c'`. The iterator `it` points to the element with key `'c'`, and its value is displayed. If the key `'c'` were not present in the map, the program would indicate that the key was not found.
 
 ## Example 2: Finding the Lower Bound for a Non-Existent Key
 
@@ -135,17 +133,16 @@ a : 1
 b : 2
 c : 3
 e : 5
-
-'d' not found in the map.
+Lower bound for 'd': e : 5
 ```
 
-In this example, the `.lower_bound()` method is used to find the first element in the map that is greater than or equal to the key `'d'`. Since there is no element with key `'d'`, the program indicates that the key was not found.
+In this example, the `.lower_bound()` method is used to find the first element in the map that is greater than or equal to the key `'d'`. Since `'d'` is not present, the method returns an iterator to `'e'`, the first key greater than `'d'`.
 
-## Example 3: Using `.lower_bound()` with a Custom Comparator
+## Codebyte Example: Using `.lower_bound()` with a Custom Comparator
 
 This example demonstrates how to use `.lower_bound()` with a custom comparator to find the lower bound for a key in a map with a custom sorting order:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <map>
 #include <string>
@@ -178,16 +175,4 @@ int main() {
 
   return 0;
 }
-```
-
-The output generated by this code is:
-
-```shell
-Map contents:
-date : 4
-cherry : 3
-banana : 2
-apple : 1
-
-Lower bound for 'banana': banana : 2
 ```
