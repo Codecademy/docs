@@ -28,11 +28,11 @@ numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, ax
 
 - `start`: The starting value of the sequence.
 - `stop`: The end value of the sequence.
-- `num`: Number of samples to generate. Default is 50.
-- `endpoint`: If True (default), stop is the last sample. Otherwise, it is not included.
-- `retstep`: If True, returns (samples, step), where step is the spacing between samples.
-- `dtype`: The type of the output array. If not given, the data type is inferred from start and stop.
-- `axis`: The axis in the result to store the samples. Relevant only if start or stop are array-like.
+- `num` (optional): Number of samples to generate. Default is `50`.
+- `endpoint` (optional): If `True` (default), stop is the last sample. Otherwise, it is not included.
+- `retstep` (optional): If `True`, returns (samples, step), where step is the spacing between samples.
+- `dtype` (optional): The type of the output array. If not given, the data type is inferred from start and stop.
+- `axis` (optional): The axis in the result to store the samples. Relevant only if start or stop are array-like.
 
 **Return value:**
 
