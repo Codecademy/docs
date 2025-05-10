@@ -35,3 +35,11 @@ print(d.get(3))
 print(d.get(4))
 print(d.get(4, 'empty'))
 ```
+
+## Additional Examples
+
+### Example: Getting a value safely
+```python
+user = {"name": "Alex", "age": 30}
+print(user.get("email", "Not provided"))
+# Output: Not provided
