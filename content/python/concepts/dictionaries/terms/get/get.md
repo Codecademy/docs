@@ -25,6 +25,14 @@ dictionary.get(key, value)
 
 Where `key` is the key of the value to return and `value` is an optional value to return if `key` does not exist in `dictionary`. If `value` isn't specified, the fallback value will be `None`.
 
+## Additional Examples
+
+### Example: Getting a value safely
+```python
+user = {"name": "Alex", "age": 30}
+print(user.get("email", "Not provided"))
+```
+
 ## Codebyte Example
 
 The following example creates a dictionary, then retrieves some values for keys using `.get()`:
@@ -35,11 +43,3 @@ print(d.get(3))
 print(d.get(4))
 print(d.get(4, 'empty'))
 ```
-
-## Additional Examples
-
-### Example: Getting a value safely
-```python
-user = {"name": "Alex", "age": 30}
-print(user.get("email", "Not provided"))
-# Output: Not provided
