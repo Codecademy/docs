@@ -5,8 +5,10 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Dictionaries'
   - 'Data Types'
+  - 'Dictionaries'
+  - 'Python'
+  - 'Values'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -16,130 +18,232 @@ A dictionary is a data set of key-value pairs. It provides a way to map pieces o
 
 In Python, dictionaries are dynamic and mutable, which means they can change.
 
-**Note:** As of Python version 3.7, dictionaries are ordered based on insertion, but this is not the case in previous versions.
-
-## Syntax
-
-The syntax of a dictionary is as follows:
-
-```pseudo
-dictionary_name = { key1: value1,  key2: value2,  key3: value3 }
-```
-
-Each entry in a dictionary is a key-value pair. Each pair is separated by a comma.
-
-Dictionary keys must be immutable types such as numbers and strings because keys should not change. Keys cannot be lists because lists are mutable, and it will raise a `TypeError`.
-
-Values can be any type, such as strings, numbers, lists, and even other dictionaries.
+> **Note:** As of Python version 3.7, dictionaries are ordered based on insertion, but this is not the case in previous versions.
 
 ## Creating a Dictionary
 
-An empty dictionary is created with curly braces:
+Here is the syntax for creating an empty dictionary:
 
-```py
-diner = {}
+```pseudo
+dictionary_name = {}
 ```
 
-An empty dictionary can also be created using the built-in function, `dict()`, with no arguments:
+The `dict()` [function](https://www.codecademy.com/resources/docs/python/functions) is also used to create an empty dictionary:
 
-```py
-diner = dict()
+```pseudo
+dictionary_name = dict()
 ```
 
-A dictionary with entries:
+Here is the syntax for creating a dictionary with entries:
+
+```pseudo
+dictionary_name = { key1: value1,  key2: value2,  key3: value3, ... }
+```
+
+Each item in a dictionary is a key-value pair. Each pair is separated by a comma.
+
+Dictionary keys must be immutable types, such as numbers and [strings](https://www.codecademy.com/resources/docs/python/strings), because keys should not change. Keys cannot be [lists](https://www.codecademy.com/resources/docs/python/lists) because lists are mutable and it will raise a [`TypeError`](https://www.codecademy.com/resources/docs/python/errors).
+
+Values can be of any type, such as strings, numbers, lists, and even other dictionaries.
+
+### Example
+
+The following example demonstrates the usage of dictionaries:
 
 ```py
+# Create a dictionary
 coffee_shop = { "cold brew": 3.50, "latte": 4.25, "cappucino": 3.99 }
+
+# Print the dictionary
+print(coffee_shop)
 ```
 
-The three key-value pairs in the `coffee_shop` dictionary:
+Here is the output:
 
-- `"cold brew": 3.50`
-- `"latte": 4.25`
-- `"cappucino": 3.99`
+```shell
+{'cold brew': 3.5, 'latte': 4.25, 'cappucino': 3.99}
+```
 
-## Accessing a Dictionary
+## Accessing Items in a Dictionary
 
-The values in a dictionary can be accessed by passing the associated key name in a `dictionary[key]` syntax:
+A particular value in a dictionary can be accessed by passing the associated key in the `dictionary[key]` syntax:
 
 ```py
+# Create a dictionary
 coffee_shop = { "cold brew": 3.50, "latte": 4.25, "cappucino": 3.99 }
 
+# Print the value of a key
 print(coffee_shop["cold brew"])
-# Output: 3.5
 ```
 
-When a value is retrieved from a key that does not exist, `KeyError` is raised. If a value is assigned to a key that doesn't exist, the new key-value pair will be added. If a value is assigned to an existing dictionary key, it replaces the existing value.
+Here is the output:
 
-## Iterating Through a Dictionary
+```shell
+3.5
+```
 
-There are several ways to iterate through a dictionary depending on which data that is accessed: keys, values, or both.
+If there is an attempt to retrieve a value from a key that does not exist, a `KeyError` is raised. If a value is assigned to a key that doesn't exist, the new key-value pair will be added. If a value is assigned to an existing key, it replaces the existing value.
 
-The following codebyte consists of four `for` loops that iterate through the `coffee_shop` dictionary:
+## Adding Items to a Dictionary
 
-```codebyte/py
+The `dictionary[key]` syntax can also be used to add an item to a dictionary:
+
+```pseudo
+dictionary_name[new_key] = new_value
+```
+
+### Example
+
+This example adds an item to a dictionary:
+
+```py
+# Create a dictionary
 coffee_shop = { "cold brew": 3.50, "latte": 4.25, "cappucino": 3.99 }
 
+# Add an item to the dictionary
+coffee_shop["espresso"] = 4.72
+
+# Print the dictionary
+print(coffee_shop)
+```
+
+Here is the output:
+
+```shell
+{'cold brew': 3.5, 'latte': 4.25, 'cappucino': 3.99, 'espresso': 4.72}
+```
+
+## Changing Items in a Dictionary
+
+The `dictionary[key]` syntax can be used to change the value of a key in a dictionary as well:
+
+```py
+# Create a dictionary
+coffee_shop = { "cold brew": 3.50, "latte": 4.25, "cappucino": 3.99 }
+
+# Change the value of a key in the dictionary
+coffee_shop["cold brew"] = 3.18
+
+# Print the dictionary
+print(coffee_shop)
+```
+
+Here is the output:
+
+```shell
+{'cold brew': 3.18, 'latte': 4.25, 'cappucino': 3.99}
+```
+
+## Removing Items from a Dictonary
+
+The `del` statement helps in removing an item from a dictionary:
+
+```pseudo
+del dictionary_name[key]
+```
+
+### Example
+
+This example removes an item from a dictionary:
+
+```py
+# Create a dictionary
+coffee_shop = { "cold brew": 3.50, "latte": 4.25, "cappucino": 3.99 }
+
+# Remove an item from the dictionary
+del coffee_shop["latte"]
+
+# Print the dictionary
+print(coffee_shop)
+```
+
+Here is the output:
+
+```shell
+{'cold brew': 3.5, 'cappucino': 3.99}
+```
+
+## Iterating a Dictionary
+
+There are several methods to iterate a dictionary depending on the data accessed:
+
+- `.keys()`: Used to access the keys in the dictionary.
+- `.values()`: Used to access the values in the dictionary.
+- `.items()`: Used to access the items in the dictionary.
+
+### Syntax
+
+Here is the syntax for the methods:
+
+```pseudo
+dictionary_name.keys()
+dictionary_name.values()
+dictionary_name.items()
+```
+
+### Codebyte Example
+
+Here is a codebyte example that uses the `for` loop to iterate a dictionary:
+
+```codebyte/python
+# Create a dictionary
+coffee_shop = { "cold brew": 3.50, "latte": 4.25, "cappucino": 3.99 }
+
+# Print the keys in the dictionary
 for key in coffee_shop.keys():
-    print(key)
+  print(key)
 
+# Print the values in the dictionary
 for value in coffee_shop.values():
-    print(value)
+  print(value)
 
+# Print the items in the dictionary in 'item' format
 for item in coffee_shop.items():
-    print(item)
+  print(item)
 
+# Print the items in the dictionary in 'key, value' format
 for key, value in coffee_shop.items():
-    print(key, value)
+  print(key, value)
 ```
 
-The `for` loops access and print each key, value, key-value tuple, and individual key-values in `coffee_shop`, respectively.
+Here is the output:
 
-## Adding an Entry
+```shell
+cold brew
+latte
+cappucino
+3.5
+4.25
+3.99
+('cold brew', 3.5)
+('latte', 4.25)
+('cappucino', 3.99)
+cold brew 3.5
+latte 4.25
+cappucino 3.99
+```
 
-To add an entry, use square brackets to create an index into a `new_key` and assign it a `new_value`:
+## Frequently Asked Questions
+
+### 1. Are `dict()` and `{}` the same?
+
+Yes, both `dict()` and `{}` create a dictionary in Python, but their syntax usage differs:
+
+- `{}` creates an empty dictionary directly.
+- `dict()` also creates an empty dictionary but can take keyword arguments or an iterable of key-value pairs.
+
+### 2. How do I merge two dictionaries in Python?
+
+The `.update()` method is used to merge two dictionaries in Python:
 
 ```py
-my_dict[new_key] = new_value
+dict1.update(dict2)
 ```
 
-## Creating a Dictionary using Dictionary Comprehension
+### 3. How to clear a dictionary in Python?
 
-Like a list comprehension, a dictionary comprehension is a Pythonic way to create a dictionary. They can be used to filter and manipulate data in tons of useful ways. The syntax is as follows:
+The `.clear()` method can be used to remove all the items from a dictionary:
 
 ```py
-new_dict = { expression for key, value in old_dict.items() if condition }
+dictionary_name.clear()
 ```
-
-The `if` condition at the end is optional, but is a great tool for filtering data. For example, given a dictionary with a person's name and age, make a new dictionary that only contains people with an age under 25:
-
-```py
-person_age = { "Mark": 55, "Shiela": 28, "Bryce": 24, "Jim": 41, "Eric": 33, "Ally": 23 }
-person_age_filtered = { name: age for name, age in person_age.items() if age < 25 }
-```
-
-The expression is `name: age`, as that's how the new dictionary will be formatted. Then, the typical for loop iteration, `for name, age in person_age.items()`. Lastly, the `if` condition filters out the results.
-
-The expression can also perform operations on the data being extracting. For example, to create a dictionary with key value pairs of a number and its square given a list of numbers:
-
-```py
-nums_list = [ 1, 2, 3, 4, 5 ]
-nums_squared = { num: num**2 for num in nums_list }
-```
-
-`nums_squared` will produce a result of: `{ 1: 1, 2: 4, 3: 9, 4: 16, 5: 25 }`
-
-The following built-in methods listed below help with manipulating dictionaries and the objects within:
-
-## Replacing an Entry in an Existing Dictionary
-
-If a key needs to be updated in an existing dictionary, it uses the same syntax for adding an entry into a dictionary (`dictionary[new_key] = new_value`), but instead, the `new_key` argument is replaced with an already existing key in the desired dictionary (`dictionary[existing_key] = new_value`).
-
-```py
-person_age = { "Mark": 55, "Shiela": 28, "Bryce": 24, "Jim": 41, "Eric": 33, "Ally": 23 }
-
-# Looks like it's Mark's Birthday! Let's update our dictionary to reflect his new age:
-person_age['Mark'] = 56
-```
-
-Now, when the `"Mark"` key is accessed from the `person_age` dictionary, it will produce the value 56.
