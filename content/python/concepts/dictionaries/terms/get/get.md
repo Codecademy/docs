@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`.get()`** method is a built-in dictionary method in Python that retrieves the value for a specified key from a dictionary. This method provides a safe way to access dictionary values without raising a `KeyError` when the key doesn't exist. Instead of throwing an exception, the `.get()` method returns `None` (by default) or a user-specified default value when the requested key is not found.
 
-The `.get()` method is commonly used in data processing, web development, and configuration management, where you need to safely access dictionary values without interrupting program flow. It's particularly useful when dealing with API responses, user inputs, or any scenario where the presence of a key is uncertain.
+The `.get()` method is commonly used in data processing, web development, and configuration management, where safe access to dictionary values is needed without interrupting program flow. It is beneficial when dealing with API responses, user inputs, or any scenario where the presence of a key is uncertain.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ dictionary.get(key, value)
 
 **Parameters:**
 
-- `key`: The key to search for in the dictionary
+- `key`: The key to search for in the dictionary.
 - `value` (optional): The value to return if the key is not found in the dictionary. If not specified, the default value is `None`.
 
 **Return value:**
@@ -35,7 +35,7 @@ dictionary.get(key, value)
 
 ## Example 1: Basic Dictionary Access using `.get()`
 
-This example demonstrates how to use the `.get()` method to retrieve values from a dictionary and handle missing keys gracefully.
+This example demonstrates how to use the `.get()` method to retrieve values from a dictionary and gracefully handle missing keys.
 
 ```py
 # Creating a dictionary of student scores
@@ -64,7 +64,7 @@ Dave's score: None
 Eve's score: 0
 ```
 
-In this example, we're retrieving values from a dictionary of student scores. When accessing "Alice", we get her actual score. For "Dave", since the key doesn't exist and no default value is provided, `.get()` returns `None`. For "Eve", we specify a default value of 0, which is returned because the key doesn't exist.
+In this example, retrieving values from a dictionary of student scores is shown. Accessing "Alice" yields her actual score. For "Dave", since the key doesn't exist and no default value is provided, `.get()` returns `None`. For "Eve", specifying a default value of 0 results in that value being returned because the key doesn't exist.
 
 ## Example 2: Preventing KeyErrors in Data Processing
 
@@ -100,7 +100,7 @@ total = calculate_inventory_value(products)
 print(f"\nTotal inventory value: ${total:.2f}")
 ```
 
-Output produced by this code will be:
+The output produced by this code will be:
 
 ```shell
 Product: Laptop, Value: $44999.55
@@ -111,7 +111,7 @@ Product: Monitor, Value: $0.00
 Total inventory value: $44999.55
 ```
 
-This example processes a list of product dictionaries with inconsistent data. By using `.get()` with default values, we safely calculate the inventory value even when some keys are missing, avoiding KeyError exceptions.
+This example processes a list of product dictionaries with inconsistent data. By using `.get()` with default values, the inventory value can be safely calculated even when some keys are missing, avoiding KeyError exceptions.
 
 ## Codebyte Example: Nested Dictionary Navigation
 
@@ -142,32 +142,20 @@ def get_user_info(profile, info_path, default="Not available"):
   """
   current = profile
   for key in info_path:
-    # Move to the next level if possible, otherwise return default
-    current = current.get(key)
-    if current is None:
-      return default
+    # Move to the next level if possible
+    current = current.get(key, default)
+    if current == default:
+      break
   return current
-
-# Safely retrieving values from nested dictionary
-email = get_user_info(user_profile, ["contact", "email"])
-mobile = get_user_info(user_profile, ["contact", "phone", "mobile"])
-work_phone = get_user_info(user_profile, ["contact", "phone", "work"])
-notification_pref = get_user_info(user_profile, ["preferences", "notifications"], "All notifications")
-
-# Printing the results
-print(f"Email: {email}")
-print(f"Mobile: {mobile}")
-print(f"Work Phone: {work_phone}")
-print(f"Notification Preference: {notification_pref}")
 ```
 
-This example shows how to safely traverse a nested dictionary structure using the `.get()` method. We create a reusable function that takes a path of keys and navigates through the dictionary, returning a default value if any key along the path is missing.
+This function allows for safely accessing values in nested dictionaries. It returns a specified default when no key in the given path exists.
 
 ## Frequently Asked Questions
 
 ### 1. What is the difference between using `.get()` and direct dictionary access with square brackets?
 
-Using dictionary[key] will raise a KeyError exception if the key doesn't exist, while dictionary.get(key) will return None or a specified default value. Use `.get()` when you want to handle missing keys gracefully without exception handling.
+Using dictionary[key] will raise a KeyError exception if the key doesn't exist, while dictionary.get(key) will return None or a specified default value. Use `.get()` to handle missing keys gracefully without exception.
 
 ### 2. Can I use `.get()` with non-string keys?
 
@@ -175,11 +163,11 @@ Yes, `.get()` works with any valid dictionary key type in Python, including numb
 
 ### 3. Does `.get()` create the key in the dictionary if it doesn't exist?
 
-No, `.get()` only retrieves values and doesn't modify the dictionary. If you want to add a key-value pair when the key doesn't exist, you should use the `.setdefault()` method instead.
+No, `.get()` only retrieves values and doesn't modify the dictionary. If you want to add a key-value pair when the key doesn't exist, use the `.setdefault()` method instead.
 
 ### 4. What are the usages of dictionary `copy()`, `get()`, `items()`, and `keys()` methods?
 
-- `.copy()`: Creates a shallow copy of the dictionary, which means it creates a new dictionary with the same keys and values but doesn't copy nested objects.
+- `.copy()`: Creates a shallow copy of the dictionary, which means it creates a new dictionary with the duplicate keys and values but doesn't copy nested objects.
 - `.get()`: Safely retrieves the value for a specified key, returning a default value if the key doesn't exist.
 - `.items()`: Returns a view object containing key-value pairs as tuples, useful for iterating through all elements in a dictionary.
 - `.keys()`: Returns a view object containing all the keys in the dictionary, which can be used to iterate through the keys or convert to a list.
