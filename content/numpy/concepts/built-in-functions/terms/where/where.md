@@ -1,7 +1,7 @@
 ---
 Title: '.where()'
 Description: 'Returns elements from arrays depending on a condition.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
