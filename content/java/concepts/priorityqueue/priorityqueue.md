@@ -1,6 +1,6 @@
 ---
 Title: 'PriorityQueue'
-Description: 'Stores elements in a collection sorted by natural ordering or by a custom Comparator.'
+Description: 'Stores elements in a collection sorted by natural ordering or a custom Comparator.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -14,54 +14,52 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, a **`PriorityQueue`** is an implementation of the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface. It stores elements in a [collection](https://www.codecademy.com/resources/docs/java/collection) prioritized by natural ordering or by a custom [`Comparator`](https://www.codecademy.com/resources/docs/java/comparator). The elements are prioritized with the least value element at the head of the queue, and the `Queue` methods `.peek()` and `.poll()` operate on that element.
+A **`PriorityQueue`** implements the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface. It stores elements in a [collection](https://www.codecademy.com/resources/docs/java/collection) prioritized by natural ordering or by a custom [`Comparator`](https://www.codecademy.com/resources/docs/java/comparator). The elements are prioritized with the least value element at the head of the queue, and the `Queue` methods `.peek()` and `.poll()` operate on that element.
 
 ## Creating a `PriorityQueue`
 
 Using natural ordering:
 
-```pseudo
+```java
 import java.util.PriorityQueue;
 
 PriorityQueue<DataType> q = new PriorityQueue<DataType>();
-```
+````
 
 Using a custom `Comparator`:
 
-```pseudo
+```java
 import java.util.PriorityQueue;
 import java.util.Comparator;
 
 PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
 ```
 
-In these syntaxes:
+In this syntax:
 
-- `q`: A `PriorityQueue` created with the `new` keyword.
-- `DataType`: The [data type](https://www.codecademy.com/resources/docs/java/data-types) to be stored in `q`.
-- `CustomComparator`: A custom `Comparator` for `DataType` or a parent [class](https://www.codecademy.com/resources/docs/java/classes) of `DataType`.
+* `q`: A `PriorityQueue` created with the `new` keyword.
+* `DataType`: The [data type](https://www.codecademy.com/resources/docs/java/data-types) to be stored in `q`.
+* `CustomComparator`: A custom `Comparator` for `DataType` or a parent [class](https://www.codecademy.com/resources/docs/java/classes) of `DataType`.
 
 ## Adding Items to `PriorityQueue`
 
-The `.add()` method is used to add new items to a `PriorityQueue`.
+The `.add()` method adds new items to a `PriorityQueue`.
 
 ### Syntax
 
-```pseudo
+```java
 priorityqueue.add(item)
 ```
 
 **Parameters:**
 
-- `item`: The item to be added to `priorityqueue`. It should match the data type of `priorityqueue`.
+* `item`: The item to be added to the `priorityqueue`. It should match the data type of `priorityqueue`.
 
 **Return value:**
 
-The `.add()` method returns `true` if `item` is successfully added to `priorityqueue` and `false` otherwise.
+Returns `true` if `item` is successfully added, and `false` otherwise.
 
 ### Example
-
-This example demonstrates the usage of the `.add()` method to add new items to a `PriorityQueue`:
 
 ```java
 import java.util.PriorityQueue;
@@ -87,7 +85,7 @@ public class Main {
 }
 ```
 
-Here is the output:
+**Output:**
 
 ```shell
 [Cabbage, Pizza, Sausage, Potatoes, Salad]
@@ -95,25 +93,23 @@ Here is the output:
 
 ## Removing Items from `PriorityQueue`
 
-The `.remove()` method is used to remove specific items from a `PriorityQueue`.
+The `.remove()` method removes specific items from a `PriorityQueue`.
 
 ### Syntax
 
-```pseudo
+```java
 priorityqueue.remove(item)
 ```
 
 **Parameters:**
 
-- `item`: The item to be removed from `priorityqueue`. If `item` is not part of `priorityqueue`, the `.remove()` method has no effect.
+* `item`: The item to be removed from `priorityqueue`. If `item` is not found, the method has no effect.
 
 **Return value:**
 
-The `.remove()` method returns `true` if `item` is successfully removed from `priorityqueue` and `false` otherwise.
+Returns `true` if `item` is successfully removed, and `false` otherwise.
 
 ### Example
-
-This example demonstrates the usage of the `.remove()` method to remove specific items from a `PriorityQueue`:
 
 ```java
 import java.util.PriorityQueue;
@@ -143,7 +139,7 @@ public class Main {
 }
 ```
 
-Here is the output:
+**Output:**
 
 ```shell
 Cabbage
@@ -154,25 +150,23 @@ Sausage
 
 ## Searching for an Item in `PriorityQueue`
 
-The `.contains()` method is used to search for a particular item in a `PriorityQueue`.
+The `.contains()` method checks whether a specific item exists in a `PriorityQueue`.
 
 ### Syntax
 
-```pseudo
+```java
 priorityqueue.contains(item);
 ```
 
 **Parameters:**
 
-- `item`: The item to be searched for in `priorityqueue`.
+* `item`: The item to search for in `priorityqueue`.
 
 **Return value:**
 
-The `.remove()` method returns `true` if `item` is found in `priorityqueue` and `false` otherwise.
+Returns `true` if `item` is found, and `false` otherwise.
 
 ### Example
-
-This example demonstrates the usage of the `.contains()` method to search for a particular item in a `PriorityQueue`:
 
 ```java
 import java.util.PriorityQueue;
@@ -202,7 +196,7 @@ public class Main {
 }
 ```
 
-Here is the output:
+**Output:**
 
 ```shell
 Safe to eat.
@@ -210,17 +204,15 @@ Safe to eat.
 
 ## Returning the Size of a `PriorityQueue`
 
-The `.size()` method returns the size or the number of items in a `PriorityQueue`.
+The `.size()` method returns the number of items in a `PriorityQueue`.
 
 ### Syntax
 
-```pseudo
+```java
 priorityqueue.size()
 ```
 
 ### Example
-
-This example demonstrates the usage of the `.size()` method to return the size of a `PriorityQueue`:
 
 ```java
 import java.util.PriorityQueue;
@@ -246,7 +238,7 @@ public class Main {
 }
 ```
 
-Here is the output:
+**Output:**
 
 ```shell
 5
@@ -254,11 +246,9 @@ Here is the output:
 
 ## Traversing a `PriorityQueue`
 
-A `PriorityQueue` can be traversed with a `for-each` loop. Note that when doing so, the items will be returned in the order they were added to the queue, not in priority order.
+A `PriorityQueue` can be traversed with a `for-each` loop. Items will be returned in the order they were inserted, not in priority order.
 
 ### Example
-
-This example demonstrates the usage of the `for-each` loop to traverse a `PriorityQueue`:
 
 ```java
 import java.util.PriorityQueue;
@@ -286,7 +276,7 @@ public class Main {
 }
 ```
 
-Here is the output:
+**Output:**
 
 ```shell
 Cabbage
@@ -298,18 +288,16 @@ Salad
 
 ## `.peek()` and `.poll()` Methods
 
-The `Queue` methods `.peek()` and `.poll()` operate on the item at the head of a `PriorityQueue`. `.peek()` will return the item at the head of the queue without removing it, while `.poll()` will return the head of the queue and remove it.
+The `.peek()` method retrieves the head of the queue without removing it, while `.poll()` retrieves and removes it.
 
 ### Syntax
 
-```pseudo
+```java
 priorityqueue.peek();
 priorityqueue.poll();
 ```
 
 ### Example
-
-This example applies the `.peek()` and `.poll()` methods on a `PriorityQueue`:
 
 ```java
 import java.util.PriorityQueue;
@@ -341,7 +329,7 @@ public class Main {
 }
 ```
 
-Here is the output:
+**Output:**
 
 ```shell
 Cabbage
@@ -355,18 +343,17 @@ null
 
 ## Using a Custom `Comparator`
 
-To prioritize items by some other scheme than the natural sorting order, a custom `Comparator` must be used. A `Comparator` is a special class that is used by the `PriorityQueue` to determine when one item of a given data type should come before another item of the same data type.
+A custom `Comparator` can be used to define an alternative priority scheme.
 
 ### Syntax
 
-```pseudo
+```java
 import java.util.PriorityQueue;
 import java.util.Comparator;
 
 static class CustomComparator implements Comparator<DataType> {
   @Override
-  public int compare(DataType item1, DataType item2)
-  {
+  public int compare(DataType item1, DataType item2) {
     // Return a positive value if item1 < item2, and a negative value if item1 > item2
   }
 }
@@ -374,19 +361,15 @@ static class CustomComparator implements Comparator<DataType> {
 PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
 ```
 
-In the syntax, the `CustomComparator` class is used to implement the `Comparator` [interface](https://www.codecademy.com/resources/docs/java/interfaces), in which the `compare()` method is overridden.
-
 **Parameters:**
 
-- `DataType`: The data type being compared.
+* `DataType`: The data type being compared.
 
 **Return value:**
 
-The `compare()` method returns a positive value if the first argument comes before the second, and a negative value if the first argument comes after the second.
+Returns a positive value if the first argument comes before the second and a negative value if it comes after.
 
 ### Example
-
-This example reverses the priorities of the `String` values in the `PriorityQueue`:
 
 ```java
 import java.util.PriorityQueue;
@@ -395,8 +378,7 @@ import java.util.Comparator;
 public class Main {
   static class CustomComparator implements Comparator<String> {
     @Override
-    public int compare(String item1, String item2)
-    {
+    public int compare(String item1, String item2) {
       return item1.compareTo(item2) < 0 ? 1 : -1;
     }
   }
@@ -417,7 +399,7 @@ public class Main {
 }
 ```
 
-Here is the output:
+**Output:**
 
 ```shell
 Sausage
