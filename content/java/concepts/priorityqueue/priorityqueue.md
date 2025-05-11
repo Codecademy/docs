@@ -24,7 +24,7 @@ Using natural ordering:
 import java.util.PriorityQueue;
 
 PriorityQueue<DataType> q = new PriorityQueue<DataType>();
-````
+```
 
 Using a custom `Comparator`:
 
@@ -37,9 +37,9 @@ PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
 
 In this syntax:
 
-* `q`: A `PriorityQueue` created with the `new` keyword.
-* `DataType`: The [data type](https://www.codecademy.com/resources/docs/java/data-types) to be stored in `q`.
-* `CustomComparator`: A custom `Comparator` for `DataType` or a parent [class](https://www.codecademy.com/resources/docs/java/classes) of `DataType`.
+- `q`: A `PriorityQueue` created with the `new` keyword.
+- `DataType`: The [data type](https://www.codecademy.com/resources/docs/java/data-types) to be stored in `q`.
+- `CustomComparator`: A custom `Comparator` for `DataType` or a parent [class](https://www.codecademy.com/resources/docs/java/classes) of `DataType`.
 
 ## Adding Items to `PriorityQueue`
 
@@ -53,7 +53,7 @@ priorityqueue.add(item)
 
 **Parameters:**
 
-* `item`: The item to be added to the `priorityqueue`. It should match the data type of `priorityqueue`.
+- `item`: The item to be added to the `priorityqueue`. It should match the data type of `priorityqueue`.
 
 **Return value:**
 
@@ -103,7 +103,7 @@ priorityqueue.remove(item)
 
 **Parameters:**
 
-* `item`: The item to be removed from `priorityqueue`. If `item` is not found, the method has no effect.
+- `item`: The item to be removed from `priorityqueue`. If `item` is not found, the method has no effect.
 
 **Return value:**
 
@@ -160,7 +160,7 @@ priorityqueue.contains(item);
 
 **Parameters:**
 
-* `item`: The item to search for in `priorityqueue`.
+- `item`: The item to search for in `priorityqueue`.
 
 **Return value:**
 
@@ -363,7 +363,7 @@ PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
 
 **Parameters:**
 
-* `DataType`: The data type being compared.
+- `DataType`: The data type being compared.
 
 **Return value:**
 
