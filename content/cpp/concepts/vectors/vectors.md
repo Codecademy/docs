@@ -26,7 +26,7 @@ Vectors are defined using the `<vector>` library and are part of the `std` names
 #include <vector>
 
 std::vector<type> name;
-````
+```
 
 When a vector is created, the data type of its elements must be specified. The type cannot be changed afterward.
 
@@ -50,8 +50,8 @@ std::vector<double> order = {3.99, 12.99, 2.49};
 
 Elements in a vector can be accessed and modified using:
 
-* The index `[]` [operator](https://www.codecademy.com/resources/docs/cpp/operators)
-* The `.at()` [function](https://www.codecademy.com/resources/docs/cpp/functions)
+- The index `[]` [operator](https://www.codecademy.com/resources/docs/cpp/operators)
+- The `.at()` [function](https://www.codecademy.com/resources/docs/cpp/functions)
 
 ### Using the Index `[]` Operator
 
@@ -101,8 +101,8 @@ Alternatives to `.at()` include `.size()`, `.capacity()`, `.front()`, and `.back
 
 Elements can be inserted into a vector using:
 
-* `.push_back()` [method](https://www.codecademy.com/resources/docs/cpp/methods)
-* `.emplace_back()` method
+- `.push_back()` [method](https://www.codecademy.com/resources/docs/cpp/methods)
+- `.emplace_back()` method
 
 ### Using the `.push_back()` Method
 
