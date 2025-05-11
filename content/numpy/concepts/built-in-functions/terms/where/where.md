@@ -62,7 +62,7 @@ This example results in the following output:
 
 ## Codebyte example
 
-Run the following codebyte example to better understand the `.where()` function:
+Run the following codebyte example better to understand the `.where()` function:
 
 ```codebyte/python
 import numpy as np
@@ -76,4 +76,4 @@ print("Original array:", arr)
 print("Transformed array:", result)
 ```
 
-In this example, elements less than 3 are replaced with 0, and others with 1.
+In this example, elements less than `3` are replaced with `0`, and others with `1`.
