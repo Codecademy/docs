@@ -14,9 +14,9 @@ CatalogContent:
   - paths/computer-science
 ---
 
-The **`.lower_bound()`** method in C++ is a member function of the `std::map` and `std::multimap` containers. It is used to find the first element whose key is not less than a specified key (i.e., greater than or equal to the given key). This method returns an iterator pointing to that element. If no such element exists (i.e., all keys in the map are less than the specified key), it returns an iterator to the `end()` of the map.
+The **`.lower_bound()`** method in C++ is a member function of the `std::map` and `std::multimap` containers. It is used to find the first element whose key is _not less than_ a specified key (i.e., greater than or equal to the given key). This method returns an iterator pointing to that element. If no such element exists—meaning all keys are less than the specified key—it returns an iterator to the container's `end()`.
 
-It is important to note that the `std::map` container stores elements in a sorted order based on the keys, and the `.lower_bound()` takes advantage of this ordering to perform efficient searches. This function is especially useful for range queries, binary search-like operations, and other algorithms that need to find boundary elements based on a condition. The time complexity of the `.lower_bound()` is O(log n) due to the underlying balanced binary search tree (Red-Black Tree) implementation used by `std::map`.
+Since `std::map` and `std::multimap` store elements in sorted order based on their keys, `.lower_bound()` efficiently utilizes this ordering to perform fast lookups. It is particularly useful in range queries, binary search-like operations, and algorithms that require locating boundary elements. The time complexity of `.lower_bound()` is **O(log n)** due to the underlying Red-Black Tree structure.
 
 ## Syntax
 
