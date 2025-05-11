@@ -26,7 +26,7 @@ Syntax for creating an empty dictionary:
 
 ```python
 dictionary_name = {}
-````
+```
 
 The `dict()` [function](https://www.codecademy.com/resources/docs/python/functions) can also be used:
 
@@ -143,9 +143,9 @@ print(coffee_shop)
 
 Common methods for iteration:
 
-* `.keys()`: Accesses dictionary keys.
-* `.values()`: Accesses dictionary values.
-* `.items()`: Accesses key-value pairs.
+- `.keys()`: Accesses dictionary keys.
+- `.values()`: Accesses dictionary values.
+- `.items()`: Accesses key-value pairs.
 
 ### Syntax
 
@@ -196,8 +196,8 @@ cappucino 3.99
 
 Yes. Both create a dictionary, but differ in syntax:
 
-* `{}` creates an empty dictionary directly.
-* `dict()` creates an empty dictionary and can also take keyword arguments or an iterable of key-value pairs.
+- `{}` creates an empty dictionary directly.
+- `dict()` creates an empty dictionary and can also take keyword arguments or an iterable of key-value pairs.
 
 ### 2. How do I merge two dictionaries in Python?
 
