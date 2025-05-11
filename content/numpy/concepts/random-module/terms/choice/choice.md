@@ -1,7 +1,7 @@
 ---
-Title: '.choice()' 
+Title: '.choice()'
 Description: 'Generates a random selection of elements from an array with or without replacement.'
-Subjects: 
+Subjects:
   - 'Computer science'
   - 'Data Science'
 Tags:
@@ -75,5 +75,4 @@ print(sample)
 ```
 
 > **Note:** The output may differ every time you run it, as the selection is random. The probability distribution influences how often each item is chosen.
-
 > **Note:** The probability distribution influences how often each item is chosen, but since replace=True, elements may be selected more than once.
