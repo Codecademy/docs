@@ -25,7 +25,7 @@ Image.getdata()
 
 This method does not take any parameters.
 
-**Return value:**  
+**Return value:**
 
 A sequence object containing pixel values of the image. The format depends on the image mode:
 
