@@ -39,7 +39,7 @@ x = torch.tensor([[1], [2], [3]])
 
 # Expand the tensor to size (3, 4)
 expanded_x = x.expand(3, 4)
-
+d
 print(expanded_x)
 ```
 
@@ -51,6 +51,6 @@ tensor([[1, 1, 1, 1],
         [3, 3, 3, 3]])
 ```
 
-In this example, `.expand()` creates a new view of `x` where the second dimension is expanded from size 1 to size 4. Each element in the original tensor is repeated along the expanded dimension, but no new memory is allocated for these repeats.
+In this example, `.expand()` creates a new view of `x`, with the second dimension expanded from size `1` to size `4`. Each element in the original tensor is repeated along the expanded dimension, but no new memory is allocated for these repeats.
 
-**Note**: Since the expanded tensor is a view, modifying its contents in-place can lead to unexpected behavior. If you need to modify the expanded tensor, consider using .clone() to create a copy.
+> **Note**: Since the expanded tensor is a view, modifying its contents in-place may lead to unexpected behavior. To safely modify the expanded tensor, use `.clone()` to create a copy before making changes.
