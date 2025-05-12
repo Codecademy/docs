@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Go, a **map** is a built-in data structure that is used to store a collection of unordered key-value pairs. The pairs can be of the same [data type](https://www.codecademy.com/resources/docs/go/data-types) or of mixed types. It is Go's implementation of a hash table, which allows for efficient access, insertion, and deletion.
+In Go, a **`map`** is a built-in data structure that is used to store a collection of unordered key-value pairs. The pairs can be of the same [data type](https://www.codecademy.com/resources/docs/go/data-types) or mixed types. It is Go's implementation of a hash table, which allows for efficient access, insertion, and deletion.
 
 ## Creating a Map
 
@@ -65,7 +65,7 @@ func main() {
 }
 ```
 
-This will output:
+This will return the following output:
 
 ```shell
 map[]
@@ -83,7 +83,7 @@ A value in a map can be accessed by putting its corresponding key in brackets af
 map_name[key_value]
 ```
 
-If the key does not exist, then the zero value will be returned based on the data type of the values in the map (e.g. `int`: `0`, `bool`: `false`).
+If the key does not exist, the zero value will be returned based on the data type of the values in the map (e.g. `int`: `0`, `bool`: `false`).
 
 ### Example
 
@@ -102,7 +102,7 @@ func main() {
 }
 ```
 
-This will output:
+This will return the following output:
 
 ```shell
 85.2
