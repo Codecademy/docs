@@ -61,8 +61,10 @@ tensor([7, 7], dtype=torch.int32)
 tensor([ True, False])
 ```
 
-In this example,
+In this example:
+
 - `5 | 3` (binary `0101` | `0011`) results in `0111` (decimal `7`).
 - `3 | 7` (binary `0011` | `0111`) results in `0111` (decimal `7`).
 - `True | False` evaluates to `True`.
 - `False | False` evaluates to `False`.
+  
