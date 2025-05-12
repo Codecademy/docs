@@ -67,4 +67,3 @@ In this example:
 - `3 | 7` (binary `0011` | `0111`) results in `0111` (decimal `7`).
 - `True | False` evaluates to `True`.
 - `False | False` evaluates to `False`.
-  
