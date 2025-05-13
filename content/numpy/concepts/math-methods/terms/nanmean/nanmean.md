@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In NumPy, the **`.nanmean()`** function calculates the arithmetic mean of the elements of an array over a specified axis, ignoring `NaN` values. This is useful when working with arrays that contain missing or undefined values represented as `NaN`.
+In NumPy, the **`.nanmean()`** function computes the arithmetic mean of the elements in an array over a specified axis, while ignoring `NaN` (Not a Number) values. This is useful when working with arrays that contain missing or undefined values represented as `NaN`.
 
 ## Syntax
 
@@ -25,21 +25,21 @@ numpy.nanmean(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=
 
 **Parameters:**
 
-- `a`: An array containing the data whose mean is wanted.
-- `axis` (Optional): Used to specify the axis along which the mean is calculated. If not specified, the mean is computed on a flattened version of the array.
-- `dtype` (Optional): Used to specify the data type of the result. For integers, the default output type is `float64`. Otherwise, the output type is the same as the input.
-- `out` (Optional): Specify the array in which the result is stored. The provided array needs to be the same shape as the input. If not provided, a new array is created.
-- `keepdims` (Optional): If set to `True`, the reduced axes are retained in the result as dimensions with size one, allowing the result to broadcast correctly.
-- `where` (Optional): An array indicating which elements to include in the mean.
+- `a`: The data for which the mean is computed. It can be a NumPy array or any array-like object (e.g., list).
+- `axis` (Optional): Used to specify the axis along which the mean is calculated. If `None` (default), the mean is computed over the flattened array.
+- `dtype` (Optional): The data type used for the calculation. If not specified, the result will have the same data type as the input (unless `a` is an integer, where the result will be `float64` by default).
+- `out` (Optional): A location where the result is stored. The array must have the same shape as the expected output. If not provided, a new array is created.
+- `keepdims` (Optional): If set to `True`, the reduced axes are retained in the result with size one. This can be useful for broadcasting purposes.
+- `where` (Optional): A condition that allows the function to compute the mean only on elements where the condition is `True`. It can be a boolean array or a condition (usually `True`).
 
 **Return Value:**
 
-In NumPy, the `.nanmean()` function returns the mean or an array containing the mean values os the data `a`
+The `.nanmean()` function returns the mean of the array, ignoring `NaN` values:
 
-- If `axis` is `None` or `0`, it returns a single randomly selected value.
-- If `axis` is specified, it returns an array of mean values on the specified axis of the data `a`.
+- If `axis` is `None` or if no axis is specified, it returns a single value representing the mean of the entire array.
+- If `axis` is specified, it returns an array of mean values along the specified axis of the data `a`.
 
-## Example 1
+## Example 1: Basic Usage of `.nanmean()`
 
 The example below shows how to calculate the mean value from an array:
 
@@ -61,7 +61,7 @@ The example code above results in the following output:
 6.75
 ```
 
-## Example 2
+## Example 2: Using `.nanmean()` Along an Axis
 
 This example shows how to use `.nanmean()` function along a specific axis:
 
@@ -72,7 +72,7 @@ import numpy as np
 arr = np.array([[8, np.nan, 3], [4, 2, 9]])
 
 # Computing the mean along axis 0 (columns)
-result = np.nanprod(arr, axis=0)
+result = np.nanmean(arr, axis=0)
 
 print(result)
 ```
@@ -83,9 +83,9 @@ The example code above results in the following output:
 [6. 2. 6.]
 ```
 
-## Codebyte Example
+## Codebyte Example: Using `.nanmean()` with `keepdims`
 
-In this codebyte example, the `.nanmean()` method computes the mean of the elements in the array, demonstrating the use of `keepdims` parameter.
+In this codebyte example, the `.nanmean()` method computes the mean of the elements in the array, demonstrating the use of `keepdims` parameter:
 
 ```codebyte/python
 import numpy as np
