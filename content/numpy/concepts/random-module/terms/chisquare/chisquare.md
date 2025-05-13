@@ -1,6 +1,6 @@
 ---
 Title: '.chisquare()'
-Description: 'Generates a random selection of elements from a chi-squared distribution.'
+Description: 'Generates random values based on a chi-square distribution with a given number of degrees of freedom.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In the random module of NumPy, the **`.chisquare()`** method generates a random sample from a chi-square distribution. It is commonly used in hypothesis testing and determining if observed data differs from expected results significantly.
+In the `random` module of NumPy, the **`.chisquare()`** method generates random samples from a chi-square distribution. It is frequently applied in hypothesis testing to assess whether observed data differs significantly from expected outcomes.
 
 ## Syntax
 
@@ -26,15 +26,15 @@ numpy.random.chisquare(df, size=None)
 
 **Parameters:**
 
-- `df`: float or arrray-like of floats. Number of degrees of freedom of the chi-square distribution, must be > 0.
-- `size` (Optional): The number of samples to draw. If `None`, a single sample is returned.
+- `df` (float or arrray-like of floats): Degrees of freedom (must be positive). This parameter determines the shape of the chi-square distribution.
+- `size` (Optional): The shape of the output array. If not specified, a single value is returned.
 
 **Return value:**
 
-In NumPy, the `.chisquare()` function returns a randomly drawn sample or an array of randomly drawn samples from the chi-square distribution with `df` degrees of freedom.
+In NumPy, the `.chisquare()` function returns a randomly drawn sample or an array of samples from the chi-square distribution with `df` degrees of freedom.
 
-- If `size` is `None`, it returns a single randomly drawn value.
-- If `size` is specified, it returns an array of random values, where the length of the array is equal to `size`.
+- If `size` is `None`, a single random value is returned.
+- If `size` is specified, an array of random values is returned, with the shape of the array determined by `size`.
 
 ## Example
 
@@ -43,6 +43,7 @@ The example below shows how to generate random values from a chi-square distribu
 ```py
 import numpy as np
 
+# Generate 3 random values from a chi-square distribution with 2 degrees of freedom
 result = np.random.chisquare(2, size = 3)
 
 print(result)
@@ -54,20 +55,22 @@ A possible output of this code can be:
 [6.00571639 0.49778027 1.38101813]
 ```
 
-The code above randomly draws 3 values from a chi-square distribution with 2 degrees of freedom.
+This code randomly draws 3 values from a chi-square distribution with 2 degrees of freedom.
 
 ## Codebyte Example
 
-In this codebyte example, we sample 3 values from a chi-square distribution:
+In this Codebyte example, we sample 3 values from a chi-square distribution with 1 degree of freedom:
 
 ```codebyte/python
 import numpy as np
 
+# Set degrees of freedom
 degrees_freedom = 1
 
+# Generate 3 random values from the chi-square distribution
 values = np.random.chisquare(degrees_freedom, size=3)
 
 print(values)
 ```
 
-> **Note:** The output may differ every time you run it, as the selection is random.
+> **Note:** The output may differ at each execution, as the selection is random.
