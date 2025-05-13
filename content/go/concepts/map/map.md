@@ -203,36 +203,6 @@ This will output:
 (Ana, 95.6)
 ```
 
-## Codebyte Example: Basic Map Operations
-
-This codebyte example performs some basic operations on a map:
-
-```codebyte/golang
-package main
-import "fmt"
-
-func main() {
-  // Create an empty map
-  m := make(map[string]float32)
-
-  // Add items to the map
-  m["Alex"] = 92.5
-  m["Amanda"] = 85.2
-  m["Robert"] = 88.4
-
-  // Print the value for the key "Amanda"
-  fmt.Println(m["Amanda"])
-
-  // Remove a key-value pair
-  delete(m, "Alex")
-
-  // Iterate over the map and print its items
-  for key, value := range m {
-    fmt.Printf("(%s, %.1f)\n", key, value)
-  }
-}
-```
-
 ## Frequently Asked Questions
 
 ### 1. Can a map key be any type in Go?
