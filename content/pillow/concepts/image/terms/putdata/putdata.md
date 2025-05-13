@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.putdata()`** method in Pillow is used to modify the pixel data of an image, replacing the current pixel values with new values from a sequence or iterable (such as a list or tuple). It's often used in combination with the `.getdata()` method, which retrieves the pixel data from the image, allowing you to modify the data before putting it back with `.putdata()`.
+The **`.putdata()`** method in Pillow is used to modify the pixel data of an image, replacing the current pixel values with new values from a sequence or iterable (such as a [list](https://www.codecademy.com/resources/docs/python/lists) or [tuple](https://www.codecademy.com/resources/docs/python/tuples)). It's often used in combination with the `.getdata()` method, which retrieves the pixel data from the image, allowing you to modify the data before putting it back with `.putdata()`.
 
 The `.putdata()` method modifies the image in-place and does not return a new image object. It will return `None`, meaning the output will have `NoneType` if assigned to a variable.
 
