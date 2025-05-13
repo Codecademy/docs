@@ -32,7 +32,7 @@ numpy.nanmean(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=
 - `keepdims` (Optional): If set to `True`, the reduced axes are retained in the result with size one. This can be useful for broadcasting purposes.
 - `where` (Optional): A condition that allows the function to compute the mean only on elements where the condition is `True`. It can be a boolean array or a condition (usually `True`).
 
-**Return Value:**
+**Return value:**
 
 The `.nanmean()` function returns the mean of the array, ignoring `NaN` values:
 
