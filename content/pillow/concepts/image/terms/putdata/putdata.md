@@ -71,7 +71,7 @@ This example demonstrates how to use the `.putdata()` method to adjust the contr
 from PIL import Image
 
 # Load the image
-py_img = Image.open('pillow_python_logo.jpg')  # Add the path to your image file
+py_img = Image.open('pillow_python_logo.jpg')
 
 # Get the sequenced pixel data from the image
 pix_data = list(py_img.getdata())
