@@ -1,97 +1,143 @@
 ---
 Title: 'Switch'
-Description: 'The switch statement evaluates an expression and allows different blocks of code to execute depending on the result of that expression.'
+Description: 'Evaluates an expression and allows different blocks of code to execute depending on the result of that expression.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'Switch'
-  - 'Control Flow'
   - 'Comparison'
+  - 'Control Flow'
+  - 'Switch'
+  - 'Values'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The `switch` statement evaluates an expression and allows different blocks of code to execute depending on the result of that expression. It contains any number of `case` clauses marking code to execute based on values returned by the expression, and an optional `default` statement marking code that executes if none of the `case` clauses are true.
+In JavaScript, the **`switch`** statement evaluates an expression and allows different blocks of code to execute depending on the result of that expression. It contains any number of `case` clauses marking code to execute based on values returned by the expression, and an optional `default` statement marking code that executes if none of the `case` clauses are `true`.
 
-The code following a matching `case` clause will execute until it encounters a `break` statement, a `return` statement, or the end of the `switch` block.
+The code after a matching `case` clause will keep executing until it encounters a `break` statement, a `return` statement, or the end of the `switch` block.
 
-This means that if a `break` is omitted at the end of one `case` block, subsequent `case` blocks and/or the `default` block will be executed regardless of the value of the original expression.
+This means that if `break` is omitted from the end of a `case` block, the subsequent `case` blocks and/or the `default` block will be executed regardless of the value of the original expression. This behavior is known as the _fall-through behavior_.
 
 ## Syntax
 
-```javascript
-switch (expression) {
+```pseudo
+switch (expr) {
   case value1:
-    // Statements executed when expression = value1
+    // Statements to be executed if 'expr' matches 'value1'
     break;
   case value2:
-    // Statements executed when expression = value2
+    // Statements to be executed if 'expr' matches 'value2'
     break;
   case value3:
-    // Statements executed when expression = value3
+    // Statements to be executed if 'expr' matches 'value3'
     break;
   default:
-  // Statements executed when expression not equal to value1, value2 or value3
+    // Statements to be executed if none of these cases match
 }
 ```
 
-With `break` statements omitted:
+In this syntax, `expr` refers to the expression to be evaluated.
 
-```javascript
-switch (expression) {
-  case value1:
-  // Statements executed when expression = value1
-  case value2:
-  // Statements executed when expression = value2 or value1
-  case value3:
-  // Statements executed when expression = value3, value2 or value1
-  default:
-  // Statements always executed
-}
-```
+## Example 1: Basic Usage of `switch`
 
-## Example
-
-Determine whether a `rating` is a 5, 4, 3, or something else:
+This example uses the `switch` statement to check if the given number is even or odd:
 
 ```js
-switch (rating) {
-  case 5:
-    console.log('Excellent 👏');
-    break;
-  case 4:
-    console.log('Good 👍');
-    break;
-  case 3:
-    console.log('Fair 👌');
-    break;
-  default:
-    console.log('Poor 👎');
-}
-```
+let num = 3;
 
-- If `rating` is 5, print `"Excellent 👏"`.
-- If `rating` is 4, print `"Good 👍"`.
-- If `rating` is 3, print `"Fair 👌"`.
-- Else, print `"Poor 👎"`.
-
-## Codebyte Example
-
-Here, an expression is used to find whether a number is even, odd, or not a number:
-
-```codebyte/js
-var test = 3;
-
-switch (test % 2) {
+switch (num % 2) {
   case 0:
-    console.log("Test is even.");
+    console.log('The number is even.');
     break;
   case 1:
-    console.log("Test is odd.");
+    console.log('The number is odd.');
     break;
   default:
-    console.log("Test is not a number.");
+    console.log('The input is not a number.');
 }
 ```
+
+Here is the output:
+
+```shell
+The number is odd.
+```
+
+## Example 2: Grouping Cases in `switch`
+
+This example groups multiple `case` clauses in the `switch` statement to determine if the given fruit is Apple, Banana, or Orange:
+
+```js
+let fruit = 'Apple';
+
+switch (fruit) {
+  case 'Apple':
+  case 'Banana':
+  case 'Orange':
+    console.log('We have this fruit in stock.');
+    break;
+  default:
+    console.log("We don't have this fruit in stock.");
+}
+```
+
+Here is the output:
+
+```shell
+We have this fruit in stock.
+```
+
+This example uses fall-through to group multiple case labels that execute the same block of code.
+
+## Codebyte Example: Using `switch` Without `break`
+
+This codebyte example uses the `switch` statement without the `break` statement to find out the grade of a student based on the score obtained:
+
+```codebyte/javascript
+let score = 85;
+
+switch (true) {
+  case score >= 90:
+    console.log("Grade: A");
+  case score >= 80:
+    console.log("Grade: B");
+  case score >= 70:
+    console.log("Grade: C");
+  default:
+    console.log("Grade: F");
+}
+```
+
+In this example:
+
+- `switch(true)` is used to handle range-based conditions, mimicking [`if-else`](https://www.codecademy.com/resources/docs/javascript/conditionals) chains.
+- Since no `break` statements are used, all the statements that come after the matching case will be executed regardless of the value of the original expression.
+
+## `switch` vs. `if-else`
+
+| Feature                  | `switch` Statement                                    | `if-else` Statement                                     |
+| ------------------------ | ----------------------------------------------------- | ------------------------------------------------------- |
+| Use Case                 | Best for comparing a single value to multiple options | Best for complex, range-based, or varied conditions     |
+| Syntax Simplicity        | Cleaner with many fixed values                        | Becomes messy with many conditions                      |
+| Expression Type          | Strict equality (`===`)                               | Supports any boolean expression                         |
+| Range/Logical Conditions | Not suitable for range or logical conditions directly | Ideal for ranges and complex conditions                 |
+| Fall-Through Behavior    | Can fall through without `break`                      | No fall-through; each condition is evaluated separately |
+| Performance              | Slightly faster with many static cases                | Slightly slower due to multiple evaluations             |
+| Default Behavior         | Uses `default`                                        | Uses `else`                                             |
+| Readability              | More readable with many discrete values               | More readable with varied or complex logic              |
+
+## Frequently Asked Questions
+
+### 1. Is `switch` faster than `if-else` in JavaScript?
+
+In most real-world scenarios, the performance difference is negligible. However, for many discrete values, `switch` can be slightly more optimized than multiple `if-else` statements.
+
+### 2. Can we write duplicate cases in a `switch` statement?
+
+No, duplicate case values are not allowed in a `switch` statement. If you do so, only the first matching case will be executed, and the others will be ignored or may cause unintended behavior.
+
+### 3. Which data type cannot be used in a `switch` statement?
+
+You cannot use complex data types like objects or arrays reliably in a `switch` statement, because comparisons use strict equality (`===`), which doesn't work as expected for non-primitive types.
