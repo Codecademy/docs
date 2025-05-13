@@ -36,7 +36,7 @@ np.random.shuffle(x)
 
 ## Example 1: Shuffling a 1D Array
 
-In this example, the `np.random.shuffle()` randomly permutates elements of an array, enabling shuffling of data in-place :
+In this example, the `np.random.shuffle()` randomly permutates elements of an array, enabling shuffling of data in-place:
 
 ```py
 # Import NumPy
