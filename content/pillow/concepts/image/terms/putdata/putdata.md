@@ -47,7 +47,7 @@ The following example demonstrates how to use the `scale` and `offset` parameter
 from PIL import Image
 
 # Load the image
-py_img = Image.open('pillow_python_logo.jpg)')
+py_img = Image.open('pillow_python_logo.jpg')
 
 # Get the sequenced pixel data from the image
 pix_data = list(py_img.getdata())
