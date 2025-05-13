@@ -1,10 +1,9 @@
 ---
 Title: '.putdata()'
-Description: 'Puts all the pixel values back in order after they have been modified in place.'
+Description: 'Updates the pixel values of an image by setting the pixel data from a sequence or iterable, such as a list or tuple.'
 Subjects:
   - 'Computer Science'
   - 'Data Visualization'
-
 Tags:
   - 'Computer Vision'
   - 'Images'
@@ -14,15 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.putdata()`** method is used to modify the existing pixel data and put it back in order.
+The **`.putdata()`** method in Pillow is used to modify the pixel data of an image, replacing the current pixel values with new values from a sequence or iterable (such as a list or tuple). It's often used in combination with the `.getdata()` method, which retrieves the pixel data from the image, allowing you to modify the data before putting it back with `.putdata()`.
 
-It is usually used with the `.getdata()` method to get the pixel data from the image. Then, use the `.putdata()` method to modify them and put them back in order.
+The `.putdata()` method modifies the image in-place and does not return a new image object. It will return `None`, meaning the output will have `NoneType` if assigned to a variable.
 
-> **Note**: `.putdata()` method does not return a new image object.
-
-Therefore, the output class will be `NoneType` and the value will be `None` when the `.putdata()` method is assigned to a new variable.
-
-`.putdata()` is one of the methods that can be used from the [`Image`](https://www.codecademy.com/resources/docs/pillow/image) module in the Pillow Library.
+It’s an essential method in the [`Image`](https://www.codecademy.com/resources/docs/pillow/image) module of the Pillow library.
 
 ## Syntax
 
@@ -30,55 +25,66 @@ Therefore, the output class will be `NoneType` and the value will be `None` when
 Image.putdata(pixel_data, scale=1.0, offset=0.0)
 ```
 
-The `.putdata()` method requires `pixel_data` as a mandatory parameter, while there are two other optional parameters that can be used if needed.
+**Parameters:**
 
-The parameters `scale` and `offset` are used when performing the adjustment on the given image pixels. The default values of `scale` and `offset` are 1.0 and 0.0 respectively. They perform the adjustment of the intensity of the pixel values with the use of a formula.
+- `data`: A flattened sequence object containing pixel values to be assigned to the image. The values start from the upper-left corner (0, 0) of the image, proceed across rows, and continue until the sequence ends or the image size is reached.
+- `scale`: A scaling factor for the pixel data. Each pixel value is multiplied by this scale before being assigned.
+- `offset`: A value that is added to each pixel after scaling.
 
-```pseudo
-new_pixel_value = (original_value x scale) + offset
-```
+**Return value:**
 
-While `scale` multiplies each pixel value, `offset` does the task by adding a fixed value.
-
-Here is the image that be used as example to perform `.putdata()` method.
-
-![Image of Python Logo](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow_python_logo.jpg)
+- The `.putdata()` method does not return anything. It modifies the image's pixel data in place and returns `None`.
 
 ## Example 1
 
-The usage of `scale` and `offset` parameters on `.putdata()` method to adjust the pixel values and produced a dimmed image.
+Here is the image used as an example to perform the `.putdata()` method:
+
+![Image of Python Logo](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow_python_logo.jpg)
+
+The following example demonstrates how to use the `scale` and `offset` parameters in the `.putdata()` method to adjust the pixel values and produce a dimmed image:
 
 ```py
+from PIL import Image
+
+# Load the image
+py_img = Image.open('pillow_python_logo.jpg)')
+
 # Get the sequenced pixel data from the image
 pix_data = list(py_img.getdata())
 
 # Use .putdata method to modify and put back the pixel data directly
-py_img.putdata(pix_data, scale=0.8, offset=0)
+py_img.putdata(pix_data, scale=0.8, offset=0)  # Dim the image by scaling pixel values down
 
 # Show the image output
 py_img.show()
-
 ```
 
-Image Output:
+The output of this code will be a dimmed version of the image:
+
 ![Image of Dimmed Python Logo](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow_python_logo_dimm.jpg)
 
 ## Example 2
 
-Demonstrate `.putdata()` method to adjust the contrast of the original image.
+This example demonstrates how to use the `.putdata()` method to adjust the contrast of the original image by modifying the pixel values with a `scale` and `offset`:
 
 ```py
+from PIL import Image
+
+# Load the image
+py_img = Image.open('pillow_python_logo.jpg')  # Add the path to your image file
+
 # Get the sequenced pixel data from the image
 pix_data = list(py_img.getdata())
 
 # Use .putdata method to modify and put back the pixel data directly
-py_img.putdata(pix_data, scale=1.5, offset=-50)
+py_img.putdata(pix_data, scale=1.5, offset=-50)  # Increase contrast by scaling and offsetting
 
 # Show the image output
 py_img.show()
 ```
 
-Image Output:
+The output image will show increased contrast:
+
 ![Image of Python Logo with contrast](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow_python_logo_contrast.jpg)
 
-The `.putdata()` method works by accessing the pixel from the top left corner, multiplying its value by `scale,` and adding an `offset` value to it. Once that is finished, the method moves to the next pixel to the right, and so on down. Left to right, top to bottom.
+The `.putdata()` method works by accessing the pixel from the top-left corner of the image, modifying the pixel value using the formula `pixel = value * scale + offset`, and then moving to the next pixel to the right, continuing from left to right, top to bottom.
