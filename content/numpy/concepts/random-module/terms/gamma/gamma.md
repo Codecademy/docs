@@ -24,13 +24,6 @@ The **.gamma()** function of NumPy Random module generates random samples from t
 numpy.random.gamma(shape, scale, size)
 ```
 
-To compute the gamma function on complex numbers:
-
-```pseudo
-scipy.special.gamma(x)
-```  
-
-
 > [!Note]
 > New code should use the `.gamma` method of a `Generator` instance instead.
 
@@ -69,7 +62,7 @@ Drawn samples from the parameterized Gamma distribution.
 ## Example
   
 
-```python
+```py
 
 ```
 
