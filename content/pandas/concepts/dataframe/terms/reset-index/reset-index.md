@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.reset_index()`** method in Pandas is used to reset the index of a DataFrame to the default integer index. When working with Pandas DataFrames, the index may become non-sequential or non-numeric after operations like filtering, sorting, or grouping. The `.reset_index()` method helps restore the DataFrame to a clean, sequential integer index, making it easier to access rows by position and generally improving readability.
+The **`.reset_index()`** method in Pandas is used to reset the index of a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) to the default integer index. When working with Pandas `DataFrames`, the index may become non-sequential or non-numeric after operations like filtering, sorting, or grouping. The `.reset_index()` method helps restore the `DataFrame` to a clean, sequential integer index, making it easier to access rows by position and generally improving readability.
 
-This method is particularly useful in data preprocessing workflows where there is a need to maintain a consistent row reference after manipulating data. It allows to either discard the original index or preserve it as a new column in the DataFrame, giving you flexibility in how you want to handle previous indexing information.
+This method is particularly useful in data preprocessing workflows where there is a need to maintain a consistent row reference after manipulating data. It allows to either discard the original index or preserve it as a new column in the `DataFrame`, giving you flexibility in how you want to handle previous indexing information.
 
 ## Syntax
 
