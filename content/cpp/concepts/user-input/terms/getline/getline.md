@@ -21,16 +21,14 @@ In C++, the **`getline()`** [function](https://www.codecademy.com/resources/docs
 The `getline()` function is defined in the `<string>` header:
 
 ```pseudo
-#include <string>
-
 getline(cin, string, delim)
 ```
 
 **Parameters:**
 
 - `cin`: The [object](https://www.codecademy.com/resources/docs/cpp/objects) in the stream, which would be the user input.
-- `string`: Refers to the variable the user input is set to.
-- `delim` (Optional): Refers to a character that the user input is stored up to.
+- `string`: Refers to the variable to which the user input is set.
+- `delim` (Optional): Refers to a character the user input is stored up to.
 
 Although not recommended in C++, since it deals with [C strings](https://www.codecademy.com/resources/docs/c/strings), `getline()` can be called on the `cin` object as a member function like this:
 
@@ -40,9 +38,9 @@ cin.getline(string, length, delim)
 
 **Parameters:**
 
-- `string`: Refers to the variable the user input is set to.
+- `string`: Refers to the variable to which the user input is set.
 - `length`: The maximum number of characters to read, including the null terminator.
-- `delim` (Optional): Refers to a character that the user input is stored up to.
+- `delim` (Optional): Refers to a character the user input is stored up to.
 
 ## Example 1: Using `getline()` Without `delim`
 
