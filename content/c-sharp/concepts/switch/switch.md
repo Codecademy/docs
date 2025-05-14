@@ -59,9 +59,7 @@ class SwitchBasics
   {
     Console.WriteLine("Enter a day number (1-7):");
     int dayNum = Convert.ToInt32(Console.ReadLine());
-
     string dayName;
-
     switch (dayNum)
     {
       case 1:
