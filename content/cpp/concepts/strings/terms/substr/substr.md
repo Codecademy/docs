@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.substr()`** method extracts a substring from a given string. It is a member function of the `std::string` class that creates a new string object initialized with a copy of a portion of the original string, beginning at the specified position and extending for a given length.
+The **`.substr()`** method extracts a substring from a given string. It is a member function of the [`std::string`](https://www.codecademy.com/resources/docs/cpp/strings) class that creates a new string object initialized with a copy of a portion of the original string, beginning at the specified position and extending for a given length.
 
 The `.substr()` method is commonly used in string manipulation tasks such as parsing, text processing, data extraction, and generating modified versions of existing strings. It's particularly useful when there is a need to work with segments of a larger string without modifying the original data.
 
