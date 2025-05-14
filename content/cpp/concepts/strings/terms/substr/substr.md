@@ -65,7 +65,7 @@ int main() {
 }
 ```
 
-Output of this code will be:
+The output of the above code will be:
 
 ```shell
 Original string: Programming in C++
