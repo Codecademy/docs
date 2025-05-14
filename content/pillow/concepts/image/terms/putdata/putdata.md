@@ -29,13 +29,13 @@ Image.putdata(pixel_data, scale=1.0, offset=0.0)
 
 - `data`: A flattened sequence object containing pixel values to be assigned to the image. The values start from the upper-left corner (0, 0) of the image, proceed across rows, and continue until the sequence ends or the image size is reached.
 - `scale`: A scaling factor for the pixel data. Each pixel value is multiplied by this scale before being assigned.
-- `offset`: A value that is added to each pixel after scaling.
+- `offset`: A value added to each pixel after scaling.
 
 **Return value:**
 
 - The `.putdata()` method does not return anything. It modifies the image's pixel data in place and returns `None`.
 
-## Example 1
+## Example 1: Dim an Image Using `.putdata()` with Scale and Offset in Pillow
 
 Here is the image used as an example to perform the `.putdata()` method:
 
@@ -63,7 +63,7 @@ The output of this code will be a dimmed version of the image:
 
 ![Image of Dimmed Python Logo](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow_python_logo_dimm.jpg)
 
-## Example 2
+## Example 2: Enhance Image Contrast Using `.putdata()` in Pillow
 
 This example demonstrates how to use the `.putdata()` method to adjust the contrast of the original image by modifying the pixel values with a `scale` and `offset`:
 
