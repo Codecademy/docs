@@ -85,7 +85,7 @@ The output of this code will be:
 
 ### Single-Element Tuple
 
-Creating a tuple with just one element requires a trailing comma, otherwise Python interprets it as a regular expression in parentheses:
+Creating a tuple with just one element requires a trailing comma, otherwise, Python interprets it as a regular expression in parentheses:
 
 ```py
 # Incorrect way - this is not a tuple
