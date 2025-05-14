@@ -19,6 +19,7 @@ The **.gamma()** function of NumPy Random module generates random samples from t
 
 ## Syntax
 
+The basic syntax to generate a random gamma distribution.
 
 ```pseudo
 numpy.random.gamma(shape, scale, size)
@@ -27,16 +28,15 @@ numpy.random.gamma(shape, scale, size)
 > [!Note]
 > New code should use the `.gamma` method of a `Generator` instance instead.
 
-
 ### Parameters
 
-*shape*: float or array_like of floats.  
+`shape`: float or array_like of floats.  
 The shape parameter, $\kappa$ of the distribution. Must be non-negative.
 
-*scale*: float or array_like of floats, optional.  
+`scale': float or array_like of floats, optional.  
 The scale parameter $\theta$ of the distribution. Default is 1.0. Must be non-negative.
 
-*size*: int or tuple of ints, optional.  
+`size`: int or tuple of ints, optional.  
 The output shape. If provided, the function returns samples in the specified shape. If `None` (default), a single sample is returned.
 
 ### Statistical Properties
@@ -56,18 +56,22 @@ and arises naturally in processes for which the waiting times between Poisson di
 
 ### Returns
 
-out: *ndarray or scalar*\
+out: scalar for single result, ndarray (N-dimensional array) for multiple results.  
 Drawn samples from the parameterized Gamma distribution.
 
 ## Example
-  
+
+`np.random.seed(15)` for repeatability.
 
 ```py
-
+import numpy as np
+np.random.seed(15)
+result = np.random.gamma(shape=2,scale=2,size=2)
+print(result)
 ```
 
 Output:
 
 ```shell
-
+[2.59018924 4.28834638]
 ```
