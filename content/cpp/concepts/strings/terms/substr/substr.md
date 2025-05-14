@@ -108,7 +108,7 @@ int main() {
 }
 ```
 
-The output of this code will be:
+The output of the above code will be:
 
 ```shell
 Age: 30
