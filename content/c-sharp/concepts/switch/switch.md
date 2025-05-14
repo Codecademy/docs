@@ -93,7 +93,7 @@ class SwitchBasics
 }
 ```
 
-Sample output for this code if user enters 3:
+When the user inputs 3, the code produces the following output:
 
 ```shell
 Enter a day number (1-7):
