@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **tuple** in Python is an immutable ordered collection of elements. Tuples are similar to [lists](https://www.codecademy.com/resources/docs/python/lists), but unlike lists, they cannot be changed after their creation (i.e., they are immutable). Tuples can hold elements of different data types and are defined by enclosing the elements in parentheses.
+A **tuple** in Python is an immutable, ordered collection of elements. Tuples are similar to [lists](https://www.codecademy.com/resources/docs/python/lists), but unlike lists, they cannot be changed after their creation (i.e., they are immutable). Tuples can hold elements of different data types and are defined by enclosing the elements in parentheses.
 
 Tuples are commonly used in Python for returning multiple values from functions, as [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) keys (when they contain only immutable elements), and for representing fixed collections of data that should not be modified, such as days of the week or coordinates. Their immutability makes them more memory efficient and faster than lists for large data.
 
