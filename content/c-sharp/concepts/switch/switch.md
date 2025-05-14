@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`switch` statement** is a multi-way branch statement in C# that provides an efficient mechanism to transfer execution to different parts of code based on the value of an expression. It evaluates an expression once and compares it against a series of case values, executing the associated code block when a match is found. The switch statement is particularly useful when dealing with multiple possible conditions for a single variable.
 
-Switch statements serve as a cleaner alternative to multiple if-else if chains when comparing a single variable against several possible values. They are commonly used in menu systems, state machines, command processing, and data validation scenarios where code needs to branch based on discrete values.
+Switch statements serve as a cleaner alternative to multiple [if-else](https://www.codecademy.com/resources/docs/c-sharp/conditionals) chains when comparing a single variable against several possible values. They are commonly used in menu systems, state machines, command processing, and data validation scenarios where code needs to branch based on discrete values.
 
 ## Syntax
 
