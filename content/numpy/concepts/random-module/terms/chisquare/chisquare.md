@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In the `random` module of NumPy, the **`.chisquare()`** method generates random samples from a chi-square distribution. It is frequently applied in hypothesis testing to assess whether observed data differs significantly from expected outcomes.
+In the `random` module of NumPy, the **`.chisquare()`** method generates random samples from a chi-square distribution. It is frequently applied in hypothesis testing to assess whether observed data differ significantly from expected outcomes.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ numpy.random.chisquare(df, size=None)
 
 **Parameters:**
 
-- `df` (float or arrray-like of floats): Degrees of freedom (must be positive). This parameter determines the shape of the chi-square distribution.
+- `df` (float or array-like of floats): Degrees of freedom (must be positive). This parameter determines the shape of the chi-square distribution.
 - `size` (Optional): The shape of the output array. If not specified, a single value is returned.
 
 **Return value:**
@@ -36,7 +36,7 @@ In NumPy, the `.chisquare()` function returns a randomly drawn sample or an arra
 - If `size` is `None`, a single random value is returned.
 - If `size` is specified, an array of random values is returned, with the shape of the array determined by `size`.
 
-## Example
+## Example: Generating Random Values from a Chi-Square Distribution in NumPy
 
 The example below shows how to generate random values from a chi-square distribution with 2 degrees of freedom:
 
