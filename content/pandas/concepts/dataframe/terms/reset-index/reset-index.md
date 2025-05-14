@@ -188,7 +188,7 @@ Reset index with inplace=True:
 5      Q2   Jun   1600       950
 ```
 
-In this example, we demonstrate how to work with a DataFrame that has a hierarchical MultiIndex. When `.reset_index()` is applied without specifying a level, all index levels are converted to columns. Using the `level` parameter allows you to selectively reset specific levels of a MultiIndex. The `inplace=True` parameter modifies the original DataFrame instead of returning a new one.
+In this example, the process of working with a `DataFrame` that has a hierarchical MultiIndex is demonstrated. When applying `.reset_index()` without specifying a level, all index levels are converted to columns. Using the `level` parameter allows for the selective reset of specific levels of a MultiIndex. The `inplace=True` parameter modifies the original `DataFrame` instead of returning a new one.
 
 ## Codebyte Example: Practical Application in Data Analysis
 
