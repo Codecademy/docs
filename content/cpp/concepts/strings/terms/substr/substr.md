@@ -52,8 +52,8 @@ int main() {
   // Extract a substring starting from index 15 to the end
   string sub2 = original.substr(15);
 
-  // Extract a substring starting from index 13 with length 2
-  string sub3 = original.substr(13, 2);
+  // Extract a substring starting from index 12 with length 2
+  string sub3 = original.substr(12, 2);
 
   // Display the results
   cout << "Original string: " << original << endl;
