@@ -225,7 +225,7 @@ False
 
 ### Slicing of Tuple
 
-Slices allow you to extract a portion of a tuple using the syntax `tuple[start:stop:step]`:
+Slices allow for the extraction of a portion of a tuple using the syntax `tuple[start:stop:step]`:
 
 ```py
 # Slicing a tuple
