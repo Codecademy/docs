@@ -37,7 +37,7 @@ switch (expression)
 
 **Parameters:**
 
-- `expression`: The value being tested, typically a variable or method return value. Can be of integer type (int, char, byte), enumeration type, string type, or nullable versions of these types.
+- `expression`: The value to check, like a number, character, string, or enum.
 - `case value`: The constant value to compare against the expression. Each case value must be unique within the switch statement.
 - `break`: Statement that terminates the execution of the switch block, preventing fall-through to other cases.
 - `default`: Optional section that executes when no case matches the expression value.
