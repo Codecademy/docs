@@ -40,7 +40,7 @@ DataFrame.reset_index(level=None, drop=False, inplace=False, col_level=0, col_fi
 
 ## Example 1: Basic Usage of `.reset_index()`
 
-This example demonstrates how to use `.reset_index()` to restore the default integer index after filtering a DataFrame:
+This example demonstrates how to use `.reset_index()` to restore the default integer index after filtering a `DataFrame`:
 
 ```py
 # Import pandas library
