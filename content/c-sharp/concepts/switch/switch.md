@@ -221,7 +221,7 @@ No, switch statements in C# cannot directly work with floating-point types like 
 
 ### 4. What's the difference between switch and if-else if statements?
 
-Switch statements are generally more readable and efficient when comparing a single value against multiple constants. If-else if chains are more flexible for complex conditions but can become unwieldy with many cases.
+Switch statements are generally more readable and efficient when comparing a single value against multiple constants. If-else chains are more flexible for complex conditions, but can become unwieldy with many cases.
 
 ### 5. Is the default case required in switch statements?
 
