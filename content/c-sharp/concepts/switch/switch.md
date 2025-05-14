@@ -146,7 +146,7 @@ class SwitchWithGroups
 }
 ```
 
-Sample output of this code if user enters 'e':
+If the user inputs 'e', the output of this code will be:
 
 ```shell
 Enter a character:
