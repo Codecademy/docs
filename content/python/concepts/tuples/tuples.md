@@ -256,11 +256,11 @@ del coordinates
 
 ## Frequently Asked Questions
 
-### 1. Which of the following is a Python tuple: 4 5 6, (4 5 6), [4, 5, 6], {4, 5, 6}?
+### 1. Which of the following is a Python tuple: `4 5 6`, `(4 5 6)`, `[4, 5, 6]`, `{4, 5, 6}`?
 
 Only `(4, 5, 6)` is a valid Python tuple. The notation `4 5 6` without commas is a syntax error, `[4, 5, 6]` is a list, and `{4, 5, 6}` is a set.
 
-### 2. What is a tuple vs list?
+### 2. What is the difference between a tuple and a list?
 
 The main differences between tuples and lists are:
 
