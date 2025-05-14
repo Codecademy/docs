@@ -103,7 +103,7 @@ Reset index (dropping old index):
 2     Eva   45  Seattle
 ```
 
-This example shows how to reset the index of a filtered DataFrame. When the DataFrame is filtered, the indices become non-sequential (2, 3, 4). Using `.reset_index()` creates a new sequential integer index starting from 0, and by default, preserves the old index as a new column named 'index'. Using `.reset_index(drop=True)` discards the old index completely.
+The above example shows how to reset the index of a filtered `DataFrame`. When the `DataFrame` is filtered, the indices become non-sequential (2, 3, 4). Using `.reset_index()` creates a new sequential integer index starting from 0, and by default, preserves the old index as a new column named 'index'. Using `.reset_index(drop=True)` discards the old index completely.
 
 ## Example 2: Working with MultiIndex
 
