@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`CONCAT()`** function in SQL is used to join two or more strings into a single string. It is widely used for combining columns, literals, or expressions into meaningful data, such as full names or formatted outputs.
+The **`CONCAT()`** function in SQL joins two or more strings into a single string. It is widely used for combining columns, literals, or expressions into meaningful data, such as full names or formatted outputs.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ CONCAT(string1, string2, ..., stringN)
 
 The `CONCAT()` function returns a single string containing the concatenation of all the input values.
 
-> **Note:** If any argument is `NULL`, the result will also be `NULL`.
+> **Note:** If any argument is `NULL`, the result will be `NULL`.
 
 ## Example 1: Concatenating Strings
 
@@ -83,7 +83,7 @@ SELECT CONCAT(first_name, ' ', middle_name, ' ', last_name) AS full_name
 FROM employees;
 ```
 
-Since there is no `middle_name` column, the value for it will be `NULL` for all the rows. As a result, the output will be `NULL`.
+Since no `middle_name` column exists, its value will be `NULL` for all the rows. As a result, the output will be `NULL`.
 
 In this case, the `COALESCE()` function can be used in the query to replace `NULL` values with a custom value:
 
