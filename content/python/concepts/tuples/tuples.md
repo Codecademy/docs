@@ -245,7 +245,7 @@ The output of this code will be:
 
 ### Deleting a Tuple
 
-Since tuples are immutable, you cannot delete individual elements, but you can delete the entire tuple using the `del` keyword:
+Since tuples are immutable, individual elements cannot be deleted. However, the entire tuple can be deleted using the `del` keyword:
 
 ```py
 # Deleting a tuple
