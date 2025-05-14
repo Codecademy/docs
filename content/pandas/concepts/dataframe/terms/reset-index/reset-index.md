@@ -236,19 +236,19 @@ This example demonstrates a common data analysis workflow where `.reset_index()`
 
 ### 1. When should I use `.reset_index()` versus `.reindex()`?
 
-Use `.reset_index()` when you want to convert the current index into a column and create a new sequential integer index. Use `.reindex()` when you want to conform a DataFrame to a new index with optional filling of missing values.
+Use `.reset_index()` when you want to convert the current index into a column and create a new sequential integer index. Use `.reindex()` when you want to resample a `DataFrame` to a new index with optional filling of missing values.
 
 ### 2. What happens to the old index after using `.reset_index()`?
 
-By default (`drop=False`), the old index becomes a new column named 'index' in the DataFrame. If you set `drop=True`, the old index is discarded completely.
+By default (`drop=False`), the old index becomes a new column named 'index' in the `DataFrame`. If you set `drop=True`, the old index is discarded completely.
 
-### 3. Does `.reset_index()` always create a new DataFrame?
+### 3. Does `.reset_index()` always create a new `DataFrame`?
 
-By default, `.reset_index()` returns a new DataFrame and does not modify the original. If you want to modify the original DataFrame, use the parameter `inplace=True`, which will return None.
+By default, `.reset_index()` returns a new `DataFrame` and does not modify the original. If you want to modify the original `DataFrame`, use the parameter `inplace=True`, which will return None.
 
-### 4. How can I rename the index column when it's moved to the DataFrame?
+### 4. How can I rename the index column when it's moved to the `DataFrame`?
 
-You can use the `names` parameter to specify a custom name for the index column(s) when they are added to the DataFrame. For example: `df.reset_index(names=['original_index'])`.
+You can use the `names` parameter to specify a custom name for the index column(s) when they are added to the `DataFrame`. For example: `df.reset_index(names=['original_index'])`.
 
 ### 5. Can `reset_index()` handle MultiIndex DataFrames?
 
