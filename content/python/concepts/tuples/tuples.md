@@ -207,7 +207,7 @@ The output of this code will be:
 
 ### Membership Testing
 
-You can check if an element exists in a tuple using the `in` keyword:
+Checking if an element exists in a tuple can be done using the `in` keyword.
 
 ```py
 # Checking membership
