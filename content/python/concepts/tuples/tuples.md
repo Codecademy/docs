@@ -67,7 +67,7 @@ The output of this code will be:
 
 ### Empty Tuple
 
-To create an empty tuple, you can use empty parentheses:
+To create an empty tuple, use empty parentheses`()`:
 
 ```py
 # Creating an empty tuple
