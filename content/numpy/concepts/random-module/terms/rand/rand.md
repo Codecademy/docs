@@ -1,6 +1,6 @@
 ---
 Title: '.rand()'
-Description: 'Returns an array of the given shape with random samples from a uniform distribution over [0, 1).'
+Description: 'Returns an array of the provided shape filled with randomly generated samples from a uniform distribution over [0, 1).'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.rand()`** function from the NumPy library returns an array of a specified shape filled with uniformly distributed random values between 0 and 1. The shape of the output array is determined by the parameters passed to the function.
+The **`.rand()`** function from the NumPy library returns an array of the provided shape filled with randomly generated samples from a uniform distribution over [0, 1). The shape of the output array is decided based on the arguments for the function.
 
 This function is commonly used for creating random arrays in applications like machine learning and simulations.
 
@@ -34,7 +34,7 @@ An array ([`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray)) 
 
 ## Example
 
-The following examples demonstrate the use of `.rand()` from numpy library:
+This example demonstrates the use of `.rand()`:
 
 ```py
 import numpy as np
@@ -78,11 +78,11 @@ This is a 4D array with shape (2, 4, 3): [[[0.66207525 0.72505789 0.56002624]
   [0.06081413 0.08813921 0.34166149]]]
 ```
 
-> **Note:** The output of `np.random.rand()` will change each time because it generates pseudo-random numbers based on the system's internal state, which varies with each execution.
+> **Note:** The output of `np.random.rand()` may change each time because it generates pseudo-random numbers based on the system's internal state, which may vary with each execution.
 
 ## Codebyte Example
 
-The following codebyte is an example of the `.rand()` in use to generate different dimensional arrays:
+This codebyte is an example of `.rand()` in use to generate different dimensional arrays:
 
 ```codebyte/python
 import numpy as np
@@ -93,7 +93,7 @@ single_float = np.random.rand()
 
 print("The float made using numpy.random.rand() is", single_float, "\n")
 
-# Create a random integer between 1 and 10
+# Create a random integer in the range 1-10
 t = random.randint(1, 10)
 
 # Create a random integer between 1 and 5
