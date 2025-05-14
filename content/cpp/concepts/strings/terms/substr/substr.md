@@ -159,7 +159,7 @@ The above code uses nested loops with the `.substr()` method to systematically g
 
 ### 1. How do `.substring()` and `.substr()` differ?
 
-The `.substring()` method is found in Java and JavaScript, while C++ uses `.substr()`. They have different parameter semantics: Java's `.substring()` takes start and end indices, while C++'s `.substr()` takes start position and length. Additionally, Java's `.substring()` uses zero-based indexing for both parameters, while C++'s `.substr()` uses a position and count approach.
+The `.substring()` method is in Java and JavaScript, while C++ uses `.substr()`. They have different parameter semantics: Java's `.substring()` takes start and end indices, while C++'s `.substr()` takes start position and length. Additionally, Java's `.substring()` uses zero-based indexing for both parameters, while C++'s `.substr()` uses a position and count approach.
 
 ### 2. What to use instead of `.substr()`?
 
@@ -176,7 +176,7 @@ If the position parameter (`pos`) is greater than or equal to the string length,
 
 ### 4. Is `substr()` an efficient operation?
 
-The `.substr()` method creates a new string object, which involves memory allocation and copying characters. For frequent or performance-critical operations, this can be inefficient. In C++17 and later, consider using std::string_view for non-modifiable substring references without copying.
+The `.substr()` method creates a new string object, which involves memory allocation and copying characters. For frequent or performance-critical operations, this can be inefficient. In C++17 and later, consider using `std::string_view` for non-modifiable substring references without copying.
 
 ### 5. Can `.substr()` modify the original string?
 
