@@ -153,7 +153,7 @@ int main() {
 }
 ```
 
-This example demonstrates how to use nested loops with the `.substr()` method to systematically generate all possible substrings of a given string. This technique is frequently used in string processing algorithms and competitive programming problems.
+The above code uses nested loops with the `.substr()` method to systematically generate all possible substrings of a given string. This technique is frequently used in string processing algorithms and competitive programming problems.
 
 ## Frequently Asked Questions
 
