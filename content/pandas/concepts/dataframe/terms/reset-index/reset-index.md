@@ -27,12 +27,12 @@ DataFrame.reset_index(level=None, drop=False, inplace=False, col_level=0, col_fi
 **Parameters:**
 
 - `level` (int, str, tuple, list, default `None`): Only remove the given levels from the index. Removes all levels by default.
-- `drop` (bool, default `False`): If `True`, do not try to insert the index into the DataFrame as a column. If `False`, the original index becomes a new column named 'index'.
-- `inplace` (bool, default False): If `True`, modifies the DataFrame in place rather than creating a new one.
+- `drop` (bool, default `False`): If `True`, do not try to insert the index into the `DataFrame` as a column. If `False`, the original index becomes a new column named 'index'.
+- `inplace` (bool, default False): If `True`, modifies the `DataFrame` in place rather than creating a new one.
 - `col_level` (int or str, default `0`): If the columns have multiple levels, determines which level the labels are inserted into.
 - `col_fill` (object, default ''): If the columns have multiple levels, determines how the other levels are named.
 - `allow_duplicates` (bool, optional): If `False`, checks for duplicate columns when inserting the index and raises if duplicates are found. If `True`, allows duplicates. Default behavior depends on the version of Pandas and is subject to change.
-- `names` (int, str or 1-dimensional list, default `None`): Use this parameter to rename the index column(s) when adding them to the DataFrame.
+- `names` (int, str or 1-dimensional list, default `None`): Use this parameter to rename the index column(s) when adding them to the `DataFrame`.
 
 **Return value:**
 
