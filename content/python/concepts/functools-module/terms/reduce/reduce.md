@@ -29,7 +29,7 @@ reduce(func_name, iterable, initializer)
 **Parameters:**
 
 - `func_name`: The function to be applied to the iterable. It can be a [`lambda`](https://www.codecademy.com/resources/docs/python/keywords/lambda) function or any other function defined beforehand.
-- `iterable`: The iterable containing the items which the function will act upon. It can be a [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), or [string](https://www.codecademy.com/resources/docs/python/strings).
+- `iterable`: The iterable contains the items the function will act upon. It can be a [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), or [string](https://www.codecademy.com/resources/docs/python/strings).
 - `initializer`: Provides the ability to specify an initial value for the first calculation. With the `initializer` set, the first calculation will be between the `initializer` and the first item in the sequence instead of the first and second items of the sequence.
 
 **Return value:**
