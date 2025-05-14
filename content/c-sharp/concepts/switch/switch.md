@@ -117,8 +117,7 @@ class SwitchWithGroups
   public static void Main(string[] args)
   {
     Console.WriteLine("Enter a character:");
-//    char ch = Convert.ToChar(Console.ReadLine().ToLower());
-    char ch = Convert.ToChar(Console.ReadLine());
+    char ch = Convert.ToChar(Console.ReadLine().ToLower());
 
     switch (ch)
     {
