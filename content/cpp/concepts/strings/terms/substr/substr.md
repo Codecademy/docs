@@ -74,7 +74,7 @@ Substring 2: C++
 Substring 3: in
 ```
 
-This example shows how to extract different parts of a string by specifying the starting position and length parameters in the substr() method.
+This example shows how to extract different parts of a string by specifying the starting position and length parameters in the `.substr()` method.
 
 ## Example 2: Extracting Text Between Delimiters
 
