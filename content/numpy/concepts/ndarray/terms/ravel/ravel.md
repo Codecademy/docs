@@ -6,8 +6,8 @@ Subjects:
   - 'Data Science'
   - 'Web Development'
 Tags:
-  - 'Data Structures'
   - 'Arrays'
+  - 'Data Structures'
   - 'Functions'
   - 'NumPy'
 CatalogContent:
@@ -15,28 +15,36 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `ravel ()` method returns a contiguous flattened array. It is used to convert a multi-dimensional array into a one-dimensional array. The returned array is a view of the original array whenever possible, meaning that it shares the same data buffer.
+The **`.ravel()`** method returns a contiguous flattened array. It is used to convert a multi-dimensional array into a one-dimensional array. The returned array is a view of the original array whenever possible, meaning that it shares the same data buffer.
 
 ## Syntax
 
 ```pseudo
-ndarray.ravel(order='C')
+ndarray.ravel(a, order='C')
 ```
 
+**Parameters:**
+
+- `a`: The input array to be flattened.
 - `order`: This parameter specifies the order in which the array elements are read. It can take the following values:
   - `'C'`: C-style row-major order (default).
   - `'F'`: Fortran-style column-major order.
-  - `'A'`: Fortran order if the array is Fortran contiguous, C order otherwise.
-  - `'K'`: Preserve the original order of the array.
-- `ndarray`: The array to be flattened.
+  - `'A'`: 'F' if input is Fortran contiguous in memory, 'C' otherwise.
+  - `'K'`: As close to the memory layout as possible.
+
+**Return value:**
+
+A flattened 1D array. Returns a view whenever possible, otherwise a copy.
 
 ## Example
+
+In this example, a 2D array is flattened into a 1D array using `.ravel()`. The elements are listed in row-major order by default:
 
 ```py
 import numpy as np
 
 arr = np.array([[1, 2, 3], [4, 5, 6]])
-flattened_arr = arr.ravel()
+flattened_arr = np.ravel(arr)
 print(flattened_arr)
 ```
 
@@ -54,7 +62,7 @@ Run the following codebyte example to understand the usage of the `ravel()` meth
 import numpy as np
 
 arr = np.array([[1, 2], [3, 4], [5, 6]])
-flattened_arr = arr.ravel()
+flattened_arr = np.ravel(arr)
 
 print(flattened_arr)
 ```
