@@ -2,15 +2,15 @@
 Title: '.exponential()'
 Description: 'Generates random samples from an exponential distribution using a specified scale.'
 Subject:
- - 'Computer Science'
- - 'Data Visualization'
+  - 'Computer Science'
+  - 'Data Visualization'
 Tags:
- - 'Data'
- - 'Numpy'
- - 'Random'
+  - 'Data'
+  - 'Numpy'
+  - 'Random'
 ContentCatalog:
- - 'learn-python-3'
- - 'paths/computer-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 The **`.exponential()`** function in NumPy random module generates random numbers from an exponential distribution, where the `scale` parameter (1/λ) controls the spread, and the `size` defines the shape of the output array.
