@@ -39,7 +39,7 @@ x = torch.tensor([[1], [2], [3]])
 
 # Expand the tensor to size (3, 4)
 expanded_x = x.expand(3, 4)
-d
+
 print(expanded_x)
 ```
 
