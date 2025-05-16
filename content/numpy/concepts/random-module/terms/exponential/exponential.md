@@ -8,7 +8,7 @@ Tags:
   - 'Data'
   - 'Numpy'
   - 'Random'
-ContentCatalog:
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
