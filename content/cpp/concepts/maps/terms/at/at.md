@@ -62,7 +62,6 @@ int main() {
     cout << "Exception: " << e.what() << endl;
     cout << "David is not in the database." << endl;
   }
-
   return 0;
 }
 ```
