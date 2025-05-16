@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.begin()`** function is a built-in method in the C++ Standard Template Library (STL) used to retrieve an iterator pointing to the first element in a `std::map` container. This method is essential for accessing and traversing the elements stored in a map.
+The **`.begin()`** function is a built-in method in the C++ Standard Template Library (STL) that retrieves an iterator pointing to the first element in a [`std::map`](https://www.codecademy.com/resources/docs/cpp/maps) container. This method is essential for accessing and traversing the elements stored in a map.
 
 The `.begin()` method returns an iterator that provides access to the first key-value pair in the map, determined by the map's sorting criterion. Maps in C++ store elements in a sorted order based on their keys, and `.begin()` gives access to the element that comes first in this order.
 
