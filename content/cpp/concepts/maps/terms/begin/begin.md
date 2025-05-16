@@ -93,7 +93,6 @@ int main() {
   for (auto it = countryCodes.begin(); it != countryCodes.end(); ++it) {
     std::cout << it->first << ": " << it->second << std::endl;
   }
-
   return 0;
 }
 ```
