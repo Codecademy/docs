@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.at()`** method is a built-in function in C++ STL `std::map` containers that safely accesses elements by their key. It provides direct reference access to the mapped value associated with a specific key. Unlike the subscript operator `[]`, the `.at()` method performs bounds checking and throws an exception when attempting to access a non-existent key.
+The **`.at()`** method is a built-in function in C++ STL [`std::map`](https://www.codecademy.com/resources/docs/cpp/maps) containers that safely accesses elements by their key. It provides direct reference access to the mapped value associated with a specific key. Unlike the subscript operator `[]`, the `.at()` method performs bounds checking and throws an exception when attempting to access a non-existent key.
 
 Maps in C++ are associative containers that store elements as key-value pairs, where each key is unique. The `.at()` method is particularly useful when ensuring that a key exists before accessing its value, making it ideal for situations where data integrity and exception handling are important.
 
