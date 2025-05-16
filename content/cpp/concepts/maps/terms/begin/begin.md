@@ -160,27 +160,37 @@ int main() {
 
 A map in C++ can be initialized in several ways:
 
+- Method 1: Using initializer list (C++11 and later)
+
 ```cpp
-// Method 1: Using initializer list (C++11 and later)
 std::map<int, std::string> map1 = {
   {1, "one"},
   {2, "two"},
   {3, "three"}
-};
+}
+```
 
-// Method 2: Using insert() method
+- Method 2: Using `insert()` method
+
+```cpp
 std::map<int, std::string> map2;
 map2.insert({1, "one"});
 map2.insert({2, "two"});
 map2.insert({3, "three"});
+```
 
-// Method 3: Using emplace() method (more efficient in C++11 and later)
+- Method 3: Using `emplace()` method (more efficient in C++11 and later)
+
+```cpp
 std::map<int, std::string> map3;
 map3.emplace(1, "one");
 map3.emplace(2, "two");
 map3.emplace(3, "three");
+```
 
-// Method 4: Using square bracket operator
+- Method 4: Using square bracket operator
+
+```cpp
 std::map<int, std::string> map4;
 map4[1] = "one";
 map4[2] = "two";
