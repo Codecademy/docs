@@ -159,7 +159,6 @@ int main() {
   for (const auto& item : prices) {
     cout << item.first << ": $" << item.second << endl;
   }
-
   return 0;
 }
 ```
