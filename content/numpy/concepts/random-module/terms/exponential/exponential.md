@@ -23,7 +23,7 @@ numpy.random.exponential(scale=1.0, size=None)
 
 **Parameters:**
 
-- `scale` (float, optional): The scale parameter (β = 1/λ), which is also the mean of the distribution. Must be > 0. Default is 1.0.
+- `scale` (float, optional): The scale parameter (β = 1/λ) is also the distribution's mean. Must be > 0. The default is `1.0`.
 - `size` (int or tuple of ints, optional): Output shape. If `None` (default), returns a single value. If an integer or tuple, returns an array of that shape.
 
 **Return value:**
@@ -32,13 +32,15 @@ It returns random samples from the exponential distribution.
 
 Its probability density function is:
 
+```plaintext
 $f(x; \frac{1}{\beta}) = \frac{1}{\beta} \exp(-\frac{x}{\beta}),$
+```
 
-Here, $\beta$ is the scale parameter (also the mean), and $\lambda = 1/\beta$ is the rate. This is a common parameterization of the exponential distribution.
+Here, $\beta$ is the scale parameter (also the mean), and $\lambda = 1/\beta$ is the rate. This is a standard parameterization of the exponential distribution.
 
 ## Example
 
-The following code returns 10 random samples from an exponential distribution with a scale of 0.75. Setting the seed ensures reproducible results:
+The following code returns 10 random samples from an exponential distribution with a scale of `0.75`. Setting the seed ensures reproducible results:
 
 ```py
 import numpy as np
@@ -47,7 +49,7 @@ results = np.random.exponential(scale=0.75, size=10)
 print(results)
 ```
 
-Output of this code will be:
+The output of this code will be:
 
 ```shell
 [0.54626666 2.20256852 1.08759608 0.24887788 0.18735185 0.86930237 0.13716657 0.3737313  0.72185379 0.39818209]
@@ -55,7 +57,7 @@ Output of this code will be:
 
 ## Codebyte Example
 
-In this example, we simulate the waiting times between 100 calls to a help desk, where calls arrive randomly but on average every 5 minutes:
+In this example, the waiting times between 100 calls to a help desk are simulated, where calls arrive randomly but on average every 5 minutes:
 
 ```codebyte/python
 import numpy as np
