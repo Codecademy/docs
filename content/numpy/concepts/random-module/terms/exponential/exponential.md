@@ -32,7 +32,7 @@ It returns random samples from the exponential distribution.
 
 Its probability density function is:
 
-```plaintext
+```
 $f(x; \frac{1}{\beta}) = \frac{1}{\beta} \exp(-\frac{x}{\beta}),$
 ```
 
