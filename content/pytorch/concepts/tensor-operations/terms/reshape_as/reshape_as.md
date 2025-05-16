@@ -54,7 +54,7 @@ print("Reshaped tensor:", reshaped_tensor)
 print("Shape after reshape_as:", reshaped_tensor.shape)
 ```
 
-The above code produces the following output:
+The code above will produce the following output:
 
 ```shell
 Original tensor_a: tensor([0, 1, 2, 3, 4, 5])
@@ -91,8 +91,7 @@ print("Reshaped tensor:", reshaped_tensor)
 print("Shape after reshape_as:", reshaped_tensor.shape)
 ```
 
-The above code produces the following output:
-
+The code above will produce the following output:
 
 ```shell
 Original tensor_a: tensor([0, 1, 2, 3, 4, 5, 6, 7])
