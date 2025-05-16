@@ -1,11 +1,12 @@
 ---
 Title: '.floor()'
-Description: 'Rounds down a number or an array of numbers to the nearest smallest integer.'
+Description: 'Rounds down each element in an array (or a single number) to the nearest integer less than or equal to that value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Arrays'
+  - 'Elements'
   - 'Math'
   - 'NumPy'
 CatalogContent:
@@ -13,63 +14,101 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In the NumPy library, the **`.floor()`** method rounds down a number or an array of numbers to the nearest smallest integer. It returns an array without commas separating the elements. To view the output with commas, use the [`.repr()`](https://www.codecademy.com/resources/docs/python/built-in-functions/repr) function.
+In the NumPy library, the **`.floor()`** method rounds down a number or an array of numbers to the nearest integer that is less than or equal to the given value. It returns an array, with the elements separated by commas. This function is especially useful in mathematical, statistical, and engineering applications where downward rounding is required.
+
+> **Note:** To view the output with commas, use the [`.repr()`](https://www.codecademy.com/resources/docs/python/built-in-functions/repr) function in Python.
 
 ## Syntax
 
 ```psuedo
-numpy.floor(array, out=None)
+numpy.floor(input, out=None)
 ```
 
-- `array`: Represents a single number or an array of numbers. Each element, whether a float or integer, will be rounded down.
-- `out` (Optional): An output array where the rounded results will be stored. A new array will be created to store the rounded-down values if not provided.
+**Parameters:**
 
-## Example
+- `input`: The input value or array of values for which the floor operation is performed. This can be a single number, or a NumPy array (or any array-like object).
+- `out` (Optional): An output array where the rounded results will be stored. A new array is created to store the rounded-down values if not provided.
 
-The below example shows different use cases of the `.floor()` method:
+**Return value:**
+
+- If `input` is a number, the `.floor()` method returns the largest integer less than or equal to the number (rounded down).
+- If `input` is an array, the method returns a new array containing the rounded-down values for each element in the `input` array.
+
+## Example 1: Using `.floor()` on Arrays
+
+This example uses the `.floor()` method to round down an array of numbers:
 
 ```py
 import numpy as np
 
-# Case 1: np.floor() returns a single number rounded down.
-number = 5.64
-rounded_number = np.floor(number)
-print("# Case 1")
-print(rounded_number)
-
-# Case 2: np.floor() accepts arrays as a parameter and will return the elements of the array rounded down.
+# Create an array of numbers
 array_unrounded = [4.734, 3.141, 9.567]
-array_rounded = np.floor(array_unrounded)
-print("# Case 2")
-print(array_rounded)
 
-# Case 3: np.floor() accept arrays as a second parameter and will store the round down values in it.
-array_unrounded = [2.5, 1.5, 3.55]
-array_rounded = np.zeros_like(array_unrounded)
-np.floor(array_unrounded, out=array_rounded)
-print("# Case 3")
+# Round down the numbers in the array
+array_rounded = np.floor(array_unrounded)
+
+# Print the result
 print(array_rounded)
 ```
 
-The above use cases produce the following output:
+Here is the output of this code:
 
 ```shell
-# Case 1
-5.0
-# Case 2
 [4. 3. 9.]
-# Case 3
-[2. 1. 3.]
 ```
 
-## Codebyte Example
+## Example 2: Using `.floor()` on Numbers
 
-Run the following codebyte example to understand how the `.floor()` method works:
+This example uses the `.floor()` method to round down a number:
 
-```codebyte/python
+```py
 import numpy as np
 
-unrounded_list = [23.89, 54.843, 17.478]
-rounded_list = np.floor(unrounded_list)
-print(rounded_list)
+# Store the number in a variable
+num = 5.8
+
+# Round down the number
+rounded_num = np.floor(num)
+
+# Print the result
+print(rounded_num)
 ```
+
+Here is the output for this code:
+
+```shell
+5.0
+```
+
+## Codebyte Example: Using `.floor()` on 2D Arrays
+
+This codebyte example uses the `.floor()` method to round down the numbers in a 2D array:
+
+```py
+import numpy as np
+
+# Create a 2D array of numbers
+arr_2d = np.array([[3.9, -1.2], [0.5, -0.9]])
+
+# Round down the numbers in the array
+floored_2d = np.floor(arr_2d)
+
+# Print the result
+print(floored_2d)
+```
+
+## Frequently Asked Questions
+
+### 1. What is the difference between NumPy `.ceil()` and `.floor()`?
+
+- `np.floor()` rounds values down to the nearest smallest integer.
+- `np.ceil()` rounds values up to the nearest biggest integer.
+
+### 2. Does `np.floor()` modify the original array?
+
+No, `np.floor()` returns a new array and does not change the original one unless you explicitly use the `out` parameter to overwrite it.
+
+### 3. What’s the difference between `np.floor()` and `np.trunc()`?
+
+- `np.floor()` rounds down to the nearest smallest integer (toward negative infinity).
+- `np.trunc()` truncates the decimal part and rounds toward zero.
