@@ -177,7 +177,7 @@ Yes, unlike the subscript operator, `.at()` can be used with constant maps becau
 
 ### 3. What is the time complexity of `.at()`?
 
-The time complexity is O(log n), where n is the number of elements in the map.
+The time complexity is `O(log n)`, where n is the number of elements in the map.
 
 ### 4. What exception does `.at()` throw if the key is not found?
 
