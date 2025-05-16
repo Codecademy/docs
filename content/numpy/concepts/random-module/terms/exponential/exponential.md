@@ -1,7 +1,7 @@
 ---
 Title: '.exponential()'
 Description: 'Generates random samples from an exponential distribution using a specified scale.'
-Subject:
+Subjects:
   - 'Computer Science'
   - 'Data Visualization'
 Tags:
