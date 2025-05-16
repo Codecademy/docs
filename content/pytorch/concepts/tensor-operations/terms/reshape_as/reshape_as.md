@@ -25,8 +25,7 @@ In PyTorch, The **`.reshape_as()`** method reshapes a [tensor](https://www.codec
 Tensor.reshape_as(other)
 ```
 
-- `other`: another tensor object, doesn't have to have the same CPU/GPU or data type as in the input tensor. 
-
+- `other`: A tensor , whose shape will be used to reshape the input tensor, doesn't have to have the same CPU/GPU or data type as in the input tensor. 
 
 ## Example
 
