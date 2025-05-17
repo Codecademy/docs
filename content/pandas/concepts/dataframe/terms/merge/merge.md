@@ -10,6 +10,8 @@ The `.merge()` method combines two DataFrames based on a common key or index, si
 
 ## Syntax
 
+The `.merge()` method provides a flexible way to combine DataFrames using different types of joins. The following syntax shows all available parameters:
+
 ```python
 DataFrame.merge(right, how='inner', on=None, left_on=None, right_on=None, left_index=False, right_index=False, suffixes=('_x', '_y'))
 ```
@@ -30,6 +32,8 @@ DataFrame.merge(right, how='inner', on=None, left_on=None, right_on=None, left_i
 - `suffixes`: Tuple of strings to append to overlapping column names
 
 ## Example
+
+The following example demonstrates a basic merge operation between two DataFrames using a common 'id' column:
 
 ```python
 import pandas as pd
