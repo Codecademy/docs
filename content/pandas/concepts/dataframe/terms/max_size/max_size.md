@@ -1,5 +1,17 @@
-Here's a detailed explanation of `.max_size()` for Maps in C++ in markdown format:
-
+---
+Title: '.max_size()'
+Description: 'returns the maximum number of elements that the `std::map` container can theoretically hold'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Data'
+  - 'Data Structures'
+  - 'Methods'
+  - 'Map'
+CatalogContent:
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 # `.max_size()` in C++ Maps
