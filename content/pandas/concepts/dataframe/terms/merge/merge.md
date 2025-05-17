@@ -49,39 +49,17 @@ df2 = pd.DataFrame({
 merged_df = df1.merge(df2, on='id')
 ```
 
-## Codebyte
+The code above produces the following output:
 
-```codebyte/python
-import pandas as pd
-
-# Create two sample DataFrames
-df1 = pd.DataFrame({
-    'id': [1, 2, 3, 4],
-    'name': ['Alice', 'Bob', 'Charlie', 'David']
-})
-
-df2 = pd.DataFrame({
-    'id': [1, 2, 3, 5],
-    'age': [25, 30, 35, 40]
-})
-
-# Display the original DataFrames
-print("DataFrame 1:")
-print(df1)
-print("\nDataFrame 2:")
-print(df2)
-
-# Merge the DataFrames on the 'id' column
-merged_df = df1.merge(df2, on='id')
-
-# Display the merged DataFrame
-print("\nMerged DataFrame:")
-print(merged_df)
-
-# Try different merge types
-print("\nLeft Merge:")
-print(df1.merge(df2, on='id', how='left'))
-
-print("\nOuter Merge:")
-print(df1.merge(df2, on='id', how='outer'))
 ```
+   id    name  age
+0   1   Alice   25
+1   2     Bob   30
+2   3  Charlie   35
+```
+
+Note that:
+
+- Only rows with matching `id` values (1, 2, and 3) are included in the result
+- The row with `id=4` from `df1` is excluded because it has no match in `df2`
+- The row with `id=5` from `df2` is excluded because it has no match in `df1`
