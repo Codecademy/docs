@@ -141,8 +141,8 @@ Following is the output for the above example:
 [ 'Elderberry', 'Fig' ]
 ```
 
-### Using Both Negative And Psoitive Arguments
-When using a positive number as the first argument and a negative number as the second argument, the .slice() returns a shallow copy of the array it was passed on contain all the values in between the index of the positive number (including) and the negative number (excluding).
+### Using Both Negative And Positive Arguments
+When using a positive number as the first argument and a negative number as the second argument, the .slice() method returns a shallow copy of the array, containing elements from the starting index (inclusive) to the ending index (exclusive). In this case, the negative index is counted out from the end of the array.
 
 Following the last previous example
 
@@ -154,9 +154,10 @@ console.log(selectedFruits2);
 Following is the output for the above example:
 
 ```shell
-[ 'Date', 'ElderBerry']
+[ 'Date', 'Elderberry']
 ```
-
+Since 'Date' has an index of 3 inside the 'fruits' array, it becomes the first value that is returned when we use .slice().
+And since 'Elderberry' is the value that comes right before the value with index -2 inside the 'fruits' array, it becomes the last value that is returned when we use the .slice() method.
 
 
 ## Codebyte Example
