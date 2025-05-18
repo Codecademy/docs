@@ -27,12 +27,12 @@ matplotlib.pyplot.hist(x, bins=None, range=None, density=False, weights=None, cu
 **Parameters:**
 
 - `x`: The data to be represented in the histogram. Can be a single array or a sequence of arrays.
-- `bins`: Specifies the number of bins or the bin edges for the histogram. If an integer is provided, it represents the number of bins. If a sequence is provided, it represents the bin edges. Default is `None`, which uses `auto` method to determine bins.
+- `bins`: Specifies the number of bins or the bin edges for the histogram. If an integer is provided, it represents the number of bins. If a sequence is provided, it represents the bin edges. The default is `None`, which uses the `auto` method to determine bins.
 - `range`: The lower and upper range of the bins as a tuple. If not provided, range is `(x.min(), x.max())`. Values outside the range are ignored.
 - `density`: If `True`, the histogram is normalized to form a probability density, where the area under the histogram equals 1. Default is `False`.
 - `weights`: An array of weights, same shape as `x`. Each value in `x` only contributes its associated weight towards the bin count. Default is `None`.
 - `cumulative`: If `True`, the histogram represents a cumulative distribution function rather than a frequency distribution. Default is `False`.
-- `bottom`: Location of the bottom baseline of each bin. If a scalar, the base line for all bins is at the same location. If an array, each bin has its own baseline. Default is 0.
+- `bottom`: Location of the bottom baseline of each bin. If a scalar, the baseline for all bins is at the same location. If an array, each bin has its own baseline. Default is 0.
 - `histtype`: Defines the type of histogram. Options are: 'bar', 'barstacked', 'step', 'stepfilled'. Default is 'bar'.
 - `align`: Controls how the bars align with the bin edges. Options are: 'left', 'mid', 'right'. Default is 'mid'.
 - `orientation`: Orientation of the histogram. Can be 'horizontal' or 'vertical'. Default is 'vertical'.
