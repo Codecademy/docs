@@ -35,7 +35,7 @@ setTimeout(function, delay, param1, param2, ...);
 
 ## Example 1: Basic Timeout
 
-This example demonstrates the basic usage of setTimeout() to display a message after a delay:
+This example demonstrates the basic usage of `setTimeout()` to display a message after a delay:
 
 ```js
 // Display a greeting after 2 seconds
