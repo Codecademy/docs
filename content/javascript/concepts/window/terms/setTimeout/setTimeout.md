@@ -26,7 +26,7 @@ setTimeout(function, delay, param1, param2, ...);
 **Parameters:**
 
 - `function`: A function to be executed after the timer expires.
-- `delay`: Optional. The time in milliseconds to wait before executing the function. Default is 0.
+- `delay`: Optional. The time in milliseconds to wait before executing the function. The default is 0.
 - `param1, param2, ...`: Optional. Parameters to pass to the function when it is executed.
 
 **Return value:**
