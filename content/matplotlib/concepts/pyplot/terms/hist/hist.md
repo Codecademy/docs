@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.hist()`** function in Matplotlib's pyplot module is used to create histograms, which are graphical representations of data distribution. It divides the data into bins (non-overlapping intervals) and counts the frequency of values in each bin, plotting them as bars. Histograms are powerful tools for visualizing the distribution of a dataset, allowing users to quickly identify patterns such as central tendency, spread, and outliers.
+The **`.hist()`** function in Matplotlib's [pyplot](https://www.codecademy.com/resources/docs/matplotlib/pyplot) module is used to create histograms, which are graphical representations of data distribution. It divides the data into bins (non-overlapping intervals) and counts the frequency of values in each bin, plotting them as bars. Histograms are powerful tools for visualizing the distribution of a dataset, allowing users to quickly identify patterns such as central tendency, spread, and outliers.
 
 Histograms are commonly used in data analysis and statistics to understand data distribution characteristics. They're essential for exploratory data analysis, helping to identify skewness, multimodality, and other distribution properties that might influence subsequent analysis choices. The `.hist()` function makes creating these visualizations straightforward in Python, with extensive customization options to fit various data visualization needs.
 
