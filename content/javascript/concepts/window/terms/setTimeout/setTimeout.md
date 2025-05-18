@@ -53,7 +53,7 @@ The output produced by this after two seconds will be:
 Hello, welcome to our website!
 ```
 
-In this example, we define a function `greetUser()` that logs a welcome message. We then use `setTimeout()` to schedule this function to run after 2000 milliseconds (2 seconds). The function is stored in a variable `timeoutId` which could be used to cancel the timeout if needed.
+In this example, we define a function `greetUser()` that logs a welcome message. We then use `setTimeout()` to schedule this function to run after 2000 milliseconds (2 seconds). The function is stored in a variable `timeoutId`, which could be used to cancel the timeout if needed.
 
 ## Example 2: Cancelable Countdown Timer
 
