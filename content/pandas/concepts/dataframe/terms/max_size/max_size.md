@@ -4,6 +4,7 @@ Description: 'returns the maximum number of elements that the `std::map` contain
 Subjects:
   - 'Computer Science'
   - 'Data Science'
+  - 'AI'
 Tags:
   - 'Data'
   - 'Data Structures'
@@ -14,11 +15,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-# `.max_size()` in C++ Maps
+`.max_size()` in C++ Maps
 
-The `.max_size()` method in C++ maps returns the **maximum number of elements** that the `std::map` container can theoretically hold based on system/library implementation constraints. This value depends on the system's available memory and the implementation's internal structures.
+The `.max_size()` method in C++ maps returns the maximum number of elements the `std::map` container can theoretically hold based on system/library implementation constraints. This value depends on the system's available memory and the implementation's internal structures.
 
-Note: This is not the same as the current capacity (which you get with `.size()`), but rather an upper bound determined by the system.
+**Note:** This is not the same as the current capacity (which you get with `.size()`), but rather an upper bound determined by the system.
 
 ## Syntax
 
@@ -37,11 +38,12 @@ size_type max_size() const noexcept;
 #include <map>
 
 int main() {
-    std::map<int, std::string> myMap;
+  std::map<int, std::string> myMap;
+  std::map<int, std::string> myMap;
+
+  std::cout << "Max size of the map: " << myMap.max_size() << std::endl;
     
-    std::cout << "Max size of the map: " << myMap.max_size() << std::endl;
-    
-    return 0;
+  return 0;
 }
 ```
 
@@ -54,23 +56,17 @@ Here's a compilable example demonstrating `.max_size()`:
 #include <map>
 
 int main() {
-    std::map<char, int> exampleMap;
+  std::map<char, int> exampleMap;
 
-    std::cout << "Maximum possible size of the map: " 
-              << exampleMap.max_size() << "\n";
+  std::cout << "Maximum possible size of the map: " 
+        << exampleMap.max_size() << "\n";
 
-    // Compare with actual size
-    std::cout << "Current size of the map: " 
-              << exampleMap.size() << "\n";
+  // Compare with actual size
+  std::cout << "Current size of the map: " 
+        << exampleMap.size() << "\n";
 
-    return 0;
+  return 0;
 }
 ```
 
-When you run this code, you'll see that `.max_size()` returns a very large number (system-dependent), while `.size()` shows `0` for the empty map. 
-
----
-
-Key notes:
-- The actual usable size is often much smaller due to memory limitations.
-- This is useful for pre-allocation checks but rarely needed in everyday code.
+In the above code, `.max_size()` returns a very large number (system-dependent), while `.size()` shows `0` for the empty map. 
