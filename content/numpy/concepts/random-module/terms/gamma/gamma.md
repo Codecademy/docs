@@ -27,6 +27,12 @@ numpy.random.gamma(shape, scale=1.0, size=None)
 - `scale` (float or array_like of floats, optional): The scale parameter, denoted as $\theta$. Must be non-negative. Default is `1.0`. It stretches or compresses the distribution.
 - `size` (int or tuple of ints, optional): The output shape. Specifies the number or shape of random samples to generate. If `None` (default), a single sample is returned
 
+**Return value:**
+
+- `out` (ndarray or scalar): Random samples from the Gamma distribution.
+  - If `size` is `None`, returns a single `float`.
+  - If `size` is specified, returns a NumPy array of shape `size` containing the sampled values.
+
 ## Statistical Properties
 
 Mean: $μ=αθμ=αθ$\
@@ -40,12 +46,6 @@ $$
 
 - $\kappa$ is the shape, $\theta$ is scale and $\Gamma$ is the Gamma function.
 - The Gamma distribution is often used to model the times to failure of electronic components, and arises naturally in processes for which the waiting times between Poisson distributed events are relevant.
-
-**Return value:**
-
-- `out` (ndarray or scalar): Random samples from the Gamma distribution.
-  - If `size` is `None`, returns a single `float`.
-  - If `size` is specified, returns a NumPy array of shape `size` containing the sampled values.
 
 ## Example
 
