@@ -110,7 +110,7 @@ In this example, the countdown begins at five and logs each step every second un
 
 ## Example 3: Debouncing User Input
 
-This example demonstrates a practical use case of setTimeout() for debouncing, which is commonly used to limit the rate at which a function is executed:
+This example demonstrates a practical use case of `setTimeout()` for debouncing, which is commonly used to limit the rate at which a function is executed:
 
 ```js
 // Debounce function to prevent excessive processing during rapid events
