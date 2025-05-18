@@ -67,15 +67,13 @@ function startCountdown() {
 
   function countdown() {
     count--;
-    console.log(`Countdown: ${count}`);
-
     if (count > 0) {
+      console.log(`Countdown: ${count}`);
       timerId = setTimeout(countdown, 1000);
     } else {
       console.log('Countdown complete!');
     }
   }
-
   console.log(`Countdown: ${count}`);
   timerId = setTimeout(countdown, 1000);
 
@@ -83,9 +81,9 @@ function startCountdown() {
     clearTimeout(timerId);
     console.log('Countdown cancelled!');
   }
-
   return cancelCountdown;
 }
+startCountdown();
 ```
 
 The output produced by this code is:
