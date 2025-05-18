@@ -31,7 +31,7 @@ setTimeout(function, delay, param1, param2, ...);
 
 **Return value:**
 
-- The `setTimeout()` method returns a numeric ID that can be used with clearTimeout() to cancel the timer.
+- The `setTimeout()` method returns a numeric ID that can be used with [`clearTimeout()`](https://www.codecademy.com/resources/docs/javascript/window/clearTimeout) to cancel the timer.
 
 ## Example 1: Basic Timeout
 
