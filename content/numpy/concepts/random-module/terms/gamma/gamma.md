@@ -45,7 +45,8 @@ p(x) = x^{k-1} \frac{e^{-x/\theta}} {\theta^{k}\Gamma(k)'}
 $$
 
 - $\kappa$ is the shape, $\theta$ is scale and $\Gamma$ is the Gamma function.
-- The Gamma distribution is often used to model the times to failure of electronic components, and arises naturally in processes for which the waiting times between Poisson distributed events are relevant.
+
+The Gamma distribution is often used to model the times to failure of electronic components, and arises naturally in processes for which the waiting times between Poisson distributed events are relevant.
 
 ## Example
 
