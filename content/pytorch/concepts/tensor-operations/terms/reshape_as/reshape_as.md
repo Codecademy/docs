@@ -1,23 +1,21 @@
 ---
 Title: '.reshape_as()'
-Description: 'reshapes a tensor with the size of another tensor given as an input'
+Description: 'Returns a tensor with the same shape as the input tensor.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
   - 'Machine Learning'
 Tags:
-  - 'Python'
-  - 'PyTorch'
   - 'Functions'
   - 'Machine Learning'
+  - 'Python'
+  - 'PyTorch'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'Pytorch for Classification' 
-  - 'paths/Data Scientist: Machine Learning Specialist'
-  
 ---
 
-In PyTorch, The **`.reshape_as()`** method reshapes a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) to the shape of the other tensor. if copying data isnt necessary then it returns a view of the original tensor in the other tensor's shape, else it returns a new tensor. This method is equivalent to tensor.reshape(other.sizes())
+In PyTorch, The **`.reshape_as()`** method reshapes a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) to match the shape of another tensor. If possible, it returns a view of the original tensor; otherwise, it returns a new tensor with copied data. This method is equivalent to [`tensor.reshape()`](https://www.codecademy.com/resources/docs/pytorch/tensors/reshape).
 
 ## Syntax
 
@@ -25,9 +23,13 @@ In PyTorch, The **`.reshape_as()`** method reshapes a [tensor](https://www.codec
 Tensor.reshape_as(other)
 ```
 
-- `other`: A tensor , whose shape will be used to reshape the input tensor, doesn't have to have the same CPU/GPU or data type as in the input tensor. 
+- `other`: The tensor whose shape will be used to reshape the calling tensor.
 
-## Example
+**Return value:**
+
+- `Tensor`: A new tensor with the same shape as `other`, containing the same data as the original tensor (either as a view or with copied data if needed).
+
+## Example 1: Reshape 1D Tensor to 2D with PyTorch `.reshape_as()`
 
 The following example demonstrates the usage of the `.reshape_as()` method:
 
@@ -35,15 +37,15 @@ The following example demonstrates the usage of the `.reshape_as()` method:
 import torch
 
 # Source tensor
-tensor_a = torch.arange(6) # 1D tensor with values [0, 1, 2, 3, 4, 5]
+# 1D tensor with values [0, 1, 2, 3, 4, 5]
+tensor_a = torch.arange(6)
 
 # Other tensor
-tensor_b = torch.zeros(2, 3) # 2D tensor with shpae (2, 3)
+# 2D tensor with shpae (2, 3)
+tensor_b = torch.zeros(2, 3)
 
 # Reshape tensor_a to the shape of tensor_b
 reshaped_tensor = tensor_a.reshape_as(tensor_b)
-# Perform in-place reduction using 'mean' along the 0th dimension (rows)
-
 
 print("Original tensor_a:", tensor_a)
 print("Shape of tensor_a:", tensor_a.shape)
@@ -53,7 +55,7 @@ print("Reshaped tensor:", reshaped_tensor)
 print("Shape after reshape_as:", reshaped_tensor.shape)
 ```
 
-The code above will produce the following output:
+The code will produce the following output:
 
 ```shell
 Original tensor_a: tensor([0, 1, 2, 3, 4, 5])
@@ -66,9 +68,9 @@ Reshaped tensor: tensor([[0, 1, 2],
 Shape after reshape_as: torch.Size([2, 3])
 ```
 
-This code reshpaes the `source` tensor from 1D list that contains numbers from 0 to 5 into to a 2D matrix, containing the same values 
+This code reshapes the source tensor from a 1D tensor containing numbers 0 to 5 into a 2D tensor with shape `(2, 3)`, preserving the data.
 
-## Example
+## Example 2: Convert 1D Tensor to 4x2 Matrix Using PyTorch `.reshape_as()`
 
 ```py
 import torch
@@ -90,7 +92,7 @@ print("Reshaped tensor:", reshaped_tensor)
 print("Shape after reshape_as:", reshaped_tensor.shape)
 ```
 
-The code above will produce the following output:
+This code above will produce the following output:
 
 ```shell
 Original tensor_a: tensor([0, 1, 2, 3, 4, 5, 6, 7])
@@ -107,4 +109,4 @@ Reshaped tensor: tensor([[0, 1],
 Shape after reshape_as: torch.Size([4, 2])
 ```
 
-In this example, the code reshapes tensor_a from a shape of of a 1D vector to match tensor_b, a 4 row two column matrix while keeping the same data.
+In this example, the code reshapes `tensor_a` from a 1D vector to match `tensor_b`, a 4-row, 2-column matrix, preserving the original data.
