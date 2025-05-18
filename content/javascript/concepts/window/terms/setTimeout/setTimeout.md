@@ -106,7 +106,7 @@ Countdown: 3
 Countdown cancelled!
 ```
 
-In this example, the countdown begins at 5 and logs each step every second until completion. The returned `cancelCountdown` function allows the timer to be stopped before it finishes.
+In this example, the countdown begins at five and logs each step every second until completion. The returned `cancelCountdown` function allows the timer to be stopped before it finishes.
 
 ## Example 3: Debouncing User Input
 
