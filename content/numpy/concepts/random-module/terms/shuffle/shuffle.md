@@ -79,25 +79,14 @@ print("Shuffled 2D Array:\n", arr_2d)
 A possible output of this code can be:
 
 ```shell
-
-import numpy as np
-
-# Create a 2D array
-arr_2d = np.array([[10, 20], [30, 40], [50, 60]])
-print("Original 2D Array:\n", arr_2d)
-
-# Shuffle rows in-place
-np.random.shuffle(arr_2d)
-print("Shuffled 2D Array:\n", arr_2d)
-
 Original 2D Array:
  [[10 20]
  [30 40]
  [50 60]]
 Shuffled 2D Array:
- [[30 40]
- [50 60]
- [10 20]]
+ [[50 60]
+ [10 20]
+ [30 40]]
 ```
 
 > **Note:** The order of rows will differ each time the code is executed, as the shuffling is random and in-place.
