@@ -38,7 +38,7 @@ int main() {
   std::map<int, std::string> myMap;
 
   std::cout << "Max size of the map: " << myMap.max_size() << std::endl;
-    
+
   return 0;
 }
 ```
@@ -61,14 +61,14 @@ using namespace std;
 int main() {
   map<char, int> exampleMap;
 
-  cout << "Maximum possible size of the map: " 
+  cout << "Maximum possible size of the map: "
         << exampleMap.max_size() << endl;
 
   // Compare with actual size
-  cout << "Current size of the map: " 
+  cout << "Current size of the map: "
         << exampleMap.size() << endl;
   return 0;
 }
 ```
 
-In the above code, `.max_size()` returns a huge number (system-dependent), while `.size()` shows `0` for the empty map. 
+In the above code, `.max_size()` returns a huge number (system-dependent), while `.size()` shows `0` for the empty map.
