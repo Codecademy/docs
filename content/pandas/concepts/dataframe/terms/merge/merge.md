@@ -1,41 +1,47 @@
 ---
-title: 'DataFrame: .merge()'
-description: 'Merges two DataFrames based on a common key or index, similar to a SQL JOIN operation.'
-subjects: ['Data Science', 'Python', 'Pandas']
-tags: ['dataframe', 'merge', 'join', 'pandas']
-catalogContent: ['Learn Pandas', 'Data Science Foundations']
+Title: '.merge()'
+Description: 'Merges two DataFrames based on a common key or index, similar to a SQL JOIN operation.'
+Subjects: 
+  - 'Computer Science'
+  - 'Data Science'
+Tags: 
+  - 'Join'
+  - 'Pandas'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-The `.merge()` method combines two DataFrames based on a common key or index, similar to a SQL JOIN operation. This method is essential for combining datasets that share common columns or indices.
+The **`.merge()`** method combines two DataFrames using a common key column or index, similar to a SQL JOIN operation. It's essential for integrating datasets that share related fields.
 
 ## Syntax
 
 The `.merge()` method provides a flexible way to combine DataFrames using different types of joins. The following syntax shows all available parameters:
 
-```python
+```pseudo
 DataFrame.merge(right, how='inner', on=None, left_on=None, right_on=None, left_index=False, right_index=False, suffixes=('_x', '_y'))
 ```
 
-### Parameters
+**Parameters:**
 
-- `right`: DataFrame or Series to merge with
-- `how`: Type of merge to perform
-  - 'inner': Only keep rows that exist in both DataFrames (default)
-  - 'outer': Keep all rows from both DataFrames
-  - 'left': Keep all rows from the left DataFrame
-  - 'right': Keep all rows from the right DataFrame
-- `on`: Column or index level names to join on
-- `left_on`: Columns or index levels from the left DataFrame to join on
-- `right_on`: Columns or index levels from the right DataFrame to join on
-- `left_index`: Use the index from the left DataFrame as the join key
-- `right_index`: Use the index from the right DataFrame as the join key
-- `suffixes`: Tuple of strings to append to overlapping column names
+- `right`: The DataFrame or named Series to merge with.
+- `how`: Type of merge to perform:  
+  - `'inner'`: Include only matching rows from both DataFrames.  
+  - `'outer'`: Include all rows from both DataFrames, with NaNs where no match is found.  
+  - `'left'`: Include all rows from the left DataFrame and matching ones from the right.  
+  - `'right'`: Include all rows from the right DataFrame and matching ones from the left.
+- `on`: Column or index level names to join on. Must exist in both DataFrames.
+- `left_on`: Column(s) or index level(s) in the left DataFrame to use as join keys.
+- `right_on`: Column(s) or index level(s) in the right DataFrame to use as join keys.
+- `left_index`: Use the index from the left DataFrame as the join key.
+- `right_index`: Use the index from the right DataFrame as the join key.
+- `suffixes`: Suffixes to apply to overlapping column names from the left and right DataFrames.
 
 ## Example
 
 The following example demonstrates a basic merge operation between two DataFrames using a common 'id' column:
 
-```python
+```py
 import pandas as pd
 
 # Create two sample DataFrames
@@ -51,11 +57,14 @@ df2 = pd.DataFrame({
 
 # Merge the DataFrames on the 'id' column
 merged_df = df1.merge(df2, on='id')
+
+# Print the merged DataFrame
+print(merged_df)
 ```
 
-The code above produces the following output:
+This code produces the following output:
 
-```
+```shell
    id    name  age
 0   1   Alice   25
 1   2     Bob   30
