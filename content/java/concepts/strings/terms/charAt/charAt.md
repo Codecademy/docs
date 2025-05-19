@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, the **`.charAt()`** [method](https://www.codecademy.com/resources/docs/java/methods) is used to access the character at a given index in a string. This method is frequently used in parsing [user input](https://www.codecademy.com/resources/docs/java/user-input), string comparison or analysis, and implementing algorithms.
+In Java, the **`.charAt()`** [method](https://www.codecademy.com/resources/docs/java/methods) returns the character at a specified index in a string. It is commonly used in string parsing, comparisons, analysis, and algorithm implementation.
 
 ## Syntax
 
