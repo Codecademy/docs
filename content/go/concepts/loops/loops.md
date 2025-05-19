@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-**Loops** are fundamental programming constructs that allow developers to execute a block of code repeatedly. In Go, looping is streamlined and efficient. Unlike many programming languages that offer multiple types of loops, Go uses a single looping construct: the `for` loop. However, this one loop is flexible enough to cover the functionality of traditional `while`, `do-while`, and `for` loops found in other languages.
+**`Loops`** are fundamental programming constructs that allow developers to execute a code block repeatedly. In Go, looping is streamlined and efficient. Unlike many programming languages offering multiple loops, Go uses a single looping construct: the `for` loop. However, this loop is flexible enough to cover the functionality of traditional `while`, `do-while`, and `for` loops in other languages.
 
 ## `for` Loop
 
@@ -27,8 +27,8 @@ for init; condition; post {
 
 In the syntax:
 
-- `init`: The statement that initializes an index [variable](https://www.codecademy.com/resources/docs/go/variables).
-- `condition`: The condition that is used to check the index variable against a boolean expression before every loop. As long as it's `true`, the iteration will continue and the statements inside the loop will execute.
+- `init`: The statement initializes an index [variable](https://www.codecademy.com/resources/docs/go/variables).
+- `condition`: The condition used to check the index variable against a boolean expression before every loop. As long as it's `true`, the iteration will continue, and the statements inside the loop will be executed.
 - `post`: The statement that executes after every loop, usually to increment/decrement the index variable.
 
 ### Example
@@ -76,7 +76,7 @@ The loop will execute as long as `condition` remains true.
 
 ### Example
 
-This example behaves exactly the same way as the `for` loop example, except the variable `countdown` is initialized outside the loop, and is decremented inside the loop itself. The condition still runs the loop as long as `countdown` is still greater than `0`:
+This example behaves the same way as the `for` loop example, except the variable `countdown` is initialized outside the loop, and is decremented inside the loop itself. The condition still runs the loop as long as `countdown` is still greater than `0`:
 
 ```go
 package main
@@ -160,7 +160,7 @@ In the syntax:
 
 - `index`: A variable containing the index of the collection.
 - `value`: A variable used to step through the values in `collection`.
-- `collection`: The collection which the loop is stepping through.
+- `collection`: The collection that the loop is stepping through.
 
 ### Example
 
