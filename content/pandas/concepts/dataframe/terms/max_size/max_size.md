@@ -2,7 +2,7 @@
 Title: '.max_size()'
 Description: 'Returns the maximum number of elements the `std::map` container can theoretically hold.'
 Subjects:
-  - 'Computer Science'
+  - 'AI'
   - 'Data Science'
   - 'AI'
 Tags:
