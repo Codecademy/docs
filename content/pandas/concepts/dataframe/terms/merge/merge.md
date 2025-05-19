@@ -1,10 +1,10 @@
 ---
 Title: '.merge()'
 Description: 'Merges two DataFrames based on a common key or index, similar to a SQL JOIN operation.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Join'
   - 'Pandas'
 CatalogContent:
@@ -25,10 +25,10 @@ DataFrame.merge(right, how='inner', on=None, left_on=None, right_on=None, left_i
 **Parameters:**
 
 - `right`: The DataFrame or named Series to merge with.
-- `how`: Type of merge to perform:  
-  - `'inner'`: Include only matching rows from both DataFrames.  
-  - `'outer'`: Include all rows from both DataFrames, with NaNs where no match is found.  
-  - `'left'`: Include all rows from the left DataFrame and matching ones from the right.  
+- `how`: Type of merge to perform:
+  - `'inner'`: Include only matching rows from both DataFrames.
+  - `'outer'`: Include all rows from both DataFrames, with NaNs where no match is found.
+  - `'left'`: Include all rows from the left DataFrame and matching ones from the right.
   - `'right'`: Include all rows from the right DataFrame and matching ones from the left.
 - `on`: Column or index level names to join on. Must exist in both DataFrames.
 - `left_on`: Column(s) or index level(s) in the left DataFrame to use as join keys.
@@ -76,3 +76,42 @@ Note that:
 - Only rows with matching `id` values (1, 2, and 3) are included in the result
 - The row with `id=4` from `df1` is excluded because it has no match in `df2`
 - The row with `id=5` from `df2` is excluded because it has no match in `df1`
+
+## Codebyte Example
+
+The following interactive example demonstrates different types of merges and their effects on the resulting DataFrame:
+
+```codebyte/python
+import pandas as pd
+
+# Create two sample DataFrames
+df1 = pd.DataFrame({
+    'id': [1, 2, 3, 4],
+    'name': ['Alice', 'Bob', 'Charlie', 'David']
+})
+
+df2 = pd.DataFrame({
+    'id': [1, 2, 3, 5],
+    'age': [25, 30, 35, 40]
+})
+
+# Display original DataFrames
+print("Original DataFrames:")
+print("\nDataFrame 1:")
+print(df1)
+print("\nDataFrame 2:")
+print(df2)
+
+# Demonstrate different merge types
+print("\n1. Inner Merge (default):")
+print(df1.merge(df2, on='id'))
+
+print("\n2. Left Merge:")
+print(df1.merge(df2, on='id', how='left'))
+
+print("\n3. Right Merge:")
+print(df1.merge(df2, on='id', how='right'))
+
+print("\n4. Outer Merge:")
+print(df1.merge(df2, on='id', how='outer'))
+```
