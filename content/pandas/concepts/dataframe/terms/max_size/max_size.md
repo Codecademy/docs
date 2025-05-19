@@ -4,7 +4,6 @@ Description: 'Returns the maximum number of elements the map container can theor
 Subjects:
   - 'AI'
   - 'Data Science'
-  - 'AI'
 Tags:
   - 'Data'
   - 'Data Structures'
@@ -29,18 +28,25 @@ size_type max_size() const noexcept;
 
 ## Example
 
+In this example, `std::map` stores key-value pairs where the key is an `int` and the value is a `std::string`:
+
 ```cpp
 #include <iostream>
 #include <map>
 
 int main() {
   std::map<int, std::string> myMap;
-  std::map<int, std::string> myMap;
 
   std::cout << "Max size of the map: " << myMap.max_size() << std::endl;
     
   return 0;
 }
+```
+
+The above code returns the following output:
+
+```shell
+Max size of the map: 256204778801521550
 ```
 
 ## Codebyte Example
