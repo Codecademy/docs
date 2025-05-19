@@ -27,7 +27,7 @@ DataFrame.merge(right, how='inner', on=None, left_on=None, right_on=None, left_i
 - `right`: The DataFrame or named Series to merge with.
 - `how`: Type of merge to perform:
   - `'inner'`: Include only matching rows from both DataFrames.
-  - `'outer'`: Include all rows from both DataFrames, with NaNs where no match is found.
+  - `'outer'`: Include all rows from both DataFrames, with `NaN`s where no match is found.
   - `'left'`: Include all rows from the left DataFrame and matching ones from the right.
   - `'right'`: Include all rows from the right DataFrame and matching ones from the left.
 - `on`: Column or index level names to join on. Must exist in both DataFrames.
@@ -39,7 +39,7 @@ DataFrame.merge(right, how='inner', on=None, left_on=None, right_on=None, left_i
 
 ## Example
 
-The following example demonstrates a basic merge operation between two DataFrames using a common 'id' column:
+The following example demonstrates a basic merge operation between two DataFrames using a common `'id'` column:
 
 ```py
 import pandas as pd
