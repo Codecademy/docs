@@ -56,17 +56,17 @@ Here's a compilable example demonstrating `.max_size()`:
 ```codebyte/cpp
 #include <iostream>
 #include <map>
+using namespace std;
 
 int main() {
-  std::map<char, int> exampleMap;
+  map<char, int> exampleMap;
 
-  std::cout << "Maximum possible size of the map: " 
-        << exampleMap.max_size() << "\n";
+  cout << "Maximum possible size of the map: " 
+        << exampleMap.max_size() << endl;
 
   // Compare with actual size
-  std::cout << "Current size of the map: " 
-        << exampleMap.size() << "\n";
-
+  cout << "Current size of the map: " 
+        << exampleMap.size() << endl;
   return 0;
 }
 ```
