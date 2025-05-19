@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.dump()`** [function](https://www.codecademy.com/resources/docs/python/functions) encodes a Python object as a [JSON](https://www.codecademy.com/resources/docs/general/json) file. The process is known as serialization. The encoding conversion is based on this [table](https://docs.python.org/3/library/json.html#json-to-py-table). This function is crucial when working with data persistence, APIs, and inter-process communication.
+The **`.dump()`** [function](https://www.codecademy.com/resources/docs/python/functions) encodes a Python object as a [JSON](https://www.codecademy.com/resources/docs/general/json) file. The process is known as serialization. The encoding conversion is based on this [table](https://docs.python.org/3/library/json.html#json-to-py-table). This function is essential for data persistence, APIs, and inter-process communication where data needs to be stored or transferred in a structured, language-independent format.
 
 ## Syntax
 
@@ -30,11 +30,11 @@ json.dump(obj, file, *, skipkeys=False, ensure_ascii=True, indent=None, ...)
 - `ensure_ascii` (Optional): If `True`, escapes all non-ASCII characters; set to `False` for UTF-8 encoded output.
 - `indent` (Optional): If set to an integer (e.g., `2` or `4`), pretty-prints the output with that many spaces of indentation.
 
-> **Note:** The ellipsis (...) in the syntax indicates that there can be additional optional parameters beyond those listed here.
+> **Note:** The ellipsis (`...`) in the syntax indicates that there can be additional optional parameters beyond those listed here.
 
 ## Example 1: Basic Usage of `.dump()`
 
-In this example, a simple Python dictionary is serialized into a JSON-formatted text file named `person.json` using `.dump()`:
+In this example, a Python dictionary is serialized into a JSON-formatted text file named `person.json` using `.dump()`:
 
 ```py
 import json
