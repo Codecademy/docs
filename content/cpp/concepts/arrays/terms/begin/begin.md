@@ -1,0 +1,113 @@
+---
+Title: 'C++ Arrays begin()'
+Description: 'Explains how to use begin() to get an iterator pointing to the first element in C++ std::array containers and C-style arrays via std::begin().'
+Subjects:
+  - 'C++'
+  - 'Computer Science'
+  - 'Code Foundations'
+Tags:
+  - 'arrays'
+  - 'iterators'
+  - 'pointers'
+  - 'memory access'
+CatalogContent:
+  - 'learn-c-plus-plus' # Example: Replace with actual relevant course/path slug if known
+---
+
+The `begin()` function or method is used in C++ to obtain an **iterator** pointing to the first element of a container, such as an `std::array`, or a C-style array when used with `std::begin()`. This iterator can then be used to access or traverse the elements of the array.
+
+## Syntax
+
+The way `begin()` is used depends on the type of array:
+
+For `std::array` (a container class introduced in C++11):
+```pseudo
+std_array_object.begin()
+```
+- **Return Value:** Returns an iterator of the appropriate type, pointing to the first element of the `std_array_object`. If the array is empty, the returned iterator will be equal to the iterator returned by `end()`.
+
+For C-style arrays (using `std::begin` from the `<iterator>` header):
+```pseudo
+std::begin(c_style_array_name)
+```
+- **Parameters:**
+    - `c_style_array_name`: The name of the C-style array.
+- **Return Value:** Returns a pointer (which acts as an iterator for C-style arrays) to the first element of `c_style_array_name`. For an empty C-style array (0 elements, though less common), its behavior is specific to how such an array is defined.
+
+## Example
+
+Here's how you can use `begin()` with an `std::array`:
+
+```cpp
+#include <iostream>
+#include <array> // Required for std::array
+#include <iterator> // Required for std::begin (for C-style arrays example)
+
+int main() {
+    // Example with std::array
+    std::array<int, 5> numbers = {10, 20, 30, 40, 50};
+
+    // Get an iterator to the first element
+    std::array<int, 5>::iterator it = numbers.begin();
+    // Or using auto for type deduction:
+    // auto it = numbers.begin();
+
+    // Access the first element
+    if (it != numbers.end()) { // Good practice: check if the array is not empty
+        std::cout << "First element of std::array: " << *it << std::endl;
+    }
+
+    // Example with a C-style array using std::begin()
+    int c_style_numbers[] = {5, 15, 25};
+    int* ptr_begin = std::begin(c_style_numbers);
+
+    // Access the first element
+    // (Assuming c_style_numbers is not empty)
+    std::cout << "First element of C-style array: " << *ptr_begin << std::endl;
+}
+```
+This example would output:
+```shell
+First element of std::array: 10
+First element of C-style array: 5
+```
+
+## Codebyte Example
+
+The following example demonstrates the use of `std::array::begin()` to access and print the first element of an `std::array`.
+
+```codebyte/cpp
+#include <iostream>
+#include <array>    // Required for std::array
+
+// It's common to include CMakeLists.txt content if complex compilation is needed.
+// For simple, single-file Codebytes like this, it's often handled by the environment.
+// A typical CMakeLists.txt for a simple executable would be:
+// cmake_minimum_required(VERSION 3.10)
+// project(BeginExample)
+// set(CMAKE_CXX_STANDARD 17)
+// add_executable(BeginExample main.cpp)
+
+int main() {
+    std::array<int, 3> myArray = {100, 200, 300};
+
+    // Get an iterator to the beginning of the array
+    auto it = myArray.begin();
+
+    // Check if the array is not empty and print the first element
+    if (it != myArray.end()) {
+        std::cout << "The first element is: " << *it << std::endl;
+    } else {
+        std::cout << "The array is empty." << std::endl;
+    }
+
+    // You can also use the iterator to traverse the array
+    std::cout << "Array elements: ";
+    for (auto current_it = myArray.begin(); current_it != myArray.end(); ++current_it) {
+        std::cout << *current_it << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+```
