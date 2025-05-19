@@ -15,11 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-`.max_size()` in C++ Maps
-
 The `.max_size()` method in C++ maps returns the maximum number of elements the `std::map` container can theoretically hold based on system/library implementation constraints. This value depends on the system's available memory and the implementation's internal structures.
-
-**Note:** This is not the same as the current capacity (which is get with `.size()`), but rather an upper bound determined by the system.
 
 ## Syntax
 
@@ -69,4 +65,4 @@ int main() {
 }
 ```
 
-In the above code, `.max_size()` returns a very large number (system-dependent), while `.size()` shows `0` for the empty map. 
+In the above code, `.max_size()` returns a huge number (system-dependent), while `.size()` shows `0` for the empty map. 
