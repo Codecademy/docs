@@ -31,7 +31,6 @@ The `.max_size()` method does not take any parameters.
 The `.max_size()` method returns a `size_type` value representing the maximum number of elements the map can theoretically hold.
 
 > **Note:** The `.max_size()` method is marked noexcept, meaning it is guaranteed not to throw any exceptions when called.
-
 > **Note:** The `.max_size()` method has constant time complexity (O(1)), so it executes in the same fixed time regardless of the map’s size.
 
 ## Example
