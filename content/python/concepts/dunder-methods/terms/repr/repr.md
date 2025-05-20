@@ -70,7 +70,7 @@ Person('Alice', 30)
 [Person('Alice', 30), Person('Bob', 25)]
 ```
 
-In this example, the `__repr__()` method returns a string that represents the `Person` object in a way that could be used to recreate it. When we print the object or include it in a collection, Python calls this method to get a string representation.
+In this example, the `__repr__()` method returns a string that represents the `Person` object in a way that could be used to recreate the object. When the object is printed or included in a collection, Python calls this method to obtain a string representation.
 
 ## Example 2: Recreating Objects with `eval()`
 
