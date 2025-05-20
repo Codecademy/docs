@@ -113,7 +113,7 @@ Point(3, 4)
 False
 ```
 
-In this example, we use the `repr()` function to get the string representation of a `Point` object, then use `eval()` to create a new `Point` object with the same values. This is possible because our `__repr__()` method returns a string that is a valid Python expression for creating a `Point` object.
+In this example, the `repr()` function is used to obtain the string representation of a `Point` object. The `eval()` function then creates a new `Point` object with the same values. This is achievable because the `__repr__()` method returns a string that serves as a valid Python expression for creating a `Point` object.
 
 ## Codebyte Example: Custom Collection Class
 
