@@ -36,7 +36,6 @@ padding: top horizontal bottom;
 padding: top right bottom left;
 ```
 
-**Parameters:**
 
 Value types accepted:
 
