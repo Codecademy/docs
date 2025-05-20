@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`padding`** property in CSS creates space around an element's content, inside of any defined borders. It is part of the CSS box model, which is fundamental to the layout of web pages. Padding is the space between an element's content and its border, providing visual breathing room that enhances readability and improves the overall aesthetic appeal of the page.
+The **`padding`** property in CSS Adds  space around an element's content, inside its borders. It is part of the CSS box model, which is fundamental to the layout of web pages. Padding is the space between an element's content and its border, providing visual breathing room that enhances readability and improves the overall aesthetic appeal of the page.
 
 Padding is commonly used to create spacing within elements such as buttons, cards, containers, and text blocks. By controlling the padding on different sides of an element, designers can create balanced layouts, emphasize content, and improve user experience by ensuring adequate spacing between content and container edges.
 
