@@ -135,4 +135,4 @@ No, padding values cannot be negative. If you need to create overlapping effects
 
 ### 3. Does padding affect an element's total width and height?
 
-Yes, by default padding increases the total width and height of an element unless you set `box-sizing: border-box`, which causes the padding to be included within the specified width and height.
+Yes, by default, padding increases the total width and height of an element unless you set `box-sizing: border-box`, which causes the padding to be included within the specified width and height.
