@@ -18,7 +18,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`__repr__()`** method is a special method in Python that returns a string representation of an object. This method is one of Python's dunder (double underscore) methods that provides an "official" string representation of an object. The intention is to create a representation that is unambiguous and, if possible, a valid Python expression that could be used to recreate the object.
+The **`__repr__()`** method is a special method in Python that returns a string representation of an object. This method is one of Python's [dunder](https://www.codecademy.com/resources/docs/python/dunder-methods) (double underscore) methods that provides an "official" string representation of an object. The intention is to create a representation that is unambiguous and, if possible, a valid Python expression that could be used to recreate the object.
 
 The `__repr__()` method is primarily utilized for debugging and development purposes. When printing an object or displaying it in an interactive session, Python calls this method to determine the appropriate string to show. This method is also employed when objects are displayed in collections like lists and dictionaries. Implementing a clear and informative `__repr__()` method enhances debugging and logging significantly, especially for custom objects.
 
