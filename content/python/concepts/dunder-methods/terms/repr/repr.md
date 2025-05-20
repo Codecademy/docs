@@ -149,7 +149,7 @@ empty_cart = ShoppingCart("Alice")
 print(empty_cart)  # Output: ShoppingCart('Alice')
 ```
 
-This example demonstrates a more complex `__repr__()` implementation for a custom collection class. The representation includes not just the initialization but also a method call to recreate the current state of the object. While this representation isn't as easy to use with `eval()`, it provides a complete picture of the object's state, which is valuable for debugging.
+This example demonstrates a more complex `__repr__()` implementation for a custom collection class. The representation includes not just the initialization but also a method call to recreate the current state of the object. While this representation isn't as easy to use with [`eval()`](https://www.codecademy.com/resources/docs/python/built-in-functions/eval), it provides a complete picture of the object's state, which is valuable for debugging.
 
 ## Frequently Asked Questions
 
