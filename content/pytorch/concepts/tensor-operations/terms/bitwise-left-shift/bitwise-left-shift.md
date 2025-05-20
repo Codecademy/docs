@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`bitwise_left_shift`** is used to shift the input to left by a specified amount of bits. The input should be of integral type only. Left shifting by a negative number is always 0.
+The **`.bitwise_left_shift()`** function shifts each element of the input tensor to the left by a specified number of bits. Both operands must be of an integral type (e.g., int32, int64). Shifting by a negative number of bits returns 0.
 
 ## Syntax
 
@@ -24,13 +24,13 @@ torch.bitwise_left_shift(input, other, *, out=None)
 
 **Parameters**:
 
-- `input`: The input tensor to which left shift is applied
+- `input`: 	The first input tensor, must be of integral type
 - `other`: The second input (can be a tensor or integer)
-- `out`: The output tensor
+- `out` (Optional): A tensor where the output will be stored
 
 **Return value**:
 
-- A tensor containing the result of the element-wise bitwise left shift operation. The output tensor has the same shape as the input tensor.
+Returns a tensor of the same shape as the broadcasted inputs, with each element being the result of left-shifting the corresponding element in input by the amount in other.
 
 ## Example
 
