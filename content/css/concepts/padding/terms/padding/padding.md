@@ -1,6 +1,6 @@
 ---
 Title: 'padding'
-Description: "Creates space around an element's content, inside of any defined borders."
+Description: "Adds space around an element's content, inside its borders."
 Subjects:
   - 'Web Development'
   - 'Web Design'
