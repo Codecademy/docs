@@ -108,7 +108,7 @@ This example demonstrates how to create responsive padding using a combination o
   /* Padding increases as viewport width increases */
   background-color: #e6f7ff;
   border: 1px solid #0099cc;
-
+}
   /* Additional responsive adjustments for smaller screens */
   @media (max-width: 768px) {
     /* Reduce padding on smaller screens */
