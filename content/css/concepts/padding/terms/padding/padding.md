@@ -37,7 +37,7 @@ padding: top right bottom left;
 ```
 
 
-Value types accepted:
+**Value types accepted:**
 
 - `length`: Specifies padding as a fixed size (`px`, `em`, `rem`, etc.)
 - `percentage`: Specifies padding as a percentage of the containing element's width
