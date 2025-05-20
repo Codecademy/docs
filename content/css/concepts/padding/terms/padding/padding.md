@@ -113,7 +113,6 @@ This example demonstrates how to create responsive padding using a combination o
   @media (max-width: 768px) {
     /* Reduce padding on smaller screens */
     padding: 1em 3% 1em 3%;
-  }
 }
 ```
 
