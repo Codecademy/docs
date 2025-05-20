@@ -1,7 +1,16 @@
 ---
-Title: "std::array::crbegin()"
-Description: "Returns a const reverse iterator to the last element of a `std::array`."
-Tags: ["C++", "Arrays", "Iterator", "STL"]
+Title: 'crbegin()'
+Description: 'Returns a const reverse iterator to the last element of a `std::array`.'
+Subjects:
+- 'Codecademy Learn Git Course'
+- 'C++'
+Tags: 
+- 'C++'
+- 'Arrays'
+- 'Iterator'
+- 'STL'
+CatalogContent:
+- 'learn-cpp'
 ---
 
 ## Definition  
