@@ -1,6 +1,6 @@
 ---
 Title: '.bitwise_left_shift()'
-Description: 'Shifts the input to the left by a certain amount of bits'
+Description: 'Shifts the input to the left by a certain amount of bits.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -24,7 +24,7 @@ torch.bitwise_left_shift(input, other, *, out=None)
 
 **Parameters**:
 
-- `input`: 	The first input tensor, must be of integral type
+- `input`: The first input tensor, must be of integral type
 - `other`: The second input (can be a tensor or integer)
 - `out` (Optional): A tensor where the output will be stored
 
