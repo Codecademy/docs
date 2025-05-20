@@ -93,7 +93,7 @@ The output produced by this would be:
 
 ![Card with asymmetric padding, white background, rounded corners, and subtle shadow](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-padding-output-2.png)
 
-This example creates a card-like container with more padding on the top and bottom than on the sides. This design pattern is common in cards and content containers where you want more vertical breathing room but need to conserve horizontal space. The example also shows how you can use individual padding properties as an alternative to the shorthand.
+The example creates a card-like container with more padding on the top and bottom than on the sides. This design pattern is common in cards and content containers where more vertical breathing room is desired while conserving horizontal space. The example also demonstrates the use of individual padding properties as an alternative to the shorthand.
 
 ## Example 3: Responsive Padding with Mixed Units
 
