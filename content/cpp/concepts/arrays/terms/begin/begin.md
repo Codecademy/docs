@@ -81,34 +81,26 @@ The following example demonstrates the use of `std::array::begin()` to access an
 #include <iostream>
 #include <array>    // Required for std::array
 
-// It's common to include CMakeLists.txt content if complex compilation is needed.
-// For simple, single-file Codebytes like this, it's often handled by the environment.
-// A typical CMakeLists.txt for a simple executable would be:
-// cmake_minimum_required(VERSION 3.10)
-// project(BeginExample)
-// set(CMAKE_CXX_STANDARD 17)
-// add_executable(BeginExample main.cpp)
-
 int main() {
-    std::array<int, 3> myArray = {100, 200, 300};
+  std::array<int, 3> myArray = {100, 200, 300};
 
-    // Get an iterator to the beginning of the array
-    auto it = myArray.begin();
+  // Get an iterator to the beginning of the array
+  auto it = myArray.begin();
 
-    // Check if the array is not empty and print the first element
-    if (it != myArray.end()) {
-        std::cout << "The first element is: " << *it << std::endl;
-    } else {
-        std::cout << "The array is empty." << std::endl;
-    }
+  // Check if the array is not empty and print the first element
+  if (it != myArray.end()) {
+    std::cout << "The first element is: " << *it << std::endl;
+  } else {
+      std::cout << "The array is empty." << std::endl;
+  }
 
-    // You can also use the iterator to traverse the array
-    std::cout << "Array elements: ";
-    for (auto current_it = myArray.begin(); current_it != myArray.end(); ++current_it) {
-        std::cout << *current_it << " ";
-    }
-    std::cout << std::endl;
+  // You can also use the iterator to traverse the array
+  std::cout << "Array elements: ";
+  for (auto current_it = myArray.begin(); current_it != myArray.end(); ++current_it) {
+    std::cout << *current_it << " ";
+  }
+  std::cout << std::endl;
 
-    return 0;
+  return 0;
 }
 ```
