@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `begin()` function or method is used in C++ to obtain an **iterator** pointing to the first element of a container, such as an `std::array`, or a C-style array when used with `std::begin()`. This iterator can then be used to access or traverse the elements of the array.
+The **`.begin()`** method in C++ returns an iterator pointing to the first element of a container, such as `std::array`, or of a C-style array when used with the free function `std::begin()`. This iterator can be used to access or iterate through the array elements.
 
 ## Syntax
 
