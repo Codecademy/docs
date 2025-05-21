@@ -43,26 +43,26 @@ Here's how you can use `begin()` with an `std::array`:
 #include <iterator> // Required for std::begin (for C-style arrays example)
 
 int main() {
-    // Example with std::array
-    std::array<int, 5> numbers = {10, 20, 30, 40, 50};
+  // Example with std::array
+  std::array<int, 5> numbers = {10, 20, 30, 40, 50};
 
-    // Get an iterator to the first element
-    std::array<int, 5>::iterator it = numbers.begin();
-    // Or using auto for type deduction:
-    // auto it = numbers.begin();
+  // Get an iterator to the first element
+  std::array<int, 5>::iterator it = numbers.begin();
+  // Or using auto for type deduction:
+  // auto it = numbers.begin();
 
-    // Access the first element
-    if (it != numbers.end()) { // Good practice: check if the array is not empty
-        std::cout << "First element of std::array: " << *it << std::endl;
-    }
+  // Access the first element
+  if (it != numbers.end()) { // Good practice: check if the array is not empty
+    std::cout << "First element of std::array: " << *it << std::endl;
+  }
 
-    // Example with a C-style array using std::begin()
-    int c_style_numbers[] = {5, 15, 25};
-    int* ptr_begin = std::begin(c_style_numbers);
+  // Example with a C-style array using std::begin()
+  int c_style_numbers[] = {5, 15, 25};
+  int* ptr_begin = std::begin(c_style_numbers);
 
-    // Access the first element
-    // (Assuming c_style_numbers is not empty)
-    std::cout << "First element of C-style array: " << *ptr_begin << std::endl;
+  // Access the first element
+  // (Assuming c_style_numbers is not empty)
+  std::cout << "First element of C-style array: " << *ptr_begin << std::endl;
 }
 ```
 This example would output:
