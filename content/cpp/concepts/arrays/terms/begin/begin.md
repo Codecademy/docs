@@ -19,7 +19,8 @@ The **`.begin()`** method in C++ returns an iterator pointing to the first eleme
 
 The usage of begin() depends on the type of array:
 
-For `std::array` (a container class introduced in C++11):
+1\. For `std::array` (from `<array>`, introduced in C++11):
+
 ```pseudo
 std_array_object.begin()
 ```
