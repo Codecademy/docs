@@ -1,17 +1,16 @@
 ---
-Title: 'C++ Arrays begin()'
-Description: 'Explains how to use begin() to get an iterator pointing to the first element in C++ std::array containers and C-style arrays via std::begin().'
+Title: '.begin()'
+Description: 'Returns an iterator pointing to the first element of a C++ array or container.'
 Subjects:
-  - 'C++'
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'arrays'
-  - 'iterators'
-  - 'pointers'
-  - 'memory access'
+  - 'Arrays'
+  - 'Iterators'
+  - 'Pointers'
 CatalogContent:
-  - 'learn-c-plus-plus' # Example: Replace with actual relevant course/path slug if known
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 The `begin()` function or method is used in C++ to obtain an **iterator** pointing to the first element of a container, such as an `std::array`, or a C-style array when used with `std::begin()`. This iterator can then be used to access or traverse the elements of the array.
