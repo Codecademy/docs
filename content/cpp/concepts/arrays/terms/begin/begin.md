@@ -24,7 +24,9 @@ The usage of begin() depends on the type of array:
 ```pseudo
 std_array_object.begin()
 ```
-- **Return Value:** Returns an iterator of the appropriate type, pointing to the first element of the `std_array_object`. If the array is empty, the returned iterator will be equal to the iterator returned by `end()`.
+
+**Return value:** 
+Returns an iterator of the appropriate type, pointing to the first element of the `std_array_object`. If the array is empty, the returned iterator will be equal to the iterator returned by `std_array_object.end()`.
 
 2\. For C-style arrays (using `std::begin` from the `<iterator>` header):
 
