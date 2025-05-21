@@ -65,7 +65,9 @@ int main() {
   std::cout << "First element of C-style array: " << *ptr_begin << std::endl;
 }
 ```
+
 This example would output:
+
 ```shell
 First element of std::array: 10
 First element of C-style array: 5
