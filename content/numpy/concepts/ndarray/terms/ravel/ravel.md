@@ -36,7 +36,7 @@ ndarray.ravel(a, order='C')
 
 A flattened 1D array. Returns a view whenever possible, otherwise a copy.
 
-## Example
+## Example 1
 
 In this example, a 2D array is flattened into a 1D array using `.ravel()`. The elements are listed in row-major order by default:
 
@@ -52,6 +52,24 @@ This produces the following output:
 
 ```shell
 [1 2 3 4 5 6]
+```
+
+## Example 2
+
+In this example, a 3D array is flattened into a 1D array using `.ravel()`. The elements are listed in row-major order by default:
+
+```py
+import numpy as np
+
+three_d_array = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+flattened_array = np.ravel(three_d_array)
+print(flattened_array)
+```
+
+This produces the following output:
+
+```shell
+[1 2 3 4 5 6 7 8]
 ```
 
 ## Codebyte Example
