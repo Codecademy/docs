@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Comments** in Python are lines of text that are ignored by the Python interpreter during execution. They are used to explain code, make it more readable, and provide context for other developers (or yourself) who may read the code later.
+**Comments** in Python are lines of text that are ignored by the Python interpreter during execution. They are used to explain code, make it more readable, and provide context for other developers who may read the code later.
 
 Comments serve as documentation within code and play a crucial role in making programs more understandable. They can describe the purpose of functions, clarify complex algorithms, or temporarily disable code during testing and debugging. Well-written comments contribute significantly to code maintenance and collaboration.
 
