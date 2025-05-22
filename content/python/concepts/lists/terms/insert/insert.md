@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In Python, the **`.insert()`** method appends an element to a specific index in a list. This method is useful for maintaining a sorted list, placing items based on priority, or adding data during iterative processing.
+In Python, the **`.insert()`** method adds an element at a specific index in a list, shifting subsequent elements to the right.
 
 ## Syntax
 
