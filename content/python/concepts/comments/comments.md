@@ -45,7 +45,7 @@ This example demonstrates how to use single-line comments to document code:
 print("Hello, World!")  # This is an inline comment
 ```
 
-This code outputs:
+The above code will result in:
 
 ```shell
 Hello, World!
