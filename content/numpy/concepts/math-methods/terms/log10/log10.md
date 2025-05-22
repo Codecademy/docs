@@ -117,7 +117,7 @@ for point in sample_points:
   print(f"x = {point}, y = {value}, log10(y) = {log_value}")
 ```
 
-Output of this code will be:
+The output of the above code will be:
 
 ```shell
 x = 0, y = 1.0, log10(y) = 0.0
