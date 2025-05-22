@@ -190,13 +190,13 @@ When working with arrays, `.slice()` is the appropriate method. For strings, bot
 
 You can use:
 
-```py
+```js
 const last = array[array.length - 1];
 ```
 
 Or with `.slice()`:
 
-```py
+```js
 const last = array.slice(-1)[0];
 ```
 
@@ -212,7 +212,7 @@ Both return the last element of the array.
 
 Example illustrating the difference between `.splice()` and `.slice()` is as follows:
 
-```py
+```js
 let arr = [1, 2, 3, 4];
 
 // slice
