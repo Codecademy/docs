@@ -54,7 +54,7 @@ The above example produces the following output:
 
 ### Example 2: Using the `.slice()` Method With One Argument
 
-In the next example, the method creates a new array containing all the elements from index `4` to the end of the original array:
+In the next example, the `.slice()` method creates a new array containing all the elements from index `4` to the end of the original array:
 
 ```js
 const weekDays = [
