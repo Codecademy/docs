@@ -1,6 +1,6 @@
 ---
 Title: 'Comments'
-Description: 'A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.'
+Description: 'Comments are non-executable lines in code that explain the logic or purpose of certain segments.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
