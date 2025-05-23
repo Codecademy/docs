@@ -123,7 +123,7 @@ print("\nOrders after removing duplicates based on CustomerID and Product:")
 print(unique_product_orders)
 ```
 
-Output produced by this code will be:
+The output produced by the above code will be:
 
 ```shell
 Original Orders DataFrame:
