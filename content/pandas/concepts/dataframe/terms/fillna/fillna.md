@@ -175,7 +175,7 @@ print("\nTemperature Data with limited forward fill (limit=1):")
 print(limited_ffill)
 ```
 
-In this example, we work with a time series of temperature measurements where some days have missing data. We use `.fillna(method='ffill')` to propagate the last valid observation forward to fill gaps. This method is particularly useful for time series data where carrying forward the last known value often makes the most sense.
+In this example, we work with a time series of temperature measurements where some days have missing data. We use `.fillna(method='ffill')` to propagate the last valid observation forward to fill gaps. This method is particularly useful for time series data, where carrying forward the last known value often makes the most sense.
 
 We also demonstrate the `limit` parameter, which restricts propagation to only fill a specified number of consecutive NaN values. With `limit=1`, the second consecutive missing value remains NaN, as seen on 2023-01-03.
 
