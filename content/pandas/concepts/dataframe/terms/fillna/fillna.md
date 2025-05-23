@@ -16,7 +16,7 @@ CatalogContent:
 
 **`.fillna()`** is a method in Pandas that replaces null or missing values in a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) or Series with specified values. In data analysis, missing values (represented as `NaN` in pandas) are common and can cause errors or skew analysis results if not handled properly. The `.fillna()` method provides a flexible way to handle these null values by replacing them with meaningful data.
 
-The `.fillna()` method is widely used in data preprocessing and cleaning stages of the data analysis pipeline. It can replace missing values with a fixed value, forward/backward fill from existing data, or even use different values for different columns. This functionality is essential when working with real-world datasets that often contain incomplete information due to various reasons such as data collection errors, data corruption, or simply because the information wasn't available.
+The `.fillna()` method is widely used in data preprocessing and cleaning stages of the data analysis pipeline. It can replace missing values with a fixed value, forward/backwards fill from existing data, or even use different values for different columns. This functionality is essential when working with real-world datasets that often contain incomplete information due to various reasons such as data collection errors, data corruption, or simply because the information wasn't available.
 
 ## Syntax
 
