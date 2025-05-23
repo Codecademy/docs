@@ -1,6 +1,6 @@
 ---
 Title: 'Abs()'
-Description: 'Returns the absolute value of a given number.'
+Description: 'Returns the magnitude of a numeric value by removing any negative sign.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
