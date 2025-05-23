@@ -1,6 +1,6 @@
 ---
 Title: 'puts()'
-Description: 'Print a string in the console.'
+Description: 'Outputs a string to the standard output or console during program execution.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
