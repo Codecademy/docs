@@ -1,6 +1,6 @@
 ---
 Title: 'Macros'
-Description: 'A macro is a label defined in the source code that is replaced by its value by the preprocessor before compilation.'
+Description: 'Macros are preprocessor directives that perform text substitution before the program is compiled.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
