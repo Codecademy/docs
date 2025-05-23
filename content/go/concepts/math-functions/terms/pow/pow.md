@@ -1,6 +1,6 @@
 ---
 Title: 'Pow()'
-Description: 'Returns the first argument raised to the power of the second argument.'
+Description: 'Calculates exponential results by raising one number to the power of another.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
