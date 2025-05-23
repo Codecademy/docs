@@ -35,7 +35,7 @@ DataFrame.fillna(value=None, method=None, axis=None, inplace=False, limit=None, 
 
 **Return value:**
 
-The method returns a new DataFrame or Series with filled values unless `inplace=True`, in which case it returns None and modifies the original object.
+The method returns a new `DataFrame` or Series with filled values unless `inplace=True`, in which case it returns None and modifies the original object.
 
 ## Example 1: Replacing `NaN` with a Static Value
 
