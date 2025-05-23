@@ -1,6 +1,6 @@
 ---
 Title: 'ABS()'
-Description: 'Returns the absolute value of a given number.'
+Description: 'Outputs the positive equivalent of a numeric argument.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
