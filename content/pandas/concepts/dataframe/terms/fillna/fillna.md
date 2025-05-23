@@ -83,7 +83,7 @@ DataFrame after filling NaN with 0:
 3  4.0  8.0   0.0
 ```
 
-In this example, we created a DataFrame with some NaN values and used `.fillna(0)` to replace all missing values with zero. This is the simplest way to use `.fillna()`, providing a single value that replaces all null values across the entire DataFrame.
+In this example, we created a `DataFrame` with some NaN values and used `.fillna(0)` to replace all missing values with zero. This is the simplest way to use `.fillna()`, providing a single value that replaces all null values across the entire `DataFrame`.
 
 ## Example 2: Column-Specific Value Replacement
 
