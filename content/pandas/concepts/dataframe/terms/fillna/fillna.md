@@ -65,7 +65,7 @@ print("\nDataFrame after filling NaN with 0:")
 print(filled_df)
 ```
 
-The output produced by this will be:
+The output produced by the above code will be:
 
 ```shell
 Original DataFrame:
