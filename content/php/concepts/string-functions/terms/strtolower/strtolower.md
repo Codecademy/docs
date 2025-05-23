@@ -1,6 +1,6 @@
 ---
 Title: 'strtolower()'
-Description: 'Converts a string to lowercase.'
+Description: 'Converts all characters in a given string to lowercase format.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
