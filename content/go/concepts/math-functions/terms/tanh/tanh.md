@@ -1,6 +1,6 @@
 ---
 Title: 'Tanh()'
-Description: 'Returns the hyperbolic tangent of a number.'
+Description: 'Computes the hyperbolic tangent function for a given numeric input.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
