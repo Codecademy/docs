@@ -1,6 +1,6 @@
 ---
 Title: 'Comments'
-Description: 'A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.'
+Description: 'Code comments are used to document and clarify parts of the code for better readability and maintenance.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
