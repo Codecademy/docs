@@ -215,7 +215,7 @@ Yes, by default, `.drop_duplicates()` considers all columns when identifying dup
 
 ### 3. What is the time complexity of `.drop_duplicates()`?
 
-The time complexity is approximately O(n), where n is the number of rows, although it can vary based on the number of columns being considered.
+The time complexity is approximately `O(n)`, where n is the number of rows, although it can vary based on the number of columns being considered.
 
 ### 4. Can I use `.drop_duplicates()` with multiIndex `DataFrames`?
 
