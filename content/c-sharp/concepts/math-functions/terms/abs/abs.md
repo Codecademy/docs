@@ -1,6 +1,6 @@
 ---
 Title: '.Abs()'
-Description: 'Returns the absolute value of a given number.'
+Description: 'Computes the non-negative value of a number regardless of its sign.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
