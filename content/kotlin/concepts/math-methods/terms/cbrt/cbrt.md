@@ -1,6 +1,6 @@
 ---
 Title: 'cbrt()'
-Description: 'Returns the cube root of the argument.'
+Description: 'Computes the number which, when cubed, gives the original input value.'
 Subjects:
   - 'Computer Science'
 Tags:
