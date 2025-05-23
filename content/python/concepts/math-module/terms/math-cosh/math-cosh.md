@@ -1,6 +1,6 @@
 ---
 Title: 'math.cosh()'
-Description: 'Returns the hyperbolic cosine of a number.'
+Description: 'Computes the hyperbolic cosine function for a specified numeric input.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
