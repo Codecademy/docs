@@ -1,6 +1,6 @@
 ---
 Title: 'printf()'
-Description: 'Print a string in the console.'
+Description: 'Prints a string in the console.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
