@@ -1,6 +1,6 @@
 ---
 Title: '.atan()'
-Description: 'Returns the inverse tangent of the argument in radians.'
+Description: 'Computes the arctangent, or inverse tangent, of a given value in radians.'
 Subjects:
   - 'Computer Science'
 Tags:
