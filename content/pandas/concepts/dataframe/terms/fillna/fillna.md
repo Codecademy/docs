@@ -27,10 +27,10 @@ DataFrame.fillna(value=None, method=None, axis=None, inplace=False, limit=None, 
 **Parameters:**
 
 - `value`: The value to use for filling null values. This can be a scalar (like `0`, `'Unknown'`), dictionary, Series, or `DataFrame`.
-- `method`: Specifies the method to use for filling. Options include `'ffill'`/`'pad'` (forward fill), `'bfill'`/`'backfill'` (backward fill). Default is `None`.
+- `method`: Specifies the method to use for filling. Options include `'ffill'`/`'pad'` (forward fill), `'bfill'`/`'backfill'` (backward fill). The default is `None`.
 - `axis`: The axis along which to fill missing values (`0` or `'index'` for rows, `1` or `'columns'` for columns).
 - `inplace`: If `True`, modifies the DataFrame in place (returns `None`). If `False`, returns a copy with replacements.
-- `limit`: Maximum number of consecutive NaN values to forward/backward fill (if method is specified).
+- `limit`: Maximum number of consecutive NaN values to forward/backwards fill (if method is specified).
 - `downcast`: Dictionary or `'infer'` to downcast dtypes if possible.
 
 **Return value:**
