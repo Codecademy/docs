@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'Operators are used to perform various operations on variables and values.'
+Description: 'Operators enable manipulation of data by performing actions like addition, comparison, or assignment.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
