@@ -1,6 +1,6 @@
 ---
 Title: '.asin()'
-Description: 'Returns the inverse sine of the argument in radians.'
+Description: 'Calculates the arcsine (inverse sine) of a number expressed in radians.'
 Subjects:
   - 'Computer Science'
 Tags:
