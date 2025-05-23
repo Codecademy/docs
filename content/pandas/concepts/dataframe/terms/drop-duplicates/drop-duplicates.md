@@ -33,11 +33,11 @@ DataFrame.drop_duplicates(subset=None, keep='first', inplace=False, ignore_index
   - `'last'`: Keep the last occurrence
   - `False`: Drop all duplicates
 - `inplace`: Boolean value that determines whether to modify the `DataFrame` directly (`True`) or return a new `DataFrame` with duplicates removed (`False`). Default is `False`.
-- `ignore_index`: Boolean value that, when `True`, resets the index of the resulting DataFrame. Default is `False`.
+- `ignore_index`: Boolean value that, when `True`, resets the index of the resulting `DataFrame`. Default is `False`.
 
 **Return value:**
 
-Returns a DataFrame with duplicate rows removed or `None` if `inplace=True`.
+Returns a `DataFrame` with duplicate rows removed or `None` if `inplace=True`.
 
 ## Example 1: Basic Duplicate Removal
 
