@@ -1,6 +1,6 @@
 ---
 Title: 'SQRT()'
-Description: 'Returns the square root of a given number.'
+Description: 'Computes the non-negative root that, when squared, equals the input value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
