@@ -94,6 +94,10 @@ The following HTML code is the structure for the above CSS:
 </html>
 ```
 
+The output of this code will be:
+
+![Image illustrating various css borders](https://raw.githubusercontent.com/Codecademy/docs/main/media/border-output.png)
+
 This example shows different border styles applied to div elements. The solid border creates a clean, professional look, while dotted and dashed borders add visual interest. The double border creates a more decorative effect suitable for highlighting important content.
 
 ## Frequently Asked Questions
