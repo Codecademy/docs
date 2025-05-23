@@ -198,7 +198,7 @@ No, the `method` parameter applies to all columns. For different treatments per 
 The appropriate approach depends on your data and analysis goals. Common strategies include:
 
 - Using meaningful defaults (0, average, median)
-- Forward/backward filling for time series
+- Forward/backwards filling for time series
 - Interpolation for numerical data with trends
 - Using domain knowledge to inform replacements
 
