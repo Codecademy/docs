@@ -1,6 +1,6 @@
 ---
 Title: '.lowercase()'
-Description: 'Converts a string to lowercase.'
+Description: 'Changes all uppercase letters in a string to their lowercase equivalents.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
