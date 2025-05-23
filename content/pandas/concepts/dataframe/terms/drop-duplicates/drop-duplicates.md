@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.drop_duplicates()`** method in Pandas is used to remove duplicate rows from a DataFrame. This method identifies and eliminates duplicated rows across all columns or based on specified columns, helping to clean and preprocess data for analysis. When working with real-world datasets, duplicate records often arise due to data entry errors, merging datasets, or data collection issues, making `.drop_duplicates()` an essential tool in a data scientist's toolkit.
+The **`.drop_duplicates()`** method in Pandas is used to remove duplicate rows from a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe). This method identifies and eliminates duplicate rows across all columns or based on specified columns, helping to clean and preprocess data for analysis. When working with real-world datasets, duplicate records often arise due to data entry errors, merging datasets, or data collection issues, making `.drop_duplicates()` an essential tool in a data scientist's toolkit.
 
 By default, `.drop_duplicates()` retains the first occurrence of each duplicate row and removes all subsequent duplicates. This method is particularly useful in data cleaning pipelines, ensuring data integrity for accurate analysis, and reducing memory usage by eliminating redundant information.
 
