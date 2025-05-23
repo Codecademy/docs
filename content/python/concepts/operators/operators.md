@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'Operators are used to perform various operations on variables and values.'
+Description: 'Operators are symbols that carry out arithmetic, logical, or relational operations.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
