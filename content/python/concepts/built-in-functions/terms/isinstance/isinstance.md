@@ -1,6 +1,6 @@
 ---
 Title: 'isinstance()'
-Description: 'Checks if a given object is of a designated value type.'
+Description: 'Checks if a given object is an instance of a specified type or class.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`isinstance()`** function checks if a given object is of a designated value type. If it is, the function returns `True`, otherwise it returns `False`. This check is useful for type validation in functions, debugging, and ensuring safe operations on data structures.
+In Python, the **`isinstance()`** function checks whether an object is an instance of a specified type, class, or a tuple of classes. If it is, the function returns `True`, otherwise it returns `False`. This check is useful for type validation in functions, debugging, and ensuring safe operations on data structures.
 
 ## Syntax
 
