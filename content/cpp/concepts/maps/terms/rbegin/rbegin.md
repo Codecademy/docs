@@ -1,19 +1,19 @@
 ---
 Title: '.rbegin()'
-Description: 'Returns a reverse iterator pointing to the last element of the container.'
+Description: 'Returns a reverse iterator pointing to the last element of the map.'
 Subjects:
-  - 'C++'
-  - 'C++ STL'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'C++'
-  - 'C++ STL'
-  - 'C++ Maps'
-  - 'C++ Reverse Iterators'
+  - 'Iterators'
+  - 'Maps'
+  - 'STL'
+CatalogContent:
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
-In C++, the **`rbegin()`** function is used to obtain a reverse iterator pointing to the last element of a container, such as a vector or a map. This allows for iterating over the elements in reverse order, from the last element to the first.
-
-The `rbegin()` function is commonly used in conjunction with the `rend()` function, which returns a reverse iterator pointing to one element before the first element of the container.
+In C++, the **`.rbegin()`** function is used to obtain a reverse iterator pointing to the last element of a container, such as in a vector, map, or other standard containers. This allows iteration from the end toward the beginning of the container. The `.rbegin()` function is typically used in conjunction with the `rend()` function, which returns a reverse iterator pointing just before the first element of the container (i.e., the reverse end).
 
 ## Syntax
 
@@ -21,13 +21,13 @@ The `rbegin()` function is commonly used in conjunction with the `rend()` functi
 container.rbegin();
 ```
 
-## Parameters
+**Parameters:**
 
-- **`container`**: The container for which the reverse iterator is to be obtained. This can be a vector, list, deque, or any other standard container that supports reverse iteration.
+The `rbegin()` function takes no parameters.
 
-## Return Value
+**Return value:**
 
-The function returns a reverse iterator pointing to the last element of the container. If the container is empty, the returned iterator will be equal to `rend()`, which indicates that there are no elements to iterate over.
+The function returns a reverse iterator pointing to the last element of the container. If the container is empty, the returned iterator will be equal to `rend()`, indicating that there are no elements to iterate over in reverse.
 
 ## Example
 
@@ -36,16 +36,16 @@ The function returns a reverse iterator pointing to the last element of the cont
 #include <map>
 
 int main() {
-    std::map<std::string, int> myMap = {{"one", 1}, {"two", 2}, {"three", 3}};
-    std::cout << "Elements in reverse order:\n";
-    for (auto it = myMap.rbegin(); it != myMap.rend(); ++it) {
-        std::cout << it->first << ": " << it->second << "\n";
-    }
-    return 0;
+  std::map<std::string, int> myMap = {{"one", 1}, {"two", 2}, {"three", 3}};
+  std::cout << "Elements in reverse order:\n";
+  for (auto it = myMap.rbegin(); it != myMap.rend(); ++it) {
+    std::cout << it->first << ": " << it->second << "\n";
+  }
+  return 0;
 }
 ```
 
-## Output
+The output of this code will be:
 
 ```shell
 Elements in reverse order:
@@ -54,21 +54,21 @@ two: 2
 one: 1
 ```
 
-### Explanation
-
-The `rbegin()` function is used to obtain a reverse iterator pointing to the last element of the map. The loop iterates over the elements in reverse order, printing each key-value pair. The output shows the elements in reverse order compared to their original insertion order.
+The `.rbegin()` function is used to obtain a reverse iterator pointing to the last element of the map. The loop iterates over the elements in reverse order, printing each key-value pair. The output shows the elements in reverse order compared to their original insertion order.
 
 ## Codebyte Example
+
+Run the following code to understand how the `.rbegin()` function works:
 
 ```codebyte/cpp
 #include <iostream>
 #include <map>
 
 int main() {
-    std::map<std::string, int> myMap = {{"one", 1}, {"two", 2}, {"three", 3}};
-    for (auto it = myMap.rbegin(); it != myMap.rend(); ++it) {
-        std::cout << it->first << ": " << it->second << "\n";
-    }
-    return 0;
+  std::map<std::string, int> myMap = {{"one", 1}, {"two", 2}, {"three", 3}};
+  for (auto it = myMap.rbegin(); it != myMap.rend(); ++it) {
+    std::cout << it->first << ": " << it->second << "\n";
+  }
+  return 0;
 }
 ```
