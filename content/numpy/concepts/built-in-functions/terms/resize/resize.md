@@ -1,6 +1,6 @@
 ---
 Title: '.resize()'
-Description: 'Resizes a NumPy array and returns a new array with the new size.'
+Description: 'Resizes an array and returns a new array with the specified size.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -15,7 +15,7 @@ CatalogContent:
 
 The NumPy **`.resize()`** function resizes an array. It returns a new array with the specified shape and size without changing the shape and size of the original array.
 
-> **Note:** If only the shape and not the size of an array is changed, using the function **`.reshape()`** is recommended.
+> **Note:** If only the shape and not the size of an array is changed, it's recommended to use **`.reshape()`** instead for performance and clarity.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ Parameters:
 
 Returns:
 
-- `resized_array`: A new array with the specified shape and size. If the specified size is *larger* than the original array, the elements are repeated. If the new array is *smaller* than the original array, the elements are truncated.
+- `resized_array`: A new array with the specified shape and size. If the specified size is _larger_ than the original array, the elements are repeated by cycling through the flattened array. If the new array is _smaller_ than the original array, the elements are truncated.
 
 ## Example
 
@@ -48,7 +48,7 @@ resized_arr = np.resize(arr, (2, 3))
 # Print the results
 print("Original array:")
 print(arr)
-print("Resized array:")
+print("\nResized array:")
 print(resized_arr)
 
 ```
@@ -58,9 +58,37 @@ The output of this code is:
 ```Shell
 Original array:
 [1 2 3]
+
 Resized array:
 [[1 2 3]
  [1 2 3]]
- ```
+```
 
 ## Codebyte Example
+
+Run this code to see how `.resize()` works with different sizes and shapes:
+
+```codebyte/python
+import numpy as np
+
+# Create a 1D array with 5 elements
+arr = np.array([1, 2, 3, 4, 5])
+
+# Resize the 1D array to a smaller 1D array with 3 elements
+smaller_arr = np.resize(arr, 3)
+
+# Resize the original 1D array to a larger 2D array with 16 elements
+arr_2d = np.resize(arr, (4, 4))
+
+# Resize the original 1D array to a larger 3D array with 32 elements
+arr_3d = np.resize(arr, (4, 4, 2))
+
+print("Original array:")
+print(arr)
+print("\nSmaller array (truncated elements):")
+print(smaller_arr)
+print("\nLarger 2D array (repeated elements):")
+print(arr_2d)
+print("\nLarger 3D array (repeated elements):")
+print(arr_3d)
+```
