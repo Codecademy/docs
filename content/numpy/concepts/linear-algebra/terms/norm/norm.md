@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.norm()`** function calculates the matrix or vector norm in NumPy. A norm is a mathematical function that assigns a positive length or size to vectors and matrices. It is used to measure the "magnitude" of a vector or matrix, which plays a crucial role in various mathematical and computational applications.
+The **`.norm()`** function calculates the matrix or vector norm in NumPy. It is a mathematical function that assigns a positive length or size to vectors and matrices. It is used to measure the "magnitude" of a vector or matrix, which plays a crucial role in various mathematical and computational applications.
 
-The norm function is essential in linear algebra, scientific computing, machine learning, and data analysis. It is commonly used for measuring distances between vectors, normalizing data, regularization in machine learning algorithms, and solving systems of linear equations. The specific type of norm (Frobenius, nuclear, infinity, etc.) depends on the application and the properties needed.
+The `.norm()` function is essential in linear algebra, scientific computing, machine learning, and data analysis. It is commonly used for measuring distances between vectors, normalizing data, regularization in machine learning algorithms, and solving systems of linear equations. The specific type of norm (Frobenius, nuclear, infinity, etc.) depends on the application and the properties needed.
 
 ## Syntax
 
