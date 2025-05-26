@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.equal_range()`** function is a member function of the `std::set` and `std::multiset` containers. It is used to find the range of elements that are equivalent to a specified value in the set. The function returns a pair of iterators that represent the beginning and end of the range of elements that are equal to the specified value.
+In C++, the **`.equal_range()`** function returns a pair of iterators that define the range of elements matching a given key in an associative container. It is especially useful with `multimap`, where multiple elements can have the same key, allowing you to retrieve all of them efficiently. In a `map`, where keys are unique, the returned range will contain at most one element.
 
 ### Syntax
 
