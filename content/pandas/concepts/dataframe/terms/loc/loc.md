@@ -36,7 +36,7 @@ The `.loc` property returns:
 
 - A scalar value when both row and column are specified as single labels
 - A pandas Series when either row or column indexer is specified as a single label
-- A pandas DataFrame when selecting multiple rows and/or columns
+- A pandas `DataFrame` when selecting multiple rows and/or columns
 
 ## Example 1: Basic Label-Based Selection
 
