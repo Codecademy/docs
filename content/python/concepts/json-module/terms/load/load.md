@@ -145,7 +145,7 @@ This example demonstrates loading application settings from a JSON configuration
 
 ## Codebyte Example: Data Analytics with Custom Parsing
 
-This example illustrates using `json.load()` with custom parsing options to process scientific or financial data with specific formatting requirements.
+This example illustrates using `json.load()` with custom parsing options to process scientific or financial data with specific formatting requirements:
 
 ```codebyte/python
 import json
