@@ -35,28 +35,38 @@ mapName.equal_range(key);
 
 ```cpp
 #include <iostream>
-#include <set>
+#include <map>
 
 int main() {
-    std::set<int> mySet = {1, 2, 3, 4, 5};
+  std::map<int, std::string> myMap = {
+    {1, "apple"},
+    {2, "banana"},
+    {3, "cherry"},
+    {4, "date"},
+    {5, "elderberry"}
+  };
 
-    // Find the range of elements equal to 3
-    auto range = mySet.equal_range(3);
+  // Find the range of elements with key 3
+  auto range = myMap.equal_range(3);
 
-    std::cout << "Elements equal to 3: ";
-    for (auto it = range.first; it != range.second; ++it) {
-        std::cout << *it << " ";
-    }
-    std::cout << std::endl;
+  if (range.first != range.second) {
+    std::cout << "Elements with key 3:" << std::endl;
+      for (auto it = range.first; it != range.second; ++it) {
+        std::cout << it->first << " => " << it->second << std::endl;
+      }
+  } else {
+    std::cout << "No elements with key 3 found." << std::endl;
+  }
 
-    return 0;
+  return 0;
 }
 ```
 
 Output:
 
 ```shell
-Elements equal to 3: 3 
+Elements with key 3:
+3 => cherry
 ```
 
 ### Explanation
