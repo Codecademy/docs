@@ -298,7 +298,7 @@ Yes, `.iloc[]` is generally faster than `.loc[]` because:
 
 The performance difference matters mainly with:
 
-- Very large DataFrames (millions of rows)
+- Very large `DataFrames` (millions of rows)
 - Repeated indexing operations in loops
 - Performance-critical applications
 
