@@ -113,7 +113,7 @@ First 5 x values: [0.         0.06346652 0.12693304 0.19039955 0.25386607]
 Corresponding y values: [0.         0.06342392 0.12655467 0.18930021 0.25157326]
 ```
 
-This example shows how linspace() is used in data visualization to create evenly spaced points for plotting a mathematical function. The x-axis values are generated with linspace() to ensure an even distribution of points over the domain, which results in a smooth curve.
+This example shows how `.linspace()` is used in data visualization to create evenly spaced points for plotting a mathematical function. The x-axis values are generated with `.linspace()` to ensure an even distribution of points over the domain, which results in a smooth curve.
 
 ## Codebyte Example: Creating a Temperature Gradient Simulation
 
