@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.reshape()`** method assigns a new shape to a NumPy array without changing its data. It returns a new array object with the specified shape, while maintaining the same data elements of the original array. The total size of the new array must be the same as the original array.
+The **`.reshape()`** method assigns a new shape to a NumPy [array](https://www.codecademy.com/resources/docs/numpy/ndarray) without changing its data. It returns a new array object with the specified shape, while maintaining the same data elements of the original array. The total size of the new array must be the same as the original array.
 
 NumPy's `.reshape()` function is essential for data manipulation and multi-dimensional array transformations. It's commonly used in data preprocessing for machine learning, image processing, and scientific computing, where changing dimensions while preserving data is required.
 
