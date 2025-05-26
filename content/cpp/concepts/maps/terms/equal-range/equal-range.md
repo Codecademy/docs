@@ -15,7 +15,7 @@ CatalogContent:
 
 In C++, the **`.equal_range()`** function returns a pair of iterators that define the range of elements matching a given key in an associative container. It is especially useful with `multimap`, where multiple elements can have the same key, allowing you to retrieve all of them efficiently. In a `map`, where keys are unique, the returned range will contain at most one element.
 
-### Syntax
+## Syntax
 
 ```pseudo
 mapName.equal_range(key);
@@ -31,7 +31,7 @@ mapName.equal_range(key);
   - The first iterator points to the first element equal to the key (or the position where it would be inserted).
   - The second iterator points to the element just past the last element equal to the key.
 
-### Example
+## Example
 
 ```cpp
 #include <iostream>
@@ -69,8 +69,38 @@ Elements with key 3:
 3 => cherry
 ```
 
-### Explanation
+## Explanation
 
 In this example, we create a set of integers and use the `equal_range()` function to find the range of elements equal to 3. Since sets do not allow duplicate elements, the range will contain only one element (3) in this case.
 
 If you were to use a `std::multiset`, which allows duplicate elements, the range could contain multiple elements if they are equal to the specified value.
+
+## Codebyte Example
+
+```codebyte/cpp
+#include <iostream>
+#include <map>
+
+int main() {
+    std::map<int, std::string> fruits = {
+        {1, "apple"},
+        {2, "banana"},
+        {3, "cherry"},
+        {4, "date"}
+    };
+
+    int key = 2;
+    auto range = fruits.equal_range(key);
+
+    if (range.first != range.second) {
+        std::cout << "Element with key " << key << ": ";
+        for (auto it = range.first; it != range.second; ++it) {
+            std::cout << it->first << " => " << it->second << std::endl;
+        }
+    } else {
+        std::cout << "No element with key " << key << " found." << std::endl;
+    }
+
+    return 0;
+}
+```
