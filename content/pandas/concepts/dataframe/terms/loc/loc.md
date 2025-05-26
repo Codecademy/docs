@@ -25,8 +25,8 @@ DataFrame.loc[row_indexer, column_indexer]
 
 **Parameters:**
 
-- `row_indexer`: Specifies which rows to select. Can be a single label, list of labels, slice with labels, boolean array, or a callable function.
-- `column_indexer`: Specifies which columns to select. Can be a single label, list of labels, slice with labels, boolean array, or a callable function.
+- `row_indexer`: Specifies which rows to select. Can be a single label, a list of labels, a slice with labels, a boolean array, or a callable function.
+- `column_indexer`: Specifies which columns to select. Can be a single label, a list of labels, a slice with labels, a boolean array, or a callable function.
 
 Both parameters are optional. If only one is provided, it is assumed to be the row indexer.
 
