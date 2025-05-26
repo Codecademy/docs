@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Observable** is a platform and notebook, similar to [Jupyter](https://www.codecademy.com/resources/docs/general/data-science/jupyter-notebook), for conducting data analysis, and creating visualizations. Observable the [platform](https://observablehq.com) is an online repository that provides tools for conducting and sharing studies. The notebook is a cell-based IDE for working with data in JavaScript. In addition to D3 there is also the Observable [Plot](https://observablehq.com/plot/?utm_source=d3js-org&utm_medium=nav&utm_campaign=try-observable) library, which was designed specifically for generating charts quickly during exploratory analysis.
+**Observable** is a platform and notebook, similar to [Jupyter](https://www.codecademy.com/resources/docs/data-science/jupyter-notebook), for conducting data analysis, and creating visualizations. Observable the [platform](https://observablehq.com) is an online repository that provides tools for conducting and sharing studies. The notebook is a cell-based IDE for working with data in JavaScript. In addition to D3 there is also the Observable [Plot](https://observablehq.com/plot/?utm_source=d3js-org&utm_medium=nav&utm_campaign=try-observable) library, which was designed specifically for generating charts quickly during exploratory analysis.
 
 ## Traditional D3 vs Observable D3
 
