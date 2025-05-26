@@ -18,7 +18,7 @@ In C++, the **`.equal_range()`** function returns a pair of iterators that defin
 ### Syntax
 
 ```pseudo
-std::pair<iterator, iterator> equal_range(const Key& key);
+mapName.equal_range(key);
 ```
 
 ### Parameters
