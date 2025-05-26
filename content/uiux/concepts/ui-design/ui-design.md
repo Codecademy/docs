@@ -22,7 +22,7 @@ UI design considerations include:
 - **Interaction design**: How do elements respond to user interaction?
 - **Brand identity**: How do all of the visual elements come together to represent the brand's vision?
 - **Responsiveness and usability**: Is the interface easy to use across different devices?
-- **[Accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) and [inclusivity](https://www.codecademy.com/resources/docs/uiux/inclusive-design)**: Does the interface work for everyone?
+- **[Accessibility](https://www.codecademy.com/resources/docs/uiux/design-methodologies/accessibility) and [inclusivity](https://www.codecademy.com/resources/docs/uiux/inclusive-design)**: Does the interface work for everyone?
 - **[Front-end](https://www.codecademy.com/resources/docs/general/front-end) development**: What is the technical backbone powering the interface?
 
 ![Examples of user interfaces on differently sized screens: smartphones, laptops, a large monitor, and a smart watch.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/what-are-ui-ux-design/devices.png)
