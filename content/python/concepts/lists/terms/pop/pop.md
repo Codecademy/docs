@@ -137,7 +137,7 @@ Error: pop from empty list
 
 ### 2. Is `.pop()` more efficient than other methods for removing elements?
 
-Yes, `.pop()` is generally more efficient than other methods like `.remove()` when you know the index of the element to remove. It has O(1) time complexity when removing the last element (default) and O(n) when removing from other positions due to the need to shift elements.
+Yes, `.pop()` is generally more efficient than other methods like `.remove()` when you know the index of the element to remove. It has `O(1)` time complexity when removing the last element (default) and `O(n)` when removing from other positions due to the need to shift elements.
 
 ### 3. How does `.pop()` differ from `.remove()`?
 
