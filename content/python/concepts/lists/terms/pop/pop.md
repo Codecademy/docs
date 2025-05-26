@@ -87,7 +87,7 @@ Removed first fruit: Apple
 Final fruit list: ['Banana', 'Mango', 'Kiwi']
 ```
 
-In this example, we first remove the element at index 2 ("Orange") and then remove the element at index 0 ("Apple"). After each operation, the list is updated and the removed element is returned.
+In this example, the element at index 2 ("Orange") is removed first, followed by the removal of the element at index 0 ("Apple"). After each operation, the list is updated, and the removed element is returned.
 
 ## Codebyte Example: Implementing a Stack with `.pop()`
 
