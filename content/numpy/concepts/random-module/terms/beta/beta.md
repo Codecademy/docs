@@ -4,16 +4,11 @@ Description: 'Generates random values based on a beta distribution.'
 Subjects:
   - 'AI'
   - 'Computer Science'
-  - 'Data Science'
-  - 'Data Visualization'
-  - 'Machine Learning'
 Tags:
   - 'Arrays'
   - 'Data'
   - 'Functions'
   - 'Numpy'
-  - 'Probability'
-  - 'Statistics'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -43,14 +38,14 @@ numpy.random.beta(a, b, size=None)
 
 **Return value:**
 
-In NumPy the `.beta()` function returns a randomly drawn sample or an array of samples from beta distribution configured according to `a` and `b`.
+In NumPy, the `.beta()` function returns a randomly drawn sample or an array of samples from beta distribution configured according to `a` and `b`.
 
-- If `size` is `None` a single random value is returned if both `a` and `b` are scalars. Otherwise, `np.broadcast(a, b).size` samples are returned
-- If `size` is specified an array of randomly generated values is returned, with the shape of the array determined by `size`.
+- If `size` is `None`, a single random value is returned if both `a` and `b` are scalars. Otherwise, `np.broadcast(a, b).size` samples are returned.
+- If `size` is specified, an array of randomly generated values is returned, with the shape of the array determined by `size`.
 
-## Example: Generating Random Values from a Beta Distribution in NumPy
+## Example: Generating Random Values from a Beta Distribution
 
-The example below shows how to generate random values from a beta distribution configured with a $\alpha$ and $\beta$ value:
+The example below shows how to generate random values from a beta distribution configured with an $\alpha$ and $\beta$ value:
 
 ```py
 import numpy as np
@@ -69,9 +64,11 @@ A possible output of this code can be:
 
 This code randomly draws 5 values from a beta distribution with a $\alpha$ of 3 and a $\beta$ of 4.
 
+> **Note:** The output may vary with each execution because the values are randomly generated.
+
 ## Codebyte Example
 
-In this Codebyte example, we sample 5 values from a beta distribution with an $\alpha$ or (`a`) of 2 and a $\beta$ or (`b`) of 5.
+In this codebyte example, we sample 5 values from a beta distribution with an $\alpha$ or (`a`) of 2 and a $\beta$ or (`b`) of 5:
 
 ```codebyte/python
 import numpy as np
@@ -87,5 +84,3 @@ values =  np.random.beta(alpha, beta, size = 5)
 
 print(values)
 ```
-
-> **Note:** The output may vary with each execution because the values are randomly generated.
