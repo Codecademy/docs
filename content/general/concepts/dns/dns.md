@@ -26,7 +26,7 @@ Each domain name is made up of three parts:
 - Second level domain: The second level domain is unique to the company or organization that registers it, like "codecademy" or "wikipedia".
 - Third level domain (subdomain): It's owned by the same group and that URL often directs you to a subset of the website.
 
-For example: [shop.codecademy.com](www.shop.codecademy.com) (Codecademy's merch shop):
+For example: shop.codecademy.com (Codecademy's merch shop):
 
 - Top level domain: ".com"
 - Second level domain: "codecademy"
