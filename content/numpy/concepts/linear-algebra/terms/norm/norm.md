@@ -63,7 +63,7 @@ Vector: [3 4 5 6]
 Default 2-norm: 9.273618495495704
 ```
 
-The 2-norm (Euclidean norm) of a vector is calculated as the square root of the sum of the squares of all elements. In this case, sqrt(3² + 4² + 5² + 6²) = sqrt(86) ≈ 9.27, which represents the "length" of the vector in Euclidean space.
+The 2-norm (Euclidean norm) of a vector is calculated as the square root of the sum of the squares of all elements. In this case, `sqrt(3² + 4² + 5² + 6²) = sqrt(86) ≈ 9.27`, which represents the "length" of the vector in Euclidean space.
 
 ## Example 2: Different Matrix Norms
 
