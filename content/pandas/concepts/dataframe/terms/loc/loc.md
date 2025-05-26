@@ -40,7 +40,7 @@ The `.loc` property returns:
 
 ## Example 1: Basic Label-Based Selection
 
-This example demonstrates how to use `.loc` to select data from a DataFrame using row and column labels:
+This example demonstrates how to use `.loc` to select data from a `DataFrame` using row and column labels:
 
 ```py
 # Import pandas library
