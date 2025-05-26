@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`.loc`** property in Pandas is used to access and manipulate rows and columns using row and column labels instead of integer-based positions. It offers a clear and intuitive way to retrieve, update, or filter data based on row and column names, enhancing code readability and reducing the chances of errors when the data structure changes.
 
-[DataFrame's](https://www.codecademy.com/resources/docs/pandas/dataframe) `.loc` property is commonly used in data analysis and manipulation tasks, such as selecting specific subsets of data, filtering based on conditions, and updating values. It's an essential tool for data scientists, analysts, and anyone working with tabular data in Python.
+[`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe)'s `.loc` property is commonly used in data analysis and manipulation tasks, such as selecting specific subsets of data, filtering based on conditions, and updating values. It's an essential tool for data scientists, analysts, and anyone working with tabular data in Python.
 
 ## Syntax
 
