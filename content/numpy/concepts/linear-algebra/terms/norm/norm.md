@@ -161,12 +161,12 @@ This example demonstrates how to compute norms along different dimensions of a m
 ### 1. What is the difference between 1-norm, 2-norm, and infinity norm for a vector?
 
 - **1-norm (Manhattan distance)**: Sum of absolute values of vector elements, representing the distance along axes.
-- **2-norm (Euclidean distance)**: Square root of sum of squared elements, representing the straight-line distance.
+- **2-norm (Euclidean distance)**: Square root of the sum of squared elements, representing the straight-line distance.
 - **Infinity norm (Maximum norm)**: Maximum absolute value among all elements, representing the maximum distance in any dimension.
 
 ### 2. Can I use `linalg.norm()` for higher-dimensional arrays?
 
-Yes, for arrays with more than 2 dimensions, you can specify the `axis` parameter to compute norms along specific axes. For example, `axis=(0,1)` would compute the norm across the first two dimensions.
+Yes, for arrays with more than two dimensions, you can specify the `axis` parameter to compute norms along specific axes. For example, `axis=(0,1)` would compute the norm across the first two dimensions.
 
 ### 3. How can I normalize a dataset using `linalg.norm()`?
 
