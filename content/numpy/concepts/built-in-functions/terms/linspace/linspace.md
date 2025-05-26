@@ -104,7 +104,7 @@ print("First 5 x values:", x[:5])
 print("Corresponding y values:", y[:5])
 ```
 
-Output of this code will be:
+The output of the above code will be:
 
 ![A sinewave created using the `.linspace()` function](https://raw.githubusercontent.com/Codecademy/docs/main/media/sine-wave-using-linspace.png)
 
