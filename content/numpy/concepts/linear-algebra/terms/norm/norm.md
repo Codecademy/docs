@@ -117,7 +117,7 @@ Different matrix norms have different applications:
 - The nuclear norm (sum of singular values) is used in matrix completion problems and low-rank approximations.
 - The infinity norm represents the maximum absolute row sum and is useful in convergence analysis of iterative methods.
 - The 1-norm represents the maximum absolute column sum and is often used in error analysis.
-- The 2-norm (largest singular value) is used in analyzing matrix conditioning and stability. The matrix 2-norm equals the largest singular value of the matrix (not the same as Frobenius norm).
+- The 2-norm (largest singular value) is used in analyzing matrix conditioning and stability. The matrix 2-norm equals the largest singular value of the matrix (not the same as the Frobenius norm).
 
 ## Codebyte Example: Computing Norms Along Specific Axes
 
