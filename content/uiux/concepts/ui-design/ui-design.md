@@ -36,7 +36,7 @@ A day in the life of a UI designer may include:
 - Creating [high-fidelity](https://www.codecademy.com/resources/docs/uiux/high-fidelity) digital prototypes of a design.
 - Deciding on a color palette for a mobile app.
 - Creating a visual style guide for a new sub-brand.
-- Checking the [accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) of a design.
+- Checking the [accessibility](https://www.codecademy.com/resources/docs/uiux/design-methodologies/accessibility) of a design.
 - Communicating with developers about technical design requirements.
 
 Both user interface (UI) design and [user experience (UX) design](https://www.codecademy.com/resources/docs/uiux/ux-design) are centered on users and involve ensuring that products and systems are meeting real needs. They're also focused on making those products and systems as intuitive and pleasant to use as possible.
