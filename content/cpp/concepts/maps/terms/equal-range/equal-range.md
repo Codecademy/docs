@@ -1,20 +1,16 @@
 ---
 Title: '.equal_range()'
-Description: 'Finds the range of elements equivalent to a specified value in a set or multiset.'
+Description: 'Returns a pair of iterators defining the range of elements with the given key'
 Subjects:
-  - 'C++'
-  - 'C++ STL'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'C++'
-  - 'C++ STL'
-  - 'C++ Set'
-  - 'C++ Multiset'
-  - 'C++ Equal Range'
+  - 'Iterators'
+  - 'Map'
+  - 'STL'
 CatalogContent:
-  - 'C++ STL'
-  - 'C++ Set and Multiset'
-  - 'C++ Algorithms'
-  - 'C++ Standard Library'
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 In C++, the **`.equal_range()`** function is a member function of the `std::set` and `std::multiset` containers. It is used to find the range of elements that are equivalent to a specified value in the set. The function returns a pair of iterators that represent the beginning and end of the range of elements that are equal to the specified value.
