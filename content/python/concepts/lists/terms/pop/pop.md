@@ -55,7 +55,7 @@ Removed element: 50
 Updated list: [10, 20, 30, 40]
 ```
 
-The `.pop()` method removes the last element (50) from the list and returns it. The original list is modified to contain only the remaining elements.
+The `.pop()` method removes the last element 50 from the list and returns it. The original list is modified to contain only the remaining elements.
 
 ## Example 2: Removing Elements at Specific Positions
 
