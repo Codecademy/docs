@@ -25,9 +25,11 @@ mapName.equal_range(key);
 
 - `key`: The key value to search for in the map.
 
-### Return Value
+**Return value:**
+- Returns a `std::pair` of iterators:
 
-The function returns a pair of iterators. The first iterator points to the first element in the range that is equivalent to the specified value, and the second iterator points to the first element that is greater than the specified value (i.e., the end of the range).
+  - The first iterator points to the first element equal to the key (or the position where it would be inserted).
+  - The second iterator points to the element just past the last element equal to the key.
 
 ### Example
 
