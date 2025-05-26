@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.pop()`** method in Python is used to remove an element from a list at a specified index and return that element. The `.pop()` method directly modifies the original [list](https://www.codecademy.com/resources/docs/python/lists) by removing the element at the given position. If no index is provided, it removes and returns the last element by default.
+The **`.pop()`** method in Python removes an element from a [list](https://www.codecademy.com/resources/docs/python/lists) at a specified index and returns that element. The `.pop()` method directly modifies the original list by removing the element at the given position. If no index is provided, it removes and returns the last element by default.
 
-Lists in Python are mutable sequences, and the `.pop()` method provides an efficient way to dynamically manipulate these lists. This is particularly useful in scenarios such as implementing stacks (using `.pop()` without an index) and queues (using `.pop(0)`), managing task lists, or processing data collections where items need to be removed after processing.
+Lists in Python are mutable sequences, and the `.pop()` method provides an efficient way to manipulate these lists dynamically. This is particularly useful in scenarios such as implementing stacks (using `.pop()` without an index) and queues (using `.pop(0)`), managing task lists, or processing data collections where items need to be removed after processing.
 
 ## Syntax
 
