@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`.linspace()`** function in NumPy creates an array of evenly spaced numbers over a specified interval. Unlike other sequence-generating functions such as `.arange()`, `.linspace()` allows specifying the exact number of points needed in the array, and NumPy will automatically calculate the spacing between the values. This makes it particularly useful for generating sample points for mathematical functions, creating coordinate grids for plotting, and designing evenly spaced numerical sequences for scientific computing.
 
-The function is commonly used in data visualization, signal processing, numerical integration, and mathematical modeling where precise control over the number of samples in an interval is needed. It's especially valuable when working with functions that need to be evaluated at regular intervals, or when creating axes for plots that require specific numbers of data points.
+The function is commonly used in data visualization, signal processing, numerical integration, and mathematical modelling where precise control over the number of samples in an interval is needed. It's especially valuable when working with functions that need to be evaluated at regular intervals, or when creating axes for plots that require a specific number of data points.
 
 ## Syntax
 
