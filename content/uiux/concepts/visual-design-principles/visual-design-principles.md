@@ -21,4 +21,4 @@ CatalogContent:
 - **Unity** is achieved when all elements work together as a cohesive whole. In products that follow the unity principle, all elements and layouts feel like they belong together.
 - **Gestalt** relates to how the brain processes visual information. When initially viewing a digital interface, a person perceives the overall design rather than isolating individual elements. The brain naturally categorizes and organizes visual information to make sense of it.
 
-<iframe src="media/visual-design-principles.pdf" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://raw.githubusercontent.com/Codecademy/docs/main/media/visual-design-principles.pdf" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
