@@ -36,7 +36,7 @@ numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, ax
 
 **Return value:**
 
-- Returns a numpy [ndarray](https://www.codecademy.com/resources/docs/numpy/ndarray1) of evenly spaced samples. If retstep is True, it also returns the step size between samples.
+- Returns a numpy [ndarray](https://www.codecademy.com/resources/docs/numpy/ndarray1) of evenly spaced samples. If `retstep` is True, it also returns the step size between samples.
 
 ## Example 1: Basic Usage of `.linspace()`
 
