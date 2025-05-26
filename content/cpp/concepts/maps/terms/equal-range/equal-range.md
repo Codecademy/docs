@@ -21,11 +21,9 @@ In C++, the **`.equal_range()`** function returns a pair of iterators that defin
 mapName.equal_range(key);
 ```
 
-### Parameters
+**Parameters:**
 
-- **`key`**: The value for which the range is to be found.
-- **`iterator`**: The type of iterator used in the set or multiset.
-- **`pair`**: A pair of iterators representing the range of elements equivalent to the specified value.
+- `key`: The key value to search for in the map.
 
 ### Return Value
 
