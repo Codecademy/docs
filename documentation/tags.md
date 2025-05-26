@@ -79,6 +79,7 @@ Concatenation
 Conceptual
 Const
 Constructors
+Containers
 Continue
 Counting Sort
 Control Flow
@@ -335,6 +336,7 @@ Stacks
 Static Site
 Statistics
 Statsmodels
+STL
 Storage
 Strict Mode
 Stringr
