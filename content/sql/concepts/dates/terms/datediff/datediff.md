@@ -170,13 +170,13 @@ This example demonstrates how `DATEDIFF()` can be used to calculate important bu
 
 ## Frequently Asked Questions
 
-### 1. How to calculate date difference between two dates in SQL?
+### 1. How to calculate the date difference between two dates in SQL?
 
 In SQL Server, use the `DATEDIFF()` function with an appropriate interval parameter like day, month, or year. For example, `DATEDIFF(day, '2023-01-01', '2023-01-15')` will return 14 days.
 
 ### 2. Does `DATEDIFF()` include both the start and end dates in its calculation?
 
-`DATEDIFF()` counts the number of interval boundaries crossed between the two dates. For example, when using 'day', it counts the number of midnight boundaries crossed, not the full 24-hour periods.
+The `DATEDIFF()` function counts the number of interval boundaries crossed between the two dates. For example, when using 'day', it counts the number of midnight boundaries crossed, not the full 24-hour periods.
 
 ### 3. Why does `DATEDIFF(year, '2022-12-31', '2023-01-01')` return 1 even though it's just one day apart?
 
@@ -188,4 +188,4 @@ No, SQL Server's `DATEDIFF()` does not account for time zones or daylight saving
 
 ### 5. Can I use `DATEDIFF()` with time-only values?
 
-Yes, you can use time data types with `DATEDIFF()`, but only with time-related intervals like second, minute, and hour. Using day or larger intervals with time-only values will always return 0.
+Yes, you can use time data types with `DATEDIFF()`, but only with time-related intervals like seconds, minutes, and hours. Using day or larger intervals with time-only values will always return 0.
