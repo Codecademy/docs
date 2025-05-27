@@ -1,41 +1,41 @@
 ---
-Title: 'cbegin'
-Description: 'Function that returns a const iterator to the beginning of a container.'
+Title: '.cbegin'
+Description: 'Returns a constant iterator to the beginning of a container.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'Arrays'
   - 'Containers'
   - 'Iterators'
-  - 'Arrays'
 CatalogContent:
   - 'learn-c++'
   - 'paths/computer-science'
 ---
 
-**`cbegin()`** is a member function of C++ containers (like `vector`, `list`, `map`, etc.) that returns a constant iterator to the first element of the container. This iterator cannot be used to modify the element it points to. It's commonly used when read-only access to the container’s elements is desired.
+**`.cbegin()`** is a member function of C++ containers (like `vector`, `list`, `map`, etc.) that returns a constant iterator to the first element of the container. This iterator cannot be used to modify the element it points to. It's commonly used when read-only access to the container’s elements is desired.
 
-## Syntax and Use
+`.cbegin()` is typically used when iterating over a container without modifying its elements. It enforces const-correctness and is a safer choice when the container is `const` or when preventing accidental modification is desired.
 
-`cbegin()` is typically used when iterating over a container without modifying its elements. It ensures const-correctness in code and is a safer alternative when the container is `const` or you want to prevent accidental modification.
+## Syntax
 
-```cpp
-container_type::const_iterator it = container.cbegin();
+```pseudo
+arrayName.cbegin();
 ```
 
-It is often used with `cend()` to define a read-only range:
+**Parameters:**
 
-```cpp
-for (auto it = container.cbegin(); it != container.cend(); ++it) {
-    std::cout << *it << std::endl;
-}
-```
+- The `.cbegin()` does not take any parameters.
+
+**Return value:**
+
+- Returns a constant iterator pointing to the first element of the container.
 
 ## Difference Between `begin()` and `cbegin()`
 
-The `begin()` function returns a modifiable iterator (unless the container is `const`), while `cbegin()` always returns a constant iterator. This ensures that the elements cannot be modified through the returned iterator.
+The `.begin()` function returns a modifiable iterator (unless the container itself is `const`), allowing modification of elements through the iterator. In contrast, .cbegin() always returns a constant iterator, which prevents modification of the elements it points to.
 
-Use `cbegin()` in these cases:
+Use `.cbegin()` in these cases:
 
 - When working with a `const` container.
 - When you want to enforce read-only access to the elements.
@@ -53,14 +53,14 @@ It’s a good practice to prefer `cbegin()` over `begin()` when mutation is not 
 #include <vector>
 
 int main() {
-    std::vector<int> numbers = {1, 2, 3, 4, 5};
+  std::vector<int> numbers = {1, 2, 3, 4, 5};
 
-    // Using cbegin to get a const iterator to the beginning
-    for (auto it = numbers.cbegin(); it != numbers.cend(); ++it) {
-        std::cout << *it << ' ';
-        // *it = 10; // Error: can't modify element through const_iterator
-    }
+  // Using cbegin to get a const iterator to the beginning
+  for (auto it = numbers.cbegin(); it != numbers.cend(); ++it) {
+    std::cout << *it << ' ';
+    // *it = 10; // Error: can't modify element through const_iterator
+  }
 
-    return 0;
+  return 0;
 }
 ```
