@@ -67,7 +67,7 @@ The output produced by this code will be:
 
 ![A webpage header displaying a logo, site title, and horizontal navigation menu](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-header-output-1.png)
 
-This creates a semantic header section for the webpage that includes a logo, site title, and navigation menu. Using the `<header>` element helps screen readers and search engines understand that this content represents the introductory section of the page.
+The above code creates a semantic header section for the webpage that includes a logo, site title, and navigation menu. Using the `<header>` element helps screen readers and search engines understand that this content represents the introductory section of the page.
 
 ## Example 2: Article Header
 
