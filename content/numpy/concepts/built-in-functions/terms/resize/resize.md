@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The NumPy **`.resize()`** function resizes an array. It returns a new array with the specified shape and size without changing the shape and size of the original array.
+The NumPy **`.resize()`** function returns a new array with the specified shape and size. If the new size is larger than the original, the data is repeated cyclically; if smaller, the data is truncated. This function does not modify the original array.
 
-> **Note:** If only the shape and not the size of an array is changed, it's recommended to use **`.reshape()`** instead for performance and clarity.
+> **Note:** When only the shape needs to be changed without altering the size, [`.reshape()`](https://www.codecademy.com/resources/docs/numpy/built-in-functions/reshape) is recommended for better performance and clearer intent.
 
 ## Syntax
 
@@ -23,14 +23,14 @@ The NumPy **`.resize()`** function resizes an array. It returns a new array with
 numpy.resize(a, new_shape)
 ```
 
-Parameters:
+**Parameters:**
 
 - `a`: The array to resize.
-- `new_shape`: An integer or tuple of integers representing the size of each axis. Providing a single integer will result in a 1D array with the specified size. Providing a tuple of integers will result in a multi-dimensional array with the specified size of each dimension.
+- `new_shape`: An integer or tuple of integers defining the desired shape. A single integer creates a 1D array of that length, while a tuple defines a multi-dimensional shape.
 
-Returns:
+**Return value:**
 
-- `resized_array`: A new array with the specified shape and size. If the specified size is _larger_ than the original array, the elements are repeated by cycling through the flattened array. If the new array is _smaller_ than the original array, the elements are truncated.
+- `resized_array`: A new array of the specified shape. If the new size is larger than the original, the data is repeated cyclically. If smaller, the data is truncated. The original array remains unchanged.
 
 ## Example
 
@@ -50,12 +50,11 @@ print("Original array:")
 print(arr)
 print("\nResized array:")
 print(resized_arr)
-
 ```
 
 The output of this code is:
 
-```Shell
+```shell
 Original array:
 [1 2 3]
 
