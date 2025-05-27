@@ -194,7 +194,7 @@ We can categorize the programming optimization at this level, broadly, into 2 ty
 
 ### Run Time
 
-By dynamically adjusting parameters in response to the actual input or other factors, adaptive optimization may be able to perform run-time optimization beyond the capability of static compilers. At the cost of overhead and based on runtime data, customized machine code can be done by (Just-in-Time (JIT) Compilers)[https://www.codecademy.com/resources/docs/general/jit-compilation] and can also have self modifying code which is adaptable depending on the runtime conditions.
+By dynamically adjusting parameters in response to the actual input or other factors, adaptive optimization may be able to perform run-time optimization beyond the capability of static compilers. At the cost of overhead and based on runtime data, customized machine code can be done by [Just-in-Time (JIT) Compilers](https://www.codecademy.com/resources/docs/general/jit-compilation) and can also have self modifying code which is adaptable depending on the runtime conditions.
 
 Optimizing based on run-time profiles is an ahead-of-time (AOT) compilation technique similar to an "average case" analogy to adaptive optimization. It's common for assembly language programs to use self-modifying code to optimize themselves, depending on runtime conditions.
 
