@@ -49,7 +49,7 @@ This is a CSS declaration, not a function, so it doesn't return a value but rath
 
 ## Example: Basic Border Styling
 
-This example demonstrates how to apply basic border styles to elements.
+The following example demonstrates how to apply basic border styles to elements.
 
 ```css
 /* Basic solid border */
