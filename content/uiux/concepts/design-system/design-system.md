@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Design systems** are repositories of reusable [design components](https://www.codecademy.com/resources/docs/uiux/design-component) and [design patterns](https://www.codecademy.com/resources/docs/uiux/design-pattern) that can be used across a team or organization to ensure consistency across all design output.
+**Design systems** are repositories of reusable [design components](https://www.codecademy.com/resources/docs/uiux/design-component) and [design patterns](https://www.codecademy.com/resources/docs/uiux/design-methodologies/design-pattern) that can be used across a team or organization to ensure consistency across all design output.
 
 ![An illustration of four wireframes representing general site structures flowing from one to the next.](https://raw.githubusercontent.com/Codecademy/docs/main/media/design-system.png)
 
