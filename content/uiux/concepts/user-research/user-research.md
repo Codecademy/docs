@@ -40,7 +40,7 @@ Designers and researchers should also consider participant selection when planni
 
 ## User Research Results and Products
 
-An important skill for user researchers to cultivate is translating raw data into easily digestible information and actionable insights. **Data visualization** is a major part of that skill set, in which the research team uses visual design tools like charts and graphs to communicate this information at varying levels of depth. Research teams may also generate user [personas](https://www.codecademy.com/resources/docs/uiux/persona) and [user stories](https://www.codecademy.com/resources/docs/user-story), tools that serve as useful shorthand references for designers, developers, and marketers.
+An important skill for user researchers to cultivate is translating raw data into easily digestible information and actionable insights. **Data visualization** is a major part of that skill set, in which the research team uses visual design tools like charts and graphs to communicate this information at varying levels of depth. Research teams may also generate user [personas](https://www.codecademy.com/resources/docs/uiux/persona) and [user stories](https://www.codecademy.com/resources/docs/uiux/user-story), tools that serve as useful shorthand references for designers, developers, and marketers.
 
 ## User Research Benefits and Shortcomings
 
