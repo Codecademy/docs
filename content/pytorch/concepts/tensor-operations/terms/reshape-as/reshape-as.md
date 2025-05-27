@@ -4,7 +4,6 @@ Description: 'Returns a tensor with the same shape as the input tensor.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Machine Learning'
 Tags:
   - 'Functions'
   - 'Machine Learning'
@@ -12,10 +11,10 @@ Tags:
   - 'PyTorch'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
-  - 'Pytorch for Classification' 
+  - 'Pytorch for Classification'
 ---
 
-In PyTorch, The **`.reshape_as()`** method reshapes a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) to match the shape of another tensor. If possible, it returns a view of the original tensor; otherwise, it returns a new tensor with copied data. This method is equivalent to [`tensor.reshape()`](https://www.codecademy.com/resources/docs/pytorch/tensors/reshape).
+In PyTorch, The **`.reshape_as()`** method reshapes a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) to match the shape of the input tensor. If possible, it returns a view of the original tensor; otherwise, it returns a new tensor with copied data. This method is equivalent to [`.reshape()`](https://www.codecademy.com/resources/docs/pytorch/tensors/reshape).
 
 ## Syntax
 
@@ -23,15 +22,17 @@ In PyTorch, The **`.reshape_as()`** method reshapes a [tensor](https://www.codec
 Tensor.reshape_as(other)
 ```
 
+**Parameters:**
+
 - `other`: The tensor whose shape will be used to reshape the calling tensor.
 
 **Return value:**
 
 - `Tensor`: A new tensor with the same shape as `other`, containing the same data as the original tensor (either as a view or with copied data if needed).
 
-## Example 1: Reshape 1D Tensor to 2D with PyTorch `.reshape_as()`
+## Example 1: Reshape 1D Tensor to 2D with `.reshape_as()`
 
-The following example demonstrates the usage of the `.reshape_as()` method:
+This example demonstrates the usage of the `.reshape_as()` method:
 
 ```py
 import torch
@@ -55,7 +56,7 @@ print("Reshaped tensor:", reshaped_tensor)
 print("Shape after reshape_as:", reshaped_tensor.shape)
 ```
 
-The code will produce the following output:
+The code will produce this output:
 
 ```shell
 Original tensor_a: tensor([0, 1, 2, 3, 4, 5])
@@ -70,7 +71,7 @@ Shape after reshape_as: torch.Size([2, 3])
 
 This code reshapes the source tensor from a 1D tensor containing numbers 0 to 5 into a 2D tensor with shape `(2, 3)`, preserving the data.
 
-## Example 2: Convert 1D Tensor to 4x2 Matrix Using PyTorch `.reshape_as()`
+## Example 2: Convert 1D Tensor to 4x2 Matrix Using `.reshape_as()`
 
 ```py
 import torch
@@ -92,7 +93,7 @@ print("Reshaped tensor:", reshaped_tensor)
 print("Shape after reshape_as:", reshaped_tensor.shape)
 ```
 
-This code above will produce the following output:
+The code will produce this output:
 
 ```shell
 Original tensor_a: tensor([0, 1, 2, 3, 4, 5, 6, 7])
