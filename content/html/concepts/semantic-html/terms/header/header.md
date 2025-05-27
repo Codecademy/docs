@@ -110,7 +110,7 @@ This example demonstrates how the `<header>` element can be used within an `<art
 
 ## Example 3: Multiple Headers in a Page
 
-This example shows how to use multiple `<header>` elements on a single page for different sections.
+The following example shows how to use multiple `<header>` elements on a single page for different sections.
 
 ```html
 <!-- Main page header -->
