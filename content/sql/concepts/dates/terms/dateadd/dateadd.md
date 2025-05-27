@@ -163,7 +163,7 @@ SELECT DATEADD(month, 1, '2023-01-31') AS OneMonthLater; -- Returns 2023-02-28
 
 ### 2. How does `DATEADD()` handle different date formats?
 
-`DATEADD()` works with SQL Server's standard date formats. For string literals, it's best practice to use formats that are unambiguous such as 'YYYY-MM-DD' (ISO format) to ensure consistent results regardless of server settings.
+`DATEADD()` works with SQL Server's standard date formats. For string literals, it's best practice to use formats that are unambiguous, such as 'YYYY-MM-DD' (ISO format), to ensure consistent results regardless of server settings.
 
 ### 3. What is the maximum range that `DATEADD()` can handle?
 
