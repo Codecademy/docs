@@ -2,31 +2,37 @@
 Title: '.get()'
 Description: 'Returns the raw pointer held by a smart pointer in C++.'
 Subjects:
-  - 'C++'
-  - 'Pointers'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'cpp'
-  - 'pointers'
-  - 'smart pointers'
-  - 'memory management'
+  - 'Pointers'
+  - 'Memory'
+  - 'Methods'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The **`.get()`** method in C++ is used with smart pointers (such as `std::unique_ptr` and `std::shared_ptr`) to access the raw pointer they manage. This allows code to interact with APIs or functions that require a traditional pointer, while still maintaining ownership and automatic memory management provided by the smart pointer.
+The **`.get()`** method in C++ is used with smart pointers (such as `std::unique_ptr` and `std::shared_ptr`) to access the raw pointer they manage. It allows code to interface with functions or APIs that require traditional pointers, while still preserving the ownership and automatic memory management provided by the smart pointer.
 
-> **Note:** Using the raw pointer returned by `.get()` does not transfer ownership. The smart pointer remains responsible for deleting the memory.
+> **Note:** Calling `.get()` returns the raw pointer managed by the smart pointer, but does not transfer ownership. The smart pointer still retains responsibility for managing and deleting the memory.
 
 ## Syntax
 
 ```pseudo
-smart_pointer.get()
+ptr.get()
 ```
 
-- `smart_pointer` is an instance of a smart pointer type (e.g., `std::unique_ptr`, `std::shared_ptr`).
-- Returns the underlying raw pointer of type `T*`, where `T` is the type managed by the smart pointer.
-- Does not affect ownership or reference count.
+Where `ptr` is a smart pointer such as `std::unique_ptr<T>` or `std::shared_ptr<T>`.
+
+**Parameters:**
+
+- The `.get()` method takes no parameters.
+
+**Return value:**
+
+- Returns a raw pointer of type `T*` to the managed object.
+- The returned pointer does not transfer ownership — the smart pointer still controls the object's lifetime.
 
 ## Example
 
