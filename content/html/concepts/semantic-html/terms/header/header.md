@@ -163,7 +163,7 @@ The output produced by this code will be:
 
 ![A webpage layout with separate headers for the main site, a featured section, and an article](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-header-output-3.png)
 
-This example shows how different `<header>` elements can be used at various levels of the document structure: one for the main page, others for individual sections, and yet others for articles within those sections. Each header provides contextual information relevant to its parent element.
+The above example shows how different `<header>` elements can be used at various levels of the document structure: one for the main page, others for individual sections, and yet others for articles within those sections. Each header provides contextual information relevant to its parent element.
 
 ## Frequently Asked Questions
 
