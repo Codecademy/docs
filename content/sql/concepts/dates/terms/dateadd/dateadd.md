@@ -72,7 +72,9 @@ The output of this code will be:
 | ------------ | ---------------- | ------------- | ----------------------- |
 | 2024-05-21   | 2023-08-21       | 2023-06-04    | 2023-05-21 06:00:00.000 |
 
-This example shows how `DATEADD()` can perform a variety of date calculations by simply changing the interval parameter and the number value. Note that negative numbers subtract from the date rather than adding to it.
+This example shows how `DATEADD()` can perform a variety of date calculations by simply changing the interval parameter and the number value. 
+
+>**Note:**  Negative numbers decrease the date rather than increase it.
 
 ## Example 2: Calculating Due Dates
 
