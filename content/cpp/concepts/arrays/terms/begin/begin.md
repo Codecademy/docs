@@ -17,7 +17,7 @@ The **`.begin()`** method in C++ returns an iterator pointing to the first eleme
 
 ## Syntax
 
-The usage of begin() depends on the type of array:
+The usage of `.begin()` depends on the type of array:
 
 1\. For `std::array` (from `<array>`, introduced in C++11):
 
@@ -26,6 +26,7 @@ std_array_object.begin()
 ```
 
 **Return value:** 
+
 Returns an iterator of the appropriate type, pointing to the first element of the `std_array_object`. If the array is empty, the returned iterator will be equal to the iterator returned by `std_array_object.end()`.
 
 2\. For C-style arrays (using `std::begin` from the `<iterator>` header):
@@ -33,13 +34,18 @@ Returns an iterator of the appropriate type, pointing to the first element of th
 ```pseudo
 std::begin(c_style_array_name)
 ```
-- **Parameters:**
-    - `c_style_array_name`: The name of the C-style array.
-- **Return Value:** Returns a pointer (which acts as an iterator for C-style arrays) to the first element of `c_style_array_name`. For an empty C-style array (0 elements, though less common), its behavior is specific to how such an array is defined.
+
+**Parameters:**
+  
+  - `c_style_array_name`: The name of the C-style array.
+      
+**Return Value:**
+
+Returns a pointer (which acts as an iterator for C-style arrays) to the first element of `c_style_array_name`. For an empty C-style array (0 elements, though less common), its behavior is specific to how such an array is defined.
 
 ## Example
 
-Here's how you can use `begin()` with an `std::array`:
+Here's how `.begin()` can be used with an `std::array`:
 
 ```cpp
 #include <iostream>
@@ -83,7 +89,7 @@ The following example demonstrates the use of `std::array::begin()` to access an
 
 ```codebyte/cpp
 #include <iostream>
-#include <array>    // Required for std::array
+#include <array>
 
 int main() {
   std::array<int, 3> myArray = {100, 200, 300};
