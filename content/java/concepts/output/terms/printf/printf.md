@@ -2,6 +2,7 @@
 Title: '.printf()'
 Description: 'Prints output to the console using various formatting commands.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Characters'
@@ -85,7 +86,7 @@ public class PrintfExample1 {
 }
 ```
 
-Here is the output:
+Here is the output of this code:
 
 ```shell
 Name: Alice, Age: 25
