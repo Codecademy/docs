@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A **problem statement** succinctly describes what problem a design will attempt to solve. It is a standard output of the “define” stage of the [design thinking process](https://www.codecademy.com/resources/docs/uiux/design-thinking).
+A **problem statement** succinctly describes what problem a design will attempt to solve. It is a standard output of the “define” stage of the [design thinking process](https://www.codecademy.com/resources/docs/uiux/design-methodologies/design-thinking).
 
 Before conducting [user research](https://www.codecademy.com/resources/docs/uiux/user-research), a preliminary problem statement may be crafted to focus research efforts. After conducting user research, the initial problem statement must be reviewed. Updates should be made to ensure that it accurately reflects a challenge that users are experiencing.
 
