@@ -64,4 +64,4 @@ value.length;
  */
 ```
 
-See [Narrowing](./narrowing) for how to narrow down union types into their more specific types.
+See [Narrowing](https://www.codecademy.com/resources/docs/typescript/narrowing) for how to narrow down union types into their more specific types.
