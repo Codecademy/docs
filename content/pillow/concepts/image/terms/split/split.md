@@ -163,7 +163,7 @@ The outputs produced by this code will be:
 
 ![Image showing false color](https://raw.githubusercontent.com/Codecademy/docs/main/media/false_color.jpg)
 
-This example shows advanced creative applications of channel splitting for producing artistic effects. By manipulating individual channels before recombining them, you can create vintage effects, false-color visualizations, and unique artistic renditions that would be difficult to achieve through standard image filters.
+The above example demonstrates advanced creative applications of channel splitting for producing artistic effects. By manipulating individual channels before recombining them, vintage effects, false-color visualizations, and unique artistic renditions can be created that would be difficult to achieve through standard image filters.
 
 ## Frequently Asked Questions
 
