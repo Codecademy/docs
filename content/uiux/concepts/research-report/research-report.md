@@ -31,4 +31,4 @@ A research report typically contains the following:
 
 To see a sample report, check out the Example Research Report slide deck, which captures insights from a user interview study.
 
-<iframe src="media/research-report-example.pdf" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://raw.githubusercontent.com/Codecademy/docs/main/media/research-report-example.pdf" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
