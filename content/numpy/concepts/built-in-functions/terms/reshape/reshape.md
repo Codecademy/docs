@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.reshape()`** method gives a new shape to a NumPy array without changing its data. It returns a new array object with the specified shape, while maintaining the same data elements of the original array. The total size of the new array must be the same as the original array.
+The **`.reshape()`** method assigns a new shape to a NumPy [array](https://www.codecademy.com/resources/docs/numpy/ndarray) without changing its data. It returns a new array object with the specified shape, while maintaining the same data elements of the original array. The total size of the new array must be the same as the original array.
 
 NumPy's `.reshape()` function is essential for data manipulation and multi-dimensional array transformations. It's commonly used in data preprocessing for machine learning, image processing, and scientific computing, where changing dimensions while preserving data is required.
 
@@ -138,6 +138,7 @@ This example demonstrates reshaping between different dimensional structures and
 ```codebyte/python
 import numpy as np
 
+
 # Create a 3D array with shape (2, 2, 3)
 array_3d = np.array([
     [[1, 2, 3], [4, 5, 6]],
@@ -169,11 +170,12 @@ except ValueError as e:
 
 ### 1. Is `.reshape(-1)` the same as `.flatten()`?
 
-While both `.reshape(-1)` and [`.flatten()`](https://www.codecademy.com/resources/docs/numpy/ndarray/flatten) can convert an array to a 1D array, they have key differences:
+While both `.reshape(-1)` and `.flatten()` can convert an array to a 1D array, they have key differences:
 
 - `.reshape(-1)` returns a view of the original array when possible, meaning changes to the reshaped array may affect the original.
 - `.flatten()` always returns a copy of the flattened array, so modifying it never affects the original.
-- For most use cases where you just need a flat version of an array, they can be used interchangeably, but `.reshape(-1)` may be more memory-efficient.
+
+For most use cases where you just need a flat version of an array, they can be used interchangeably, but `.reshape(-1)` may be more memory-efficient.
 
 ### 2. Can we reshape into any shape?
 
@@ -181,10 +183,8 @@ No, the total number of elements must remain the same. For example, an array wit
 
 ### 3. What happens when using reshape versus resize?
 
-- `.reshape()` returns a new array (or view) with the new shape, leaving the original array unchanged.
-- `.resize()` modifies the array in-place and can change the total number of elements (either by truncating or padding with zeros).
-- Use `.reshape()` when you want to preserve all data and need the same number of elements.
-- Use `.resize()` when modifying the array’s total size, even if it involves truncating data or padding with zeros.
+- `.reshape()` returns a new array with a new shape without altering the original; the total number of elements must remain the same.
+- `.resize()` modifies the array in-place, allowing changes in size by truncating or padding with zeros.
 
 ### 4. How does the order parameter affect reshaping?
 
@@ -192,4 +192,5 @@ The `order` parameter determines how elements are read from the original array a
 
 - With `order='C'` (default), elements are read/written in row-major order (last index changes fastest).
 - With `order='F'`, elements are read/written in column-major order (first index changes fastest).
-- This impacts the arrangement of elements when reshaping between different dimensions, especially when the array is not contiguous in memory.
+
+This impacts the arrangement of elements when reshaping between different dimensions, especially when the array is not contiguous in memory.
