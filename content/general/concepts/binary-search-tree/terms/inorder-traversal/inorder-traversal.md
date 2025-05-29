@@ -272,7 +272,7 @@ This example shows how inorder traversal can be applied to organize and display 
 
 ## Frequently Asked Questions
 
-### 1. What is the time complexity of inorder traversal?
+### 1. What is the time complexity of an inorder traversal?
 
 The time complexity is O(n), where n is the number of nodes in the tree, because each node is visited exactly once during the traversal process.
 
@@ -280,10 +280,10 @@ The time complexity is O(n), where n is the number of nodes in the tree, because
 
 The space complexity is O(h), where h is the height of the tree, due to the recursive call stack. In the worst case (skewed tree), this becomes O(n), while in a balanced tree, it's O(log n).
 
-### 3. Why does inorder traversal produce sorted output for binary search trees?
+### 3. Why does inorder traversal produce a sorted output for binary search trees?
 
 Inorder traversal visits nodes in Left-Root-Right order. In a binary search tree, all nodes in the left subtree are smaller than the root, and all nodes in the right subtree are larger. This property ensures that nodes are processed in ascending order.
-
+an 
 ### 4. Can inorder traversal be implemented iteratively?
 
 Yes, inorder traversal can be implemented iteratively using a stack data structure to simulate the recursive call stack, which can be more memory-efficient for very deep trees.
