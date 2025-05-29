@@ -283,7 +283,8 @@ The space complexity is `O(h)`, where h is the height of the tree, due to the re
 ### 3. Why does inorder traversal produce a sorted output for binary search trees?
 
 Inorder traversal visits nodes in Left-Root-Right order. In a binary search tree, all nodes in the left subtree are smaller than the root, and all nodes in the right subtree are larger. This property ensures that nodes are processed in ascending order.
-an 
+an
+
 ### 4. Can inorder traversal be implemented iteratively?
 
 Yes, inorder traversal can be implemented iteratively using a stack data structure to simulate the recursive call stack, which can be more memory-efficient for very deep trees.
