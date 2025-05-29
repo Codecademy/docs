@@ -278,7 +278,7 @@ The time complexity is `O(n)`, where n is the number of nodes in the tree, becau
 
 ### 2. What is the space complexity of inorder traversal?
 
-The space complexity is O(h), where h is the height of the tree, due to the recursive call stack. In the worst case (skewed tree), this becomes O(n), while in a balanced tree, it's O(log n).
+The space complexity is `O(h)`, where h is the height of the tree, due to the recursive call stack. In the worst case (skewed tree), this becomes `O(n)`, while in a balanced tree, it's `O(log n)`.
 
 ### 3. Why does inorder traversal produce a sorted output for binary search trees?
 
