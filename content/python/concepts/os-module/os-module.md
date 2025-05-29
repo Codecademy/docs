@@ -106,11 +106,11 @@ os.function_name()  # No parameters for info functions
 
 ### 1. Is the `os` module cross-platform compatible?
 
-Yes, the `os` module is designed to work across different operating systems including Windows, macOS, and Linux. It abstracts platform-specific differences, though some functions like `os.uname()` are Unix-specific and `os.startfile()` is Windows-specific.
+Yes, the `os` module is designed to work across different operating systems, including Windows, macOS, and Linux. It abstracts platform-specific differences, though some functions like `os.uname()` are Unix-specific and `os.startfile()` is Windows-specific.
 
 ### 2. What's the difference between `os.path` and `pathlib`?
 
-While `os.path` provides functions for path manipulation, the newer `pathlib` module offers an object-oriented approach with more intuitive syntax. For new projects, `pathlib` is generally recommended, but `os.path` remains widely used and fully supported.
+While `os.path` provides functions for path manipulation, the newer `pathlib` module offers an object-oriented approach with more intuitive syntax. `pathlib` is generally recommended for new projects, but `os.path` remains widely used and fully supported.
 
 ### 3. Should I use `os.system()` or `subprocess` for running commands?
 
