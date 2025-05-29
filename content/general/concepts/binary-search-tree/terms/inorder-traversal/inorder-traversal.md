@@ -274,7 +274,7 @@ This example shows how inorder traversal can be applied to organize and display 
 
 ### 1. What is the time complexity of an inorder traversal?
 
-The time complexity is O(n), where n is the number of nodes in the tree, because each node is visited exactly once during the traversal process.
+The time complexity is `O(n)`, where n is the number of nodes in the tree, because each node is visited exactly once during the traversal process.
 
 ### 2. What is the space complexity of inorder traversal?
 
