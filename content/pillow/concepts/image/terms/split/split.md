@@ -112,7 +112,7 @@ The output produced by this code will be:
 
 ![Image showing enhanced channels](https://raw.githubusercontent.com/Codecademy/docs/main/media/channel_enhanced.jpg)
 
-This example demonstrates practical color analysis by examining the intensity ranges of each channel and selectively enhancing the most prominent one. It's particularly useful for automatic image enhancement based on the dominant colors in landscape or nature photography.
+The above example demonstrates practical color analysis by examining the intensity ranges of each channel and selectively enhancing the most prominent one. It's particularly useful for automatic image enhancement based on the dominant colors in landscape or nature photography.
 
 ## Example 3: Creating Custom Color Effects
 
