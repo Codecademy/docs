@@ -200,7 +200,7 @@ This scientific example showcases how `.subplots()` can be used to compare diffe
 
 ### 1. What's the difference between `.subplots()` and `.subplot()`?
 
-`.subplots()` creates a figure and all subplots at once, returning the figure and axes objects, while `.subplot()` creates or selects individual subplots one at a time within the current figure. `.subplots()` is more convenient for creating multiple subplots simultaneously.
+The `.subplots()` function creates a figure and all subplots at once, returning the figure and axes objects, while `.subplot()` creates or selects individual subplots one at a time within the current figure. `.subplots()` is more convenient for creating multiple subplots simultaneously.
 
 ### 2. How do I access individual subplots when using a 2D grid?
 
