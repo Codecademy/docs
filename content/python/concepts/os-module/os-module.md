@@ -98,8 +98,8 @@ os.function_name()  # No parameters for info functions
 **Parameters:**
 
 - `path`: String representing file or directory path
-- `variable_name`: String representing environment variable name
-- `default_value`: Optional default value if environment variable doesn't exist
+- `variable_name`: String representing the environment variable name
+- `default_value`: Optional default value if the environment variable doesn't exist
 - `optional_parameters`: Function-specific parameters like `exist_ok`, `mode`, etc.
 
 ## Frequently Asked Questions
