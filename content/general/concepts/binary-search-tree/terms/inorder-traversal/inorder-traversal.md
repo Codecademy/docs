@@ -46,8 +46,6 @@ inorder_traversal(node):
 
 This algorithm does not return a value but processes each node in the tree. The processing operation (such as printing or collecting values) determines the output.
 
-**Pictorial representation:**
-
 ## Example
 
 For the following binary search tree:
