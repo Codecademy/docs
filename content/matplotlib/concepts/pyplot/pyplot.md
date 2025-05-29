@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**`pyplot`** is a state-based interface module in the matplotlib library that provides a MATLAB-like way of plotting in Python. It serves as the primary entry point for creating plots and visualizations by offering a collection of functions that make changes to a figure, such as creating a figure, creating a plotting area in a figure, plotting lines, decorating the plot with labels, and more. The module maintains an internal state that tracks the current figure and axes, allowing users to build plots incrementally without explicitly managing figure objects.
+The **`pyplot`** is a state-based interface module in the matplotlib library that provides a MATLAB-like way of plotting in Python. It serves as the primary entry point for creating plots and visualizations by offering a collection of functions that make changes to a figure, such as creating a figure, creating a plotting area in a figure, plotting lines, decorating the plot with labels, and more. The module maintains an internal state that tracks the current figure and axes, allowing users to build plots incrementally without explicitly managing figure objects.
 
 `pyplot` is widely used in data science, scientific computing, academic research, and business analytics for creating static, animated, and interactive visualizations. It's particularly popular for exploratory data analysis, creating publication-quality plots, generating reports with embedded charts, and building dashboards. The module's simple syntax makes it ideal for quick plotting tasks, prototyping visualizations, and educational purposes where users need to create plots with minimal code.
 
