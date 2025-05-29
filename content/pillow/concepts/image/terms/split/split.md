@@ -71,7 +71,7 @@ The following outputs will be created by this code:
 
 ![Image showing blue channel as grayscale](https://raw.githubusercontent.com/Codecademy/docs/main/media/blue_channel.jpg)
 
-This example takes a color image and separates it into three distinct channels. Each resulting channel is displayed as a grayscale image where brighter areas indicate higher intensity of that particular color in the original image. The red channel will appear bright in areas that were predominantly red in the original image, and similarly for green and blue channels.
+The above example takes a color image and separates it into three distinct channels. Each resulting channel is displayed as a grayscale image where brighter areas indicate higher intensity of that particular color in the original image. The red channel will appear bright in areas that were predominantly red in the original image, and similarly for green and blue channels.
 
 ## Example 2: Color Channel Analysis
 
