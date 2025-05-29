@@ -133,7 +133,7 @@ This example shows how to use `math.Hypot()` to calculate the Euclidean distance
 
 ## Example 3: Handling Special Cases
 
-This example demonstrates how `math.Hypot()` handles special cases including infinite values and `NaN`:
+This example demonstrates how `math.Hypot()` handles special cases, including infinite values and `NaN`:
 
 ```go
 package main
