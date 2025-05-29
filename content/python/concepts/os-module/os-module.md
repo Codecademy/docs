@@ -74,7 +74,7 @@ The `subprocess` module is generally preferred over `os.system()` for production
 
 ## Permissions and Metadata
 
-The `os` module includes functions for managing file permissions and accessing detailed file metadata, essential for system administration tasks.
+The `os` module includes functions for managing file permissions and accessing detailed file metadata, which are essential for system administration tasks.
 
 - `os.chmod()`: Changes file permissions using numeric mode values
 - `os.stat()`: Returns detailed file metadata including size, permissions, and timestamps
