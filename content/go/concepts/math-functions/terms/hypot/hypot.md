@@ -186,7 +186,7 @@ This example illustrates how `math.Hypot()` gracefully handles edge cases, retur
 
 ### 1. What's the difference between using `math.Hypot()` and manually calculating `math.Sqrt(x*x + y*y)`?
 
-`math.Hypot()` provides better precision and handles overflow/underflow cases more robustly. For very large or very small numbers, manual calculation might result in overflow or loss of precision, while `math.Hypot()` is specifically designed to avoid these issues.
+`math.Hypot()` provides better precision and more robustly handles overflow/underflow cases. Manual calculation might result in overflow or loss of precision for very large or very small numbers, while `math.Hypot()` is specifically designed to avoid these issues.
 
 ### 2. Can I use `math.Hypot()` with integer values?
 
