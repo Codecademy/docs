@@ -44,7 +44,7 @@ Common pyplot functions include:
 
 ## Example 1: Basic Line Plot using `pyplot`
 
-This example demonstrates the fundamental usage of pyplot to create a simple line plot, which is the most common starting point for data visualization:
+This example demonstrates the fundamental usage of `pyplot` to create a simple line plot, which is the most common starting point for data visualization:
 
 ```py
 import matplotlib.pyplot as plt
