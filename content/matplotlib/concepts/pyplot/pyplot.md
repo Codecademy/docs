@@ -113,7 +113,7 @@ The output of this code will be:
 
 ![A vertical bar chart showing monthly sales data from January to June, with bars in sky blue and edge outlines in navy. Each bar has a dollar value label above it. The chart is titled 'Monthly Sales Performance – Q1 & Q2 2024', with x-axis labeled 'Month' and y-axis labeled 'Sales ($)'](https://raw.githubusercontent.com/Codecademy/docs/main/media/pyplot-output-2.png)
 
-This example demonstrates practical business use of pyplot for sales analysis. It creates a professional-looking bar chart with customized colors, value labels, grid lines, and proper formatting. The `plt.tight_layout()` function ensures all elements fit properly within the figure boundaries.
+This example demonstrates the practical business use of pyplot for sales analysis. It creates a professional-looking bar chart with customized colors, value labels, grid lines, and proper formatting. The `plt.tight_layout()` function ensures all elements fit properly within the figure boundaries.
 
 ## Frequently Asked Questions
 
