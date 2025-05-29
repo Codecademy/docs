@@ -1,19 +1,17 @@
 ---
-Title: 'Key_Comp'
-Description: 'The key_comp() method in C++ is used to return a copy of the comparison object(key_compare) that was provided when the container was constructed.'
+Title: '.key_comp()'
+Description: 'Returns a copy of the comparison object used by the container to order its keys.'
 Subjects:
   - 'Computer Science'
-  - 'iOS'
   - 'Developer Tools'
-  - 'Information Technology'
-  - 'Code Foundations'
 Tags:
-  - 'Data Structures'
-  - 'Data Distribution'
   - 'Data'
+  - 'Data Distribution'
+  - 'Data Structures'
   - 'iOS'
 CatalogContent:
-  - 'path/computer-science'
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 The **key_comp()** is used to return a copy of the comparison function object(key_compare) used by the container.  
