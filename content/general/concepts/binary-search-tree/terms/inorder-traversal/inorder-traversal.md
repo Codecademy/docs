@@ -15,9 +15,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Inorder traversal** is a depth-first traversal [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) used to visit nodes in a binary search tree in a specific sequential order: left subtree, root node, then right subtree. This traversal technique follows the Left-Root-Right pattern, making it particularly valuable for binary search trees as it visits nodes in ascending sorted order.
+**Inorder traversal** is a depth-first traversal [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) used to visit nodes in a [binary search tree](https://www.codecademy.com/resources/docs/general/binary-search-tree) in a specific sequential order: left subtree, root node, then right subtree. This traversal technique follows the Left-Root-Right pattern, making it particularly valuable for binary search trees as it visits nodes in ascending sorted order.
 
-Inorder traversal is widely used in various applications including expression evaluation in compiler design, creating sorted arrays from binary search trees, validating binary search tree properties, and implementing iterator patterns for tree data structures. It serves as a fundamental operation in tree algorithms and is essential for tasks requiring ordered data processing.
+Inorder traversal is widely used in various applications including expression evaluation in compiler design, creating sorted arrays from binary search trees, validating binary search tree properties, and implementing iterator patterns for tree data structures. It is a fundamental operation in tree algorithms and is essential for tasks requiring ordered data processing.
 
 ## Syntax
 
