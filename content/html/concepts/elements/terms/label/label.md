@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<label>`** element is used to identify captions for other elements. It is commonly used with [form](https://www.codecademy.com/resources/docs/html/forms) UI elements such as [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input/input.md) and [`<select>`](https://www.codecademy.com/resources/docs/html/elements/select).
+The **`<label>`** element is used to identify captions for other elements. It is commonly used with [form](https://www.codecademy.com/resources/docs/html/forms) UI elements such as [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input) and [`<select>`](https://www.codecademy.com/resources/docs/html/elements/select).
 
 ## Syntax
 
