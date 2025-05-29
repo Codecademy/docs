@@ -18,7 +18,7 @@ The **`.key_comp()`** function returns a copy of the comparison function object 
 
 ## Syntax
 
-```C++
+```pseudo
 Key_compare key_comp() const;```
 
 - 'Key_compare' is the comparison function object
