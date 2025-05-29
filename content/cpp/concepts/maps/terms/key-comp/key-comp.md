@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **key_comp()** is used to return a copy of the comparison function object(key_compare) used by the container.  
+The **`.key_comp()`** function returns a copy of the comparison function object (typically `key_compare`) used by the container to order its keys.
 
 ## Syntax
 
