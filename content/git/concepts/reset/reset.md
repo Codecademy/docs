@@ -38,7 +38,7 @@ More specifically, these modes include:
 - `--mixed`: In addition to moving the `HEAD` pointer to an earlier commit, the staging area is cleared to reflect the changes made in that commit (this runs by default).
 - `--hard`: This goes one step further and resets the working tree to reflect the previous commit reflected in the staging area and the `HEAD` pointer.
 
-If, for example, an error was made in a text file,`example.txt`, and the changes were accidentally [added](https://www.codecademy.com/resources/docs/git/add) and [committed](codecademy.com/resources/docs/git/commit), `git reset` can be used to go back to the state before that commit was made.
+If, for example, an error was made in a text file,`example.txt`, and the changes were accidentally [added](https://www.codecademy.com/resources/docs/git/add) and [committed](https://www.codecademy.com/resources/docs/git/commit), `git reset` can be used to go back to the state before that commit was made.
 
 ### Referencing Commits
 
