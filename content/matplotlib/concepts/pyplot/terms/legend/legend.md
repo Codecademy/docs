@@ -168,7 +168,7 @@ The output of this code will be:
 
 ![Multi-column Styled Legend](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-legend-styled.png)
 
-This example plots five different mathematical functions and creates a styled legend with three columns positioned at the top center of the plot. The legend includes a title, shadow, custom background color, and border. This type of legend is useful for visualizations with multiple data series that need to be clearly identified.
+This example plots five different mathematical functions and creates a styled legend with three columns positioned at the top centre of the plot. The legend includes a title, shadow, custom background color, and border. This type of legend is useful for visualizations with multiple data series that need to be clearly identified.
 
 ## Frequently Asked Questions
 
