@@ -51,7 +51,7 @@ The `os` module provides access to system environment variables, enabling progra
 - `os.getenv()`: Safely retrieves environment variables with optional default values
 - `os.putenv()`: Sets environment variables for the current process
 
-> **Note:** Exercise caution when modifying environment variables as changes may affect system behavior and security.
+> **Note:** Be careful when changing environment variables, as these modifications can influence system behavior and security.
 
 ## Process and System Info
 
