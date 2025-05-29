@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.legend()`** method in Matplotlib's pyplot module creates a legend for plots by labeling different elements on a graph. A legend helps users identify what each line, marker, or other graphical element represents in the visualization. The `.legend()` function places descriptive text labels alongside representative samples of the plot elements, making it easier to interpret data visualizations.
+The **`.legend()`** method in Matplotlib's [pyplot](https://www.codecademy.com/resources/docs/matplotlib/pyplot) module creates a legend for plots by labelling different elements on a graph. A legend helps users identify what each line, marker, or other graphical element represents in the visualization. The `.legend()` function places descriptive text labels alongside representative samples of the plot elements, making it easier to interpret data visualizations.
 
 Legends are particularly useful when working with multiple data series in a single plot, allowing viewers to distinguish between different datasets, categories, or variables. The `.legend()` method provides extensive customization options for positioning, styling, and organizing the legend to enhance the readability and professional appearance of visualizations.
 
