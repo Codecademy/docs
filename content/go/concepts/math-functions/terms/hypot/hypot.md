@@ -118,7 +118,7 @@ func main() {
 }
 ```
 
-The output of this code is:
+The output of the above code is:
 
 ```shell
 Point A: (1.0, 2.0)
