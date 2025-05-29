@@ -1,69 +1,211 @@
 ---
 Title: '.subplots()'
-Description: 'Adds a given number of subplots to a matplotlib figure.'
+Description: 'Creates a figure and a grid of subplots with a single function call.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
 Tags:
-  - 'Graphs'
-  - 'Libraries'
+  - 'Functions'
   - 'Matplotlib'
+  - 'Subplots'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
 
-The **`.subplots()`** method returns a figure with multiple subplots. This method is an efficient way to create popular subplot layouts with a high-level and concise syntax.
+The **`.subplots()`** function is a convenient utility in [`matplotlib.pyplot`](https://www.codecademy.com/resources/docs/matplotlib/pyplot) that creates a figure and a grid of subplots in a single call. It provides an efficient way to set up multiple plotting areas within one figure, allowing for organized visualization of different datasets or various views of the same data. This function is beneficial when creating complex layouts with multiple charts while maintaining consistency in figure management.
+
+The primary use cases for `.subplots()` include creating side-by-side comparisons of different datasets, displaying multiple views or transformations of the same data, building dashboard-style visualizations with multiple charts, and organizing related plots in a structured grid layout. It's commonly used in data analysis workflows where multiple related visualizations need to be presented together for comparison or comprehensive analysis.
 
 ## Syntax
 
 ```pseudo
-pyplot.subplots(nrows, ncols)
+matplotlib.pyplot.subplots(nrows=1, ncols=1, *, sharex=False, sharey=False, squeeze=True, width_ratios=None, height_ratios=None, subplot_kw=None, gridspec_kw=None, **fig_kw)
 ```
 
-`.subplots()` has the following parameters:
+**Parameters:**
 
-|   Parameter Name   | Data Type(s)                                                        | Usage                                                                                                                                                                                                                                |
-| :----------------: | :------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|  `nrows`, `ncols`  | int                                                                 | The quantity of rows and/or columns within the grid of subplots. Defaults to 1.                                                                                                                                                      |
-| `sharex`, `sharey` | bool or one of the following arguments: 'none', 'all', 'row', 'col' | `sharex` and `sharey` control the sharing of properties among x or y axis of subplots. Shared x-axis or y-axis allows for creating tick labels only on the bottom subplot or first column subplot, respectively. Default is `False`. |
-|     `squeeze`      | bool                                                                | Removes additional dimensions from the array of `Axes` when set to `True` (default). If set to `False`, it will always return a 2D array of `Axes` instances.                                                                        |
-|   `width_ratios`   | input of length (`ncols`)                                           | Defines the proportional width of columns, each column width is given by width_ratios[i] / sum(width_ratios). By default, all columns have equal width.                                                                              |
-|  `height_ratios`   | array-like input of length (`nrows`)                                | Sets the proportional height of rows, dividing the total height among them. If not provided, all rows have an equal height.                                                                                                          |
-|    `subplot_kw`    | dict                                                                | Dictionary that includes keywords that are passed to the `add_subplot` method, which is used to generate each subplot.                                                                                                               |
-|   `gridspec_kw`    | dict                                                                | Dictionary that contains keywords passed to the `GridSpec` constructor for creating the grid where subplots are positioned.                                                                                                          |
-|     `**fig_kw`     |                                                                     | Any other keyword arguments are passed to the `pyplot.figure` method.                                                                                                                                                                |
+- `nrows`: Number of rows in the subplot grid (default: `1`)
+- `ncols`: Number of columns in the subplot grid (default: `1`)
+- `sharex`: Controls sharing of x-axis properties among subplots. Can be `False`, `True`, `'all'`, `'none'`, `'row'`, or `'col'` (default: `False`)
+- `sharey`: Controls sharing of y-axis properties among subplots. Can be `False`, `True`, `'all'`, `'none'`, `'row'`, or `'col'` (default: `False`)
+- `squeeze`: If `True`, removes single-dimensional entries from the shape of the returned axes object (default: `True`)
+- `width_ratios`: Defines relative widths of columns as a sequence of numbers
+- `height_ratios`: Defines relative heights of rows as a sequence of numbers
+- `subplot_kw`: Dictionary of keyword arguments passed to `add_subplot()` for each subplot
+- `gridspec_kw`: Dictionary of keyword arguments passed to the `GridSpec` constructor
+- `**fig_kw`: Additional keyword arguments passed to the `pyplot.figure()` call
 
-## Example
+**Return value:**
 
-The following example returns a `1` x `2` grid of `Axes` with a pair of sinusoidal plots.
+The `.subplots()` function returns a tuple containing:
+
+- `fig`: The `Figure` object
+- `ax` or `axs`: The `Axes` object(s). For a single subplot, returns a single `Axes` object. For multiple subplots, returns a numpy array of `Axes` objects.
+
+## Example 1: Basic Subplot Creation using `.subplots()`
+
+This example demonstrates the fundamental usage of `.subplots()` to create a simple 1x2 grid of plots:
 
 ```py
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Create some sample data
+# Create sample data
 x = np.linspace(0, 10, 100)
 y1 = np.sin(x)
 y2 = np.cos(x)
 
-# Create a figure with two subplots, arranged vertically
-fig, axs = plt.subplots(2, 1, figsize=(8, 6), layout="constrained")
+# Create figure with 1 row and 2 columns
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4))
 
-# Plot the first subplot (top)
-axs[0].plot(x, y1)
-axs[0].set_title('Sine Plot')
-axs[0].set_ylabel('y-axis')
+# Plot on first subplot
+ax1.plot(x, y1, 'b-', linewidth=2)
+ax1.set_title('Sine Wave')
+ax1.set_xlabel('x')
+ax1.set_ylabel('sin(x)')
+ax1.grid(True)
 
-# Plot the second subplot (bottom)
-axs[1].plot(x, y2)
-axs[1].set_title('Cosine Plot')
-axs[1].set_xlabel('x-axis')
-axs[1].set_ylabel('y-axis')
+# Plot on second subplot
+ax2.plot(x, y2, 'r-', linewidth=2)
+ax2.set_title('Cosine Wave')
+ax2.set_xlabel('x')
+ax2.set_ylabel('cos(x)')
+ax2.grid(True)
 
-# Display the figure
+# Adjust spacing between subplots
+plt.tight_layout()
 plt.show()
 ```
 
-The output is shown below:
-![Output](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-subplots-example.png)
+The output generated by this code will be:
+
+![Side-by-side line plots of sine and cosine waves with labelled axes and grid lines](https://raw.githubusercontent.com/Codecademy/docs/main/media/subplots-1.png)
+
+This example creates two side-by-side plots showing sine and cosine waves. The `.subplots()` function returns a figure object and a tuple of two axes objects, which are unpacked into `ax1` and `ax2`. Each subplot can be customized independently using its own title, labels, and grid settings.
+
+## Example 2: Sales Data Comparison Dashboard
+
+This example shows how to use `.subplots()` to create a business dashboard comparing quarterly sales data across different metrics:
+
+```py
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Sample quarterly sales data
+quarters = ['Q1', 'Q2', 'Q3', 'Q4']
+revenue = [125000, 150000, 175000, 200000]
+units_sold = [1250, 1400, 1600, 1800]
+profit_margin = [0.15, 0.18, 0.22, 0.25]
+
+# Create a 2x2 grid of subplots
+fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(12, 8))
+
+# Revenue bar chart
+ax1.bar(quarters, revenue, color='skyblue', alpha=0.7)
+ax1.set_title('Quarterly Revenue')
+ax1.set_ylabel('Revenue ($)')
+ax1.tick_params(axis='y', labelcolor='blue')
+
+# Units sold line chart
+ax2.plot(quarters, units_sold, marker='o', color='green', linewidth=3)
+ax2.set_title('Units Sold per Quarter')
+ax2.set_ylabel('Units')
+ax2.grid(True, alpha=0.3)
+
+# Profit margin trend
+ax3.plot(quarters, profit_margin, marker='s', color='red', linewidth=2)
+ax3.set_title('Profit Margin Trend')
+ax3.set_ylabel('Profit Margin')
+ax3.set_ylim(0, 0.3)
+
+# Combined revenue and units (dual y-axis concept)
+ax4_twin = ax4.twinx()
+bars = ax4.bar(quarters, revenue, alpha=0.6, color='lightblue', label='Revenue')
+line = ax4_twin.plot(quarters, units_sold, 'ro-', label='Units')
+ax4.set_title('Revenue vs Units Sold')
+ax4.set_ylabel('Revenue ($)', color='blue')
+ax4_twin.set_ylabel('Units Sold', color='red')
+
+# Adjust layout to prevent overlap
+plt.tight_layout()
+plt.show()
+```
+
+The output generated by this code will be:
+
+![2x2 grid showing revenue, units sold, profit margin, and a combined revenue-units chart for quarterly sales data](https://raw.githubusercontent.com/Codecademy/docs/main/media/subplots-2.png)
+
+This example demonstrates a real-world business scenario where multiple related metrics need to be visualized together. The 2x2 grid layout allows for easy comparison of different aspects of sales performance, making it ideal for executive dashboards or quarterly reports.
+
+## Example 3: Scientific Data Visualization
+
+This example illustrates using `.subplots()` for scientific data analysis, showing different mathematical functions and their properties:
+
+```py
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Generate data for mathematical functions
+x = np.linspace(-5, 5, 1000)
+linear = x
+quadratic = x**2
+cubic = x**3
+exponential = np.exp(x/2)
+
+# Create 2x2 subplot grid with shared axes
+fig, axes = plt.subplots(2, 2, figsize=(10, 8), sharex=True)
+
+# Flatten axes array for easier iteration
+axes = axes.flatten()
+
+# Function data and properties
+functions = [
+  (linear, 'Linear Function', 'y = x', 'blue'),
+  (quadratic, 'Quadratic Function', 'y = x²', 'red'),
+  (cubic, 'Cubic Function', 'y = x³', 'green'),
+  (exponential, 'Exponential Function', 'y = e^(x/2)', 'purple')
+]
+
+# Plot each function
+for i, (y_data, title, equation, color) in enumerate(functions):
+  axes[i].plot(x, y_data, color=color, linewidth=2, label=equation)
+  axes[i].set_title(title)
+  axes[i].grid(True, alpha=0.3)
+  axes[i].legend()
+
+  # Add y-label only to left column
+  if i % 2 == 0:
+    axes[i].set_ylabel('y')
+
+  # Add x-label only to bottom row
+  if i >= 2:
+    axes[i].set_xlabel('x')
+
+# Set overall title
+fig.suptitle('Mathematical Functions Comparison', fontsize=16, fontweight='bold')
+
+# Adjust layout
+plt.tight_layout()
+plt.show()
+```
+
+The output generated by this code will be:
+
+![2x2 grid of line plots comparing linear, quadratic, cubic, and exponential functions with titles and legends](https://raw.githubusercontent.com/Codecademy/docs/main/media/subplots-3.png)
+
+This scientific example showcases how `.subplots()` can be used to compare different mathematical functions in a systematic way. The shared x-axis (`sharex=True`) ensures all plots use the same x-range, making comparison easier. This approach is common in research papers and educational materials where multiple related functions or datasets need to be presented together.
+
+## Frequently Asked Questions
+
+### 1. What's the difference between `.subplots()` and `.subplot()`?
+
+The `.subplots()` function creates a figure and all subplots at once, returning the figure and axes objects, while `.subplot()` creates or selects individual subplots one at a time within the current figure. `.subplots()` is more convenient for creating multiple subplots simultaneously.
+
+### 2. How do I access individual subplots when using a 2D grid?
+
+For a 2D grid, the axes are returned as a 2D numpy array. Access them using indices like `axes[0, 1]` for row 0, column 1, or use `axes.flatten()` to convert to a 1D array for easier iteration.
+
+### 3. Can I create subplots with different sizes?
+
+Yes, use the `width_ratios` and `height_ratios` parameters to specify relative sizes. For example, `width_ratios=[2, 1]` makes the first column twice as wide as the second.
