@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Breadth-first search (BFS)** is a traversing algorithm for unweighted graphs. This is a foundational algorithm in [graph](https://www.codecademy.com/resources/docs/general/graph) theory from which many other algorithms start.
+**Breadth-first search (BFS)** is a traversing algorithm for unweighted graphs. This is a foundational algorithm in [graph](https://www.codecademy.com/resources/docs/general/graphs) theory from which many other algorithms start.
 
 ## Features
 
