@@ -108,7 +108,7 @@ Inorder traversal result:
 20 30 40 50 60 70 80
 ```
 
-This example creates a binary search tree with seven nodes and performs inorder traversal. The traversal visits nodes in the following order: left subtree (20, 30, 40), root (50), then right subtree (60, 70, 80), resulting in the sorted sequence: 20 30 40 50 60 70 80.
+This example creates a binary search tree with seven nodes and performs an inorder traversal. The traversal visits nodes in the following order: left subtree (20, 30, 40), root (50), then right subtree (60, 70, 80), resulting in the sorted sequence: 20 30 40 50 60 70 80.
 
 ## Example 2: Student Grade Management System
 
