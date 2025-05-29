@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.subplots()`** function is a convenient utility in matplotlib.pyplot that creates a figure and a grid of subplots in a single call. It provides an efficient way to set up multiple plotting areas within one figure, allowing for organized visualization of different datasets or various views of the same data. This function is particularly useful when you need to create complex layouts with multiple charts while maintaining consistency in figure management.
+The **`.subplots()`** function is a convenient utility in [`matplotlib.pyplot`](https://www.codecademy.com/resources/docs/matplotlib/pyplot) that creates a figure and a grid of subplots in a single call. It provides an efficient way to set up multiple plotting areas within one figure, allowing for organized visualization of different datasets or various views of the same data. This function is beneficial when creating complex layouts with multiple charts while maintaining consistency in figure management.
 
 The primary use cases for `.subplots()` include creating side-by-side comparisons of different datasets, displaying multiple views or transformations of the same data, building dashboard-style visualizations with multiple charts, and organizing related plots in a structured grid layout. It's commonly used in data analysis workflows where multiple related visualizations need to be presented together for comparison or comprehensive analysis.
 
