@@ -119,7 +119,7 @@ This example demonstrates the practical business use of pyplot for sales analysi
 
 ### 1. What is the difference between `pyplot` and `matplotlib`?
 
-`matplotlib` is the entire plotting library, while `pyplot` is a specific module within matplotlib that provides a MATLAB-like interface. `pyplot` is the most commonly used part of `matplotlib` for creating quick plots and interactive visualizations.
+The `matplotlib` is the entire plotting library, while `pyplot` is a specific module within matplotlib that provides a MATLAB-like interface. `pyplot` is the most commonly used part of `matplotlib` for creating quick plots and interactive visualizations.
 
 ### 2. Do I need to call `plt.show()` every time?
 
@@ -131,7 +131,7 @@ Yes, you can create multiple separate plots by calling `plt.figure()` before eac
 
 ### 4. How do I save plots instead of displaying them?
 
-Use `plt.savefig('filename.png')` before `plt.show()`. You can save in various formats including PNG, PDF, SVG, and JPEG by changing the file extension.
+Use `plt.savefig('filename.png')` before `plt.show()`. You can save in various formats, including PNG, PDF, SVG, and JPEG, by changing the file extension.
 
 ### 5. Is pyplot suitable for complex, multi-panel figures?
 
