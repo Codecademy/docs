@@ -23,7 +23,7 @@ The **`pyplot`** is a state-based interface module in the matplotlib library tha
 
 1. **Import the module**: `import matplotlib.pyplot as plt`
 2. **Prepare data**: Create or load the data to be plotted
-3. **Create plot**: Use plotting functions like `plt.plot()`, [`plt.scatter()`](https://www.codecademy.com/resources/docs/matplotlib/pyplot/scatter), [`plt.bar()`](https://www.w3schools.com/python/matplotlib_pyplot.asp), etc.
+3. **Create plot**: Use plotting functions like `plt.plot()`, `plt.scatter()`, `plt.bar()`, etc.
 4. **Customize plot**: Add labels, titles, legends using functions like `plt.xlabel()`, `plt.title()`, `plt.legend()`
 5. **Display plot**: Use `plt.show()` to display the plot or `plt.savefig()` to save it
 
