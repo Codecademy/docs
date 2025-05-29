@@ -209,7 +209,7 @@ This example shows advanced usage of `json.load()` with custom parsing functions
 
 ### 1. What is the difference between `json.load()` and `json.loads()`?
 
-`json.load()` reads JSON data from a file-like object, while `json.loads()` parses JSON data from a string. Use `json.load()` when working with files and `json.loads()` when working with JSON strings in memory.
+`json.load()` reads JSON data from a file-like object, while `json.loads()` parses JSON data from a string. Use `json.load()` when working with files and `json.loads()` with JSON strings in memory.
 
 ### 2. How do I handle file encoding issues with `json.load()`?
 
