@@ -30,9 +30,9 @@ CatalogContent:
 Common pyplot functions include:
 
 - `plt.plot()`: Creates line plots and scatter plots
-- `plt.bar()`: Creates bar charts
+- [`plt.bar()`](https://www.codecademy.com/resources/docs/matplotlib/pyplot/bar): Creates bar charts
 - [`plt.hist()`](https://www.codecademy.com/resources/docs/matplotlib/pyplot/hist): Creates histograms
-- `plt.scatter()`: Creates scatter plots
+- [`plt.scatter()`](https://www.codecademy.com/resources/docs/matplotlib/pyplot/scatter): Creates scatter plots
 - `plt.xlabel()`: Sets x-axis label
 - `plt.ylabel()`: Sets y-axis label
 - `plt.title()`: Sets plot title
