@@ -1,6 +1,6 @@
 ---
 Title: 'os Module'
-Description: 'Provides functions for interacting with the operating system including file operations, environment variables, and process management.'
+Description: 'Provides functions for interacting with the operating system, including file operations, environment variables, and process management.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
