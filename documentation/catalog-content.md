@@ -1,13 +1,13 @@
 # Catalog Content
 
-The [metadata](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#standards-metadata), located at the top of the file, should include **two** slugs. Preferably:
+The [metadata](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#standards-metadata), located at the top of the file, should include **two** *slugs*. Preferably:
 
-- A free course
-- A Pro course/Path
+- A **free** course
+- A **Pro** course/Path
 
-These slugs may vary for different topics.
+These *slugs* may vary for different topics.
 
-Feel free to add suggestions for new slugs to the lists as part of your PR! Be sure to insert them alphabetically.
+Feel free to add suggestions for new *slugs* to the lists as part of your PR! Be sure to insert them alphabetically.
 
 ## C
 
