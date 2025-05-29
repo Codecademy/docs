@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Hypot()`** function in Go calculates the Euclidean distance (hypotenuse) between two points in a coordinate system. It returns the square root of the sum of the squares of two given numbers, mathematically expressed as `sqrt(x² + y²)`. This function is particularly useful in geometric calculations, distance measurements, and mathematical computations where precision and overflow handling are crucial.
+The **`math.Hypot()`** function in Go calculates the Euclidean distance (hypotenuse) between two points in a coordinate system. It returns the square root of the sum of the squares of two given numbers, mathematically expressed as `sqrt(x² + y²)`. This function is particularly useful in geometric calculations, distance measurements, and mathematical computations where precision and overflow handling are crucial.
 
 The `.Hypot()` function is commonly used in computer graphics, game development, physics simulations, navigation systems, and any application requiring distance calculations between two points. It provides a robust implementation that handles edge cases like infinite values and `NaN` (Not a Number) gracefully, making it reliable for production applications.
 
