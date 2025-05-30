@@ -119,7 +119,7 @@ The output will be:
 
 ### 1. Can I use animated cursors in CSS?
 
-Yes, but browser support is limited for this type of cursors. You can use `.ani` files in Internet Explorer. Modern browsers typically support `.cur` and `.png`.
+Yes, but browser support is limited for these types of cursors. You can use `.ani` files in Internet Explorer. Modern browsers typically support `.cur` and `.png`.
 
 ### 2. Does the `cursor` property affect touch devices?
 
