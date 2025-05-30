@@ -1,22 +1,22 @@
 ---
 Title: '.ones()'
-Description: 'Creates a new array of a given shape and type, filled with ones.'
+Description: 'Creates a new array of the given shape and type, filled with ones.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Linear Algebra'
   - 'Arrays'
-  - 'NumPy'
   - 'Functions'
+  - 'Linear Algebra'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-In NumPy, the **`.ones()`** function creates a new array of a given shape and type, filled with ones.
+In NumPy, the **`.ones()`** function creates a new array of the given shape and type, filled with ones.
 
-This function is particularly useful when you need to initialize an array with a placeholder value of 1, which you might later multiply by another value or use in various numerical computations.
+This function is particularly useful when there is a need to initialize an array with a placeholder value of `1`, which might be multiplied by another value or used in various numerical computations later.
 
 ## Syntax
 
@@ -24,9 +24,9 @@ This function is particularly useful when you need to initialize an array with a
 numpy.ones(shape, dtype=None, order='C', *, like=None)
 ```
 
-## Parameters
+**Parameters:**
 
-`shape`: int or tuple of int
+`shape`: `int` or tuple of `int`
 
 - Defines the dimensions of the new array.
 - If an int, a 1-D array of that length is created.
@@ -46,17 +46,19 @@ numpy.ones(shape, dtype=None, order='C', *, like=None)
 
 `like`: array_like, optional (New in version 1.20.0)
 
-- Reference object to allow the creation of arrays that are not NumPy arrays.
+- Reference object to enable the creation of arrays that are not NumPy arrays.
 - If an array_like passed to like supports the `__array_function__` protocol, the result will be defined by it.
 - If None (default), a standard NumPy array is returned.
 
-## Return
+**Return value:**
 
 `out`: ndarray
 
-- An array of ones with the given shape, dtype, and order
+- An array of ones of the given shape, `dtype`, and order.
 
 ## Example
+
+This example demonstrates the usage of the `.ones()` function:
 
 ```py
 import numpy as np
@@ -78,10 +80,9 @@ arr3 = np.ones((2, 3, 2))
 print("\nArray 3:\n", arr3)
 print("Data type of Array 3:", arr3.dtype)
 print("Shape of Array 3:", arr3.shape)
-
 ```
 
-## Output
+Here is the output:
 
 ```shell
 Array 1:
