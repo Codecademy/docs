@@ -287,8 +287,9 @@ Preprocessor
 Primary Key
 Print
 Probability
-Promise
 Programming
+Promise
+Prompts
 Properties
 Protocols
 Python
