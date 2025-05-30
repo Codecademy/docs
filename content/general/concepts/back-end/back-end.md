@@ -42,7 +42,7 @@ Back-End Developers use a range of technologies and software, many of which fall
 
 ### Databases
 
-Databases are used to storing important data such as user information. Popular database management systems and [relational databases](https://www.codecademy.com/resources/docs/general/relational-database) include:
+Databases are used to storing important data such as user information. Popular database management systems and [relational databases](https://www.codecademy.com/resources/docs/general/database/relational-database) include:
 
 - [MySQL](https://www.mysql.com/)
 - [MongoDB](https://www.mongodb.com/)
