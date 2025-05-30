@@ -20,7 +20,7 @@ These smaller windows are known as "browsing contexts", because the [URL](https:
 
 ## Example
 
-The example features an `<iframe>` tag with the URL from the National Park Service passed to the `src` attribute. Additionally, it is advisable and [accessibility-friendly](https://www.codecademy.com/resources/docs/uiux/accessibility) to include alternative text inside the element in the event a problem occurs.
+The example features an `<iframe>` tag with the URL from the National Park Service passed to the `src` attribute. Additionally, it is advisable and [accessibility-friendly](https://www.codecademy.com/resources/docs/uiux/design-methodologies/accessibility) to include alternative text inside the element in the event a problem occurs.
 
 ```html
 <iframe
