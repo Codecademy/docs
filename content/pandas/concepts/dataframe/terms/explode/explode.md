@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In the pandas module, the **`.explode()`** method transforms each element of a list-like column (such as lists, tuples, or arrays) into separate rows, while replicating the corresponding index values. This is especially helpful when working with columns that contain nested or iterable data that needs to be flattened for further analysis.
+In Pandas, the **`.explode()`** method transforms each element of a list-like column (such as lists, tuples, or arrays) into separate rows, while replicating the corresponding index values. This is especially helpful when working with columns that contain nested or iterable data that needs to be flattened for further analysis.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ DataFrame.explode(column, ignore_index=False)
 
 **Parameters:**
 
-- `column` (str or tuple): Specifies the name of the column to explode. The column must contain list-like elements such as lists, tuples, or arrays.
+- `column` (string or tuple): Specifies the name of the column to explode. The column must contain list-like elements such as lists, tuples, or arrays.
 - `ignore_index` (Optional): If set to `True`, the resulting DataFrame will have a new integer index ranging from `0` to `n - 1`. If `False`, the original index labels are retained and repeated as necessary.
 
 **Return value:**
@@ -39,8 +39,8 @@ The example below shows how to expand a column containing lists into multiple ro
 import pandas as pd
 
 df = pd.DataFrame({
-    'Name': ['Alice', 'Bob'],
-    'Hobbies': [['Reading', 'Cycling'], ['Painting']]
+  'Name': ['Alice', 'Bob'],
+  'Hobbies': [['Reading', 'Cycling'], ['Painting']]
 })
 
 exploded_df = df.explode('Hobbies')
@@ -57,18 +57,18 @@ A possible output of this code is:
 1    Bob  Painting
 ```
 
-The code above takes the `Hobbies` column, which contains lists, and creates one row for each item in the list, while preserving the associated values in the `Name` column.
+The code takes the `Hobbies` column, which contains lists, and creates one row for each item in the list, while preserving the associated values in the `Name` column.
 
 ## Codebyte Example
 
-In this codebyte example, we explode a column with tuple values:
+In this codebyte example, a column is exploded with tuple values:
 
 ```codebyte/python
 import pandas as pd
 
 df = pd.DataFrame({
-    'ID': [1, 2],
-    'Scores': [(90, 80), (75, 85)]
+  'ID': [1, 2],
+  'Scores': [(90, 80), (75, 85)]
 })
 
 exploded_df = df.explode('Scores')
@@ -78,6 +78,7 @@ print(exploded_df)
 
 Tuples are also treated as list-like by `.explode()`.
 
-> **Note:** `.explode()` is available in pandas version 0.25.0 and later.
-
-> **Note:** Cells with non-list-like values (e.g., strings, numbers) are not exploded and appear as-is in the resulting DataFrame.
+> **Notes:**
+>
+> - `.explode()` is available in Pandas version 0.25.0 and later.
+> - Cells with non-list-like values (e.g., strings, numbers) are not exploded and appear as-is in the resulting DataFrame.
