@@ -24,8 +24,8 @@ hashMap.put(key, value);
 
 **Parameters:**
 
-- `key`: the key with which the specified value is to be associated.
-- `value`: the value to be associated with the specified key.
+- `key`: The key with which the given value is to be associated.
+- `value`: The value to be associated with the specified key.
 
 **Return value:**
 
