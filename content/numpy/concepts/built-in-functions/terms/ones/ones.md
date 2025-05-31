@@ -26,35 +26,18 @@ numpy.ones(shape, dtype=None, order='C', *, like=None)
 
 **Parameters:**
 
-`shape`: `int` or tuple of `int`
-
-- Defines the dimensions of the new array.
-- If an int, a 1-D array of that length is created.
-- If a tuple of ints, an array with those dimensions is created (e.g., (2, 3) for a 2x3 array).
-
-`dtype`: data-type, optional
-
-- The desired data type for the array elements.
-- If not specified, it defaults to numpy.float64.
-- Examples: numpy.int32, numpy.bool_, float.
-
-`order`: {'C', 'F'}, optional, default: 'C'
-
-- Specifies whether to store multi-dimensional data in row-major (C-style) or column-major (Fortran-style) order in memory.
-- 'C' means C-contiguous order (row-major).
-- 'F' means Fortran-contiguous order (column-major).
-
-`like`: array_like, optional (New in version 1.20.0)
-
-- Reference object to enable the creation of arrays that are not NumPy arrays.
-- If an array_like passed to like supports the `__array_function__` protocol, the result will be defined by it.
-- If None (default), a standard NumPy array is returned.
+- `shape` (`int` or tuple of `int`): Defines the dimensions of the new array.
+  - If an int, a 1-D array of that length is created.
+  - If a tuple of ints, an array with those dimensions is created (e.g., (2, 3) for a 2x3 array).
+- `dtype` (optional): The desired data type for the array elements. Defaults to `float64`. Examples: `int32`, `bool_`, `float`.
+- `order`: ({'C', 'F'}, optional): Controls whether the array is stored in row-major or column-major memory layout.
+  - `'C'` (default): Row-major (C-style)
+  - `'F'`: Column-major (Fortran-style)
+- `like`(array_like, optional): Reference object for creating arrays not strictly of NumPy type. If `None`, a NumPy array is returned. New in NumPy 1.20.
 
 **Return value:**
 
-`out`: ndarray
-
-- An array of ones of the given shape, `dtype`, and order.
+- `out` (ndarray): An array of ones of the given shape, `dtype`, and order.
 
 ## Example
 
@@ -107,4 +90,28 @@ Array 3:
    [1. 1.]]]
 Data type of Array 3: float64
 Shape of Array 3: (2, 3, 2)
+```
+
+## Codebyte Example: Add Bias Term to a Feature Matrix in Machine Learning
+
+In many machine learning algorithms (like linear regression), there need to add a bias column of 1s to the input feature matrix. Here's how `numpy.ones()` can be used:
+
+```codebyte/python
+import numpy as np
+
+# Feature matrix (e.g., 4 samples with 3 features each)
+X = np.array([
+    [5.1, 3.5, 1.4],
+    [4.9, 3.0, 1.4],
+    [6.2, 3.4, 5.4],
+    [5.9, 3.0, 5.1]
+])
+
+# Create a column of ones for the bias term
+bias = np.ones((X.shape[0], 1))
+
+# Concatenate bias and features
+X_with_bias = np.hstack((bias, X))
+
+print("Feature Matrix with Bias Term:\n", X_with_bias)
 ```
