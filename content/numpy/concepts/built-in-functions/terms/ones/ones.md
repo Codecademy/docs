@@ -33,7 +33,7 @@ numpy.ones(shape, dtype=None, order='C', *, like=None)
 - `order`: ({'C', 'F'}, optional): Controls whether the array is stored in row-major or column-major memory layout.
   - `'C'` (default): Row-major (C-style)
   - `'F'`: Column-major (Fortran-style)
-- `like`(array_like, optional): Reference object for creating arrays not strictly of NumPy type. If `None`, a NumPy array is returned. New in NumPy 1.20 version.
+- `like`(array_like, optional): Reference object for creating arrays not strictly of NumPy type. If `None`, a NumPy array is returned.
 
 **Return value:**
 
