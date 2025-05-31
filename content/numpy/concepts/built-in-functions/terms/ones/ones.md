@@ -101,10 +101,10 @@ import numpy as np
 
 # Feature matrix (e.g., 4 samples with 3 features each)
 X = np.array([
-    [5.1, 3.5, 1.4],
-    [4.9, 3.0, 1.4],
-    [6.2, 3.4, 5.4],
-    [5.9, 3.0, 5.1]
+  [5.1, 3.5, 1.4],
+  [4.9, 3.0, 1.4],
+  [6.2, 3.4, 5.4],
+  [5.9, 3.0, 5.1]
 ])
 
 # Create a column of ones for the bias term
