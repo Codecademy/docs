@@ -79,6 +79,7 @@ Concatenation
 Conceptual
 Const
 Constructors
+Containers
 Continue
 Counting Sort
 Control Flow
@@ -95,6 +96,7 @@ Data Parallelism
 Data Structures
 Data Types
 Database
+DataFrame
 DataLoader
 Datasets
 Date
@@ -139,6 +141,7 @@ Events
 Event Handling
 Exceptions
 Expo
+Exponential
 Express
 Extensions
 Favicon
@@ -334,6 +337,7 @@ Stacks
 Static Site
 Statistics
 Statsmodels
+STL
 Storage
 Strict Mode
 Stringr
@@ -341,6 +345,7 @@ Strings
 Structure
 Style
 Stochastic Gradient Descent
+Subplots
 Subqueries
 Supervised Learning
 Swift
@@ -399,7 +404,6 @@ Visibility
 VR
 Vue
 Web3
-Exponential
 WebRTC
 Weight & Bias
 While
