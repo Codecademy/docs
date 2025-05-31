@@ -94,7 +94,7 @@ Shape of Array 3: (2, 3, 2)
 
 ## Codebyte Example: Add Bias Term to a Feature Matrix in Machine Learning
 
-In many machine learning algorithms (like linear regression), there need to add a bias column of 1s to the input feature matrix. Here's how `numpy.ones()` can be used:
+In many machine learning algorithms (like linear regression), there is a need to add a bias column of 1s to the input feature matrix. Here's how `numpy.ones()` can be used:
 
 ```codebyte/python
 import numpy as np
