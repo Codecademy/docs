@@ -1,6 +1,6 @@
 ---
 Title: '.min()'
-Description: ''
+Description: 'Returns the minimum value of an array or along an axis of that array.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,11 +13,26 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+The NumPy function **`.min()`** returns the minimum value of an array, or the minimum value of a specific axis in an array.
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+```pseudo
+numpy.min(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)
+```
+
+**Parameters:**
+
+- `a`: The input array or sequence of numbers. This is the data that `.min()` uses to find the minimum value.
+- `axis` (optional): An integer or tuple of integer defining the axis or axes
+- `out`(optional):
+- `keepdims`(optional):
+- `initial`(optional):
+- `where`(optional):
+
+**Return value:**
+
+- `min`:
 
 ## Example
 
