@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The NumPy **`.resize()`** function returns a new array with the specified shape and size. If the new size is larger than the original, the data is repeated cyclically; if smaller, the data is truncated. This function does not modify the original array.
+The NumPy **`.resize()`** function returns a new array with the given shape and size. If the new size is larger than the original, the data is repeated cyclically; if smaller, the data is truncated. This function does not modify the original array.
 
 > **Note:** When only the shape needs to be changed without altering the size, [`.reshape()`](https://www.codecademy.com/resources/docs/numpy/built-in-functions/reshape) is recommended for better performance and clearer intent.
 
