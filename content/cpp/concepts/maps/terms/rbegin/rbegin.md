@@ -5,6 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'Functions'
   - 'Iterators'
   - 'Maps'
   - 'STL'
@@ -13,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.rbegin()`** function is used to obtain a reverse iterator pointing to the last element of a container, such as in a vector, map, or other standard containers. This allows iteration from the end toward the beginning of the container. The `.rbegin()` function is typically used in conjunction with the `rend()` function, which returns a reverse iterator pointing just before the first element of the container (i.e., the reverse end).
+In C++, the **`.rbegin()`** function is used to obtain a reverse iterator pointing to the last element of a container, such as a vector, map, or other standard containers. This allows iteration from the end toward the beginning of the container. The `.rbegin()` function is typically used in conjunction with the `.rend()` function, which returns a reverse iterator pointing just before the first element of the container (i.e., the reverse end).
 
 ## Syntax
 
@@ -23,13 +24,15 @@ container.rbegin();
 
 **Parameters:**
 
-The `rbegin()` function takes no parameters.
+The `.rbegin()` function takes no parameters.
 
 **Return value:**
 
-The function returns a reverse iterator pointing to the last element of the container. If the container is empty, the returned iterator will be equal to `rend()`, indicating that there are no elements to iterate over in reverse.
+The function returns a reverse iterator that points to the last element of the container. If the container contains no elements, the returned iterator will be equal to `.rend()`, indicating that there are no elements to iterate over in reverse.
 
 ## Example
+
+The following exmaple demonstrates the usage of the `.rbegin()` function:
 
 ```cpp
 #include <iostream>
@@ -54,7 +57,7 @@ two: 2
 one: 1
 ```
 
-The `.rbegin()` function is used to obtain a reverse iterator pointing to the last element of the map. The loop iterates over the elements in reverse order, printing each key-value pair. The output shows the elements in reverse order compared to their original insertion order.
+The `.rbegin()` function is used to obtain a reverse iterator that refers to the last element of the map. The loop iterates over the elements in reverse order, printing each key-value pair. The output shows the elements in reverse order compared to their original insertion order.
 
 ## Codebyte Example
 
