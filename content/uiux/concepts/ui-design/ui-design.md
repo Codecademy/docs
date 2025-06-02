@@ -22,12 +22,12 @@ UI design considerations include:
 - **Interaction design**: How do elements respond to user interaction?
 - **Brand identity**: How do all of the visual elements come together to represent the brand's vision?
 - **Responsiveness and usability**: Is the interface easy to use across different devices?
-- **[Accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) and [inclusivity](https://www.codecademy.com/resources/docs/uiux/inclusive-design)**: Does the interface work for everyone?
+- **[Accessibility](https://www.codecademy.com/resources/docs/uiux/design-methodologies/accessibility) and [inclusivity](https://www.codecademy.com/resources/docs/uiux/inclusive-design)**: Does the interface work for everyone?
 - **[Front-end](https://www.codecademy.com/resources/docs/general/front-end) development**: What is the technical backbone powering the interface?
 
 ![Examples of user interfaces on differently sized screens: smartphones, laptops, a large monitor, and a smart watch.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/what-are-ui-ux-design/devices.png)
 
-UI designers are focused on the design of user interfaces, or what will appear on a device's screen through which a user interacts. This role is most responsible for the [visceral](https://www.interaction-design.org/literature/article/norman-s-three-levels-of-design) experience of the product, ensuring it sets its best foot forward and makes a good impression on users. UI designers are usually most involved later in the product development process, with creating the "surface" of the product as described by the [Five Elements of UX Design](https://www.codecademy.com/resources/docs/uiux/five-elements-of-ux-design).
+UI designers are focused on the design of user interfaces, or what will appear on a device's screen through which a user interacts. This role is most responsible for the [visceral](https://www.interaction-design.org/literature/article/norman-s-three-levels-of-design) experience of the product, ensuring it sets its best foot forward and makes a good impression on users. UI designers are usually most involved later in the product development process, with creating the "surface" of the product as described by the [Five Elements of UX Design](https://www.codecademy.com/resources/docs/uiux/design-methodologies/five-elements-of-ux-design).
 
 ![The Five Elements of UX Design, from concrete to abstract: Surface, Skeleton, Structure, Scope, and Strategy, with UX design encompassing the entire process, and UI design focused on the Surface.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/five-elements-of-ux-design.svg)
 

@@ -28,8 +28,6 @@ The following example showcases the `.dirname()` method using a Codecademy [URL]
 
 ```codebyte/python
 import os.path
-
 url = "https://www.codecademy.com/learn/learn-python-3"
-
 print(os.path.dirname(url))
 ```
