@@ -1,12 +1,12 @@
 ---
-Title: '.floor()'
+Title: 'math.floor()'
 Description: 'Rounds a number down to the nearest integer.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
-  - 'Math'
   - 'Functions'
+  - 'Math'
   - 'Numbers'
 CatalogContent:
   - 'learn-lua'
@@ -122,17 +122,17 @@ print("==========================================")
 
 for i = 1, #originalPrices do
   local originalPrice = originalPrices[i]
-  
+
   -- Calculate discount amount
   local discountAmount = originalPrice * discountRate
-  
+
   -- Calculate discounted price
   local discountedPrice = originalPrice - discountAmount
-  
+
   -- Use math.floor to round down to nearest cent
   -- Multiply by 100, floor, then divide by 100 for cents precision
   local flooredPrice = math.floor(discountedPrice * 100) / 100
-  
+
   print(string.format("$%.2f -> $%.2f", originalPrice, flooredPrice))
 end
 
@@ -142,7 +142,7 @@ local totalDiscounted = 0
 
 for i = 1, #originalPrices do
   totalOriginal = totalOriginal + originalPrices[i]
-  
+
   local discountedPrice = originalPrices[i] * (1 - discountRate)
   local flooredPrice = math.floor(discountedPrice * 100) / 100
   totalDiscounted = totalDiscounted + flooredPrice
@@ -186,7 +186,7 @@ print("================================================")
 for i = 1, #negativeValues do
   local value = negativeValues[i]
   local flooredValue = math.floor(value)
-  
+
   print(string.format("math.floor(%.1f) = %d", value, flooredValue))
 end
 
@@ -199,7 +199,7 @@ local testValues = {2.3, -2.3, 5.7, -5.7}
 for i = 1, #testValues do
   local value = testValues[i]
   local flooredValue = math.floor(value)
-  
+
   if value > 0 then
     print(string.format("Positive: math.floor(%.1f) = %d", value, flooredValue))
   else
