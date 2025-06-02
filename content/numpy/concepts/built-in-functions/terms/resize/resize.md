@@ -71,7 +71,7 @@ Run this code to see how `.resize()` works with different sizes and shapes:
 import numpy as np
 
 # Create a 1D array with 5 elements
-arr = np.array([1, 2, 3, 4, 5])
+arr = np.array([11, 22, 33, 44, 55])
 
 # Resize the 1D array to a smaller 1D array with 3 elements
 smaller_arr = np.resize(arr, 3)
