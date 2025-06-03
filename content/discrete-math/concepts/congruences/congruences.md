@@ -40,6 +40,7 @@ Explanation:
   ```
 
   - _m_ stands for modulus.
+
 - Two integers are congruent `mod _m_` if and only if they have the same remainder on being divided by `_m_`.
 - If _a_ is not congruent to _b_ modulo _m_ then it is denoted by:
 
