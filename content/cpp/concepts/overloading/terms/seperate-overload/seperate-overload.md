@@ -77,7 +77,7 @@ In this example:
 
 The following codebyte example overloads the plus (`+`) operator using friend functions to support both `Distance + value` and `value + Distance`. It demonstrates how separate overloads are defined to handle different operand orders. Compile the code to see the output of both operations.
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 using namespace std;
 
