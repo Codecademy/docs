@@ -43,7 +43,11 @@ a \equiv b \pmod{m}
   - _m_ stands for modulus.
 
 - Two integers are congruent `mod _m_` if and only if they have the same remainder on being divided by `_m_`.
-- If _a_ is not congruent to _b_ modulo _m_ then it is denoted by $$a \not\equiv b \pmod{m}$$.
+- If _a_ is not congruent to _b_ modulo _m_ then it is denoted by:
+
+```tex
+a \not\equiv b \pmod{m}
+```
 
 ### Example
 
@@ -84,7 +88,7 @@ ax \equiv b \pmod{m}
 A congruence relation is reflexive if for any integers:
 
 ```tex
-a \equiv a \pmod{m} \text{for any integer } a \text{ and positive integer } m.
+a \equiv a \pmod{m} \text{ for any integer } a \text{ and positive integer } m.
 ```
 
 ### Symmetric Property
