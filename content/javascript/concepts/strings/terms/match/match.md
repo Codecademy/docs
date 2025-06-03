@@ -25,7 +25,8 @@ string.match(regex)
 
 ## Example
 
-Take the following example:
+In the following example, a string [variable](https://www.codecademy.com/resources/docs/javascript/variables) called `paragraph` contains a sentence. `regex` defines a regular expression (regex) to match all uppercase letters in the string
+Then, the `.match()` method applies the regular expression to the string and returns an array of all the matches.
 
 ```js
 const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
@@ -33,7 +34,7 @@ const regex = /[A-Z]/g;
 console.log(paragraph.match(regex));
 ```
 
-The above code produces the following output:
+The above code finds all uppercase letters in the `paragraph` string and produces the following output:
 
 ```shell
 ["T", "I"]
