@@ -33,19 +33,38 @@ If _a_ and _b_ are integers and _m_ is a positive integer, then _a_ is congruent
 
 Explanation:
 
-- The notation $$a \equiv b \pmod{m}$$ says that _a_ is congruent to _b_ modulo _m_.
-- _m_ stands for modulus.
+- The notation:
+
+  ```tex
+  a \equiv b \ (\mathrm{mod}\ m)$$ says that _a_ is congruent to _b_ modulo _m_
+  ```
+
+  - _m_ stands for modulus.
+
 - Two integers are congruent `mod _m_` if and only if they have the same remainder on being divided by `_m_`.
-- If _a_ is not congruent to _b_ modulo _m_ then it is denoted by $$a \not\equiv b \pmod{m}$$.
+- If _a_ is not congruent to _b_ modulo _m_ then it is denoted by:
+
+```tex
+a \not\equiv b \pmod{m}
+```
 
 ### Example
 
 Suppose _a_ is 17 and _b_ is 5. To check if _a_ is congruent to _b_ modulo _m_:
 
-1. $$17 \equiv 5 \pmod{6}$$
-2. $$6 \text{ divides } 17 - 5 = 12$$
+```tex
+17 \equiv 5 \pmod{6} \
+```
 
-Solution: $$17 \equiv 5 \pmod{6}$$ because 6 divides $$17 - 5 = 12$$
+```tex
+6 \text{ divides } 17 - 5 = 12 \
+```
+
+Solution:
+
+```tex
+17 \equiv 5 \pmod{6} \ because \ 6 \mid (17 - 5 = 12) \
+```
 
 ## Congruence Properties
 
@@ -53,7 +72,13 @@ Congruence properties pertain to the equivalence relation between integers where
 
 ### Linear Congruences
 
-Linear congruence is a special form of congruence denoted by $$ax \equiv b \pmod{m}$$, where _x_ denotes an integer variable. Similar to previous cases of congruence, _a_ and _b_ are integers and _m_ is modulo.
+Linear congruence is a special form of congruence denoted by:
+
+```tex
+ax \equiv b \pmod{m}
+```
+
+- where _x_ denotes an integer variable. Similar to previous cases of congruence, _a_ and _b_ are integers and _m_ is modulo.
 
 Here, _m_ is a positive integer. Solution of congruence stands for all the values of integer _x_ which are satisfied.
 
@@ -62,7 +87,7 @@ Here, _m_ is a positive integer. Solution of congruence stands for all the value
 A congruence relation is reflexive if for any integers:
 
 ```tex
-a \equiv a \pmod{m} \text{for any integer } a \text{ and positive integer } m.
+a \equiv a \pmod{m} \text{ for any integer } a \text{ and positive integer } m.
 ```
 
 ### Symmetric Property
