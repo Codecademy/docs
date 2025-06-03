@@ -33,12 +33,13 @@ If _a_ and _b_ are integers and _m_ is a positive integer, then _a_ is congruent
 
 Explanation:
 
-- The notation:
+```tex
+a \equiv b \pmod{m}
+```
 
-  ```tex
-  a \equiv b \ (\mathrm{mod}\ m)$$ says that _a_ is congruent to _b_ modulo _m_
-  ```
+- In the notation:
 
+  - _a_ is congruent to _b_ modulo _m_.
   - _m_ stands for modulus.
 
 - Two integers are congruent `mod _m_` if and only if they have the same remainder on being divided by `_m_`.
@@ -53,17 +54,17 @@ a \not\equiv b \pmod{m}
 Suppose _a_ is 17 and _b_ is 5. To check if _a_ is congruent to _b_ modulo _m_:
 
 ```tex
-17 \equiv 5 \pmod{6} \
+17 \equiv 5 \pmod{6}
 ```
 
 ```tex
-6 \text{ divides } 17 - 5 = 12 \
+6 \text{ divides } 17 - 5 = 12
 ```
 
 Solution:
 
 ```tex
-17 \equiv 5 \pmod{6} \ because \ 6 \mid (17 - 5 = 12) \
+17 \equiv 5 \pmod{6} \text{ because } 6 \text{ divides } 17 - 5 = 12
 ```
 
 ## Congruence Properties
@@ -78,9 +79,9 @@ Linear congruence is a special form of congruence denoted by:
 ax \equiv b \pmod{m}
 ```
 
-- where _x_ denotes an integer variable. Similar to previous cases of congruence, _a_ and _b_ are integers and _m_ is modulo.
+- Where _x_ denotes an integer variable. Similar to previous cases of congruence, _a_ and _b_ are integers and _m_ is modulo.
 
-Here, _m_ is a positive integer. Solution of congruence stands for all the values of integer _x_ which are satisfied.
+- Here, _m_ is a positive integer. Solution of congruence stands for all the values of integer _x_ which are satisfied.
 
 ### Reflexive Property
 
