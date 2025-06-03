@@ -13,7 +13,7 @@ CatalogContent:
 
 In C++, each operator overload is treated as a separate function based on its parameter types and order. If the order of operands changes, the compiler expects a different function. Even when performing the same operation, C++ does not automatically reverse or convert the arguments.
 
-This is common when working with binary operators (like `+`) between a class and a built-in type. For example, to support both SomeClass + someValue and `someValue + SomeClass`, two separate overloads must be written.
+This is common when working with binary operators (like `+`) between a class and a built-in type. For example, to support both `SomeClass + someValue` and `someValue + SomeClass`, two separate overloads must be written.
 
 ## Syntax
 
@@ -37,22 +37,25 @@ ClassName operator+(SomeType value, const ClassName& obj);
 The following example demonstrates how to overload a binary operator in both operand orders for a class named `Score`. This supports operations like `Score + int` and `int + Score`:
 
 ```cpp
+#include <iostream>
+using namespace std;
+
 class Score {
-private:
-  int points;
+  private:
+    int points;
 
-public:
-  Score(int p) : points(p) {}
+  public:
+    Score(int p) : points(p) {}
 
-  void display() const {
-    cout << "Points: " << points << endl;
-  }
+    void display() const {
+      cout << "Points: " << points << endl;
+    }
 
-  // Friend function for Score + int
-  friend Score operator+(const Score& s, int extra);
+    // Friend function for Score + int
+    friend Score operator+(const Score& s, int extra);
 
-  // Friend function for int + Score
-  friend Score operator+(int extra, const Score& s);
+    // Friend function for int + Score
+    friend Score operator+(int extra, const Score& s);
 };
 
 // Definition for Score + int
@@ -64,6 +67,25 @@ Score operator+(const Score& s, int extra) {
 Score operator+(int extra, const Score& s) {
   return Score(extra + s.points);
 }
+
+int main() {
+  Score s1(50);
+
+  Score result1 = s1 + 20;
+  Score result2 = 30 + s1;
+
+  result1.display();
+  result2.display();
+
+  return 0;
+}
+```
+
+The above example will result in the following output:
+
+```shell
+Points: 70
+Points: 80
 ```
 
 In this example:
