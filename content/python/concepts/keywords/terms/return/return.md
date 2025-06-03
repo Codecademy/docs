@@ -1,44 +1,73 @@
 ---
-Title: 'The Title' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A brief description.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'paths/example-path'
+Title: 'return'
+Description: 'Used to send a value to the caller and exiting the function' 
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags: 
+  - 'Arguments'
+  - 'Functions'
+  - 'Parameters'
+  - 'Python'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+The **`return`** keyword in Python is used inside a [function](https://www.codecademy.com/resources/docs/python/functions) to stop its execution and send a value back to the caller.
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+```py
+def function_name():
+    return value
+```
+The code snippet above shows the syntax for defining function in Python. Functions are defined using the `def` keyword, followed by the function name and parentheses.
+
+The `return` keyword is used to return a value and must be written in lowercase. Writing it in any other format (such as `Return` or `RETURN`) will result in a SyntaxError.
+
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+In this example, the `sum()` function returns the sum of the two input values:
 
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+```py
+def sum(a, b):
+    result = a + b
+    return result
+print (sum(3, 4)) #Output: 7
 ```
+
+The `get_user()` function demonstrates that you can return multiple values by separating them with commas:
+```py
+def get_user():
+    firstname = "Jane"
+    lastname = "Doe"
+    age = 30
+    return firstname, lastname, age
+
+user_firstname, user_lastname, user_age = get_user()
+print(user_firstname)  # Output: Jane
+print(user_lastname)  # Output: Doe
+print(user_age)   # Output: 30
+```
+
+## Codebyte Example
+
+The `return` keyword can be used to exit a function early. When used without a value, it implicitly returns `None` (which means no value is returned):
+
+```codebyte/python
+# Change the value of num and click run to see how the function output changes.
+
+num = 10
+
+def check_positive(x):
+    if x < 0:
+        print("Number is negative, stopping early.")
+        return  # exit early, returns None implicitly
+    print("Number is positive or zero.")
+    return x
+
+print("Returned value:", check_positive(num))
+```
+---
