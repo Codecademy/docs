@@ -2,17 +2,16 @@
 Title: '.zeros()'
 Description: 'creates a new array filled with zeros'
 Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+  - 'Data Visualization'
+  - 'Machine Learning'
   - 'AI'
-  - 'Data Structures'
-  - 'Linear Algebra'
-  - 'NumPy'
-  - 'Python'
 Tags: 
   - 'Data Structures'
   - 'Linear Algebra'
   - 'NumPy'
   - 'Python'
-  - 'AI'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
