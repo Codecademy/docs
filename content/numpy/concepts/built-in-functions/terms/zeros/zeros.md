@@ -23,7 +23,7 @@ CatalogContent:
 **`.zeros()`**  is a NumPy function used to create a new array of a specified shape, filled entirely with zeros. It is commonly used to initialize arrays before assigning them meaningful data.
 
 ## Syntax 
-```python
+```pseudo
 numpy.zeros(shape, dtype=float, order='C') 
 
 
