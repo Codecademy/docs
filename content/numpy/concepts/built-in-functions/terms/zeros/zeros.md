@@ -2,11 +2,11 @@
 Title: '.zeros()'
 Description: 'creates a new array filled with zeros'
 Subjects:
+  - 'AI'
   - 'Computer Science'
   - 'Data Science'
   - 'Data Visualization'
   - 'Machine Learning'
-  - 'AI'
 Tags: 
   - 'Data Structures'
   - 'Linear Algebra'
