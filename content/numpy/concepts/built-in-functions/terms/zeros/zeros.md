@@ -8,11 +8,11 @@ Subjects:
   - 'Data Visualization'
   - 'Machine Learning'
 Tags: 
+  - 'AI'
   - 'Data Structures'
   - 'Linear Algebra'
   - 'NumPy'
   - 'Python'
-  - 'AI'
 CatalogContent:
   - 'Learn-Statistics-with-NumPy'
   - 'Paths/Analyze-Data-with-Python'
