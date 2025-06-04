@@ -1,6 +1,6 @@
 ---
 Title: '.min()'
-Description: 'Finds the minimum value of an array or specific parts of an array.'
+Description: 'Finds the minimum value in an array or along a specified axis of an array.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The NumPy function **`.min()`** returns the minimum value of an array. It can find the minimum value of an entire array, the minimum value of selected elements, or the minimum values along specific axes.
+The NumPy function **`.min()`** returns the minimum value in an array. It can compute the minimum of the entire array, the minimum along specific axes, or the minimum of selected elements if indexing or conditions are applied.
 
 ## Syntax
 
@@ -23,22 +23,27 @@ numpy.min(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where
 
 **Parameters:**
 
-- `a`: The input array or sequence of numbers where `.min()` finds the minimum value.
-- `axis` (optional): An integer, or tuple of integers, specifying which axis to look for the minimum value. For a 2D array, `axis=0` would return the minimum value of each column, while `axis=1` would return the minimum value of each row. A tuple like `axis=(0, 1)` would return the minimum across both axes.
-- `out` (optional): An alternative array where the minimum value can be placed. The array has to have the same shape as `.min()`'s output.
-- `keepdims` (optional): A bool determining whether to keep the same number of dimensions as `a`. If `keepdims=True`, the return value will have the same number of dimensions as `a`, which makes it possible to do operations with `a` and the result.
-- `initial` (optional): A number determining the starting value for the comparison. The function `.min()` starts with `initial` as the current minimum value until it finds a smaller value in `a`.
-- `where` (optional): A boolean condition that determines which elements of the array to include. The parameter `initial` has to be specified when using `where`.
+- `a`: The input array or sequence of numbers from which the minimum value is to be determined.
+- `axis` (optional): Axis or axes along which to compute the minimum.
+  - `axis=0` returns minimums for each column (vertical).
+  - `axis=1` returns minimums for each row (horizontal).
+  - A tuple like `(0, 1)` computes over multiple axes (e.g., the entire array for a 2D input).
+- `out` (optional): Alternative output array to store the result. Must have the same shape as the expected output.
+- `keepdims` (optional): If `True`, retains reduced dimensions with size 1. This is useful for broadcasting in further operations.
+- `initial` (optional): Starting value for the comparison. Useful when using `where` or to set a baseline minimum.
+- `where` (optional): A boolean mask array that specifies elements to include in the comparison. If used, `initial` must be provided to avoid empty comparisons.
 
 **Return value:**
 
-- `min`: The minimum value of `a`. If `axis` isn't used, the result will be a single number (the minimum value of the whole array). If `axis` is used, the result will be an array with the same number of dimensions as the original array minus the number of specified axes (where each value is the minimum for each slice).
+- `min`: The minimum value of `a`.
+  - If `axis` is `None`, returns the overall minimum as a scalar.
+  - If `axis` is specified, returns an array with the minimum values along the given axis (or axes). The shape is reduced accordingly, unless `keepdims=True`.
 
 ## Example
 
-This example shows how to find the minimum value of an entire array and along specific axes.
+This example shows how to find the minimum value of an entire array and along specific axes:
 
-```python
+```py
 import numpy as np
 
 # Create a 2D array
@@ -82,7 +87,7 @@ The minimum value of each row:
 
 ## Codebyte Example
 
-Run this code to see how `.min()` works with the `where` parameter.
+Run the following code to understand how the `.min()` works with the `where` parameter:
 
 ```codebyte/python
 import numpy as np
