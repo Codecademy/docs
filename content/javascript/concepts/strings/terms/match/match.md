@@ -28,8 +28,8 @@ If the regular expression does not include the “g” flag, it returns the Arra
 
 ## Example
 
-In the following example, a string variable called `paragraph` contains a sentence. `regex` defines a regular expression (regex) to match all uppercase letters in the string
-Then, the `.match()` method applies the regular expression to the string and returns an array of all the matches.
+In the following example, a string variable called `paragraph` contains a sentence. `regex` defines a regular expression (regex) to match all uppercase letters in the string.
+The `.match()` method applies the regular expression to the string and returns an array of all the matches.
 
 Find all the uppercase letters in the `paragraph` string:
 
