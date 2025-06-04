@@ -44,3 +44,5 @@ for number in numbers:
         break
     print(number * 2)
 ```
+
+In the example above, the for loop will stop when the condition is met. This is useful for searching lists and dictionaries for certain criteria and saves computation resources by not looping unnecessarily when the desired result is found.
