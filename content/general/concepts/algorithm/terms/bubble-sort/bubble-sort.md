@@ -14,16 +14,16 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Bubble Sort** is a simple, comparison-based algorithm used to arrange elements in an [array](https://www.codecademy.com/resources/docs/java/arrays) in a specific order. This process continues until the array is sorted, making it an intuitive method for sorting arrays.
+**Bubble Sort** is a simple, comparison-based algorithm for arranging elements in an [array](https://www.codecademy.com/resources/docs/java/arrays) in a specific order. This process continues until the array is sorted, making it an intuitive method for sorting arrays.
 
 **Key Characteristics:**
 
 - **Simplicity**: Bubble sort is straightforward to understand and implement.
 - **Inefficiency for Large Lists**: Not suitable for large datasets due to its O(n^2) time complexity.
-- **Stability**: Bubble sort is a stable algorithm, maintaining the relative order of equal elements.
+- **Stability**: Bubble sort is a stable algorithm that maintains the relative order of equal elements.
 - **Adaptive**: Can be optimized to stop early if the list is sorted before completing all passes, making it adaptive to the initial order of elements.
 
-## How Bubble Sort Works
+## How Bubble Sort Works?
 
 Bubble Sort is a straightforward algorithm that sorts an array by repeatedly comparing and swapping adjacent elements if they are in the wrong order. The steps of the Bubble Sort algorithm are as follows:
 
