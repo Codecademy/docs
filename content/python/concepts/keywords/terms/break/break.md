@@ -1,10 +1,24 @@
+---
+Title: 'break'
+Description: 'Used to exit for and while loops'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+  - 'Python'
+Tags:
+  - 'Loops'
+  - 'Break'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
+---
 **Break**
 ======
-The **break** keyword is used to exit a for loop or while loop.
+The **`break`** keyword is used to exit a [loop](https://codecademy.com/resources/docs/python/loops).
 
 **Syntax**
 ======
-```python
+```pseudo
 numbers = [1, 2, 3, 4, 5, 6, 7]
 for number in numbers:
     print(number)
@@ -13,7 +27,7 @@ for number in numbers:
         break;
 ```
 Output:
-```
+```pseudo
 1
 2
 3
