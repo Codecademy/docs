@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, the **`.match()`** [method](https://www.codecademy.com/resources/docs/javascript/methods), searches a string for a match against a regular expression, and returns the matches, as an Array object.
+The **`.match()`** method, searches a string for a match against a regular expression, and returns the matches, as an Array object.
 
 ## Syntax
 
@@ -23,21 +23,29 @@ string.match(regex)
 - `string`: The string to be matched.
 - `regex`: A regular expression object, or any object that has a Symbol.match method.
 
+If no parameter is passed, it will return an Array with an empty string: [""], because the parameter is then equivalent to match(/(?:)/).
+If the regular expression does not include the “g” flag, it returns the Array object with the result at index 0. If the “g” flag is used, the resulting Array object contains only the matches and nothing else.
+
 ## Example
 
-In the following example, a string [variable](https://www.codecademy.com/resources/docs/javascript/variables) called `paragraph` contains a sentence. `regex` defines a regular expression (regex) to match all uppercase letters in the string
+In the following example, a string variable called `paragraph` contains a sentence. `regex` defines a regular expression (regex) to match all uppercase letters in the string
 Then, the `.match()` method applies the regular expression to the string and returns an array of all the matches.
+
+Find all the uppercase letters in the `paragraph` string:
 
 ```js
 const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
 const regex = /[A-Z]/g;
 console.log(paragraph.match(regex));
+// Output: ["T", "I"]
 ```
 
-The above code finds all uppercase letters in the `paragraph` string and produces the following output:
-
-```shell
-["T", "I"]
+If the "g" flag is not used, it returns the Array object with the result at index 0:
+```js
+const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
+const regex = /[A-Z]/;
+console.log(paragraph.match(regex));
+// Output: ['T', index: 0, input: 'The quick brown fox jumps over the lazy dog. It barked.', groups: undefined]
 ```
 
 ## Codebyte Example
