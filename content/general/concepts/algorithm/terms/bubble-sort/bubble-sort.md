@@ -41,7 +41,7 @@ Here is an image that shows the Bubble Sort Algorithm in action:
 
 ![Bubble Sort Algorithm](https://raw.githubusercontent.com/Codecademy/docs/main/media/bubble-sort.png)
 
-In this example, the numbers in the array are visually represented. With each pass through the array, the largest number in the unsorted part bubbles up to its correct position at the end of the array. This process repeats, with the range of unsorted elements shrinking each time, until the entire array is sorted.
+The above image shows how Bubble Sort works step by step. It starts with the list `[5, 2, 8, 3]` and compares each pair of numbers. If the first number is bigger, they swap places. After the first round, the biggest number moves to the end. The second round compares and swaps until the next biggest number is in place. By the third round, no swaps are needed because everything is in the right order. The list is sorted as `[2, 3, 5, 8]`.
 
 ## Pseudocode for Bubble Sort
 
