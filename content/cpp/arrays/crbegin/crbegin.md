@@ -5,10 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Developer Tools'
 Tags:
+  - 'Arrays'
   - 'Data'
-  - 'Data Distribution'
   - 'Data Structures'
-  - 'iOS'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'path/computer-science'
