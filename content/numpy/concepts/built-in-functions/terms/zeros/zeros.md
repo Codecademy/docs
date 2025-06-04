@@ -14,8 +14,8 @@ Tags:
   - 'NumPy'
   - 'Python'
 CatalogContent:
-  - 'Learn-Statistics-with-NumPy'
-  - 'Paths/Analyze-Data-with-Python'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
  
 
