@@ -18,11 +18,15 @@ In the `random` module of NumPy, the **`.beta()`** method generates random sampl
 
 The Beta distribution has the probability function:
 
-$$f\left(x; \alpha, \beta \right) = \int \frac{1}{B\left(\alpha, \beta \right)} x^{\alpha -1} \left(1-x \right)^{\beta -1}$$
+```tex
+f\left(x; \alpha, \beta \right) = \int \frac{1}{B\left(\alpha, \beta \right)} x^{\alpha -1} \left(1-x \right)^{\beta -1}
+```
 
 Where `B` represents the beta function:
 
-$$B(\alpha, \beta) = \int_0^1 t^{\alpha -1} (1-t)^{\beta -1 } dt$$
+```tex
+B(\alpha, \beta) = \int_0^1 t^{\alpha -1} (1-t)^{\beta -1 } dt
+```
 
 ## Syntax
 
@@ -32,8 +36,8 @@ numpy.random.beta(a, b, size=None)
 
 **Parameters:**
 
-- `a` (float or array_like of floats): The alpha ($\alpha$) shape parameter. This must be a positive value.
-- `b` (float or array_like of floats): The beta ($\beta$) shape parameter. This must also be positive.
+- `a` (float or array_like of floats): The alpha shape parameter. This must be a positive value.
+- `b` (float or array_like of floats): The beta shape parameter. This must also be positive.
 - `size` (Optional): Defines the shape of the output array. If not provided, the behavior depends on whether `a` and `b` are scalars or arrays.
 
 **Return value:**
@@ -45,7 +49,7 @@ In NumPy, the `.beta()` function returns a randomly drawn sample or an array of 
 
 ## Example: Generating Random Values from a Beta Distribution
 
-The example below shows how to generate random values from a beta distribution configured with an $\alpha$ and $\beta$ value:
+The example below shows how to generate random values from a beta distribution configured with an alpha and beta value:
 
 ```py
 import numpy as np
@@ -62,13 +66,13 @@ A possible output of this code can be:
 [0.14092969 0.52861406 0.15658351 0.545189   0.47077243]
 ```
 
-This code randomly draws 5 values from a beta distribution with a $\alpha$ of 3 and a $\beta$ of 4.
+This code randomly draws 5 values from a beta distribution with an alpha of 3 and a beta of 4.
 
 > **Note:** The output may vary with each execution because the values are randomly generated.
 
 ## Codebyte Example
 
-In this codebyte example, we sample 5 values from a beta distribution with an $\alpha$ or (`a`) of 2 and a $\beta$ or (`b`) of 5:
+In this codebyte example, we sample 5 values from a beta distribution with an alpha or (`a`) of 2 and a beta or (`b`) of 5:
 
 ```codebyte/python
 import numpy as np
