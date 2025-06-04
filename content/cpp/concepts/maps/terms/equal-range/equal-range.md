@@ -1,6 +1,6 @@
 ---
 Title: '.equal_range()'
-Description: 'Returns a pair of iterators defining the range of elements with the given key'
+Description: 'Returns a pair of iterators defining the range of elements with the given key.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.equal_range()`** function returns a pair of iterators that define the range of elements matching a given key in an associative container. It is especially useful with `multimap`, where multiple elements can have the same key, allowing you to retrieve all of them efficiently. In a `map`, where keys are unique, the returned range will contain at most one element.
+In C++, the **`.equal_range()`** function returns a pair of iterators that define the range of elements matching a given key in an associative container. It is especially useful with `multimap`, where multiple elements can have the same key, allowing developers to retrieve all of them efficiently. In a `map`, where keys are unique, the returned range will contain at most one element.
 
 ## Syntax
 
@@ -34,7 +34,7 @@ mapName.equal_range(key);
 
 ## Example
 
-The following code uses `.equal_range` to find and print the element(s) with key 3 in a `std::map`:
+This code uses `.equal_range` to find and print the element(s) with key 3 in a `std::map`:
 
 ```cpp
 #include <iostream>
@@ -65,7 +65,7 @@ int main() {
 }
 ```
 
-Output produced by this code is:
+The output produced by this code is:
 
 ```shell
 Elements with key 3:
@@ -76,7 +76,7 @@ The code creates a `std::map` of integers to strings and uses the `.equal_range(
 
 ## Codebyte Example
 
-Run the following code to understand how the `.equal_range()` function works:
+Run this codebyte to understand how the `.equal_range()` function works:
 
 ```codebyte/cpp
 #include <iostream>
