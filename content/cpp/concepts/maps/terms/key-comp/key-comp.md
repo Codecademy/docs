@@ -69,8 +69,6 @@ int main() {
 
 The output of this code will be:
 
-This code results in the following output
-
 ```shell
   1 is less than 3
   2 is less than 3
