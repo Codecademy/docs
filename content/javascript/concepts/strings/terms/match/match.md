@@ -1,10 +1,11 @@
 ---
 Title: '.match()'
-Description: 'Returns an array with the items being matches from a provided regular expression found in the string.'
+Description: 'Returns an array of matches by matching the string against a regular expression.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
+  - 'Arrays'
   - 'Methods'
   - 'Strings'
 CatalogContent:
@@ -12,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.match()`** method, searches a string for a match against a regular expression, and returns the matches, as an Array object.
+The **`.match()`** method searches a string for matches against a regular expression and returns the result as an Array object. The `.match()` method is used in JavaScript to find parts of a string that match a regular expression. It is commonly applied in tasks such as extracting numbers or words, validating formats like email addresses, or parsing structured text.
 
 ## Syntax
 
@@ -20,40 +21,62 @@ The **`.match()`** method, searches a string for a match against a regular expre
 string.match(regex)
 ```
 
-- `string`: The string to be matched.
-- `regex`: A regular expression object, or any object that has a Symbol.match method.
+**Parameters:**
 
-If no parameter is passed, it will return an Array with an empty string: [""], because the parameter is then equivalent to match(/(?:)/).
-If the regular expression does not include the “g” flag, it returns the Array object with the result at index 0. If the “g” flag is used, the resulting Array object contains only the matches and nothing else.
+- `regex`: A regular expression object to match against the string.
 
-## Example
+**Return value:**
 
-In the following example, a string variable called `paragraph` contains a sentence. `regex` defines a regular expression (regex) to match all uppercase letters in the string.
-The `.match()` method applies the regular expression to the string and returns an array of all the matches.
+- **If the regular expression has the `g` flag:** Returns an array of all matches found, or `null` if no match is found.
+- **Without the `g` flag:** Returns an array with detailed information about the first match (including captured groups), or `null` if no match is found.
 
-Find all the uppercase letters in the `paragraph` string:
+## Example 1: Using `.match()` to Find Uppercase Letters in a String
+
+In the following example, a string variable `paragraph` contains a sentence, and `regex` defines a regular expression to match all uppercase letters. The `.match()` method applies this regex to the string and returns an array of all matches:
 
 ```js
 const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
 const regex = /[A-Z]/g;
 console.log(paragraph.match(regex));
-// Output: ["T", "I"]
+```
+
+The output of this code will be:
+
+```shell
+[ 'T', 'I' ]
 ```
 
 If the "g" flag is not used, it returns the Array object with the result at index 0:
+
 ```js
 const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
 const regex = /[A-Z]/;
 console.log(paragraph.match(regex));
-// Output: ['T', index: 0, input: 'The quick brown fox jumps over the lazy dog. It barked.', groups: undefined]
 ```
 
-## Codebyte Example
+The output of this code will be:
 
-Here is a codebyte example that demonstrates the usage of the `.match()` method:
+```shell
+[
+  'T',
+  index: 0,
+  input: 'The quick brown fox jumps over the lazy dog. It barked.',
+  groups: undefined
+]
+```
+
+## Example 2: Finding All Occurrences of a Word Using `.match()`
+
+This example demonstrates how to use the `.match()` method to find all occurrences of the word "Hello" in a string:
 
 ```codebyte/javascript
 const myStr = 'Hello Alligators, Hello Devs, how are you?';
 const regex = /Hello/g;
 console.log(myStr.match(regex))
+```
+
+The output of this code is:
+
+```shell
+[ 'Hello', 'Hello' ]
 ```
