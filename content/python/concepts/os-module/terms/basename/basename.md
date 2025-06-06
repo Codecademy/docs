@@ -28,8 +28,6 @@ The following example showcases the `.basename()` method using a Codecademy cour
 
 ```codebyte/python
 import os.path
-
 url = "https://www.codecademy.com/learn/learn-python-3"
-
 print(os.path.basename(url))
 ```
