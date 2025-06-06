@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.match()`** method searches a string for matches against a regular expression and returns the result as an Array object. The `.match()` method is used in JavaScript to find parts of a string that match a regular expression. It is commonly applied in tasks such as extracting numbers or words, validating formats like email addresses, or parsing structured text.
+The **`.match()`** method searches a string for matches against a regular expression and returns the result as an array object. The `.match()` method is used in JavaScript to find parts of a string that match a regular expression. It is commonly applied in tasks such as extracting numbers or words, validating formats like email addresses, or parsing structured text.
 
 ## Syntax
 
@@ -46,7 +46,7 @@ The output of this code will be:
 [ 'T', 'I' ]
 ```
 
-If the "g" flag is not used, it returns the Array object with the result at index 0:
+If the "g" flag is not used, it returns the array object with the result at index 0:
 
 ```js
 const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
