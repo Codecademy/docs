@@ -46,7 +46,7 @@ except ExceptionType:
 
 In the `try` block, code that might cause an error is executed. If an error occurs, the flow jumps to the `except` block to handle it gracefully. Specifying an exception type in `except` limits handling to that particular error, allowing for more precise control.
 
-**Note**: If no exception type is specified, the `except` block will catch all exceptions. It’s best to use specific exception types to avoid unintentionally hiding bugs or critical errors.
+> **Note**: If no exception type is specified, the `except` block will catch all exceptions. It’s best to use specific exception types to avoid unintentionally hiding bugs or critical errors.
 
 ## Example: Handling Index Error with a General `except` Block
 
