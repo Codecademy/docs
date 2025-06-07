@@ -46,6 +46,14 @@ This example results in the following output:
 Index: 2
 ```
 
+
+string str = "Add some more examples along with their proper explanations";
+int index = str.IndexOf("more");
+
+Console.WriteLine("Index: " + index);
+
+This example results in the following output:9
+
 ## Codebyte Example
 
 The following codebyte is runnable and shows the usage of the `.IndexOf()` method on a string.
