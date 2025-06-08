@@ -214,4 +214,4 @@ No. The size of an array is fixed once declared. For dynamic sizes, consider usi
 
 ### 3. What happens if I access an element out of the array's bounds?
 
-Accessing out-of-bounds elements in an array leads to undefined behavior and can cause unpredictable results or crashes.
+Accessing out-of-bounds elements results in undefined behavior and may lead to crashes or incorrect outputs.
