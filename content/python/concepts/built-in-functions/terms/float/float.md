@@ -114,7 +114,7 @@ This example illustrates how `float()` enables precise financial calculations by
 
 This example shows using `float()` in data processing scenarios, such as calculating averages from string data:
 
-```py
+```codebyte/python
 # Data processing: Student Grade Analysis
 def analyze_student_grades():
   # Simulating data that might come from a CSV file or user input
