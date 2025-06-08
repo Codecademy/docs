@@ -17,13 +17,14 @@ JavaScript has three static methods for working with String Objects, one of thes
 ## Syntax
 
 ```javascript
-String.fromCharCode()
-String.fromCharCode(num1)
-String.fromCharCode(num1, num2)
-String.fromCharCode(num1, num2, /* …, */ numN)
+String.fromCharCode();
+String.fromCharCode(num1);
+String.fromCharCode(num1, num2);
+String.fromCharCode(num1, num2, /* …, */ numN);
 ```
 
 ### Parameters
+
 At least one number between 0 and 65535 (0xFFFF) **representing a UTF-16 code unit**. Numbers greater than 0xFFFF are truncated to the last 16 bits.
 
 ## Example
@@ -31,7 +32,6 @@ At least one number between 0 and 65535 (0xFFFF) **representing a UTF-16 code un
 ```javascript
 const nombre = String.fromCharCode(76, 105, 97, 110, 121, 10084, 65039);
 console.log(nombre); // "Liany❤️"
-
 ```
 
 ## Codebyte Example
