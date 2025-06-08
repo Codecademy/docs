@@ -7,9 +7,7 @@ Subjects:
 Tags:
   - 'Data Types'
   - 'Functions'
-  - 'Numbers
   - 'Python'
-  - 'Strings'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
