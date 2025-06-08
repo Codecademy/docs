@@ -130,7 +130,7 @@ This example shows a practical application where `datetime.now()` is used to tim
 
 This example demonstrates using `datetime.now()` in a task management system to track deadlines and calculate remaining time:
 
-```py
+```codebyte/python
 from datetime import datetime, timedelta
 
 class TaskScheduler:
