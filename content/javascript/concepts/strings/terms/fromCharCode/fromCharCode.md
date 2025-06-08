@@ -36,7 +36,7 @@ console.log(nombre); // "Liany❤️"
 
 ## Codebyte Example
 
-```codebyte/js
+```codebyte/javascript
 # Example runnable code block.
 const secret = String.fromCharCode(
   76, 111, 110, 103, 32, 108, 105, 118, 101, 32, 116, 104, 101, 32, 107, 105, 116, 116, 105, 101, 115
