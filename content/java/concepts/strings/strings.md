@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'A string in Java is an object that holds a sequence of characters contained within a pair of double quotes ("").'
+Description: 'Strings in Java are immutable objects that represent sequences of characters enclosed in double quotes.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Strings** in Java are objects that can hold a sequence of characters contained within a pair of double quotes (""). Strings are immutable, meaning once a string is created, it cannot be changed. This immutability provides advantages in terms of performance, security, and thread safety.
+**Strings** in Java are objects that can hold a sequence of characters contained within a pair of double quotes (`""`). Strings are immutable, meaning once a string is created, it cannot be changed. This provides benefits such as better performance, security, and thread safety.
 
 ## Creating Strings
 
