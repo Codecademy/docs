@@ -24,7 +24,7 @@ torch.ceil(input,*, out=None)
 
 **Parameters:**
 
-- `input`:  The input tensor whose elements are to be rounded up.
+- `input`: The input tensor whose elements are to be rounded up.
 - `out` (optional): A tensor to store the output. Must have the same shape as `input`.
 
 **Return value:**
