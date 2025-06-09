@@ -29,7 +29,7 @@ torch.ceil(input,*, out=None)
 
 **Return value:**
 
-The `.ceil()` returns a new tensor containing the ceiling values of each element in the `input` tensor. The result is a new tensor unless the `out` parameter is specified.
+The `.ceil()` returns a new tensor containing the ceiling values of each element in the `input` tensor. Unless the `out` parameter is specified, the result is a new tensor.
 
 ## Example: Applying `.ceil()` to a 1D Tensor
 
@@ -53,4 +53,4 @@ Original tensor: tensor([ 1.2000, -0.8000,  3.0000, -2.7000,  5.5000])
 Ceil tensor: tensor([ 2., -0.,  3., -2.,  6.])
 ```
 
-> **Note:** The result may display `-0`. due to floating-point formatting, but it is functionally equivalent to `0.`.
+> **Note:** The result may display `-0.` due to floating-point formatting, but it is functionally equivalent to `0.`.
