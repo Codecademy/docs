@@ -92,7 +92,6 @@ Run the following code to understand how the `.min()` works with the `where` par
 ```codebyte/python
 import numpy as np
 
-# A 2D array with numbers from 1-9
 arr = np.array([[4, 2, 8],
                 [9, 5, 3],
                 [2, 6, 1]])
@@ -100,6 +99,5 @@ arr = np.array([[4, 2, 8],
 # Finding the minimum value with the condition of being above 5
 min_condition = np.min(arr, where=(arr > 5), initial=99)
 
-# Print the results
 print(min_condition)
 ```
