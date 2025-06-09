@@ -1,10 +1,10 @@
 ---
 Title: 'return'
-Description: 'Ends a function and sends a value back to the caller.' 
+Description: 'Ends a function and sends a value back to the caller.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Arguments'
   - 'Functions'
   - 'Parameters'
