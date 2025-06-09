@@ -141,6 +141,7 @@ Events
 Event Handling
 Exceptions
 Expo
+Exponential
 Express
 Extensions
 Favicon
@@ -255,6 +256,7 @@ Objects
 Obsolete
 Ontologies
 OOP
+Operator Overloading
 Opacity
 ONNX
 IaC
@@ -344,6 +346,7 @@ Strings
 Structure
 Style
 Stochastic Gradient Descent
+Subplots
 Subqueries
 Supervised Learning
 Swift
@@ -402,7 +405,6 @@ Visibility
 VR
 Vue
 Web3
-Exponential
 WebRTC
 Weight & Bias
 While
