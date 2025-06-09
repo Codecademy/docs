@@ -1,6 +1,6 @@
 ---
 Title: 'Substrings'
-Description: 'A substring is a sequence of characters that are part of an original string.'
+Description: 'A substring in Python is a contiguous sequence of characters extracted from an original string.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -25,9 +25,9 @@ A slice is made by using the open `[` and closed `]` square brackets next to a s
 string[start:end:step]
 ```
 
-- `start` defaults to 0 and gives the initial position the slice will start from.
-- `end` defaults to -1 and is the position where the slicing will end.
-- `step` defaults to 1 and indicates the number of steps to take in between indexes.
+- `start`: Defaults to `0` and gives the initial position the slice will start from.
+- `end`: Defaults to the length of the string and marks the position where the slice stops (not inclusive).
+- `step`: Defaults to `1` and indicates the number of steps to take in between indexes.
 
 ## Examples
 
@@ -57,7 +57,7 @@ print(name[-1])
 
 ### Negative Start Index
 
-Using a negative start index (`-n`) with the default end value accesses the last `n` characters of the string. The following gives access to the last three characters of the string:
+Using a negative start index (`-n`) with the default end value accesses the last `n` characters of the string. The following returns the last three characters of the string:
 
 ```py
 print(name[-3:])
@@ -112,24 +112,20 @@ print(name.find('ni'))
 - **Normalize case before comparisons:** Convert strings to lowercase or uppercase to avoid case-sensitive mismatches.
 - **Handle missing substrings gracefully:** Use `.find()` instead of [`.index()`](https://www.codecademy.com/resources/docs/python/strings/index) when searching for substrings to avoid exceptions.
 
-## FAQs
+## Frequently Asked Questions
 
-<details>
-<summary>1. What happens if the end index is beyond the string length in slicing?</summary>
-<p>If the end index exceeds the string length, Python does not raise an error. It simply returns the available portion of the string.</p>
-</details>
+### 1. What happens if the end index is beyond the string length in slicing?
 
-<details>
-<summary>2. How can I check if a substring exists within a string?</summary>
-<p>You can use the `in` operator or the `.find()` method. The `in` operator returns `True` or `False`, while `.find()` returns the starting index of the substring or `-1` if not found.</p>
-</details>
+If the end index exceeds the string length, Python does not raise an error. It simply returns the available portion of the string.
 
-<details>
-<summary>3. Why should I use `.find()` instead of `.index()`?</summary>
-<p>The `.find()` method returns `-1` if the substring is not found, whereas `.index()` raises an exception. If you don’t want to handle exceptions manually, `.find()` is a safer choice.</p>
-</details>
+### 2. How can I check if a substring exists within a string?
 
-<details>
-<summary>4. Can I use negative indexes for substring extraction?</summary>
-<p>Yes, Python allows negative indexing, which counts from the end of the string. You can use negative values for both the start and end positions when slicing.</p>
-</details>
+You can use the `in` operator or the `.find()` method. The `in` operator returns `True` or `False`, while `.find()` returns the starting index of the substring or `-1` if not found.
+
+### 3. Why should I use `.find()` instead of `.index()`?
+
+The `.find()` method returns `-1` if the substring is not found, whereas `.index()` raises an exception. If you don’t want to handle exceptions manually, `.find()` is a safer choice.
+
+### 4. <summary>4. Can I use negative indexes for substring extraction?
+
+Yes, Python allows negative indexing, which counts from the end of the string. You can use negative values for both the start and end positions when slicing.
