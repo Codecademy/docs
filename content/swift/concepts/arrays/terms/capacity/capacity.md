@@ -40,11 +40,11 @@ The following code prints the array's initial capacity, appends elements, and th
 ```swift
 var numbers: [Int] = []
 print(numbers.capacity)
-    
+
 numbers.append(1)
 numbers.append(2)
 numbers.append(3)
-print(numbers.capacity) 
+print(numbers.capacity)
 ```
 
 The output of this code will be:
