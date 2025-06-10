@@ -269,10 +269,10 @@ By default, variables in Bash functions are global unless explicitly declared wi
 
 Bash functions can return exit status codes (0-255) using the `return` command. For returning actual data, you can use `echo` to output the result and capture it with command substitution: `result=$(my_function)`.
 
-### 3. What happens if I don't provide required arguments to a function?
+### 3. What happens if I don't provide the required arguments to a function?
 
 The function will still execute, but the missing arguments will be empty. You should implement input validation within your functions to check for required parameters using conditional statements and the `$#` variable.
 
 ### 4. Can I call a function before defining it in the script?
 
-No, function definitions must appear before any calls to the function in the script. Bash reads and processes the script sequentially, so the function must be known before it can be invoked.
+No, function definitions must appear before any calls to the function in the script. Bash reads and processes the script sequentially, so the function must be known before invoking it.
