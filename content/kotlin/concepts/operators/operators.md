@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'Operators are used to perform various operations on variables and values of various data types.'
+Description: 'Operators are symbols or keywords used to perform operations on variables, values, or expressions in a program.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
