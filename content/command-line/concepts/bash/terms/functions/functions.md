@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`function`** in Bash is a reusable block of code that groups together a set of commands under a single name. Functions enable you to organize code into logical units, reduce repetition, and make scripts more maintainable and readable. When called, a function executes all the commands contained within its body and can optionally return a value to the calling code.
+A **function** in Bash is a reusable block of code that groups a set of commands under a single name. Functions enable you to organize code into logical units, reduce repetition, and make scripts more maintainable and readable. When called, a function executes all the commands within its body and can optionally return a value to the calling code.
 
-Functions are essential building blocks in Bash scripting used for automating repetitive tasks, creating modular code architecture, and implementing complex workflows. They are commonly used in system administration scripts, deployment automation, data processing pipelines, and interactive command-line tools where the same operations need to be performed multiple times with different inputs.
+Functions are essential building blocks in Bash scripting for automating repetitive tasks, creating modular code architecture, and implementing complex workflows. They are commonly used in system administration scripts, deployment automation, data processing pipelines, and interactive command-line tools where the same operations must be performed multiple times with different inputs.
 
 ## Syntax
 
