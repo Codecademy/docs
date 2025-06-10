@@ -78,7 +78,7 @@ greet_user
 echo "Program completed."
 ```
 
-Output of this code will be:
+The output of the above code will be:
 
 ```shell
 Starting the program...
