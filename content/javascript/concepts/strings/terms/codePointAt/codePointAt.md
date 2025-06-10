@@ -53,3 +53,15 @@ const emoji = "👨‍💻"; // Man technologist emoji (compound emoji)
 console.log(emoji.codePointAt(0)); // 128104 (👨)
 console.log(emoji.codePointAt(1)); // 8205 (zero-width joiner)
 ```
+
+## Codebyte
+
+The Example code produces the following output:
+
+```codebyte/javascript
+101
+128512
+undefined
+128104
+8205
+```
