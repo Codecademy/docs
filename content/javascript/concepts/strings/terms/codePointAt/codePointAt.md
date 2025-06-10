@@ -31,3 +31,25 @@ string.codePointAt(index);
 
 **Returns:**
 - A number representing the Unicode code point of the character at the specified position, or `undefined` if no character exists at the given position.
+
+## Example
+
+Below is an example showcasing the functionality of the `.codePointAt()` method:
+
+```js
+const text = "Hello 😀";
+
+// Accessing the second character in the string.
+console.log(text.codePointAt(1)); // 101 (code for 'e')
+
+// Accessing the emoji
+console.log(text.codePointAt(6)); // 128512 (code for 😀)
+
+// Accessing a character at a position that is beyond the string length.
+console.log(text.codePointAt(12)); // undefined
+
+// Compare with a multi-byte character
+const emoji = "👨‍💻"; // Man technologist emoji (compound emoji)
+console.log(emoji.codePointAt(0)); // 128104 (👨)
+console.log(emoji.codePointAt(1)); // 8205 (zero-width joiner)
+```
