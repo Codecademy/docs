@@ -1,6 +1,6 @@
 ---
 Title: '.tan()'
-Description: 'Returns the tangent of an angle given in radians.'
+Description: 'Computes the tangent trigonometric function of an angle in radians.'
 Subjects:
   - 'Computer Science'
 Tags:
