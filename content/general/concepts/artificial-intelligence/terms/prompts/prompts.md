@@ -99,7 +99,7 @@ Creating effective AI prompts requires careful consideration of clarity, specifi
 
 - **Use Iterative Refinement**: Start with a basic prompt and refine it based on the AI's responses to achieve better results over time.
 
-**Consider Your Audience**: Tailor the prompt to specify the output's intended audience, which helps the AI adjust complexity and terminology appropriately.
+**Consider the Audience**: Tailor the prompt to specify the output's intended audience, which helps the AI adjust complexity and terminology appropriately.
 
 ## Frequently Asked Questions
 
