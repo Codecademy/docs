@@ -27,7 +27,7 @@ list.index(element, start, end)
 **Parameters:**
 
 - `element`: The item to search for in the list. This parameter is required and can be of any data type.
-- `start` (optional): The index position to start the search from. Defaults to 0 if not specified.
+- `start` (optional): The index position to start the search. Defaults to 0 if not specified.
 - `end` (optional): The index position to end the search at (exclusive). Defaults to the length of the list if not specified.
 
 **Return value:**
