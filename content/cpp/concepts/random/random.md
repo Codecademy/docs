@@ -57,7 +57,7 @@ Here are the key components of this header:
 - **Engines**: Generate raw random numbers.
 - **Distributions**: Transform raw numbers into specific ranges or statistical distributions.
 
-### Common Distributions
+## Common Distributions
 
 | Distribution Type      | Class Name                       | Description                                     |
 | ---------------------- | -------------------------------- | ----------------------------------------------- |
@@ -67,7 +67,7 @@ Here are the key components of this header:
 | Bernoulli              | `std::bernoulli_distribution`    | `true` or `false` with a given probability      |
 | Binomial               | `std::binomial_distribution`     | Number of successes in a fixed number of trials |
 
-### Example
+## Example
 
 This example uses the `<random>` header to generate a random number between 1-6:
 
