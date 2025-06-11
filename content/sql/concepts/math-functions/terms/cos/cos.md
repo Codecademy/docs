@@ -1,6 +1,6 @@
 ---
 Title: 'COS()'
-Description: 'RCalculates the cosine trigonometric function of a specified angle in radians.'
+Description: 'Calculates the cosine trigonometric function of a specified angle in radians.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
