@@ -58,7 +58,7 @@ Java is at index: 2
 Python is at index: 0
 ```
 
-The method successfully locates 'Java' at index position 2 and 'Python' at index position 0, demonstrating how Python uses zero-based indexing where the first element is at position 0.
+The method successfully locates 'Java' at index position two and 'Python' at index position 0, demonstrating how Python uses zero-based indexing, where the first element is at position 0.
 
 ## Example 2: Finding Items in Student Grade Records
 
