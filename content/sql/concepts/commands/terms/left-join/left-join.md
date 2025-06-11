@@ -6,6 +6,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Database'
+  - 'Join'
   - 'Queries'
   - 'SQL'
   - 'Tables'
