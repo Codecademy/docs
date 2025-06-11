@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`math.floor()`** function is a built-in mathematical function in Lua that rounds a number down to the nearest integer. "It returns the largest integer less than or equal to the given number, effectively rounding down any fractional value. This function is part of Lua's standard math library and must be called using the `math.floor()` syntax.
+The **`math.floor()`** function is a built-in mathematical function in Lua that rounds a number down to the nearest integer. It returns the largest integer less than or equal to the given number, effectively rounding down any fractional value.
 
 The `math.floor()` function is commonly used in programming scenarios where precise integer values are needed, such as array indexing, pagination calculations, converting measurements to whole units, creating stepped progress bars, and implementing floor division algorithms. It's beneficial in game development for coordinate calculations, financial applications for currency rounding, and data processing where fractional values need to be eliminated while maintaining mathematical accuracy.
 
