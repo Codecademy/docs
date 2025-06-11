@@ -48,7 +48,7 @@ console.log(text.codePointAt(12)); // undefined
 // Compare with a multi-byte character
 const emoji = "👨‍💻"; // Man technologist emoji (compound emoji)
 console.log(emoji.codePointAt(0)); // 128104 (👨)
-console.log(emoji.codePointAt(1)); // 8205 (zero-width joiner)
+console.log(emoji.codePointAt(2)); // 8205 (zero-width joiner)
 ```
 
 ## Codebyte
