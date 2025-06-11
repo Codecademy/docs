@@ -63,7 +63,7 @@ This basic prompt requests a specific programming task with clear parameters. Th
 ```plaintext
 Write a Python script for a small e-commerce website that includes:
 - A Product class with name, price, and inventory attributes
-- A ShoppingCart class that can add/remove items and calculate total
+- A ShoppingCart class that can add/remove items and calculate the total
 - Error handling for out-of-stock items
 - Include comments explaining each method
 ```
