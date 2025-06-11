@@ -232,7 +232,7 @@ Negative: math.floor(-5.7) = -6
 
 ### 1. What's the difference between `math.floor()` and `math.ceil()`?
 
-`math.floor()` always rounds down toward negative infinity, while `math.ceil()` always rounds up toward positive infinity. For positive numbers, floor rounds toward zero and ceil rounds away from zero.
+`math.floor()` always rounds down toward negative infinity, while `math.ceil()` always rounds up toward positive infinity. For positive numbers, floor rounds are placed toward zero, and ceil rounds are placed away from zero.
 
 ### 2. Does `math.floor()` work with negative numbers?
 
