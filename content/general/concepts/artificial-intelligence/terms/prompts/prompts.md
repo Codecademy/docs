@@ -91,7 +91,7 @@ Creating effective AI prompts requires careful consideration of clarity, specifi
 
 - **Provide Context**: Give the AI relevant background information to help it understand the situation and generate more appropriate responses.
 
-- **Specify Format and Structure**: Clearly indicate how you want the output formatted, whether as a list, paragraph, code block, or other specific structure.
+- **Specify Format and Structure**: Clearly indicate how to format the output, whether as a list, paragraph, code block, or other specific structure.
 
 - **Include Examples**: When possible, provide examples of the desired output style or format to guide the AI's response generation.
 
