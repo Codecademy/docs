@@ -60,7 +60,7 @@ math.floor(12.1) = 12
 math.floor(5.999) = 5
 ```
 
-This example shows how `math.floor()` consistently rounds down to the nearest integer regardless of how close the decimal portion is to the next whole number. Even 5.999 rounds down to 5, not up to 6.
+This example shows how `math.floor()` consistently rounds down to the nearest integer regardless of how close the decimal portion is to the following whole number. Even 5.999 rounds down to 5, not up to 6.
 
 ## Example 2: Array Indexing with Floor
 
