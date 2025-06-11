@@ -16,7 +16,7 @@ CatalogContent:
 
 An **AI prompt** is a text-based input or instruction given to an artificial intelligence model to guide its response generation. AI prompts serve as the primary interface between humans and large language models, enabling users to communicate their intent and receive targeted outputs. The quality and structure of prompts directly influence the accuracy, relevance, and usefulness of AI-generated responses.
 
-AI prompts can range from simple questions to complex, multi-part instructions that specify format, tone, context, and desired outcomes. They are fundamental to effective AI interaction across various applications including content creation, problem-solving, code generation, and data analysis.
+AI prompts can range from simple questions to complex, multi-part instructions that specify format, tone, context, and desired outcomes. They are fundamental to effective AI interaction across various applications, including content creation, problem-solving, code generation, and data analysis.
 
 ## How Prompts Work
 
