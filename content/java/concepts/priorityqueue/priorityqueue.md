@@ -1,44 +1,49 @@
 ---
 Title: 'PriorityQueue'
-Description: 'A PriorityQueue stores elements in a collection sorted by natural ordering or by a custom Comparator.'
+Description: 'Stores elements in a collection sorted by natural ordering or a custom Comparator.'
 Subjects:
   - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'Queues'
   - 'Collections'
   - 'Data Types'
+  - 'Methods'
+  - 'Queues'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-A `PriorityQueue` is an implementation of the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface. It stores elements in a collection prioritized by natural ordering or by a custom `Comparator`. The elements are prioritized with the least value element at the head of the queue, and the `Queue` methods `.peek()` and `.poll()` operate on that element.
+A **`PriorityQueue`** implements the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface. It stores elements in a [collection](https://www.codecademy.com/resources/docs/java/collection) prioritized by natural ordering or by a custom [`Comparator`](https://www.codecademy.com/resources/docs/java/comparator). The elements are prioritized with the least value element at the head of the queue, and the `Queue` methods `.peek()` and `.poll()` operate on that element.
 
-## Syntax
+## Creating a `PriorityQueue`
 
-`PriorityQueue` is a member of the `java.util` package which must be imported first.
+Using natural ordering:
 
-```pseudo
+```java
 import java.util.PriorityQueue;
 
 PriorityQueue<DataType> q = new PriorityQueue<DataType>();
 ```
 
-- `q` is a `PriorityQueue` created with the `new` keyword.
-- `DataType` is the data type that will be stored in it.
+Using a custom `Comparator`:
 
-`CustomComparator` is a custom `Comparator` for `DataType` or a parent class of `DataType`. The following syntax sets a `CustomComparator` to a `PriorityQueue`:
-
-```pseudo
+```java
 import java.util.PriorityQueue;
 import java.util.Comparator;
 
 PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
 ```
 
-## Adding Items
+In this syntax:
 
-New items can be added to the `PriorityQueue` with the `.add()` method.
+- `q`: A `PriorityQueue` created with the `new` keyword.
+- `DataType`: The [data type](https://www.codecademy.com/resources/docs/java/data-types) to be stored in `q`.
+- `CustomComparator`: A custom `Comparator` for `DataType` or a parent [class](https://www.codecademy.com/resources/docs/java/classes) of `DataType`.
+
+## Adding Items to `PriorityQueue`
+
+The `.add()` method adds new items to a `PriorityQueue`.
 
 ### Syntax
 
@@ -46,7 +51,13 @@ New items can be added to the `PriorityQueue` with the `.add()` method.
 priorityqueue.add(item)
 ```
 
-Where `item` is the item to be added, which should match the data type of the `priorityqueue`.
+**Parameters:**
+
+- `item`: The item to be added to the `priorityqueue`. It should match the data type of `priorityqueue`.
+
+**Return value:**
+
+Returns `true` if `item` is successfully added, and `false` otherwise.
 
 ### Example
 
@@ -54,55 +65,81 @@ Where `item` is the item to be added, which should match the data type of the `p
 import java.util.PriorityQueue;
 
 public class Main {
- public static PriorityQueue<String> SetupPriorityQueue() {
-   PriorityQueue<String> result = new PriorityQueue<String>();
-   result.add("Cabbage");
-   result.add("Pizza");
-   result.add("Sausage");
-   result.add("Potatoes");
-   result.add("Salad");
-   return result;
- }
- public static void main(String[] args) {
-   PriorityQueue<String> food = SetupPriorityQueue();
-   System.out.println(food);
- }
+  public static PriorityQueue<String> SetupPriorityQueue() {
+    PriorityQueue<String> result = new PriorityQueue<String>();
+
+    result.add("Cabbage");
+    result.add("Pizza");
+    result.add("Sausage");
+    result.add("Potatoes");
+    result.add("Salad");
+
+    return result;
+  }
+
+  public static void main(String[] args) {
+    PriorityQueue<String> food = SetupPriorityQueue();
+
+    System.out.println(food);
+  }
 }
 ```
 
-This will output:
+**Output:**
 
 ```shell
 [Cabbage, Pizza, Sausage, Potatoes, Salad]
 ```
 
-## Removing Specific Items
+## Removing Items from `PriorityQueue`
 
-Specific items can be removed from the `PriorityQueue` with the `.remove()` method.
+The `.remove()` method removes specific items from a `PriorityQueue`.
 
 ### Syntax
 
-```pseudo
+```java
 priorityqueue.remove(item)
 ```
 
-Where `item` is the item to be removed from `priorityqueue`. If `item` is not part of `priorityqueue` the method has no effect.
+**Parameters:**
+
+- `item`: The item to be removed from `priorityqueue`. If `item` is not found, the method has no effect.
+
+**Return value:**
+
+Returns `true` if `item` is successfully removed, and `false` otherwise.
 
 ### Example
 
-Changing the `.main()` method of the above example:
-
 ```java
- public static void main(String[] args) {
-   PriorityQueue<String> food = SetupPriorityQueue();
-   food.remove("Pizza");
-   while (food.size() > 0) {
-     System.out.println(food.poll());
-   }
- }
+import java.util.PriorityQueue;
+
+public class Main {
+  public static PriorityQueue<String> SetupPriorityQueue() {
+    PriorityQueue<String> food = new PriorityQueue<String>();
+
+    food.add("Cabbage");
+    food.add("Pizza");
+    food.add("Sausage");
+    food.add("Potatoes");
+    food.add("Salad");
+
+    return food;
+  }
+
+  public static void main(String[] args) {
+    PriorityQueue<String> food = SetupPriorityQueue();
+
+    food.remove("Pizza");
+
+    while (food.size() > 0) {
+      System.out.println(food.poll());
+    }
+  }
+}
 ```
 
-This will output:
+**Output:**
 
 ```shell
 Cabbage
@@ -111,34 +148,55 @@ Salad
 Sausage
 ```
 
-## Checking For Existence of an Item
+## Searching for an Item in `PriorityQueue`
 
-The `PriorityQueue` can be checked if it contains a particular item with the `.contains()` method.
+The `.contains()` method checks whether a specific item exists in a `PriorityQueue`.
 
 ### Syntax
 
 ```java
-boolean result = priorityqueue.contains(item);
+priorityqueue.contains(item);
 ```
 
-Where `result` will be `true` if `priorityqueue` contains `item` as one of its members.
+**Parameters:**
+
+- `item`: The item to search for in `priorityqueue`.
+
+**Return value:**
+
+Returns `true` if `item` is found, and `false` otherwise.
 
 ### Example
 
-Changing the `.main()` method of the above example:
-
 ```java
- public static void main(String[] args) {
-   PriorityQueue<String> food = SetupPriorityQueue();
-   if (food.contains("Nuts")) {
-     System.out.println("Allergen warning!");
-   } else {
-     System.out.println("Safe to eat.");
-   }
- }
+import java.util.PriorityQueue;
+
+public class Main {
+  public static PriorityQueue<String> SetupPriorityQueue() {
+    PriorityQueue<String> food = new PriorityQueue<String>();
+
+    food.add("Cabbage");
+    food.add("Pizza");
+    food.add("Sausage");
+    food.add("Potatoes");
+    food.add("Salad");
+
+    return food;
+  }
+
+  public static void main(String[] args) {
+    PriorityQueue<String> food = SetupPriorityQueue();
+
+    if (food.contains("Nuts")) {
+      System.out.println("Allergen warning!");
+    } else {
+      System.out.println("Safe to eat.");
+    }
+  }
+}
 ```
 
-This will output:
+**Output:**
 
 ```shell
 Safe to eat.
@@ -146,64 +204,79 @@ Safe to eat.
 
 ## Returning the Size of a `PriorityQueue`
 
-The number of items in a `PriorityQueue` can be returned with the `.size()` method.
+The `.size()` method returns the number of items in a `PriorityQueue`.
 
 ### Syntax
 
 ```java
-int ItemCount = priorityqueue.size()
+priorityqueue.size()
 ```
-
-Where `ItemCount` is the number of items in `priorityqueue`.
 
 ### Example
 
-Changing the `.main()` method of the above example:
-
 ```java
- public static void main(String[] args) {
-   PriorityQueue<String> food = SetupPriorityQueue();
-   while (food.size() > 0) {
-     System.out.println(food.poll());
-     System.out.println(food.size());
-   }
- }
+import java.util.PriorityQueue;
+
+public class Main {
+  public static PriorityQueue<String> SetupPriorityQueue() {
+    PriorityQueue<String> food = new PriorityQueue<String>();
+
+    food.add("Cabbage");
+    food.add("Pizza");
+    food.add("Sausage");
+    food.add("Potatoes");
+    food.add("Salad");
+
+    return food;
+  }
+
+  public static void main(String[] args) {
+    PriorityQueue<String> food = SetupPriorityQueue();
+
+    System.out.println(food.size());
+  }
+}
 ```
 
-This will output:
+**Output:**
 
 ```shell
-Cabbage
-4
-Pizza
-3
-Potatoes
-2
-Salad
-1
-Sausage
-0
+5
 ```
 
 ## Traversing a `PriorityQueue`
 
-A `PriorityQueue` can be traversed with a for-each loop. Note that when doing so, the items will be returned in the order they were added to the queue, not in priority order.
+A `PriorityQueue` can be traversed with a `for-each` loop. Items will be returned in the order they were inserted, not in priority order.
 
 ### Example
 
-Changing the `.main()` method of the above example:
-
 ```java
- public static void main(String[] args) {
-   PriorityQueue<String> food = SetupPriorityQueue();
-   for (String i : food) {
-     System.out.println(i);
-   }
- }
+import java.util.PriorityQueue;
 
+public class Main {
+  public static PriorityQueue<String> SetupPriorityQueue() {
+    PriorityQueue<String> food = new PriorityQueue<String>();
+
+    food.add("Cabbage");
+    food.add("Pizza");
+    food.add("Sausage");
+    food.add("Potatoes");
+    food.add("Salad");
+
+    return food;
+  }
+
+  public static void main(String[] args) {
+    PriorityQueue<String> food = SetupPriorityQueue();
+
+    for (String i : food) {
+      System.out.println(i);
+    }
+  }
+}
 ```
 
-This will output:
+**Output:**
 
 ```shell
 Cabbage
@@ -215,33 +288,48 @@ Salad
 
 ## `.peek()` and `.poll()` Methods
 
-The `Queue` methods `.peek()` and `.poll()` operate on the item at the head of the `PriorityQueue`. `.peek()` will return the item at the head of the queue without removing it, while `.poll()` will return the head of the queue and remove it.
+The `.peek()` method retrieves the head of the queue without removing it, while `.poll()` retrieves and removes it.
 
 ### Syntax
 
 ```java
-Datatype i = priorityqueue.peek();
-Datatype j = priorityqueue.poll();
+priorityqueue.peek();
+priorityqueue.poll();
 ```
-
-Where `DataType` is the data type that `priorityqueue` was defined with. Both return a null value when operating on an empty `PriorityQueue`.
 
 ### Example
 
-Changing the `.main()` method of the above example:
-
 ```java
- public static void main(String[] args) {
-   PriorityQueue<String> food = SetupPriorityQueue();
-   System.out.println(food.peek());
-   while (food.size() > 0) {
-     System.out.println(food.poll());
-   }
-   System.out.println(food.peek());
- }
+import java.util.PriorityQueue;
+
+public class Main {
+  public static PriorityQueue<String> SetupPriorityQueue() {
+    PriorityQueue<String> food = new PriorityQueue<String>();
+
+    food.add("Cabbage");
+    food.add("Pizza");
+    food.add("Sausage");
+    food.add("Potatoes");
+    food.add("Salad");
+
+    return food;
+  }
+
+  public static void main(String[] args) {
+    PriorityQueue<String> food = SetupPriorityQueue();
+
+    System.out.println(food.peek());
+
+    while (food.size() > 0) {
+      System.out.println(food.poll());
+    }
+
+    System.out.println(food.peek());
+  }
+}
 ```
 
-This will output:
+**Output:**
 
 ```shell
 Cabbage
@@ -253,61 +341,65 @@ Sausage
 null
 ```
 
-## Using a Custom Comparator
+## Using a Custom `Comparator`
 
-To prioritize items by some other scheme than the natural sort order, a custom `Comparator` must be used. A `Comparator` is a special class that is used by the `PriorityQueue` to determine when one item of a given data type should come before another item of the same data type. The function should implement the `Comparator<DataType>` interface, where `DataType` is the data type being compared, and override the `compare` method, which takes two arguments of `DataType` and returns a positive value if the first argument comes before the second, and a negative value if the first argument comes after the second.
+A custom `Comparator` can be used to define an alternative priority scheme.
 
 ### Syntax
 
 ```java
 import java.util.PriorityQueue;
-
 import java.util.Comparator;
 
 static class CustomComparator implements Comparator<DataType> {
   @Override
-  public int compare(DataType item1, DataType item2)
-  {
-    // return positive if item1 < item2, and negative if item1 > item2
+  public int compare(DataType item1, DataType item2) {
+    // Return a positive value if item1 < item2, and a negative value if item1 > item2
   }
+}
 
 PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
 ```
 
-### Example
+**Parameters:**
 
-The following example reverses the priorities of the `String` values in the `PriorityQueue`:
+- `DataType`: The data type being compared.
+
+**Return value:**
+
+Returns a positive value if the first argument comes before the second and a negative value if it comes after.
+
+### Example
 
 ```java
 import java.util.PriorityQueue;
 import java.util.Comparator;
 
-
 public class Main {
   static class CustomComparator implements Comparator<String> {
     @Override
-    public int compare(String item1, String item2)
-    {
+    public int compare(String item1, String item2) {
       return item1.compareTo(item2) < 0 ? 1 : -1;
     }
   }
 
- public static void main(String[] args) {
-   PriorityQueue<String> food = new PriorityQueue<String>(new CustomComparator());
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
-   while (food.size() > 0) {
-     System.out.println(food.poll());
-   }
- }
-}
+  public static void main(String[] args) {
+    PriorityQueue<String> food = new PriorityQueue<String>(new CustomComparator());
 
+    food.add("Cabbage");
+    food.add("Pizza");
+    food.add("Sausage");
+    food.add("Potatoes");
+    food.add("Salad");
+
+    while (food.size() > 0) {
+      System.out.println(food.poll());
+    }
+  }
+}
 ```
 
-This will output:
+**Output:**
 
 ```shell
 Sausage
@@ -316,3 +408,20 @@ Potatoes
 Pizza
 Cabbage
 ```
+
+## Frequently Asked Questions
+
+### 1. What is the default ordering of elements in a `PriorityQueue`?
+
+By default, a `PriorityQueue` uses the natural ordering of its elements. This means:
+
+- For numeric types (e.g., `Integer`), lower numbers have higher priority.
+- For strings, lexicographical order is used (e.g., "apple" < "banana").
+
+### 2. Can a `PriorityQueue` contain duplicate elements?
+
+Yes, a `PriorityQueue` allows duplicate elements. However, their relative ordering is determined by the priority rules, not insertion order.
+
+### 3. Is `PriorityQueue` thread-safe?
+
+No, `PriorityQueue` is not [thread](https://www.codecademy.com/resources/docs/java/threading)-safe. For concurrent access, use `PriorityBlockingQueue` from the `java.util.concurrent` package.

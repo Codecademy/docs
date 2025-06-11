@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'Operators are used to perform various operations on variables and values of various data types.'
+Description: 'Operators are symbols used to operate on variables and values across different data types.'
 Subjects:
   - 'Computer Science'
 Tags:
