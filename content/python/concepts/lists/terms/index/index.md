@@ -135,15 +135,15 @@ This example shows how the start and end parameters allow you to search within s
 
 ### 1. What happens if the element appears multiple times in the list?
 
-The `.index()` method always returns the index of the first occurrence of the element. If you need to find all occurrences, you should use a list comprehension with `enumerate()` or implement a custom search function.
+The `.index()` method always returns the index of the first occurrence of the element. If you need to find all occurrences, use a list comprehension with `enumerate()` or implement a custom search function.
 
 ### 2. Can I use `.index()` with different data types?
 
-Yes, `.index()` works with any data type that can be stored in a list, including strings, numbers, booleans, lists, tuples, and custom objects. The method uses equality comparison (`==`) to find matches.
+Yes, `.index()` works with any data type stored in a list, including strings, numbers, booleans, lists, tuples, and custom objects. The method uses equality comparison (`==`) to find matches.
 
 ### 3. Is there a performance difference between `.index()` and other search methods?
 
-The `.index()` method has O(n) time complexity in the worst case, as it may need to check every element. For frequently repeated searches on large lists, consider using dictionaries or other data structures that offer faster lookup times.
+In the worst case, the `.index()` method has `O(n)` time complexity, as it may need to check every element. Consider using dictionaries or other data structures that offer faster lookup times for frequently repeated searches on large lists.
 
 ### 4. Is the `.index()` method case-sensitive?
 
