@@ -1,6 +1,6 @@
 ---
 Title: 'Problem Statement'
-Description: 'A problem statement describes what problem a design will attempt to solve. It is a standard output of the define stage of the design thinking process.'
+Description: 'A problem statement describes what problem a design will attempt to solve and is a standard output of the define stage of the design thinking process.'
 Subjects:
   - 'Web Design'
 Tags:
