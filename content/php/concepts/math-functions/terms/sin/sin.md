@@ -1,6 +1,6 @@
 ---
 Title: 'sin()'
-Description: 'Returns the sine of a given angle.'
+Description: 'Computes the sine trigonometric function of an angle expressed in radians.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
