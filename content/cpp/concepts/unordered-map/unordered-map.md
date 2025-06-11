@@ -1,134 +1,218 @@
 ---
-Title: 'Unordered Maps'
-Description: 'Unordered Maps are associative containers with elements with key-value pairs.'
+Title: 'unordered_map'
+Description: 'Stores data in key-value pairs using hash table implementation for fast lookups.'
 Subjects:
   - 'Computer Science'
-  - 'Game Development'
+  - 'Web Development'
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
+  - 'Data Structures'
+  - 'Hash Maps'
+  - 'Map'
+  - 'STL'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-**`Unordered Maps`** are associative containers that have elements with key-value pairs. Unlike Maps, the pairs in Unordered Maps are not sorted by their keys. Each mapped value must have a unique key value.
+The **`unordered_map`** is an associative container in C++ that stores data in key-value pairs, similar to a dictionary or hash table. Unlike the standard [`map`](https://www.codecademy.com/resources/docs/cpp/maps) container, `unordered_map` uses a hash table implementation that provides average constant-time complexity O(1) for search, insertion, and deletion operations. However, the elements are not stored in any particular sorted order, making it ideal for scenarios where fast access is more important than maintaining order.
+
+The `unordered_map` is particularly useful in applications requiring frequent lookups, such as caching systems, database indexing, counting frequencies of elements, and implementing symbol tables in compilers. It excels in scenarios where you need to associate unique keys with values and perform rapid searches based on those keys.
 
 ## Syntax
 
-An empty unordered map can be created by using the `unordered_map` keyword, declaring the data types of the key and value, and setting a `mapName`:
-
 ```pseudo
-std::unordered_map<type1, type2> mapName;
+std::unordered_map<key_type, value_type> map_name;
 ```
 
-- `type1`: Date type of the key in the unordered_map.
-- `type2`: Date type of the value in the unordered_map.
+**Parameters:**
 
-> **Note:** To use unordered_map, including the `unordered_map` library is necessary.
+- `key_type`: The data type of the keys stored in the unordered_map
+- `value_type`: The data type of the values associated with the keys
+- `map_name`: The identifier name for the unordered_map instance
 
-## Examples
+**Return value:**
 
-The below example shows how to use `unordered_map`.
+The `unordered_map` container itself does not return a value, but its member functions return various types depending on the operation (iterators, boolean values, references, etc.).
 
-```cpp
-#include <iostream>
-#include <unordered_map>
+## Example 1: Creating and Initializing
 
-int main() {
-    std::unordered_map<std::string, int> myMap;
-
-    // Inserting elements
-    myMap["apple"] = 2;
-    myMap["banana"] = 5;
-    myMap["orange"] = 3;
-
-    // Iterating over elements
-    for (const std::pair<const std::string, int>& x : myMap) {
-        std::cout << x.first << " " << x.second << std::endl;
-    }
-    return 0;
-}
-```
-
-The output will be:
-
-```shell
-orange 3
-banana 5
-apple 2
-```
-
-### Overriding Functions
-
-By default, keys are treated as `case-sensitive`, but this can be avoided, so they can be treated as `case-insensitive`. In the example below, the keys are treated as `case-insensitive`.
+This example demonstrates the basic creation and initialization of an `unordered_map`:
 
 ```cpp
 #include <iostream>
 #include <unordered_map>
 #include <string>
 
-struct CustomHash {
-  std::size_t operator()(const std::string & key) const {
-    // Custom hash: hash based on the length of the string
-    return key.length();
-  }
-};
-
-struct CustomEqual {
-  bool operator()(const std::string & lhs,
-    const std::string & rhs) const {
-    // Custom equality: compare strings ignoring case
-    return std::equal(lhs.begin(), lhs.end(), rhs.begin(), rhs.end(),
-      [](char a, char b) {
-        return tolower(a) == tolower(b);
-      });
-  }
-};
-
 int main() {
-  // Unordered map with custom hash and equality functions
-  std::unordered_map < std::string, int, CustomHash, CustomEqual > myMap;
+  // Create an empty unordered_map
+  std::unordered_map<int, std::string> colors;
 
-  myMap["apple"] = 1;
+  // Initialize using initializer list
+  std::unordered_map<int, std::string> fruits = {
+    {1, "Apple"},
+    {2, "Banana"},
+    {3, "Orange"}
+  };
 
-  // Will be treated as the same key as "apple"
-  myMap["APPLE"] = 2;
-
-  for (const auto & pair: myMap) {
+  // Display the initialized map
+  std::cout << "Fruits map contains:" << std::endl;
+  for (const auto& pair : fruits) {
     std::cout << pair.first << ": " << pair.second << std::endl;
   }
+
   return 0;
 }
 ```
 
-The above code snippet will return the following output:
+The output of this code is:
 
 ```shell
-apple: 2
+Fruits map contains:
+3: Orange
+2: Banana
+1: Apple
 ```
 
-## Codebyte Example
+This example shows how to create an empty `unordered_map` and initialize another with key-value pairs using an initializer list. The output displays the fruit IDs and names, demonstrating basic map creation and iteration.
+
+## Example 2: Counting Character Frequencies
+
+This example demonstrates using `unordered_map` to count the frequency of characters in a string, a common real-world application:
+
+```cpp
+#include <iostream>
+#include <unordered_map>
+#include <string>
+#include <algorithm> // for std::max_element
+
+int main() {
+  std::string text = "programming";
+  std::unordered_map<char, int> charFreq;
+
+  // Count frequency of each character
+  for (char c : text) {
+    charFreq[c]++;  // Automatically creates entry if key doesn't exist
+  }
+
+  // Display character frequencies
+  std::cout << "Character frequencies in '" << text << "':" << std::endl;
+  for (const auto& pair : charFreq) {
+    std::cout << "'" << pair.first << "': " << pair.second << " times" << std::endl;
+  }
+
+  // Find most frequent character
+  auto maxElement = std::max_element(charFreq.begin(), charFreq.end(),
+    [](const std::pair<char, int>& a, const std::pair<char, int>& b) {
+      return a.second < b.second;
+    });
+
+  std::cout << "Most frequent character: '" << maxElement->first
+            << "' appears " << maxElement->second << " times" << std::endl;
+
+  return 0;
+}
+```
+
+The output of this code is:
+
+```shell
+Character frequencies in 'programming':
+'i': 1 times
+'m': 2 times
+'n': 1 times
+'a': 1 times
+'g': 2 times
+'o': 1 times
+'r': 2 times
+'p': 1 times
+Most frequent character: 'm' appears 2 times
+```
+
+> **Note:** The order of elements in an unordered_map is unspecified and may vary across executions.
+
+This example demonstrates a practical use case where `unordered_map` efficiently counts character occurrences. The algorithm has O(n) time complexity, making it very efficient for frequency analysis tasks commonly used in text processing and data analysis.
+
+## Codebyte Example: Building an Employee Database
+
+This example shows how to use `unordered_map` to create a simple employee database system for quick employee information retrieval:
 
 ```codebyte/cpp
 #include <iostream>
 #include <unordered_map>
+#include <string>
+
+struct Employee {
+  std::string name;
+  std::string department;
+  double salary;
+
+  Employee() : name(""), department(""), salary(0.0) {}  // Default constructor
+  Employee(const std::string& n, const std::string& dept, double sal)
+    : name(n), department(dept), salary(sal) {}
+};
+
 
 int main() {
-    // Create an unordered_map with default hash and equality functions
-    std::unordered_map<int, std::string> myMap;
+  // Create employee database using employee ID as key
+  std::unordered_map<int, Employee> employeeDB;
 
-    // Insert elements into the unordered_map
-    myMap[1] = "one";
-    myMap[2] = "two";
-    myMap[3] = "three";
+  // Add employees to database
+  employeeDB.emplace(1001, Employee("Alice Johnson", "Engineering", 75000.0));
+  employeeDB.emplace(1002, Employee("Bob Smith", "Marketing", 65000.0));
+  employeeDB.emplace(1003, Employee("Carol Davis", "Engineering", 80000.0));
+  employeeDB.emplace(1004, Employee("David Wilson", "Sales", 60000.0));
 
-    // Print the elements in the unordered_map
-    std::cout << "Elements in the unordered_map:" << std::endl;
-    for (const auto& pair : myMap) {
-        std::cout << pair.first << ": " << pair.second << std::endl;
+  // Function to search for employee
+  auto searchEmployee = [&](int id) {
+    auto it = employeeDB.find(id);
+    if (it != employeeDB.end()) {
+      const Employee& emp = it->second;
+      std::cout << "Employee Found:" << std::endl;
+      std::cout << "ID: " << id << std::endl;
+      std::cout << "Name: " << emp.name << std::endl;
+      std::cout << "Department: " << emp.department << std::endl;
+      std::cout << "Salary: $" << emp.salary << std::endl;
+    } else {
+      std::cout << "Employee with ID " << id << " not found." << std::endl;
     }
-    return 0;
+    std::cout << std::endl;
+  };
+
+  // Search for specific employees
+  searchEmployee(1002);  // Found
+  searchEmployee(1005);  // Not found
+
+  // Update employee information
+  if (employeeDB.find(1001) != employeeDB.end()) {
+    employeeDB[1001].salary = 78000.0;  // Give Alice a raise
+    std::cout << "Updated Alice's salary to $" << employeeDB[1001].salary << std::endl;
+  }
+
+  // Display all employees by department
+  std::cout << "\nEngineering Department Employees:" << std::endl;
+  for (const auto& pair : employeeDB) {
+    if (pair.second.department == "Engineering") {
+      std::cout << "ID: " << pair.first << ", Name: " << pair.second.name
+                << ", Salary: $" << pair.second.salary << std::endl;
+    }
+  }
+
+  return 0;
 }
 ```
+
+This example demonstrates a real-world application where `unordered_map` serves as an efficient database for employee records. The constant-time lookup makes it ideal for systems that need to frequently access employee information by ID, such as payroll systems or HR applications.
+
+## Frequently Asked Questions
+
+### 1. What is the difference between `map` and `unordered_map`?
+
+`map` maintains elements in sorted order using a balanced binary search tree (typically red-black tree), providing O(log n) operations, while `unordered_map` uses a hash table with O(1) average-case operations but no ordering guarantees.
+
+### 2. When should I use `unordered_map` over `map`?
+
+Use `unordered_map` when you need faster lookup times and don't require the elements to be in sorted order. It's ideal for scenarios like caching, frequency counting, and database indexing where performance is critical.
+
+### 3. Can I use custom objects as keys in `unordered_map`?
+
+Yes, but you need to provide a custom hash function and equality operator for your custom type. The hash function should be provided as a template parameter or through specialization of `std::hash`.
