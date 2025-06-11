@@ -5,210 +5,268 @@ Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
-  - 'Vectors'
   - 'Arrays'
   - 'Data Structures'
+  - 'Values'
+  - 'Vectors'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-A **vector** is a dynamic list of items that can shrink and grow in size. It can only store values of the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types).
+In C++, a **vector** is a dynamic list of items that can shrink and grow in size. It can only store values of the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types). Memory management is handled internally, and elements can be added or removed efficiently.
 
-## Syntax
+Vectors are widely used in real-world C++ applications, including game development (for managing game [objects](https://www.codecademy.com/resources/docs/cpp/objects)), financial modeling (to store [variable](https://www.codecademy.com/resources/docs/cpp/variables)-length time series), data processing (to handle datasets of unknown size), and competitive programming (due to their ease of use and dynamic nature).
 
-```pseudo
+## Creating a Vector
+
+Vectors are defined using the `<vector>` library and are part of the `std` namespace:
+
+```cpp
 #include <vector>
 
 std::vector<type> name;
 ```
 
-To use vectors, it is necessary to `#include` the `vector` library.
+When a vector is created, the data type of its elements must be specified. The type cannot be changed afterward.
 
-The data type of its elements must be specified when the vector is created. Afterwards, the type cannot be changed.
-
-### Create a Vector with Size
+### Creating a Vector with Size
 
 ```cpp
+#include <vector>
+
 std::vector<int> grades(10);
 ```
 
-### Create and Initialize a Vector
+### Creating and Initializing a Vector
 
 ```cpp
+#include <vector>
+
 std::vector<double> order = {3.99, 12.99, 2.49};
 ```
 
-## Getting Information
+## Accessing and Modifying Elements in a Vector
 
-Since a vector is dynamic and can grow and shrink it's size to accommodate new elements, the language gives us a few methods to get information from the vector.
+Elements in a vector can be accessed and modified using:
 
-### Index
+- The index `[]` [operator](https://www.codecademy.com/resources/docs/cpp/operators)
+- The `.at()` [function](https://www.codecademy.com/resources/docs/cpp/functions)
 
-An index refers to an element’s position within an ordered list, like a vector or an [array](https://www.codecademy.com/resources/docs/cpp/arrays). The first element has an index of 0.
-
-A specific element in a vector or an array can be accessed via index, using a `name[index]` syntax:
-
-```cpp
-std::vector<double> order = {3.99, 12.99, 2.49};
-
-// What's the first element?
-std::cout << order[0];
-
-// What's the last element?
-std::cout << order[2];
-```
-
-### `.size()`
-
-Due to the dynamic nature of vectors, it can be hard to keep track of the number of elements they hold at a point in time manually. Luckily, vectors come with a helpful method to solve this problem called `.size()`:
+### Using the Index `[]` Operator
 
 ```cpp
-// Number of elements in the vector
-std::cout << order.size();
-```
+#include <vector>
+#include <iostream>
 
-### `.capacity()`
+int main() {
+  std::vector<double> order = {3.99, 12.99, 2.49};
+  order[0] = 4.23;
 
-`.capacity()` is used to retrieve the current capacity of a `std::vector`. The capacity of a vector represents the number of elements it can hold without needing to allocate additional memory. The vector may have more capacity than its current size to reduce the need for frequent reallocations and copying when elements are added.
-
-Initially, the capacity is likely to be small, but as elements are added using `.push_back()`, the capacity will grow to accommodate the added elements. The exact growth behavior may vary depending on the C++ implementation, but it's typically designed to minimize reallocations and copying.
-
-```cpp
-// Check the initial capacity
-std::cout << "Initial capacity: " << order.capacity() << std::endl;
-
-// Add elements to the vector
-for (int i = 0; i < 10; ++i) {
-    order.push_back(i);
+  std::cout << order[0];
+  return 0;
 }
-// Check the capacity after adding elements
-std::cout<< "Capacity after adding elements: "<< order.capacity()<< std::endl;
 ```
 
-### `.at()`
-
-The `.at()` function provides a safer way of accessing elements in a vector. It performs bounds checking on the vector and will throw an [error](https://www.codecademy.com/resources/docs/cpp/errors) if there is an attempt to access an element that is out of bounds:
-
-```cpp
-// First element
-std::cout << order.at(0);
-
-// Last element
-std::cout << order.at(2);
-
-// Out of bounds
-std::cout << order.at(100);
-```
-
-The code above will print the following error:
+**Output:**
 
 ```shell
-terminate called after throwing an instance of 'std::out_of_range'
-what():  vector::_M_range_check: __n (which is 100) >= this->size() (which is 3)
-Aborted (core dumped)
+4.23
 ```
 
-Alternatives to the `.at()` method include dedicated methods for retrieving the first or the last element of a vector.
-
-### `.front()`
-
-The `.front()` returns a reference to the first element of the vector:
+### Using the `.at()` Function
 
 ```cpp
-// The first element of a vector
-std::cout << order.front();
+#include <vector>
+#include <iostream>
+
+int main() {
+  std::vector<double> order = {3.99, 12.99, 2.49};
+  order.at(0) = 4.23;
+
+  std::cout << order[0];
+  return 0;
+}
 ```
 
-### `.back()`
+**Output:**
 
-The `.back()` returns a reference to the last element of the vector:
+```shell
+4.23
+```
+
+Alternatives to `.at()` include `.size()`, `.capacity()`, `.front()`, and `.back()`.
+
+## Adding Elements to a Vector
+
+Elements can be inserted into a vector using:
+
+- `.push_back()` [method](https://www.codecademy.com/resources/docs/cpp/methods)
+- `.emplace_back()` method
+
+### Using the `.push_back()` Method
 
 ```cpp
-// The last element of a vector
-std::cout << order.back();
+#include <vector>
+#include <iostream>
+
+int main() {
+  std::vector<int> v = {1,2,3,4};
+  v.push_back(5);
+
+  std::cout << "The last element is: " << v[4];
+  return 0;
+}
 ```
 
-## Adding Elements
+**Output:**
 
-There are two different ways to insert elements into the vector.
+```shell
+The last element is: 5
+```
 
-### `.push_back()`
-
-This method pushes elements to the back of a vector:
+### Using the `.emplace_back()` Method
 
 ```cpp
-std::vector<int> v = {1,2,3,4};
+#include <vector>
+#include <iostream>
 
-v.push_back(5);
+int main() {
+  std::vector<int> v = {1,2,3,4};
+  v.emplace_back(5);
 
-int n = v.size();
-
-std::cout << "The last element is: " << v[n - 1];
-// Output: The last element is: 5
+  std::cout << "The last element is: " << v[4];
+  return 0;
+}
 ```
 
-### `.emplace_back()`
+**Output:**
 
-This method also pushes elements to the back of a vector, but instead of creating a temporary object it directly creates an object in the vector itself.
+```shell
+The last element is: 5
+```
+
+The `.insert()` method is another alternative for inserting elements.
+
+## Removing Elements from a Vector
+
+The `.pop_back()` method removes the last element:
 
 ```cpp
-std::vector<int> v = {1,2,3,4};
+#include <vector>
+#include <iostream>
 
-v.emplace_back(5);
+int main() {
+  std::vector<int> v = {1,2,3,4};
+  v.pop_back();
 
-int n = v.size();
+  for (int i : v) {
+    std::cout << i << " ";
+  }
 
-std::cout << "The last element is: " << v[n - 1];
-// Output: The last element is: 5
+  return 0;
+}
 ```
 
-### `.insert()`
+**Output:**
 
-This method inserts new elements before the element at the specified position.
+```shell
+1 2 3
+```
+
+## Iterating Over a Vector
+
+The `foreach` loop can be used to iterate over a vector:
 
 ```cpp
-std::vector<int> v = {1,2,3,4};
+#include <vector>
+#include <iostream>
 
-// Insert at beginning
-v.insert(v.begin(), 0);
+int main() {
+  std::vector<int> v = {1,2,3,4};
 
-// Insert at end
-v.insert(v.end(),6);
+  for (int i : v) {
+    std::cout << i << " ";
+  }
 
-std::cout << "The first element is: " << v[0] << "\n";
-// Output: The first element is: 0
-
-std::cout << "The last element is: " << v[5] << "\n";
-// Output: The last element is: 6
+  return 0;
+}
 ```
 
-## Codebyte Example
+**Output:**
 
-To create a vector named `grade` with three items and then insert elements to the last of the vector using `.push_back()` and `.insert()` functions:
+```shell
+1 2 3 4
+```
+
+## Codebyte Example: Common Vector Operations
 
 ```codebyte/cpp
 #include <iostream>
 #include <vector>
 
 int main() {
-  // Initializes an array of size 3
-  std::vector<int> grades(3);
+  std::vector<int> numbers;
 
-  // Assign the values to the vector elements
-  grades[0] = 20;
-  grades[1] = 30;
-  grades[2] = 40;
+  numbers.push_back(10);
+  numbers.push_back(20);
+  numbers.push_back(30);
 
-  // Display all 3 vector elements
-  std::cout << grades[0] << ", ";
-  std::cout << grades[1] << ", ";
-  std::cout << grades[2] << "\n";
+  std::cout << "Elements in the vector: ";
+  for (int num : numbers) {
+    std::cout << num << " ";
+  }
+  std::cout << std::endl;
 
-  grades.push_back(50);
-  std::cout << grades[3] << "\n";
+  std::cout << "First element (index): " << numbers[0] << std::endl;
+  std::cout << "Second element (at): " << numbers.at(1) << std::endl;
 
-  grades.insert(grades.end(),60);
-  std::cout << grades[4] << "\n";
+  numbers[2] = 100;
+  std::cout << "Modified third element: " << numbers[2] << std::endl;
+
+  numbers.pop_back();
+
+  std::cout << "Vector after pop_back: ";
+  for (int num : numbers) {
+      std::cout << num << " ";
+  }
+  std::cout << std::endl;
+
+  std::cout << "Size: " << numbers.size() << std::endl;
+  std::cout << "Capacity: " << numbers.capacity() << std::endl;
+
+  return 0;
 }
 ```
+
+## Frequently Asked Questions
+
+### 1. What does vector `.size()` return in C++?
+
+The `.size()` function returns the number of items stored in the vector:
+
+```cpp
+#include <vector>
+#include <iostream>
+
+int main() {
+  std::vector<int> v = {1,2,3,4};
+
+  std::cout << "Size: " << v.size();
+  return 0;
+}
+```
+
+**Output:**
+
+```shell
+Size: 4
+```
+
+### 2. Are C++ vectors ordered?
+
+Yes. Elements are stored and accessed in the order they were inserted.
+
+### 3. Are vectors thread-safe?
+
+No. Vectors are not thread-safe by default. Synchronization mechanisms must be used for concurrent access.

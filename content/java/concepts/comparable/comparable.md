@@ -1,121 +1,404 @@
 ---
 Title: 'Comparable'
-Description: 'The Comparable interface is used to define how a class is to be sorted.'
+Description: 'Defines the natural ordering of objects for a user-defined class in Java.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Collections'
-  - 'Comparison'
   - 'Data Structures'
-  - 'Sort'
+  - 'Interfaces'
+  - 'Sorting Algorithms'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The **`Comparable`** interface is used to define how a [class](https://www.codecademy.com/resources/docs/java/classes) is to be sorted. It is not to be confused with the [`Comparator`](https://www.codecademy.com/resources/docs/java/comparator) interface, which is implemented in a separate class. The `Comparable` interface is implemented in the class to be sorted.
+The **`Comparable`** interface in Java specifies the natural ordering for objects of a custom class. It is part of the `java.lang` package and provides a mechanism for comparing objects of the same type. By implementing this interface, a class indicates that its instances can be ordered or sorted.
+
+When a class implements the Comparable interface, it must override the `compareTo()` method to define the comparison logic between objects. This method determines how objects should be ranked in relation to each other, such as ascending or descending order. The `Comparable` interface is commonly used with sorting methods provided by Java's Collections framework, enabling the sorting of custom objects in arrays and collections.
 
 ## Syntax
 
 ```pseudo
-class MyClass implements Comparable<MyClass> {
-  // Class body.
-  ...
-  @Override public int compareTo(MyClass value)
-  {
-      // Comparison Logic
-      ...
-      return result;
-  }
+public interface Comparable<T> {
+  int compareTo(T obj);
 }
 ```
 
-Applying the `Comparable` interface to `MyClass` requires the `implements` keyword (e.g., `Comparable<MyClass>`). This interface has a single `.compareTo()` method that returns an `int` value based on whether the `value` of a current class instance (referenced by `this`) can be logically sorted with the value of another instance of the same class. The `compareTo` method should follow the contract defined by the `Comparable` interface. The comparison logic should be consistent with the equals method (i.e., if `compareTo` returns `0`, equals should return true).
+**Parameters:**
 
-| Return Value | Meaning                         |
-| :----------: | ------------------------------- |
-|    `>= 1`    | this instance > passed instance |
-|     `0`      | this instance = passed instance |
-|   `<= -1`    | this instance < passed instance |
+- `T` is the type of object this object may be compared to.
+- `obj` is the object to be compared with the current instance.
 
-This method determines how items are sorted by methods such as [`Arrays.sort()`](https://www.codecademy.com/resources/docs/java/arrays/sort) and `Collections.sort()`.
+**The `compareTo()` method returns:**
 
-## Example
+- A negative integer if the current object is less than the specified object
+- Zero if the current object is equal to the specified object
+- A positive integer if the current object is greater than the specified object
 
-The following example defines an `Employee` class that sorts based on `lastName` and then on `firstName`.
+## Example 1: Creating a Comparable Class
 
-Implementing the class:
+This example demonstrates how to create a simple class that implements the `Comparable` interface to enable natural sorting of objects:
 
 ```java
-import java.util.*;
+import java.util.Arrays;
 
-// Employee.java
-public class Employee implements Comparable<Employee> {
-  String firstName;
-  String lastName;
+// Define a Student class that implements Comparable
+class Student implements Comparable<Student> {
+  private String name;
+  private int id;
 
-  // Constructor sets firstName and lastName
-  public Employee(String first, String last)
-  {
-    this.firstName = first;
-    this.lastName = last;
+  // Constructor
+  public Student(String name, int id) {
+    this.name = name;
+    this.id = id;
   }
 
-  // User-friendly output when printed.
-  public String toString()
-  {
-    return "( " + lastName + ", " + firstName + " )";
+  // Getter methods
+  public String getName() {
+    return name;
   }
 
-  // Implement the Comparable interface
-  @Override public int compareTo(Employee value)
-  {
-    if (this.lastName.compareTo(value.lastName) != 0) {
-      // If lastNames are different, compare lastName
-      return this.lastName.compareTo(value.lastName);
-    } else {
-      // If lastNames are the same, compare firstName
-      return this.firstName.compareTo(value.firstName);
+  public int getId() {
+    return id;
+  }
+
+  // Override toString() for better readability
+  @Override
+  public String toString() {
+    return "Student [name=" + name + ", id=" + id + "]";
+  }
+
+  // Implement compareTo() method to compare students by ID
+  @Override
+  public int compareTo(Student other) {
+    // Compare students based on their ID
+    return this.id - other.id;
+  }
+}
+
+public class ComparableExample {
+  public static void main(String[] args) {
+    // Create an array of Student objects
+    Student[] students = {
+      new Student("Alice", 103),
+      new Student("Bob", 101),
+      new Student("Charlie", 105),
+      new Student("David", 102)
+    };
+
+    // Display students before sorting
+    System.out.println("Students before sorting:");
+    for (Student student : students) {
+      System.out.println(student);
     }
-  }
+
+    // Sort the array using the natural ordering defined by compareTo
+    Arrays.sort(students);
+
+    // Display students after sorting
+    System.out.println("\nStudents after sorting by ID:");
+      for (Student student : students) {
+        System.out.println(student);
+      }
+    }
 }
 ```
 
-This last snippet demonstrates the `Comparable` interface:
-
-```java
-import java.util.*;
-
-// SortExample.java
-public class SortExample {
-  public static void main(String[] args)
-  {
-    // Set up array with a few Employee classes
-    Employee a[] = new Employee[5];
-    a[0] = new Employee("Kirk","Douglas");
-    a[1] = new Employee("Mel","Brooks");
-    a[2] = new Employee("Jane","Fonda");
-    a[3] = new Employee("Henry","Fonda");
-    a[4] = new Employee("Michael","Douglas");
-
-    // The .sort() method uses the Comparable interface.
-    Arrays.sort(a);
-
-    // Print out the sorted Employees
-    for (int i=0; i < a.length; i++) {
-      System.out.println(a[i]);
-    }
-  }
-}
-```
-
-This example results in the following output:
+The output generated by the above code will be:
 
 ```shell
-( Brooks, Mel )
-( Douglas, Kirk )
-( Douglas, Michael )
-( Fonda, Henry )
-( Fonda, Jane )
+Students before sorting:
+Student [name=Alice, id=103]
+Student [name=Bob, id=101]
+Student [name=Charlie, id=105]
+Student [name=David, id=102]
+
+Students after sorting by ID:
+Student [name=Bob, id=101]
+Student [name=David, id=102]
+Student [name=Alice, id=103]
+Student [name=Charlie, id=105]
 ```
+
+In this example, a `Student` class is created that implements the `Comparable` interface. The natural ordering of students is defined based on their ID by implementing the `compareTo()` method. When [`Arrays.sort()`](https://www.codecademy.com/resources/docs/java/arrays/sort) is called on an array of Student objects, Java uses the defined comparison logic to sort them in ascending order by ID.
+
+## Example 2: Accessing Elements from a Comparable Collection
+
+This example shows how to use the Comparable interface with Java [Collections](https://www.codecademy.com/resources/docs/java/collection) and how to access elements after they've been sorted:
+
+```java
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+// Define a Book class that implements Comparable
+class Book implements Comparable<Book> {
+  private String title;
+  private String author;
+  private double price;
+
+  // Constructor
+  public Book(String title, String author, double price) {
+    this.title = title;
+    this.author = author;
+    this.price = price;
+  }
+
+  // Getter methods
+  public String getTitle() {
+    return title;
+  }
+
+  public String getAuthor() {
+    return author;
+  }
+
+  public double getPrice() {
+    return price;
+  }
+
+  // Override toString() for better readability
+  @Override
+  public String toString() {
+    return title + " by " + author + " ($" + price + ")";
+  }
+
+  // Implement compareTo() to compare books by price
+  @Override
+  public int compareTo(Book other) {
+    // Compare books based on their price
+    return Double.compare(this.price, other.price);
+  }
+}
+
+public class ComparableCollectionExample {
+  public static void main(String[] args) {
+    // Create a list of Book objects
+    List<Book> bookList = new ArrayList<>();
+    bookList.add(new Book("The Great Gatsby", "F. Scott Fitzgerald", 12.99));
+    bookList.add(new Book("To Kill a Mockingbird", "Harper Lee", 10.99));
+    bookList.add(new Book("1984", "George Orwell", 8.99));
+    bookList.add(new Book("Pride and Prejudice", "Jane Austen", 7.99));
+
+    // Display books before sorting
+    System.out.println("Books before sorting:");
+    for (Book book : bookList) {
+      System.out.println(book);
+    }
+
+    // Sort the list using the natural ordering defined by compareTo
+    Collections.sort(bookList);
+
+    // Display books after sorting by price
+    System.out.println("\nBooks after sorting by price (ascending):");
+    for (Book book : bookList) {
+      System.out.println(book);
+    }
+
+    // Access and display the cheapest book (first element after sorting)
+    System.out.println("\nCheapest book: " + bookList.get(0));
+
+    // Access and display the most expensive book (last element after sorting)
+    System.out.println("Most expensive book: " + bookList.get(bookList.size() - 1));
+
+    // Access books within a certain price range
+    System.out.println("\nBooks between $8 and $12:");
+      for (Book book : bookList) {
+        if (book.getPrice() >= 8.0 && book.getPrice() <= 12.0) {
+          System.out.println(book);
+        }
+      }
+    }
+}
+```
+
+The output of this code will be:
+
+```shell
+Books before sorting:
+The Great Gatsby by F. Scott Fitzgerald ($12.99)
+To Kill a Mockingbird by Harper Lee ($10.99)
+1984 by George Orwell ($8.99)
+Pride and Prejudice by Jane Austen ($7.99)
+
+Books after sorting by price (ascending):
+Pride and Prejudice by Jane Austen ($7.99)
+1984 by George Orwell ($8.99)
+To Kill a Mockingbird by Harper Lee ($10.99)
+The Great Gatsby by F. Scott Fitzgerald ($12.99)
+
+Cheapest book: Pride and Prejudice by Jane Austen ($7.99)
+Most expensive book: The Great Gatsby by F. Scott Fitzgerald ($12.99)
+
+Books between $8 and $12:
+1984 by George Orwell ($8.99)
+To Kill a Mockingbird by Harper Lee ($10.99)
+```
+
+In this example, a `Book` class is created that implements the `Comparable` interface with comparison based on book prices. After sorting the collection, elements can be easily accessed in specific positions or filtered based on their properties, demonstrating how the natural ordering helps organize and retrieve data efficiently.
+
+## Example 3: Adding Elements and Custom Sorting
+
+This example shows how to implement a more complex comparison logic and how to add elements to a sorted collection:
+
+```java
+import java.util.TreeSet;
+import java.util.Set;
+
+// Define a Person class that implements Comparable
+class Person implements Comparable<Person> {
+  private String firstName;
+  private String lastName;
+  private int age;
+
+  // Constructor
+  public Person(String firstName, String lastName, int age) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+  }
+
+  // Getter methods
+  public String getFirstName() {
+    return firstName;
+  }
+
+  public String getLastName() {
+    return lastName;
+  }
+
+  public int getAge() {
+    return age;
+  }
+
+  // Override toString() for better readability
+  @Override
+  public String toString() {
+    return firstName + " " + lastName + " (" + age + ")";
+  }
+
+  // Implement compareTo() for natural ordering
+  // Sort by last name, then by first name, then by age
+  @Override
+  public int compareTo(Person other) {
+    // First compare by last name
+    int lastNameComparison = this.lastName.compareTo(other.lastName);
+    if (lastNameComparison != 0) {
+      return lastNameComparison;
+    }
+
+    // If last names are equal, compare by first name
+    int firstNameComparison = this.firstName.compareTo(other.firstName);
+    if (firstNameComparison != 0) {
+      return firstNameComparison;
+    }
+
+    // If both names are equal, compare by age
+    return Integer.compare(this.age, other.age);
+  }
+}
+
+public class TreeSetComparableExample {
+  public static void main(String[] args) {
+    // Create a TreeSet which automatically sorts elements
+    // based on their natural ordering (using Comparable)
+    Set<Person> personSet = new TreeSet<>();
+
+    // Add persons to the set (they will be automatically sorted)
+    personSet.add(new Person("John", "Smith", 30));
+    personSet.add(new Person("Alice", "Johnson", 25));
+    personSet.add(new Person("Bob", "Smith", 22));
+    personSet.add(new Person("John", "Smith", 25));
+
+    // Display the sorted set
+    System.out.println("Persons sorted by last name, first name, and age:");
+    for (Person person : personSet) {
+      System.out.println(person);
+    }
+
+    // Add more elements and observe automatic sorting
+    System.out.println("\nAfter adding more elements:");
+    personSet.add(new Person("David", "Johnson", 35));
+    personSet.add(new Person("Alice", "Brown", 28));
+
+    for (Person person : personSet) {
+      System.out.println(person);
+    }
+  }
+}
+```
+
+The output generated by the above code will be:
+
+```shell
+Persons sorted by last name, first name, and age:
+Alice Brown (28)
+Alice Johnson (25)
+David Johnson (35)
+Bob Smith (22)
+John Smith (25)
+John Smith (30)
+
+After adding more elements:
+Alice Brown (28)
+Alice Johnson (25)
+David Johnson (35)
+Bob Smith (22)
+John Smith (25)
+John Smith (30)
+```
+
+In this example, a multi-field comparison is implemented in the `Person` class. The natural ordering is based on last name, then first name, and finally age when both names are identical. Using a [`TreeSet`](https://www.codecademy.com/resources/docs/java/set/treeset) demonstrates how elements are automatically sorted when added to the collection, maintaining the order defined by the `compareTo()` method.
+
+## Comparable vs Comparator
+
+Both `Comparable` and `Comparator` interfaces in Java are used for sorting objects, but they have key differences:
+
+| Comparable                                                 | Comparator                                                                         |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Part of `java.lang` package                                | Part of `java.util` package                                                        |
+| Contains only one method: `compareTo()`                    | Contains multiple methods, with `compare()` being the main one                     |
+| Provides the natural ordering of objects                   | Provides custom ordering that may be different from natural ordering               |
+| Class itself must implement the interface                  | External class implements the interface                                            |
+| Only one sorting sequence per class                        | Multiple sorting sequences possible                                                |
+| Used with `Arrays.sort(array)` or `Collections.sort(list)` | Used with `Arrays.sort(array, comparator)` or `Collections.sort(list, comparator)` |
+
+**When to use Comparable:**
+
+- When there is a single, obvious natural ordering for objects
+- When control over the class source code is available
+- When the ordering is intrinsic to the class
+
+**When to use Comparator:**
+
+- When multiple ways to sort objects are needed
+- When sorting objects that cannot be modified (like classes from libraries)
+- When the sorting logic changes based on context or user preference
+
+## Frequently Asked Questions
+
+### 1. When should I implement the Comparable interface?
+
+Implement `Comparable` when a class has a natural ordering that makes logical sense, such as ordering people by name, products by ID, or dates chronologically.
+
+### 2. Can I change the natural ordering of a class?
+
+The natural ordering defined by `Comparable` should be consistent and unchanging. For different sorting orders, use `Comparator` instead of modifying the `compareTo` method.
+
+### 3. What happens if I don't implement compareTo correctly?
+
+If your implementation doesn't follow the contract (reflexivity, symmetry, transitivity), sorting methods may behave unpredictably, potentially causing exceptions or incorrect results.
+
+### 4. How do I sort in descending order using Comparable?
+
+You can reverse the comparison logic in your `compareTo` method (return `other.field - this.field` instead of `this.field - other.field`), or use `Collections.reverseOrder()` with a collection of `Comparable` objects.
+
+### 5. Can I implement Comparable for classes I don't own?
+
+No, you need to modify the class to implement `Comparable`. For classes you don't control, use `Comparator` instead.
+
+### 6. Is Comparable thread-safe?
+
+The `Comparable` interface itself doesn't address thread safety. Thread safety depends on the implementation of the `compareTo` method and whether the fields being compared are properly synchronized in a multi-threaded environment.
