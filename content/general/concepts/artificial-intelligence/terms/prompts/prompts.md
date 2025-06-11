@@ -22,9 +22,9 @@ AI prompts can range from simple questions to complex, multi-part instructions t
 
 AI prompts function as the starting point for the model's generation process, directing it to produce content relevant to the input. When a prompt is submitted to a [**large language model** (LLM)](https://www.codecademy.com/resources/docs/general/llm), the system processes the text and uses it as context to predict and generate the most appropriate response based on its training data.
 
-The AI model analyzes several key elements within the prompt including the specific task being requested, the context provided, any formatting requirements, and the implied tone or style. The model then generates text that aims to fulfill the prompt's requirements while maintaining coherence and relevance to the given context.
+The AI model analyzes several key elements within the prompt, including the specific requested task, the context provided, any formatting requirements, and the implied tone or style. The model then generates text that fulfils the prompt's requirements while maintaining coherence and relevance to the given context.
 
-Modern AI systems can handle various types of prompts, from simple factual queries to complex multi-step instructions. The model's response quality depends heavily on how clearly and specifically the prompt communicates the user's intent.
+Modern AI systems can handle various prompts, from simple factual queries to complex multi-step instructions. The model's response quality depends heavily on how clearly and specifically the prompt communicates the user's intent.
 
 ## Why We Need AI Prompts
 
