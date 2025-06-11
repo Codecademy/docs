@@ -10,7 +10,7 @@ Tags:
   - 'Natural Language Processing'
   - 'Prompts'
 CatalogContent:
-  - 'introduction-to-machine-learning'
+  - 'intro-to-py-torch-and-neural-networks'
   - 'paths/machine-learning'
 ---
 
