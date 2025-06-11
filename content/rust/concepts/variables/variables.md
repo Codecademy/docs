@@ -1,6 +1,6 @@
 ---
 Title: 'Variables'
-Description: 'A variable is a location in computer memory used to store data.'
+Description: 'A variable is an identifier used to reference a value stored in memory.'
 Subjects:
   - 'Computer Science'
 Tags:
