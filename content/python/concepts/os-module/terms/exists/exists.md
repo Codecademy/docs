@@ -28,11 +28,8 @@ The following example uses [Python files](https://www.codecademy.com/resources/d
 
 ```codebyte/python
 import os.path
-
 f = open('file_a.py', 'w')
 f.close()
-
 print(os.path.exists('./file_a.py'))
-
 print(os.path.exists('./file_b.py'))
 ```
