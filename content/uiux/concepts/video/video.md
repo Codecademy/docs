@@ -15,4 +15,4 @@ There are different methods to make **videos** such as recording footage, captur
 
 With the potential to support and engage users, videos are commonly featured in digital products. Videos can be a powerful way to introduce information, demonstrate a process, tell a story, or [further a business strategy](https://wistia.com/learn/marketing/evolution-of-video-goals).
 
-To reach users, videos must be [accessible](https://www.codecademy.com/resources/docs/uiux/accessibility). [WebAim](https://webaim.org/techniques/captions/) and [The A11y Project](https://www.a11yproject.com/checklist/#video) provide guidelines for closed captions, transcripts, and other considerations for creating accessible videos.
+To reach users, videos must be [accessible](https://www.codecademy.com/resources/docs/uiux/design-methodologies/accessibility). [WebAim](https://webaim.org/techniques/captions/) and [The A11y Project](https://www.a11yproject.com/checklist/#video) provide guidelines for closed captions, transcripts, and other considerations for creating accessible videos.
