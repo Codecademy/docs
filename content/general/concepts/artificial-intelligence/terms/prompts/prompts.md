@@ -89,7 +89,7 @@ Creating effective AI prompts requires careful consideration of clarity, specifi
 
 - **Be Specific and Clear**: Provide detailed instructions about what you want the AI to accomplish. Avoid vague language and include specific requirements, constraints, and expectations.
 
-- **Provide Context**: Give the AI relevant background information that will help it understand the situation and generate more appropriate responses.
+- **Provide Context**: Give the AI relevant background information to help it understand the situation and generate more appropriate responses.
 
 - **Specify Format and Structure**: Clearly indicate how you want the output formatted, whether as a list, paragraph, code block, or other specific structure.
 
@@ -99,7 +99,7 @@ Creating effective AI prompts requires careful consideration of clarity, specifi
 
 - **Use Iterative Refinement**: Start with a basic prompt and refine it based on the AI's responses to achieve better results over time.
 
-- **Consider Your Audience**: Tailor the prompt to specify the intended audience for the output, which helps the AI adjust complexity and terminology appropriately.
+**Consider Your Audience**: Tailor the prompt to specify the output's intended audience, which helps the AI adjust complexity and terminology appropriately.
 
 ## Frequently Asked Questions
 
