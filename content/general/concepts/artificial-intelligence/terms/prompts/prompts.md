@@ -28,11 +28,11 @@ Modern AI systems can handle various prompts, from simple factual queries to com
 
 ## Why We Need AI Prompts
 
-AI prompts are essential because they bridge the communication gap between human intent and machine understanding. Without effective prompts, AI models would lack the necessary context and direction to generate useful outputs. **Prompt engineering** has become a critical skill as it determines the quality and relevance of AI-generated content.
+AI prompts are essential because they bridge the communication gap between human intent and machine understanding. AI models would lack the context and direction to generate useful outputs without effective prompts. [**Prompt engineering**](https://www.codecademy.com/resources/docs/ai/prompt-engineering) has become a critical skill as it determines the quality and relevance of AI-generated content.
 
 Prompts enable users to harness the full potential of AI models by providing specific instructions, context, and constraints. They allow for precise control over the AI's output format, style, and content focus. Well-crafted prompts can significantly improve the accuracy and usefulness of AI responses while reducing the need for multiple iterations.
 
-The importance of prompts extends beyond simple question-answering. They enable complex workflows, creative tasks, analytical processes, and specialized applications that would be impossible without clear human guidance.
+Prompts' importance extends beyond simple question-answering. They enable complex workflows, creative tasks, analytical processes, and specialized applications that would be impossible without clear human guidance.
 
 ## Benefits of Effective Prompts
 
