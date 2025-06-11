@@ -87,7 +87,7 @@ This comprehensive prompt demonstrates how AI can assist with practical daily ta
 
 Creating effective AI prompts requires careful consideration of clarity, specificity, and structure. Follow these guidelines to improve prompt effectiveness:
 
-- **Be Specific and Clear**: Provide detailed instructions about what you want the AI to accomplish. Avoid vague language and include specific requirements, constraints, and expectations.
+- **Be Specific and Clear**: Provide detailed instructions about what to accomplish. Avoid vague language and include specific requirements, constraints, and expectations.
 
 - **Provide Context**: Give the AI relevant background information to help it understand the situation and generate more appropriate responses.
 
