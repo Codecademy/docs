@@ -1,5 +1,5 @@
 ---
-Title: '.absolute()'
+Title: '.abs()'
 Description: 'Calculates the absolute value of a given number or each element in an array.'
 Subjects:
   - 'Computer Science'
@@ -14,16 +14,14 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The NumPy, the **`.absolute()`** function calculates the absolute value of a given number or each element in an array. The absolute value of a number is its non-negative value or the number’s distance from zero. This function can be applied to both real and complex numbers.
+The NumPy, the **`.abs()`** function calculates the absolute value of a given number or each element in an array. The absolute value of a number is its non-negative value or the number’s distance from zero. This function can be applied to both real and complex numbers.
 
-NumPy's `.absolute()` function is widely used in data science applications for cleaning datasets with negative values, calculating distances in machine learning algorithms, processing signal data, financial analysis for computing returns and losses, and scientific computing where absolute differences are required. The function works seamlessly with both real and complex numbers, making it versatile for various mathematical operations.
-
-> **Note:** `np.abs` is a shorthand alias for the `np.absolute()` function.
+NumPy's `.abs()` function is widely used in data science applications for cleaning datasets with negative values, calculating distances in machine learning algorithms, processing signal data, financial analysis for computing returns and losses, and scientific computing where absolute differences are required. The function works seamlessly with both real and complex numbers, making it versatile for various mathematical operations.
 
 ## Syntax
 
 ```pseudo
-numpy.absolute(x, out=None, where=True)
+numpy.abs(x, out=None, where=True)
 ```
 
 **Parameters:**
@@ -36,9 +34,11 @@ numpy.absolute(x, out=None, where=True)
 
 An array containing the absolute value of each element in the input. For complex numbers, returns the magnitude calculated as √(real² + imaginary²).
 
-## Example 1: Basic Array Operations using `.absolute()` method
+> **Note:** `numpy.abs()` is identical to `numpy.absolute()` and they can be used interchangeably.
 
-This example demonstrates the fundamental usage of `numpy.absolute()` with different numeric data types:
+## Example 1: Basic Array Operations using `.abs()` method
+
+This example demonstrates the fundamental usage of `numpy.abs()` with different numeric data types:
 
 ```py
 import numpy as np
@@ -70,7 +70,7 @@ The function preserves the original data type while converting negative values t
 
 ## Example 2: Financial Data Analysis
 
-This example shows how `numpy.absolute()` is used in financial analysis to calculate absolute returns and risk metrics:
+This example shows how `numpy.abs()` is used in financial analysis to calculate absolute returns and risk metrics:
 
 ```py
 import numpy as np
@@ -111,7 +111,7 @@ Financial analysts use absolute values to measure portfolio volatility and risk 
 
 ## Codebyte Example: Signal Processing and Complex Numbers
 
-This example demonstrates how `numpy.absolute()` handles complex numbers for signal processing applications:
+This example demonstrates how `numpy.abs()` handles complex numbers for signal processing applications:
 
 ```codebyte/python
 import numpy as np
@@ -137,25 +137,25 @@ filtered_magnitudes = np.abs(noisy_data, where=(np.real(noisy_data) > 0))
 print("\nFiltered magnitudes (positive real parts only):", filtered_magnitudes)
 ```
 
-For complex numbers, `numpy.absolute()` computes the magnitude using the formula √(real² + imaginary²), which is crucial in signal processing for analyzing frequency components and signal strength.
+For complex numbers, `numpy.abs()` computes the magnitude using the formula √(real² + imaginary²), which is crucial in signal processing for analyzing frequency components and signal strength.
 
 ## Frequently Asked Questions
 
-### 1. What's the difference between `numpy.absolute()` and Python's built-in `abs()`?
+### 1. What's the difference between `numpy.abs()` and Python's built-in `abs()`?
 
-`numpy.absolute()` is optimized for arrays and performs element-wise operations on entire arrays efficiently, while Python's built-in `abs()` works on individual numbers. For single values, both produce the same result, but `numpy.absolute()` is much faster for array operations.
+`numpy.abs()` is optimized for arrays and performs element-wise operations on entire arrays efficiently, while Python's built-in `abs()` works on individual numbers. For single values, both produce the same result, but `numpy.abs()` is much faster for array operations.
 
-### 2. Can I use `numpy.absolute()` with multidimensional arrays?
+### 2. Can I use `numpy.abs()` with multidimensional arrays?
 
-Yes, `numpy.absolute()` works with arrays of any dimension. It applies the absolute value operation element-wise across all dimensions, preserving the original array shape.
+Yes, `numpy.abs()` works with arrays of any dimension. It applies the absolute value operation element-wise across all dimensions, preserving the original array shape.
 
-### 3. How does `numpy.absolute()` handle special values like `Infinity` and `NaN`?
+### 3. How does `numpy.abs()` handle special values like `Infinity` and `NaN`?
 
 The function returns positive infinity for both positive and negative infinity inputs. For NaN (Not a Number) values, it returns NaN, maintaining the invalid state of the computation.
 
-### 4. Does `numpy.absolute()` modify the original array?
+### 4. Does `numpy.abs()` modify the original array?
 
-No, `numpy.absolute()` returns a new array with the absolute values. The original array remains unchanged unless you explicitly assign the result back to the original variable.
+No, `numpy.abs()` returns a new array with the absolute values. The original array remains unchanged unless you explicitly assign the result back to the original variable.
 
 ### 5. What happens when I use the `where` parameter?
 
