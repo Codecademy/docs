@@ -18,6 +18,8 @@ The NumPy's **`.abs()`** function calculates the absolute value of a given numbe
 
 NumPy's `.abs()` function is widely used in data science applications for cleaning datasets with negative values, calculating distances in machine learning algorithms, processing signal data, financial analysis for computing returns and losses, and scientific computing where absolute differences are required. The function works seamlessly with both real and complex numbers, making it versatile for various mathematical operations.
 
+> **Note:** `numpy.abs` is a shorthand alias for the `numpy.absolute()` function.
+
 ## Syntax
 
 ```pseudo
@@ -33,8 +35,6 @@ numpy.abs(x, out=None, where=True)
 **Return value:**
 
 An array containing the absolute value of each element in the input. For complex numbers, returns the magnitude calculated as √(real² + imaginary²).
-
-> **Note:** `numpy.abs()` is identical to `numpy.absolute()` and they can be used interchangeably.
 
 ## Example 1: Basic Array Operations using `.abs()` method
 
