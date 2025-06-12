@@ -64,11 +64,11 @@ The output of this code will be:
 Orange is in the array
 ```
 
-This example shows how `.indexOf()` returns the zero-based index position of the first matching element. When "banana" is found at position 1, the method returns 1. When searching for "kiwi" which doesn't exist, it returns -1. The conditional check demonstrates a common pattern for testing element existence.
+This example shows how `.indexOf()` returns the zero-based index position of the first matching element. When "banana" is found at position 1, the method returns 1. When searching for "kiwi", which doesn't exist, it returns -1. The conditional check demonstrates a common pattern for testing the existence of an element.
 
 ## Example 2: Product Inventory Management
 
-This example shows how `.indexOf()` can be used in a real-world inventory management system to track product availability and prevent duplicates:
+The following example shows how `.indexOf()` can be used in a real-world inventory management system to track product availability and prevent duplicates:
 
 ```js
 const inventory = ['laptop', 'mouse', 'keyboard', 'monitor', 'speakers'];
