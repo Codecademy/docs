@@ -27,8 +27,8 @@ numpy.abs(x, out=None, where=True)
 **Parameters:**
 
 - `x`: The input array or scalar value for which absolute values will be computed. Can be integer, float, or complex numbers.
-- `out` (Optional): A location where the result will be stored. If `None` (default), a new array is returned. Must have a shape that the inputs broadcast to.
-- `where` (Optional): A boolean array that determines which elements should have the absolute value function applied. Elements where condition is `True` get computed, while `False` elements retain original values. Default is `True` for all elements.
+- `out` (Optional): A location where the result will be stored. If `None` (default), a new array is returned. The inputs must have a shape that they broadcast to.
+- `where` (Optional): A boolean array that determines which elements should have the absolute value function applied. Elements where the condition is `True` get computed, while `False` elements retain their original values. The default is `True` for all elements.
 
 **Return value:**
 
