@@ -34,7 +34,7 @@ numpy.abs(x, out=None, where=True)
 
 **Return value:**
 
-An array containing the absolute value of each element in the input. For complex numbers, returns the magnitude calculated as √(real² + imaginary²).
+An array containing the absolute value of each element in the input. For complex numbers, returns the magnitude calculated as `√(real² + imaginary²)`.
 
 ## Example 1: Basic Array Operations using `.abs()` method
 
