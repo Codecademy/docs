@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The NumPy, the **`.abs()`** function calculates the absolute value of a given number or each element in an array. The absolute value of a number is its non-negative value or the number’s distance from zero. This function can be applied to both real and complex numbers.
+The NumPy's **`.abs()`** function calculates the absolute value of a given number or each element in an array. A number's absolute value is its non-negative value or its distance from zero. This function can be applied to both real and complex numbers.
 
 NumPy's `.abs()` function is widely used in data science applications for cleaning datasets with negative values, calculating distances in machine learning algorithms, processing signal data, financial analysis for computing returns and losses, and scientific computing where absolute differences are required. The function works seamlessly with both real and complex numbers, making it versatile for various mathematical operations.
 
