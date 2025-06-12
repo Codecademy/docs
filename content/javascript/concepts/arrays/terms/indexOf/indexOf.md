@@ -165,11 +165,11 @@ The above example demonstrates advanced usage of the `fromIndex` parameter by fi
 
 ### 1. What happens when `.indexOf()` searches for objects or arrays?
 
-The `.indexOf()` method uses strict equality comparison, which means it only matches the exact same object reference, not objects with identical content. For content-based matching of objects, use `findIndex()` with a custom comparison function.
+The `.indexOf()` method uses strict equality comparison, which only matches the same object reference, not objects with identical content. For content-based matching of objects, use `findIndex()` with a custom comparison function.
 
 ### 2. Can `.indexOf()` work with negative starting positions?
 
-Yes, negative values for the `fromIndex` parameter count backward from the end of the array. However, the search still proceeds from left to right. If the calculated starting position is still negative, the search begins from index 0.
+Yes, negative values for the `fromIndex` parameter count backwards from the end of the array. However, the search still proceeds from left to right. If the calculated starting position is negative, the search begins from index 0.
 
 ### 3. How does `.indexOf()` handle undefined and null values?
 
