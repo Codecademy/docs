@@ -1,17 +1,20 @@
 ---
-Title: Hybrid Inheritance
-Description: Hybrid inheritance mixes inheritance types, letting a class inherit traits from multiple parents to model complex real-world ties. 
+Title: 'Hybrid Inheritance'
+Description: 'Hybrid inheritance mixes inheritance types, letting a class inherit traits from multiple parents to model complex real-world ties.' 
 Subjects: 
-  - AI
-  - Machine Learning
+  - 'AI'
+  - 'Computer Science'
+  - 'Data Science'
+  - 'Machine Learning'
 Tags: 
-  - AI 
-  - Inheritance
-  - Machine Learning
-  - Python
+  - 'AI' 
+  - 'Inheritance'
+  - 'Machine Learning'
+  - 'Python'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
-
-# Hybrid Inheritance
 
 **Hybrid inheritance** in Python combines multiple types of inheritance, such as single, multiple, and multilevel inheritance, within a single class hierarchy. It allows a class to inherit attributes and methods from multiple parent classes, often through a complex structure. Hybrid inheritance is useful for modeling real-world relationships where a class needs behaviors from various sources, but it requires careful design to avoid ambiguity, such as the diamond problem.
 
