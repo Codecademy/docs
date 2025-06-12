@@ -27,7 +27,7 @@ array.indexOf(searchElement, fromIndex)
 **Parameters:**
 
 - `searchElement`: The element to search for in the array.
-- `fromIndex` (Optional): The index position to start the search from. Default value is 0. Negative values count back from the end of the array but still search from left to right.
+- `fromIndex` (Optional): The index position to start the search from. The default value is 0. Negative values count back from the end of the array, but still search from left to right.
 
 **Return value:**
 
