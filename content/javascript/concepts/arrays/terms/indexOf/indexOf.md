@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`.indexOf()`** method returns the first index at which a specified element can be found in an [array](https://www.codecademy.com/resources/docs/javascript/arrays), or -1 if the element is not present. This method searches the array from left to right and uses strict equality comparison to match elements.
 
-The `.indexOf()` method is commonly used for element detection, data validation, conditional logic, and implementing search functionality in web applications. It serves as a fundamental tool for determining whether specific values exist in arrays and their exact positions, making it essential for tasks like user input validation, menu systems, and data processing workflows.
+The `.indexOf()` method is commonly used for element detection, data validation, conditional logic, and implementing search functionality in web applications. It is a fundamental tool for determining whether specific values exist in arrays and their exact positions. It is essential for user input validation, menu systems, and data processing workflows.
 
 ## Syntax
 
