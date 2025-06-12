@@ -137,7 +137,7 @@ filtered_magnitudes = np.abs(noisy_data, where=(np.real(noisy_data) > 0))
 print("\nFiltered magnitudes (positive real parts only):", filtered_magnitudes)
 ```
 
-For complex numbers, `numpy.abs()` computes the magnitude using the formula √(real² + imaginary²), which is crucial in signal processing for analyzing frequency components and signal strength.
+For complex numbers, `numpy.abs()` computes the magnitude using the formula `√(real² + imaginary²)`, which is crucial in signal processing for analyzing frequency components and signal strength.
 
 ## Frequently Asked Questions
 
