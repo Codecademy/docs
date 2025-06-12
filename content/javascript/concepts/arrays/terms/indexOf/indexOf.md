@@ -159,7 +159,7 @@ console.log(checkPermission("moderator", "write"));
 console.log(checkPermission("guest", "delete"));
 ```
 
-This example demonstrates advanced usage of the `fromIndex` parameter by finding multiple occurrences of a value and implementing a role-based permission system. The while loop demonstrates how to find all instances of an element by repeatedly calling `.indexOf()` with updated starting positions.
+The above example demonstrates advanced usage of the `fromIndex` parameter by finding multiple occurrences of a value and implementing a role-based permission system. The while loop demonstrates how to find all instances of an element by repeatedly calling `.indexOf()` with updated starting positions.
 
 ## Frequently Asked Questions
 
