@@ -31,7 +31,7 @@ sizeof(type)
 **Parameters:**
 
 - `expression`: Any valid C expression, variable, or array name whose size needs to be determined
-- `type`: Any C data type including primitive types, structures, unions, or arrays
+- `type`: Any C data type, including primitive types, structures, unions, or arrays
 
 **Return value:**
 
