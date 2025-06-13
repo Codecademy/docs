@@ -68,7 +68,7 @@ Size of long: 8 bytes
 Size of pointer: 8 bytes
 ```
 
-This example prints the size of various fundamental data types. The output shows how much memory each type consumes, which helps in understanding memory usage and choosing appropriate data types for specific requirements.
+This example prints the size of various fundamental data types. The output shows how much memory each type consumes, which helps understand memory usage and choose appropriate data types for specific requirements.
 
 ## Example 2: Dynamic Memory Allocation
 
