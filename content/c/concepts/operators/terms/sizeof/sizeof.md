@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`sizeof`** operator is a compile-time unary operator in C that returns the size in bytes of its operand. It calculates the amount of memory space required to store a data type or variable, returning an unsigned integer value of type `size_t`. The `sizeof` operator is essential for memory management and ensures portability across different platforms where data type sizes may vary.
+The **`sizeof`** operator is a compile-time unary operator in C that returns the size in bytes of its operand. It calculates the memory space required to store a [data type](https://www.codecademy.com/resources/docs/c/data-types) or variable, returning an unsigned integer value of type `size_t`. The `sizeof` operator is essential for memory management and ensures portability across different platforms where data type sizes may vary.
 
-`sizeof` is widely used in dynamic memory allocation with functions like `malloc()` and `calloc()`, array size calculations, and when working with structures and unions. It provides a reliable way to determine memory requirements at compile time, making programs more portable and reducing platform-specific coding issues.
+`sizeof` is widely used in dynamic memory allocation with functions like [`malloc()`](https://www.codecademy.com/resources/docs/c/memory-management/malloc) and [`calloc()`](https://www.codecademy.com/resources/docs/c/memory-management/calloc), array size calculations, and when working with structures and unions. It provides a reliable way to determine memory requirements at compile time, making programs more portable and reducing platform-specific coding issues.
 
 ## Syntax
 
