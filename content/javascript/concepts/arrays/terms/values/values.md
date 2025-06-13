@@ -1,10 +1,10 @@
 ---
 Title: '.values()'
-Description: 'Returns a new Array Iterator object that contains the values for each index in the array.'
+Description: 'Returns a new array iterator object that contains the values for each index in the array.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
-Tags: 
+  - 'Web Development'
+Tags:
   - 'Arrays'
   - 'Methods'
   - 'JavaScript'
@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.values()`** method returns a new **Array Iterator object** that contains the values for each index in the array. It allows to explicitly iterate over the elements of the array using a loop or the iterator's `.next()` method.
+The **`.values()`** method returns a new [array iterator](https://www.codecademy.com/resources/docs/javascript/iterators) object that contains the values for each index in the array. It allows to explicitly iterate over the elements of the array using a loop or the iterator's `.next()` method.
 
-> **Note:** The iterable returned by `.values()` is **not reusable**. Once it has been fully consumed (all elements have been iterated), it becomes exhausted. To iterate again, a new iterator must be created by calling the `.values()` method.
+> **Note:** The iterable returned by `.values()` is _not reusable_. Once it has been fully consumed (all elements have been iterated), it becomes exhausted. To iterate again, a new iterator must be created by calling the `.values()` method.
 
 ## Syntax
 
@@ -29,10 +29,10 @@ None.
 
 **Return value:**
 
-An **Array Iterator object** containing the values of the array.
-
+An array iterator object containing the values of the array.
 
 ## Example 1: Using a for...of loop
+
 The following example uses a `for...of` loop to iterate over the iterable object returned by `.values()` and print the values ​​to the console.
 
 ```js
@@ -53,11 +53,13 @@ orange
 ```
 
 ## Example 2: Using the iterator's .next() method
+
 The following example uses the `.next()` method to manually iterate through the values ​​and print them to the console.
 
 Each time you call `.next()`, it gives an object with:
- - `value`: the current index value.
- - `done`: a boolean that tells if there are more items left.
+
+- `value`: the current index value.
+- `done`: a boolean that tells if there are more items left.
 
 ```js
 const numbers = [2, 4, 6, 8];
@@ -80,7 +82,7 @@ This will produce the following output:
 undefined
 ```
 
-The last `console.log` prints `undefined` because there are no more values ​​to iterate over.
+The last `console.log()` prints `undefined` because there are no more values ​​to iterate over.
 
 ## Codebyte Example
 
@@ -89,7 +91,7 @@ In the example below, the `.values()` method returns an iterator object of the `
 The `while` loop keeps running as long as `done` is `false`. Inside the loop, it prints each fruit. When all items have been printed, the loop stops, and a final message is shown.
 
 ```codebyte/js
-const fruits = ["apple", "banana", "orange"];
+const fruits = ['apple', 'banana', 'orange'];
 const iterator = fruits.values();
 
 let result = iterator.next();
@@ -99,10 +101,10 @@ while (!result.done) {
   result = iterator.next();
 }
 
-console.log("Iteration completed.");
+console.log('Iteration completed.');
 
-// Expected output: "Fruit: apple"
-// Expected output: "Fruit: banana"
-// Expected output: "Fruit: orange"
-// Expected output: "Iteration completed"
+// Expected output: 'Fruit: apple'
+// Expected output: 'Fruit: banana'
+// Expected output: 'Fruit: orange'
+// Expected output: 'Iteration completed.'
 ```
