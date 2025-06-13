@@ -19,7 +19,7 @@ In the `random` module of NumPy, the **`.beta()`** method generates random sampl
 The Beta distribution has the probability function:
 
 ```tex
-f\left(x; \alpha, \beta \right) = \int \frac{1}{B\left(\alpha, \beta \right)} x^{\alpha -1} \left(1-x \right)^{\beta -1}
+f\left(x; \alpha, \beta \right) = \frac{1}{B\left(\alpha, \beta \right)} x^{\alpha -1} \left(1-x \right)^{\beta -1}
 ```
 
 Where `B` represents the beta function:
