@@ -1,6 +1,6 @@
 ---
 Title: 'reduceRight()'
-Description: 'Array method that apply a callback function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value.'
+Description: 'Array method that apply a callback function against an accumulator and each value of the array, from right-to-left to reduce it to a single value.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -37,9 +37,10 @@ The difference between **`reduceRight()`** method and _reduce()_ method is the o
 
 ```js
 // difference between `reduceRight()` and `reduce()`
-const l = ['0', '2', '4', '6', '🐈', '→'];
-const reduceMethod = l.reduce((prev, cur) => prev + cur);
-const reduceRightMethod = l.reduceRight((prev, cur) => prev + cur);
+const stringArray = ['0', '2', '4', '6', '🐈', '→'];
+
+const reduceMethod = stringArray.reduce((prev, cur) => prev + cur);
+const reduceRightMethod = stringArray.reduceRight((prev, cur) => prev + cur);
 
 console.log(`reduceMethod : ${reduceMethod}`); // "0246🐈→"
 console.log(`reduceRightMethod : ${reduceRightMethod}`); // "→🐈6420"
