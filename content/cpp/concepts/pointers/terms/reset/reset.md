@@ -1,15 +1,15 @@
 ---
-Title: '.reset()'  
-Description: 'Releases ownership of the managed object and optionally takes ownership of a new object.'  
-Subjects:  
-- 'Code Foundations'  
-- 'Computer Science'  
-Tags:  
-- 'Containers'  
-- 'Pointers'  
-CatalogContent:  
-- 'learn-c++'  
-- 'paths/computer-science' 
+Title: '.reset()'
+Description: 'Releases ownership of the managed object and optionally takes ownership of a new object.'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Containers'
+  - 'Pointers'
+CatalogContent:
+  - 'learn-c++'
+  - 'paths/computer-science'
 ---
 
 The **`.reset()`** method is used with smart pointers in C++ (such as `std::unique_ptr` and `std::shared_ptr`). It releases ownership of the currently managed object (deleting it if this is the last owner) and optionally takes ownership of a new object passed as a raw pointer.
@@ -59,7 +59,7 @@ In this example:
 
 ## Codebyte Example
 
-Run the following example to understand how the `.reset()` works:
+Run the following example to understand how the `.reset()` method works:
 
 ```codebyte/cpp
 #include <iostream>
@@ -68,34 +68,35 @@ Run the following example to understand how the `.reset()` works:
 
 class TV {
 public:
-    TV(std::string brand) : brand_(brand) {
-        std::cout << brand_ << " TV is turned ON.\n";
-    }
-    ~TV() {
-        std::cout << brand_ << " TV is turned OFF.\n";
-    }
-    void watch() const {
-        std::cout << "Watching " << brand_ << " TV.\n";
-    }
+  TV(std::string brand) : brand_(brand) {
+    std::cout << brand_ << " TV is turned ON.\n";
+  }
+  ~TV() {
+    std::cout << brand_ << " TV is turned OFF.\n";
+  }
+  void watch() const {
+    std::cout << "Watching " << brand_ << " TV.\n";
+  }
+
 private:
-    std::string brand_;
+  std::string brand_;
 };
 
 int main() {
-    std::unique_ptr<TV> remote(new TV("Samsung"));  // Remote controls Samsung TV
-    remote->watch();
+  std::unique_ptr<TV> remote(new TV("Samsung"));  // Remote controls Samsung TV
+  remote->watch();
 
-    // Replace old TV with a new LG TV
-    remote.reset(new TV("LG"));  // Old TV turned off, now controlling LG TV
-    remote->watch();
+  // Replace old TV with a new LG TV
+  remote.reset(new TV("LG"));  // Old TV turned off, now controlling LG TV
+  remote->watch();
 
-    // Put down the remote, no TV controlled now
-    remote.reset();  // LG TV turned off, remote controls nothing
+  // Put down the remote, no TV controlled now
+  remote.reset();  // LG TV turned off, remote controls nothing
 
-    if (!remote) {
-        std::cout << "Remote controls no TV now.\n";
-    }
+  if (!remote) {
+    std::cout << "Remote controls no TV now.\n";
+  }
 
-    return 0;
+  return 0;
 }
 ```
