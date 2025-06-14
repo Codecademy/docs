@@ -70,11 +70,11 @@ int main() {
 The output of this code will be:
 
 ```shell
-  1 is less than 3
-  2 is less than 3
-  3 is equal to 3
-  4 is greater than 3
-  5 is greater than 3
+1 is less than 3
+2 is less than 3
+3 is equal to 3
+4 is greater than 3
+5 is greater than 3
 ```
 
 ## Codebyte Example
