@@ -13,13 +13,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**. ]
+The **.get()** method returns a raw pointer that points to the managed object without transferring ownership. It is used with smart pointers in C++, including the unique_ptr and shared_ptr. 
+
+This method ensures the raw pointer is not responsible of deleting the object it is pointing to, since the smart pointer owns it. 
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
 ```pseudo 
-T* raw_ptr = smart_ptr.get() // returns raw pointer to smart_ptr's managed object, but only smart_ptr owns it
+T* raw_ptr = smart_ptr.get() // returns raw pointer to smart_ptr's managed object, but only smart_ptr has ownership
 ```
 
 ## Example
