@@ -138,7 +138,7 @@ Error: Index 5 out of bounds for length 2
 
 ### 1. Can `.set()` be used to add new elements to a list?
 
-No. The `.set()` method only replaces existing elements. To add a new element, use `.add()`.
+No. The `.set()` method replaces an existing element at a given index. To insert a new element, use `.add()` instead.
 
 ### 2. Is `.set()` available for all collections in Java?
 
