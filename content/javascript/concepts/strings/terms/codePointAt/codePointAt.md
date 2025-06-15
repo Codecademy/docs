@@ -5,60 +5,77 @@ Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
-  - 'Unicode'
-  - 'Strings'
   - 'Methods'
+  - 'Strings'
   - 'Text Processing'
+  - 'Unicode'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-developer'
 ---
 
-The **`.codePointAt()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) is a JavaScript string method that returns a non-negative integer that is the Unicode code point value of the character at a specified index position. Unlike the older method [`.charCodeAt()`](https://www.codecademy.com/resources/docs/javascript/concepts/strings/charCodeAt/charCodeAt.md), it properly handles the full spectrum of Unicode characters, including emojis, symbols, and characters from any language.
+The **`.codePointAt()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) is a JavaScript string method that returns a non-negative integer representing the Unicode code point of the character at a specified index. Unlike the older [`.charCodeAt()`](https://www.codecademy.com/resources/docs/javascript/concepts/strings/charCodeAt/charCodeAt.md) method, `.codePointAt()` accurately handles the full range of Unicode characters, including emojis, symbols, and characters from any language.
 
 ## Syntax
 
-```js
+```pseudo
 string.codePointAt(index);
 ```
-- `string`: The string value from which the character is to be accessed.
 
 **Parameters:**
-- `index`: The zero-based index position of the character whose code point to be retrieved.
 
-**Returns:**
-- A number representing the Unicode code point of the character at the specified position, or `undefined` if no character exists at the given position.
+- `index`: A non-negative integer representing the position in the string to get the code point from. If the index is out of range, it returns `undefined`.
+
+**Return value:**
+
+- A non-negative integer representing the Unicode code point at the specified index.
+- `undefined` if no character exists at that index.
 
 ## Example
 
-Below is an example showcasing the functionality of the `.codePointAt()` method:
+The following example demonstrates how `.codePointAt()` retrieves Unicode values from strings, including regular characters, emojis, compound emojis, and out-of-range positions:
 
 ```js
 const text = "Hello 😀";
 
 // Accessing the second character in the string.
-console.log(text.codePointAt(1)); // 101 (code for 'e')
+console.log(text.codePointAt(1));
 
 // Accessing the emoji
-console.log(text.codePointAt(6)); // 128512 (code for 😀)
+console.log(text.codePointAt(6));
 
 // Accessing a character at a position that is beyond the string length.
-console.log(text.codePointAt(12)); // undefined
+console.log(text.codePointAt(12));
 
 // Compare with a multi-byte character
 const emoji = "👨‍💻"; // Man technologist emoji (compound emoji)
-console.log(emoji.codePointAt(0)); // 128104 (👨)
-console.log(emoji.codePointAt(2)); // 8205 (zero-width joiner)
+console.log(emoji.codePointAt(0));
+console.log(emoji.codePointAt(2));
 ```
 
-## Codebyte
+The output of this code is:
 
-The Example code produces the following output:
-
-```codebyte/javascript
+```shell
 101
 128512
 undefined
 128104
 8205
+```
+
+## Codebyte Example
+
+The example retrieves Unicode code points from a string containing text and emojis, handling multi-byte characters and out-of-range positions correctly:
+
+```codebyte/javascript
+const greeting = "Hi 🌍🚀!";
+
+// Access Earth emoji
+console.log(greeting.codePointAt(3));
+
+// Access Rocket emoji
+console.log(greeting.codePointAt(5));
+
+// Try accessing beyond the string length
+console.log(greeting.codePointAt(20));
 ```
