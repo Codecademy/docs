@@ -1,6 +1,6 @@
 ---
 Title: '.values()'
-Description: 'Returns a new array iterator object that contains the values for each index in the array.'
+Description: 'Returns a new Array iterator object that contains the values of each element in the array.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -13,27 +13,27 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.values()`** method returns a new [array iterator](https://www.codecademy.com/resources/docs/javascript/iterators) object that contains the values for each index in the array. It allows to explicitly iterate over the elements of the array using a loop or the iterator's `.next()` method.
+The **`.values()`** method returns a new array [iterator](https://www.codecademy.com/resources/docs/javascript/iterators) object that contains the values of each element in the array. This method enables explicit iteration using a `for...of` loop or the iterator's `.next()` method.
 
-> **Note:** The iterable returned by `.values()` is _not reusable_. Once it has been fully consumed (all elements have been iterated), it becomes exhausted. To iterate again, a new iterator must be created by calling the `.values()` method.
+> **Note:** The iterable returned by `.values()` is _not reusable_. Once it has been fully consumed (i.e., all elements have been iterated over), it becomes exhausted. To iterate again, a new iterator must be created by calling `.values()` again on the array.
 
 ## Syntax
 
 ```pseudo
-Array.values();
+array.values();
 ```
 
 **Parameters:**
 
-None.
+The `.values()` method does not take any parameters.
 
 **Return value:**
 
-An array iterator object containing the values of the array.
+Returns a new array iterator object that contains the values of each index in the array, in order.
 
-## Example 1: Using a for...of loop
+## Example 1: Using a `for...of` loop
 
-The following example uses a `for...of` loop to iterate over the iterable object returned by `.values()` and print the values ​​to the console.
+The following example uses a `for...of` loop to iterate over the iterable object returned by `.values()` and prints the values:
 
 ```js
 const fruits = ['apple', 'banana', 'orange'];
@@ -52,14 +52,9 @@ banana
 orange
 ```
 
-## Example 2: Using the iterator's .next() method
+## Example 2: Using the iterator's `.next()` method
 
-The following example uses the `.next()` method to manually iterate through the values ​​and print them to the console.
-
-Each time you call `.next()`, it gives an object with:
-
-- `value`: the current index value.
-- `done`: a boolean that tells if there are more items left.
+The following example uses the `.next()` method to manually iterate through the values ​​and print them to the console:
 
 ```js
 const numbers = [2, 4, 6, 8];
@@ -82,13 +77,16 @@ This will produce the following output:
 undefined
 ```
 
+Each time `.next()` is called, it gives an object with:
+
+- `value`: The current index value.
+- `done`: A boolean that tells if there are more items left.
+
 The last `console.log()` prints `undefined` because there are no more values ​​to iterate over.
 
 ## Codebyte Example
 
-In the example below, the `.values()` method returns an iterator object of the `fruits` array. This object lets pass through each item in the array one by one using the `.next()` method.
-
-The `while` loop keeps running as long as `done` is `false`. Inside the loop, it prints each fruit. When all items have been printed, the loop stops, and a final message is shown.
+In the example below, the `.values()` method returns an iterator for the `fruits` array. The iterator is used to access each element until the iteration is done:
 
 ```codebyte/js
 const fruits = ['apple', 'banana', 'orange'];
@@ -102,9 +100,6 @@ while (!result.done) {
 }
 
 console.log('Iteration completed.');
-
-// Expected output: 'Fruit: apple'
-// Expected output: 'Fruit: banana'
-// Expected output: 'Fruit: orange'
-// Expected output: 'Iteration completed.'
 ```
+
+The `while` loop keeps running as long as `done` is `false`. Inside the loop, it prints each fruit. When all items have been printed, the loop stops, and a final message is shown.
