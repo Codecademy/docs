@@ -1,7 +1,7 @@
 ---
 Title: 'flat()'
 Description: 'Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth'
-Subjects: 
+Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
@@ -18,12 +18,12 @@ The **`flat()`** method creates a new [array](https://www.codecademy.com/resourc
 ## Syntax
 
 ```js
-    array.flat();
-    array.flat([depth]);
+array.flat();
+array.flat([depth]);
 ```
 
-The ***optional*** `depth` parameter specifies how many levels of nested arrays to flatten.  
-If omitted, it defaults to `1`.  
+The **_optional_** `depth` parameter specifies how many levels of nested arrays to flatten.  
+If omitted, it defaults to `1`.
 
 If set to `Infinity`, the method flattens all nested sub-arrays, regardless of their depth.
 
