@@ -1,6 +1,6 @@
 ---
 Title: '.get()' 
-Description: 'Returns raw pointer to managed object without transferring ownership.'
+Description: 'Returns a raw pointer to a managed object without transferring ownership.'
 
 Subjects:
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **.get()** method returns a raw pointer that points to the managed object (if any), without transferring ownership. It is used with smart pointers in C++, including the unique_ptr and shared_ptr. 
+The **.get()** method returns a raw pointer that points to the managed object (if any) without transferring ownership. It is used with smart pointers in C++, including the unique_ptr and shared_ptr. 
 
 Therefore, after using this method, the smart pointer still owns the object and is responsible for its deletion.
 
@@ -37,13 +37,12 @@ int main() {
 
 	int* raw_ptr = nullptr; 
 	
-	raw_ptr = uniq_ptr.get(); // returns pointer to managed object without transferring ownership
+	raw_ptr = uniq_ptr.get(); // returns pointer to a managed object without transferring ownership
 
 	std::cout << "value at raw_ptr address: " << *raw_ptr << std::endl; 
 
 	return 0;
 }
-
 ```
 
 The output of this example is:
@@ -51,12 +50,9 @@ The output of this example is:
 ```shell 
 
 value at raw_ptr address: 20
-
 ```
 
-## Codebyte Example (if applicable)
-
-We can currently support:
+In this example:
 
 - Python
 - JavaScript
@@ -65,10 +61,3 @@ We can currently support:
 - C#
 - Go
 - PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
-```
