@@ -10,7 +10,7 @@ Tags:
   - 'Methods'
   - 'Strings'
 CatalogContent:
-  - 'learn-c++'
+  - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
