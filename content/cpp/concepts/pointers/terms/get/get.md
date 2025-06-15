@@ -1,31 +1,58 @@
 ---
 Title: '.get()' 
-Description: 'Returns raw pointer to managed object without transferring ownership.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
+Description: 'Returns raw pointer to managed object without transferring ownership.'
+
 Subjects:
   - 'Computer Science'
 
 Tags: 
   - 'Pointers'
-  - 'Memory'
 
 CatalogContent: 
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The **.get()** method returns a raw pointer that points to the managed object without transferring ownership. It is used with smart pointers in C++, including the unique_ptr and shared_ptr. 
+The **.get()** method returns a raw pointer that points to the managed object (if any), without transferring ownership. It is used with smart pointers in C++, including the unique_ptr and shared_ptr. 
 
-This method ensures the raw pointer is not responsible of deleting the object it is pointing to, since the smart pointer owns it. 
+Therefore, after using this method, the smart pointer still owns the object and is responsible for its deletion.
 
 ## Syntax
 
 ```pseudo 
-T* raw_ptr = smart_ptr.get() // returns raw pointer to smart_ptr's managed object, but only smart_ptr has ownership
+T* raw_ptr = smart_ptr.get() // returns raw pointer to smart_ptr's managed object, but only smart_ptr owns it
 ```
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+This example shows how the .get() method returns a raw pointer to a managed object without transferring ownership.
+
+```cpp
+
+#include <iostream>
+
+int main() {
+
+	std::unique_ptr<int> uniq_ptr(new int(20));
+
+	int* raw_ptr = nullptr; 
+	
+	raw_ptr = uniq_ptr.get(); // returns pointer to managed object without transferring ownership
+
+	std::cout << "value at raw_ptr address: " << *raw_ptr << std::endl; 
+
+	return 0;
+}
+
+```
+
+The output of this example is:
+
+```shell 
+
+value at raw_ptr address: 20
+
+```
 
 ## Codebyte Example (if applicable)
 
