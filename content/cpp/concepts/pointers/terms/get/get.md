@@ -54,5 +54,5 @@ value at raw_ptr address: 20
 
 In this example:
 
-- uniq_ptr manages an int with a value of 20.
+- The uniq_ptr manages an int with a value of 20.
 - After calling .get(), raw_ptr now has read and write access to the int that uniq_ptr manages.
