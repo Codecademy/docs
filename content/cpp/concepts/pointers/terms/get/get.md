@@ -19,7 +19,7 @@ CatalogContent:
 
 [Text, code, images, parameters, etc. about the syntax]
 ```pseudo 
-T* raw_ptr = smart_ptr.get() // returns raw pointer to object managed by smart_ptr, but only smart_ptr owns it
+T* raw_ptr = smart_ptr.get() // returns raw pointer to smart_ptr's managed object, but only smart_ptr owns it
 ```
 
 ## Example
