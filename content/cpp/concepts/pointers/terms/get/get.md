@@ -13,11 +13,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+[A brief definition - make sure first mention of term is in **bold**. ]
 
 ## Syntax
 
 [Text, code, images, parameters, etc. about the syntax]
+```pseudo 
+T* raw_ptr = smart_ptr.get() // returns raw pointer to object managed by smart_ptr, but only smart_ptr owns it
+```
 
 ## Example
 
