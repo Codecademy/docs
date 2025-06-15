@@ -15,7 +15,7 @@ CatalogContent:
 
 The **.get()** method returns a raw pointer that points to the managed object (if any) without transferring ownership. It is used with smart pointers in C++, including the unique_ptr and shared_ptr. 
 
-Therefore, after using this method, the smart pointer still owns the object and is responsible for its deletion.
+After using this method, the smart pointer still owns the object and is responsible for its deletion.
 
 ## Syntax
 
@@ -54,10 +54,5 @@ value at raw_ptr address: 20
 
 In this example:
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+- uniq_ptr manages an int with a value of 20.
+- After calling .get(), raw_ptr now has read and write access to the int that uniq_ptr manages.
