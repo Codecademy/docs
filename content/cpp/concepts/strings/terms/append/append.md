@@ -19,10 +19,10 @@ CatalogContent:
 ## Syntax
 
 ```pseudo
-str.append(str2);                       // Appends entire string
-str.append(str2, pos, len);             // Appends substring from str2
-str.append(n, char);                    // Appends character 'char' n times
-str.append(first, last);                // Appends range using iterators
+str.append(str2);               // Appends entire string
+str.append(str2, pos, len);     // Appends substring from str2
+str.append(n, char);            // Appends character 'char' n times
+str.append(first, last);        // Appends range using iterators
 ```
 
 **Parameters:**
@@ -38,7 +38,7 @@ str.append(first, last);                // Appends range using iterators
 
 Returns a reference to the modified string (`*this`), allowing method chaining.
 
-## Example 1: Appending 2 strings together
+## Example 1: Appending two strings together
 
 This example takes two separate strings and concatenates them:
 
