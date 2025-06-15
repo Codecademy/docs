@@ -1,44 +1,127 @@
 ---
-Title: 'The Title' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A brief description.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'paths/example-path'
+Title: 'flat()'
+Description: 'Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth'
+Subjects: 
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Arrays'
+  - 'Methods'
+
+CatalogContent:
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+The **`flat()`** method creates a new [array](https://www.codecademy.com/resources/docs/javascript/arrays) with all sub-array elements recursively concatenated up to the specified depth. It is a non-mutating method, meaning it returns a new array, leaving the original unchanged.
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+```js
+    array.flat();
+    array.flat(depth);
+```
+The optional `depth` parameter specifies how many levels of nested arrays to flatten.  
+If omitted, defaults to `1`.  
 
-## Example
+If set to `Infinity`, the method flattens all nested sub-arrays, regardless of their depth.
 
-[Text, code, images, etc. about example 1]
 
-## Codebyte Example (if applicable)
+## Example 1
 
-We can currently support:
+This example shows the use of `flat()` with the default depth of 1:
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+```js
+const arr = [1, 2, [3, 4]];
+console.log(arr.flat());
+```
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+The output of this code is:
 
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+```shell
+[1, 2, 3, 4]
+```
+
+`arr.flat()` flattens one level deep, so the nested array `[3, 4]` is unpacked into the main array.
+
+## Example 2
+
+This example shows the use of `flat()` with the default depth of 1, with multiple layers of nested sub-arrays:
+
+```js
+const arr = [1, 2, 3, [4, 5, [6, 7]]];
+console.log(arr.flat());
+```
+
+The output of this code is:
+
+```shell
+[1, 2, 3, 4, 5, [6, 7]]
+```
+
+`arr.flat()` flattens the array one level deep. It unpacks the first-level nested array `[4, 5, [6, 7]]`, moving its elements into the main array. However, the inner array `[6, 7]` remains nested because it is at a deeper level.
+
+## Example 3
+
+This example shows the use of `flat()` with a depth of 2, applied to an array with multiple layers of nested sub-arrays:
+```js
+const arr = [1, 2, 3, [4, 5, [6, 7]]];
+console.log(arr.flat(2));
+```
+
+The output of this code is:
+
+```shell
+[1, 2, 3, 4, 5, 6, 7]
+```
+
+`arr.flat(2)` flattens the array two levels deep. First, it unpacks the first-level nested array `[4, 5, [6, 7]]`, moving its elements into the main array. Then, the inner array `[6, 7]` is unpacked, resulting in a fully flattened array with no nested sub-arrays.
+
+## Example 4
+
+This example shows the use of `flat()` with a depth of `Infinity`, which fully flattens an array no matter how deeply nested its sub-arrays are:
+
+```js
+const arr = [1, [2, [3, [4, [5]]]]];
+console.log(arr.flat(Infinity));
+```
+
+The output of this code is:
+
+```shell
+[1, 2, 3, 4, 5]
+```
+
+`arr.flat(Infinity)` recursively flattens the array to its deepest level. All nested sub-arrays, no matter how deeply they are nested, are unpacked into a single flat array. This is useful when the depth of nesting is unknown or highly variable.
+
+## Example 5
+
+This example shows the use of `flat()` on sparse arrays:
+
+```js
+const arr = [1, 2, , [4, , 6], 7];
+console.log(arr.flat());
+```
+
+The output of the code is:
+
+```shell
+[1, 2, 4, 6, 7]
+```
+
+`flat()` removes the holes (empty slots) in the array whilst flattening. Even if the array is 1-level deep (no nested arrays) the sparse elements are still removed.
+
+## Non-array elements
+
+The `flat()` method only flattens nested arrays. Elements that are not arrays remain the same:
+
+```js
+const arr = [1, 'hello', [2, 3], { a: 4 }];
+console.log(arr.flat());
+```
+
+The output of the code is:
+
+```shell
+[1, "hello", 2, 3, { a: 4 }]
 ```
