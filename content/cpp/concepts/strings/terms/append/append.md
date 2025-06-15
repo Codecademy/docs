@@ -14,122 +14,101 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`.append()`** is a method that concatonates new characters to the end of an existing string, without the need to reassign the value. You can use `.append()` to add together two different strings, add a portion of a string (also known as a ['substring'](https://www.codecademy.com/resources/docs/cpp/strings/substr)) to an existing string, or just add characters to the end of an existing string.
+**`.append()`** is a method that concatenates new characters to the end of an existing string without requiring reassignment. It can be used to combine two different strings, append a portion of a string (also known as a substring), or add specific characters to the end of a string.
 
+## Syntax
+
+```pseudo
+str.append(str2);                       // Appends entire string
+str.append(str2, pos, len);             // Appends substring from str2
+str.append(n, char);                    // Appends character 'char' n times
+str.append(first, last);                // Appends range using iterators
+```
+
+**Parameters:**
+
+- `str2`: The string to append or extract a substring from.
+- `pos`: The starting index in `str2` (used when appending a substring).
+- `len`: The number of characters to append from `str2`, starting at `pos`.
+- `n`: The number of times to append the character `char`.
+- `char`: A character to be appended multiple times.
+- `first`, `last`: Iterators defining a range of characters to append.
+
+**Return value:**
+
+Returns a reference to the modified string (`*this`), allowing method chaining.
 
 ## Example 1: Appending 2 strings together
 
-This example takes two seperate strings and concatonates them.
+This example takes two separate strings and concatenates them:
 
-### Parameters
-- `str2` A secondary string whos values will be added to the original string.
-
-### Syntax
-`stringName1.append(str2);`
-
-
-```codebyte/cpp
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
- 
+
 int main () {
   string stringOne = "Hello ";
-  string stringTwo = "World";
-  
+  string stringTwo = "World!";
+
   //Appends stringTwo to the end of stringOne
   stringOne.append(stringTwo);
-  
+
   cout << stringOne;
   return 0;
 }
 ```
 
+The output produced by this code is:
+
+```shell
+Hello World!
+```
+
 ## Example 2: Appending one piece of a string to another
 
-This example takes a portion of one string and adds it to the end of another.
+This example takes a portion of one string and adds it to the end of another string:
 
-### Parameters
-- `str2` A secondary string whos values will be added to the original string.
-- `pos` The position of the first character of the string being copied as a substring.
-- `num` The number of characters being added as a part of the substring.
-
-### Syntax
-`str1.append(str2, pos, num);`
-
-
-```codebyte/cpp
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
- 
+
 int main() {
-  	string str1("Straw Hat ");
-    string str2("Monkey D. Luffy");
-    
-    // Appends 5 characters from 10th index of str2 to str1
-    str1.append(str2, 10, 5);
-  
-    cout << str1;
-    return 0;
+  string str1("Straw Hat ");
+  string str2("Monkey D. Luffy");
+
+  // Appends 5 characters from index 10 of str2 to str1
+  str1.append(str2, 10, 5);
+
+  cout << str1;
+  return 0;
 }
 ```
 
-## Example 3: Appending (multiple) characters to a string
+The output produced by this code is:
 
-This example takes a specific character and adds it a specific amount of times to the end of a string.
-
-### Parameters
-- `num` The number of times the character is to be added to the string.
-- `c` The character to be added.
-
-### Syntax
-`stringName.append(num, c);`
-
-
-```codebyte/cpp
-#include <iostream>
-#include <string>
-using namespace std;
- 
-int main() {
-    string str("Codecademy is awesome");
-
-    // Appends 3 occurrences of '!' to the end of str
-    str.append(3, '!');
-
-    cout << str;
-  
-    return 0;
-}
+```shell
+Straw Hat Luffy
 ```
 
-## Example 4: Appending one piece of a string to another with '.begin()' and '.end()'
+## Codebyte Example: Appending multiple characters to a string
 
-This example takes a portion of one string and adds it to the end of another, this time using '.begin()' and '.end()' as _first_ and _last_.
-
-### Parameters
-- `first` Iterator showing the first character we use for the substring.
-- `last` Iterator showing the position **after** the last character we use for the substring.
-
-### Syntax
-`stringName.append(first, last);`
-
+This example takes a specific character and adds it a specific amount of times to the end of a string:
 
 ```codebyte/cpp
 #include <iostream>
 #include <string>
 using namespace std;
- 
+
 int main() {
-    string str1("Coding is so ");
-    string str2("Adjectives: boring, fun, cool, and amazingly stupendous");
+  string str("Codecademy is awesome");
 
-    // Appends all characters from
-    // str2.begin()+5, str2.end() to str1
-    str1.append(str2.begin() + 20, str2.end() - 13);
+  // Appends 3 occurrences of '!' to the end of str
+  str.append(3, '!');
 
-    cout << str1;
-    return 0;
+  cout << str;
+
+  return 0;
 }
 ```
