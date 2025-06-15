@@ -1,6 +1,6 @@
 ---
 Title: '.get()' 
-Description: '' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
+Description: 'Returns raw pointer to managed object without transferring ownership.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
 Subjects:
   - 'Computer Science'
 
