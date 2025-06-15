@@ -1,6 +1,6 @@
 ---
 Title: 'Hybrid Inheritance'
-Description: 'Hybrid inheritance mixes inheritance types, letting a class inherit traits from multiple parents to model complex real-world ties.' 
+Description: 'Hybrid inheritance combines multiple types of inheritance, allowing a class to inherit features from more than one parent and represent complex real-world relationships.' 
 Subjects: 
   - 'AI'
   - 'Computer Science'
