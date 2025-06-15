@@ -1,3 +1,19 @@
+---
+Title: '.entries()'
+Description: 'Returns a new Array Iterator object that contains key/value pairs for each index in the array.'
+Subjects:
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Arrays'
+  - 'Methods'
+  - 'Iterators'
+  - 'JavaScript'
+CatalogContent:
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
+---
+
 # entries()
 
 The `entries()` method returns a new Array Iterator object that contains the key/value pairs for each index in the array. This method does not modify the original array.
