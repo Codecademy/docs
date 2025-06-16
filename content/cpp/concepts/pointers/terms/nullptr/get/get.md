@@ -29,10 +29,10 @@ T* get() const noexcept;
 #include <memory>
 
 int main() {
-    std::unique_ptr<int> ptr = std::make_unique<int>(42);
-    int* rawPtr = ptr.get();
-    std::cout << "Value: " << *rawPtr << std::endl;
-    return 0;
+  std::unique_ptr<int> ptr = std::make_unique<int>(42);
+  int* rawPtr = ptr.get();
+  std::cout << "Value: " << *rawPtr << std::endl;
+  return 0;
 }
 ```
 
