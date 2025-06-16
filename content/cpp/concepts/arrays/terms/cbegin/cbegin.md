@@ -20,7 +20,7 @@ CatalogContent:
 ## Syntax
 
 ```pseudo
-arrayName.cbegin();
+container.cbegin();
 ```
 
 **Parameters:**
@@ -33,20 +33,42 @@ arrayName.cbegin();
 
 ## Difference Between `begin()` and `cbegin()`
 
-The `.begin()` function returns a modifiable iterator (unless the container itself is `const`), allowing modification of elements through the iterator. In contrast, .cbegin() always returns a constant iterator, which prevents modification of the elements it points to.
+| Feature         | `begin()`                                | `cbegin()`                             |
+| --------------- | ---------------------------------------- | -------------------------------------- |
+| **Return Type** | Mutable iterator                         | Constant iterator                      |
+| **Mutability**  | Supports modification of elements        | Prevents modification of elements      |
+| **Use Case**    | Suitable when element updates are needed | Ideal for read-only access to elements |
+| **C++ Version** | Available since C++98                    | Introduced in C++11                    |
 
-Use `.cbegin()` in these cases:
+## Example
 
-- When working with a `const` container.
-- When you want to enforce read-only access to the elements.
+In this example, `.cbegin()` returns a constant iterator pointing to the first element of the array, ensuring that the value cannot be modified through the iterator:
 
-## Const-Correctness and Best Practices
+```cpp
+#include <iostream>
+#include <array>
 
-Using `cbegin()` helps maintain const-correctness in your code. It prevents bugs caused by unintended modifications and improves code readability by making the developer’s intention explicit.
+int main() {
+  std::array<int, 5> nums = {10, 20, 30, 40, 50};
 
-It’s a good practice to prefer `cbegin()` over `begin()` when mutation is not needed.
+  // Using cbegin to get a constant iterator to the beginning
+  std::array<int, 5>::const_iterator it = nums.cbegin();
+
+  std::cout << "First element: " << *it << std::endl;
+
+  return 0;
+}
+```
+
+The output of this code will be:
+
+```shell
+First element: 10
+```
 
 ## Codebyte Example
+
+In this example, `.cbegin()` is used to iterate over a vector in read-only mode, preventing accidental modification of its elements:
 
 ```codebyte/cpp
 #include <iostream>
