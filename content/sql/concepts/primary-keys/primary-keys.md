@@ -1,103 +1,180 @@
 ---
-Title: 'Primary Keys'
-Description: 'Primary keys are special columns used to uniquely identify each row of a table in SQL.'
+Title: 'PRIMARY KEYS'
+Description: 'Uniquely identifies each record in a table and ensures data integrity by preventing duplicate or `NULL` values in one or more specified columns.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Comments'
-  - 'Documentation'
+  - 'Database'
+  - 'Primary Key'
+  - 'Tables'
 CatalogContent:
   - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - 'paths/data-science'
 ---
 
-**Primary keys** are special columns that are used to uniquely identify each row of a table in SQL.
+The **`PRIMARY KEY`** constraint is a fundamental database constraint that uniquely identifies each record in a table. It serves as the main identifier for rows and ensures data integrity by preventing duplicate records and null values in the specified column or columns. It combines the functionality of both `NOT NULL` and `UNIQUE` constraints, making it essential for maintaining data consistency and establishing relationships between tables.
+
+`PRIMARY KEY` constraints are used extensively in database design for creating unique identifiers, establishing table relationships through foreign keys, enabling efficient data retrieval through automatic indexing, and maintaining referential integrity across related tables. They are commonly implemented in user management systems for unique user IDs, inventory systems for product identification, order processing systems for transaction tracking, and any scenario where each record must be uniquely identifiable and accessible.
 
 ## Syntax
 
+The PRIMARY KEY constraint can be defined in two ways:
+
+### Method 1: Column-Level Definition
+
 ```pseudo
-CREATE TABLE table_key (
-  id INTEGER PRIMARY KEY,
-  column_1 TEXT,
-  column_2 INTEGER
+CREATE TABLE table_name (
+  column_name data_type PRIMARY KEY,
+  column2 data_type,
+  ...
 );
 ```
 
-The `PRIMARY KEY` constraint is used to create columns that uniquely identify each row. A primary key column has a few requirements:
+### Method 2: Table-Level Definition
 
-- None of the values can be `NULL`.
-- Each value must be unique (e.g., two rows in a `customers` table wouldn't have the same primary `customer_id`).
-- A table cannot have more than one primary key.
+```pseudo
+CREATE TABLE table_name (
+  column1 data_type,
+  column2 data_type,
+  ...,
+  CONSTRAINT constraint_name PRIMARY KEY (column1)
+);
+```
 
-Attempts to insert a row with an existing primary key will result in a constraint violation that prevents the new row from being added.
-
-If a table was created without a primary key, it can be added with the [`ALTER TABLE`](https://www.codecademy.com/resources/docs/sql/commands/alter-table) command. The statement below adds a primary `id` column, via the `PRIMARY KEY` constraint, to `table_name`:
+### Adding PRIMARY KEY to Existing Table
 
 ```pseudo
 ALTER TABLE table_name
-ADD PRIMARY KEY (id);
+ADD CONSTRAINT constraint_name PRIMARY KEY (column_name);
 ```
 
-## Foreign Keys
+**Parameters:**
 
-When the primary key for one table appears in a different table, it is called a foreign key. The most common types of [joins](https://www.codecademy.com/resources/docs/sql/joins) will be joining a foreign key from one table with the primary key from another table.
+- `table_name`: The name of the table where the PRIMARY KEY constraint will be applied
+- `column_name`: The column or columns that will form the primary key
+- `data_type`: The data type of the primary key column(s)
+- `constraint_name`: Optional name for the PRIMARY KEY constraint (recommended for easier management)
 
-Using the following `customers` table as an example:
+**Return value:**
+
+The PRIMARY KEY constraint itself does not return a value. However, it enforces uniqueness and creates an automatic index that improves query performance when searching by the primary key column(s).
+
+## Example 1: Basic Table Creation
+
+This example demonstrates creating a table with a single-column primary key for user management:
 
 ```sql
-CREATE TABLE customers (
-  customer_id INTEGER NOT NULL,
-  first_name varchar(255),
-  last_name varchar(255)
+-- Create a users table with UserID as primary key
+CREATE TABLE Users (
+  UserID INT PRIMARY KEY,
+  Username VARCHAR(50) NOT NULL,
+  Email VARCHAR(100) NOT NULL,
+  DateCreated DATE
 );
+
+-- Insert sample data
+INSERT INTO Users (UserID, Username, Email, DateCreated) VALUES
+(1, 'john_doe', 'john@example.com', '2024-01-15'),
+(2, 'jane_smith', 'jane@example.com', '2024-01-16'),
+(3, 'mike_wilson', 'mike@example.com', '2024-01-17');
 ```
 
-The `orders` table is created and joined via `FOREIGN KEY` with the existing `customer` table through its `customer_id`:
+Output of this code is:
+
+```shell
+Table 'Users' created successfully with UserID as PRIMARY KEY.
+3 rows inserted successfully.
+```
+
+The `UserID` column serves as the primary key, automatically ensuring that each user has a unique identifier. The database will reject any attempt to insert duplicate `UserID` values or `NULL` values in this column, maintaining data integrity for the user management system.
+
+## Example 2: E-commerce Order Management
+
+This example shows implementing a composite primary key for order line items in an e-commerce system:
 
 ```sql
-CREATE TABLE orders (
-  order_id INTEGER NOT NULL,
-  total_cost FLOAT,
-  purchase_date DATE,
-  customer_id INTEGER NOT NULL,
-  PRIMARY KEY (order_id),
-  FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+-- Create order items table with composite primary key
+CREATE TABLE OrderItems (
+  OrderID INT NOT NULL,
+  ProductID INT NOT NULL,
+  Quantity INT NOT NULL,
+  UnitPrice DECIMAL(10,2) NOT NULL,
+  LineTotal DECIMAL(12,2),
+  CONSTRAINT PK_OrderItems PRIMARY KEY (OrderID, ProductID)
 );
+
+-- Insert order line items
+INSERT INTO OrderItems (OrderID, ProductID, Quantity, UnitPrice, LineTotal) VALUES
+(1001, 501, 2, 29.99, 59.98),
+(1001, 502, 1, 45.50, 45.50),
+(1002, 501, 3, 29.99, 89.97),
+(1002, 503, 1, 15.25, 15.25);
+
+-- Attempt to insert duplicate composite key (will fail)
+INSERT INTO OrderItems (OrderID, ProductID, Quantity, UnitPrice, LineTotal) VALUES
+(1001, 501, 1, 29.99, 29.99);
 ```
 
-The displayed `orders` table, with its primary key (`order_id`) and foreign key (`customer_id`), may look like this:
+The output of this code will be:
 
-| order_id | customer_id | total_cost | purchase_date |
-| -------- | ----------- | ---------- | ------------- |
-| 1        | 1001        | 13.99      | 2022-01-01    |
-| 2        | 1294        | 61.42      | 2022-01-01    |
-| 3        | 1001        | 23.45      | 2022-01-02    |
+```shell
+Table 'OrderItems' created successfully.
+4 rows inserted successfully.
+ERROR: Duplicate entry '1001-501' for key 'PRIMARY'
+```
 
-## Composite Keys
+The composite primary key (`OrderID`, `ProductID`) ensures that each product can appear only once per order, preventing duplicate line items while allowing the same product to appear in different orders. This design maintains data integrity in e-commerce order processing.
 
-Sometimes, having one primary key per table is not enough to uniquely identify a row. In such cases, multiple columns would work as composite keys for the table. This requirement should be detected during the designing phase of a database.
+## Example 3: Adding PRIMARY KEY to Existing Table
 
-For example, a database of car parts will have to uniquely identify a row of parts. Either the `engine_ID` or `body_ID` could be used. However, this may create ambiguity as cars could get their engines swapped.
-
-Depending on local regulations, a car may require an engine part ID and a body ID to be associated with a license plate. One solution might be adding more row information about the car, such as `left_door_ID`, `gearbox_ID`, etc. But then a specific car would have to be identified by two different aspects: its body and its engine.
-
-A composite key would be useful in this case. This is how a `vehicle_registry` table might look (extra parts/columns omitted for brevity):
-
-| engine_id | body_id | gearbox_id | purchase_date |
-| --------- | ------- | ---------- | ------------- |
-| 500       | abc     | 001        | 2022-01-01    |
-| 600       | def     | 002        | 2022-01-01    |
-| 700       | ghi     | 003        | 2022-01-02    |
-
-The statement below creates the `vehicle_registry` table with a composite key:
+This example demonstrates adding a primary key constraint to an existing table and handling the challenges that may arise:
 
 ```sql
-CREATE TABLE vehicle_registry (
-  engine_id INTEGER,
-  body_id TEXT,
-  gearbox_id INTEGER,
-  purchase_date DATE,
-  PRIMARY KEY(engine_id, body_id, purchase_date)
+-- Create a products table without primary key initially
+CREATE TABLE Products (
+  ProductCode VARCHAR(20) NOT NULL,
+  ProductName VARCHAR(100) NOT NULL,
+  Category VARCHAR(50),
+  Price DECIMAL(8,2)
 );
+
+-- Insert sample data
+INSERT INTO Products (ProductCode, ProductName, Category, Price) VALUES
+('LAPTOP001', 'Gaming Laptop', 'Electronics', 1299.99),
+('MOUSE002', 'Wireless Mouse', 'Electronics', 29.99),
+('DESK003', 'Standing Desk', 'Furniture', 399.99);
+
+-- Add PRIMARY KEY constraint to existing table
+ALTER TABLE Products
+ADD CONSTRAINT PK_Products PRIMARY KEY (ProductCode);
+
+-- Verify the constraint by attempting duplicate insertion
+INSERT INTO Products (ProductCode, ProductName, Category, Price) VALUES
+('LAPTOP001', 'Another Laptop', 'Electronics', 999.99);
 ```
+
+The output generated by this code will be:
+
+```shell
+Table 'Products' created successfully.
+3 rows inserted successfully.
+PRIMARY KEY constraint 'PK_Products' added successfully.
+ERROR: Duplicate entry 'LAPTOP001' for key 'PRIMARY'
+```
+
+Adding a `PRIMARY KEY` constraint to an existing table requires that all existing data in the specified column(s) be unique and non-null. The database will automatically create an index on the `ProductCode` column, improving query performance for product lookups in inventory management systems.
+
+## Frequently Asked Questions
+
+### 1. Can a table have multiple primary keys?
+
+No, a table can have only one `PRIMARY KEY` constraint. However, that single primary key can consist of multiple columns (composite primary key). If you need additional unique constraints, use UNIQUE constraints instead.
+
+### 2. What happens if I try to insert NULL values into a primary key column?
+
+The database will reject the insertion with an error. `PRIMARY KEY` columns automatically have the NOT NULL constraint, so they cannot contain NULL values under any circumstances.
+
+### 3. What's the difference between `PRIMARY KEY` and `UNIQUE` constraints?
+
+A `PRIMARY KEY` enforces both `UNIQUE` and `NOT NULL` constraints on a column or group of columns. In contrast, `UNIQUE` allows `NULL` values (typically one per column, depending on the RDBMS). Also, a table can have only one `PRIMARY KEY` but can have multiple `UNIQUE` constraints. `PRIMARY KEY`s are also used in defining `FOREIGN KEY` relationships.
