@@ -65,20 +65,20 @@ This example defines an `System` base class with a `process` method. `Database` 
 
 ```py
 class System:
-    def process(self):
-        return "Processing data"
+  def process(self):
+    return "Processing data"
 
 class Database(System):
-    def store(self):
-        return "Storing data"
+  def store(self):
+    return "Storing data"
 
 class API(System):
-    def request(self):
-        return "Handling request"
+  def request(self):
+    return "Handling request"
 
 class App(Database, API):
-    def describe(self):
-        return f"{self.process()}, {self.store()}, {self.request()}"
+  def describe(self):
+    return f"{self.process()}, {self.store()}, {self.request()}"
 
 app = App()
 print(app.describe())  
@@ -94,20 +94,20 @@ Processing data, Storing data, Handling request
 
 ```codebyte/python
 class System:
-    def process(self):
-        return "Processing data"
+  def process(self):
+    return "Processing data"
 
 class Database(System):
-    def store(self):
-        return "Storing data"
+  def store(self):
+    return "Storing data"
 
 class API(System):
-    def request(self):
-        return "Handling request"
+  def request(self):
+    return "Handling request"
 
 class App(Database, API):
-    def describe(self):
-        return f"{self.process()}, {self.store()}, {self.request()}"
+  def describe(self):
+    return f"{self.process()}, {self.store()}, {self.request()}"
 
 app = App()
 print(app.describe()) 
