@@ -1,6 +1,6 @@
 # `.get()` method under Pointers in C++
 
-The `.get()` member function is used with smart pointers in C++—namely `std::unique_ptr` and `std::shared_ptr`. It returns the raw pointer managed by the smart pointer without relinquishing ownership. This allows direct access to the managed object when needed, especially for interoperability with legacy or third-party code that expects traditional pointers.
+The **`.get()`** member function is used with smart pointers in C++, namely `std::unique_ptr` and `std::shared_ptr`. It returns the raw pointer managed by the smart pointer without relinquishing ownership. This allows direct access to the managed object when needed, especially for interoperability with legacy or third-party code that expects traditional pointers.
 
 ## Syntax
 
