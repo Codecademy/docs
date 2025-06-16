@@ -36,7 +36,7 @@ int main() {
 }
 ```
 
-### Using `.get()` with `std::shared_ptr`
+## Example 2: Using `.get()` with `std::shared_ptr`
 
 ```cpp
 #include <iostream>
