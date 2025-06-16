@@ -22,7 +22,7 @@ CatalogContent:
 
 The following diagram shows a hybrid inheritance structure where a class inherits from multiple parent classes, combining multilevel and multiple inheritance:
 
-![Hybrid_Inheritance_Diagram](https://raw.githubusercontent.com/Codecademy/docs/main/media/)
+![Hybrid-Inheritance-Diagram](https://raw.githubusercontent.com/Codecademy/docs/main/media/Hybrid-Inheritance.png)
 
 - `System`: Base class with general functionality.
 - `Database`: Inherits from `System`, adds data storage capabilities.
