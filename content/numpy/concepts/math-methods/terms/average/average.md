@@ -1,23 +1,23 @@
 ---
 Title: '.average()'
-Description: 'Computes the weighted average of array elements along specified axes.'
+Description: 'Computes the weighted average of array elements along a specified axis.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Arrays'
-  - 'NumPy'
-  - 'Methods'
   - 'Functions'
+  - 'Methods'
+  - 'NumPy'
   - 'Statistics'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-In NumPy, the **`.average()`** method is used to compute the weighted average of array elements alongside specified axes. This function allows to assign different weights to different elements, making it particularly useful for statistical analysis, data science applications, and scenarios where certain data points should have more influence on the final result.
+In NumPy, the **`.average()`** method is used to compute the weighted average of array elements along specified axes. This function allows assigning different weights to different elements, making it particularly useful for statistical analysis, data science applications, and scenarios where certain data points should have more influence on the final result.
 
-In data science, the **`.average()`** method is extensively used for calculating weighted means in statistical analysis, financial portfolio analysis where different assets have varying importance, image processinng for pixel averagin with different weights, machine learning for computing weighted accuracy metrics, and scientific computing wheree measurement precission varies across data points.
+In data science, the `.average()` method is extensively used for calculating weighted means in statistical analysis, financial portfolio analysis where different assets have varying importance, image processing for pixel averaging with different weights, machine learning for computing weighted accuracy metrics, and scientific computing where measurement precision varies across data points.
 
 ## Syntax
 
@@ -27,15 +27,16 @@ numpy.average(a, axis=None, weights=None, returned=False, keepdims=False)
 
 **Parameters:**
 
-- `a`: This is the input array containing the data for which the average will be computed.
-- `axis` (Optional): The axis or axes along which the average is computed. If `None`, the average is computed over the flattened array. Can be an integer or tuple of integers.
-- `weights` (Optional): An array of weights associated with the values in the input array. If `None`, all elements are given equal weight.
-- `returned` (Optional): If `True`, returns a tuple containing both the average and the sum of the weights. If `False`, returns only the average.
-- `keepdims` (Optional): If `True`, returns a tuple: `(average, sum of weights).` Default is `False`.
+- `a`: Input array containing the data for which the average will be computed.
+- `axis` (Optional): Axis or axes along which to average. Default is `None`, computing the average of all elements.
+- `weights` (Optional): Array of weights associated with the values in `a`. It must be the same shape as `a` or broadcastable. If `None`, all values are equally weighted.
+- `returned` (Optional): If `True`, returns a tuple of the average and the sum of weights. Default is False.
+- `keepdims` (Optional): If `True`, retains reduced axes with size 1, preserving input dimensions in the result.
 
 **Return value:**
 
-A scalar or `ndarray` of the computed average values. If `returned=True`, a tuple is returned with the average and the sum of the weights.
+- If `returned=False` (default): Returns the weighted average as a scalar or array depending on `axis`.
+- If `returned=True`: Returns a tuple: `(average, sum of weights)`.
 
 ## Example 1: Basic Weighted Average Operations
 
@@ -71,9 +72,9 @@ This example results in the following output:
 ```shell
 Student grades: [85 92 78 96 88]
 Assignment weights: [0.1 0.2 0.2 0.3 0.2]
-Weighted average: 88.7
+Weighted average: 88.9
 Simple average: 87.8
-Average with weight sum: 88.7
+Average with weight sum: 88.9
 Sum of weights: 1.0
 ```
 
@@ -122,16 +123,16 @@ Asset returns by month:
  [ 0.18  0.07 -0.05]
  [ 0.02  0.09  0.12]]
 Portfolio weights: [0.6 0.3 0.1]
-Monthly portfolio returns: [0.094 0.069 0.005 0.134 0.051]
-Average monthly return: 0.0706
-Annualized return estimate: 84.72%
+Monthly portfolio returns: [0.094 0.063 0.002 0.124 0.051]
+Average monthly return: 0.0668
+Annualized return estimate: 80.16%
 ```
 
 Portfolio managers use weighted averages to calculate expected returns based on asset allocation strategies, helping them understand overall portfolio performance.
 
 ## Codebyte Example: Multi-dimensional Array Processing
 
-This example demonstrates how `numpy.average()` handles multi-dimensional arrays with axis specification:
+This example demonstrates how `.average()` computes weighted or unweighted averages across specified axes in a multi-dimensional array:
 
 ```codebyte/python
 import numpy as np
@@ -147,9 +148,11 @@ test_weights = np.array([0.1, 0.15, 0.2, 0.25, 0.3])
 student_averages = np.average(test_scores, axis=(1, 2), weights=None)
 
 # Calculate weighted average for each subject across all students and tests
-subject_averages = np.average(test_scores, axis=(0, 2), weights=test_weights)
+# First average across tests with weights, then average across students
+weighted_tests = np.average(test_scores, axis=2, weights=test_weights)
+subject_averages = np.mean(weighted_tests, axis=0)
 
-# Calculate weighted average for the last test across all dimensions
+# Calculate average for the last test across all dimensions
 final_test_avg = np.average(test_scores[:, :, -1])
 
 print("Test scores shape:", test_scores.shape)
@@ -157,10 +160,4 @@ print("Test weights:", test_weights)
 print("Student averages:", student_averages)
 print("Subject averages:", subject_averages)
 print("Final test average:", final_test_avg)
-
-# Using keepdims parameter
-avg_with_dims = np.average(test_scores, axis=2, weights=test_weights, keepdims=True)
-print("Average with kept dimensions shape:", avg_with_dims.shape)
 ```
-
-This example shows how axis specification and keepdims work with multi-dimensional arrays, which is crucial for data analysis workflows involving complex datasets.
