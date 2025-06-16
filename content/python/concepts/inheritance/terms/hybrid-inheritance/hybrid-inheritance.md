@@ -63,7 +63,7 @@ class HybridClass(DerivedClass1, DerivedClass2):
 
 This example defines an `System` base class with a `process` method. `Database` and `API` inherit from `System`, adding `store` and `request` methods, respectively. `App` uses hybrid inheritance to inherit from both `Database` and `API`, combining their behaviors. The `describe` method in `App` calls methods from all parent classes, demonstrating access to inherited functionality.
 
-```python
+```py
 class System:
     def process(self):
         return "Processing data"
