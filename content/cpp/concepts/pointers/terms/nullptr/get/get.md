@@ -43,10 +43,10 @@ int main() {
 #include <memory>
 
 int main() {
-    std::shared_ptr<int> ptr = std::make_shared<int>(99);
-    int* rawPtr = ptr.get();
-    std::cout << "Value: " << *rawPtr << std::endl;
-    return 0;
+  std::shared_ptr<int> ptr = std::make_shared<int>(99);
+  int* rawPtr = ptr.get();
+  std::cout << "Value: " << *rawPtr << std::endl;
+  return 0;
 }
 ```
 
