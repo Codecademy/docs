@@ -1,65 +1,77 @@
 ---
-Title: 'matchAll'
-Description: 'Retrieves all matches of a regular expression within a string as an iterator of match result objects.'
+Title: 'matchAll()'
+Description: 'Returns an iterator of all results matching a regular expression in a string, including capturing groups.'
 Subjects:
-  - 'JavaScript'
-  - 'Strings'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'regex'
-  - 'string-methods'
-  - 'es2020'
+  - 'Iterators'
+  - 'Methods'
+  - 'Strings'
 CatalogContent:
   - 'learn-javascript'
   - 'paths/full-stack-engineer'
 ---
 
-The **`matchAll()`** method is a built-in JavaScript function that retrieves all matches of a regular expression within a string as an iterator. It provides detailed match results, including capturing groups and match indices.
+The **`matchAll()`** method is a built-in JavaScript function that returns an iterator of all matches of a regular expression within a string. It provides detailed match results, including capturing groups and match indices.
 
 ## Syntax
 
-```javascript
+```pseudo
 str.matchAll(regexp)
 ```
 
-- `str`: The string to search in.
-- `regexp`: A regular expression object with the global (`g`) flag.
+**Parameters:**
 
-**Returns:**  
-An iterator of match result objects, each containing the matched substring, capturing groups, the index where the match was found, and the original input string.
+- `regexp`: A regular expression object with the global (`g`) flag. If the `g` flag is not present, a `TypeError` is thrown.
 
-> **Note:** If the regular expression does not have the global (`g`) flag, a `TypeError` is thrown.
+**Return value:**
+
+An iterator of match result objects, each containing:
+
+- the full matched substring
+- any capturing groups
+- the index of the match
+- the input string
 
 ## Example
 
-```javascript
+In this example, `matchAll()` retrieves all regex matches from the string `'test1 test2'`, providing access to full matches and captured groups as part of a match array:
+
+```js
 const text = 'test1 test2';
 const regex = /t(e)(st(\d?))/g;
 
 const matches = Array.from(text.matchAll(regex));
 console.log(matches[0]);
-// [
-//   'test1',  // Full match
-//   'e',      // 1st capturing group
-//   'st1',    // 2nd capturing group
-//   '1',      // 3rd capturing group
-//   index: 0, // Index in text
-//   input: 'test1 test2',
-//   groups: undefined
-// ]
-console.log(matches[1][0]); // 'test2'
+
+console.log(matches[1][0]);
+```
+
+The output of this code will be:
+
+```shell
+[
+  'test1',
+  'e',
+  'st1',
+  '1',
+  index: 0,
+  input: 'test1 test2',
+  groups: undefined
+]
+test2
 ```
 
 ## Codebyte Example
 
-```codebyte/js
+In this example, `matchAll()` is used in a loop to find all words ending in `'at'` and log their values along with their starting indices:
+
+```codebyte/javascript
 const string = "cat bat rat";
 const regex = /(\w+)at/g;
 
 for (const match of string.matchAll(regex)) {
   console.log(`Found '${match[0]}' at index ${match.index}.`);
-  // Output:
-  // Found 'cat' at index 0.
-  // Found 'bat' at index 4.
-  // Found 'rat' at index 8.
 }
 ```
