@@ -1,6 +1,6 @@
 ---
 Title: 'reduceRight()'
-Description: 'Array method that apply a callback function against an accumulator and each value of the array, from right-to-left to reduce it to a single value.'
+Description: 'Applies a reducer function to array elements from right to left, accumulating a single output value.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -13,42 +13,54 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`reduceRight()`** method of Array is an iterative method that execute a function against an accumulator and each value of the array, **from right-to-left**, to reduce it to a single value.
+The **`reduceRight()`** method in JavaScript executes a reducer function on each element of an array, from right to left, to produce a single accumulated result. It is commonly used when the order of operations matters—such as evaluating expressions, parsing nested structures, or performing right-associative computations like exponentiation.
 
 ## Syntax
 
 ```pseudo
-reduceRight(callbackFn)
 reduceRight(callbackFn, initialValue)
 ```
 
 **Parameters:**
 
-- `callbackFn`: A function to apply to each element in the array. Its return value becomes the value of the accumulator parameter on the next invocation of callbackFn. In last invocation, the return value becomes the return value of **reduceRight()**.
-- `initialValue` (Optional): A Value to use as accumulator in the first call of the `callbackFn`. If no initial value is supplied, the last element in the array will be used.
+- `callbackFn`: A function to execute on each element in the array. It takes four arguments:
+  - `accumulator`: The accumulated result from the previous callback.
+  - `currentValue`: The current element being processed.
+  - `currentIndex`: The index of the current element.
+  - `array`: The array `reduceRight()` was called upon.
+- `initialValue` (Optional): A value to use as the first argument to the first call of `callbackFn`. If not provided, the last element in the array is used as the initial value, and iteration starts from the second-to-last element.
 
 **Return value:**
 
-The resulting value of the reduction.
+Returns a single value resulting from the reduction of the array, working from right to left.
 
-## **reduceRight()** vs _reduce()_
+## `reduceRight()` vs `reduce()`
 
-The difference between **`reduceRight()`** method and _reduce()_ method is the order in which the function is executed. The **reduceRight()** method is executed from **right to left**, and the _reduce()_ method is executed from _left to right_.
+- `reduce()` processes array elements from left to right, useful for left-associative operations like summing or accumulating values.
+- `reduceRight()` processes elements from right to left, ideal for right-associative logic like parsing or reversing operations.
+
+In the following example, `reduce()` combines array elements from left to right, while `reduceRight()` combines them from right to left, resulting in reversed concatenation:
 
 ```js
-// difference between `reduceRight()` and `reduce()`
 const stringArray = ['0', '2', '4', '6', '🐈', '→'];
 
 const reduceMethod = stringArray.reduce((prev, cur) => prev + cur);
 const reduceRightMethod = stringArray.reduceRight((prev, cur) => prev + cur);
 
-console.log(`reduceMethod : ${reduceMethod}`); // "0246🐈→"
-console.log(`reduceRightMethod : ${reduceRightMethod}`); // "→🐈6420"
+console.log(`reduceMethod : ${reduceMethod}`);
+console.log(`reduceRightMethod : ${reduceRightMethod}`);
 ```
 
-## Examples
+It generates the following output:
 
-The following code shows the **reduceRight()** <u>without</u> a initial value, and the order of execution of the callback.
+```shell
+reduceMethod : 0246🐈→
+reduceRightMethod : →🐈6420
+```
+
+## Example 1: Reverse Sum with `reduceRight()`
+
+The following code shows the `reduceRight()` without an initial value, and the order of execution of the callback:
 
 ```js
 const michiArray = [0, 1, 2, 3, 4];
@@ -72,7 +84,9 @@ The output of this code is:
 10
 ```
 
-The following code shows the **reduceRight()** with an <u>initial value</u>, and the order of execution of the callback.
+## Example 2: Reverse Name Construction with `reduceRight()`
+
+The following code shows the `reduceRight()` with an initial value, and the order of execution of the callback:
 
 ```js
 const favoriteName = ['👑', 'y', 'n', 'a', 'i'];
@@ -90,7 +104,7 @@ console.log(princess);
 | Second call | Li          | a            | 3     | Lia          |
 | Third call  | Lia         | n            | 2     | Lian         |
 | Fourth call | Lian        | y            | 1     | Liany        |
-| Fifth call  | Liany       | 👑           | 0     | Liany👑      |
+| Fifth call  | Liany       | 👑           | 0     | Liany👑     |
 
 The output of this code is:
 
@@ -100,7 +114,7 @@ Liany👑
 
 ## Codebyte Example
 
-Run the following code to understand the working of the `fromCharCode()` method:
+Run the following code to understand the working of the `reduceRight()` method:
 
 ```codebyte/javascript
 const codingMessage = ["practice", " ", "of", " ", "lot", " ", "a", " ", "require", ", ", "code", " ", "to", " "];
