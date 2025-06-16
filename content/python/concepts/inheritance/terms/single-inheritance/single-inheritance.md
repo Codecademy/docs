@@ -1,9 +1,9 @@
 ---
 Title: 'Single Inheritance'
-Description: 'Explains single inheritance in Python, where one subclass inherits from a single parent class.'
+Description: 'Single inheritance allows a class to derive behavior and attributes from one parent class only.'
 Subjects:
-  - 'Python'
-  - 'Object-Oriented Programming'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Classes'
   - 'Inheritance'
@@ -13,13 +13,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Single inheritance** is a foundational principle in object-oriented programming (OOP), where a class (known as the child or subclass) derives its behaviour and structure from one parent class (or superclass). This mechanism promotes code reusability and clear hierarchical design.
+**Single inheritance** is a foundational principle in object-oriented programming (OOP), where a class (called the child or subclass) inherits its behaviour and structure from a single parent class (or superclass). This promotes code reusability and clear maintains a clear logical hierarchicy.
 
-In Python, single inheritance is implemented by defining the subclass with the parent class name in parentheses. This allows the child class to use, override, or extend the functionality of its parent.
+In Python, single inheritance is implemented by defining the subclass with the parent class name in parentheses. This enables the child class to use, override, or extend the methods and attributes of its parent.
 
 ## Syntax
 
-```python
+```pseudo
 class ParentClass:
     # Methods and attributes of the parent class
 
@@ -28,13 +28,16 @@ class ChildClass(ParentClass):
     # Can override or add new functionality
 ```
 
-- `ParentClass`: The class being inherited from.
-- `ChildClass`: The subclass that inherits behaviour.
-- The child class gains access to the parent’s members and can override or expand upon them.
+- `ParentClass`: The class being inherited from (also known as superclass or base class).
+- `ChildClass`: The class that inherits from the parent class (also known as the subclass or the derived class).
+
+The ParentClass is passed inside parentheses when defining the ChildClass.
 
 ## Example
 
-```python
+This example demonstrates single inheritance where the `Dog` class inherits from `Animal` and overrides the `speak()` method to customize behavior:
+
+```py
 class Animal:
     def speak(self):
         return "Makes a sound"
@@ -46,8 +49,14 @@ class Dog(Animal):
 a = Animal()
 d = Dog()
 
-print(a.speak())  # Output: Makes a sound
-print(d.speak())  # Output: Barks
+print(a.speak())
+print(d.speak())
+```
+**Output**
+
+```Sh
+Makes a sound
+Barks
 ```
 
 ### Explanation
@@ -56,7 +65,6 @@ print(d.speak())  # Output: Barks
 - Both define a `speak()` method, but `Dog` overrides it to provide a more specific output.
 - This demonstrates how subclasses can customise inherited behaviour.
 
-## Codebyte Example
 
 ```codebyte/python
 class Vehicle:
@@ -69,8 +77,8 @@ class Car(Vehicle):
 
 my_car = Car()
 
-print(my_car.start_engine())  # Inherited from Vehicle
-print(my_car.drive())         # Defined in Car
+print(my_car.start_engine())
+print(my_car.drive())
 ```
 
 ## Diagram
@@ -99,8 +107,3 @@ Visual structure of single inheritance:
 - **Simplicity**: Easier to trace inheritance paths and maintain codebases.
 
 > Use single inheritance when the subclass is a specialised form of the parent and there’s no need to inherit from multiple sources.
-
-### Related Concepts
-
-* [Multiple Inheritance](../../inheritance.md)
-* [super() Function in Python](../../../built-in-functions/terms/super/super.md)
