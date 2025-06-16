@@ -56,8 +56,8 @@ class HybridClass(DerivedClass1, DerivedClass2):
 - `BaseClass`: The top-level parent class.
 - `DerivedClass1`, `DerivedClass2`: Intermediate classes inheriting from `BaseClass`.
 - `HybridClass`: Inherits from both intermediate classes, forming a hybrid structure (mix of multilevel and multiple inheritance).
-- Use commas in the class definition to specify multiple parent classes.
-- Python’s Method Resolution Order (MRO) determines which parent class method is called in case of conflicts.
+
+> **Note:** Use commas in the class definition to specify multiple parent classes. Python’s Method Resolution Order (MRO) determines which parent class method is called in case of conflicts.
 
 ## Example
 
