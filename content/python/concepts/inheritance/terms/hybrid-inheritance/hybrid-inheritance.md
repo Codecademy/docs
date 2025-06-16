@@ -86,7 +86,7 @@ print(app.describe())
 
 The output would be:
 
-```python
+```shell
 Processing data, Storing data, Handling request
 ```
 
