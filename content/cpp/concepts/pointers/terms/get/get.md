@@ -1,28 +1,38 @@
-# `.get()` method under Pointers in C++
+---
+Title: '.get()'
+Description: 'Retrieves the raw pointer managed by a smart pointer without releasing ownership.'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Memory'
+  - 'Pointers'
+  - 'Programming'
+  - 'Variables'
+CatalogContent:
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
+---
 
 The **`.get()`** member function is used with smart pointers in C++, namely `std::unique_ptr` and `std::shared_ptr`. It returns the raw pointer managed by the smart pointer without relinquishing ownership. This allows direct access to the managed object when needed, especially for interoperability with legacy or third-party code that expects traditional pointers.
 
 ## Syntax
 
-### For `std::unique_ptr`:
-
-```cpp
-T* get() const noexcept;
+```pseudo
+smart_pointer.get();
 ```
 
-- Returns the stored pointer.
-- Does not release ownership.
+**Parameters:**
 
-### For `std::shared_ptr`:
+The `.get()` function does not take any parameters.
 
-```cpp
-T* get() const noexcept;
-```
+**Return value:**
 
-- Returns the stored pointer.
-- Does not change the reference count or ownership.
+Returns the raw pointer managed by the smart pointer (e.g., `std::unique_ptr` or `std::shared_ptr`), allowing read-only or non-owning access to the resource.
 
 ## Example 1: Using `.get()` with `std::unique_ptr`
+
+In this example, `.get()` is used to access the raw pointer managed by a `unique_ptr` to read the stored value:
 
 ```cpp
 #include <iostream>
@@ -36,7 +46,15 @@ int main() {
 }
 ```
 
+The output of this code is:
+
+```shell
+Value: 42
+```
+
 ## Example 2: Using `.get()` with `std::shared_ptr`
+
+In this example, `.get()` retrieves the raw pointer from a `shared_ptr` to access the value it manages:
 
 ```cpp
 #include <iostream>
@@ -50,7 +68,13 @@ int main() {
 }
 ```
 
-## Codebyte
+The output of this code is:
+
+```shell
+Value: 99
+```
+
+## Codebyte Example
 
 ```codebyte/cpp
 #include <iostream>
@@ -70,10 +94,3 @@ int main() {
   return 0;
 }
 ```
-
-## Notes
-
-- `.get()` gives access to the raw pointer without transferring or modifying ownership.
-- The smart pointer still controls the resource's lifetime.
-- Avoid passing the raw pointer to code that might delete or store it, as this can lead to undefined behavior.
-- Always make sure the smart pointer outlives the use of the raw pointer.
