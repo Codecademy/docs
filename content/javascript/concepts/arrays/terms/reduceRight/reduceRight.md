@@ -36,7 +36,7 @@ Returns a single value resulting from the reduction of the array, working from r
 
 ## `reduceRight()` vs `reduce()`
 
-- `reduce()` processes array elements from left to right, useful for left-associative operations like summing or accumulating values.
+- [`reduce()`](https://www.codecademy.com/resources/docs/javascript/arrays/reduce) processes array elements from left to right, useful for left-associative operations like summing or accumulating values.
 - `reduceRight()` processes elements from right to left, ideal for right-associative logic like parsing or reversing operations.
 
 In the following example, `reduce()` combines array elements from left to right, while `reduceRight()` combines them from right to left, resulting in reversed concatenation:
