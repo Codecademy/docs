@@ -22,9 +22,7 @@ T* get() const noexcept;
 - Returns the stored pointer.
 - Does not change the reference count or ownership.
 
-## Example
-
-### Using `.get()` with `std::unique_ptr`
+## Example 1: Using `.get()` with `std::unique_ptr`
 
 ```cpp
 #include <iostream>
