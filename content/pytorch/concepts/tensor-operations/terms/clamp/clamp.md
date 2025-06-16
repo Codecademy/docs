@@ -28,7 +28,7 @@ The **`.clamp()`** method in PyTorch limits tensor values to a specified range, 
 
 ## Syntax
 
-```python
+```py
 torch.clamp(input, min=None, max=None, *, out=None) -> Tensor
 input.clamp(min=None, max=None) -> Tensor
 input.clamp_(min=None, max=None) -> Tensor
@@ -42,3 +42,22 @@ input.clamp_(min=None, max=None) -> Tensor
 - `out`: Optional output tensor for `torch.clamp`.
 - `.clamp_`: In-place operation.
 
+At least one of the `min` or `max` must be provided, or the tensor remains unchanged. The `.clamp` method is equivalent to `torch.clamp` called on a tensor.  The in-place `.clamp_` modifies the tensor directly, saving memory.  Use this operation to stabilize gradients, ensure non-negative outputs, or cap values in neural network training.
+
+This operation is commonly applied in scenarios like bounding activations in a neural network layor or preprocessing data to fit within a specific range.  For example, clamping can prevent extreme values from destabilizing training or ensure outputs meet model requirements, such as probabilities between 0 and 1.
+
+## Example
+
+This example creates a tensor with values from -2.0 to 2.0. The `.clamp()` method restricts these values to the range [-1.0, 1.0], so -2.0 becomes -1.0, 2.0 becomes 1.0, and values like 0.0 remain unchanged.  The result is a new tensor with all values within the specified bounds.
+
+```py
+import torch
+
+# Create a tensor with a range of values
+tensor = torch.tensor([-2.0,-1,0, 0.0, 1.0, 2.0])
+
+# Clamp values to the range [-1, 1]
+clamped = tensor.clamp(min=-1.0, max=1.0)
+
+# Print the clamped tensor
+print(clamped)  # tensor([-1., -1., 0., 1., 1.])
