@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer'
 ---
 
-The **`matchAll()`** method is a built-in JavaScript function that returns an iterator of all matches of a regular expression within a string. It provides detailed match results, including capturing groups and match indices.
+The **`matchAll()`** method is a built-in JavaScript function that returns an [iterator](https://www.codecademy.com/resources/docs/javascript/iterators) of all matches of a [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) within a string. It provides detailed match results, including capturing groups and match indices.
 
 ## Syntax
 
