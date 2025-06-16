@@ -31,9 +31,9 @@ container.cbegin();
 
 - Returns a constant iterator pointing to the first element of the container.
 
-## Difference Between `begin()` and `cbegin()`
+## Difference Between `.begin()` and `.cbegin()`
 
-| Feature         | `begin()`                                | `cbegin()`                             |
+| Feature         | `.begin()`                               | `.cbegin()`                            |
 | --------------- | ---------------------------------------- | -------------------------------------- |
 | **Return Type** | Mutable iterator                         | Constant iterator                      |
 | **Mutability**  | Supports modification of elements        | Prevents modification of elements      |
