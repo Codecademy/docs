@@ -57,17 +57,17 @@ int main() {
 #include <memory>
 
 void printRawPointer(int* ptr) {
-    std::cout << "Inside function: " << *ptr << std::endl;
+  std::cout << "Inside function: " << *ptr << std::endl;
 }
 
 int main() {
-    std::unique_ptr<int> uniquePtr = std::make_unique<int>(100);
-    int* raw = uniquePtr.get();
+  std::unique_ptr<int> uniquePtr = std::make_unique<int>(100);
+  int* raw = uniquePtr.get();
 
-    printRawPointer(raw);
-    std::cout << "Back in main: " << *raw << std::endl;
+  printRawPointer(raw);
+  std::cout << "Back in main: " << *raw << std::endl;
 
-    return 0;
+  return 0;
 }
 ```
 
