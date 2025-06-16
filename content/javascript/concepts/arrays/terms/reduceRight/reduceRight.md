@@ -104,7 +104,7 @@ console.log(princess);
 | Second call | Li          | a            | 3     | Lia          |
 | Third call  | Lia         | n            | 2     | Lian         |
 | Fourth call | Lian        | y            | 1     | Liany        |
-| Fifth call  | Liany       | 👑           | 0     | Liany👑     |
+| Fifth call  | Liany       | 👑           | 0     | Liany👑      |
 
 The output of this code is:
 
