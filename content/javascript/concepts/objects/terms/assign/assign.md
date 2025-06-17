@@ -119,7 +119,7 @@ This example illustrates both object cloning and merging scenarios. The shallow 
 
 ## Example 3: State Management and Updates
 
-This example demonstrates how `.assign()` can be used in state management scenarios, particularly for creating updated versions of state objects:
+The following example demonstrates how `.assign()` can be used in state management scenarios, particularly for creating updated versions of state objects:
 
 ```js
 // Initial application state
