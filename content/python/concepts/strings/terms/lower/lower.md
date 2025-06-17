@@ -33,7 +33,7 @@ The `.lower()` method returns a new string with all uppercase characters convert
 
 ## Example 1: Basic String Conversion
 
-This example demonstrates the fundamental usage of the `.lower()` method with a simple string conversion:
+The following example demonstrates the fundamental usage of the `.lower()` method with a simple string conversion:
 
 ```py
 # Original string with mixed case
