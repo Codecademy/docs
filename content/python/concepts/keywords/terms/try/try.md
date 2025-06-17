@@ -8,37 +8,38 @@ Tags:
   - 'Error Handling'
   - 'Exceptions'
   - 'Python'
+  - 'Values'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`try`** keyword in Python is used to define a block of code that may raise an exception, allowing errors to be caught and handled gracefully with `except`, and optionally complemented by `else` and `finally` clauses.
+The **`try`** keyword in Python is used to define a code block that may raise an exception, allowing errors to be caught and handled gracefully with `except`, and optionally complemented by `else` and `finally` clauses.
 
 ## Syntax
 
-```py
+```pseudo
 try:
   # Code that might raise an exception
 except ExceptionType:
   # Code to handle the exception
 else:
-  # (optional) Code to run if no exceptions occur
+  # (Optional) Code to run if no exceptions occur
 finally:
-  # (optional) Code that always runs
+  # (Optional) Code that always runs
 ```
 
-**Parameters:**
+In the syntax:
 
-- `except ExceptionType` (optional): Specifies the type of exception to catch. Multiple `except` blocks can handle different exceptions.
-- `else` (optional): A block that runs only if the `try` block did not raise an exception.
-- `finally` (optional): A block that always runs, regardless of whether an exception occurred or not.
+- `except` (Optional): Specifies the type of exception to catch. Multiple `except` blocks can handle different exceptions.
+- `else` (Optional): A block that runs only if the `try` block doesn't raise an exception.
+- `finally` (Optional): A block that always runs, regardless of whether an exception occurred or not.
 
 **Return value:**
 
 The `try` statement itself does not return a value. It controls the flow of execution by handling exceptions within its block.
 
-## Example: Handling Division Error with try-except
+## Example: Handling Division Error with `try-except`
 
 This example shows how to catch a `ZeroDivisionError` using a simple `try-except` block:
 
@@ -57,7 +58,7 @@ Cannot divide by zero.
 
 ## Codebyte Example: Handling Multiple Exceptions with `try-except-finally`
 
-This example captures both invalid input and division-by-zero errors while ensuring a final message always prints:
+This codebyte example captures both invalid input and division-by-zero errors while ensuring a final message always prints:
 
 ```codebyte/python
 try:
