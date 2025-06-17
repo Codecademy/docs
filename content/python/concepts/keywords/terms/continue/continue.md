@@ -14,7 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`continue`** keyword is used inside [loops](https://www.codecademy.com/resources/docs/python/loops) to skip the remaining code in the current iteration and immediately begin the next one. When Python encounters `continue`, it jumps to the next iteration without executing the remaining statements in the loop body. This allows certain conditions to bypass parts of the loop without exiting it completely. It is useful for filtering out unwanted values, skipping invalid data, or focusing on specific cases within loops.
+The **`continue`** keyword in Python is used inside [loops](https://www.codecademy.com/resources/docs/python/loops) to bypass the remaining code in the current iteration and immediately begin the next one. When Python encounters `continue`, it jumps to the next iteration without executing the remaining statements in the loop body. This allows certain conditions to bypass parts of the loop without exiting it completely. It is useful for filtering out unwanted values, skipping invalid data, or focusing on specific cases within loops.
+
+## Syntax
 
 ```pseudo
 continue
@@ -49,9 +51,9 @@ The output of this code is:
 1 2 4 5
 ```
 
-## CodeByte Example: Skipping Even Numbers Using `continue`
+## Codebyte Example: Skipping Even Numbers Using `continue`
 
-This example defines a function that prints only odd numbers from 0 to 9 by using the `continue` statement to skip even numbers in a `for` loop:
+This codebyte example defines a function that prints only odd numbers from 0-9 by using the `continue` statement to skip even numbers in a `for` loop:
 
 ```codebyte/python
 def odd_numbers():
