@@ -26,7 +26,7 @@ Object.assign(target, source1, source2, ..., sourceN)
 
 **Parameters:**
 
-- `target`: Required. The target object that will receive properties from the source objects. This object is modified and returned by the method.
+- `target`: Required. The target object that will receive properties from the source objects. This object is modified and returned using this method.
 - `source1, source2, ..., sourceN` (Optional): One or more source objects containing the properties to be copied to the target object.
 
 **Return value:**
