@@ -182,7 +182,7 @@ Loading state: true
 Original loading: false
 ```
 
-This example shows practical usage in state management where `Object.assign()` creates new state objects without mutating the original state, following immutable update patterns commonly used in frameworks like Redux.
+This example shows practical usage in state management. The `Object.assign() method creates new state objects without mutating the original state, following immutable update patterns commonly used in frameworks like Redux.
 
 ## Frequently Asked Questions
 
