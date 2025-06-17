@@ -192,8 +192,8 @@ This example shows practical usage in state management where `Object.assign()` c
 
 ### 2. Does `Object.assign()` perform deep or shallow copying?
 
-`Object.assign()` performs shallow copying. It copies property values directly, so nested objects are copied by reference rather than being deeply cloned. For deep copying, you need alternative approaches like `structuredClone()` or custom recursive functions.
+`Object.assign()` performs shallow copying. It copies property values directly, so nested objects are copied by reference rather than being deeply cloned. You need alternative approaches like `structuredClone()` or custom recursive functions for deep copying.
 
 ### 3. Can `Object.assign()` copy non-enumerable properties?
 
-No, `Object.assign()` only copies enumerable own properties. Non-enumerable properties, inherited properties, and properties from the prototype chain are not copied. Use `Object.getOwnPropertyDescriptors()` with `Object.defineProperties()` for copying all property types.
+No, `Object.assign()` only copies enumerable own properties. Non-enumerable properties, inherited properties, and properties from the prototype chain are not copied. Use `Object.getOwnPropertyDescriptors()` with `Object.defineProperties()` to copy all property types.
