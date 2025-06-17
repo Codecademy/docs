@@ -1,13 +1,13 @@
 ---
 Title: 'Hybrid Inheritance'
-Description: 'Hybrid inheritance combines multiple types of inheritance, allowing a class to inherit features from more than one parent and represent complex real-world relationships.' 
-Subjects: 
+Description: 'Hybrid inheritance combines multiple types of inheritance, allowing a class to inherit features from more than one parent and represent complex real-world relationships.'
+Subjects:
   - 'AI'
   - 'Computer Science'
   - 'Data Science'
   - 'Machine Learning'
-Tags: 
-  - 'AI' 
+Tags:
+  - 'AI'
   - 'Inheritance'
   - 'Machine Learning'
   - 'Python'
@@ -34,13 +34,13 @@ The following diagram shows a hybrid inheritance structure where a class inherit
 ```python
 # Base class attributes and methods
 class BaseClass:
-    
+
 # Inherits from BaseClass
 class DerivedClass1(BaseClass):
-    
+
 # Inherits from BaseClass
 class DerivedClass2(BaseClass):
-    
+
 # Inherits from DerivedClass1 and DerivedClass2
 class HybridClass(DerivedClass1, DerivedClass2):
 ```
@@ -73,7 +73,7 @@ class App(Database, API):
     return f"{self.process()}, {self.store()}, {self.request()}"
 
 app = App()
-print(app.describe())  
+print(app.describe())
 ```
 
 The output would be:
@@ -82,7 +82,7 @@ The output would be:
 Processing data, Storing data, Handling request
 ```
 
-## Codebyte 
+## Codebyte
 
 ```codebyte/python
 class System:
@@ -102,7 +102,7 @@ class App(Database, API):
     return f"{self.process()}, {self.store()}, {self.request()}"
 
 app = App()
-print(app.describe()) 
+print(app.describe())
 ```
 
 Hybrid inheritance can lead to the diamond problem, where a class inherits the same method from multiple parents. Python resolves this using the Method Resolution Order (MRO), accessible via **`ClassName.mro()`**. Use hybrid inheritance judiciously to avoid complex hierarchies that are hard to maintain. Ensure parent classes are designed to work together to prevent method conflicts.
