@@ -49,7 +49,7 @@ This operation is commonly applied in scenarios like bounding activations in a n
 
 ## Example
 
-This example creates a tensor with values from -2.0 to 2.0. The `.clamp()` method restricts these values to the range [-1.0, 1.0], so -2.0 becomes -1.0, 2.0 becomes 1.0, and values like 0.0 remain unchanged. The result is a new tensor with all values within the specified bounds.
+This example creates a tensor with values from -5.0 to 5.0. The `.clamp()` method restricts these values to the range [-1.5, 1.5], so -5.0 becomes -1.5, 5.0 becomes 1.5, and values like 0.0 remain unchanged. The result is a new tensor with all values within the specified bounds.
 
 ```py
 import torch
