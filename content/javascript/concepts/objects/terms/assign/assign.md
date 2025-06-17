@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`Object.assign()`** method copies all enumerable own properties from one or more source [objects](https://www.codecademy.com/resources/docs/javascript/objects) to a target object. It performs a shallow copy, meaning that nested objects are not cloned, but their references are copied to the target object. This method modifies and returns the target object, making it a powerful tool for object manipulation and merging.
 
-`.assign()` is commonly used for object cloning, merging configuration objects, copying properties between objects, and implementing object composition patterns. It serves as a fundamental utility in modern JavaScript development, particularly in scenarios involving state management, data transformation, and functional programming approaches where immutable-like operations on objects are required.
+The `Object.assign()` method is commonly used for object cloning, merging configuration objects, copying properties between objects, and implementing object composition patterns. It serves as a fundamental utility in modern JavaScript development, particularly in scenarios involving state management, data transformation, and functional programming approaches where immutable-like operations on objects are required.
 
 ## Syntax
 
