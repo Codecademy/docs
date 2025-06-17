@@ -68,7 +68,7 @@ In this example, `.assign()` copies all enumerable properties from `sourceObj` t
 
 ## Example 2: Object Cloning and Merging
 
-This example shows how to use `.assign()` for creating object clones and merging multiple objects together:
+The following example shows how to use `.assign()` for creating object clones and merging multiple objects together:
 
 ```js
 // Original object to clone
