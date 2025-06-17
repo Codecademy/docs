@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.lower()`** method is a built-in string method in Python that converts all uppercase characters in a string to lowercase. This method does not modify the original string; instead, it returns a new string with all alphabetic characters converted to their lowercase equivalents. Non-alphabetic characters such as numbers, punctuation marks, and special symbols remain unchanged.
+The **`.lower()`** method is a built-in [string](https://www.codecademy.com/resources/docs/python/strings) method in Python that converts all uppercase characters in a string to lowercase. This method does not modify the original string; instead, it returns a new string with all alphabetic characters converted to their lowercase equivalents. Non-alphabetic characters such as numbers, punctuation marks, and special symbols remain unchanged.
 
 The `.lower()` method is commonly used in scenarios where case-insensitive operations are required, such as user input validation, data normalization, string comparisons, search functionality, and email address standardization. It is especially useful in text processing tasks that require consistent formatting for reliable data handling and user interaction.
 
