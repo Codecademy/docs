@@ -56,7 +56,7 @@ This example shows how `.lower()` converts all uppercase and mixed-case letters 
 
 ## Example 2: Case-Insensitive User Authentication
 
-This example demonstrates using `.lower()` for case-insensitive username validation in a login system:
+The following example demonstrates using `.lower()` for case-insensitive username validation in a login system:
 
 ```py
 # Simulate a user database with lowercase usernames
