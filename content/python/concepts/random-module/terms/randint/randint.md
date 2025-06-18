@@ -134,7 +134,7 @@ Total: 7
 Lucky seven!
 ```
 
-This example creates an interactive dice rolling simulator that demonstrates practical usage of randint(). The program validates user input, generates random dice rolls, calculates totals, and identifies special combinations. This type of application is commonly used in board games, casino simulations, and probability demonstrations.
+This example creates an interactive dice rolling simulator that demonstrates practical usage of `.randint()`. The program validates user input, generates random dice rolls, calculates totals, and identifies special combinations. This type of application is commonly used in board games, casino simulations, and probability demonstrations.
 
 ## Codebyte Example: Random Password Generator
 
