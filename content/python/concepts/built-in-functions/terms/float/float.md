@@ -104,8 +104,8 @@ The output produced by this code will be:
 Principal Amount: $10000.00
 Annual Interest Rate: 5.5%
 Time Period: 3 years
-Final Amount: $11742.42
-Interest Earned: $1742.42
+Final Amount: $11742.41
+Interest Earned: $1742.41
 ```
 
 This example illustrates how `float()` enables precise financial calculations by converting string inputs to floating-point numbers, essential for accurate monetary computations.
