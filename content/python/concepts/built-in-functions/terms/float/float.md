@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`float()`** function is a built-in Python function that converts a number or a string representation of a number into a floating-point number. It takes a value as an argument and returns its floating-point equivalent, making it essential for numerical computations and data type conversions in Python programming.
+The **`float()`** function is a [built-in](https://www.codecademy.com/resources/docs/python/built-in-functions) Python function that converts a number or a string representation of a number into a floating-point number. It takes a value as an argument and returns its floating-point equivalent, making it essential for numerical computations and data type conversions in Python programming.
 
 The `float()` function is commonly used in scenarios requiring precise decimal calculations, such as financial applications, scientific computations, mathematical operations, and data processing tasks. It serves as a bridge between different numeric types, allowing seamless conversion from integers and string representations to floating-point numbers for enhanced computational flexibility.
 
