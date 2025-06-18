@@ -126,6 +126,6 @@ You can use the `in` operator or the `.find()` method. The `in` operator returns
 
 The `.find()` method returns `-1` if the substring is not found, whereas `.index()` raises an exception. If you don’t want to handle exceptions manually, `.find()` is a safer choice.
 
-### 4. <summary>4. Can I use negative indexes for substring extraction?
+### 4. Can I use negative indexes for substring extraction?
 
 Yes, Python allows negative indexing, which counts from the end of the string. You can use negative values for both the start and end positions when slicing.
