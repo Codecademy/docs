@@ -27,7 +27,7 @@ string[start:end:step]
 
 - `start`: Defaults to `0` and gives the initial position the slice will start from.
 - `end`: Defaults to the length of the string and marks the position where the slice stops (not inclusive).
-- `step`: Defaults to `1` and indicates the number of steps to take in between indexes.
+- `step`: Defaults to `1` and indicates the number of steps to take between indexes.
 
 ## Examples
 
