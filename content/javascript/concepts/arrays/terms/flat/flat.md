@@ -126,3 +126,14 @@ The output of the code is:
 ```shell
 [1, "hello", 2, 3, { a: 4 }]
 ```
+
+## Codebyte Example
+
+The following code demonstrates how different `.flat()` depths affect an array:
+
+```codebyte/js
+const arr = [1, 'hello', [2, 3, [4, [5, 'world']]], { a: 4 }];
+console.log('depth = default (1) : ', arr.flat());
+console.log('depth = 2 : ', arr.flat(2));
+console.log('depth = Infinity : ', arr.flat(Infinity));
+```
