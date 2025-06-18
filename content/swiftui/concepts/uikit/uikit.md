@@ -6,9 +6,8 @@ Subjects:
   - 'Mobile Development'
 Tags:
   - 'iOS'
-  - 'Mobile Development'
+  - 'SwiftUI'
   - 'UI'
-  - 'User Interface'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
