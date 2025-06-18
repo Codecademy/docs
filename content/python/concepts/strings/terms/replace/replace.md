@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In Python, the **`.replace()`** method replaces a given [substring](https://www.codecademy.com/resources/docs/python/substrings) with another substring in a string. This method is useful for text processing, data cleaning, and formatting tasks.
+In Python, the **`.replace()`** method replaces all occurrences of a specified [substring](https://www.codecademy.com/resources/docs/python/substrings) with another substring in a string. It is commonly used for text processing, data cleaning, and formatting tasks.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ string.replace(old, new, count)
 
 - `old`: The substring to be replaced.
 - `new`: The substring to replace with.
-- `count`: Specifies the number of occurrences of the given substring to be replaced. If not specified, all occurrences of the given substring is replaced.
+- `count` (optional): Specifies the number of occurrences of the given substring to be replaced. If not specified, all occurrences of the given substring is replaced.
 
 **Return value:**
 
