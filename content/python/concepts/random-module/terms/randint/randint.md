@@ -204,7 +204,7 @@ This example demonstrates how `.randint()` can be used for security-related appl
 
 ### 1. What happens if the start parameter is greater than the end parameter?
 
-If you pass a start value that is greater than the end value, `.randint()` raises a `ValueError` with the message "empty range for randrange()". Always ensure that start <= end.
+If you pass a start value that is greater than the end value, `.randint()` raises a `ValueError` with the message "empty range for randrange()". Always ensure that `start <= end`.
 
 ### 2. Can `.randint()` generate floating-point numbers?
 
