@@ -24,6 +24,10 @@ array.flat(depth);
 
 - `depth` (optional): The number of levels to flatten. Defaults to `1`. Use `Infinity` to flatten all nested arrays completely.
 
+**Return value:**
+
+A new array with the sub-array elements flattened up to the specified depth. The original array remains unchanged.
+
 ## Example 1: Using `flat()` With Default Value
 
 This example demonstrates using `flat()` with the default depth of 1:
