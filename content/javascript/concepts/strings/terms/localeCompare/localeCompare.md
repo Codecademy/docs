@@ -17,7 +17,19 @@ The string method **`.localeCompare()`** returns a number indicating whether the
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+```pseudo
+string.localeCompare(compareString, locales, options)
+```
+
+**Parameters:**
+
+- `compareString`: The string that the reference `string` is compared with.
+- `locales` (optional): A string with a language code according to the BCP 47 standard (like "de", fr", "sv"), or an array with multiple strings of such language codes.
+- `options` (optional): An object that changes the behavior of the comparison. The `options` are defined by the `Intl.Collator` constructor.
+
+**Return value:**
+
+A number indicating the sort order: `-1` if `string` comes before `compareString`, `1` if `string` comes after `compareString`, or `0` if the `string` and `compareString` are at the same position.
 
 ## Example
 
