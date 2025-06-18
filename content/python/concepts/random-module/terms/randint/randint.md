@@ -31,7 +31,7 @@ random.randint(start, end)
 
 **Return value:**
 
-A random integer N where start <= N <= end (both endpoints included).
+A random integer N where `start <= N <= end` (both endpoints included).
 
 ## Example 1: Basic Random Integer Generation
 
