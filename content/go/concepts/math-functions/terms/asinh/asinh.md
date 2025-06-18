@@ -1,6 +1,6 @@
 ---
 Title: 'Asinh()'
-Description: 'Returns the inverse hyperbolic sine of a number.'
+Description: 'Computes the inverse hyperbolic sine (arsinh) of a numeric value.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
