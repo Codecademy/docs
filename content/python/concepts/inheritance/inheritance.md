@@ -89,7 +89,7 @@ The child class `__init__()` method must initialize all necessary attributes, in
 
 ## `super()` Function
 
-The **`super()`** function is a built-in Python function that provides access to methods and attributes of the parent class from within the child class. It allows you to call parent class methods without explicitly naming the parent class.
+The **`super()`** function is a [built-in](https://www.codecademy.com/resources/docs/python/built-in-functions) Python function that provides access to methods and attributes of the parent class from within the child class. This function allows calling parent class methods without explicitly naming the parent class.
 
 ```py
 class Bird(Animal):
