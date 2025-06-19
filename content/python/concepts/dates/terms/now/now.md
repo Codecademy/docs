@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`datetime.now()`** method is a class method from Python's `datetime` module that returns a `datetime` object representing the current local date and time. This method captures the exact moment when it is called, including the year, month, day, hour, minute, second, and microsecond components. It serves as the primary way to obtain real-time temporal information within Python applications.
+The **`datetime.now()`** method is a class method from Python's [`datetime`](https://www.codecademy.com/resources/docs/python/dates) module that returns a `datetime` object representing the current local date and time. This method captures the exact moment when it is called, including the year, month, day, hour, minute, second, and microsecond components. It serves as the primary way to obtain real-time temporal information within Python applications.
 
 The `datetime.now()` method is commonly used in applications that require timestamping, logging activities, scheduling tasks, measuring execution time, and creating time-based records. It is essential for web applications that need to track user activity, financial systems that require transaction timestamps, monitoring systems that log events, and any application where recording the current moment is crucial for functionality or compliance.
 
