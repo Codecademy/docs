@@ -43,7 +43,7 @@ Inheritance does not return a value. It establishes a relationship between class
 
 ## Creating a Parent Class
 
-A **parent class** (also called a base class or superclass) serves as the foundation for inheritance. It contains common attributes and methods that can be shared by multiple child classes. Creating a parent class follows the same syntax as creating any other class in Python.
+A **parent class** (also called a base class or superclass) serves as the foundation for inheritance. It contains common attributes and methods that multiple child classes can share. Creating a parent class follows the same syntax as creating any other class in Python.
 
 ```py
 class Animal:
