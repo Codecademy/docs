@@ -67,6 +67,7 @@ Minute: 30
 Second: 45
 ```
 
+>**Note:** The actual output will change every time the code is run, because `datetime.now()` captures the exact current date and time at the moment of execution.
 This example shows how to import the `datetime` class and use the `now()` method to get the current timestamp. The output displays both the complete datetime object and its individual components, making it easy to extract specific time elements when needed.
 
 ## Example 2: Event Logging System
