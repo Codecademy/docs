@@ -39,7 +39,7 @@ class ChildClass(ParentClass):
 
 **Return value:**
 
-Inheritance does not return a value. It establishes a relationship between classes that allows the child class to access parent class attributes and methods.
+Inheritance does not return a value. It establishes a relationship between classes that allows the child class to access the parent class attributes and methods.
 
 ## Creating a Parent Class
 
