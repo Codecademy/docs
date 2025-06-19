@@ -166,12 +166,12 @@ This example illustrates how `.strptime()` can handle various date formats commo
 
 ### 1. What's the difference between `.strptime()` and `.strftime()`?
 
-`strptime()` converts strings TO datetime objects (string parse time), while `.strftime()` converts datetime objects TO formatted strings (string format time). They are inverse operations.
+`strptime()` converts strings to `datetime` objects, while `.strftime()` converts `datetime` objects to formatted strings. They are inverse operations.
 
 ### 2. How do I handle invalid date strings using `.strptime()` in Python?
 
-If the input string does not match the expected format, `.strptime()` will raise a ValueError. To handle such cases safely, you can use a try-except block.
+If the input string does not match the expected format, `.strptime()` will raise a `ValueError`. To handle such cases safely, you can use a try-except block.
 
 ### 3. Can `.strptime()` parse time-only or date-only strings in Python?
 
-Yes, strptime can parse time-only or date-only strings, as long as the format string matches exactly.
+Yes, `.strptime()` can parse time-only or date-only strings, as long as the format string matches exactly.
