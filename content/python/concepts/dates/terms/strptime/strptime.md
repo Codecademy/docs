@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.strptime()`** method is a class method in Python's `datetime` module that parses a string representing a date and time according to a specified format and returns a corresponding `datetime` object. It serves as the inverse operation to [`.strftime()`](https://www.codecademy.com/resources/docs/python/time-module/strftime) by converting formatted string representations back into datetime objects that can be manipulated programmatically.
+The **`.strptime()`** method is a class method in Python's [`datetime`](https://www.codecademy.com/resources/docs/python/dates) module that parses a string representing a date and time according to a specified format and returns a corresponding `datetime` object. It serves as the inverse operation to [`.strftime()`](https://www.codecademy.com/resources/docs/python/time-module/strftime) by converting formatted string representations back into datetime objects that can be manipulated programmatically.
 
 The `strptime()` method is essential for applications that need to process date and time data from external sources such as log files, user input, APIs, CSV files, or databases where dates are stored as strings. It enables developers to convert these string representations into Python datetime objects for calculations, comparisons, formatting, and other datetime operations. Common use cases include parsing timestamps from log files, processing user-entered dates in web forms, importing date data from spreadsheets, and converting API responses containing date strings.
 
