@@ -35,7 +35,7 @@ Returns a `datetime` object representing the parsed date and time.
 
 ## Example 1: Basic String Parsing
 
-This example demonstrates the fundamental usage of `.strptime()` to convert a simple date string into a datetime object:
+This example demonstrates the fundamental usage of `.strptime()` to convert a simple date string into a `datetime` object:
 
 ```py
 from datetime import datetime
