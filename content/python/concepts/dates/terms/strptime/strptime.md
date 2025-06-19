@@ -65,7 +65,7 @@ Month: 3
 Day: 15
 ```
 
-The example shows how `.strptime()` converts a string into a full datetime object. Notice that when only a date is provided, the time components default to 00:00:00.
+The example shows how `.strptime()` converts a string into a full datetime object. Notice that when only a date is provided, the time components default to `00:00:00`.
 
 ## Example 2: Log File Processing
 
