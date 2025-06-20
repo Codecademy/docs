@@ -1,7 +1,7 @@
 ---
 Title: '.codePointAt()'
 Description: 'Returns the Unicode code point value at a specified index position in a string, including complex characters like emojis and symbols.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
@@ -36,7 +36,7 @@ string.codePointAt(index);
 The following example demonstrates how `.codePointAt()` retrieves Unicode values from strings, including regular characters, emojis, compound emojis, and out-of-range positions:
 
 ```js
-const text = "Hello 😀";
+const text = 'Hello 😀';
 
 // Accessing the second character in the string.
 console.log(text.codePointAt(1));
@@ -48,7 +48,7 @@ console.log(text.codePointAt(6));
 console.log(text.codePointAt(12));
 
 // Compare with a multi-byte character
-const emoji = "👨‍💻"; // Man technologist emoji (compound emoji)
+const emoji = '👨‍💻'; // Man technologist emoji (compound emoji)
 console.log(emoji.codePointAt(0));
 console.log(emoji.codePointAt(2));
 ```
