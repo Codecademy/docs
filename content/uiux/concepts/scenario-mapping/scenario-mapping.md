@@ -12,19 +12,19 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Scenario mapping** is a collaborative UX method used to visualize how users interact with a product in different real-world contexts. It helps teams align around user goals, pain points, and workflows by mapping scenarios (or situations) to specific features and solutions.
+**Scenario mapping** is a collaborative UX method for visualizing how users interact with a product in different real-world contexts. Mapping scenarios (or situations) to specific features and solutions helps teams align around user goals, pain points, and workflows.
 
-Scenario mapping combines insights from user research, personas, and jobs-to-be-done frameworks to create a shared understanding of how people use products in varying situations — and what support they need to succeed.
+Scenario mapping combines insights from user research, personas, and jobs-to-be-done frameworks to create a shared understanding of how people use products in varying situations and what support they need to succeed.
 
 ## What is a Scenario?
 
-In UX, a scenario describes a short, narrative-based situation where a user tries to accomplish a specific task under certain conditions. These stories are fictional but rooted in real research and help reveal the context in which users interact with a product.
+In UX, a scenario describes a short, narrative-based situation where a user tries to accomplish a specific task under certain conditions. These stories are fictional but rooted in fundamental research and help reveal the context in which users interact with a product.
 
 Example scenario:
 
 > Lisa is trying to check out quickly on her phone during her lunch break, but she cannot remember her password and does not have time to reset it.
 
-## Why Use Scenario Mapping
+## Why Use Scenario Mapping?
 
 Scenario mapping helps teams understand user behavior in a structured, task-oriented way. It surfaces design opportunities and usability gaps before wireframes or prototypes are even created.
 
@@ -40,6 +40,6 @@ Scenario mapping helps teams understand user behavior in a structured, task-orie
 Scenario mapping is most useful during:
 
 - **Early ideation or discovery phases**: To explore how people might use your product in different contexts.
-- **Design sprints and workshops**: To gather cross-disciplinary insights in real time.
+- **Design sprints and workshops**: To gather real-time cross-disciplinary insights.
 - **Feature planning**: To understand what workflows need to be supported or simplified.
-- **Post-research synthesis**: To connect interview data with actionable design opportunities.
+- **Post-research synthesis**: Connect interview data with actionable design opportunities.
