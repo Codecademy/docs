@@ -36,13 +36,13 @@ They are commonly used during:
 
 ## How to Build an Affinity Diagram
 
-1. **Gather raw data or observations:** Pull relevant user quotes, ideas, pain points, or behavioral notes onto individual cards or sticky notes. Each card should contain one point or idea.
-2. **Sort items into related groups:** Without labels, begin clustering related notes based on similarity. This should be done collaboratively to uncover patterns through discussion.
-3. **Label the clusters:** Once groups emerge, give each one a meaningful heading that captures the underlying theme or insight, such as "Trust issues" or "Onboarding friction."
+- **Gather raw data or observations:** Pull relevant user quotes, ideas, pain points, or behavioral notes onto individual cards or sticky notes. Each card should contain one point or idea.
+- **Sort items into related groups:** Without labels, begin clustering related notes based on similarity. This should be done collaboratively to uncover patterns through discussion.
+- **Label the clusters:** Once groups emerge, give each one a meaningful heading that captures the underlying theme or insight, such as "Trust issues" or "Onboarding friction."
 
-> For example, quotes like *“I don’t trust the payment screen”* and *“I'm afraid my card will get charged twice”* might be grouped under **"Trust Issues."**
+> For example, quotes like _“I don’t trust the payment screen”_ and _“I'm afraid my card will get charged twice”_ might be grouped under **"Trust Issues."**
 
-4. **Prioritize insights if needed:** Some clusters may represent more critical issues than others. Use dot-voting or effort-impact axes to highlight which themes require action.
+- **Prioritize insights if needed:** Some clusters may represent more critical issues than others. Use dot-voting or effort-impact axes to highlight which themes require action.
 
 ![Diagram illustrating an affinity diagram with grouped sticky notes representing themes. Categories include: Tools for Communication, Progress Tracking, Leadership Experience, Improvements & Limitations, Rewarding Aspects, and Challenges in Leading. Each category contains several coloured sticky notes to represent related ideas.](https://raw.githubusercontent.com/Codecademy/docs/main/media/affinity-diagram-pl-img.png)
 
