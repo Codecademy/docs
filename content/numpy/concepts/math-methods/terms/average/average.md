@@ -130,7 +130,7 @@ Annualized return estimate: 80.16%
 
 Portfolio managers use weighted averages to calculate expected returns based on asset allocation strategies, helping them understand overall portfolio performance.
 
-## Codebyte Example:
+## Codebyte Example
 
 This example demonstrates how `.average()` computes weighted or unweighted averages across specified axes in a multi-dimensional array:
 
