@@ -26,9 +26,9 @@ std::unordered_map<key_type, value_type> map_name;
 
 **Parameters:**
 
-- `key_type`: The data type of the keys stored in the unordered_map
+- `key_type`: The data type of the keys stored in the `unordered_map`
 - `value_type`: The data type of the values associated with the keys
-- `map_name`: The identifier name for the unordered_map instance
+- `map_name`: The identifier name for the `unordered_map` instance
 
 **Return value:**
 
