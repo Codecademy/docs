@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`unordered_map`** is an associative container in C++ that stores data in key-value pairs, similar to a dictionary or hash table. Unlike the standard [`map`](https://www.codecademy.com/resources/docs/cpp/maps) container, `unordered_map` uses a hash table implementation that provides average constant-time complexity O(1) for search, insertion, and deletion operations. However, the elements are not stored in any particular sorted order, making it ideal for scenarios where fast access is more important than maintaining order.
+The **`unordered_map`** is an associative container in C++ that stores data in key-value pairs, similar to a dictionary or hash table. Unlike the standard [`map`](https://www.codecademy.com/resources/docs/cpp/maps) container, `unordered_map` uses a hash table implementation that provides average constant-time complexity `O(1)` for search, insertion, and deletion operations. However, the elements are not stored in any particular sorted order, making it ideal for scenarios where fast access is more important than maintaining order.
 
 The `unordered_map` is particularly useful in applications requiring frequent lookups, such as caching systems, database indexing, counting frequencies of elements, and implementing symbol tables in compilers. It excels in scenarios where you need to associate unique keys with values and perform rapid searches based on those keys.
 
