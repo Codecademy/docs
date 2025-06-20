@@ -1,5 +1,5 @@
 ---
-Title: '.get()' 
+Title: '.get()'
 Description: 'Returns a raw pointer to the managed object without transferring ownership.'
 Subjects:
   - 'Computer Science'
@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - 'Objects'
   - 'Pointers'
-CatalogContent: 
+CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
