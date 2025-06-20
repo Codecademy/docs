@@ -77,7 +77,7 @@ This example shows how to create an empty `unordered_map` and initialize another
 
 ## Example 2: Counting Character Frequencies
 
-This example demonstrates using `unordered_map` to count the frequency of characters in a string, a common real-world application:
+This example demonstrates using `unordered_map` to count the frequency of characters in a [string](https://www.codecademy.com/resources/docs/cpp/strings), a common real-world application:
 
 ```cpp
 #include <iostream>
