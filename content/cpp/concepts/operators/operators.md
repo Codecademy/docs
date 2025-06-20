@@ -34,6 +34,8 @@ C++ operators are extensively used in various programming scenarios including ma
 
 ### Example
 
+The following code demonstrates the use of basic arithmetic and increment/decrement operators in C++, performing addition, subtraction, multiplication, division, modulo, pre-increment, and post-decrement on two integer variables and printing the results:
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -54,7 +56,7 @@ int main() {
 }
 ```
 
-Output of this code will be:
+The output of this code will be:
 
 ```shell
 Addition: 19
@@ -80,6 +82,8 @@ Post-decrement: 4
 | Less than or equal to    | `<=`   | Checks if left operand is less than or equal to right    |
 
 ### Example
+
+The following code demonstrates the use of relational operators in C++ by comparing two integer variables `x` and `y`, and printing the results of equality, inequality, and relational comparisons:
 
 ```cpp
 #include <iostream>
@@ -122,6 +126,8 @@ x <= y: 1
 
 ### Example
 
+This code demonstrates the use of logical operators in C++ by evaluating logical AND (`&&`), OR (`||`), and NOT (`!`) operations on two boolean variables `p` and `q`, and printing the results:
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -161,6 +167,8 @@ p || q: 1
 | Modulo and assign   | `%=`   | Performs modulo operation and assigns result                 |
 
 ### Example
+
+This code demonstrates the use of compound assignment operators in C++ by performing a series of arithmetic operations (`+=`, `-=`, `*=`, `/=`) on an integer variable `num` and printing its updated value after each operation:
 
 ```cpp
 #include <iostream>
@@ -211,6 +219,8 @@ After /= 4: 6
 | Right shift | `>>`   | Shifts bits to the right by specified positions           |
 
 ### Example
+
+The following code demonstrates the use of bitwise operators in C++ by performing operations like AND (`&`), OR (`|`), XOR (`^`), NOT (`~`), left shift (`<<`), and right shift (`>>`) on two integers `a` and `b`, and displaying the results of each operation:
 
 ```cpp
 #include <iostream>
