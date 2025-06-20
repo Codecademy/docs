@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An **array** is a data structure that stores multiple values of the same data type in contiguous memory locations. Arrays allow storing and accessing a collection of elements efficiently using a single variable name with indexed positions. Instead of declaring separate variables for each value, an array provides a way to manage multiple related values as a single entity.
+An **array** is a data structure that stores multiple values of the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types) in contiguous memory locations. Arrays allow storing and accessing a collection of elements efficiently using a single variable name with indexed positions. Instead of declaring separate variables for each value, an array provides a way to manage multiple related values as a single entity.
 
 Arrays are particularly useful when dealing with collections of similar data, such as storing student grades, temperature readings, or inventory items. The size of an array must be known at compile time and cannot be changed during program execution.
 
@@ -29,6 +29,8 @@ dataType arrayName[arraySize];
 The syntax consists of the data type, followed by the array name, and the size enclosed in square brackets. The size must be a positive integer constant.
 
 ### Example
+
+This example creates three arrays: `numbers` can store 5 integers, `prices` can store 10 double values, and `letters` can store 26 characters.
 
 ```cpp
 #include <iostream>
@@ -48,8 +50,6 @@ int main() {
 }
 ```
 
-This example creates three arrays: `numbers` can store 5 integers, `prices` can store 10 double values, and `letters` can store 26 characters.
-
 ## Initialize Array with Values
 
 ### Syntax
@@ -61,6 +61,8 @@ dataType arrayName[arraySize] = {value1, value2, value3, ...};
 Values are enclosed in curly braces and separated by commas. The number of values cannot exceed the array size but can be less.
 
 ### Example
+
+In the following example, `scores` is fully initialized, `grades` has the first three elements set with the rest defaulting to 0, and `ages` automatically sizes to 5 elements.
 
 ```cpp
 #include <iostream>
@@ -80,13 +82,13 @@ int main() {
 }
 ```
 
-In this example, `scores` is fully initialized, `grades` has the first three elements set with the rest defaulting to 0, and `ages` automatically sizes to 5 elements.
-
 ## Access Array Elements
 
 Array elements are accessed using the **subscript operator** `[]` with an index number. Array indexing starts at 0, meaning the first element is at index 0, the second at index 1, and so on.
 
 ### Example
+
+The following code initializes an array of five integers and prints the first, third, and last elements:
 
 ```cpp
 #include <iostream>
@@ -104,7 +106,7 @@ int main() {
 }
 ```
 
-This example outputs:
+The output of the above code will be:
 
 ```shell
 First element: 10
@@ -117,6 +119,8 @@ Last element: 50
 Array elements can be modified by assigning new values to specific indices using the assignment operator.
 
 ### Example
+
+The following code initializes an array of five integers, prints the original array, updates specific elements, and then prints the updated array:
 
 ```cpp
 #include <iostream>
@@ -146,7 +150,7 @@ int main() {
 }
 ```
 
-This example outputs:
+The output of the above code will be:
 
 ```shell
 Original array: 10 20 30 40 50
@@ -154,6 +158,8 @@ Updated array: 15 20 35 40 55
 ```
 
 ## Example 1: Student Grade Calculator
+
+The following code initializes an array of student grades, calculates their total and average, and prints the results:
 
 ```cpp
 #include <iostream>
@@ -182,7 +188,7 @@ int main() {
 }
 ```
 
-This example outputs:
+The output of the above example will be:
 
 ```shell
 Student Grades: 88.5 92 76.5 85 91.5 89
@@ -191,6 +197,8 @@ Average: 87.0833
 ```
 
 ## Example 2: Interactive Array Management
+
+The following code takes 5 integers from the user, doubles every second element in the array, displays the original and updated arrays, and finds and prints the maximum value along with its index:
 
 ```cpp
 #include <iostream>
@@ -242,6 +250,26 @@ int main() {
   return 0;
 }
 ```
+
+The output of the above code will be:
+
+```shell
+Enter 5 integers:
+Element 1: 1
+Element 2: 2
+Element 3: 5
+Element 4: 5
+Element 5: 2
+
+Original array: 1 2 5 5 2
+
+Updating every second element...
+Updated array: 1 4 5 10 2
+
+Maximum value: 10 at index 3
+```
+
+> **Note:** The output of this program will vary depending on the user’s input values.
 
 ## Frequently Asked Questions
 
