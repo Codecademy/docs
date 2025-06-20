@@ -73,7 +73,7 @@ Fruits map contains:
 1: Apple
 ```
 
-This example shows how to create an empty `unordered_map` and initialize another with key-value pairs using an initializer list. The output displays the fruit IDs and names, demonstrating basic map creation and iteration.
+The above code shows how to create an empty `unordered_map` and initialize another with key-value pairs using an initializer list. The output displays the fruit IDs and names, demonstrating basic map creation and iteration.
 
 ## Example 2: Counting Character Frequencies
 
