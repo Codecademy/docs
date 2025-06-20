@@ -30,7 +30,7 @@ A new array with the sub-array elements flattened up to the specified depth. The
 
 ## Example 1: Using `flat()` With Default Value
 
-This example demonstrates using `flat()` with the default depth of 1:
+This example demonstrates using `flat()` with the default depth of `1`:
 
 ```js
 const arr = [1, 2, [3, 4]];
@@ -47,7 +47,7 @@ The output of this code is:
 
 ## Example 2: Using `flat()` on Deeper Nested Arrays
 
-This example demonstrates using `flat()` with the default depth of 1, with multiple layers of nested sub-arrays:
+This example demonstrates using `flat()` with the default depth of `1`, with multiple layers of nested sub-arrays:
 
 ```js
 const arr = [1, 2, 3, [4, 5, [6, 7]]];
@@ -60,11 +60,11 @@ The output of this code is:
 [1, 2, 3, 4, 5, [6, 7]]
 ```
 
-`arr.flat()` flattens the array one level deep. It unpacks the first-level nested array `[4, 5, [6, 7]]`, moving its elements into the main array. However, the inner array `[6, 7]` remains nested because it is at a deeper level.
+`arr.flat()` flattens the array one level deep. It unpacks the first-level nested array `[4, 5, [6, 7]]`, moving its elements into the main array. However, the inner array `[6, 7]` remains nested at a deeper level.
 
 ## Example 3: Using `flat()` with a Specified Depth
 
-This example demonstrates using `flat()` with a depth of 2, applied to an array with multiple layers of nested sub-arrays:
+This example demonstrates using `flat()` with a depth of `2`, applied to an array with multiple layers of nested sub-arrays:
 
 ```js
 const arr = [1, 2, 3, [4, 5, [6, 7]]];
@@ -80,7 +80,7 @@ The output of this code is:
 ]
 ```
 
-`arr.flat(2)` flattens the array two levels deep. First, it unpacks the first-level nested array `[4, 5, [6, 7]]`, moving its elements into the main array. Then, the inner array `[6, 7]` is unpacked, resulting in a fully flattened array with no nested sub-arrays.
+`arr.flat(2)` flattens the array two levels deep. First, it unpacks the first-level nested array `[4, 5, [6, 7]]`, moving its elements into the main array. Then, the inner array `[6, 7]` is unpacked, resulting in an entirely flattened array with no nested sub-arrays.
 
 ## Example 4: Using `flat()` with `Infinity` Depth
 
