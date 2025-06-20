@@ -207,7 +207,7 @@ This example demonstrates a real-world application where `unordered_map` serves 
 
 ### 1. What is the difference between `map` and `unordered_map`?
 
-`map` maintains elements in sorted order using a balanced binary search tree (typically red-black tree), providing O(log n) operations, while `unordered_map` uses a hash table with O(1) average-case operations but no ordering guarantees.
+A `map` maintains elements in sorted order using a balanced binary search tree (typically red-black tree), providing `O(log n)` operations, while `unordered_map` uses a hash table with `O(1)` average-case operations but no ordering guarantees.
 
 ### 2. When should I use `unordered_map` over `map`?
 
