@@ -28,9 +28,9 @@ numpy.average(a, axis=None, weights=None, returned=False, keepdims=False)
 **Parameters:**
 
 - `a`: Input array containing the data for which the average will be computed.
-- `axis` (Optional): Axis or axes along which to average. Default is `None`, computing the average of all elements.
+- `axis` (Optional): Axis or axes along which to average. The default is `None`, computing the average of all elements.
 - `weights` (Optional): Array of weights associated with the values in `a`. It must be the same shape as `a` or broadcastable. If `None`, all values are equally weighted.
-- `returned` (Optional): If `True`, returns a tuple of the average and the sum of weights. Default is False.
+- `returned` (Optional): If `True`, returns a tuple of the average and the sum of weights. The default is False.
 - `keepdims` (Optional): If `True`, retains reduced axes with size 1, preserving input dimensions in the result.
 
 **Return value:**
@@ -130,7 +130,7 @@ Annualized return estimate: 80.16%
 
 Portfolio managers use weighted averages to calculate expected returns based on asset allocation strategies, helping them understand overall portfolio performance.
 
-## Codebyte Example: Multi-dimensional Array Processing
+## Codebyte Example:
 
 This example demonstrates how `.average()` computes weighted or unweighted averages across specified axes in a multi-dimensional array:
 
