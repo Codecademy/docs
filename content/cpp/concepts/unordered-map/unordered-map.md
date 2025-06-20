@@ -130,7 +130,7 @@ Most frequent character: 'm' appears 2 times
 
 > **Note:** The order of elements in an `unordered_map` is unspecified and may vary across executions.
 
-This example demonstrates a practical use case where `unordered_map` efficiently counts character occurrences. The algorithm has `O(n)` time complexity, making it very efficient for frequency analysis tasks commonly used in text processing and data analysis.
+The above code demonstrates a practical use case where `unordered_map` efficiently counts character occurrences. The algorithm has `O(n)` time complexity, making it very efficient for frequency analysis tasks commonly used in text processing and data analysis.
 
 ## Codebyte Example: Building an Employee Database
 
