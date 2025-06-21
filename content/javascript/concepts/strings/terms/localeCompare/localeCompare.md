@@ -1,6 +1,6 @@
 ---
 Title: '.localeCompare()'
-Description: 'Determines whether a string comes before, after, or is equal to another string in alphabetical order.'
+Description: 'Determines whether a string comes before, after, or at the same position as another string in alphabetical order.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The string method **`.localeCompare()`** returns a number indicating whether the string it operates on comes before, after, or at the same position as the string given as an argument in alphabetical order. The method can take a `locale` as an argument to follow the alphabetical order of a specific language.
+The string method **`.localeCompare()`** returns a number indicating whether the reference string it operates on comes before, after, or at the same position as the given string in alphabetical order. The method can take `locales` as an argument to follow the alphabetical order of specific languages.
 
 ## Syntax
 
@@ -23,33 +23,50 @@ string.localeCompare(compareString, locales, options)
 
 **Parameters:**
 
-- `compareString`: The string that the reference `string` is compared with.
-- `locales` (optional): A string with a language code according to the BCP 47 standard (like "de", fr", "sv"), or an array with multiple strings of such language codes.
-- `options` (optional): An object that changes the behavior of the comparison. The `options` are defined by the `Intl.Collator` constructor.
+- `compareString`: The string that the reference string is compared with.
+- `locales` (optional): A string with a language code according to the BCP 47 standard (like "de," "fr," "sv"), or an array with multiple strings of such language codes.
+- `options` (optional): An object that changes the behavior of the comparison. The `options` that can be used are defined by the `Intl.Collator` constructor.
 
 **Return value:**
 
-A number indicating the sort order: `-1` if `string` comes before `compareString`, `1` if `string` comes after `compareString`, or `0` if the `string` and `compareString` are at the same position.
+A number indicating the sort order:
+
+- a negative number (for example, `-1`) if the reference string comes before `compareString`.
+- a positive number (for example, `1`) if the reference string comes after `compareString`.
+- `0` if the reference string and `compareString` are at the same position.
+
+The exact positive and negative numbers that `.localeCompare()` returns may vary between browsers.
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+This example shows how to use `.localeCompare()` to get the alphabetical order of a string compared to a reference string:
 
-## Codebyte Example (if applicable)
+```js
+const comparison1 = 'boat'.localeCompare('car');
+const comparison2 = 'boat'.localeCompare('airplane');
+const comparison3 = 'boat'.localeCompare('BOAT', 'en', { sensitivity: 'base' }); // option argument to make the comparison case insensitive
 
-We can currently support:
+console.log(`"boat" compared with "car": ${comparison1}`);
+console.log(`"boat" compared with "airplane": ${comparison2}`);
+console.log(`"boat" compared with "BOAT": ${comparison3}`);
+```
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+The output of this code is:
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+```shell
+"boat" compared with "car": -1
+"boat" compared with "airplane": 1
+"boat" compared with "BOAT": 0
+```
 
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+## Codebyte Example
+
+Run the following code to understand how `.localeCompare()` works with different `locales`:
+
+```codebyte/javascript
+const germanComparison = "z".localeCompare("ä", "de");
+const swedishComparison = "z".localeCompare("ä", "sv");
+
+console.log(`German locale: ${germanComparison}`);
+console.log(`Swedish locale: ${swedishComparison}`);
 ```
