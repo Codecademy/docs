@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Single inheritance** is a foundational principle in object-oriented programming (OOP), where a class (called the child or subclass) inherits its behaviour and structure from a single parent class (or superclass). This promotes code reusability and clear maintains a clear logical hierarchicy.
+**Single inheritance** is a foundational principle in object-oriented programming (OOP), where a class (called the child or subclass) inherits its behaviour and structure from a single parent class (or superclass). This promotes code reusability and maintains a clear logical hierarchy.
 
 In Python, single inheritance is implemented by defining the subclass with the parent class name in parentheses. This enables the child class to use, override, or extend the methods and attributes of its parent.
 
@@ -21,14 +21,14 @@ In Python, single inheritance is implemented by defining the subclass with the p
 
 ```pseudo
 class ParentClass:
-    # Methods and attributes of the parent class
+  # Methods and attributes of the parent class
 
 class ChildClass(ParentClass):
-    # Inherits from ParentClass
-    # Can override or add new functionality
+  # Inherits from ParentClass
+  # Can override or add new functionality
 ```
 
-- `ParentClass`: The class being inherited from (also known as superclass or base class).
+- `ParentClass`: The class inherited from (also known as superclass or base class).
 - `ChildClass`: The class that inherits from the parent class (also known as the subclass or the derived class).
 
 The ParentClass is passed inside parentheses when defining the ChildClass.
@@ -39,12 +39,12 @@ This example demonstrates single inheritance where the `Dog` class inherits from
 
 ```py
 class Animal:
-    def speak(self):
-        return "Makes a sound"
+  def speak(self):
+    return "Makes a sound"
 
 class Dog(Animal):
-    def speak(self):
-        return "Barks"
+  def speak(self):
+    return "Barks"
 
 a = Animal()
 d = Dog()
@@ -52,9 +52,10 @@ d = Dog()
 print(a.speak())
 print(d.speak())
 ```
-**Output**
 
-```Sh
+Here's the output:
+
+```shell
 Makes a sound
 Barks
 ```
@@ -68,12 +69,12 @@ Barks
 
 ```codebyte/python
 class Vehicle:
-    def start_engine(self):
-        return "Engine started"
+  def start_engine(self):
+    return "Engine started"
 
 class Car(Vehicle):
-    def drive(self):
-        return "Car is driving"
+  def drive(self):
+    return "Car is driving"
 
 my_car = Car()
 
