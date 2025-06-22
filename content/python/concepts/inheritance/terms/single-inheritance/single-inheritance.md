@@ -31,7 +31,7 @@ class ChildClass(ParentClass):
 - `ParentClass`: The class inherited from (also known as superclass or base class).
 - `ChildClass`: The class that inherits from the parent class (also known as the subclass or the derived class).
 
-The ParentClass is passed inside parentheses when defining the ChildClass.
+The `ParentClass` is passed inside parentheses when defining the `ChildClass`.
 
 ## Example
 
