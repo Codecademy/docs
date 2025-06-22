@@ -28,7 +28,7 @@ The `.length()` method requires no parameters.
 
 **Return value:**
 
-The `.length()` method returns the length or number of characters in a string.
+The `.length()` method returns a string's length or number of characters.
 
 ## Example 1: Basic Usage of `.length()`
 
