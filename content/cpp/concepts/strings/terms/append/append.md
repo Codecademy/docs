@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`.append()`** is a method that concatenates new characters to the end of an existing string without requiring reassignment. It can be used to combine two different strings, append a portion of a string (also known as a substring), or add specific characters to the end of a string.
+In C++, **`.append()`** is a method that concatenates new characters to the end of an existing string without requiring reassignment. It can be used to combine two different strings, append a portion of a string (also known as a substring), or add specific characters to the end of a string.
 
 ## Syntax
 
@@ -38,7 +38,7 @@ str.append(first, last);        // Appends range using iterators
 
 Returns a reference to the modified string (`*this`), allowing method chaining.
 
-## Example 1: Appending two strings together
+## Example 1: Appending Two Strings Together
 
 This example takes two separate strings and concatenates them:
 
@@ -65,7 +65,7 @@ The output produced by this code is:
 Hello World!
 ```
 
-## Example 2: Appending one piece of a string to another
+## Example 2: Appending One Piece of a String to Another
 
 This example takes a portion of one string and adds it to the end of another string:
 
@@ -92,9 +92,9 @@ The output produced by this code is:
 Straw Hat Luffy
 ```
 
-## Codebyte Example: Appending multiple characters to a string
+## Codebyte Example: Appending Multiple Characters to a String
 
-This example takes a specific character and adds it a specific amount of times to the end of a string:
+This codebyte example takes a specific character and adds it a specific amount of times to the end of a string:
 
 ```codebyte/cpp
 #include <iostream>
