@@ -177,7 +177,7 @@ This example showcases the versatility of `Math.pow()` in scientific calculation
 
 ### 1. Can `Math.pow()` handle negative exponents?
 
-Yes, `Math.pow()` can handle negative exponents. A negative exponent represents the reciprocal of the positive exponent. For example, `Math.pow(2, -3)` returns 0.125, which is equivalent to 1/(2^3).
+Yes, `Math.pow()` can handle negative exponents. A negative exponent represents the reciprocal of the positive exponent. For example, `Math.pow(2, -3)` returns 0.125, which is equivalent to `1/(2^3)`.
 
 ### 2. What happens when I use fractional exponents with `Math.pow()`?
 
