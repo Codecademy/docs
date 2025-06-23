@@ -123,6 +123,8 @@ Final Amount: $1160.75
 Total Interest Earned: $160.75
 ```
 
+> **Note:** The output will vary based on the input values provided by the user, such as principal amount, interest rate, time period, and compounding frequency.
+
 This practical example demonstrates how `Math.pow()` is essential for financial calculations. The compound interest formula requires raising (1 + r/n) to the power of (n\*t), which is efficiently handled by the `Math.pow()` method.
 
 ## Example 3: Distance and Physics Calculations
