@@ -2,19 +2,19 @@
 Title: '.split()'
 Description: 'Returns a new array of substrings based on a given string.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'Strings'
+  - 'Formatting'
   - 'Functions'
   - 'Methods'
-  - 'Formatting'
+  - 'Strings'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.split()`** method returns a new [array](https://www.codecademy.com/resources/docs/javascript/arrays) of substrings based on a given string.
+In JavaScript, the **`.split()`** method returns a new [array](https://www.codecademy.com/resources/docs/javascript/arrays) of substrings based on a given string. This method is useful for parsing CSV data, processing user input, or breaking apart text for analysis.
 
 ## Syntax
 
@@ -22,52 +22,90 @@ The **`.split()`** method returns a new [array](https://www.codecademy.com/resou
 string.split(separator, limit);
 ```
 
-The `separator` (optional) describes the pattern where each split should occur. It may be one of the following:
+**Parameters:**
 
-- A string of one or more characters.
-- A [regular expression](https://www.codecademy.com/resources/docs/javascript/regexp).
+- `separator` (Optional): Describes the pattern where each split should occur.
+- `limit` (Optional): Determines the number of substring elements included in the returned array.
 
-If a `separator` is not provided, the returned array will contain the entire `string` as its lone element.
+**Return value:**
 
-The `limit` (also optional) determines the number of substring elements included in the returned array.
+The `.split()` method returns a new array of substrings based on a given string.
 
-## Example
+> **Note:** If `separator` is not provided, the returned array will contain the entire `string` as its lone element.
 
-The following example splits a string into an array of names:
+## Example 1: Using `.split()` Without `limit`
+
+This example uses the `.split()` method without the `limit` parameter to split the `stringOfNames` string into an array of names:
 
 ```js
 const stringOfNames = 'Dominic, Shelly, Luka, Devin';
 
 console.log('No limit:', stringOfNames.split(', '));
+```
+
+Here is the output:
+
+```shell
+No limit: [ 'Dominic', 'Shelly', 'Luka', 'Devin' ]
+```
+
+## Example 2: Using `.split()` with `limit`
+
+This example uses the `.split()` method with the `limit` parameter to split the `stringOfNames` string into an array of names limited to 3 elements:
+
+```js
+const stringOfNames = 'Dominic, Shelly, Luka, Devin';
 
 console.log('Limited to 3 elements:', stringOfNames.split(', ', 3));
 ```
 
-This will log the following output:
+Here is the output:
 
 ```shell
-No limit: [ 'Dominic', 'Shelly', 'Luka', 'Devin' ]
 Limited to 3 elements: [ 'Dominic', 'Shelly', 'Luka' ]
 ```
 
-## Codebyte Example
+## Codebyte Example: Using `.split()` Without Parameters
 
-The following example showcases the `.split()` in two ways:
-
-1. Not including a `separator` returns an `arrayOfNames` with the entire `stringOfNames` as the sole element.
-2. The `arrayOfNames` is reassigned with a `separator` and then traversed with `.split()` being invoked on each name.
+This example uses the `.split()` method without any parameters to split the `stringOfNames` string into an array of names in a string:
 
 ```codebyte/javascript
 const stringOfNames = 'Dominic, Shelly, Luka, Devin';
 
 let arrayOfNames = stringOfNames.split();
 
-console.log("No separator; entire string is lone element:\n", arrayOfNames, "\n");
+console.log(arrayOfNames);
+```
 
-arrayOfNames = stringOfNames.split(`, `);
+## Frequently Asked Questions
 
-// Iterate through arrayOfNames and .split() each name string into separate characters.
-for(let i = 0; i < arrayOfNames.length; i++) {
-  console.log(arrayOfNames[i].split(""));
-};
+### 1. Can I use regular expressions with `.split()`?
+
+Yes. Regular expressions can be used with `.split()` for more flexible and complex splitting logic:
+
+```js
+// Uses the separators '-' and '_'
+let substr = 'one-two_three'.split(/[-_]/);
+
+console.log(substr); // [ 'one', 'two', 'three' ]
+```
+
+### 2. What if the separator in `.split()` is an empty string?
+
+Splitting on an empty string using `.split()` breaks the string into an array of individual characters:
+
+```js
+let substr = 'ABC'.split('');
+
+console.log(substr); // [ 'A', 'B', 'C' ]
+```
+
+### 3. What happens with consecutive separators in `.split()`?
+
+Empty strings appear in the result if there are consecutive separators in `.split()`:
+
+```js
+let substr = 'a,,b'.split(',');
+
+console.log(substr); // [ 'a', '', 'b' ]
 ```
