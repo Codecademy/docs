@@ -77,7 +77,7 @@ This generates the following output:
 
 ![A gray box with dark border displaying text, demonstrating total width of 250px with visible padding and border spacing.](https://raw.githubusercontent.com/Codecademy/docs/main/media/box-model-output1.png)
 
-In this example, the total width calculation is: 200px (content) + 40px (left + right padding) + 10px (left + right border) = 250px. The margin adds additional 30px of spacing around the element but doesn't contribute to the element's rendered size. The background color fills the content and padding areas, while the border creates a visible boundary.
+In the above example, the total width calculation is: 200px (content) + 40px (left + right padding) + 10px (left + right border) = 250px. The margin adds an additional 30px of spacing around the element but doesn't contribute to the element's rendered size. The background color fills the content and padding areas, while the border creates a visible boundary.
 
 ## Example 2: Responsive Card Layout
 
