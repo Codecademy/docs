@@ -1,73 +1,294 @@
 ---
 Title: 'Arrays'
-Description: 'Like a vector, an array is a data structure used in C++ to store a sequential collection of elements.'
+Description: 'Stores multiple values of the same data type in contiguous memory locations.'
 Subjects:
   - 'Computer Science'
-  - 'Game Development'
+  - 'Web Development'
 Tags:
   - 'Arrays'
-  - 'Vectors'
+  - 'Data Structures'
+  - 'Memory'
+  - 'Variables'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-Like a vector, an **array** is a data structure used in C++ to store a sequential collection of elements. Unlike vectors, its size cannot be changed.
+An **array** is a data structure that stores multiple values of the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types) in contiguous memory locations. Arrays allow storing and accessing a collection of elements efficiently using a single variable name with indexed positions. Instead of declaring separate variables for each value, an array provides a way to manage multiple related values as a single entity.
 
-Being able to store multiple pieces of related information in the same structure is very useful when writing C++ programs.
+Arrays are particularly useful when dealing with collections of similar data, such as storing student grades, temperature readings, or inventory items. The size of an array must be known at compile time and cannot be changed during program execution.
 
-## Creating an Array
+## Create an Array
 
-When creating an array, two pieces of information have to be kept in mind:
+### Syntax
 
-- The type of data to be stored inside it.
-- How many items it should be able to hold (its size).
-
-An array can be created a lot like how normal variables are created: by specifying the data type, giving it a descriptive name, and also specifying its size:
-
-```cpp
-int favoriteNums[4];
+```pseudo
+dataType arrayName[arraySize];
 ```
 
-In the above code example, an array is created with a size of `4`, meaning it can hold four integers (all four elements will initially have the default `int` value of `0`).
+The syntax consists of the data type, followed by the array name, and the size enclosed in square brackets. The size must be a positive integer constant.
 
-In many cases, what data needs to go in the array will not be known until after it's created, but if the contents of the array are known ahead of time, it can be initialized with custom values upfront:
+### Example
 
-```cpp
-int favoriteNums[] = {7, 9, 15, 16};
-```
-
-This array would also have a size of `4`, but it does not need to be explicitly specified when initialized this way.
-
-> **Note:** Even if an array `arr` has a length of `n`, it can be accessed and modified with `arr[n+1]`, which can overwrite other variables or cause undefined behaviour.
-
-## Array Indices
-
-Like vectors, each element in an array is assigned a specific index starting at zero. To access or modify an element in the array it may be referred to by its index and operated on accordingly:
+This example creates three arrays: `numbers` can store 5 integers, `prices` can store 10 double values, and `letters` can store 26 characters.
 
 ```cpp
-char vowels[] = {'a', 'e', 'i', 'o', 'u'};
-//      indexes:  0    1    2    3    4
+#include <iostream>
+using namespace std;
 
-std::cout << vowels[0];
-// Output: a
+int main() {
+  // Create an array of integers
+  int numbers[5];
 
-vowels[0] = 'r';
+  // Create an array of doubles
+  double prices[10];
 
-std::cout << vowels[0];
-// Output: r
+  // Create an array of characters
+  char letters[26];
+
+  return 0;
+}
 ```
 
-In the case above, an array of `chars` was initialized with all the vowels, and then the first element in the array at index `0` was printed out. Then the element at index `0` was modified by being assigned a new value of `'r'`, which was then printed out.
+## Initialize Array with Values
 
-Arrays in C++ have a fixed size, meaning elements cannot be added or removed once the array has been created. Only existing elements may be modified without changing the total size or shape of the structure.
+### Syntax
 
-## Uninitialized Elements
+```pseudo
+dataType arrayName[arraySize] = {value1, value2, value3, ...};
+```
 
-Array elements that are not assigned a value when the array is created are known as uninitialized elements and should not be accessed during runtime. For example:
+Values are enclosed in curly braces and separated by commas. The number of values cannot exceed the array size but can be less.
+
+### Example
+
+In the following example, `scores` is fully initialized, `grades` has the first three elements set with the rest defaulting to 0, and `ages` automatically sizes to 5 elements.
 
 ```cpp
-int arr[5] = {0, 1, 2};
+#include <iostream>
+using namespace std;
+
+int main() {
+  // Initialize array with specific values
+  int scores[5] = {85, 92, 78, 96, 88};
+
+  // Initialize with fewer values (remaining filled with 0)
+  int grades[6] = {90, 85, 77};
+
+  // Let compiler determine size
+  int ages[] = {25, 30, 35, 28, 33};
+
+  return 0;
+}
 ```
 
-This code initializes an array of five integers in which index `3` and `4` are empty and should not be accessed during the program's runtime.
+## Access Array Elements
+
+Array elements are accessed using the **subscript operator** `[]` with an index number. Array indexing starts at 0, meaning the first element is at index 0, the second at index 1, and so on.
+
+### Example
+
+The following code initializes an array of five integers and prints the first, third, and last elements:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  int numbers[5] = {10, 20, 30, 40, 50};
+
+  // Access and print array elements
+  cout << "First element: " << numbers[0] << endl;
+  cout << "Third element: " << numbers[2] << endl;
+  cout << "Last element: " << numbers[4] << endl;
+
+  return 0;
+}
+```
+
+The output of the above code will be:
+
+```shell
+First element: 10
+Third element: 30
+Last element: 50
+```
+
+## Update Array Elements
+
+Array elements can be modified by assigning new values to specific indices using the assignment operator.
+
+### Example
+
+The following code initializes an array of five integers, prints the original array, updates specific elements, and then prints the updated array:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  int numbers[5] = {10, 20, 30, 40, 50};
+
+  cout << "Original array: ";
+  for (int i = 0; i < 5; i++) {
+    cout << numbers[i] << " ";
+  }
+  cout << endl;
+
+  // Update specific elements
+  numbers[0] = 15;
+  numbers[2] = 35;
+  numbers[4] = 55;
+
+  cout << "Updated array: ";
+  for (int i = 0; i < 5; i++) {
+    cout << numbers[i] << " ";
+  }
+  cout << endl;
+
+  return 0;
+}
+```
+
+The output of the above code will be:
+
+```shell
+Original array: 10 20 30 40 50
+Updated array: 15 20 35 40 55
+```
+
+## Example 1: Student Grade Calculator
+
+The following code initializes an array of student grades, calculates their total and average, and prints the results:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  // Create and initialize array of student grades
+  double grades[6] = {88.5, 92.0, 76.5, 85.0, 91.5, 89.0};
+  double sum = 0.0;
+
+  cout << "Student Grades: ";
+
+  // Display grades and calculate sum
+  for (int i = 0; i < 6; i++) {
+    cout << grades[i] << " ";
+    sum += grades[i];
+  }
+
+  double average = sum / 6;
+
+  cout << endl;
+  cout << "Total: " << sum << endl;
+  cout << "Average: " << average << endl;
+
+  return 0;
+}
+```
+
+The output of the above example will be:
+
+```shell
+Student Grades: 88.5 92 76.5 85 91.5 89
+Total: 522.5
+Average: 87.0833
+```
+
+## Example 2: Interactive Array Management
+
+The following code takes 5 integers from the user, doubles every second element in the array, displays the original and updated arrays, and finds and prints the maximum value along with its index:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  const int SIZE = 5;
+  int numbers[SIZE];
+
+  // Input values from user
+  cout << "Enter " << SIZE << " integers:" << endl;
+  for (int i = 0; i < SIZE; i++) {
+    cout << "Element " << (i + 1) << ": ";
+    cin >> numbers[i];
+  }
+
+  // Display original array
+  cout << "\nOriginal array: ";
+  for (int i = 0; i < SIZE; i++) {
+    cout << numbers[i] << " ";
+  }
+  cout << endl;
+
+  // Update every second element
+  cout << "\nUpdating every second element..." << endl;
+  for (int i = 1; i < SIZE; i += 2) {
+    numbers[i] = numbers[i] * 2;
+  }
+
+  // Display updated array
+  cout << "Updated array: ";
+  for (int i = 0; i < SIZE; i++) {
+    cout << numbers[i] << " ";
+  }
+  cout << endl;
+
+  // Find maximum value
+  int max = numbers[0];
+  int maxIndex = 0;
+  for (int i = 1; i < SIZE; i++) {
+    if (numbers[i] > max) {
+      max = numbers[i];
+      maxIndex = i;
+    }
+  }
+
+  cout << "\nMaximum value: " << max << " at index " << maxIndex << endl;
+
+  return 0;
+}
+```
+
+The output of the above code will be:
+
+```shell
+Enter 5 integers:
+Element 1: 1
+Element 2: 2
+Element 3: 5
+Element 4: 5
+Element 5: 2
+
+Original array: 1 2 5 5 2
+
+Updating every second element...
+Updated array: 1 4 5 10 2
+
+Maximum value: 10 at index 3
+```
+
+> **Note:** The output of this program will vary depending on the user’s input values.
+
+## Frequently Asked Questions
+
+### 1. Can array size be changed after declaration?
+
+No, the size of an array is fixed at compile time and cannot be modified during program execution. If dynamic sizing is needed, consider using `std::vector` instead.
+
+### 2. What happens if I access an array element beyond its bounds?
+
+Accessing elements outside the valid index range (0 to size-1) leads to **undefined behavior**, which can cause program crashes or unpredictable results. Always ensure indices are within valid bounds.
+
+### 3. How to find the length of an array?
+
+Use the `sizeof` operator: `int length = sizeof(array) / sizeof(array[0]);`. This only works for statically declared arrays, not for arrays passed as function parameters.
+
+### 4. Can arrays store different data types?
+
+No, all elements in an array must be of the same data type. To store different types, consider using structures, classes, or `std::variant` (C++17).
+
+### 5. How are array elements stored in memory?
+
+Array elements are stored in contiguous memory locations, with each element directly adjacent to the next. This provides efficient memory access and enables pointer arithmetic.
