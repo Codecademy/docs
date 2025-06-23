@@ -30,7 +30,7 @@ The box model can be controlled through various CSS properties:
 
 **Return value:**
 
-The box model calculation returns the total rendered size of an element, which includes all four components when using the default `content-box` sizing model.
+The box model doesn't return a value, as it's not a function — instead, it defines how an element's total size is calculated based on its content, padding, border, and margin.
 
 ## Example 1: Basic Box Model Implementation
 
