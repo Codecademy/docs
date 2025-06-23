@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.pow()`** method in Java is a static method that calculates the value of a base number raised to the power of an exponent. It performs exponentiation operations by taking two double parameters and returning the result as a double value. This method is part of the `java.lang.Math` class and provides a convenient way to compute mathematical powers without manually implementing multiplication loops.
+The **`Math.pow()`** method in Java is a static method that calculates the value of a base number raised to the power of an exponent. It performs exponentiation operations by taking two double parameters and returning the result as a double value. This method is part of the [`java.lang.Math`](https://www.codecademy.com/resources/docs/java/math-methods) class and provides a convenient way to compute mathematical powers without manually implementing multiplication loops.
 
 The `Math.pow()` method is widely used in mathematical computations, scientific calculations, financial modeling, geometric calculations, and algorithmic problems. It's particularly useful in scenarios involving compound interest calculations, area and volume computations, statistical analysis, and any application requiring exponential growth or decay calculations.
 
