@@ -81,7 +81,7 @@ In this example, the total width calculation is: 200px (content) + 40px (left + 
 
 ## Example 2: Responsive Card Layout
 
-This example shows how the box model applies to real-world responsive card components commonly used in modern web design.
+The following example shows how the box model applies to real-world responsive card components commonly used in modern web design:
 
 ```css
 .card {
