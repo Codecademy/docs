@@ -4,15 +4,11 @@ Description: 'Creates a new array filled with zeros.'
 Subjects:
   - 'AI'
   - 'Computer Science'
-  - 'Data Science'
-  - 'Data Visualization'
-  - 'Machine Learning'
 Tags:
   - 'AI'
   - 'Data Structures'
   - 'Linear Algebra'
   - 'NumPy'
-  - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -31,6 +27,10 @@ numpy.zeros(shape, dtype=float, order='C')
 - `shape`: An integer or tuple of integers indicating the dimensions of the array. For example, `(3, 2)` creates a 2D array with 3 rows and 2 columns.
 - `dtype`: The desired data type for the array elements (default is `float`).
 - `order`: Whether to store the array in row-major (`'C'`, default) or column-major (`'F'`) order.
+
+**Return value:**
+
+Returns a new array of the given shape, filled entirely with zeros.
 
 ## Example
 
@@ -57,7 +57,7 @@ The output of this code will be:
 
 ## Codebyte Example: Initializing a Sensor Readings Matrix
 
-In this example, we use `.zeros()` to initialize a 2D array to store temperature sensor readings for 7 days across 3 different locations:
+In this codebyte example, `.zeros()` is used to initialize a 2D array to store temperature sensor readings for 7 days across 3 different locations:
 
 ```codebyte/python
 import numpy as np
