@@ -160,7 +160,7 @@ This card example showcases practical box model usage where the padding creates 
 
 ## Example 3: Box-Sizing Property Control
 
-This example illustrates the difference between `content-box` and `border-box` sizing models and their practical applications.
+The following example illustrates the difference between `content-box` and `border-box` sizing models and their practical applications:
 
 ```css
 .container {
