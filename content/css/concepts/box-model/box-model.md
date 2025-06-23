@@ -258,7 +258,7 @@ The `content-box` element has a total width of 250px because padding and border 
 
 ### 1. What's the difference between padding and margin?
 
-Padding is space inside an element between content and border. Margin is space outside the border that separates elements.
+Padding is the space inside an element between content and the border. A margin is the space outside the border that separates elements.
 
 ### 2. Why do my element widths seem larger than expected?
 
