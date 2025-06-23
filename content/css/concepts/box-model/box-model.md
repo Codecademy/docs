@@ -34,7 +34,7 @@ The box model doesn't return a value, as it's not a function — instead, it def
 
 ## Example 1: Basic Box Model Implementation
 
-This example demonstrates the fundamental structure of the CSS box model with visible borders and spacing.
+The following example demonstrates the fundamental structure of the CSS box model with visible borders and spacing:
 
 ```css
 .box-example {
