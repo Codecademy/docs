@@ -119,8 +119,8 @@ Enter compound frequency per year: 4
 
 Compound Interest Calculation:
 Principal Amount: $1000.00
-Final Amount: $1161.62
-Total Interest Earned: $161.62
+Final Amount: $1160.75
+Total Interest Earned: $160.75
 ```
 
 This practical example demonstrates how `Math.pow()` is essential for financial calculations. The compound interest formula requires raising (1 + r/n) to the power of (n\*t), which is efficiently handled by the `Math.pow()` method.
