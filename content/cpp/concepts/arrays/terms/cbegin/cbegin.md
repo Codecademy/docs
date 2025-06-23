@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`.cbegin()`** is a member function of C++ containers (like `vector`, `list`, `map`, etc.) that returns a constant iterator to the first element of the container. This iterator cannot be used to modify the element it points to. It's commonly used when read-only access to the container’s elements is desired.
+**`.cbegin()`** is a member [function](https://www.codecademy.com/resources/docs/cpp/functions) of C++ containers (like [`vector`](https://www.codecademy.com/resources/docs/cpp/vectors), [`list`](https://www.codecademy.com/resources/docs/cpp/list), [`map`](https://www.codecademy.com/resources/docs/cpp/maps), etc.) that returns a constant iterator to the first element of the container. This iterator cannot be used to modify the element it points to. It's commonly used when read-only access to the container’s elements is desired.
 
 `.cbegin()` is typically used when iterating over a container without modifying its elements. It enforces const-correctness and is a safer choice when the container is `const` or when preventing accidental modification is desired.
 
@@ -25,13 +25,13 @@ container.cbegin();
 
 **Parameters:**
 
-- The `.cbegin()` does not take any parameters.
+The `.cbegin()` function does not take any parameters.
 
 **Return value:**
 
-- Returns a constant iterator pointing to the first element of the container.
+Returns a constant iterator that refers to the first element of the container.
 
-## Difference Between `.begin()` and `.cbegin()`
+## Differences Between `.begin()` and `.cbegin()`
 
 | Feature         | `.begin()`                               | `.cbegin()`                            |
 | --------------- | ---------------------------------------- | -------------------------------------- |
@@ -42,7 +42,7 @@ container.cbegin();
 
 ## Example
 
-In this example, `.cbegin()` returns a constant iterator pointing to the first element of the array, ensuring that the value cannot be modified through the iterator:
+In this example, `.cbegin()` returns a constant iterator that refers to the first element of the array, ensuring that the value cannot be modified through the iterator:
 
 ```cpp
 #include <iostream>
@@ -51,7 +51,7 @@ In this example, `.cbegin()` returns a constant iterator pointing to the first e
 int main() {
   std::array<int, 5> nums = {10, 20, 30, 40, 50};
 
-  // Using cbegin to get a constant iterator to the beginning
+  // Using .cbegin() to get a constant iterator to the beginning
   std::array<int, 5>::const_iterator it = nums.cbegin();
 
   std::cout << "First element: " << *it << std::endl;
@@ -68,7 +68,7 @@ First element: 10
 
 ## Codebyte Example
 
-In this example, `.cbegin()` is used to iterate over a vector in read-only mode, preventing accidental modification of its elements:
+In this codebyte example, `.cbegin()` is used to iterate over a vector in read-only mode, preventing accidental modification of its elements:
 
 ```codebyte/cpp
 #include <iostream>
@@ -77,7 +77,7 @@ In this example, `.cbegin()` is used to iterate over a vector in read-only mode,
 int main() {
   std::vector<int> numbers = {1, 2, 3, 4, 5};
 
-  // Using cbegin to get a const iterator to the beginning
+  // Using .cbegin() to get a const iterator to the beginning
   for (auto it = numbers.cbegin(); it != numbers.cend(); ++it) {
     std::cout << *it << ' ';
     // *it = 10; // Error: can't modify element through const_iterator
