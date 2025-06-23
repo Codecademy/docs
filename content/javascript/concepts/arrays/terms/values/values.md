@@ -1,19 +1,19 @@
 ---
 Title: '.values()'
-Description: 'Returns a new Array iterator object that contains the values of each element in the array.'
+Description: 'Returns a new array iterator object that contains the values of each element in the array.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
   - 'Arrays'
-  - 'Methods'
   - 'JavaScript'
+  - 'Methods'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.values()`** method returns a new array [iterator](https://www.codecademy.com/resources/docs/javascript/iterators) object that contains the values of each element in the array. This method enables explicit iteration using a `for...of` loop or the iterator's `.next()` method.
+In JavaScript, the **`.values()`** method returns a new array [iterator](https://www.codecademy.com/resources/docs/javascript/iterators) object containing the values of each element in the array. This method enables explicit iteration using a `for...of` loop or the iterator's `.next()` method.
 
 > **Note:** The iterable returned by `.values()` is _not reusable_. Once it has been fully consumed (i.e., all elements have been iterated over), it becomes exhausted. To iterate again, a new iterator must be created by calling `.values()` again on the array.
 
@@ -29,11 +29,11 @@ The `.values()` method does not take any parameters.
 
 **Return value:**
 
-Returns a new array iterator object that contains the values of each index in the array, in order.
+Returns a new array iterator object containing the values of each index in the array, in order.
 
-## Example 1: Using a `for...of` loop
+## Example 1: Using a `for...of` Loop
 
-The following example uses a `for...of` loop to iterate over the iterable object returned by `.values()` and prints the values:
+This example uses a `for...of` loop to iterate over the iterable object returned by `.values()` and prints the values:
 
 ```js
 const fruits = ['apple', 'banana', 'orange'];
@@ -44,7 +44,7 @@ for (const value of iterator) {
 }
 ```
 
-This will produce the following output:
+The code will produce this output:
 
 ```shell
 apple
@@ -52,9 +52,9 @@ banana
 orange
 ```
 
-## Example 2: Using the iterator's `.next()` method
+## Example 2: Using the Iterator's `.next()` Method
 
-The following example uses the `.next()` method to manually iterate through the values ​​and print them to the console:
+This example uses the `.next()` method to manually iterate through the values ​​and print them to the console:
 
 ```js
 const numbers = [2, 4, 6, 8];
@@ -67,7 +67,7 @@ console.log(iterator.next().value);
 console.log(iterator.next().value);
 ```
 
-This will produce the following output:
+The code will produce this output:
 
 ```shell
 2
@@ -86,9 +86,9 @@ The last `console.log()` prints `undefined` because there are no more values ​
 
 ## Codebyte Example
 
-In the example below, the `.values()` method returns an iterator for the `fruits` array. The iterator is used to access each element until the iteration is done:
+In this codebyte example, the `.values()` method returns an iterator for the `fruits` array. The iterator is used to access each element until the iteration is done:
 
-```codebyte/js
+```codebyte/javascript
 const fruits = ['apple', 'banana', 'orange'];
 const iterator = fruits.values();
 
