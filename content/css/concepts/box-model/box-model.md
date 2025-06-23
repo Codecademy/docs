@@ -15,7 +15,7 @@ CatalogContent:
 
 The **box model** is a fundamental concept in CSS that defines how element dimensions and spacing are calculated on a webpage. It treats every HTML element as a rectangular box consisting of four distinct areas: content, padding, border, and margin. Understanding the box model is essential for creating precise layouts, controlling element spacing, and achieving consistent visual designs across different browsers.
 
-The box model provides a standardized approach to calculating the total space an element occupies on a page. It is used extensively in responsive web design, grid layouts, flexbox implementations, and any scenario where precise control over element dimensions and positioning is required. Web developers rely on the box model to create complex layouts, maintain visual consistency, and ensure elements display correctly across various screen sizes and devices.
+The box model provides a standardized approach to calculating an element's total space on a page. It is used extensively in responsive web design, grid layouts, flexbox implementations, and any scenario where precise control over element dimensions and positioning is required. Web developers rely on the box model to create complex layouts, maintain visual consistency, and ensure elements display correctly across various screen sizes and devices.
 
 ![An image showing the how box model defines the element dimensions](https://raw.githubusercontent.com/Codecademy/docs/main/media/box-model.png)
 
