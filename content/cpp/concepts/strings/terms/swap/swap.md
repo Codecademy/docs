@@ -18,7 +18,7 @@ The **`.swap()`** method for strings is used to exchange the contents of two str
 ## Syntax
 
 ```pseudo
-string1.swap(string2)
+string1.swap(string2);
 ```
 
 The `string1` and `string2` contents are swapped after using this method i.e. `string1` contains the content stored in `string2` and `string2` contains the content stored in `string1` after the swap.
