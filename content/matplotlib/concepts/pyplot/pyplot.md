@@ -135,4 +135,4 @@ Use `plt.savefig('filename.png')` before `plt.show()`. You can save in various f
 
 ### 5. Is pyplot suitable for complex, multi-panel figures?
 
-While pyplot can handle complex figures, the object-oriented matplotlib API is recommended for complex, multi-panel figures as it provides more control and is easier to manage programmatically.
+While pyplot can handle complex figures, the object-oriented matplotlib API is recommended for complex, multi-panel figures as it provides more control and is easier to manage programmatically. See [Matplotlib Application Interfaces (APIs)](https://matplotlib.org/stable/users/explain/figure/api_interfaces.html).
