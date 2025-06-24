@@ -51,10 +51,10 @@ ADD CONSTRAINT constraint_name PRIMARY KEY (column_name);
 
 **Parameters:**
 
-- `table_name`: The name of the table where the PRIMARY KEY constraint will be applied
+- `table_name`: The name of the table where the `PRIMARY KEY` constraint will be applied
 - `column_name`: The column or columns that will form the primary key
 - `data_type`: The data type of the primary key column(s)
-- `constraint_name`: Optional name for the PRIMARY KEY constraint (recommended for easier management)
+- `constraint_name`: Optional name for the `PRIMARY KEY` constraint (recommended for easier management)
 
 **Return value:**
 
