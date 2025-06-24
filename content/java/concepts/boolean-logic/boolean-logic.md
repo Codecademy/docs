@@ -229,7 +229,7 @@ No, unlike some programming languages, Java boolean variables can only be assign
 
 ### 2. What is the default value of a boolean variable?
 
-For instance variables and static variables, the default value is `false`. However, local variables must be explicitly initialized before use, as they do not have default values.
+For instance, for variables and static variables, the default value is `false`. However, local variables must be explicitly initialized before use, as they do not have default values.
 
 ### 3. Can boolean values be used in arithmetic operations?
 
