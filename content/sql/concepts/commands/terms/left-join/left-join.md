@@ -21,7 +21,7 @@ The GIF here showcases the behaviour of a `LEFT JOIN`:
 
 ![LEFT JOIN GIF](https://content.codecademy.com/courses/learn-sql/multiple-tables/left-join.gif)
 
-`LEFT JOIN` is particularly valuable in scenarios where you need to preserve all records from a primary table while optionally including related information from secondary tables. Common use cases include generating reports with optional data, displaying user profiles with optional contact information, analyzing sales data with optional customer details, and creating comprehensive datasets where missing relationships should not exclude primary records.
+`LEFT JOIN` is particularly valuable in scenarios where all records from a primary table need to be preserved while optionally including related information from secondary tables. Common use cases include generating reports with optional data, displaying user profiles with optional contact information, analyzing sales data with optional customer details, and creating comprehensive datasets where missing relationships should not exclude primary records.
 
 ## Syntax
 
