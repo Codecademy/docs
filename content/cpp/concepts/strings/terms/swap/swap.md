@@ -21,7 +21,7 @@ The **`.swap()`** method for strings is used to exchange the contents of two str
 string1.swap(string2);
 ```
 
-The `string1` and `string2` contents are swapped after using this method i.e. `string1` contains the content stored in `string2` and `string2` contains the content stored in `string1` after the swap.
+After calling the `.swap()` method, the contents of `string1` and `string2` are exchanged: `string1` now holds the original contents of `string2`, and `string2` holds the original contents of `string1`.
 
 ## Codebyte Example
 
