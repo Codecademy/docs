@@ -137,7 +137,7 @@ Password valid: true
 Login successful! Welcome to the system.
 ```
 
->**Note:** The output will vary depending on the username and password entered by the user during execution.
+> **Note:** The output will vary depending on the username and password entered by the user during execution.
 
 This example illustrates how booleans are used in authentication systems to validate user input and control access. The logical AND operator (`&&`) ensures that both conditions must be true for a successful login.
 
