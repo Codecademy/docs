@@ -100,7 +100,7 @@ The output produced by this code is:
 | 4           | David Wilson   | Houston     | NULL     | NULL       | NULL          |
 ```
 
-This query returns all customers from the customers table, along with their order information where available. Customer David Wilson appears in the results with `NULL` values for order details since he has not placed any orders, demonstrating how `LEFT JOIN` preserves all records from the left table.
+This query returns all customers from the customers table, along with their order information where available. Customer "David Wilson" appears in the results with `NULL` values for order details since he has not placed any orders, demonstrating how `LEFT JOIN` preserves all records from the left table.
 
 ## Example 2: Employee Department Analysis
 
