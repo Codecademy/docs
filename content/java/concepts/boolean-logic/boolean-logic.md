@@ -216,7 +216,7 @@ Promo Discount: false
 
 Total Discount: 15.0%
 Discount Amount: $18.08
-Final Amount: $102.42
+Final Amount: $102.43
 ```
 
 This example demonstrates how booleans are used in business logic to evaluate multiple conditions and determine eligibility for various discounts. The boolean variables make the code readable and maintainable while handling complex business rules.
