@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **boolean** data type is one of the eight primitive data types in Java and is used to represent logical values. A boolean variable can hold only two possible values: `true` or `false`. It is commonly used to represent binary states such as on/off, yes/no, or enabled/disabled.
+The **boolean** data type is one of the eight primitive [data types](https://www.codecademy.com/resources/docs/java/data-types) in Java and is used to represent logical values. A boolean variable can hold only two possible values: `true` or `false`. It is commonly used to represent binary states such as on/off, yes/no, or enabled/disabled.
 
 Building on this, **boolean logic** in Java refers to the use of boolean values in combination with logical operators like `&&` (AND), `||` (OR), and `!` (NOT) to evaluate conditions and control program behavior. This logic forms the backbone of decision-making in programming—guiding how a program responds to different inputs or situations. Boolean logic is widely used in conditional statements, loops, and validations, with practical applications such as form validation, user authentication, feature toggles, and game state control.
 
