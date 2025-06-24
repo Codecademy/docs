@@ -169,11 +169,11 @@ Adding a `PRIMARY KEY` constraint to an existing table requires that all existin
 
 ### 1. Can a table have multiple primary keys?
 
-No, a table can have only one `PRIMARY KEY` constraint. However, that single primary key can consist of multiple columns (composite primary key). If you need additional unique constraints, use UNIQUE constraints instead.
+No, a table can have only one `PRIMARY KEY` constraint. However, that single primary key can consist of multiple columns (composite primary key). If you need additional unique constraints, use `UNIQUE` constraints instead.
 
 ### 2. What happens if I try to insert NULL values into a primary key column?
 
-The database will reject the insertion with an error. `PRIMARY KEY` columns automatically have the NOT NULL constraint, so they cannot contain NULL values under any circumstances.
+The database will reject the insertion with an error. `PRIMARY KEY` columns automatically have the `NOT NULL` constraint, so they cannot contain `NULL` values under any circumstances.
 
 ### 3. What's the difference between `PRIMARY KEY` and `UNIQUE` constraints?
 
