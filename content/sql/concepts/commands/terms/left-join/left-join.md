@@ -40,7 +40,7 @@ LEFT JOIN table2 ON table1.column_name = table2.column_name;
 
 **Return value:**
 
-The LEFT JOIN returns a result set that includes all rows from the left table, with matching data from the right table where available, and `NULL` values for right table columns where no match exists.
+The `LEFT JOIN` returns a result set that includes all rows from the left table, with matching data from the right table where available, and `NULL` values for right table columns where no match exists.
 
 ## Example 1: Basic `LEFT JOIN` Example
 
