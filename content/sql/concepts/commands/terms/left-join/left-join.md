@@ -161,7 +161,7 @@ The output of this code will be:
 | 5      | Tom Brown    | 45000.00 | NULL        | NULL           |
 ```
 
-This query demonstrates how `LEFT JOIN` handles employees who may not be assigned to any department. Employee Tom Brown appears in the results with `NULL` values for department information, which is crucial for HR analysis to identify unassigned employees.
+This query demonstrates how `LEFT JOIN` handles employees who may not be assigned to any department. Employee "Tom Brown" appears in the results with `NULL` values for department information, which is crucial for HR analysis to identify unassigned employees.
 
 ## Example 3: Product Sales Report
 
