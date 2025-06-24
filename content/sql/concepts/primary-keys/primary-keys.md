@@ -58,7 +58,7 @@ ADD CONSTRAINT constraint_name PRIMARY KEY (column_name);
 
 **Return value:**
 
-The PRIMARY KEY constraint itself does not return a value. However, it enforces uniqueness and creates an automatic index that improves query performance when searching by the primary key column(s).
+The `PRIMARY KEY` constraint itself does not return a value. However, it enforces uniqueness and creates an automatic index that improves query performance when searching by the primary key column(s).
 
 ## Example 1: Basic Table Creation
 
