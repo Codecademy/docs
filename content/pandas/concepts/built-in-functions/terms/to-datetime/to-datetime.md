@@ -146,7 +146,7 @@ This example demonstrates handling real-world financial data where dates might b
 
 ## Codebyte Example: Sensor Data Time Series Analysis
 
-This example processes sensor data with Unix timestamps and demonstrates creating a time series index for scientific data analysis:
+The following example processes sensor data with Unix timestamps and demonstrates creating a time series index for scientific data analysis:
 
 ```codebyte/python
 import pandas as pd
