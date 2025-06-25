@@ -93,7 +93,7 @@ This example shows how `.to_datetime()` automatically recognizes standard date f
 
 ## Example 2: Financial Data Processing
 
-This example shows how to process financial data with mixed date formats and handle missing values, a common scenario in real-world datasets:
+The following example shows how to process financial data with mixed date formats and handle missing values, a common scenario in real-world datasets:
 
 ```py
 import pandas as pd
