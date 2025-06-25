@@ -1,6 +1,6 @@
 ---
 Title: 'Cloud Storage'
-Description: 'Cloud storage provides on-demand storage services over the internet, eliminating the need for physical storage infrastructure.'
+Description: 'A service that allows users to store and access data remotely over the internet.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
