@@ -4,7 +4,6 @@ Description: 'Cloud storage provides on-demand storage services over the interne
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Information Technology'
 Tags:
   - 'Cloud Computing'
   - 'Storage'
