@@ -45,9 +45,9 @@ pandas.to_datetime(arg, errors='raise', dayfirst=False, yearfirst=False,
 The function returns datetime-like objects depending on input type:
 
 - **Scalar input**: Returns pandas Timestamp
-- **Array-like input**: Returns DatetimeIndex
-- **Series input**: Returns Series with datetime64[ns] dtype
-- **DataFrame input**: Returns Series with datetime64[ns] dtype from assembled columns
+- **Array-like input**: Returns `DatetimeIndex`
+- **Series input**: Returns Series with `datetime64[ns]` dtype
+- **`DataFrame` input**: Returns Series with `datetime64[ns]` dtype from assembled columns
 
 ## Example 1: Basic String Conversion Using `.to_datetime()`
 
