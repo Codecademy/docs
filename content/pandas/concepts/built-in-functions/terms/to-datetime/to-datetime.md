@@ -28,11 +28,11 @@ pandas.to_datetime(arg, errors='raise', dayfirst=False, yearfirst=False,
 
 **Parameters:**
 
-- `arg`: The object to convert to datetime. Can be scalar, array-like, Series, or DataFrame/dict-like
+- `arg`: The object to convert to `datetime`. Can be scalar, array-like, Series, or `DataFrame`/dict-like
 - `errors`: How to handle parsing errors - 'raise' (default), 'coerce', or 'ignore'
 - `dayfirst`: Boolean, if True parses dates with day first (e.g., "31/12/2023" as Dec 31)
 - `yearfirst`: Boolean, if True parses dates with year first when ambiguous
-- `utc`: Boolean, if True returns UTC DatetimeIndex
+- `utc`: Boolean, if True returns UTC `DatetimeIndex`
 - `format`: String format to parse the datetime (e.g., '%Y-%m-%d')
 - `exact`: Boolean, if True requires exact format match
 - `unit`: Unit for numeric timestamps ('D', 's', 'ms', 'us', 'ns')
