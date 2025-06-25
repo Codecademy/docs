@@ -51,7 +51,7 @@ The function returns datetime-like objects depending on input type:
 
 ## Example 1: Basic String Conversion Using `.to_datetime()`
 
-This example demonstrates the fundamental usage of `.to_datetime()` for converting date strings into pandas datetime objects:
+The following example demonstrates the fundamental usage of `.to_datetime()` for converting date strings into pandas `datetime` objects:
 
 ```py
 import pandas as pd
