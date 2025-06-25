@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.to_datetime()`** function in Pandas transforms various date and time representations into standardized pandas datetime objects. It serves as the primary mechanism for converting strings, integers, lists, Series, or DataFrames containing date-like information into `datetime64` objects that can be used for time series analysis and date arithmetic operations.
+The **`.to_datetime()`** function in Pandas transforms various date and time representations into standardized pandas datetime objects. It serves as the primary mechanism for converting strings, integers, lists, Series, or [DataFrames](https://www.codecademy.com/resources/docs/pandas/dataframe) containing date-like information into `datetime64` objects that can be used for time series analysis and date arithmetic operations.
 
-This function is essential in data preprocessing workflows where raw data contains dates in multiple formats, making it difficult to perform temporal analysis. Common use cases include converting CSV file date columns from strings to datetime objects, standardizing mixed date formats within datasets, handling Unix timestamps from APIs, parsing dates with different regional formats, and creating time series indexes for financial or scientific data analysis. The function provides robust error handling and format inference capabilities, making it indispensable for real-world data cleaning scenarios.
+This function is essential in data preprocessing workflows where raw data contains dates in multiple formats, making temporal analysis difficult. Common use cases include converting CSV file date columns from strings to datetime objects, standardizing mixed date formats within datasets, handling Unix timestamps from APIs, parsing dates with different regional formats, and creating time series indexes for financial or scientific data analysis. The function provides robust error handling and format inference capabilities, making it indispensable for real-world data cleaning scenarios.
 
 ## Syntax
 
