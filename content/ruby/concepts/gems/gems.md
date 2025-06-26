@@ -16,7 +16,7 @@ CatalogContent:
 
 **Ruby gems** are packaged libraries of Ruby code that extend or modify functionality in Ruby applications. A gem contains Ruby code, documentation, and metadata bundled together for easy distribution and installation. Gems serve as the building blocks of the Ruby ecosystem, allowing developers to share reusable code and avoid reinventing common functionality.
 
-Ruby gems function through the RubyGems package management system, included with Ruby since version 1.9. When installed, RubyGems downloads the packaged code, resolves dependencies, builds extensions if needed, and generates documentation. The system maintains a central repository at rubygems.org with thousands of publicly available gems.
+Ruby gems function through the RubyGems package management system, which has been included with Ruby since version 1.9. When installed, RubyGems downloads the packaged code, resolves dependencies, builds extensions if needed, and generates documentation. The system maintains a central repository at rubygems.org with thousands of publicly available gems.
 
 ## Use Cases of Ruby Gems
 
