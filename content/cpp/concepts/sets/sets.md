@@ -3,7 +3,7 @@ Title: 'Sets'
 Description: 'Stores unique elements in sorted order with efficient insertion, deletion, and search operations.'
 Subjects:
   - 'Computer Science'
-  - 'Web Development'
+  - 'Game Development'
 Tags:
   - 'Algorithms'
   - 'Containers'
