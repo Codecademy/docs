@@ -143,7 +143,7 @@ end
 EmailWorker.perform_async(user.id, 'welcome')
 ```
 
-Sidekiq enables asynchronous job processing, allowing time-consuming tasks like sending emails to run in the background without blocking the main application.
+`Sidekiq` enables asynchronous job processing, allowing time-consuming tasks like sending emails to run in the background without blocking the main application.
 
 ## Frequently Asked Questions
 
