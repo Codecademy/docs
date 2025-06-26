@@ -312,7 +312,7 @@ By default, elements are stored in ascending order using the less-than operator.
 
 ### 3. What is the time complexity of set operations?
 
-Most set operations (insert, delete, find) have O(log n) time complexity due to the underlying balanced binary search tree implementation.
+Most set operations (insert, delete, find) have `O(log n)` time complexity due to the underlying balanced binary search tree implementation.
 
 ### 4. Can I store custom objects in a set?
 
