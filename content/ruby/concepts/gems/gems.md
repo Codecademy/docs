@@ -67,18 +67,25 @@ Several gems have become essential tools in the Ruby ecosystem due to their reli
 
 This example demonstrates parsing and generating JSON data using the built-in `json` gem:
 
-```ruby
+```rb
 require 'json'
 
 # Parse JSON string into Ruby hash
 json_string = '{"name": "Alice", "age": 30, "city": "New York"}'
 user_data = JSON.parse(json_string)
-puts user_data["name"]  # Output: Alice
+puts user_data["name"]
 
 # Convert Ruby hash to JSON string
 user_hash = { name: "Bob", age: 25, hobbies: ["reading", "coding"] }
 json_output = JSON.generate(user_hash)
-puts json_output  # Output: {"name":"Bob","age":25,"hobbies":["reading","coding"]}
+puts json_output
+```
+
+The output of the above code will be:
+
+```shell
+Alice
+{"name":"Bob","age":25,"hobbies":["reading","coding"]}
 ```
 
 This example shows how the `json` gem simplifies JSON data handling, automatically converting between Ruby objects and JSON strings.
@@ -87,7 +94,7 @@ This example shows how the `json` gem simplifies JSON data handling, automatical
 
 This example shows making HTTP requests using the `rest-client` gem:
 
-```ruby
+```rb
 require 'rest-client'
 require 'json'
 
@@ -113,13 +120,20 @@ created_post = JSON.parse(response.body)
 puts "Created post ID: #{created_post['id']}"
 ```
 
+The above code will result in the following output:
+
+```shell
+Post title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+Created post ID: 101
+```
+
 The `rest-client` gem provides a simple interface for HTTP requests, handling different methods, headers, and responses automatically.
 
 ## Example 3: Background Jobs with Sidekiq
 
 This example demonstrates setting up background job processing using the `sidekiq` gem:
 
-```ruby
+```rb
 # Gemfile
 gem 'sidekiq'
 
@@ -139,11 +153,12 @@ class EmailWorker
   end
 end
 
-# In your application code
 EmailWorker.perform_async(user.id, 'welcome')
 ```
 
-`Sidekiq` enables asynchronous job processing, allowing time-consuming tasks like sending emails to run in the background without blocking the main application.
+`sidekiq` enables asynchronous job processing, allowing time-consuming tasks like sending emails to run in the background without blocking the main application.
+
+> **Note:** To run this program, a Rails app with Redis, Sidekiq, a User model, and a mailer is required.
 
 ## Frequently Asked Questions
 
