@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`.fromCodePoint()`** method returns a string created by using the specified sequence of Unicode code points. It allows for the creation of characters from their Unicode values, including characters beyond the Basic Multilingual Plane (code points greater than `0xFFFF`).
 
-This method is commonly used when working with emojis, special symbols, or multilingual characters in applications that require precise Unicode handling—such as custom font rendering, text processing, or internationalization.
+This method is commonly used when working with emojis, special symbols, or multilingual characters in applications that require precise Unicode handling such as custom font rendering, text processing, or internationalization.
 
 ## Syntax
 
