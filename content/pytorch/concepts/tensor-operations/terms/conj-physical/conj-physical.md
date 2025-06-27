@@ -1,6 +1,6 @@
 ---
 Title: '.conj_physical()'
-Description: 'Computes the complex conjugate of a tensor's elements.'
+Description: 'Computes the complex conjugate of each element in a tensor.'
 Subjects:
   - 'AI'
   - 'Data Science'
