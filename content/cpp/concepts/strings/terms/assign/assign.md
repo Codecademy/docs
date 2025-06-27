@@ -18,23 +18,39 @@ The **`.assign()`** method replaces the contents of a string with new characters
 
 ---
 
-# Syntax
+## Syntax
 
 ```pseudo
-string.assign(str);                 // Assigns another string
-string.assign(str, pos, len);      // Assigns a substring
-string.assign(first, last);        // Assigns from iterator range
-string.assign(n, c);               // Assigns n copies of a character
+string.assign(str);                             // Assign entire string
+string.assign(str, subpos, sublen);             // Assign substring from another string
+string.assign("text");                          // Assign from a C-style null-terminated string
+string.assign("text", n);                       // Assign first n characters from a C-string
+string.assign(n, ch);                           // Assign n copies of character ch
+string.assign(first, last);                     // Assign characters from iterator range
 ```
-The `string` must be defined with `std::string` prior to using with the `.assign()` method.
 
-## Codebyte Example
+**Parameters:**
 
-### Example 1: Assigning a string to another
+- `str`: another `std::string` whose contents will be assigned to the string  
+- `subpos`: the starting index in `str` from which to begin copying  
+- `sublen`: the number of characters to copy from `str` starting at `subpos`  
+- `s`: a C-style null-terminated string (`const char*`) to assign from  
+- `n`:  
+  - with C-string: number of characters to copy from `s`  
+  - with character: number of times to repeat the character `ch`  
+- `ch`: a character to be repeated `n` times  
+- `first`: input iterator pointing to the beginning of the range to assign  
+- `last`: input iterator pointing one past the end of the range
 
-In the example below, .assign() is called on the `greeting` string to copy the value from the `name` string:
+**Return value:**
 
-```codebyte/cpp
+- `string&`: reference to the modified string (`*this`) for method chaining
+
+## Example 1: Assigning a string to another
+
+In the example below, `.assign()` is called on the `greeting` string to copy the value from the `name` string:
+
+```cpp
 #include <iostream>
 #include <string>
 
@@ -48,14 +64,19 @@ int main() {
   std::cout << greeting;
   return 0;
 }
-
 ```
 
-### Example 2: Assigning a substring
+The output of this code is:
+
+```shell
+World
+```
+
+## Example 2: Assigning a substring
 
 In the example below,  `.assign() ` is called on the  `result ` string to copy a portion of the  `sentence ` string:
 
-```codebyte/cpp
+```cpp
 #include <iostream>
 #include <string>
 
@@ -71,11 +92,17 @@ int main() {
 }
 ```
 
-### Example 3: Assigning using iterators
+The output of this code is:
+
+```shell
+Codecadem
+```
+
+## Example 3: Assigning using iterators
 
 In the example below,  `.assign() ` is used to copy a range of characters from the `source ` string into the  `result ` string using iterators:
 
-```codebyte/cpp
+```cpp
 #include <iostream>
 #include <iostream>
 #include <string>
@@ -92,12 +119,18 @@ int main() {
 }
 ```
 
-### Example 4: Assigning repeated characters
+The output of this code is:
+
+```shell
+Version
+```
+
+## Codebyte Example: Assigning repeated characters
 
 In the example below, `.assign()` is used to assign the `line` string with five asterisk characters:
 
-```codebyte/cpp
-##include <iostream>
+```cpp
+#include <iostream>
 #include <string>
 
 int main() {
