@@ -37,6 +37,10 @@ torch.clamp(input, min=None, max=None, *, out=None)
 
 > **Note:** At least one of the `min` or `max` values must be provided—otherwise, the tensor remains unchanged
 
+**Return value:**
+
+Returns a new tensor where each element is limited to the specified range `[min, max]`. 
+
 ## Example
 
 This example creates a tensor with values from `-5.0` to `5.0`, then uses the `.clamp()` method to restrict all values to the range `[-1.5, 1.5]` as follows:
