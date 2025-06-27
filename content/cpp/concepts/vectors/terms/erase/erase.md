@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.erase()`** [function](https://www.codecademy.com/resources/docs/cpp/functions) removes a single element or a range of elements from a vector. When it removes an element, the size of the vector decreases and the elements after the deleted one are shifted to fill the gap. In case of removing multiple elements, the positions of the elements to be removed are specified using the `.begin()` and/or `.end()` functions.
+In C++, the **`.erase()`** [function](https://www.codecademy.com/resources/docs/cpp/functions) removes a single element or a range of elements from a vector. When it removes an element, the size of the vector decreases and the elements after the deleted one are shifted to fill the gap. To remove a range, iterators such as `.begin()` and `.end()` are used to specify the start and end positions of the elements to erase.
 
 ## Syntax
 
