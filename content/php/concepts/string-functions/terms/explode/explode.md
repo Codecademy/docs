@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`explode()`** function is a built-in PHP string function that splits a string into an array based on a specified delimiter. It takes a string and breaks it apart at every occurrence of the delimiter, returning an array containing the resulting substrings. This function is essential for string manipulation and data processing tasks in PHP applications.
+The **`explode()`** function is a built-in PHP [string function](https://www.codecademy.com/resources/docs/php/string-functions) that splits a string into an array based on a specified delimiter. It takes a string and breaks it apart at every occurrence of the delimiter, returning an array containing the resulting substrings. This function is essential for string manipulation and data processing tasks in PHP applications.
 
 The `explode()` function is commonly used in scenarios such as parsing CSV data, processing user input, splitting file paths, extracting words from sentences, and converting delimited strings into manageable array elements. It serves as the counterpart to the [`implode()`](https://www.codecademy.com/resources/docs/php/string-functions/implode) function, which joins array elements into a single string.
 
