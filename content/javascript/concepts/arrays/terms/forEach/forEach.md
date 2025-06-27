@@ -24,10 +24,10 @@ array.forEach(function(currentValue, index, arr), thisValue);
 
 **Parameters:**
 
-- `value`: The value of the array element.
-- `index` (Optional): The index of the array element.
-- `array` (Optional): The array itself.
-- `thisValue` (Optional): Value to use as this when executing callback.
+- `currentValue`: The current element being processed in the array.
+- `index` (Optional): The index of the current element.
+- `arr` (Optional): The array itself.
+- `thisValue` (Optional): Value to use as `this` when executing callback.
 
 > **Note:** Unlike a regular `for` loop, `.forEach()` method does not provide a way to terminate iteration before all elements have been passed to the function.
 
