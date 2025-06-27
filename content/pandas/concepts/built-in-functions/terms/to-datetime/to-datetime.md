@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.to_datetime()`** function in Pandas transforms various date and time representations into standardized pandas datetime objects. It serves as the primary mechanism for converting strings, integers, lists, Series, or [DataFrames](https://www.codecademy.com/resources/docs/pandas/dataframe) containing date-like information into `datetime64` objects that can be used for time series analysis and date arithmetic operations.
+The **`.to_datetime()`** function in Pandas transforms various date and time representations into standardized pandas `datetime` objects. It serves as the primary mechanism for converting strings, integers, lists, Series, or [DataFrames](https://www.codecademy.com/resources/docs/pandas/dataframe) containing date-like information into `datetime64` objects that can be used for time series analysis and date arithmetic operations.
 
-This function is essential in data preprocessing workflows where raw data contains dates in multiple formats, making temporal analysis difficult. Common use cases include converting CSV file date columns from strings to datetime objects, standardizing mixed date formats within datasets, handling Unix timestamps from APIs, parsing dates with different regional formats, and creating time series indexes for financial or scientific data analysis. The function provides robust error handling and format inference capabilities, making it indispensable for real-world data cleaning scenarios.
+This function is essential in data preprocessing workflows where raw data contains dates in multiple formats, making temporal analysis difficult. Common use cases include converting CSV file date columns from strings to `datetime` objects, standardizing mixed date formats within datasets, handling Unix timestamps from APIs, parsing dates with different regional formats, and creating time series indexes for financial or scientific data analysis. The function provides robust error handling and format inference capabilities, making it indispensable for real-world data cleaning scenarios.
 
 ## Syntax
 
@@ -33,7 +33,7 @@ pandas.to_datetime(arg, errors='raise', dayfirst=False, yearfirst=False,
 - `dayfirst`: Boolean, if True parses dates with day first (e.g., "31/12/2023" as Dec 31)
 - `yearfirst`: Boolean, if True parses dates with year first when ambiguous
 - `utc`: Boolean, if True returns UTC `DatetimeIndex`
-- `format`: String format to parse the datetime (e.g., '%Y-%m-%d')
+- `format`: String format to parse the `datetime` (e.g., '%Y-%m-%d')
 - `exact`: Boolean, if True requires exact format match
 - `unit`: Unit for numeric timestamps ('D', 's', 'ms', 'us', 'ns')
 - `infer_datetime_format`: Boolean, attempts to infer format for faster parsing (deprecated)
@@ -44,7 +44,7 @@ pandas.to_datetime(arg, errors='raise', dayfirst=False, yearfirst=False,
 
 The function returns datetime-like objects depending on input type:
 
-- **Scalar input**: Returns pandas Timestamp
+- **Scalar input**: Returns pandas `Timestamp`
 - **Array-like input**: Returns `DatetimeIndex`
 - **Series input**: Returns Series with `datetime64[ns]` dtype
 - **`DataFrame` input**: Returns Series with `datetime64[ns]` dtype from assembled columns
@@ -89,7 +89,7 @@ dtype: datetime64[ns]
 Data type: datetime64[ns]
 ```
 
-This example shows how `.to_datetime()` automatically recognizes standard date formats and converts them to pandas datetime objects. The resulting Series has `datetime64[ns]` dtype, enabling time-based operations and analysis.
+This example shows how `.to_datetime()` automatically recognizes standard date formats and converts them to pandas `datetime` objects. The resulting Series has `datetime64[ns]` dtype, enabling time-based operations and analysis.
 
 ## Example 2: Financial Data Processing
 
@@ -187,17 +187,17 @@ print(f"Average temperature: {sensor_data['temperature_c'].mean():.1f}°C")
 print(f"\nTime series index frequency: {sensor_data.index.freq}")
 ```
 
-This example shows how to process sensor data with Unix timestamps, which is common in IoT applications and scientific data collection. Converting timestamps to datetime objects and using them as an index enables powerful time series analysis capabilities in pandas.
+This example shows how to process sensor data with Unix timestamps, which is common in IoT applications and scientific data collection. Converting timestamps to `datetime` objects and using them as an index enables powerful time series analysis capabilities in pandas.
 
 ## Frequently Asked Questions
 
 ### 1. Can I convert multiple date columns at once?
 
-Yes, you can apply `to_datetime()` to multiple columns using `apply()` or process each column individually. For DataFrames with separate year, month, day columns, pass the DataFrame directly to `to_datetime()` and it will automatically assemble the datetime from the columns.
+Yes, you can apply `to_datetime()` to multiple columns using `apply()` or process each column individually. For DataFrames with separate year, month, day columns, pass the `DataFrame` directly to `to_datetime()` and it will automatically assemble the `datetime` from the columns.
 
 ### 2. How do I handle dates before 1677 or after 2262?
 
-Pandas `datetime64[ns]` has limitations for dates outside this range. For such dates, pandas will return Python datetime objects instead of Timestamp objects, which may have reduced functionality for time series operations.
+Pandas `datetime64[ns]` has limitations for dates outside this range. For such dates, pandas will return Python `datetime` objects instead of `Timestamp` objects, which may have reduced functionality for time series operations.
 
 ### 3. Can I specify custom origins for Unix timestamps?
 
