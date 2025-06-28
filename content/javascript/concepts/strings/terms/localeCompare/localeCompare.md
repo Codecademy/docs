@@ -1,9 +1,9 @@
 ---
 Title: '.localeCompare()'
-Description: 'Determines whether a string comes before, after, or at the same position as another string in alphabetical order.'
+Description: 'Compares two strings based on the current locale, returning a number that indicates their sort order.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Comparison'
   - 'Methods'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The string method **`.localeCompare()`** returns a number indicating whether the reference string it operates on comes before, after, or at the same position as the given string in alphabetical order. The method can take `locales` as an argument to follow the alphabetical order of specific languages.
+The string method **`.localeCompare()`** returns a number indicating whether the reference string comes before, after, or is the same as the given string in locale-aware lexicographic order. It can take a locales argument to follow the sorting rules of specific languages.
 
 ## Syntax
 
@@ -23,19 +23,19 @@ string.localeCompare(compareString, locales, options)
 
 **Parameters:**
 
-- `compareString`: The string that the reference string is compared with.
-- `locales` (optional): A string with a language code according to the BCP 47 standard (like "de," "fr," "sv"), or an array with multiple strings of such language codes.
-- `options` (optional): An object that changes the behavior of the comparison. The `options` that can be used are defined by the `Intl.Collator` constructor.
+- `compareString`: The string to compare with the reference string (the one `.localeCompare()` is called on).
+- `locales` (optional): A string with a BCP 47 language tag (e.g., `"en"`, `"de"`, `"fr"`), or an array of such strings, specifying the locale(s) to use.
+- `options` (optional): An object that customizes the comparison behavior. The accepted properties are defined by the `Intl.Collator` constructor (e.g., `sensitivity`, `numeric`, `ignorePunctuation`, etc.).
 
 **Return value:**
 
-A number indicating the sort order:
+Returns a number indicating the sort order between the reference string and the `compareString`:
 
-- a negative number (for example, `-1`) if the reference string comes before `compareString`.
-- a positive number (for example, `1`) if the reference string comes after `compareString`.
-- `0` if the reference string and `compareString` are at the same position.
+- `-1` if the reference string comes before `compareString`
+- `0` if the strings are equal
+- `1` if the reference string comes after `compareString`
 
-The exact positive and negative numbers that `.localeCompare()` returns may vary between browsers.
+> **Note:** The exact result of `.localeCompare()` can vary depending on the specified `locales` and `options`. While the return value is always negative, zero, or positive, the exact numeric value (e.g., `-1`, `1`) may vary across browsers and environments. Therefore, it's best to check the sign of the result rather than its exact value.
 
 ## Example
 
