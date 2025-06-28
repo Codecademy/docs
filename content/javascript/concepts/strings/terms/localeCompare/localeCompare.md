@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The string method **`.localeCompare()`** returns a number indicating whether the reference string comes before, after, or is the same as the given string in locale-aware lexicographic order. It can take a locales argument to follow the sorting rules of specific languages.
+In JavaScript, the **`.localeCompare()`** method returns a number indicating whether the reference string comes before, after, or is the same as the given string in locale-aware lexicographic order. It can take a locales argument to follow the sorting rules of specific languages.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ string.localeCompare(compareString, locales, options)
 **Parameters:**
 
 - `compareString`: The string to compare with the reference string (the one `.localeCompare()` is called on).
-- `locales` (optional): A string with a BCP 47 language tag (e.g., `"en"`, `"de"`, `"fr"`), or an array of such strings, specifying the locale(s) to use.
+- `locales` (optional): A string containing a BCP 47 language tag (e.g., `"en"`, `"de"`, `"fr"`), or an array of such strings, specifying the locale(s) to use.
 - `options` (optional): An object that customizes the comparison behavior. The accepted properties are defined by the `Intl.Collator` constructor (e.g., `sensitivity`, `numeric`, `ignorePunctuation`, etc.).
 
 **Return value:**
@@ -61,7 +61,7 @@ The output of this code is:
 
 ## Codebyte Example
 
-Run the following code to understand how `.localeCompare()` works with different `locales`:
+Run the following codebyte to understand how `.localeCompare()` works with different `locales`:
 
 ```codebyte/javascript
 const germanComparison = "z".localeCompare("ä", "de");
