@@ -14,27 +14,30 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, **`.insert()`** is a method used to insert characters, substrings, or ranges into a string at a specified position. Unlike `.append()` which only adds to the end, `.insert()` provides flexibility in placing new data anywhere within the string.
+In C++, **`.insert()`** is a method used to insert characters, substrings, or ranges into a string at a specified position. Unlike [`.append()`](https://www.codecademy.com/resources/docs/cpp/strings/append), which only adds content to the end, `.insert()` allows placing new data at any point within the string. It is commonly used in formatting output, inserting delimiters, modifying user input, or dynamically building strings during parsing and text processing tasks.
 
 ## Syntax
 
-```cpp
-str.insert(pos, str2);               // Inserts entire string at position 'pos'
-str.insert(pos, str2, subpos, len);  // Inserts substring from str2 at 'pos'
-str.insert(pos, n, char);            // Inserts character 'char' n times at 'pos'
-str.insert(iter, first, last);       // Inserts a range using iterators at position 'iter'
+```pseudo
+string.insert(pos, str);
+string.insert(pos, str, subpos, sublen);
+string.insert(pos, n, char);
+string.insert(iterator, char);
+string.insert(iterator, n, char);
+template<class InputIterator>
+string.insert(iterator, InputIterator first, InputIterator last);
 ```
 
 **Parameters:**
 
-- `pos`: Index in the string where insertion starts.
-- `str2`: The string or substring to insert.
-- `subpos`: Starting index in `str2` for substring insertion.
-- `len`: Number of characters from `str2` to insert.
-- `n`: Number of times to insert character `char`.
-- `char`: A character to insert repeatedly.
-- `iter`: Iterator position in the string.
-- `first`, `last`: Range of iterators indicating characters to insert.
+- `pos`: The index position in the string where the insertion begins.
+- `str`: The string or character array to insert.
+- `subpos`: The starting position in `str` for partial insertion.
+- `sublen`: The number of characters to insert from `str` starting at `subpos`.
+- `n`: The number of times the character should be inserted.
+- `char`: The character to be inserted.
+- `iterator`: An iterator pointing to the insertion position within the string.
+- `first`, `last`: A range of iterators defining the characters to insert.
 
 **Return value:**
 
@@ -80,8 +83,8 @@ int main() {
   string str1 = "C++ is great!";
   string str2 = "really awesome and ";
 
-  // Inserts 7 characters from index 7 of str2 at position 7 in str1
-  str1.insert(7, str2, 7, 7);
+  // Inserts 8 characters starting from index 7 of str2 into str1 at position 7
+  str1.insert(7, str2, 7, 8);
 
   cout << str1;
   return 0;
