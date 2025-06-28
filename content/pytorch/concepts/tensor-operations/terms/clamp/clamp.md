@@ -1,26 +1,20 @@
 ---
 Title: '.clamp()'
-Description: 'Limits each element of a tensor to a specified range [min, max].'
+Description: 'Limits each element of a tensor to a specified range.'
 Subjects:
   - 'AI'
   - 'Computer Science'
-  - 'Data Science'
-  - 'Machine Learning'
 Tags:
   - 'AI'
   - 'Machine Learning'
   - 'Neural Networks'
   - 'Python'
-  - 'PyTorch'
-  - 'Tensor'
 CatalogContent:
   - 'learn-pytorch'
   - 'intro-to-py-torch-and-neural-networks'
 ---
 
 The **`.clamp()`** method in PyTorch restricts each tensor element to a specified range, setting values below the minimum to the minimum and values above the maximum to the maximum. It is commonly used for normalization, gradient clipping, activation constraints, or to keep values within safe or interpretable ranges during model training and evaluation.
-
-This operation is commonly applied in scenarios like bounding activations in a neural network layer or preprocessing data to fit within a specific range. For example, clamping can prevent extreme values from destabilizing training or ensure outputs meet model requirements, such as keeping probabilities between 0 and 1.
 
 ## Syntax
 
@@ -39,7 +33,7 @@ torch.clamp(input, min=None, max=None, *, out=None)
 
 **Return value:**
 
-Returns a new tensor where each element is limited to the specified range `[min, max]`. 
+Returns a new tensor where each element is limited to the specified range `[min, max]`.
 
 ## Example
 
@@ -59,12 +53,6 @@ print(clamped)
 ```
 
 The output of this code is:
-
-```shell
-tensor([-1.5000, -1.2500,  0.0000,  1.2500,  1.5000])
-```
-
-The output would be:
 
 ```shell
 tensor([-1.5000, -1.2500,  0.0000,  1.2500,  1.5000])
