@@ -146,10 +146,10 @@ Sorted array:
 
 ### 1. What is the time complexity of Heap Sort?
 
-Heap Sort has a time complexity of O(n log n) in all cases—best, average, and worst. This is because:
+Heap Sort has a time complexity of `O(n log n)` in all cases—best, average, and worst. This is because:
 
 - Building the heap takes O(n) time.
-- Each of the n elements is extracted in log n time (due to heapify), giving O(n log n) total.
+- Each of the n elements is extracted in `log n` time (due to heapify), giving `O(n log n)` total.
 
 ### 2. Is Heap Sort a stable sorting algorithm?
 
