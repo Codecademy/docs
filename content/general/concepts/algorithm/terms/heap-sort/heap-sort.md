@@ -18,9 +18,9 @@ CatalogContent:
 Use cases for Heap Sort include:
 
 - When consistent performance across best, average, and worst cases is important
-- In embedded systems or low-memory environments due to its minimal space needs
+- In embedded systems or low-memory environments, due to its minimal space needs
 - For implementing priority queues and scheduling algorithms
-- In real-time systems where the maximum or minimum must be accessed quickly
+- In real-time systems, where the maximum or minimum must be accessed quickly
 
 A heap can be easily represented in an array. The root node is the first element, and the rest of the tree is stored level by level, from left to right. For any node at index `i`, its left child is at `2*i + 1` and its right child is at `2*i + 2`.
 
