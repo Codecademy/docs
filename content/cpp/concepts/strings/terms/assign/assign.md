@@ -14,9 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.assign()`** method replaces the contents of a string with new characters, allowing precise control over what the string holds. It is commonly used in scenarios such as loops, input parsing, or reusing string variables to optimize memory and performance.
-
----
+In C++, the **`.assign()`** method replaces the contents of a string with new characters, allowing precise control over what the string holds. It is commonly used in scenarios such as loops, input parsing, or reusing string variables to optimize memory and performance.
 
 ## Syntax
 
@@ -31,24 +29,24 @@ string.assign(first, last);                     // Assign characters from iterat
 
 **Parameters:**
 
-- `str`: another `std::string` whose contents will be assigned to the string  
-- `subpos`: the starting index in `str` from which to begin copying  
-- `sublen`: the number of characters to copy from `str` starting at `subpos`  
-- `s`: a C-style null-terminated string (`const char*`) to assign from  
-- `n`:  
-  - with C-string: number of characters to copy from `s`  
-  - with character: number of times to repeat the character `ch`  
-- `ch`: a character to be repeated `n` times  
-- `first`: input iterator pointing to the beginning of the range to assign  
-- `last`: input iterator pointing one past the end of the range
+- `str`: Another `std::string` whose contents will be assigned to the string.
+- `subpos`: The starting index in `str` from which to begin copying.
+- `sublen`: The number of characters to copy from `str` starting at `subpos`.
+- `s`: A C-style null-terminated string (`const char*`) to assign from.
+- `n`:
+  - With C-string: Number of characters to copy from `s`.
+  - With character: Number of times to repeat the character `ch`.
+- `ch`: A character to be repeated `n` times.
+- `first`: Input iterator pointing to the beginning of the range to assign.
+- `last`: Input iterator pointing one past the end of the range.
 
 **Return value:**
 
-- `string&`: reference to the modified string (`*this`) for method chaining
+- `string&`: Reference to the modified string (`*this`) for method chaining
 
-## Example 1: Assigning a string to another
+## Example 1: Assigning a String to Another
 
-In the example below, `.assign()` is called on the `greeting` string to copy the value from the `name` string:
+In this example, `.assign()` is called on the `greeting` string to copy the value from the `name` string:
 
 ```cpp
 #include <iostream>
@@ -72,9 +70,9 @@ The output of this code is:
 World
 ```
 
-## Example 2: Assigning a substring
+## Example 2: Assigning a Substring
 
-In the example below,  `.assign() ` is called on the  `result ` string to copy a portion of the  `sentence ` string:
+In this example, `.assign()` is called on the `result` string to copy a portion of the `sentence` string:
 
 ```cpp
 #include <iostream>
@@ -98,9 +96,9 @@ The output of this code is:
 Codecadem
 ```
 
-## Example 3: Assigning using iterators
+## Example 3: Assigning Using Iterators
 
-In the example below,  `.assign() ` is used to copy a range of characters from the `source ` string into the  `result ` string using iterators:
+In this example, `.assign()` is used to copy a set of characters from the `source` string into the `result` string using iterators:
 
 ```cpp
 #include <iostream>
@@ -125,11 +123,11 @@ The output of this code is:
 Version
 ```
 
-## Codebyte Example: Assigning repeated characters
+## Codebyte Example: Assigning Repeated Characters
 
-In the example below, `.assign()` is used to assign the `line` string with five asterisk characters:
+In this codebyte example, `.assign()` is used to assign the `line` string with five asterisk characters:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <string>
 
