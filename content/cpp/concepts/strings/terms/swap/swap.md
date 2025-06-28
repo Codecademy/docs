@@ -5,15 +5,15 @@ Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
-  - 'Strings'
   - 'Functions'
   - 'Methods'
+  - 'Strings'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The **`.swap()`** method for strings is used to exchange the contents of two strings efficiently.
+The **`.swap()`** method for strings is used to exchange the contents of two strings efficiently. It is commonly used in scenarios like optimizing performance during reordering, implementing the copy-and-swap idiom in custom classes, or quickly clearing a string by swapping it with an empty one.
 
 ## Syntax
 
@@ -21,17 +21,54 @@ The **`.swap()`** method for strings is used to exchange the contents of two str
 string1.swap(string2);
 ```
 
+**Parameters:**
+
+- `string2`: Another `std::string` object whose contents will be swapped with `string1`.
+
+**Return value:**
+
+This method performs the swap in-place and does not return a value.
+
 After calling the `.swap()` method, the contents of `string1` and `string2` are exchanged: `string1` now holds the original contents of `string2`, and `string2` holds the original contents of `string1`.
 
 ## Example
 
-Let us consider an example where we have 2 strings - `a` and `b` with the following original values before the `a.swap(b)` method is called : 
-string a = "apple";
-string b = "banana";
+In this example, the `.swap()` method is used to exchange the contents of two strings, `a` and `b`:
 
-After the `a.swap(b)` method is called , the values of strings `a` and `b` are swapped and the strings now hold the following new values :
-string a = "banana";
-string b = "apple";
+```py
+#include <iostream>
+#include <string>
+
+int main() {
+  std::string a = "apple";
+  std::string b = "banana";
+
+  std::cout << "Before swap:\n";
+  std::cout << "a = " << a << "\n";
+  std::cout << "b = " << b << "\n";
+
+  // Swap the contents of a and b
+  a.swap(b);
+
+  std::cout << "\nAfter swap:\n";
+  std::cout << "a = " << a << "\n";
+  std::cout << "b = " << b << "\n";
+
+  return 0;
+}
+```
+
+The output for this will be:
+
+```shell
+Before swap:
+a = apple
+b = banana
+
+After swap:
+a = banana
+b = apple
+```
 
 ## Codebyte Example
 
@@ -43,19 +80,19 @@ In the example below, `.swap()` is called on the `place1` and `place2` strings:
 
 int main() {
 
-    std::string place1 = "Los Angeles";
-    std::string place2 = "New York";
+  std::string place1 = "Los Angeles";
+  std::string place2 = "New York";
 
-    std::cout << "Before swap:\n";
-    std::cout << "Place 1 : " << place1 << "\n";
-    std::cout << "Place 2 : " << place2 << "\n";
-  
-    place1.swap(place2);
+  std::cout << "Before swap:\n";
+  std::cout << "Place 1 : " << place1 << "\n";
+  std::cout << "Place 2 : " << place2 << "\n";
 
-    std::cout << "After swap:\n";
-    std::cout << "Place 1 : " << place1 << "\n";
-    std::cout << "Place 2 : " << place2 << "\n";
+  place1.swap(place2);
 
-    return 0;
+  std::cout << "After swap:\n";
+  std::cout << "Place 1 : " << place1 << "\n";
+  std::cout << "Place 2 : " << place2 << "\n";
+
+  return 0;
 }
 ```
