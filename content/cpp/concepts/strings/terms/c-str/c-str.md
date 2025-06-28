@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.c_str()`** method returns a [pointer](https://www.codecademy.com/resources/docs/cpp/pointers) to a null-terminated [array](https://www.codecademy.com/resources/docs/cpp/arrays) of characters, equivalent to the contents of the [string](https://www.codecademy.com/resources/docs/cpp/strings) on which it is called.
+In C, the **`.c_str()`** method returns a [pointer](https://www.codecademy.com/resources/docs/cpp/pointers) to a null-terminated [array](https://www.codecademy.com/resources/docs/cpp/arrays) of characters, equivalent to the contents of the string on which it is called.
 
 The `c_str()` method is commonly used when a C-style string is needed, such as when passing a `std::string` to functions that expect a `const char*`. It's especially useful for interoperability with legacy C libraries or APIs like [`printf()`](https://www.codecademy.com/resources/docs/c/basic-output/printf), `fopen()`, or other system-level functions.
 
@@ -31,7 +31,7 @@ The `.c_str()` method does not take any parameters.
 
 **Return value:**
 
-Returns a `const char*`, which is a pointer to a null-terminated character array that represents the contents of the string.
+Returns a `const char*`, which is a pointer to a null-terminated character array representing the contents of the string.
 
 ## Example
 
@@ -69,7 +69,7 @@ Length of string using strlen(arr): 6
 
 ## Codebyte Example
 
-In this example, we have a function `printPointerCharArrToStdOut` that expects a pointer to a character array. The `.c_str()` method is used to convert a `std::string` to a C-style string, allowing it to be passed to the function. The function then outputs each character of the array individually:
+In this codebyte example, we have a function `printPointerCharArrToStdOut` that expects a pointer to a character array. The `.c_str()` method is used to convert a `std::string` to a C-style string, allowing it to be passed to the function. The function then outputs each character of the array individually:
 
 ```codebyte/cpp
 #include <string>
