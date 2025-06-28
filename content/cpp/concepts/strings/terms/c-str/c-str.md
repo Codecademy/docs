@@ -1,6 +1,6 @@
 ---
 Title: '.c_str()'
-Description: 'RReturns a pointer to a null-terminated character array that represents the contents of the string.'
+Description: 'Returns a pointer to a null-terminated character array that represents the contents of the string.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -35,7 +35,7 @@ Returns a `const char*`, which is a pointer to a null-terminated character array
 
 ## Example
 
-This example shows the size of a `std::string` object and a pointer returned by `.c_str()`, along with the actual string length using `length()` and `strlen()`.
+This example shows the size of a `std::string` object and a pointer returned by `.c_str()`, along with the actual string length using [`length()`](https://www.codecademy.com/resources/docs/cpp/strings/length) and [`strlen()`](https://www.codecademy.com/resources/docs/c/strings/strlen):
 
 ```cpp
 #include <string>
@@ -65,7 +65,7 @@ Length of string using str.length(): 6
 Length of string using strlen(arr): 6
 ```
 
-> **Note:** `sizeof` gives the size of the variable's type, not the number of characters.
+> **Note:** [`sizeof`](https://www.codecademy.com/resources/docs/c/operators/sizeof) gives the size of the variable's type, not the number of characters.
 
 ## Codebyte Example
 
