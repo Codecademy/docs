@@ -1,6 +1,6 @@
 ---
 Title: 'AJAX'
-Description: 'AJAX (Asynchronous JavaScript and XML) is a technique that enable web pages to communicate with a server asynchronously in the background.'
+Description: 'AJAX (Asynchronous JavaScript and XML) is a technique that enables web pages to communicate with a server asynchronously in the background.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
