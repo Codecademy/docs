@@ -1,6 +1,6 @@
 ---
 Title: '.compare()'
-Description: 'Compares two strings lexicographically and returns an integer indicating their relationship.'
+Description: 'Compares two strings lexicographically and returns an integer indicating their relative order.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,24 +14,25 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.compare()`** method compares two [`strings`](https://www.codecademy.com/resources/docs/cpp/strings) lexicographically (dictionary order) and returns an integer value that indicates the relationship between the strings. It performs a character-by-character comparison based on ASCII values.
+The **`.compare()`** method compares two [`strings`](https://www.codecademy.com/resources/docs/cpp/strings) lexicographically (dictionary order) and returns an integer that indicates their relative order. The comparison is done character by character based on ASCII values.
 
 ## Syntax
 
 ```pseudo
-string1.compare(string2);
-string1.compare(pos, len, string2);
-string1.compare(pos, len, string2, subpos, sublen);
+string1.compare(string2);                              // Compares string1 with string2.
+string1.compare(pos, len, string2);                    // Compares a substring of string1 starting at pos with length len to the entirety of string2.
+string1.compare(pos, len, string2, subpos, sublen);    // Compares a substring of string1 (starting at pos, length len) with a substring of string2 (starting at subpos, length sublen)
 ```
 
-- `string1`: The string object calling the method
-- `string2`: The string to compare with
-- `pos`: Starting position in `string1` for comparison (optional)
-- `len`: Length of characters to compare from `string1` (optional)
-- `subpos`: Starting position in `string2` for comparison (optional)
-- `sublen`: Length of characters to compare from `string2` (optional)
+- `string1`: The string object calling the `.compare()` method.
+- `string2`: The string to compare with.
+- `pos` (optional: Starting position in `string1` for comparison
+- `len` (optional): The number of characters to compare from `string1` starting at `pos`.
+- `subpos` (optional): The starting position in `string2` from which to begin comparison.
+- `sublen` (optional): The number of characters to compare from `string2` starting at `subpos`.
 
 **Return values:**
+
 - Returns `0` if the strings are equal
 - Returns a negative value (< 0) if `string1` is lexicographically less than `string2`
 - Returns a positive value (> 0) if `string1` is lexicographically greater than `string2`
@@ -46,27 +47,30 @@ int main() {
   std::string str1 = "apple";
   std::string str2 = "banana";
   std::string str3 = "apple";
-  
-  int result1 = str1.compare(str2);  // Negative value
-  int result2 = str1.compare(str3);  // 0
-  int result3 = str2.compare(str1);  // Positive value
+
+  int result1 = str1.compare(str2);
+  int result2 = str1.compare(str3);
+  int result3 = str2.compare(str1);
 
   std::cout << "apple vs banana: " << result1 << std::endl;
   std::cout << "apple vs apple: " << result2 << std::endl;
   std::cout << "banana vs apple: " << result3 << std::endl;
-  
+
   return 0;
 }
 ```
 
-**Output:**
-```
-apple vs banana: -1 
+The output of this code is:
+
+```shell
+apple vs banana: -1
 apple vs apple: 0
 banana vs apple: 1
 ```
 
 ## Codebyte Example
+
+Run the following example to understand how the `.compare()` method works:
 
 ```codebyte/cpp
 #include <iostream>
@@ -75,40 +79,36 @@ banana vs apple: 1
 int main() {
   std::string fruit1 = "apple";
   std::string fruit2 = "orange";
-  
+
   int comparison = fruit1.compare(fruit2);
-  
+
   if (comparison < 0) {
     std::cout << fruit1 << " comes before " << fruit2 << " alphabetically" << std::endl;
   } else if (comparison > 0) {
     std::cout << fruit1 << " comes after " << fruit2 << " alphabetically" << std::endl;
   } else {
     std::cout << fruit1 << " and " << fruit2 << " are the same" << std::endl;  }
-  
+
   return 0;
 }
 ```
 
-
-## [Complexity](https://www.codecademy.com/resources/docs/general/big-o-notation)
-
-**Time Complexity:** O(n), where n is the length of the substring.
-
-**Auxiliary Space Complexity:** O(1)
-
-
 ## Frequently Asked Questions
 
-### 1. Difference between `compare()` and `==` operator?
-The `==` operator returns a boolean (`true` or `false`) indicating equality, while `compare()` returns an integer that tells you the exact relationship between strings (less than, equal to, or greater than).
+### 1. What is the difference between `compare()` and `==` operator?
+
+The `==` operator returns a boolean (`true` or `false`) indicating whether two strings are equal. The `compare()` method returns an integer that indicates the **relative order** of the strings: less than, equal to, or greater than.
 
 ### 2. Can `compare()` be used for case-insensitive comparison?
-No, `compare()` performs case-sensitive comparison. For case-insensitive comparison, you need to convert both strings to the same case first or use custom comparison functions.
+
+No, `compare()` is case-sensitive by default. To perform a case-insensitive comparison, convert both strings to the same case using methods like `std::transform()` with `::tolower`, or use a custom comparator.
 
 ### 3. What happens when comparing strings of different lengths?
-When strings have different lengths but one is a prefix of the other, the shorter string is considered lexicographically smaller. For example:
-```
+
+If one string is a prefix of the other, the shorter string is considered lexicographically smaller.
+
+```cpp
 std::string a = "app";
 std::string b = "apple";
-a.compare(b) < 0; // true
+bool result = a.compare(b) < 0; // true
 ```
