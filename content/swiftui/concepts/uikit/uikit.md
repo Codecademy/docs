@@ -43,7 +43,7 @@ class CustomView: UIView {
 
 ### UIViewController
 
-**UIViewController** manages a single screen of content and serves as the controller in the Model-View-Controller pattern.
+**`UIViewController`** manages a single screen of content and serves as the controller in the Model-View-Controller pattern.
 
 ```swift
 class MainViewController: UIViewController {
