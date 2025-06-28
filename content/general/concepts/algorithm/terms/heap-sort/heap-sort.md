@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Heap Sort** is a comparison-based sorting algorithm that organizes data using a binary heap—a special tree structure where the parent is always greater (in a max heap) than its children. It repeatedly extracts the largest element (the root), swaps it with the last unsorted item, and then re-heapifies the remaining elements. This continues until the array is fully sorted. It runs in O(n log n) time and is an in-place sort, meaning it uses no extra space.
+**Heap Sort** is a comparison-based sorting algorithm that organizes data using a binary heap—a special tree structure where the parent is always greater (in a max heap) than its children. It repeatedly extracts the largest element (the root), swaps it with the last unsorted item, and then re-heapifies the remaining elements. This continues until the array is fully sorted. It runs in `O(n log n)` time and is an in-place sort, meaning it uses no extra space.
 
 Use cases for Heap Sort include:
 
