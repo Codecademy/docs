@@ -23,7 +23,7 @@ UIKit encompasses several fundamental classes and architectural patterns that fo
 
 ### UIView
 
-**UIView** is the fundamental building block for all user interface elements in UIKit. Every visual component that appears on screen inherits from UIView.
+**`UIView`** is the fundamental building block for all user interface elements in UIKit. Every visual component that appears on screen inherits from UIView.
 
 ```swift
 class CustomView: UIView {
