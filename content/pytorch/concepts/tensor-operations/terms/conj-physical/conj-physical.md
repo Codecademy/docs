@@ -29,7 +29,7 @@ torch.conj_physical(input, *, out=None)
 **Parameters:**
 
 - `input`: A tensor, can be real or complex. For complex tensors, it returns their element-wise complex conjugate.
-- `out` (optional): A tensor to store the output. Must be the same shape and type as the result. If provided, the result is written here.
+- `out` (Optional): A tensor to store the output. Must be the same shape and type as the result. If provided, the result is written here.
 
 **Return value:**
 
@@ -55,10 +55,4 @@ The output of this code is as follows:
 
 ```shell
 tensor([1.-2.j, 3.-4.j, 5.-6.j])
-```
-
-## Output
-
-```shell
-tensor([1 - 2j, 3 - 4j, 5 - 6j])
 ```
