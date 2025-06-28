@@ -50,7 +50,7 @@ A brief explanation of the Heap Sort algorithm steps:
 4\. Restore the Max Heap
 
 - After swapping, the heap property may be broken, so we need to rebuild the heap for the reduced array.
-- Apply the heapify-down (or down()) method starting from the root to restore the Max Heap property.
+- Apply the heapify-down (or `down()`) method starting from the root to restore the Max Heap property.
 
 5\. Repeat the Process
 
