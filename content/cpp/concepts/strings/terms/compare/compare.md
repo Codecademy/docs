@@ -5,10 +5,10 @@ Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
-  - 'Strings'
+  - 'Comparison'
   - 'Functions'
   - 'Methods'
-  - 'Comparison'
+  - 'Strings'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
@@ -23,6 +23,8 @@ string1.compare(string2);                              // Compares string1 with 
 string1.compare(pos, len, string2);                    // Compares a substring of string1 starting at pos with length len to the entirety of string2.
 string1.compare(pos, len, string2, subpos, sublen);    // Compares a substring of string1 (starting at pos, length len) with a substring of string2 (starting at subpos, length sublen)
 ```
+
+**Parameters:**
 
 - `string1`: The string object calling the `.compare()` method.
 - `string2`: The string to compare with.
