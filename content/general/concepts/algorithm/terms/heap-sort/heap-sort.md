@@ -35,7 +35,7 @@ A brief explanation of the Heap Sort algorithm steps:
 - Start by converting the given unsorted array into a Max Heap.
 - A Max Heap is a complete binary tree where each parent node is greater than or equal to its children.
 - This step ensures the largest value is always at the root (index 0 of the array).
-- To do this, iterate over the array and apply the heapify-up (or up()) method for each element.
+- To do this, iterate over the array and apply the heapify-up (or `up()`) method for each element.
 
 2\. Swap the Root with the Last Element
 
