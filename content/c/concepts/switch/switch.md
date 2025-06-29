@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C, the **`switch`** statement provides a structure for supporting several options or conditions to execute a block of code. It provides a clean and effective alternative to lengthy `if-else` chains when checking a [variable](https://www.codecademy.com/resources/docs/c/variables) against multiple constant values. It is commonly used when the value of a given variable needs to be compared against multiple possible options.
+In C, the **`switch`** statement provides a structure for supporting several options or conditions to execute a block of code. It provides a clean and effective alternative to lengthy `if-else` chains when checking a [variable](https://www.codecademy.com/resources/docs/c/variables) against multiple constant values. It is commonly used when a given variable's value must be compared against multiple possible options.
 
 ## Syntax
 
@@ -47,7 +47,7 @@ Here's how the switch statement works:
 
 The expression or variable's resulting value must be of an integral or [enumerated](https://www.codecademy.com/resources/docs/c/enums) type. Examples of valid result types for `switch` case expressions are `int`, `double`, `float`, and `char`. This statement will not be valid for expressions or variables that, for example, result in a string value.
 
-> **Note:** Remember that characters, which have type `char`, are integral, because they have integer ASCII codes.
+> **Note:** Remember that characters with type `char` are integral because they have integer ASCII codes.
 
 ## Switch vs If-Else
 
