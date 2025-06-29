@@ -118,7 +118,7 @@ This example shows how `.transpose()` is used to rearrange image data dimensions
 
 ## Codebyte Example: Matrix Operations for Machine Learning
 
-This example illustrates using transpose for matrix multiplication operations commonly found in machine learning algorithms:
+This example illustrates using transpose for matrix multiplication operations commonly found in [machine learning](https://www.codecademy.com/resources/docs/ai/machine-learning) algorithms:
 
 ```codebyte/python
 import numpy as np
