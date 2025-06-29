@@ -33,7 +33,7 @@ ndarray.transpose(*axes)
 
 **Return value:**
 
-- `ndarray`: A view of the array with axes suitably permuted.
+- [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray): A view of the array with axes suitably permuted.
 
 ## Example 1: Basic Array Transposition
 
