@@ -25,7 +25,7 @@ Docs is live with over 2000 high-quality entries. Now that the MVP is out, our g
 - [@cigar-galaxy82](https://github.com/cigar-galaxy82), Content Contributor
 - [@letsbuildanything](https://github.com/letsbuildanything), Content Contributor
 
-We are currently building a team of community volunteers and educators to maintain Docs. Let us know if you are interested.
+We are currently building a team of community volunteers and educators to maintain Docs. Let us know if you are interested. We will be happy to have you.
 
 ### 🏗 Engineering Team
 
