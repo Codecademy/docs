@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.compare()`** method compares two [`strings`](https://www.codecademy.com/resources/docs/cpp/strings) lexicographically (dictionary order) and returns an integer that indicates their relative order. The comparison is done character by character based on ASCII values.
+In C++, the **`.compare()`** method compares two strings lexicographically (dictionary order) and returns an integer that indicates their relative order. The comparison is done character by character based on ASCII values.
 
 ## Syntax
 
@@ -40,6 +40,8 @@ string1.compare(pos, len, string2, subpos, sublen);    // Compares a substring o
 - Returns a positive value (> 0) if `string1` is lexicographically greater than `string2`
 
 ## Example
+
+This example demonstrates the usage of the `.compare()` method:
 
 ```cpp
 #include <iostream>
@@ -72,7 +74,7 @@ banana vs apple: 1
 
 ## Codebyte Example
 
-Run the following example to understand how the `.compare()` method works:
+Run the following codebyte to understand how the `.compare()` method works:
 
 ```codebyte/cpp
 #include <iostream>
@@ -97,17 +99,17 @@ int main() {
 
 ## Frequently Asked Questions
 
-### 1. What is the difference between `compare()` and `==` operator?
+### 1. What is the difference between `.compare()` and `==` operator?
 
-The `==` operator returns a boolean (`true` or `false`) indicating whether two strings are equal. The `compare()` method returns an integer that indicates the **relative order** of the strings: less than, equal to, or greater than.
+The `==` operator returns a boolean (`true` or `false`) indicating whether two strings are equal. The `.compare()` method returns an integer indicating the _relative order_ of the strings: less than, equal to, or greater than.
 
-### 2. Can `compare()` be used for case-insensitive comparison?
+### 2. Can `.compare()` be used for case-insensitive comparison?
 
-No, `compare()` is case-sensitive by default. To perform a case-insensitive comparison, convert both strings to the same case using methods like `std::transform()` with `::tolower`, or use a custom comparator.
+No, `.compare()` is case-sensitive by default. To perform a case-insensitive comparison, try converting both strings to the same case using methods like `std::transform()` with `::tolower`, or use a custom comparator.
 
 ### 3. What happens when comparing strings of different lengths?
 
-If one string is a prefix of the other, the shorter string is considered lexicographically smaller.
+If one string is a prefix of the other, the shorter string is considered lexicographically smaller:
 
 ```cpp
 std::string a = "app";
