@@ -79,6 +79,7 @@ Concatenation
 Conceptual
 Const
 Constructors
+Containers
 Continue
 Counting Sort
 Control Flow
@@ -95,6 +96,7 @@ Data Parallelism
 Data Structures
 Data Types
 Database
+DataFrame
 DataLoader
 Datasets
 Date
@@ -139,6 +141,7 @@ Events
 Event Handling
 Exceptions
 Expo
+Exponential
 Express
 Extensions
 Favicon
@@ -253,6 +256,7 @@ Objects
 Obsolete
 Ontologies
 OOP
+Operator Overloading
 Opacity
 ONNX
 IaC
@@ -284,8 +288,9 @@ Preprocessor
 Primary Key
 Print
 Probability
-Promise
 Programming
+Promise
+Prompts
 Properties
 Protocols
 Python
@@ -334,6 +339,7 @@ Stacks
 Static Site
 Statistics
 Statsmodels
+STL
 Storage
 Strict Mode
 Stringr
@@ -341,6 +347,7 @@ Strings
 Structure
 Style
 Stochastic Gradient Descent
+Subplots
 Subqueries
 Supervised Learning
 Swift
@@ -399,7 +406,6 @@ Visibility
 VR
 Vue
 Web3
-Exponential
 WebRTC
 Weight & Bias
 While

@@ -1,43 +1,148 @@
 ---
 Title: 'Strings'
-Description: 'A string in Java is an object that holds a sequence of characters contained within a pair of double quotes (").'
+Description: 'Strings in Java are immutable objects that represent sequences of characters enclosed in double quotes.'
 Subjects:
   - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'Strings'
-  - 'Data Types'
   - 'Characters'
+  - 'Data Types'
+  - 'Methods'
+  - 'Strings'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-**Strings** in Java are objects that can hold a sequence of characters contained within a pair of double quotes (`"`). It is not a primitive data type.
+**Strings** in Java are objects that can hold a sequence of characters contained within a pair of double quotes (`""`). Strings are immutable, meaning once a string is created, it cannot be changed. This provides benefits such as better performance, security, and thread safety.
 
-Strings can either be compared by value via method (e.g., [`.equals()`](https://www.codecademy.com/resources/docs/java/strings/equals)) or by reference, or location in memory, (e.g., `==`) via operator.
+## Creating Strings
 
-## Example
+In Java, there are two ways to create a string:
 
-Java strings provide a way to store text such as words, sentences, or whole paragraphs. They can be any length and may contain letters, numbers, symbols, and spaces:
+- Using string literals
+- Using the `new` keyword
+
+### Creating Strings Using String Literals
+
+This example uses string literals ("...") to create a string in Java:
 
 ```java
-import java.util.*;
-
-class StringExample {
+class Main {
   public static void main(String[] args) {
-    // Using a string literal
-    System.out.println("Codecademy");
+    String s1 = "Hello";
 
-    // Creating a String variable
-    String address = "575 Broadway #5, New York, NY 10012";
-    System.out.println(address);
+    System.out.println(s1);
   }
 }
 ```
 
-This will output the following:
+Here is the output:
 
 ```shell
-Codecademy
-575 Broadway #5, New York, NY 10012
+Hello
 ```
+
+### Creating Strings Using `new`
+
+This example uses the `new` keyword to create a string in Java:
+
+```java
+class Main {
+  public static void main(String[] args) {
+    String s1 = new String("Hello");
+
+    System.out.println(s1);
+  }
+}
+```
+
+Here is the output:
+
+```shell
+Hello
+```
+
+## Accessing String Characters
+
+In Java, an index refers to the numerical position of an element within a data structure like an array or a string.
+
+The [`charAt()`](https://www.codecademy.com/resources/docs/java/strings/charAt) method is used to access string characters.
+
+Here is an example that uses this [method](https://www.codecademy.com/resources/docs/java/methods) to access the first character (index `0`) of a Java string:
+
+```java
+class Main {
+  public static void main(String[] args) {
+    String str = "Java";
+
+    // Indexing starts at '0'
+    char ch = str.charAt(0);
+
+    System.out.println(ch);
+  }
+}
+```
+
+Here is the output:
+
+```shell
+J
+```
+
+## Get the Length of a String
+
+The [`length()`](https://www.codecademy.com/resources/docs/java/strings/length) method can be used to get the length or the number of characters in a string:
+
+```java
+String str = "Java Programming";
+
+int len = str.length();
+
+System.out.println("Length: " + len);
+```
+
+Here is the output:
+
+```shell
+Length: 16
+```
+
+## Join Two Strings
+
+The [`concat()`](https://www.codecademy.com/resources/docs/java/strings/concat) method is used to join two strings in Java:
+
+```java
+class Main {
+  public static void main(String[] args) {
+    String first = "Hello ";
+    String second = "World";
+
+    String result = first.concat(second);
+
+    System.out.println(result);
+  }
+}
+```
+
+Here is the output:
+
+```shell
+Hello World
+```
+
+## Frequently Asked Questions
+
+### 1. Are strings in Java mutable?
+
+No, strings in Java are immutable. To create mutable strings, use `StringBuilder` or `StringBuffer`.
+
+### 2. What is the difference between `String`, `StringBuilder`, and `StringBuffer` in Java?
+
+- `String` is immutable.
+- `StringBuilder` is mutable and not thread-safe.
+- `StringBuffer` is mutable and thread-safe.
+
+### 3. Can we override methods of the `String` class in Java?
+
+No. the `String` class in Java is final, which means it cannot be subclassed.
