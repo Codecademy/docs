@@ -24,6 +24,7 @@ string.insert(pos, str, subpos, sublen);
 string.insert(pos, n, char);
 string.insert(iterator, char);
 string.insert(iterator, n, char);
+
 template<class InputIterator>
 string.insert(iterator, InputIterator first, InputIterator last);
 ```
