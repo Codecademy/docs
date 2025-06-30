@@ -256,6 +256,7 @@ Objects
 Obsolete
 Ontologies
 OOP
+Operator Overloading
 Opacity
 ONNX
 IaC
@@ -287,8 +288,9 @@ Preprocessor
 Primary Key
 Print
 Probability
-Promise
 Programming
+Promise
+Prompts
 Properties
 Protocols
 Python
