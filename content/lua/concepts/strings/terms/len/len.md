@@ -24,25 +24,20 @@ string.len(s)
 
 - `s`: The input string whose length is to be determined.
 
+> **Note:** Calling `.len()` without any arguments will result in an error.
+
 ## Example
 
 The following example demonstrates the usage of the `.len()` method:
 
 ```lua
 hello = "hello"
-nihao = "你好"
 hello_len = string.len(hello)
-nihao_len = string.len(nihao)
-nihao_utf8len = utf8.len(nihao)
 print(hello_len)
-print(nihao_len)
-print(nihao_utf8len)
 ```
 
 The above code produces the following output:
 
 ```shell
 5
-6
-2
 ```
