@@ -1,6 +1,6 @@
 ---
 Title: 'Variables'
-Description: 'A variable is a location in computer memory used to store data.'
+Description: 'Variables act as storage containers for data values that can change during program execution.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
