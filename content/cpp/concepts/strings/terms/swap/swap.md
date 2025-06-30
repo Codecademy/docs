@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.swap()`** method for strings is used to exchange the contents of two strings efficiently. It is commonly used in scenarios like optimizing performance during reordering, implementing the copy-and-swap idiom in custom classes, or quickly clearing a string by swapping it with an empty one.
+In C++, the **`.swap()`** method for strings is used to exchange the contents of two strings efficiently. It is commonly used in scenarios like optimizing performance during reordering, implementing the copy-and-swap idiom in custom classes, or quickly clearing a string by swapping it with an empty one.
 
 ## Syntax
 
@@ -72,7 +72,7 @@ b = apple
 
 ## Codebyte Example
 
-In the example below, `.swap()` is called on the `place1` and `place2` strings:
+In this codebyte example, `.swap()` is called on the `place1` and `place2` strings:
 
 ```codebyte/cpp
 #include <iostream>
