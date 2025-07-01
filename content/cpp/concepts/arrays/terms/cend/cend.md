@@ -39,7 +39,7 @@ int main() {
 }
 ```
 
-The output pf the program above will be:
+The output of the program above will be:
 
 ```shell
 2
