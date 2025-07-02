@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`def`** keyword can be used to define a [function](https://www.codecademy.com/resources/docs/python/functions). Functions allow users to group related code into blocks that can be executed repeatedly without rewriting the same lines. Using functions helps improve modularity, reduce redundancy, and increase readability.
+In Python, the **`def`** keyword is used to define a [function](https://www.codecademy.com/resources/docs/python/functions). Functions allow users to group related code into blocks that can be executed repeatedly without rewriting the same lines. Using functions helps improve modularity, reduce redundancy, and increase readability.
 
 ## Syntax
 
@@ -71,7 +71,7 @@ Sum: 8
 
 ## Codebyte Example: Function with Default Parameter
 
-In this example, the `power()` function has a default value (`2`) for the `exponent` parameter. If an argument is not provided for this parameter, the default value will be taken:
+In this example, the `power()` function uses a default parameter value (`2`) for the `exponent` parameter. If an argument is not provided for this parameter, the default value will be taken:
 
 ```py
 def power(base, exponent=2):
