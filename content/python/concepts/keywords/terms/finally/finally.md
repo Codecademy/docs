@@ -1,6 +1,6 @@
 ---
 Title: 'finally'
-Description: 'Defines a block of code that is guaranteed to run without depending on what happens in the try block.'
+Description: 'Defines a block of code that always runs after a `try` block, regardless of whether an exception was raised.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `finally` keyword in Python is used in conjunction with [`try`](https://www.codecademy.com/resources/docs/python/keywords/try) and optionally [`except`](https://www.codecademy.com/resources/docs/python/keywords/except) blocks. It defines a block of code that is guaranteed to run, no matter what happens in the `try` block — whether an [error](https://www.codecademy.com/resources/docs/python/errors) occurs or not. This is particularly useful for actions like closing [files](https://www.codecademy.com/resources/docs/python/files), releasing resources, or cleaning up after an operation.
+The **`finally`** keyword in Python is used in alongside [`try`](https://www.codecademy.com/resources/docs/python/keywords/try) and optionally [`except`](https://www.codecademy.com/resources/docs/python/keywords/except) blocks. It defines a block of code that is guaranteed to run, no matter what happens in the `try` block — whether an [error](https://www.codecademy.com/resources/docs/python/errors) occurs or not. This is particularly useful for actions like closing [files](https://www.codecademy.com/resources/docs/python/files), releasing resources, or cleaning up after an operation.
 
 ## Syntax
 
