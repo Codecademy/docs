@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.assign()`** method in pandas is used to create new columns or modify existing columns in a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) while preserving the original `DataFrame`. It returns a new `DataFrame` object with all original columns plus the newly assigned ones, making it an ideal choice for functional programming approaches and method chaining.
+The **`.assign()`** method in pandas is used to create new columns or modify existing columns in a `DataFrame` while preserving the original `DataFrame`. It returns a new `DataFrame` object with all original columns plus the newly assigned ones, making it an ideal choice for functional programming approaches and method chaining.
 
 The `.assign()` method is particularly useful in data preprocessing, feature engineering, and exploratory data analysis workflows. It allows for dynamic column creation using both static values and callable functions, making it versatile for various data manipulation scenarios. Common use cases include calculating derived metrics, creating categorical variables, applying transformations to existing columns, and building complex data pipelines where immutability is preferred.
 
@@ -48,7 +48,7 @@ df = pd.DataFrame({
   'quantity': [10, 5, 20, 8]
 })
 
-# Add new columns using assign
+# Add new columns using .assign()
 df_updated = df.assign(
   currency='USD',
   in_stock=True,
@@ -85,7 +85,7 @@ sales_df = pd.DataFrame({
   'cost_per_unit': [600.00, 15.00, 45.00, 180.00]
 })
 
-# Calculate business metrics using assign
+# Calculate business metrics using .assign()
 sales_analysis = sales_df.assign(
   total_revenue=lambda x: x['unit_price'] * x['units_sold'],
   total_cost=lambda x: x['cost_per_unit'] * x['units_sold'],
