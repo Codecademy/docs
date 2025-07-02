@@ -1,18 +1,18 @@
 ---
 Title: '.endsWith()'
-Description: 'Checks whether a string ends with the specified characters. It returns true if it does, otherwise false.'
+Description: 'Checks if a string ends with a specified substring, returning true or false.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'Strings'
   - 'Methods'
+  - 'Strings'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.endsWith()`** JavaScript string method checks whether a string ends with the characters of a specified string, returning `true` if the string ends with the specified characters and `false` otherwise. An empty string (`""`) as the specified string  returns `true`. The method is case-sensitive. 
+The **`.endsWith()`** JavaScript string method checks whether a string ends with the characters of a specified string, returning `true` if it does and `false` otherwise. It returns `true` when the specified string is empty (`""`). The method is case-sensitive.
 
 ## Syntax
 
@@ -20,29 +20,35 @@ The **`.endsWith()`** JavaScript string method checks whether a string ends with
 string.endsWith(searchString, endPosition);
 ```
 
-- The `searchString` specifies the characters that will be checked for at the end of the string. It is case-sensitive.
-- The `endPosition` is the position within the string to be treated as the end. It is optional and defaults to `string.length`.
+**Parameters:**
+
+- `searchString`: The characters to search for at the end of `string`.
+- `length` (optional): If provided, it considers only the first [`length`](https://www.codecademy.com/resources/docs/javascript/strings/length) characters of the string.
 
 ## Example
 
-Checking if a string ends with a string:
+In this example, the `.endsWith()` method checks if a string ends with a given substring, optionally considering only a portion of the string based on the provided length:
 
 ```js
 console.log('Hello, World! This is JavaScript.'.endsWith('JavaScript.'));
-// Output: true
 
 console.log('Hello, World! This is JavaScript.'.endsWith('JavaScript'));
-// Output: false
 
 console.log('Hello, World! This is JavaScript.'.endsWith('World', 12));
-// Output: true
+```
+
+The output of this code is:
+
+```shell
+true
+false
+true
 ```
 
 ## Codebyte Example
 
-The following example is runnable and checks if a string, ending at the specified position, ends with the specified searchString:
+The following example is runnable and checks whether a string, up to the specified position, ends with the given search string:
 
 ```codebyte/javascript
 console.log('Does Codecademy end with my?'.endsWith('my', 15));
-// Output: true
 ```
