@@ -28,7 +28,7 @@ eval(expression, globals, locals)
 **Parameters:**
 
 - `expression`: A string containing a valid Python expression to be evaluated
-- `globals` (optional): A dictionary specifying the global namespace for the evaluation
+- `globals` (optional): A [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) specifying the global namespace for the evaluation
 - `locals` (optional): A dictionary specifying the local namespace for the evaluation
 
 **Return value:**
