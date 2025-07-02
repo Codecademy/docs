@@ -1,6 +1,6 @@
 ---
 Title: '.max()'
-Description: 'Returns the maximum value of an array or maximum values along a specified axis'
+Description: 'Returns the maximum value of an array or maximum values along a specified axis.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -26,12 +26,15 @@ numpy.max(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where
 
 **Parameters:**
 
-- `a`: Input array or array-like object containing the data to find maximum values from
-- `axis` (optional): Axis or axes along which to operate. If `None` (default), finds maximum of flattened array. If integer, finds maximum along that axis. If tuple, finds maximum along multiple axes
-- `out` (optional): Alternative output array to store the result. Must have same shape as expected output
-- `keepdims` (optional): If `True`, reduced axes are retained in result as dimensions with size one. If `False` (default), axes are removed
-- `initial` (optional): The maximum value of an output element. Used for empty arrays or as starting value for comparison
-- `where` (optional): Elements to include in maximum calculation. Boolean array specifying which elements to consider
+- `a`: Input array or array-like object containing the data to find maximum values from.
+- `axis` (optional): The axis or axes along which to operate.
+  - If `None` (default), finds maximum of flattened array.
+  - If integer, finds maximum along that axis.
+  - If tuple, finds maximum along multiple axes.
+- `out` (optional): Alternative output array to store the result. Must have same shape as expected output.
+- `keepdims` (optional): If `True`, reduced axes are retained in result as dimensions with size one. If `False` (default), axes are removed.
+- `initial` (optional): The maximum value for an output element. Used for empty arrays or as starting value for comparison.
+- `where` (optional): Boolean array specifying which elements to include in maximum calculation.
 
 **Return value:**
 
