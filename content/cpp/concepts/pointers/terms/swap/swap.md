@@ -157,7 +157,10 @@ No, raw pointers do not have a `.swap()` member function. You should use `std::s
 ### 2. What’s the difference between swapping pointers vs. values?
 
 Swapping pointers exchanges memory addresses, not the values pointed to. To swap actual values, dereference the pointers:
-`std::swap(*ptr1, *ptr2);`
+
+```cpp
+std::swap(*ptr1, *ptr2);
+```
 
 ### 3. Can I use `.swap()` with smart pointers?
 
