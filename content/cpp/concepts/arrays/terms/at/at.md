@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.at()`** method is a member function of the `std::array` container in C++ that provides safe access to elements by their position index. Unlike the subscript operator (`[]`), the `.at()` method automatically performs bounds checking and throws an `std::out_of_range` exception if the specified index is invalid. This makes it a safer alternative for element access when you need to ensure that [array](https://www.codecademy.com/resources/docs/cpp/arrays) bounds are not violated.
+The **`.at()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) in C++ is a member [function](https://www.codecademy.com/resources/docs/cpp/functions) of the `std::array` container that provides safe access to elements by their position index. Unlike the subscript operator (`[]`), the `.at()` method automatically performs bounds checking and throws an `std::out_of_range` [exception](https://www.codecademy.com/resources/docs/cpp/exceptions) if the specified index is invalid. This makes it a safer alternative for element access when you need to ensure that array bounds are not violated.
 
-The `.at()` method is particularly useful in scenarios where data integrity and error handling are critical, such as processing user input, parsing data files, or working with indices that might be calculated dynamically. It provides a balance between performance and safety, making code more robust while maintaining reasonable execution speed.
+The `.at()` method is particularly useful in scenarios where data integrity and [error](https://www.codecademy.com/resources/docs/cpp/errors) handling are critical, such as processing user input, parsing data files, or working with indices that might be calculated dynamically. It provides a balance between safety and performance, making code more robust while maintaining reasonable execution speed.
 
 ## Syntax
 
@@ -172,7 +172,7 @@ int main() {
 }
 ```
 
-This example illustrates how `.at()` method enables the creation of robust data management systems where array bounds are automatically validated, preventing potential crashes and providing clear error feedback.
+This example illustrates how the `.at()` method enables the creation of robust data management systems where array bounds are automatically validated, preventing potential crashes and providing clear error feedback.
 
 ## Frequently Asked Questions
 
