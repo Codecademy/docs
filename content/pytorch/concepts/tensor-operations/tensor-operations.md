@@ -9,6 +9,7 @@ Tags:
   - 'Arrays'
   - 'Deep Learning'
   - 'TensorFlow'
+  - 'PyTorch'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'py-torch-for-classification'
