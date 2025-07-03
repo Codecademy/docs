@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Routing** is the process of deciding what paths communication signals may take across one or more networks. This process is used in many scenarios related to computer networking, including:
+**Routing** is the process of deciding what paths communication signals may take across one or more networks. The difference between routers and switches is that switches connect devices within the same network, while routers connect different networks. Routers are therefore also known as layer 3 devices whereas switches mainly operate at layer 2 (data link layer) of the OSI model. When a device on the LAN needs to communicate outside of its subnet, a switch forwards the traffic to the router that sends the traffic to the appropriate external network. The routing process is used in many scenarios related to computer networking, including:
 
-- A PC communicating with a printer across a Local Area Network, or LAN.
+- A PC communicating with a printer located in a different subnet of the same Local Area Network, or LAN.
 - A phone's web browser communicating with a web server over the Internet.
 
 Through routing, these communication signals, called packets, can take multiple paths from the source to the destination.
