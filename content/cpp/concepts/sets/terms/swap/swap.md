@@ -1,120 +1,101 @@
 ---
-Title: 'swap() (C++ set)'
-Description: 'Exchanges the contents of two std::set containers in constant time.'
+Title: 'swap()'
+Description: 'Exchanges the contents of two sets.'
 Subjects:
-  - 'C++'
-  - 'Sets'
-  - 'Standard Library'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'cpp'
-  - 'set'
-  - 'swap'
+  - 'Containers'
+  - 'Sets'
 CatalogContent:
-  - 'learn-cplusplus'
-  - 'paths/c-plus-plus'
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
-**swap() exchanges the contents of two std::set containers (or two compatible ordered associative containers). Swapping is typically faster than moving elements one by one because it only exchanges internal pointers and metadata, keeping the elements themselves untouched.**.
+**`swap()`** exchanges the contents of two `std::set` containers (or two compatible ordered associative containers). This operation is typically faster than copying or moving elements individually, as it swaps internal pointers and metadata without modifying or relocating the actual elements.
 
 ## Syntax
 
-**Non‑member overload (preferred)**
+```pseudo
+set1.swap(set2);
+```
 
-using std::swap; 
-// (since C++11)
-template< class Key, class Compare, class Alloc >
-void swap( std::set< Key, Compare, Alloc >& lhs,
-           std::set< Key, Compare, Alloc >& rhs );
+Or using the non-member function:
 
-**Parameters**
-
-- lhs, rhs — sets whose contents will be exchanged.
-
-**Complexity** — Amortized O(1); pointers to elements remain valid.
-
-**Exceptions** — noexcept if the allocator's propagate‑on‑swap trait is true or the allocators compare equal.
-
-**Member function**
-
-set::swap( set& other );   // (since C++11)
+```pseudo
+std::swap(set1, set2);
+```
 
 **Parameters**
 
-- other — the set whose contents will be exchanged with *this.
+- `set1`, `set2`: Two `std::set` containers of the same type (including the same key type, comparator, and allocator).
 
-**Complexity** — Constant.
+**Return value:**
 
-**Exceptions** — Same conditions as above.
+- The function does not return anything. It simply swaps the contents.
 
 ## Example
 
+In this example, `std::swap()` is used to exchange the contents of two integer sets named `odds` and `evens`:
+
+```cpp
 #include <iostream>
 #include <set>
 #include <algorithm>
 
 int main() {
-    std::set<int> odds  {1, 3, 5, 7};
-    std::set<int> evens {2, 4, 6, 8};
+  std::set<int> odds  {1, 3, 5, 7};
+  std::set<int> evens {2, 4, 6, 8};
 
-    std::cout << "Before swap → odds: ";
-    for (int n : odds)  std::cout << n << ' ';
-    std::cout << "| evens: ";
-    for (int n : evens) std::cout << n << ' ';
-    std::cout << '\n';
+  std::cout << "Before swap → odds: ";
+  for (int n : odds)  std::cout << n << ' ';
+  std::cout << "| evens: ";
+  for (int n : evens) std::cout << n << ' ';
+  std::cout << '\n';
 
-    std::swap(odds, evens);   // non‑member swap
+  std::swap(odds, evens);   // non‑member swap
 
-    std::cout << "After  swap → odds: ";
-    for (int n : odds)  std::cout << n << ' ';
-    std::cout << "| evens: ";
-    for (int n : evens) std::cout << n << ' ';
-    std::cout << '\n';
+  std::cout << "After  swap → odds: ";
+  for (int n : odds)  std::cout << n << ' ';
+  std::cout << "| evens: ";
+  for (int n : evens) std::cout << n << ' ';
+  std::cout << '\n';
 }
+```
 
-Output
+The output of this code is:
 
+```shell
 Before swap → odds: 1 3 5 7 | evens: 2 4 6 8
 After  swap → odds: 2 4 6 8 | evens: 1 3 5 7
+```
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
+In this example, the member function `swap()` is used to swap the contents of two string sets, `a` and `b`:
+
+```codebyte/cpp
 #include <iostream>
 #include <set>
 #include <algorithm>
 
 int main() {
-    std::set<std::string> a {"apple", "banana"};
-    std::set<std::string> b {"carrot", "date", "eggplant"};
+  std::set<std::string> a {"apple", "banana"};
+  std::set<std::string> b {"carrot", "date", "eggplant"};
 
-    auto dump = [](const std::string& label, const std::set<std::string>& s){
-        std::cout << label << ": ";
-        for (const auto& v : s) std::cout << v << ' ';
-        std::cout << '\n';
-    };
+  auto dump = [](const std::string& label, const std::set<std::string>& s){
+    std::cout << label << ": ";
+    for (const auto& v : s) std::cout << v << ' ';
+    std::cout << '\n';
+  };
 
-    dump("a", a);
-    dump("b", b);
+  dump("a", a);
+  dump("b", b);
 
-    a.swap(b); // member swap
+  a.swap(b); // member swap
 
-    std::cout << "\nAfter swap\n";
-    dump("a", a);
-    dump("b", b);
+  std::cout << "\nAfter swap\n";
+  dump("a", a);
+  dump("b", b);
 }
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
 ```
