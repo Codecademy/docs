@@ -1,6 +1,6 @@
 ---
 Title: '.div()'
-Description: 'Performs element-wise division of tensors or divides a tensor by a scalar.'
+Description: 'Performs element-wise division of input tensors or a tensor by a scalar.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-The **`.div()`** function performs element-wise division between tensors or divides a tensor by a scalar value. It is a fundamental tensor operation in [PyTorch](https://www.codecademy.com/resources/docs/pytorch) that is widely used in various machine learning and deep learning applications, including data preprocessing, normalization, and optimization algorithms.
+The **`.div()`** function performs element-wise division between tensors or divides a tensor by a scalar value. It is a fundamental tensor operation in [PyTorch](https://www.codecademy.com/resources/docs/pytorch), commonly used in machine learning and deep learning tasks such as data preprocessing, normalization, and optimization.
 
-Element-wise operations are crucial in tensor computations as they allow for efficient parallel processing of data. The `.div()` function provides a simple and optimized way to perform division operations on tensors, which is often required in neural network implementations and mathematical transformations.
+Element-wise operations are essential in tensor computations, enabling efficient parallel processing. The `torch.div()` function offers a simple and optimized way to handle division across tensors in neural networks and mathematical transformations.
 
 ## Syntax
 
@@ -27,16 +27,16 @@ torch.div(input, other, *, rounding_mode=None, out=None)
 
 - `input`: The input tensor (dividend).
 - `other`: The tensor or scalar to divide by (divisor).
-- `rounding_mode` (Optional): Controls the rounding behavior. Can be `None`, `trunc`, or `floor`.
+- `rounding_mode` (Optional): Controls the rounding behavior. Can be `None` (default), `trunc`, or `floor`.
 - `out` (Optional): The output tensor to store the result.
 
 **Return value:**
 
-Returns a new tensor with the result of the division operation unless `out` is specified.
+A tensor with the result of element-wise division. If `out` is provided, the returned tensor is the same as `out`.
 
 ## Example 1: Basic Usage of `.div()` with tensors
 
-Let's start with a basic example to understand how `.div()` works with PyTorch tensors:
+This example demonstrates how to use `torch.div()` to perform element-wise division between two tensors of the same shape:
 
 ```py
 import torch
@@ -66,7 +66,7 @@ The `.div()` operation computes the element-wise division of `tensor1` by `tenso
 
 ## Example 2: Division with Rounding Modes
 
-The `.div()` function supports different rounding modes, which can be useful in specific scenarios:
+The `torch.div()` function supports optional rounding modes when performing integer division, which control how the result is rounded:
 
 ```py
 import torch
@@ -96,9 +96,9 @@ Trunc division: tensor([2, 3, 3, 3])
 
 The rounding modes control how the division results are handled:
 
-- Default mode performs true division (floating-point result)
-- `floor` mode rounds down to the nearest integer
-- `trunc` mode truncates the decimal part (rounds toward zero)
+- Default mode performs true division, returning floating-point results.
+- `floor` mode rounds the result down toward negative infinity (i.e., floor division).
+- `trunc` mode truncates the decimal part, rounding toward zero.
 
 ## Example 3: Data Normalization with `.div()`
 
