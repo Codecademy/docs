@@ -1,88 +1,166 @@
 ---
 Title: '.percentile()'
-Description: 'Calculates the Xth percentile of the given data.'
+Description: 'Computes the q-th percentile of data along a specified axis.'
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'Arrays'
-  - 'Data'
   - 'Functions'
-  - 'Methods'
   - 'NumPy'
+  - 'Statistics'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-The **`.percentile()`** function returns the Xth percentile of the given data along a specified axis. Percentiles are used in statistics to measure the distribution of data. The Xth percentile is the value below which X percent of the data falls. For example, the 95th percentile is the value greater than exactly 95 percent of the data.
+The **`.percentile()`** is a statistical measure that indicates the value below which a given percentage of observations in a dataset falls. NumPy's `.percentile()` function computes the q-th percentile of data along a specified axis, making it an essential tool for statistical analysis and data exploration.
+
+This function is commonly used in data science for analyzing data distributions, identifying outliers, calculating quartiles, and creating statistical summaries. It's particularly valuable when working with large datasets where you need to understand the spread and central tendencies of your data.
 
 ## Syntax
 
 ```pseudo
-numpy.percentile(a, X, axis=None, out=None, overwrite_input=False, method='Linear', keepdims=False)
+numpy.percentile(a, q, axis=None, out=None, overwrite_input=False, method='linear', keepdims=False, weights=None, interpolation=None)
 ```
 
-Required Parameters:
+**Parameters:**
 
-- `a`: The input data from which the percentile is to be calculated.
-- `X`: The list of numbers representing the percentiles to be calculated.
+- `a`: Input array or object that can be converted to an array
+- `q`: Percentile or sequence of percentiles to compute. Values must be between 0 and 100 inclusive
+- `axis` (optional): Axis or axes along which the percentiles are computed. Default is `None` (flattened array)
+- `out` (optional): Alternative output array in which to place the result
+- `overwrite_input` (optional): If `True`, allow the input array to be modified for memory efficiency
+- `method` (optional): Method to compute percentile ('linear', 'lower', 'higher', 'midpoint', 'nearest')
+- `keepdims` (optional): If `True`, the reduced axes are left in the result as dimensions with size one
+- `weights` (optional): Array of weights associated with the values in the input array
+- `interpolation` (optional): Deprecated parameter, use `method` instead
 
-Optional Parameters:
+**Return value:**
 
-- `axis`: The axis along which the percentile is to be calculated. If not specified, the percentile is calculated along a flattened version of `a`.
-- `out`: The output array that has the same shape as the output of the function.
-- `overwrite_input`: If `True`, this allows calculations to be performed on the input array, `a`.
-- `method`: Defines the method used to calculate the percentile. Other than 'Linear', it can be set to 'inverted_cdf', 'averaged_inverted_cdf', 'closest_observation', 'interpolated_inverted_cdf', 'hazen', 'weibull', 'median_unbiased' and 'normal_unbiased'.
-- `keepdims`: If `True`, the axes that are reduced when calculating the percentile are kept in the result with dimensions of size one.
+Returns the q-th percentile(s) of the array elements. If `q` is a single percentile, returns a scalar. If multiple percentiles are given, returns an array.
 
-Returns:
+## Example 1: Basic Percentile Calculation
 
-- If `X` is a single value and `axis=None`, the function returns a single value representing the Xth percentile of all the values in `a`.
-- If `X` is an array, the function returns an array where each element contains a percentile corresponding to the values specified in `X`.
-- If `axis` is given, the function calculates the percentiles of the values along the specified axes.
-
-## Example
-
-The following example creates an array and then uses `.percentile()` to calculate various percentiles from the data:
+This example demonstrates how to calculate a single percentile from a one-dimensional array:
 
 ```py
 import numpy as np
 
-a = np.array([[1,2,3],[4,5,6]])
+# Create a sample array
+data = np.array([1, 3, 5, 7, 9, 11, 13, 15, 17, 19])
 
-print(np.percentile(a,50))
-print(np.percentile(a,50,axis=0))
-print(np.percentile(a,[50,75]))
-print(np.percentile(a,[50,75],axis=1))
+# Calculate the 50th percentile (median)
+result = np.percentile(data, 50)
+print(f"50th percentile: {result}")
+
+# Calculate multiple percentiles
+quartiles = np.percentile(data, [25, 50, 75])
+print(f"Quartiles: {quartiles}")
 ```
 
-This prints the following output:
+The output of this code is:
 
 ```shell
-3.5
-[2.5 3.5 4.5]
-[3.5  4.75]
-[[2.  5. ]
- [2.5 5.5]]
+50th percentile: 10.0
+Quartiles: [ 5.5 10.  14.5]
 ```
 
-## Codebyte Example
+The 50th percentile represents the median value, which is the middle value when the data is sorted. The function returns `10.0` as the median, and `[5.5, 10.0, 14.5]` for the quartiles.
 
-The following example calculates different percentile values for the given array, `a`:
+## Example 2: Analyzing Test Score Distribution
+
+This example shows how to use `.percentile()` to analyze student test scores and understand performance distribution:
+
+```py
+import numpy as np
+
+# Student test scores from multiple classes
+test_scores = np.array([
+    [85, 92, 78, 95, 88],  # Class 1
+    [72, 85, 90, 67, 82],  # Class 2
+    [95, 89, 91, 87, 93],  # Class 3
+    [68, 75, 80, 72, 77]   # Class 4
+])
+
+# Calculate percentiles for overall performance
+overall_scores = test_scores.flatten()
+performance_metrics = np.percentile(overall_scores, [10, 25, 50, 75, 90])
+
+print("Performance Distribution:")
+print(f"10th percentile (bottom 10%): {performance_metrics[0]}")
+print(f"25th percentile (Q1): {performance_metrics[1]}")
+print(f"Median (Q2): {performance_metrics[2]}")
+print(f"75th percentile (Q3): {performance_metrics[3]}")
+print(f"90th percentile (top 10%): {performance_metrics[4]}")
+
+# Calculate median score for each class
+class_medians = np.percentile(test_scores, 50, axis=1)
+print(f"\nMedian scores by class: {class_medians}")
+```
+
+The output of this code is:
+
+```shell
+Performance Distribution:
+10th percentile (bottom 10%): 71.60000000000001
+25th percentile (Q1): 76.5
+Median (Q2): 85.0
+75th percentile (Q3): 90.25
+90th percentile (top 10%): 93.20000000000002
+
+Median scores by class: [88. 82. 91. 75.]
+```
+
+This analysis helps identify performance ranges and compare different classes. The overall percentiles show the distribution of all scores, while the class-specific medians reveal which classes perform better on average.
+
+## Codebyte Example: Financial Data Analysis
+
+This example demonstrates using `.percentile()` for financial risk analysis with stock price data:
 
 ```codebyte/python
 import numpy as np
 
-a = np.array([[1,2,3],[4,5,6]])
+# Simulated daily stock returns (as percentages)
+np.random.seed(42)  # For reproducible results
+stock_returns = np.random.normal(0.05, 0.15, 252)  # 252 trading days
 
-percentile_50 = np.percentile(a,50)
-percentile_75_row = np.percentile(a,75,axis=1)
-percentile_75_column = np.percentile(a,75,axis=0)
-percentile_multiple = np.percentile(a,[50,75,90])
+# Calculate Value at Risk (VaR) using percentiles
+var_95 = np.percentile(stock_returns, 5)  # 5th percentile for 95% VaR
+var_99 = np.percentile(stock_returns, 1)  # 1st percentile for 99% VaR
 
-print("The 50th percentile of all the data is:", percentile_50)
-print("The 75th percentile along each row is:", percentile_75_row)
-print("The 75th percentile along each column is:", percentile_75_column)
-print("The 50th, 75th and 90th percentiles are:", percentile_multiple)
+print("Risk Analysis:")
+print(f"95% VaR: {var_95:.4f} (95% chance losses won't exceed this)")
+print(f"99% VaR: {var_99:.4f} (99% chance losses won't exceed this)")
+
+# Calculate performance quartiles
+quartiles = np.percentile(stock_returns, [25, 50, 75])
+print(f"\nReturn Distribution:")
+print(f"Q1 (25th percentile): {quartiles[0]:.4f}")
+print(f"Median return: {quartiles[1]:.4f}")
+print(f"Q3 (75th percentile): {quartiles[2]:.4f}")
+
+# Identify extreme performance days
+top_5_percent = np.percentile(stock_returns, 95)
+bottom_5_percent = np.percentile(stock_returns, 5)
+
+print(f"\nExtreme Performance Thresholds:")
+print(f"Top 5% days: Returns above {top_5_percent:.4f}")
+print(f"Bottom 5% days: Returns below {bottom_5_percent:.4f}")
 ```
+
+This financial analysis uses percentiles to calculate Value at Risk (VaR), which helps investors understand potential losses, and to identify extreme performance periods in the stock's history.
+
+## Frequently Asked Questions
+
+### 1. What's the difference between `.percentile()` and `.quantile()`?
+
+`.percentile()` uses values from 0-100, while `.quantile()` uses values from 0-1. For example, `percentile(data, 25)` equals `quantile(data, 0.25)`.
+
+### 2. How do I handle NaN values in my data?
+
+Use `np.nanpercentile()` instead of `np.percentile()` to automatically ignore NaN values in your calculations.
+
+### 3. Can I calculate percentiles along specific axes in multi-dimensional arrays?
+
+Yes, use the `axis` parameter. For example, `axis=0` calculates percentiles along rows, `axis=1` along columns, and `axis=None` (default) flattens the array first.
