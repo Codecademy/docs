@@ -1,6 +1,6 @@
 ---
 Title: '.cend()'
-Description: 'Returns a constant iterator that points to the element after the last element in the array.' 
+Description: 'Returns a constant iterator pointing just past the last element of an array container.' 
 Subjects: 
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,59 +12,65 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`cend()`** takes no parameters and returns a constant iterator pointing to the element 
-after the last element in the array
+**`.cend()`** is a member function of standard C++ containers (such as [arrays](https://www.codecademy.com/resources/docs/cpp/arrays), [vectors](https://www.codecademy.com/resources/docs/cpp/vectors), and [sets](https://www.codecademy.com/resources/docs/cpp/sets)) that returns a constant iterator pointing just past the last element of the container. The "c" in `.cend()` stands for "const", indicating that the iterator cannot modify the elements it accesses. This function is commonly used for read-only traversal and is typically employed in range checks or `for` loops to define the end boundary of the container.
 
 ## Syntax
+
 ```pseudo
 array.cend();
 ```
 
-## Example: Using cend to get Last Element
+**Parameters:**
 
-This example prints the last element using cend()
+This function does not take any parameters.
+
+**Return value:**
+
+Returns a constant iterator pointing just past the last element of the container.
+
+## Example: Using `.cend()` to Access the Last Element
+
+This example prints the last element of the array by using `.cend()` and moving one step backward:
 
 ```cpp
-
 #include <iostream>
 #include <array>
 
 int main() {
-    std::array<int,2> array = {1,2};
-    //gets iterator after last element
-    auto it = array.cend();
-    //uses iterator to get last element 2
-    std::cout << *(std::prev(it)) << "\n";
-    return 0;
+  std::array<int, 2> array = {1, 2};
+
+  // Get constant iterator just past the last element
+  auto it = array.cend();
+
+  // Move one step back to point to the last element
+  std::cout << *(std::prev(it)) << "\n";  // Outputs: 2
+
+  return 0;
 }
 ```
 
-The output of the program above will be:
+The output of this program will be:
 
 ```shell
 2
 ```
 
-## Codebyte Example: Using Cend to print array
+## Codebyte Example: Using `.cend()` to Print an Array
 
-The following code makes an array and uses cend to print out all of its elements.
+The following code creates an array and uses `.cbegin()` and `.cend()` to print all of its elements:
 
 ```codebyte/cpp
 #include <iostream>
 #include <array>
 
 int main() {
-  std::array<int,4> array = {1, 2, 3, 4};
+  std::array<int, 4> array = {1, 2, 3, 4};
 
-  //prints all elements in array
-  for(auto i = array.cbegin(); i != array.cend(); ++i){
+  // Prints all elements in the array using const iterators
+  for (auto i = array.cbegin(); i != array.cend(); ++i) {
     std::cout << *i << " ";
   }
 
   return 0;
 }
-```
-The output of the program above will be
-```shell
-1 2 3 4
 ```
