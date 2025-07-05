@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.size()`** method returns the number of elements in the vector. It follows the consistency of other standard library containers, such as [maps](https://www.codecademy.com/resources/docs/cpp/maps) and [strings](https://www.codecademy.com/resources/docs/cpp/strings). Understanding how and when to use `.size()` is essential for writing efficient and bug-free C++ code involving vectors.
+In C++, the **`.size()`** method returns the number of elements in the vector. This method is also available for other STL containers like `std::string`, `std::map`, and `std::list`. Knowing how to use `.size()` effectively helps in writing safe and efficient loops and conditionals.
 
 ## Syntax
 
