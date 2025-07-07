@@ -33,7 +33,7 @@ An integer value indicating the number of items in the object.
 
 ## Example 1: Basic Usage
 
-This example demonstrates the fundamental usage of `len()` with different data types:
+The following example demonstrates the fundamental usage of `len()` with different data types:
 
 ```py
 # String length
