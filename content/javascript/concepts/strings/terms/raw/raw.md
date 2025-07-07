@@ -117,14 +117,14 @@ console.log(urlRegex2.test(url));
 
 ## Frequently Asked Questions
 
-### 1. When should I use String.raw() instead of regular template literals?
+### 1. When should I use `String.raw()` instead of regular template literals?
 
 Use `String.raw()` when you need to preserve escape sequences exactly as written, such as when working with file paths, regular expressions, or any text that contains backslashes that should not be interpreted as escape characters.
 
-### 2. Can I use String.raw() with variable substitution?
+### 2. Can I use `String.raw()` with variable substitution?
 
 Yes, `String.raw()` supports template literal substitution using `${}` syntax. The substituted values are processed normally while escape sequences in the literal parts remain raw.
 
-### 3. Does String.raw() work with all escape sequences?
+### 3. Does `String.raw()` work with all escape sequences?
 
 Yes, `String.raw()` preserves all escape sequences including `\n`, `\t`, `\"`, `\'`, `\\`, and Unicode escapes like `\u0041`. None of these are processed or converted.
