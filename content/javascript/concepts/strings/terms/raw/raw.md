@@ -59,7 +59,7 @@ This example results in the following output:
 Line 1
 Line 2    Tabbed
 Line 1\nLine 2\tTabbed
-20
+22
 ```
 
 In this example, the regular template literal interprets `\n` as a newline character and `\t` as a tab character. However, `String.raw()` treats these as literal backslash-n and backslash-t character sequences, preserving them exactly as written.
