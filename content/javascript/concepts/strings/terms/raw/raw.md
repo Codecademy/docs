@@ -85,7 +85,6 @@ C:\Users\John\Documents\file.txt
 C:\Users\John\Documents\file.txt
 ```
 
-> **Note:** While escape sequences are preserved in static parts, interpolated values (e.g. `${username}`) are still evaluated normally.
 
 This example demonstrates how `String.raw()` eliminates the need for double-escaping backslashes when working with file paths, making the code more readable and less error-prone.
 
