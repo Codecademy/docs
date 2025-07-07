@@ -84,7 +84,6 @@ This example results in the following output:
 ```shell
 C:\Users\John\Documents\file.txt
 C:\Users\John\Documents\file.txt
-C:\Users\Alice\Desktop\report.pdf
 ```
 
 > **Note:** While escape sequences are preserved in static parts, interpolated values (e.g. `${username}`) are still evaluated normally.
