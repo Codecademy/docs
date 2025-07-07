@@ -77,11 +77,6 @@ console.log(windowsPath1);
 const windowsPath2 = String.raw`C:\Users\John\Documents\file.txt`;
 console.log(windowsPath2);
 
-// Dynamic path construction with substitution
-const username = 'Alice';
-const filename = 'report.pdf';
-const dynamicPath = `C:\\Users\\${username}\\Desktop\\${filename}`;
-console.log(dynamicPath);
 ```
 
 This example results in the following output:
