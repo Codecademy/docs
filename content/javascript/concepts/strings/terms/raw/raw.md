@@ -80,7 +80,7 @@ console.log(windowsPath2);
 // Dynamic path construction with substitution
 const username = 'Alice';
 const filename = 'report.pdf';
-const dynamicPath = String.raw`C:\Users\${username}\Desktop\${filename}`;
+const dynamicPath = `C:\\Users\\${username}\\Desktop\\${filename}`;
 console.log(dynamicPath);
 ```
 
