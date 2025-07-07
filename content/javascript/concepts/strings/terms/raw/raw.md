@@ -76,7 +76,6 @@ console.log(windowsPath1);
 // With String.raw() - no escaping needed
 const windowsPath2 = String.raw`C:\Users\John\Documents\file.txt`;
 console.log(windowsPath2);
-
 ```
 
 This example results in the following output:
