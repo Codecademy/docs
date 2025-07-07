@@ -70,7 +70,7 @@ The `len()` function counts characters in strings, elements in lists and tuples,
 
 ## Example 2: Input Validation
 
-This example shows how to use `len()` for validating user input in real-world scenarios:
+The following example shows how to use `len()` for validating user input in real-world scenarios:
 
 ```py
 def validate_username(username):
