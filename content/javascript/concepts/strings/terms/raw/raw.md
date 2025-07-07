@@ -85,7 +85,6 @@ C:\Users\John\Documents\file.txt
 C:\Users\John\Documents\file.txt
 ```
 
-
 This example demonstrates how `String.raw()` eliminates the need for double-escaping backslashes when working with file paths, making the code more readable and less error-prone.
 
 ## Codebyte Example: Regular Expression Patterns
