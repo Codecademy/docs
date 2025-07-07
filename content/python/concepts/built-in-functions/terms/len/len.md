@@ -107,7 +107,7 @@ This demonstrates how `len()` is commonly used in form validation, password requ
 
 ## Codebyte Example: Data Processing Pipeline
 
-This example illustrates using `len()` in a data processing scenario to analyze and filter datasets.
+The following example illustrates using `len()` in a data processing scenario to analyze and filter datasets:
 
 ```codebyte/python
 def analyze_survey_responses(responses):
