@@ -74,7 +74,7 @@ def calculate_temperature_difference(temp1, temp2):
   """Calculate the absolute difference between two temperatures"""
   # Use abs() to get positive difference regardless of order
   difference = abs(temp1 - temp2)
-  return difference
+  return round(difference, 1)
 
 # Morning and evening temperatures
 morning_temp = 18.5  # Celsius
