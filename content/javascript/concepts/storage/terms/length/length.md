@@ -1,6 +1,6 @@
 ---
 Title: '.length'
-Description: 'Returns the number of elements, characters, or items in a given data structure.'
+Description: 'Returns the number of elements in an array, characters in a string, or items in array-like objects such as NodeLists.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, the **`.length`** property is used to determine the number of elements, characters, or items in a given data structure, such as arrays or strings. This property is straightforward to use and plays a crucial role in JavaScript, making it simple for developers to work with the data.
+In JavaScript, the **`.length`** property is used to determine the number of elements, characters, or items in a given data structure, such as [arrays](https://www.codecademy.com/resources/docs/javascript/arrays) or [strings](https://www.codecademy.com/resources/docs/javascript/strings). This property is straightforward to use and plays a crucial role in JavaScript, making it simple for developers to work with the data.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ The `.length` property does not accept any parameters.
 
 **Return value:**
 
-Returns the number of elements, characters, or items in a given data structure.
+Returns a number representing the count of items or characters, depending on the object it's used with (e.g., arrays, strings, NodeLists).
 
 ## Example 1: Using `.length` with Arrays
 
