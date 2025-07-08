@@ -19,7 +19,7 @@ In Pandas, the **`.sort_values()`** function is used to sort values in a `DataFr
 ## Syntax
 
 ```pseudo
-dataframevalue.sort_values(by, axis=0, ascending=True, inplace=False, kind='quicksort', na_position='last', ignore_index=False, key=None)
+DataFrame.sort_values(by, axis=0, ascending=True, inplace=False, kind='quicksort', na_position='last', ignore_index=False, key=None)
 ```
 
 **Parameters:**
@@ -28,14 +28,14 @@ dataframevalue.sort_values(by, axis=0, ascending=True, inplace=False, kind='quic
 - `axis`: Specifies which axis will be sorted (`0` or index, `1` or columns); defaults to `0`.
 - `ascending`: Specifies whether the sort will be ascending or descending (`True` or `False`); defaults to `True`.
 - `inplace`: By setting it to `True`, the operation will be performed on the original `DataFrame` and the function will return `None`; defaults to `False`.
-- `kind`: Specifies which algorithm to use: `‘quicksort’`, `‘mergesort’`, `‘heapsort’`, or `‘stable’`; defaults to `'quicksort'`.
+- `kind`: Specifies which algorithm to use: `'quicksort'`, `'mergesort'`, `'heapsort'`, or `'stable'`; defaults to `'quicksort'`.
 - `na_position`: Specifies where to put the `NaN` values; defaults to `last`.
 - `ignore_index`: Ignores the original index and put a new ascending set of values in its place. The default is `False`.
 - `key`: Applies a function before sorting.
 
 **Return value:**
 
-The `.sort_values()` function returns a `DataFrame` with its value sorted by one or more columns.
+The `.sort_values()` function returns a sorted `DataFrame` (or `None` if `inplace=True`).
 
 ## Example 1: Sort by a Single Column
 
@@ -58,8 +58,7 @@ print(sorted_df)
 
 Here is the output:
 
-```
-     Name  Score
+```shell
       Name  Score
 2  Charlie     85
 0    Alice     88
@@ -89,7 +88,7 @@ print(sorted_df)
 
 Here is the output:
 
-```
+```shell
       Name Department  Score
 3    David    Finance     90
 1      Bob    Finance     92
