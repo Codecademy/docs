@@ -178,4 +178,4 @@ Yes, `abs()` works with Python's `decimal.Decimal` objects as they implement the
 
 ### 5. What is the time complexity of `abs()`?
 
-`abs()` has O(1) time complexity for integers and floats, making it very efficient for mathematical operations.
+`abs()` has `O(1)` time complexity for integers and floats, making it very efficient for mathematical operations.
