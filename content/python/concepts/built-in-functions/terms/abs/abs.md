@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`abs()`** function is a built-in Python function that returns the absolute value of a number. The absolute value represents the distance of a number from zero on the number line, always resulting in a non-negative value. This function removes the negative sign from negative numbers while leaving positive numbers unchanged.
+The **`abs()`** function is a [built-in](https://www.codecademy.com/resources/docs/python/built-in-functions) Python function that returns the absolute value of a number. The absolute value represents the distance of a number from zero on the number line, always resulting in a non-negative value. This function removes the negative sign from negative numbers while leaving positive numbers unchanged.
 
 The `abs()` function is commonly used in mathematical calculations, data analysis, distance calculations, and anywhere there is a need to work with magnitudes rather than signed values. It accepts integers, floating-point numbers, and complex numbers as input, making it versatile for various numerical operations.
 
