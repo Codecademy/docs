@@ -1,257 +1,162 @@
 ---
-Title: 'enum'
-Description: 'Defines a set of named integer constants in C++ for better code readability and maintainability.'
+Title: 'Enum'
+Description: 'Defines a variable with a limited set of predefined values.'
 Subjects:
-  - 'Code Foundations'
   - 'Computer Science'
+  - 'Game Development'
 Tags:
-  - 'Data Types'
   - 'Enum'
-  - 'Variables'
+  - 'Data Types'
+  - 'Arrays'
+  - 'Vectors'
+  - 'Pointers'
+  - 'Memory'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-An **`enum`** is a user-defined [data type](https://www.codecademy.com/resources/docs/cpp/data-types) in C++ that defines a set of named integer constants. It provides a way to create symbolic names for a group of related values, making code more readable and maintainable. Enums are particularly useful when you need to represent a fixed set of options or states in your program.
-
-Enums are commonly used in scenarios such as representing days of the week, menu options, game states, error codes, or any situation where you have a limited set of predefined values. They help prevent magic numbers in code and make programs more self-documenting.
+In C++, an **enumeration (enum)** is a user defined type where a set of values is specified for a variable and the variable can only take one out of a small set of possible values.
 
 ## Syntax
 
-```pseudo
-enum enum_name {
-  constant1,
-  constant2,
-  constant3,
-  ...
-};
-```
-
-**Parameters:**
-
-- `enum_name`: The name of the enumeration type
-- `constant1, constant2, constant3, ...`: Named constants within the enum
-
-**Return value:**
-
-Enums do not return values directly. They define a new data type that can be used to create variables.
-
-## Example 1: Basic Enum Creation
-
-This example demonstrates how to create a simple enum and use it in a program:
+The keyword `enum` is used to define an enumeration.
 
 ```cpp
-#include <iostream>
-using namespace std;
-
-// Define an enum for days of the week
-enum Day {
-  MONDAY,
-  TUESDAY,
-  WEDNESDAY,
-  THURSDAY,
-  FRIDAY,
-  SATURDAY,
-  SUNDAY
-};
-
-int main() {
-  // Create an enum variable
-  Day today = WEDNESDAY;
-
-  // Output the enum value
-  cout << "Today is day number: " << today << endl;
-
-  return 0;
-}
+enum name {const1, const2, ...};
 ```
 
-The output of this code is:
-
-```shell
-Today is day number: 2
-```
-
-In this example, we define an enum called `Day` with seven constants representing days of the week. By default, `MONDAY` gets the value 0, `TUESDAY` gets 1, and so on. We then create a variable `today` of type `Day` and assign it the value `WEDNESDAY`, which has the integer value 2.
-
-## Example 2: Changing Values in Enum
-
-This example shows how to assign custom values to enum constants:
+Here's an example:
 
 ```cpp
-#include <iostream>
-using namespace std;
-
-// Define an enum with custom values
-enum Priority {
-  LOW = 1,
-  MEDIUM = 5,
-  HIGH = 10,
-  URGENT = 15
-};
-
-int main() {
-  // Create enum variables
-  Priority taskPriority = HIGH;
-  Priority alertLevel = URGENT;
-
-  // Display the values
-  cout << "Task priority: " << taskPriority << endl;
-  cout << "Alert level: " << alertLevel << endl;
-
-  // Compare enum values
-  if (alertLevel > taskPriority) {
-    cout << "Alert level is higher than task priority" << endl;
-  }
-
-  return 0;
-}
+enum day {sun, mon, tue, wed, thu, fri, sat};
 ```
 
-The output of this code is:
+- `sun` would have the value 0
+- `mon` would have the value 1
+- `tue` would have the value 2
+- `wed` would have the value 3
+- `thu` would have the value 4
+- `fri` would have the value 5
+- `sat` would have the value 6
 
-```shell
-Task priority: 10
-Alert level: 15
-Alert level is higher than task priority
-```
-
-This example demonstrates how to assign specific integer values to enum constants. When you set a value for one constant, subsequent constants automatically increment from that value unless explicitly assigned. Here, `LOW` is 1, `MEDIUM` is 5, `HIGH` is 10, and `URGENT` is 15.
-
-## Example 3: Enum in a Switch Statement
-
-This example demonstrates using enums with switch statements for control flow:
+Here's another example where one of the constants is assigned a value:
 
 ```cpp
-#include <iostream>
-using namespace std;
-
-// Define an enum for traffic light colors
-enum TrafficLight {
-  RED,
-  YELLOW,
-  GREEN
-};
-
-int main() {
-  TrafficLight currentLight = RED;
-
-  // Use enum in switch statement
-  switch (currentLight) {
-    case RED:
-      cout << "Stop! Red light is on." << endl;
-      break;
-    case YELLOW:
-      cout << "Caution! Yellow light is on." << endl;
-      break;
-    case GREEN:
-      cout << "Go! Green light is on." << endl;
-      break;
-    default:
-      cout << "Unknown light state." << endl;
-  }
-
-  // Simulate traffic light sequence
-  cout << "\nTraffic light sequence:" << endl;
-  for (int i = RED; i <= GREEN; i++) {
-    TrafficLight light = static_cast<TrafficLight>(i);
-    switch (light) {
-      case RED:
-        cout << "RED -> ";
-        break;
-      case YELLOW:
-        cout << "YELLOW -> ";
-        break;
-      case GREEN:
-        cout << "GREEN";
-        break;
-    }
-  }
-  cout << endl;
-
-  return 0;
-}
+enum grade {freshman=9, sophomore, junior, senior};
 ```
 
-The output generated by this code is:
+The enumerator `freshman` is assigned the value `9`. Subsequent enumerators, if they are not given an explicit value, receive the value of the previous enumerator plus one.
 
-```shell
-Stop! Red light is on.
+So here:
 
-Traffic light sequence:
-RED -> YELLOW -> GREEN
-```
+- `freshman` would have the value 9
+- `sophomore` would have the value 10
+- `junior` would have the value 11
+- `senior` would have the value 12
 
-This example shows how enums work perfectly with switch statements, providing clear and readable control flow. The enum values make the code self-documenting and easier to maintain than using magic numbers.
-
-## Codebyte Example: Create Enum Class
-
-This example demonstrates scoped enums (enum class) introduced in C++11, which provide better type safety and scope control:
+## Codebyte Example
 
 ```codebyte/cpp
 #include <iostream>
-using namespace std;
-
-// Define enum class for better type safety
-enum class Color {
-  RED,
-  GREEN,
-  BLUE
-};
-
-enum class Size {
-  SMALL,
-  MEDIUM,
-  LARGE
-};
 
 int main() {
-  // Create enum class variables
-  Color favoriteColor = Color::RED;
-  Size shirtSize = Size::MEDIUM;
+  enum quarter_one {
+    january=1,
+    february,
+    march
+  };
 
-  // Display enum class values (requires casting)
-  cout << "Favorite color code: " << static_cast<int>(favoriteColor) << endl;
-  cout << "Shirt size code: " << static_cast<int>(shirtSize) << endl;
+  int month = february;
 
-  // Enum class prevents implicit conversions
-  // This would cause compilation error:
-  // if (favoriteColor == Size::SMALL) { ... }
-
-  // Use enum class in switch statement
-  switch (favoriteColor) {
-    case Color::RED:
-      cout << "You chose red color!" << endl;
-      break;
-    case Color::GREEN:
-      cout << "You chose green color!" << endl;
-      break;
-    case Color::BLUE:
-      cout << "You chose blue color!" << endl;
-      break;
-  }
-
-  return 0;
+  std::cout << month;
 }
 ```
 
-**Enum class** provides several advantages over regular enums: they are strongly typed (no implicit conversion to integers), they don't pollute the surrounding namespace, and they prevent naming conflicts. You must use the scope resolution operator (`::`) to access enum class values.
+## Scoped Enums
 
-## Frequently Asked Questions
+Scoped enums are a feature added in C++11.
 
-### 1. Why use enum instead of array?
+Scoped enums differ from unscoped enums by:
 
-Enums are used to define a set of named constants that represent fixed values, while arrays store collections of data. Enums provide compile-time constants that make code more readable and maintainable. Unlike arrays, enums don't allocate memory for storing values at runtime - they're purely symbolic names for integer constants.
+- Containing their constants in their namespace.
+- Being strongly-typed.
+- By containing their constants to their namespace, scoped enumerations avoid name conflicts with other enumerations.
 
-### 2. How to get enum value in C++?
+## Example
 
-You can get the integer value of an enum by simply using the enum constant in an integer context or by explicitly casting it. For regular enums, implicit conversion to int works, but for enum classes, you need `static_cast<int>(enum_value)`.
+```cpp
+enum class WeekDay {sun, mon, tue, wed, thu, fri, sat};
 
-### 3. Can enum values be strings?
+WeekDay day = WeekDay::sun; // Notice that "sun" is prefaced with "Weekday::"
+int friday = WeekDay::fri; // error, must cast to an int
+```
 
-No, enum values in C++ are always integers. However, you can create arrays or maps to associate enum values with strings for display purposes.
+Here's an example where scoped enumerations avoid name collisions:
 
-### 4. What's the difference between enum and enum class?
+```cpp
+enum class LogResult {Success, InvalidFileName, WriteError};
+enum class SocketResult {Success, InvalidAddrError, TimeoutError};
 
-`enum class` (scoped enums) introduced in C++11 provides better type safety, doesn't pollute the namespace, and prevents implicit conversions. Regular enums allow implicit conversion to integers and their constants are accessible without scope resolution.
+LogResult logger_result = LogResult::Success;
+
+if (logger_result == LogResult::Success) {} // Because Success is scoped to LogResult, it doesn't collide with SocketResult::Success
+```
+
+## Enum to Int Conversion
+
+In C++, `enum` can be implicitly converted to integers, useful for numeric contexts like array indexing or bitwise operations:
+
+```cpp
+#include <iostream>
+enum color { red, green, blue };
+
+int main() {
+  color c = green;
+  int colorValue = c;  // Implicit conversion to int
+  std::cout << "Color value: " << colorValue;
+}
+```
+
+Here is the output:
+
+```shell
+Color value: 1
+```
+
+Converting an `enum` to `int` is easy, but converting `int` to `enum` is risky as no bounds check is done, leading to undefined behavior if the value is out of range.
+
+## Custom Underlying Types
+
+By default, an enum's type is `int`, but a smaller type like `unsigned char` can be specified to optimize memory usage:
+
+```cpp
+#include <iostream>
+enum class Permission : unsigned char {
+  Read = 1,
+  Write = 2,
+  Execute = 4
+};
+
+int main() {
+  Permission p = Permission::Write;
+  std::cout << static_cast<int>(p);  // Explicit cast to int
+}
+```
+
+Here, the underlying type of `Permission` is `unsigned char`. The constants `Read`, `Write`, and `Execute` are stored using only 1 byte of memory.
+
+This example results in the following output:
+
+```shell
+2
+```
+
+## Best Practices
+
+Here are some best practices for using enums:
+
+1. Use `enum class` for strong typing: Scoped enums (C++11) prevent implicit int conversions, ensuring better type safety.
+2. Explicit casting: Use `static_cast<int>(enum_value)` for safe conversions.
+3. Avoid magic numbers: Enums replace hardcoded numbers, improving readability.
+4. Use underlying types wisely: Choose the underlying type carefully in memory-constrained environments.
