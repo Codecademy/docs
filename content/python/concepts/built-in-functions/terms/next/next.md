@@ -31,6 +31,10 @@ next(iterator, default)
 - `iterator`: An object that implements the iterator protocol.
 - `default` (Optional): A value returned if the iterator is exhausted. If not provided, `StopIteration` is raised when there are no more items.
 
+**Return value:**
+
+Returns the next item from the iterator. If the iterator is exhausted and a `default` is provided, returns the `default`; otherwise, raises `StopIteration`.
+
 ## Example 1: Using `next()` with an Iterator
 
 In this example, a list called `list_items` is converted into an iterator object via the `iter()` function, and each element is printed by means of the `next()` function:
@@ -97,7 +101,7 @@ print(next(counter, "Finished"))
 
 ### 1. What happens if `next()` is called on a non-iterator object?
 
-If you call `next()` on a non-iterator object, you’ll get a `TypeError`. The object must be an iterator object or be converted into the same using `iter()`.
+If you call `next()` on a non-iterator object, you’ll get a `TypeError`. The object must be an iterator, or you can convert an iterable into one using `iter()`.
 
 ### 2. What is the difference between `for` loops and `next()`?
 
