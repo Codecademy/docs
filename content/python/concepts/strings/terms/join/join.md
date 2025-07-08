@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`.join()`** method concatenates all items from an iterable into a single string. It’s especially useful when there is a need to combine multiple string elements with a specific separator, like commas, spaces, or newlines.
+In Python, the **`.join()`** method concatenates all items from an iterable into a single [string](https://www.codecademy.com/resources/docs/python/strings). It’s especially useful when there is a need to combine multiple string elements with a specific separator, like commas, spaces, or newlines.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ The `.join()` method is called on a `separator` string:
 string.join(iterable)
 ```
 
-In the syntax:
+**Parameters:**
 
 - The `separator` can be any string, even an empty one, and is placed between each element from the `iterable`.
 - The `iterable` is any object that can be iterated over like tuples or lists. All values of the `iterable` must be strings.
