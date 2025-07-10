@@ -166,7 +166,7 @@ Yes, Python's `dict` (dictionary) is implemented as a hash table internally. Dic
 
 ## 2. Does Python have a built-in hashmap?
 
-Python's `dict` type serves as the built-in hashmap implementation. It provides O(1) average-case time complexity for key operations and automatically handles hash collisions and table resizing.
+Python's `dict` type serves as the built-in hashmap implementation. It provides `O(1)` average-case time complexity for key operations and automatically handles hash collisions and table resizing.
 
 ## 3. Can I hash mutable objects in Python?
 
@@ -174,7 +174,7 @@ No, mutable objects like lists, dictionaries, and sets cannot be hashed directly
 
 ## 4. Why do hash values change between Python sessions?
 
-Python uses hash randomization by default for security reasons. This means hash values for strings and other objects may differ between program runs, but they remain consistent within a single session.
+Python uses hash randomization by default for security reasons. This means hash values for strings and other objects may differ between program runs but remain consistent within a single session.
 
 ## 5. How can I make my custom class hashable?
 
