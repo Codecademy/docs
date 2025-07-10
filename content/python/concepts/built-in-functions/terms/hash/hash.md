@@ -156,7 +156,7 @@ student_grades = {
 print(f"Grades dictionary: {student_grades}")
 ```
 
-This example demonstrates proper implementation of custom hashing. The `__hash__()` method uses only immutable attributes (name and student_id), while the `__eq__()` method ensures that objects comparing as equal have the same hash value, which is required for correct behavior in hash-based collections.
+The above example demonstrates proper implementation of custom hashing. The `__hash__()` method uses only immutable attributes (name and student_id), while the `__eq__()` method ensures that objects comparing as equal have the same hash value, which is required for correct behavior in hash-based collections.
 
 ## Frequently Asked Questions
 
