@@ -1,6 +1,6 @@
 ---
 Title: '.endsWith()'
-Description: 'Checks if a string ends with a specified substring, returning true or false.'
+Description: 'Checks if a string ends with a specified substring, returning true if it does and false otherwise.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
