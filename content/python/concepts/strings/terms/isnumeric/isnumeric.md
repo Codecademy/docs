@@ -62,7 +62,7 @@ False
 False
 ```
 
-The first string returns `True` because it contains only numeric digits. The second returns `False` because it contains alphabetic characters, and the third returns `False` because empty strings are not considered numeric.
+In the above code, the first string returns `True` because it contains only numeric digits. The second returns `False` because it contains alphabetic characters, and the third returns `False` because empty strings are not considered numeric.
 
 ## Example 2: Input Validation
 
