@@ -63,7 +63,7 @@ Hash of 3.14159: 1234567890987654321
 
 > **Note:** These are placeholder values. Hash values for strings and floats can vary between runs due to hash randomization.
 
-This example shows that `hash()` works with various immutable data types. Notice that integers often return themselves as hash values for small numbers, while strings and floats produce larger hash values.
+The above example shows that `hash()` works with various immutable data types. Notice that integers often return themselves as hash values for small numbers, while strings and floats produce larger hash values.
 
 ## Example 2: Hashable vs Non-Hashable Objects
 
