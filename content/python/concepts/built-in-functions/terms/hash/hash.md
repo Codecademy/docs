@@ -53,7 +53,7 @@ print(f"Hash of '{text}': {text_hash}")
 print(f"Hash of {decimal}: {decimal_hash}")
 ```
 
-The output of this code is:
+The output of the above code is:
 
 ```shell
 Hash of 42: 42
