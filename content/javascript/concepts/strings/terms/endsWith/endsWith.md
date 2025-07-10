@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.endsWith()`** JavaScript string method checks whether a string ends with the characters of a specified string, returning `true` if it does and `false` otherwise. It returns `true` when the specified string is empty (`""`). The method is case-sensitive.
+The **`.endsWith()`** JavaScript string method checks whether a string ends with a given substring, returning `true` if it does and `false` otherwise. It returns `true` when the specified string is empty (`""`). The method is case-sensitive.
 
 ## Syntax
 
@@ -47,7 +47,7 @@ true
 
 ## Codebyte Example
 
-The following example is runnable and checks whether a string, up to the specified position, ends with the given search string:
+This codebyte example is runnable and checks whether a string, up to the specified position, ends with the given search string:
 
 ```codebyte/javascript
 console.log('Does Codecademy end with my?'.endsWith('my', 15));
