@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`hash()`** function is a built-in Python function that returns the hash value of an object if it has one. Hash values are integers that are used to quickly compare dictionary keys during lookups, making data retrieval operations more efficient. The `hash()` function facilitates efficient dictionary key comparisons and is essential for implementing hashable collections like sets and dictionary keys.
+The **`hash()`** function is a [built-in](https://www.codecademy.com/resources/docs/python/built-in-functions) Python function that returns an object's hash value if it has one. Hash values are integers used to quickly compare dictionary keys during lookups, making data retrieval operations more efficient. The `hash()` function facilitates efficient [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) key comparisons and is essential for implementing hashable collections like sets and dictionary keys.
 
 The `hash()` function works with hashable objects such as numbers, [strings](https://www.codecademy.com/resources/docs/python/strings), [tuples](https://www.codecademy.com/resources/docs/python/tuples), and custom objects that implement the `__hash__()` method. It plays a crucial role in Python's internal data structures and is commonly used for data integrity checks, caching mechanisms, and creating unique identifiers for objects.
 
