@@ -1,31 +1,33 @@
 ---
 Title: 'Operators'
-Description: 'Operators are used to perform operations on variables and values.'
+Description: 'Operators are used to perform various mathematical operations on variables and values.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Operators'
   - 'Arithmetic'
   - 'Comparison'
   - 'Logical'
+  - 'Operators'
 CatalogContent:
   - 'learn-c'
   - 'paths/computer-science'
 ---
 
-**Operators** are used to perform operations on variables and values. They are symbols that tell the compiler to perform specific mathematical or logical functions. The C language provides the following types of operators:
+In C, **operators** are used to perform operations on variables and values. They are symbols that tell the compiler to perform specific mathematical or logical operations.
 
-- Arithmetic Operators
-- Relational Operators
-- Logical Operators
-- Bitwise Operators
-- Assignment Operators
-- Misc Operators
+The different types of operators in C include:
+
+- Arithmetic operators
+- Relational operators
+- Logical operators
+- Bitwise operators
+- Assignment operators
+- Misc operators
 
 ## Arithmetic Operators
 
-C has the following basic arithmetic operators to perform common mathematical operations:
+C has these basic arithmetic operators to perform common mathematical operations:
 
 | Operator |      Name      | Description                                                 |
 | :------: | :------------: | ----------------------------------------------------------- |
@@ -37,20 +39,41 @@ C has the following basic arithmetic operators to perform common mathematical op
 |   `++`   |   Increment    | `x++` returns `x + 1`                                       |
 |   `--`   |   Decrement    | `x--` returns `x - 1`                                       |
 
+### Example
+
+This example demonstrates the usage of arithmetic operators in C:
+
 ```c
-int x = 0;
-x = x + 4; // x is now 4
-x = x - 1; // x is now 3
-x = x * 8; // x is now 24
-x = x / 4; // x is now 6
-x = x % 4; // x is now 2
-x++;       // x is now 3
-x--;       // x is now 2
+#include <stdio.h>
+
+int main() {
+  int a = 10, b = 3;
+  printf("Addition: %d\n", a + b);
+  printf("Subtraction: %d\n", a - b);
+  printf("Multiplication: %d\n", a * b);
+  printf("Division: %d\n", a / b);
+  printf("Modulo: %d\n", a % b);
+  printf("Increment: %d\n", ++a);
+  printf("Decrement: %d\n", --b);
+  return 0;
+}
+```
+
+Here is the output:
+
+```shell
+Addition: 13
+Subtraction: 7
+Multiplication: 30
+Division: 3
+Modulo: 1
+Increment: 11
+Decrement: 2
 ```
 
 ## Relational Operators
 
-Relational operators compare two values and return `true` or `false`.
+Relational operators compare two values and return `true` or `false`:
 
 | Operator |           Name           | Description                                                |
 | :------: | :----------------------: | ---------------------------------------------------------- |
@@ -61,22 +84,39 @@ Relational operators compare two values and return `true` or `false`.
 |   `<=`   |  Less Than or Equal to   | `x <= y` is `true` if `x` is less than or equal to `y`.    |
 |   `>=`   | Greater Than or Equal to | `x >= y` is `true` if `x` is greater than or equal to `y`. |
 
+### Example
+
+This example demonstrates the usage of relational operators in C:
+
 ```c
-int x = 7;
-int y = 5;
+#include <stdio.h>
 
-if (x > y) {
-  // This code will run.
+int main() {
+  int a = 10, b = 5;
+  printf("a == b: %d\n", a == b);
+  printf("a != b: %d\n", a != b);
+  printf("a > b: %d\n", a > b);
+  printf("a < b: %d\n", a < b);
+  printf("a >= b: %d\n", a >= b);
+  printf("a <= b: %d\n", a <= b);
+  return 0;
 }
+```
 
-if (x == y) {
-  // This code won't run.
-}
+Here is the output:
+
+```shell
+a == b: 0
+a != b: 1
+a > b: 1
+a < b: 0
+a >= b: 1
+a <= b: 0
 ```
 
 ## Logical Operators
 
-Logical operators operate on boolean values and return boolean values.
+Logical operators operate on Boolean values and return Boolean values:
 
 | Operator | Name | Description                                                        |
 | :------: | :--: | ------------------------------------------------------------------ |
@@ -84,22 +124,33 @@ Logical operators operate on boolean values and return boolean values.
 |   `&&`   | And  | `x && y` is `true` only if `x` and `y` are both `true`.            |
 |  `\|\|`  |  Or  | `x \|\| y` is `true` if either `x` or `y` is `true`.               |
 
+### Example
+
+This example demonstrates the usage of logical operators in C:
+
 ```c
-int x = 7;
-int y = 5;
+#include <stdio.h>
 
-if (x > y \|\| x == y) {
-  // This code will run.
+int main() {
+  int a = 1, b = 0;
+  printf("a && b: %d\n", a && b);
+  printf("a || b: %d\n", a || b);
+  printf("!a: %d\n", !a);
+  return 0;
 }
+```
 
-if (x == y && x < 0) {
-  // This code won't run.
-}
+Here is the output:
+
+```shell
+a && b: 0
+a || b: 1
+!a: 0
 ```
 
 ## Bitwise Operators
 
-Bitwise operators manipulate individual bits in an integer.
+Bitwise operators manipulate individual bits in an integer:
 
 | Operator |    Name     | Description                                                    |
 | :------: | :---------: | -------------------------------------------------------------- |
@@ -110,28 +161,39 @@ Bitwise operators manipulate individual bits in an integer.
 |   `<<`   | Left shift  | `a << b` means `a`'s bits are shifted to the left `b` spaces.  |
 |   `>>`   | Right shift | `a >> b` means `a`'s bits are shifted to the right `b` spaces. |
 
+### Example
+
+This example demonstrates the usage of bitwise operators in C:
+
 ```c
-int x;
+#include <stdio.h>
 
-x = 19 & 7;
-// x is 3 : 10011 & 00111 = 00011
+int main() {
+  int a = 5, b = 3;  // 5 = 0101, 3 = 0011
+  printf("a & b: %d\n", a & b);
+  printf("a | b: %d\n", a | b);
+  printf("a ^ b: %d\n", a ^ b);
+  printf("~a: %d\n", ~a);
+  printf("a << 1: %d\n", a << 1);
+  printf("a >> 1: %d\n", a >> 1);
+  return 0;
+}
+```
 
-x = 19 | 7;
-// x is 23 : 10011 | 00111 = 10111
+Here is the output:
 
-x = 19 ^ 7;
-x is 20 : 10011 ^ 00111 = 10100
-
-x = 7 << 2;
-// x is 28 : 00111 << 2 = 11100
-
-x = 19 >> 2;
-// x is 4 : 10011 >> 2 = 00100
+```shell
+a & b: 1
+a | b: 7
+a ^ b: 6
+~a: -6
+a << 1: 10
+a >> 1: 2
 ```
 
 ## Assignment Operators
 
-Assignment operators assign the value on the right to the variable on the left.
+Assignment operators assign the value on the right to the variable on the left:
 
 | Operator |           Name            | Description                                |
 | :------: | :-----------------------: | ------------------------------------------ |
@@ -147,9 +209,42 @@ Assignment operators assign the value on the right to the variable on the left.
 |  `<<=`   |   Left Shift Assignment   | `a <<= 3` is short for `a = a << 3`.       |
 |  `>>=`   |  Right Shift Assignment   | `a >>= 3` is short for `a = a >> 3`.       |
 
+### Example
+
+This example demonstrates the usage of assignment operators in C:
+
+```c
+#include <stdio.h>
+
+int main() {
+  int a = 5;
+  a += 3;  // a = a + 3
+  printf("a += 3: %d\n", a);
+  a -= 2;
+  printf("a -= 2: %d\n", a);
+  a *= 4;
+  printf("a *= 4: %d\n", a);
+  a /= 3;
+  printf("a /= 3: %d\n", a);
+  a %= 3;
+  printf("a %%= 3: %d\n", a);
+  return 0;
+}
+```
+
+Here is the output:
+
+```shell
+a += 3: 8
+a -= 2: 6
+a *= 4: 24
+a /= 3: 8
+a %= 3: 2
+```
+
 ## Misc Operators
 
-Misc operators don't fit into a particular category.
+Misc operators don't fit into a particular category:
 
 |  Operator  |         Name         | Description                                                                     |
 | :--------: | :------------------: | ------------------------------------------------------------------------------- |
@@ -157,3 +252,48 @@ Misc operators don't fit into a particular category.
 |    `&`     |       Address        | `&x` returns the address of variable `x`.                                       |
 |    `*`     |       Pointer        | `*x` returns a pointer to variable `x`. Not to be confused with multiplication. |
 |    `?:`    | Conditional Operator | `expression?x:y` returns `x` when `expression` is `true`, `y` otherwise.        |
+
+### Example
+
+This example demonstrates the usage of some of these operators in C:
+
+```c
+#include <stdio.h>
+
+int main() {
+  int a = 10;
+  int *p = &a;
+
+  printf("Address of a: %p\n", &a);
+  printf("Value of a using pointer: %d\n", *p);
+
+  int b = (a > 5) ? 100 : 200;
+  printf("Ternary result: %d\n", b);
+
+  return 0;
+}
+```
+
+Here is the output:
+
+```shell
+Address of a: 0x7ffdcb92c540
+Value of a using pointer: 10
+Ternary result: 100
+```
+
+## Frequently Asked Questions
+
+### 1. What is the difference between `==` and `=` in C?
+
+- `=` is the assignment operator (e.g., `x = 5`; assigns value `5` to `x`).
+- `==` is the equality operator used to compare two values (e.g., `x == y` checks if `x` equals `y`).
+
+### 2. What is the difference between `&&` and `&`?
+
+- `&&` is a logical AND operator: It returns `true` if both conditions are `true`.
+- `&` is a bitwise AND operator: It performs an AND operation bit-by-bit.
+
+### 3. Can I use arithmetic operators on characters in C?
+
+Yes. Characters in C are stored as ASCII values, so arithmetic operations like `'A' + 1` are valid and return `'B'`.
