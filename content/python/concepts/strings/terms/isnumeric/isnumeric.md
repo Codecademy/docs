@@ -83,7 +83,7 @@ for user_input in user_inputs:
     print(f"'{user_input}': Invalid input - not numeric")
 ```
 
-This example results in the following output:
+The output of the above code will be:
 
 ```shell
 Age 25: Valid adult
