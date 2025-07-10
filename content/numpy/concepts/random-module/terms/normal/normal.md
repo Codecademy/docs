@@ -36,7 +36,7 @@ numpy.random.normal(loc=0.0, scale=1.0, size=None)
 ## Statistical Properties
 
 Mean: $μ=\text{loc}$
-Variance: $σ2=\text{scale}^2$
+Variance: $σ^2 = \text{scale}^2$
 
 The probability density formula (PDF) for the normal distribution is:
 
