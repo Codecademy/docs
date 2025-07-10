@@ -1,6 +1,6 @@
 ---
 Title: '.isnumeric()'
-Description: 'Returns `True` if all characters in a string are numeric characters.'
+Description: 'Returns True if all characters in a string are numeric characters.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
