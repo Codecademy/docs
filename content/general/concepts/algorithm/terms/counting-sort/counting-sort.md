@@ -18,30 +18,30 @@ CatalogContent:
 
 ## Explanation
 
-1. Find the maximum value:
+### Find the maximum value
 
 - Iterate through the input array `data` to find the largest element `max`.
   - This determines the range of values needed to be counted.
 
-1. Create the count array:
+### Create the count array
 
 - Initialize a new array `count` with a `max + 1` size to hold each value's frequency.
   - The size is `max + 1` so that the `max` element is accounted for.
 - Set all elements in `count` to _0_ initially.
 
-1. Count the occurrences:
+### Count the occurrences
 
 - Loop through the `data` array again.
 - For each element `data[i]`, increment the corresponding count in the `count` array (`count[data[i]]++`).
   - This is to document the frequency distribution of elements in `data`.
 
-1. Create the start array:
+### Create the start array
 
 - Initialize a new array `start` of the same size as `count`.
 - Set `start[0]` to _0_.
 - Based on the frequency distribution found in `count`, the starting indexes can be determined and stored in the `start` array (`start[j] = start[j-1] + count[j-1]` for `j=1` to `max`).
 
-1. Place elements in sorted order:
+### Place elements in sorted order
 
 - Iterate through the `data` array again.
 - For each element `data[a]`:
@@ -49,7 +49,7 @@ CatalogContent:
   - Place the element in the `result` array at that position (`result[temp] = data[a]`).
   - Increment the `start` value for the next element with the same value (`start[data[a]]++`).
 
-1. Return the sorted array:
+### Return the sorted array
 
 - The `result` array now contains the elements of the original `data` array in sorted order.
 - Return the `result` array.

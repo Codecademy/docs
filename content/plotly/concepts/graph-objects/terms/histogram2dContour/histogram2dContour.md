@@ -28,7 +28,7 @@ plotly.graph_objects.Histogram2dContour(x=None, y=None, nbinsx=None, nbinsy=None
 - `colorscale` (Optional): Defines the color scale for heatmap.
 - `contours` (Optional): Configuration for contour lines (e.g., `levels`, `start`, `end`, `size`).
 
-> **Note**: To personalize the scatter plot on polar axes, there are more possible options than those mentioned above, as indicated by the ellipsis in the syntax (...).
+> **Note**: The ellipsis in the syntax (...) indicates additional optional parameters for further customization.
 
 ## Example
 

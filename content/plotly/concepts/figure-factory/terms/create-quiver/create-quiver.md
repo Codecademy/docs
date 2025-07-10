@@ -70,7 +70,7 @@ fig.show()
 
 The output will be:
 
-![The output is a quiver plot displaying arrows arranged in a circular pattern, illustrating directional vectors clearly.](https://raw.githubusercontent.com/Codecademy/docs/main/media/basic-quiver-plot)
+![The output is a quiver plot displaying arrows arranged in a circular pattern, illustrating directional vectors clearly.](https://raw.githubusercontent.com/Codecademy/docs/main/media/basic-quiver-plot.png)
 
 ### Customized Quiver Plot
 
@@ -95,4 +95,4 @@ fig.update_layout(title="Grid-Based Quiver Plot")
 fig.show()
 ```
 
-![The output is a quiver plot with red arrows of increased size and width, making the vector field more distinct.](https://raw.githubusercontent.com/Codecademy/docs/main/media/custom-quiver-plot)
+![The output is a quiver plot with red arrows of increased size and width, making the vector field more distinct.](https://raw.githubusercontent.com/Codecademy/docs/main/media/custom-quiver-plot.png)

@@ -24,7 +24,7 @@ Value types are data types that are built-in to C#. The available types and thei
 | --------- | ----------------------- | ------------ |
 | `bool`    | Boolean                 | 1 byte       |
 | `byte`    | Byte                    | 1 byte       |
-| `sbyte`   | Short Byte              | 1 byte       |
+| `sbyte`   | Signed Byte             | 1 byte       |
 | `char`    | Character               | 2 bytes      |
 | `decimal` | Decimal                 | 16 bytes     |
 | `double`  | Double                  | 8 bytes      |
@@ -32,7 +32,7 @@ Value types are data types that are built-in to C#. The available types and thei
 | `int`     | Integer                 | 4 bytes      |
 | `uint`    | Unsigned Integer        | 4 bytes      |
 | `nint`    | Native Integer          | 4 or 8 bytes |
-| `unint`   | Unsigned Native Integer | 4 or 8 bytes |
+| `nuint`   | Unsigned Native Integer | 4 or 8 bytes |
 | `long`    | Long                    | 8 bytes      |
 | `ulong`   | Unsigned Long           | 8 bytes      |
 | `short`   | Short                   | 2 bytes      |
@@ -51,7 +51,7 @@ float heightOfGiraffe = 908.32f;
 int seaLevel = -24;
 uint year = 2023u;
 nint pagesInBook = 412;
-unint milesToNewYork = 2597;
+nuint milesToNewYork = 2597;
 long circumferenceOfEarth = 25000l;
 ulong depthOfOcean = 28000ul;
 short tableHeight = 4;

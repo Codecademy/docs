@@ -1,6 +1,6 @@
 ---
 Title: 'Switch'
-Description: 'A switch statement provides a means of checking an expression against various case statements.'
+Description: 'The switch statement executes different code blocks based on the value of a variable or expression.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
