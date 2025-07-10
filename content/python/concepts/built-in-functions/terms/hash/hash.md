@@ -96,7 +96,7 @@ except TypeError as e:
   print(f"Error hashing dictionary: {e}")
 ```
 
-The output of this code is as follows:
+The output of the above code is as follows:
 
 ```shell
 Tuple hash: -1815842884691876695
