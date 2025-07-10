@@ -93,7 +93,7 @@ Age 18: Valid adult
 Age 0: Valid minor
 ```
 
-This example demonstrates how `.isnumeric()` can be used to filter valid numeric input before converting to integers and performing age validation logic.
+The above example demonstrates how `.isnumeric()` can be used to filter valid numeric input before converting to integers and performing age validation logic.
 
 ## Codebyte Example: Data Processing
 
