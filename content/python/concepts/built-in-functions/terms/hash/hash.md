@@ -106,7 +106,7 @@ Error hashing list: unhashable type: 'list'
 Error hashing dictionary: unhashable type: 'dict'
 ```
 
-This example demonstrates that only immutable objects can be hashed. Mutable objects like lists and dictionaries raise a `TypeError` when passed to the `hash()` function because their contents can change, which would invalidate their hash values.
+The above example demonstrates that only immutable objects can be hashed. Mutable objects like [lists](https://www.codecademy.com/resources/docs/python/lists) and dictionaries raise a `TypeError` when passed to the `hash()` function because their contents can change, which would invalidate their hash values.
 
 ## Codebyte Example: Custom Object Hashing
 
