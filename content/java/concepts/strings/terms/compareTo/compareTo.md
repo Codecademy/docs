@@ -1,33 +1,41 @@
 ---
 Title: '.compareTo()'
-Description: 'Returns 0 if two strings are equal in Unicode value. Otherwise, the lexicographical difference is returned.'
+Description: 'Compares two strings based on the Unicode value of each character in the strings.'
 Subjects:
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Characters'
-  - 'Strings'
   - 'Methods'
+  - 'Strings'
+  - 'Values'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The **`.compareTo()`** method compares two strings lexicographically based on the Unicode value of each character in the string.
+The **`.compareTo()`** method is a built-in Java method used to compare two strings lexicographically. This means it compares them based on the Unicode value of each character in the strings.
+
+This method is defined in the `java.lang.String` class and implements the `Comparable<String>` interface.
 
 ## Syntax
 
 ```pseudo
-stringA.compareTo(stringB);
+string1.compareTo(string2);
 ```
 
-Both `stringA` and `stringB` are required in order for the `.compareTo()` method to work properly.
+In the syntax:
 
-A value of `0` will be returned if the strings are equal. Otherwise, the following will happen:
+- `string1`: The string on which `.compareTo()` is called.
+- `string2`: The string to compare with `string1`.
 
-- A number less than `0` is returned if `stringA` is lexicographically less than `stringB`.
-- A number greater than `0` is returned if `stringA` is lexicographically more than `stringB`.
+**Return values:**
 
-A way to think about this lexicographical evaluation is noting the Unicode values for the following character sets:
+- Returns `0` if both strings are equal.
+- Returns a positive number if `string1` is lexicographically greater than `string2`.
+- Returns a negative number if `string1` is lexicographically less than `string2`.
+
+A way to think about this lexicographical evaluation is noting the Unicode values for these character sets:
 
 | Character Set |  Range   | Example                                |
 | :-----------: | :------: | -------------------------------------- |
@@ -35,11 +43,11 @@ A way to think about this lexicographical evaluation is noting the Unicode value
 |   `A` - `Z`   | 65 - 90  | `"A".compareTo("B");` -> 65 - 66 = -1  |
 |   `a` - `z`   | 97 - 122 | `"z".compareTo("w");` -> 122 - 119 = 3 |
 
-**Note:** This method is case-sensitive. The [`.compareToIgnoreCase()`](https://www.codecademy.com/resources/docs/java/strings/compareToIgnoreCase) can be used to ignore upper and lower case differences. Alternatively, the [`.equals()`](https://www.codecademy.com/resources/docs/java/strings/equals) method can used to compare strings without taking Unicode values into account.
+> **Note:** The [`.equals()`](https://www.codecademy.com/resources/docs/java/strings/equals) method can be used to compare strings without taking Unicode values into account.
 
-## Example 1
+## Example 1: Comparing Equal Strings
 
-Compare `"Codecademy"` to `"Codecademy"`:
+This example uses `.compareTo()` to compare `"Codecademy"` to `"Codecademy"`:
 
 ```java
 class CompareStringsLexicographically {
@@ -48,14 +56,19 @@ class CompareStringsLexicographically {
     String word2 = "Codecademy";
 
     System.out.println(word1.compareTo(word2));
-    // Output: 0
   }
 }
 ```
 
-## Example 2
+Here is the output:
 
-Compare `"Codecademy"` to `"codecademy"`:
+```shell
+0
+```
+
+## Example 2: First String is Lexicographically Less
+
+This example uses `.compareTo()` to compare `"Codecademy"` to `"codecademy"`:
 
 ```java
 class CompareStringsLexicographically {
@@ -64,14 +77,19 @@ class CompareStringsLexicographically {
     String word2 = "codecademy";
 
     System.out.println(word1.compareTo(word2));
-    // Output: -32
   }
 }
 ```
 
-## Example 3
+Here is the output:
 
-Compare `"codecademy"` to `"Codecademy"`:
+```shell
+-32
+```
+
+## Example 3: First String is Lexicographically Greater
+
+This example uses `.compareTo()` to compare `"codecademy"` to `"Codecademy"`:
 
 ```java
 class CompareLexicographically {
@@ -80,7 +98,30 @@ class CompareLexicographically {
     String word2 = "Codecademy";
 
     System.out.println(word1.compareTo(word2));
-    // Output: 32
   }
 }
 ```
+
+Here is the output:
+
+```shell
+32
+```
+
+## Frequently Asked Questions
+
+### 1. Is `.compareTo()` case-sensitive?
+
+Yes, it is. Uppercase letters have lower Unicode values than lowercase letters. For example, `"Apple".compareTo("apple")` returns a negative number.
+
+### 2. How does `.compareToIgnoreCase()` differ?
+
+The `.compareToIgnoreCase()` method compares two strings lexicographically but ignores case differences. For example:
+
+```java
+"Java".compareToIgnoreCase("java") // Output: 0
+```
+
+### 3. Can `.compareTo()` be used for sorting strings?
+
+Yes. You can use `.compareTo()` in sorting algorithms or with data structures like `TreeSet` or `Collections.sort()` to sort strings alphabetically.
