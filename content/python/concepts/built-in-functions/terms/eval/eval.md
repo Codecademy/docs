@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`eval()`** function is a built-in Python function that dynamically evaluates and executes Python expressions from [string](https://www.codecademy.com/resources/docs/python/strings)-based input. This powerful function parses a string containing a Python expression, compiles it into bytecode, and then evaluates it as if it were written directly in the code.
+The **`eval()`** function is a [built-in](https://www.codecademy.com/resources/docs/python/built-in-functions) Python function that dynamically evaluates and executes Python expressions from [string](https://www.codecademy.com/resources/docs/python/strings)-based input. This powerful function parses a string containing a Python expression, compiles it into bytecode, and then evaluates it as if it were written directly in the code.
 
 The `eval()` function is commonly used in scenarios where there is a need to evaluate mathematical expressions from user input, create dynamic code execution systems, or process expressions stored as strings. However, it should be used with caution due to significant security implications when handling untrusted input.
 
