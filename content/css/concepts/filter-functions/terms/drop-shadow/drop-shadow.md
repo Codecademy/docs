@@ -44,7 +44,7 @@ The HTML code is:
 <html>
   <head>
     <title>Basic Drop Shadow Example</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
   <body>
@@ -90,7 +90,7 @@ The HTML code is:
 <html>
   <head>
     <title>Colored Drop Shadow Example</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
   <body>
@@ -150,7 +150,7 @@ The HTML code is:
 <html>
   <head>
     <title>Multiple Drop Shadow Example</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
   <body>
