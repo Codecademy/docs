@@ -75,6 +75,10 @@ def safe_calculator():
     'sum': sum, 'pow': pow, 'sqrt': lambda x: x ** 0.5
   }
 
+  # Set up a safe global environment (no built-ins, only allowed functions)
+  safe_globals = {"__builtins__": None}
+  safe_globals.update(allowed_names)
+
   print("Simple Calculator (type 'quit' to exit)")
 
   while True:
@@ -85,15 +89,29 @@ def safe_calculator():
       if expression.lower() == 'quit':
         break
 
-      # Evaluate with restricted namespace for safety
-      result = eval(expression, {"__builtins__": {}}, allowed_names)
+      # Evaluate with restricted namespace
+      result = eval(expression, safe_globals)
       print(f"Result: {result}")
 
     except Exception as e:
       print(f"Error: {e}")
 
+safe_calculator()
+
 # Example usage
 # User inputs: "25 + 17", "sqrt(144)", "pow(2, 3)"
+```
+
+Th e above code will produce the following output based on the example inputs:
+
+```shell
+Simple Calculator (type 'quit' to exit)
+Enter expression: 25 + 17
+Result: 42
+Enter expression: sqrt(144)
+Result: 12.0
+Enter expression: pow(2, 3)
+Result: 8
 ```
 
 This example shows how `eval()` can create an interactive calculator while using restricted namespaces to improve security.
