@@ -118,7 +118,7 @@ This example shows how `eval()` can create an interactive calculator while using
 
 ## Codebyte Example: Configuration File Processing
 
-This example illustrates how `eval()` can be used to process configuration values stored as strings:
+The following example illustrates how `eval()` can be used to process configuration values stored as strings:
 
 ```codebyte/python
 import json
