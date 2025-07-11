@@ -102,7 +102,7 @@ safe_calculator()
 # User inputs: "25 + 17", "sqrt(144)", "pow(2, 3)"
 ```
 
-Th e above code will produce the following output based on the example inputs:
+The above code will produce the following output based on the example inputs:
 
 ```shell
 Simple Calculator (type 'quit' to exit)
