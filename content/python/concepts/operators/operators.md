@@ -353,14 +353,14 @@ Bitwise operators perform operations on the binary representations of numbers at
 
 These are the bitwise operators available in Python:
 
-| Operator | Name         | Description                     | Example   |
-|----------|--------------|---------------------------------|-----------|
-| `&`      | Bitwise AND  | Returns 1 if both bits are 1    | `x & y`   |
-| `\|`     | Bitwise OR   | Returns 1 if at least one bit is 1 | `x \| y` |
-| `^`      | Bitwise XOR  | Returns 1 if bits are different | `x ^ y`   |
-| `~`      | Bitwise NOT  | Returns complement of bits      | `~x`      |
-| `<<`     | Left Shift   | Shifts bits to the left         | `x << 2`  |
-| `>>`     | Right Shift  | Shifts bits to the right        | `x >> 2`  |
+| Operator | Name        | Description                        | Example  |
+| -------- | ----------- | ---------------------------------- | -------- |
+| `&`      | Bitwise AND | Returns 1 if both bits are 1       | `x & y`  |
+| `\|`     | Bitwise OR  | Returns 1 if at least one bit is 1 | `x \| y` |
+| `^`      | Bitwise XOR | Returns 1 if bits are different    | `x ^ y`  |
+| `~`      | Bitwise NOT | Returns complement of bits         | `~x`     |
+| `<<`     | Left Shift  | Shifts bits to the left            | `x << 2` |
+| `>>`     | Right Shift | Shifts bits to the right           | `x >> 2` |
 
 ### Example: Permission System with Flags
 
