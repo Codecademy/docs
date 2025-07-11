@@ -37,7 +37,7 @@ The `eval()` function returns the result of the evaluated expression. The return
 
 ## Example 1: Basic Mathematical Evaluation
 
-This example demonstrates the fundamental usage of `eval()` for evaluating simple mathematical expressions:
+The following example demonstrates the fundamental usage of `eval()` for evaluating simple mathematical expressions:
 
 ```py
 # Evaluating basic arithmetic expressions
