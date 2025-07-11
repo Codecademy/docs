@@ -65,7 +65,7 @@ This example shows how `eval()` can process mathematical expressions stored as s
 
 ## Example 2: Dynamic Calculator Application
 
-This example demonstrates a real-world scenario where `eval()` can be used to create a simple calculator that processes user input:
+The following example demonstrates a real-world scenario where `eval()` can be used to create a simple calculator that processes user input:
 
 ```py
 def safe_calculator():
