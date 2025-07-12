@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.exp()`** function computes the exponential of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). This is mathematically equivalent to applying the function $y_i = e^{x_i}$ element-wise, where `e` is Euler's number (approximately 2.71828)).
+In PyTorch, the **`.exp()`** function computes the exponential of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). This is mathematically equivalent to applying the function $y_i = e^{x_i}$ element-wise, where `e` is Euler's number (approximately 2.71828).
 
 ## Syntax
 
