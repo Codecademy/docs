@@ -62,14 +62,11 @@ In this Codebyte example, we generate a single random value from a binomial dist
 
 ```codebyte/python
 import numpy as np
-
 # Define number of trials and probability
 n = 15
 p = 0.6
-
 # Generate one random sample
 sample = np.random.binomial(n, p)
-
 print(sample)
 ```
 
