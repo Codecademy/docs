@@ -24,7 +24,7 @@ torch.deg2rad(input, *, out=None)
 
 **Parameters:**
 
-- `input`: The input tensor containing angles in degrees.
+- `input`: The input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) containing angles in degrees.
 - `out` (optional): The output tensor to store the result. If provided, the result is written to this tensor in-place.
 
 **Return value:**
