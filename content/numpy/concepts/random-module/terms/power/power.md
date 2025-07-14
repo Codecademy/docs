@@ -1,25 +1,21 @@
 ---
 Title: '.power()'
-Description: 'Return random samples from power distribution as numpy array'
+Description: 'Returns a NumPy array of random samples drawn from the power distribution.'
 Subjects: 
     - 'AI'
-    - 'Data Science'
     - 'Computer Science'
+    - 'Data Science'
 Tags:
     - 'Arrays'
     - 'Functions'
     - 'Math'
-    - 'Numpy'useruser
+    - 'Numpy'
 CatalogContent:
     - 'learn-python'
     - 'paths/data-science'
-
 ---
-The **`.power()`** function, *aka: Power-Function-Distribution* is part of the NumPy library. Primarily draws samples in [0, 1] from a power distribution with positive exponent and returns them in the form of an array.
 
-This function is commonly used for statistical testing, simulations and generating machine learning synthetic data.
-
-**PS:** New code should use the power method of a Generator instance instead
+The **`.power()`** function, also known as the *power function distribution*, is part of the NumPy random module. It draws random samples from the distribution $\( x^{a-1} \), where \( a > 0 \)$, returning values in the range [0, 1] as a NumPy array. This function is often used in statistical simulations, hypothesis testing, and generating synthetic data for machine learning.
 
 ## Syntax
 
@@ -28,53 +24,71 @@ random.power(a, size=None)
 ```
 
 **Parameters:**
-1.`a`: float or array_like of floats
-    - Parameter of the distribution. Must be non-negative.
 
-2.`size`: int or tuple of ints, optional
-    - Output shape. If the given shape is, e.g., `(m, n, k)`, then `m * n * k` samples are drawn. If size is `None` (default), a single value is returned if `a` is a scalar. Otherwise, `np.array(a).size` samples are drawn.
+- `a` (float or array_like of floats): The shape parameter of the distribution. Must be positive.
+- `size` (int or tuple of ints, optional): Output shape. If specified as `(m, n, k)`, then `m * n * k` samples are drawn. If `None` (default), a single value is returned if `a` is a scalar; otherwise, `np.array(a).size` samples are drawn.
 
 **Return value:**
 
-An array ([`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray)) of a shape consistent with the size filled with random floats from a power distribution over [0, 1).
+An [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) of random floats drawn from a power distribution over the interval [0, 1), with shape determined by `size`.
 
-**Raises**: Value Error if `a` is negatif or null.
+## Example 1: Drawing a Single Value (`size=None`)
 
-## Example
+When `size=None` (default), `np.random.power(a)` returns a single float from the power distribution over the range [0, 1):
 
 ```py
->>> import numpy as np
->>> import random
+import numpy as np
 
-# If size=None
+# Single sample with shape parameter a = 2
+print(np.random.power(2))
 
->>> print(np.random.power(2))
-0.6846237833835251
+# Single sample with a = 7
+print(np.random.power(7))
+```
 
->>> print(np.random.power(7))
-0.8110137348659924
+A possible output of this code is:
 
->>> print(np.random.power(2,3))
-[0.49055308 0.93763919 0.67387802]
+```shell
+0.3279803284599577
+0.9487782510180921
+```
 
-# If size is an integer
+When no size is specified, a single float is returned.
 
->>> print(np.random.power(10,10))
-[0.72456875 0.94693609 0.92619849 0.94813071 0.97270994 0.93135905
- 0.95546733 0.94237131 0.96817561 0.98170604]
+## Example 2: Drawing Multiple Values Using an Integer `size`
 
->>> print(np.random.power(10,2))
-[0.94107937 0.90562675]
+When `size` is an integer, it specifies how many random values to draw from the power distribution:
 
->>> print(np.random.power(1000,3))
-[0.99809396 0.99916794 0.99774856]
+```py
+import numpy as np
 
-#If size is a tuple ()
+# 3 values with a = 2
+print(np.random.power(2, 3))
 
->>> print(np.random.power(1000,(5,5))) #5*5matrix
-[[0.99880382 0.99934307 0.99996164 0.99815375 0.99837584]
- [0.99662911 0.99923268 0.9973192  0.99894496 0.99980047]
- [0.99655904 0.99914458 0.99831727 0.99856803 0.99699759]
- [0.99924632 0.99945667 0.99825157 0.99897058 0.99888353]
- [0.99464373 0.99692161 0.99948955 0.99904031 0.99854974]]
+# 10 values with a = 10
+print(np.random.power(10, 10))
+
+# 3 values with a very large shape parameter
+print(np.random.power(1000, 3))
+```
+
+The possible output of this code is:
+
+```shell
+[0.71399645 0.67523938 0.59913375]
+[0.89043235 0.94651471 0.74650338 0.97812045 0.73832165 0.98408732
+ 0.94639479 0.89403161 0.95649183 0.91259268]
+[0.99993867 0.99989337 0.99973659]
+```
+
+## Codebyte Example
+
+The following example generates multi-dimensional arrays by passing a [tuple](https://www.codecademy.com/resources/docs/python/tuples) as the `size` argument:
+
+```codebyte/python
+import numpy as np
+
+# Generate a 5x5 matrix of power-distributed values with a large shape parameter
+samples = np.random.power(1000, (5, 5))
+print(samples)
 ```
