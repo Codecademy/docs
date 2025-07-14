@@ -6,8 +6,8 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Collections'
-  - 'Queues'
   - 'Data Structures'
+  - 'Queues'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
