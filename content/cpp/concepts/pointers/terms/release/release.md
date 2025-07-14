@@ -1,7 +1,7 @@
 ---
 Title: '.release()'
 Description: 'Releases ownership of the managed object from a `std::unique_ptr`, returning the raw pointer and leaving the `unique_ptr` empty.'
-Subjects: 
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.release()`** function is a member of the smart pointer class `std::unique_ptr`. It releases ownership of the managed object and returns a raw pointer to that object. After calling `release()`, the `unique_ptr` becomes empty and holds `nullptr`.
+In C++, the **`.release()`** function is a member of the smart pointer class `std::unique_ptr`. It releases ownership of the managed object and returns a raw pointer to that object. After calling `.release()`, the `unique_ptr` becomes empty and holds `nullptr`.
 
 ## Syntax
 
@@ -34,7 +34,7 @@ Returns the raw pointer to the object managed by the `unique_ptr` before the cal
 
 ## Example
 
-The following example demonstrates how to use `release()`:
+This example demonstrates how to use `.release()`:
 
 ```cpp
 #include <iostream>
@@ -66,11 +66,11 @@ The output of this code is:
 manual_pointer now points to 10
 ```
 
-This code creates a `unique_ptr` managing an integer with value 10. Calling `.release()` transfers ownership to `manual_pointer`, and the raw pointer must be manually deleted to prevent a memory leak.
+This code creates a `unique_ptr` managing an integer with value `10`. Calling `.release()` transfers ownership to `manual_pointer`, and the raw pointer must be manually deleted to prevent a memory leak.
 
 ## Codebyte Example
 
-In this example, `std::unique_ptr` is used to manage a `FILE*`. When we need to pass the file pointer to a legacy C-style API that expects a raw `FILE*`, we use `.release()` to transfer ownership safely:
+In this codebyte example, `std::unique_ptr` is used to manage a `FILE*`. When there is a need to pass the file pointer to a legacy C-style API that expects a raw `FILE*`, `.release()` is used to transfer ownership safely:
 
 ```codebyte/cpp
 #include <iostream>
