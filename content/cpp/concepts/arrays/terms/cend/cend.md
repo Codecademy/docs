@@ -1,18 +1,18 @@
 ---
 Title: '.cend()'
-Description: 'Returns a constant iterator pointing just past the last element of an array container.' 
-Subjects: 
+Description: 'Returns a constant iterator pointing just past the last element of an array container.'
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Arrays'
   - 'Iterators'
-CatalogContent: 
+CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-**`.cend()`** is a member function of standard C++ containers (such as [arrays](https://www.codecademy.com/resources/docs/cpp/arrays), [vectors](https://www.codecademy.com/resources/docs/cpp/vectors), and [sets](https://www.codecademy.com/resources/docs/cpp/sets)) that returns a constant iterator pointing just past the last element of the container. The "c" in `.cend()` stands for "const", indicating that the iterator cannot modify the elements it accesses. This function is commonly used for read-only traversal and is typically employed in range checks or `for` loops to define the end boundary of the container.
+**`.cend()`** is a member function of standard C++ containers (such as arrays, [vectors](https://www.codecademy.com/resources/docs/cpp/vectors), and [sets](https://www.codecademy.com/resources/docs/cpp/sets)) that returns a constant iterator pointing just past the last element of the container. The "c" in `.cend()` stands for "const", indicating that the iterator cannot modify the elements it accesses. This function is commonly used for read-only traversal and is typically employed in range checks or `for` loops to define the end boundary of the container.
 
 ## Syntax
 
@@ -43,13 +43,13 @@ int main() {
   auto it = array.cend();
 
   // Move one step back to point to the last element
-  std::cout << *(std::prev(it)) << "\n";  // Outputs: 2
+  std::cout << *(std::prev(it)) << "\n";
 
   return 0;
 }
 ```
 
-The output of this program will be:
+The output of this code will be:
 
 ```shell
 2
@@ -57,7 +57,7 @@ The output of this program will be:
 
 ## Codebyte Example: Using `.cend()` to Print an Array
 
-The following code creates an array and uses `.cbegin()` and `.cend()` to print all of its elements:
+This codebyte creates an array and uses `.cbegin()` and `.cend()` to print all of its elements:
 
 ```codebyte/cpp
 #include <iostream>
