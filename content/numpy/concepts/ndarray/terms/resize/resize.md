@@ -1,6 +1,6 @@
 ---
-Title: `.resize()`
-Description: 'Changes the shape of a NumPy array in-place'
+Title: '.resize()'
+Description: 'Changes the shape of a NumPy array in-place.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
