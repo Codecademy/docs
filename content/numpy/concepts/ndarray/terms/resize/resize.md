@@ -1,6 +1,6 @@
 ---
 Title: `.resize()`
-Description: 'Changes the shape of a NumPy array without changing its data.'
+Description: 'Changes the shape of a NumPy array in-place'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,60 +13,50 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.resize()`** method in NumPy is used to change the shape of an array without changing its data. It can be particularly useful when you need to reshape an array for further processing or analysis.
+The **`.resize()`** method in NumPy changes the shape of an array in-place and may alter its data if the new shape is larger, filling extra elements as needed. It’s useful when reshaping arrays for further processing or analysis.
 
 ## Syntax
 
 ```pseudo
-numpy.resize(a, new_shape)
+ndarray.resize(new_shape, refcheck=True)
 ```
 
 ## Parameters
 
-- **`a`**: array_like
-    The input array that you want to resize.
-- **`new_shape`**: int or tuple of ints
-    The new shape for the array. It must be compatible with the original shape.
-- **`order`**: {'C', 'F', 'A', 'K'}, optional
-    The order in which the array elements are read and written. Default is 'C' (row-major order).
+- `new_shape`: The desired shape of the array. If it's larger than the original, data is repeated to fill space.
+- `refcheck`: If `True`, checks whether the array is referenced elsewhere before resizing. Set to `False` to skip this safety check and force a resize (may lead to issues if other views exist).
 
 ## Returns
 
-- **`resized_array`**: ndarray
-    The resized array with the new shape
+The `.resize()` method modifies the array in-place and returns nothing. If the shape is increased, values are repeated to fill the new array.
 
-## Example
+## Example: Resizing a 1D Array to a Larger Shape
+
+In this example, we resize a 1D array of length 3 to a shape of (2, 4). Since the new shape has more elements, the original values are repeated to fill the space:
 
 ```py
 import numpy as np
 
-# Create a 1D array
-arr = np.array([1, 2, 3, 4, 5])
-
-# Resize the array to 2x3
-resized = np.resize(arr, (2, 3))
-print(resized)
+arr = np.array([1, 2, 3])
+arr.resize((2, 4))
+print(arr)
 ```
 
 The code above generates the following output:
 
 ```shell
-[[1 2 3]
- [4 5 1]]
+[[1 2 3 0]
+ [0 0 0 0]]
 ```
 
-## Notes
+## Codebyte Example: Shrinking a 2D Array to a Smaller Shape
 
-- The `resize` function does not modify the original array; it returns a new array with the specified shape.
-- If the new shape is larger than the original shape, the new array will be filled with repeated copies of the original array.
-- If the new shape is smaller, the array will be truncated.
-
-## Codebyte Example
+In this example, a 2D array is resized from shape (3, 3) to (2, 2), discarding excess elements:
 
 ```codebyte/python
 import numpy as np
 
-arr = np.array([1, 2, 3, 4, 5])
-resized = np.resize(arr, (2, 3))
-print(resized)
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+arr.resize((2, 2))
+print(arr)
 ```
