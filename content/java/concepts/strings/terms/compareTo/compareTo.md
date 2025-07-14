@@ -1,6 +1,6 @@
 ---
 Title: '.compareTo()'
-Description: 'Compares two strings based on the Unicode value of each character in the strings.'
+Description: 'Compares two strings lexicographically using their Unicode values.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.compareTo()`** method is a built-in Java method used to compare two strings lexicographically. This means it compares them based on the Unicode value of each character in the strings.
+The **`.compareTo()`** method is a built-in Java method compares two strings lexicographically by evaluating the Unicode value of each character.
 
 This method is defined in the `java.lang.String` class and implements the `Comparable<String>` interface.
 
@@ -24,12 +24,12 @@ This method is defined in the `java.lang.String` class and implements the `Compa
 string1.compareTo(string2);
 ```
 
-In the syntax:
+**Parameters:**
 
 - `string1`: The string on which `.compareTo()` is called.
 - `string2`: The string to compare with `string1`.
 
-**Return values:**
+**Return value:**
 
 - Returns `0` if both strings are equal.
 - Returns a positive number if `string1` is lexicographically greater than `string2`.
@@ -42,8 +42,6 @@ A way to think about this lexicographical evaluation is noting the Unicode value
 |   `1` - `9`   | 49 - 57  | `"7".compareTo("3");` -> 55 - 51 = 4   |
 |   `A` - `Z`   | 65 - 90  | `"A".compareTo("B");` -> 65 - 66 = -1  |
 |   `a` - `z`   | 97 - 122 | `"z".compareTo("w");` -> 122 - 119 = 3 |
-
-> **Note:** The [`.equals()`](https://www.codecademy.com/resources/docs/java/strings/equals) method can be used to compare strings without taking Unicode values into account.
 
 ## Example 1: Comparing Equal Strings
 
