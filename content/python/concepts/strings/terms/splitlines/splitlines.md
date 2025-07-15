@@ -5,11 +5,10 @@ Subjects:
   - 'Data Science'
   - 'Web Development'
 Tags:
-  - 'Strings'
-  - 'Methods'
   - 'Formatting'
   - 'Lists'
-  - 'Functions'
+  - 'Methods'
+  - 'Strings'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/analyze-data-with-python'
@@ -23,36 +22,18 @@ CatalogContent:
 string.splitlines(keepends=False)
 ```
 
+**Parameters:**
+
 - `string`: This is the string on which to apply the `.splitlines()` method.
-- `keepends` (optional): This is a boolean parameter. If `True`, the line break characters are included in the resulting lines. If `False` (the default), the line break characters are excluded.
+- `keepends` (Optional): This is a Boolean parameter. If `True`, the line break characters are included in the resulting lines. If `False` (default), the line break characters are excluded.
 
-## Examples
+**Return value:**
 
-In this example, `.splitlines(keepends=True)` is used to include the line break characters in the resulting lines.
+The `.splitlines()` method returns a list of strings, each corresponding to a line in the original multi-line string.
 
-```py
-multi_line_string = "This is line 1.\nThis is line 2.\nThis is line 3."
+## Example 1: Basic Usage
 
-lines_with_breaks = multi_line_string.splitlines(keepends=True)
-
-print(lines_with_breaks)
-
-for line in lines_with_breaks:
-  print(line)
-```
-
-This results in the following output:
-
-```shell
-['This is line 1.\n', 'This is line 2.\n', 'This is line 3.']
-This is line 1.
-
-This is line 2.
-
-This is line 3.
-```
-
-In next example, `.splitlines()` is applied to a custom multi-line string with various line break characters (`\n`, `\r\n`, and `\r`).
+In this example, `.splitlines()` is applied to a custom multi-line string with various line break characters (`\n`, `\r\n`, and `\r`):
 
 ```py
 custom_multi_line_string = "Line A\nLine B\r\nLine C\rLine D"
@@ -65,7 +46,7 @@ for line in custom_lines:
   print(line)
 ```
 
-This results in the following output:
+Here is the output:
 
 ```shell
 ['Line A', 'Line B', 'Line C', 'Line D']
@@ -75,19 +56,60 @@ Line C
 Line D
 ```
 
-## Codebyte Example
+## Example 2: Working with File Input
 
-The code below is runnable and uses `.splitlines()` to split `multi_line_string`:
+This example demonstrates how `.splitlines()` helps when reading entire [file](https://www.codecademy.com/resources/docs/python/files) content as a string and needing to process it line by line:
 
-```codebyte/python
-multi_line_string = """This is line 1.
-This is line 2.
-This is line 3."""
+```py
+with open("example.txt", "r") as file:
+  content = file.read()
 
-lines = multi_line_string.splitlines()
+lines = content.splitlines()
 
 print(lines)
+```
 
-for line in lines:
+Here is the output (assuming file content is multi-line):
+
+```shell
+['This is line 1', 'This is line 2', 'This is line 3']
+```
+
+## Codebyte Example: Keeping Line Endings
+
+In this codebyte example, `.splitlines(keepends=True)` is used to include the line break characters in the resulting lines:
+
+```py
+multi_line_string = "This is line 1.\nThis is line 2.\nThis is line 3."
+
+lines_with_breaks = multi_line_string.splitlines(keepends=True)
+
+print(lines_with_breaks)
+
+for line in lines_with_breaks:
   print(line)
+```
+
+## Frequently Asked Questions
+
+### 1. How is `.splitlines()` different from `.split('\n')`?
+
+`.split('\n')` only handles `\n` as a newline, while `.splitlines()` handles all common line breaks (`\n`, `\r`, `\r\n`). This makes it more robust for cross-platform text handling.
+
+### 2. Can `.splitlines()` be used on an empty string?
+
+Yes. In that case, `.splitlines()` returns an empty list:
+
+```py
+print("".splitlines()) # Output: []
+```
+
+### 3. What happens if there are trailing newlines while using `.splitlines()`?
+
+Trailing newlines create extra empty strings only if `keepends=True` in `.splitlines()`:
+
+```py
+print("text\n".splitlines()) # Output: ['text']
+
+print("text\n".splitlines(True)) # Output: ['text\n']
 ```
