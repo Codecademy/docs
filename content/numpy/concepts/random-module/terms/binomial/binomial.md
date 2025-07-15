@@ -1,6 +1,6 @@
 ---
 Title: '.binomial()'
-Description: 'Draw random samples from a binomial distribution.'
+Description: 'Draws random samples from a binomial distribution.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -9,14 +9,12 @@ Tags:
   - 'Data'
   - 'Functions'
   - 'Numpy'
-  - 'Probability'
-  - 'Statistics'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-In NumPy's `random` module, the **`.binomial()`** method generates random samples from a binomial distribution, representing the number of successful outcomes in `n` independent trials, each with a fixed probability `p` of success.
+In NumPy's `random` module, the **`.binomial()`** method generates random samples from a binomial distribution, representing the number of successes in `n` independent trials, each with a fixed probability `p` of success.
 
 ## Syntax
 
@@ -39,7 +37,7 @@ The `.binomial()` function returns one or more random integers representing the 
 
 ## Example: Generating Random Binomial Samples in NumPy
 
-The following example simulates 10 independent trials, repeated 5 times. Each value in the result represents the number of successes in one set of 10 trials:
+This example simulates 10 independent trials, repeated 5 times. Each value in the result represents the number of successes in one set of 10 trials:
 
 ```py
 import numpy as np
@@ -56,9 +54,11 @@ A possible output of this code could be:
 [3 5 4 5 4]
 ```
 
+> **Note:** The output will vary with each execution since it is randomly sampled.
+
 ## Codebyte Example
 
-In this Codebyte example, we generate a single random value from a binomial distribution with 15 trials and a 60% chance of success:
+In this codebyte example, a single random value is generated from a binomial distribution with 15 trials and a 60% chance of success:
 
 ```codebyte/python
 import numpy as np
@@ -69,5 +69,3 @@ p = 0.6
 sample = np.random.binomial(n, p)
 print(sample)
 ```
-
-> **Note:** The output will vary with each execution since it is randomly sampled.
