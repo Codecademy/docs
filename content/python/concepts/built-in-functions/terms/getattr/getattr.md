@@ -35,7 +35,7 @@ The value of the specified attribute if it exists, the default value if the attr
 
 ## Example 1: Basic Attribute Access
 
-This example demonstrates the fundamental usage of `getattr()` to access object attributes dynamically:
+The following example demonstrates the fundamental usage of `getattr()` to access object attributes dynamically:
 
 ```py
 class Student:
