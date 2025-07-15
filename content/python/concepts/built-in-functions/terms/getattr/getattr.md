@@ -64,7 +64,7 @@ Student age: 20
 
 ## Example 2: Configuration Management System
 
-This example shows how `getattr()` can be used in a real-world scenario for managing application configurations with default values:
+The following example shows how `getattr()` can be used in a real-world scenario for managing application configurations with default values:
 
 ```py
 class AppConfig:
