@@ -112,7 +112,7 @@ This example shows how `.isalnum()` can be integrated into a comprehensive valid
 
 ## Codebyte Example: Data Cleaning and Filtering
 
-This example demonstrates using `.isalnum()` for data processing tasks, such as filtering valid product codes from a dataset:
+The following example demonstrates using `.isalnum()` for data processing tasks, such as filtering valid product codes from a dataset:
 
 ```codebyte/python
 def filter_product_codes(code_list):
