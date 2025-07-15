@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, the **`.flatMap()`** method returns a new array formed by applying a callback function to each element of the original array, then flattening the result by _one level_. It is a combination of the [`.map()`](https://www.codecademy.com/resources/docs/javascript/arrays/map) and [`.flat()`](https://www.codecademy.com/resources/docs/javascript/arrays/flat) methods and is slightly more efficient than calling them separately, as it performs both operations (mapping and flattening) in a single step.
+In JavaScript, the **`.flatMap()`** method returns a new [array](https://www.codecademy.com/resources/docs/javascript/arrays) formed by applying a callback function to each element of the original array, then flattening the result by _one level_. It is a combination of the [`.map()`](https://www.codecademy.com/resources/docs/javascript/arrays/map) and [`.flat()`](https://www.codecademy.com/resources/docs/javascript/arrays/flat) methods and is slightly more efficient than calling them separately, as it performs both operations (mapping and flattening) in a single step.
 
-> **Note:** For deeper flattening (i.e., more than one level of nesting), it is better to use the `.flat()` method after `.flatMap()`. It's because `.flat()` method can flatten more levels.
+> **Note:** To flatten more than one level of nesting, chain the `.flat()` method after `.flatMap()`, as `.flatMap()` only flattens one level.
 
 ## Syntax
 
@@ -29,11 +29,11 @@ array.flatMap(callbackFunc, thisArg);
   - `element` (required): The current element being processed.
   - `index` (optional): The index of the current element being processed.
   - `array` (optional): The array `.flatMap()` was called upon.
-- `thisArg` (opcional): A value to use as `this` when executing `callbackFunc`.
+- `thisArg` (optional): A value to use as `this` when executing `callbackFunc`.
 
 **Return value:**
 
-Returns a new array formed by applying a callback function to each element of the original array, then flattening the result by one level.
+Returns a new array formed by applying the callback function to each element of the original array, then flattening the result by one level.
 
 ## Example 1: Creating a words array
 
@@ -60,7 +60,7 @@ The code will produce this output:
 
 ## Example 2: Printing every argument
 
-This example prints every argument of the callback function and the result array. The `array` argument is converted to a [`JSON`](https://www.codecademy.com/resources/docs/javascript/json) object using the [`.stringify()`](https://www.codecademy.com/resources/docs/javascript/json/stringify) method for clarity:
+This example prints every argument of the callback function and the result array. The `array` argument is converted to a [`JSON`](https://www.codecademy.com/resources/docs/javascript/json) string using the [`.stringify()`](https://www.codecademy.com/resources/docs/javascript/json/stringify) method for clarity:
 
 ```js
 const numbers = [
@@ -78,7 +78,7 @@ const result = numbers.flatMap((element, index, array) => {
   return element;
 });
 
-console.log(); // Line break
+console.log(''); //Line Break
 console.log(result);
 ```
 
@@ -97,9 +97,7 @@ Element: 6,7,8, Index: 2, Original Array: [[1,2,3],[4,5],[6,7,8]]
 
 ## Codebyte Example
 
-In this codebyte example, the variable `largeArray` contains a list of one million numbers, created using the `.from()` method of the array instance.
-
-The `console.time()` and `console.timeEnd()` methods are used to measure how long a block of code takes to execute.
+In this codebyte example, the variable `largeArray` contains a list of one million numbers, created using the `.from()` method of the array instance. The `console.time()` and `console.timeEnd()` methods are used to measure how long a block of code takes to execute:
 
 ```codebyte/js
 const largeArray = Array.from({ length: 1000000 }, (value, index) => index);
@@ -113,4 +111,4 @@ const resultMapFlat = largeArray.map((num) => [num, num * 2]).flat();
 console.timeEnd('map + flat');
 ```
 
-The difference is that `.flatMap()` is faster because it does both operations (transform and flatten) in one pass, while `.map()` and `.flat()` require two passes, which takes more time.
+The difference is that `.flatMap()` is faster because it performs mapping and flattening in a single pass, while `.map()` followed by `.flat()` performs two separate operations, making it slightly slower.
