@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`.isalnum()`** method is a built-in [string](https://www.codecademy.com/resources/docs/python/strings) method in Python that checks whether all characters in a string are alphanumeric. This method returns `True` if every character in the string is either a letter (a-z, A-Z) or a digit (0-9), and the string contains at least one character. If any character is not alphanumeric or if the string is empty, the method returns `False`.
 
-The `.isalnum()` method is commonly used in data validation scenarios, such as checking usernames, passwords, or any input that should only contain letters and numbers. It's particularly useful in form validation, data cleaning operations, and when processing user inputs where special characters need to be filtered out.
+The `.isalnum()` method is commonly used in data validation scenarios, such as checking usernames, passwords, or any input that should only contain letters and numbers. It's particularly useful in form validation, data cleaning operations, and when processing user inputs, where special characters need to be filtered out.
 
 ## Syntax
 
