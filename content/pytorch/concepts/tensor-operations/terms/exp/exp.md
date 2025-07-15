@@ -29,7 +29,7 @@ torch.exp(input, *, out=None) → Tensor
 
 **Return value:**
 
-Returns a new tensor where each element is the exponential of the corresponding element in the input tensor.
+Returns a new tensor where each element is the exponential of the corresponding element within the input tensor.
 
 ## Example
 
@@ -48,7 +48,7 @@ result = torch.exp(x)
 print(result)
 ```
 
-The above code produces the following output:
+Here is the output:
 
 ```shell
 tensor([1.0000 , 2.7183, 7.3891 , 2. ])
