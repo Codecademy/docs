@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/example-path'
 ---
 
-The **`.key_eq()`** is a member function that returns the function (also called a predicate) that the container uses to determine whether two keys are considered equal. This function is essential because, in an `unordered_map`, keys are stored in hash buckets and even if two keys hash to the same bucket, the container still needs to check if they're actually equal. That’s where key_eq comes in.
+The **`.key_eq()`** is a member function that returns the [function](https://www.codecademy.com/resources/docs/cpp/functions) (also called a predicate) that the container uses to determine whether two keys are considered equal. This function is essential because, in an `unordered_map`, keys are stored in hash buckets and even if two keys hash to the same bucket, the container still needs to check if they're actually equal. That’s where `.key_eq()` comes in.
 
 ## Syntax
 
@@ -33,7 +33,7 @@ unordered_map_name.key_eq()(args1, args2)
 
 ## Example
 
-In this example, the map’s key equality function is used to find and print the population of selected animals by comparing external values to map keys:
+In this example, the map's key equality function is used to find and print the population of selected animals by comparing external values to map keys:
 
 ```cpp
 #include <iostream>
