@@ -66,7 +66,7 @@ This example shows how `.isalnum()` returns `True` for strings containing only l
 
 ## Example 2: Username Validation System
 
-This example demonstrates a practical real-world application of `.isalnum()` for validating user input in a registration system:
+The following example demonstrates a practical real-world application of `.isalnum()` for validating user input in a registration system:
 
 ```py
 def validate_username(username):
