@@ -33,7 +33,7 @@ A tensor with the same shape as `input`, where each element is converted from de
 
 ## Example
 
-The following example demonstrates the usage of the `.deg2rad()` function:
+This example demonstrates the usage of the `.deg2rad()` function:
 
 ```py
 import torch
@@ -48,7 +48,7 @@ radians = torch.deg2rad(degrees)
 print(radians)
 ```
 
-The above code produces the following output:
+Here is the output:
 
 ```shell
 tensor([0.0000, 1.5708, 3.1416, 4.7124])
