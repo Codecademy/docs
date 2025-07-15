@@ -35,7 +35,7 @@ string.isalnum()
 
 ## Example 1: Basic String Validation
 
-This example demonstrates the fundamental usage of `.isalnum()` to check if a string contains only letters and numbers:
+The following example demonstrates the fundamental usage of `.isalnum()` to check if a string contains only letters and numbers:
 
 ```py
 # Check different types of strings
