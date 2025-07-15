@@ -152,7 +152,7 @@ Yes, `getattr()` can access private attributes (those starting with underscore),
 
 ### 3. Is `getattr()` slower than direct attribute access?
 
-Yes, `getattr()` has slightly more overhead than direct dot notation access, but the performance difference is typically negligible for most applications.
+Yes, `getattr()` has slightly more overhead than direct dot notation access, but most applications' performance difference is typically negligible.
 
 ### 4. Can I use `getattr()` with methods?
 
