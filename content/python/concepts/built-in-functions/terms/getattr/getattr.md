@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`getattr()`** function is a built-in Python function that returns the value of a named attribute from an object. It provides a dynamic way to access object attributes using their [string](https://www.codecademy.com/resources/docs/python/strings) names rather than dot notation. This function is particularly useful when the attribute name is stored in a variable or determined at runtime.
+The **`getattr()`** function is a [built-in](https://www.codecademy.com/resources/docs/python/built-in-functions) Python function that returns the value of a named attribute from an object. It provides a dynamic way to access object attributes using their [string](https://www.codecademy.com/resources/docs/python/strings) names rather than dot notation. This function is particularly useful when the attribute name is stored in a variable or determined at runtime.
 
 The `getattr()` function serves as a safe alternative to direct attribute access, allowing developers to specify a default value when an attribute doesn't exist. This makes it invaluable for creating flexible code that can handle objects with varying attributes, implementing configuration systems, and building dynamic applications where attribute names may not be known in advance.
 
