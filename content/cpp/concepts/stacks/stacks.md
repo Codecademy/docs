@@ -6,8 +6,8 @@ Subjects:
   - 'Game Development'
 Tags:
   - 'Collections'
+  - 'Data Structures'
   - 'Data Types'
-  - 'Methods'
   - 'Stacks'
 CatalogContent:
   - 'learn-c-plus-plus'
@@ -20,7 +20,7 @@ Stacks are implemented as a container adaptor, a [class](https://www.codecademy.
 
 ## Creating a Stack
 
-To create a stack in C++, the `<stack>` header and the `std` namespace needs to be included:
+To create a stack in C++, the `<stack>` header and the `std` namespace need to be included:
 
 ```pseudo
 #include <stack>
@@ -200,7 +200,7 @@ int main() {
   myStack.push(20);
   myStack.push(30);
 
-  // Get the size of the stack
+  // Check if the stack is empty
   cout << myStack.empty() << "\n";
 
   return 0;
