@@ -1,56 +1,75 @@
 ---
 Title: '.EPSILON'
-Description: 'Static property that represents the smallest difference between two representable numbers greater than 1'
+Description: 'Static property that defines the smallest positive difference between 1 and the next representable floating-point number in JavaScript.'
 Subjects:
-  - 'JavaScript'
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
+  - 'JavaScript'
   - 'Numbers'
   - 'Properties'
-  - 'Floating-point'
-  - 'Precision'
-  - 'JavaScript'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.EPSILON` property is a part of the `Number` class in JavaScript.
-
-In simple terms, it's just a static value that approximates the difference between 1 and the next largest floating-point number that Javascript can represent.
+The **`.EPSILON`** property is a static member of the `Number` object in JavaScript. It represents the smallest difference between 1 and the next larger floating-point number, making it useful for handling floating-point precision and comparison in JavaScript.
 
 ## Syntax
 
-```js
+```pseudo
 Number.EPSILON;
 ```
 
+**Parameters:**
+
+- `Number.EPSILON` is a static constant and does not take any arguments.
+
+**Return value:**
+
+Returns a constant value representing the smallest difference between 1 and the next greater representable floating-point number. The exact value is approximately:
+
+```js
+2.220446049250313e-16
+```
 
 ## Examples
 
-Due to floating-point precision errors, you shouldn't compare decimals directly with ===. Instead, use Number.EPSILON to check if two values are "close enough."
-
-```js
-console.log(0.1 + 0.2 === 0.3);
-// false
-```
+In this example, `Number.EPSILON` is used to check if two floating-point numbers are nearly equal by comparing the difference to a very small threshold:
 
 ```js
 function isEqual(a, b) {
   return Math.abs(a - b) < Number.EPSILON;
 }
 
-console.log(isEqual(0.1 + 0.2, 0.3)); 
-// true
+console.log(isEqual(0.1 + 0.2, 0.3));
 ```
 
-In the examples above, we tried to compare (0.1 + 0.2) to 0.3. Mathematically, this should return true, but due to floating-point precision issues, it returns false.
+The output for this code is:
 
-To fix this, we calculate the absolute difference between (0.1 + 0.2) and 0.3, and then check if this difference is smaller than Number.EPSILON, which represents the smallest meaningful difference between two numbers. If it is, we can treat the numbers as effectively equal.
+```shell
+true
+```
+
+In the example above, `Number.EPSILON` is used as a threshold to handle floating-point precision issues. The function compares the absolute difference between two numbers and returns `true` if that difference is smaller than `Number.EPSILON`, treating them as effectively equal. This helps avoid unexpected results when comparing decimal values like `0.1 + 0.2` and `0.3`.
 
 ## Codebyte Example
 
-```codebyte/js
-console.log(Number.EPSILON);
+This example checks if the total cost of items matches the expected amount, accounting for floating-point precision:
+
+```codebyte/javascript
+function isEqual(a, b) {
+  return Math.abs(a - b) < Number.EPSILON;
+}
+
+const item1 = 0.1;
+const item2 = 0.2;
+const item3 = 0.3;
+
+const total = item1 + item2 + item3;
+const expectedTotal = 0.6;
+
+console.log("Is total correct?", isEqual(total, expectedTotal));
 ```
+
+The `isEqual()` function checks if two numbers are nearly equal using `Number.EPSILON`. This handles minor floating-point differences in the calculated total.
