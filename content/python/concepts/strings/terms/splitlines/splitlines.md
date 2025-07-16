@@ -1,6 +1,6 @@
 ---
 Title: '.splitlines()'
-Description: 'Used to split a multi-line string into a list of lines.'
+Description: 'Splits a string into a list of lines'
 Subjects:
   - 'Data Science'
   - 'Web Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-**`.splitlines()`** is a built-in string method in Python that is used to split a multi-line string into a list of lines. It recognizes different newline characters such as `\n`, `\r`, or `\r\n` and splits the string at those points. The method returns a list of strings, each corresponding to a line in the original multi-line string.
+**`.splitlines()`** is a built-in [string](https://www.codecademy.com/resources/docs/python/strings) method in Python method in Python that splits a multi-line string into a list of lines. It recognizes different newline characters such as `\n`, `\r`, or `\r\n` and splits the string at those points. The method returns a list of strings, each corresponding to a line in the original multi-line string.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ string.splitlines(keepends=False)
 
 The `.splitlines()` method returns a list of strings, each corresponding to a line in the original multi-line string.
 
-## Example 1: Basic Usage
+## Example 1: Basic Usage of `.splitlines()`
 
 In this example, `.splitlines()` is applied to a custom multi-line string with various line break characters (`\n`, `\r\n`, and `\r`):
 
@@ -46,7 +46,7 @@ for line in custom_lines:
   print(line)
 ```
 
-Here is the output:
+The output of this code is:
 
 ```shell
 ['Line A', 'Line B', 'Line C', 'Line D']
@@ -69,7 +69,7 @@ lines = content.splitlines()
 print(lines)
 ```
 
-Here is the output (assuming file content is multi-line):
+The output of this code is (assuming file content is multi-line):
 
 ```shell
 ['This is line 1', 'This is line 2', 'This is line 3']
