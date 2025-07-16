@@ -1,43 +1,68 @@
 ---
 Title: '.isSafeInteger()'
-Description: 'Determines whether the passed value is a **safe** integer (an exact IEEE-754 integer between −(2^53 − 1) and 2^53 − 1).'
+Description: 'Checks whether the passed value is a safe integer.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'Numbers'
   - 'Methods'
+  - 'Numbers'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `Number.isSafeInteger()` method is a static method of the `Number` object in JavaScript.
+The **`.isSafeInteger()`** method is a static method of the `Number` object in JavaScript which determines whether the provided value is a safe integer: an integer that can be exactly represented using the IEEE-754 double-precision format.
 
-It accepts a single argument, **`value`**, and returns `true` if the passed argument is a **safe integer**—an integer that can be exactly represented in the IEEE-754 double-precision format (from `-(2**53 - 1)` to `(2**53 - 1)`). Otherwise, it returns `false`.
+A safe integer satisfies:
+
+$$
+-(2^{53} - 1) \leq \text{value} \leq 2^{53} - 1
+$$
+
+If the condition holds, the method returns `true`, otherwise, it returns `false`.
 
 ## Syntax
 
-```js
+```pseudo
 Number.isSafeInteger(value);
 ```
 
-- `value` (required): The value to check.
+**Parameters:**
+
+- `value`: The value to be tested for being a safe integer.
+
+**Return value:**
+
+Returns `true` if the given `value` is of type `number`, is an integer, and is within the safe integer range (`-(2^53 - 1) to 2^53 - 1`). Otherwise, it returns `false`.
 
 ## Examples
 
+This example demonstrates how `.isSafeInteger()` returns `true` for integers and `false` for non-integers or values outside the safe range:
+
 ```js
-Number.isSafeInteger(10); // Output: true
-Number.isSafeInteger(3.14); // Output: false
-Number.isSafeInteger(Math.pow(2, 53)); // Output: false
-Number.isSafeInteger(2 ** 53 - 1); // Output: true
+console.log(Number.isSafeInteger(10));
+console.log(Number.isSafeInteger(3.14));
+console.log(Number.isSafeInteger(Math.pow(2, 53)));
+console.log(Number.isSafeInteger(2 ** 53 - 1));
+```
+
+The output of this code is:
+
+```shell
+true
+false
+false
+true
 ```
 
 ## Codebyte Examples
 
+This Codebyte tests various values to show how the method handles whole numbers, decimals, and edge cases at the limits of JavaScript’s safe integer range:
+
 ```codebyte/javascript
-console.log(Number.isSafeInteger(100));        // true
-console.log(Number.isSafeInteger(3.5));        // false
-console.log(Number.isSafeInteger(2 ** 53 - 1)); // true
-console.log(Number.isSafeInteger(2 ** 53));     // false
+console.log(Number.isSafeInteger(100));
+console.log(Number.isSafeInteger(3.5));
+console.log(Number.isSafeInteger(2 ** 53 - 1));
+console.log(Number.isSafeInteger(2 ** 53));
 ```
