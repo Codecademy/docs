@@ -36,7 +36,7 @@ Number.isSafeInteger(value);
 
 Returns `true` if the given `value` is of type `number`, is an integer, and is within the safe integer range (`-(2^53 - 1) to 2^53 - 1`). Otherwise, it returns `false`.
 
-## Examples
+## Example
 
 This example demonstrates how `.isSafeInteger()` returns `true` for integers and `false` for non-integers or values outside the safe range:
 
@@ -56,7 +56,7 @@ false
 true
 ```
 
-## Codebyte Examples
+## Codebyte Example
 
 This Codebyte tests various values to show how the method handles whole numbers, decimals, and edge cases at the limits of JavaScript’s safe integer range:
 
