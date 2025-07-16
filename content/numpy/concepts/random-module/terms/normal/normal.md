@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.normal()`** function of the NumPy Random module generates random samples from a normal (Gaussian) distribution, a continuous probability distribution widely used in statistics and data science due to its symmetric bell-shaped curve.
+The **`.normal()`** function from NumPy's Random module generates random numbers drawn from a normal (Gaussian) distribution, which is a continuous, bell-shaped distribution commonly used in statistics and data science.
 
 ## Syntax
 
@@ -30,21 +30,22 @@ numpy.random.normal(loc=0.0, scale=1.0, size=None)
 **Return value:**
 
 - `out` (ndarray or scalar): Random samples from the normal distribution.
-  - If `size` is `None`, returns a single `float`.
-  - If `size` is specified, returns a NumPy array of shape `size` containing the sampled values.
+  - If `size` is `None`, returns a single float.
+  - If `size` is specified, returns a NumPy array of the given shape with samples drawn from the normal distribution.
 
 ## Statistical Properties
 
-Mean: $μ=\text{loc}$
-Variance: $σ^2 = \text{scale}^2$
+- Mean ($μ$) = `loc`
+- Variance ($σ^2$) = $\text{scale}^2$
 
-The probability density formula (PDF) for the normal distribution is:
+The Probability Density Function (PDF) of the normal distribution is:
 
 $$
 p(x) = \frac{1}{\sqrt{2\pi\sigma^2}} \ e^{-\frac{(x-\mu)^2}{2\sigma^2}}
 $$
 
-- $\mu$ is the mean (loc), and $\sigma$ is the standard deviation (scale).
+- $\mu$ is the mean (`loc`).
+- $\sigma$ is the standard deviation (`scale`).
 
 ## Example
 
@@ -65,7 +66,7 @@ The output for this code will be:
 
 Here:
 
-- `np.random.seed(15)` ensures reproducibility.
+- `np.random.seed(15)` ensures the same random numbers are generated every time the code runs.
 - `np.random.normal()` draws two samples from the standard normal distribution.
 
 ## Codebyte Example
