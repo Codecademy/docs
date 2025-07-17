@@ -16,11 +16,11 @@ CatalogContent:
 
 In R, conditionals help control the flow of a program. They evaluate Boolean expressions and execute certain blocks of code depending on whether the expression evaluates to `TRUE` or `FALSE`. This is especially useful while working with dynamic data, automating tasks, or writing functions with variable behavior.
 
-## If Statement
+## R If Statement
 
 The R `if` statement is used to run a block of code if a condition is `TRUE`.
 
-### Syntax
+### R If Statement Syntax
 
 ```pseudo
 if (condition) {
@@ -28,7 +28,7 @@ if (condition) {
 }
 ```
 
-### Example
+### R If Statement Example
 
 This example demonstrates the usage of the `if` statement in R:
 
@@ -46,11 +46,11 @@ Here is the output:
 [1] "x is greater than 6"
 ```
 
-## If-Else Statement
+## R If-Else Statement
 
 The R `if-else` statement allows the execution of a block of code if a condition is `TRUE`, and a separate block of code if the condition is `FALSE`.
 
-### Syntax
+### R If-Else Statement Syntax
 
 ```pseudo
 if (condition) {
@@ -60,7 +60,7 @@ if (condition) {
 }
 ```
 
-### Example
+### R If-Else Statement Example
 
 This example demonstrates the usage of the `if-else` statement in R:
 
@@ -80,11 +80,11 @@ Here is the output:
 [1] "x is less than or equal to 6"
 ```
 
-## Else-If Statement
+## R Else-If Statement
 
 When there is a need to check multiple conditions, the R `else-if` statement can be used to evaluate them sequentially.
 
-### Syntax
+### R Else-If Statement Syntax
 
 ```pseudo
 if (condition1) {
@@ -96,7 +96,7 @@ if (condition1) {
 }
 ```
 
-### Example
+### R Else-If Statement Example
 
 This example demonstrates the usage of the `else-if` statement in R:
 
@@ -118,11 +118,11 @@ Here is the output:
 [1] "x is equal to 5"
 ```
 
-## Nested If Statement
+## Nested R If Statement
 
 R `if` statements can be nested within each other for more complex logical checks.
 
-### Syntax
+### Nested R If Statement Syntax
 
 ```pseudo
 if (condition1) {
@@ -132,7 +132,7 @@ if (condition1) {
 }
 ```
 
-### Example
+### Nested R If Statement Example
 
 This example demonstrates the usage of nested `if` statements in R:
 
