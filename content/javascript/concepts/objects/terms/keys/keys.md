@@ -14,11 +14,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.keys()`** method returns an [array](https://www.codecademy.com/resources/docs/javascript/arrays) of a given [object's](https://www.codecademy.com/resources/docs/javascript/objects) own enumerable string-keyed property names. This static method extracts only the keys from an object, providing a convenient way to iterate over or analyze object properties without accessing their values.
+The **`Object.keys()`** JavaScript method returns an [array](https://www.codecademy.com/resources/docs/javascript/arrays) of a given [object's](https://www.codecademy.com/resources/docs/javascript/objects) own enumerable string-keyed property names. This static method extracts only the keys from an object, providing a convenient way to iterate over or analyze object properties without accessing their values.
 
 > **Note:** The order of the keys in the resulting array is not guaranteed to be the same as the order in which they were defined in the object.
-
-`.keys()` is commonly used in scenarios where developers need to loop through object properties, validate object structure, transform objects into arrays, or perform operations on property names. It works with any object type including plain objects, arrays, and functions, making it a versatile tool for object manipulation and analysis.
 
 ## Syntax
 
@@ -60,7 +58,7 @@ This example results in the following output:
 
 The method returns an array containing all enumerable property names from the object. The order of keys in the returned array matches the order in which they were defined in the object.
 
-## Example 2: Iterating Over Object Properties
+## Example 2: Using `Object.keys()` to iterate Over Object Properties
 
 This example shows how to use `Object.keys()` to iterate through object properties, which is useful for processing or transforming object data:
 
@@ -96,7 +94,7 @@ headphones: 89 units
 Low stock alert: laptops
 ```
 
-## Codebyte Example: Filtering and Transforming Objects
+## Codebyte Example: Filtering and Transforming Objects Using `Object.keys()`
 
 This example demonstrates using `Object.keys()` to filter object properties and create new objects based on specific criteria:
 
