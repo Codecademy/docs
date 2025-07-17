@@ -33,7 +33,7 @@ numpy.sort(a, axis=-1, kind=None, order=None)
 
 Returns a sorted copy of the input array with the same type and shape as the original array.
 
-## Example 1: Basic Array Sorting using `numpy.sort()` method
+## Example 1: Basic Array Sorting Using `numpy.sort()` Method
 
 The simplest use case of `.sort()` is sorting a one-dimensional array in ascending order:
 
@@ -59,7 +59,7 @@ Sorted array: [11 12 22 25 34 64 90]
 
 This example demonstrates the basic functionality of `.sort()` where it creates a new sorted array while leaving the original array unchanged. The method automatically arranges the elements from smallest to largest.
 
-## Example 2: Sorting Student Test Scores using NumPy's `.sort()`
+## Example 2: Sorting Student Test Scores Using NumPy's `.sort()`
 
 This example shows how to sort student test scores to identify performance rankings and analyze grade distributions:
 
