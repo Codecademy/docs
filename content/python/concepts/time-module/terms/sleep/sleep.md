@@ -30,7 +30,7 @@ time.sleep(seconds)
 
 The `time.sleep()` method does not return any value (returns `None`).
 
-## Example 1: Basic Sleep Implementation with the `time.sleep()` method
+## Example 1: Basic Sleep Implementation With The `time.sleep()` Method
 
 This example demonstrates the fundamental usage of `time.sleep()` to create a simple delay in program execution:
 
@@ -56,7 +56,7 @@ Program resumed after 3 seconds
 
 The program first prints "Starting program...", then pauses for exactly 3 seconds, and finally prints the second message.
 
-## Example 2: Creating a Timer with Python's `time.sleep()`
+## Example 2: Creating a Timer With Python's `time.sleep()`
 
 This example shows how to use `time.sleep()` to create a countdown timer, demonstrating a practical real-world application:
 
@@ -87,7 +87,7 @@ Timer finished!
 
 This example creates a countdown that updates every second, showing how `time.sleep()` can be used to control the timing of repeated operations.
 
-## Codebyte Example: Automated Data Processing with Delays
+## Codebyte Example: Automated Data Processing With Delays
 
 This example demonstrates using `time.sleep()` in a data processing scenario where you need to respect rate limits or simulate processing time:
 
