@@ -1,6 +1,6 @@
 ---
 Title: 'Comparator'
-Description: 'The Comparator interface is used to order objects of an arbitrary class.'
+Description: 'The Java Comparator interface is used to order objects of an arbitrary class.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, the **`Comparator`** interface is used to order objects of an arbitrary [class](https://www.codecademy.com/resources/docs/java/classes). It is not to be confused with the [`Comparable`](https://www.codecademy.com/resources/docs/java/comparable) interface, which is implemented by the class to be sorted. The `Comparator` interface is implemented in a separate class.
+**`Comparator`** in Java is an interface used to order objects of an arbitrary [class](https://www.codecademy.com/resources/docs/java/classes). It is not to be confused with the [`Comparable`](https://www.codecademy.com/resources/docs/java/comparable) interface, which is implemented by the class to be sorted. The `Comparator` interface is implemented in a separate class.
 
-## Syntax
+## Java `Comparator` Syntax
 
 ```pseudo
 class MyComparator implements Comparator<MyClass> {
@@ -29,7 +29,7 @@ class MyComparator implements Comparator<MyClass> {
 }
 ```
 
-Applying the `Comparator` interface to a class, `MyComparator`, requires the `implements` keyword (e.g., `Comparator<MyClass>`). This interface has a `.compare()` method, which returns an `int` value based on whether two `MyClass` instances, `a` and `b`, can be logically sorted:
+Applying `Comparator` in Java to a class (`MyComparator`) requires the `implements` keyword (e.g., `Comparator<MyClass>`). This interface has a `.compare()` method, which returns an `int` value based on whether two `MyClass` instances, `a` and `b`, can be logically sorted:
 
 | Return Value | Meaning                                        |
 | :----------: | ---------------------------------------------- |
@@ -39,9 +39,9 @@ Applying the `Comparator` interface to a class, `MyComparator`, requires the `im
 
 A `Comparator` class can be passed as an argument to methods such as [`Arrays.sort()`](https://www.codecademy.com/resources/docs/java/arrays/sort) and `Collections.sort()` to specify the sort order, potentially overriding the natural sort order defined by the class’s own `.compareTo()` method.
 
-## Example 1: Sort List of Strings by Length
+## Example 1: Sort a List of Strings Using Java `Comparator`
 
-In this example, the `StringLengthComparator` class is used to compare two strings based on their length. This is useful when the sorting logic is used in multiple places or needs to be unit-tested:
+In this example, the Java `Comparator` class named `StringLengthComparator` is used to compare two strings based on their length. This is useful when the sorting logic is used in multiple places or needs to be unit-tested:
 
 ```java
 import java.util.*;
@@ -70,9 +70,9 @@ Here is the output:
 Sorted by length: [pear, kiwi, apple, banana]
 ```
 
-## Example 2: Sort Custom Objects by Field
+## Example 2: Sort Custom Objects Using Java `Comparator`
 
-In this example, `SalaryComparator` is a reusable class for comparing employees based on their salary and `Collections.sort()` applies the comparator to arrange employees in ascending order:
+In this example, the Java `Comparator` class named `SalaryComparator` is a reusable class for comparing employees based on their salary and `Collections.sort()` applies the comparator to arrange employees in ascending order:
 
 ```java
 import java.util.*;
@@ -119,9 +119,9 @@ Here is the output:
 Sorted by salary: [Bob: 50000, Charlie: 60000, Alice: 70000]
 ```
 
-## Example 3: Sort in Reverse Order
+## Example 3: Sort in Reverse Order Using Java `Comparator`
 
-In this example, the `ReverseIntegerComparator` class reverses the natural ordering of integers. It's useful when built-in methods like `Comparator.reverseOrder()` are not allowed or available:
+In this example, the Java `Comparator` class named `ReverseIntegerComparator` reverses the natural ordering of integers. It's useful when built-in methods like `Comparator.reverseOrder()` are not allowed or available:
 
 ```java
 import java.util.*;
@@ -152,15 +152,15 @@ Reverse sorted: [8, 5, 3, 2, 1]
 
 ## Frequently Asked Questions
 
-### 1. What is the difference between `Comparator` and `Comparable`?
+### 1. What is the difference between Java `Comparator` and `Comparable`?
 
-- `Comparable` is implemented by a class to define its natural ordering.
-- `Comparator` is used to define external and multiple sorting strategies.
+- `Comparable` in Java is implemented by a class to define its natural ordering.
+- `Comparator` in Java is used to define external and multiple sorting strategies.
 
-### 2. Can a class have multiple comparators?
+### 2. Can a class have multiple comparators in Java?
 
-Yes. You can create multiple `Comparator` classes to sort objects differently—for example, by name, salary, or ID.
+Yes. You can create multiple `Comparator` classes in Java to sort objects differently—for example, by name, salary, or ID.
 
-### 3. Is `Comparator` a functional interface?
+### 3. Is Java `Comparator` a functional interface?
 
-Yes. Since Java 8, you can utilize lambda expressions to implement comparators concisely.
+Yes. You can utilize lambda expressions to implement comparators in Java concisely.
