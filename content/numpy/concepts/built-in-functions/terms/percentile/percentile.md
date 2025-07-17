@@ -14,14 +14,12 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.percentile()`** is a statistical measure that indicates the value below which a given percentage of observations in a dataset falls. NumPy's `.percentile()` function computes the q-th percentile of data along a specified axis, making it an essential tool for statistical analysis and data exploration.
-
-This function is commonly used in data science for analyzing data distributions, identifying outliers, calculating quartiles, and creating statistical summaries. It's particularly valuable when working with large datasets where you need to understand the spread and central tendencies of your data.
+The **`np.percentile()`** is a statistical measure that indicates the value below which a given percentage of observations in a dataset falls. NumPy's `.percentile()` function computes the q-th percentile of data along a specified axis, making it an essential tool for statistical analysis and data exploration.
 
 ## Syntax
 
 ```pseudo
-numpy.percentile(a, q, axis=None, out=None, overwrite_input=False, method='linear', keepdims=False, weights=None, interpolation=None)
+numpy.percentile(a, q, axis=None, out=None, ...)
 ```
 
 **Parameters:**
@@ -30,17 +28,14 @@ numpy.percentile(a, q, axis=None, out=None, overwrite_input=False, method='linea
 - `q`: Percentile or sequence of percentiles to compute. Values must be between 0 and 100 inclusive
 - `axis` (optional): Axis or axes along which the percentiles are computed. Default is `None` (flattened array)
 - `out` (optional): Alternative output array in which to place the result
-- `overwrite_input` (optional): If `True`, allow the input array to be modified for memory efficiency
-- `method` (optional): Method to compute percentile ('linear', 'lower', 'higher', 'midpoint', 'nearest')
-- `keepdims` (optional): If `True`, the reduced axes are left in the result as dimensions with size one
-- `weights` (optional): Array of weights associated with the values in the input array
-- `interpolation` (optional): Deprecated parameter, use `method` instead
+
+> **Note:** The ellipses in the syntax (`...`) indicate that there are more optional parameters available, such as `overwrite_input`, `method`, `keepdims`, `weights`, and `interpolation`. These allow for more control over how the percentile is calculated and returned.
 
 **Return value:**
 
 Returns the q-th percentile(s) of the array elements. If `q` is a single percentile, returns a scalar. If multiple percentiles are given, returns an array.
 
-## Example 1: Basic Percentile Calculation
+## Example 1: Basic Percentile Calculation Using `np.percentile()` Method
 
 This example demonstrates how to calculate a single percentile from a one-dimensional array:
 
@@ -68,7 +63,7 @@ Quartiles: [ 5.5 10.  14.5]
 
 The 50th percentile represents the median value, which is the middle value when the data is sorted. The function returns `10.0` as the median, and `[5.5, 10.0, 14.5]` for the quartiles.
 
-## Example 2: Analyzing Test Score Distribution
+## Example 2: Analyzing Test Score Distribution Using NumPy's `.percentile()`
 
 This example shows how to use `.percentile()` to analyze student test scores and understand performance distribution:
 
@@ -114,7 +109,7 @@ Median scores by class: [88. 82. 91. 75.]
 
 This analysis helps identify performance ranges and compare different classes. The overall percentiles show the distribution of all scores, while the class-specific medians reveal which classes perform better on average.
 
-## Codebyte Example: Financial Data Analysis
+## Codebyte Example: Using `np.percentile()` for Financial Data Analysis
 
 This example demonstrates using `.percentile()` for financial risk analysis with stock price data:
 
