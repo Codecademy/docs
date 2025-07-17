@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Substring()`** method is a built-in [string](https://www.codecademy.com/resources/docs/c-sharp/strings) method in C# that extracts a portion of a string starting from a specified index position. It returns a new string containing the characters from the starting position to either the end of the string or for a specified length, without modifying the original string.
-
-The `.Substring()` method is commonly used in text processing, data parsing, string manipulation, and when working with user input validation. It is essential for extracting specific portions of strings such as parsing file extensions, extracting usernames from email addresses, or getting substrings from formatted data like dates or identification numbers.
+The C# **`.Substring()`** method is a built-in [string](https://www.codecademy.com/resources/docs/c-sharp/strings) method that extracts a portion of a string starting from a specified index position. It returns a new string containing the characters from the starting position to either the end of the string or for a specified length, without modifying the original string.
 
 ## Syntax
 
@@ -40,7 +38,7 @@ The method throws `ArgumentOutOfRangeException` if:
 - `length` is less than zero
 - `startIndex` plus `length` indicates a position not within the current string
 
-## Example 1: Basic Usage of `.Substring()`
+## Example 1: Basic Usage of `.Substring()` in C#
 
 This example demonstrates how to use the `.Substring()` method with a single parameter to extract characters from a specific position to the end of the string:
 
@@ -71,7 +69,7 @@ Substring from index 6: World
 
 This example extracts all characters starting from index 6 (the letter 'W') to the end of the string.
 
-## Example 2: Extract Characters with Length
+## Example 2: Extract Characters with Length Using `.Substring()`
 
 This example shows how to use the `.Substring()` method with both parameters to extract a specific number of characters:
 
@@ -108,7 +106,7 @@ Domain: example
 
 This example demonstrates extracting the username from an email address and getting a portion of the domain.
 
-## Codebyte Example: File Path Processing
+## Codebyte Example: Using C# `.Substring()` for File Path Processing
 
 This example shows a real-world scenario where `.Substring()` is used to process file paths and extract file information:
 
