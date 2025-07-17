@@ -14,9 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`time.sleep()`** method suspends the execution of the current [thread](https://www.codecademy.com/resources/docs/python/threading) for a specified number of seconds. This function temporarily pauses program execution, allowing other processes to run or creating deliberate delays in code execution.
-
-The `time.sleep()` method is commonly used in scenarios where you need to introduce delays, such as creating timers, controlling the rate of data processing, simulating real-world delays, or implementing retry mechanisms with backoff strategies. It's particularly useful in automation scripts, web scraping applications, and programs that interact with external APIs or hardware devices.
+The **`time.sleep()`** Python method suspends the execution of the current [thread](https://www.codecademy.com/resources/docs/python/threading) for a specified number of seconds. This function temporarily pauses program execution, allowing other processes to run or creating deliberate delays in code execution.
 
 ## Syntax
 
@@ -32,7 +30,7 @@ time.sleep(seconds)
 
 The `time.sleep()` method does not return any value (returns `None`).
 
-## Example 1: Basic Sleep Implementation
+## Example 1: Basic Sleep Implementation with the `time.sleep()` method
 
 This example demonstrates the fundamental usage of `time.sleep()` to create a simple delay in program execution:
 
@@ -58,7 +56,7 @@ Program resumed after 3 seconds
 
 The program first prints "Starting program...", then pauses for exactly 3 seconds, and finally prints the second message.
 
-## Example 2: Creating a Simple Timer
+## Example 2: Creating a Timer with Python's `time.sleep()`
 
 This example shows how to use `time.sleep()` to create a countdown timer, demonstrating a practical real-world application:
 
