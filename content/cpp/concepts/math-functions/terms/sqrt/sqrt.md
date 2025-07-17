@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`sqrt()`** function returns the square root of a number. This mathematical function is part of the C++ standard library and is defined in the `<cmath>` header file.
-
-The `sqrt()` function is commonly used in mathematical calculations, scientific computing, geometric computations, and algorithms that require finding the square root of numerical values. It finds applications in areas such as calculating distances between points, solving quadratic equations, implementing mathematical formulas, and various engineering calculations.
+C++ **`sqrt()`** function returns the square root of a number. This mathematical function is part of the C++ standard library and is defined in the `<cmath>` header file.
 
 ## Syntax
 
@@ -33,7 +31,7 @@ The `sqrt()` function returns the square root of the given argument as a floatin
 
 > **Note:** If a negative argument is passed to `sqrt()`, a domain error occurs and the function returns `NaN` (Not a Number).
 
-## Example 1: Basic Usage of `sqrt()`
+## Example 1: Basic Usage of `sqrt()` function
 
 This example demonstrates the basic usage of the `sqrt()` function with different numerical values:
 
@@ -64,7 +62,7 @@ Square root of 100.5: 10.025
 
 > **Note:** Output may vary slightly depending on platform-specific floating-point rounding.
 
-## Example 2: Distance Calculation
+## Example 2: Distance Calculation using C++ `sqrt()`
 
 This example shows how `sqrt()` is used to calculate the distance between two points using the Pythagorean theorem:
 
@@ -94,7 +92,7 @@ This example results in the following output:
 Distance between points (1, 2) and (4, 6) is: 5
 ```
 
-## Codebyte Example: Quadratic Formula
+## Codebyte Example: Using `sqrt()` to Solve Quadratic Equation
 
 This example demonstrates using `sqrt()` to solve a quadratic equation using the quadratic formula:
 
