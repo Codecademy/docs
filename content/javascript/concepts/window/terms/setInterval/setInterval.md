@@ -14,9 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`setInterval()`** method is a built-in JavaScript function that belongs to the Window object. It repeatedly calls a [function](https://www.codecademy.com/resources/docs/javascript/functions) or executes a code snippet at specified time intervals, creating a continuous loop of execution until it is explicitly stopped.
-
-The `setInterval()` method is commonly used for creating animations, updating real-time content, implementing countdown timers, auto-refreshing data, and any scenario where code needs to run repeatedly at regular intervals. It provides a reliable way to execute tasks periodically without blocking the main thread.
+JavaScript's **`setInterval()`** is a built-in function that belongs to the Window object. It repeatedly calls a [function](https://www.codecademy.com/resources/docs/javascript/functions) or executes a code snippet at specified time intervals, creating a continuous loop of execution until it is explicitly stopped.
 
 ## Syntax
 
@@ -37,7 +35,7 @@ setInterval(func, delay, arg1, arg2, /* … ,*/ argN)
 
 The `setInterval()` method returns a positive integer (interval ID) that uniquely identifies the timer created by the call. This identifier can be passed to `clearInterval()` to cancel the interval.
 
-## Example 1: Basic Counter Using `setInterval`
+## Example 1: Basic Counter Using `setInterval()`
 
 This example demonstrates a simple counter that increments every second and displays the count in the console:
 
@@ -71,7 +69,7 @@ Count: 5
 Counter stopped
 ```
 
-## Example 2: Real-time Clock Display
+## Example 2: Real-time Clock Display Using `setInterval()`
 
 This example creates a real-time digital clock that updates every second and displays the current time in a webpage element:
 
@@ -110,7 +108,7 @@ Clock displays: 2:30:47 PM
 (continues updating every second)
 ```
 
-## Example 3: Auto-refresh Data Feed
+## Example 3: Using `setInterval()` to Auto-refresh Data Feed
 
 This example demonstrates fetching and displaying data from an API at regular intervals, simulating a real-time data feed:
 
