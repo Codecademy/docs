@@ -34,7 +34,7 @@ array.filter(callback(element, index, array), thisArg)
 
 The `.filter()` method returns a new array with all elements that pass the test implemented by the provided function. If no elements pass the test, it returns an empty array.
 
-## Example 1: Basic Array Filtering using JavaScripts's `.filter()` method
+## Example 1: Basic Array Filtering Using JavaScripts's `.filter()` Method
 
 This example demonstrates how to use `.filter()` to extract numbers greater than a specific value from an array:
 
@@ -88,7 +88,7 @@ This example results in the following output:
 
 This demonstrates how `.filter()` can handle complex filtering logic by combining multiple conditions within the callback function.
 
-## Codebyte Example: Product Search Implementation with `array.filter()`
+## Codebyte Example: Product Search Implementation With `array.filter()`
 
 This example illustrates how to implement a search feature using `.filter()` to match products based on user input:
 
