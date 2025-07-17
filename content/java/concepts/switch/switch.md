@@ -1,6 +1,6 @@
 ---
 Title: 'Switch'
-Description: 'A switch statement provides a means of checking an expression against various case statements.'
+Description: 'The Java switch statement provides a means of checking an expression against various case statements.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -14,13 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`switch`** statement provides a means of checking an expression against various `case` statements. If there is a match, the code within starts to execute. The `break` keyword can be used to terminate a case. There's also an optional `default` statement marking code that executes if none of the `case` statements are true.
+The Java **`switch`** statement provides a means of checking an expression against various `case` statements. If there is a match, the code within starts to execute. The `break` keyword can be used to terminate a case. There's also an optional `default` statement marking code that executes if none of the `case` statements are true.
 
-The `switch` statement is especially useful when dealing with discrete values, such as enums, characters, and integers. It improves readability and simplifies decision-making in code compared to long chains of `if-else` conditions.
-
-## Syntax
-
-A `switch` statement (or a `switch` case) looks like:
+## Java `switch` Case Syntax
 
 ```pseudo
 switch (expression) {
@@ -37,7 +33,7 @@ switch (expression) {
 
 Here, `expression` is the expression to be checked against the various `case` statements.
 
-## How Switch Case Works
+## How Java `switch` Case Works
 
 1. Java evaluates the `expression` inside the `switch` case.
 2. It compares the result with each `case` value.
@@ -47,7 +43,7 @@ Here, `expression` is the expression to be checked against the various `case` st
 
 > **Note:** Without `break`, the execution will continue to the next case—this is called fall-through.
 
-## Switch vs. If-Else
+## Java `switch` Case vs. `if-else` Statement
 
 | Feature                  | `switch` Case                             | `if-else` Statement                       |
 | ------------------------ | ----------------------------------------- | ----------------------------------------- |
@@ -57,9 +53,9 @@ Here, `expression` is the expression to be checked against the various `case` st
 | **Fall-through**         | Possible if `break` is omitted            | No fall-through                           |
 | **Performance**          | Slightly better for large case sets       | Comparable in most cases                  |
 
-## Example 1: Basic Integer Switch
+## Example 1: Java `switch` Case with Integers
 
-This example uses an `int` variable to determine the current day of the week using a `switch` statement. It prints the corresponding weekday based on the numeric value:
+This example uses an `int` variable to determine the current day of the week using the Java `switch` statement. It prints the corresponding weekday based on the numeric value:
 
 ```java
 public class DaySwitch {
@@ -89,9 +85,9 @@ Here is the output:
 Wednesday
 ```
 
-## Example 2: Switch with String
+## Example 2: Java `switch` Case with Strings
 
-This example shows how to use a string in a `switch` statement to match and identify the month. It's available from Java 7 onwards:
+This example shows how to use a string in a Java `switch` statement to match and identify the month. It's available from Java 7 onwards:
 
 ```java
 public class MonthSwitch {
@@ -118,9 +114,9 @@ Here is the output:
 4th month
 ```
 
-## Example 3: Enhanced Switch (Java 14+)
+## Example 3: Enhanced Java `switch` Case (Java 14+)
 
-This example demonstrates the enhanced `switch` syntax introduced in Java 14. It uses the new arrow (`->`) syntax for cleaner and safer case handling, and returns a value based on day type:
+This example demonstrates the enhanced Java `switch` statement syntax introduced in Java 14. It uses the new arrow (`->`) syntax for cleaner and safer case handling, and returns a value based on day type:
 
 ```java
 public class EnhancedSwitch {
@@ -146,21 +142,21 @@ Weekday
 
 ## Frequently Asked Questions
 
-### 1. Can `switch` statements be used with strings in Java?
+### 1. Can Java `switch` statements be used with strings?
 
-Yes, from Java 7 onwards, `switch` statements support `String` as a valid type.
+Yes, Java `switch` statements support `String` as a valid type.
 
 ### 2. What happens if `break` is not used?
 
 Without break, the execution falls through to the next case, which may lead to unexpected behavior.
 
-### 3. Can a `switch` expression return a value?
+### 3. Can a Java `switch` case expression return a value?
 
-Yes, starting with Java 14, the enhanced `switch` allows returning a value directly using the `->` syntax.
+Yes, the enhanced Java `switch` case allows returning a value directly using the `->` syntax.
 
-### 4. Can we use boolean in `switch` statements?
+### 4. Can we use Booleans in Java `switch` statements?
 
-No, boolean is not supported in Java `switch` statements. Use `if-else` instead.
+No, Booleans are not supported in Java `switch` statements. Use `if-else` instead.
 
 ### 5. Is the `default` case mandatory?
 
