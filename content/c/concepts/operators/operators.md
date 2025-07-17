@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'Operators are used to perform various mathematical operations on variables and values.'
+Description: 'C Operators are used to perform various mathematical operations on variables and values.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C, **operators** are used to perform operations on variables and values. They are symbols that tell the compiler to perform specific mathematical or logical operations.
+C **operators** are used to perform operations on variables and values. They are symbols that tell the compiler to perform specific mathematical or logical operations.
 
 The different types of operators in C include:
 
@@ -25,7 +25,7 @@ The different types of operators in C include:
 - Assignment operators
 - Misc operators
 
-## Arithmetic Operators
+## C Arithmetic Operators
 
 C has these basic arithmetic operators to perform common mathematical operations:
 
@@ -39,7 +39,7 @@ C has these basic arithmetic operators to perform common mathematical operations
 |   `++`   |   Increment    | `x++` returns `x + 1`                                       |
 |   `--`   |   Decrement    | `x--` returns `x - 1`                                       |
 
-### Example
+### C Arithmetic Operators Example
 
 This example demonstrates the usage of arithmetic operators in C:
 
@@ -71,9 +71,9 @@ Increment: 11
 Decrement: 2
 ```
 
-## Relational Operators
+## C Relational Operators
 
-Relational operators compare two values and return `true` or `false`:
+C relational operators compare two values and return `true` or `false`:
 
 | Operator |           Name           | Description                                                |
 | :------: | :----------------------: | ---------------------------------------------------------- |
@@ -84,7 +84,7 @@ Relational operators compare two values and return `true` or `false`:
 |   `<=`   |  Less Than or Equal to   | `x <= y` is `true` if `x` is less than or equal to `y`.    |
 |   `>=`   | Greater Than or Equal to | `x >= y` is `true` if `x` is greater than or equal to `y`. |
 
-### Example
+### C Relational Operators Example
 
 This example demonstrates the usage of relational operators in C:
 
@@ -114,9 +114,9 @@ a >= b: 1
 a <= b: 0
 ```
 
-## Logical Operators
+## C Logical Operators
 
-Logical operators operate on Boolean values and return Boolean values:
+C logical operators operate on Boolean values and return Boolean values:
 
 | Operator | Name | Description                                                        |
 | :------: | :--: | ------------------------------------------------------------------ |
@@ -124,7 +124,7 @@ Logical operators operate on Boolean values and return Boolean values:
 |   `&&`   | And  | `x && y` is `true` only if `x` and `y` are both `true`.            |
 |  `\|\|`  |  Or  | `x \|\| y` is `true` if either `x` or `y` is `true`.               |
 
-### Example
+### C Logical Operators Example
 
 This example demonstrates the usage of logical operators in C:
 
@@ -148,9 +148,9 @@ a || b: 1
 !a: 0
 ```
 
-## Bitwise Operators
+## C Bitwise Operators
 
-Bitwise operators manipulate individual bits in an integer:
+C bitwise operators manipulate individual bits in an integer:
 
 | Operator |    Name     | Description                                                    |
 | :------: | :---------: | -------------------------------------------------------------- |
@@ -161,7 +161,7 @@ Bitwise operators manipulate individual bits in an integer:
 |   `<<`   | Left shift  | `a << b` means `a`'s bits are shifted to the left `b` spaces.  |
 |   `>>`   | Right shift | `a >> b` means `a`'s bits are shifted to the right `b` spaces. |
 
-### Example
+### C Bitwise Operators Example
 
 This example demonstrates the usage of bitwise operators in C:
 
@@ -191,9 +191,9 @@ a << 1: 10
 a >> 1: 2
 ```
 
-## Assignment Operators
+## C Assignment Operators
 
-Assignment operators assign the value on the right to the variable on the left:
+C assignment operators assign the value on the right to the variable on the left:
 
 | Operator |           Name            | Description                                |
 | :------: | :-----------------------: | ------------------------------------------ |
@@ -209,7 +209,7 @@ Assignment operators assign the value on the right to the variable on the left:
 |  `<<=`   |   Left Shift Assignment   | `a <<= 3` is short for `a = a << 3`.       |
 |  `>>=`   |  Right Shift Assignment   | `a >>= 3` is short for `a = a >> 3`.       |
 
-### Example
+### C Assignment Operators Example
 
 This example demonstrates the usage of assignment operators in C:
 
@@ -242,9 +242,9 @@ a /= 3: 8
 a %= 3: 2
 ```
 
-## Misc Operators
+## C Misc Operators
 
-Misc operators don't fit into a particular category:
+C misc operators don't fit into a particular category:
 
 |  Operator  |         Name         | Description                                                                     |
 | :--------: | :------------------: | ------------------------------------------------------------------------------- |
@@ -253,7 +253,7 @@ Misc operators don't fit into a particular category:
 |    `*`     |       Pointer        | `*x` returns a pointer to variable `x`. Not to be confused with multiplication. |
 |    `?:`    | Conditional Operator | `expression?x:y` returns `x` when `expression` is `true`, `y` otherwise.        |
 
-### Example
+### C Misc Operators Example
 
 This example demonstrates the usage of some of these operators in C:
 
@@ -289,10 +289,10 @@ Ternary result: 100
 - `=` is the assignment operator (e.g., `x = 5`; assigns value `5` to `x`).
 - `==` is the equality operator used to compare two values (e.g., `x == y` checks if `x` equals `y`).
 
-### 2. What is the difference between `&&` and `&`?
+### 2. What is the difference between C `&&` and `&` operator?
 
-- `&&` is a logical AND operator: It returns `true` if both conditions are `true`.
-- `&` is a bitwise AND operator: It performs an AND operation bit-by-bit.
+- C `&&` is a logical AND operator: It returns `true` if both conditions are `true`.
+- C `&` is a bitwise AND operator: It performs an AND operation bit-by-bit.
 
 ### 3. Can I use arithmetic operators on characters in C?
 
