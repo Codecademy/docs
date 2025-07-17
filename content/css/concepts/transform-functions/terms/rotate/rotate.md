@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`rotate()`** function in CSS rotates an element around a fixed point by a specified angle. This rotation can either be clockwise or anticlockwise and is commonly used in [animations](https://www.codecademy.com/resources/docs/css/animations), UI interactions, or creative web layouts.
+The CSS **`rotate()`** function rotates an element around a fixed point by a specified angle. This rotation can either be clockwise or anticlockwise and is commonly used in [animations](https://www.codecademy.com/resources/docs/css/animations), UI interactions, or creative web layouts.
 
-## Syntax
+## CSS `rotate()` Syntax
 
 ```pseudo
 transform: rotate(angle);
@@ -28,9 +28,9 @@ transform: rotate(angle);
   - Positive values = Clockwise rotation
   - Negative values = Anticlockwise rotation
 
-## Example 1: Basic Rotation of an Element
+## Example 1: Basic Rotation in CSS
 
-In this example, the `.box` element is rotated 45 degrees clockwise from its original position, creating a diamond-like appearance:
+In this example, the `.box` element is rotated 45 degrees clockwise from its original position using CSS `rotate()`, creating a diamond-like appearance:
 
 ```css
 .box {
@@ -68,7 +68,7 @@ Here is the output:
 
 ![A box which rotates 90 degrees on hover](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rotate-2.gif)
 
-## Example 3: Continuous Rotation with Animation
+## Example 3: Continuous Rotation in CSS
 
 This example creates a spinning loader by continuously rotating a styled circle using a CSS animation:
 
@@ -99,18 +99,18 @@ Here is the output:
 
 ## Frequently Asked Questions
 
-### 1. Does `rotate()` affect layout or just visual appearance?
+### 1. Does CSS `rotate()` affect layout or just visual appearance?
 
-`rotate()` is part of the `transform` property and only affects visual appearance. It doesn't change the element's position in the document flow.
+CSS `rotate()` is part of the `transform` property and only affects visual appearance. It doesn't change the element's position in the document flow.
 
-### 2. Can I combine `rotate()` with other transform functions?
+### 2. Can I combine CSS `rotate()` with other transform functions?
 
-Absolutely. You can combine `rotate()` with other transform functions by separating them with a space:
+Absolutely. You can combine CSS `rotate()` with other transform functions by separating them with a space:
 
 ```css
 transform: scale(1.2) rotate(30deg) translateX(20px);
 ```
 
-### 3. Is `rotate()` supported across all browsers?
+### 3. Is CSS `rotate()` supported across all browsers?
 
-Yes. Modern browsers like Chrome, Firefox, Safari, Edge, and even Internet Explorer 9+ support `rotate()`.
+Yes. Modern browsers like Chrome, Firefox, Safari, Edge, and even Internet Explorer 9+ support CSS `rotate()`.
