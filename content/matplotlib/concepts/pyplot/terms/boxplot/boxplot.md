@@ -13,24 +13,17 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.boxplot()`** method is a powerful data visualization function in matplotlib's pyplot module that creates box-and-whisker plots to display the statistical summary of a dataset. This method displays the distribution of data through quartiles, showing the median, first quartile (Q1), third quartile (Q3), and potential outliers in a compact visual format.
+The **`matplotlib.pyplot.boxplot()`** method is a powerful data visualization function in matplotlib's pyplot module that creates box-and-whisker plots to display the statistical summary of a dataset. This method displays the distribution of data through quartiles, showing the median, first quartile (Q1), third quartile (Q3), and potential outliers in a compact visual format.
 
 Box plots are widely used in statistical analysis and data science for comparing distributions across different groups, identifying outliers, and understanding the spread and central tendency of data. They are particularly valuable when analyzing multiple datasets simultaneously, as they provide a clear visual comparison of statistical properties across different categories or groups.
 
 ## Syntax
 
 ```pseudo
-matplotlib.pyplot.boxplot(x, notch=None, sym=None, vert=None,
-                         orientation='vertical', whis=None, positions=None,
-                         widths=None, patch_artist=None, bootstrap=None,
-                         usermedians=None, conf_intervals=None, meanline=None,
-                         showmeans=None, showcaps=None, showbox=None,
-                         showfliers=None, boxprops=None, tick_labels=None,
-                         flierprops=None, medianprops=None, meanprops=None,
-                         capprops=None, whiskerprops=None, manage_ticks=True,
-                         autorange=False, zorder=None, capwidths=None,
-                         label=None, data=None)
+matplotlib.pyplot.boxplot(x, notch=None, sym=None, vert=None, ...)
 ```
+
+> **Note:** TThe ellipses (`...`) indicate that there are many additional optional parameters available—such as `widths`, `patch_artist`, `showmeans`, `boxprops`, and others. These parameters provide detailed control over the style, layout, and display of the boxplot.
 
 **Parameters:**
 
@@ -38,38 +31,12 @@ matplotlib.pyplot.boxplot(x, notch=None, sym=None, vert=None,
 - `notch`: Boolean, optional. If True, creates a notched boxplot to indicate confidence intervals around the median.
 - `sym`: String, optional. Default symbol for outlier points. An empty string hides the outliers.
 - `vert`: Boolean, optional. If True (default), plots boxes vertically. If False, plots horizontally.
-- `orientation`: String, optional. Controls the orientation of the boxplot. Options are 'vertical' (default) or 'horizontal'.
-- `whis`: Float or sequence, optional. Determines the reach of the whiskers beyond the first and third quartiles. Default is 1.5.
-- `positions`: Array-like, optional. Sets the positions of the boxes along the x-axis. Defaults to range(1, N+1) where N is the number of boxes.
-- `widths`: Float or array-like, optional. Sets the width of each box. Default is 0.5.
-- `patch_artist`: Boolean, optional. If True, fills the boxplot with colors using Patch artists instead of Line2D artists.
-- `bootstrap`: Integer, optional. Specifies confidence intervals around the median using bootstrap method. Values between 1000 and 10000 are recommended.
-- `usermedians`: Array-like, optional. Forces specific median values for each dataset. Each entry that is not None forces the median value.
-- `conf_intervals`: Array-like, optional. Forces specific confidence interval locations. Only drawn if notch is True.
-- `meanline`: Boolean, optional. If True, renders the mean as a line across the full width of the box.
-- `showmeans`: Boolean, optional. If True, shows the arithmetic means as points or lines.
-- `showcaps`: Boolean, optional. If True, shows caps at the ends of whiskers. Default is True.
-- `showbox`: Boolean, optional. If True, shows the central box. Default is True.
-- `showfliers`: Boolean, optional. If True, shows outliers beyond the caps. Default is True.
-- `boxprops`: Dictionary, optional. Style properties for the box (e.g., color, linewidth).
-- `tick_labels`: List of strings, optional. Labels for each boxplot tick. Ticks are placed at box positions.
-- `flierprops`: Dictionary, optional. Style properties for the outliers (e.g., marker, color, alpha).
-- `medianprops`: Dictionary, optional. Style properties for the median line.
-- `meanprops`: Dictionary, optional. Style properties for the mean points or lines.
-- `capprops`: Dictionary, optional. Style properties for the caps at whisker ends.
-- `whiskerprops`: Dictionary, optional. Style properties for the whiskers.
-- `manage_ticks`: Boolean, optional. If True, adjusts tick locations and labels to match boxplot positions. Default is True.
-- `autorange`: Boolean, optional. If True, automatically sets whisker range to cover the entire data range when quartiles are equal.
-- `zorder`: Float, optional. Sets the drawing order of the boxplot. Higher values are drawn on top.
-- `capwidths`: Float or array-like, optional. Sets the width of the caps at whisker ends.
-- `label`: String or list of strings, optional. Legend labels for the boxplots.
-- `data`: Indexable object, optional. Data object that allows string indexing for accessing arrays by name.
 
 **Return value:**
 
 The method returns a dictionary containing the matplotlib artists used in the boxplot. The dictionary includes keys for 'boxes', 'medians', 'whiskers', 'caps', 'fliers', and 'means'.
 
-## Example 1: Basic Boxplot
+## Example 1: Creating a Basic Boxplot using `matplotlib.pyplot.boxplot()`
 
 This example demonstrates how to create a simple boxplot using randomly generated data:
 
@@ -97,7 +64,7 @@ The output of this code is:
 
 The code generates a dataset with 200 values following a normal distribution with mean 100 and standard deviation 15. The resulting boxplot displays the median as a horizontal line, the box representing the interquartile range (IQR), whiskers extending to the most extreme non-outlier data points, and any outliers as individual points.
 
-## Example 2: Multiple Dataset Comparison
+## Example 2: Multiple Dataset Comparison using the `matplotlib.pyplot.boxplot()` method
 
 This example shows how to create boxplots for multiple datasets to compare their distributions:
 
@@ -135,7 +102,7 @@ The output of this code is:
 
 This example creates four different datasets with distinct statistical properties and displays them side by side. The boxplots make it easy to compare the medians, spreads, and presence of outliers across the different distributions.
 
-## Example 3: Customized Sales Performance Analysis
+## Example 3: Customized Sales Performance Analysis on Boxplot
 
 This example demonstrates a real-world scenario analyzing quarterly sales performance across different product categories:
 
