@@ -18,7 +18,7 @@ In R, conditionals help control the flow of a program. They evaluate Boolean exp
 
 ## If Statement
 
-The `if` statement is used to execute a block of code if a condition is `TRUE`.
+The R `if` statement is used to run a block of code if a condition is `TRUE`.
 
 ### Syntax
 
@@ -30,7 +30,7 @@ if (condition) {
 
 ### Example
 
-This example demonstrates the usage of the `if` statement:
+This example demonstrates the usage of the `if` statement in R:
 
 ```r
 x <- 10
@@ -48,7 +48,7 @@ Here is the output:
 
 ## If-Else Statement
 
-The `if-else` statement allows the execution of a block of code if a condition is `TRUE`, and another block of code if the condition is `FALSE`.
+The R `if-else` statement allows the execution of a block of code if a condition is `TRUE`, and a separate block of code if the condition is `FALSE`.
 
 ### Syntax
 
@@ -62,7 +62,7 @@ if (condition) {
 
 ### Example
 
-This example demonstrates the usage of the `if-else` statement:
+This example demonstrates the usage of the `if-else` statement in R:
 
 ```r
 x <- 3
@@ -82,7 +82,7 @@ Here is the output:
 
 ## Else-If Statement
 
-When there is a need to check multiple conditions, the `else-if` statement can be used to evaluate them sequentially.
+When there is a need to check multiple conditions, the R `else-if` statement can be used to evaluate them sequentially.
 
 ### Syntax
 
@@ -98,7 +98,7 @@ if (condition1) {
 
 ### Example
 
-This example demonstrates the usage of the `else-if` statement:
+This example demonstrates the usage of the `else-if` statement in R:
 
 ```r
 x <- 5
@@ -120,7 +120,7 @@ Here is the output:
 
 ## Nested If Statement
 
-`if` statements can be nested within each other for more complex logical checks.
+R `if` statements can be nested within each other for more complex logical checks.
 
 ### Syntax
 
@@ -134,7 +134,7 @@ if (condition1) {
 
 ### Example
 
-This example demonstrates the usage of nested `if` statements:
+This example demonstrates the usage of nested `if` statements in R:
 
 ```r
 x <- 8
@@ -157,7 +157,7 @@ Here is the output:
 
 ### 1. Can I use conditionals in a vectorized way in R?
 
-Yes, you can use the `ifelse()` function for vectorized operations:
+Yes, you can use the R `ifelse()` function for vectorized operations:
 
 ```r
 x <- c(2, 5, 8)
@@ -167,14 +167,14 @@ result <- ifelse(x > 5, "High", "Low")
 print(result) # Output: [1] "Low"  "Low"  "High"
 ```
 
-### 2. What’s the difference between `if` and `ifelse()` in R?
+### 2. What’s the difference between R `if` and `ifelse()`?
 
-- `if` is used for single, scalar conditions.
-- `ifelse()` is vectorized and works over entire vectors.
+- `if` statement in R is used for single, scalar conditions.
+- `ifelse()` function in R is vectorized and works over entire vectors.
 
 ### 3. Can I use logical operators in R conditionals?
 
-Yes. You can combine conditions using & (AND), | (OR), and ! (NOT):
+Yes. You can combine conditions using `&` (AND), `|` (OR), and `!` (NOT):
 
 ```r
 x <- 4
