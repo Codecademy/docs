@@ -32,7 +32,7 @@ The `.add()` method returns `None`. It modifies the set in-place rather than ret
 
 > **Note:** If the element is already present in the set, the operation has no effect and does not raise an error.
 
-## Example 1: Basic Usage of Python Sets `.add()` method
+## Example 1: Basic Usage of Python Sets `.add()` Method
 
 This example demonstrates the fundamental usage of the `.add()` method with a simple set of numbers:
 
@@ -106,7 +106,7 @@ Premium user added. Final active users: {101, 102, 103, 104, 105, 999}
 
 This demonstrates how `.add()` automatically handles duplicate user IDs, ensuring each user appears only once in the active users set.
 
-## Codebyte Example: Data Processing Pipeline
+## Codebyte Example: Using `array.add()` in Data Processing Pipeline
 
 This example illustrates using `.add()` in a data processing context where there is a need to collect unique tags from various sources:
 
