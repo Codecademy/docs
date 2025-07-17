@@ -14,9 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.add()`** method adds a single element to a [set](https://www.codecademy.com/resources/docs/python/sets) if it is not already present, maintaining the set's unique elements property. This method modifies the set in-place and ensures that duplicate elements are automatically prevented. Sets are mutable collections that only store unique, hashable elements, making `.add()` an essential method for dynamically building sets while preserving data integrity.
-
-The `.add()` method is commonly used in data processing scenarios where uniqueness is required, such as tracking unique user IDs, removing duplicates from datasets, building collections of distinct items, and implementing set-based algorithms for membership testing and mathematical operations.
+Python's **`.add()`** method for [set](https://www.codecademy.com/resources/docs/python/sets) adds a single element to the set if it is not already present, maintaining the set's unique elements property. This method modifies the set in-place and ensures that duplicate elements are automatically prevented. Sets are mutable collections that only store unique, hashable elements, making `.add()` an essential method for dynamically building sets while preserving data integrity.
 
 ## Syntax
 
@@ -34,7 +32,7 @@ The `.add()` method returns `None`. It modifies the set in-place rather than ret
 
 > **Note:** If the element is already present in the set, the operation has no effect and does not raise an error.
 
-## Example 1: Basic Usage
+## Example 1: Basic Usage of Python Sets `.add()` method
 
 This example demonstrates the fundamental usage of the `.add()` method with a simple set of numbers:
 
@@ -67,7 +65,7 @@ After adding string: {1, 2, 3, 4, 'hello'}
 
 The code demonstrates that adding an existing element (2) has no effect on the set, while new elements are successfully added regardless of their data type.
 
-## Example 2: User Management System
+## Example 2: Using Pythons's `.add()` in User Management System
 
 This example shows how to use `.add()` in a practical user management scenario where there is a need to track unique user IDs:
 
