@@ -14,9 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.filter()`** method creates a new [array](https://www.codecademy.com/resources/docs/javascript/arrays) containing only the elements from the original array that pass a test implemented by a provided [function](https://www.codecademy.com/resources/docs/javascript/functions). It provides a clean and efficient way to extract specific elements from an array based on custom criteria.
-
-The `.filter()` method is commonly used for data filtering, search functionality, removing unwanted elements, and creating subsets of arrays. It's particularly useful when working with lists of objects, numbers, or strings where you need to apply conditional logic to determine which elements to keep.
+The **`array.filter()`** method creates a new [array](https://www.codecademy.com/resources/docs/javascript/arrays) containing only the elements from the original array that pass a test implemented by a provided [function](https://www.codecademy.com/resources/docs/javascript/functions). It provides a clean and efficient way to extract specific elements from an array based on custom criteria.
 
 ## Syntax
 
@@ -36,7 +34,7 @@ array.filter(callback(element, index, array), thisArg)
 
 The `.filter()` method returns a new array with all elements that pass the test implemented by the provided function. If no elements pass the test, it returns an empty array.
 
-## Example 1: Basic Array Filtering
+## Example 1: Basic Array Filtering using JavaScripts's `.filter()` method
 
 This example demonstrates how to use `.filter()` to extract numbers greater than a specific value from an array:
 
@@ -59,7 +57,7 @@ This example results in the following output:
 
 The callback function tests each element in the array. Only elements that return `true` from the test function are included in the new array.
 
-## Example 2: User Data Filtering
+## Example 2: User Data Filtering Using `.filter()` in JavaScript
 
 This example shows how to filter an array of user objects based on specific criteria, which is common in real-world applications:
 
@@ -90,9 +88,9 @@ This example results in the following output:
 
 This demonstrates how `.filter()` can handle complex filtering logic by combining multiple conditions within the callback function.
 
-## Codebyte Example: Product Search Implementation
+## Codebyte Example: Product Search Implementation with `array.filter()`
 
-This example illustrates how to implement a search feature using `.filter()` to match products based on user input.
+This example illustrates how to implement a search feature using `.filter()` to match products based on user input:
 
 ```codebyte/javascript
 const products = [
