@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'In PHP, an array is a special variable that can hold more than one value at a time.'
+Description: 'PHP arrays are special variables that can hold more than one value at a time.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -14,19 +14,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PHP, an **array** is a special variable that can hold more than one value at a time. Rather than creating multiple variables to store related data, arrays group data logically under one variable name. PHP supports three main types of arrays:
+PHP **arrays** are special variables that can hold more than one value at a time. Rather than creating multiple variables to store related data, arrays group data logically under one variable name. PHP supports three main types of arrays:
 
 - **Indexed Arrays**: Arrays having a numeric index.
 - **Associative Arrays**: Arrays having named keys.
 - **Multidimensional Arrays**: Arrays having one or more arrays in it.
 
-## Creating Arrays
+## Creating PHP Arrays
 
-There are different ways to create an array in PHP. Let's check them out one-by-one.
+There are different ways to create a PHP array. Let's check them out one-by-one.
 
 ### Indexed Arrays
 
-The `array()` function is used to create an indexed array:
+The PHP `array()` function can be used to create an indexed array:
 
 ```php
 $colors = array("Red", "Green", "Blue");
@@ -61,9 +61,9 @@ $users = [
 ];
 ```
 
-## Accessing Arrays
+## Accessing PHP Arrays
 
-There are different ways to access an array in PHP. Let's check them out one-by-one.
+There are different ways to access the elements of a PHP array. Let's check them out one-by-one.
 
 ### Indexed Arrays
 
@@ -107,7 +107,7 @@ echo $users[1]["name"]; // Output: Bob
 ?>
 ```
 
-## Updating Arrays
+## Updating PHP Arrays
 
 This example updates the second item of the indexed array `colors` and the value associated with the key `"age"` in the associative array `person`:
 
@@ -137,7 +137,7 @@ Yellow
 31
 ```
 
-## Adding Items to an Array
+## Adding Items to a PHP Array
 
 This example adds a new item to the indexed array `colors` and a new key-value pair to the associative array `person`:
 
@@ -178,7 +178,7 @@ Array
 )
 ```
 
-## Removing Items from an Array
+## Removing Items from a PHP Array
 
 This codebyte example uses the `unset()` function to remove an item from the indexed array `colors` and a key-value pair from the associative array `person`:
 
@@ -203,9 +203,9 @@ print_r($person);
 
 ## Frequently Asked Questions
 
-### 1. How do I check if a value exists in an array?
+### 1. How do I check if a value exists in a PHP array?
 
-Using `in_array()` and `array_key_exists()`:
+You can check if a value exists in a PHP array using `in_array()` and `array_key_exists()`:
 
 ```php
 <?php
@@ -229,9 +229,9 @@ Red is in the array.
 The 'name' key exists.
 ```
 
-### 2. How can I loop through an array in PHP?
+### 2. How can I loop through a PHP array?
 
-Using `foreach` to loop through indexed and associative arrays:
+You can use `foreach` to loop through a PHP array:
 
 ```php
 <?php
@@ -259,9 +259,9 @@ name: Alice
 age: 25
 ```
 
-### 3. How do I count the number of elements in an array?
+### 3. How do I count the number of elements in a PHP array?
 
-You can use the built-in `count()` function to determine how many elements an array contains:
+You can use the built-in `count()` function to determine how many elements a PHP array contains:
 
 ```php
 <?php
