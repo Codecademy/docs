@@ -35,7 +35,7 @@ The `.find()` method returns an integer value:
 - Returns the index of the first occurrence of the substring if found
 - Returns `-1` if the substring is not found in the string
 
-## Example 1: Basic String Search using Python's `.find()`
+## Example 1: Basic String Search Using Python's `.find()`
 
 This example demonstrates the fundamental usage of the `.find()` method to locate a substring within a string:
 
@@ -68,7 +68,7 @@ Python is mentioned in the message
 
 The method successfully finds "powerful" at index 12, returns -1 for the non-existent "Java", and demonstrates how to use `.find()` in conditional statements to check for substring presence.
 
-## Example 2: Email Validation Check using `.find()` method
+## Example 2: Email Validation Check Using `.find()` Method
 
 This example shows how to use `.find()` for practical email validation by checking for the presence of the "@" symbol:
 
