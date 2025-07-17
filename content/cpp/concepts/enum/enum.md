@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An **`enum`** is a user-defined [data type](https://www.codecademy.com/resources/docs/cpp/data-types) in C++ that defines a set of named integer constants. It provides a way to create symbolic names for a group of related values, making code more readable and maintainable. Enums are particularly useful when you need to represent a fixed set of options or states in your program.
-
-Enums are commonly used in scenarios such as representing days of the week, menu options, game states, error codes, or any situation where you have a limited set of predefined values. They help prevent magic numbers in code and make programs more self-documenting.
+An **`enum`** in C++ is a user-defined [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that defines a set of named integer constants. It provides a way to create symbolic names for a group of related values, making code more readable and maintainable. Enums are particularly useful when you need to represent a fixed set of options or states in your program.
 
 ## Syntax
 
@@ -37,7 +35,7 @@ enum enum_name {
 
 Enums do not return values directly. They define a new data type that can be used to create variables.
 
-## Example 1: Basic Enum Creation
+## Example 1: Basic Enum Creation in C++
 
 This example demonstrates how to create a simple enum and use it in a program:
 
