@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In Swift, the `.count` property is used to calculate the number of elements in an array. It's a built-in feature of Swift’s `Array` type and returns an `Int` representing the number of elements in an array.
+The Swift `.count` property is used to calculate the number of elements in an array. It's a built-in feature of Swift’s `Array` type and returns an `Int` that represents the number of elements in the array.
 
-## Syntax
+## Swift `.count` Syntax
 
 ```pseudo
 arrayName.count
@@ -24,15 +24,15 @@ arrayName.count
 
 **Parameters:**
 
-The `.count` property takes no parameters.
+The Swift `.count` property takes no parameters.
 
 **Return value:**
 
-The `.count` property returns an `Int` representing the number of elements in an array.
+Returns an `Int` that represents the number of elements in the array.
 
-## Example 1: Counting Elements in a Simple Array
+## Example 1: Using Swift `.count` on an Array
 
-In this example, the `.count` property is used to find the number of elements in the `fruits` array:
+In this example, the Swift `.count` property is used to find the number of elements in the `fruits` array:
 
 ```swift
 let fruits = ["Apple", "Banana", "Mango"]
@@ -45,9 +45,9 @@ Here is the output:
 Number of fruits: 3
 ```
 
-## Example 2: Using `.count` in a Conditional Statement
+## Example 2: Using Swift `.count` in a Conditional Statement
 
-In this example, `.count` is used to check if the array is non-empty before performing calculations:
+In this example, Swift `.count` is used to check if the array is non-empty before performing calculations:
 
 ```swift
 let scores = [95, 88, 76]
@@ -65,9 +65,9 @@ Here is the output:
 Scores available.
 ```
 
-## Example 3: Working with an Empty Array
+## Example 3: Using Swift `.count` on an Empty Array
 
-In this example, the `.count` property is used to find the length of an empty array:
+In this example, the Swift `.count` property is used to find the length of an empty array:
 
 ```swift
 let emptyArray: [String] = []
@@ -85,17 +85,17 @@ The array is empty.
 
 ## Frequently Asked Questions
 
-### 1. Is `.count` the same as `.length` in other languages?
+### 1. Is Swift `.count` the same as `.length` in other languages?
 
 Yes. While many languages like JavaScript use `.length`, Swift uses `.count`. They serve the same purpose — returning the number of elements in an array — but the name differs according to language conventions.
 
-### 2. Is `.count` performance-intensive for large arrays?
+### 2. Is Swift `.count` performance-intensive for large arrays?
 
-No. Swift’s `.count` is efficient because it’s a computed property that retrieves an already-known size, not by iterating through the array.
+No. Swift `.count` is efficient because it’s a computed property that retrieves an already-known size, not by iterating through the array.
 
-### 3. Can `.count` be used with other collection types?
+### 3. Can Swift `.count` be used with other collection types?
 
-Yes. `.count` can also be used with:
+Yes. Swift `.count` can also be used with:
 
 - Strings (Returns the number of characters)
 - Dictionaries (Returns the number of key-value pairs)
