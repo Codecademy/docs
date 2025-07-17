@@ -16,8 +16,6 @@ CatalogContent:
 
 The **`numpy.sort()`** method is a built-in NumPy function that returns a sorted copy of an array. It arranges the elements of an array in ascending order without modifying the original array, making it a fundamental tool for data organization and analysis in scientific computing and data science applications.
 
-The `numpy.sort()` method is essential for organizing data in a meaningful sequence, enabling efficient data analysis, pattern recognition, and preparation for algorithms that require sorted input. It is commonly used in statistical analysis, data preprocessing, search operations, and creating ordered datasets for visualization and reporting.
-
 ## Syntax
 
 ```pseudo
@@ -35,7 +33,7 @@ numpy.sort(a, axis=-1, kind=None, order=None)
 
 Returns a sorted copy of the input array with the same type and shape as the original array.
 
-## Example 1: Basic Array Sorting
+## Example 1: Basic Array Sorting using `numpy.sort()` method
 
 The simplest use case of `.sort()` is sorting a one-dimensional array in ascending order:
 
@@ -61,7 +59,7 @@ Sorted array: [11 12 22 25 34 64 90]
 
 This example demonstrates the basic functionality of `.sort()` where it creates a new sorted array while leaving the original array unchanged. The method automatically arranges the elements from smallest to largest.
 
-## Example 2: Sorting Student Test Scores
+## Example 2: Sorting Student Test Scores using NumPy's `.sort()`
 
 This example shows how to sort student test scores to identify performance rankings and analyze grade distributions:
 
