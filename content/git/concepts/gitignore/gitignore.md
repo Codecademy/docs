@@ -15,9 +15,7 @@ CatalogContent:
 
 A **`.gitignore`** file tells [Git](https://www.codecademy.com/resources/docs/git) which files and directories to ignore when committing changes to a repository. This file prevents unnecessary files from being tracked and committed, keeping the repository clean and focused on essential project files.
 
-The `.gitignore` file is used in Git repositories to specify files and directories that should be excluded from version control. It's particularly useful for ignoring temporary files, build artifacts, editor files, and other files that don't need to be shared with other developers.
-
-## Create a .gitignore File
+## Create a `.gitignore` File
 
 Creating a `.gitignore` file allows developers to specify which files and directories Git should ignore in a repository. This file should be placed in the root directory of the Git repository:
 
