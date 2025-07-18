@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`time.sleep()`** Python method suspends the execution of the current [thread](https://www.codecademy.com/resources/docs/python/threading) for a specified number of seconds. This function temporarily pauses program execution, allowing other processes to run or creating deliberate delays in code execution.
 
-## Syntax
+## Syntax of `time.sleep()`
 
 ```pseudo
 time.sleep(seconds)
