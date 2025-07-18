@@ -14,9 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`drop-shadow()`** function is a CSS filter function that creates a drop shadow effect behind an element. Unlike the `box-shadow` property that creates a shadow around an element's entire box, the `drop-shadow()` function creates a shadow that follows the actual shape of the element, including transparent areas and complex shapes like images with cut-out backgrounds.
-
-This function is commonly used to enhance visual design by adding depth and prominence to elements such as images, icons, text, and other graphical elements. It's particularly useful for creating realistic shadow effects on elements with non-rectangular shapes or transparent backgrounds.
+CSs **`drop-shadow()`** is a filter function that creates a drop shadow effect behind an element. Unlike the `box-shadow` property that creates a shadow around an element's entire box, the `drop-shadow()` function creates a shadow that follows the actual shape of the element, including transparent areas and complex shapes like images with cut-out backgrounds.
 
 ## Syntax
 
@@ -33,7 +31,7 @@ filter: drop-shadow(offset-x offset-y blur-radius color);
 
 The `drop-shadow()` function returns a filtered version of the input element with the specified shadow effect applied.
 
-## Example 1: Basic Drop Shadow
+## Example 1: Using CSS `drop-shadow()` to Create a Basic Drop Shadow
 
 This example demonstrates how to apply a basic drop shadow to a text element using the `drop-shadow()` function.
 
@@ -79,7 +77,7 @@ The output of this code is:
 
 The image will display with a gray drop shadow offset 5 pixels to the right and 5 pixels down, with a 10-pixel blur radius. This creates a subtle shadow effect that adds depth to the image.
 
-## Example 2: Colored Shadow Effect
+## Example 2: Colored Shadow Effect With CSS `drop-shadow()`
 
 This example shows how to create a vibrant colored shadow effect for design elements, commonly used in modern web design.
 
@@ -139,7 +137,7 @@ The output of this code is:
 
 This example creates a modern card with a pink-purple colored shadow that enhances the visual appeal and creates a floating effect commonly seen in contemporary web design.
 
-## Example 3: Multiple Shadow Layers
+## Example 3: Creating Multiple Shadow Layers Using CSS `drop-shadow()`
 
 This example demonstrates how to create complex shadow effects by combining multiple `drop-shadow()` functions for a more realistic depth effect.
 
