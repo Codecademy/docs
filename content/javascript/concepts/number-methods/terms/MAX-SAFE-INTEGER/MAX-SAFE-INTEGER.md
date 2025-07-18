@@ -36,24 +36,28 @@ Returns the largest safe integer representable by JavaScript's `Number` type
 
 ## Example
 
-The following examples demonstrate some uses of the `.MAX_SAFE_INTEGER` property:
+The following example demonstrate how `.MAX_SAFE_INTEGER` defines the upper limit for safe integers in JavaScript:
 
 ```js
-// Display the value of the property in the console.
 console.log(Number.MAX_SAFE_INTEGER);
+
+console.log(Number.isSafeInteger(Number.MAX_SAFE_INTEGER));
+console.log(Number.isSafeInteger(Number.MAX_SAFE_INTEGER + 1));
 ```
 
 The output produced by this code is:
 
 ```shell
 9007199254740991
+true
+false
 ```
 
 ## Codebyte Example
 
 An example showing why it's best to avoid numbers larger than `.MAX_SAFE_INTEGER`:
 
-```codebyte/js
+```codebyte/javascript
 const a = Number.MAX_SAFE_INTEGER + 1;
 const b = Number.MAX_SAFE_INTEGER + 2;
 console.log(a === b);
