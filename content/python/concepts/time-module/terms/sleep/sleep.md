@@ -58,7 +58,7 @@ The program first prints "Starting program...", then pauses for exactly 3 second
 
 ## Example 2: Creating a Timer With Python's `time.sleep()`
 
-This example shows how to use `time.sleep()` to create a countdown timer, demonstrating a practical real-world application:
+This example shows how to use `time.sleep()` to create a countdown timer, demonstrating a practical, real-world application:
 
 ```py
 import time
