@@ -162,7 +162,7 @@ Both methods locate substrings, but `.find()` returns -1 when the substring is n
 
 ### 2. Is the `.find()` method case-sensitive?
 
-Yes, `.find()` is case-sensitive. "Python" and "python" are treated as different strings. Use `.lower()` or `.upper()` on both strings for case-insensitive searches.
+Yes, `.find()` is case-sensitive. "Python" and "python" are treated as different strings. For case-insensitive searches, use `.lower()` or `.upper()` on both strings.
 
 ### 3. How do I find all occurrences of a substring?
 
