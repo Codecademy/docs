@@ -30,7 +30,7 @@ time.sleep(seconds)
 
 The `time.sleep()` method does not return any value (returns `None`).
 
-## Example 1: Basic Sleep Implementation With The `time.sleep()` Method
+## Example 1: Basic Sleep Implementation with the `time.sleep()` Method
 
 This example demonstrates the fundamental usage of `time.sleep()` to create a simple delay in program execution:
 
