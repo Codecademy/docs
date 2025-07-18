@@ -16,7 +16,7 @@ CatalogContent:
 
 Python's **`.find()`** method is a built-in [string](https://www.codecademy.com/resources/docs/python/strings) method that searches for a specified substring within a string and returns the index of the first occurrence. This method provides a simple and efficient way to locate text within strings, making it essential for text processing, data validation, and string manipulation tasks.
 
-## Syntax
+## Syntax of Python's `.find()` method
 
 ```pseudo
 string.find(substring, start, end)
