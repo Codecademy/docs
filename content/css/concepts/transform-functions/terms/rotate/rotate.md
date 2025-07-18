@@ -28,7 +28,7 @@ transform: rotate(angle);
   - Positive values = Clockwise rotation
   - Negative values = Anticlockwise rotation
 
-## Example 1: Basic Rotation in CSS
+## Example 1: Basic Rotation in CSS Using `rotate()`
 
 In this example, the `.box` element is rotated 45 degrees clockwise from its original position using CSS `rotate()`, creating a diamond-like appearance:
 
@@ -46,7 +46,7 @@ Here is the output:
 
 ![A box rotated 45 degrees clockwise from its original position, creating a diamond-like appearance](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rotate-1.jpg)
 
-## Example 2: Rotate on Hover
+## Example 2: Using `rotate()` to Rotate on Hover
 
 When a user hovers on the `.box` element, it rotates 90 degrees, thanks to the smooth [transition](https://www.codecademy.com/resources/docs/css/transition) defined in the CSS:
 
@@ -68,7 +68,7 @@ Here is the output:
 
 ![A box which rotates 90 degrees on hover](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rotate-2.gif)
 
-## Example 3: Continuous Rotation in CSS
+## Example 3: Continuous Rotation in CSS With the Help of `rotate()`
 
 This example creates a spinning loader by continuously rotating a styled circle using a CSS animation:
 
