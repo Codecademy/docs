@@ -1,44 +1,47 @@
 ---
 Title: '.sort()'
-Description: 'sort a NumPy array with a specified order(ascending/descending).'
+Description: 'Sorts the array in-place along the specified axis'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'NumPy'
-  - 'Methods'
   - 'Arrays'
   - 'Elements'
+  - 'Methods'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`.sort()`** method is used to sort a NumPy array with a specified order(ascending/descending). sort method sorts the array/list ascending by default. You can also make a function to decide the sorting criteria(s)
+The **`.sort()`** method sorts a NumPy array in-place in ascending order along a specified axis. By default, it sorts in ascending order.
 
 ## Syntax
 
 ```pseudo
-ndarray.sort(reverse=True|False, key=myFunc)
+ndarray.sort(axis=-1, kind=None, order=None)
 ```
 
-- `ndarray`: The NumPy array to be filled.
-- `reverse`: Optional. reverse=True will sort the list descending. Default is reverse=False.
-- `key`: Optional. A function to specify the sorting criteria(s)
+**Parameters:**
+
+- `axis`: Axis along which to sort. Default is `-1` (last axis). Use `None` to sort the flattened array.
+- `kind`: Sorting algorithm: `'quicksort'` (default), `'mergesort'`, `'heapsort'`, or `'stable'`.
+- `order`: Only for structured arrays. Specifies the field(s) to sort by.
 
 ## Example
 
-In this example, the `.sort()` method is used to sort the NumPy array `nf` in descending order:
+In this example, the `.sort()` method is used to sort a NumPy array in descending order:
 
 ```py
 # Import NumPy
-import numpy as a
+import numpy as np
 
 # Create a NumPy array
-nf = a.array['aaa', 'xxx', 'ddd', 'sss']
+nf = np.array(['aaa', 'xxx', 'ddd', 'sss'])
 
-# Use the '.sort()' method
-nf.sort(reverse=True)
+# Sort in descending order
+nf.sort()     # Sorts in ascending order
+nf = nf[::-1] # Reverses to get descending order
 
 print(nf)
 ```
@@ -51,19 +54,14 @@ We will get the following result:
 
 ## Codebyte Example
 
-In the following codebyte example, a NumPy array `nf` is created with with different length of text and then sort it with length ascending order:
+In the following codebyte example, a NumPy array `nf` is created with strings of varying lengths, and then sorted in descending order based on string length:
 
 ```codebyte/python
 import numpy as np
 
-nf = np.array('aaa', 'cccc', 'xxxxx', 'bb', 'yyyyyyy', 'p')
+nf = np.array(['aaa', 'cccc', 'xxxxx', 'bb', 'yyyyyyy', 'p'])
 
-# A function that returns the length of the value:
-def myFunc(e):
-  return len(e)
+sorted_nf = np.array(sorted(nf, key=len, reverse=True))
 
-nf.sort(reverse=True, key=myFunc) 
-
-print(nf)
-
+print(sorted_nf)
 ```
