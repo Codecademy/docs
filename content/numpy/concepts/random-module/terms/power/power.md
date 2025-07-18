@@ -1,21 +1,20 @@
 ---
 Title: '.power()'
 Description: 'Returns a NumPy array of random samples drawn from the power distribution.'
-Subjects: 
-    - 'AI'
-    - 'Computer Science'
-    - 'Data Science'
+Subjects:
+  - 'AI'
+  - 'Computer Science'
 Tags:
-    - 'Arrays'
-    - 'Functions'
-    - 'Math'
-    - 'Numpy'
+  - 'Arrays'
+  - 'Functions'
+  - 'Math'
+  - 'Numpy'
 CatalogContent:
-    - 'learn-python'
-    - 'paths/data-science'
+  - 'learn-python'
+  - 'paths/data-science'
 ---
 
-The **`.power()`** function, also known as the *power function distribution*, is part of the NumPy random module. It draws random samples from the distribution $\( x^{a-1} \), where \( a > 0 \)$, returning values in the range [0, 1] as a NumPy array. This function is often used in statistical simulations, hypothesis testing, and generating synthetic data for machine learning.
+The **`.power()`** function, also known as the _power function distribution_, is part of the NumPy `random` module. It draws samples from a power distribution with positive exponent `a - 1` in the range `[0, 1]`. This function is often used in statistical simulations, hypothesis testing, and generating synthetic data for machine learning.
 
 ## Syntax
 
@@ -25,16 +24,16 @@ random.power(a, size=None)
 
 **Parameters:**
 
-- `a` (float or array_like of floats): The shape parameter of the distribution. Must be positive.
-- `size` (int or tuple of ints, optional): Output shape. If specified as `(m, n, k)`, then `m * n * k` samples are drawn. If `None` (default), a single value is returned if `a` is a scalar; otherwise, `np.array(a).size` samples are drawn.
+- `a` (float or array_like of floats): The shape parameter of the distribution. It must be positive.
+- `size` (int or tuple of ints, optional): Specifies the output shape. If specified as `(m, n, k)`, then `m * n * k` samples are drawn. If `None` (default), a single value is returned if `a` is a scalar. Otherwise, `np.array(a).size` samples are drawn.
 
 **Return value:**
 
-An [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) of random floats drawn from a power distribution over the interval [0, 1), with shape determined by `size`.
+An [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) of random floats drawn from a power distribution over the interval `[0, 1)`, with shape determined by `size`.
 
 ## Example 1: Drawing a Single Value (`size=None`)
 
-When `size=None` (default), `np.random.power(a)` returns a single float from the power distribution over the range [0, 1):
+When `size=None` (default), `np.random.power(a)` returns a single float from the power distribution over the range `[0, 1)`:
 
 ```py
 import numpy as np
@@ -83,7 +82,7 @@ The possible output of this code is:
 
 ## Codebyte Example
 
-The following example generates multi-dimensional arrays by passing a [tuple](https://www.codecademy.com/resources/docs/python/tuples) as the `size` argument:
+This codebyte example generates multi-dimensional arrays by passing a [tuple](https://www.codecademy.com/resources/docs/python/tuples) as the `size` argument:
 
 ```codebyte/python
 import numpy as np
