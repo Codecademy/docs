@@ -16,8 +16,6 @@ CatalogContent:
 
 The **`flex-grow`** property is a CSS [flexbox](https://www.codecademy.com/resources/docs/css/flexbox) property that defines how much a flex item should grow relative to the remaining flex items inside the same flex container. It specifies the grow factor of a flex item, which determines how much of the available space in the flex container should be assigned to that item.
 
-The `flex-grow` property is particularly useful when creating responsive layouts where you want certain elements to expand and fill available space proportionally. It's commonly used in navigation bars, card layouts, dashboard components, and any scenario where you need elements to dynamically adjust their size based on available space.
-
 ## Syntax
 
 ```pseudo
@@ -34,7 +32,7 @@ This property does not return a value. It modifies the behavior of how flex item
 
 ## Example 1: Basic Usage of `flex-grow`
 
-This example demonstrates the fundamental concept of **flex-grow** with three flex items having different grow factors:
+This example demonstrates the fundamental concept of `flex-grow` with three flex items having different grow factors:
 
 The HTML code is:
 
@@ -83,7 +81,7 @@ The output of this code is:
 
 In this example, Item 2 will grow twice as much as Item 1 and Item 3 because it has a **flex-grow** value of 2, while the others have a value of 1. The available space is distributed proportionally based on these values.
 
-## Example 2: Creating a Responsive Navigation Bar
+## Example 2: Creating a Responsive Navigation Bar Using `flex-grow`
 
 This example shows how to use `flex-grow` to create a responsive navigation bar where the search input expands to fill available space:
 
@@ -143,7 +141,7 @@ The output of this code is:
 
 In this navigation bar, the search input has `flex-grow: 1`, which means it will expand to fill all available space between the logo and navigation links, creating a responsive layout that works on different screen sizes.
 
-## Example 3: Building a Dashboard Layout
+## Example 3: Using `flex-grow` to Build a Dashboard Layout
 
 This example demonstrates using `flex-grow` to create a dashboard layout with a sidebar and main content area:
 
