@@ -14,9 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`requests`** module is an HTTP library for Python that makes sending HTTP requests straightforward and human-friendly. It abstracts the complexities of making [HTTP](https://www.codecademy.com/resources/docs/general/http) requests behind a simple [API](https://www.codecademy.com/resources/docs/general/api), allowing developers to send HTTP/1.1 requests without manually adding query strings to URLs or form-encoding POST data.
-
-The requests module enables developers to interact with web services, APIs, and web resources by sending GET, POST, PUT, DELETE, PATCH, and HEAD requests. It is widely used for web scraping, API consumption, testing web applications, and building applications that need to communicate with external services over HTTP.
+The **`requests`** module in Python is an HTTP library that makes sending HTTP requests straightforward and human-friendly. It abstracts the complexities of making [HTTP](https://www.codecademy.com/resources/docs/general/http) requests behind a simple [API](https://www.codecademy.com/resources/docs/general/api), allowing developers to send HTTP/1.1 requests without manually adding query strings to URLs or form-encoding POST data.
 
 ## Installing `requests`
 
@@ -53,7 +51,7 @@ The requests module provides several HTTP methods:
 - **PATCH** (`patch()`): Apply partial modifications to a resource
 - **HEAD** ([`head()`](https://www.codecademy.com/resources/docs/python/requests-module/head)): Retrieve headers only (no body content)
 
-## Example 1: Basic GET Request
+## Example 1: Basic GET Request Using Python's `requests` Module
 
 This example demonstrates how to make a simple GET request and access the response:
 
@@ -70,7 +68,7 @@ print(f"Content: {response.json()}")
 
 The above code sends a GET request to a JSON placeholder API and prints the HTTP status code and the JSON response content. The `requests.get()` method returns a Response object containing all the response information.
 
-## Example 2: POST Request with Data
+## Example 2: Using `requests` Module in Python to POST Request with Data
 
 This example shows how to send data to a server using a POST request with JSON payload:
 
@@ -101,7 +99,7 @@ else:
 
 This example creates a new user by sending a POST request with JSON data. The `json` parameter automatically serializes the Python dictionary to JSON and sets the appropriate Content-Type header.
 
-## Example 3: Handling API Authentication
+## Example 3: Handling API Authentication With the `requests` Module
 
 This example demonstrates how to make authenticated requests using API keys or basic authentication:
 
