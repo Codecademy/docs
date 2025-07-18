@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An **iterator** in Java is an interface that provides a standardized way to traverse elements in a collection sequentially, one element at a time. It acts as a cursor that points to elements within collections such as [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list), `LinkedList`, [`HashSet`](https://www.codecademy.com/resources/docs/java/hashset), and other classes that implement the [`Collection`](https://www.codecademy.com/resources/docs/java/collection) interface. The iterator interface is part of the Java Collections Framework and is found in the `java.util` package.
-
-Iterators are widely used in scenarios where sequential access to collection elements is required, such as processing data in loops, filtering elements based on conditions, or performing operations on each element without exposing the underlying structure of the collection. They provide a safe and efficient way to traverse collections while allowing modification during iteration.
+Java **iterator** is an interface that provides a standardized way to traverse elements in a collection sequentially, one element at a time. It acts as a cursor that points to elements within collections such as [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list), `LinkedList`, [`HashSet`](https://www.codecademy.com/resources/docs/java/hashset), and other classes that implement the [`Collection`](https://www.codecademy.com/resources/docs/java/collection) interface. The iterator interface is part of the Java Collections Framework and is found in the `java.util` package.
 
 ## Syntax
 
@@ -40,7 +38,7 @@ Returns an `Iterator` that can traverse the collection one element at a time
 - [`next()`](https://www.codecademy.com/resources/docs/java/iterator/next): Returns the next element in the iteration and advances the cursor
 - [`remove()`](https://www.codecademy.com/resources/docs/java/iterator/remove): Removes the last element returned by the iterator. Not all iterators support this operation.
 
-## Example 1: Basic Iterator Usage
+## Example 1: Basic Java Iterator Usage
 
 This example demonstrates the fundamental usage of an iterator to traverse through an `ArrayList`:
 
@@ -80,7 +78,7 @@ Date
 
 This example creates an `ArrayList` of fruits, obtains an iterator using the `iterator()` method, and uses a `while` loop with `hasNext()` and `next()` methods to traverse and print each element.
 
-## Example 2: Employee Database Processing
+## Example 2: Employee Database Processing Using Java Iterators
 
 This example shows how iterators can be used in a real-world scenario to process employee records and filter data based on specific criteria:
 
@@ -142,7 +140,7 @@ Carol Davis (Engineering) - $85000.0
 
 This example demonstrates using an iterator to process a collection of employee objects, filtering for engineering employees with salaries above $70,000.
 
-## Example 3: Inventory Management System
+## Example 3: Using Java Iterators in Inventory Management System
 
 This example illustrates using iterators to manage product inventory, including removing items that meet certain conditions during iteration:
 
