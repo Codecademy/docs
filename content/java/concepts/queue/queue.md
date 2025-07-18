@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`Queue`** is a linear [data structure](https://www.codecademy.com/resources/docs/general/data-structures) that stores and manages elements in a First In, First Out (FIFO) order. Elements are added to the rear of the queue and removed from the front, similar to how people wait in line at a store or bank. The queue follows the principle where the first element added is the first one to be removed.
-
-Queues are commonly used in task scheduling, process management, breadth-first search algorithms, and buffer management in applications. They provide an efficient way to handle data when processing order matters and help maintain fairness in resource allocation systems.
+A **`Queue`** in Java is a linear [data structure](https://www.codecademy.com/resources/docs/general/data-structures) that stores and manages elements in a First In, First Out (FIFO) order. Elements are added to the rear of the queue and removed from the front, similar to how people wait in line at a store or bank. The queue follows the principle where the first element added is the first one to be removed.
 
 ## Syntax
 
@@ -46,7 +44,7 @@ Queue<DataType> queueName = new ImplementingClass<>();
 - `element()`: Returns front element without removing, throws exception if empty
 - `peek()`: Returns front element without removing, returns null if empty
 
-## Example 1: Basic Queue Operations
+## Example 1: Basic Operations for `Queue` in Java
 
 This example demonstrates fundamental queue operations including adding elements, removing elements, and accessing the front element:
 
@@ -90,7 +88,7 @@ Updated queue: [Bob, Charlie]
 
 This example demonstrates how elements maintain their order in the queue. Alice, who was added first, is served first, maintaining the FIFO principle.
 
-## Example 2: Print Job Queue System
+## Example 2: Using `Queue` to Implement a Print Job Queue System
 
 This example simulates a real-world scenario where a printer processes print jobs in the order they were submitted:
 
@@ -144,7 +142,7 @@ Queue status: Empty
 
 This example shows how queues ensure fair processing where jobs are handled in the order they arrive, preventing newer jobs from jumping ahead of older ones.
 
-## Example 3: Breadth-First Search Implementation
+## Example 3: Breadth-First Search Implementation Using `Queue`
 
 This example demonstrates using a queue to implement breadth-first search in a tree structure, showcasing a common algorithmic use case:
 
