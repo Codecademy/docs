@@ -87,7 +87,7 @@ function BEAM_Search(start_node, goal_node, beam_width):
   return failure
 ```
 
-## Advantages and Disadvantages
+## Advantages and Disadvantages of Beam Search
 
 As stated before, the advantage of BEAM search is that it is efficient both in time and memory. The disadvantage can be seen from the example in that a possible shortest path from **S** to **G** was overlooked. This can be somewhat corrected by varying the beam width to include more nodes. This, however, would reduce the efficiency of the algorithm. Selecting the optimal beam width is problem-specific and usually requires further insight into the problem.
 
