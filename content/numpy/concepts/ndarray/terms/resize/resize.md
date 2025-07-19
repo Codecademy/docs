@@ -21,12 +21,12 @@ The **`.resize()`** method in NumPy changes the shape of an array in-place and m
 ndarray.resize(new_shape, refcheck=True)
 ```
 
-## Parameters
+**Parameters:**
 
 - `new_shape`: The desired shape of the array. If it's larger than the original, data is repeated to fill space.
 - `refcheck`: If `True`, checks whether the array is referenced elsewhere before resizing. Set to `False` to skip this safety check and force a resize (may lead to issues if other views exist).
 
-## Returns
+**Return value:**
 
 The `.resize()` method modifies the array in-place and returns nothing. If the shape is increased, values are repeated to fill the new array.
 
@@ -42,7 +42,7 @@ arr.resize((2, 4))
 print(arr)
 ```
 
-The code above generates the following output:
+Here is the output:
 
 ```shell
 [[1 2 3 0]
@@ -56,7 +56,7 @@ In this example, a 2D array is resized from shape (3, 3) to (2, 2), discarding e
 ```codebyte/python
 import numpy as np
 
-arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+arr = np.array([[11, 12, 13], [14, 15, 16], [17, 18, 19]])
 arr.resize((2, 2))
 print(arr)
 ```
