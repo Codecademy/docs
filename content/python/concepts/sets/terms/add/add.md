@@ -63,7 +63,7 @@ After adding 2 again: {1, 2, 3, 4}
 After adding string: {1, 2, 3, 4, 'hello'}
 ```
 
-The code demonstrates that adding an existing element (2) has no effect on the set, while new elements are successfully added regardless of their data type.
+The code demonstrates that adding an existing element (2) does not affect the set, while new elements are successfully added regardless of their data type.
 
 ## Example 2: Using Pythons's `.add()` in User Management System
 
