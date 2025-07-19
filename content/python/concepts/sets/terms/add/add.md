@@ -106,7 +106,7 @@ Premium user added. Final active users: {101, 102, 103, 104, 105, 999}
 
 This demonstrates how `.add()` automatically handles duplicate user IDs, ensuring each user appears only once in the active users set.
 
-## Codebyte Example: Using `array.add()` in Data Processing Pipeline
+## Codebyte Example: Using `.add()` in Data Processing Pipeline
 
 This example illustrates using `.add()` in a data processing context where there is a need to collect unique tags from various sources:
 
