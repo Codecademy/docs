@@ -88,7 +88,7 @@ This example results in the following output:
 
 This demonstrates how `.filter()` can handle complex filtering logic by combining multiple conditions within the callback function.
 
-## Codebyte Example: Product Search Implementation With `array.filter()`
+## Codebyte Example: Product Search Implementation with `array.filter()`
 
 This example illustrates how to implement a search feature using `.filter()` to match products based on user input:
 
