@@ -124,4 +124,3 @@ const fullMessage = codingMessage.reduceRight(
 );
 
 console.log(fullMessage);
-```
