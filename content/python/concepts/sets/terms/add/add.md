@@ -97,8 +97,8 @@ User 101 logged in. Active users: {101}
 User 102 logged in. Active users: {101, 102}
 User 103 logged in. Active users: {101, 102, 103}
 User 101 logged in. Active users: {101, 102, 103}
-User 104 logged in. Active users: {101, 102, 103, 104}
-User 102 logged in. Active users: {101, 102, 103, 104}
+User 104 logged in. Active users: {101, 102, 103, 103}
+User 102 logged in. Active users: {101, 102, 103, 103}
 User 105 logged in. Active users: {101, 102, 103, 104, 105}
 Total active users: 5
 Premium user added. Final active users: {101, 102, 103, 104, 105, 999}
