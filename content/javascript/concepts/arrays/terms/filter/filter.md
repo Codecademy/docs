@@ -16,7 +16,7 @@ CatalogContent:
 
 JavaScript's **`array.filter()`** method creates a new [array](https://www.codecademy.com/resources/docs/javascript/arrays) containing only the elements from the original array that pass a test implemented by a provided [function](https://www.codecademy.com/resources/docs/javascript/functions). It provides a clean and efficient way to extract specific elements from an array based on custom criteria.
 
-## Syntax
+## Syntax of JavaScript's `.filter()` 
 
 ```pseudo
 array.filter(callback(element, index, array), thisArg)
