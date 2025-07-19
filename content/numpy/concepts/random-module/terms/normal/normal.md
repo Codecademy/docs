@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.normal()`** function from NumPy's `random` module generates random numbers drawn from a normal (Gaussian) distribution, which is a continuous, bell-shaped distribution commonly used in statistics and data science.
+The **`.normal()`** function from NumPy's `random` module generates random numbers from a normal (Gaussian) distribution, which is a continuous, bell-shaped distribution commonly used in statistics and data science.
 
 ## Syntax
 
