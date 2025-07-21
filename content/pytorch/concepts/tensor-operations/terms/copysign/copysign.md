@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Torch's **`.copysign()`** function creates a new tensor by combining the magnitude of the first input with the sign of the second input, element-wise. This is useful when you want to retain values’ absolute sizes but align their signs to match another tensor.
+Torch's **`.copysign()`** function creates a new tensor by combining the magnitude of the first input with the sign of the second input, element-wise.
 
 > **Note:** If the first input contains booleans, they are cast to floats (`True` becomes `1.0`, `False` becomes `0.0`). `-0.0` or `-0` in the second input is treated as a negative sign, while `0.0` or `0` is treated as positive, and these signs are preserved when copied.
 
