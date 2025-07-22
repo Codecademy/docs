@@ -420,14 +420,14 @@ This example demonstrates bitwise operators in a file permission system where fl
 
 ## Frequently Asked Questions
 
-### 1. What is the difference between `=` and `==` operators?
+### 1. What is an operator in Python?
+
+An operator in Python is a symbol or keyword used to perform operations on values or variables. These operations can include math, comparisons, logic checks, and more.
+
+### 2. How many operators are there in Python?
+
+Python has seven main types of operators: arithmetic, assignment, comparison, logical, bitwise, membership, and identity. Each type includes several specific operators used for different tasks.
+
+### 3. What is the difference between `=` and `==` operators?
 
 The `=` operator assigns a value to a variable, while `==` compares two values for equality. Use `=` for assignment and `==` for comparison.
-
-### 2. When should I use `is` vs `==` for comparison?
-
-Use `==` to compare values and `is` to compare object identity. Use `is` primarily for checking `None` values and comparing with singleton objects.
-
-### 3. What is the difference between `/` and `//` operators?
-
-The `/` operator performs regular division returning a float, while `//` performs floor division returning the largest integer less than or equal to the result.
