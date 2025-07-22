@@ -84,7 +84,7 @@ This range includes more specific SQL error messages related to feature support,
 | -109       | Invalid constraint definition; issues with constraints in the database schema.        |
 | -110       | Unsupported SQL feature; the SQL feature is not available in the current environment. |
 
-## Example of Syntax SQL Error 
+## Example of Syntax SQL Error
 
 This example demonstrates a common syntax error that occurs when SQL keywords are misspelled or used incorrectly.
 
@@ -137,20 +137,20 @@ CREATE TABLE employees (
   salary DECIMAL(10,2)
 );
 
--- Attempting to insert incorrect data types
+-- Attempting to insert an incorrect data type into the 'id' column
 INSERT INTO employees (id, name, hire_date, salary)
-VALUES ('invalid_id', 'John Doe', '2024-13-45', 'high_salary');
+VALUES ('invalid_id', 'John Doe', '2024-12-15', 75000.00);
 ```
 
 The output of this code will be:
 
 ```shell
 ERROR: invalid input syntax for type integer: "invalid_id"
-ERROR: date/time field value out of range: "2024-13-45"
-ERROR: invalid input syntax for type numeric: "high_salary"
+LINE 2: VALUES ('invalid_id', 'John Doe', '2024-13-45', 'high_salary');
+                ^
 ```
 
-This **data type mismatch error** occurs when the values being inserted don't match the expected data types for the columns. The `id` column expects an integer, `hire_date` expects a valid date format, and `salary` expects a numeric value.
+This **data type mismatch error** occurs when a value being inserted doesn’t match the expected data type for its column. In this case, the `id` column expects an integer, but a string was provided, causing the query to fail before other values are evaluated.
 
 ## Frequently Asked Questions
 
