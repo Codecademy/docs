@@ -20,7 +20,14 @@ A **`.gitignore`** file tells [Git](https://www.codecademy.com/resources/docs/gi
 Creating a `.gitignore` file allows developers to specify which files and directories Git should ignore in a repository. This file should be placed in the root directory of the Git repository:
 
 ```bash
+# For macOS/Linux/Unix:
 touch .gitignore
+
+# For Windows Command Prompt:
+echo.>.gitignore
+
+# For Windows PowerShell:
+New-Item .gitignore -ItemType File
 ```
 
 The `touch` command creates an empty `.gitignore` file in the current directory. Once created, you can edit this file to add patterns for files and directories you want Git to ignore.
