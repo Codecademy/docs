@@ -358,7 +358,7 @@ These are the bitwise operators available in Python:
 | `<<`     | Left Shift  | Shifts bits to the left            | `x << 2` |
 | `>>`     | Right Shift | Shifts bits to the right           | `x >> 2` |
 
-### Example: Permission System with Flags
+### Example of Bitwise Operators in Python
 
 ```py
 # Permission flags for a file system
