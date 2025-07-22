@@ -88,7 +88,7 @@ These are the assignment operators available in Python:
 | `**=`    | Exponent Assignment       | Raises to power and assigns | `x **= 3` | `x = x ** 3` |
 | `//=`    | Floor Division Assignment | Floor divides and assigns   | `x //= 3` | `x = x // 3` |
 
-### Example: Bank Account Balance Tracker Using Python's Assignment Operators
+### Example of Python's Assignment Operator
 
 ```py
 # Initial account balance
