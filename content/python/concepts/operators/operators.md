@@ -14,7 +14,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Operators** in Python programming are special symbols or keywords that perform operations on variables and values. They are fundamental building blocks that allow developers to manipulate data, perform calculations, make comparisons, and control program flow. Python operators take one or more operands (values or variables) and produce a result based on the specific operation being performed.
+**Operators** in Python programming are special symbols or keywords that perform operations on variables and values. They are fundamental building blocks that allow developers to manipulate data, perform calculations, make comparisons, and control program flow. Python operators take one or more operands (values or variables) and produce a result based on the specific operation being performed. There are seven different operators in Python:
+
+1. Arithmetic Operators: Used to perform mathematical calculations like addition, subtraction, multiplication, and division.
+2. Assignment Operators: Used to assign values to variables and update them with operations.
+3. Comparison Operators: Used to compare two values and return a Boolean result (True or False).
+4. Logical Operators: Used to combine multiple conditions and return a Boolean outcome.
+5. Bitwise Operators: Used to perform operations at the binary (bit) level on integers.
+6. Membership Operators: Used to test whether a value exists within a sequence such as a list or string.
+7. Identity Operators: Used to check whether two variables refer to the exact same object in memory.
 
 ## Arithmetic Operators
 
