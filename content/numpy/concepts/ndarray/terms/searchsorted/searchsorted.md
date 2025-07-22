@@ -1,54 +1,62 @@
 ---
-Title: 'searchsorted'
-Description: 'Finds indices where elements should be inserted to maintain order in a NumPy array.'
-
+Title: 'searchsorted()'
+Description: 'Returns the index where a value should be inserted to maintain order.'
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
   - 'Machine Learning'
-
 Tags:
-  - 'NumPy'
   - 'Arrays'
-  - 'Search'
   - 'Binary Search'
+  - 'NumPy'
+  - 'Search'
   - 'Sorting Algorithms'
-
 CatalogContent:
-  - 'learn-data-analysis-with-python'
-  - 'paths/data-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-**searchsorted()** is a method of NumPy's ndarray that returns the indices at which elements should be inserted to maintain order.
+**`.searchsorted()`** in a NumPy `ndarray` returns the index where a value should be inserted to maintain order.
 
 ## Syntax
 
-```python
+```pseudo
 ndarray.searchsorted(value, side='left', sorter=None)
 ```
 
-- **value**: array_like  
-  Values to insert into the array.
+**Parameters:**
 
-- **side**: {'left', 'right'}, optional, default='left'  
-  If 'left', return the first suitable insertion index. If 'right', return the last suitable insertion index.
+- `value` (array_like): Values to insert into the array.
+- `side` (default='left', optional): Determines whether to return the first suitable location (`'left'`) or last (`'right'`).
+- `sorter` (1-D array_like, optional): Specifies a pre-sorted index array for the search (used if the array isn’t sorted).
 
-- **sorter**: 1-D array_like, optional  
-  Optional array of indices that sort the array. If provided, `searchsorted` assumes the array is sorted according to `sorter`.
+**Return value:**
+
+The index (or indices) where `values` should be inserted to maintain order.
 
 ## Example
 
-```python
+In this example, `.searchsorted()` finds the index where the value `3` should be inserted to keep the array sorted:
+
+```py
 import numpy as np
 
 arr = np.array([1, 2, 3, 4, 5])
 index = arr.searchsorted(3)
-print(index)  # Output: 2
+print(index)
 ```
 
-For this example, the method .searchsorted(3) returns the index 2, that is where the value 3 will be inseted to keep the array sorted.
+The result is `2`, which is the position of the first `3` in the sorted array.
 
+## Codebyte Example
 
+In this example, `.searchsorted()` finds where a new test score should be inserted in a sorted list of scores:
 
+```codebyte/python
+import numpy as np
 
-
+scores = np.array([55, 60, 65, 70, 75])
+new_score = 68
+position = scores.searchsorted(new_score)
+print(position)
+```
