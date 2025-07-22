@@ -75,20 +75,14 @@ This allows developers to ignore editor-specific files, OS-generated files, and 
 
 ## Frequently Asked Questions
 
-### 1. How to create a `.gitignore` file?
+### 1. How to use `.gitignore` for a folder?
 
-To create a `.gitignore` file, navigate to the root directory of the Git repository and use the `touch` command:
+To ignore a folder in Git, add the folder name followed by a slash to the `.gitignore` file.
 
-```shell
-touch .gitignore
-```
+### 2. Where is the `.gitignore` file located?
 
-After creating the file, open it in a text editor and add patterns for files and directories that should be ignored.
+The `.gitignore` file is typically located in the root directory of a Git repository. Subdirectories can also have their own `.gitignore` files for more granular control.
 
-### 2. How to apply `.gitignore` file?
+### 3. Can you have multiple `.gitignore` files?
 
-The `.gitignore` file is automatically applied by Git once it's created and placed in the repository. Git reads the patterns in the file and ignores matching files during operations like `git add` and `git status`. Changes to the `.gitignore` file take effect immediately for untracked files.
-
-### 3. What happens if I delete `.gitignore`?
-
-If the `.gitignore` file is deleted, Git will no longer ignore any files that were previously ignored by the patterns in that file. All previously ignored files will become visible to Git and may appear as untracked files in `git status`. The files themselves are not deleted, only the ignore rules are removed.
+Yes. You can have one main `.gitignore` in the root and additional `.gitignore` files in subfolders. Git applies rules from all `.gitignore` files it encounters, starting from the directory of the file being checked and moving up the directory tree.
