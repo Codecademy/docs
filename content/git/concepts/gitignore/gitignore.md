@@ -30,7 +30,7 @@ echo.>.gitignore
 New-Item .gitignore -ItemType File
 ```
 
-The `touch` command creates an empty `.gitignore` file in the current directory. Once created, you can edit this file to add patterns for files and directories you want Git to ignore.
+These commands create an empty `.gitignore` file in the current directory. Once created, the file can be opened and edited to add patterns for files and directories to ignore in Git.
 
 ## .gitignore File Patterns and Format
 
