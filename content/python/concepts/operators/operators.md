@@ -32,7 +32,7 @@ These are the arithmetic operators available in Python:
 | `**`     | Exponentiation | Raises left operand to power of right operand | `x ** y` |
 | `//`     | Floor Division | Returns floor of division result              | `x // y` |
 
-### Example: Shopping Cart Calculator Using Python's Arithmetic Operators
+### Example of Arithmetic Operator in Python
 
 ```py
 # Shopping cart total calculation
