@@ -84,7 +84,7 @@ This range includes more specific SQL error messages related to feature support,
 | -109       | Invalid constraint definition; issues with constraints in the database schema.        |
 | -110       | Unsupported SQL feature; the SQL feature is not available in the current environment. |
 
-## Example 1: Basic Syntax SQL Error Example
+## Example of Syntax SQL Error 
 
 This example demonstrates a common syntax error that occurs when SQL keywords are misspelled or used incorrectly.
 
