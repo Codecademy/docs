@@ -25,7 +25,7 @@ touch .gitignore
 
 The `touch` command creates an empty `.gitignore` file in the current directory. Once created, you can edit this file to add patterns for files and directories you want Git to ignore.
 
-## `.gitignore` File Patterns and Format
+## .gitignore File Patterns and Format
 
 The `.gitignore` file uses specific patterns to match files and directories. Each pattern is written on a separate line, and Git processes these patterns from top to bottom.
 
