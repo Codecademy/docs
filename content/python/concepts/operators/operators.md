@@ -143,7 +143,7 @@ These are the comparison operators available in Python:
 | `>=`     | Greater Than or Equal | Returns True if left operand is greater or equal | `x >= y` |
 | `<=`     | Less Than or Equal    | Returns True if left operand is less or equal    | `x <= y` |
 
-### Example: Using Comparison Operators for Student Grade Evaluation
+### Example of Comparison Operators in Python
 
 ```py
 # Student test scores
