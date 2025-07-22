@@ -246,7 +246,7 @@ These are the identity operators available in Python:
 | `is`     | Identity     | Returns True if operands are the same object     | `x is y`     |
 | `is not` | Not Identity | Returns True if operands are not the same object | `x is not y` |
 
-### Example: Object Reference Validation Using Identity Operators
+### Example of Identity Operators in Python
 
 ```py
 # Creating different types of objects
