@@ -27,7 +27,7 @@ ndarray.searchsorted(value, side='left', sorter=None)
 **Parameters:**
 
 - `value` (array_like): Values to insert into the array.
-- `side` (default='left', optional): Determines whether to return the first suitable location (`'left'`) or last (`'right'`).
+- `side` (default=`'left'`, optional): Determines whether to return the first suitable location (`'left'`) or last (`'right'`).
 - `sorter` (1-D array_like, optional): Specifies a pre-sorted index array for the search (used if the array isn’t sorted).
 
 **Return value:**
