@@ -154,14 +154,14 @@ This **data type mismatch error** occurs when the values being inserted don't ma
 
 ## Frequently Asked Questions
 
-### 1. What are the most common SQL error types?
+### 1. What is error 805 in SQL code?
 
-The most common SQL errors include syntax errors, table or column not found errors, data type mismatches, constraint violations, and connection timeouts. Syntax errors typically occur due to misspelled keywords or incorrect query structure.
+Error 805 is commonly seen in IBM DB2 systems. It usually means a required package or page wasn't found in the database — often due to missing table space, a broken index, or an issue with the execution environment.
 
-### 2. What's the difference between SQL error codes and SQLSTATE codes?
+### 2. What is SQL logic error?
 
-SQL error codes are database-specific numeric identifiers, while SQLSTATE codes are standardized five-character codes defined by the SQL standard. SQLSTATE codes provide consistent error identification across different database systems.
+A SQL logic error occurs when the structure of a query is valid but its logic is flawed. This might happen if you're referencing non-existent tables or columns, misusing functions, or violating query constraints.
 
-### 3. Why do I get connection errors when running SQL queries?
+### 3. What is the SQL error?
 
-Connection errors can occur due to network issues, incorrect connection parameters, authentication failures, database server downtime, or exceeding connection limits. Verify your connection string, credentials, and network connectivity to resolve these issues.
+`SQLError()` is a generic way to refer to an error thrown by a database system when a query fails. It often includes details like an error code, message, and sometimes a trace of what caused the failure. It’s commonly seen in environments like Web SQL (JavaScript) or abstracted in database libraries.
