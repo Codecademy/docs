@@ -198,7 +198,7 @@ These are the logical operators available in Python:
 | `or`     | Logical OR  | Returns True if at least one operand is True | `x or y`  |
 | `not`    | Logical NOT | Returns opposite Boolean value               | `not x`   |
 
-### Example: User Access Control System With Python's Logical Operators
+### Example of Python's Logical Operators
 
 ```py
 # User credentials and permissions
