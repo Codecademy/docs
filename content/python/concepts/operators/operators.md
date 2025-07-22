@@ -298,7 +298,7 @@ Membership operators test whether a value is present in a sequence such as strin
 | `in`     | Membership     | Returns True if value is found in sequence     | `x in sequence`     |
 | `not in` | Not Membership | Returns True if value is not found in sequence | `x not in sequence` |
 
-### Example: Using Membership Operators for a Content Filtering System
+### Example of Membership Operators in Python
 
 ```py
 # Content filtering for a social media platform
