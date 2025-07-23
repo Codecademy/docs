@@ -1,19 +1,20 @@
 ---
 Title: '.keys()'
-Description: 'Returns a new Array Iterator object that contains the keys (indices) for each index in the array.'
+Description: 'Returns a new array iterator object containing the keys for each index in the array.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Arrays'
-  - 'Methods'
   - 'Iterators'
+  - 'JavaScript'
+  - 'Methods'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.keys()`** method returns a new Array Iterator object that contains the keys (indices) for each index in the array.
+The **`.keys()`** method returns a new array iterator object that contains the keys (indices) for each index in the array.
 
 ## Syntax
 
@@ -21,11 +22,17 @@ The **`.keys()`** method returns a new Array Iterator object that contains the k
 array.keys();
 ```
 
-The `.keys()` method takes no parameters and returns an Array Iterator object containing the indices of the array. When used on sparse arrays, iterates empty slots as if they have the value _undefined_.
+**Parameters:**
 
-## Examples
+- This method does not take any parameters.
 
-Using `.keys()` to get array indices:
+**Return value:**
+
+- A new array iterator object containing the keys (indices) of the array.
+
+## Example 1: Using `.keys()` to get array indices
+
+In this example, the `.keys()` method creates an iterator over the indices of the array:
 
 ```js
 const cats = ['Sundae', 'Gandalf', 'Campanita'];
@@ -44,7 +51,9 @@ This produces the following output:
 2
 ```
 
-Converting the iterator to an array using spread operator:
+Example 2: Converting the `.keys()` iterator to an array
+
+In this example, the spread operator (`...`) with `.keys()` is used to convert the index iterator into a full array of indices:
 
 ```js
 const colors = ['red', 'black', 'white'];
@@ -61,9 +70,9 @@ Array indices:  [0, 1, 2]
 First index:  0
 ```
 
-## Codebyte Example
+## Codebyte Example: Using `.keys()` with sparse arrays
 
-The following example demonstrates using `.keys()` with sparse arrays:
+In this example, `.keys()` is used on a sparse array. Even though some elements are missing, `.keys()` still returns all valid indices:
 
 ```codebyte/javascript
 const sparseArray = ['Lia', , 'ny', , '💖'];
