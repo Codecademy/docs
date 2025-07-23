@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`matplotlib.pyplot.boxplot()`** method is a powerful data visualization function in matplotlib's pyplot module that creates box-and-whisker plots to display the statistical summary of a dataset. This method displays the distribution of data through quartiles, showing the median, first quartile (Q1), third quartile (Q3), and potential outliers in a compact visual format.
-
-Box plots are widely used in statistical analysis and data science for comparing distributions across different groups, identifying outliers, and understanding the spread and central tendency of data. They are particularly valuable when analyzing multiple datasets simultaneously, as they provide a clear visual comparison of statistical properties across different categories or groups.
+The **matplotlib's `.boxplot()`** method is a powerful data visualization function in matplotlib's pyplot module that creates box-and-whisker plots to display the statistical summary of a dataset. This method displays the distribution of data through quartiles, showing the median, first quartile (Q1), third quartile (Q3), and potential outliers in a compact visual format.
 
 ## Syntax
 
@@ -60,7 +58,7 @@ plt.show()
 
 The output of this code is:
 
-![A simple boxplot showing the distribution of normally distributed data with median line, quartile box, whiskers, and outlier points](https://raw.githubusercontent.com/Codecademy/docs/main/media/boxplot1.png)
+![A simple matplotlib boxplot showing the distribution of normally distributed data with a median line, quartile box, whiskers, and outlier points](https://raw.githubusercontent.com/Codecademy/docs/main/media/boxplot1.png)
 
 The code generates a dataset with 200 values following a normal distribution with mean 100 and standard deviation 15. The resulting boxplot displays the median as a horizontal line, the box representing the interquartile range (IQR), whiskers extending to the most extreme non-outlier data points, and any outliers as individual points.
 
@@ -98,7 +96,7 @@ plt.show()
 
 The output of this code is:
 
-![Four side-by-side boxplots comparing normal, exponential, and uniform distributions with different means and spreads](https://raw.githubusercontent.com/Codecademy/docs/main/media/boxplot2.png)
+![Four side-by-side matplotlib boxplots comparing normal, exponential, and uniform distributions with different means and spreads](https://raw.githubusercontent.com/Codecademy/docs/main/media/boxplot2.png)
 
 This example creates four different datasets with distinct statistical properties and displays them side by side. The boxplots make it easy to compare the medians, spreads, and presence of outliers across the different distributions.
 
@@ -154,7 +152,7 @@ plt.show()
 
 The output of this code is:
 
-![Colorful customized boxplots showing quarterly sales performance across four product categories with notches and mean indicators](https://raw.githubusercontent.com/Codecademy/docs/main/media/boxplot3.png)
+![Colorful customized matplotlib boxplots showing quarterly sales performance across four product categories, with notches and mean indicators](https://raw.githubusercontent.com/Codecademy/docs/main/media/boxplot3.png)
 
 This example simulates a business scenario where sales data is analyzed across different product categories. The customized boxplot uses colors to distinguish categories, shows confidence intervals through notches, and displays mean values alongside medians. This visualization helps identify which product categories perform best and have the most consistent sales patterns.
 
