@@ -128,7 +128,7 @@ int main() {
 
 ### 1. What happens if I pass a negative number to `sqrt()`?
 
-Passing a negative number to `sqrt()` results in a domain error and returns NaN (Not a Number).
+Passing a negative number to `sqrt()` results in a domain error and returns `NaN` (Not a Number).
 
 ### 2. What header file do I need to include to use `sqrt()`?
 
