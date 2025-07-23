@@ -15,7 +15,7 @@ CatalogContent:
 
 C++ **`sqrt()`** function returns the square root of a number. This mathematical function is part of the C++ standard library and is defined in the `<cmath>` header file.
 
-## Syntax
+## Syntax of C++ `sqrt()`
 
 ```pseudo
 sqrt(num)
