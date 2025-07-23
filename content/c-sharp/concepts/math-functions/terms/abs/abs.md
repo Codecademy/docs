@@ -34,7 +34,7 @@ Returns the absolute value of the specified number with the same data type as th
 - If the input is negative infinity, returns positive infinity
 - If the input is positive infinity, returns positive infinity
 
-## Example 1: Basic Usage of `Math.Abs()` in C#
+## Example 1: Basic Usage of C# `Math.Abs()`
 
 This example demonstrates the fundamental use of the `Math.Abs()` method with different numeric types to show how it returns the non-negative equivalent of the number:
 
