@@ -16,7 +16,7 @@ CatalogContent:
 
 The C# **`Math.Abs()`** method is a static method that returns the absolute value of a specified number. The absolute value of a number is its distance from zero on the number line, always expressed as a positive value or zero.
 
-## Syntax
+## Syntax of C# `Math.Abs()`
 
 ```pseudo
 Math.Abs(number);
