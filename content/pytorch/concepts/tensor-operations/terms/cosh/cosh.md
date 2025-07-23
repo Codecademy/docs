@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.cosh()`** function computes **hyperbolic cosine** of given input. Hyperbolic functions are used in certain signal processing algorithms and transformations.
+In PyTorch, the **`.cosh()`** function computes the hyperbolic cosine of the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). Hyperbolic functions like `.cosh()` are often used in signal processing, physics simulations, and certain neural network transformations.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ torch.cosh(input, *, out=None)
 
 **Parameters:**
 
-- `input`: The input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) .
+- `input`: The input tensor containing elements for which to compute the hyperbolic cosine.
 - `out` (optional): The output tensor to store the result. If provided, the result is written to this tensor in-place.
 
 **Return value:**
@@ -38,7 +38,7 @@ This example demonstrates the usage of the `.cosh()` function:
 ```py
 import torch
 
-# Input tensors
+# Input tensor
 a = torch.tensor([ 0.1632,  1.1835, -0.6979, -0.7325])
 
 # Calculates hyperbolic cosine
