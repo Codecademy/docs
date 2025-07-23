@@ -20,6 +20,10 @@ In R, conditionals help control the flow of a program. They evaluate Boolean exp
 
 The R `if` statement is used to run a block of code if a condition is `TRUE`.
 
+Here is a flowchart that showcases the flow of the `if` statement in R:
+
+![R If statement flowchart](https://raw.githubusercontent.com/Codecademy/docs/main/media/if-statement-flowchart.png)
+
 ### R If Statement Syntax
 
 ```pseudo
@@ -182,3 +186,11 @@ if (x > 2 & x < 10) {
   print("x is between 2 and 10")
 } # Output: [1] "x is between 2 and 10"
 ```
+
+### 4. What are the three elements of the `if` statement in R?
+
+The three elements of an `if` statement in R are:
+
+- **Condition**: A logical expression that evaluates to `TRUE` or `FALSE`.
+- **Code block for `TRUE`**: The set of statements to execute if the condition is `TRUE`.
+- **Optional `else` block**: A set of statements to run if the condition is `FALSE`.
