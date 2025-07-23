@@ -44,7 +44,7 @@ In this example, the `.box` element is rotated 45 degrees clockwise from its ori
 
 Here is the output:
 
-![A box rotated 45 degrees clockwise from its original position, creating a diamond-like appearance](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rotate-1.jpg)
+![The CSS rotate() function rotates a box 45 degrees clockwise from its original position, creating a diamond-like appearance](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rotate-1.jpg)
 
 ## Example 2: Using `rotate()` to Rotate on Hover
 
@@ -66,7 +66,7 @@ When a user hovers on the `.box` element, it rotates 90 degrees, thanks to the s
 
 Here is the output:
 
-![A box which rotates 90 degrees on hover](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rotate-2.gif)
+![The CSS rotate() function rotates a box 90 degrees on hover](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rotate-2.gif)
 
 ## Example 3: Continuous Rotation in CSS With the Help of `rotate()`
 
@@ -95,7 +95,7 @@ This example creates a spinning loader by continuously rotating a styled circle 
 
 Here is the output:
 
-![A spinning loader](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rotate-3.gif)
+![A spinning loader created using the CSS rotate() function](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rotate-3.gif)
 
 ## Frequently Asked Questions
 
@@ -114,3 +114,11 @@ transform: scale(1.2) rotate(30deg) translateX(20px);
 ### 3. Is CSS `rotate()` supported across all browsers?
 
 Yes. Modern browsers like Chrome, Firefox, Safari, Edge, and even Internet Explorer 9+ support CSS `rotate()`.
+
+### 4. How to rotate 45 degrees in CSS?
+
+Here's how you can use CSS `rotate()` to rotate 45 degrees:
+
+```css
+transform: rotate(45deg);
+```
