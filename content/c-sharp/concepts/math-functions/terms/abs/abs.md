@@ -100,14 +100,14 @@ public class TemperatureDifference
 
     // Display results
     Console.WriteLine("Temperature Analysis:");
-    Console.WriteLine($"Morning: {morningTemp}°C");
-    Console.WriteLine($"Afternoon: {afternoonTemp}°C");
-    Console.WriteLine($"Evening: {eveningTemp}°C");
+    Console.WriteLine($"Morning: {morningTemp}C");
+    Console.WriteLine($"Afternoon: {afternoonTemp}C");
+    Console.WriteLine($"Evening: {eveningTemp}C");
     Console.WriteLine();
     Console.WriteLine("Temperature Differences:");
-    Console.WriteLine($"Morning to Afternoon: {morningAfternoonDiff}°C");
-    Console.WriteLine($"Afternoon to Evening: {afternoonEveningDiff}°C");
-    Console.WriteLine($"Morning to Evening: {morningEveningDiff}°C");
+    Console.WriteLine($"Morning to Afternoon: {morningAfternoonDiff}C");
+    Console.WriteLine($"Afternoon to Evening: {afternoonEveningDiff}C");
+    Console.WriteLine($"Morning to Evening: {morningEveningDiff}C");
   }
 }
 ```
