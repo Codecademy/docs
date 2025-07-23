@@ -1,6 +1,6 @@
 ---
 Title: '.gitignore'
-Description: 'A configuration file that instructs Git to ignore specific files and directories when tracking changes in a repository.'
+Description: 'Tells Git which files and directories to ignore when committing changes to a repository.'
 Subjects:
   - 'Code Foundations'
   - 'Developer Tools'
@@ -10,67 +10,86 @@ Tags:
   - 'Version Control'
 CatalogContent:
   - 'learn-git'
-  - 'learn-the-command-line'
+  - 'paths/computer-science'
 ---
 
-A **.gitignore** file specifies the files and directories that Git should ignore when tracking changes in a repository. This is particularly useful for excluding build artifacts, temporary files, dependencies, and sensitive information from version control. The .gitignore file should be located in the root directory of a repository.
+A **`.gitignore`** file tells [Git](https://www.codecademy.com/resources/docs/git) which files and directories to ignore when committing changes to a repository. This file prevents unnecessary files from being tracked and committed, keeping the repository clean and focused on essential project files.
 
-## Common .gitignore patterns
+## Create a .gitignore File
 
-Below are common patterns typically included in .gitignore files:
+Creating a `.gitignore` file allows developers to specify which files and directories Git should ignore in a repository. This file should be placed in the root directory of the Git repository:
 
-```plaintext
-# Ignore node modules directory
-node_modules/
+```bash
+# For macOS/Linux/Unix:
+touch .gitignore
 
-# Ignore build output directories
-dist/
-build/
+# For Windows Command Prompt:
+echo.>.gitignore
 
-# Ignore environment files
-.env
-.env.local
+# For Windows PowerShell:
+New-Item .gitignore -ItemType File
+```
 
-# Ignore log files
+These commands create an empty `.gitignore` file in the current directory. Once created, the file can be opened and edited to add patterns for files and directories to ignore in Git.
+
+## .gitignore File Patterns and Format
+
+The `.gitignore` file uses specific patterns to match files and directories. Each pattern is written on a separate line, and Git processes these patterns from top to bottom.
+
+### Syntax Rules
+
+The `.gitignore` file follows these key syntax rules:
+
+- **`#` for comments**: Lines starting with `#` are treated as comments and are ignored by Git
+- **`*`, `?`, `[]` for wildcards**:
+  - `*` matches any number of characters
+  - `?` matches a single character
+  - `[]` matches any character within the brackets
+- **`/` for directory targeting**: Use `/` to specify directories or paths
+- **`!` to negate a pattern**: Use `!` at the beginning of a line to create exceptions to ignored patterns
+
+### Example Block
+
+```bash
+# Ignore all log files
 *.log
 
-# Ignore system files
-.DS_Store
-Thumbs.db
+# Ignore temporary files
+temp/
 
-# Ignore IDE specific files
-.idea/
-.vscode/
-*.sublime-project
-*.sublime-workspace
+# Ignore all .txt files in the root directory only
+/*.txt
+
+# Ignore all files in the build directory
+build/
+
+# Exception: don't ignore important.log
+!important.log
 ```
 
-## Creating a .gitignore file
+## Local & Personal Ignore Rules
 
-Step 1: Create a new .gitignore file in the repository's root directory:
+For files that should be ignored only on a local machine and not shared with other developers, there are two options:
 
-```shell
-touch .gitignore
+- **Local `.gitignore`**: Add patterns to `.git/info/exclude` in the repository
+- **Global `.gitignore`**: Set up a global ignore file using:
+
+```bash
+git config --global core.excludesfile ~/.gitignore_global
 ```
 
-Step 2: Open the file in the preferred text editor and specify the files and directories to ignore:
+This allows developers to ignore editor-specific files, OS-generated files, and other personal preferences without affecting the project's shared `.gitignore` file.
 
-```shell
-# Open with VS Code
-code .gitignore
+## Frequently Asked Questions
 
-# Open with Vim
-vim .gitignore
-```
+### 1. How to use `.gitignore` for a folder?
 
-> **Note:** Wildcards like '\*' can be used for pattern matching and '#' for comments in the .gitignore file.
+To ignore a folder in Git, add the folder name followed by a slash to the `.gitignore` file.
 
-## Common .gitignore rules
+### 2. Where is the `.gitignore` file located?
 
-1. Specific file: `filename.txt`
-2. File pattern: `*.log`
-3. Directory: `node_modules/`
-4. Nested directory: `**/logs/`
-5. Negation (don't ignore): `!important.log`
+The `.gitignore` file is typically located in the root directory of a Git repository. Subdirectories can also have their own `.gitignore` files for more granular control.
 
-> **Note:** If ignored files have already been committed, remove them from Git's tracking using `git rm --cached <file>` before .gitignore takes effect.
+### 3. Can you have multiple `.gitignore` files?
+
+Yes. You can have one main `.gitignore` in the root and additional `.gitignore` files in subfolders. Git applies rules from all `.gitignore` files it encounters, starting from the directory of the file being checked and moving up the directory tree.
