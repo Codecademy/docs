@@ -137,7 +137,7 @@ The CSS code is:
 
 The output of this code is:
 
-![A horizontal navigation bar with a logo on the left, expandable search input in the center, and navigation links on the right](https://raw.githubusercontent.com/Codecademy/docs/main/media/flex-grow2.png)
+![A horizontal navigation bar created using CSS flex-grow, featuring a logo on the left, an expandable search input in the center, and navigation links on the right](https://raw.githubusercontent.com/Codecademy/docs/main/media/flex-grow2.png)
 
 In this navigation bar, the search input has `flex-grow: 1`, which means it will expand to fill all available space between the logo and navigation links, creating a responsive layout that works on different screen sizes.
 
@@ -237,7 +237,7 @@ The CSS code is:
 
 The output of this code is:
 
-![A full-screen dashboard layout with a dark sidebar on the left containing navigation menu and a light main content area on the right with three equal-width cards](https://raw.githubusercontent.com/Codecademy/docs/main/media/flex-grow3.png)
+![A full-screen dashboard layout using CSS flex-grow, with a dark sidebar on the left containing a navigation menu and a light main content area on the right displaying three equal-width cards](https://raw.githubusercontent.com/Codecademy/docs/main/media/flex-grow3.png)
 
 In this dashboard layout, the sidebar has a fixed width, while the main content area uses `flex-grow: 1` to expand and fill all remaining horizontal space. The cards within the main content also use `flex-grow: 1` to distribute space equally among themselves.
 
