@@ -167,7 +167,7 @@ public class FinancialLossCalculator
 
 ### 1. What happens if I pass a positive number to `Math.Abs()`?
 
-The method returns the same positive number unchanged. For example, `Math.Abs(5)` returns `5`.
+The method returns the same positive number unchanged. For example, `Math.Abs(5)` returns 5.
 
 ### 2. Can `Math.Abs()` handle floating-point numbers?
 
@@ -175,7 +175,7 @@ Yes, `Math.Abs()` supports all numeric types including `float`, `double`, and `d
 
 ### 3. What does `Math.Abs()` return for zero?
 
-`Math.Abs(0)` returns `0`, as the absolute value of zero is zero.
+`Math.Abs(0)` returns 0, as the absolute value of zero is zero.
 
 ### 4. Can `Math.Abs()` cause overflow exceptions?
 
