@@ -129,25 +129,25 @@ console.log("Enabled settings:", enabledSettings);
 
 ## Frequently Asked Questions
 
-### 1. How to get all the keys of an object in JavaScript?
+### 1. What is the difference between map keys and object keys?
 
-Use `Object.keys(obj)` to get an array of all enumerable string-keyed property names of an object. This method returns only the object's own properties, not inherited properties from the prototype chain.
+In JavaScript:
 
-### 2. How to add keys in object in JavaScript?
+- Object keys are always strings (or symbols). Even if you use a number or an object as a key, it gets converted to a string.
+- Map keys can be of any type such as string, number, object, even functions. They're not converted to strings. This makes `Map` more flexible for key-value pairs where key type matters.
 
-You can add keys to an object using dot notation (`obj.newKey = value`), bracket notation (`obj["newKey"] = value`), or `Object.assign()`. To add multiple keys at once, use `Object.assign(obj, {key1: value1, key2: value2})`.
+### 2. What is `Object.entries` and `Object.keys`?
 
-### 3. How to check object key in JavaScript?
+- `Object.keys(obj)` returns an array of the keys (property names) in the object.
+- `Object.entries(obj)` returns an array of [key, value] pairs from the object.
 
-Use `Object.keys(obj).includes("keyName")` to check if a specific key exists in an object. Alternatively, use the `in` operator (`"keyName" in obj`) or `hasOwnProperty()` method (`obj.hasOwnProperty("keyName")`).
+### 3. Can an object key be a number?
 
-### 4. How to lowercase all object keys in JavaScript?
+Not exactly. When you use a number as a key, JavaScript automatically converts it to a string.
 
-Use `Object.keys(obj)` with `reduce()` to create a new object with lowercase keys:
+### 4. Are object keys ordered?
 
-```js
-const newObj = Object.keys(obj).reduce((acc, key) => {
-  acc[key.toLowerCase()] = obj[key];
-  return acc;
-}, {});
-```
+Yes, in a specific way:
+- Integer-like keys come first (sorted numerically).
+- Then, string keys appear in insertion order.
+- Symbol keys come last, also in insertion order.
