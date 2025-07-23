@@ -136,4 +136,4 @@ You need to include the `<cmath>` header file to use the `sqrt()` function.
 
 ### 3. What is the return type of the function `sqrt()` in C++?
 
-The `sqrt()` function returns a floating-point value of the same type as the input parameter. If you pass a float, it returns a float; if you pass a double, it returns a double; and if you pass a long double, it returns a long double.
+The `sqrt()` function returns a floating-point value of the same type as the input parameter. If you pass a float, it returns a float; if you pass a double, it returns a double, and if you pass a long double, it returns a long double.
