@@ -13,7 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Java **iterator** is an interface that provides a standardized way to traverse elements in a collection sequentially, one element at a time. It acts as a cursor that points to elements within collections such as [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list), `LinkedList`, [`HashSet`](https://www.codecademy.com/resources/docs/java/hashset), and other classes that implement the [`Collection`](https://www.codecademy.com/resources/docs/java/collection) interface. The iterator interface is part of the Java Collections Framework and is found in the `java.util` package.
+**Java iterator** is an interface that provides a standardized way to traverse elements in a collection sequentially, one element at a time. It acts as a cursor, meaning a pointer that moves through the collection and keeps track of the current position during iteration. This allows access to elements individually without exposing the internal structure of the collection.
+
+The iterator can be used with collections such as [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list), `LinkedList`, [`HashSet`](https://www.codecademy.com/resources/docs/java/hashset), and other classes that implement the [`Collection`](https://www.codecademy.com/resources/docs/java/collection) interface. It is part of the Java Collections Framework and is found in the `java.util` package.
 
 ## Syntax
 
@@ -78,128 +80,69 @@ Date
 
 This example creates an `ArrayList` of fruits, obtains an iterator using the `iterator()` method, and uses a `while` loop with `hasNext()` and `next()` methods to traverse and print each element.
 
-## Example 2: Employee Database Processing Using Java Iterators
+## Example 2: Filtering Values in a List Using Java Iterators
 
-This example shows how iterators can be used in a real-world scenario to process employee records and filter data based on specific criteria:
+This example shows how to use an iterator to filter elements based on a condition:
 
 ```java
 import java.util.ArrayList;
 import java.util.Iterator;
 
-class Employee {
-  private String name;
-  private double salary;
-  private String department;
-
-  public Employee(String name, double salary, String department) {
-    this.name = name;
-    this.salary = salary;
-    this.department = department;
-  }
-
-  // Getter methods
-  public String getName() { return name; }
-  public double getSalary() { return salary; }
-  public String getDepartment() { return department; }
-
-  @Override
-  public String toString() {
-    return name + " (" + department + ") - $" + salary;
-  }
-}
-
-public class EmployeeProcessor {
+public class FilterExample {
   public static void main(String[] args) {
-    // Create list of employees
-    ArrayList<Employee> employees = new ArrayList<>();
-    employees.add(new Employee("Alice Johnson", 75000, "Engineering"));
-    employees.add(new Employee("Bob Smith", 45000, "Marketing"));
-    employees.add(new Employee("Carol Davis", 85000, "Engineering"));
-    employees.add(new Employee("David Wilson", 38000, "Support"));
+    ArrayList<Integer> numbers = new ArrayList<>();
+    numbers.add(10);
+    numbers.add(25);
+    numbers.add(40);
+    numbers.add(55);
 
-    // Find high-earning engineering employees
-    System.out.println("High-earning Engineering employees:");
-    Iterator<Employee> it = employees.iterator();
+    Iterator<Integer> it = numbers.iterator();
+    System.out.println("Numbers greater than 30:");
     while (it.hasNext()) {
-      Employee emp = it.next();
-      if (emp.getDepartment().equals("Engineering") && emp.getSalary() > 70000) {
-        System.out.println(emp);
+      int num = it.next();
+      if (num > 30) {
+        System.out.println(num);
       }
     }
   }
 }
+
 ```
 
 The output of the above code is:
 
 ```shell
-High-earning Engineering employees:
-Alice Johnson (Engineering) - $75000.0
-Carol Davis (Engineering) - $85000.0
+Numbers greater than 30:
+40
+55
 ```
 
 This example demonstrates using an iterator to process a collection of employee objects, filtering for engineering employees with salaries above $70,000.
 
-## Example 3: Using Java Iterators in Inventory Management System
+## Example 3: Using Java Iterators To Remove Elements During Iteration
 
-This example illustrates using iterators to manage product inventory, including removing items that meet certain conditions during iteration:
+This example shows how to use `iterator.remove()` to safely remove matching elements from a list during iteration:
 
 ```java
 import java.util.ArrayList;
 import java.util.Iterator;
 
-class Product {
-  private String name;
-  private int quantity;
-  private double price;
-
-  public Product(String name, int quantity, double price) {
-    this.name = name;
-    this.quantity = quantity;
-    this.price = price;
-  }
-
-  // Getter methods
-  public String getName() { return name; }
-  public int getQuantity() { return quantity; }
-  public double getPrice() { return price; }
-
-  @Override
-  public String toString() {
-    return name + " (Qty: " + quantity + ", Price: $" + price + ")";
-  }
-}
-
-public class InventoryManager {
+public class RemoveExample {
   public static void main(String[] args) {
-    // Create inventory list
-    ArrayList<Product> inventory = new ArrayList<>();
-    inventory.add(new Product("Laptop", 0, 899.99));
-    inventory.add(new Product("Mouse", 25, 29.99));
-    inventory.add(new Product("Keyboard", 0, 79.99));
-    inventory.add(new Product("Monitor", 8, 299.99));
+    ArrayList<String> items = new ArrayList<>();
+    items.add("Keep");
+    items.add("Remove");
+    items.add("Keep");
 
-    System.out.println("Original inventory:");
-    Iterator<Product> displayIt = inventory.iterator();
-    while (displayIt.hasNext()) {
-      System.out.println(displayIt.next());
-    }
-
-    // Remove out-of-stock items using iterator
-    Iterator<Product> it = inventory.iterator();
+    Iterator<String> it = items.iterator();
     while (it.hasNext()) {
-      Product product = it.next();
-      if (product.getQuantity() == 0) {
-        System.out.println("Removing out-of-stock item: " + product.getName());
-        it.remove(); // Safe removal during iteration
+      String item = it.next();
+      if (item.equals("Remove")) {
+        it.remove(); // Safe removal
       }
     }
 
-    System.out.println("\nInventory after removing out-of-stock items:");
-    Iterator<Product> finalIt = inventory.iterator();
-    while (finalIt.hasNext()) {
-      System.out.println(finalIt.next());
-    }
+    System.out.println("Updated list: " + items);
   }
 }
 ```
@@ -207,20 +150,8 @@ public class InventoryManager {
 The output of the above code is:
 
 ```shell
-Original inventory:
-Laptop (Qty: 0, Price: $899.99)
-Mouse (Qty: 25, Price: $29.99)
-Keyboard (Qty: 0, Price: $79.99)
-Monitor (Qty: 8, Price: $299.99)
-Removing out-of-stock item: Laptop
-Removing out-of-stock item: Keyboard
-
-Inventory after removing out-of-stock items:
-Mouse (Qty: 25, Price: $29.99)
-Monitor (Qty: 8, Price: $299.99)
+Updated list: [Keep, Keep]
 ```
-
-This example shows how to safely remove items from a collection during iteration using the iterator's `remove()` method, which is essential for inventory management scenarios.
 
 ## Frequently Asked Questions
 
