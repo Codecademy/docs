@@ -25,13 +25,13 @@ numpy.random.geometric(p, size=None)
 **Parameters:**
 
 - `p` (float or array_like): Probability of success for each trial. Must be in the range (0, 1].
-- `size` (int or tuple of ints, optional): Output shape. If None, a single value is returned.
+- `size` (int or tuple of ints, optional): Output shape. If `None`, a single value is returned.
 
-**Return Value:**
+**Return value:**
 
 Returns random samples drawn from the geometric distribution, representing the number of trials until the first success.
 
-The probability mass function of the geometric distribution is:
+The probability mass function of geometric distribution is:
 
 $$
 f(k) = (1 - p)^{k - 1} \ p
