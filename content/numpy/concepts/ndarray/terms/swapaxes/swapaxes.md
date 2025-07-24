@@ -1,0 +1,63 @@
+---
+Title: '.swapaxes()'
+Description: 'Interchanges two axes of a NumPy ndarray.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Arrays'
+  - 'Data Structures'
+  - 'Functions'
+  - 'NumPy'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/data-science'
+---
+
+The **`.swapaxes()`** method returns a view of the array with the specified axes interchanged, without copying the data.
+It is useful for reorienting multi-dimensional arrays for analysis, transformation or visualization.
+
+## Syntax
+
+```pseudo
+ndarray.swapaxes(axis1, axis2)
+```
+**Parameters:**
+- `axis1`: An `int` representing the first axis to be swapped.
+- `axis2`: An `int` representing the second axis to be swapped.
+
+**Return value:**
+
+Returns a `ndarray` that is a view of the original array with `axis1` and `axis2` interchanged.
+
+## Example
+
+The following example creates a 2D array and then swaps its axes:
+
+```py
+import numpy as np
+
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+swapped_arr = arr.swapaxes(0, 1)
+print(swapped_arr)
+```
+
+The code above generates the following output: 
+
+```shell
+[[1 4]
+ [2 5]
+ [3 6]]
+```
+
+## Codebyte Example
+
+The following codebyte example demonstrates the use of `.swapaxes()` on a 3D array.
+
+```codebyte/python
+import numpy as np
+
+arr = np.array([[10, 20, 30], [40, 50, 60]])
+swapped_arr = arr.swapaxes(0, 1)
+print(swapped_arr)
+```
