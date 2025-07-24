@@ -1,5 +1,5 @@
 ---
-Title: 'cos'
+Title: '.cos()'
 Description: 'Computes the cosine of each element in the input tensor.'
 Subjects:
   - 'Computer Science'
@@ -13,27 +13,26 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-## torch.cos()
+The **`torch.cos()`** function computes the cosine of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors), applied element-wise, and returns a tensor of the same shape. It's part of PyTorch’s math operations used in scientific computing and deep learning.
 
-The `torch.cos()` function computes the cosine of each element in the input tensor.
-It is part of PyTorch’s extensive mathematical operations, commonly used in scientific computing and deep learning.
-
-This function is applied element-wise and returns a tensor with the same shape as the input.
-
-### Syntax
+## Syntax
 
 ```py
 torch.cos(input, *, out=None) → Tensor
 ```
 
 **Parameters:**
-- `input` (Tensor): The input tensor containing elements (in radians) to compute the cosine.
-- `out` (Tensor, optional): The output tensor to store the result.
 
-**Returns:**
-A tensor with the cosine of each element of the `input`.
+- `input` (Tensor): Input tensor with elements in radians.
+- `out` (Tensor, optional): Optional tensor to store the output.
 
-### Example 1: Compute cosine of a 1D tensor
+**Return value:**
+
+A tensor with the cosine of each element in the input, having the same shape.
+
+## Example 1: Using `torch.cos()` with a 1D tensor
+
+In this example, `torch.cos()` computes the cosine of a 1D tensor containing angles in radians:
 
 ```py
 import torch
@@ -47,11 +46,15 @@ y = torch.cos(x)
 print(y)
 ```
 
+The output of this code is:
+
 ```shell
-tensor([ 1.0000,  0.0000, -1.0000])
+tensor([ 1.0000e+00, -4.3711e-08, -1.0000e+00])
 ```
 
-### Example 2: Applying `torch.cos()` on a 2D tensor
+## Example 2: Applying `torch.cos()` with a 2D tensor
+
+In this example, `torch.cos()` is applied to a 2D tensor of angles in radians:
 
 ```py
 import torch
@@ -65,9 +68,9 @@ result = torch.cos(matrix)
 print(result)
 ```
 
-```shell
-tensor([[ 1.0000,  0.5000],
-        [ 0.0000, -1.0000]])
-```
+The output of this code is:
 
-To learn more about tensor operations and mathematical functions in PyTorch, check out the [Intro to PyTorch and Neural Networks](https://www.codecademy.com/enrolled/courses/intro-to-py-torch-and-neural-networks) course on Codecademy.
+```shell
+tensor([[ 1.0000e+00,  5.0000e-01],
+        [-4.3711e-08, -1.0000e+00]])
+```
