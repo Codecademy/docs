@@ -117,8 +117,8 @@ sorted_prices = np.sort(stock_prices)
 price_range = sorted_prices[-1] - sorted_prices[0]
 
 # Calculate quartiles for market analysis
-q1 = sorted_prices[len(sorted_prices) // 4]
-q3 = sorted_prices[3 * len(sorted_prices) // 4]
+q1 = np.percentile(sorted_prices, 25)
+q3 = np.percentile(sorted_prices, 75)
 
 print("Original prices:", stock_prices)
 print("Sorted prices:", sorted_prices)
