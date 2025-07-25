@@ -141,4 +141,4 @@ The `.sort()` method only sorts in ascending order. To get descending order, use
 
 ### 3. Can I sort multidimensional arrays?
 
-Yes, use the `axis` parameter to specify which axis to sort along. For example, `np.sort(array, axis=0)` sorts along rows, while `np.sort(array, axis=1)` sorts along columns.
+Yes, use the axis parameter. `numpy.sort(array, axis=0)` sorts each column independently, while `numpy.sort(array, axis=1)` sorts each row independently.
