@@ -98,11 +98,11 @@ The output of this code is:
 
 ```shell
 Performance Distribution:
-10th percentile (bottom 10%): 71.60000000000001
+10th percentile (bottom 10%): 71.6
 25th percentile (Q1): 76.5
 Median (Q2): 85.0
 75th percentile (Q3): 90.25
-90th percentile (top 10%): 93.20000000000002
+90th percentile (top 10%): 93.2
 
 Median scores by class: [88. 82. 91. 75.]
 ```
