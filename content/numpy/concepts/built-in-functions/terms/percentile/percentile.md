@@ -29,7 +29,7 @@ numpy.percentile(a, q, axis=None, out=None, ...)
 - `axis` (optional): Axis or axes along which the percentiles are computed. Default is `None` (flattened array)
 - `out` (optional): Alternative output array in which to place the result
 
-> **Note:** The ellipses in the syntax (`...`) indicate that there are more optional parameters available, such as `overwrite_input`, `method`, `keepdims`, `weights`, and `interpolation`. These allow for more control over how the percentile is calculated and returned.
+> **Note:** The ellipses in the syntax (`...`) indicate that there are more optional parameters available, such as `overwrite_input`, `method`, `keepdims`, and `weights``. These allow for more control over how the percentile is calculated and returned.
 
 **Return value:**
 
