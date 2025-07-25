@@ -77,7 +77,7 @@ lowest_score = sorted_scores[0]
 highest_score = sorted_scores[-1]
 
 # Calculate median score (middle value)
-median_score = sorted_scores[len(sorted_scores) // 2]
+median_score = np.median(sorted_scores)
 
 print("Original scores:", test_scores)
 print("Sorted scores:", sorted_scores)
