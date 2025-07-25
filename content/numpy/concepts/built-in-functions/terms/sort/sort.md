@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`numpy.sort()`** method is a built-in NumPy function that returns a sorted copy of an array. It arranges the elements of an array in ascending order without modifying the original array, making it a fundamental tool for data organization and analysis in scientific computing and data science applications.
 
-## Syntax
+## Syntax of `numpy.sort()`
 
 ```pseudo
 numpy.sort(a, axis=-1, kind=None, order=None)
