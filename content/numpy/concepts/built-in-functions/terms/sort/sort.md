@@ -133,7 +133,7 @@ This example illustrates how sorting stock prices helps financial analysts under
 
 ### 1. Does `.sort()` modify the original array?
 
-No, `.sort()` returns a sorted copy of the array while leaving the original array unchanged. To sort in-place, use the `.sort()` method directly on the array (e.g., `arr.sort()`).
+It depends which method you use: `numpy.sort(array)` returns a sorted copy without modifying the original, while `array.sort()` sorts the array in-place.
 
 ### 2. Can I sort arrays in descending order?
 
