@@ -26,7 +26,7 @@ numpy.sort(a, axis=-1, kind=None, order=None)
 
 - `a`: The input array to be sorted
 - `axis`: The axis along which to sort. If `None`, the array is flattened before sorting. Default is `-1` (sorts along the last axis)
-- `kind`: Sorting algorithm. Options include [`'quicksort'`](<(https://www.codecademy.com/resources/docs/general/algorithm/quick-sort)>) (default), [`'mergesort'`](<(https://www.codecademy.com/resources/docs/general/algorithm/merge-sort)>), [`'heapsort'`](https://www.codecademy.com/resources/docs/general/algorithm/heap-sort), or `'stable'`
+- `kind`: Sorting algorithm. Options include [`'quicksort'`](https://www.codecademy.com/resources/docs/general/algorithm/quick-sort) (default), [`'mergesort'`](https://www.codecademy.com/resources/docs/general/algorithm/merge-sort), [`'heapsort'`](https://www.codecademy.com/resources/docs/general/algorithm/heap-sort), or `'stable'`
 - `order`: Specifies which fields to compare first when sorting structured arrays. Can be a string or list of strings
 
 **Return value:**
