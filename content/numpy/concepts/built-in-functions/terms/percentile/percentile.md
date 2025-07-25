@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`np.percentile()`** is a statistical measure that indicates the value below which a given percentage of observations in a dataset falls. NumPy's `.percentile()` function computes the q-th percentile of data along a specified axis, making it an essential tool for statistical analysis and data exploration.
+The **`np.percentile()`** is a built-in method of Numpy, a statistical measure that indicates the value below which a given percentage of observations in a dataset falls. NumPy's `.percentile()` function computes the q-th percentile of data along a specified axis, making it an essential tool for statistical analysis and data exploration.
 
 ## Syntax
 
