@@ -28,7 +28,7 @@ date.setTime(milliseconds)
 
 **Return value:**
 
-The `.setTime()` method returns the new timestamp value (in milliseconds) after setting the time. The method modifies the original Date object in place and returns the same millisecond value that was passed as the parameter.
+The `.setTime()` method returns the new timestamp value (in milliseconds) after setting the time. The method modifies the original `Date` object in place and returns the same millisecond value that was passed as the parameter.
 
 ## Example 1: Basic Usage of `.setTime()` method
 
