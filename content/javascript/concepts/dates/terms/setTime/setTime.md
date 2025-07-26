@@ -101,7 +101,7 @@ This demonstrates how `.setTime()` enables precise time calculations by working 
 
 ## Codebyte Example: Database Timestamp Processing With the Help of `.setTime()`
 
-This example illustrates a real-world scenario where `.setTime()` is used to process timestamps from a database and convert them to JavaScript Date objects:
+This example illustrates a real-world scenario where `.setTime()` is used to process timestamps from a database and convert them to JavaScript `Date` objects:
 
 ```codebyte/javascript
 // Simulated database records with Unix timestamps
