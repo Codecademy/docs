@@ -44,7 +44,7 @@ public static String valueOf(Object obj)
 
 **Return value:**
 
-The method returns a String that represents the input data. If the input is `null`, it returns the text "null".
+The method returns a string that represents the input data. If the input is `null`, it returns the text "null".
 
 ## Example 1: Basic Integer Conversion Using `.valueOf()` in Java
 
