@@ -141,7 +141,7 @@ The method accepts negative numbers, which represent dates before January 1, 197
 
 ### 2. Does `.setTime()` modify the original Date object?
 
-Yes, `.setTime()` modifies the Date object in place. If you need to preserve the original date, create a copy first using `new Date(originalDate)`.
+Yes, `.setTime()` modifies the `Date` object in place. If you need to preserve the original date, create a copy first using `new Date(originalDate)`.
 
 ### 3. What's the difference between `.setTime()` and setting individual date components?
 
