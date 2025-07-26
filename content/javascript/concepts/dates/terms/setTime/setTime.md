@@ -55,29 +55,31 @@ Returned timestamp: 1672574400000
 
 The Date object `myDate` is updated to represent January 1, 2023, at 12:00:00 UTC, and the method returns the timestamp value that was set.
 
-## Example 2: Converting Between Time Formats Using `.setTime()`
+## Example 2: Time Calculations `.setTime()`
 
-This example shows how `.setTime()` can be used to convert between different time representations and create standardized Date objects:
+This example shows how `.setTime()` can be used for time arithmetic and creating dates based on timestamp calculations:
 
 ```js
-// Create multiple Date objects for different time zones
-const utcDate = new Date();
-const localDate = new Date();
-
 // Get current time in milliseconds
 const currentTime = Date.now();
 
-// Set both dates to the same timestamp
-utcDate.setTime(currentTime);
-localDate.setTime(currentTime);
+// Create base date object
+const baseDate = new Date();
+baseDate.setTime(currentTime);
 
 // Add 24 hours (86400000 milliseconds) to create tomorrow's date
 const tomorrowTime = currentTime + 86400000;
 const tomorrowDate = new Date();
 tomorrowDate.setTime(tomorrowTime);
 
-console.log('Current time:', utcDate.toISOString());
+// Add 7 days (604800000 milliseconds) for next week
+const nextWeekTime = currentTime + 604800000;
+const nextWeekDate = new Date();
+nextWeekDate.setTime(nextWeekTime);
+
+console.log('Current time:', baseDate.toISOString());
 console.log('Tomorrow time:', tomorrowDate.toISOString());
+console.log('Next week time:', nextWeekDate.toISOString());
 console.log(
   'Time difference (hours):',
   (tomorrowTime - currentTime) / (1000 * 60 * 60)
@@ -87,12 +89,15 @@ console.log(
 This example results in the following output:
 
 ```shell
-Current time: 2025-07-07T12:01:46.940Z
-Tomorrow time: 2025-07-08T12:01:46.940Z
+Current time: 2025-07-26T11:09:18.928Z
+Tomorrow time: 2025-07-27T11:09:18.928Z
+Next week time: 2025-08-02T11:09:18.928Z
 Time difference (hours): 24
 ```
 
-This demonstrates how `.setTime()` enables precise time calculations and conversions between different time representations.
+> **Note:** Since this example uses Date.now() to get the current time, the output will vary depending on when the code is executed. The dates shown above are examples based on a specific runtime.
+
+This demonstrates how `.setTime()` enables precise time calculations by working with millisecond timestamps to create dates at specific intervals.
 
 ## Codebyte Example: Database Timestamp Processing With the Help of `.setTime()`
 
