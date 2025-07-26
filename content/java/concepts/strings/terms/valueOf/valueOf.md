@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.valueOf`()** method of the [String](https://www.codecademy.com/resources/docs/java/strings) class in Java converts various [data types](https://www.codecademy.com/resources/docs/java/data-types) like integers, floats, booleans, and objects into their string representations. This helps with string manipulation, logging, and displaying data in a readable format.
+Java's **`.valueOf`()** method of the [String](https://www.codecademy.com/resources/docs/java/strings) class converts various [data types](https://www.codecademy.com/resources/docs/java/data-types) like integers, floats, booleans, and objects into their string representations. This helps with string manipulation, logging, and displaying data in a readable format.
 
 ## Syntax
 
