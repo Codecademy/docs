@@ -73,6 +73,24 @@ Counter stopped
 
 This example creates a real-time digital clock that updates every second and displays the current time in a webpage element:
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Real-time Clock</title>
+  </head>
+  <body>
+    <h1>Digital Clock</h1>
+    <div id="clock">Loading...</div>
+    <button onclick="stopClock()">Stop Clock</button>
+
+    <script>
+      // JavaScript code goes here
+    </script>
+  </body>
+</html>
+```
+
 ```js
 // Function to update the clock display
 function updateClock() {
@@ -167,6 +185,8 @@ Last updated: 2024-01-15T10:30:03.000Z
 ---
 (continues for 10 updates, then stops)
 ```
+
+> **Note:** Since this example generates random temperature and humidity values and uses the current timestamp, the actual output will vary each time the code runs. The values shown above are sample outputs for demonstration purposes.
 
 ## Frequently Asked Questions
 
