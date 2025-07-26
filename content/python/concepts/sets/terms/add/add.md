@@ -16,7 +16,7 @@ CatalogContent:
 
 Python's **`.add()`** method for [set](https://www.codecademy.com/resources/docs/python/sets) adds a single element to the set if it is not already present, maintaining the set's unique elements property. This method modifies the set in-place and ensures that duplicate elements are automatically prevented. Sets are mutable collections that only store unique, hashable elements, making `.add()` an essential method for dynamically building sets while preserving data integrity.
 
-## Syntax of `.add()`
+## Syntax of Python `.add()`
 
 ```pseudo
 set.add(element)
