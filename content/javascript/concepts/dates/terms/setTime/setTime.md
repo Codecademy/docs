@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.setTime()`** method is a built-in JavaScript Date method that sets the time value of a `date` object using milliseconds since the Unix epoch (January 1, 1970, 00:00:00 UTC). This method allows developers to programmatically modify the date and time represented by a Date object by specifying the exact number of milliseconds from the reference point.
+The **`.setTime()`** method is a built-in JavaScript method that sets the time value of a `date` object using milliseconds since the Unix epoch (January 1, 1970, 00:00:00 UTC). This method allows developers to programmatically modify the date and time represented by a `Date` object by specifying the exact number of milliseconds from the reference point.
 
 ## Syntax
 
