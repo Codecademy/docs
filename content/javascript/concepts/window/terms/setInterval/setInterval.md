@@ -29,7 +29,7 @@ setInterval(func, delay, arg1, arg2, /* … ,*/ argN)
 
 - `func`: A function to be executed every `delay` milliseconds. The first execution happens after `delay` milliseconds.
 - `delay`: The time, in milliseconds, between each execution of the specified function. Defaults to 0 if not specified.
-- `arg1, ..., argN` (optional): Additional arguments that are passed to the function specified by `func` once the timer expires.
+- `arg1, ..., argN` (optional): Additional arguments passed to the function specified by `func` once the timer expires.
 
 **Return value:**
 
