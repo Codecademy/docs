@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-JavaScript's **`setInterval()`** is a built-in function that belongs to the Window object. It repeatedly calls a [function](https://www.codecademy.com/resources/docs/javascript/functions) or executes a code snippet at specified time intervals, creating a continuous loop of execution until it is explicitly stopped.
+JavaScript's **`setInterval()`** is a built-in function that belongs to the `Window` object. It repeatedly calls a [function](https://www.codecademy.com/resources/docs/javascript/functions) or executes a code snippet at specified time intervals, creating a continuous loop of execution until it is explicitly stopped.
 
 ## Syntax
 
