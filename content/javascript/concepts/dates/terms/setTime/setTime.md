@@ -32,7 +32,7 @@ The `.setTime()` method returns the new timestamp value (in milliseconds) after 
 
 ## Example 1: Basic Usage of `.setTime()` method
 
-This example demonstrates the fundamental usage of `.setTime()` by setting a Date object to a specific timestamp:
+This example demonstrates the fundamental usage of `.setTime()` by setting a `Date` object to a specific timestamp:
 
 ```js
 // Create a new Date object
