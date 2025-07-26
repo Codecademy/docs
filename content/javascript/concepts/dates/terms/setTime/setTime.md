@@ -95,7 +95,7 @@ Next week time: 2025-08-02T11:09:18.928Z
 Time difference (hours): 24
 ```
 
-> **Note:** Since this example uses Date.now() to get the current time, the output will vary depending on when the code is executed. The dates shown above are examples based on a specific runtime.
+> **Note:** Since this example uses `Date.now()` to get the current time, the output will vary depending on when the code is executed. The dates shown above are examples based on a specific runtime.
 
 This demonstrates how `.setTime()` enables precise time calculations by working with millisecond timestamps to create dates at specific intervals.
 
