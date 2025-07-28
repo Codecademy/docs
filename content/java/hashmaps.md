@@ -1,8 +1,8 @@
-\# HashMaps in Java
+# HashMaps in Java
 
 
 
-\## Definition
+## Definition
 
 
 
@@ -10,7 +10,7 @@ A HashMap is a data structure in Java that stores key-value pairs...
 
 
 
-\## Syntax
+## Syntax
 
 
 
@@ -18,5 +18,9 @@ A HashMap is a data structure in Java that stores key-value pairs...
 
 Map<KeyType, ValueType> map = new HashMap<>();
 
+
+(That’s **three backticks** before and after, not slashes or quotes.)
+
+---
 
 
