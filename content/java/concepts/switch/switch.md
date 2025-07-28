@@ -142,22 +142,14 @@ Weekday
 
 ## Frequently Asked Questions
 
-### 1. Can Java `switch` statements be used with strings?
+### 1. Is String allowed in switch case in Java?
 
 Yes, Java `switch` statements support `String` as a valid type.
 
-### 2. What happens if `break` is not used?
+### 2. What is the purpose of `break` in `switch`?
 
-Without break, the execution falls through to the next case, which may lead to unexpected behavior.
+In Java, the `break` statement is used in a `switch` to exit the switch block once a matching case has been executed. Without `break`, Java will continue to execute the following cases even if they don't match.
 
-### 3. Can a Java `switch` case expression return a value?
+### 3. Can we use `return` in a `switch` case in Java?
 
-Yes, the enhanced Java `switch` case allows returning a value directly using the `->` syntax.
-
-### 4. Can we use Booleans in Java `switch` statements?
-
-No, Booleans are not supported in Java `switch` statements. Use `if-else` instead.
-
-### 5. Is the `default` case mandatory?
-
-No, but it's a good practice to include it to handle unexpected values.
+Yes, you can absolutely use `return` inside a `switch` case in Java. In fact, using `return` will immediately exit the method in which the `switch` resides so you don't need a `break` after it.
