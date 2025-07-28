@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'C Operators are used to perform various mathematical operations on variables and values.'
+Description: 'C operators perform mathematical, logical, and bit-level operations on variables and values.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-C **operators** are used to perform operations on variables and values. They are symbols that tell the compiler to perform specific mathematical or logical operations.
+C **operators** perform mathematical, logical, and bit-level operations on variables and values. They are symbols that tell the compiler to perform specific mathematical or logical operations.
 
 The different types of operators in C include:
 
