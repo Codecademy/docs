@@ -70,7 +70,7 @@ Here is the output:
 Sorted by length: [pear, kiwi, apple, banana]
 ```
 
-## Example 2: Sort Custom Objects Using Java `Comparator`
+## Example 2: Using Java `Comparator` to Sort Custom Objects
 
 In this example, the Java `Comparator` class named `SalaryComparator` is a reusable class for comparing employees based on their salary and `Collections.sort()` applies the comparator to arrange employees in ascending order:
 
@@ -161,6 +161,6 @@ Reverse sorted: [8, 5, 3, 2, 1]
 
 Yes. You can create multiple `Comparator` classes in Java to sort objects differently—for example, by name, salary, or ID.
 
-### 3. Is Java `Comparator` a functional interface?
+### 3. Is `Comparator` a functional interface in Java?
 
 Yes. You can utilize lambda expressions to implement comparators in Java concisely.
