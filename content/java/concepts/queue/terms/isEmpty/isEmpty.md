@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.isEmpty()`** method is a built-in method of the [ Queue ](https://www.codecademy.com/resources/docs/java/queue) interface in Java that returns `true` if the queue contains no elements, and `false` otherwise. This method is inherited from the `Collection` interface and provides a convenient way to check if a queue is empty before performing operations that require elements. The method has O(1) time complexity in most implementations, making it an efficient way to validate queue state.
+The **`.isEmpty()`** method is a built-in method of the [Queue](https://www.codecademy.com/resources/docs/java/queue) interface in Java that returns `true` if the queue contains no elements, and `false` otherwise. This method is inherited from the `Collection` interface and provides a convenient way to check if a queue is empty before performing operations that require elements. The method has O(1) time complexity in most implementations, making it an efficient way to validate queue state.
 
 ## Syntax
 
@@ -29,6 +29,7 @@ queue.isEmpty()
 **Return value:**
 
 The `.isEmpty()` method returns a `boolean` value:
+
 - `true` if the queue contains no elements
 - `false` if the queue contains one or more elements
 
@@ -52,26 +53,26 @@ import java.util.Queue;
 public class Main {
   public static void main(String[] args) {
     Queue<String> queue = new LinkedList<String>();
-    
+
     // Check if queue is empty initially
     System.out.println("Is queue empty? " + queue.isEmpty());
     System.out.println("Queue contents: " + queue);
-    
+
     // Add elements to the queue
     queue.offer("First");
     queue.offer("Second");
     queue.offer("Third");
-    
+
     // Check if queue is empty after adding elements
     System.out.println("Is queue empty after adding elements? " + queue.isEmpty());
     System.out.println("Queue contents: " + queue);
     System.out.println("Queue size: " + queue.size());
-    
+
     // Remove all elements
     queue.poll();
     queue.poll();
     queue.poll();
-    
+
     // Check if queue is empty after removing all elements
     System.out.println("Is queue empty after removing all elements? " + queue.isEmpty());
     System.out.println("Queue contents: " + queue);
@@ -102,17 +103,17 @@ import java.util.Queue;
 public class Main {
   public static void main(String[] args) {
     Queue<Integer> numbers = new LinkedList<Integer>();
-    
+
     // Add some numbers to the queue
     numbers.offer(10);
     numbers.offer(20);
     numbers.offer(30);
     numbers.offer(40);
     numbers.offer(50);
-    
+
     System.out.println("Initial queue: " + numbers);
     System.out.println("Processing all elements in the queue:");
-    
+
     int elementCount = 0;
     // Process all elements until queue is empty
     while (!numbers.isEmpty()) {
@@ -121,7 +122,7 @@ public class Main {
       System.out.println("Processing element #" + elementCount + ": " + number);
       System.out.println("Remaining elements: " + numbers.size());
     }
-    
+
     System.out.println("Queue is now empty: " + numbers.isEmpty());
     System.out.println("Total elements processed: " + elementCount);
   }
@@ -147,8 +148,6 @@ Queue is now empty: true
 Total elements processed: 5
 ```
 
-
-
 ## Codebyte Example
 
 Here's a runnable example showing advanced usage of `.isEmpty()` with error handling:
@@ -160,31 +159,31 @@ import java.util.Queue;
 public class Main {
   public static void main(String[] args) {
     Queue<String> taskQueue = new LinkedList<String>();
-    
+
     // Method to safely add tasks
     addTask(taskQueue, "Initialize system");
     addTask(taskQueue, "Load configuration");
     addTask(taskQueue, "Start services");
-    
+
     // Process all tasks
     processAllTasks(taskQueue);
-    
+
     // Try to process empty queue
     processAllTasks(taskQueue);
   }
-  
+
   public static void addTask(Queue<String> queue, String task) {
     queue.offer(task);
     System.out.println("Added task: " + task);
     System.out.println("Queue empty: " + queue.isEmpty() + ", Size: " + queue.size());
   }
-  
+
   public static void processAllTasks(Queue<String> queue) {
     if (queue.isEmpty()) {
       System.out.println("No tasks to process");
       return;
     }
-    
+
     System.out.println("\nProcessing tasks:");
     int taskNumber = 1;
     while (!queue.isEmpty()) {
@@ -215,6 +214,7 @@ public class Main {
 ### 1. What's the difference between `.isEmpty()` and checking `.size() == 0`?
 
 Both `.isEmpty()` and `.size() == 0` will give the same result, but `.isEmpty()` is generally preferred because:
+
 - It's more readable and expresses intent clearly
 - Some implementations might optimize `.isEmpty()` to be faster than calculating the size
 - It follows Java naming conventions for boolean methods
@@ -222,6 +222,7 @@ Both `.isEmpty()` and `.size() == 0` will give the same result, but `.isEmpty()`
 ### 2. Can `.isEmpty()` be used with all Queue implementations?
 
 Yes, `.isEmpty()` is available for all classes that implement the `Queue` interface, including:
+
 - `LinkedList`
 - `ArrayDeque`
 - `PriorityQueue`
@@ -246,4 +247,3 @@ if (queue != null && !queue.isEmpty()) {
 ### 4. Does `.isEmpty()` modify the queue?
 
 No, `.isEmpty()` is a read-only operation that doesn't modify the queue's contents or structure. It only returns information about the current state.
-
