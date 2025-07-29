@@ -15,7 +15,7 @@ CatalogContent:
 
 The C# **`.Substring()`** method is a built-in [string](https://www.codecademy.com/resources/docs/c-sharp/strings) method that extracts a portion of a string starting from a specified index position. It returns a new string containing the characters from the starting position to either the end of the string or for a specified length, without modifying the original string.
 
-## Syntax
+## Syntax of C# `.Substring()`
 
 ```pseudo
 public string Substring(int startIndex, int length)
