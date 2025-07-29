@@ -39,7 +39,7 @@ The method throws `ArgumentOutOfRangeException` if:
 - `length` is less than zero
 - `startIndex` plus `length` indicates a position not within the current string
 
-## Example 1: Basic Usage of `.Substring()` in C#
+## Example 1: Basic Usage of `.Substring()`
 
 This example demonstrates how to use the `.Substring()` method with a single parameter to extract characters from a specific position to the end of the string:
 
