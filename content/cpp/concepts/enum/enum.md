@@ -252,4 +252,4 @@ No, enum values in C++ are always integers. However, you can create arrays or ma
 
 ### 4. What's the difference between enum and enum class?
 
-`enum class` (scoped enums) introduced in C++11 provides better type safety, doesn't pollute the namespace, and prevents implicit conversions. Regular enums allow implicit conversion to integers and their constants are accessible without scope resolution.
+`enum` class (scoped enums) introduced in C++11 provides better type safety, doesn't pollute the namespace, and prevents implicit conversions. Regular enums allow implicit conversion to integers and their constants are accessible without scope resolution.
