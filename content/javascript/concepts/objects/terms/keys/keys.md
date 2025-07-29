@@ -18,7 +18,7 @@ The **`Object.keys()`** JavaScript method returns an [array](https://www.codecad
 
 > **Note:** The order of the keys in the resulting array is not guaranteed to be the same as the order in which they were defined in the object.
 
-## Syntax
+## Syntax of JavaScript `Object.keys()`**
 
 ```pseudo
 Object.keys(obj)
