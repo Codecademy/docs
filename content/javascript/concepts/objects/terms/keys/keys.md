@@ -132,6 +132,7 @@ console.log("Enabled settings:", enabledSettings);
 ### 1. What is the difference between map keys and object keys?
 
 In JavaScript:
+
 - Object keys are always strings (or symbols). Even if you use a number or an object as a key, it gets converted to a string.
 - Map keys can be of any type, such as string, number, object, or even functions. They're not converted to strings. This makes `Map` more flexible for key-value pairs where key type matters.
 
