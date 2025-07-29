@@ -105,7 +105,7 @@ Username: user
 Domain: example.com
 ```
 
-This example demonstrates extracting the username from an email address and getting a portion of the domain.
+The above example demonstrates extracting the username from an email address and getting a portion of the domain.
 
 ## Codebyte Example: Using C# `.Substring()` for File Path Processing
 
