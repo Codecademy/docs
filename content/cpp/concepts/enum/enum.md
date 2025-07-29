@@ -71,7 +71,7 @@ The output of this code is:
 Today is day number: 2
 ```
 
-In this example, we define an enum called `Day` with seven constants representing days of the week. By default, `MONDAY` gets the value 0, `TUESDAY` gets 1, and so on. We then create a variable `today` of type `Day` and assign it the value `WEDNESDAY`, which has the integer value 2.
+In this example, an enum called `Day` is defined with seven constants representing days of the week. By default, `MONDAY` receives the value 0, `TUESDAY` gets 1, and so on. A variable `today` of type `Day` is created and assigned the value `WEDNESDAY`, which holds the integer value 2.
 
 ## Example 2: Changing Values in Enum
 
