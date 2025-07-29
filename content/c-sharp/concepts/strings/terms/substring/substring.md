@@ -101,7 +101,7 @@ The output of this code will be:
 ```shell
 Email: user@example.com
 Username: user
-Domain: example
+Domain: example.com
 ```
 
 This example demonstrates extracting the username from an email address and getting a portion of the domain.
