@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An **`enum`** in C++ is a user-defined [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that defines a set of named integer constants. It provides a way to create symbolic names for a group of related values, making code more readable and maintainable. Enums are particularly useful when you need to represent a fixed set of options or states in your program.
+An **`enum`** in C++ is a user-defined [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that defines a set of named integer constants. It provides a way to create symbolic names for a group of related values, making code more readable and maintainable. Enums are particularly useful when representing a fixed set of options or states in the program.
 
 ## Syntax
 
