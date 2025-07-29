@@ -148,6 +148,7 @@ Not exactly. When you use a number as a key, JavaScript automatically converts i
 ### 4. Are object keys ordered?
 
 Yes, in a specific way:
+
 - Integer-like keys come first (sorted numerically).
 - Then, string keys appear in insertion order.
 - Symbol keys come last, also in insertion order.
