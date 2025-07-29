@@ -37,7 +37,7 @@ Enums do not return values directly. They define a new data type that can be use
 
 ## Example 1: Basic Enum Creation in C++
 
-This example demonstrates how to create a simple enum and use it in a program:
+This example demonstrates how to create a simple `enum` and use it in a program:
 
 ```cpp
 #include <iostream>
