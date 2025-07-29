@@ -115,7 +115,7 @@ Alert level: 15
 Alert level is higher than task priority
 ```
 
-This example demonstrates how to assign specific integer values to enum constants. When you set a value for one constant, subsequent constants automatically increment from that value unless explicitly assigned. Here, `LOW` is 1, `MEDIUM` is 5, `HIGH` is 10, and `URGENT` is 15.
+This example demonstrates how to assign specific integer values to enum constants. When a value is set for one constant, subsequent constants automatically increment from that value unless explicitly assigned. In this case, `LOW` is 1, `MEDIUM` is 5, `HIGH` is 10, and `URGENT` is 15.
 
 ## Example 3: Enum in a Switch Statement
 
