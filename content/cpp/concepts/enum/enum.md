@@ -185,7 +185,7 @@ This example shows how enums work perfectly with switch statements, providing cl
 
 ## Codebyte Example: Create Enum Class
 
-This example demonstrates scoped enums (`enum` class) introduced in C++11, which provide better type safety and scope control:
+This example demonstrates scoped enums (`enum` class) introduced in C++ 11, which provide better type safety and scope control:
 
 ```codebyte/cpp
 #include <iostream>
