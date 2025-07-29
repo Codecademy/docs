@@ -56,7 +56,7 @@ This example results in the following output:
 ["firstName", "lastName", "age", "city"]
 ```
 
-The method returns an array containing all enumerable property names from the object. The order of keys in the returned array matches the order in which they were defined in the object.
+The method returns an array containing all enumerable property names from the object. In this case, since all keys are strings, they appear in the order they were defined. However, if the object contained numeric keys, those would be ordered numerically first, regardless of definition order.
 
 ## Example 2: Using `Object.keys()` to iterate Over Object Properties
 
