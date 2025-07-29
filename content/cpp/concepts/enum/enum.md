@@ -234,7 +234,7 @@ int main() {
 }
 ```
 
-**Enum class** provides several advantages over regular enums: they are strongly typed (no implicit conversion to integers), they don't pollute the surrounding namespace, and they prevent naming conflicts. You must use the scope resolution operator (`::`) to access enum class values.
+The text provides information about the strengths of the **Enum class** compared to regular enums. Key advantages include strong typing, which avoids implicit conversion to integers, reduced namespace pollution, and prevention of naming conflicts. Accessing enum class values requires the use of the scope resolution operator (`::`).
 
 ## Frequently Asked Questions
 
