@@ -78,7 +78,7 @@ using System;
 
 public class Program
 {
-  public static void Main()
+ public static void Main()
   {
     string email = "user@example.com";
 
@@ -86,8 +86,8 @@ public class Program
     int atIndex = email.IndexOf('@');
     string username = email.Substring(0, atIndex);
 
-    // Extract domain extension
-    string domain = email.Substring(atIndex + 1, 7);
+    // Extract domain (characters after @)
+    string domain = email.Substring(atIndex + 1);
 
     Console.WriteLine($"Email: {email}");
     Console.WriteLine($"Username: {username}");
