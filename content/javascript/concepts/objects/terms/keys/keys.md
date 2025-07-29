@@ -138,7 +138,7 @@ In JavaScript:
 ### 2. What is `Object.entries` and `Object.keys`?
 
 - `Object.keys(obj)` returns an array of the keys (property names) in the object.
-- `Object.entries(obj)` returns an array of [key, value] pairs from the object.
+- `Object.entries(obj)` returns an array of key-value pairs from the object.
 
 ### 3. Can an object key be a number?
 
