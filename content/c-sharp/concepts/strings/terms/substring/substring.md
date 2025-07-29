@@ -18,6 +18,7 @@ The C# **`.Substring()`** method is a built-in [string](https://www.codecademy.c
 ## Syntax of C# `.Substring()`
 
 ```pseudo
+public string Substring(int startIndex)
 public string Substring(int startIndex, int length)
 ```
 
