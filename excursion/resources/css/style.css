@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.highlight {
+    color: gray;
+    font-size: 21px;
+    font-family: Verdana, Arial, sans-serif;
+
+}
+
+a {
+    color: aquamarine;
+    font-size: 18px;
+}
+
+footer {
+    text-align: right;
+    color: gray;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+}
