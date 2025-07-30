@@ -26,7 +26,7 @@ There are different ways to create a PHP array. Let's check them out one-by-one.
 
 ### Indexed Arrays
 
-The PHP `array()` function can be used to create an indexed array:
+The PHP `array()` construct can be used to create an indexed array:
 
 ```php
 $colors = array("Red", "Green", "Blue");
