@@ -74,6 +74,8 @@ let emptyArray: [String] = []
 
 if emptyArray.count == 0 {
   print("The array is empty.")
+} else {
+  print("The array is not empty.")
 }
 ```
 
