@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **matplotlib's `.boxplot()`** method is a powerful data visualization function in matplotlib's pyplot module that creates box-and-whisker plots to display the statistical summary of a dataset. This method displays the distribution of data through quartiles, showing the median, first quartile (Q1), third quartile (Q3), and potential outliers in a compact visual format.
+The **matplotlib's `.boxplot()`** method is a powerful data visualization function in matplotlib's [`pyplot`](https://www.codecademy.com/resources/docs/matplotlib/pyplot) module that creates box-and-whisker plots to display the statistical summary of a dataset. This method displays the distribution of data through quartiles, showing the median, first quartile (Q1), third quartile (Q3), and potential outliers in a compact visual format.
 
 ## Syntax
 
