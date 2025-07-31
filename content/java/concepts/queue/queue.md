@@ -215,7 +215,7 @@ This example illustrates how queues enable level-by-level tree traversal, ensuri
 
 ### 1. What is the difference between `add()` and `offer()` methods?
 
-Both insert elements, but `add()` throws an exception if insertion fails while `offer()` returns false.
+Both insert elements, but `add()` throws an exception if insertion fails, while `offer()` returns false.
 
 ### 2. When should I use `remove()` versus `poll()`?
 
@@ -223,4 +223,4 @@ Use `remove()` when you want an exception for empty queues, and `poll()` when yo
 
 ### 3. What are the main Queue implementations?
 
-LinkedList (general-purpose), ArrayDeque (resizable array), and PriorityQueue (priority-based ordering).
+`LinkedList` (general-purpose), `ArrayDeque` (resizable array), and `PriorityQueue` (priority-based ordering).
