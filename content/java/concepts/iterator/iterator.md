@@ -155,7 +155,7 @@ Updated list: [Keep, Keep]
 
 ## Frequently Asked Questions
 
-### 1. What is the difference between for loop and iterator?
+### 1. What is the difference between `for` loop and iterator?
 
 A traditional for loop uses index access and is limited to indexed collections. An iterator works with all collection types and provides safe element removal during traversal, while modifying collections during for loops can cause issues.
 
