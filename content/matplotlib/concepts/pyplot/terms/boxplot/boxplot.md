@@ -25,8 +25,8 @@ matplotlib.pyplot.boxplot(x, notch=None, sym=None, vert=None, ...)
 
 **Parameters:**
 
-- `x`: The input data (array-like or sequence of arrays). Can be a 1D array for single boxplot or sequence of arrays for multiple boxplots.
-- `notch`: Boolean, optional. If True, creates a notched boxplot to indicate confidence intervals around the median.
+- `x`: The input data (array-like or sequence of arrays). Can be a 1D array for a single boxplot or a sequence of arrays for multiple boxplots.
+- `notch`: Boolean, optional. If True, a notched boxplot is created to indicate confidence intervals around the median.
 - `sym`: String, optional. Default symbol for outlier points. An empty string hides the outliers.
 - `vert`: Boolean, optional. If True (default), plots boxes vertically. If False, plots horizontally.
 
