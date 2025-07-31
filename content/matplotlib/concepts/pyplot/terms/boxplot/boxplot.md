@@ -166,6 +166,6 @@ A box plot displays data distribution through five statistics: minimum, Q1, medi
 
 Seaborn's boxplot offers better default styling and easier categorical data handling, while Matplotlib's boxplot provides more low-level control and customization options.
 
-### 3. How to plot a boxplot in a Python DataFrame?
+### 3. How to plot a boxplot in a Python `DataFrame`?
 
 Pass DataFrame columns to `plt.boxplot([df['col1'], df['col2']])` or use pandas' built-in `df.boxplot()` method.
