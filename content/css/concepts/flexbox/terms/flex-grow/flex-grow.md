@@ -79,7 +79,7 @@ The output of this code is:
 
 ![Three flex items in a horizontal container where the middle item (Item 2) is twice as wide as the other two items due to flex-grow: 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/flex-grow1.png)
 
-In this example, Item 2 will grow twice as much as Item 1 and Item 3 because it has a **flex-grow** value of 2, while the others have a value of 1. The available space is distributed proportionally based on these values.
+In this example, Item 2 gets twice as much of the available extra space because it has a **flex-grow** value of 2, while the others have a value of 1. The available space is distributed proportionally based on these values.
 
 ## Example 2: Creating a Responsive Navigation Bar Using `flex-grow`
 
