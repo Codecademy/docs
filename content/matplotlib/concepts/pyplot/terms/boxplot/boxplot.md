@@ -1,6 +1,6 @@
 ---
 Title: '.boxplot()'
-Description: 'Creates box-and-whisker plots to display statistical summary of datasets.'
+Description: 'Creates box-and-whisker plots to display statistical summaries of datasets.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
