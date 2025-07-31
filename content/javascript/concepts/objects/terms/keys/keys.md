@@ -1,6 +1,6 @@
 ---
 Title: '.keys()'
-Description: "Returns an array of a given object’s own enumerable string-keyed property names."
+Description: 'Returns an array of a given object’s own enumerable string-keyed property names.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
