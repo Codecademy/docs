@@ -199,7 +199,7 @@ This example combines three different shadow layers with varying blur radii and 
 
 ### 1. What's the difference between `drop-shadow()` and `box-shadow`?
 
-The `drop-shadow()` function creates a shadow that follows the actual shape of the element, including transparent areas, while `box-shadow` creates a shadow around the element's rectangular bounding box.
+The `drop-shadow()` function creates a shadow that follows the element's actual shape, including transparent areas, while `box-shadow` creates a shadow around the element's rectangular bounding box.
 
 ### 2. Can I use negative values for the offset parameters?
 
