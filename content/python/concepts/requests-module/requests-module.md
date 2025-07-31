@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`requests`** module in Python is an HTTP library that makes sending HTTP requests straightforward and human-friendly. It abstracts the complexities of making [HTTP](https://www.codecademy.com/resources/docs/general/http) requests behind a simple [API](https://www.codecademy.com/resources/docs/general/api), allowing developers to send HTTP/1.1 requests without manually adding query strings to URLs or form-encoding POST data.
+The **`requests`** module in Python is an HTTP library that makes sending [HTTP](https://www.codecademy.com/resources/docs/general/http) requests straightforward and human-friendly. It abstracts the complexities of making HTTP requests behind a simple [API](https://www.codecademy.com/resources/docs/general/api), allowing developers to send HTTP/1.1 requests without manually adding query strings to URLs or form-encoding POST data.
 
 ## Installing `requests`
 
