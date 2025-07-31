@@ -211,7 +211,7 @@ No, `drop-shadow()` does not support inset shadows. Use `box-shadow` with the `i
 
 ### 4. What happens if I don't specify a color for the shadow?
 
-If no color is specified, the shadow will use the current text color of the element as defined by the `color` property.
+If no color is specified, the shadow will default to black, regardless of the element's text color."
 
 ### 5. Can I animate the `drop-shadow()` effect?
 
