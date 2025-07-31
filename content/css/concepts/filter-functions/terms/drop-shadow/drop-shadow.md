@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-CSs **`drop-shadow()`** is a filter function that creates a drop shadow effect behind an element. Unlike the `box-shadow` property that creates a shadow around an element's entire box, the `drop-shadow()` function creates a shadow that follows the actual shape of the element, including transparent areas and complex shapes like images with cut-out backgrounds.
+CSS **`drop-shadow()`** is a filter function that creates a drop shadow effect behind an element. Unlike the `box-shadow` property that creates a shadow around an element's entire box, the `drop-shadow()` function creates a shadow that follows the actual shape of the element, including transparent areas and complex shapes like images with cut-out backgrounds.
 
 ## Syntax
 
