@@ -21,7 +21,7 @@ The **matplotlib's `.boxplot()`** method is a powerful data visualization functi
 matplotlib.pyplot.boxplot(x, notch=None, sym=None, vert=None, ...)
 ```
 
-> **Note:** TThe ellipses (`...`) indicate that there are many additional optional parameters available—such as `widths`, `patch_artist`, `showmeans`, `boxprops`, and others. These parameters provide detailed control over the style, layout, and display of the boxplot.
+> **Note:** The ellipses (`...`) indicate that there are many additional optional parameters available, such as `widths`, `patch_artist`, `showmeans`, `boxprops`, and others. These parameters provide detailed control over the style, layout, and display of the boxplot.
 
 **Parameters:**
 
