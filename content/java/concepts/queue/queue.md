@@ -17,7 +17,7 @@ A **`Queue`** in Java is a linear [data structure](https://www.codecademy.com/re
 
 ## Syntax
 
-Since `Queue` is an interface in Java, it cannot be instantiated directly. Instead, use implementing classes to create queue objects:
+Since `Queue` is an [interface](https://www.codecademy.com/resources/docs/java/interfaces) in Java, it cannot be instantiated directly. Instead, use implementing classes to create queue objects:
 
 ### Creating Queue Objects
 
