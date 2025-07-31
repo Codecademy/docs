@@ -32,7 +32,7 @@ matplotlib.pyplot.boxplot(x, notch=None, sym=None, vert=None, ...)
 
 **Return value:**
 
-The method returns a dictionary containing the matplotlib artists used in the boxplot. The dictionary includes keys for 'boxes', 'medians', 'whiskers', 'caps', 'fliers', and 'means'.
+The method returns a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) containing the matplotlib artists used in the boxplot. The dictionary includes keys for 'boxes', 'medians', 'whiskers', 'caps', 'fliers', and 'means'.
 
 ## Example 1: Creating a Basic Boxplot using `matplotlib.pyplot.boxplot()`
 
