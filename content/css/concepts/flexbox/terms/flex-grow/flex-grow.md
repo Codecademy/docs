@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`flex-grow`** property is a CSS [flexbox](https://www.codecademy.com/resources/docs/css/flexbox) property that defines how much a flex item should grow relative to the remaining flex items inside the same flex container. It specifies the grow factor of a flex item, which determines how much of the available space in the flex container should be assigned to that item.
 
-## Syntax
+## Syntax of CSS `flex-grow`
 
 ```pseudo
 flex-grow: <number>
