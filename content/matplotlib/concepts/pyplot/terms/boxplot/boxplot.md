@@ -60,7 +60,7 @@ The output of this code is:
 
 ![A simple matplotlib boxplot showing the distribution of normally distributed data with a median line, quartile box, whiskers, and outlier points](https://raw.githubusercontent.com/Codecademy/docs/main/media/boxplot1.png)
 
-The code generates a dataset with 200 values following a normal distribution with mean 100 and standard deviation 15. The resulting boxplot displays the median as a horizontal line, the box representing the interquartile range (IQR), whiskers extending to the most extreme non-outlier data points, and any outliers as individual points.
+The code generates a dataset with 200 values following a normal distribution with a mean of 100 and a standard deviation of 15. The resulting boxplot displays the median as a horizontal line, the box representing the interquartile range (IQR), whiskers extending to the most extreme non-outlier data points, and any outliers as individual points.
 
 ## Example 2: Multiple Dataset Comparison using the `matplotlib.pyplot.boxplot()` method
 
