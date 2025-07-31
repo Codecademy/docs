@@ -17,7 +17,7 @@ CatalogContent:
 
 The iterator can be used with collections such as [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list), `LinkedList`, [`HashSet`](https://www.codecademy.com/resources/docs/java/hashset), and other classes that implement the [`Collection`](https://www.codecademy.com/resources/docs/java/collection) interface. It is part of the Java Collections Framework and is found in the `java.util` package.
 
-## Syntax
+## Syntax of Java iterator
 
 To create an iterator, use the following syntax:
 
