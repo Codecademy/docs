@@ -110,7 +110,7 @@ User created successfully!
 Response: {'name': 'John Doe', 'email': 'john.doe@example.com', 'age': 30, 'id': 11}
 ```
 
-This example creates a new user by sending a POST request with JSON data. The `json` parameter automatically serializes the Python dictionary to JSON and sets the appropriate Content-Type header.
+This example shows how to send structured data to an API using POST with automatic JSON serialization.
 
 ## Example 3: Handling API Authentication With the `requests` Module
 
