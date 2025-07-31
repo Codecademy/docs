@@ -257,7 +257,7 @@ To increase the size of a flex item, you can increase its `flex-grow` value. Hig
 
 ### 4. Can Flex grow larger than parent?
 
-No, `flex-grow` cannot make a flex item larger than its parent container. It only distributes available space within the container. If you need items to overflow their container, you would need to use different CSS properties like `width`, `height`, or `transform`.
+`flex-grow` distributes available space within the container, but flex items can become larger than their container's content area due to their content, `flex-basis`, or minimum size constraints. However, `flex-grow` itself only works with available extra space.
 
 ### 5. What is CSS flexbox used for?
 
