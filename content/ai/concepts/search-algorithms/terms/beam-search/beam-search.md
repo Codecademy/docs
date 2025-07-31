@@ -62,29 +62,39 @@ Trace the path from **S** to **G**:
 ## Pseudocode for Beam Search Algorithm
 
 ```plaintext
-function BEAM_Search(start_node, goal_node, beam_width):
-  open_list ← [start_node]
-  closed_list ← []
-
-  while open_list is not empty:
-    if goal_node in open_list:
-      return reconstruct_path(goal_node)
-
-    candidates ← []
-
-    for node in open_list:
-      closed_list.append(node)
-      neighbors ← get_neighbors(node)
-
-      for neighbor in neighbors:
-        if neighbor not in closed_list:
-          evaluate(neighbor)
-          candidates.append(neighbor)
-
-    sorted_candidates ← sort(candidates)
-    open_list ← sorted_candidates[0 : beam_width]
-
-  return failure
+function BEAM_SEARCH(start_node, goal_test, beam_width, max_depth):
+    current_level ← [start_node]
+    depth ← 0
+    
+    while current_level is not empty AND depth < max_depth:
+        all_successors ← []
+        
+        // Generate all successors from current level
+        for each node in current_level:
+            if goal_test(node):
+                return SUCCESS (node)
+            
+            successors ← get_successors(node)
+            for each successor in successors:
+                successor.score ← evaluation_function(successor)
+                all_successors.append(successor)
+        
+        if all_successors is empty:
+            return FAILURE
+        
+        // Sort all successors by their scores (best first)
+        sorted_successors ← sort(all_successors, by=score, descending=True)
+        
+        // Keep only top beam_width candidates for next level
+        current_level ← sorted_successors[0 : beam_width]
+        depth ← depth + 1
+    
+    // Check final level for goal
+    for each node in current_level:
+        if goal_test(node):
+            return SUCCESS (node)
+    
+    return FAILURE
 ```
 
 ## Advantages and Disadvantages of Beam Search
