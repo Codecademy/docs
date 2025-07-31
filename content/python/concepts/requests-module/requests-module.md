@@ -33,7 +33,7 @@ requests.get(url, params={key: value}, **kwargs)
 **Parameters:**
 
 - `url`: The URL to send the request to
-- `params` (Optional): Dictionary containing query parameters to append to the URL
+- `params` (Optional): [Dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) containing query parameters to append to the URL
 - `**kwargs` (Optional): Additional optional arguments such as headers, cookies, authentication, timeout, and other request configuration options
 
 **Return value:**
