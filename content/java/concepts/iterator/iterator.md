@@ -117,7 +117,7 @@ Numbers greater than 30:
 55
 ```
 
-This example demonstrates using an iterator to process a collection of employee objects, filtering for engineering employees with salaries above $70,000.
+This example demonstrates using an iterator to filter numbers from a list, displaying only those greater than 30.
 
 ## Example 3: Using Java Iterators To Remove Elements During Iteration
 
