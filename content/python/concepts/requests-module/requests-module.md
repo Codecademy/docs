@@ -66,6 +66,13 @@ print(f"Status Code: {response.status_code}")
 print(f"Content: {response.json()}")
 ```
 
+The output of the above code will be:
+
+```shell
+Status Code: 200
+Content: {'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
+```
+
 The above code sends a GET request to a JSON placeholder API and prints the HTTP status code and the JSON response content. The `requests.get()` method returns a Response object containing all the response information.
 
 ## Example 2: Using `requests` Module in Python to POST Request with Data
@@ -85,8 +92,7 @@ user_data = {
 # Make a POST request with JSON data
 response = requests.post(
   'https://jsonplaceholder.typicode.com/users',
-  json=user_data,
-  headers={'Content-Type': 'application/json'}
+  json=user_data
 )
 
 # Check if the request was successful
@@ -95,6 +101,13 @@ if response.status_code == 201:
   print(f"Response: {response.json()}")
 else:
   print(f"Error: {response.status_code}")
+```
+
+The output of the above example will be:
+
+```shell
+User created successfully!
+Response: {'name': 'John Doe', 'email': 'john.doe@example.com', 'age': 30, 'id': 11}
 ```
 
 This example creates a new user by sending a POST request with JSON data. The `json` parameter automatically serializes the Python dictionary to JSON and sets the appropriate Content-Type header.
@@ -133,6 +146,13 @@ if response.status_code == 200:
 if response_basic.status_code == 200:
   print("Basic authentication successful")
   print(f"Response: {response_basic.json()}")
+```
+
+The output of the above code will be:
+
+```shell
+Basic authentication successful
+Response: {'authenticated': True, 'user': 'user'}
 ```
 
 This example shows two common authentication methods: API key authentication using headers and HTTP Basic authentication using the `auth` parameter. Both approaches are commonly used when working with protected APIs.
