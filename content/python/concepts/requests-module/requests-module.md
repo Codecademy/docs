@@ -73,11 +73,11 @@ Status Code: 200
 Content: {'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
 ```
 
-The above code sends a GET request to a JSON placeholder API and prints the HTTP status code and the JSON response content. The `requests.get()` method returns a Response object containing all the response information.
+The above code sends a GET request to a JSON placeholder API and prints the HTTP status code and the JSON response content. The `requests.get()` method returns a `Response` object containing all the response information.
 
 ## Example 2: Using `requests` Module in Python to POST Request with Data
 
-This example shows how to send data to a server using a POST request with JSON payload:
+This example shows how to send data to a server using a POST request with a JSON payload:
 
 ```py
 import requests
