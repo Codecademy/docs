@@ -73,13 +73,13 @@ body {
 
 The output of this code is:
 
-![Text element with a gray drop shadow offset 5 pixels right and down with 10-pixel blur radius](https://raw.githubusercontent.com/Codecademy/docs/main/media/drop-shadow1.png)
+![Text element with a grey drop shadow offset 5 pixels right and down with 10-pixel blur radius](https://raw.githubusercontent.com/Codecademy/docs/main/media/drop-shadow1.png)
 
-The image will display with a gray drop shadow offset 5 pixels to the right and 5 pixels down, with a 10-pixel blur radius. This creates a subtle shadow effect that adds depth to the image.
+The image will display with a grey drop shadow offset 5 pixels to the right and 5 pixels down, with a 10-pixel blur radius. This creates a subtle shadow effect that adds depth to the image.
 
 ## Example 2: Colored Shadow Effect With CSS `drop-shadow()`
 
-This example shows how to create a vibrant colored shadow effect for design elements, commonly used in modern web design.
+This example shows how to create a vibrant, colored shadow effect for design elements, commonly used in modern web design.
 
 The HTML code is:
 
