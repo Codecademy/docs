@@ -27,7 +27,7 @@ filter: drop-shadow(offset-x offset-y blur-radius color);
 - `offset-x`: Sets the horizontal offset of the shadow. Positive values move the shadow to the right, negative values move it to the left.
 - `offset-y`: Sets the vertical offset of the shadow. Positive values move the shadow down, negative values move it up.
 - `blur-radius`: Optional parameter that sets the blur radius of the shadow, creating a softer edge. Larger values create more blur. If omitted, the shadow has a sharp edge.
-- `color`: Optional parameter that sets the color of the shadow. If omitted, the shadow uses the current text color of the element.
+- `color`: Optional parameter that sets the color of the shadow. If omitted, the shadow defaults to black.
 
 The `drop-shadow()` function returns a filtered version of the input element with the specified shadow effect applied.
 
