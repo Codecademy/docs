@@ -28,7 +28,7 @@ flex-grow: <number>
 
 **Return value:**
 
-This property does not return a value. It modifies the behavior of how flex items distribute available space within their container.
+This property does not return a value. It modifies how flex items distribute available space within their container.
 
 ## Example 1: Basic Usage of `flex-grow`
 
