@@ -37,16 +37,16 @@ Queue<DataType> queueName = new ImplementingClass<>();
 
 ## Common Methods in the Queue Interface
 
-- `add(element)`: Inserts element at the rear of the queue, throws exception if fails
-- `offer(element)`: Inserts element at the rear of the queue, returns false if fails
-- `remove()`: Removes and returns element from front, throws exception if empty
+- `add(element)`: Inserts element at the rear of the queue, throws exception if it fails
+- `offer(element)`: Inserts element at the rear of the queue, returns false if it fails
+- `remove()`: Removes and returns the element from the front, throws an exception if empty
 - `poll()`: Removes and returns element from front, returns null if empty
 - `element()`: Returns front element without removing, throws exception if empty
 - `peek()`: Returns front element without removing, returns null if empty
 
 ## Example 1: Basic Operations for `Queue` in Java
 
-This example demonstrates fundamental queue operations including adding elements, removing elements, and accessing the front element:
+This example demonstrates fundamental queue operations, including adding elements, removing elements, and accessing the front element:
 
 ```java
 import java.util.Queue;
