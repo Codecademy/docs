@@ -29,7 +29,7 @@ Queue<DataType> queueName = new ImplementingClass<>();
 
 - `DataType`: The type of elements the queue will store
 - `queueName`: The name of the queue variable
-- `ImplementingClass`: A class that implements the Queue interface (e.g., LinkedList, ArrayDeque, [PriorityQueue](https://www.codecademy.com/resources/docs/java/priorityqueue))
+- `ImplementingClass`: A class that implements the `Queue` interface (e.g., `LinkedList`, `ArrayDeque`, [`PriorityQueue`](https://www.codecademy.com/resources/docs/java/priorityqueue))
 
 **Return value:**
 
