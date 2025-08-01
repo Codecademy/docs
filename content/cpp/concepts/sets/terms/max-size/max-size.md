@@ -1,6 +1,6 @@
 ---
 Title: 'max_size()'
-Description: 'Returns the maximum number of elements the set can hold'
+Description: 'Returns the maximum number of elements the set can hold.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -31,7 +31,7 @@ Returns an integral value of type `size_type` (usually `std::size_t`) representi
 
 ## Example: Using `max_size()` with `std::set`
 
-The following code checks the maximum number of elements a `std::set` can theoretically hold, depending on system and allocator limits:
+This code checks the maximum number of elements a `std::set` can theoretically hold, depending on system and allocator limits:
 
 ```cpp
 #include <iostream>
@@ -54,7 +54,7 @@ Maximum size of the set: 4611686018427387903
 
 ## Codebyte Example: Using `max_size()` with `std::set<std::string>`
 
-Here is a runnable example that demonstrates how to use `max_size()` with a `std::set<std::string>` to check its theoretical capacity:
+Here is a runnable codebyte example that demonstrates how to use `max_size()` with a `std::set<std::string>` to check its theoretical capacity:
 
 ```codebyte/cpp
 #include <iostream>
@@ -66,5 +66,4 @@ int main() {
   std::cout << "Maximum size of the string set: " << stringSet.max_size() << std::endl;
   return 0;
 }
-
 ```
