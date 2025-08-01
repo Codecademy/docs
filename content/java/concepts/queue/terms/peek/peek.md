@@ -5,11 +5,11 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'Algorithms'
   - 'Collections'
-  - 'Queues'
   - 'Data Structures'
   - 'Methods'
-  - 'Algorithms'
+  - 'Queues'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
@@ -23,11 +23,13 @@ The **`.peek()`** method retrieves the head element of a [Queue](https://www.cod
 queueName.peek()
 ```
 
-**Return value:** Returns the head element of the queue, or `null` if the queue is empty.
+**Return value:** 
+
+Retrieves the head of the queue without removing it. Returns `null` if the queue is empty.
 
 ## Example 1: Usage of `.peek()` Method
 
-This example demonstrates how `.peek()` allows you to inspect the next element without removing it from the queue:
+This example demonstrates how `.peek()` is used to inspect the next element without removing it from the queue:
 
 ```java
 import java.util.Queue;
@@ -53,7 +55,7 @@ public class Main {
     System.out.println("Queue after peek: " + customerQueue);
     System.out.println("Queue size: " + customerQueue.size());
     
-    // Now actually serve the customer
+    // Serve the customer
     String servedCustomer = customerQueue.poll();
     System.out.println("Served customer: " + servedCustomer);
     System.out.println("Updated queue: " + customerQueue);
@@ -73,7 +75,6 @@ Updated queue: [Bob, Charlie]
 ```
 
 This example shows how `.peek()` provides read-only access to the head element, keeping the queue unchanged until an actual removal operation is performed.
-
 
 ## Example 2: Handling Empty Queues with `.peek()`
 
@@ -138,18 +139,3 @@ No more messages in queue
 ```
 
 This example demonstrates the safety of `.peek()` when dealing with potentially empty queues, making it ideal for defensive programming practices.
-
-
-## Frequently Asked Questions
-
-### 1. What is the difference between `.peek()` and `.element()` methods?
-
-Both methods return the head element without removing it, but `.element()` throws a `NoSuchElementException` if the queue is empty, while `.peek()` returns `null`. Use `.peek()` for safer code that handles empty queues gracefully.
-
-### 2. When should I use `.peek()` instead of `.poll()`?
-
-Use `.peek()` when you want to inspect the next element without removing it from the queue. This is useful for conditional processing, monitoring systems, or when you need to check what's next before deciding whether to process it.
-
-### 3. Can `.peek()` be used with all Queue implementations?
-
-Yes, `.peek()` is defined in the Queue interface and is available in all implementations including LinkedList, ArrayDeque, and PriorityQueue. However, the ordering of elements may differ based on the implementation (e.g., PriorityQueue orders by priority, not insertion order).
