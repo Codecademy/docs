@@ -58,7 +58,7 @@ true
 
 ## Codebyte Example
 
-This Codebyte tests various values to show how the method handles whole numbers, decimals, and edge cases at the limits of JavaScript’s safe integer range:
+This codebyte tests various values to show how the method handles whole numbers, decimals, and edge cases at the limits of JavaScript’s safe integer range:
 
 ```codebyte/javascript
 console.log(Number.isSafeInteger(100));
