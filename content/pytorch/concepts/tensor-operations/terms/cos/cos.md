@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-The **`torch.cos()`** function computes the cosine of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors), applied element-wise, and returns a tensor of the same shape. It's part of PyTorch’s math operations used in scientific computing and deep learning.
+The **`.cos()`** function computes the cosine of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors), applied element-wise, and returns a tensor of the same shape. It's part of PyTorch’s math operations used in scientific computing and deep learning.
 
 ## Syntax
 
@@ -30,9 +30,9 @@ torch.cos(input, *, out=None) → Tensor
 
 A tensor with the cosine of each element in the input, having the same shape.
 
-## Example 1: Using `torch.cos()` with a 1D tensor
+## Example 1: Using `.cos()` with a 1D tensor
 
-In this example, `torch.cos()` computes the cosine of a 1D tensor containing angles in radians:
+In this example, `.cos()` computes the cosine of a 1D tensor containing angles in radians:
 
 ```py
 import torch
@@ -52,9 +52,9 @@ The output of this code is:
 tensor([ 1.0000e+00, -4.3711e-08, -1.0000e+00])
 ```
 
-## Example 2: Applying `torch.cos()` with a 2D tensor
+## Example 2: Applying `.cos()` with a 2D tensor
 
-In this example, `torch.cos()` is applied to a 2D tensor of angles in radians:
+In this example, `.cos()` is applied to a 2D tensor of angles in radians:
 
 ```py
 import torch
