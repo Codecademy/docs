@@ -24,7 +24,7 @@ CatalogContent:
 var myTuple = (value1, value2, ...)
 ```
 
-> **Note:** Variable names and named properties should follow Swift’s [API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/) and be in lowerCamelCase.
+> **Note:** Variable names and property names in Swift should follow the [API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/) and be in lowerCamelCase.
 
 ## Accessing and Changing Values
 
