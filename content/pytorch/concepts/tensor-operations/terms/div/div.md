@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-The **`.div()`** function performs element-wise division between tensors or divides a tensor by a scalar value. It is a fundamental tensor operation in [PyTorch](https://www.codecademy.com/resources/docs/pytorch), commonly used in machine learning and deep learning tasks such as data preprocessing, normalization, and optimization.
+The **`.div()`** function performs element-wise division between tensors or divides a tensor by a scalar value. It is a fundamental tensor operation in PyTorch, commonly used for performing machine learning and deep learning tasks such as data preprocessing, normalization, and optimization.
 
-Element-wise operations are essential in tensor computations, enabling efficient parallel processing. The `torch.div()` function offers a simple and optimized way to handle division across tensors in neural networks and mathematical transformations.
+Element-wise operations are essential in tensor computations, enabling efficient parallel processing. The `.div()` function offers a simple and optimized way to handle division across tensors in neural networks and mathematical transformations.
 
 ## Syntax
 
@@ -34,9 +34,9 @@ torch.div(input, other, *, rounding_mode=None, out=None)
 
 A tensor with the result of element-wise division. If `out` is provided, the returned tensor is the same as `out`.
 
-## Example 1: Basic Usage of `.div()` with tensors
+## Example 1: Basic Usage of `.div()` with Tensors
 
-This example demonstrates how to use `torch.div()` to perform element-wise division between two tensors of the same shape:
+This example demonstrates how to use `.div()` to perform element-wise division between two tensors of the same shape:
 
 ```py
 import torch
@@ -54,7 +54,7 @@ print("Tensor2 (divisor):", tensor2)
 print("Division result:", result)
 ```
 
-This example results in the following output:
+Here is the output:
 
 ```shell
 Tensor1 (dividend): tensor([ 4.,  9., 16., 25.])
@@ -66,7 +66,7 @@ The `.div()` operation computes the element-wise division of `tensor1` by `tenso
 
 ## Example 2: Division with Rounding Modes
 
-The `torch.div()` function supports optional rounding modes when performing integer division, which control how the result is rounded:
+The `.div()` function supports optional rounding modes when performing integer division, which control how the result is rounded:
 
 ```py
 import torch
@@ -86,7 +86,7 @@ print("Floor division:", result_floor)
 print("Trunc division:", result_trunc)
 ```
 
-This example results in the following output:
+Here is the output:
 
 ```shell
 Default division: tensor([2.5000, 3.5000, 3.3333, 3.7500])
@@ -109,9 +109,9 @@ import torch
 
 # Create a sample dataset (3 samples with 4 features each)
 dataset = torch.tensor([
-    [10.0, 20.0, 30.0, 40.0],
-    [15.0, 25.0, 35.0, 45.0],
-    [20.0, 30.0, 40.0, 50.0]
+  [10.0, 20.0, 30.0, 40.0],
+  [15.0, 25.0, 35.0, 45.0],
+  [20.0, 30.0, 40.0, 50.0]
 ])
 
 # Calculate the range (max - min) for each feature
@@ -128,7 +128,7 @@ print("\nNormalized dataset:")
 print(normalized_data)
 ```
 
-This example results in the following output:
+Here is the output:
 
 ```shell
 Original dataset:
@@ -142,4 +142,4 @@ tensor([[0.0000, 0.0000, 0.0000, 0.0000],
         [1.0000, 1.0000, 1.0000, 1.0000]])
 ```
 
-This example demonstrates how `.div()` can be used to normalize data to a specific range, which is a common preprocessing step in machine learning workflows.
+This example demonstrates how `.div()` can be used to normalize data to a specific range, which is a commonly performed preprocessing step in machine learning workflows.
