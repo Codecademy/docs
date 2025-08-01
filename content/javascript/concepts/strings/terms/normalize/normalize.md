@@ -1,58 +1,65 @@
 ---
-Title: '.normalize()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'It is used in the context of text strings and is used to convert a string into a standard Unicode normalization.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'Data Analysis'
-  - 'Machine Learning'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'String'
+Title: '.normalize()'
+Description: 'Returns the Unicode Normalization Form of a string.'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'JavaScript'
   - 'Methods'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - 'String'
+  - 'Unicode'
+CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Normalize** It is used in the context of text strings and is used to convert a string into a standard Unicode normalization.
+The **`.normalize()`** method returns the Unicode Normalization Form of a string. This is especially useful when comparing strings that may look identical but are composed of different Unicode code points.
 
 ## Syntax
 
-```js
-string.normalize('NFC', word1);
+```pseudo
+string.normalize([form])
 ```
 
-## Example
+**Parameters:**
 
-Normalized 'café' to 'cafe'
+- `form` (optional): A string specifying the Unicode normalization form. Valid values are:
+  - `'NFC'` (default): Canonical Composition
+  - `'NFD'`: Canonical Decomposition
+  - `'NFKC'`: Compatibility Composition
+  - `'NFKD'`: Compatibility Decomposition
+
+**Return value:**
+
+A new string in the specified normalization form.
+
+## Example: Comparing Unicode Representations
+
+In this example, two visually identical strings have different Unicode encodings, and `.normalize()` is used to make them comparable.
 
 ```js
-const word1 = "café";
+const word1 = '\u00e9';         // é as single character
+const word2 = '\u0065\u0301';   // e + ́ (combining acute)
 
-const word1Normalized = word1.normalize('NFC');
-
-console.log(word1Normalized);
-// Output: cafe
+console.log(word1 === word2);
+console.log(word1.normalize() === word2.normalize());
 ```
 
-## Codebyte Example (if applicable)
+The output of this code is:
 
-We can currently support:
+```shell
+false
+true
+```
 
-- Python
-- JavaScript
-- Java
-- C#
-- Ruby
-- PHP
+## Codebyte Example: Stripping Accents Using Normalize + Regex
 
-The following is runnable and demonstrates the .normalize() method
+In this example, `.normalize()` is combined with a regular expression to strip accents by removing Unicode diacritical marks:
 
 ```codebyte/javascript
-const name1 = "Mañana";
-const name2 = "Man\u0303ana";
+const word = 'café';
+const stripped = word.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-const name1Normalized = name1.normalize('NFC');
-const name2Normalized = name2.normalize('NFC');
-
-console.log(name1Normalized); // Manana
-console.log(name2Normalized); // Manana
+console.log(stripped); 
 ```
