@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.normalize()`** method returns the Unicode Normalization Form of a string. This is especially useful when comparing strings that may look identical but are composed of different Unicode code points.
+The **`.normalize()`** method returns the Unicode Normalization Form of a [string](https://www.codecademy.com/resources/docs/javascript/strings). This is especially useful when comparing strings that may look identical but are composed of different Unicode code points.
 
 ## Syntax
 
