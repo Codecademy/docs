@@ -5,20 +5,20 @@ Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
-  - 'Numbers'
   - 'Methods'
+  - 'Numbers'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`Number.MAX_SAFE_INTEGER`** static data property represents the maximum safe integer in JavaScript, which is:
+The **`.MAX_SAFE_INTEGER`** static data property represents the maximum safe integer in JavaScript, which is:
 
 $$
 2^{53} - 1 = 9007199254740991
 $$
 
-It’s the largest integer that can be safely represented using the `Number` type without losing precision. This property is part of the `Number` class. To check if a value is a safe integer, use the `Number.isSafeInteger()` method. For integers larger than this limit, consider using the `BigInt` type instead.
+It’s the largest integer that can be safely represented using the `Number` type without losing precision. This property is part of the `Number` class. To check if a value is a safe integer, use the `.isSafeInteger()` method. For integers larger than this limit, consider using the `BigInt` type instead.
 
 ## Syntax
 
@@ -32,11 +32,11 @@ None as it's a static data property, not a function.
 
 **Return value:**
 
-Returns the largest safe integer representable by JavaScript's `Number` type
+Returns the largest safe integer representable by JavaScript's `Number` type.
 
 ## Example
 
-The following example demonstrate how `.MAX_SAFE_INTEGER` defines the upper limit for safe integers in JavaScript:
+This example demonstrates how `.MAX_SAFE_INTEGER` defines the upper limit for safe integers in JavaScript:
 
 ```js
 console.log(Number.MAX_SAFE_INTEGER);
@@ -55,7 +55,7 @@ false
 
 ## Codebyte Example
 
-An example showing why it's best to avoid numbers larger than `.MAX_SAFE_INTEGER`:
+A codebyte example showing why it's best to avoid numbers larger than `.MAX_SAFE_INTEGER`:
 
 ```codebyte/javascript
 const a = Number.MAX_SAFE_INTEGER + 1;
