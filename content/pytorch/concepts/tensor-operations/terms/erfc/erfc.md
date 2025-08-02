@@ -1,0 +1,61 @@
+---
+Title: '.erfc()'
+Description: 'Computes the complementary error function of input.'
+Subjects:
+  - 'Computer Science'
+  - 'Machine Learning'
+Tags:
+  - 'Functions'
+  - 'Machine Learning'
+  - 'Python'
+  - 'Tensor'
+CatalogContent:
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/computer-science'
+---
+
+In PyTorch, The `torch.erfc()` function returns the complementary error function of input.\
+The complementary error function is defined as follows:\
+$erfc(x)= 1 - \frac{2}{\sqrt{\pi}}\int_0^1 e^{-t^2} dt$
+
+## Syntax
+
+```pseudo
+torch.erfc(input, *, out=None) → Tensor
+```
+
+OR
+
+```pseudo
+torch.special.erfc(input, *, out=None) → Tensor
+```
+
+**Parameters:**
+
+- `input`: The input tensor.
+- `out` (optional): A tensor to store the output. If provided, the result is written to this tensor.
+
+**Return value:**
+
+It returns a new Tensor of the same shape as the input, containing the computed complementary error function values for each corresponding element.
+
+## Example
+
+In this example, we compute the complementary error function values of each tensor using `torch.erfc()`:
+
+```py
+import torch
+
+# Define a tensor
+x = torch.tensor([0, -1., 10.])
+
+result = torch.erfc(x)
+
+print(result)
+```
+
+Here is the output:
+
+```shell
+tensor([ 1.0000, 1.8427,  0.0000])
+```
