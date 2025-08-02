@@ -25,7 +25,7 @@ array.entries()
 
 The `entries()` method does not take any parameters.
 
-## Return Value
+**Return value:**
 
 A new `Array Iterator` object containing `[index, value]` pairs
 
