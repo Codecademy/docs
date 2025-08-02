@@ -38,7 +38,7 @@ Here:
 
 ## Example
 
-In this example**, the `Dog` class inherits from `Animal`, which in turn inherits from `LivingBeing`, allowing it to access methods from both ancestor classes:
+In this example, the `Dog` class inherits from `Animal`, which in turn inherits from `LivingBeing`, allowing it to access methods from both ancestor classes:
 
 ```py
 class LivingBeing:
@@ -98,7 +98,7 @@ Visual representation of multilevel inheritance:
 
 ## Codebyte Example
 
-In this example**, the `Laptop` class inherits features from `Computer` and `Device`, demonstrating how functionality accumulates across multiple levels of inheritance:
+In this example, the `Laptop` class inherits features from `Computer` and `Device`, demonstrating how functionality accumulates across multiple levels of inheritance:
 
 ```codebyte/python
 class Device:
