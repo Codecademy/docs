@@ -1,9 +1,9 @@
 ---
 Title: 'Multiple Inheritance'
-Description: 'Explains multiple inheritance in Python, where a subclass inherits from more than one parent class.'
+Description: 'Allows a class to inherit attributes and methods from more than one parent class'
 Subjects:
-  - 'Python'
-  - 'Object-Oriented Programming'
+  - 'Code Foundations`
+  - `Computer Science'
 Tags:
   - 'Classes'
   - 'Inheritance'
@@ -13,71 +13,79 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Multiple inheritance** is a concept in object-oriented programming (OOP) where a single class can derive functionality from more than one parent class. Python allows this, making it possible for a subclass to inherit features from multiple independent base classes.
+**Multiple inheritance** is a concept in [object-oriented programming (OOP)](https://www.codecademy.com/resources/blog/object-oriented-programming) where a class can inherit attributes and methods from more than one parent class. Python supports this, allowing a subclass to combine functionality from multiple base classes.
 
-This design encourages flexibility and reusability of code. However, it also introduces ambiguity when parent classes define methods or properties with the same name. Python addresses such conflicts using its **Method Resolution Order (MRO)**.
+This promotes flexibility and code reuse. However, it also raises the risk of method name conflicts. Python resolves such issues using its Method Resolution Order (MRO).
 
 ## Syntax
 
-```python
+```pseudo
 class ParentA:
-    # ParentA methods and attributes
+  # methods and attributes of ParentA
 
 class ParentB:
-    # ParentB methods and attributes
+  # methods and attributes of ParentB
 
 class Child(ParentA, ParentB):
-    # Inherits from both ParentA and ParentB
+  # inherits from both ParentA and ParentB
 ```
+
+Here:
 
 - `ParentA`, `ParentB`: Two distinct base classes.
 - `Child`: The derived class that inherits from both.
-- Python determines which method to use using the order declared (left to right).
+
+Python determines which method to use using the order declared (left to right).
 
 ## Example
 
-```python
+In this example, the `Duck` class inherits from both `Flyer` and `Swimmer`, but due to Python’s MRO, the method from `Flyer` takes priority:
+
+```py
 class Flyer:
-    def ability(self):
-        return "Can fly"
+  def ability(self):
+    return "Can fly"
 
 class Swimmer:
-    def ability(self):
-        return "Can swim"
+  def ability(self):
+    return "Can swim"
 
 class Duck(Flyer, Swimmer):
-    pass
+  pass
 
 d = Duck()
-print(d.ability())  # Output: Can fly
+print(d.ability())
 ```
 
-### Explanation:
+The output of this code is:
 
-- `Duck` inherits from both `Flyer` and `Swimmer`.
-- Since both define the same method, Python uses the version from `Flyer` because it appears first.
-- The method selection follows the **MRO** rules.
+```shell
+Can fly
+```
 
 ## Codebyte Example
 
+In this example, the `Tablet` class inherits input methods from both `Keyboard` and `Touchscreen`, but the method from `Keyboard` is used due to its position in the inheritance list:
+
 ```codebyte/python
 class Keyboard:
-    def input_method(self):
-        return "Typed input"
+  def input_method(self):
+    return "Typed input"
+
 class Touchscreen:
-    def input_method(self):
-        return "Touch input"
+  def input_method(self):
+    return "Touch input"
+
 class Tablet(Keyboard, Touchscreen):
-    def description(self):
-        return "Tablet can accept multiple input types"
+  def description(self):
+    return "Tablet can accept multiple input types"
+
 my_tablet = Tablet()
 print(my_tablet.input_method())   # Inherited from Keyboard (first in order)
 print(my_tablet.description())    # Defined in Tablet
 ```
 
-## Diagram
-
-A visual example of multiple inheritance:
+A visual overview of multiple inheritance:
 
 ```
 +-------------+     +---------------+
@@ -91,20 +99,6 @@ A visual example of multiple inheritance:
           +--------------------+
           |      Tablet        |
           |--------------------|
-          | description()      |
+          |    description()   |
           +--------------------+
 ```
-
-### Key Considerations
-
-- Encourages combining capabilities from separate classes.
-- Ideal for mixins—lightweight, reusable functionality.
-- Be aware of method name clashes and resolution order.
-- Python provides tools like `super()` and `.mro()` to navigate complex inheritance trees.
-
-> Choose multiple inheritance when your subclass needs to aggregate unrelated behaviors—just make sure method conflicts are intentionally handled.
-### Related Concepts
-
-* [Single Inheritance](../single-inheritance/single-inheritance.md)
-* [Multilevel Inheritance](../multilevel-inheritance/multilevel-inheritance.md)
-* [super() Function in Python](../../../built-in-functions/terms/super/super.md)
