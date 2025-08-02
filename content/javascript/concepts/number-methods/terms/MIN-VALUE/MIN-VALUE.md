@@ -5,9 +5,9 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'JavaScript'
+  - 'Const'
   - 'Numbers'
-  - 'Constants'
+  - 'JavaScript'
 CatalogContent:
   - 'learn-javascript'
   - 'paths/computer-science'
