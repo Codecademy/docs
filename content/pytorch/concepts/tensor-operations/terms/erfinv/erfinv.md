@@ -14,10 +14,16 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.erfinv()`** is a special function. Computes the inverse error function of input. The inverse error function is defined in the range $(−1,1)$ as: \
-erfinv(erf(x))=x 
+In PyTorch, The `torch.erfinv()` function returns the inverse error function of each element in the input tensor.\
+The inverse error function is defined in the range $(−1,1)$ as: **erfinv(erf(x))=x**
 
 ## Syntax
+
+```pseudo
+torch.erfinv(input, *, out=None) → Tensor
+```
+
+OR
 
 ```pseudo
 torch.special.erfinv(input, *, out=None) → Tensor
@@ -30,11 +36,11 @@ torch.special.erfinv(input, *, out=None) → Tensor
 
 **Return value:**
 
-Returns corresponding x-value for which the error function would produce that value.
+It returns a new Tensor of the same shape as the input, containing the computed inverse error function values for each corresponding element.
 
 ## Example
 
-In this example, we compute the element-wise exponential of a tensor using `torch.special.erfinv()`:
+In this example, we compute the inverse error function values of each tensor using `torch.erfinv()`:
 
 ```py
 import torch
@@ -42,7 +48,7 @@ import torch
 # Define a tensor
 x = torch.tensor([0, 0.5, -1.])
 
-result = torch.special.erfinv(torch.tensor(x))
+result = torch.erfinv(torch.tensor(x))
 
 
 print(result)
