@@ -1,48 +1,58 @@
 ---
-title: "Array.prototype.entries()"
-slug: "javascript-array-entries"
-category: "reference"
-tags:
-  - javascript
-  - method
-  - arrays
+Title: '.entries()'
+Description: 'Returns an iterator with key/value pairs for each index in the array.'
+Subjects:
+  - 'Computer Science'
+  - 'Web Development'
+Tags:
+  - 'Arrays'
+  - 'Iterators'
+  - 'JavaScript'
+CatalogContent:
+  - 'learn-javascript'
+  - 'paths/web-development'
 ---
 
-## Description
-
-The `entries()` method returns a new Array Iterator object that contains the key/value pairs for each index in the array. It allows you to loop through both the **index** and the **value** of each element in a structured way.
+The **`entries()`** method returns a new array iterator object that contains key/value pairs for each index in the array. This is useful when both the index and value of array elements are needed during iteration.
 
 ## Syntax
 
-```javascript
+```pseudo
 array.entries()
 ```
 
-## Parameters
+**Parameters:**
 
-This method does **not** take any parameters.
+The `entries()` method does not take any parameters.
 
 ## Return Value
 
-Returns a new Array Iterator object that can be used in a `for...of` loop or manually.
+A new `Array Iterator` object containing `[index, value]` pairs
 
-## Examples
+## Example
 
-```javascript
+In this example the `.entries()` method is used to iterate over an array of cat names, accessing both the index and value in each loop:
+
+```js
 const cats = ['Peche', 'Moana', 'Pintassilga'];
 const iterator = cats.entries();
 
 for (let [index, name] of iterator) {
   console.log(`Cat #${index}: ${name}`);
 }
-
-// Output:
-// Cat #0: Peche
-// Cat #1: Moana
-// Cat #2: Pintassilga
 ```
 
-## Codebyte
+The output of this code is:
+
+```shell
+Cat #0: Peche
+Cat #1: Moana
+Cat #2: Pintassilga
+```
+
+## Codebyte Example
+
+In this example the loop prints each index and corresponding fruit name by iterating through the key/value pairs returned by `.entries()`:
 
 ```codebyte/javascript
 const fruits = ['apple', 'banana', 'cherry'];
@@ -52,15 +62,3 @@ for (let [index, fruit] of iterator) {
   console.log(index, fruit);
 }
 ```
-
-## Notes
-
-- Often used with `for...of` loops.
-- Helpful when both the index and value of elements are needed.
-- The iterator object returned can also be converted using `Array.from()`.
-
-## See Also
-
-- [Array.prototype.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/keys)
-- [Array.prototype.values()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values)
-- [MDN Docs - entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
