@@ -1,9 +1,9 @@
 ---
 Title: 'Hierarchical Inheritance'
-Description: 'Explains hierarchical inheritance in Python, where multiple subclasses inherit from a single parent class.'
+Description: 'Allows multiple subclasses to inherit from the same parent class, enabling shared behavior across different child classes.'
 Subjects:
-  - 'Python'
-  - 'Object-Oriented Programming'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Classes'
   - 'Inheritance'
@@ -13,22 +13,24 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Hierarchical inheritance** refers to a structure in object-oriented programming (OOP) where several subclasses share a common parent class. Each of these child classes gains access to the attributes and methods of the same base class, while also having the flexibility to define their own unique behavior.
+**Hierarchical inheritance** is a type of [object-oriented programming (OOP)](https://www.codecademy.com/resources/blog/object-oriented-programming) structure where multiple subclasses inherit from a single parent class. Each child class gets access to the shared attributes and methods of the base class, while also defining its own specific behavior.
 
-This pattern encourages consistency and reduces redundancy in code—especially useful when multiple types share core functionality but differ in specialized behavior.
+This approach promotes code reuse and consistency, especially when different classes share core functionality but need their own specialized features.
 
 ## Syntax
 
-```python
+```pseudo
 class Parent:
-    # Base class with shared behavior
+  # Base class with shared behavior
 
 class ChildA(Parent):
-    # Inherits from Parent
+  # Inherits from Parent
 
 class ChildB(Parent):
-    # Also inherits from Parent
+  # Also inherits from Parent
 ```
+
+Here:
 
 - `Parent`: The superclass that defines common functionality.
 - `ChildA` and `ChildB`: Independent subclasses that derive from the same base.
@@ -37,57 +39,40 @@ Each subclass can use the base functionality or override it as needed.
 
 ## Example
 
-```python
+In this example, `Bird` and `Fish` inherit from the `Animal` class and override the `move()` method to define specific behaviors:
+
+```py
 class Animal:
-    def move(self):
-        return "Moves in some way"
+  def move(self):
+    return "Moves in some way"
 
 class Bird(Animal):
-    def move(self):
-        return "Flies"
+  def move(self):
+    return "Flies"
 
 class Fish(Animal):
-    def move(self):
-        return "Swims"
+  def move(self):
+    return "Swims"
 
 b = Bird()
 f = Fish()
 
-print(b.move())  # Output: Flies
-print(f.move())  # Output: Swims
+print(b.move())
+print(f.move())
 ```
 
-### Explanation
+The output of this code is:
+
+```shell
+Flies  
+Swims
+```
+
+In this code:
 
 - `Bird` and `Fish` both inherit from the `Animal` class.
 - The `move()` method is overridden in each subclass to define movement specific to that type of animal.
 - This demonstrates how each child can provide its own interpretation of a shared method.
-
-## Codebyte Example
-
-```codebyte/python
-class Device:
-    def power(self):
-        return "Powered on"
-
-class Laptop(Device):
-    def feature(self):
-        return "Portable computing"
-
-class Desktop(Device):
-    def feature(self):
-        return "High-performance workstation"
-
-l = Laptop()
-d = Desktop()
-
-print(l.power())      # Inherited from Device
-print(l.feature())    # Specific to Laptop
-print(d.power())      # Inherited from Device
-print(d.feature())    # Specific to Desktop
-```
-
-## Diagram
 
 An illustration of how hierarchical inheritance is structured:
 
@@ -106,17 +91,36 @@ An illustration of how hierarchical inheritance is structured:
 +-------------+   +-------------+
 ```
 
-### Benefits of Hierarchical Inheritance
+## Codebyte Example
+
+In this example, `Laptop` and `Desktop` inherit shared functionality from the `Device` class while adding their own unique methods:
+
+```codebyte/python
+class Device:
+  def power(self):
+    return "Powered on"
+
+class Laptop(Device):
+  def feature(self):
+    return "Portable computing"
+
+class Desktop(Device):
+  def feature(self):
+    return "High-performance workstation"
+
+l = Laptop()
+d = Desktop()
+
+print(l.power())      # Inherited from Device
+print(l.feature())    # Specific to Laptop
+print(d.power())      # Inherited from Device
+print(d.feature())    # Specific to Desktop
+```
+
+## Benefits of Hierarchical Inheritance
 
 - **Efficient reuse**: Shared logic is centralized in the parent class.
 - **Cleaner structure**: Each subclass can focus on its unique behavior.
 - **Expandable design**: New types can be introduced without modifying existing code.
 
 > Choose hierarchical inheritance when multiple types share common features but diverge in implementation.
-
-### Related Concepts
-
-* [Single Inheritance](../single-inheritance/single-inheritance.md)
-* [Multiple Inheritance](../multiple-inheritance/multiple-inheritance.md)
-* [Multilevel Inheritance](../multilevel-inheritance/multilevel-inheritance.md)
-* [super() Function in Python](../../../built-in-functions/terms/super/super.md)
