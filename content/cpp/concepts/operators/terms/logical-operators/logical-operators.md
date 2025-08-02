@@ -13,110 +13,49 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Logical operators** in C++ are used to perform logical operations on boolean expressions or values that can be evaluated as true or false. These [operators](https://www.codecademy.com/resources/docs/cpp/operators) are essential for creating complex conditional statements, controlling program flow, and implementing decision-making logic in applications.
+**Logical operators** in C++ are used to perform logical operations on boolean expressions or values that can be evaluated as true or false. These [operators](https://www.codecademy.com/resources/docs/cpp/operators) are essential for creating complex conditional statements, controlling program flow, and implementing decision-making logic in applications. There are 3 logical operators in C++:
+- Logical AND (`&&`)
+- Logical OR (`||`)
+- Logical NOT (`!`)
 
-Logical operators allow programmers to combine multiple conditions, negate boolean values, and create sophisticated control structures. They are fundamental building blocks for implementing algorithms that require decision-making capabilities.
+## Logical AND (`&&`)
 
-The following table summarizes the three logical operators in C++:
+The logical AND operator `&&` returns true only when both operands are true. It uses short-circuit evaluation, meaning if the first operand is false, the second operand is not evaluated. 
 
-| Symbol | Name        | Description                                           | Implementation Example |
-| ------ | ----------- | ----------------------------------------------------- | ---------------------- |
-| `&&`   | Logical AND | Returns true if both operands are true               | `a && b`               |
-| `\|\|` | Logical OR  | Returns true if at least one operand is true         | `a \|\| b`             |
-| `!`    | Logical NOT | Returns the opposite boolean value of the operand     | `!a`                   |
-
-## Syntax
+### Syntax of `&&`
 
 ```pseudo
-// Logical AND
 expression1 && expression2
-
-// Logical OR
-expression1 || expression2
-
-// Logical NOT
-!expression1
 ```
+
+Here:
 
 - `expression1` and `expression2` are boolean expressions or values that evaluate to true or false
 
-## Example
-
-The following examples demonstrate each logical operator:
+## Example of Logical AND (`&&`) Operator
 
 ```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-    bool a = true;
-    bool b = false;
-    int x = 10;
-    int y = 5;
+  int age = 25;
+  bool hasLicense = true;
     
-    // Logical AND (&&)
-    cout << "Logical AND:" << endl;
-    cout << "true && false = " << (a && b) << endl;
-    cout << "(x > y) && (x > 0) = " << ((x > y) && (x > 0)) << endl;
+  // Check if person can drive
+  if (age >= 18 && hasLicense) {
+    cout << "Person can drive legally." << endl;
+  } else {
+    cout << "Person cannot drive legally." << endl;
+  }
     
-    // Logical OR (||)
-    cout << "\nLogical OR:" << endl;
-    cout << "true || false = " << (a || b) << endl;
-    cout << "(x < y) || (x > 0) = " << ((x < y) || (x > 0)) << endl;
-    
-    // Logical NOT (!)
-    cout << "\nLogical NOT:" << endl;
-    cout << "!true = " << !a << endl;
-    cout << "!false = " << !b << endl;
-    cout << "!(x > y) = " << !(x > y) << endl;
-    
-    return 0;
+  return 0;
 }
 ```
 
-**Output:**
-```
-Logical AND:
-true && false = 0
-(x > y) && (x > 0) = 1
+The output of this code is:
 
-Logical OR:
-true || false = 1
-(x < y) || (x > 0) = 1
-
-Logical NOT:
-!true = 0
-!false = 1
-!(x > y) = 0
-```
-
-## Explanation of Logical Operators
-
-### Logical AND (`&&`)
-
-The logical AND operator `&&` returns true only when both operands are true. It uses short-circuit evaluation, meaning if the first operand is false, the second operand is not evaluated.
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    int age = 25;
-    bool hasLicense = true;
-    
-    // Check if person can drive
-    if (age >= 18 && hasLicense) {
-        cout << "Person can drive legally." << endl;
-    } else {
-        cout << "Person cannot drive legally." << endl;
-    }
-    
-    return 0;
-}
-```
-
-**Output:**
-```
+```shell
 Person can drive legally.
 ```
 
@@ -124,27 +63,36 @@ Person can drive legally.
 
 The logical OR operator `||` returns true if at least one of the operands is true. It also uses short-circuit evaluation, meaning if the first operand is true, the second operand is not evaluated.
 
+### Syntax of `||`
+
+```pseudo
+expression1 || expression2
+```
+
+### Example of Logical OR (`||`) Operator
+
 ```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-    int day = 6; // Saturday
-    bool isHoliday = false;
+  int day = 6; // Saturday
+  bool isHoliday = false;
     
-    // Check if it's a weekend or holiday
-    if (day == 6 || day == 7 || isHoliday) {
-        cout << "No work today!" << endl;
-    } else {
-        cout << "Work day." << endl;
-    }
+  // Check if it's a weekend or holiday
+  if (day == 6 || day == 7 || isHoliday) {
+    cout << "No work today!" << endl;
+  } else {
+    cout << "Work day." << endl;
+  }
     
-    return 0;
+  return 0;
 }
 ```
 
-**Output:**
-```
+The output of this code is:
+
+```shell
 No work today!
 ```
 
@@ -152,31 +100,40 @@ No work today!
 
 The logical NOT operator `!` reverses the boolean value of its operand. If the operand is true, it returns false, and vice versa.
 
+### Syntax of `!`
+
+```pseudo
+!expression1
+```
+
+### Example of Logical NOT (`!`) Operator
+
 ```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-    bool isRaining = false;
+  bool isRaining = false;
     
-    if (!isRaining) {
-        cout << "Perfect weather for a walk!" << endl;
-    } else {
-        cout << "Better stay inside." << endl;
-    }
+  if (!isRaining) {
+    cout << "Perfect weather for a walk!" << endl;
+  } else {
+    cout << "Better stay inside." << endl;
+  }
     
-    return 0;
+  return 0;
 }
 ```
 
-**Output:**
-```
+The output of this code is:
+
+```shell
 Perfect weather for a walk!
 ```
 
 ## Codebyte Example
 
-The following example demonstrates practical use of logical operators in a user authentication system:
+The following Codebyte demonstrates how logical operators are used in a real-world scenario such as verifying login credentials:
 
 ```codebyte/cpp
 #include <iostream>
@@ -184,41 +141,49 @@ The following example demonstrates practical use of logical operators in a user 
 using namespace std;
 
 int main() {
-    string username = "admin";
-    string password = "secure123";
-    bool isActive = true;
-    int loginAttempts = 2;
-    int maxAttempts = 3;
+  string username = "admin";
+  string password = "secure123";
+  bool isActive = true;
+  int loginAttempts = 2;
+  int maxAttempts = 3;
     
-    // Input credentials
-    string inputUser = "admin";
-    string inputPass = "secure123";
+  // Input credentials
+  string inputUser = "admin";
+  string inputPass = "secure123";
     
-    // Check authentication using logical operators
-    bool validCredentials = (inputUser == username) && (inputPass == password);
-    bool accountAccessible = isActive && (loginAttempts < maxAttempts);
-    bool canLogin = validCredentials && accountAccessible;
+  // Check authentication using logical operators
+  bool validCredentials = (inputUser == username) && (inputPass == password);
+  bool accountAccessible = isActive && (loginAttempts < maxAttempts);
+  bool canLogin = validCredentials && accountAccessible;
     
-    cout << "Authentication Results:" << endl;
-    cout << "Valid credentials: " << (validCredentials ? "Yes" : "No") << endl;
-    cout << "Account accessible: " << (accountAccessible ? "Yes" : "No") << endl;
-    cout << "Login successful: " << (canLogin ? "Yes" : "No") << endl;
+  cout << "Authentication Results:" << endl;
+  cout << "Valid credentials: " << (validCredentials ? "Yes" : "No") << endl;
+  cout << "Account accessible: " << (accountAccessible ? "Yes" : "No") << endl;
+  cout << "Login successful: " << (canLogin ? "Yes" : "No") << endl;
     
-    // Demonstrate NOT operator
-    if (!canLogin) {
-        cout << "Access denied!" << endl;
-    } else {
-        cout << "Welcome to the system!" << endl;
-    }
+  // Demonstrate NOT operator
+  if (!canLogin) {
+    cout << "Access denied!" << endl;
+  } else {
+    cout << "Welcome to the system!" << endl;
+  }
     
-    // Demonstrate OR operator for error handling
-    if (!validCredentials || !accountAccessible) {
-        cout << "Login failed due to: ";
-        if (!validCredentials) cout << "Invalid credentials ";
-        if (!accountAccessible) cout << "Account issues ";
-        cout << endl;
-    }
+  // Demonstrate OR operator for error handling
+  if (!validCredentials || !accountAccessible) {
+    cout << "Login failed due to: ";
+    if (!validCredentials) cout << "Invalid credentials ";
+    if (!accountAccessible) cout << "Account issues ";
+      cout << endl;
+  }
     
-    return 0;
+  return 0;
 }
 ```
+
+The following table summarizes the three logical operators in C++:
+
+| Symbol | Name        | Description                                           | Implementation Example |
+| ------ | ----------- | ----------------------------------------------------- | ---------------------- |
+| `&&`   | Logical AND | Returns true if both operands are true                | `a && b`               |
+| `\|\|` | Logical OR  | Returns true if at least one operand is true          | `a \|\| b`             |
+| `!`    | Logical NOT | Returns the opposite boolean value of the operand     | `!a`                   |
