@@ -6,25 +6,25 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Collections'
-  - 'Queues'
   - 'Data Structures'
   - 'Methods'
+  - 'Queues'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The **`.isEmpty()`** method is a built-in method of the [Queue](https://www.codecademy.com/resources/docs/java/queue) interface in Java that returns `true` if the queue contains no elements, and `false` otherwise. This method is inherited from the `Collection` interface and provides a convenient way to check if a queue is empty before performing operations that require elements. The method has O(1) time complexity in most implementations, making it an efficient way to validate queue state.
+The **`.isEmpty()`** method is a built-in method of the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface in Java that returns `true` if the queue contains no elements, and `false` otherwise. This method is inherited from the [`Collection`](https://www.codecademy.com/resources/docs/java/collection) interface and provides a convenient way to check if a queue is empty before performing operations that require elements. The method has O(1) time complexity in most implementations, making it an efficient way to validate queue state.
 
 ## Syntax
 
 ```pseudo
-queue.isEmpty()
+queueName.isEmpty()
 ```
 
 **Parameters:**
 
-- None
+- The `.isEmpty()` method does not take any parameters.
 
 **Return value:**
 
@@ -42,7 +42,7 @@ The `.isEmpty()` method is particularly useful in the following scenarios:
 3. **Validation checks**: Before performing operations that require elements
 4. **Algorithm implementations**: In data structure algorithms and queue-based solutions
 
-## Example 1: Basic Usage of `.isEmpty()`
+## Example 1: Basic Usage of `.isEmpty()` Method
 
 In this example, `.isEmpty()` is used to check if a queue is empty before and after adding elements:
 
@@ -147,103 +147,3 @@ Remaining elements: 0
 Queue is now empty: true
 Total elements processed: 5
 ```
-
-## Codebyte Example
-
-Here's a runnable example showing advanced usage of `.isEmpty()` with error handling:
-
-```codebyte/java
-import java.util.LinkedList;
-import java.util.Queue;
-
-public class Main {
-  public static void main(String[] args) {
-    Queue<String> taskQueue = new LinkedList<String>();
-
-    // Method to safely add tasks
-    addTask(taskQueue, "Initialize system");
-    addTask(taskQueue, "Load configuration");
-    addTask(taskQueue, "Start services");
-
-    // Process all tasks
-    processAllTasks(taskQueue);
-
-    // Try to process empty queue
-    processAllTasks(taskQueue);
-  }
-
-  public static void addTask(Queue<String> queue, String task) {
-    queue.offer(task);
-    System.out.println("Added task: " + task);
-    System.out.println("Queue empty: " + queue.isEmpty() + ", Size: " + queue.size());
-  }
-
-  public static void processAllTasks(Queue<String> queue) {
-    if (queue.isEmpty()) {
-      System.out.println("No tasks to process");
-      return;
-    }
-
-    System.out.println("\nProcessing tasks:");
-    int taskNumber = 1;
-    while (!queue.isEmpty()) {
-      String task = queue.poll();
-      System.out.println("Task " + taskNumber + ": " + task);
-      taskNumber++;
-    }
-    System.out.println("All tasks completed. Queue empty: " + queue.isEmpty());
-  }
-}
-```
-
-## Performance Considerations
-
-- **Time Complexity**: O(1) - constant time for most queue implementations
-- **Space Complexity**: O(1) - no additional space required
-- **Thread Safety**: The `.isEmpty()` method itself is typically not synchronized. For thread-safe operations, consider using `ConcurrentLinkedQueue` or synchronize access manually
-
-## Best Practices
-
-1. **Always check before polling**: Use `.isEmpty()` before calling `.poll()` to avoid getting `null` values
-2. **Prefer over size comparison**: Use `.isEmpty()` instead of `.size() == 0` for better readability
-3. **Combine with other checks**: Use `.isEmpty()` in conjunction with other validation methods
-4. **Loop conditions**: Use `!queue.isEmpty()` as loop conditions for processing all elements
-
-## Frequently Asked Questions
-
-### 1. What's the difference between `.isEmpty()` and checking `.size() == 0`?
-
-Both `.isEmpty()` and `.size() == 0` will give the same result, but `.isEmpty()` is generally preferred because:
-
-- It's more readable and expresses intent clearly
-- Some implementations might optimize `.isEmpty()` to be faster than calculating the size
-- It follows Java naming conventions for boolean methods
-
-### 2. Can `.isEmpty()` be used with all Queue implementations?
-
-Yes, `.isEmpty()` is available for all classes that implement the `Queue` interface, including:
-
-- `LinkedList`
-- `ArrayDeque`
-- `PriorityQueue`
-- `ConcurrentLinkedQueue`
-- And any custom implementations
-
-### 3. Is it safe to call `.isEmpty()` on a null queue?
-
-No, calling `.isEmpty()` on a `null` reference will throw a `NullPointerException`. Always ensure your queue is properly initialized:
-
-```java
-Queue<String> queue = null;
-// This will throw NullPointerException
-// boolean empty = queue.isEmpty();
-
-// Safe approach
-if (queue != null && !queue.isEmpty()) {
-    // Process queue
-}
-```
-
-### 4. Does `.isEmpty()` modify the queue?
-
-No, `.isEmpty()` is a read-only operation that doesn't modify the queue's contents or structure. It only returns information about the current state.
