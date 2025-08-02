@@ -32,7 +32,7 @@ Here:
 
 - `expression1` and `expression2` are boolean expressions or values that evaluate to true or false
 
-## Example of Logical AND (`&&`) Operator
+### Example of Logical AND (`&&`) Operator
 
 ```cpp
 #include <iostream>
@@ -59,7 +59,7 @@ The output of this code is:
 Person can drive legally.
 ```
 
-### Logical OR (`||`)
+## Logical OR (`||`)
 
 The logical OR operator `||` returns true if at least one of the operands is true. It also uses short-circuit evaluation, meaning if the first operand is true, the second operand is not evaluated.
 
@@ -96,7 +96,7 @@ The output of this code is:
 No work today!
 ```
 
-### Logical NOT (`!`)
+## Logical NOT (`!`)
 
 The logical NOT operator `!` reverses the boolean value of its operand. If the operand is true, it returns false, and vice versa.
 
