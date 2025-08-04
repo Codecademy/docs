@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the `torch.erfinv()` function returns the inverse error function of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). The inverse error function is defined in the range (−1,1) as: $$erfinv(erf(x))=x$$.
+In PyTorch, the **`torch.erfinv()`** function returns the inverse error function of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). The inverse error function is defined in the range (−1,1) as: $$erfinv(erf(x))=x$$.
 
 ## Syntax
 
