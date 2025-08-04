@@ -2,139 +2,95 @@
 Title: 'sorted()'
 Description: 'Takes in an iterator object, such as a list, tuple, dictionary, set, or string, and sorts it according to a parameter.'
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - 'Strings'
   - 'Functions'
   - 'Iterators'
   - 'Lists'
+  - 'Strings'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/analyze-data-with-python'
 ---
 
-Takes in an iterator object, such as a list, tuple, dictionary, set, or string, and sorts it according to a parameter.
+In Python, the **`sorted()`** [function](https://www.codecademy.com/resources/docs/python/functions) takes in an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object, such as a [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries), [set](https://www.codecademy.com/resources/docs/python/sets), or [string](https://www.codecademy.com/resources/docs/python/strings), and sorts it according to a parameter. This function is versatile, easy to use, and supports custom sorting logic using optional parameters.
 
-## Syntax
+## Python `sorted()` Syntax
 
 ```pseudo
 sorted(iterable, key=None, reverse=False)
 ```
 
-The `key` and `reverse` parameters are optional, and will default to `None` and `False`. `False` sorts ascending, and `True` descending. The `key` takes an input function to determine the comparison key.
+**Parameters:**
 
-## Example 1
+- `iterable` (Required): The sequence (list, tuple, string, dictionary, etc.) to be sorted.
+- `key` (Optional): A function that acts as a sorting key.
+- `reverse` (Optional): If `True`, the result is sorted in descending order.
 
-`sorted()` can be used on either numbers or letters, but not on a combination of the two:
+**Return value:**
 
-```python
+Returns a list that includes the elements in the iterable in sorted order.
+
+## Example 1: Sorting a List Using `sorted()`
+
+This example uses `sorted()` to sort the `my_list` list:
+
+```py
 my_list = ["beta", "epsilon", "alpha", "delta", "gamma"]
 
 new_list = sorted(my_list)
 
 print(new_list)
-# Output: ['alpha', 'beta', 'delta', 'epsilon', 'gamma']
 ```
 
-```python
-my_list = [7,2,3,5,1,4,6]
+Here is the output:
 
-new_list = sorted(my_list)
-
-print(new_list)
-# Output: [1, 2, 3, 4, 5, 6, 7]
+```shell
+['alpha', 'beta', 'delta', 'epsilon', 'gamma']
 ```
 
-## Example 2
+## Example 2: Sorting in Descending Order Using `sorted()`
 
-Changing the `reverse` parameter changes the order of the sort:
+This example uses `sorted()` with the `reverse` parameter set to `True` to sort the `my_list` list in descending order:
 
-```python
-my_list = [7,2,3,5,1,4,6]
+```py
+my_list = [7, 2, 3, 5, 1, 4, 6]
 
 new_list = sorted(my_list, reverse=True)
 
 print(new_list)
-# Output: [7, 6, 5, 4, 3, 2, 1]
 ```
 
-## Example 3
+Here is the output:
 
-When `reversed` is `False`, `sorted()` will sort numbers from low to high, and letters alphabetically. However, capital letters will come before lowercase letters. In order to sort all objects with the same key, use a function with the key `parameter`:
-
-```python
-my_string = "bCEad"
-
-after_sorted = sorted(my_string)
-
-print(after_sorted)
-# Output: ['C', 'E', 'a', 'b', 'd']
-
-after_sorted = sorted(my_string, key=str.lower)
-
-print(after_sorted)
-# Output: ['a', 'b', 'C', 'd', 'E']
+```shell
+[7, 6, 5, 4, 3, 2, 1]
 ```
 
-## Example 4
+## Codebyte Example: Using `sorted()` with a Key
 
-The `key` parameter can also be used to sort by other comparisons, such as length:
-
-```python
-my_list = ["aaa", "bb", "c"]
-
-my_sorted_list = sorted(my_list)
-
-print(my_sorted_list)
-# Output: ['aaa', 'bb', 'c']
-
-my_sorted_list = sorted(my_list, key=len)
-
-print(my_sorted_list)
-# Output: ['c', 'bb', 'aaa']
-```
-
-## Example 5
-
-The `key` parameter can even take in custom functions:
-
-```python
-def sorting_func(i):
-  return i - i**2
-
-my_list = [2,1,4,3]
-
-my_sorted_list = sorted(my_list)
-
-print(my_sorted_list)
-# Output: [1, 2, 3, 4]
-
-my_sorted_list = sorted(my_list, key=sorting_func)
-
-print(my_sorted_list)
-# Output: [4, 3, 2, 1]
-```
-
-## Codebyte Example
-
-Sorting a list of dictionaries based on a specific key:
+This codebyte example uses `sorted()` with the `key` parameter set to `len` to sort the `words` list based on the length of its items:
 
 ```codebyte/python
-my_list_of_dicts = [
-    {"name": "Alice", "age": 30},
-    {"name": "Bob", "age": 25},
-    {"name": "Charlie", "age": 35},
-    {"name": "David", "age": 28}
-]
+words = ["banana", "apple", "cherry", "date"]
 
-# Sort the list of dictionaries based on the "age" key in ascending order
-sorted_list = sorted(my_list_of_dicts, key=lambda x: x["age"])
+sorted_words = sorted(words, key=len)
 
-print(sorted_list)
-
-# Sort the list of dictionaries based on the "name" key in alphabetical order (case-insensitive)
-sorted_list_by_name = sorted(my_list_of_dicts, key=lambda x: x["name"].lower())
-
-print(sorted_list_by_name)
+print(sorted_words)
 ```
+
+## Frequently Asked Questions
+
+### 1. What is the difference between `sorted()` and `list.sort()`?
+
+- `sorted()` works on any iterable and returns a new sorted list.
+- `list.sort()` modifies the list in-place and returns `None`.
+
+### 2. Can I sort in descending order using `sorted()`?
+
+Yes, you can set the `reverse` parameter in `sorted()` to `True` to sort in descending order.
+
+### 3. What types of iterables can be used with `sorted()`?
+
+You can sort lists, tuples, strings, dictionaries, and any other iterable using `sorted()`.
