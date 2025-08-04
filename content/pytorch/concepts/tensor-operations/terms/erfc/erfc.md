@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the `torch.erfc()` function returns the complementary error function of of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). The complementary error function is defined as follows:
+In PyTorch, the **`torch.erfc()`** function returns the complementary error function of of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). The complementary error function is defined as follows:
 
 $$erfc(x)= 1 - \frac{2}{\sqrt{\pi}}\int_0^1 e^{-t^2} dt$$
 
