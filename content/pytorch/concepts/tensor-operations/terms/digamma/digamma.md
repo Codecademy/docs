@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In PyTorch, the **`.digamma()`** function computes the digamma function, the logarithmic derivative of the gamma function. It is often used in statistical modeling, especially in variational inference and probabilistic programming.
+In PyTorch, the **`.digamma()`** function computes the logarithmic derivative of the gamma function, alternatively known as the digamma function. It is often used in statistical modeling, especially in variational inference and probabilistic programming.
 
 ## Syntax
 
@@ -24,12 +24,16 @@ torch.digamma(input, *, out=None)
 
 **Parameters:**
 
-- `input` (Tensor): the input tensor.
-- `out` (Tensor, optional): the output tensor to store results. Must be the same shape as `input`.
+- `input` (Tensor): The input tensor.
+- `out` (Tensor, optional): The output tensor to store results. Must be the same shape as `input`.
+
+**Return value:**
+
+Returns a tensor containing the result.
 
 ## Example
 
-The following example demonstrates the usage of the `.digamma()` function:
+This example demonstrates the usage of the `.digamma()` function:
 
 ```py
 import torch
@@ -43,7 +47,7 @@ y = x.digamma()
 print(y)
 ```
 
-The above code produces the following output:
+Here is the output:
 
 ```shell
 tensor([-0.5772,  0.4228,  0.9228])
