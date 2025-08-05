@@ -9,13 +9,12 @@ Tags:
   - 'Math'
   - 'Methods'
   - 'NumPy'
-  - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-[Numpy's](https://www.codecademy.com/resources/docs/numpy) **`.squeeze()`** is used to remove dimensions of size 1 from an array, returning a reshaped array without those singleton dimensions.
+Numpy's **`.squeeze()`** is used to remove dimensions of size 1 from an array, returning a reshaped array without those singleton dimensions.
 
 ## Syntax
 
