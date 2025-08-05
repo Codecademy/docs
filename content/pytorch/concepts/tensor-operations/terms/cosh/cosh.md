@@ -1,6 +1,6 @@
 ---
 Title: '.cosh()'
-Description: 'Returns hyperbolic cosine of the given input.'
+Description: 'Returns the hyperbolic cosine of the given input.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
@@ -25,7 +25,7 @@ torch.cosh(input, *, out=None)
 **Parameters:**
 
 - `input`: The input tensor containing elements for which to compute the hyperbolic cosine.
-- `out` (optional): The output tensor to store the result. If provided, the result is written to this tensor in-place.
+- `out` (Optional): The output tensor to store the result. If provided, the result is written to this tensor in-place.
 
 **Return value:**
 
