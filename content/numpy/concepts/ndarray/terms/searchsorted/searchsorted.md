@@ -1,22 +1,20 @@
 ---
-Title: 'searchsorted()'
+Title: '.searchsorted()'
 Description: 'Returns the index where a value should be inserted to maintain order.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Machine Learning'
 Tags:
   - 'Arrays'
   - 'Binary Search'
   - 'NumPy'
   - 'Search'
-  - 'Sorting Algorithms'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-**`.searchsorted()`** in a NumPy `ndarray` returns the index where a value should be inserted to maintain order.
+In NumPy, the **`.searchsorted()`** function returns the index where a value should be inserted to maintain order.
 
 ## Syntax
 
@@ -41,16 +39,20 @@ In this example, `.searchsorted()` finds the index where the value `3` should be
 ```py
 import numpy as np
 
-arr = np.array([1, 2, 3, 4, 5])
-index = arr.searchsorted(3)
+arr = np.array([11, 22, 33, 44, 55])
+index = arr.searchsorted(33)
 print(index)
 ```
 
-The result is `2`, which is the position of the first `3` in the sorted array.
+The result is `2`, which is the position of the first `33` in the sorted array:
+
+```shell
+2
+```
 
 ## Codebyte Example
 
-In this example, `.searchsorted()` finds where a new test score should be inserted in a sorted list of scores:
+In this codebyte example, `.searchsorted()` finds where a new test score should be inserted in a sorted list of scores:
 
 ```codebyte/python
 import numpy as np
