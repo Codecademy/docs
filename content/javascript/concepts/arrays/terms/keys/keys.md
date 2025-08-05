@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.keys()`** method returns a new array iterator object that contains the keys (indices) for each index in the array.
+The **`.keys()`** method returns a new array iterator object containing the keys (indices) for each index in the array.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ array.keys();
 
 - A new array iterator object containing the keys (indices) of the array.
 
-## Example 1: Using `.keys()` to get array indices
+## Example 1: Using `.keys()` to Get Array Indices
 
 In this example, the `.keys()` method creates an iterator over the indices of the array:
 
@@ -43,7 +43,7 @@ for (const cat of catsIterator) {
 }
 ```
 
-This produces the following output:
+Here is the output:
 
 ```shell
 0
@@ -51,7 +51,7 @@ This produces the following output:
 2
 ```
 
-Example 2: Converting the `.keys()` iterator to an array
+## Example 2: Converting the `.keys()` Iterator to an Array
 
 In this example, the spread operator (`...`) with `.keys()` is used to convert the index iterator into a full array of indices:
 
@@ -63,16 +63,16 @@ console.log('Array indices: ', indices);
 console.log('First index: ', indices[0]);
 ```
 
-This produces the following output:
+Here is the output:
 
 ```shell
 Array indices:  [0, 1, 2]
 First index:  0
 ```
 
-## Codebyte Example: Using `.keys()` with sparse arrays
+## Codebyte Example: Using `.keys()` with Sparse Arrays
 
-In this example, `.keys()` is used on a sparse array. Even though some elements are missing, `.keys()` still returns all valid indices:
+In this codebyte example, `.keys()` is used on a sparse array. Even though some elements are missing, `.keys()` still returns all valid indices:
 
 ```codebyte/javascript
 const sparseArray = ['Lia', , 'ny', , '💖'];
