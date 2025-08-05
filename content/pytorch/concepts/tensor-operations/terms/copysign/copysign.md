@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Torch's **`.copysign()`** function creates a new tensor by combining the magnitude of the first input with the sign of the second input, element-wise.
+PyTorch's **`.copysign()`** function creates a new tensor by combining the magnitude of the first input with the sign of the second input, element-wise.
 
 > **Note:** If the first input contains booleans, they are cast to floats (`True` becomes `1.0`, `False` becomes `0.0`). `-0.0` or `-0` in the second input is treated as a negative sign, while `0.0` or `0` is treated as positive, and these signs are preserved when copied.
 
@@ -29,7 +29,7 @@ torch.copysign(input, other, *, out=None)
 - `other` (Tensor): The tensor whose sign will be copied to input. Must be broadcastable to the shape of `input`.
 - `out` (Tensor, optional): The tensor to store the output. Must have the same shape as the broadcasted result.
 
-> **Note:** The tensors must be [broadcastable](https://www.codecademy.com/resources/docs/numpy/array-broadcasting) in order to perform the operation. Otherwise this will result in a **RuntimeError**.
+> **Note:** The tensors must be [broadcastable](https://www.codecademy.com/resources/docs/numpy/array-broadcasting) in order to perform the operation. Otherwise, this will result in a `RuntimeError`.
 
 **Return value:**
 
@@ -37,7 +37,7 @@ A tensor where each element has the absolute value of the corresponding element 
 
 ## Example 1
 
-This example shows how to copy signs from the `signs` tensor to the `magnitudes` tensor using `torch.copysign()`:
+This example shows how to copy signs from the `signs` tensor to the `magnitudes` tensor using `.copysign()`:
 
 ```py
 import torch
@@ -51,7 +51,7 @@ result = torch.copysign(magnitudes, signs)
 print(result)
 ```
 
-The output of this code is as follows:
+The output of this code is:
 
 ```shell
 tensor([-5., 1., 8.])
@@ -78,7 +78,7 @@ result = torch.copysign(magnitudes, signs)
 print("\nResult:\n", result)
 ```
 
-The output of this code is as follows:
+The output of this code is:
 
 ```shell
 Magnitudes:
