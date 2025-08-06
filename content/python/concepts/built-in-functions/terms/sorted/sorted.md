@@ -1,6 +1,6 @@
 ---
 Title: 'sorted()'
-Description: 'Takes in an iterator object, such as a list, tuple, dictionary, set, or string, and sorts it according to a parameter.'
+Description: 'Returns a new sorted list from the elements of any iterable, without modifying the original.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-In Python, the **`sorted()`** [function](https://www.codecademy.com/resources/docs/python/functions) takes in an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object, such as a [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries), [set](https://www.codecademy.com/resources/docs/python/sets), or [string](https://www.codecademy.com/resources/docs/python/strings), and sorts it according to a parameter. This function is versatile, easy to use, and supports custom sorting logic using optional parameters.
+Python's **`sorted()`** [function](https://www.codecademy.com/resources/docs/python/functions) takes in an [iterable](https://www.codecademy.com/resources/docs/python/iterators) object, such as a [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries), [set](https://www.codecademy.com/resources/docs/python/sets), or [string](https://www.codecademy.com/resources/docs/python/strings), and sorts it according to a parameter. This function is versatile, easy to use, and supports custom sorting logic using optional parameters.
 
 ## Python `sorted()` Syntax
 
@@ -24,7 +24,7 @@ sorted(iterable, key=None, reverse=False)
 
 **Parameters:**
 
-- `iterable` (Required): The sequence (list, tuple, string, dictionary, etc.) to be sorted.
+- `iterable`: The sequence (list, tuple, string, dictionary, etc.) to be sorted.
 - `key` (Optional): A function that acts as a sorting key.
 - `reverse` (Optional): If `True`, the result is sorted in descending order.
 
@@ -32,7 +32,7 @@ sorted(iterable, key=None, reverse=False)
 
 Returns a list that includes the elements in the iterable in sorted order.
 
-## Example 1: Sorting a List Using `sorted()`
+## Example 1: Sorting a List Using `sorted()` Function in Python
 
 This example uses `sorted()` to sort the `my_list` list:
 
@@ -68,7 +68,7 @@ Here is the output:
 [7, 6, 5, 4, 3, 2, 1]
 ```
 
-## Codebyte Example: Using `sorted()` with a Key
+## Codebyte Example: Using Python's `sorted()` with a Key
 
 This codebyte example uses `sorted()` with the `key` parameter set to `len` to sort the `words` list based on the length of its items:
 
@@ -91,6 +91,6 @@ print(sorted_words)
 
 Yes, you can set the `reverse` parameter in `sorted()` to `True` to sort in descending order.
 
-### 3. What types of iterables can be used with `sorted()`?
+### 3. Does `sorted()` always return a list?
 
-You can sort lists, tuples, strings, dictionaries, and any other iterable using `sorted()`.
+Yes, no matter what iterable you pass in—whether it’s a string, tuple, set, or dictionary, `sorted()` always returns a new list containing the sorted elements. It never returns the same type as the input.
