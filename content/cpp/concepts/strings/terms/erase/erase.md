@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.erase()`** method is a built-in member function of the C++ `std::string` class that removes characters from a string object. It provides several overloaded versions to delete specific characters, ranges of characters, or clear the entire string, effectively shortening the string's length and modifying the original string in place.
+The **`.erase()`** method is a built-in member function of the C++ `string` class that removes characters from a string object. It provides several overloaded versions to delete specific characters, ranges of characters, or clear the entire string, effectively shortening the string's length and modifying the original string in place.
 
 ## Syntax
 
@@ -29,11 +29,11 @@ string.erase(first, last)
 
 **Parameters:**
 
-- `pos`: Position (index) of the first character to be erased (0-based indexing)
-- `len`: Number of characters to erase from the starting position
-- `iterator`: Iterator pointing to the character to be removed
-- `first`: Iterator pointing to the first character in the range to be erased
-- `last`: Iterator pointing to one position past the last character in the range
+* `pos`: Position (index) of the first character to be erased (0-based indexing)
+* `len`: Number of characters to erase from the starting position
+* `iterator`: Iterator pointing to the character to be removed
+* `first`: Iterator pointing to the first character in the range to be erased
+* `last`: Iterator pointing to one position past the last character in the range
 
 **Return value:**
 
@@ -47,13 +47,15 @@ This example demonstrates removing a single character from a specific position i
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 int main() {
-  std::string text = "Hello World!";
+  string text = "Hello World!";
 
   // Remove the character at index 5 (space character)
   text.erase(5, 1);
 
-  std::cout << text << std::endl;
+  cout << text << endl;
 
   return 0;
 }
@@ -75,17 +77,19 @@ This example shows how `.erase()` can be used in a real-world text processing sc
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 int main() {
-  std::string userInput = "user@email.com###";
+  string userInput = "user@email.com###";
 
   // Find and remove trailing special characters
   size_t hashPos = userInput.find('#');
-  if (hashPos != std::string::npos) {
+  if (hashPos != string::npos) {
     // Erase everything from the first '#' to the end
     userInput.erase(hashPos);
   }
 
-  std::cout << "Cleaned email: " << userInput << std::endl;
+  cout << "Cleaned email: " << userInput << endl;
 
   return 0;
 }
@@ -107,21 +111,23 @@ This example shows using `.erase()` with iterators to remove specific words from
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 int main() {
-  std::string sentence = "This is a very long sentence";
+  string sentence = "This is a very long sentence";
 
   // Find the word "very " and remove it
   size_t pos = sentence.find("very ");
-  if (pos != std::string::npos) {
+  if (pos != string::npos) {
     // Remove "very " (5 characters including space)
     sentence.erase(pos, 5);
   }
 
-  std::cout << "Modified sentence: " << sentence << std::endl;
+  cout << "Modified sentence: " << sentence << endl;
 
   // Clear the entire string using erase()
   sentence.erase();
-  std::cout << "String length after clearing: " << sentence.length() << std::endl;
+  cout << "String length after clearing: " << sentence.length() << endl;
 
   return 0;
 }
@@ -136,7 +142,7 @@ This example shows both selective word removal and complete string clearing, dem
 Use the `.erase()` method without any parameters to clear the entire string:
 
 ```cpp
-std::string text = "Hello World";
+string text = "Hello World";
 text.erase(); // Clears the entire string
 ```
 
@@ -150,11 +156,13 @@ To remove all spaces from a string, you can use `.erase()` in combination with a
 #include <algorithm>
 #include <string>
 
-std::string text = "Hello World Example";
-text.erase(std::remove(text.begin(), text.end(), ' '), text.end());
+using namespace std;
+
+string text = "Hello World Example";
+text.erase(remove(text.begin(), text.end(), ' '), text.end());
 // Result: "HelloWorldExample"
 ```
 
 ### 3. What happens if I use an invalid index with `.erase()`?
 
-If you provide an index that exceeds the string length, `.erase()` throws a `std::out_of_range` exception. Always ensure the position is within valid bounds (0 to `string.length()-1`) before calling `.erase()`.
+If you provide an index that exceeds the string length, `.erase()` throws a `out_of_range` exception. Always ensure the position is within valid bounds (0 to `string.length()-1`) before calling `.erase()`.
