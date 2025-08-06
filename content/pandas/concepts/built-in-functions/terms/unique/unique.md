@@ -1,6 +1,6 @@
 ---
 Title: '.unique()'
-Description: 'Returns a NumPy array containing all the unique elements in a data series, with no specific order.'
+Description: 'Returns a NumPy array of the unique values in the order they appear in the Series.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The Pandas **`.unique()`** function returns a [NumPy array](https://www.codecademy.com/resources/docs/numpy/ndarray) containining all the unique elements in a data series, with no specific order. It operates similarly to [NumPy](https://www.codecademy.com/resources/docs/numpy) `.unique()`, but is notably faster, especially with large datasets, and it also includes `NaN` values.
+The Pandas **`.unique()`** function returns a [NumPy array](https://www.codecademy.com/resources/docs/numpy/ndarray) containing all the unique elements in a data series, with no specific order. It operates similarly to [NumPy's](https://www.codecademy.com/resources/docs/numpy) `.unique()`, but can be more efficient for large Series with repeated elements, and it also includes `NaN` values.
 
 ## Pandas `.unique()` Syntax
 
@@ -28,7 +28,7 @@ The `.unique()` function takes no parameters.
 
 **Return value:**
 
-Returns a NumPy array containining all the unique elements in the given data series.
+Returns a NumPy array containing the unique values from a Pandas Series, in the order they appear.
 
 ## Example 1: Basic Usage of `.unique()`
 
@@ -38,9 +38,7 @@ In this example, `.unique()` is used to return all the unique elements in `serie
 import pandas as pd
 
 series = pd.Series([3, -1, 5, -1, 2, 1, 3, 2, 1, 5, -2, 1, 2])
-
 unique_elements = series.unique()
-
 print(unique_elements)
 ```
 
@@ -102,16 +100,7 @@ df['column_name'].unique()
 - `.unique()` returns a NumPy array of the unique values.
 - `.nunique()` returns the count of unique values.
 
-### 3. Can I get unique values across multiple columns using `.unique()`?
+### 3. What is the difference between `.unique()` and `.drop_duplicates()` in Pandas?
 
-Not directly with `.unique()`, but you can use `.drop_duplicates()` or combine the columns:
-
-```py
-df[['col1', 'col2']].drop_duplicates()
-```
-
-Or for a single array of unique combinations:
-
-```py
-df[['col1', 'col2']].drop_duplicates().values
-```
+- `.unique()` is used on a single Series and returns a NumPy array of unique values in the order they appear.
+- `.drop_duplicates()` is used on a Series or DataFrame and returns a Pandas object (Series or DataFrame) with duplicate rows or values removed.
