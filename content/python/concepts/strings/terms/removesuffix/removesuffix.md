@@ -13,7 +13,7 @@ CatalogContent:
 ---
 # removesuffix()
 
- **removesuffix()** is a Python method that removes a specified suffix from a string. This method is helpful when you want to remove any unwanted parts of your string.It is case sensitive.
+ **removesuffix()** is a Python method that removes a specified suffix from a string. This method is helpful when you want to remove any unwanted parts of your string. It is case sensitive.
 
 ## Syntax 
 
@@ -37,7 +37,7 @@ The output would look like this:
 ```
 Cat Store
 ```
-This method can also be used to remove an ending of a string.
+The suffix can also be specified as the ending of a string.
 ```py
 quote = 'Do or do not, there is no try (Yoda)'
 
@@ -45,7 +45,7 @@ quote.removesuffix('there is no try')
 
 print(quote)
 ```
-The output for this would look like this:
+The output for this code would look like this:
 
 ```
 Do or do not,
