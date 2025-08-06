@@ -1,5 +1,5 @@
 ---
-Title: 'max_load_factor()'
+Title: 'max-load-factor()'
 Description: 'Gets or sets the maximum average number of elements per bucket before rehashing occurs in an unordered map.'
 Subjects:
   - 'Computer Science'
