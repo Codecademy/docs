@@ -76,7 +76,7 @@ In this code:
 
 An illustration of how hierarchical inheritance is structured:
 
-```
+```plaintext
         +-------------+
         |   Animal    |
         |-------------|
@@ -123,4 +123,4 @@ print(d.feature())    # Specific to Desktop
 - **Cleaner structure**: Each subclass can focus on its unique behavior.
 - **Expandable design**: New types can be introduced without modifying existing code.
 
-> Choose hierarchical inheritance when multiple types share common features but diverge in implementation.
+> Choose hierarchical inheritance when multiple types share standard features but diverge in implementation.
