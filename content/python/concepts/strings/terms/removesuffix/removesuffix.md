@@ -11,3 +11,7 @@ CatalogContent:
  - 'learn-python-3'
  - 'paths/computer-science'
 ---
+# removesuffix()
+
+ **removesuffix()** is a Python method that removes a specified suffix from a string. It is case sensitive.
+
