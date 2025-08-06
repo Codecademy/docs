@@ -9,13 +9,12 @@ Tags:
   - 'Collections'
   - 'Data Structures'
   - 'Methods'
-  - 'Queues'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The **`.peek()`** method retrieves the head element of a [Queue](https://www.codecademy.com/resources/docs/java/queue) without removing it from the queue. If the queue is empty, it returns `null` instead of throwing an exception. This makes it a safe way to check what element is next in line without modifying the queue structure.
+In Java, the **`.peek()`** method retrieves the head element of a queue without removing it from the queue. If the queue has no elements, it returns `null` instead of throwing an exception. This makes it a safe way to check what element is next in line without modifying the queue structure.
 
 ## Syntax
 
@@ -23,11 +22,11 @@ The **`.peek()`** method retrieves the head element of a [Queue](https://www.cod
 queueName.peek()
 ```
 
-**Return value:** 
+**Return value:**
 
 Retrieves the head of the queue without removing it. Returns `null` if the queue is empty.
 
-## Example 1: Usage of `.peek()` Method
+## Example 1: Basic Usage of `.peek()`
 
 This example demonstrates how `.peek()` is used to inspect the next element without removing it from the queue:
 
@@ -39,22 +38,22 @@ public class Main {
   public static void main(String[] args) {
     // Create a queue for customer service
     Queue<String> customerQueue = new LinkedList<>();
-    
+
     // Add customers to the queue
     customerQueue.offer("Alice");
     customerQueue.offer("Bob");
     customerQueue.offer("Charlie");
-    
+
     System.out.println("Queue: " + customerQueue);
-    
+
     // Peek at the next customer without removing them
     String nextCustomer = customerQueue.peek();
     System.out.println("Next customer to be served: " + nextCustomer);
-    
+
     // Queue remains unchanged after peek
     System.out.println("Queue after peek: " + customerQueue);
     System.out.println("Queue size: " + customerQueue.size());
-    
+
     // Serve the customer
     String servedCustomer = customerQueue.poll();
     System.out.println("Served customer: " + servedCustomer);
@@ -87,28 +86,28 @@ import java.util.LinkedList;
 public class EmptyQueueHandling {
   public static void main(String[] args) {
     Queue<String> messageQueue = new LinkedList<>();
-    
+
     // Peek at empty queue
     String result = messageQueue.peek();
     System.out.println("Peek on empty queue: " + result);
     System.out.println("Queue is empty: " + messageQueue.isEmpty());
-    
+
     // Add some messages
     messageQueue.offer("Welcome message");
     messageQueue.offer("Alert notification");
-    
+
     // Peek at non-empty queue
     String nextMessage = messageQueue.peek();
     System.out.println("Next message: " + nextMessage);
-    
+
     // Process all messages while checking what's next
     while (!messageQueue.isEmpty()) {
       String current = messageQueue.peek();
       System.out.println("About to process: " + current);
-      
+
       String processed = messageQueue.poll();
       System.out.println("Processed: " + processed);
-      
+
       // Check if there are more messages
       String upcoming = messageQueue.peek();
       if (upcoming != null) {
