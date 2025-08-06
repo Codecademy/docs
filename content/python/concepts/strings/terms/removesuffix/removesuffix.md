@@ -24,7 +24,7 @@ CatalogContent:
 
 ## Example
 
-This method can be used for a string that has a distinct suffix separated by punctuation like **(.)**.
+This method can be used for a string whose suffix is distinct and separated by punctuation like **(.)**.
 
 ```py
 file_type = "Cat Store.docx"
@@ -39,7 +39,7 @@ Cat Store
 ```
 The suffix can also be specified as the ending of a string.
 ```py
-quote = 'Do or do not, there is no try (Yoda)'
+quote = 'Do or do not, there is no try (Yoda).'
 
 quote.removesuffix('there is no try')
 
@@ -49,6 +49,20 @@ The output for this code would look like this:
 
 ```
 Do or do not,
+```
+Here's an example demonstrating that roundsuffix() is case-sensitive:
+
+```py
+statement = "And when I silently snuck up on my mom, I jumped up and exclaimed 'BOO!'"
+
+statement.roundsuffix('Boo!')
+
+print(statement)
+
+```
+Here's the output:
+```
+And when I silently snuck up on my mom, I jumped up and exclaimed 'BOO!'
 ```
 
 
