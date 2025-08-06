@@ -93,7 +93,7 @@ West    A          150
 Name: Sales, dtype: int64
 ```
 
-## Codebyte Example: Using Aggregate Functions with `.groupby()`
+## Codebyte Example: Using Aggregate Functions with Python's `.groupby()`
 
 This codebyte example uses `.groupby()` to group the data and then applies aggregate functions on the grouped data:
 
@@ -115,25 +115,27 @@ print(result)
 
 ## Frequently Asked Questions
 
-### 1. What does `as_index=False` do in `.groupby()`?
+### 1. When should I use `groupby` in Pandas?
 
-`as_index=False` in `.groupby()` prevents the grouped keys from becoming the index of the resulting DataFrame.
+Use `groupby` when you want to split data into groups, apply a function, and combine results. Common operations include computing aggregates like sum, mean, or count per category.
 
-### 2. How to filter groups based on a condition?
+### 2. Is Pandas `groupby` slow?
 
-Use `.filter()` after `.groupby()`:
+It can be slow for large datasets, especially if:
 
-```py
-filtered = df.groupby('Region').filter(lambda x: x['Sales'].sum() > 500)
-```
+- You’re grouping by multiple columns.
+- The dataset doesn’t fit in memory.
+- You're applying custom Python functions instead of built-ins.
 
-### 3. Can I use custom functions with `.groupby()`?
+For most medium-sized tasks, it's fast enough. For massive data, look into more efficient libraries like Polars or Dask.
 
-Yes, you can define your own functions and use them with `.groupby()` with the help of `.apply()` or `.agg()`:
+### 3. Is Polars `groupby` faster than Pandas?
 
-```py
-def range_func(x):
-  return x.max() - x.min()
+Yes, often much faster. Polars is built in Rust and optimized for speed and parallelism. It can handle larger-than-memory data better and is ideal for performance-critical data tasks.
 
-result = df.groupby('Region')['Sales'].agg(['sum', range_func])
-```
+Example speed difference:
+
+- Pandas: single-threaded.
+- Polars: multi-threaded, faster `groupby` and aggregation.
+
+If performance is a bottleneck, switching to Polars is worth considering.
