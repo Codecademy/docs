@@ -23,7 +23,7 @@ unordered_mapName.max_load_factor(value);  // Setter
 
 **Parameters:**
 
-* `value` (optional): A `float` specifying the new maximum load factor. Must be greater than 0.
+- `value` (optional): A `float` specifying the new maximum load factor. Must be greater than 0.
 
 **Return value:**
 
@@ -105,7 +105,7 @@ int main() {
 
 ## Frequently asked questions
 
-### 1. What is the default `max_load_factor` for an unordered\_map?
+### 1. What is the default `max_load_factor` for an unordered_map?
 
 It's usually `1.0`, meaning one element per bucket on average before rehashing is triggered.
 
