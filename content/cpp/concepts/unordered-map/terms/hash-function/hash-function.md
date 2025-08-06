@@ -5,14 +5,14 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'STL'
   - 'Hash Maps'
+  - 'STL'
 CatalogContent:
   - 'learn-cpp'
   - 'paths/computer-science'
 ---
 
-The **`unordered_map::hash_function()`** method returns a function object that the container uses to hash keys. This function determines which bucket an element will be placed in. By default, it uses `std::hash<Key>`, but it can be customized when the map is declared.
+The **`unordered_map::hash_function()`** method returns a function object the container uses to hash keys. This function determines which bucket an element will be placed in. By default, it uses `std::hash<Key>`, but it can be customized when the map is declared.
 
 ## Syntax
 
@@ -101,7 +101,7 @@ int main() {
 }
 ```
 
-For integer keys, the hash function often returns the value itself, as integers map cleanly to buckets.
+The hash function often returns the value itself for integer keys, as integers map cleanly to buckets.
 
 ## Frequently asked questions
 
