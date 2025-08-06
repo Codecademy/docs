@@ -29,11 +29,11 @@ string.erase(first, last)
 
 **Parameters:**
 
-* `pos`: Position (index) of the first character to be erased (0-based indexing)
-* `len`: Number of characters to erase from the starting position
-* `iterator`: Iterator pointing to the character to be removed
-* `first`: Iterator pointing to the first character in the range to be erased
-* `last`: Iterator pointing to one position past the last character in the range
+- `pos`: Position (index) of the first character to be erased (0-based indexing)
+- `len`: Number of characters to erase from the starting position
+- `iterator`: Iterator pointing to the character to be removed
+- `first`: Iterator pointing to the first character in the range to be erased
+- `last`: Iterator pointing to one position past the last character in the range
 
 **Return value:**
 
