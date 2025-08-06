@@ -76,9 +76,9 @@ This example uses `.MIN_VALUE` to ignore balances that are too tiny to count as 
 const balance = 0.0000000000000000000000001;
 
 if (balance < Number.MIN_VALUE) {
-  console.log("Balance is effectively zero");
+  console.log('Balance is effectively zero');
 } else {
-  console.log("Balance is non-zero");
+  console.log('Balance is non-zero');
 }
 ```
 
