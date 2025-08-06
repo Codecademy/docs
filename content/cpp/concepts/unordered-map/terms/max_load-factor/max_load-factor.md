@@ -23,7 +23,7 @@ unordered_mapName.max_load_factor(value);  // Setter
 
 **Parameters:**
 
-- `value` (optional): A `float` specifying the new maximum load factor. Must be greater than 0.
+* `value` (optional): A `float` specifying the new maximum load factor. Must be greater than 0.
 
 **Return value:**
 
@@ -37,9 +37,11 @@ This example prints the default max load factor of an unordered map:
 #include <iostream>
 #include <unordered_map>
 
+using namespace std;
+
 int main() {
-  std::unordered_map<int, int> myMap;
-  std::cout << "Default max load factor: " << myMap.max_load_factor() << std::endl;
+  unordered_map<int, int> myMap;
+  cout << "Default max load factor: " << myMap.max_load_factor() << endl;
   return 0;
 }
 ```
@@ -60,11 +62,13 @@ This example increases the max load factor to reduce the frequency of rehashing 
 #include <iostream>
 #include <unordered_map>
 
+using namespace std;
+
 int main() {
-  std::unordered_map<int, int> data;
+  unordered_map<int, int> data;
   data.max_load_factor(2.5);
 
-  std::cout << "New max load factor: " << data.max_load_factor() << std::endl;
+  cout << "New max load factor: " << data.max_load_factor() << endl;
   return 0;
 }
 ```
@@ -85,21 +89,23 @@ This example sets a lower load factor to prioritize faster lookups in a time-cri
 #include <iostream>
 #include <unordered_map>
 
+using namespace std;
+
 int main() {
-  std::unordered_map<std::string, int> wordCount;
+  unordered_map<string, int> wordCount;
   wordCount.max_load_factor(0.5);
 
   wordCount["optimize"] = 1;
   wordCount["speed"] = 2;
 
-  std::cout << "Load factor set for quick access: " << wordCount.max_load_factor() << std::endl;
+  cout << "Load factor set for quick access: " << wordCount.max_load_factor() << endl;
   return 0;
 }
 ```
 
 ## Frequently asked questions
 
-### 1. What is the default `max_load_factor` for an unordered_map?
+### 1. What is the default `max_load_factor` for an unordered\_map?
 
 It's usually `1.0`, meaning one element per bucket on average before rehashing is triggered.
 
