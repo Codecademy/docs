@@ -33,7 +33,7 @@ Returns an `ndarray` view of the original array with `axis1` and `axis2` interch
 
 ## Example
 
-The following example creates a 2D array and then swaps its axes:
+This example creates a 2D array and then swaps its axes using `.swapaxes()`:
 
 ```py
 import numpy as np
@@ -43,7 +43,7 @@ swapped_arr = arr.swapaxes(0, 1)
 print(swapped_arr)
 ```
 
-The code above generates the following output: 
+Here is the output:
 
 ```shell
 [[1 4]
@@ -53,7 +53,7 @@ The code above generates the following output:
 
 ## Codebyte Example
 
-The following codebyte example demonstrates the use of `.swapaxes()` on a 3D array.
+This codebyte example demonstrates the use of `.swapaxes()` on a 3D array:
 
 ```codebyte/python
 import numpy as np
