@@ -26,7 +26,7 @@ The `hash_function()` method takes no parameters.
 
 **Return value:**
 
-Returns the hash function used by the unordered\_map. The return type is the function object used for hashing keys.
+Returns the hash function used by the unordered_map. The return type is the function object used for hashing keys.
 
 ## Example 1: Default hash function
 
@@ -79,7 +79,7 @@ int main() {
 The output of the code is:
 
 ```shell
-Hash for 'apple': 7562681486644061055  
+Hash for 'apple': 7562681486644061055
 Hash for 'banana': 680920345727384150
 ```
 
@@ -111,14 +111,14 @@ The hash function often returns the value itself for integer keys, as integers m
 
 ## Frequently asked questions
 
-### 1. Can a custom hash function be used in unordered\_map?
+### 1. Can a custom hash function be used in unordered_map?
 
 Yes. A user-defined hash function can be passed as a template parameter when defining the map.
 
-### 2. Is hash\_function() always std::hash?
+### 2. Is hash_function() always std::hash?
 
-By default, yes. But if a custom hash is provided during map declaration, hash\_function() returns that.
+By default, yes. But if a custom hash is provided during map declaration, hash_function() returns that.
 
-### 3. When is hash\_function() useful?
+### 3. When is hash_function() useful?
 
 When debugging or when needing to understand how keys are being distributed across buckets internally.
