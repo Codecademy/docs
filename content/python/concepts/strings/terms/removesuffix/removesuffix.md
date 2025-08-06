@@ -15,3 +15,14 @@ CatalogContent:
 
  **removesuffix()** is a Python method that removes a specified suffix from a string. It is case sensitive.
 
+## Syntax 
+
+ ```py
+ string_name.removesuffix(suffix) 
+ ```
+ **string_name** is the string's variable name and **suffix** is the specified part you want to remove.
+
+
+
+
+  
