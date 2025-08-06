@@ -6,8 +6,8 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Const'
-  - 'Numbers'
   - 'JavaScript'
+  - 'Numbers'
 CatalogContent:
   - 'learn-javascript'
   - 'paths/computer-science'
