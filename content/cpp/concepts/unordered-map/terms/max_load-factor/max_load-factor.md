@@ -17,8 +17,8 @@ The **`unordered_map::max_load_factor`** function in C++ is used to get or set t
 ## Syntax
 
 ```cpp
-unordered_mapName.max_load_factor();        // Getter
-unordered_mapName.max_load_factor(value);   // Setter
+unordered_mapName.max_load_factor();  // Getter
+unordered_mapName.max_load_factor(value);  // Setter
 ```
 
 **Parameters:**
