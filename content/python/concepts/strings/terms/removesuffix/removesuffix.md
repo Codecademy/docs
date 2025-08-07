@@ -64,7 +64,18 @@ Here's the output:
 ```
 And when I silently snuck up on my mom, I jumped up and exclaimed 'BOO!'
 ```
+## Codebyte
 
+```codebyte/python 3
+famoussaying1 = "For Narnia and for Aslan!!! (Peter, The Lion, The Witch, and The Wardrobe)"
+famoussaying2 = "You were my brother Anakin! I loved you! (Obi Wan, Revenge of the Sith)"
+
+quote1 = famoussaying1.removesuffix("Aslan")
+quote2 = famoussaying2.removesuffix("I loved you!")
+
+print(quote1)
+print(quote2)
+```
 
 
 
