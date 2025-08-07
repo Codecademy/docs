@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.isEmpty()`** method is a built-in method of the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface in Java that returns `true` if the queue contains no elements, and `false` otherwise. This method is inherited from the [`Collection`](https://www.codecademy.com/resources/docs/java/collection) interface and provides a convenient way to check if a queue is empty before performing operations that require elements. The method has O(1) time complexity in most implementations, making it an efficient way to validate queue state.
+The **`.isEmpty()`** method is an inbuilt method of the `Queue` interface in Java that returns `true` if the queue contains no elements, and `false` otherwise. It is inherited from the [`Collection`](https://www.codecademy.com/resources/docs/java/collection) interface and provides a convenient way to check if a queue is empty before performing operations that require elements. The method has O(1) time complexity in most implementations, making it an efficient way to validate queue state.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ queueName.isEmpty()
 
 **Parameters:**
 
-- The `.isEmpty()` method does not take any parameters.
+- The `.isEmpty()` method does not accept any parameters.
 
 **Return value:**
 
@@ -33,16 +33,7 @@ The `.isEmpty()` method returns a `boolean` value:
 - `true` if the queue contains no elements
 - `false` if the queue contains one or more elements
 
-## When to Use `.isEmpty()`
-
-The `.isEmpty()` method is particularly useful in the following scenarios:
-
-1. **Before polling elements**: To avoid `null` returns or exceptions
-2. **In loop conditions**: To process all elements safely
-3. **Validation checks**: Before performing operations that require elements
-4. **Algorithm implementations**: In data structure algorithms and queue-based solutions
-
-## Example 1: Basic Usage of `.isEmpty()` Method
+## Example 1: Basic Usage of `.isEmpty()`
 
 In this example, `.isEmpty()` is used to check if a queue is empty before and after adding elements:
 
