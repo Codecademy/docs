@@ -48,7 +48,7 @@ print(quote)
 The output for this code would look like this:
 
 ```
-Do or do not,
+Do or do not, (Yoda).
 ```
 Here's an example demonstrating that roundsuffix() is case-sensitive:
 
