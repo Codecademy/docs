@@ -6,20 +6,20 @@ Subjects:
   - 'Web Development'
 Tags:
   - 'Integers'
-  - 'Numbers'
   - 'JavaScript'
+  - 'Numbers'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`Number.MIN_SAFE_INTEGER`** property is a static constant that represents the smallest safe integer in JavaScript: `-(2^53 - 1)` or `-9007199254740991`. JavaScript uses the IEEE-754 double-precision format for all numbers, meaning not all integers can be represented exactly. A safe integer is one that:
+In JavaScript, the **`.MIN_SAFE_INTEGER`** property is a static constant that represents the smallest safe integer in JavaScript: `-(2^53 - 1)` or `-9007199254740991`. JavaScript uses the IEEE-754 double-precision format for all numbers, meaning not all integers can be represented exactly. A safe integer is one that:
 
 - Can be precisely represented
 - Doesn’t lose precision during arithmetic
 - Can be accurately compared
 
-Since JavaScript is dynamically typed, all numbers fall under the `Number` type and are treated as floating-point values. `MIN_SAFE_INTEGER` isn’t tied to any variable as it’s accessed directly via `Number.MIN_SAFE_INTEGER`. Values smaller than this limit may suffer from rounding errors or incorrect comparisons due to floating-point precision limits.
+Since JavaScript is dynamically typed, all numbers fall under the `Number` type and are treated as floating-point values. `.MIN_SAFE_INTEGER` isn’t tied to any variable as it’s accessed directly via `.MIN_SAFE_INTEGER`. Values smaller than this limit may suffer from rounding errors or incorrect comparisons due to floating-point precision limits.
 
 ## Syntax
 
@@ -29,7 +29,7 @@ Number.MIN_SAFE_INTEGER
 
 **Parameters:**
 
-`MIN_SAFE_INTEGER` is a static property of the Number object. It's accessed directly without calling a function or passing arguments.
+`.MIN_SAFE_INTEGER` is a static property of the Number object. It's accessed directly without calling a function or passing arguments.
 
 **Return value:**
 
@@ -59,7 +59,7 @@ This demonstrates what happens when values go below the minimum safe integer. Al
 
 ## Codebyte Example
 
-In this example, `Number.isSafeInteger()` is used to check if a value just below the minimum safe integer is still considered safe:
+In this codebyte example, `.isSafeInteger()` is used to check if a value just below the minimum safe integer is still considered safe:
 
 ```codebyte/javascript
 console.log("Minimum safe integer in JavaScript:");
