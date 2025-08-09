@@ -1,44 +1,60 @@
 ---
-Title: 'The Title' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A brief description.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'paths/example-path'
+Title: '.remove()'
+Description: 'Removes and returns the head of the queue; throws an exception if the queue is empty.'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Queues'
+  - 'Collections'
+  - 'Methods'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+The [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface's **`.remove()`** method removes and returns the element at the head (front) of the queue. If the queue is empty, it throws a `NoSuchElementException`.
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+```pseudo
+queue.remove()
+```
+
+- **Receiver**: `queue` is an instance of `Queue<E>` from `java.util`.
+- **Returns**: `E` — the head element.
+- **Throws**: `NoSuchElementException` if the queue is empty.
+
+Note: Do not confuse this with `remove(Object o)`, which is inherited from `Collection` and removes a single matching element from the queue if present.
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+The example below uses a `LinkedList` implementation to demonstrate `.remove()` returning and deleting the head element:
 
-## Codebyte Example (if applicable)
+```java
+import java.util.Queue;
+import java.util.LinkedList;
 
-We can currently support:
+public class RemoveExample {
+  public static void main(String[] args) {
+    Queue<String> queue = new LinkedList<>();
+    queue.offer("Alice");
+    queue.offer("Bob");
+    queue.offer("Charlie");
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+    System.out.println("Queue before remove: " + queue);
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+    String head = queue.remove(); // removes and returns "Alice"
+    System.out.println("Removed head: " + head);
+    System.out.println("Queue after remove: " + queue);
+  }
+}
+```
 
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+This results in the following output:
+
+```shell
+Queue before remove: [Alice, Bob, Charlie]
+Removed head: Alice
+Queue after remove: [Bob, Charlie]
 ```
