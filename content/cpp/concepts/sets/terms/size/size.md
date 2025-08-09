@@ -67,7 +67,7 @@ The average of the integers in the set is: 25
 
 ## Codebyte Example
 
-The following Codebyte example creates a `grades` set of type `int`, inserts several values, and prints the number of elements:
+This codebyte example creates a `grades` set of type `int`, inserts several values, and prints the number of elements:
 
 ```codebyte/cpp
 #include <iostream>
