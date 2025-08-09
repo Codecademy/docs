@@ -88,8 +88,8 @@ else:
 
 # Approach 2
 
-result = phrase.removeprefix(prefix)
-print(result.strip())
+result2 = phrase.removeprefix(prefix)
+print(result2.strip())
 ```
 
 The `.removeprefix()` method is a more concise way to remove the prefix, eliminating the need for manual slicing.
