@@ -64,6 +64,7 @@ The output of this code is:
 ```shell
 EmployeeID | FirstName | LastName | Age
 1          | John      | Adams    | 28
+3          | Mike      | Davis    | 42
 4          | Emma      | Johnson  | 29
 6          | Lisa      | Wilson   | 25
 ```
