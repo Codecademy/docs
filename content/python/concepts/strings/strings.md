@@ -25,7 +25,7 @@ message1 = "I am a string"
 message2 = 'I am also a string'
 ```
 
-Other [data types](https://www.codecademy.com/resources/docs/python/data-types) such as integers, doubles, and booleans can also be strings if they are wrapped in quotes:
+Other [data types](https://www.codecademy.com/resources/docs/python/data-types) such as integers, float, and booleans can also be strings if they are wrapped in quotes:
 
 | Example                    | String? |
 | -------------------------- | ------- |
@@ -36,11 +36,11 @@ Other [data types](https://www.codecademy.com/resources/docs/python/data-types) 
 | Hello (no quotes)          | No      |
 | True (boolean)             | No      |
 
-Strings are immutable; they cannot change. Every time an operation is performed on a string, a new string is created in memory.
+Strings are immutable, meaning they cannot change. Every time an operation is performed on a string, a new string is created in memory.
 
 ## Accessing the Characters of a String in Python
 
-A string in Python is technically a type of [list](https://www.codecademy.com/resources/docs/python/lists) — one in which each character is a separate element. This means each character in a string can be individually accessed by index, like with the elements in a list:
+A string in Python is a sequence of characters. Like [lists]((https://www.codecademy.com/resources/docs/python/lists)), strings support indexing and slicing. This means each character in a string can be individually accessed by index, like with the elements in a list:
 
 ```py
 myString = "Hello, World!"
@@ -156,8 +156,8 @@ Python can use comparison operators to compare the contents of two strings. The 
 | :------: | :----------------------: | ---------------------------------------------------------------------------------------- |
 |   `==`   |          Equal           | Returns `True` if two strings are equal.                                                 |
 |   `!=`   |        Not equal         | Returns `True` if two strings are not equal.                                             |
-|   `<`    |        Less than         | Returns `True` if the left string is lexically prior the right string.                   |
-|   `>`    |       Greater than       | Returns `True` is the left string comes lexically after the right string.                |
+|   `<`    |        Less than         | Returns `True` if the left string is lexically prior to the right string.                |
+|   `>`    |       Greater than       | Returns `True` if the left string comes lexically after the right string.                |
 |   `<=`   |  Less than or equal to   | Returns `True` if the left string is equal to or lexically prior to the right string.    |
 |   `>=`   | Greater than or equal to | Returns `True` if the left string is equal to or comes lexically after the right string. |
 
@@ -173,7 +173,7 @@ print(string_one < string_two)
 
 ## Frequently Asked Questions
 
-### 1. How do I concatenate strings in Python?
+### 1. How to concatenate two strings in Python?
 
 You can use the `+` operator or `.join()` method to concatenate strings in Python:
 
@@ -191,7 +191,7 @@ text = "HelloWorld"
 print(text[1:5])  # Output: ello
 ```
 
-### 3. What are some common Python string methods?
+### 3. What are the 4 string functions in Python?
 
 Here are some common Python string methods:
 
