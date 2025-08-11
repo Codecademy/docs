@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`BETWEEN`** operator in SQL filters records within a specified range of values. It simplifies the process of retrieving data that falls between two boundary values, working with numeric, text, and date columns to create inclusive range queries.
 
-## Syntax
+## Syntax of `BETWEEN` operator
 
 ```pseudo
 SELECT column_name(s)
