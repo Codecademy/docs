@@ -1,6 +1,6 @@
 ---
 Title: '.removeprefix()'
-Description: 'Returns a new string with the prefix removed. If the string does not start with the specified prefix, the original string is returned unchanged.'
+Description: 'Returns a copy of a string with the specified prefix removed, if present.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.removeprefix()`** method is a built-in [`string`](https://www.codecademy.com/resources/docs/python/strings) method introduced in Python 3.9. It removes a specified prefix from the beginning of a string, but only if the string starts with that prefix.
+The **`.removeprefix()`** method is a built-in [`string`](https://www.codecademy.com/resources/docs/python/strings) method that returns a new string with the specified prefix removed, if present. If the string does not start with the given prefix, the original string is returned unchanged. This method is case-sensitive and does not modify the original string.
 
 ## Syntax
 
@@ -22,15 +22,15 @@ string.removeprefix(prefix)
 
 **Parameters:**
 
-`prefix` (required): The substring to remove from the beginning of the string.
+`prefix`: The substring to remove from the beginning of the string.
 
 **Return value:**
 
-Returns a new string with the prefix removed. If the string does not start with the specified prefix, the original string is returned unchanged.
+A new string with the prefix removed if it exists, otherwise, the original string.
 
 ## Example 1: Basic Prefix Removal
 
-This example prints the `original_text` variable and the results of using `.removeprefix()` with a matching prefix (`result`), and a non-matching one (`result2`).
+In this example, a matching prefix is removed from a string, or the string is left unchanged if no match is found:
 
 ```py
 original_string = "Python3.9"
@@ -50,9 +50,9 @@ Python3.9
 Python3.9
 ```
 
-## Example 2: Clean File Paths
+## Example 2: Cleaning file paths
 
-In this example, the `.removeprefix()` method is applied to the `absolute_file` variable, using `base_path` as the prefix, and the resulting string is assigned to the `relative_file` variable. Since the `absolute_file` starts with the given prefix, the method removes it successfully. Then, it prints the relative path of the file.
+In this example, a base directory path is stripped from a full file path to get a relative path:
 
 ```py
 base_path = "/home/user/"
@@ -68,28 +68,22 @@ The code will produce this output:
 project/data/file.txt
 ```
 
-## Codebyte Example
+## Example 3: Manual vs built-in removal
 
-In this code example, two approaches to removing a prefix from a string are demonstrated.
-
-The first approach doesn't use the `.removeprefix()` method, instead relying on the [`.startswith()`](https://www.codecademy.com/resources/docs/python/strings/startswith) method in an [`if...else`](https://www.codecademy.com/resources/docs/python/conditionals) statement. If the `phrase` variable starts with the specified prefix, the `result` variable will contain the string without the prefix, which is then printed to the console using the [`.strip()`](https://www.codecademy.com/resources/docs/python/strings/strip) method to remove trailing whitespace. If the condition is false, the original string is printed unchanged. The second approach uses the `.removeprefix()` method:
+In this example, a prefix is removed manually with [`.startswith()`](https://www.codecademy.com/resources/docs/python/strings/startswith) and then using `.removeprefix()` for comparison:
 
 ```codebyte/python
 phrase = "Python is Awesome"
 prefix = "Python"
 
-# Approach 1
-
+# Approach 1: Manual removal
 if phrase.startswith(prefix):
-    result = phrase[len(prefix):]
-    print(result.strip())
+  result = phrase[len(prefix):]
+  print(result.strip())
 else:
-    print(phrase)
+  print(phrase)
 
-# Approach 2
-
+# Approach 2: Using removeprefix()
 result2 = phrase.removeprefix(prefix)
 print(result2.strip())
 ```
-
-The `.removeprefix()` method is a more concise way to remove the prefix, eliminating the need for manual slicing.
