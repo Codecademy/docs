@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.removeprefix()`** method is a built-in [`string`](https://www.codecademy.com/resources/docs/python/strings) method that returns a new string with the specified prefix removed, if present. If the string does not start with the given prefix, the original string is returned unchanged. This method is case-sensitive and does not modify the original string.
+The **`.removeprefix()`** method is a built-in [string](https://www.codecademy.com/resources/docs/python/strings) method that returns a new string with the specified prefix removed, if present. If the string does not start with the given prefix, the original string is returned unchanged. This method is case-sensitive and does not modify the original string.
 
 ## Syntax
 
