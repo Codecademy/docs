@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-In PyTorch, the **`.floor()`** function rounds each element of the input tensor down to the nearest integer, including negative numbers.
+In PyTorch, the **`.floor()`** function rounds each element of the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) down to the nearest integer, including negative numbers.
 
 ## Syntax
 
