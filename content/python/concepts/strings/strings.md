@@ -40,7 +40,7 @@ Strings are immutable, meaning they cannot change. Every time an operation is pe
 
 ## Accessing the Characters of a String in Python
 
-A string in Python is a sequence of characters. Like [lists]((https://www.codecademy.com/resources/docs/python/lists)), strings support indexing and slicing. This means each character in a string can be individually accessed by index, like with the elements in a list:
+A string in Python is a sequence of characters. Like [lists](<(https://www.codecademy.com/resources/docs/python/lists)>), strings support indexing and slicing. This means each character in a string can be individually accessed by index, like with the elements in a list:
 
 ```py
 myString = "Hello, World!"
