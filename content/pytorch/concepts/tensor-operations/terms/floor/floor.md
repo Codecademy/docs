@@ -1,6 +1,6 @@
 ---
 Title: '.floor()'
-Description: 'Rounds each element of the input tensor down to the nearest integer.'
+Description: 'Returns a new tensor with each element rounded down to the nearest integer.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
@@ -12,28 +12,25 @@ CatalogContent:
   - 'learn-python'
   - 'paths/machine-learning'
 ---
-In PyTorch, the **`.floor()`** function rounds each element of the input tensor down to the nearest integer, including negative numbers.(Official documentation: https://docs.pytorch.org/docs/stable/generated/torch.floor.html)
 
+In PyTorch, the **`.floor()`** function rounds each element of the input tensor down to the nearest integer, including negative numbers.
 
 ## Syntax
 
 ```pseudo
 torch.floor(input, *, out=None)
 ```
+
+**Parameters:**
+
 - `input`: The input tensor whose elements will be rounded down.
 - `out` (optional): A tensor to store the output. Must have the same shape as input.
 
-The asterisk * means that `out` must be passed as a keyword argument (e.g., `out=result`) rather than a positional argument.
-```py
-# correct 
-torch.floor(input, out=result)
+**Return value:**
 
-# incorrect 
-torch.floor(input, result)
-```
+Returns a new tensor with each element rounded down to the nearest integer. If out is provided, the result is written there instead.
 
-
-## Example
+## Example 1: Basic Rounding Down with `.floor()`
 
 The following example demonstrates the usage of the `.floor()` function:
 
@@ -42,14 +39,22 @@ import torch
 
 # Define input
 input = torch.randn(4)
-print(input)                    # the .randn() function produces values like: tensor([-0.8166, 1.5308, 5.6701, -1.589])
+print(input)
 
 # Round down to the nearest integer
-output = torch.floor(input)              
-print(output)                   # the .floor() function rounds each value down: tensor([-1., 1., 5., -2.])
+output = torch.floor(input)
+print(output)
 ```
 
-### Using the `out` parameter
+A sample output of this code is:
+
+```shell
+tensor([-0.0032, -0.0333, -0.2857, -1.3986])
+tensor([-1., -1., -1., -2.])
+```
+
+## Example 2: Using the `out` Parameter
+
 This example shows how to use the optional `out` argument to store the results in a pre-allocated tensor:
 
 ```py
@@ -64,5 +69,11 @@ result = torch.empty_like(input)
 # Compute floor and store result in `result` tensor
 torch.floor(input, out=result)
 
-print(result)                   # the values are rounded down: tensor([1., -1., 3.])
+print(result)
+```
+
+The output of this code is:
+
+```shell
+tensor([ 1., -1.,  3.])
 ```
