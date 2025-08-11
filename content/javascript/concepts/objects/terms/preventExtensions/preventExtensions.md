@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`Object.preventExtensions()`** method prevents new properties from being added to an object. Unlike `Object.freeze()` or `Object.seal()`, this method still allows existing properties to be modified or deleted. It returns the same object that was passed to it.
+The **`Object.preventExtensions()`** method prevents new properties from being added to an object. Unlike [`Object.freeze()`](https://www.codecademy.com/resources/docs/javascript/objects/freeze) or `Object.seal()`, this method still allows existing properties to be modified or deleted. It returns the same object that was passed to it.
 
 > **Note:** Once an object is made non-extensible, it cannot be made extensible again. This operation is irreversible.
 
