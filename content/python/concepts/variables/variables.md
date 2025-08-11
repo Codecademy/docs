@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Python **variables** help in storing data that can be used and manipulated throughout a program. Unlike some other languages, Python doesn't require explicit declaration of a variable’s [data type](https://www.codecademy.com/resources/docs/python/data-types). Whether storing a number, a [string](https://www.codecademy.com/resources/docs/python/strings) of text, or even a complex data structure like a [list](https://www.codecademy.com/resources/docs/python/lists), variables act as containers for that information, allowing code to reference and reuse it.
+**Python variables** help in storing data that can be used and manipulated throughout a program. Unlike some other languages, Python doesn't require explicit declaration of a variable’s [data type](https://www.codecademy.com/resources/docs/python/data-types). Whether storing a number, a [string](https://www.codecademy.com/resources/docs/python/strings) of text, or even a complex data structure like a [list](https://www.codecademy.com/resources/docs/python/lists), variables act as containers for that information, allowing code to reference and reuse it.
 
 ## Creating Python Variables
 
