@@ -1,8 +1,8 @@
 ---
-Title: '.roundsuffix()'
-Description: 'Removes a specific suffix from a string'
+Title: '.removesuffix()'
+Description: 'Returns a copy of a string with the specified suffix removed, if present.'
 Subjects: 
- - 'Python'
+ - 'Code Foundations'
  - 'Computer Science'
 Tags: 
  - 'Methods'
@@ -11,72 +11,67 @@ CatalogContent:
  - 'learn-python-3'
  - 'paths/computer-science'
 ---
-# removesuffix()
 
- **removesuffix()** is a Python method that removes a specified suffix from a string. This method is helpful when you want to remove any unwanted parts of your string. It is case sensitive.
+The **`str.removesuffix()`** method returns a new string with the specified suffix removed, if present. If the string does not end with the given suffix, the original string is returned unchanged. This method is case-sensitive and does not modify the original string.
 
 ## Syntax 
 
- ```py
+ ```pseudo
  string_name.removesuffix(suffix) 
  ```
- **string_name** is the string's variable name and **suffix** is the specified part you want to remove.
 
-## Example
+**Parameters:**
 
-This method can be used for a string whose suffix is distinct and separated by punctuation like **(.)**.
+- `suffix`: The string to remove from the end of the original string.
+
+**Return value:**
+
+A new string with the suffix removed if it exists, otherwise, the original string.
+
+## Example 1: Removing a file extension
+
+This method can be used to remove a file extension when the suffix matches exactly:
 
 ```py
 file_type = "Cat Store.docx"
-
-file_type.removesuffix('docx')
-
-print(file_type)
+result = file_type.removesuffix('.docx')
+print(result)
 ```
+
 The output would look like this:
-```
+
+```shell
 Cat Store
 ```
-The suffix can also be specified as the ending of a string.
-```py
-quote = 'Do or do not, there is no try (Yoda).'
 
-quote.removesuffix('there is no try')
+## Example 2: Case sensitivity
 
-print(quote)
-```
-The output for this code would look like this:
-
-```
-Do or do not, (Yoda).
-```
-Here's an example demonstrating that roundsuffix() is case-sensitive:
+`.removesuffix()` is case-sensitive, so, if the case does not match exactly, the suffix is not removed:
 
 ```py
 statement = "And when I silently snuck up on my mom, I jumped up and exclaimed 'BOO!'"
-
-statement.roundsuffix('Boo!')
-
-print(statement)
-
+result = statement.removesuffix('Boo!')
+print(result)
 ```
+
 Here's the output:
-```
+
+```shell
 And when I silently snuck up on my mom, I jumped up and exclaimed 'BOO!'
 ```
-## Codebyte
 
-```codebyte/python 3
-famoussaying1 = "For Narnia and for Aslan!!! (Peter, The Lion, The Witch, and The Wardrobe)"
-famoussaying2 = "You were my brother Anakin! I loved you! (Obi Wan, Revenge of the Sith)"
+## Example 3: Removing text from a sentence
 
-quote1 = famoussaying1.removesuffix("Aslan")
-quote2 = famoussaying2.removesuffix("I loved you!")
+The suffix must match the exact ending of the string, including punctuation:
 
-print(quote1)
-print(quote2)
+```py
+quote = 'Do or do not, there is no try (Yoda).'
+result = quote.removesuffix(' (Yoda).')
+print(result)
 ```
 
+The output for this code would look like this:
 
-
-  
+```shell
+Do or do not, there is no try
+```
