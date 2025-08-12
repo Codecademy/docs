@@ -33,7 +33,7 @@ array.reduce(callback, initialValue)
 
 **Return value:**
 
-The js `.reduce()` method returns the single value that results from running the reducer function to completion over the entire array.
+JavaScript's `.reduce()` method returns the single value that results from running the reducer function to completion over the entire array.
 
 ## Example 1: `array.reduce()` for Basic Sum Calculation
 
