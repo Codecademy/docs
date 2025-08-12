@@ -16,7 +16,7 @@ CatalogContent:
 
 JavaScript's **`.reduce()`** method is an array method that executes a reducer [function](https://www.codecademy.com/resources/docs/javascript/functions) on each element of an [array](https://www.codecademy.com/resources/docs/javascript/arrays), resulting in a single output value. It processes elements from left to right and accumulates values into a single result, making it ideal for operations like calculating sums, finding maximum values, or transforming arrays into objects.
 
-## Syntax
+## Syntax of JavaScript's `reduce()`
 
 ```pseudo
 array.reduce(callback, initialValue)
