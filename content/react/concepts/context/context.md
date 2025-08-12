@@ -30,18 +30,16 @@ The typical setup is:
 
 ## Example 1: Theme Management with React Context
 
-This example demonstrates creating a theme context for managing application-wide color themes:
+This example shows how to create a theme context for switching between light and dark modes across the entire application:
 
 ```jsx
 import React, { createContext, useContext, useState } from 'react';
 
-// Define context type
 interface ThemeContextType {
   theme: 'light' | 'dark';
   toggleTheme: () => void;
 }
 
-// Create context with default value
 const ThemeContext =
   createContext <
   ThemeContextType >
@@ -50,14 +48,13 @@ const ThemeContext =
     toggleTheme: () => {},
   };
 
-// Provider component
 const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
   const [theme, setTheme] = (useState < 'light') | ('dark' > 'light');
 
   const toggleTheme = () => {
-    setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
+    setTheme((previousTheme) => (previousTheme === 'light' ? 'dark' : 'light'));
   };
 
   return (
@@ -67,7 +64,6 @@ const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({
   );
 };
 
-// Consumer component
 const ThemedButton: React.FC = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
@@ -80,6 +76,7 @@ const ThemedButton: React.FC = () => {
         padding: '10px 20px',
         border: 'none',
         borderRadius: '4px',
+        cursor: 'pointer',
       }}
     >
       Switch to {theme === 'light' ? 'dark' : 'light'} theme
@@ -87,11 +84,10 @@ const ThemedButton: React.FC = () => {
   );
 };
 
-// Main app
 const App: React.FC = () => (
   <ThemeProvider>
     <div style={{ padding: '20px' }}>
-      <h1>Theme Example</h1>
+      <h1>Theme Context Example</h1>
       <ThemedButton />
     </div>
   </ThemeProvider>
@@ -104,21 +100,18 @@ The `ThemeContext` holds the current theme and a function to toggle it. `ThemePr
 
 ## Example 2: Sharing User Data with React Context
 
-This example demonstrates sharing user information across components without prop drilling:
+This example shows how to share user information across multiple components without passing props manually through each level:
 
 ```jsx
 import React, { createContext, useContext, useState } from 'react';
 
-// Define user type
 interface User {
   name: string;
   role: string;
 }
 
-// Create context
 const UserContext = (createContext < User) | (null > null);
 
-// Provider
 const UserProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
@@ -133,13 +126,12 @@ const UserProvider: React.FC<{ children: React.ReactNode }> = ({
   return <UserContext.Provider value={user}>{children}</UserContext.Provider>;
 };
 
-// Consumers
 const Header: React.FC = () => {
   const user = useContext(UserContext);
 
   return (
     <header style={{ padding: '1rem', backgroundColor: '#f0f0f0' }}>
-      <h1>Welcome, {user?.name}!</h1>
+      <h1>Welcome, {user?.name || 'Guest'}!</h1>
     </header>
   );
 };
@@ -150,13 +142,12 @@ const UserProfile: React.FC = () => {
   return (
     <div style={{ padding: '1rem' }}>
       <h2>User Profile</h2>
-      <p>Name: {user?.name}</p>
-      <p>Role: {user?.role}</p>
+      <p>Name: {user?.name || 'Not logged in'}</p>
+      <p>Role: {user?.role || 'No role assigned'}</p>
     </div>
   );
 };
 
-// Main app
 const App: React.FC = () => (
   <UserProvider>
     <Header />
