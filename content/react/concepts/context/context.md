@@ -18,9 +18,9 @@ CatalogContent:
 
 Context is implemented using three core React APIs:
 
-- `createContext()`: Creates a new context object that can hold and share data
+- [`createContext()`](https://www.codecademy.com/resources/docs/react/context/createContext): Creates a new context object that can hold and share data
 - `Context.Provider`: A component that supplies the context value to its descendants
-- `useContext()`: A React hook that consumes context values within functional components
+- [`useContext()`](https://www.codecademy.com/resources/docs/react/context/createContext): A React hook that consumes context values within functional components
 
 The typical setup is:
 
