@@ -21,13 +21,13 @@ $$y_i= e^{x_i}-1$$
 ## Syntax
 
 ```pseudo
-torch.expm1()(input, *, out=None) → Tensor
+torch.expm1(input, *, out=None) → Tensor
 ```
 
 Or,
 
 ```pseudo
-torch.special.expm1()(input, *, out=None) → Tensor
+torch.special.expm1(input, *, out=None) → Tensor
 ```
 
 **Parameters:**
@@ -49,7 +49,7 @@ import torch
 # Define a tensor
 x = torch.tensor([0, math.log(2.)])
 
-result = torch.special.expm1()
+result = torch.special.expm1(x)
 
 print(result)
 ```
