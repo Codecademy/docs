@@ -105,14 +105,14 @@ Note that when no `initialValue` is provided, the first array element becomes th
 
 ## Frequently Asked Questions
 
-### 1. What does array reduce do in JS?
+### 1. What does `array.reduce()` do in JS?
 
 The `array.reduce()` method in JavaScript processes each element of an array through a callback function, accumulating the results into a single value. It's commonly used for mathematical operations, data transformation, and aggregating array contents.
 
-### 2. Can reduce return array?
+### 2. Can `.reduce()` return array?
 
 Yes, JavaScript's `.reduce()` method can return an array. The return type depends on what you accumulate in the callback function. You can use reduce to filter, transform, or restructure arrays by returning array values from the reducer function.
 
-### 3. Does reduce have an index?
+### 3. Does `.reduce()` have an index?
 
 Yes, the `.reduce()` JavaScript method provides access to the current index through the third parameter of the callback function (`currentIndex`). This optional parameter contains the index of the element currently being processed, starting from 0 or 1 depending on whether an initial value is provided.
