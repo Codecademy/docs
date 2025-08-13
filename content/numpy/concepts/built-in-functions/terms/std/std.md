@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The NumPy **`.std()`** function calculates the standard deviation of given data along a specified axis. A standard deviation is a statistical measure indicating the spread of a distribution of data, represented by an array, along a specified axis.
+The NumPy **`.std()`** function calculates the NumPy standard deviation of given data along a specified axis. Standard deviation is a statistical measure that indicates how spread out the values in a dataset are, represented by an array, along a specified axis.
 
 ## NumPy `.std()` Syntax
 
@@ -57,7 +57,7 @@ std_dev = np.std(data)
 print("Standard Deviation:", std_dev)
 ```
 
-Here is the output:
+The output of this code is:
 
 ```shell
 Standard Deviation: 4.7549316504025585
@@ -80,7 +80,7 @@ print("Column-wise STD:", col_std)
 print("Row-wise STD:", row_std)
 ```
 
-Here is the output:
+The output of this code is:
 
 ```shell
 Column-wise STD: [1.5 1.5 1.5]
@@ -103,24 +103,16 @@ print("Population STD:", pop_std)
 print("Sample STD:", sample_std)
 ```
 
-## frequently Asked Questions
+## Frequently Asked Questions
 
-### 1. What is the difference between NumPy `.std()` and `.var()`?
+### 1. What is the difference between NumPy `.std()` and `stdev()`?
 
-NumPy `.std()` calculates the standard deviation (square root of variance), while `.var()` calculates the variance directly.
+NumPy `.std()` works on NumPy arrays and is optimized for performance, supporting multi-dimensional data and the `axis` parameter. Python’s built-in `statistics.stdev()` works on standard Python iterables, calculates the **sample** standard deviation by default, and doesn’t support multi-dimensional arrays or the `axis` argument.
 
-### 2. How to calculate sample standard deviation using NumPy `.std()`?
+### 2. Is NumPy `.std()` population or sample?
 
-Use `np.std(data, ddof=1)` to apply the sample standard deviation formula.
+By default, NumPy `.std()` calculates the **population** standard deviation (`ddof=0`). To compute the sample standard deviation, set `ddof=1`.
 
-### 3. Can NumPy `.std()` handle `NaN` values?
+### 3. What is the difference between NumPy `.std()` and Pandas `.std()`?
 
-By default, NumPy `.std()` returns `NaN` if the array contains `NaN` values. Use `.nanstd()` to ignore NaNs.
-
-### 4. Does NumPy `.std()` work on multi-dimensional arrays?
-
-Yes, you can specify the `axis` parameter in NumPy `.std()` to compute standard deviation along specific dimensions.
-
-### 5. Is NumPy `.std()` fast for large datasets?
-
-Yes, NumPy is optimized for high performance, making `.std()` much faster than manual Python loops.
+NumPy `.std()` calculates standard deviation on NumPy arrays and defaults to population standard deviation (`ddof=0`). Pandas `.std()` works on Series and DataFrame objects, automatically excludes `NaN` values, and defaults to the sample standard deviation (`ddof=1`).
