@@ -84,14 +84,23 @@ print(words)
 
 ## Frequently Asked Questions
 
-### 1. Is Python `.sort()` in place?
+### 1. What does `list.sort()` return in Python?
 
-Yes. Python `.sort()` modifies the original list directly and returns `None`. If you need a sorted copy of the list, use the built-in `sorted()` function instead.
+The `list.sort()` method returns `None` because it sorts the list **in place**, modifying the original list rather than creating a new one.
 
-### 2. What is the use of `.sort()`?
+### 2. Why is `sort()` returning `None`?
 
-Python `.sort()` is used to arrange list elements in ascending or descending order efficiently, with optional custom sorting rules via the `key` parameter.
+`sort()` always returns `None` to signal that the original list has been modified directly. If you need a new sorted list without changing the original, use the `sorted()` function instead.
 
-### 3. What sort does Python use?
+### 3. When you use `sort()` does it permanently change the list?
 
-Python uses Timsort, a hybrid sorting algorithm derived from merge sort and insertion sort. It’s highly efficient for real-world data, with a time complexity of _O(n log n)_.
+Yes, `sort()` permanently changes the order of elements in the list. The original order is lost unless you make a copy before sorting.
+
+### 4. How to sort a list without using the `sort()` function?
+
+You can use the built-in `sorted()` function to return a new sorted list, or implement custom sorting logic such as bubble sort, selection sort, or quicksort.
+
+### 5. What is the difference between the `sort()` method and the `sorted()` function?
+
+- `sort()` is a method available only to lists, sorts in place, and returns `None`.
+- `sorted()` is a built-in function that works with any iterable, returns a new sorted list, and leaves the original data unchanged.
