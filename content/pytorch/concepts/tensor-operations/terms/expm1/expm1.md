@@ -1,6 +1,6 @@
 ---
 Title: '.expm1()'
-Description: 'Computes the exponential of the elements minus 1 of input.'
+Description: 'Calculates the exponential of each element in a tensor and then subtracts 1.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.expm1()`** function takes in an input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) and calculates value for each element in it. This function provides greater precision than $$exp(x) - 1$$ for small values of x. The value **`.expm1()`** function calculated using :
+In PyTorch, the **`.expm1()`** function takes in an input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) and returns a tensor where each element is the exponential of the input element minus 1. It provides greater precision than performing $$exp(x) - 1$$ directly, especially for small values of `x`. The function computes each element as:
 
 $$y_i= e^{x_i}-1$$
 
