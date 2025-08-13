@@ -1,19 +1,19 @@
 ---
-Title: '.remove()'
-Description: 'Removes and returns the head of the queue; throws an exception if the queue is empty.'
+Title: 'remove()'
+Description: 'Removes and returns the head (first element) of the queue, throwing an exception if the queue is empty.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Queues'
   - 'Collections'
   - 'Methods'
+  - 'Queues'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface's **`.remove()`** method removes and returns the element at the head (front) of the queue. If the queue is empty, it throws a `NoSuchElementException`.
+Java's [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface's **`remove()`** method removes and returns the element at the head (front) of the queue. If the queue is empty, it throws a `NoSuchElementException`.
 
 ## Syntax
 
@@ -21,15 +21,23 @@ The [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface's 
 queue.remove()
 ```
 
-- **Receiver**: `queue` is an instance of `Queue<E>` from `java.util`.
-- **Returns**: `E` — the head element.
-- **Throws**: `NoSuchElementException` if the queue is empty.
+**Parameters:**
 
-Note: Do not confuse this with `remove(Object o)`, which is inherited from `Collection` and removes a single matching element from the queue if present.
+The `remove()` method does not take any parameters.
 
-## Example
+**Return value:**
 
-The example below uses a `LinkedList` implementation to demonstrate `.remove()` returning and deleting the head element:
+Returns the element removed from the head of the queue.
+
+**Exception:**
+
+Throws `NoSuchElementException` exception if the queue is empty.
+
+> **Note:** Don’t confuse `remove()` with `remove(Object o)`, which is inherited from `Collection` and removes the first matching element from the queue if it exists.
+
+## Example: Removing the Head Element Using Java Queue remove()
+
+The example here uses a `LinkedList` implementation to demonstrate `.remove()` returning and deleting the head element:
 
 ```java
 import java.util.Queue;
