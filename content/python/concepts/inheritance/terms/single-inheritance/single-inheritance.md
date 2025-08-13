@@ -66,7 +66,6 @@ Barks
 - Both define a `speak()` method, but `Dog` overrides it to provide a more specific output.
 - This demonstrates how subclasses can customise inherited behaviour.
 
-
 ```codebyte/python
 class Vehicle:
   def start_engine(self):
