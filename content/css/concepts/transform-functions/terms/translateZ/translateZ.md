@@ -10,7 +10,6 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
 The **`translateZ()`** function moves an element along the Z-axis in 3D space, creating depth by moving the element closer to or farther from the viewer.
@@ -18,16 +17,15 @@ The **`translateZ()`** function moves an element along the Z-axis in 3D space, c
 ## Syntax
 
 ```pseudo
-transform: translateZ(<value>);
+transform: translateZ(<length>);
 ```
 
-The required `<value>` can be one of the following:
+The required `<length>` value can use any valid CSS length unit, such as `px`, `em`, `rem`, `cm`, etc. 
 
-- Length value: `100px`, `1.5em`
+- A positive value moves the element closer to the viewer.
+- A negative value moves the element farther away.
 
-**Note**: Percentage values are not allowed for `translateZ()` since the Z-axis does not have an inherent size reference like width or height.
-
-A positive value moves the element closer to the viewer along the Z-axis, while a negative value moves the element farther away from the viewer.
+**Note**: Percentage values are not supported because the Z-axis has no intrinsic size reference like width or height.
 
 ## Example 1
 
