@@ -106,3 +106,23 @@ if response.status_code == 200:
 else:
   print("Failed to update resource, status code:", response.status_code)
 ```
+
+## Codebyte Example
+
+In this example, the `.patch()` method sends a `PATCH` request to a public test API to update a resource’s title:
+
+```codebyte/python
+import requests
+
+# Public test API endpoint (JSONPlaceholder)
+url = 'https://jsonplaceholder.typicode.com/posts/1'
+
+# Data to update
+data = {'title': 'Updated Title'}
+
+# Sending the PATCH request
+response = requests.patch(url, json=data)
+
+print(response.status_code)  # Expect 200 if successful
+print(response.json())       # Prints simulated updated resource
+```
