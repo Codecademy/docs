@@ -1,6 +1,6 @@
 ---
 Title: '.seal()'
-Description: 'This method is used to seal an object and it returns the object being sealed.'
+Description: 'Prevents new properties from being added to an object and marks all existing properties as non-configurable'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -13,15 +13,15 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`Object.seal()`** static method is used to _seal_ an object. Sealing an object prevents extensions and makes existing properties non-configurable. In other words:
+The **`Object.seal()`** static method seals an object, preventing new properties from being added and making all existing properties non-configurable. In other words:
 
 - New properties cannot be added.
 - Existing properties cannot be removed.
-- Their enumerability and configurability cannot be changed.
+- Property enumerability and configurability cannot be changed.
 
-Unlike [`Object.freeze()`](https://www.codecademy.com/resources/docs/javascript/objects/freeze), objects sealed with `Object.seal()` may have their existing properties changed, as long as they are writable (`writable: true`).
+Unlike [`Object.freeze()`](https://www.codecademy.com/resources/docs/javascript/objects/freeze), objects sealed with `Object.seal()` may still have their existing properties updated if they are writable (`writable: true`).
 
-> **Note:** For debugging purposes, it is good practice to use the [`strict mode`](https://www.codecademy.com/resources/docs/javascript/strict-mode), especially when working with sealed objects, as it helps prevent silent errors and detect unauthorized assignment or modification attempts.
+> **Note:** For debugging purposes, it is good practice to use [`strict mode`](https://www.codecademy.com/resources/docs/javascript/strict-mode) when working with sealed objects, as it helps detect unauthorized modifications and prevents silent errors.
 
 ## Syntax
 
@@ -31,15 +31,15 @@ Object.seal(obj)
 
 **Parameters:**
 
-`obj`: The object which should be sealed.
+`obj`: The object to seal.
 
 **Return value:**
 
-The `Object.seal()` method returns the object being sealed.
+The `Object.seal()` method returns the the sealed object.
 
 ## Example 1: Basic Object Sealing
 
-In this example, the `person` object is being sealed, when attempting to add or remove properties, an explicit error will not be generated, but the operation will be performed silently (without producing any effects).
+In this example, the `person` object is sealed. In non-strict mode, attempts to add or remove properties will fail silently (no error is thrown), while modifying writable properties will still work:
 
 ```js
 const person = {
@@ -68,7 +68,7 @@ The code will produce this output:
 
 ## Example 2: Check Sealed Object
 
-The following example uses the [`Object.isSealed()`](https://www.codecademy.com/resources/docs/javascript/objects/isSealed) method to check if the `car` object is sealed, that is, if `Object.seal()` has been called on it.
+The following example uses the [`Object.isSealed()`](https://www.codecademy.com/resources/docs/javascript/objects/isSealed) to check if the `car` object is sealed. This method returns `true` if the object is sealed, regardless of how it was sealed (e.g., via `Object.seal()` or [`Object.freeze()`](https://www.codecademy.com/resources/docs/javascript/objects/freeze)):
 
 ```js
 const car = {
@@ -95,9 +95,9 @@ true
 { brand: 'Honda', model: 'Sedan' }
 ```
 
-## Codebyte Example
+## Codebyte Example: Strict Mode Behavior
 
-In this codebyte example, the `'use strict'` directive is applied to the entire script. This activates JavaScript's strict mode, which enforces stricter rules and prevents certain problematic behaviors, such as attempting operations on sealed objects. Specifically, trying to delete a property from a sealed object will throw a `TypeError`.
+This example enables strict mode with `'use strict'` so that invalid operations on a sealed object throw errors. Specifically, deleting a property from a sealed object will throw a `TypeError` instead of failing silently:
 
 ```codebyte/javascript
 'use strict';
