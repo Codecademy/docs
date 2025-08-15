@@ -1,6 +1,6 @@
 ---
 Title: '.floor_divide()'
-Description: 'Computes the element-wise division and floors the result.'
+Description: 'Computes element-wise division of tensors (or tensor and scalar) and applies floor rounding.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.floor_divide()`** function divides the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) with other tensor or a number and floors the result of division. This means it rounds the result of the division down to the nearest integer. :
+In PyTorch, the **`.floor_divide()`** function divides the `input` by other element-wise and rounds each quotient down to the nearest integer—returning the floored result as a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It supports broadcasting, type promotion, and both integer and floating-point operands. The operation can be expressed as:
 
 $$\text{out}_i = \text{floor}(\frac{\text{input}_i}{\text{other}_i})$$
 
@@ -32,7 +32,7 @@ torch.floor_divide(input, other, *, out=None) → Tensor
 
 **Return value:**
 
-It returns a new tensor of the same shape as the input, containing the result of element-wise division and rounds the result of the division down to the nearest integer.
+It returns a new tensor of the same shape as the `input`, containing the result of element-wise division and rounds the result of the division down to the nearest integer.
 
 ## Example
 
@@ -51,5 +51,5 @@ print(torch.floor_divide(x, y))
 The output of this code is:
 
 ```shell
-tensor([2.0, 1.0])
+tensor([2., 1.])
 ```
