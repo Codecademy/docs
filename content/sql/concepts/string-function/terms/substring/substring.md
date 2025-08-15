@@ -1,6 +1,6 @@
 ---
 Title: 'SUBSTRING()'
-Description: 'Extracts a part of a string.'
+Description: 'Extracts a portion of a string starting from a specified position.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -30,7 +30,7 @@ SUBSTRING(string, start, length)
 
 **Return value:**
 
-Returns the sliced substring.
+Returns a substring of the original string. If `length` exceeds the remaining characters, the result contains everything from `start` to the end of the string.
 
 > **Note:** Not all services support this function. Oracle and SQLite use `SUBSTR()` to accomplish the same goal.
 
@@ -102,16 +102,16 @@ Here is the output:
 
 ### 1. What is `SUBSTRING()` in SQL?
 
-`SUBSTRING()` is a SQL string function that extracts a part of a given string based on a specified starting position and length. It is supported by most relational database systems such as MySQL, SQL Server, and PostgreSQL.
+`SUBSTRING()` returns part of a string, starting at a specified character position, for a given length.
 
 ### 2. How do `SUBSTRING()` and `SUBSTR()` differ?
 
 - `SUBSTRING()`: Standard SQL function, supported by many databases.
 - `SUBSTR()`: Common in Oracle and some versions of MySQL, with similar functionality but slightly different parameter handling.
 
-### 3. How to get a substring in MySQL?
+### 3. How to extract a substring from a string in SQL?
 
-In MySQL, both `SUBSTRING()` and `SUBSTR()` work the same way:
+In MySQL, you can use either `SUBSTRING()` or `SUBSTR()`, they work the same way:
 
 ```sql
 SELECT SUBSTRING('Hello World', 7, 5) AS Result;
