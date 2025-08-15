@@ -1,8 +1,8 @@
 ---
 Title: 'partial()'
-Description: ''Creates a new function with some arguments of the original function pre-filled.'
+Description: 'Creates a new function with some arguments of the original function pre-filled.'
 Subjects:
-  - Computer Science'
+  - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Functions'
