@@ -1,3 +1,21 @@
+---
+Title: '.exp2()'
+Description: 'Returns a new tensor with the base-2 exponential of each element in the input tensor.'
+Subjects:
+  - 'Computer Science'
+  - 'Machine Learning'
+  - 'Mathematics'
+  - 'Deep Learning'
+Tags:
+  - 'Tensor Operations'
+  - 'Exponential Functions'
+  - 'Mathematics'
+  - 'Deep Learning'
+CatalogContent:
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/computer-science'
+---
+
 The **`.exp2()`** function in PyTorch computes the base-2 exponential of each element in the input tensor. This function is useful for various mathematical operations and can be applied to tensors of any shape. The result is a new tensor with the same shape as the input, containing the base-2 exponentials of the input values.
 
 ## Syntax
@@ -6,9 +24,19 @@ The **`.exp2()`** function in PyTorch computes the base-2 exponential of each el
 tensor.exp2()
 ```
 
+**Parameters:**
+
+- `self` (Tensor): The input tensor whose elements you want to compute the base-2 exponential for.
+
+**Keyword Arguments:**
+
+- `out` (Tensor, optional): The output tensor to store the result.
+
+## Example
+
 Here's an example of how to use the .exp2() function in PyTorch:
 
-```python
+```py
 import torch
 
 # Create a tensor
@@ -18,6 +46,12 @@ x = torch.tensor([1.0, 2.0, 3.0])
 y = x.exp2()
 
 print(y)
+```
+
+The output will be:
+
+```shell
+tensor([2.0000, 4.0000, 8.0000])
 ```
 
 In this example, the .exp2() function is applied to the tensor `x`, and the result is stored in the tensor `y`. The output will be a tensor containing the base-2 exponentials of the elements in `x`.
