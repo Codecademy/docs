@@ -47,15 +47,6 @@ Liany❤️
 
 ## Codebyte Example
 
-<<<<<<< HEAD
-```codebyte/js
-# Example runnable code block.
-const secret = String.fromCharCode(
-  76, 111, 110, 103, 32, 108, 105, 118, 101, 32, 116, 104, 101, 32, 107, 105, 116, 116, 105, 101, 115
-);
-console.log(secret); // "Long live the kitties"
-
-=======
 Run the following code to understand the working of the `fromCharCode()` method:
 
 ```codebyte/javascript
@@ -63,5 +54,4 @@ const secret = String.fromCharCode(
   76, 111, 110, 103, 32, 108, 105, 118, 101, 32, 116, 104, 101, 32, 107, 105, 116, 116, 105, 101, 115
 );
 console.log(secret);
->>>>>>> db5dfa532754ec3cd5e41c22c711f1d5769e4bd4
 ```
