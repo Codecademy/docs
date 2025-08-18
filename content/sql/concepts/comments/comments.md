@@ -109,15 +109,6 @@ GROUP BY c.customer_id, c.customer_name
 ORDER BY total_spent DESC;
 ```
 
-This example results in the following output:
-
-```shell
-customer_name    total_orders    total_spent
-John Smith       5               2450.75
-Sarah Johnson    3               1890.25
-Mike Davis       7               1675.50
-```
-
 This query combines all three comment types to create well-documented SQL code. The single-line comments (`--`) explain the overall purpose and sorting logic. The inline comments (`/* */`) describe specific columns being selected. The multi-line comment explains the filtering logic for recent orders.
 
 ## Frequently Asked Questions
