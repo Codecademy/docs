@@ -124,6 +124,6 @@ To comment out code in SQL, you can use:
 - `--` for single-line comments
 - `/* */` for multi-line comments or inline comments
 
-### 3. How to comment multiple lines command?
+### 3. How to comment multiple lines?
 
 To comment multiple lines in SQL, use the multi-line comment syntax: start with `/*` at the beginning of the first line you want to comment out, and end with `*/` after the last line. All lines between these symbols will be treated as comments and ignored during execution.
