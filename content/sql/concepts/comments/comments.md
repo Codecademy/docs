@@ -67,7 +67,7 @@ In this example, the multi-line comment provides detailed information about what
 
 ## Inline Comments
 
-**Inline comments** allow adding comments within a query itself. They use the same `/* */` syntax as multi-line comments but are placed within the SQL statement to provide specific information about particular parts of the query without interrupting the code flow.
+**Inline comments** allow adding comments within a query itself. They use the same `/* */` syntax as multi-line comments, but are placed within the SQL statement to provide specific information about particular parts of the query without interrupting the code flow.
 
 ### Syntax of Inline Comments
 
