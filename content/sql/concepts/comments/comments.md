@@ -117,7 +117,7 @@ This query combines all three comment types to create well-documented SQL code. 
 
 The `/*` symbol marks the beginning of a multi-line comment in SQL. It must be paired with a closing `*/` symbol to properly end the comment block. Everything between these symbols is ignored by the database engine.
 
-### 2. How do I comment off in SQL?
+### 2. How do I comment out in SQL?
 
 To comment out code in SQL, you can use:
 
