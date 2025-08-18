@@ -74,7 +74,7 @@ const catObject = {
   ears = true,
   nose = "little",
   beans = true,
-  wigs = false,
+  wings = false,
   tails = 1,
 }
 
