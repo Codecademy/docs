@@ -49,7 +49,7 @@ The `git add` command returns no output on successful execution. If there are er
 
 ## Example 1: Basic File Staging using `git add`
 
-This example demonstrates how to stage individual files for your next commit:
+This example demonstrates how to stage individual files for the next commit:
 
 ```bash
 # Create a new file in your project
