@@ -96,7 +96,7 @@ This workflow demonstrates how `git add` enables developers to create logical, f
 
 ### Example 3: Staging All Changes With `git add --all`
 
-This example demonstrates how to stage all changes in your repository at once using `git add --all`:
+This example demonstrates how to stage all changes in the repository at once using `git add --all`:
 
 ```shell
 # Working directory with multiple changes:
