@@ -17,7 +17,7 @@ CatalogContent:
 
 The **`git add`** command stages changes from the working directory to the staging area, preparing them to be included in the next commit. This essential Git command allows developers to selectively choose which modifications should be committed, providing precise control over version history and enabling organized, logical commits in any Git workflow.
 
-## Syntax
+## Syntax of `git add`
 
 ```pseudo
 git add [options] [pathspec]
