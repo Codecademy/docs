@@ -1,83 +1,131 @@
 ---
 Title: '.sort_values()'
-Description: 'Sorts values in a DataFrame by one or more selected columns or rows.'
+Description: 'Sorts values in a DataFrame by one or more columns.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Data Structures'
+  - 'Elements'
   - 'Pandas'
+  - 'Values'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-The **`.sort_values()`** function sorts values in a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) along the selected axis and returns a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) with sorted values or None.
+In Pandas, the **`.sort_values()`** function is used to sort values in a `DataFrame` by one or more columns. This function is useful in data analysis, data visualization, data cleaning, and more.
 
 ## Syntax
 
 ```pseudo
-dataframevalue.sort_values(by, axis=0, ascending=True, inplace=False, kind='quicksort', na_position='last', ignore_index=False, key=None)
+DataFrame.sort_values(by, axis=0, ascending=True, inplace=False, kind='quicksort', na_position='last', ignore_index=False, key=None)
 ```
 
-`.sort_values()` uses the following parameters:
+**Parameters:**
 
 - `by`: A label or a list of labels to sort by (levels can also be specified if applicable).
-- `axis`: Specify which axis will be sorted (0 or index, 1 or columns), it defaults to 0.
-- `ascending`: Specify whether the sort will be ascending or descending (`True` or `False`), it defaults to `True`.
-- `inplace`: By setting it to `True`, the operation will be performed on the original `DataFrame` and the function will return None, it defaults to `False`.
-- `kind`: Choose which algorithm to use: ‘quicksort’, ‘mergesort’, ‘heapsort’, or ‘stable’, it defaults to `quicksort`. For more information click [here](https://numpy.org/doc/stable/reference/generated/numpy.sort.html#numpy.sort).
-- `na_position`: Specify where to put the `NaN` values, it defaults to `last`.
-- `ignore_index`: Ignore the original index and put a new ascending set of values in its place. The default is `False`.
-- `key`: Apply a function before sorting.
+- `axis`: Specifies which axis will be sorted (`0` or index, `1` or columns); defaults to `0`.
+- `ascending`: Specifies whether the sort will be ascending or descending (`True` or `False`); defaults to `True`.
+- `inplace`: By setting it to `True`, the operation will be performed on the original `DataFrame` and the function will return `None`; defaults to `False`.
+- `kind`: Specifies which algorithm to use: `'quicksort'`, `'mergesort'`, `'heapsort'`, or `'stable'`; defaults to `'quicksort'`.
+- `na_position`: Specifies where to put the `NaN` values; defaults to `last`.
+- `ignore_index`: Ignores the original index and put a new ascending set of values in its place. The default is `False`.
+- `key`: Applies a function before sorting.
 
-## Example
+**Return value:**
 
-In the example below a DataFrame is created and sorted in multiple ways by applying the `.sort_values()` method and altering the parameters passed.
+The `.sort_values()` function returns a sorted `DataFrame` (or `None` if `inplace=True`).
+
+## Example 1: Sort by a Single Column
+
+In this example, the `DataFrame` is sorted in ascending order based on the `Score` column:
 
 ```py
-# Import pandas and numpy
 import pandas as pd
-import numpy as np
 
-# Create the DataFrame
-df = pd.DataFrame({'numbers': [2, 2, 5, 9, np.nan, 1],
-                   'letters': ['D', 'A', 'B', 'Z', np.nan, 'C']})
+data = {
+  'Name': ['Alice', 'Bob', 'Charlie', 'David'],
+  'Score': [88, 92, 85, 90]
+}
 
-# Sort by the column 'numbers'
-print(df.sort_values(by=['numbers']), end='\n\n')
+df = pd.DataFrame(data)
 
-# Sort by the columns 'numbers' and 'letters'
-print(df.sort_values(by=['numbers', 'letters']), end='\n\n')
+sorted_df = df.sort_values(by='Score')
 
-# Sort by the column 'numbers' and put NaN values first
-print(df.sort_values(by=['numbers'], na_position='first'), end='\n\n')
+print(sorted_df)
 ```
 
-The output will look like this:
+Here is the output:
 
 ```shell
-   numbers letters
-5      1.0       C
-0      2.0       D
-1      2.0       A
-2      5.0       B
-3      9.0       Z
-4      NaN     NaN
-
-   numbers letters
-5      1.0       C
-1      2.0       A
-0      2.0       D
-2      5.0       B
-3      9.0       Z
-4      NaN     NaN
-
-   numbers letters
-4      NaN     NaN
-5      1.0       C
-0      2.0       D
-1      2.0       A
-2      5.0       B
-3      9.0       Z
+      Name  Score
+2  Charlie     85
+0    Alice     88
+3    David     90
+1      Bob     92
 ```
+
+## Example 2: Sort by Multiple Columns
+
+In this example, the data is first sorted by `Department`, and then by `Score` within each department:
+
+```py
+import pandas as pd
+
+data = {
+  'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
+  'Department': ['HR', 'Finance', 'HR', 'Finance', 'HR'],
+  'Score': [88, 92, 85, 90, 85]
+}
+
+df = pd.DataFrame(data)
+
+sorted_df = df.sort_values(by=['Department', 'Score'])
+
+print(sorted_df)
+```
+
+Here is the output:
+
+```shell
+      Name Department  Score
+3    David    Finance     90
+1      Bob    Finance     92
+2  Charlie         HR     85
+4      Eve         HR     85
+0    Alice         HR     88
+```
+
+## Codebyte Example: Sort in Descending Order with NaNs First
+
+In this codebyte example, missing values (NaNs) appear at the top, and the `Price` column is sorted in descending order:
+
+```codebyte/python
+import pandas as pd
+
+data = {
+    'Product': ['A', 'B', 'C', 'D', 'E'],
+    'Price': [300, None, 150, 450, None]
+}
+
+df = pd.DataFrame(data)
+
+sorted_df = df.sort_values(by='Price', ascending=False, na_position='first')
+
+print(sorted_df)
+```
+
+## Frequently Asked Questions
+
+### 1. What’s the difference between `.sort_values()` and `.sort_index()`?
+
+`.sort_values()` sorts by column values, while `.sort_index()` sorts by row or column index. Use `.sort_index()` when sorting based on `DataFrame` labels rather than content.
+
+### 2. Does `.sort_values()` modify the original `DataFrame`?
+
+By default, `.sort_values()` returns a new `DataFrame`. To modify the original, set `inplace=True`.
+
+### 3. Can I sort a Series using `.sort_values()`?
+
+Yes. Pandas Series also supports `.sort_values()`, and the syntax is simpler since there's no need to specify a column.
