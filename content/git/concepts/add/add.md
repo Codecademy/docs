@@ -120,11 +120,11 @@ git add -A
 git commit -m "Complete website redesign with new contact page"
 ```
 
-After running `git add --all`, all modifications, new files, and deletions will be moved to the "Changes to be committed" section, making this command ideal for comprehensive updates when there is a need to include everything in your next commit.
+After running `git add --all`, all modifications, new files, and deletions will be moved to the "Changes to be committed" section, making this command ideal for comprehensive updates when there is a need to include everything in the next commit.
 
 ## Frequently Asked Questions
 
-### 1. How do I add files in git?
+### 1. How do I add files to git?
 
 Use `git add <filename>` for single files, `git add .` for all changes in the current directory, or `git add -A` for all changes in the repository. Always verify with `git status` before committing.
 
