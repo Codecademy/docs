@@ -73,7 +73,7 @@ This example results in the following output:
 
 ## Codebyte Example: `Object.values()` with `.filter()` method to detect booleans in a config object
 
-In this example, `Object.values()` is combined with `.filter()` to extract only boolean values from an object:
+In this example, `Object.values()` is combined with [`.filter()`](https://www.codecademy.com/resources/docs/javascript/arrays/filter) to extract only boolean values from an object:
 
 ```codebyte/javascript
 const catObject = {
