@@ -41,7 +41,7 @@ It returns a new tensor of the same shape as the input, containing the computed 
 
 ## Example
 
-In this example, we use `.expm1()` function:
+This example demonstrates the usage of the `.expm1()` function:
 
 ```py
 import torch
