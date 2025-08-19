@@ -51,7 +51,7 @@ The `git add` command returns no output on successful execution. If there are er
 
 This example demonstrates how to stage individual files for the next commit:
 
-```bash
+```shell
 # Create a new file in your project
 echo "Hello, Git!" > welcome.txt
 
@@ -71,7 +71,7 @@ After running these commands, `welcome.txt` will be moved from "Untracked files"
 
 This example shows how to stage multiple files when working on a feature with your team:
 
-```bash
+```shell
 # Working on a new feature - multiple files modified
 # Modified files: app.js, style.css, README.md
 # New file: config.json
@@ -98,7 +98,7 @@ This workflow demonstrates how `git add` enables developers to create logical, f
 
 This example demonstrates how to stage all changes in your repository at once using `git add --all`:
 
-```bash
+```shell
 # Working directory with multiple changes:
 # Modified: index.html, app.js
 # New files: contact.html, footer.css
