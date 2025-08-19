@@ -1,14 +1,14 @@
 ---
 Title: '.values()'
-Description: 'Returns an array of a given object’s own enumerable property values.'
+Description: 'Returns an array containing the values of an object’s own enumerable properties.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
+  - 'JavaScript'
+  - 'Methods'
   - 'Objects'
   - 'Properties'
-  - 'Methods'
-  - 'JavaScript'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
@@ -28,18 +28,20 @@ Object.values(obj)
 
 **Return value:**
 
-- An array of values corresponding to the object's own enumerable properties, ordered according to JavaScript's property ordering rules (integer keys first, then string keys in insertion order).
+- An array of the object’s own enumerable property values, ordered by integer keys first (ascending), then string keys in insertion order.
 
 ## Example 1: Basic usage of `Object.values()`
 
+In this example, `Object.values()` creates an array of property values from an object:
+
 ```js
-const perfectWife = {
+const teamA = {
   firstName: 'Liany',
   animal: 'cat',
   age: 30,
 };
 
-const values = Object.values(perfectWife);
+const values = Object.values(teamA);
 console.log(values);
 ```
 
@@ -50,6 +52,8 @@ This example results in the following output:
 ```
 
 ## Example 2: Iterating over values
+
+In this example, `Object.values()` is used with a `for...of` loop to iterate through numeric values in an object:
 
 ```js
 const scores = { teamLiany: 100, teamWife: 106, teamPrincess: 142 };
@@ -69,35 +73,18 @@ This example results in the following output:
 
 ## Codebyte Example: `Object.values()` with `.filter()` method to detect booleans in a config object
 
+In this example, `Object.values()` is combined with `.filter()` to extract only boolean values from an object:
+
 ```codebyte/javascript
 const catObject = {
-  ears = true,
-  nose = "little",
-  beans = true,
-  wings = false,
-  tails = 1,
+  ears: true,
+  nose: "little",
+  beans: true,
+  wings: false,
+  tails: 1,
 }
 
 const booleanValues = Object.values(catObject).filter((value) => typeof value === "boolean");
 
 console.log(booleanValues);
 ```
-
-## Frequently Asked Questions
-
-- What is the difference between `Object.keys()`, `Object.values()`, and `Object.entries()`?
-
-  - `Object.keys(obj)` returns an array of property names (keys).
-  - `Object.values(obj)` returns an array of values.
-  - `Object.entries(obj)` returns an array of [key, value] pairs.
-
-- Does `Object.values()` include inherited properties?
-
-  - No. It only returns the object's own enumerable properties (not those from the prototype).
-
-- What order are the returned values in?
-
-  - They follow the same property ordering as `Object.keys()`/`Object.entries()`: integer keys in numeric order, then string keys in insertion order.
-
-- Does it work with `Map` or `Set`?
-  - `Map` has its own `map.values()` method (an iterator). `Object.values()` only works on objects.
