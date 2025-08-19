@@ -168,41 +168,53 @@ Switch statements with java enum are type-safe and don't require the enum class 
 Enum in java can have constructors, fields, and methods, making them powerful tools for organizing related data and behavior:
 
 ```java
-enum Planet {
-  MERCURY(3.303e+23, 2.4397e6),
-  VENUS(4.869e+24, 6.0518e6),
-  EARTH(5.976e+24, 6.37814e6),
-  MARS(6.421e+23, 3.3972e6);
+enum Size {
+  SMALL("S", 32),
+  MEDIUM("M", 36),
+  LARGE("L", 40),
+  EXTRA_LARGE("XL", 44);
 
-  private final double mass;   // in kilograms
-  private final double radius; // in meters
+  private final String code;        // Size code
+  private final int chestSize;      // Chest measurement in inches
 
   // Java enum constructor
-  Planet(double mass, double radius) {
-    this.mass = mass;
-    this.radius = radius;
+  Size(String code, int chestSize) {
+    this.code = code;
+    this.chestSize = chestSize;
   }
 
-  // Method to calculate surface gravity
-  public double surfaceGravity() {
-    final double G = 6.67300E-11;
-    return G * mass / (radius * radius);
+  // Method to get size code
+  public String getCode() {
+    return code;
   }
 
-  // Method to calculate weight on this planet
-  public double surfaceWeight(double otherMass) {
-    return otherMass * surfaceGravity();
+  // Method to get chest measurement
+  public int getChestSize() {
+    return chestSize;
+  }
+
+  // Method to check if size fits given measurement
+  public boolean fits(int measurement) {
+    return measurement <= chestSize;
   }
 }
 
-public class PlanetCalculator {
+public class ClothingStore {
   public static void main(String[] args) {
-    double earthWeight = 70.0; // 70 kg on Earth
+    int customerChest = 38;
 
-    System.out.println("Weight on different planets:");
-    for (Planet planet : Planet.values()) {
-      double weight = planet.surfaceWeight(earthWeight);
-      System.out.printf("Weight on %s: %.2f kg%n", planet, weight);
+    System.out.println("Available sizes:");
+    for (Size size : Size.values()) {
+      System.out.println(size + " (" + size.getCode() + "): " + size.getChestSize() + " inches");
+    }
+
+    System.out.println("\nCustomer chest size: " + customerChest + " inches");
+    System.out.println("Recommended sizes:");
+
+    for (Size size : Size.values()) {
+      if (size.fits(customerChest)) {
+        System.out.println("- " + size + " fits!");
+      }
     }
   }
 }
@@ -211,14 +223,19 @@ public class PlanetCalculator {
 This example results in the following output:
 
 ```shell
-Weight on different planets:
-Weight on MERCURY: 26.36 kg
-Weight on VENUS: 63.34 kg
-Weight on EARTH: 70.00 kg
-Weight on MARS: 26.54 kg
+Available sizes:
+SMALL (S): 32 inches
+MEDIUM (M): 36 inches
+LARGE (L): 40 inches
+EXTRA_LARGE (XL): 44 inches
+
+Customer chest size: 38 inches
+Recommended sizes:
+- LARGE fits!
+- EXTRA_LARGE fits!
 ```
 
-The java enum type constructor is called automatically for each constant, allowing enums to store data and provide methods that operate on that data.
+The java enum constructor is called automatically for each constant, allowing enums to store multiple pieces of data (size code and chest measurement) and provide methods like `fits()` that operate on that data to solve real-world problems.
 
 ## Frequently Asked Questions
 
