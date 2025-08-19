@@ -52,7 +52,7 @@ The `git add` command returns no output on successful execution. If there are er
 This example demonstrates how to stage individual files for the next commit:
 
 ```shell
-# Create a new file in your project
+# Create a new file in the project
 echo "Hello, Git!" > welcome.txt
 
 # Check the current status
