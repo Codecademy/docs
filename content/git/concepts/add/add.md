@@ -69,7 +69,7 @@ After running these commands, `welcome.txt` will be moved from "Untracked files"
 
 ## Example 2: Using `git add` for Team Collaboration Workflow
 
-This example shows how to stage multiple files when working on a feature with your team:
+This example shows how to stage multiple files when working on a feature with a team:
 
 ```shell
 # Working on a new feature - multiple files modified
