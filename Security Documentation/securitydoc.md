@@ -17,3 +17,11 @@ Please [email our Customer Support](https://help.codecademy.com/hc/en-us/request
 **Now, just look at this image:**
 
 ![The  Mountains](https://hips.hearstapps.com/hmg-prod/images/lofoten-summer-landscape-royalty-free-image-1623252210.jpg?crop=1xw:1xh;center,top&resize=980:*)
+
+____________________________
+
+## What to do when you want to report a Bug to Type
+
+**In the learning environment, click the "Get Unstuck" button and submit the bug report with a description:**
+
+![instructions1](https://help.codecademy.com/hc/article_attachments/26856566561435)
