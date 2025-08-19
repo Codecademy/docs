@@ -1,6 +1,6 @@
 ---
 Title: 'Multiple Inheritance'
-Description: 'Allows a class to inherit attributes and methods from more than one parent class'
+Description: 'Allows a class to inherit attributes and methods from more than one parent class.'
 Subjects:
   - 'Code Foundations`
   - `Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Multiple inheritance** is a concept in [object-oriented programming (OOP)](https://www.codecademy.com/resources/blog/object-oriented-programming) where a class can inherit attributes and methods from more than one parent class. Python supports this, allowing a subclass to combine functionality from multiple base classes.
+**Multiple inheritance** is a foundational concept in [object-oriented programming (OOP)](https://www.codecademy.com/resources/blog/object-oriented-programming) where a class can inherit methods and attributes from more than one parent class. Python supports this, allowing a subclass to combine functionality from multiple base classes.
 
 This promotes flexibility and code reuse. However, it also raises the risk of method name conflicts. Python resolves such issues using its Method Resolution Order (MRO).
 
@@ -21,13 +21,13 @@ This promotes flexibility and code reuse. However, it also raises the risk of me
 
 ```pseudo
 class ParentA:
-  # methods and attributes of ParentA
+  # Methods and attributes of ParentA
 
 class ParentB:
-  # methods and attributes of ParentB
+  # Methods and attributes of ParentB
 
 class Child(ParentA, ParentB):
-  # inherits from both ParentA and ParentB
+  # Inherits from both ParentA and ParentB
 ```
 
 Here:
@@ -65,7 +65,7 @@ Can fly
 
 ## Codebyte Example
 
-In this example, the `Tablet` class inherits input methods from both `Keyboard` and `Touchscreen`, but the method from `Keyboard` is used due to its position in the inheritance list:
+In this codebyte example, the `Tablet` class inherits input methods from both `Keyboard` and `Touchscreen`, but the method from `Keyboard` is used due to its position in the inheritance list:
 
 ```codebyte/python
 class Keyboard:
