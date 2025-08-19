@@ -98,7 +98,7 @@ Visual representation of multilevel inheritance:
 
 ## Codebyte Example
 
-In this example, the `Laptop` class inherits features from `Computer` and `Device`, demonstrating how functionality accumulates across multiple levels of inheritance:
+In this codebyte example, the `Laptop` class inherits features from `Computer` and `Device`, demonstrating how functionality accumulates across multiple levels of inheritance:
 
 ```codebyte/python
 class Device:
@@ -127,4 +127,4 @@ print(my_laptop.use_touchpad())
 - Useful when deeper specialization is logically needed.
 - Helps organize code when behaviors evolve level by level.
 
-> **Note**: Avoid deep inheritance chains when possible, as too many layers can make debugging and maintenance harder.
+> **Note:** Avoid deep inheritance chains when possible, as too many layers can make debugging and maintenance harder.
