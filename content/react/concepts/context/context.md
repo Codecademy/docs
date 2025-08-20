@@ -1,22 +1,175 @@
 ---
 Title: 'Context'
-Description: 'In React, Context can be used to manage state globally without the need of prop drilling.'
+Description: 'Enables data sharing across the component tree without passing props down manually at every level.'
 Subjects:
+  - 'Mobile Development'
   - 'Web Development'
 Tags:
-  - 'Components'
   - 'React'
+  - 'Components'
 CatalogContent:
   - 'react-101'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **Context** API in [React](https://www.codecademy.com/resources/docs/react) is an easy way to manage the state of some information. It lets the parent [component](https://www.codecademy.com/resources/docs/react/components) pass the information down to any other component further down the tree hierarchy without needing to pass it as a [prop](https://www.codecademy.com/resources/docs/react/props). It can be used in combination with the [`useState()`](https://www.codecademy.com/resources/docs/react/hooks/useState) hook to change the state. Typical use cases are passing themes (e.g. color, paddings, font sizes, etc.) or the authenticated user.
+**Context** in [React](https://www.codecademy.com/resources/docs/react) is a feature that allows data to be shared across the component tree without passing props manually at every level. It solves the prop drilling problem by enabling [components](https://www.codecademy.com/resources/docs/react/components) to access shared state directly, no matter their depth in the hierarchy. This is useful when multiple components at different nesting levels need access to the same data, such as authentication state, theme preferences, or application settings.
 
-## Benefit
+## Implementation Methods
 
-Normally, information on values is passed between components as props. But sometimes it has to be passed down several levels in the tree, also called `prop drilling`. In larger applications, this can be complicated and lead to code that is hard to maintain. With `Context` this is no longer necessary.
+Context is implemented using three core React APIs:
 
-## API Implementation
+- [`createContext()`](https://www.codecademy.com/resources/docs/react/context/createContext): Creates a new context object that can hold and share data
+- `Context.Provider`: A component that supplies the context value to its descendants
+- [`useContext()`](https://www.codecademy.com/resources/docs/react/context/createContext): A React hook that consumes context values within functional components
 
-To implement the Context API, it's necessary to first create the Context using [`createContext()`](https://www.codecademy.com/resources/docs/react/context/createContext). Afterward, the [`useContext()`](https://www.codecademy.com/resources/docs/react/hooks/useContext) hook can be used to read the context from the appropriate component.
+The typical setup is:
+
+1. Create a context using `createContext()` with an optional default value.
+2. Wrap components needing access in `Context.Provider` and pass the shared value via the `value` prop.
+3. Use `useContext()` in child components to consume the nearest context value.
+
+## Example 1: Theme Management with React Context
+
+This example shows how to create a theme context for switching between light and dark modes across the entire application:
+
+```jsx
+import React, { createContext, useContext, useState } from 'react';
+
+interface ThemeContextType {
+  theme: 'light' | 'dark';
+  toggleTheme: () => void;
+}
+
+const ThemeContext =
+  createContext <
+  ThemeContextType >
+  {
+    theme: 'light',
+    toggleTheme: () => {},
+  };
+
+const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
+  const [theme, setTheme] = (useState < 'light') | ('dark' > 'light');
+
+  const toggleTheme = () => {
+    setTheme((previousTheme) => (previousTheme === 'light' ? 'dark' : 'light'));
+  };
+
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
+};
+
+const ThemedButton: React.FC = () => {
+  const { theme, toggleTheme } = useContext(ThemeContext);
+
+  return (
+    <button
+      onClick={toggleTheme}
+      style={{
+        backgroundColor: theme === 'light' ? '#ffffff' : '#333333',
+        color: theme === 'light' ? '#000000' : '#ffffff',
+        padding: '10px 20px',
+        border: 'none',
+        borderRadius: '4px',
+        cursor: 'pointer',
+      }}
+    >
+      Switch to {theme === 'light' ? 'dark' : 'light'} theme
+    </button>
+  );
+};
+
+const App: React.FC = () => (
+  <ThemeProvider>
+    <div style={{ padding: '20px' }}>
+      <h1>Theme Context Example</h1>
+      <ThemedButton />
+    </div>
+  </ThemeProvider>
+);
+
+export default App;
+```
+
+The `ThemeContext` holds the current theme and a function to toggle it. `ThemeProvider` manages the state, while `ThemedButton` consumes it for UI changes.
+
+## Example 2: Sharing User Data with React Context
+
+This example shows how to share user information across multiple components without passing props manually through each level:
+
+```jsx
+import React, { createContext, useContext, useState } from 'react';
+
+interface User {
+  name: string;
+  role: string;
+}
+
+const UserContext = (createContext < User) | (null > null);
+
+const UserProvider: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
+  const [user] =
+    useState <
+    User >
+    {
+      name: 'John Doe',
+      role: 'Administrator',
+    };
+
+  return <UserContext.Provider value={user}>{children}</UserContext.Provider>;
+};
+
+const Header: React.FC = () => {
+  const user = useContext(UserContext);
+
+  return (
+    <header style={{ padding: '1rem', backgroundColor: '#f0f0f0' }}>
+      <h1>Welcome, {user?.name || 'Guest'}!</h1>
+    </header>
+  );
+};
+
+const UserProfile: React.FC = () => {
+  const user = useContext(UserContext);
+
+  return (
+    <div style={{ padding: '1rem' }}>
+      <h2>User Profile</h2>
+      <p>Name: {user?.name || 'Not logged in'}</p>
+      <p>Role: {user?.role || 'No role assigned'}</p>
+    </div>
+  );
+};
+
+const App: React.FC = () => (
+  <UserProvider>
+    <Header />
+    <UserProfile />
+  </UserProvider>
+);
+
+export default App;
+```
+
+The `UserContext` stores user information. Both `Header` and `UserProfile` read from the same source without manually passing props.
+
+## Frequently Asked Questions
+
+### 1. Why do we need to use Context?
+
+It avoids passing props through multiple layers when many components need the same data. This makes code easier to maintain.
+
+### 2. Is React Context a hook?
+
+No, React Context is not a hook. Context is a feature consisting of `createContext()` and Provider/Consumer components. However, `useContext()` is a hook that allows functional components to consume context values.
+
+### 3. When to use React Context vs Redux?
+
+Use Context for simpler state management like themes, user data, or small-to-medium applications. Choose Redux for complex applications with frequent state updates, complex state logic, and when you need advanced debugging tools.
