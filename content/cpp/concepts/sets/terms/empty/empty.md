@@ -67,7 +67,7 @@ Set has elements
 
 ## Codebyte Example: Using `empty()` to Calculate a Sum
 
-In this example, `empty()` helps control a loop that sums and removes elements until the set becomes empty:
+In this example, the `empty()` method helps control a loop that sums and removes elements until the set becomes empty:
 
 ```codebyte/cpp
 #include <iostream>
