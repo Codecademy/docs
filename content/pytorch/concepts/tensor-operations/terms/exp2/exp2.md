@@ -33,8 +33,8 @@ torch.special.exp2(input, *, out=None)
 
 **Parameters:**
 
-- `self` (Tensor): The input tensor.
-- `out` (Tensor, optional): The output tensor to store the result.
+- input (Tensor): The input tensor
+- out (Tensor, optional): The output tensor to store the result
 
 **Return value:**
 
