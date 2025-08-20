@@ -58,7 +58,7 @@ int main()
 }
 ```
 
-The output of the code is:
+The output of the above code is:
 
 ```shell
 Set is empty
