@@ -1,6 +1,6 @@
 ---
 Title: 'cmp-to-key()'
-Description: 'Transforms an old-style comparison function into a key function, which will be used as the key argument in functions that take this parameter.'
+Description: 'Converts an old-style comparison function into a key function, which will be used as the key argument in functions that accepts this parameter.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -15,15 +15,15 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
-The **`cmp-to-key()`** [function](https://www.codecademy.com/resources/docs/python/functions) is a _[higher order function](https://www.codecademy.com/resources/docs/python/functions#:~:text=Higher%2DOrder%20Functions)_ used as a tool to generate _key functions_ from old-style _comparison functions_. A comparison function is any callable that takes two arguments, compares them and returns:
+The **`cmp-to-key()`** [function](https://www.codecademy.com/resources/docs/python/functions) is a _[higher-order function](https://www.codecademy.com/resources/docs/python/functions#:~:text=Higher%2DOrder%20Functions)_ used as a tool to generate _key functions_ from old-style _comparison functions_. A comparison function is any callable that takes two arguments, compares them and returns:
 
-  - a negative number for less-than, 
-  - a positive number for greater-than, 
-  - or zero for equality. 
+  - a _negative number_ for less-than, 
+  - a _positive number_ for greater-than, 
+  - or _zero_ for equal to. 
 
 A key function is a function that takes one argument and returns a value that can be used as a sorting key.
 
-`cmp-to-key()` is used by functions that can take the `key` parameter (such as [sorted()](https://www.codecademy.com/resources/docs/python/built-in-functions/sorted), [min()](https://www.codecademy.com/resources/docs/python/built-in-functions/min), [max()](https://www.codecademy.com/resources/docs/python/built-in-functions/max),...). It is very common to use it to migrate programs written in Python 2 to Python 3.
+The `cmp-to-key()` function is used by functions that can accept the `key` parameter (such as [sorted()](https://www.codecademy.com/resources/docs/python/built-in-functions/sorted), [min()](https://www.codecademy.com/resources/docs/python/built-in-functions/min), [max()](https://www.codecademy.com/resources/docs/python/built-in-functions/max), etc.). It is very common to use it to migrate programs written in Python 2 to Python 3.
 
 ## Syntax
 
@@ -39,15 +39,15 @@ cmp_to_key(comp_func)
 
 `comp_func`: This is a function that takes two arguments and compares them, returning:
   - A _negative number_, if the first value is less than the second,
-  - A _positive number_, if the first value is more than the second,
-  - _Zero_, if both values are the same.
+  - a _positive number_, if the first value is more than the second,
+  - _zero_, if both values are equal.
 
 **Return Value**
-The method returns a _key function_ which is used as the _sort key_ for functions that take the `key` parameter.
+The method returns a _key function_, which is used as the _sort key_ for functions that take the `key` parameter.
 
 
 ## Example 1
-In this example, we check which one of two values is heavier(larger) than the other
+In this example, we check which one of two values is heavier (larger) than the other
 
 ```py
 from functools import cmp_to_key
@@ -98,7 +98,10 @@ Unsorted weights [20, 200, 10, 1]
 Sorted weights [200, 20, 10, 1]
 ```
 
-## Codebyte Example
+## Codebyte Example: Reorganize a list of strings by length
+
+In this codebyte example, we use `cmp-to-key` to reorganize a list of strings by comparing their lengths.
+
 ```codebyte/python
 from functools import cmp_to_key
 
@@ -111,6 +114,7 @@ def compare(x: str, y: str):
 strings_unsorted = ["don't make it sad", "don't be so mean", "don't let me go"]
 strings_sorted = sorted(strings_unsorted, key=cmp_to_key(compare))
 
+# Print two possible versions for a verse
 print("First verse lines of Hey Dude, by feel")
 for i in range(len(strings_unsorted)):
     print("Hey dude,", strings_unsorted[i])
