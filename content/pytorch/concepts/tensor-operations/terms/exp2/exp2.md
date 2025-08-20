@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.exp2()`** function in PyTorch computes the base-2 exponential of each element in the input tensor. This function is useful for various mathematical operations and can be applied to tensors of any shape. The result is a new tensor with the same shape as the input, containing the base-2 exponentials of the input values.
+The **`.exp2()`** function in PyTorch computes the base-2 exponential of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). This function is useful for various mathematical operations and can be applied to tensors of any shape. The result is a new tensor with the same shape as the input, containing the base-2 exponentials of the input values.
 
 ## Syntax
 
