@@ -18,7 +18,11 @@ The **`.exp2()`** function in PyTorch computes the base-2 exponential of each el
 ## Syntax
 
 ```pseudo
-tensor.exp2(input, *, out=None)
+# Function syntax:
+result = torch.exp2(input, *, out=None)
+
+# Tensor method syntax:
+result = tensor.exp2()
 ```
 
 This function is an alias for:
