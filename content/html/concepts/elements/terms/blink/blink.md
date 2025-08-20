@@ -18,7 +18,7 @@ The HTML **`<blink>`** element is an obsolete [tag](https://www.codecademy.com/r
 
 > **Note:** This is now deprecated from most browsers and is not part of the current [HTML specifications](https://html.spec.whatwg.org/). Using this tag is a bad design practice and is heavily discouraged by [accessibility standards](https://www.w3.org/WAI/standards-guidelines/wcag/). The [CSS specification](https://www.w3.org/TR/css-2021/) allows browsers to ignore this tag.
 
-## HtML `<blink>` Syntax
+## HTML `<blink>` Syntax
 
 ```pseudo
 <blink>Blinking Text</blink>
@@ -75,7 +75,7 @@ This example uses [CSS](https://www.codecademy.com/resources/docs/css) instead o
 
 Here is the output:
 
-![Blinking text using CSS instead of HTML <blink>](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-blink-1.gif)
+![Blinking text using CSS instead of HTML `<blink>`](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-blink-1.gif)
 
 ## Example 3: Using CSS + JS instead of HTML `<blink>`
 
@@ -110,18 +110,18 @@ This example uses CSS and [JS](https://www.codecademy.com/resources/docs/javascr
 
 Here is the output:
 
-![Blinking text using CSS and JS instead of HTML <blink>](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-blink-2.gif)
+![Blinking text using CSS and JS instead of HTML `<blink>`](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-blink-2.gif)
 
 ## Frequently Asked Questions
 
-### 1. Does HTML `<blink>` still work?
+### 1. Does the Blink tag still work?
 
 No. The HTML `<blink>` tag is obsolete and no longer works in modern browsers like Chrome, Firefox, or Edge. It was only supported in some older browsers and now it's ignored by HTML parsers.
 
-### 2. Why was HTML `<blink>` removed?
+### 2. Why was blink removed from HTML?
 
 HTML `<blink>` was removed because it caused accessibility problems, distracted readers, and offered no real semantic or functional benefit. The World Wide Web Consortium (W3C) deprecated it in HTML 4.01 and excluded it from HTML5 standards.
 
-### 3. Can I re-enable HTML `<blink>` in modern browsers?
+### 3. What is the blink HTML trick?
 
-Not directly. Modern browsers have completely removed native support for HTML `<blink>`. You can only replicate its behavior using CSS or JS animations, which gives you more control and better accessibility compliance.
+The old `<blink>` tag made text flash on and off in some early browsers, but it’s deprecated and no longer supported. If you need the effect today, use a short CSS animation instead—though blinking text is generally discouraged for accessibility reasons.
