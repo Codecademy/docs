@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`empty()`** method for `std::set` determines whether the set contains no elements. It returns `true` if the container is empty and `false` otherwise.
+In C++, the **`empty()`** method for [`std::set`](https://www.codecademy.com/resources/docs/cpp/sets) determines whether the set contains no elements. It returns `true` if the container is empty and `false` otherwise.
 
 ## Syntax
 
