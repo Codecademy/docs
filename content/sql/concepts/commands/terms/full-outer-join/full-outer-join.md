@@ -142,20 +142,30 @@ The output will be:
 
 ## Frequently Asked Questions
 
-### 1. What is `FULL OUTER JOIN` and `CROSS JOIN` in SQL?
+### 1. What are the 4 types of JOINs in SQL?
 
-- `FULL OUTER JOIN`: This command returns all rows from both tables, with `NULL` values where there are no matches.
-- `CROSS JOIN`: This command returns the Cartesian product of two tables, meaning every row of one table is combined with every row of the other.
+The four basic types of SQL joins are:
 
-### 2. What is the difference between `INNER JOIN` and `FULL OUTER JOIN` in SQL?
+- **INNER JOIN**: Returns only rows where there is a match in both tables.
+- **LEFT JOIN (LEFT OUTER JOIN)**: Returns all rows from the left table and matching rows from the right table; unmatched rows from the right show as `NULL`.
+- **RIGHT JOIN (RIGHT OUTER JOIN)**: Returns all rows from the right table and matching rows from the left table; unmatched rows from the left show as `NULL`.
+- **FULL OUTER JOIN**: Returns all rows from both tables, filling in `NULL` where matches don’t exist.
 
-- `INNER JOIN`: This command returns only rows with matching values in both tables.
-- `FULL OUTER JOIN`: This command returns all rows from both tables, with `NULL` values where there is no match.
+### 2. What does `(+)` mean in SQL JOINs?
 
-### 3. Why do we use `FULL OUTER JOIN` in SQL?
+The `(+)` symbol is used in Oracle SQL to indicate an outer join.
 
-We use a SQL `FULL OUTER JOIN` when:
+**Example:**
 
-- We need to analyze complete data from two tables, including unmatched rows.
-- We want to avoid losing records due to missing matches.
-- It helps in data reconciliation, reporting, and data comparison tasks.
+```sql
+SELECT a.id, b.name
+FROM tableA a, tableB b
+WHERE a.id = b.id(+);
+```
+
+Here, `(+)` means a LEFT OUTER JOIN—it returns all rows from `tableA` and matches from `tableB`, inserting `NULL` where no match exists.
+
+### 3. What’s the difference between CROSS JOIN and FULL OUTER JOIN?
+
+- **CROSS JOIN**: Produces the **Cartesian product** of two tables, meaning every row from the first table is paired with every row from the second. If `tableA` has 3 rows and `tableB` has 4 rows, the result will have 12 rows.
+- **FULL OUTER JOIN**: Combines rows from both tables based on a condition and includes unmatched rows, filling missing values with `NULL`.
