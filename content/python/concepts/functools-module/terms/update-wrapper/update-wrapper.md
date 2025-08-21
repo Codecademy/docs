@@ -29,8 +29,8 @@ update_wrapper(wrapper, wrapped, assigned=WRAPPER_ASSIGNMENTS, updated=WRAPPER_U
 
 - `wrapper`: The function that is acting as a wrapper (e.g., inside a decorator).
 - `wrapped`: The original function being wrapped.
-- `assigned`: A tuple of attribute names to copy (defaults to `WRAPPER_ASSIGNMENTS`)
-- `updated`: A tuple of attribute names to update (defaults to `WRAPPER_UPDATES`)
+- `assigned`: A tuple of attribute names to copy (defaults to `WRAPPER_ASSIGNMENTS`).
+- `updated`: A tuple of attribute names to update (defaults to `WRAPPER_UPDATES`).
 
 **Return value:**
 
