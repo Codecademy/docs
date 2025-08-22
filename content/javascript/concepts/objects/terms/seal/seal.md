@@ -102,19 +102,22 @@ This example demonstrates the core functionality of `Object.seal()` by showing w
 ```codebyte/javascript
 'use strict';
 
-const obj = {
-  property: 'initial-data'
-};
-
-obj.property = 'new-data';
-
-console.log(obj.property);
+const obj = { name: 'John', age: 25 };
 
 Object.seal(obj);
 
+obj.age = 26;
+console.log(obj.age); // 26
+
 try {
-  delete obj.property;
-} catch (error) {
-  console.log(error);
+  obj.city = 'NYC'; // Can't add new properties
+} catch (e) {
+  console.log('Cannot add property:', e.message);
+}
+
+try {
+  delete obj.name; // Can't delete existing properties  
+} catch (e) {
+  console.log('Cannot delete property:', e.message);
 }
 ```
