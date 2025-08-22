@@ -35,7 +35,7 @@ Object.seal(obj)
 
 **Return value:**
 
-The `Object.seal()` method returns the the sealed object.
+The `Object.seal()` method returns the sealed object.
 
 ## Example 1: Basic Object Sealing
 
