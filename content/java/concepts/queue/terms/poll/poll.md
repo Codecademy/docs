@@ -1,57 +1,65 @@
 ---
-Title: Poll
-Description: A Poll Queue in Java uses a Queue to store and process votes in the order they come in.
+Title: 'poll()'
+Description: 'Retrieves and removes the head of the queue, or returns null if the queue is empty.'
 Subjects: 
-  - Computer Science
-
-Tags: 
-  - Java
- 
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Queues'
+  - 'Java'
 CatalogContent:
-  - 'learn-git'
-  - 'learn-the-command-line'
+  - 'learn-java'
   - 'paths/computer-science'
 ---
 
-A Poll Queue in Java is a system where votes or voters are managed using a Queue data structure, which follows the FIFO (First-In-First-Out) principle. It ensures that votes are processed in the order they are received, which is useful in scenarios like live voting, event polling, or batch vote processing.
+In Java, the **`poll()`** method of a Queue retrieves and removes the head element, or returns `null` if the queue is empty.
 
 ## Syntax
 
-Queue<String> queue = new LinkedList<>();
-queue.add("Item");
-String first = queue.poll();
+```pseudo
+E poll()
+```
 
+**Parameters:**
 
-import java.util.Queue;
-import java.util.LinkedList;
+The `poll()` method does not take any parameters.
 
-## Codebyte Example (if applicable)
+**Return value:**
 
+- Returns the head element (`E`) of the queue and removes it.
+- Returns `null` if the queue is empty.
+
+## Example
+
+In this example, a queue is used to store elements and the `poll()` method processes them one by one in FIFO order:
+
+```java
 import java.util.Queue;
 import java.util.LinkedList;
 
 public class PollQueueExample {
-    public static void main(String[] args) {
-        // Create a queue to store votes (represented as Strings or custom Vote objects)
-        Queue<String> voteQueue = new LinkedList<>();
+  public static void main(String[] args) {
+    // Create a queue
+    Queue<String> queue = new LinkedList<>();
 
-        // Add votes to the queue
-        voteQueue.add("Option 1");
-        voteQueue.add("Option 2");
-        voteQueue.add("Option 1");
+    // Add elements to the queue
+    queue.add("A");
+    queue.add("B");
+    queue.add("C");
 
-        // Process votes
-        while (!voteQueue.isEmpty()) {
-            String vote = voteQueue.poll(); // Removes and returns the head of the queue
-            System.out.println("Processing vote: " + vote);
-        }
+    // Process elements
+    while (!queue.isEmpty()) {
+      String element = queue.poll(); // Removes and returns the head of the queue
+      System.out.println("Processing element: " + element);
     }
+  }
 }
+```
 
+The output of this code is:
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+```shell
+Processing element: A
+Processing element: B
+Processing element: C
 ```
