@@ -29,20 +29,67 @@ The required `<length>` value can use any valid CSS length unit, such as `px`, `
 
 ## Example 1
 
-In the example below, an element with a `.box` class is moved `50px` closer to the viewer:
+In the example below, an element with a `.box` class is moved `100px` closer to the viewer:
 
-```css
-.box {
-  transform: translateZ(50px);
-}
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      perspective: 300px;
+    }
+    
+    .box {
+      width: 100px;
+      height: 100px;
+      background: blue;
+      transform: translateZ(100px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box"></div>
+  </div>
+</body>
+</html>
 ```
+
+The element appears **larger** because it's moved closer to the viewer.
+
+![Positive translateZ example ](https://raw.githubusercontent.com/Codecademy/docs/main/media/css_translateZ_pos.gif)
 
 ## Example 2
 
-In this example, the element is moved away from the viewer by `-1.5em`:
+In this example, the element is moved away from the viewer by `-100px`:
 
-```css
-.box {
-  transform: translateZ(-1.5em);
-}
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      perspective: 300px;
+    }
+    
+    .box {
+      width: 100px;
+      height: 100px;
+      background: red;
+      transform: translateZ(-100px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box"></div>
+  </div>
+</body>
+</html>
 ```
+
+The element appears **smaller** because it's moved farther from the viewer.
+
+![Negative translateZ example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css_translateZ_neg.gif)
+
