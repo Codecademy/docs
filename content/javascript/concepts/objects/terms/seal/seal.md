@@ -97,7 +97,7 @@ true
 
 ## Codebyte Example: Strict Mode Behavior
 
-This example enables strict mode with `'use strict'` so that invalid operations on a sealed object throw errors. Specifically, deleting a property from a sealed object will throw a `TypeError` instead of failing silently:
+This example demonstrates the core functionality of `Object.seal()` by showing what operations are allowed versus prohibited on a sealed object. The sealed object allows modification of existing properties but prevents structural changes like adding new properties or deleting existing ones:
 
 ```codebyte/javascript
 'use strict';
