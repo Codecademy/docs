@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, the **`poll()`** method of a Queue retrieves and removes the head element, or returns `null` if the queue is empty.
+In Java, the **`poll()`** method of a queue retrieves and removes the head element, or returns `null` if the queue is empty.
 
 ## Syntax
 
