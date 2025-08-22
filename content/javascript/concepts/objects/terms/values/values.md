@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`Object.values()`** method returns an array containing the values of an object's own enumerable properties. It's useful when you only need the values, not the keys.
+The **`Object.values()`** method returns an array containing the values of an object's own enumerable properties. This method is useful when only the values are needed, not the keys.
 
 ## Syntax
 
