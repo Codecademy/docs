@@ -19,7 +19,7 @@ The Java **`Deque`** interface extends the [`Queue`](https://www.codecademy.com/
 ## Java `Deque` Syntax
 
 ```pseudo
-import java.util.deque;
+import java.util.Deque;
 
 Deque<DataType> myDeque = new DequeClass<DataType>();
 ```
@@ -140,25 +140,14 @@ After pop: [20, 10]
 
 ## Frequently Asked Questions
 
-### 1. What is the difference between Java `Deque` and `Queue`?
+### 1. Is `Deque` FIFO or LIFO?
 
-A Java `Deque` allows insertion and deletion at both ends, whereas a `Queue` allows insertion at the tail and deletion at the head.
+`Deque` can behave as both FIFO (queue) and LIFO (stack) depending on the methods used.
 
-### 2. Which classes implement the Java `Deque` interface?
+### 2. Is a `Deque` faster than a `Stack`?
 
-These classes implement the Java `Deque` interface:
+Yes, `Deque` (like `ArrayDeque`) is faster than `Stack` because `Stack` is synchronized, which adds overhead for single-threaded operations.
 
-- `LinkedList`
-- `ArrayDeque`
+### 3. Is Java `Queue` FIFO or LIFO?
 
-### 3. Can a Java `Deque` contain null elements?
-
-Some implementations of a Java `Deque` like `LinkedList` allow null, but `ArrayDeque` does not permit null elements.
-
-### 4. Is Java `Deque` thread-safe?
-
-No, Java `Deque` implementations like `ArrayDeque` and `LinkedList` are not thread-safe. Use `ConcurrentLinkedDeque` for thread-safe operations.
-
-### 5. When should I use a Java `Deque` instead of a `Stack` class?
-
-Java `Deque` is preferred over `Stack` because `Stack` is synchronized and slower for single-threaded use. `Deque` offers better performance and flexibility.
+A Java `Queue` follows FIFO (First-In-First-Out) order, meaning elements are removed in the order they were added.
