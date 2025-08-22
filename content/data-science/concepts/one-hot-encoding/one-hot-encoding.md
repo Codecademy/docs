@@ -109,59 +109,25 @@ Final encoded data:
 | Blue  |    30    |  0  |  1   |   0   |
 |  Red  |    10    |  1  |  0   |   0   |
 
-## Example 3: Fruits
-
-Original data:
-
-| Fruit  | Count |
-| :----: | :---: |
-| Apple  |  50   |
-| Banana |  30   |
-| Orange |  40   |
-| Banana |  25   |
-| Apple  |  60   |
-
-Assigning integer values:
-
-| Fruit  | Integer Value |
-| :----: | :-----------: |
-| Apple  |       0       |
-| Banana |       1       |
-| Orange |       2       |
-
-Assigning vectors:
-
-| Fruit  | Integer Value | Vector  |
-| :----: | :-----------: | ------- |
-| Apple  |       0       | [1,0,0] |
-| Banana |       1       | [0,1,0] |
-| Orange |       2       | [0,0,1] |
-
-Final encoded data:
-
-| Fruit  | Count | Apple | Banana | Orange |
-| :----: | :---: | :---: | :----: | :----: |
-| Apple  |  50   |   1   |   0    |   0    |
-| Banana |  30   |   0   |   1    |   0    |
-| Orange |  40   |   0   |   0    |   1    |
-| Banana |  25   |   0   |   1    |   0    |
-| Apple  |  60   |   1   |   0    |   0    |
-
 ## Frequently Asked Questions
 
 ### 1. What do you mean by one hot encoding?
 
-One hot encoding is a useful technique used to convert categorical variables into numerical representations by assigning each unique category a binary vector, where one element is `1` and the rest of the elements are `0`.
+One hot encoding is a useful technique to convert categorical variables into numerical representations by assigning each unique category a binary vector, where one element is `1` and the rest of the elements are `0`.
 
-### 2. What is the difference between one hot encoding and ordinal encoding?
+### 2. What is one-hot and one-cold encoding?
 
-- One hot encoding: Represents categories as independent binary vectors with no implied order.
-- Ordinal encoding: Assigns categories integer values (e.g., 0, 1, 2), which may incorrectly imply a ranked order among categories.
+- **One-hot**: Binary vector with `1` for the category, `0` elsewhere; no implied order.
+- **One-cold**: Binary vector with `0` for the category, `1` elsewhere; indicates absence.
+- **Example (A, B, C)**:
+  - A → One-hot: `[1,0,0]`, One-cold: `[0,1,1]`
+  - B → One-hot: `[0,1,0]`, One-cold: `[1,0,1]`
+  - C → One-hot: `[0,0,1]`, One-cold: `[1,1,0]`
 
-### 3. What are the advantages of one hot encoding?
+### 3. What is the difference between binary and one-hot encoding?
 
-The advantages of one hot encoding include:
-
-- It avoids introducing false ordinal relationships.
-- It allows machine learning algorithms to treat categories equally without bias toward larger numbers.
-- It makes categorical data more interpretable in models that rely on numeric input, such as linear regression or neural networks.
+- **Binary encoding**: Represents categories as binary numbers; may imply order.
+- **One-hot encoding**: Represents categories as independent binary vectors with a single `1`; no order implied.
+- **Example (A, B, C)**:
+  - Binary: A → `00`, B → `01`, C → `10`
+  - One-hot: A → `[1,0,0]`, B → `[0,1,0]`, C → `[0,0,1]`
