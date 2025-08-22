@@ -116,7 +116,7 @@ try {
 }
 
 try {
-  delete obj.name; // Can't delete existing properties  
+  delete obj.name; // Can't delete existing properties
 } catch (e) {
   console.log('Cannot delete property:', e.message);
 }
