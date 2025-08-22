@@ -1,31 +1,31 @@
 ---
 Title: 'scale3d()'
-Description: 'Scales an element in 3D space along the x, y, and z axes.'
+Description: 'Scales an element in 3D space by multiplying its size along the X, Y, and Z axes.'
 Subjects:
-  - 'Web Development'
   - 'Web Design'
+  - 'Web Development'
 Tags:
+  - 'CSS'
   - 'Functions'
   - 'Positioning'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`scale3d()`** function scales an element in 3D space along the x, y, and z axes, allowing for three-dimensional transformations.
+The **`scale3d()`** function in CSS scales an element in 3D space along the X, Y, and Z axes, allowing for three-dimensional transformations.
 
 ## Syntax
 
-```css
-transform: scale3d(<x>, <y>, <z>);
+```pseudo
+transform: scale3d(sx, sy, sz);
 ```
 
-where the parameters are:
+**Parameters:**
 
-- `<x>`: A number or percentage that scales the element along the x-axis (horizontal)
-- `<y>`: A number or percentage that scales the element along the y-axis (vertical)
-- `<z>`: A number or percentage that scales the element along the z-axis (depth)
+- `sx`: A number that scales the element along the X-axis (horizontal).
+- `sy`: A number that scales the element along the Y-axis (vertical).
+- `sz`: A number that scales the element along the Z-axis (depth).
 
 **Note:** Values greater than 1 increase the size, values between 0 and 1 decrease the size, and negative values flip the element along that axis.
 
