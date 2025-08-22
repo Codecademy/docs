@@ -68,7 +68,7 @@ The code will produce this output:
 
 ## Example 2: Check Sealed Object
 
-The following example uses the [`Object.isSealed()`](https://www.codecademy.com/resources/docs/javascript/objects/isSealed) to check if the `car` object is sealed. This method returns `true` if the object is sealed, regardless of how it was sealed (e.g., via `Object.seal()` or [`Object.freeze()`](https://www.codecademy.com/resources/docs/javascript/objects/freeze)):
+The following example uses the [`Object.isSealed()`](https://www.codecademy.com/resources/docs/javascript/objects/isSealed) to check if the `car` object is sealed. This method returns `true` if the object is sealed, regardless of how it was sealed (e.g., via `Object.seal()` or `Object.freeze()`:
 
 ```js
 const car = {
