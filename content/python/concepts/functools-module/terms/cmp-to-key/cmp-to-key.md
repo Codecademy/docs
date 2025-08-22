@@ -15,15 +15,14 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
-The **`cmp-to-key()`** [function](https://www.codecademy.com/resources/docs/python/functions) is a _[higher-order function](https://www.codecademy.com/resources/docs/python/functions#:~:text=Higher%2DOrder%20Functions)_ used as a tool to generate _key functions_ from old-style _comparison functions_. A comparison function is any callable that takes two arguments, compares them and returns:
 
-  - a _negative number_ for less-than, 
-  - a _positive number_ for greater-than, 
-  - or _zero_ for equal to. 
+The **`cmp_to_key()`** [function](https://www.codecademy.com/resources/docs/python/functions) from `functools` is a _[higher-order function](https://www.codecademy.com/resources/docs/python/functions#:~:text=Higher%2DOrder%20Functions) that converts an old-style comparison function into a key function usable with tools like [`sorted()`](https://www.codecademy.com/resources/docs/python/built-in-functions/sorted), [`min()`](https://www.codecademy.com/resources/docs/python/built-in-functions/min), or [`max()`](https://www.codecademy.com/resources/docs/python/built-in-functions/max). A comparison function is any callable that takes two arguments and returns:
 
-A key function is a function that takes one argument and returns a value that can be used as a sorting key.
+- A negative number if the first argument is less than the second,  
+- A positive number if the first argument is greater,  
+- Or zero if they are equal.  
 
-The `cmp-to-key()` function is used by functions that can accept the `key` parameter (such as [sorted()](https://www.codecademy.com/resources/docs/python/built-in-functions/sorted), [min()](https://www.codecademy.com/resources/docs/python/built-in-functions/min), [max()](https://www.codecademy.com/resources/docs/python/built-in-functions/max), etc.). It is very common to use it to migrate programs written in Python 2 to Python 3.
+A key function, by contrast, takes a single argument and returns a value to be used as a sorting key. `cmp_to_key()` is especially useful when migrating code from Python 2 (which supported comparison functions) to Python 3 (which only supports key functions).
 
 ## Syntax
 
@@ -32,22 +31,23 @@ The `cmp-to-key()`function is part of the `functools` [module](https://www.codec
 ```pseudo
 from functools import cmp_to_key
 
-cmp_to_key(comp_func)
+functools.cmp_to_key(comp_func)
 ```
 
-**Parameters** 
+**Parameters:** 
 
 `comp_func`: This is a function that takes two arguments and compares them, returning:
-  - A _negative number_, if the first value is less than the second,
-  - a _positive number_, if the first value is more than the second,
-  - _zero_, if both values are equal.
+  - A _negative number_, if the first value is less than the second
+  - A _positive number_, if the first value is more than the second
+  - Or _zero_, if both values are equal
 
-**Return Value**
-The method returns a _key function_, which is used as the _sort key_ for functions that take the `key` parameter.
+**Return value:**
 
+Returns a key function that can be used as the key argument in sorting functions like `sorted()`, `list.sort()`, `min()`, or `max()`.
 
 ## Example 1
-In this example, we check which one of two values is heavier (larger) than the other
+
+This example demonstrates checking which of two values is heavier (larger) using `cmp_to_key()`:
 
 ```py
 from functools import cmp_to_key
@@ -66,14 +66,16 @@ weights.sort(key=cmp_to_key(lighter_to_heavier))
 print("Sorted weights", weights)
 ```
 
-The result is
+The output of this code is:
+
 ```shell
-[20, 200, 10, 1]
-[1, 10, 20, 200]
+Unsorted weights [20, 200, 10, 1]
+Sorted weights [1, 10, 20, 200]
 ```
 
 ## Example 2
-Here, we organize the list from largest to smallest by changing the comparison function.
+
+This example reorganizes the list from largest to smallest by modifying the comparison function:
 
 ```py
 from functools import cmp_to_key
@@ -92,7 +94,8 @@ weights.sort(key=cmp_to_key(heaviest_to_smallest))
 print("Sorted weights", weights)
 ```
 
-Resulting in
+The output of this code is:
+
 ```shell
 Unsorted weights [20, 200, 10, 1]
 Sorted weights [200, 20, 10, 1]
@@ -100,7 +103,7 @@ Sorted weights [200, 20, 10, 1]
 
 ## Codebyte Example: Reorganize a list of strings by length
 
-In this codebyte example, we use `cmp-to-key` to reorganize a list of strings by comparing their lengths.
+This example shows sorting strings by their length using a comparison function converted with `cmp_to_key()`:
 
 ```codebyte/python
 from functools import cmp_to_key
