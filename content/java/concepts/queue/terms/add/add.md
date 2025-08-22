@@ -4,7 +4,7 @@ Description: 'Inserts an element at the back of the queue.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Collections'
   - 'Data Structures'
   - 'Methods'
