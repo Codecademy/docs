@@ -157,6 +157,6 @@ int main() {
 
 For `std::array`, `begin()` returns a random-access iterator, not just a bidirectional iterator. Random-access iterators are more powerful and support additional operations.
 
-### 3. What does begin do in a C++ array?
+### 3. What does `begin()` do in a C++ array?
 
 `begin()` provides a standardized way to obtain an iterator to the first element of an array container. It enables iteration through elements, compatibility with range-based `for` loops, and integration with STL algorithms for operations like sorting, searching, and transforming data.
