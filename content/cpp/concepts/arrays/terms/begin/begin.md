@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`begin()`** function is a member function used with C++ array containers and the standard `std::begin()` function that returns an iterator pointing to the first element of an array or array-like container. It provides a standardized way to access the beginning of containers, enabling iteration through elements and compatibility with range-based for loops and STL algorithms.
+The **`begin()`** function is a member function used with C++ array containers and the standard `std::begin()` function that returns an iterator pointing to the first element of an array or array-like container. It provides a standardized way to access the beginning of containers, enabling iteration through elements and compatibility with range-based `for` [loops](https://www.codecademy.com/resources/docs/cpp/loops) and STL algorithms.
 
 ## Syntax
 
