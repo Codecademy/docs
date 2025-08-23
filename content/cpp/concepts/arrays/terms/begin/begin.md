@@ -72,7 +72,7 @@ First element: 10
 10 20 30 40 50
 ```
 
-## Example 2: Range-Based For Loop With `begin()`
+## Example 2: Range-Based `for` Loop With `begin()`
 
 This example shows how `begin()` works behind the scenes with range-based `for` loops in real-world scenarios like processing student grades:
 
