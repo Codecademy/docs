@@ -155,7 +155,7 @@ int main() {
 
 ### 2. What does arr `begin()` return?
 
-`arr.begin()` returns a bidirectional iterator pointing to the first element of the array. This iterator can be used to traverse the array elements and is compatible with STL algorithms and range-based operations.
+For `std::array`, `begin()` returns a random-access iterator, not just a bidirectional iterator. Random-access iterators are more powerful and support additional operations.
 
 ### 3. What does begin do in C++ array?
 
