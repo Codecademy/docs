@@ -149,7 +149,7 @@ int main() {
 
 ## Frequently Asked Questions
 
-### 1. What is the difference between `std::array` data and begin?
+### 1. What is the difference between `std::array` `data()` and `begin()`?
 
 `data()` returns a pointer to the underlying array data, providing direct access to the raw array elements. `begin()` returns an iterator to the first element, which is designed for safe iteration and compatibility with STL algorithms.
 
