@@ -74,7 +74,7 @@ First element: 10
 
 ## Example 2: Range-Based For Loop With `begin()`
 
-This example shows how `begin()` works behind the scenes with range-based for loops in real-world scenarios like processing student grades:
+This example shows how `begin()` works behind the scenes with range-based `for` loops in real-world scenarios like processing student grades:
 
 ```cpp
 #include <iostream>
