@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`use_count()`** method is a member function of `std::shared_ptr` that returns the number of `shared_ptr` objects that share ownership of the same managed object. This function provides a way to check how many shared pointers are currently referencing the same resource, which is useful for debugging, resource management, and understanding object lifetime in shared ownership scenarios.
+The **`use_count()`** method in C++ is a member function of `std::shared_ptr` that returns the number of `shared_ptr` objects that share ownership of the same managed object. This function provides a way to check how many shared [pointers](https://www.codecademy.com/resources/docs/cpp/pointers) are currently referencing the same resource, which is useful for debugging, resource management, and understanding object lifetime in shared ownership scenarios.
 
 ## Syntax
 
