@@ -32,7 +32,7 @@ std::begin(arrayname)
 
 **Parameters:**
 
-No parameters are required
+No parameters are required.
 
 **Returns:**
 
