@@ -1,6 +1,6 @@
 ---
 Title: 'ndarray'
-Description: 'An ndarray is a data structure of homogenous items (items of the same type and size).'
+Description: 'An ndarray is a NumPy data structure that stores elements of the same data type in a multi-dimensional array'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,13 +14,13 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-An **`ndarray`** is a data structure of homogenous items (items of the same type and size). The number of dimensions and items contained in the array is defined with a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) of N non-negative integers that specify each dimension's size. An `ndarray` has an associated data-type object which specifies the `dtype` (datatype) stored in the `ndarray`.
+An **`ndarray`** is a NumPy data structure that stores elements of the same data type in a multi-dimensional array. The number of dimensions and items contained in the array is defined with a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) of N non-negative integers that specify each dimension's size. An `ndarray` has an associated data-type object which specifies the `dtype` (datatype) stored in the `ndarray`.
 
 An `ndarray` is like other container objects in Python, like lists and tuples, but with its unique features. The items in an `ndarray` can be accessed by indexing and slicing the array. There are also a number of methods and attributes of the `ndarray` that can be used to access and manipulate its contents.
 
 Separate instances of an `ndarray` can share contents so that changes in one `ndarray` can be reflected in another. This happens when an `ndarray` is created as a "view" of another `ndarray` known as the "base".
 
-## Creating a `ndarray`
+## Creating an `ndarray`
 
 There are several routines for creating `ndarray` objects. These are preferred to using the `ndarray` constructor, which operates at a very low level. Here are a few examples:
 
