@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.sort()`** method sorts a NumPy array in-place in ascending order along a specified axis. By default, it sorts in ascending order.
+The **`.sort()`** method sorts a NumPy [array](https://www.codecademy.com/resources/docs/numpy/ndarray) in-place in ascending order along a specified axis. By default, it sorts in ascending order.
 
 ## Syntax
 
