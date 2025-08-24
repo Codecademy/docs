@@ -1,6 +1,6 @@
 ---
 Title: '.len()'
-Description: 'Returns the total number of bytes present in a specified string.'
+Description: 'Returns the length of a string, measured in bytes.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.len()`** method returns the number of bytes in a string. It is identical to the `#` operator.
+The **`.len()`** method returns the length of a string, measured in bytes. It is equivalent to using the length operator (`#`).
 
 ## Syntax
 
