@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`.sort()`** method sorts a NumPy [array](https://www.codecademy.com/resources/docs/numpy/ndarray) in-place in ascending order along a specified axis. By default, it sorts in ascending order.
 
-## Syntax
+## Syntax of Numpy `.sort()`
 
 ```pseudo
 ndarray.sort(axis=-1, kind=None, order=None)
