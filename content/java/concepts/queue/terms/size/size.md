@@ -30,7 +30,7 @@ The `size()` method does not take any parameters.
 
 ## Example 1: Get Queue Length using Java `size()`
 
- In this example, the `size()` method in Java is used to find the number of elements present in a queue:
+In this example, the `size()` method in Java is used to find the number of elements present in a queue:
  
 ```java
 import java.util.LinkedList;
