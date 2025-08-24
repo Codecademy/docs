@@ -15,7 +15,7 @@ CatalogContent:
 
 Java's [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface's **`.remove()`** method removes and returns the element at the head (front) of the queue. If the queue is empty, it throws a `NoSuchElementException`.
 
-## Syntax of Java `remove()`
+## Syntax of Java `.remove()`
 
 ```pseudo
 queue.remove()
