@@ -54,7 +54,7 @@ We will get the following result:
 
 ## Codebyte Example
 
-In the following codebyte example, a NumPy array `nf` is created with strings of varying lengths, and then sorted in descending order based on string length:
+In the following codebyte example, a NumPy array `nf` is created with integers, sorted in ascending order using NumPy's `.sort()` method, and then reversed to display the values in descending order:
 
 ```codebyte/python
 import numpy as np
