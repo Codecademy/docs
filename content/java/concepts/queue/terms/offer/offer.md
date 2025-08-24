@@ -24,7 +24,7 @@ queue.offer(element)
 
 **Parameters:**
 
-- `element`: The element to be inserted to the queue.
+- `element`: The element to be inserted into the queue.
 
 **Return value:**
 
