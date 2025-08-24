@@ -14,7 +14,7 @@ CatalogContent:
 
 The **`swap()`** method in C++ exchanges the contents of two `std::set` containers of identical type (same key type, comparator type, and allocator type). This operation is typically faster than copying or moving elements individually, as it swaps internal pointers and metadata without modifying or relocating the actual elements.
 
-## Syntax
+## Syntax of C++ `swap()`
 
 ```pseudo
 set1.swap(set2);
