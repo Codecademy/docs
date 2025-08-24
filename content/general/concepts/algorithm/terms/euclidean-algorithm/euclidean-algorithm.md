@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Euclidean algorithm** is a recursive algorithm that will find the greatest common divisor (GCD) of two numbers. The GCD is the largest value that will evenly divide (leave no remainder) both values. It is based on the observation that the GCD can be found by iteratively comparing two values, substituting the difference of the values alternatively, until the values are equivalent. This convergent value is the GCD.
+The **Euclidean algorithm** is a simple and efficient algorithm for finding the greatest common divisor (GCD) of two numbers. It can be implemented both iteratively and recursively. The GCD is the largest value that will evenly divide (leave no remainder) both values. It is based on the observation that the GCD can be found by iteratively comparing two values, substituting the difference of the values alternatively, until the values are equivalent. This convergent value is the GCD.
 
 There are multiple methods to solve and find the GCD of two numbers. In this explanation, let's explore a basic approach first and then move on to the Euclidean algorithm.
 
@@ -133,7 +133,7 @@ The step by step execution of this example is as follows:
 
 - Method 2:
 
-  - The second example also calculates the GCD using an iterative approach known as the Euclidean algorithm. It repeatedly subtracts the smaller number from the larger number until the two numbers become equal (the GCD). The time complexity of this algorithm depends on the number of iterations required to reach the GCD. In the worst case, where one number is a multiple of the other, the time complexity is _O(max(a, b))_.
+  - The second example also calculates the GCD using an iterative approach known as the Euclidean algorithm. It repeatedly subtracts the smaller number from the larger number until the two numbers become equal (the GCD). The time complexity of this algorithm depends on the number of iterations required to reach the GCD. In the worst case (such as when the numbers are close in value), the subtraction-based approach may take up to _O(max(a, b))_ iterations.
 
 - Method 3:
 
