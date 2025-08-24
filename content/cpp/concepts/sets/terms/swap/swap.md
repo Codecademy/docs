@@ -26,7 +26,7 @@ Or using the non-member function:
 std::swap(set1, set2);
 ```
 
-**Parameters**
+**Parameters:**
 
 - `set1`, `set2`: Two `std::set` containers of the same type (including the same key type, comparator, and allocator).
 
