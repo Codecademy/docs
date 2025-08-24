@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Java **`size()`** is a method that returns the number of elements currently present in a collection like a queue, helping determine how many items are stored at any given moment.
+In Java, **`size()`** is a method that returns the number of elements currently present in a collection like a queue, helping determine how many items are stored at any given moment.
 
 ## Syntax
 
