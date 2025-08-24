@@ -59,9 +59,13 @@ In the following codebyte example, a NumPy array `nf` is created with strings of
 ```codebyte/python
 import numpy as np
 
-nf = np.array(['aaa', 'cccc', 'xxxxx', 'bb', 'yyyyyyy', 'p'])
+nf = np.array([5, 1, 9, 3, 2, 8])
 
-sorted_nf = np.array(sorted(nf, key=len, reverse=True))
+# Sort the array in-place using NumPy's sort method
+nf.sort()
+print("Ascending:", nf)
 
-print(sorted_nf)
+# Reverse for descending order
+nf = nf[::-1] 
+print("Descending:", nf)
 ```
