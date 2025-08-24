@@ -22,7 +22,7 @@ queue.size()
 
 **Parameters:**
 
-`size()` method does not take any parameters.
+The `size()` method does not take any parameters.
 
 **Return value:**
 
