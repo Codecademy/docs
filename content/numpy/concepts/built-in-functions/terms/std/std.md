@@ -13,90 +13,106 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.std()`** function calculates the standard deviation of given data along a specified axis. A standard deviation is a statistical measure indicating the spread of a distribution of data, represented by an array, along a specified axis.
+The NumPy **`.std()`** function calculates the NumPy standard deviation of given data along a specified axis. Standard deviation is a statistical measure that indicates how spread out the values in a dataset are, represented by an array, along a specified axis.
 
-## Syntax
+## NumPy `.std()` Syntax
 
 ```pseudo
-numpy.std(a, axis, dtype, out, ddof, keepdims, where)
+np.std(a, axis, dtype, out, ddof, keepdims, where)
 ```
 
-- `a`: Array of elements used to find the standard deviation.
+**Parameters:**
 
-### Optional Parameters
+- `a`: [Array](https://www.codecademy.com/resources/docs/numpy/ndarray) of elements used to find the standard deviation.
+- `axis`(Optional): The axis along which the standard deviation will be computed. By default, the array is flattened before computation.
+  - If `0`, calculates the standard deviation along the vertical axis.
+  - If `1`, calculates the standard deviation along the horizontal axis.
+  - If a tuple of integers, calculates the standard deviation along multiple specified axes.
+- `dtype` (Optional): Type used in computing the standard deviation, if specified. By default, for arrays of integer type, it is float64, while for arrays of float types, it matches the array type.
+- `out` (Optional): Specifies an alternative output array to contain the result. This array must have the same shape as the expected output.
+- `ddof` (Optional): It stands for _Delta Degrees of Freedom_. It helps adjust the calculation of standard deviation for samples.
+- `keepdims` (Optional): It accepts a boolean value and is used to determine whether to retain the dimensions of the given array in the output. By default, it is set to `False`.
+- `where` (Optional): It accepts boolean arrays or conditions where `True` values indicate the indices, or elements within the array for which the standard deviation should be calculated.
 
-- `axis`: Specifies the axis along which the standard deviation will be computed. By default, the array is flattened before computation.
+**Return value:**
 
-  - **axis = 0**: Calculates the standard deviation along the vertical axis.
+If the `out` parameter is `None`, the NumPy `.std()` function returns a new array containing the standard deviation. Otherwise, it assigns the result to the specified output array and returns its reference.
 
-  - **axis = 1**: Calculates the standard deviation along the horizontal axis.
+> **Notes:**
+>
+> 1. For floating-point inputs, the standard deviation is calculated with the same precision as the input data. This may cause inaccuracies, especially with `np.float32` data type.
+> 2. For complex numbers, `std` takes the absolute value before squaring for a real, non-negative result.
 
-  - **tuple of ints**: Calculates the standard deviation along multiple specified axes.
+## Example 1: Basic Usage of NumPy `.std()`
 
-- `dtype`: Type used in computing the standard deviation, if specified. By default, for arrays of integer type, it is float64, while for arrays of float types, it matches the array type.
-
-  > **Note** For floating-point inputs, the standard deviation is calculated with the same precision as the input data. This may cause inaccuracies, especially with `np.float32` data type.
-
-- `out`: Specifies an alternative output array to contain the result. This array must have the same shape as the expected output.
-
-- `ddof`: It stands for _Delta Degrees of Freedom_. It helps adjust the calculation of standard deviation for samples.
-
-- `keepdims`: It accepts a boolean value and is used to determine whether to retain the dimensions of the input array in the output. By default, it is set to `False`.
-
-- `where`: It accepts boolean arrays or conditions where `True` values indicate the indices, or elements within the array for which the standard deviation should be calculated.
-
-If the `out` parameter is `None`, the `.std()` function returns a new array containing the standard deviation. Otherwise, it assigns the result to the specified output array and returns its reference.
-
-> **Note** For complex numbers, `std` takes the absolute value before squaring for a real, nonnegative result.
-
-## Example
-
-The following examples demonstrate the use of `.std()` with different parameters.
+In this example, the NumPy `.std()` function calculates the standard deviation of the given data:
 
 ```py
 import numpy as np
 
-arr = np.array([23, 54, 19, 45, 34])
+data = [10, 13, 23, 23, 16, 23, 21, 16]
 
-print("arr : ", arr)
+std_dev = np.std(data)
 
-print("\nStandard deviation of arr : ", np.std(arr))
-
-print("\nStandard deviation of arr (float32) : ", np.std(arr, dtype=np.float32))
-
-print("\nStandard deviation of arr (float64) : ", np.std(arr, dtype=np.float64))
+print("Standard Deviation:", std_dev)
 ```
 
-Given below is the output for the above code block:
+The output of this code is:
 
 ```shell
-arr :  [23, 54, 19, 45, 34]
-
-Standard deviation of arr : 13.130118049735882
-
-Standard deviation of arr (float32) : 13.130117
-
-Standard deviation of arr (float64) : 13.130118049735882
+Standard Deviation: 4.7549316504025585
 ```
 
-## Codebyte Example
+## Example 2: Using NumPy `.std()` with `axis`
 
-Run the below codebyte to better understand the `.std()` function:
+In this example, the `axis` parameter is used with the NumPy `.std()` function to calculate the standard deviation of the given data:
+
+```py
+import numpy as np
+
+arr = np.array([[1, 2, 3],
+                [4, 5, 6]])
+
+col_std = np.std(arr, axis=0)
+row_std = np.std(arr, axis=1)
+
+print("Column-wise STD:", col_std)
+print("Row-wise STD:", row_std)
+```
+
+The output of this code is:
+
+```shell
+Column-wise STD: [1.5 1.5 1.5]
+Row-wise STD: [0.81649658 0.81649658]
+```
+
+## Codebyte Example: Using NumPy `.std()` with `ddof`
+
+In this codebyte example, the `ddof` parameter is used with the NumPy `.std()` function to calculate the standard deviation of the given data:
 
 ```codebyte/python
 import numpy as np
 
-arr = [[8, 8, 8, 8, 8],
-       [15, 10, 32, 9, 8],
-       [27, 6, 63, 4, 8, ],
-       [23, 54, 41, 9, 8]]
+data = [10, 13, 23, 23, 16, 23, 21, 16]
 
-# flattened array
-print("\nStandard deviation of arr, when axis = None : ", np.std(arr))
+pop_std = np.std(data)
+sample_std = np.std(data, ddof=1)
 
-# along the axis = 0
-print("\nStandard deviation of arr, when axis = 0 : ", np.std(arr, axis = 0))
-
-# along the axis = 1
-print("\nStandard deviation of arr, when axis = 1 : ", np.std(arr, axis = 1))
+print("Population STD:", pop_std)
+print("Sample STD:", sample_std)
 ```
+
+## Frequently Asked Questions
+
+### 1. What is the difference between NumPy `.std()` and `stdev()`?
+
+NumPy `.std()` works on NumPy arrays and is optimized for performance, supporting multi-dimensional data and the `axis` parameter. Python’s built-in `statistics.stdev()` works on standard Python iterables, calculates the **sample** standard deviation by default, and doesn’t support multi-dimensional arrays or the `axis` argument.
+
+### 2. Is NumPy `.std()` population or sample?
+
+By default, NumPy `.std()` calculates the **population** standard deviation (`ddof=0`). To compute the sample standard deviation, set `ddof=1`.
+
+### 3. What is the difference between NumPy `.std()` and Pandas `.std()`?
+
+NumPy `.std()` calculates standard deviation on NumPy arrays and defaults to population standard deviation (`ddof=0`). Pandas `.std()` works on Series and DataFrame objects, automatically excludes `NaN` values, and defaults to the sample standard deviation (`ddof=1`).

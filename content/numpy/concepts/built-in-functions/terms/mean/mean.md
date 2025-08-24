@@ -214,29 +214,24 @@ for i, avg in enumerate(exam_averages, 1):
 print(f"\nOverall class average: {class_average:.1f}")
 ```
 
-## FAQs
+## Frequently Asked Questions
 
-<details>
-<summary>1. What's the difference between `np.mean()` and `np.average()`?</summary>
-<p>While both calculate the arithmetic mean, `np.average()` allows specifying weights for elements, enabling weighted averages, whereas `np.mean()` treats all values equally.</p>
-</details>
+### 1. What's the difference between `np.mean()` and `np.average()`?
 
-<details>
-<summary>2. How does NumPy's `.mean()` handle `NaN` values?</summary>
-<p>By default, `.mean()` will return `NaN` if any of the values being averaged are `NaN`. To ignore `NaN` values, use `np.nanmean()` instead.</p>
-</details>
+While both calculate the arithmetic mean, `np.average()` allows specifying weights for elements, enabling weighted averages, whereas `np.mean()` treats all values equally.
 
-<details>
-<summary>3. Can `.mean()` calculate the mean of strings or other non-numeric data?</summary>
-<p>No, `.mean()` works only with numeric data. Attempting to calculate the mean of non-numeric data will result in a `TypeError`.</p>
-</details>
+### 2. How does NumPy's `.mean()` handle `NaN` values?
 
-<details>
-<summary>4. How can dimensions be preserved when calculating means along an axis?</summary>
-<p>Set the `keepdims=True` parameter to maintain the dimensions of the original array in the output.</p>
-</details>
+By default, `.mean()` will return `NaN` if any of the values being averaged are `NaN`. To ignore `NaN` values, use `np.nanmean()` instead.
 
-<details>
-<summary>5. Is there a performance difference between using `.mean()` method and the `np.mean()` function?</summary>
-<p>No significant performance difference exists between `arr.mean()` and `np.mean(arr)` as they both call the same underlying implementation. Choose the syntax that makes code more readable.</p>
-</details>
+### 3. Can `.mean()` calculate the mean of strings or other non-numeric data?
+
+No, `.mean()` works only with numeric data. Attempting to calculate the mean of non-numeric data will result in a `TypeError`.
+
+### 4. How can dimensions be preserved when calculating means along an axis?
+
+Set the `keepdims=True` parameter to maintain the dimensions of the original array in the output.
+
+### 5. Is there a performance difference between using `.mean()` method and the `np.mean()` function?
+
+No significant performance difference exists between `arr.mean()` and `np.mean(arr)` as they both call the same underlying implementation. Choose the syntax that makes code more readable.
