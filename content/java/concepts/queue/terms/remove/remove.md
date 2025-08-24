@@ -35,7 +35,7 @@ Throws `NoSuchElementException` exception if the queue is empty.
 
 > **Note:** Don’t confuse `remove()` with `remove(Object o)`, which is inherited from [`Collection`](https://www.codecademy.com/resources/docs/java/collection) and removes the first matching element from the queue if it exists.
 
-## Example: Removing the Head Element Using Java Queue remove()
+## Example: Removing the Head Element Using Java Queue `.remove()`
 
 The example here uses a `LinkedList` implementation to demonstrate `.remove()` returning and deleting the head element:
 
