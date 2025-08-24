@@ -46,7 +46,7 @@ nf = nf[::-1] # Reverses to get descending order
 print(nf)
 ```
 
-We will get the following result:
+The above code will result in the following output:
 
 ```shell
 ['xxx' 'sss' 'ddd' 'aaa']
