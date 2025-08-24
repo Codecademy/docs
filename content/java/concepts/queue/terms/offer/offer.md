@@ -14,7 +14,7 @@ CatalogContent:
 
 The **`.offer()`** method is part of the Java [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface and inserts an element at the end of the queue. It returns `true` if the element was added successfully, or `false` if the queue is at capacity and cannot accept new elements.
 
-Unlike the `add()` method, which throws an exception when the queue is full, `offer()` fails gracefully, making it useful when there is a need to handle capacity limits without triggering exceptions.
+Unlike the [`add()`](https://www.codecademy.com/resources/docs/java/queue/add) method, which throws an exception when the queue is full, `.offer()` fails, making it useful when there is a need to handle capacity limits without triggering exceptions.
 
 ## Syntax
 
