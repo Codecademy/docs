@@ -32,9 +32,9 @@ queue.offer(element)
 
 The `offer()` method is non-blocking, meaning it returns immediately if the queue is full. Instead of throwing an exception when capacity is reached, it returns `false`, making it safer for capacity-aware operations. Its behavior may vary between bounded and unbounded queue implementations.
 
-## Example: Using `offer()` in a Print Job Queue System
+## Example: Using `.offer()` in a Print Job Queue System
 
-In this example, a bounded queue with capacity two demonstrates how `offer()` returns `true` when adding elements within capacity and `false` when the queue is full:
+In this example, a bounded queue with capacity two demonstrates how `.offer()` returns `true` when adding elements within capacity and `false` when the queue is full:
 
 ```java
 import java.util.Queue;
