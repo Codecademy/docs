@@ -29,9 +29,9 @@ transform: scaleX(s);
 ## Example
 
 ```css
-.box {
+.bigCat {
   transform: scaleX(2);
 }
 ```
 
-In this example, the element with the class `box` will be scaled to twice its original **width**.
+In this example, the element with the class `bigCat` will be scaled to twice its original **width**.
