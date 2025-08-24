@@ -30,7 +30,7 @@ queue.offer(element)
 
 - Returns `true` if the element was added successfully, `false` if the queue is full.
 
-The `offer()` method is non-blocking, meaning it returns immediately if the queue is full. Instead of throwing an exception when capacity is reached, it returns `false`, making it safer for capacity-aware operations. Its behavior may vary between bounded and unbounded queue implementations.
+The `.offer()` method is non-blocking, meaning it returns immediately if the queue is full. Instead of throwing an exception when capacity is reached, it returns `false`, making it safer for capacity-aware operations. Its behavior may vary between bounded and unbounded queue implementations.
 
 ## Example: Using `.offer()` in a Print Job Queue System
 
