@@ -1,24 +1,32 @@
 ---
-Title: 'The Title' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A brief description.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'paths/example-path'
+Title: 'Lists'
+Description: 'A List in c# is a dynamic data structure that stores multiple objects of a specified type.'
+Subjects:
+  - 'Computer Science'
+  - 'Code Foundations'
+  - 'Developer Tools'
+Tags:
+  - 'Lists'
+CatalogContent:
+  - 'learn-c-sharp'
+  - 'paths/computer-science'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+A **List** in [C#](https://www.codecademy.com/resources/docs/c-sharp) is a dynamic data structure that stores multiple `Objects` of a specified type. These objects can be accessed by their zero-based index. Unlike [arrays](https://www.codecademy.com/resources/docs/c-sharp/arrays), Lists can automatically resize as elements are added or removed, and their capacity is practically unlimited, as long as there is enough memory available on the system.
 
-## Subsection 1
+## Syntax
 
-[Text about subsection 1]
+> **Note:** Before creating a `List`, you need to include the `System.Collections.Generic` namespace.
+
+There are two common ways to create a `List` in C#:
+
+```csharp
+// Creating a List without any elements
+List<T> myList = new List<T>();
+
+// Creating a List with three elements
+List<T> myList = new List<T> { element1, element2, element3 };
+```
 
 ## Subsection 2
 
