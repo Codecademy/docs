@@ -66,6 +66,6 @@ nf.sort()
 print("Ascending:", nf)
 
 # Reverse for descending order
-nf = nf[::-1] 
+nf = nf[::-1]
 print("Descending:", nf)
 ```
