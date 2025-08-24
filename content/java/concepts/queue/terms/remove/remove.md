@@ -23,7 +23,7 @@ queue.remove()
 
 **Parameters:**
 
-The `remove()` method does not take any parameters.
+The `.remove()` method does not take any parameters.
 
 **Return value:**
 
