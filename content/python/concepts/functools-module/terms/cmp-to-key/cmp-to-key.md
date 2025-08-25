@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`cmp_to_key()`** [function](https://www.codecademy.com/resources/docs/python/functions) from `functools` is a _[higher-order function](https://www.codecademy.com/resources/docs/python/functions#:~:text=Higher%2DOrder%20Functions) that converts an old-style comparison function into a key function usable with tools like [`sorted()`](https://www.codecademy.com/resources/docs/python/built-in-functions/sorted), [`min()`](https://www.codecademy.com/resources/docs/python/built-in-functions/min), or [`max()`](https://www.codecademy.com/resources/docs/python/built-in-functions/max). A comparison function is any callable that takes two arguments and returns:
+The **`cmp_to_key()`** [function](https://www.codecademy.com/resources/docs/python/functions) from `functools` is a [**higher-order function**](https://www.codecademy.com/resources/docs/python/functions#:~:text=Higher%2DOrder%20Functions) that converts an old-style comparison function into a key function usable with tools like [`sorted()`](https://www.codecademy.com/resources/docs/python/built-in-functions/sorted), [`min()`](https://www.codecademy.com/resources/docs/python/built-in-functions/min), or [`max()`](https://www.codecademy.com/resources/docs/python/built-in-functions/max). A comparison function is any callable that takes two arguments and returns:
 
 - A negative number if the first argument is less than the second,  
 - A positive number if the first argument is greater,  
