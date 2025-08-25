@@ -1,6 +1,6 @@
 ---
 Title: 'cmp-to-key()'
-Description: 'Converts an old-style comparison function into a key function, which will be used as the key argument in functions that accepts this parameter.'
+Description: 'Converts an old-style comparison function into a key function, which will be used as the key argument in functions that accept this parameter.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -26,7 +26,7 @@ A key function, by contrast, takes a single argument and returns a value to be u
 
 ## Syntax
 
-The `cmp-to-key()`function is part of the `functools` [module](https://www.codecademy.com/resources/docs/python/modules):
+The `cmp-to-key()` function is part of the `functools` [module](https://www.codecademy.com/resources/docs/python/modules):
 
 ```pseudo
 from functools import cmp_to_key
