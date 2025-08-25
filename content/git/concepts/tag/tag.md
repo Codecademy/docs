@@ -1,6 +1,6 @@
 ---
 Title: 'Tag'
-Description: "Marks specific points in a repository’s history as important."
+Description: 'Marks specific points in a repository’s history as important.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
