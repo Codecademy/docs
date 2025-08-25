@@ -1,5 +1,5 @@
 ---
-Title: 'unordered_map::load_factor'
+Title: 'load_factor()'
 Description: 'Returns the current load factor of the unordered_map hash table, which is the ratio of element count to bucket count.'
 Subjects:
   - 'Computer Science'
