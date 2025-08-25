@@ -1,6 +1,6 @@
 ---
 Title: '.len()'
-Description: 'Returns the total number of characters present in a specified string.'
+Description: 'Returns the length of a string, measured in bytes.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.len()`** method returns the total number of characters present in a specified string.
+The **`.len()`** method returns the length of a string, measured in bytes. It is equivalent to using the length operator (`#`).
 
 ## Syntax
 
@@ -24,20 +24,20 @@ string.len(s)
 
 - `s`: The input string whose length is to be determined.
 
-> Note: Calling `string.len()` without any arguments will result in an error.
+> **Note:** Calling `.len()` without any arguments will result in an error.
 
 ## Example
 
 The following example demonstrates the usage of the `.len()` method:
 
 ```lua
-town = "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
-lenExample = string.len(town)
-print(lenExample)
+hello = "hello"
+hello_len = string.len(hello)
+print(hello_len)
 ```
 
 The above code produces the following output:
 
 ```shell
-58
+5
 ```
