@@ -4,7 +4,7 @@ Description: 'Returns the imaginary part of each element in a complex tensor.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Machine LEarning'
+  - 'Machine Learning'
 Tags:
   - 'AI'
   - 'Deep Learning'
