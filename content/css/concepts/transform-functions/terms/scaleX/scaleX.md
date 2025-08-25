@@ -22,7 +22,7 @@ The **`scaleX()`** function in CSS is used to apply a scaling transformation to 
 transform: scaleX(s);
 ```
 
-### Parameters  
+### Parameters
 
 - `s`: A number that specifies the scaling factor. A value of `1` means no scaling (the element retains its original size), while values greater than `1` will enlarge the element, and values between `0` and `1` will reduce its size.
 
