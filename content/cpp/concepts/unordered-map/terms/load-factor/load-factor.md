@@ -36,7 +36,7 @@ float load_factor() const;
 
 - Returns a floating-point value representing the container's current load factor (the ratio of size to bucket count).
 
-## Example 1: Basic Usage of load_factor()
+## Example 1: Basic Usage of `load_factor()`
 
 This example demonstrates the basic usage of `load_factor()` and how it changes as elements are added:
 
@@ -127,7 +127,7 @@ After inserting 8 items:
 
 The above code shows how the load factor changes as elements are inserted into the container. Initially, the load factor is 0 (empty container). As elements are added, the load factor increases. When it approaches the max load factor, the container automatically rehashes (increases the bucket count), which reduces the load factor.
 
-## Example 2: Performance Analysis with load_factor()
+## Example 2: Performance Analysis with `load_factor()`
 
 This example demonstrates how to use `load_factor()` to analyze and optimize hash table performance:
 
@@ -308,23 +308,21 @@ This example demonstrates a practical scenario where monitoring and managing the
 
 ## Frequently Asked Questions
 
-### 1. What is an ideal load factor for [`unordered_map`](https://www.codecademy.com/resources/docs/cpp/unordered-map)?
+### 1. What is an ideal load factor for `unordered_map`?
 
 There's no universally ideal load factor as it depends on the hash function quality, key distribution, and performance requirements. However, most implementations perform well with load factors between 0.5 and 0.75. Values around 0.6-0.7 often provide a good balance between memory usage and performance.
 
-### 2. Why does the load factor matter for performance?
+### 2. What is the load factor in C++?
 
-The load factor directly affects hash collision probability. Higher load factors increase collision likelihood, potentially degrading average-case O(1) operations to O(n) in worst-case scenarios. Lower load factors reduce collisions but may waste memory.
+The load factor in C++ (specifically for hash-based containers like `unordered_map` and `unordered_set`) measures how full the hash table is. It’s calculated as:
 
-### 3. How can I control the load factor in my application?
+```tex
+load_factor = number_of_elements / number_of_buckets
+```
 
-You can control the load factor through several methods:
+### 3. Is unordered_map faster than map in C++?
 
-- Use `max_load_factor()` to set the threshold for automatic rehashing
-- Call `reserve()` to pre-allocate buckets for expected element count
-- Monitor `load_factor()` to trigger manual optimizations
-- Consider custom hash functions for better key distribution
+Yes, in most cases:
 
-### 4. Does calling load_factor() have any performance impact?
-
-No, `load_factor()` is a const member function that simply returns a calculated value (size/bucket_count). It's a lightweight operation with O(1) complexity and doesn't modify the container or affect its performance.
+- `unordered_map` is implemented using hash tables, so average time complexity for insert, delete, and find is O(1).
+- `map` is implemented using a balanced binary search tree (Red-Black tree), so those operations take O(log n) time.
