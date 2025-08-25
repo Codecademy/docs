@@ -1,6 +1,6 @@
 ---
 Title: '.geometric()'
-Description: 'Genereates random samples from the specified geometric distribution.'
+Description: 'Generates random samples from the specified geometric distribution.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.geometric()`** function in `numpy.random` returns random samples from a geometric distribution based on a given probability of success, with the option to control the number of samples through the `size` parameter.
+The **`.geometric()`** function in [`numpy.random`](https://www.codecademy.com/resources/docs/numpy/random-module) returns random samples from a geometric distribution based on a given probability of success, with the option to control the number of samples through the `size` parameter.
 
 ## Syntax
 
