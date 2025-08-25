@@ -18,7 +18,9 @@ The **`load_factor()`** is a member function of the `std::unordered_map` contain
 
 The **load factor** is a crucial measure of a hash table's efficiency. It is calculated by dividing the number of stored elements by the number of available buckets.
 
-`Load Factor = Number of Elements / Number of Buckets`
+```plaintext
+Load Factor = Number of Elements / Number of Buckets
+```
 
 Essentially, the load factor indicates how full the hash table is. A low load factor signifies ample space, leading to faster operations and fewer "collisions" (when multiple items map to the same spot). A high load factor indicates the table is crowded, which can degrade performance because extra work is required to find and store items.
 
