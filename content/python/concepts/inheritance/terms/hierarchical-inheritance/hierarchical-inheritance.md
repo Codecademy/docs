@@ -64,7 +64,7 @@ print(f.move())
 The output of this code is:
 
 ```shell
-Flies  
+Flies
 Swims
 ```
 
