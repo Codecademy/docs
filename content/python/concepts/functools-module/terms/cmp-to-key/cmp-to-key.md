@@ -11,16 +11,16 @@ Tags:
   - 'Python'
   - 'Sort'
   - 'Sorting Algorithms'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
 The **`cmp_to_key()`** [function](https://www.codecademy.com/resources/docs/python/functions) from `functools` is a [**higher-order function**](https://www.codecademy.com/resources/docs/python/functions#:~:text=Higher%2DOrder%20Functions) that converts an old-style comparison function into a key function usable with tools like [`sorted()`](https://www.codecademy.com/resources/docs/python/built-in-functions/sorted), [`min()`](https://www.codecademy.com/resources/docs/python/built-in-functions/min), or [`max()`](https://www.codecademy.com/resources/docs/python/built-in-functions/max). A comparison function is any callable that takes two arguments and returns:
 
-- A negative number if the first argument is less than the second,  
-- A positive number if the first argument is greater,  
-- Or zero if they are equal.  
+- A negative number if the first argument is less than the second,
+- A positive number if the first argument is greater,
+- Or zero if they are equal.
 
 A key function, by contrast, takes a single argument and returns a value to be used as a sorting key. `cmp_to_key()` is especially useful when migrating code from Python 2 (which supported comparison functions) to Python 3 (which only supports key functions).
 
@@ -34,12 +34,13 @@ from functools import cmp_to_key
 functools.cmp_to_key(comp_func)
 ```
 
-**Parameters:** 
+**Parameters:**
 
 `comp_func`: This is a function that takes two arguments and compares them, returning:
-  - A _negative number_, if the first value is less than the second
-  - A _positive number_, if the first value is more than the second
-  - Or _zero_, if both values are equal
+
+- A _negative number_, if the first value is less than the second
+- A _positive number_, if the first value is more than the second
+- Or _zero_, if both values are equal
 
 **Return value:**
 
