@@ -1,10 +1,10 @@
 ---
 Title: '.imag'
-Description: 'Extracts the imaginary part of each element in a complex tensor.'
+Description: 'Returns the imaginary part of each element in a complex tensor.'
 Subjects:
-  - 'AI'
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
+  - 'Machine LEarning'
 Tags:
   - 'AI'
   - 'Deep Learning'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.imag`** method in PyTorch extracts the imaginary part of each element in a complex [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). For complex numbers, it returns the coefficient of the imaginary unit (j), and for real numbers, it returns zero. This method is essential for complex number analysis, signal processing, and mathematical operations involving complex tensors.
+The **`.imag`** property in PyTorch returns the imaginary part of each element in a complex [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). For complex numbers, it returns the coefficient of the imaginary unit (`j`), and for real numbers, it returns zero. This method is essential for complex number analysis, signal processing, and mathematical operations involving complex tensors.
 
 ## Syntax
 
@@ -24,9 +24,11 @@ The **`.imag`** method in PyTorch extracts the imaginary part of each element in
 tensor.imag
 ```
 
+**Return value:**
+
 The `.imag` property returns a new tensor containing the imaginary parts of each element in the input tensor. The output tensor has the same shape as the input tensor but contains only real values.
 
-## Example
+## Example 1
 
 The following example demonstrates how to use the `.imag` property to extract imaginary parts from a complex tensor:
 
@@ -60,12 +62,12 @@ tensor([[ 2., -4.],
 
 In this example:
 
-- **1 + 2j** → imaginary part is **2.0**
-- **3 - 4j** → imaginary part is **-4.0**
-- **5 + 0j** → imaginary part is **0.0** (0.0 is also a real number)
-- **-2 + 1j** → imaginary part is **1.0**
+- `1 + 2j` → imaginary part is `2.0`
+- `3 - 4j` → imaginary part is `-4.0`
+- `5 + 0j` → imaginary part is `0.0` (0.0 is also a real number)
+- `-2 + 1j` → imaginary part is `1.0`
 
-## Codebyte Example
+## Example 2
 
 Run the following code to see how `.imag` works with different types of complex numbers:
 
@@ -89,9 +91,24 @@ print("\nImaginary parts of 2D matrix:")
 print(matrix_2d.imag)
 ```
 
-The `.imag` property is useful when you need to:
+The output of this code is:
 
-- Separate real and imaginary components for analysis
-- Perform operations only on the imaginary parts of complex data
-- Visualize the imaginary components of complex signals
-- Implement algorithms that require separate handling of real and imaginary parts
+```shell
+Complex numbers: tensor([ 1.+3.j,  2.-5.j,  4.+0.j, -1.-2.j])
+Imaginary parts: tensor([ 3., -5.,  0., -2.])
+
+2D complex matrix:
+tensor([[1.+1.j, 2.-2.j],
+        [3.+3.j, 4.-4.j]])
+
+Imaginary parts of 2D matrix:
+tensor([[ 1., -2.],
+        [ 3., -4.]])
+```
+
+The `.imag` property is useful for:
+
+- Separating real and imaginary components for analysis
+- Performing operations specifically on imaginary parts of data
+- Visualizing imaginary components of complex signals
+- Implementing algorithms that require distinct handling of real and imaginary values
