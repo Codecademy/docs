@@ -71,7 +71,7 @@ In this example:
 
 Run the following code to see how `.imag` works with different types of complex numbers:
 
-```codebyte/python
+```py
 import torch
 
 # Create tensors with different complex numbers
