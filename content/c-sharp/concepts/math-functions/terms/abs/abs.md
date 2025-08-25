@@ -1,74 +1,182 @@
 ---
-Title: '.Abs()'
-Description: 'Computes the non-negative value of a number regardless of its sign.'
+Title: 'Abs()'
+Description: 'Returns the absolute value of a specified number.'
 Subjects:
-  - 'Code Foundations'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
+  - 'Functions'
+  - 'Math'
   - 'Methods'
   - 'Numbers'
-  - 'Arithmetic'
-  - 'Functions'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
 ---
 
-The **`Math.Abs()`** class method returns the absolute value of a given number.
+The C# **`Math.Abs()`** method is a static method that returns the absolute value of a specified number. The absolute value of a number is its distance from zero on the number line, always expressed as a positive value or zero.
 
-## Syntax
+## Syntax of C# `Math.Abs()`
 
 ```pseudo
 Math.Abs(number);
 ```
 
-The `Math.Abs()` method takes only one parameter, `number`, a `decimal`, `double` or `integer` type number. The method returns the absolute value of the `number` with the same type as the `number`, except if the value of `number` equals:
+**Parameters:**
 
-- `NaN` (not a number), then it returns `NaN`
-- `NegativeInfinity`, then it returns `PositiveInfinity`
-- `PositiveInfinity`, then it also returns `PositiveInfinity`
+- `number`: The numeric value for which to calculate the absolute value. This can be of type `decimal`, `double`, `float`, `int`, `long`, `sbyte`, `short`, or `IntPtr`.
 
-## Example
+**Return value:**
 
-The following example uses the `Math.Abs()` method to return the absolute value of a `decimal` and a `double` type number. Then, the `Console.WriteLine()` function prints the results to the console:
+Returns the absolute value of the specified number with the same data type as the input parameter. Special cases include:
+
+- If the input is `NaN` (Not a Number), returns `NaN`
+- If the input is negative infinity, returns positive infinity
+- If the input is positive infinity, returns positive infinity
+
+## Example 1: Basic Usage of C# `Math.Abs()`
+
+This example demonstrates the fundamental use of the `Math.Abs()` method with different numeric types to show how it returns the non-negative equivalent of the number:
 
 ```cs
 using System;
 
-public class Example {
-  public static void Main() {
-    decimal num1 = -1.23M;
-    double num2 = 6.674E-11;
+public class BasicAbsExample
+{
+  public static void Main()
+  {
+    // Integer examples
+    int negativeInt = -42;
+    int positiveInt = 15;
 
-    decimal abs1 = Math.Abs(num1);
-    double abs2 = Math.Abs(num2);
+    // Decimal examples
+    decimal negativeDecimal = -3.14m;
+    decimal positiveDecimal = 2.71m;
 
-    Console.WriteLine("The absolute value of " + num1 + " is: " + abs1);
-    Console.WriteLine("The absolute value of " + num2 + " is: " + abs2);
+    // Calculate absolute values
+    int absInt1 = Math.Abs(negativeInt);
+    int absInt2 = Math.Abs(positiveInt);
+    decimal absDecimal1 = Math.Abs(negativeDecimal);
+    decimal absDecimal2 = Math.Abs(positiveDecimal);
+
+    // Display results
+    Console.WriteLine($"Math.Abs({negativeInt}) = {absInt1}");
+    Console.WriteLine($"Math.Abs({positiveInt}) = {absInt2}");
+    Console.WriteLine($"Math.Abs({negativeDecimal}) = {absDecimal1}");
+    Console.WriteLine($"Math.Abs({positiveDecimal}) = {absDecimal2}");
   }
 }
 ```
 
-The example will result in the following output:
+The output of this code is as follows:
 
 ```shell
-The absolute value of -1.23 is: 1.23
-The absolute value of 6.674E-11 is: 6.674E-11
+Math.Abs(-42) = 42
+Math.Abs(15) = 15
+Math.Abs(-3.14) = 3.14
+Math.Abs(2.71) = 2.71
 ```
 
-## Codebyte Example
+## Example 2: Calculating Temperature Difference using `Math.Abs()`
 
-The following example is runnable and returns the absolute value of a `double` type number:
+This example shows how `Math.Abs()` can be used in a real-world scenario to calculate the temperature difference between two values, which is always expressed as a positive number:
+
+```cs
+using System;
+
+public class TemperatureDifference
+{
+  public static void Main()
+  {
+    // Temperature readings in Celsius
+    double morningTemp = -5.2;
+    double afternoonTemp = 18.7;
+    double eveningTemp = 12.3;
+
+    // Calculate temperature differences
+    double morningAfternoonDiff = Math.Abs(afternoonTemp - morningTemp);
+    double afternoonEveningDiff = Math.Abs(eveningTemp - afternoonTemp);
+    double morningEveningDiff = Math.Abs(eveningTemp - morningTemp);
+
+    // Display results
+    Console.WriteLine("Temperature Analysis:");
+    Console.WriteLine($"Morning: {morningTemp}C");
+    Console.WriteLine($"Afternoon: {afternoonTemp}C");
+    Console.WriteLine($"Evening: {eveningTemp}C");
+    Console.WriteLine();
+    Console.WriteLine("Temperature Differences:");
+    Console.WriteLine($"Morning to Afternoon: {morningAfternoonDiff}C");
+    Console.WriteLine($"Afternoon to Evening: {afternoonEveningDiff}C");
+    Console.WriteLine($"Morning to Evening: {morningEveningDiff}C");
+  }
+}
+```
+
+The output of this code is as follows:
+
+```shell
+Temperature Analysis:
+Morning: -5.2°C
+Afternoon: 18.7°C
+Evening: 12.3°C
+
+Temperature Differences:
+Morning to Afternoon: 23.9°C
+Afternoon to Evening: 6.4°C
+Morning to Evening: 17.5°C
+```
+
+## Codebyte Example: Financial Loss Calculator Using `Math.Abs()`
+
+This example demonstrates using `Math.Abs()` in financial applications to calculate the magnitude of profit or loss, regardless of whether the value is positive or negative:
 
 ```codebyte/csharp
 using System;
 
-public class Example {
+public class FinancialLossCalculator
+{
+  public static void Main()
+  {
+    // Investment performance data
+    decimal[] monthlyReturns = { 150.75m, -89.50m, 245.30m, -175.25m, 95.60m };
+    string[] months = { "January", "February", "March", "April", "May" };
 
-  public static void Main() {
-    double number = 299792458;
+    decimal totalAbsoluteChange = 0;
 
-    Console.WriteLine("The absolute value of " + number + " is: " + Math.Abs(number));
+    Console.WriteLine("Monthly Investment Performance:");
+    Console.WriteLine("Month\t\tReturn\t\tAbsolute Change");
+    Console.WriteLine("-----------------------------------------------");
+
+    for (int i = 0; i < monthlyReturns.Length; i++)
+    {
+      decimal absoluteChange = Math.Abs(monthlyReturns[i]);
+      totalAbsoluteChange += absoluteChange;
+
+      string returnType = monthlyReturns[i] >= 0 ? "Profit" : "Loss";
+      Console.WriteLine($"{months[i]}\t\t${monthlyReturns[i]:F2}\t\t${absoluteChange:F2} ({returnType})");
+    }
+
+    Console.WriteLine("-----------------------------------------------");
+    Console.WriteLine($"Total Absolute Change: ${totalAbsoluteChange:F2}");
+    Console.WriteLine($"Average Absolute Change: ${totalAbsoluteChange / monthlyReturns.Length:F2}");
   }
 }
 ```
+
+## Frequently Asked Questions
+
+### 1. What happens if I pass a positive number to `Math.Abs()`?
+
+The method returns the same positive number unchanged. For example, `Math.Abs(5)` returns 5.
+
+### 2. Can `Math.Abs()` handle floating-point numbers?
+
+Yes, `Math.Abs()` supports all numeric types including `float`, `double`, and `decimal`. It preserves the data type of the input.
+
+### 3. What does `Math.Abs()` return for zero?
+
+`Math.Abs(0)` returns 0, as the absolute value of zero is zero.
+
+### 4. Can `Math.Abs()` cause overflow exceptions?
+
+Yes, with certain integer types like `Int32.MinValue`, calling `Math.Abs()` can throw an `OverflowException` because the absolute value exceeds the maximum positive value for that type.
