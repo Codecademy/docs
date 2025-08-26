@@ -215,18 +215,18 @@ Current tasks in queue:
 ```
 
 > **Note:** `PriorityQueue` iteration does not guarantee elements will appear in priority order - the displayed task sequence may vary between program runs due to internal heap storage organization.
+
 This example shows how the `contains()` method can be used in system administration scenarios to verify whether critical tasks are queued for execution, helping administrators track and manage automated processes.
 
 ## Frequently Asked Questions
 
-### 1. What is string contains() in Java?
-
+### 1. What is the `contains()` method in Java?
 The `contains()` method for queues works with any object type, including strings. When used with String elements in a queue, it checks if a specific string value exists in the queue using the `equals()` method for comparison.
 
-### 2. What is contains in priority queue in Java?
+### 2. What is `contains()` in a priority queue in Java?
 
-In a PriorityQueue, the `contains()` method searches through the internal heap structure to find the specified element. It returns `true` if the element exists regardless of its position in the priority ordering. The time complexity is O(n) since it may need to check multiple elements.
+In a `PriorityQueue`, the `contains()` method searches through the internal heap structure to find the specified element. It returns `true` if the element exists, regardless of its position in the priority ordering. The time complexity is `O(n)` since it may need to check multiple elements.
 
 ### 3. Is Java priority queue max or min?
 
-By default, Java's PriorityQueue is a min-heap, meaning the smallest element (according to natural ordering or provided Comparator) has the highest priority and is removed first. To create a max-heap, you need to provide a reverse Comparator or implement Comparable in reverse order.
+By default, Java's `PriorityQueue` is a min-heap, meaning the smallest element (according to natural ordering or provided Comparator) has the highest priority and is removed first. To create a max-heap, you need to provide a reverse Comparator or implement Comparable in reverse order.
