@@ -35,7 +35,7 @@ The method returns a boolean value:
 
 ## Example 1: Basic `contains()` Usage in Java
 
-This example demonstrates the fundamental usage of the `contains()` method with a LinkedList queue implementation:
+This example demonstrates the fundamental usage of the `contains()` method with a `LinkedList` queue implementation:
 
 ```java
 import java.util.LinkedList;
