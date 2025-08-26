@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`contains()`** method is a built-in [method](https://www.codecademy.com/resources/docs/java/methods) in Java's Queue interface that checks whether a specific element is present in the queue. This method returns `true` if the queue contains the specified element, and `false` otherwise. The `contains()` method is inherited from the [Collection](https://www.codecademy.com/resources/docs/java/collection) interface and provides an efficient way to verify the presence of elements without modifying the queue structure.
+The **`contains()`** method in Java's [Queue](https://www.codecademy.com/resources/docs/java/queue) interface that checks whether a specific element is present in the queue. This method returns `true` if the queue contains the specified element, and `false` otherwise. The `contains()` method is inherited from the [Collection](https://www.codecademy.com/resources/docs/java/collection) interface and provides an efficient way to verify the presence of elements without modifying the queue structure.
 
 ## Syntax
 
