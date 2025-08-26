@@ -214,6 +214,7 @@ Current tasks in queue:
 - Clean Temp Files (Priority: 5)
 ```
 
+> **Note:** `PriorityQueue` iteration does not guarantee elements will appear in priority order - the displayed task sequence may vary between program runs due to internal heap storage organization.
 This example shows how the `contains()` method can be used in system administration scenarios to verify whether critical tasks are queued for execution, helping administrators track and manage automated processes.
 
 ## Frequently Asked Questions
