@@ -24,14 +24,14 @@ boolean contains(Object element)
 
 **Parameters:**
 
-- `element`: The element whose presence in the queue is to be checked
+- `element`: The element whose presence in the queue is to be checked.
 
 **Return value:**
 
 The method returns a boolean value:
 
-- `true` if the queue contains the specified element
-- `false` if the element is not found in the queue
+- `true` if the queue contains the specified element.
+- `false` if the element is not found in the queue.
 
 ## Example 1: Basic `contains()` Usage in Java
 
