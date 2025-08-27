@@ -1,6 +1,7 @@
 ---
 Title: 'join()'
 Description: 'Combines columns from another DataFrame into the calling DataFrame based on the index or a key column.'
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags: 
