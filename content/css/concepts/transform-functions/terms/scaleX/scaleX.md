@@ -29,9 +29,31 @@ transform: scaleX(s);
 ## Example
 
 ```css
+.regularSizeCat {
+  transform: scaleX(1);
+}
+
+
 .bigCat {
   transform: scaleX(2);
 }
 ```
 
+```html
+<html>
+  <head> </head>
+  <body style="background-color: #020617;">
+    <p>Regular Cat</p>
+
+    <img class="regularSizeCat" src="cat.jpg" alt="Regular Size Cat"/>
+
+    <p>Scaled-X Cat</p>
+
+    <img class="bigCat" src="cat.jpg" alt="Big Cat"/>
+</html>
+```
+
 In this example, the element with the class `bigCat` will be scaled to twice its original **width**.
+
+<!-- ![Output of the scaled cat example](https://raw.githubusercontent.com/Codecademy/docs/main/media/scaleX_Ejemplo.png) -->
+![Output of the scaled cat example](../../../../../../media/scaleX_Ejemplo.png)
