@@ -24,7 +24,7 @@ transform: scaleX(s);
 ### Parameters
 
 - `s`: A number that specifies the scaling factor. A value of `1` means no scaling, values greater than `1` enlarge the element, values between `0` and `1` reduce its size, and negative values flip the element horizontally.
- 
+
 ## Example
 
 ```css
