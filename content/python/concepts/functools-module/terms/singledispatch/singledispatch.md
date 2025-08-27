@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In Python, **`functools.singledispatch`** is a [decorator](https://www.codecademy.com/resources/docs/python/decorators) that converts a [function](https://www.codecademy.com/resources/docs/python/functions) into a generic function with behavior varying by the type of its first argument. It simplifies type-specific logic by allowing separate implementations to be registered instead of relying on multiple [if statements](https://www.codecademy.com/resources/docs/python/conditionals).
+In Python, **`functools.singledispatch`** is a [decorator](https://www.codecademy.com/resources/docs/python/decorators) that converts a [function](https://www.codecademy.com/resources/docs/python/functions) into a generic function(a type single function that can perform different actions depending on the data type of the input it receives) with behavior varying by the type of its first argument. It simplifies type-specific logic by allowing separate implementations to be registered instead of relying on multiple [if statements](https://www.codecademy.com/resources/docs/python/conditionals).
 
 ## Syntax
 
