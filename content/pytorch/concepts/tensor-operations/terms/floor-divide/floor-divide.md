@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.floor_divide()`** function divides the `input` by other element-wise and rounds each quotient down to the nearest integer—returning the floored result as a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It supports broadcasting, type promotion, and both integer and floating-point operands. The operation can be expressed as:
+In PyTorch, the **`.floor_divide()`** function divides the `input` by other element-wise and rounds each quotient down to the nearest integer, returning the floored result as a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It supports broadcasting, type promotion, and both integer and floating-point operands. The operation can be expressed as:
 
 $$\text{out}_i = \text{floor}(\frac{\text{input}_i}{\text{other}_i})$$
 
