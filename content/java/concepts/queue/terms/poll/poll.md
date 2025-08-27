@@ -5,8 +5,8 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Queues'
   - 'Java'
+  - 'Queues'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
