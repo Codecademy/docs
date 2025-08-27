@@ -26,8 +26,8 @@ torch.floor_divide(input, other, *, out=None) → Tensor
 
 **Parameters:**
 
-- `input`: The input tensor. ( dividend )
-- `other`: Tensor or Number. ( divisor )
+- `input`: The input tensor(dividend).
+- `other`: Tensor or Number(divisor).
 - `out` (Optional): A tensor to store the output. If provided, the result is written to this tensor.
 
 **Return value:**
