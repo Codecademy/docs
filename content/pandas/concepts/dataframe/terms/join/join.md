@@ -4,12 +4,12 @@ Description: 'Combines columns from another DataFrame into the calling DataFrame
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'DataFrame'
   - 'Join'
   - 'Pandas'
   - 'Python'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
