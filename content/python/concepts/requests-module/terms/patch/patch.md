@@ -9,8 +9,8 @@ Tags:
   - 'Modules'
   - 'Python'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/computer-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 The **`.patch()`** method in the `requests` module is used to send a `PATCH` request to a specified URL, allowing for partial modifications of a resource. When only a subset of data needs to be updated, this method is particularly efficient, as `PATCH` can modify specific fields without requiring the replacement of the entire resource, unlike `PUT` from the [`.put()`](https://www.codecademy.com/resources/docs/python/requests-module/put) method, which overwrites the entire object.
