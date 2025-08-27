@@ -38,7 +38,7 @@ List<T> myList = new List<T> { element1, element2, element3 };
 - `T`: Represents any data type.
 - `element`: Any object or variable of type `T`.
 
-## Example: Creating and Accessing a List in C#
+## Example: Creating and Accessing a List
 
 In this example, a list is created, numbers are added, and elements are accessed by their index:
 
