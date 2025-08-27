@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`List`** in [C#](https://www.codecademy.com/resources/docs/c-sharp) is a dynamic [data structure](https://www.codecademy.com/resources/docs/general/data-structures) that stores multiple objects of a specified type. These objects can be accessed by their zero-based index. Unlike [arrays](https://www.codecademy.com/resources/docs/c-sharp/arrays), lists can automatically resize as elements are added or removed, and their capacity is practically _unlimited_, as long as there is enough memory available on the system.
+A **`List`** in [C#](https://www.codecademy.com/resources/docs/c-sharp) is a dynamic [data structure](https://www.codecademy.com/resources/docs/general/data-structures) that stores multiple objects of a specified type. These objects can be accessed by their zero-based index. Unlike [arrays](https://www.codecademy.com/resources/docs/c-sharp/arrays). Lists can grow to accommodate a very large number of elements (up to about 2 billion), limited primarily by available system memory and the maximum value of an integer index."
 
 ## Syntax
 
