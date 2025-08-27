@@ -70,7 +70,7 @@ else:
 
 A conditional `if-else` statement is used in this case to output a message indicating a successful data update, when the server status code is `200`, or an unsuccessful update otherwise.
 
-For a updating multiple fields, it is sufficient to store all the attributes in the JSON object, as seen in the `updated_multi` variable, and pass it to the `patch()` method:
+For updating multiple fields, it is sufficient to store all the attributes in the JSON object, as seen in the `updated_multi` variable, and pass it to the `patch()` method:
 
 ```py
 updated_multi = {
