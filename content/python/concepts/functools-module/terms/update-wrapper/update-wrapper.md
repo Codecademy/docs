@@ -47,7 +47,7 @@ def my_decorator(func):
   def wrapper(*args, **kwargs):
     print(f"Calling {func.__name__}")
     return func(*args, **kwargs)
-  
+
   # Update the wrapper to look like the original function
   update_wrapper(wrapper, func)
   return wrapper
