@@ -12,65 +12,102 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Data visualization in UX** refers to the design of charts, graphs, dashboards, and visual formats that help users interpret complex data at a glance. Effective data visualizations reduce cognitive load, support decision-making, and enhance the usability of data-rich digital products.
+**Data visualization in UX** refers to the practice of presenting complex data through charts, graphs, dashboards, and other visual formats. These visualizations help users interpret information quickly, reduce cognitive load, and make informed decisions in digital environments.
 
 ![Map of USA that shows population density](https://raw.githubusercontent.com/Codecademy/docs/main/media/data-viz-in-ux-img-1.png)
 
-In user-centered design, visualizations are more than decorative as help define clear insights and interaction.
+In user-centered design, visualizations are not just decorative — they support insight, clarity, and interaction.
 
-## Where UX Meets Data Visualization
+## Why It Matters in UX
 
-Data visualizations show up in a wide range of digital products, each with different user needs and contexts:
+- _Reduces cognitive load_ by replacing raw data with visual summaries.
+- _Supports diverse user needs_ across domains like health, finance, and admin tools.
+- _Enables informed decision-making_ through intuitive data representation.
 
-- _Dashboards for productivity tools_  
-  Users rely on visual summaries to track progress, spot trends, and make decisions quickly.
+## Steps in the Data Visualization Process
 
-- _Financial or analytics apps_  
-  Real-time charts and reports help users monitor accounts, campaigns, or KPIs.
+1. _Understand user goals._  
+   What questions are users trying to answer? What actions should visuals support?
 
-- _Health and wellness trackers_  
-  Visuals like line charts or goal rings help users monitor activity, mood, or progress toward health goals.
+2. _Identify the data._  
+   Ensure accuracy, relevance, and timeliness.
 
-- _Surveys and reporting tools_  
-  Aggregated results shown as bar graphs, heatmaps, or infographics make data more actionable.
+3. _Choose the appropriate visualization type._  
+   Match format to function (e.g., bar for comparison, line for trend).
 
-- _E-commerce and admin panels_  
-  Insights like top products, sales patterns, or user segments often need visual display for usability.
+4. _Design for clarity._  
+   Use readable labels, accessible color palettes, and consistent formatting.
 
-## Principles of UX-Driven Data Visualization
+5. _Test with real users._  
+   Validate interpretation and usability.
 
-Designers must go beyond aesthetics and focus on function, clarity, and accessibility:
+6. _Refine based on feedback._  
+   Iterate to improve structure, flow, or interaction.
 
-- _Match the visualization to the task_  
-  Choose the right chart for the job. For example, line charts for trends, bar charts for comparison, pie charts for proportions.
+## Types of Visualizations in UX
 
-- _Prioritize readability over style_  
-  Fancy gradients and shadows may look modern but can obscure meaning or hinder interpretation.
+- _Bar charts_ for comparing categories or volumes.
+- _Line charts_ to show trends or changes over time.
+- _Pie or donut charts_ to represent proportions.
+- _Heatmaps_ to visualize intensity or density.
+- _Goal rings and progress bars_ in wellness or habit-tracking apps.
+- _Tables with sparklines or micro-charts_ in dense dashboards.
 
-- _Avoid clutter and visual noise_  
-  Too many data points, labels, or colors can overwhelm users and increase cognitive load.
+## Benefits of Using Data Visualization
 
-- _Use clear labels, legends, and units_  
-  Every axis, value, and category should be easy to read and understand at a glance.
+- _Improves decision-making_ by surfacing insights at a glance.
+- _Encourages engagement_ with interactive or personalized visuals.
+- _Supports accessibility_ when designed with contrast, alt text, and zoom in mind.
+- _Simplifies complexity_ by turning abstract values into familiar shapes or comparisons.
+- _Saves time_ by eliminating the need to parse long reports or raw data.
 
-- _Account for accessibility_  
-  Use color-blind–safe palettes, allow zoom or filtering, and support keyboard interaction when necessary.
+## Common Limitations and Risks
 
-- _Support drill-down or customization if needed_  
-  Let users explore deeper insights if the data is complex or layered.
+- _Misleading visuals._  
+  Truncated axes or poor scaling can distort meaning.
 
-> _Note: Data visualization is not just about summarizing — it’s about surfacing the right insight at the right time for the right person._
+- _Performance concerns._  
+  Complex charts may load slowly, especially on mobile.
 
-## User Needs Around Visualized Data
+- _Variable visual literacy._  
+  Users interpret visuals differently — legends and tooltips are essential.
 
-- _Quick scanning and interpretation_  
-  Users expect to grasp the meaning of a chart or visual in a few seconds, especially in dashboard contexts.
+- _Overreliance on color._  
+  Without accessible palettes, visuals may become unusable for some.
 
-- _Trust and credibility_  
-  Visualizations must feel reliable. Poor formatting, misalignment, or visual distortion can create mistrust.
+## Where It Appears in UX
 
-- _Performance and responsiveness_  
-  Data visuals must load quickly and adapt to screen sizes without breaking the layout or resolution.
+- _Dashboards and productivity tools._  
+  Used to track progress, trends, and KPIs.
 
-- _Contextual support_  
-  Providing explanatory text, data source information, or tooltips helps users interpret correctly.
+- _Financial and analytics apps._  
+  Real-time visuals support account monitoring and analysis.
+
+- _Health and wellness platforms._  
+  Charts show progress toward fitness or mental health goals.
+
+- _Survey and reporting tools._  
+  Results are visualized using bar charts, heatmaps, or infographics.
+
+- _E-commerce and admin panels._  
+  Sales trends and product performance are shown through visual metrics.
+
+## Principles of UX-Focused Visualization
+
+- _Match the visualization to the task._  
+  Use the right format for the user’s goal.
+
+- _Prioritize readability._  
+  Minimize unnecessary style effects that reduce clarity.
+
+- _Avoid clutter._  
+  Simplify labels, colors, and visual elements.
+
+- _Ensure self-explanatory visuals._  
+  Include clear legends, units, and axes.
+
+- _Support accessibility._  
+  Use inclusive color schemes, readable fonts, and keyboard navigation.
+
+- _Enable exploration when needed._  
+  Offer filtering, drill-down, or customization if the data is complex.
