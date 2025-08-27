@@ -1,6 +1,6 @@
 ---
 Title: 'Lists'
-Description: 'A List in c# is a dynamic data structure that stores multiple objects of a specified type.'
+Description: 'A List in C# is a dynamic data structure that stores multiple objects of a specified type.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
