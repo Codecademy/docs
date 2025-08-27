@@ -32,7 +32,6 @@ transform: scaleX(s);
   transform: scaleX(1);
 }
 
-
 .bigCat {
   transform: scaleX(2);
 }
@@ -55,4 +54,5 @@ transform: scaleX(s);
 In this example, the element with the class `bigCat` will be scaled to twice its original **width**.
 
 <!-- ![Output of the scaled cat example](https://raw.githubusercontent.com/Codecademy/docs/main/media/scaleX_Ejemplo.png) -->
+
 ![Output of the scaled cat example](../../../../../../media/scaleX_Ejemplo.png)
