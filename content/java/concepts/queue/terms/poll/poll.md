@@ -1,7 +1,7 @@
 ---
 Title: 'poll()'
 Description: 'Retrieves and removes the head of the queue, or returns null if the queue is empty.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
@@ -50,7 +50,7 @@ public class PollQueueExample {
     // Process elements
     while (!queue.isEmpty()) {
       // Removes and returns the head of the queue
-      String element = queue.poll(); 
+      String element = queue.poll();
       System.out.println("Processing element: " + element);
     }
   }
