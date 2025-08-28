@@ -1,24 +1,24 @@
 ---
 Title: '.removesuffix()'
 Description: 'Returns a copy of a string with the specified suffix removed, if present.'
-Subjects: 
- - 'Code Foundations'
- - 'Computer Science'
-Tags: 
- - 'Methods'
- - 'Strings'
-CatalogContent: 
- - 'learn-python-3'
- - 'paths/computer-science'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Methods'
+  - 'Strings'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 The **`str.removesuffix()`** method returns a new string with the specified suffix removed, if present. If the string does not end with the given suffix, the original string is returned unchanged. This method is case-sensitive and does not modify the original string.
 
-## Syntax 
+## Syntax
 
- ```pseudo
- string_name.removesuffix(suffix) 
- ```
+```pseudo
+string_name.removesuffix(suffix)
+```
 
 **Parameters:**
 
