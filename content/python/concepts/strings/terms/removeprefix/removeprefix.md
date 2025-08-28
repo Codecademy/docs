@@ -68,7 +68,7 @@ The code will produce this output:
 project/data/file.txt
 ```
 
-## Example 3: Manual vs built-in removal
+## Codebyte: Manual vs built-in removal
 
 In this example, a prefix is removed manually with [`.startswith()`](https://www.codecademy.com/resources/docs/python/strings/startswith) and then using `.removeprefix()` for comparison:
 
