@@ -19,12 +19,12 @@ In the world of [user interface](https://www.codecademy.com/resources/docs/uiux/
 
 UX deliverables vary depending on the project phase, team size, and goals. Some of the most common types include:
 
-- **User research reports:** Summarize findings from interviews, surveys, usability tests, or diary studies. Often includes themes, insights, and opportunities.
+- **User research reports:** Summarize interviews, surveys, usability tests, or diary studies findings. Often includes themes, insights, and opportunities.
 - **Personas:** Representations of user types, including behaviors, goals, and pain points. Personas help teams align on who they are designing for.
-- **Customer journey maps:** Visual timelines of a user's interaction with a product or service — highlighting touchpoints, emotions, and pain points.
+- **Customer journey maps:** Visual timelines of a user's interaction with a product or service, highlighting touchpoints, emotions, and pain points.
 - **Task flows and user flows:** Diagrams showing step-by-step paths a user takes to complete specific tasks or reach a goal.
-- **Wireframes:** Low-fidelity layouts that outline basic structure and content without detailed styling. Used to align on layout early.
-- **Prototypes:** Interactive versions of a design, used for testing or stakeholder demos. May be low-fidelity (clickable wireframes) or high-fidelity (polished UI mockups).
+- **Wireframes:** Low-fidelity layouts that outline basic structure and content without detailed styling. Used to align on the layout early.
+- **Prototypes:** Interactive versions of a design used for testing or stakeholder demos. They may be low-fidelity (clickable wireframes) or high-fidelity (polished UI mockups).
 - **Design systems or UI kits:** Collections of reusable components, styles, and patterns to ensure consistency across an interface.
 - **Accessibility documentation:** Notes or specs highlighting how the design meets accessibility standards, such as contrast ratios or keyboard navigability.
 
