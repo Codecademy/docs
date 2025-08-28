@@ -67,23 +67,3 @@ The code will produce this output:
 ```shell
 project/data/file.txt
 ```
-
-## Codebyte: Manual vs built-in removal
-
-In this example, a prefix is removed manually with [`.startswith()`](https://www.codecademy.com/resources/docs/python/strings/startswith) and then using `.removeprefix()` for comparison:
-
-```codebyte/python
-phrase = "Python is Awesome"
-prefix = "Python"
-
-# Approach 1: Manual removal
-if phrase.startswith(prefix):
-  result = phrase[len(prefix):]
-  print(result.strip())
-else:
-  print(phrase)
-
-# Approach 2: Using removeprefix()
-result2 = phrase.removeprefix(prefix)
-print(result2.strip())
-```
