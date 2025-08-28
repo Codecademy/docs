@@ -49,7 +49,8 @@ public class PollQueueExample {
 
     // Process elements
     while (!queue.isEmpty()) {
-      String element = queue.poll(); // Removes and returns the head of the queue
+      // Removes and returns the head of the queue
+      String element = queue.poll(); 
       System.out.println("Processing element: " + element);
     }
   }
