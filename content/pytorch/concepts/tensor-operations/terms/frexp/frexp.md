@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.frexp()`** function takes a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) as input and returns a tuple containing two tensors: mantissa and exponent. The range of mantissa is the open interval (-1, 1). The original input can be reconstructed as :
+In PyTorch, the **`.frexp()`** function takes a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) as input and returns a tuple storing two tensors: mantissa and exponent. The range of mantissa is the open interval (-1, 1). The original input can be reconstructed as :
 
 $$\text{input} = \text{mantissa}\times 2^{\text{exponent}}$$
 
@@ -35,7 +35,7 @@ It returns a tuple containing two tensors - mantissa and exponent.
 
 ## Example
 
-In this example, we use `frexp()` , notice how we get two tensors mantissa and exponent ( which can give numerical stability when floating point numbers are too small or too large ) :
+This example uses the `.frexp()` function on a tensor. The result contains two tensors mantissa and exponent (which can give numerical stability when floating point numbers are too small or too large):
 
 ```py
 import torch
