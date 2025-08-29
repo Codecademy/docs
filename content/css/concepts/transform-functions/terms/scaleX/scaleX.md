@@ -21,11 +21,15 @@ The **`scaleX()`** function in CSS is used to apply a scaling transformation to 
 transform: scaleX(s);
 ```
 
-### Parameters
+**Parameters:**
 
 - `s`: A number that specifies the scaling factor. A value of `1` means no scaling, values greater than `1` enlarge the element, values between `0` and `1` reduce its size, and negative values flip the element horizontally.
 
 ## Example
+
+In this example, the element with the class `bigCat` will be scaled to twice its original width:
+
+The CSS code is:
 
 ```css
 .regularSizeCat {
@@ -36,6 +40,8 @@ transform: scaleX(s);
   transform: scaleX(2);
 }
 ```
+
+The HTML code is:
 
 ```html
 <html>
@@ -48,11 +54,8 @@ transform: scaleX(s);
     <p>Scaled-X Cat</p>
 
     <img class="bigCat" src="cat.jpg" alt="Big Cat"/>
+    </body>
 </html>
 ```
 
-In this example, the element with the class `bigCat` will be scaled to twice its original **width**.
-
-<!-- ![Output of the scaled cat example](https://raw.githubusercontent.com/Codecademy/docs/main/media/scaleX_Ejemplo.png) -->
-
-![Output of the scaled cat example](../../../../../../media/scaleX_Ejemplo.png)
+![Regular cat and horizontally stretched cat using CSS scaleX()](https://raw.githubusercontent.com/Codecademy/docs/main/media/scaleX_Ejemplo.png)
