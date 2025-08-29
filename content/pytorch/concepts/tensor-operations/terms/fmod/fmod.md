@@ -1,15 +1,15 @@
 ---
-Title: '.fmod()' 
+Title: '.fmod()'
 Description: 'Returns the element-wise remainder of division, keeping the same sign as the dividend.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Machine Learning'
-Tags: 
+Tags:
   - 'Functions'
   - 'Machine Learning'
   - 'Python'
   - 'Tensor'
-CatalogContent: 
+CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/computer-science'
 ---
@@ -22,7 +22,7 @@ $$
 \text{result} = \text{input} - (\text{divisor} \times \text{trunc}(\text{input}/\text{divisor}))
 $$
 
-where `trunc` means truncation toward zero (i.e., rounding towards 0).
+Here, `trunc` means truncation toward zero (i.e., rounding towards 0).
 
 ## Syntax
 
@@ -30,7 +30,7 @@ where `trunc` means truncation toward zero (i.e., rounding towards 0).
 torch.fmod(input, other, *, out=None) -> Tensor
 ```
 
-**Parameters**
+**Parameters:**
 
 - `input` (Tensor): Dividend tensor.
 - `other` (Tensor or Scalar): Divisor, can be a tensor (broadcastable with input) or a scalar.
@@ -41,6 +41,8 @@ torch.fmod(input, other, *, out=None) -> Tensor
 - Returns a tensor containing the element-wise remainder of division, where the result has the same sign as `input`.
 
 ## Example
+
+This example demonstrates the usage of the `.fmod()` function:
 
 ```py
 import torch
