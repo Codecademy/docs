@@ -1,6 +1,6 @@
 ---
-Title: torch.float_power
-Description: `torch.float_power` computes the element-wise power of an input tensor to a given exponent, always casting the exponent to a floating point type before the operation. This function is particularly useful when working with fractional exponents or when floating point precision is required.
+Title: torch.float-power
+Description: " `torch.float_power` computes the element-wise power of an input tensor to a given exponent, always casting the exponent to a floating point type before the operation. This function is particularly useful when working with fractional exponents or when floating point precision is required."
 
 Subjects: 
   - 'Computer Science'
@@ -18,7 +18,7 @@ CatalogContent:
 ## Syntax
 
 ```python
-torch.float_power(input, exponent, *, out=None) -> Tensor
+torch.float_power(input, exponent, *, out=None)
 ```
 
 ## Example
