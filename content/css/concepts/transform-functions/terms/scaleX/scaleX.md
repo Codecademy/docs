@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`scaleX()`** function in CSS is used to apply a scaling transformation to an element along the X-axis. This means that the element will be stretched or compressed horizontally.
+In CSS, The **`scaleX()`** function in CSS is used to apply a scaling transformation to an element along the X-axis. This means that the element will be stretched or compressed horizontally.
 
 ## Syntax
 
@@ -49,13 +49,13 @@ The HTML code is:
   <body style="background-color: #020617;">
     <p>Regular Cat</p>
 
-    <img class="regularSizeCat" src="cat.jpg" alt="Regular Size Cat"/>
+    <img class="regularSizeCat" src="cat.jpg" alt="Regular Size Cat" />
 
     <p>Scaled-X Cat</p>
 
-    <img class="bigCat" src="cat.jpg" alt="Big Cat"/>
-    </body>
+    <img class="bigCat" src="cat.jpg" alt="Big Cat" />
+  </body>
 </html>
 ```
 
-![Regular cat and horizontally stretched cat using CSS scaleX()](https://raw.githubusercontent.com/Codecademy/docs/main/media/scaleX_Ejemplo.png)
+![Regular cat and horizontally stretched cat using CSS scaleX()](https://raw.githubusercontent.com/Codecademy/docs/main/media/scaleX-Ejemplo.png)
