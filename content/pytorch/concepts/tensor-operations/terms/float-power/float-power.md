@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, **`Tensor.float_power()`** raises each element of a tensor to the power of the given exponent with the result always returned in floating point.
+In PyTorch, **`Tensor.float_power()`** raises each element of a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) to the power of the given exponent with the result always returned in floating point.
 
 ## Syntax
 
