@@ -76,4 +76,4 @@ div {
 
 Here is the expected output:
 
-![Clockwise and counterclockwise rotated div containers modelled using the CSS rotateZ() function](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-transform-function-rotateZ.png)
+![Clockwise and counterclockwise rotated div containers modelled using the CSS rotateZ() function](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rotateZ.png)
