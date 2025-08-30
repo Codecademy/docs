@@ -1,10 +1,8 @@
 ---
-Title: 'rotateX() function'
-
-
-Description: 'Rotates an element on a fixed point of the X axis (horizontal).'
+Title: 'rotateX()'
+Description: 'Rotates an element around its horizontal X-axis in 3D space.'
 Subjects:
-  - 'Web design'
+  - 'Web Design'
   - 'Web Development'
 Tags:
   - 'Elements'
@@ -16,25 +14,23 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 
 ---
-The **rotateX()** CSS function defines a transformation that rotates an element around the x-type axis (horizontal) without deforming it. Its result is a tansfrom-function data type. The axis rotation passes through an origin, defined by the transform-origin CSS.
+The **`rotateX()`** CSS function defines a transformation that rotates an element around the x-type axis (horizontal) without deforming it. Its result is a tansfrom-function data type. The axis rotation passes through an origin, defined by the transform-origin CSS.
 
 ## Syntax
 
-**CSS**: 
- - 'rotateX(a)'
+``pseudo
+transform: rotateX(angle);
+```
 
- **Values**
+**Parameters:**
 
- *a* is an angle representing the angle of the rotation. A positive angle will rotate the element clockwise, a negative angle will then rotate in a anti-clockwise rotation.
+- `angle`: The degree of rotation. It accepts units like `deg`, `rad`, `grad`, or `turn`.
+  - Positive values rotate the element clockwise (tilting backward).
+  - Negative values rotate counterclockwise (tilting forward).
 
-*angle*:
+**Return value:**
 
-Degrees (deg): e.g., 45deg, -90deg
-Radians (rad): e.g., 1.57rad
-Turns (turn): e.g., 0.5turn
-Gradians (grad): e.g., 100grad
-
- **note**: Unlike rotations in the 2D plane, the compostion of 3D rotations is usually not commutative, meaning the order in which the roations are applied will impact the result.
+Returns a `<transform-function>` that can be applied within the `transform` property to visually rotate the element in 3D.
 
 ## Example
 
