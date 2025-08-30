@@ -1,3 +1,19 @@
+---
+Title: 'LinkedList'
+Description: 'A LinkedList is a doubly-linked list implementation of the List and Deque interfaces.'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Collections'
+  - 'Data Structures'
+  - 'Interface'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
+---
+
+
+
 # LinkedList
 
 A `LinkedList` is a **doubly-linked list** implementation of the `List` and `Deque` interfaces.  
