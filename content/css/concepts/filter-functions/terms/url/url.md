@@ -43,7 +43,7 @@ Set the background image of the .banner-image class to cat.png:
 
 ```css
 .banner-image {
-  background-image: url("../images/cat.png");
+  background-image: url('../images/cat.png');
 }
 ```
 
@@ -66,13 +66,12 @@ Load a custom font called `customFont` with multiple formats for compatibility:
 
 ```css
 @font-face {
-  font-family: "customFont";
-  src: url("fonts/customFont.woff2") format("woff2"),
-       url("fonts/customFont.woff") format("woff"),
-       url("fonts/customFont.ttf") format("truetype");
+  font-family: 'customFont';
+  src: url('fonts/customFont.woff2') format('woff2'), url('fonts/customFont.woff')
+      format('woff'), url('fonts/customFont.ttf') format('truetype');
 }
 
 h1 {
-    font-family: "customFont", serif;
+  font-family: 'customFont', serif;
 }
 ```
