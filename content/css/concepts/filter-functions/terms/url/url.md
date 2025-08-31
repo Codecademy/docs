@@ -46,7 +46,6 @@ Set the background image of the `.banner-image` class to `cat.png`:
 }
 ```
 
-Font Format Hints
 In `@font-face` rules, the `url()` function is often paired with the separate `format()` function to provide format hints that help browsers choose which font resource to download and optimize performance.
 
 Common font format hints include:
