@@ -11,13 +11,21 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.localtime()` function converts a time, represented in seconds, to local time. If no time is passed, the current local time will be returned instead.
+The `.localtime()` methord converts a time, represented in seconds, to local time. If no time is passed, the current local time will be returned instead.
 
 ## Syntax
 
 ```pseudo
 time.localtime(seconds)
 ```
+
+**Parameters:**
+
+- `seconds`: (Optional) A floating-point number representing the number of seconds elapsed.
+
+**Return value:**
+
+Returns the time elapsed since the epoch in a system as an object. 
 
 ## Example
 
