@@ -27,14 +27,14 @@ property: url(<path-to-file>);
 property: url(<path-to-file> <url-modifier>*);
 ```
 
-Here the required `<path-to-file>` can be one of the following:
+Here, the required `<path-to-file>` can be one of the following:
 
 - Relative path: `url("images/cat.png")`
 - Absolute path: `url("https://www.google.com/images/cat.png")`
 - Data URI: `url("data:image/png;base64,...")`
 - Blob URL: `url("blob:https://google.com/1234-5678")`
 
-**Note:** When using resources hosted on another domain, browsers enforce Cross-Origin Resource Sharing (CORS) rules. Fonts in particular may require correct CORS headers to load successfully.
+> **Note:** When using resources hosted on another domain, browsers enforce Cross-Origin Resource Sharing (CORS) rules. Fonts in particular may require correct CORS headers to load successfully.
 
 ## Example 1
 
