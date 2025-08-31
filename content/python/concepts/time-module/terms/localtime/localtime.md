@@ -15,7 +15,9 @@ The `.localtime()` function converts a time, represented in seconds, to local ti
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+```pseudo
+time.localtime(seconds)
+```
 
 ## Example
 
