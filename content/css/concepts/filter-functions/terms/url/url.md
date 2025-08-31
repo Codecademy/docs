@@ -49,7 +49,7 @@ Set the background image of the `.banner-image` class to `cat.png`:
 Font Format Hints
 In `@font-face` rules, the `url()` function is often paired with the separate `format()` function to provide format hints that help browsers choose which font resource to download and optimize performance.
 
-Here `<url-modifier>*` can be one of the following:
+Common font format hints include:
 
 - WOFF2 format: `url("fonts/MyFont.woff2") format("woff2")`
 - WOFF format: `url("fonts/MyFont.woff") format("woff")`
