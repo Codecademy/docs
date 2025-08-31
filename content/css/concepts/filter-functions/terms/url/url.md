@@ -5,22 +5,21 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
-  - 'World Wide Web'
-  - 'Files'
   - 'CSS'
-  - 'Url'
+  - 'Files'
   - 'Images'
+  - 'Fonts'
+  - 'URL'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
-A CSS function that accepts a file path or URL as its parameter and references an external resource-such as an image, font, icon, or other asset-for use in a stylesheet.
+The CSS **`url()`** functional notation is used to reference an external resource (such as an image, font, or icon) from a file path or URL.
 
 ## Syntax
 
-```css
+```pseudo
 /* Common form */
 property: url(<path-to-file>);
 
@@ -35,11 +34,11 @@ Here the required `<path-to-file>` can be one of the following:
 - Data URI: `url("data:image/png;base64,...")`
 - Blob URL: `url("blob:https://google.com/1234-5678")`
 
-**Note:** Due to Cross-Origin-Resources (CORS), resources hosted on another domain will need permission to render to prevent malicious code from executing.
+**Note:** When using resources hosted on another domain, browsers enforce Cross-Origin Resource Sharing (CORS) rules. Fonts in particular may require correct CORS headers to load successfully.
 
 ## Example 1
 
-Set the background image of the .banner-image class to cat.png:
+Set the background image of the `.banner-image` class to `cat.png`:
 
 ```css
 .banner-image {
@@ -49,7 +48,7 @@ Set the background image of the .banner-image class to cat.png:
 
 **Note:** Relative paths are resolved from the CSS file's location, not the HTML file.
 
-Though rarely used, the optional `<url-modifier>*` provides additional information about the resource (path provided) to the browser. This piece of code informs what resource type the path is, increases performance optimization by handling how and if the file will be downloaded, and clarifies the correct file extension. The `*` at the end represents that there can be zero, one, or more then one modifier added. The modifier argument is used in `@font-face` majority of the time with the `format()` modifier.
+The `url()` function can also be followed by optional descriptors, such as `format()`, which specify the resource’s type. This helps browsers optimize performance and ensure compatibility. Descriptors are most commonly used in `@font-face` rules with font files.
 
 Here `<url-modifier>*` can be one of the following:
 
