@@ -1,3 +1,19 @@
+# ---
+Title: 'scaleY() CSS Transform Function'
+Description: 'Describes the CSS scaleY() transform function, its syntax, and usage examples.'
+Subjects:
+  - 'Web Development'
+  - 'CSS'
+Tags:
+  - 'transform'
+  - 'scaleY'
+  - 'CSS'
+  - 'animation'
+  - 'effects'
+CatalogContent:
+  - 'Transform Functions'
+  - 'CSS Properties'
+# ---
 # scaleY()
 
 `scaleY()` is a CSS transform function that scales an element along the vertical (Y) axis. It allows you to increase or decrease the height of an element without affecting its width. This transformation is commonly used for animations, effects, and responsive design adjustments.
@@ -7,9 +23,11 @@
 ```css
 transform: scaleY(sy);
 ```
+
 - `sy`: A number representing the scaling factor along the Y axis. Values greater than 1 increase the height, values between 0 and 1 decrease it, and negative values flip the element vertically.
 
 **Example values:**
+
 - `scaleY(2)` doubles the height.
 - `scaleY(0.5)` halves the height.
 - `scaleY(-1)` flips the element vertically.
