@@ -1,6 +1,6 @@
 ---
 Title: '.localtime()'
-Description: 'Converts the Python time to a local time relative to the geographical location of the system.' 
+Description: 'Converts a time, expressed in seconds since the epoch, and coverts it to the local time.' 
 Subjects:
   - 'Code Foundations'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+The `.localtime()` function converts a time, represented in seconds, to local time. If no time is passed, the current local time will be returned instead.
 
 ## Syntax
 
