@@ -46,9 +46,8 @@ Set the background image of the `.banner-image` class to `cat.png`:
 }
 ```
 
-**Note:** Relative paths are resolved from the CSS file's location, not the HTML file.
-
-The `url()` function can also be followed by optional descriptors, such as `format()`, which specify the resource’s type. This helps browsers optimize performance and ensure compatibility. Descriptors are most commonly used in `@font-face` rules with font files.
+Font Format Hints
+In `@font-face` rules, the `url()` function is often paired with the separate `format()` function to provide format hints that help browsers choose which font resource to download and optimize performance.
 
 Here `<url-modifier>*` can be one of the following:
 
