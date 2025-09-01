@@ -1,6 +1,6 @@
 ---
 Title: 'Conditionals'
-Description: 'The if, else, elseif, and switch conditionals in PowerShell are used for control flow. They allow the choice of which sections of code are executed based on conditions.'
+Description: 'Control program flow in PowerShell using if, else, elseif, and switch to execute code based on conditions.'
 Subjects:
   - 'Bash/Shell'
   - 'Code Foundations'
