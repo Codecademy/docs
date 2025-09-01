@@ -47,22 +47,21 @@ Person = namedtuple('Person', ['name', 'age', 'city'])
 john = Person('John Doe', 30, 'New York')
 jane = Person(name='Jane Smith', age=25, city='Boston')
 
-print(john)  # Person(name='John Doe', age=30, city='New York')
-print(jane)  # Person(name='Jane Smith', age=25, city='Boston')
+print(john)
+print(jane)
 
 # Access Operations
-print("Access by field name:", john.name)  # John Doe
-print("Access by index:", john[0])          # John Doe
-print("Access using getattr:", getattr(john, 'age'))  # 30
+print("Access by field name:", john.name)
+print("Access by index:", john[0])
+print("Access using getattr:", getattr(john, 'age'))
 
 # Conversion Operations
 print("Convert to dict:", john._asdict())
-# OrderedDict([('name', 'John Doe'), ('age', 30), ('city', 'New York')])
 
 # Additional Operations
-print("Field names:", Person._fields)      # ('name', 'age', 'city')
+print("Field names:", Person._fields)
 new_person = john._replace(age=31)
-print("After replace:", new_person)        # Person(name='John Doe', age=31, city='New York')
+print("After replace:", new_person)
 ```
 
 This example results in the following output:
@@ -106,8 +105,8 @@ point_tuple = (5, 15, 25)
 coord1 = Coordinate._make(point_list)
 coord2 = Coordinate._make(point_tuple)
 
-print(coord1)  # Coordinate(x=10, y=20, z=30)
-print(coord2)  # Coordinate(x=5, y=15, z=25)
+print(coord1)
+print(coord2)
 ```
 
 This example results in the following output:
@@ -131,11 +130,10 @@ student = Student('Alice Johnson', 95, 'Mathematics')
 # Convert to dictionary
 student_dict = student._asdict()
 print("As dictionary:", student_dict)
-# OrderedDict([('name', 'Alice Johnson'), ('grade', 95), ('subject', 'Mathematics')])
 
 # Access dictionary values
-print("Name from dict:", student_dict['name'])  # Alice Johnson
-print("Grade from dict:", student_dict['grade'])  # 95
+print("Name from dict:", student_dict['name'])
+print("Grade from dict:", student_dict['grade'])
 ```
 
 This example results in the following output:
@@ -165,13 +163,11 @@ product_data = {
 
 laptop = Product(**product_data)
 print("Created from dict:", laptop)
-# Product(name='Laptop', price=999.99, category='Electronics')
 
 # Create from existing namedtuple using ** operator
 existing_product = Product('Phone', 599.99, 'Electronics')
 modified_product = Product(**existing_product._asdict(), price=549.99)
 print("Modified product:", modified_product)
-# Product(name='Phone', price=549.99, category='Electronics')
 ```
 
 This example results in the following output:
