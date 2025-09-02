@@ -2,28 +2,37 @@
 Title: '.all()'
 Description: 'Returns a new promise that can be accessed as an array of resolved values of fulfilled promises.'
 Subjects:
+  - 'Code Foundations'
   - 'Web Development'
 Tags:
+  - 'Arrays'
   - 'Methods'
   - 'Promise'
+  - 'Values'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.all()`** method returns a new `Promise` object that can be accessed as an array of resolved values of fulfilled promises. It takes an iterable object, such as an `Array`, that contains one or more `Promise` objects. This is ideal when working with promises that depend on one another's completion.
+The JavaScript **`Promise.all()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) returns a new `Promise` [object](https://www.codecademy.com/resources/docs/javascript/objects) that can be accessed as an [array](https://www.codecademy.com/resources/docs/javascript/arrays) of resolved values of fulfilled promises. It takes an [iterable](https://www.codecademy.com/resources/docs/javascript/iterators) object, such as an `Array`, that contains one or more `Promise` objects. This is ideal when working with promises that depend on one another's completion.
 
-## Syntax
+## JavaScript `Promise.all()` Syntax
 
 ```pseudo
 Promise.all(iterableObject);
 ```
 
-The `iterableObject` is usually an array of `Promise` objects. If the array is empty, a `Promise` object that resolves into an empty array will be returned.
+**Parameters:**
 
-## Example
+- `iterableObject`: An array of `Promise` objects. If the array is empty, a `Promise` object that resolves into an empty array will be returned.
 
-Working with two promises, `promiseA` and `promiseB`:
+**Return value:**
+
+Returns a new `Promise` object that can be accessed as an array of resolved values of fulfilled promises.
+
+## Example 1: Working with Two Promises
+
+This example demonstrates how two promises resolve successfully and how JavaScript `Promise.all()` returns their values as an array:
 
 ```js
 const promiseA = new Promise((resolve, reject) => {
@@ -60,13 +69,51 @@ Results from Promise.all(): [23,144]
 Operations for Promise.all() have finished.
 ```
 
-## Codebyte Example
+## Example 2: Using `Promise.all()` with Asynchronous Tasks
 
-The following example demonstrates that the promise returned from `Promise.all` resolves only if all promises (passed as an array) resolve. The resolved value is an array containing the values of each resolved promise.
+In this example, asynchronous API calls are simulated using `setTimeout()`. All promises resolve at different times, but JavaScript `Promise.all()` waits until all are resolved before returning results:
 
-If at least one promise was rejected, `Promise.all` rejects with the value of the first rejected promise it encounters.
+```js
+function fakeApiCall(name, delay) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(`${name} finished in ${delay}ms`);
+    }, delay);
+  });
+}
 
-```codebyte/js
+const task1 = fakeApiCall('Task 1', 1000);
+const task2 = fakeApiCall('Task 2', 2000);
+const task3 = fakeApiCall('Task 3', 500);
+
+Promise.all([task1, task2, task3])
+  .then((results) => {
+    console.log('All tasks completed:');
+    console.log(results);
+  })
+  .catch((err) => {
+    console.log('At least one task failed:', err);
+  });
+```
+
+Here is the output:
+
+```shell
+All tasks completed:
+[
+  'Task 1 finished in 1000ms',
+  'Task 2 finished in 2000ms',
+  'Task 3 finished in 500ms'
+]
+```
+
+## Codebyte Example: Mixing Resolved and Rejected Promises
+
+This codebyte example demonstrates that the promise returned from JavaScript `Promise.all()` resolves only if all promises resolve. The resolved value is an array containing the values of each resolved promise.
+
+If at least one promise was rejected, `Promise.all()` rejects with the value of the first rejected promise it encounters:
+
+```codebyte/javascript
 function getPromise(shouldResolve, value) {
   return new Promise((resolve, reject) => {
     if (shouldResolve) {
@@ -98,3 +145,24 @@ Promise.all([rejectedPromise1, resolvedPromise1, rejectedPromise2, resolvedPromi
   .then(onResolve)
   .catch(onReject);
 ```
+
+## Frequently Asked Questions
+
+### 1. What is the difference between JavaScript `Promise.all()` and `Promise.any()`?
+
+- JavaScript `Promise.all()` resolves only when all promises resolve. If one fails, it rejects immediately.
+- `Promise.any()` resolves as soon as one of the promises resolves. It rejects only if all promises fail.
+
+### 2. What is the purpose of JavaScript `Promise.all()`?
+
+The main purpose of JavaScript `Promise.all()` is to run multiple async operations in parallel and proceed only when all of them have completed successfully. This is useful for:
+
+- Fetching data from multiple APIs simultaneously
+- Running independent async tasks and waiting for all results before continuing
+
+### 3. Does JavaScript `Promise.all()` have a limit?
+
+JavaScript itself does not enforce a strict limit on the number of promises that can be passed to `Promise.all()`. However:
+
+- Extremely large arrays may cause performance or memory issues.
+- Practical limits depend on the runtime environment (browser, Node.js) and system resources.
