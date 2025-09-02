@@ -1,67 +1,94 @@
 ---
 Title: 'math.sqrt()'
-Description: 'Returns the square root of numeric input x.'
+Description: 'Calculates the square root of a given number.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Functions'
   - 'Arithmetic'
+  - 'Functions'
+  - 'Python'
+  - 'Values'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-Returns the square root of numeric input _x_.
+The Python **`.sqrt()`** [function](https://www.codecademy.com/resources/docs/python/functions) is used to calculate the square root of a given number and is a part of the `math` library. If the number is negative, the function raises a [`ValueError`](https://www.codecademy.com/resources/docs/python/errors).
 
-## Syntax
+## Python `.sqrt()` Syntax
+
+```pseudo
+import math
+
+math.sqrt(num)
+```
+
+**Parameters:**
+
+- `num`: The number whose square root is to be calculated.
+
+**Return value:**
+
+Returns a floating-point number representing the square root of `num`.
+
+## Example 1: Using Python `.sqrt()` with an Integer
+
+This example uses Python `.sqrt()` to calculate the square root of an integer:
 
 ```py
-math.sqrt(x)
-```
-
-If input `x` is a negative value, `.sqrt()` will return a `ValueError: math domain error`.
-
-## Example
-
-Use `math.sqrt()` to return the square root of integer `5`:
-
-```python
 import math
 
-print(math.sqrt(5))
+print(math.sqrt(4))
 ```
 
-The above code gives the following output:
+Here is the output:
 
 ```shell
-2.23606797749979
+2.0
 ```
 
-Use `math.sqrt()` to return the square root of the float `5.5`:
+## Example 2: Using Python `.sqrt()` with a Float
 
-```python
+This example uses Python `.sqrt()` to calculate the square root of a float:
+
+```py
 import math
 
-print(math.sqrt(5.5))
+print(math.sqrt(6.25))
 ```
 
-The above code gives the following output:
+Here is the output:
 
 ```shell
-2.345207879911715
+2.5
 ```
 
-## Codebyte Example
+## Codebyte Example: Handling Multiple Values Using Python `.sqrt()`
 
-Run the following example that uses the `math.sqrt()` function to understand its working:
+This codebyte example uses Python `.sqrt()` to calculate the square roots of multiple values:
 
 ```codebyte/python
 import math
 
-square_root_int = math.sqrt(25)
-print(square_root_int)
+numbers = [4, 9, 16, 25]
 
-square_root_float = math.sqrt(49.0)
-print(square_root_float)
+results = [math.sqrt(num) for num in numbers]
+
+print(results)
 ```
+
+## Frequently Asked Questions
+
+### 1. What is the function of Python `.sqrt()`?
+
+The Python `.sqrt()` function calculates the square root of a given number. It is commonly used for mathematical calculations involving powers and
+roots.
+
+### 2. What type of value is returned by Python `.sqrt()`?
+
+The Python `.sqrt()` function always returns a float, even if the input is an integer.
+
+### 3. What is the difference between Python `.sqrt()` and NumPy `.sqrt()`?
+
+The Python `.sqrt()` function works only with single scalar values (integers or floats), whereas NumPy `.sqrt()` can operate on arrays, lists, or single values.
