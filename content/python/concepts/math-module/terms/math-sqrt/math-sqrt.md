@@ -80,15 +80,19 @@ print(results)
 
 ## Frequently Asked Questions
 
-### 1. What is the function of Python `.sqrt()`?
-
-The Python `.sqrt()` function calculates the square root of a given number. It is commonly used for mathematical calculations involving powers and
-roots.
-
-### 2. What type of value is returned by Python `.sqrt()`?
+### 1. What type of value is returned by Python `.sqrt()`?
 
 The Python `.sqrt()` function always returns a float, even if the input is an integer.
 
-### 3. What is the difference between Python `.sqrt()` and NumPy `.sqrt()`?
+### 2. What does "sqrt" stand for?
 
-The Python `.sqrt()` function works only with single scalar values (integers or floats), whereas NumPy `.sqrt()` can operate on arrays, lists, or single values.
+sqrt stands for square root. It calculates the value that, when multiplied by itself, equals the input number.
+
+### 3. Is `sqrt()` a function?
+
+Yes. `sqrt()` is a built-in function provided by Python’s math module. You need to import the module before using it:
+
+```py
+import math
+print(math.sqrt(16))  # Output: 4.0
+```
