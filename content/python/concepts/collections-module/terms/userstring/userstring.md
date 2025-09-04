@@ -43,6 +43,3 @@ class NoVowels(UserString):
 s = NoVowels("Hello World")
 print(f"Word without any vowels left: {s}")             
 ```
-
-
-
