@@ -1,6 +1,6 @@
 ---
 Title: '.all()'
-Description: 'Returns a new promise that can be accessed as an array of resolved values of fulfilled promises.'
+Description: 'Returns a new Promise that resolves to an array of values once all input promises are fulfilled.'
 Subjects:
   - 'Code Foundations'
   - 'Web Development'
@@ -24,7 +24,7 @@ Promise.all(iterableObject);
 
 **Parameters:**
 
-- `iterableObject`: An array of `Promise` objects. If the array is empty, a `Promise` object that resolves into an empty array will be returned.
+- `iterableObject`: An iterable (such as an array) of promises or values.
 
 **Return value:**
 
