@@ -127,7 +127,7 @@ The output will be:
 
 ## Frequently Asked Questions
 
-### 1. How to use SQL `INSERT INTO`?
+### 1. How to use SQL `INSERT INTO` in SQL?
 
 SQL `INSERT INTO` can be used to add new rows into a table by specifying values for all or selected columns. For example:
 
@@ -140,6 +140,6 @@ VALUES ('Alice', 'Johnson', 'Sales');
 
 The purpose of SQL `INSERT INTO` is to populate a database table with new records. It allows data entry during the initial creation of a database and also for ongoing updates when new information needs to be stored.
 
-### 3. Does SQL `INSERT INTO` append?
+### 3. What is the difference between `INSERT` and `INSERT INTO` in SQL?
 
-Yes. SQL `INSERT INTO` always appends new rows to the table. It does not overwrite existing data. To modify existing rows, the `UPDATE` statement can be used.
+There is no functional difference between INSERT and INSERT INTO — both are valid SQL syntax for adding new rows to a table. `INSERT INTO` is the more explicit and commonly used form, supported by all major SQL databases. Some SQL dialects allow the shorter `INSERT` form, but it is less common.
