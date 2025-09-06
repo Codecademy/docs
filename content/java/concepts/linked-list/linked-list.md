@@ -26,7 +26,7 @@ A `LinkedList` is a **doubly-linked list** implementation of the `List` and `Deq
 ## Syntax
 
 **Creation:**
-```java
+```pseudo
 LinkedList<Type> list = new LinkedList<>();
 ```
 
