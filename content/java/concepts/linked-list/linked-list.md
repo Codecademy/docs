@@ -35,18 +35,19 @@ LinkedList<Type> list = new LinkedList<>();
 
 Common methods of `LinkedList` (inherited from List/Deque or defined in the class) include those for adding, removing, and accessing elements. Here are some of the most frequently used methods with their signatures and brief descriptions:
 
-- `boolean add(E e)` : Appends the specified element to the end of the list (equivalent to `addLast(E)`); returns true if the list changed as a result. For example, `list.add("X")` adds "X" to the tail of the list.
-- `void add(int index, E element)` : Inserts the given element at the specified position in the list (shifting subsequent elements to the right). For example, `list.add(0, "Y")` inserts "Y" at the front (index 0).
-- `void addFirst(E e)` : Inserts the specified element at the beginning of the list (makes it the new head). After `list.addFirst("Z")`, "Z" becomes the first element.
-- `void addLast(E e)` : Adds element at the end.  
-- `E get(int index)` : Returns the element at the specified position in the list. For instance, `list.get(2)` retrieves the element at index 2.
-- `E getFirst()` / `E getLast()` : First or last element.  
-- `E remove(int index)` : Removes the element at the specified position in the list and returns it. The list size shrinks and elements to the right of the removed element shift left.
-- `E removeFirst()`: Removes and returns the first element of the list (equivalent to removing the head)
-- `E removeLast()` : Removes and returns the last element of the list (removes the tail of the list) 
-- `boolean contains(Object o)` : Checks if element exists.  
-- `int size()` : Number of elements.  
-
+| Method | Description | Example |
+|--------|-------------|---------|
+| `boolean add(E e)` | Appends the specified element to the end of the list (same as `addLast(E)`). Returns `true` if the list changed. | `list.add("X")` |
+| `void add(int index, E element)` | Inserts an element at the specified position, shifting subsequent elements. | `list.add(0, "Y")` |
+| `void addFirst(E e)` | Inserts the element at the beginning (new head). | `list.addFirst("Z")` |
+| `void addLast(E e)` | Adds element at the end of the list. | `list.addLast("A")` |
+| `E get(int index)` | Returns the element at the specified position. | `list.get(2)` |
+| `E getFirst()` / `E getLast()` | Returns the first or last element. | `list.getFirst()` |
+| `E remove(int index)` | Removes and returns the element at the given position. | `list.remove(1)` |
+| `E removeFirst()` | Removes and returns the first element (head). | `list.removeFirst()` |
+| `E removeLast()` | Removes and returns the last element (tail). | `list.removeLast()` |
+| `boolean contains(Object o)` | Checks if the list contains the given element. | `list.contains("X")` |
+| `int size()` | Returns the number of elements in the list. | `list.size()` |
 ---
 
 ## Example
