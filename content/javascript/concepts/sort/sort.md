@@ -1,112 +1,106 @@
 ---
 Title: 'Sort'
-Description: 'Sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array.'
+Description: 'Sorts the elements of an array in place.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Arrays'
+  - 'Functions'
   - 'Methods'
-
+  - 'Values'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, the **`.sort()`** method of an array sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array. No copy is made. The default sort is in ascending string order.
+The JavaScript **`.sort()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) is used to sort the elements of an [array](https://www.codecademy.com/resources/docs/javascript/arrays) in place. By default, it sorts elements as [strings](https://www.codecademy.com/resources/docs/javascript/strings) in ascending order. However, a custom comparison [function](https://www.codecademy.com/resources/docs/javascript/functions) can be provided to achieve more advanced sorting, such as sorting numbers correctly or arranging [objects](https://www.codecademy.com/resources/docs/javascript/objects) based on certain properties.
 
-The `.sort()` method allows the passing of a comparison function to change the ordering of the sort.
-
-## Syntax
+## JavaScript `.sort()` Syntax
 
 ```pseudo
-// Perform the default sort
-someArray.sort()
-
-// Perform the sort using an arrow function for comparisons
-somearray.sort((A, B) => { ... } )
-
-// Perform the sort with an inline compare function
-somearray.sort(function compareFn(A, B) { ... })
-
-// Perform the sort with a compare function
-somearray.sort(compareFn)
+array.sort(compareFn)
 ```
 
-- `compareFn` is the optional comparison function.
-- `A` is the first array item being compared.
-- `B` is the second array item being compared.
+**Parameters:**
 
-## Default Sort Order
+- `compareFn` (Optional): A function that defines the sort order. It takes two arguments, `a` and `b`, and should return:
+  - A negative value if `a` should come before `b`
+  - `0` if `a` and `b` are considered equal
+  - A positive value if `a` should come after `b`
 
-If no comparison function are provided, the `.sort()` method will sort the array in ascending string order.
+> **Note:** If omitted, elements are converted to strings and sorted lexicographically.
 
-For items that are not strings, `.sort()` will convert them into strings before comparing them. This can lead to unexpected results:
+## Example 1: Sorting Strings Using JavaScript `.sort()`
+
+This example uses JavaScript `.sort()` to sort a list of strings:
 
 ```js
-let numbers = [33, 16, 156, 2, 9, 5, 10];
+const fruits = ['banana', 'apple', 'cherry', 'date'];
 
-numbers.sort();
+fruits.sort();
+
+console.log(fruits);
+```
+
+Here is the output:
+
+```shell
+[ 'apple', 'banana', 'cherry', 'date' ]
+```
+
+## Example 2: Sorting Numbers Using JavaScript `.sort()`
+
+This example uses JavaScript `.sort()` with a comparison function to sort a list of numbers:
+
+```js
+const numbers = [10, 5, 20, 1, 100];
+
+numbers.sort((a, b) => a - b);
 
 console.log(numbers);
-// Output: [10, 156, 16, 2, 33, 5, 9]
 ```
 
-## Comparison Function
+Here is the output:
 
-The comparison function, if provided, will determine the sorting of all non-`undefined` items in the array. All `undefined` items are sorted to the end of the array, and no `undefined` items are passed to the comparison function.
-
-The comparison function determines the sort order as follows:
-
-For the function `CompareFn(A, B)`:
-
-- If the function returns a value greater than zero, sort `B` before `A`.
-- If the function returns a value less than zero, sort `A` before `B`.
-- If the function returns a value of zero, the positions of `A` and `B` remain unchanged.
-- The function must return the same result for any specific pair of values `A` and `B` provided. Otherwise, the sort order is undefined.
-
-To sort an array in numeric order rather than string order, the following function can be used as long as the array doesn't contain `Infinity` or `NaN`:
-
-```js
-function compareFn(A, B) {
-  return A - B;
-}
+```shell
+[ 1, 5, 10, 20, 100 ]
 ```
 
-So we can fix the prior example:
+## Codebyte Example: Sorting Objects by Property Using JavaScript `.sort()`
 
-```js
-let numbers = [33, 16, 156, 2, 9, 5, 10];
-
-numbers.sort(function compareFn(A, B) {
-  return A - B;
-});
-
-console.log(numbers);
-// Output: [2, 5, 9, 10, 16, 33, 156]
-```
-
-## Codebyte Example
-
-The below Codebyte example uses a comparison function with `.sort()` in order to sort the array alphabetically while ignoring the case:
+This codebyte example uses JavaScript `.sort()` with a comparison function to sort the elements of an object by property:
 
 ```codebyte/javascript
-//Comparison Function
-function compareFn(A, B) {
-  if (A.toLowerCase() > B.toLowerCase()) {
-    return 1;
-  }
-  if (A.toLowerCase() < B.toLowerCase()) {
-    return -1;
-  }
-  return 0;
-}
+const users = [
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 20 },
+  { name: "Charlie", age: 30 }
+];
 
-let array = ["alpha","Beta", "gamma", "delta", "epsilon", "Zeta", "Eta", "theta"];
+users.sort((a, b) => a.age - b.age);
 
-//The output without using the comparison function
-console.log(array.sort());
+console.log(users);
+```
 
-//The output with using the comparison function
-console.log(array.sort(compareFn));
+## Frequently Asked Questions
+
+### 1. How do I sort numbers in descending order using JavaScript `.sort()`?
+
+You can reverse the comparison in your function in JavaScript `.sort()` to sort numbers in descending order:
+
+```js
+numbers.sort((a, b) => b - a);
+```
+
+### 2. Does JavaScript `.sort()` modify the original array?
+
+Yes. JavaScript `.sort()` sorts the array in place, meaning the original array is modified instead of creating a new one.
+
+### 3. Can I sort strings in reverse alphabetical order using JavaScript `.sort()`?
+
+Yes, you can sort strings in reverse alphabetical order by using JavaScript `.sort()` with `.reverse()`:
+
+```js
+fruits.sort().reverse();
 ```
