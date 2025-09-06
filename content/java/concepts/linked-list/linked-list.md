@@ -19,11 +19,16 @@ A `LinkedList` is a **doubly-linked list** implementation of the `List` and `Deq
 
 ---
 
-## Syntax
-
 **Creation:**
 ```pseudo
 LinkedList<Type> list = new LinkedList<>();
+```
+
+**Parameters:**  
+- `Type` → The data type of elements stored in the list (e.g., `String`, `Integer`).
+
+**Return value:**  
+- A new empty `LinkedList` object of the specified type.
 ```
 
 **Common methods:**
