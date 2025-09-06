@@ -14,12 +14,8 @@ CatalogContent:
 
 
 
-# LinkedList
+A `LinkedList` is a **doubly-linked list** implementation of the `List` and `Deque` interfaces. Elements are stored in nodes linked to previous and next nodes, it allows `null` elements and is useful for queues, stacks, and lists with frequent insertions or removals at the ends.
 
-A `LinkedList` is a **doubly-linked list** implementation of the `List` and `Deque` interfaces.  
-- Elements are stored in nodes linked to previous and next nodes.  
-- Allows `null` elements.  
-- Useful for queues, stacks, and lists with frequent insertions/removals at the ends.
 
 ---
 
