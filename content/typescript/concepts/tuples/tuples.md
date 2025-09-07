@@ -1,6 +1,6 @@
 ---
 Title: 'Tuples'
-Description: 'In TypeScript, tuple types are defined as array-like containers with a fixed sized and the types of each member element already set.'
+Description: 'In TypeScript, tuple types are defined as array-like containers with a fixed size and the types of each member element already set.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -24,14 +24,14 @@ They have two distinct features:
 Tuples can have a mix of different data types and look like an array consisting of types as values inside:
 
 ```ts
-type myTuple: [string, number, boolean] = ["1", 2, true];
+let myTuple: [string, number, boolean] = ["1", 2, true];
 ```
 
 They consist of a left square bracket `[`, comma-separated list of types, and a right square bracket `]`. The literal values, "1", 2, and `true`, must map to each element's types, `string`, `number`, and `boolean`, in the correct order.
 
 ## Destructuring a Tuple
 
-Like arrays and objects, tuples can be deconstructed into new variables that represents each element and their type. For example, here is a variable, `popStar`, with a given tuple type. One the other line, the `popStar` is destructured into four separate variables through its tuple type:
+Like arrays and objects, tuples can be deconstructed into new variables that represent each element and their type. For example, here is a variable, `popStar`, with a given tuple type. On the other line, the `popStar` is destructured into four separate variables based on the tuple’s structure:
 
 ```ts
 const popStar: [string, number, string, boolean] = [
