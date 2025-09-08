@@ -1,6 +1,6 @@
 ---
 Title: '.front()'
-Description: 'Returns the element at the front of the queue.'
+Description: 'Returns a reference to the element at the front of the queue.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -28,7 +28,7 @@ The C++ `.front()` method takes no parameters.
 
 **Return value:**
 
-Returns the element at the front of the queue.
+Returns a reference to the element at the front of the queue.
 
 ## Example 1: Basic Usage of C++ `.front()`
 
