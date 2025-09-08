@@ -1,6 +1,6 @@
 ---
 Title: 'Unions'
-Description: 'Some values may be one of the multiple possible types. TypeScript refers to these "either or" types as type unions.'
+Description: 'Some values may be one of multiple possible types. TypeScript refers to these "either or" types as type unions.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -37,13 +37,13 @@ logEither(false);
 // Error: Type 'boolean' is not assignable to type 'number | string'.
 ```
 
-Optional values, including optional parameters and members, are implicitly type `| undefined`.
+Optional parameters and properties are given a union type with undefined (e.g., `string | undefined`).
 
 ## Union type Members
 
 When a value is a union type, TypeScript will only allow access to members that exist on all possible types.
 
-In this example, we use a pair of ternary operators to create a `value`. This set the type of `value` to `boolean | string | string[]` and the only shared member is the `toString()` function. No others, such as `length`, are allowed since it can't be applied to a `boolean`-type value:
+In this example, we use a pair of ternary operators to create a `value`. This sets the type of `value` to `boolean | string | string[]` and the only shared member is the `toString()` function. No others, such as `length`, are allowed since it can't be applied to a `boolean`-type value:
 
 ```ts
 // Type: boolean | string | string[]
