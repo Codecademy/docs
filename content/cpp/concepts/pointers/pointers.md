@@ -28,13 +28,9 @@ To get the memory address of a variable, the address operator (`&`) is used. Thi
 
 int main() {
   std::string game = "Cricket";
-
   std::cout << &game << "\n";
-
   std::string* ptr = &game;
-
   std::cout << ptr << "\n";
-
   return 0;
 }
 ```
@@ -62,15 +58,10 @@ When a pointer is dereferenced, it tells the program to return the value contain
 
 int main() {
   std::string game = "Cricket";
-
   std::string* ptr = &game;
-
   std::cout << *ptr << "\n";
-
   *ptr = "Baseball";
-
   std::cout << *ptr << "\n";
-
   return 0;
 }
 ```
@@ -98,13 +89,9 @@ This however is a cause of concern because if the program tries to dereference a
 
 int main() {
   std::string game = "Cricket";
-
   std::string* ptr = &game;
-
   std::cout << ptr << "\n";
-
   std::cout << *ptr << "\n";
-
   return 0;
 }
 ```
@@ -130,11 +117,8 @@ void changeGame(std::string* game, const std::string& new_game) {
 
 int main() {
   std::string game = "Cricket";
-
   changeGame(&game, "Baseball");
-
   std::cout << game << "\n";
-
   return 0;
 }
 ```
