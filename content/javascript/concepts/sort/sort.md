@@ -1,5 +1,5 @@
 ---
-Title: 'Sort'
+Title: '.sort()'
 Description: 'Sorts the elements of an array in place.'
 Subjects:
   - 'Computer Science'
@@ -30,6 +30,10 @@ array.sort(compareFn)
   - A positive value if `a` should come after `b`
 
 > **Note:** If omitted, elements are converted to strings and sorted lexicographically.
+
+**Return value:**
+
+`.sort()` returns the sorted array itself (not a new array).
 
 ## Example 1: Sorting Strings Using JavaScript `.sort()`
 
@@ -69,7 +73,7 @@ Here is the output:
 
 ## Codebyte Example: Sorting Objects by Property Using JavaScript `.sort()`
 
-This codebyte example uses JavaScript `.sort()` with a comparison function to sort the elements of an object by property:
+This codebyte example uses JavaScript `.sort()` with a comparison function to sort an array of objects by a property:
 
 ```codebyte/javascript
 const users = [
