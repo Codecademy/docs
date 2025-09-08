@@ -1,6 +1,6 @@
 ---
-Title: 'DEGREES()' 
-Description: 'Converts an angle from radians to degrees.' 
+Title: 'DEGREES()'
+Description: 'Converts an angle from radians to degrees.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -11,7 +11,7 @@ Tags:
   - 'PostgreSQL'
   - 'SQLite'
   - 'SQL'
-CatalogContent: 
+CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
