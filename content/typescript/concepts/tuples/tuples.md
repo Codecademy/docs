@@ -31,7 +31,7 @@ They consist of a left square bracket `[`, comma-separated list of types, and a 
 
 ## Destructuring a Tuple
 
-Like arrays and objects, tuples can be deconstructed into new variables that represent each element and their type. For example, here is a variable, `popStar`, with a given tuple type. On the other line, the `popStar` is destructured into four separate variables based on the tuple’s structure:
+Like arrays and objects, tuples can be destructured into new variables that represent each element and their type. For example, here is a variable, `popStar`, with a given tuple type. On the other line, the `popStar` is destructured into four separate variables based on the tuple’s structure:
 
 ```ts
 const popStar: [string, number, string, boolean] = [
