@@ -179,14 +179,38 @@ Here is the output:
 
 ## Frequently Asked Questions
 
-### 1. What are window functions in SQL?
+### 1. What is a window function in SQL?
 
 Window functions in SQL include ranking functions (`ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `NTILE()`), aggregate functions (`SUM()`, `AVG()`, `COUNT()`, `MIN()`, `MAX()`), and value functions (`LAG()`, `LEAD()`, `FIRST_VALUE()`, `LAST_VALUE()`).
 
-### 2. What is a SQL window function used for?
+### 2. What is the difference between aggregate functions and window functions in SQL?
 
-Window functions in SQL are used for advanced analytics, such as calculating running totals, moving averages, rankings, comparisons to previous or next rows, and percentiles — all while keeping access to the individual row data.
+- Aggregate functions: They collapse multiple rows into a single result per group. For example:
 
-### 3. Are window functions faster than subqueries in SQL?
+```sql
+SELECT department, AVG(salary) AS avg_salary
+FROM employees
+GROUP BY department;
+```
 
-In many cases, yes. Window functions in SQL are often more efficient than correlated subqueries because they are designed for set-based operations and optimized by the SQL engine. However, performance depends on the query complexity, indexing, and database implementation.
+Each department returns one row with its average salary.
+
+- Window functions: They compute values across related rows but keep every row in the output. For example:
+
+```sql
+SELECT employee, department,
+  AVG(salary) OVER (PARTITION BY department) AS avg_salary
+FROM employees;
+```
+
+Each employee’s row is preserved, along with the department’s average.
+
+### 3. Is `ROW_NUMBER` a window function in SQL?
+
+Yes. `ROW_NUMBER()` is a window function that assigns a unique sequential integer to rows within a result set. It requires an `OVER()` clause with an `ORDER BY` to define how the numbering is assigned. For example:
+
+```sql
+SELECT employee, department,
+  ROW_NUMBER() OVER (PARTITION BY department ORDER BY salary DESC) AS rank_in_dept
+FROM employees;
+```
