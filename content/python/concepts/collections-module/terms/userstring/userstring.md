@@ -1,6 +1,6 @@
 ---
 Title: 'collections.UserString'
-Description: 'A custom wrapper for string objects.'
+Description: 'A wrapper class for string objects that makes subclassing easier.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -13,7 +13,7 @@ CatalogContent:
 
 A `UserString` is a class in the `collections` module. It is a custom wrapper for string objects, behaving like a string but allowing easier subclassing. Unlike directly subclassing [`str`](<(https://www.codecademy.com/resources/docs/python/dictionaries)>), `UserString` stores its content in the `.data` attribute.
 
-**Note:** A `UserString` is a wrapper class that behaves like a sequence. The actual string is stored in the `.data` attribute.
+**Note:** While `UserString` behaves like a string and supports the same operations, some methods return a regular `str` instead of another `UserString`.
 
 ## Syntax
 
@@ -47,7 +47,7 @@ This is the output of the declared code:
 
 ## Codebyte Example
 
-The following example creates a `UserString` from an iterable (a string) and outputs more details about the characteristics of the `UserString`:
+The following example creates a `UserString` and demonstrates its usage more in detail, along with a subclass that removes vowels:
 
 ```codebyte/python
 from collections import UserString
@@ -58,9 +58,9 @@ print(f"{customString.upper()}\n")
 print(f"Substring of the first word: {customString[0 : 7]}\n")
 
 class NoVowels(UserString):
-    def __init__(self, seq):
-        # Remove vowels from the string
-        super().__init__(''.join(ch for ch in seq if ch.lower() not in "aeiou"))
+   def __init__(self, seq):
+      # Remove vowels from the string
+      super().__init__(''.join(ch for ch in seq if ch.lower() not in "aeiou"))
 
 s = NoVowels("Hello World")
 print(f"Word without any vowels left: {s}")
