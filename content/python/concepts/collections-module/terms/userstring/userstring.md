@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `UserString` is a class in the `collections` module. It is a custom wrapper for string objects, behaving like a string but allowing easier subclassing. Unlike directly subclassing [`str`](<(https://www.codecademy.com/resources/docs/python/dictionaries)>), `UserString` stores its content in the `.data` attribute. The seq parameter passed at initialization can be anything that can be converted into a `str`.
+A `UserString` is a class in the `collections` module. It is a custom wrapper for string objects, behaving like a string but allowing easier subclassing. Unlike directly subclassing [`str`](<(https://www.codecademy.com/resources/docs/python/dictionaries)>), `UserString` stores its content in the `.data` attribute.
 
 **Note:** A `UserString` is a wrapper class that behaves like a sequence. The actual string is stored in the `.data` attribute.
 
@@ -21,11 +21,33 @@ A `UserString` is a class in the `collections` module. It is a custom wrapper fo
 myString = collections.UserString(seq)
 ```
 
-A `UserString` can be initialized either as a sequence of chars or a string. It doesn't provide any additional method.
+- `seq`: It can be anything that can be converted into a `str` or `iterable of characters`, like a list or tuple of individual characters.
+
+Return value:
+
+- A `UserString` instance, which is an object that contains the content derived from `seq`.
+
+## Example
+
+The following example demonstrates the usage of the `UserString` method:
+
+```py
+from collections import UserString
+
+myString = 'First example of a UserString!'
+customString = UserString(myString)
+print(customString.data)
+```
+
+This is the output of the declared code:
+
+```shell
+'First example of a UserString!'
+```
 
 ## Codebyte Example
 
-The following example creates a `UserString` from an iterable (a string) and outputs various characteristics of the `UserString`:
+The following example creates a `UserString` from an iterable (a string) and outputs more details about the characteristics of the `UserString`:
 
 ```codebyte/python
 from collections import UserString
