@@ -39,7 +39,7 @@ In this example, the PI value is returned using the `PI()` function.
 SELECT PI() AS pi_value;
 ```
 
-The [AS](https://www.codecademy.com/resources/docs/sql/commands/as) keyword is used to name the resulting column pi_value in the output.
+The [`AS`](https://www.codecademy.com/resources/docs/sql/commands/as) keyword is used to name the resulting column pi_value in the output.
 
 The output will be:
 
@@ -65,7 +65,7 @@ SELECT id, radio, PI() * POWER(radio, 2) AS circle_area
 FROM circles;
 ```
 
-In this SQL statement, the value of PI is multiplied by the result of squaring the radius (`radio`) using the [POWER()](https://www.codecademy.com/resources/docs/sql/math-functions/power) function to calculate the circle_area.
+In this SQL statement, the value of PI is multiplied by the result of squaring the radius (`radio`) using the [`POWER()`](https://www.codecademy.com/resources/docs/sql/math-functions/power) function to calculate the circle_area.
 
 The output will be:
 
