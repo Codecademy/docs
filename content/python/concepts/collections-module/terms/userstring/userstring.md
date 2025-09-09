@@ -39,7 +39,7 @@ customString = UserString(myString)
 print(customString.data)
 ```
 
-This is the output of the declared code:
+This is the output of the above code:
 
 ```shell
 'First example of a UserString!'
