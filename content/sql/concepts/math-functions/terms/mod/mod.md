@@ -1,14 +1,14 @@
 Title: 'MOD()'
-Description: 'Returns the remainder of a division operation.'
+Description: 'Returns the remainder of one number divided by another.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'SQL'
+  - 'Functions'
   - 'MySQL'
   - 'PostgreSQL'
+  - 'SQL'
   - 'SQLite'
-  - 'Functions'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
@@ -20,7 +20,7 @@ The SQL math function **`MOD()`** returns the remainder after dividing one numbe
 
 ## Syntax
 
-```sql
+```pseudo
 MOD(dividend, divisor)
 ```
 
@@ -38,7 +38,13 @@ Returns the remainder after dividing `dividend` by `divisor`.
 This example uses the `MOD()` function to find the remainder of 10 divided by 3:
 
 ```sql
-SELECT MOD(10, 3); -- Result: 1
+SELECT MOD(10, 3);
+```
+
+The output of this code is:
+
+```shell
+1
 ```
 
 ## Example 2
@@ -51,7 +57,7 @@ Given a table `numbers`:
 | 2  | 12    |
 | 3  | 15    |
 
-You can use `MOD()` to check which values are even:
+Use `MOD()` to check which values are even:
 
 ```sql
 SELECT id, value, MOD(value, 2) AS remainder FROM numbers;
@@ -59,10 +65,12 @@ SELECT id, value, MOD(value, 2) AS remainder FROM numbers;
 
 The output will be:
 
+```shell
 | id | value | remainder |
 |----|-------|-----------|
 | 1  | 7     | 1         |
 | 2  | 12    | 0         |
 | 3  | 15    | 1         |
+```
 
-Here, a remainder of `0` indicates an even
+Here, a remainder of `0` indicates an even number.
