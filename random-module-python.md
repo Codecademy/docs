@@ -39,7 +39,7 @@ print(random.choice(random_strings))
 Here we see this a list being created with 3 random strings and a print statement printing out one of the random strings. The function that we use here is the `choice` function. These are the most common ways the `random` module is used in beginner friendly environments. 
 
 ## All functions in `random` module - cheatsheet
-There are many different functions in the random module. That is why I am creating this cheat sheet. This will have most if not all pseudo-random functions that are commonly used in python. Each one is paired with it's proper syntax and definition.
+There are many different functions in the random module. That is why I am creating this cheat sheet. This will have most if not all pseudo-random functions that are commonly used in python. Each one is paired with it's proper syntax and definition. Some of these are very complex and not beginner friendly. If you would like to use the beginner friendly ones, only read #1 and #3.
 
 ### 1. Basic random numbers
 **Function** - **Description**   
@@ -99,6 +99,9 @@ There are many different functions in the random module. That is why I am creati
   `random.weibullvariate(alpha, beta)` =  Weibull distribution
   
   `random.triangular(low, high, mode)` = 	Triangular distribution
+
+## Summary
+In conclusion, the `random` module is a fun, entertaining, and powerful tool largely used in games and simulations. It is great for specific entertainment based projects or adding fun twists to a game or website.  
 
 ### Notes
 
