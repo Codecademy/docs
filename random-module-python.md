@@ -64,7 +64,8 @@ There are many different functions in the random module. That is why I am creati
 `random.setstate(state)` = Restore a saved state
 
 ### 3. Working with Sequences
-**Function** - **Description**
+**Function** - **Description**  
+
 `random.choice(seq)` = Random element from a sequence   
   
 `random.choices(population, weights=None, k=1)` = `k` random elemnts, with optional weights 
@@ -74,7 +75,8 @@ There are many different functions in the random module. That is why I am creati
 `random.sample(population, k)` = `k` unique random elements
 
 ### 4. Continuous distributions 
-**Function** - **Description**
+**Function** - **Description**  
+
 `random.betavariate(alpha, beta)` = 	Beta distribution  
   
 
