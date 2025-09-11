@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, **`UserDict`** is a class in the `collections` module that provides a wrapper around dictionary objects. It allows creating custom dictionary-like classes by extending `UserDict` and overriding its methods, making it useful for building specialized dictionaries with additional functionality or behavior.
+In Python, **`UserDict`** is a class in the `collections` module that provides a wrapper around [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) objects. It allows creating custom dictionary-like classes by extending `UserDict` and overriding its methods, making it useful for building specialized dictionaries with additional functionality or behavior.
 
 ## Syntax
 
