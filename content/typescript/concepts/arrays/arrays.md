@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-In TypeScript, arrays are considered to be collections of single, "generic" types of values. All elements must be of the same type of data as prescribed in the array definition.
+In TypeScript, arrays are considered to be collections of values that share a single, generic type. All elements must conform to the types specified in the array definition (e.g., string[] or string | number).
 
 ## Defining an array
 
@@ -43,7 +43,7 @@ More than one type can be prescribed in the array definition with the "or" `|` o
 const numbers: (string | number)[] = [1, '2', 3, 'four'];
 
 // Alternative syntax
-// const numbers: [string, number] = [1, "2", 3, "four"];
+// const numbers: Array<string | number> = [1, '2', 3, 'four'];
 ```
 
 As long as each element in `numbers` is of type `string` or `number`, it is valid.
