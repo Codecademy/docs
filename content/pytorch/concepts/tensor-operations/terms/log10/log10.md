@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **log10()** function computes the logarithm base 10 of each element in the input tensor. This is mathematically equivalent to applying the function $y_i = log_{10}(x_i)$ element-wise, where $log_{10}$ is the base-10 logarithm}$.
+In PyTorch, the **log10()** function computes the logarithm base 10 of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). This is mathematically equivalent to applying the function $y_i = log_{10}(x_i)$ element-wise, where $log_{10}$ is the base-10 logarithm}$.
 
 ## Syntax
 
