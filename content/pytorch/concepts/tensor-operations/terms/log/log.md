@@ -40,7 +40,7 @@ import torch
 import math
 
 # Define a tensor
-x = torch.tensor([5.0 , 6.0 , 7.0 , math.log(2.) ])
+x = torch.tensor([7.0 , 8.0 , 9.0 , math.log(3.)])
 
 # Compute the natural logarithm
 result = torch.log(x)
