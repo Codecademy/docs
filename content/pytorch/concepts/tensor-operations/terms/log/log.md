@@ -51,5 +51,5 @@ print(result)
 Here is the output:
 
 ```shell
-tensor([ 1.6094,  1.7918,  1.9459, -0.3665])
+tensor([1.9459, 2.0794, 2.1972, 0.0940])
 ```
