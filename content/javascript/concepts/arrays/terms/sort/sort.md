@@ -96,8 +96,8 @@ numbers.sort((a, b) => b - a);
 No. The `sort()` method is only available on arrays, not on strings. If you want to sort the characters of a string, you first need to convert it into an array (for example, using `split()`), apply `sort()`, and then join it back:
 
 ```js
-const str = "hello";
-const sorted = str.split("").sort().join("");
+const str = 'hello';
+const sorted = str.split('').sort().join('');
 console.log(sorted); // "ehllo"
 ```
 
