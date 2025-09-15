@@ -14,7 +14,7 @@ CatalogContent:
   - 'py-torch-for-classification'
 ---
 
-The **`torch.randn()`** function in PyTorch generates a tensor with random numbers drawn from a standard normal distribution (mean = 0, variance = 1). This function is particularly useful for initializing weights in neural networks and for other purposes requiring randomized data, especially in machine learning applications.
+The **`torch.randn()`** function in PyTorch generates a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) with random numbers drawn from a standard normal distribution (mean = 0, variance = 1). This function is particularly useful for initializing weights in [neural networks](https://www.codecademy.com/resources/docs/ai/neural-networks) and for other purposes requiring randomized data, especially in machine learning applications.
 
 ## `torch.randn()` Syntax
 
