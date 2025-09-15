@@ -39,9 +39,7 @@ This example uses JS `.sort()` to sort an array of strings:
 
 ```js
 const fruits = ['banana', 'apple', 'cherry', 'date'];
-
 fruits.sort();
-
 console.log(fruits);
 ```
 
@@ -57,9 +55,7 @@ This example uses JS `.sort()` with a comparison function to sort an array of nu
 
 ```js
 const numbers = [10, 5, 20, 1, 100];
-
 numbers.sort((a, b) => a - b);
-
 console.log(numbers);
 ```
 
@@ -95,14 +91,21 @@ You can reverse the comparison in your function in JS `.sort()` to sort numbers 
 numbers.sort((a, b) => b - a);
 ```
 
-### 2. Does JS `.sort()` modify the original array?
+### 2. Can I use `sort()` on a string?
 
-Yes. JS `.sort()` performs in-place sorting, meaning the original array is modified instead of creating a new one.
-
-### 3. Can I sort strings in reverse alphabetical order using JS `.sort()`?
-
-Yes, you can sort strings in reverse alphabetical order using JS `.sort()` with `.reverse()`:
+No. The `sort()` method is only available on arrays, not on strings. If you want to sort the characters of a string, you first need to convert it into an array (for example, using `split()`), apply `sort()`, and then join it back:
 
 ```js
-fruits.sort().reverse();
+const str = "hello";
+const sorted = str.split("").sort().join("");
+console.log(sorted); // "ehllo"
+```
+
+### 3. What happens when `sort()` is used in a list (array)?
+
+When you call `sort()` on an array, JavaScript converts the elements to strings by default and compares them in Unicode code point order. This means that numbers may not sort as you expect:
+
+```js
+const numbers = [10, 1, 5];
+console.log(numbers.sort()); // [1, 10, 5] (string comparison)
 ```
