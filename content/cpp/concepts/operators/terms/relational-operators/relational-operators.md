@@ -92,7 +92,9 @@ True = 1, False = 0
 
 ## Codebyte Example
 
-```codebytes/cpp
+In this example, multiple relational operators are applied to integer variables to demonstrate element-wise comparisons and their Boolean results:
+
+```codebyte/cpp
 #include <iostream>
 using namespace std;
 
