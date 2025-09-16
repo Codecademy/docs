@@ -53,7 +53,7 @@ Postel's Law is especially useful when:
 - **Use clear, non-blaming error messages:** Errors should inform, not shame. Make recovery easy and empathetic.
 - **Avoid punishing unexpected behavior:** Always consider how your system should respond to unusual but still valid input, and aim for graceful degradation.
 
-![Diagram showing flexible input formats converging into a standardized system output](https://raw.githubusercontent.com/Codecademy/docs/main/media/postels-law-input-flexibility.png)
+![Diagram showing search engine input into multiple suggestive outputs](https://raw.githubusercontent.com/Codecademy/docs/main/media/postels-law-input-flexibility.png)
 
 ## Limitations of the Principle
 
