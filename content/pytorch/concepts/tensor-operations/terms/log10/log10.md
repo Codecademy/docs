@@ -1,6 +1,6 @@
 ---
 Title: '.log10()'
-Description: 'Returns a new tensor with the logarithm base 10 of each element in the input tensor.'
+Description: 'RReturns a tensor containing the base-10 logarithm of each element in the input tensor.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **log10()** function computes the logarithm base 10 of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). This is mathematically equivalent to applying the function $y_i = log_{10}(x_i)$ element-wise, where $log_{10}$ is the base-10 logarithm}$.
+In PyTorch, the **`.log10()`** function computes the base-10 logarithm of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). Mathematically, this is equivalent to applying the function $y_i = \log_{10}(x_i)$ element-wise, where $log_{10}$ is the base-10 logarithm.
 
 ## Syntax
 
@@ -25,15 +25,15 @@ torch.log10(input, *, out=None) → Tensor
 **Parameters:**
 
 - `input`: The input tensor containing elements for which the logarithm will be computed.
-- `out` (optional): A tensor to store the output. If provided, the result is written to this tensor.
+- `out` (optional): A tensor to store the output. If provided, the result is written to this tensor. Must have the same shape as `input`.
 
 **Return value:**
 
-Returns a new tensor where each element is the logarithm base 10 of the corresponding element within the input tensor.
+Returns a new tensor where each element is the base-10 logarithm of the corresponding element in `input`.
 
 ## Example
 
-In this example, we compute the element-wise logarithm base 10 of a tensor using `torch.log10()`:
+The following example shows how to compute the element-wise logarithm base 10 of a tensor using `torch.log10()`:
 
 ```py
 import torch
