@@ -1,6 +1,6 @@
 ---
 Title: '.lerp()'
-Description: 'Returns a new tensor as a result of a linear interpolation between two tensors and a scalar or tensor weight.'
+Description: 'Returns a tensor containing the linear interpolation of two tensors, controlled by a scalar or tensor weight.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
@@ -14,8 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **lerp()** function computes the linear interpolation between two [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors) `start` (from the `input`) and `end` with an auxiliary scalar or tensor `weight`. The result is stored in a new tensor `out`. This is mathematically equivalent to compute the function $out_i = start_i + weight_i * (end_i - start_i)$.
-The shapes of both tensors must be [broadcastable](https://www.codecademy.com/resources/docs/numpy/array-broadcasting). If `weight` is a tensor, then all the shapes of `start`, `end` and `weight` must be [broadcastable](https://www.codecademy.com/resources/docs/numpy/array-broadcasting).
+In PyTorch, the **`.lerp()`** function computes the linear interpolation between an input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) (`input`) and an end tensor (`end`), using a scalar or tensor `weight`. This is mathematically equivalent to applying the function $out_i = start_i + weight_i * (end_i - start_i)$.
+
+The shapes of `input`, `end`, and `weight` must be [broadcastable](https://www.codecademy.com/resources/docs/numpy/array-broadcasting).
 
 ## Syntax
 
@@ -27,7 +28,7 @@ torch.lerp(input, end, weight, *, out=None)
 
 - `input`: The input tensor containing the initial points.
 - `end`: The ending tensor containing the finishing points.
-- `weight`: A float scalar or a tensor with the weight for the interpolation formula.
+- `weight`: The shapes of input, end, and weight must be
 - `out` (optional): A tensor to store the output. If provided, the result is written to this tensor.
 
 **Return value:**
@@ -36,7 +37,7 @@ Returns a new tensor containing the result given by the interpolation formula.
 
 ## Example
 
-In this example, we compute the interpolation between two tensors and a float scalar weight `torch.lerp()`:
+The following example shows how to compute the interpolation between two tensors using `torch.lerp()` with a float scalar weight:
 
 ```py
 import torch
