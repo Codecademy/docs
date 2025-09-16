@@ -14,7 +14,8 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **ldexp()** function computes a new [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors), where each element of `input` is multiplied by 2 raised to the power of the corresponding element in `other`. It is mathematically equivalent to the function $out_i = input_i * 2^{other_i}$.
+In PyTorch, the **`.ldexp()`** function computes a new [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors), where each element of `input` is multiplied by 2 raised to the power of the corresponding element in `other`. It is mathematically equivalent to the function $out_i = input_i * 2^{other_i}$.
+
 This operation is commonly used to build floating-point numbers by combining mantissas (from `input`) with powers of two derived from integer exponents (from `other`).
 
 ## Syntax
@@ -26,8 +27,10 @@ torch.ldexp(input, other, *, out=None) → Tensor
 **Parameters:**
 
 - `input`: The input tensor containing the mantissas.
-- `other`: The tensor that contains exponents (usually integers), applied element-wise.
-- **Return value:**
+- `other`: A tensor of exponents (int or float), applied element-wise.
+- `out` (Optional): The output tensor to store results. If not provided, a new tensor is returned.
+
+**Return value:**
 
 Returns a new tensor containing the result of the multiplication.
 
