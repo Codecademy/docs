@@ -1,6 +1,6 @@
 ---
 Title: '.log10()'
-Description: 'RReturns a tensor containing the base-10 logarithm of each element in the input tensor.'
+Description: 'Returns a tensor containing the base-10 logarithm of each element in the input tensor.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
