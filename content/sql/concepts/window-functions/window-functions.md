@@ -1,42 +1,104 @@
 ---
 Title: 'Window Functions'
-Description: 'A window function performs a calculation over the inputted column and then returns the calculated value for each row. Window functions can be identified by their use of the OVER clause. In the simplest syntactic example, a function can be preformed over a given column as shown below: sql SELECT functionname(column1name) OVER() FROM tablename;  An ORDER BY clause can be used to determine in which direction the function should be calculated.'
+Description: 'Perform calculations across a set of table rows related to the current row, without collapsing the result into a single output row.'
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'Functions'
-  - 'SQLite'
   - 'MySQL'
   - 'PostgreSQL'
+  - 'SQLite'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
 
-A window function performs a calculation over the inputted column and then returns the calculated value for each row. Window functions can be identified by their use of the `OVER` clause.
+**Window functions** in SQL allow users to perform calculations across a set of table rows that are related to the current row. Unlike traditional [aggregate functions](https://www.codecademy.com/resources/docs/sql/aggregate-functions) (like [`SUM()`](https://www.codecademy.com/resources/docs/sql/aggregate-functions/sum), [`AVG()`](https://www.codecademy.com/resources/docs/sql/aggregate-functions/avg), [`COUNT()`](https://www.codecademy.com/resources/docs/sql/aggregate-functions/count)), which return only a single value for a group of rows, window functions return a value for each row, based on a defined window of rows.
 
-In the simplest syntactic example, a function can be preformed over a given column as shown below:
+## SQL Window Functions Syntax
 
-```sql
-SELECT function_name(column_1_name) OVER()
-FROM table_name;
+The general syntax for window functions in SQL is:
+
+```pseudo
+function_name(expression) OVER (
+  [PARTITION BY column]
+  [ORDER BY column]
+  [ROWS/RANGE frame_specification]
+)
 ```
 
-An `ORDER BY` clause can be used to determine in which direction the function should be calculated.
+In the syntax:
+
+- `function_name(expression)`: The function to be applied, like `SUM()` or `ROW_NUMBER()`.
+- `OVER()`: Defines the window of rows over which the function operates.
+- `PARTITION BY`: Divides rows into groups (like `GROUP BY`).
+- `ORDER BY`: Orders rows within each partition.
+- `ROWS/RANGE`: Defines a frame (a subset of the partition).
+
+## Types of SQL Window Functions
+
+There are different types of window functions in SQL:
+
+- Ranking window functions
+- Aggregate window functions
+- Value window functions
+
+### Ranking Window Functions
+
+- `ROW_NUMBER()`: Assigns a unique sequential number.
+- `RANK()`: Assigns rank with gaps if there are ties.
+- `DENSE_RANK()`: Similar to `RANK()`, but without gaps.
+- `NTILE(n)`: Divides rows into `n` buckets.
+
+Here is an example that ranks sales employees by revenue within each region:
 
 ```sql
-SELECT function_name(column_1_name) OVER(
-    ORDER BY column_2_name
-  )
-FROM table_name;
+SELECT
+  employee,
+  region,
+  revenue,
+  RANK() OVER (PARTITION BY region ORDER BY revenue DESC) AS region_rank
+FROM sales;
 ```
 
-## Example
+### Aggregate Window Functions
 
-A common use case for window functions is to create a running total.
+- `SUM()`: Calculates the total over the defined window.
+- `AVG()`: Returns the average value within the window.
+- `COUNT()`: Counts rows in the window frame.
+- `MIN()`: Finds the smallest value in the window.
+- `MAX()`: Finds the largest value in the window.
 
-For example, suppose there's a `monthly_sales` table with the following values:
+Here is an example that calculates the running total of sales by date:
+
+```sql
+SELECT
+  order_date,
+  SUM(amount) OVER (ORDER BY order_date) AS running_total
+FROM orders;
+```
+
+### Value Window Functions
+
+- `LAG()`: Looks at the previous row.
+- `LEAD()`: Looks at the next row.
+- `FIRST_VALUE()` / `LAST_VALUE()`: Finds the first/last value in a frame.
+
+Here is an example that compares each month’s sales to the previous month:
+
+```sql
+SELECT
+  month,
+  sales,
+  LAG(sales) OVER (ORDER BY month) AS prev_month_sales,
+  sales - LAG(sales) OVER (ORDER BY month) AS growth
+FROM monthly_sales;
+```
+
+## Example 1: Calculating Running Total Using SQL Window Functions
+
+Suppose there's a table named `monthly_sales`:
 
 | quarter | month | sales |
 | ------- | ----- | ----- |
@@ -53,19 +115,19 @@ For example, suppose there's a `monthly_sales` table with the following values:
 | 4       | 11    | 1000  |
 | 4       | 12    | 1250  |
 
-To find the cumulative sales up to each month, the given query can be used:
+Here is a query that calculates the running total of sales by each month:
 
 ```sql
 SELECT quarter,
   month,
   sales,
-  SUM(sales) OVER(
+  SUM(sales) OVER (
     ORDER BY month
   ) AS 'running_total'
 FROM monthly_sales;
 ```
 
-This will give the following output:
+The output will be:
 
 | quarter | month | sales | running_total |
 | ------- | ----- | ----- | ------------- |
@@ -82,23 +144,23 @@ This will give the following output:
 | 4       | 11    | 1000  | 7250          |
 | 4       | 12    | 1250  | 8500          |
 
-## Partitions
+## Example 2: Partitioning SQL Window Functions
 
-Window functions can be partitioned to create bunches of rows that apply the function to each bunch. This is done using the `PARTITION BY` keyword within the `OVER` clause.
+Window functions in SQL can be partitioned to create bunches of rows that apply the function to each bunch. This is done using the `PARTITION BY` keyword within the `OVER` clause.
 
-To find the average sales per quarter of the previous example, the given query can be used:
+To find the average sales per quarter for the `monthly_sales` table, this query can be used:
 
 ```sql
 SELECT quarter,
   month,
   sales,
-  AVG(sales) OVER(
+  AVG(sales) OVER (
     PARTITION BY quarter
   ) AS 'quarterly_average'
 FROM monthly_sales;
 ```
 
-This will give the following output:
+Here is the output:
 
 | quarter | month | sales | quarterly_average |
 | ------- | ----- | ----- | ----------------- |
@@ -114,3 +176,41 @@ This will give the following output:
 | 4       | 10    | 800   | 1016.66           |
 | 4       | 11    | 1000  | 1016.66           |
 | 4       | 12    | 1250  | 1016.66           |
+
+## Frequently Asked Questions
+
+### 1. What is a window function in SQL?
+
+Window functions in SQL include ranking functions (`ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `NTILE()`), aggregate functions (`SUM()`, `AVG()`, `COUNT()`, `MIN()`, `MAX()`), and value functions (`LAG()`, `LEAD()`, `FIRST_VALUE()`, `LAST_VALUE()`).
+
+### 2. What is the difference between aggregate functions and window functions in SQL?
+
+- Aggregate functions: They collapse multiple rows into a single result per group. For example:
+
+```sql
+SELECT department, AVG(salary) AS avg_salary
+FROM employees
+GROUP BY department;
+```
+
+Each department returns one row with its average salary.
+
+- Window functions: They compute values across related rows but keep every row in the output. For example:
+
+```sql
+SELECT employee, department,
+  AVG(salary) OVER (PARTITION BY department) AS avg_salary
+FROM employees;
+```
+
+Each employee’s row is preserved, along with the department’s average.
+
+### 3. Is `ROW_NUMBER` a window function in SQL?
+
+Yes. `ROW_NUMBER()` is a window function that assigns a unique sequential integer to rows within a result set. It requires an `OVER()` clause with an `ORDER BY` to define how the numbering is assigned. For example:
+
+```sql
+SELECT employee, department,
+  ROW_NUMBER() OVER (PARTITION BY department ORDER BY salary DESC) AS rank_in_dept
+FROM employees;
+```
