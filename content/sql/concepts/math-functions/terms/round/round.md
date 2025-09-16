@@ -5,11 +5,11 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'SQL'
+  - 'Functions'
   - 'MySQL'
   - 'PostgreSQL'
+  - 'SQL'
   - 'SQLite'
-  - 'Functions'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
@@ -21,7 +21,7 @@ The SQL math function **`ROUND()`** returns the number rounded to the specified 
 
 ## Syntax
 
-```sql
+```pseudo
 ROUND(number, decimals)
 ```
 
@@ -36,11 +36,19 @@ Returns the number rounded to the specified number of decimal places.
 
 ## Example 1
 
-In this example, the `ROUND()` function is used with a single argument.
+In this example, the `ROUND()` function is used with a single argument:
 
 ```sql
-SELECT ROUND(25.50); -- Result: 26
+SELECT ROUND(25.50);
 ```
+
+The output this code generates is:
+
+| ROUND(25.50) |
+| ------------ |
+| 26           |
+
+> **Note:** When no decimal places are provided, `ROUND()` returns the nearest integer.
 
 ## Example 2
 
@@ -57,7 +65,7 @@ The `ROUND()` function is used with the second optional argument `decimals`, set
 SELECT id, ROUND(total, 1) AS total_rounded FROM sales;
 ```
 
-In this SQL statement, the total values are rounded to get the total_rounded. The [AS](https://www.codecademy.com/resources/docs/sql/commands/as) keyword is used to name the resulting column total_rounded in the output.
+In this SQL statement, the total values are rounded to get the `total_rounded`. The [`AS`](https://www.codecademy.com/resources/docs/sql/commands/as) keyword is used to name the resulting column `total_rounded` in the output.
 
 The output will be:
 
