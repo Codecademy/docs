@@ -28,7 +28,7 @@ torch.lerp(input, end, weight, *, out=None)
 
 - `input`: The input tensor containing the initial points.
 - `end`: The ending tensor containing the finishing points.
-- `weight`: The shapes of input, end, and weight must be
+- `weight`: The shapes of input, end, and weight must be [broadcastable](https://www.codecademy.com/resources/docs/numpy/array-broadcasting).
 - `out` (optional): A tensor to store the output. If provided, the result is written to this tensor.
 
 **Return value:**
