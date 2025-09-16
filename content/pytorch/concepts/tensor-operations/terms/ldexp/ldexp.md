@@ -36,7 +36,7 @@ Returns a new tensor containing the result of the multiplication.
 
 ## Example
 
-In this example, we compute the multiplication between an input tensor and an other tensor using `torch.ldexp()`:
+This example computes the multiplication between an input tensor and another tensor using `torch.ldexp()`:
 
 ```py
 import torch
