@@ -1,19 +1,20 @@
 ---
-Title: 'collections.UserString'
+Title: 'UserString'
 Description: 'A wrapper class for string objects that makes subclassing easier.'
 Subjects:
   - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - 'Strings'
   - 'Data Types'
+  - 'Strings'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-A `UserString` is a class in the `collections` module. It is a custom wrapper for string objects, behaving like a string but allowing easier subclassing. Unlike directly subclassing [`str`](<(https://www.codecademy.com/resources/docs/python/dictionaries)>), `UserString` stores its content in the `.data` attribute.
+A **`UserString`** is a class in the `collections` module. It is a custom wrapper for string objects, behaving like a string but allowing easier subclassing. Unlike directly subclassing `str`, `UserString` stores its content in the `.data` attribute.
 
-**Note:** While `UserString` behaves like a string and supports the same operations, some methods return a regular `str` instead of another `UserString`.
+> **Note:** While `UserString` behaves like a string and supports the same operations, some methods return a regular `str` instead of another `UserString`.
 
 ## Syntax
 
@@ -21,7 +22,7 @@ A `UserString` is a class in the `collections` module. It is a custom wrapper fo
 myString = collections.UserString(seq)
 ```
 
-- `seq`: It can be anything that can be converted into a `str` or `iterable of characters`, like a list or tuple of individual characters.
+- `seq`: It can be anything that can be converted into a `str` or `iterable of characters`, like a [list](https://www.codecademy.com/resources/docs/python/lists) or [tuple](https://www.codecademy.com/resources/docs/python/tuples) of individual characters.
 
 Return value:
 
@@ -42,7 +43,7 @@ print(customString.data)
 This is the output of the above code:
 
 ```shell
-'First example of a UserString!'
+First example of a UserString!
 ```
 
 ## Codebyte Example
@@ -58,9 +59,9 @@ print(f"{customString.upper()}\n")
 print(f"Substring of the first word: {customString[0 : 7]}\n")
 
 class NoVowels(UserString):
-   def __init__(self, seq):
-      # Remove vowels from the string
-      super().__init__(''.join(ch for ch in seq if ch.lower() not in "aeiou"))
+  def __init__(self, seq):
+    # Remove vowels from the string
+    super().__init__(''.join(ch for ch in seq if ch.lower() not in "aeiou"))
 
 s = NoVowels("Hello World")
 print(f"Word without any vowels left: {s}")
