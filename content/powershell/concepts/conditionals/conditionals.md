@@ -200,7 +200,7 @@ if ($number -gt 5) {
 
 ### 2. Does PowerShell have else if?
 
-Yes, PowerShell supports elseif for multiple conditions.
+Yes, PowerShell supports `elseif` for multiple conditions.
 
 ```shell
 $score = 75
