@@ -55,7 +55,7 @@ The `else` clause always follows the `if` statement.
 - If the condition is `True`, the code in the `if` section is executed.
 - If the condition is `False`, the code in the `else` section is executed.
 
-Here is the syntax for else in PowerShell:
+Here is the syntax for `else` in PowerShell:
 
 ```pseudo
 if (<condition>) {
