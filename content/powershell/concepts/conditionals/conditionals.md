@@ -124,7 +124,6 @@ switch (<value>) {
   <pattern2> { <statements> }
   default    { <statements> }
 }
-
 ```
 
 ### Example for `switch` in Powershell
