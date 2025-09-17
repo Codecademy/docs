@@ -189,7 +189,7 @@ switch ($my_num) {
 
 ### 1. How to use if condition in PowerShell?
 
-In PowerShell, the if statement checks whether a condition is true before running a block of code. Here is how to implement it:
+In PowerShell, the `if` statement checks whether a condition is true before running a block of code. Here is how to implement it:
 
 ```shell
 $number = 10
