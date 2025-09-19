@@ -21,11 +21,11 @@ In Python, **defaultdict** is a data type that belongs to the [`collections`](ht
 collections.defaultdict(default_factory)
 ```
 
-- `default_factory`: It is a **callable** (e.g. int, list, set, str or a custom function) that gives the default value for the dictionary object.
+- `default_factory`: It is a **callable** that gives the default value for the dictionary object.
 
 ## Example
 
-The following example demonstrates the `defaultdict` data type:
+The following example demonstrates the `defaultdict` data type with a custom function as `default_factory`:
 
 ```py
 from collections import defaultdict
@@ -49,6 +49,55 @@ Here is the output for the above code:
 100
 90
 Not Declared
+```
+
+The next example demonstrates the use of other callables as `default_factory`:
+
+```py
+from collections import defaultdict
+
+intdd = defaultdict(int)
+listdd = defaultdict(list)
+strdd = defaultdict(str)
+setdd = defaultdict(set)
+
+print(intdd[0])
+print(listdd[0])
+print(strdd[0])
+print(setdd[0])
+```
+
+Here is the output of the above code:
+
+```shell
+0
+[]
+''
+set()
+```
+Moreover, the callable determines the methods that can be used when entering key-value pair into the `defaultdict`, here is an example with `list`:
+
+```py
+from collections import defaultdict
+
+listdd = defaultdict(list)
+
+listdd[0].append(1)
+# listdd[0] does not exist so it defaults to empty list [],
+# then 1 is appended to it
+
+listdd[1] = 2
+#the empty list [] is replaced by integer 2 here
+ 
+print(listdd[0])
+print(listdd[1])
+```
+
+Here is the output of the above code:
+
+```shell
+[1]
+2
 ```
 
 ## Codebyte Example
