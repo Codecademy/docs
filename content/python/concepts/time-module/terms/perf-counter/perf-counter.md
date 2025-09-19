@@ -1,17 +1,15 @@
 ---
 Title: '.perf_counter()'
-Description: ''
+Description: 'Returns a float value of the time at the point of function call. Commonly used to benchmark code, i.e. tracking the time taken to exceute a piece of code.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Web Development'
 Tags:
   - 'Methods'
-  - 'Constants'
+  - 'Time'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
 ---
 
 The **`perf_counter()`** function returns a float value of the time at the point of function call. Commonly used to benchmark code, i.e. tracking the time taken to exceute a piece of code.
