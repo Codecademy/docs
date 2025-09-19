@@ -21,7 +21,7 @@ In Python, **defaultdict** is a data type that belongs to the [`collections`](ht
 collections.defaultdict(default_factory)
 ```
 
-- `default_factory`: It is a **callable** that gives the default value for the dictionary object.
+- `default_factory`: It is a **callable** (an object that can be called, like a custom function) that gives the default value for the dictionary object.
 
 ## Example
 
@@ -84,10 +84,10 @@ myDefaultDict = defaultdict(list)
 
 myDefaultDict['apple'].append(1)
 # myDefaultDict['apple'] does not exist so it defaults to empty list [],
-# then 1 is appended to it
+# then 1 is appended to it.
 
 myDefaultDict['orange'] = 2
-#the empty list [] is replaced by integer 2 here
+#The empty list [] is replaced by integer 2 here.
  
 print(myDefaultDict['apple'])
 print(myDefaultDict['orange'])
