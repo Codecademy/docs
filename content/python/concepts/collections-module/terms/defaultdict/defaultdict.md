@@ -25,7 +25,7 @@ collections.defaultdict(default_factory)
 
 ## Example
 
-The following example demonstrates the `defaultdict` data type with a custom function as `default_factory`:
+The following example demonstrates the `defaultdict` data type with a custom function as `default_factory` argument:
 
 ```py
 from collections import defaultdict
@@ -51,20 +51,20 @@ Here is the output for the above code:
 Not Declared
 ```
 
-The next example demonstrates the use of other callables as `default_factory`:
+The next example demonstrates the use of other callables as the `default_factory` argument:
 
 ```py
 from collections import defaultdict
 
-intdd = defaultdict(int)
-listdd = defaultdict(list)
-strdd = defaultdict(str)
-setdd = defaultdict(set)
+intDefaultDict = defaultdict(int)
+listDefaultDict = defaultdict(list)
+strDefaultDict = defaultdict(str)
+setDefaultDict = defaultdict(set)
 
-print(intdd[0])
-print(listdd[0])
-print(strdd[0])
-print(setdd[0])
+print(intDefaultDict[0])
+print(listDefaultDict['zero'])
+print(strDefaultDict['0'])
+print(setDefaultDict['a'])
 ```
 
 Here is the output of the above code:
@@ -75,22 +75,22 @@ Here is the output of the above code:
 ''
 set()
 ```
-Moreover, the callable determines the methods that can be used when entering key-value pair into the `defaultdict`, here is an example with `list`:
+Moreover, the callable determines the methods that can be used when entering a key-value pair into the `defaultdict` data type, here is an example with `list`:
 
 ```py
 from collections import defaultdict
 
-listdd = defaultdict(list)
+myDefaultDict = defaultdict(list)
 
-listdd[0].append(1)
-# listdd[0] does not exist so it defaults to empty list [],
+myDefaultDict['apple'].append(1)
+# myDefaultDict['apple'] does not exist so it defaults to empty list [],
 # then 1 is appended to it
 
-listdd[1] = 2
+myDefaultDict['orange'] = 2
 #the empty list [] is replaced by integer 2 here
  
-print(listdd[0])
-print(listdd[1])
+print(myDefaultDict['apple'])
+print(myDefaultDict['orange'])
 ```
 
 Here is the output of the above code:
