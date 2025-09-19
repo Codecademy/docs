@@ -72,7 +72,7 @@ Here is the output of the above code:
 ```shell
 0
 []
-''
+
 set()
 ```
 Moreover, the callable determines the methods that can be used when entering a key-value pair into the `defaultdict` data type, here is an example with `list`:
