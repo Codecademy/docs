@@ -21,11 +21,11 @@ In Python, **defaultdict** is a data type that belongs to the [`collections`](ht
 collections.defaultdict(default_factory)
 ```
 
-- `default_factory`: It gives the default value for the dictionary object.
+- `default_factory`: It is a **callable** (an object that can be called, like a custom function) that gives the default value for the dictionary object.
 
 ## Example
 
-The following example demonstrates the `defaultdict` data type:
+The following example demonstrates the `defaultdict` data type with a custom function as `default_factory` argument:
 
 ```py
 from collections import defaultdict
@@ -49,6 +49,55 @@ Here is the output for the above code:
 100
 90
 Not Declared
+```
+
+The next example demonstrates the use of other callables as the `default_factory` argument:
+
+```py
+from collections import defaultdict
+
+intDefaultDict = defaultdict(int)
+listDefaultDict = defaultdict(list)
+strDefaultDict = defaultdict(str)
+setDefaultDict = defaultdict(set)
+
+print(intDefaultDict[0])
+print(listDefaultDict['zero'])
+print(strDefaultDict['0'])
+print(setDefaultDict['a'])
+```
+
+Here is the output of the above code:
+
+```shell
+0
+[]
+
+set()
+```
+Moreover, the callable determines the methods that can be used when entering a key-value pair into the `defaultdict` data type, here is an example with `list`:
+
+```py
+from collections import defaultdict
+
+myDefaultDict = defaultdict(list)
+
+myDefaultDict['apple'].append(1)
+# myDefaultDict['apple'] does not exist so it defaults to empty list [],
+# then 1 is appended to it.
+
+myDefaultDict['orange'] = 2
+#The empty list [] is replaced by integer 2 here.
+ 
+print(myDefaultDict['apple'])
+print(myDefaultDict['orange'])
+```
+
+Here is the output of the above code:
+
+```shell
+[1]
+2
 ```
 
 ## Codebyte Example
