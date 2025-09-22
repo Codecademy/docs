@@ -102,7 +102,7 @@ Mean along rows: tensor([1.5000, 3.5000])
 
 ## Frequently Asked Questions
 
-### 1. What does `torch.mean()` do?
+### 1. What is the mean function in PyTorch?
 
 `torch.mean()` computes the arithmetic mean (average) of a given tensor. By default, it calculates the mean of all elements in the tensor:
 
