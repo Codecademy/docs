@@ -1,6 +1,6 @@
 ---
 Title: '.lgamma()'
-Description: 'Computes the natural log of the absolute gamma function for each tensor element.'
+Description: 'Computes the natural log of the absolute gamma function for each element in a tensor.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,19 +14,22 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In PyTorch, the **`.lgamma()`** function returns the natural logarithm of the absolute value of the [gamma function](https://en.wikipedia.org/wiki/Gamma_function) for each element of an input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors).
+In PyTorch, the **`.lgamma()`** function returns the natural logarithm of the absolute value of the [gamma function](https://en.wikipedia.org/wiki/Gamma_function) for each element in an input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors).
 
 ## Syntax
 
 ```pseudo
 torch.lgamma(input, *, out=None) → Tensor
-input.lgamma() → Tensor
 ```
 
-- `input` (Tensor): Input tensor of real numbers.
+**Parameters:**
+
+- `input` (Tensor): Input tensor of floating point or complex numbers. Integer tensors are not supported.
 - `out` (Optional): Output tensor to write results to.
 
-Returns a tensor with element-wise results. Note that the gamma function has singularities at non-positive integers; the log of its absolute value reflects these behaviors.
+**Return value:**
+
+Returns a tensor of the same shape as the `input`, where each element is the log of the absolute gamma function of the corresponding input element.
 
 ## Example
 
@@ -45,7 +48,7 @@ print(y1)
 print(torch.allclose(y1, y2))
 ```
 
-Example output:
+Here's the output of this code:
 
 ```shell
 tensor([0.5724, 0.0000, 0.2847, 3.1781, 1.2655])
