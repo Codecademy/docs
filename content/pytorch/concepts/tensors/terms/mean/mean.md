@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`torch.mean()`** method in PyTorch computes the arithmetic mean (average) of a given tensor. It can calculate the mean of all elements or along a specified dimension in the tensor. This method is widely used in data preprocessing and analysis for summarizing data.
+The **`torch.mean()`** method in PyTorch computes the arithmetic mean (average) of a given [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It can calculate the mean of all elements or along a specified dimension in the tensor. This method is widely used in data preprocessing and analysis for summarizing data.
 
 ## `torch.mean()` Syntax
 
