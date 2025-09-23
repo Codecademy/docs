@@ -1,19 +1,19 @@
 ---
 Title: 'defaultdict'
-Description: 'Returns a dictionary-like object.'
+Description: 'Creates a dictionary-like object that provides default values for missing keys.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Modules'
-  - 'Dictionaries'
   - 'Data Types'
+  - 'Dictionaries'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-In Python, **defaultdict** is a data type that belongs to the [`collections`](https://www.codecademy.com/resources/docs/python/collections-module) module. It is a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that is used to return a dictionary-like object.
+In Python, **defaultdict** is a data type that belongs to the [`collections`](https://www.codecademy.com/resources/docs/python/collections-module) module. It is a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that automatically provides a default value for missing keys.
 
 ## Syntax
 
@@ -21,9 +21,15 @@ In Python, **defaultdict** is a data type that belongs to the [`collections`](ht
 collections.defaultdict(default_factory)
 ```
 
-- `default_factory`: It is a **callable** (an object that can be called, like a custom function) that gives the default value for the dictionary object.
+**Parameters:**
 
-## Example
+- `default_factory`: A callable (such as a function or type like `int`, `list`, `set`) that provides the default value for missing keys. If set to `None`, a `KeyError` is raised when accessing a missing key.
+
+**Return value:**
+
+Returns a `defaultdict` object, which behaves like a dictionary but creates default values for missing keys using the specified `default_factory`.
+
+## Example 1: Using a Custom Function
 
 The following example demonstrates the `defaultdict` data type with a custom function as `default_factory` argument:
 
@@ -51,7 +57,9 @@ Here is the output for the above code:
 Not Declared
 ```
 
-The next example demonstrates the use of other callables as the `default_factory` argument:
+Example 2: Using Built-in Callables
+
+This example demonstrates `defaultdict` with built-in types (`int`, `list`, `str`, `set`) as the `default_factory`:
 
 ```py
 from collections import defaultdict
@@ -75,7 +83,10 @@ Here is the output of the above code:
 
 set()
 ```
-Moreover, the callable determines the methods that can be used when entering a key-value pair into the `defaultdict` data type, here is an example with `list`:
+
+Example 3: Working with Lists
+
+This example shows how `list` as `default_factory` allows appending to keys that don’t yet exist:
 
 ```py
 from collections import defaultdict
@@ -88,7 +99,7 @@ myDefaultDict['apple'].append(1)
 
 myDefaultDict['orange'] = 2
 #The empty list [] is replaced by integer 2 here.
- 
+
 print(myDefaultDict['apple'])
 print(myDefaultDict['orange'])
 ```
