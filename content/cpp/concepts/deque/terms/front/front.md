@@ -1,5 +1,4 @@
 
-```
 ---
 Title: '.front()'
 Description: 'Accesses the first element in the deque.'
@@ -15,6 +14,7 @@ CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
+
 
 In C++, the **`.front()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) returns a reference to the first element in the deque.
 
@@ -33,10 +33,10 @@ deque_name.front()
 
 The example below demonstrates use of `.front()` to access the first element in a deque:
 
-```
+```cpp
 
-\#include <iostream>
-\#include <deque>
+#include <iostream>
+#include <deque>
 
 int main() {
 // Create a deque of integers
@@ -67,7 +67,7 @@ return 0;
 
 The output of this program will be:
 
-```
+```shell
 
 First element: 100
 Updated deque: 50 200 300
@@ -80,11 +80,11 @@ This shows that `.front()` allows both access and modification of the deque’s 
 
 Run the following codebyte example to understand the use of `.front()` method:
 
-```
+```cpp
 
-\#include <iostream>
-\#include <deque>
-\#include <string>
+#include <iostream>
+#include <deque>
+#include <string>
 
 int main() {
 std::deque[std::string](std::string) myDeque;
@@ -113,14 +113,15 @@ std::cout << str << " ";
 
 **Expected output:**
 
-```
+
+```shell
 
 Front element before change: Hello
 Front element after change: Hi
 Complete deque: Hi World !
 
 ```
-```
+
 
 
 
