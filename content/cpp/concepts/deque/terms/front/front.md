@@ -1,4 +1,3 @@
-
 ---
 Title: '.front()'
 Description: 'Accesses the first element in the deque.'
