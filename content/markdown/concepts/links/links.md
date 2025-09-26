@@ -167,7 +167,7 @@ Visit our [Python course](https://www.codecademy.com/learn/learn-python-3 'Learn
 
 URLs can be automatically converted to clickable links by enclosing them in angle brackets, useful for displaying the full URL as the link text.
 
-```markdown
+```md
 // Automatic linking with angle brackets
 <https://www.codecademy.com>
 <contact@codecademy.com>
