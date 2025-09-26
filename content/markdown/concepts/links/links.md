@@ -89,7 +89,7 @@ Always use descriptive, meaningful text that clearly indicates the link destinat
 
 **Good examples:**
 
-```markdown
+```md
 Read the [Python style guide](https://pep8.org) for coding standards.
 Download the [latest software release](https://github.com/project/releases/latest).
 ```
