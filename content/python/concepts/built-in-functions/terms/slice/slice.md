@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`slice()`** function creates a slice object that specifies how to slice sequences like [strings](https://www.codecademy.com/resources/docs/python/strings), [lists](https://www.codecademy.com/resources/docs/python/lists), [tuples](https://www.codecademy.com/resources/docs/python/tuples), and [ranges](https://www.codecademy.com/resources/docs/python/built-in-functions/range). It provides a way to extract specific portions of sequences by defining the start, stop, and step parameters, offering more control and readability compared to traditional bracket notation slicing.
 
-## Slice Python Syntax
+## `slice()` Python Syntax
 
 ```pseudo
 slice(stop)
