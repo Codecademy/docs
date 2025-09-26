@@ -55,7 +55,7 @@ The link text "Codecademy documentation" becomes clickable and directs users to 
 
 Adding descriptive titles to links improves accessibility and provides additional context for users:
 
-```markdown
+```md
 // Create a link with a descriptive title for better accessibility
 Visit our [Python tutorial](https://www.codecademy.com/learn/learn-python-3 'Learn Python programming fundamentals') to start coding today.
 
