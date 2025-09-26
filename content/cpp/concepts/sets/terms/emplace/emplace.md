@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`emplace()`** method is a member function of the C++ `std::set` container that constructs and inserts a new element directly into the set. Unlike traditional insertion methods, `emplace()` constructs the element in-place using the provided arguments, avoiding unnecessary copy or move operations and improving performance by eliminating temporary object creation.
 
-## Syntax
+## Syntax of C++ `emplace()`
 
 ```pseudo
 std::pair<iterator, bool> emplace(Args&&... args);
