@@ -189,7 +189,7 @@ Contact our [support team](mailto:support@codecademy.com 'Get help with your acc
 
 Links can point to various file types including images, documents, and downloadable resources.
 
-```markdown
+```md
 // Link to downloadable files
 Download the [course syllabus](https://example.com/files/syllabus.pdf 'PDF document')
 View the [project diagram](https://example.com/images/architecture.png 'System architecture overview')
