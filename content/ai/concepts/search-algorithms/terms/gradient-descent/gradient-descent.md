@@ -2,20 +2,31 @@
 Title: 'Gradient Descent'
 Description: 'Gradient descent is an optimization search algorithm that is widely used in machine learning to train neural networks and other models.'
 Subjects:
+  - 'AI'
   - 'Data Science'
-  - 'AI'
 Tags:
-  - 'Search'
-  - 'Algorithms'
   - 'AI'
+  - 'Algorithms'
+  - 'Search'
+  - 'Search Algorithms'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/machine-learning-ai-engineering-foundations'
 ---
 
-**Gradient descent** is an optimization search [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) that is widely used in [machine learning](https://www.codecademy.com/resources/docs/ai/machine-learning) to train neural networks and other models. It is a fundamental optimization algorithm that is used in many fields of [artificial intelligence](https://www.codecademy.com/resources/docs/ai), such as natural language processing, computer vision, and robotics.
+**Gradient descent** is an optimization search [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) that is widely used in [machine learning](https://www.codecademy.com/resources/docs/ai/machine-learning) to train neural networks and other models. It is a fundamental optimization algorithm that is used in many fields of artificial intelligence (AI), such as natural language processing, computer vision, and robotics.
 
-## How Does Gradient Descent Work?
+## Types of Gradient Descent
+
+- **Batch Gradient Descent**: Uses the entire dataset to compute the gradient in each iteration. Accurate but computationally expensive for large datasets.
+- **Stochastic Gradient Descent (SGD)**: Updates parameters using only one training example at a time. Faster but introduces noise in the updates, which can sometimes help escape local minima.
+- **Mini-Batch Gradient Descent**: Acts as a compromise between batch and stochastic methods. Uses small random subsets of the dataset, combining the stability of batch with the speed of SGD.
+- **Momentum**: Accelerates gradient descent by adding a fraction of the earlier update to the current update, helping to smooth out oscillations.
+- **AdaGrad**: Adapts the learning rate for every parameter individually, performing larger updates for infrequent parameters and smaller updates for frequent ones.
+- **RMSProp**: Modifies AdaGrad to include a moving average of squared gradients, preventing the learning rate from shrinking too much.
+- **Adam**: Combines Momentum and RMSProp to provide an adaptive learning rate with momentum, often leading to faster and more stable convergence.
+
+## How Gradient Descent Works
 
 Gradient descent works by minimizing the cost (or loss) function of a model. Cost functions measure the performance of machine learning models by quantifying the difference between the predicted and actual outputs. A low cost function indicates that a model is performing well on the training data because its predicted output values are close to the actual output values.
 
@@ -29,18 +40,37 @@ In each iteration of the algorithm, the following steps are performed:
 
 These steps are repeated iteratively until a stopping criterion is met, such as reaching a maximum number of iterations or achieving a desired level of convergence. The number of iterations and the convergence criterion are typically set by the data scientist/engineer implementing the gradient descent algorithm.
 
-## Gradient Descent and Machine Learning
+## Advantages of Gradient Descent
 
-Gradient descent is a fundamental optimization algorithm widely used in machine learning. An advantage of gradient descent is its ability to handle models with a large number of parameters, making it suitable for complex machine learning tasks. It is especially valuable when dealing with non-linear data, where patterns and relationships are not easily captured by simple linear models.
+- **Simplicity**: Easy to understand and implement.
+- **Versatility**: Applicable to a wide range of models and loss functions.
+- **Scalability**: Works with large datasets, especially with mini-batch versions.
+- **Foundation for Advanced Algorithms**: Forms the basis for most modern neural network optimization techniques.
 
-Gradient descent is a simple, efficient, and flexible algorithm that can be scaled to multiple different machine learning tasks and datasets with large amounts of data. By leveraging computed gradients, the algorithm guides iterative parameter adjustments, which leads to enhanced model performance over time.
+## Disadvantages of Gradient Descent
 
-Additionally, there are different variations of gradient descent which can be customized for specific tasks. For example, mini-batch gradient descent and stochastic gradient descent are specialized versions that offer efficiency advantages in different scenarios.
+- **Sensitive to Learning Rate**: Too high can overshoot the minimum, too low can make convergence extremely slow.
+- **Can Get Stuck in Local Minima**: Particularly for non-convex functions like deep neural networks.
+- **Computationally Intensive**: Full-batch methods require processing the entire dataset for each iteration.
+- **Requires Differentiable Functions**: Cannot be used for functions that are not continuous or differentiable.
 
-## Gradient Descent Challenges
+## Applications of Gradiet Descent
 
-Although gradient descent is commonly used in machine learning, there are also some challenges, such as:
+- **Training Neural Networks**: Used to optimize weights and biases to minimize the loss function.
+- **Linear and Logistic Regression**: Optimizes model parameters to fit the data.
+- **Recommendation Systems**: Helps optimize prediction models for user-item interactions.
+- **Natural Language Processing**: Used in training word embeddings and deep learning models.
 
-- Learning rate selection: The learning rate selected can significantly impact the algorithm’s performance, and choosing an appropriate learning rate is crucial. If the learning rate is too low, the algorithm will be slow, but if the learning rate is too high, the algorithm may overshoot the minimum.
-- Overfitting: The algorithm can overfit the training data, which leads to poor performance on new data. This is more likely to happen if the learning rate selected is too high or if the model is too complex.
-- Convergence to local minima: Converging to a local minimum can be problematic if the cost function has many local minima. In these cases, the algorithm should search for a global minimum.
+## Frequently Asked Questions
+
+### 1. Why is gradient descent called so?
+
+Gradient descent is called so because it involves moving down the slope of the gradient of a function to reach the minimum. The gradient points to the direction of the steepest ascent, so moving in the opposite direction helps find the lowest point of the function.
+
+### 2. Why do we use gradient descent instead of the derivative?
+
+While derivatives give the slope of a function, gradient descent uses that information iteratively to find the minimum of complex functions where solving the derivative analytically may be difficult or impossible. It is especially useful for high-dimensional problems like neural networks, where closed-form solutions are impractical.
+
+### 3. Is Newton's method better than gradient descent?
+
+Newton's method can converge faster because it uses second-order derivative (Hessian) information, providing a more precise step toward the minimum. However, it is computationally expensive for high-dimensional problems and requires the Hessian to be invertible. Gradient descent is simpler, more memory-efficient, and scales better to large datasets, which is why it is more commonly used in machine learning.
