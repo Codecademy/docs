@@ -140,7 +140,7 @@ Jump to [Frequently Asked Questions](#frequently-asked-questions) for common iss
 
 Include optional title attributes to provide additional context for screen readers and users navigating with assistive technologies. Titles appear as tooltips when hovering over links.
 
-```markdown
+```md
 // Adding titles improves accessibility
 Visit our [documentation hub](https://docs.codecademy.com 'Comprehensive guides and tutorials') for detailed information.
 ```
