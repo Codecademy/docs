@@ -105,7 +105,7 @@ Click [here](https://pep8.org) for more information.
 
 When URLs contain parentheses or special characters, encode them properly to prevent parsing issues. Replace opening parentheses with `%28` and closing parentheses with `%29`.
 
-```markdown
+```md
 // Correct way to handle URLs with parentheses
 Learn about [Markdown syntax](https://en.wikipedia.org/wiki/Markdown_%28markup_language%29).
 
