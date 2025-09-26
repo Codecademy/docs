@@ -38,7 +38,7 @@ Links render as HTML `<a>` elements with the specified text and destination, cre
 
 Creating a hyperlink to an external website demonstrates the fundamental link syntax in Markdown:
 
-```markdown
+```md
 // Create a basic link to a website
 Check out the [Codecademy documentation](https://www.codecademy.com/resources/docs) for more resources.
 ```
