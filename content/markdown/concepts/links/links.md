@@ -117,7 +117,7 @@ Learn about [Markdown syntax](https://en.wikipedia.org/wiki/Markdown_%28markup_l
 
 Reference-style links improve document maintainability by separating link definitions from their usage. This approach works best when the same URL appears multiple times or when dealing with very long URLs.
 
-```markdown
+```md
 // Reference-style links keep the text readable
 Check out our [beginner course][python-course] and [advanced topics][python-advanced].
 
