@@ -199,7 +199,7 @@ View the [project diagram](https://example.com/images/architecture.png 'System a
 
 For very long URLs, maintain readability by breaking reference definitions across multiple lines while keeping the link usage clean.
 
-```markdown
+```md
 // Clean link usage
 Read our comprehensive [style guide][style-guide] for best practices.
 
