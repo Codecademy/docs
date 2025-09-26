@@ -151,7 +151,7 @@ Visit our [documentation hub](https://docs.codecademy.com 'Comprehensive guides 
 
 The standard inline format places the URL directly after the link text, making it immediately visible in the source document.
 
-```markdown
+```md
 // Basic inline link structure
 [Link Text](URL)
 
