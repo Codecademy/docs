@@ -96,7 +96,7 @@ Download the [latest software release](https://github.com/project/releases/lates
 
 **Avoid:**
 
-```markdown
+```md
 Click [here](https://pep8.org) for more information.
 [Read more](https://github.com/project/releases/latest) about this topic.
 ```
