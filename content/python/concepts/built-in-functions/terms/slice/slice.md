@@ -114,7 +114,7 @@ print("All activities in reverse order:")
 print(user_activities[reverse_slice])
 ```
 
-Using negative indices allows you to access elements relative to the end of the sequence, which is especially useful when the sequence length varies.
+Using negative indices allows access to elements relative to the end of the sequence, which is especially useful when the sequence length varies.
 
 ## Frequently Asked Questions
 
