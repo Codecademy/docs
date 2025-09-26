@@ -130,7 +130,7 @@ Check out our [beginner course][python-course] and [advanced topics][python-adva
 
 Create internal links to navigate within the same document using the `#` symbol followed by the section heading. Convert headings to lowercase and replace spaces with hyphens.
 
-```markdown
+```md
 // Link to sections within the same document
 See the [Syntax](#syntax) section above for basic formatting rules.
 Jump to [Frequently Asked Questions](#frequently-asked-questions) for common issues.
