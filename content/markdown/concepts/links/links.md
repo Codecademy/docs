@@ -179,7 +179,7 @@ URLs can be automatically converted to clickable links by enclosing them in angl
 
 Email addresses follow the same pattern as URL links, creating `mailto:` links automatically when enclosed in angle brackets.
 
-```markdown
+```md
 // Email linking formats
 Send questions to <support@codecademy.com>
 Contact our [support team](mailto:support@codecademy.com 'Get help with your account')
