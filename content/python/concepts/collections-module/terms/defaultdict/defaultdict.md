@@ -5,68 +5,115 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Modules'
-  - 'Dictionaries'
   - 'Data Types'
+  - 'Dictionaries'
+  - 'Modules'
+  - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-In Python, **defaultdict** is a data type that belongs to the [`collections`](https://www.codecademy.com/resources/docs/python/collections-module) module. It is a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that is used to return a dictionary-like object.
+Python **`defaultdict`** is a [data type](https://www.codecademy.com/resources/docs/python/data-types) that belongs to the `collections` [module](https://www.codecademy.com/resources/docs/python/modules). It is a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that is used to return a dictionary-like object.
 
-## Syntax
+## Python `defaultdict` Syntax
 
 ```pseudo
-collections.defaultdict(default_factory)
+from collections import defaultdict
+
+defaultdict(default_factory)
 ```
 
-- `default_factory`: It gives the default value for the dictionary object.
+**Parameters:**
 
-## Example
+- `default_factory`: A [function](https://www.codecademy.com/resources/docs/python/functions) that provides the default value for nonexistent keys. Commonly used with int, list, set, or even custom functions. Examples include:
+  - `int()`: Default value is `0`.
+  - `list()`:Default value is `[]`.
+  - `set()`: Default value is `set()`.
 
-The following example demonstrates the `defaultdict` data type:
+**Return value:**
+
+Returns a `defaultdict` object. If a key does not exist, accessing it will automatically create it with the value returned by `default_factory`.
+
+## Example 1: Counting Items Using Python `defaultdict`
+
+This example uses Python `defaultdict` to count the frequency of elements in a list:
 
 ```py
 from collections import defaultdict
 
-def default_value():
-  return "Not Declared"
+fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
 
-myDefaultDict = defaultdict(default_value)
+fruit_count = defaultdict(int)
 
-myDefaultDict["first"] = 100
-myDefaultDict["second"] = 90
+for fruit in fruits:
+  fruit_count[fruit] += 1
 
-print(myDefaultDict["first"])
-print(myDefaultDict["second"])
-print(myDefaultDict["third"])
+print(fruit_count)
 ```
 
-Here is the output for the above code:
+Here is the output:
 
 ```shell
-100
-90
-Not Declared
+defaultdict(<class 'int'>, {'apple': 3, 'banana': 2, 'orange': 1})
 ```
 
-## Codebyte Example
+## Example 2: Grouping Items Using Python `defaultdict`
 
-Run the following codeblock and explore more about the `defaultdict` data type:
+Python `defaultdict` can group items easily without checking if the key exists:
+
+```py
+from collections import defaultdict
+
+names = [('Alice', 'Math'), ('Bob', 'Science'), ('Alice', 'English')]
+
+grouped = defaultdict(list)
+
+for name, subject in names:
+  grouped[name].append(subject)
+
+print(grouped)
+```
+
+Here is the output:
+
+```shell
+defaultdict(<class 'list'>, {'Alice': ['Math', 'English'], 'Bob': ['Science']})
+```
+
+## Codebyte Example: Using Custom Default Values in Python `defaultdict`
+
+This codebyte example provides a custom default value to Python `defaultdict`:
 
 ```codebyte/python
 from collections import defaultdict
 
-def def_val():
-  return "Unknown"
+def default_age():
+  return 18
 
-newDefaultDict = defaultdict(def_val)
+ages = defaultdict(default_age)
 
-newDefaultDict["john"] = 25
-newDefaultDict["snow"] = 40
+ages['John'] = 25
+ages['Doe']  # Key doesn’t exist, uses default 18
 
-print(newDefaultDict["john"])
-print(newDefaultDict["snow"])
-print(newDefaultDict["smith"])
+print(ages)
 ```
+
+## Frequently Asked Questions
+
+### 1. What does `defaultdict` do in Python?
+
+Python `defaultdict` automatically assigns a default value to keys that do not exist, preventing KeyError and reducing the need for explicit key checks.
+
+### 2. Is `defaultdict` faster than `dict` in Python?
+
+In Python, `defaultdict` can be faster than `dict` in scenarios where missing keys are frequently accessed or initialized, as it avoids repeated conditional checks.
+
+### 3. When should you use `defaultdict` in Python?
+
+You should use `defaultdict` in Python when:
+
+- Counting items in a list or sequence
+- Grouping data by keys
+- Avoiding explicit checks for key existence
+- Automatically initializing nested dictionaries or lists
