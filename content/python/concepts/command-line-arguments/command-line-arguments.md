@@ -155,7 +155,7 @@ The `argparse` module automatically provides help documentation when using `-h` 
 
 ## Frequently Asked Questions
 
-### 1. What are command line arguments in Python?
+### 1. What are command-line arguments in Python?
 
 Command line arguments in Python are values passed to a script when executing it from the terminal. They provide a way to customize program behavior without modifying the source code, making scripts more flexible and reusable.
 
@@ -163,7 +163,7 @@ Command line arguments in Python are values passed to a script when executing it
 
 There isn't a fixed set of "5 arguments" in Python. The number and type of command line arguments depend on what the program is designed to accept. However, common argument types include: positional arguments (required values), optional arguments (flags with values), boolean flags (on/off switches), help arguments, and version arguments.
 
-### 3. How to pass an argument to a Python script from command line?
+### 3. How to pass an argument to a Python script from the command-line?
 
 To pass arguments to a Python script, include them after the script name when running it:
 
@@ -171,7 +171,7 @@ To pass arguments to a Python script, include them after the script name when ru
 - `python script.py --option value` - passes an option with a value
 - `python script.py -f --verbose` - passes flags and options
 
-### 4. What is an example of a command line argument?
+### 4. What is an example of a command-line argument?
 
 A simple example is running `python calculator.py 10 5 add`, where:
 
