@@ -18,7 +18,7 @@ In artificial intelligence (AI), **simulated annealing** is an optimization [alg
 
 As the algorithm runs, it employs a permissive evaluation process that will accept worse solutions in order to complete a comprehensive search of the solution space. And as the space is explored the algorithm slowly decreases the probability that worse solutions will be accepted. Each solution has a different score and the goal of the algorithm is to find the best score over the course of the search.
 
-## Types of Simulated Annealing
+## Variants of Simulated Annealing
 
 - **Classic/Standard Simulated Annealing**: The traditional method where the temperature is gradually reduced according to a predefined schedule, and solution acceptance is probabilistic based on the Boltzmann distribution.
 - **Fast Simulated Annealing**: Uses a faster cooling schedule to reduce computation time, potentially at the cost of slightly lower solution quality.
@@ -59,14 +59,14 @@ The algorithm can be broken down into these steps:
 
 ## Frequently Asked Questions
 
-### 1. Why is it called simulated annealing?
-
-It is called simulated annealing because the algorithm mimics the physical process of annealing in metallurgy, in which a material is heated and then slowly cooled to achieve a stable, low-energy structure. Similarly, the algorithm uses controlled randomness to explore solutions and gradually reduces temperature to settle into an optimal or near-optimal solution.
-
-### 2. What are the advantages of simulated annealing in AI?
+### 1. What are the advantages of simulated annealing in AI?
 
 Simulated annealing can escape local optima, making it more likely to find near-global solutions. It is simple to implement, flexible across different problem types (discrete, continuous, combinatorial), and its stochastic nature allows wide exploration of the solution space.
 
-### 3. Does simulated annealing improve accuracy?
+### 2. What is the annealing algorithm in AI?
 
-Simulated annealing can improve the quality of solutions compared to greedy or purely deterministic methods because it avoids getting trapped in local minima. However, it does not guarantee perfect accuracy or a global optimum, and results may vary depending on parameter tuning and problem complexity.
+The annealing algorithm in AI is an optimization method inspired by the physical process of annealing in metallurgy. It starts with a high "temperature" that allows exploration of many possible solutions, even worse ones, and gradually lowers the temperature to reduce randomness. This helps the algorithm settle into a near-optimal solution.
+
+### 3. What is an example of annealing?
+
+A classic example is the **Traveling Salesman Problem (TSP)**. Simulated annealing can be used to find a near-optimal route for visiting all cities with minimal travel distance. By occasionally accepting longer routes early in the search, it avoids getting trapped in poor local routes and can discover better overall paths.
