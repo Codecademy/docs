@@ -16,7 +16,7 @@ CatalogContent:
 
 **Gradient descent** is an optimization search [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) that is widely used in [machine learning](https://www.codecademy.com/resources/docs/ai/machine-learning) to train neural networks and other models. It is a fundamental optimization algorithm that is used in many fields of artificial intelligence (AI), such as natural language processing, computer vision, and robotics.
 
-## Types of Gradient Descent
+## Variants of Gradient Descent
 
 - **Batch Gradient Descent**: Uses the entire dataset to compute the gradient in each iteration. Accurate but computationally expensive for large datasets.
 - **Stochastic Gradient Descent (SGD)**: Updates parameters using only one training example at a time. Faster but introduces noise in the updates, which can sometimes help escape local minima.
@@ -54,7 +54,7 @@ These steps are repeated iteratively until a stopping criterion is met, such as 
 - **Computationally Intensive**: Full-batch methods require processing the entire dataset for each iteration.
 - **Requires Differentiable Functions**: Cannot be used for functions that are not continuous or differentiable.
 
-## Applications of Gradiet Descent
+## Applications of Gradient Descent
 
 - **Training Neural Networks**: Used to optimize weights and biases to minimize the loss function.
 - **Linear and Logistic Regression**: Optimizes model parameters to fit the data.
