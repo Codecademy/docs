@@ -111,5 +111,5 @@ In Python, `defaultdict` can be faster than `dict` in scenarios where missing ke
 
 ### 3. What is the difference between `get()` and `defaultdict` in Python?
 
-- `dict.get(key, default)`: Returns the value for `key` if it exists; otherwise, returns the specified `default` without modifying the dictionary.  
+- `dict.get(key, default)`: Returns the value for `key` if it exists; otherwise, returns the specified `default` without modifying the dictionary.
 - `defaultdict`: Automatically inserts the key with a default value (from `default_factory`) into the dictionary when accessed.
