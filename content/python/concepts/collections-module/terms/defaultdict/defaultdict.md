@@ -109,11 +109,7 @@ Python `defaultdict` automatically assigns a default value to keys that do not e
 
 In Python, `defaultdict` can be faster than `dict` in scenarios where missing keys are frequently accessed or initialized, as it avoids repeated conditional checks.
 
-### 3. When should you use `defaultdict` in Python?
+### 3. What is the difference between `get()` and `defaultdict` in Python?
 
-You should use `defaultdict` in Python when:
-
-- Counting items in a list or sequence
-- Grouping data by keys
-- Avoiding explicit checks for key existence
-- Automatically initializing nested dictionaries or lists
+- `dict.get(key, default)`: Returns the value for `key` if it exists; otherwise, returns the specified `default` without modifying the dictionary.  
+- `defaultdict`: Automatically inserts the key with a default value (from `default_factory`) into the dictionary when accessed.
