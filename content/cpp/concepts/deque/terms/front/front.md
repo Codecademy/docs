@@ -41,28 +41,28 @@ The example below demonstrates use of `.front()` to access the first element in 
 #include <deque>
 
 int main() {
-// Create a deque of integers
-std::deque<int> numbers;
+  // Create a deque of integers
+  std::deque<int> numbers;
 
-// Add some elements to the deque
-numbers.push_back(100);
-numbers.push_back(200);
-numbers.push_back(300);
+  // Add some elements to the deque
+  numbers.push_back(100);
+  numbers.push_back(200);
+  numbers.push_back(300);
 
-// Access the first element using .front()
-std::cout << "First element: " << numbers.front() << std::endl;
+  // Access the first element using .front()
+  std::cout << "First element: " << numbers.front() << std::endl;
 
-// Modify the first element
-numbers.front() = 50;
+  // Modify the first element
+  numbers.front() = 50;
 
-// Display updated deque contents
-std::cout << "Updated deque: ";
-for (int num : numbers) {
-std::cout << num << " ";
-}
-std::cout << std::endl;
+  // Display updated deque contents
+  std::cout << "Updated deque: ";
+  for (int num : numbers) {
+    std::cout << num << " ";
+  }
+  std::cout << std::endl;
 
-return 0;
+  return 0;
 }
 ```
 
