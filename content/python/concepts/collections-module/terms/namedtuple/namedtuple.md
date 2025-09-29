@@ -35,7 +35,7 @@ A new tuple subclass with named fields that can be accessed via dot notation.
 
 ## Example 1: Python `namedtuple` Basic Example
 
-This example demonstrates how to create a Python `namedtuple`, access its elements, and perform basic operations with named tuples Python:
+This example demonstrates how to create a Python `namedtuple`, access its elements, and perform basic operations in Python:
 
 ```py
 from collections import namedtuple
