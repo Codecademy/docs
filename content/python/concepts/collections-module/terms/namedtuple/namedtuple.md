@@ -179,7 +179,7 @@ Modified product: Product(name='Phone', price=549.99, category='Electronics')
 
 ## Frequently Asked Questions
 
-### 1. What is a `namedtupl`e in Python?
+### 1. What is a `namedtuple` in Python?
 
 A `namedtuple` is a factory function in the `collections` module that creates tuple subclasses with named fields. It combines the immutability and memory efficiency of tuples with the readability of accessing elements by name rather than index.
 
