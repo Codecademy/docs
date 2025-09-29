@@ -1,6 +1,6 @@
 ---
-Title: '.perf_counter()'
-Description: 'Returns a float value of the time at the point of function call. Commonly used to benchmark code, i.e. tracking the time taken to exceute a piece of code.'
+Title: 'perf_counter()'
+Description: 'Returns a high-resolution timer value, useful for measuring short durations, including time elapsed during sleep.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,23 +12,36 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`perf_counter()`** function returns a float value of the time at the point of function call. Commonly used to benchmark code, i.e. tracking the time taken to exceute a piece of code.
+The **`perf_counter()`** function returns a floating-point number representing a high-resolution timer value (in seconds) at the moment of the call, and is commonly used to benchmark code by measuring the time taken to execute a piece of code.
 
 ## Syntax
 
 ```pseudo
-perf_counter()
+time.perf_counter()
 ```
+
+**Parameters:**
 
 The function takes no arguments.
 
+**Return value:**
+
+Returns a float representing the current value of a high-resolution performance counter in seconds.
+
 ## Example 1
+
+This example shows how to call `perf_counter()` to get the current high-resolution timer value:
 
 ```py
 import time
 
 print(time.perf_counter())
-# Output: 1780186.805273347
+```
+
+A possible output of this code is:
+
+```shell
+5003.666789873
 ```
 
 Importing `perf_counter()` from `time`:
@@ -37,12 +50,17 @@ Importing `perf_counter()` from `time`:
 from time import perf_counter
 
 print(perf_counter())
-# Output: 1780743.368374651
 ```
 
-## Example 2: Using `perf_counter()` Like a Stopwatch
+A possible outcome of this code is:
 
-Here, two `perf_counter()` calls are placed around [`sleep()`](https://www.codecademy.com/resources/docs/python/time-module/sleep) which adds a 5-second delay in the execution right after the first method call.
+```shell
+1780743.368374651
+```
+
+## Example 2: Using `.perf_counter()` Like a Stopwatch
+
+Here, two `perf_counter()` calls are placed around [`sleep()`](https://www.codecademy.com/resources/docs/python/time-module/sleep) which adds a 5-second delay in the execution right after the first method call:
 
 ```py
 from time import perf_counter, sleep
@@ -75,7 +93,7 @@ Elapsed time in seconds: 5.000201884191483
 
 ## Codebyte Example
 
-The following program shows two ways to search for an element in a sorted integer list. Both solutions are written in separate functions, and pairs of `perf_counter()` calls are used to track the time taken to execute each function.
+The following program shows two ways to search for an element in a sorted integer list. Both solutions are written in separate functions, and pairs of `perf_counter()` calls are used to track the time taken to execute each function:
 
 ```codebyte/python
 from time import perf_counter
@@ -126,11 +144,6 @@ print('Time taken for search_1(): {} seconds'.format(elapsed_result1))
 print('Time taken for search_2(): {} seconds'.format(elapsed_result2))
 ```
 
-The output of this code is:
-
-```shell
-Time taken for search_1(): 1.817941665649414e-06 seconds
-Time taken for search_2(): 3.1800009310245514e-06 seconds
-```
+> **Note:** The actual numbers will vary each time you run the code, since they represent the current internal timer value, not absolute wall-clock time.
 
 Ideally, with a large `nums` list the binary search function should take half as much time as the linear search function.
