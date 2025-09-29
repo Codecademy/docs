@@ -156,17 +156,17 @@ Product = namedtuple('Product', ['name', 'price', 'category'])
 
 # Create from dictionary using ** operator
 product_data = {
-  'name': 'Laptop',
-  'price': 999.99,
-  'category': 'Electronics'
+    'name': 'Laptop',
+    'price': 999.99,
+    'category': 'Electronics'
 }
 
 laptop = Product(**product_data)
 print("Created from dict:", laptop)
 
-# Create from existing namedtuple using ** operator
+# Create from existing namedtuple using _replace (cleanest way)
 existing_product = Product('Phone', 599.99, 'Electronics')
-modified_product = Product(**existing_product._asdict(), price=549.99)
+modified_product = existing_product._replace(price=549.99)
 print("Modified product:", modified_product)
 ```
 
