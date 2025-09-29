@@ -24,7 +24,7 @@ They have two distinct features:
 Tuples can have a mix of different data types and look like an array consisting of types as values inside:
 
 ```ts
-let myTuple: [string, number, boolean] = ["1", 2, true];
+let myTuple: [string, number, boolean] = ['1', 2, true];
 ```
 
 They consist of a left square bracket `[`, comma-separated list of types, and a right square bracket `]`. The literal values, "1", 2, and `true`, must map to each element's types, `string`, `number`, and `boolean`, in the correct order.
