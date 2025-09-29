@@ -1,6 +1,6 @@
 ---
 Title: '.front()'
-Description: 'Accesses the first element in the deque.'
+Description: 'Returns a reference to the first element of the deque'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,26 +14,29 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-
 In C++, the **`.front()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) returns a reference to the first element in the deque.
 
 ## Syntax
 
-```
-
+```pseudo
 deque_name.front()
-
 ```
 
-- No parameters are required.
-- Returns a reference to the element at the front (beginning) of the deque.
+**Parameters:**
+
+`.front()` does not take any parameters
+
+**Return value:**
+
+- Returns a reference to the first element of the deque.
+  - For a non-const deque, returns `T&` (modifiable).
+  - For a const deque, returns const `T&` (read-only).
 
 ## Example
 
 The example below demonstrates use of `.front()` to access the first element in a deque:
 
 ```cpp
-
 #include <iostream>
 #include <deque>
 
@@ -61,16 +64,13 @@ std::cout << std::endl;
 
 return 0;
 }
-
 ```
 
 The output of this program will be:
 
 ```shell
-
 First element: 100
 Updated deque: 50 200 300
-
 ```
 
 This shows that `.front()` allows both access and modification of the deque’s first element.
@@ -79,48 +79,36 @@ This shows that `.front()` allows both access and modification of the deque’s 
 
 Run the following codebyte example to understand the use of `.front()` method:
 
-```cpp
-
+```codebyte/cpp
 #include <iostream>
 #include <deque>
 #include <string>
 
 int main() {
-std::deque[std::string](std::string) myDeque;
+  // Create a deque of strings
+  std::deque<std::string> myDeque;
 
-myDeque.push_back("Hello");
-myDeque.push_back("World");
-myDeque.push_back("!");
+  // Add elements to the deque
+  myDeque.push_back("Hello");
+  myDeque.push_back("World");
+  myDeque.push_back("!");
 
-// Print the front element
-std::cout << "Front element before change: " << myDeque.front() << std::endl;
+  // Print the front element
+  std::cout << "Front element before change: " << myDeque.front() << std::endl;
 
-// Change the front element
-myDeque.front() = "Hi";
+  // Modify the front element
+  myDeque.front() = "Hi";
 
-// Print the modified front element
-std::cout << "Front element after change: " << myDeque.front() << std::endl;
+  // Print the modified front element
+  std::cout << "Front element after change: " << myDeque.front() << std::endl;
 
-// Print all elements
-std::cout << "Complete deque: ";
-for (const auto\& str : myDeque) {
-std::cout << str << " ";
+  // Print all elements of the deque
+  std::cout << "Complete deque: ";
+  for (const auto& str : myDeque) {
+    std::cout << str << " ";
+  }
+  std::cout << std::endl;
+
+  return 0;
 }
-}
-
 ```
-
-**Expected output:**
-
-
-```shell
-
-Front element before change: Hello
-Front element after change: Hi
-Complete deque: Hi World !
-
-```
-
-
-
-
