@@ -79,7 +79,7 @@ After replace: Person(name='John Doe', age=31, city='New York')
 
 ## Conversion Operations
 
-Namedtuples provide several useful methods to convert between different data types and create new instances from existing data. These conversion operations make it easy to work with `namedtuples` alongside other Python data structures like lists, dictionaries, and iterables. There are three main conversion operations available:
+`namedtuple` provides several useful methods to convert between different data types and create new instances from existing data. These conversion operations make it easy to work with `namedtuples` alongside other Python data structures like lists, dictionaries, and iterables. There are three main conversion operations available:
 
 - Using `_make()`: Creates `namedtuple` instances from iterables
 - Using `_asdict()`: Converts namedtuples to ordered dictionaries
