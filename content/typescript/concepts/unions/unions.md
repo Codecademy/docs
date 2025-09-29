@@ -1,6 +1,6 @@
 ---
 Title: 'Unions'
-Description: 'Some values can have more than one possible type. TypeScript represents these 'either-or' types using a union.'
+Description: 'Some values can have more than one possible type. TypeScript represents these either-or types using a union.'
 Subjects:
   - 'Web Development'
 Tags:
