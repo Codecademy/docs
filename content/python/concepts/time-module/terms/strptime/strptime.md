@@ -1,18 +1,19 @@
 ---
 Title: '.strptime()'
-Description: 'Parses a time string according to a specified format and returns a struct_time object'
+Description: 'Parses a string representing a date/time into a struct_time object according to a specified format.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Time'
   - 'Date'
   - 'Methods'
+  - 'Time'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-**`.strptime()`** is a method from Python's [time](https://www.codecademy.com/resources/docs/python/time-module) module. It converts a date and/or time string into a corresponding **`struct_time`** object, based on the format directives provided.
+**`.strptime()`** is a method from Python's [time](https://www.codecademy.com/resources/docs/python/time-module) module. It converts a date and/or time string into a corresponding `struct_time` object, based on the format directives provided.
 
 ## Syntax
 
@@ -22,12 +23,14 @@ time.strptime(string, format)
 
 **Parameters:**
 
-- `string` (str): The date and/or time string to be parsed and converted
-- `format` (str): The format string specifying the expected format of the first parameter `string`
+- `string` (str): The date and/or time string to be parsed and converted.
+- `format` (str): The format string specifying the expected format of the first parameter `string`.
 
-**Returns:** A `struct_time` object with the parsed date and time
+**Return value:**
 
-The `format` parameter uses specific directives to represent the expected format of `string`. These directives are the same ones as those used by [**`strftime()`**](https://www.codecademy.com/resources/docs/python/time-module/strftime), and some common examples include:
+Returns a `struct_time` object with the parsed date and time.
+
+The `format` parameter uses specific directives to represent the expected format of `string`. These directives are the same ones as those used by [`strftime()`](https://www.codecademy.com/resources/docs/python/time-module/strftime), and some common examples include:
 
 | Directive | Description                 | Example/Range   |
 | --------- | --------------------------- | --------------- |
@@ -46,9 +49,9 @@ The `format` parameter uses specific directives to represent the expected format
 
 ## Example
 
-How to convert a date string into a `struct_time` object using `time.strptime()`:
+The following example shows how to convert a date string into a `struct_time` object using `time.strptime()`:
 
-```python
+```py
 import time
 
 # Define the date string and its corresponding format
@@ -60,28 +63,15 @@ converted_time = time.strptime(date_string, format_string)
 print(converted_time)
 ```
 
-**Output:**
+An example output of this code is:
 
 ```shell
-time.struct_time(
-    tm_year=1997,  # Four-digit year
-    tm_mon=12,    # Month number [01 - 12]
-    tm_mday=16,    # Day of the month [01 - 31]
-    tm_hour=0,     # Hour [00 - 23]
-    tm_min=0,      # Minute [00 - 59]
-    tm_sec=0,      # Second [00 - 61]
-    tm_wday=1,     # Weekday ([0(Mon) - 6(Sun)])
-    tm_yday=350,    # Day of the year [001 - 366]
-    tm_isdst=-1    # Daylight Saving Time [-1 = Unknown/Not Set, 0 = Off, 1 = On]
-)
-
-# It represents: Tuesday, December 16, 1997, 00:00:00, DST unknown
-
+time.struct_time(tm_year=1997, tm_mon=12, tm_mday=16, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=1, tm_yday=350, tm_isdst=-1)
 ```
 
 ## Codebyte Example
 
-How to parse a date string and access information from the struct_time object:
+This example shows how to parse a date string and access information from the `struct_time` object:
 
 ```codebyte/python
 import time
