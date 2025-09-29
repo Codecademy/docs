@@ -60,7 +60,7 @@ A valid name must follow the rules:
 
 - It has to start with a letter or an underscore (`_`) and can contain digits.
 - It could also start with a `$` but the specification of the language says that this shouldn't be done.
-- It can't have a name of keyword (i.e. `return` or `while`) however keywords can be within the name.
+- It can't be a reserved keyword (i.e. `return` or `while`), but keywords can appear inside the name (e.g., `returnValue`).
 
 Examples for valid method names:
 
