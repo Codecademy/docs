@@ -52,6 +52,7 @@ do {
     // Code block to be executed
 } while (condition);
 ```
+
 In this example, the code in the loop will run at least once, and then continue running as long as variable i is less than 10:
 
 ```java
@@ -65,10 +66,10 @@ do {
 ```
 
 The output would be:
+
 ```shell
 5
 ```
-
 
 ## For Loop
 
