@@ -43,6 +43,33 @@ The output would be:
 8
 ```
 
+## Do-While Loop
+
+The `do-while` loop is similar to a `while` loop, but the code block **executes at least once**, even if the condition is false. This makes it useful when you want the loop to run **at least one time** before checking the condition.
+
+```pseudo
+do {
+    // Code block to be executed
+} while (condition);
+```
+In this example, the code in the loop will run at least once, and then continue running as long as variable i is less than 10:
+
+```java
+int i = 5;
+
+do {
+    System.out.println(i);
+    i++;
+} while (i < 0);
+
+```
+
+The output would be:
+```shell
+5
+```
+
+
 ## For Loop
 
 A `for` loop iterates over a range of values. Its declaration is made up of the following three parts, each separated by a semicolon:
