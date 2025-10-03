@@ -1,6 +1,6 @@
 ---
-Title: 'swap()'
-Description: 'Swaps the values of two variables.'
+Title: '.swap()'
+Description: 'Swaps the values of two queues.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,33 +13,41 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`swap()`** function swaps the values of two variables. The variables must have the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types).
+The **`.swap()`** function swaps the values of two queues. The queues must have the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types), although size can differ.
 
 ## Syntax
 
-The `swap()` function takes two parameters using the following syntax:
+The `.swap()` method can be used with the following syntax:
 
 ```pseudo
-swap(a, b);
+a.swap(b); // or swap(a, b);
 ```
 
 ## Codebyte Example
 
-The following codebyte exapmle below uses `swap()` on two int variables:
+The following codebyte exapmle below uses `.swap()` on two int queues:
 
 ```codebyte/cpp
 #include <iostream>
+#include <queue>
 using namespace std;
 
 int main() {
-  // Declare variables
-  int a = 1, b = 2;
+  // Declare queues
+  queue<int> a;
+  queue<int> b;
+
+  // Populate queues
+  a.push(1);
+  a.push(2);
+  b.push(3);
+  b.push(4);
 
   // Swap the values of a and b
-  swap(a, b);
+  a.swap(b); // or swap(a, b);
 
   // Print variable values
-  cout << "a: " << a << endl;
-  cout << "b: " << b;
+  cout << "a: " << a.front() << ", " << a.back() << endl;
+  cout << "b: " << b.front() << ", " << b.back();
 }
 ```
