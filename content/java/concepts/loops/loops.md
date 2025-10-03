@@ -1,12 +1,13 @@
 ---
 Title: 'Loops'
-Description: 'The while loop loops through a block of code as long as a specified condition is true: pseudo while (condition) { // Code block to be executed }  In this example, the code in the loop will run again and again, as long as variable i is still less than 10:'
+Description: 'Perform repeated execution of statements in Java using loops such as for, while, and do-while.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'For'
   - 'Loops'
   - 'While'
-  - 'For'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
@@ -49,26 +50,29 @@ The `do-while` loop is similar to a `while` loop, but the code block **executes 
 
 ```pseudo
 do {
-    // Code block to be executed
+  // Code block to be executed
 } while (condition);
 ```
 
-In this example, the code in the loop will run at least once, and then continue running as long as variable i is less than 10:
+In this example, the code in the loop will run at least once, and then continue running as long as variable `i` is less than 10:
 
 ```java
 int i = 5;
 
 do {
-    System.out.println(i);
-    i++;
-} while (i < 0);
-
+  System.out.println(i);
+  i++;
+} while (i < 10);
 ```
 
 The output would be:
 
 ```shell
 5
+6
+7
+8
+9
 ```
 
 ## For Loop
