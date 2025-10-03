@@ -44,9 +44,9 @@ int main() {
   b.push(4);
 
   // Swap the values of a and b
-  a.swap(b); // or swap(a, b);
+  a.swap(b);
 
-  // Print variable values
+  // Print queue values
   cout << "a: " << a.front() << ", " << a.back() << endl;
   cout << "b: " << b.front() << ", " << b.back();
 }
