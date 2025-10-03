@@ -20,7 +20,39 @@ The **`.swap()`** function swaps the values of two queues. The queues must have 
 The `.swap()` method can be used with the following syntax:
 
 ```pseudo
-a.swap(b); // or swap(a, b);
+queue1.swap(queue2); // or swap(queue1, queue2);
+```
+
+## Example
+
+This example demonstrates the usage of the swap method with string queues:
+
+```cpp
+#include <iostream>
+#include <queue>
+using namespace std;
+
+int main() {
+  // Declare queues
+  queue<string> hello;
+  queue<string> world;
+
+  // Populate queues
+  hello.push("hello");
+  world.push("world");
+
+  // Swap the values of the queues
+  hello.swap(world);
+
+  // Print queue values
+  cout << hello.front() << " " << world.front();
+}
+```
+
+The expected output would be:
+
+```
+world hello
 ```
 
 ## Codebyte Example
