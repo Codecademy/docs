@@ -14,7 +14,7 @@ CatalogContent:
 
 The **optional chaining** (**`?.`**) operator simplifies comparing multiple data properties in a chain of connected objects. This is especially valuable if any of the properties are `null`, as the operator will return `undefined` instead of throwing an error.
 
-Optional chaning can be used to validate nested object properties, call optional functions or methods on optional objects, accessing array elements, and more.
+Optional chaining can be used to validate nested object properties, call optional functions or methods on optional objects, accessing array elements, and more.
 
 The primary benefits of using optional chaining instead of regular syntax include simplifying the code to achieve the same result, making it easier to read, protecting against runtime errors, and enhancing maintainability.
 

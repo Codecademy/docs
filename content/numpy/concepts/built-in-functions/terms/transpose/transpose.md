@@ -1,6 +1,6 @@
 ---
 Title: '.transpose()'
-Description: 'Reverses or permutes the axes of an ndarray.'
+Description: 'Alters the dimensional arrangement of an ndarray by reversing or swapping its axes.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
