@@ -112,15 +112,15 @@ int bitwiseLeftShift = a << b;
 
 Logical operators are used to combine multiple boolean expressions or values. They return a boolean result (`true` or `false`).
 
-- `&&` Logical AND
-- `||` Logical OR
-- `!` Logical NOT
+### Operators
 
-| Operator | Name          | Example | Result |
-|-----------|--------------|----------|---------|
-| `&&` | Logical AND | `(a > b) && (a > c)` | true if **both** expressions are true |
-| `\|\|` | Logical OR | `(a > b) \|\| (a > c)` | true if **any** expression is true |
-| `!` | Logical NOT | `!(a > b)` | reverses the result (true → false) |
+- `&&` Logical AND – returns true if **both** expressions are true.  
+
+- `||` Logical OR – returns true if **any** expression is true.  
+
+- `!` Logical NOT – reverses the result (true → false).  
+
+### Java Code
 
 ```java
 int a = 10;
