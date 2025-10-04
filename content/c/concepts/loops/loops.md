@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'A loop is a programming tool that is used to repeat a set of instructions.'
+Description: 'Loops are used in programming to run the same block of code multiple times based on a condition.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'

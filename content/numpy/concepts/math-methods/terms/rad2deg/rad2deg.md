@@ -1,6 +1,6 @@
 ---
 Title: '.rad2deg()'
-Description: 'Converts angles from radians to degrees.'
+Description: 'Transforms an angle measurement from radians to its equivalent in degrees.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'

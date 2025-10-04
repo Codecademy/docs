@@ -22,4 +22,4 @@ Effective IA allows users to complete tasks with the least effort required. [Sit
 
 Information architecture is heavily influenced by **mental models**. The **designer model** is the mental image in the head of the designer. The **user model** is the mental image in the head of the user. In an ideal world, the designer’s model and user’s model should be exactly the same - meaning the user will know exactly how to use a product. The **system model** is the actual image conveyed by the product and written material. The better the system model is, the closer the designer model and user model will be, which in turn, makes the product easier to understand.
 
-[Card sorting](https://www.codecademy.com/resources/docs/uiux/card-sorting) and [tree testing](https://www.nngroup.com/articles/tree-testing/) are two user research techniques commonly used in the development of information architecture.
+[Card sorting](https://www.codecademy.com/resources/docs/uiux/card-sorting) and [tree testing](https://www.codecademy.com/resources/docs/uiux/tree-testing) are two user research techniques commonly used in the development of information architecture.

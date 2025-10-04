@@ -17,5 +17,5 @@ After being released by JetBrains in 2011, Kotlin became the preferred language 
 - [Back-end](https://www.codecademy.com/resources/docs/general/back-end) development
 - [Front-end](https://www.codecademy.com/resources/docs/general/front-end) development
 - [Full-stack](https://www.codecademy.com/resources/docs/general/full-stack) development
-- [Data Science](https://www.codecademy.com/resources/docs/general/data-science)
+- [Data Science](https://www.codecademy.com/resources/docs/data-science)
 - Multi-platform mobile development

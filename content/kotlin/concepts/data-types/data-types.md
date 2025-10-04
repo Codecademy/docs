@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Data types** are a classification of types of data that determine possible values and operations that can be performed on that data.
+**Data types** classify values in Kotlin and determine the operations that can be performed on them.
 
-Kotlin has primitive and non-primitive data types:
+Unlike some languages, Kotlin does not have primitive data types. All data types in Kotlin are objects. However, for performance reasons, the Kotlin compiler may internally optimize certain types using JVM primitives.
 
 ## Primitive Data Types
 

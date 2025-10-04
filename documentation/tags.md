@@ -55,6 +55,7 @@ Calendar
 Catch
 Characters
 Charts
+Chi-Square
 Chatbots
 Cryptocurrency
 Classes
@@ -78,6 +79,7 @@ Concatenation
 Conceptual
 Const
 Constructors
+Containers
 Continue
 Counting Sort
 Control Flow
@@ -89,10 +91,12 @@ D3
 Deployment
 Dart
 Data
+Data Distributions
 Data Parallelism
 Data Structures
 Data Types
 Database
+DataFrame
 DataLoader
 Datasets
 Date
@@ -137,6 +141,7 @@ Events
 Event Handling
 Exceptions
 Expo
+Exponential
 Express
 Extensions
 Favicon
@@ -193,6 +198,7 @@ Interface
 iOS
 Iterators
 Java
+JavaScript
 Join
 jQuery
 JRuby
@@ -250,8 +256,12 @@ Objects
 Obsolete
 Ontologies
 OOP
+Operator Overloading
 Opacity
 ONNX
+IaC
+DevOps
+Automation
 Open Source
 Operating Systems
 Operators
@@ -278,8 +288,9 @@ Preprocessor
 Primary Key
 Print
 Probability
-Promise
 Programming
+Promise
+Prompts
 Properties
 Protocols
 Python
@@ -328,6 +339,7 @@ Stacks
 Static Site
 Statistics
 Statsmodels
+STL
 Storage
 Strict Mode
 Stringr
@@ -335,6 +347,7 @@ Strings
 Structure
 Style
 Stochastic Gradient Descent
+Subplots
 Subqueries
 Supervised Learning
 Swift
@@ -397,6 +410,7 @@ WebRTC
 Weight & Bias
 While
 Whiteboarding
+Weibull
 Window Functions
 WordPress
 World Wide Web

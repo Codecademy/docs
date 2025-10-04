@@ -14,31 +14,28 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.erase()`** [function](https://www.codecademy.com/resources/docs/cpp/functions) removes a single element or a range of elements from a specific position(s) in a vector. When it removes an element(s), the size of the vector decreases and the elements after the deleted one(s) are shifted to fill the gap. The position(s) of the element(s) to remove are identified using the `.begin()` and/or `.end()` functions.
+In C++, the **`.erase()`** [function](https://www.codecademy.com/resources/docs/cpp/functions) removes a single element or a range of elements from a vector. When it removes an element, the size of the vector decreases and the elements after the deleted one are shifted to fill the gap. To remove a range, iterators such as `.begin()` and `.end()` are used to specify the start and end positions of the elements to erase.
 
 ## Syntax
 
-The following syntax is used to remove a single element from a vector:
-
 ```pseudo
-vector.erase(position);
+vector.erase(position); // Removing an element
+vector.erase(starting_position, ending_position); // Removing multiple elements
 ```
 
-- `vector`: The vector to be iterated.
+**Parameters:**
+
 - `position`: An iterator pointing to the position of the element to be removed.
+- `starting_position`: An iterator indicating the beginning of the range of elements to be removed.
+- `ending_position`: An iterator indicating the end of the range of elements to be removed.
 
-Here is the syntax for eliminating a range of elements from the vector:
+**Return value:**
 
-```pseudo
-vector.erase(starting_position, ending_position);
-```
+The `.erase()` function doesn't return any value.
 
-- `starting_position`: An iterator indicating the beginning of the range to be removed.
-- `ending_position`: An iterator indicating the end of the range to be removed.
+## Example 1: Removing an Element Using `.erase()`
 
-## Examples
-
-In the example below, the `.erase()` function removes a single element from a vector:
+In this example, the `.erase()` function removes a single element from a vector:
 
 ```cpp
 #include <iostream>
@@ -66,13 +63,15 @@ int main()
 }
 ```
 
-The output of the above code is:
+The output for this code is:
 
 ```shell
 Rooms available: 1 2 4 5 6 7 8 9 10
 ```
 
-The following example uses `.erase()` to remove a range of elements from a vector:
+## Example 2: Removing Multiple Elements Using `.erase()`
+
+This example uses `.erase()` to remove a range of elements from a vector:
 
 ```cpp
 #include <iostream>
@@ -100,8 +99,54 @@ int main()
 }
 ```
 
-The output of the above code is as follows:
+The output for this code is:
 
 ```shell
 Rooms available: 1 2 3 4 5 6 7
 ```
+
+## Codebyte Example: Using `.erase()` with a Map
+
+This codebyte example uses `.erase()` to remove a key-value pair from a [map](https://www.codecademy.com/resources/docs/cpp/maps):
+
+```codebyte/cpp
+#include <iostream>
+#include <map>
+
+int main() {
+  std::map<std::string, int> age = {
+    {"Alice", 25},
+    {"Bob", 30},
+    {"Charlie", 35}
+  };
+
+  // Erase an element by key
+  age.erase("Bob");
+
+  for (auto& pair : age) {
+    std::cout << pair.first << ": " << pair.second << "\n";
+  }
+
+  return 0;
+}
+```
+
+Here, the key-value pair in which the key is "Bob" will be removed.
+
+## Frequently Asked Questions
+
+### 1. Can I use `.erase()` inside a loop?
+
+Yes, you can use `.erase()` inside a loop, but with caution. When erasing while iterating, always update the iterator correctly to avoid invalidation issues.
+
+### 2. What happens if I try to erase a non-existing key from a map using `.erase()`?
+
+Nothing — no error will occur if you try to erase a non-existing key from a map using `.erase()`. The size remains unchanged.
+
+### 3. How efficient is `.erase()`?
+
+The efficiency of `.erase()` depends on what it is applied on:
+
+- Vector/String: Linear time _O(n)_ since elements may need to shift.
+- Map/Set: Logarithmic time _O(log n)_ due to tree structure.
+- Unordered map/Unordered set: Average constant time _O(1)_.

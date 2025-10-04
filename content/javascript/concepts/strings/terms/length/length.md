@@ -1,6 +1,6 @@
 ---
 Title: '.length'
-Description: 'Returns the number of characters in a string.'
+Description: 'Calculates the total character count within a given string, including spaces and punctuation.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

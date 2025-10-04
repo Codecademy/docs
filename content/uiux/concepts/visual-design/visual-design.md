@@ -20,4 +20,4 @@ Visual design is derived from graphic design and [UI design](https://www.codecad
 
 While it’s possible to create an unappealing interface that’s easy to use, visuals play a pivotal role in user experience. Ineffective design may lessen engagement or prevent people from using a product. Effective visuals contribute to ease of use, delight, and a positive overall experience.
 
-While visual design is essential, not all users rely on visual information to use technology. People with vision impairments may rely on sound, haptics, and visual input when interacting with digital products. Thus, [accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) should be a priority for designing inclusive products.
+While visual design is essential, not all users rely on visual information to use technology. People with vision impairments may rely on sound, haptics, and visual input when interacting with digital products. Thus, [accessibility](https://www.codecademy.com/resources/docs/uiux/design-methodologies/accessibility) should be a priority for designing inclusive products.

@@ -1,182 +1,196 @@
 ---
 Title: 'Conditionals'
-Description: 'Conditional statements return a boolean value that provides control flow in a program.'
+Description: 'Conditionals allow users to control the flow of a program based on certain conditions.'
 Subjects:
-  - 'Conditional Statements'
-  - 'Comparison Operators'
-  - 'Logical Operators'
+  - 'Data Science'
+  - 'Machine Learning'
 Tags:
-  - 'Conditionals'
+  - 'Booleans'
   - 'Comparison'
+  - 'Conditionals'
   - 'Logic'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
 ---
 
-**Conditional** statements in R allow the control of flow in programs based on certain conditions. Using these statements different blocks of code can be executed depending on whether a condition is true or false.
+In R, conditionals help control the flow of a program. They evaluate Boolean expressions and execute certain blocks of code depending on whether the expression evaluates to `TRUE` or `FALSE`. This is especially useful while working with dynamic data, automating tasks, or writing functions with variable behavior.
 
-## If Statement
+## R If Statement
 
-The `if` statement is used to execute a block of code if a condition is true. The general syntax is:
+The R `if` statement is used to run a block of code if a condition is `TRUE`.
 
-```pseudo
-if (condition) {
-  # Code to be executed if condition is true
-}
-```
+Here is a flowchart that showcases the flow of the `if` statement in R:
 
-## If-Else Statement
+![R If statement flowchart](https://raw.githubusercontent.com/Codecademy/docs/main/media/if-statement-flowchart.png)
 
-The `if-else` statement allows the execution of a block of code if a condition is true, and another block of code if the condition is false. The general syntax is:
+### R If Statement Syntax
 
 ```pseudo
 if (condition) {
-  # Code to be executed if condition is true
-} else {
-  # Code to be executed if condition is false
+  # Code to execute if condition is TRUE
 }
 ```
 
-Examples of `if-else` statements:
+### R If Statement Example
+
+This example demonstrates the usage of the `if` statement in R:
 
 ```r
-# If Statement
 x <- 10
 
-if (x > 5) {
-  print("x is greater than 5")
+if (x > 6) {
+  print("x is greater than 6")
 }
-# In this example, the code inside the if block will be executed because the condition x > 5 is true.
+```
 
+Here is the output:
 
-# If-Else Statement
+```shell
+[1] "x is greater than 6"
+```
+
+## R If-Else Statement
+
+The R `if-else` statement allows the execution of a block of code if a condition is `TRUE`, and a separate block of code if the condition is `FALSE`.
+
+### R If-Else Statement Syntax
+
+```pseudo
+if (condition) {
+  # Code to execute if condition is TRUE
+} else {
+  # Code to execute if condition is FALSE
+}
+```
+
+### R If-Else Statement Example
+
+This example demonstrates the usage of the `if-else` statement in R:
+
+```r
 x <- 3
 
-if (x > 5) {
-  print("x is greater than 5")
+if (x > 6) {
+  print("x is greater than 6")
 } else {
-  print("x is less than or equal to 5")
+  print("x is less than or equal to 6")
 }
-# In this example, since the condition x > 5 is false, the code inside the else block will be executed.
 ```
 
-## Comparison Operators
+Here is the output:
 
-Comparison operators in R allow the comparison of values and produce logical results. Here are some commonly used comparison operators:
+```shell
+[1] "x is less than or equal to 6"
+```
 
-- `<` (less than): Returns `TRUE` if the left operand is less than the right operand.
-- `>` (greater than): Returns `TRUE` if the left operand is greater than the right operand.
-- `==` (equal to): Returns `TRUE` if the left operand is equal to the right operand.
-- `!=` (not equal to): Returns `TRUE` if the left operand is not equal to the right operand.
-- `<=` (less than or equal to): Returns `TRUE` if the left operand is less than or equal to the right operand.
-- `>=` (greater than or equal to): Returns `TRUE` if the left operand is greater than or equal to the right operand.
+## R Else-If Statement
 
-Examples of comparison operators in R:
+When there is a need to check multiple conditions, the R `else-if` statement can be used to evaluate them sequentially.
+
+### R Else-If Statement Syntax
+
+```pseudo
+if (condition1) {
+  # Code if condition1 is TRUE
+} else if (condition2) {
+  # Code if condition2 is TRUE
+} else {
+  # Code if all conditions are FALSE
+}
+```
+
+### R Else-If Statement Example
+
+This example demonstrates the usage of the `else-if` statement in R:
 
 ```r
-# Less than (<)
 x <- 5
-y <- 10
 
-if (x < y) {
-  print("x is less than y")
+if (x > 12) {
+  print("x is greater than 12")
+} else if (x == 5) {
+  print("x is equal to 5")
+} else {
+  print("x is less than 12 and not equal to 5")
 }
-# Output: x is less than y
-
-
-# Greater than (>)
-x <- 5
-y <- 10
-
-if (x > y) {
-  print("x is greater than y")
-}
-# No output in this case
-
-
-# Equal to (==)
-x <- 5
-y <- 5
-
-if (x == y) {
-  print("x is equal to y")
-}
-# Output: x is equal to y
-
-
-# Not equal to (!=)
-x <- 5
-y <- 10
-
-if (x != y) {
-  print("x is not equal to y")
-}
-# Output: x is not equal to y
-
-
-# Less than or equal to (<=)
-x <- 5
-y <- 10
-
-if (x <= y) {
-  print("x is less than or equal to y")
-}
-# Output: x is less than or equal to y
-
-
-# Greater than or equal to (>=)
-x <- 5
-y <- 5
-
-if (x >= y) {
-  print("x is greater than or equal to y")
-}
-# Output: x is greater than or equal to y
 ```
 
-These operators are commonly used in conditional statements to compare values and make decisions.
+Here is the output:
 
-## Logical Operators
+```shell
+[1] "x is equal to 5"
+```
 
-Logical operators in R can be used to combine or negate logical values. Here are the commonly used logical operators:
+## Nested R If Statement
 
-- `&&` (and): Returns `TRUE` if both the left and right operands are `TRUE`.
-- `||` (or): Returns `TRUE` if either the left or right operand is `TRUE`.
-- `!` (not): Negates a logical value. If the operand is `TRUE`, it returns `FALSE`, and if the operand is `FALSE`, it returns `TRUE`.
+R `if` statements can be nested within each other for more complex logical checks.
 
-Examples of logical operators in R:
+### Nested R If Statement Syntax
+
+```pseudo
+if (condition1) {
+  if (condition2) {
+    # Code to execute if both condition1 and condition2 are TRUE
+  }
+}
+```
+
+### Nested R If Statement Example
+
+This example demonstrates the usage of nested `if` statements in R:
 
 ```r
-# AND (&&)
-x <- 5
-y <- 10
+x <- 8
+y <- 3
 
-if (x > 0 && y > 0) {
-  print("Both x and y are positive")
+if (x > 6) {
+  if (y < 6) {
+    print("x is greater than 6 and y is less than 6")
+  }
 }
-# Output: Both x and y are positive
-
-
-# OR (||)
-x <- 5
-y <- -10
-
-if (x > 0 || y > 0) {
-  print("Either x or y is positive")
-}
-# Output: Either x or y is positive
-
-
-# NOT (!)
-x <- 5
-
-if (!(x == 10)) {
-  print("x is not equal to 10")
-}
-# Output: x is not equal to 10
 ```
 
-Logical operators are often used to combine multiple conditions in conditional statements or to negate a condition.
+Here is the output:
 
-These are the basic conditional statements, comparison operators, and logical operators in R. They can be leveraged to control the flow of a program, compare values, and make decisions based on specific conditions.
+```shell
+[1] "x is greater than 6 and y is less than 6"
+```
+
+## Frequently Asked Questions
+
+### 1. Can I use conditionals in a vectorized way in R?
+
+Yes, you can use the R `ifelse()` function for vectorized operations:
+
+```r
+x <- c(2, 5, 8)
+
+result <- ifelse(x > 5, "High", "Low")
+
+print(result) # Output: [1] "Low"  "Low"  "High"
+```
+
+### 2. What’s the difference between R `if` and `ifelse()`?
+
+- `if` statement in R is used for single, scalar conditions.
+- `ifelse()` function in R is vectorized and works over entire vectors.
+
+### 3. Can I use logical operators in R conditionals?
+
+Yes. You can combine conditions using `&` (AND), `|` (OR), and `!` (NOT):
+
+```r
+x <- 4
+if (x > 2 & x < 10) {
+  print("x is between 2 and 10")
+} # Output: [1] "x is between 2 and 10"
+```
+
+### 4. What are the three elements of the `if` statement in R?
+
+The three elements of an `if` statement in R are:
+
+- **Condition**: A logical expression that evaluates to `TRUE` or `FALSE`.
+- **Code block for `TRUE`**: The set of statements to execute if the condition is `TRUE`.
+- **Optional `else` block**: A set of statements to run if the condition is `FALSE`.

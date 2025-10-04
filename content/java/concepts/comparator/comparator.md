@@ -1,6 +1,6 @@
 ---
 Title: 'Comparator'
-Description: 'The Comparator interface is used to order objects of an arbitrary class.'
+Description: 'The Java Comparator interface is used to order objects of an arbitrary class.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Comparator`** interface is used to order objects of an arbitrary [class](https://www.codecademy.com/resources/docs/java/classes). It is not to be confused with the [`Comparable`](https://www.codecademy.com/resources/docs/java/comparable) interface, which is implemented by the class to be sorted. The `Comparator` interface is implemented in a separate class.
+**`Comparator`** in Java is an interface used to order objects of an arbitrary [class](https://www.codecademy.com/resources/docs/java/classes). It is not to be confused with the [`Comparable`](https://www.codecademy.com/resources/docs/java/comparable) interface, which is implemented by the class to be sorted. The `Comparator` interface is implemented in a separate class.
 
-## Syntax
+## Java `Comparator` Syntax
 
 ```pseudo
 class MyComparator implements Comparator<MyClass> {
@@ -29,97 +29,138 @@ class MyComparator implements Comparator<MyClass> {
 }
 ```
 
-Applying the `Comparator` interface to a class, `MyComparator`, requires the `implements` keyword (e.g., `Comparator<MyClass>`). This interface has a `.compare()` method that returns an `int` value based on whether two `MyClass` instances, `a` and `b`, can be logically sorted.
+Applying `Comparator` in Java to a class (`MyComparator`) requires the `implements` keyword (e.g., `Comparator<MyClass>`). This interface has a `.compare()` method, which returns an `int` value based on whether two `MyClass` instances, `a` and `b`, can be logically sorted:
 
 | Return Value | Meaning                                        |
 | :----------: | ---------------------------------------------- |
-|    `>= 1`    | first object instance > second object instance |
-|     `0`      | first object instance = second object instance |
-|   `<= -1`    | first object instance < second object instance |
+|    `>= 1`    | First object instance > Second object instance |
+|     `0`      | First object instance = Second object instance |
+|   `<= -1`    | First object instance < Second object instance |
 
 A `Comparator` class can be passed as an argument to methods such as [`Arrays.sort()`](https://www.codecademy.com/resources/docs/java/arrays/sort) and `Collections.sort()` to specify the sort order, potentially overriding the natural sort order defined by the class’s own `.compareTo()` method.
 
-## Example
+## Example 1: Sort a List of Strings Using Java `Comparator`
 
-The following example showcases the `Comparator` interface. First, an `Employee` class is defined:
-
-```java
-// Employee.java
-public class Employee {
-  String firstName;
-  String lastName;
-
-  // Constructor sets firstName and lastName
-  public Employee(String first, String last)
-  {
-    this.firstName = first;
-    this.lastName = last;
-  }
-
-  // User-friendly output when printed.
-  public String toString()
-  {
-    return "( " + lastName + ", " + firstName + " )";
-  }
-}
-```
-
-The next snippet defines an `EmployeeSort` class that implements the `Comparator` interface and overrides its `.compare()` method to sort based on `lastName` and then on `firstName`:
+In this example, the Java `Comparator` class named `StringLengthComparator` is used to compare two strings based on their length. This is useful when the sorting logic is used in multiple places or needs to be unit-tested:
 
 ```java
 import java.util.*;
 
-// EmployeeSort.java
-public class EmployeeSort implements Comparator<Employee> {
+class StringLengthComparator implements Comparator<String> {
+  public int compare(String s1, String s2) {
+    return s1.length() - s2.length(); // Ascending by length
+  }
+}
 
-  // Implement the Comparator interface
-  @Override public int compare(Employee valueA, Employee valueB)
-  {
-    if (valueA.lastName.compareTo(valueB.lastName) != 0) {
-      // If lastNames are different, compare lastName
-      return valueA.lastName.compareTo(valueB.lastName);
-    } else {
-      // If lastNames are the same, compare firstName
-      return valueA.firstName.compareTo(valueB.firstName);
-    }
+public class StringLengthSort {
+  public static void main(String[] args) {
+    List<String> words = Arrays.asList("banana", "apple", "pear", "kiwi");
+
+    // Sort using comparator
+    Collections.sort(words, new StringLengthComparator());
+
+    System.out.println("Sorted by length: " + words);
   }
 }
 ```
 
-This last snippet demonstrates the `Comparator` interface:
-
-```java
-import java.util.*;
-
-// SortExample.java
-public class SortExample {
-  public static void main(String[] args)
-  {
-    // Set up array with a few Employee classes
-    Employee a[] = new Employee[5];
-    a[0] = new Employee("Kirk","Douglas");
-    a[1] = new Employee("Mel","Brooks");
-    a[2] = new Employee("Jane","Fonda");
-    a[3] = new Employee("Henry","Fonda");
-    a[4] = new Employee("Michael","Douglas");
-
-    // Use .sort() method with Comparable class.
-    Arrays.sort(a, new EmployeeSort());
-
-    // Print out the sorted Employees
-    for (int i=0; i < a.length; i++) {
-      System.out.println(a[i]);
-    }
-  }
-}
-```
-
-This example results in the following output:
+Here is the output:
 
 ```shell
-( Brooks, Mel )
-( Douglas, Kirk )
-( Douglas, Michael )
-( Fonda, Henry )
-( Fonda, Jane )
+Sorted by length: [pear, kiwi, apple, banana]
 ```
+
+## Example 2: Using Java `Comparator` to Sort Custom Objects
+
+In this example, the Java `Comparator` class named `SalaryComparator` is a reusable class for comparing employees based on their salary and `Collections.sort()` applies the comparator to arrange employees in ascending order:
+
+```java
+import java.util.*;
+
+class Employee {
+  String name;
+  int salary;
+
+  Employee(String name, int salary) {
+    this.name = name;
+    this.salary = salary;
+  }
+
+  public String toString() {
+    return name + ": " + salary;
+  }
+}
+
+// Comparator to sort employees by salary
+class SalaryComparator implements Comparator<Employee> {
+  public int compare(Employee e1, Employee e2) {
+    return e1.salary - e2.salary; // Ascending order
+  }
+}
+
+public class EmployeeSort {
+  public static void main(String[] args) {
+    List<Employee> list = new ArrayList<>();
+    list.add(new Employee("Alice", 70000));
+    list.add(new Employee("Bob", 50000));
+    list.add(new Employee("Charlie", 60000));
+
+    // Sort using SalaryComparator
+    Collections.sort(list, new SalaryComparator());
+
+    System.out.println("Sorted by salary: " + list);
+  }
+}
+```
+
+Here is the output:
+
+```shell
+Sorted by salary: [Bob: 50000, Charlie: 60000, Alice: 70000]
+```
+
+## Example 3: Sort in Reverse Order Using Java `Comparator`
+
+In this example, the Java `Comparator` class named `ReverseIntegerComparator` reverses the natural ordering of integers. It's useful when built-in methods like `Comparator.reverseOrder()` are not allowed or available:
+
+```java
+import java.util.*;
+
+class ReverseIntegerComparator implements Comparator<Integer> {
+  public int compare(Integer a, Integer b) {
+    return b - a; // descending order
+  }
+}
+
+public class ReverseSortExample {
+  public static void main(String[] args) {
+    List<Integer> numbers = Arrays.asList(5, 1, 3, 8, 2);
+
+    // Reverse sort using explicit comparator
+    Collections.sort(numbers, new ReverseIntegerComparator());
+
+    System.out.println("Reverse sorted: " + numbers);
+  }
+}
+```
+
+Here is the output:
+
+```shell
+Reverse sorted: [8, 5, 3, 2, 1]
+```
+
+## Frequently Asked Questions
+
+### 1. What is the difference between Java `Comparator` and `Comparable`?
+
+- `Comparable` in Java is implemented by a class to define its natural ordering.
+- `Comparator` in Java is used to define external and multiple sorting strategies.
+
+### 2. Can a class have multiple comparators in Java?
+
+Yes. You can create multiple `Comparator` classes in Java to sort objects differently—for example, by name, salary, or ID.
+
+### 3. Is `Comparator` a functional interface in Java?
+
+Yes. You can utilize lambda expressions to implement comparators in Java concisely.

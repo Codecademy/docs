@@ -1,6 +1,6 @@
 ---
 Title: '.tanh()'
-Description: 'Returns the hyperbolic sine of a double-type value.'
+Description: 'Calculates the hyperbolic tangent of a numeric argument.'
 Subjects:
   - 'Computer Science'
 Tags:

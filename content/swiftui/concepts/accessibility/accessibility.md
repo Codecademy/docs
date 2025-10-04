@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**[Accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility)** in SwiftUI refers to the built-in tools and available techniques to create user interfaces for individuals with diverse needs.
+**[Accessibility](https://www.codecademy.com/resources/docs/uiux/design-methodologies/accessibility)** in SwiftUI refers to the built-in tools and available techniques to create user interfaces for individuals with diverse needs.
 
 ## The Importance of Accessibility
 
-Creating accessible apps with SwiftUI is necessary to meet accessibility guidelines. Furthermore, it creates [inclusive design](https://www.codecademy.com/resources/docs/uiux/inclusive-design) and user-friendly experiences. Standard accessibility features work by default to ensure that an app is accessible for everyone, while accessibility modifiers enable developers to further customize the app's accessibility features. Utilizing these tools and following best practices can have the following benefits:
+Creating accessible apps with SwiftUI is necessary to meet accessibility guidelines. Furthermore, it creates [inclusive design](https://www.codecademy.com/resources/docs/uiux/design-methodologies/inclusive-design) and user-friendly experiences. Standard accessibility features work by default to ensure that an app is accessible for everyone, while accessibility modifiers enable developers to further customize the app's accessibility features. Utilizing these tools and following best practices can have the following benefits:
 
 - Ensure the app is accessible for users with specific needs.
 - Enhance usability for all users.

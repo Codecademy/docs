@@ -11,9 +11,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Euclidean algorithm** is a recursive algorithm that will find the highest common factor (HCF) of two numbers. The HCF is the largest value that will evenly divide (leave no remainder) both values. It is based on the observation that the HCF can be found by iteratively comparing two values, substituting the difference of the values alternatively, until the values are equivalent. This convergent value is the HCF.
+The **Euclidean algorithm** is a simple and efficient algorithm for finding the greatest common divisor (GCD) of two numbers. It can be implemented both iteratively and recursively. The GCD is the largest value that will evenly divide (leave no remainder) both values. It is based on the observation that the GCD can be found by iteratively comparing two values, substituting the difference of the values alternatively, until the values are equivalent. This convergent value is the GCD.
 
-There are multiple methods to solve and find the highest common factor (HCF) of two numbers. In this explanation, let's explore a basic approach first and then move on to the Euclidean algorithm.
+There are multiple methods to solve and find the GCD of two numbers. In this explanation, let's explore a basic approach first and then move on to the Euclidean algorithm.
 
 ## Method 1
 
@@ -46,7 +46,7 @@ The output for the above code will be:
 
 ## Method 2: A Basic Euclidean Algorithm Approach
 
-In this method, the aim is to compare both `a` and `b`. The process begins by identifying the larger value and subtracting the smaller number from the larger number. The larger number is now replaced with the result of the subtraction. These steps repeat until the values are equal. This convergent value is the HCF.
+In this method, the aim is to compare both `a` and `b`. The process begins by identifying the larger value and subtracting the smaller number from the larger number. The larger number is now replaced with the result of the subtraction. These steps repeat until the values are equal. This convergent value is the GCD.
 
 The following code illustrates this method in Java:
 
@@ -87,7 +87,7 @@ The step by step execution of the above code is as follows:
 - The values are now `a` = 10 and `b` = 5.
 - The process continues, `a` is replaced with `a - b`, resulting in `a` = 10 - 5 = 5.
 - Now `a` and `b` are both equal to 5.
-- At this point, the while loop exits, and `a` is returned. Therefore, the HCF of 15 and 20 is 5.
+- At this point, the while loop exits, and `a` is returned. Therefore, the GCD of 15 and 20 is 5.
 
 ## Method 3: A Recursive Euclidean Approach
 
@@ -123,7 +123,7 @@ The step by step execution of this example is as follows:
 - In the first recursive cycle, the value of `a % b` will be 150. Since 150 is smaller than 500, it cannot be divided evenly by 500. Therefore, the remainder is equal to the original number, which is 150. Consequently, the next arguments for `EuclideanOptimized` are `(500, 150)`.
 - The function is restarted with the arguments `(500, 150)`. Upon entering the function, the `if` statement is encountered. However, since `b` is not equal to `0`, the program moves on to the next recursive cycle with the arguments `(150, 50)` ( 500 % 150 yields 50).
 - Once again, the function is initiated with arguments `(150, 50)`. As in previous iterations, `b` is not equal to `0`, and thus the program moves on to the next recursive cycle. The second argument in this case is determined by calculating the modulus 150 % 50, which yields the argument values `(50, 0)`.
-- In this recursive cycle, when the code enters the `if` statement, the condition `b == 0` is satisfied. Therefore, the function will return `a`, which has a value of 50, the highest common factor for the original arguments.
+- In this recursive cycle, when the code enters the `if` statement, the condition `b == 0` is satisfied. Therefore, the function will return `a`, which has a value of 50, the GCD for the original arguments.
 
 ## Time Complexities
 
@@ -133,7 +133,7 @@ The step by step execution of this example is as follows:
 
 - Method 2:
 
-  - The second example also calculates the GCD using an iterative approach known as the Euclidean algorithm. It repeatedly subtracts the smaller number from the larger number until the two numbers become equal (the GCD). The time complexity of this algorithm depends on the number of iterations required to reach the GCD. In the worst case, where one number is a multiple of the other, the time complexity is _O(max(a, b))_.
+  - The second example also calculates the GCD using an iterative approach known as the Euclidean algorithm. It repeatedly subtracts the smaller number from the larger number until the two numbers become equal (the GCD). The time complexity of this algorithm depends on the number of iterations required to reach the GCD. In the worst case (such as when the numbers are close in value), the subtraction-based approach may take up to _O(max(a, b))_ iterations.
 
 - Method 3:
 

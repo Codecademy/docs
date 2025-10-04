@@ -168,7 +168,7 @@ Operations with multiple tensors, like adding or multiplying tensors, generally 
 
 PyTorch provides methods for altering the shape of a tensor, provided that the total number of elements in the tensor remains the same. The total number of elements in a tensor is equal to the product of all dimension sizes. So, for example, a tensor with shape [4, 1, 6] contains 4 x 1 x 6 = 24 elements.
 
-Since dimensions of with a size of 1 do not alter the total number of elements in a tensor, PyTorch provides methods for adding and removing dimensions of size 1. The method `.unsqueeze_(n)` adds a dimension of size 1 at the nth place, shifting displiced dimension sizes to the right. Conversely, the method `.squeeze_(n)` removes a dimension of size 1 at the nth place, shifting displaced dimension sizes to the left. Note that the numbering of dimensions begins at 0.
+Since dimensions of size 1 in tensors do not alter the total number of elements, PyTorch provides methods for adding and removing dimensions of size 1. The method `.unsqueeze_(n)` adds a dimension of size 1 at the nth position, shifting the subsequent dimension sizes to the right. Conversely, the method `.squeeze_(n)` removes a dimension of size 1 at the nth position, shifting the subsequent dimension sizes to the left. Note that the numbering of dimensions begins at 0.
 
 The following demonstrates the effects of `.unsqueeze_()` and `.squeeze_()` on tensor shapes:
 

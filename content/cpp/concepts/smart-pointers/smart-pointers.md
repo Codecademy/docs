@@ -29,6 +29,26 @@ Both `unique_ptr` and `shared_ptr` have a corresponding function to create their
 - `std::make_unique<T>(value)` for `unique_ptr`
 - `std::make_shared<T>(value)` for `shared_ptr`
 
+### Transfer of Ownership Limitations
+
+It must be noted that the ownership of can be transferred from a unique pointer to shared pointer but not vice-versa. As the shared pointer is designed to "share" the resource by updating the reference count. This underlying principle gets violated when an attempt is made to completely transfer ownership out of it:
+
+```cpp
+#include <memory>
+
+int main() {
+  std::unique_ptr<int> ptrU1 = std::make_unique<int>(50);
+  std::unique_ptr<int> ptrU2 = std::make_unique<int>(20);
+  std::shared_ptr<int> ptrS1 = std::make_shared<int>(10);
+
+  ptrS1 = std::move(ptrU1); //allowed, compiles.
+  std::shared_ptr<int> ptrS2 = std::move(ptrU2); // Allowed, compiles
+
+  std::unique_ptr<int> ptrU3 = std::move(ptrS2); // Not allowed, doesn't compile
+  ptrU1 =  std::move(ptrS1); // Not allowed, doesn't compile
+}
+```
+
 ## Unique Pointers
 
 ```cpp

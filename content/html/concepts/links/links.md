@@ -1,9 +1,9 @@
 ---
 Title: 'Links'
-Description: 'Links are used in HTML to add features to a web page including styling, functionality, hyperlinks, and navigation.'
+Description: 'Create hyperlinks using the `<a>` tag in HTML to navigate between web pages or external resources.'
 Subjects:
-  - 'Web Development'
   - 'Web Design'
+  - 'Web Development'
 Tags:
   - 'Files'
   - 'Link'
@@ -14,29 +14,44 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Links** are used in HTML to add features to a web page including styling, functionality, hyperlinks, and navigation.
+In HTML, **links** (also called _hyperlinks_) allow users to navigate between different web pages or external resources. They are created using the [`<a>` (anchor)](https://www.codecademy.com/resources/docs/html/elements/a) tag, which can point to another webpage, file, or location within the current document.
 
-## Hyperlinks
+## Syntax
 
-The [`<a>`](https://www.codecademy.com/resources/docs/html/elements/a) anchor tag is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL using the hyperlink reference `href` attribute.
+```html
+<a href="url">Link Text</a>
+```
 
-### Text Links
+- `href`: Specifies the destination URL.
+- `Link Text`: The clickable text shown to users.
+
+## Link Appearance
+
+By default, links will appear as follows in most browsers:
+
+- Unvisited links are underlined and blue
+- Visited links are underlined and purple
+- Active links (during click) are underlined and red
+
+### Example
 
 Text wrapped in a linked anchor tag becomes a hyperlink to another page:
 
 ```html
-<!-- Creating a text link -->
+<!-- Creating a link -->
 
 <a href="https://www.codecademy.com/learn">My Home</a>
 ```
 
-The output of the example code above will look like this:
+The output of the example code will look like this:
 
-![Showcasing the usage of text links](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-link.gif)
+![Showcasing the use of html links](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-link.gif)
 
-### Internal Links
+## Types of Links
 
-Anchor tags can be used to link to certain parts of a page with a matching `id` attribute:
+### 1. Internal Links
+
+Points to a page within the same website.
 
 ```html
 <!-- Creating a text link -->
@@ -44,11 +59,19 @@ Anchor tags can be used to link to certain parts of a page with a matching `id` 
 <a href="#data-science-jobs">Data science jobs</a>
 ```
 
-The output of the example code above will look like this:
+The output of the example code will look like this:
 
-![Showcasing the usage of internal links](https://raw.githubusercontent.com/Codecademy/docs/main/media/internal-link.gif)
+![Showcasing the usage of internal links in html](https://raw.githubusercontent.com/Codecademy/docs/main/media/internal-link.gif)
 
-### Image Links
+### 2. External Link
+
+Points to a web page on a different domain.
+
+```html
+<a href="https://example.com">External Site</a>
+```
+
+### 3. Image Links
 
 Anything that is inside the anchor tag will be treated as a link. In this case, the Codecademy logo will take the user to the Codecademy home page.
 
@@ -60,11 +83,11 @@ Anything that is inside the anchor tag will be treated as a link. In this case, 
 </a>
 ```
 
-The output of the example code above will look like this:
+The result of the example code will appear as:
 
-![Showcasing the usage of image as a link](https://raw.githubusercontent.com/Codecademy/docs/main/media/image-link.gif)
+![Showcasing the use of image as a link in html](https://raw.githubusercontent.com/Codecademy/docs/main/media/image-link.gif)
 
-### Email and Phone Links
+### 4. Email and Phone Links
 
 Special strings can be passed to the `href` attribute to link email accounts (`"mailto:exmail@address.com"`) or phone numbers (`"tel:###-###-####"`):
 
@@ -78,24 +101,20 @@ Special strings can be passed to the `href` attribute to link email accounts (`"
 
 The actions defined by these links will be completed depending on the user's device and settings. For example, clicking a phone link while on a cell phone may use the built in dialer to complete the call.
 
-## `<link>` Element
+## Frequently Asked Questions
 
-The [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link) element is used to connect the document to an outside resource, most commonly stylesheets, via the [`<head>`](https://www.codecademy.com/resources/docs/html/elements/head) element. Unlike most elements, which come as opening and closing tags, the `<link />` is self-closing and only contains attributes.
+### 1. What does the `target="_blank"` attribute do?
 
-The two primary attributes are:
+It opens the link in a new browser tab or window.
 
-- A `rel` to describe the format of the external source.
-- An `href` that contains the filepath to the external source.
+### 2. Can I link to a file like a PDF or image?
+
+Yes. The `href` attribute can link to any resource, including documents or images.
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Links in HTML</title>
-    <link rel="stylesheet" href="some/outside/source.css" />
-  </head>
-  <body>
-    <!-- markup here -->
-  </body>
-</html>
+<a href="files/resume.pdf">Download Resume</a>
 ```
+
+### 3. How do I link to another section on the same page?
+
+Use `href="#section-id"` where the section has a corresponding `id` attribute.

@@ -1,6 +1,6 @@
 ---
 Title: 'SUBSTRING()'
-Description: 'Extracts a part of a string.'
+Description: 'Extracts a portion of a string starting from a specified position.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -16,28 +16,115 @@ CatalogContent:
 
 In SQL, the **`SUBSTRING()`** function takes a slice from a string containing data in binary, character, text, or image format. Upon extraction, the [`SELECT`](https://www.codecademy.com/resources/docs/sql/commands/select) statement can be used to select and manipulate the extracted substring according to the [data type](https://www.codecademy.com/resources/docs/sql/data-types). The data type is the same as the original string except for the next expressions.
 
-## Syntax
+## SQL `SUBSTRING()` Syntax
 
 ```pseudo
 SUBSTRING(string, start, length)
 ```
 
+**Parameters:**
+
 - `string`: The string to extract a substring from.
-- `start`: The `string` index from which the substring starts. The minimum possible value is 1.
+- `start`: The `string` index from which the substring starts. The minimum possible value is `1`.
 - `length`: The number of characters to extract from `string`.
 
-> Note: Not all services support this function. Oracle and SQLite use `SUBSTR()` to accomplish the same goal.
+**Return value:**
 
-## Example
+Returns a substring of the original string. If `length` exceeds the remaining characters, the result contains everything from `start` to the end of the string.
 
-The below example shows how to use `SUBSTRING()`:
+> **Note:** Not all services support this function. Oracle and SQLite use `SUBSTR()` to accomplish the same goal.
+
+## Example 1: Using `SUBSTRING()` on a String Literal
+
+This query uses `SUBSTRING()` on a string literal:
 
 ```sql
 SELECT SUBSTRING('Codecademy', 1, 4) AS ExtractString;
 ```
 
-The code above generates the following output:
+Here is the output:
 
 | ExtractString |
 | ------------- |
 | Code          |
+
+## Example 2: Using `SUBSTRING()` on a Table Column
+
+Suppose we have a table named `Employees`:
+
+| EmployeeID | FullName      |
+| ---------- | ------------- |
+| 1          | John Carter   |
+| 2          | Alice Johnson |
+| 3          | Michael Brown |
+
+This query uses `SUBSTRING()` on the `FullName` column of the `Employees` table:
+
+```sql
+SELECT FullName, SUBSTRING(FullName, 1, 4) AS FirstFourChars
+FROM Employees;
+```
+
+Here is the output:
+
+| FullName      | FirstFourChars |
+| ------------- | -------------- |
+| John Carter   | John           |
+| Alice Johnson | Alic           |
+| Michael Brown | Mich           |
+
+## Example 3: Extracting Domain from an Email Using `SUBSTRING()`
+
+Suppose we have a table `Users`:
+
+| UserID | Email             |
+| ------ | ----------------- |
+| 1      | mark@example.com  |
+| 2      | sarah@company.org |
+| 3      | david@mysite.net  |
+
+This query uses `SUBSTRING()` to extract the domains from the emails in the `Email` column of the `Users` table:
+
+```sql
+SELECT Email, SUBSTRING(Email, CHARINDEX('@', Email) + 1, LEN(Email)) AS Domain
+FROM Users;
+```
+
+Here is the output:
+
+| Email             | Domain      |
+| ----------------- | ----------- |
+| mark@example.com  | example.com |
+| sarah@company.org | company.org |
+| david@mysite.net  | mysite.net  |
+
+## Frequently Asked Questions
+
+### 1. What is `SUBSTRING()` in SQL?
+
+`SUBSTRING()` returns part of a string, starting at a specified character position, for a given length.
+
+### 2. How do `SUBSTRING()` and `SUBSTR()` differ?
+
+- `SUBSTRING()`: Standard SQL function, supported by many databases.
+- `SUBSTR()`: Common in Oracle and some versions of MySQL, with similar functionality but slightly different parameter handling.
+
+### 3. How to extract a substring from a string in SQL?
+
+In MySQL, you can use either `SUBSTRING()` or `SUBSTR()`, they work the same way:
+
+```sql
+SELECT SUBSTRING('Hello World', 7, 5) AS Result;
+```
+
+Or,
+
+```sql
+SELECT SUBSTR('Hello World', 7, 5) AS Result;
+```
+
+Here is the output:
+
+| Result |
+| ------ |
+| World  |

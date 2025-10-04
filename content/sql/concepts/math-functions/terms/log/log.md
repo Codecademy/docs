@@ -1,6 +1,6 @@
 ---
 Title: 'LOG()'
-Description: 'Returns the natural logarithm of a given number.'
+Description: 'Calculates the base-e logarithm of the specified numeric input.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'

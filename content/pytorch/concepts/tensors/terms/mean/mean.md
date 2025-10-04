@@ -1,6 +1,6 @@
 ---
 Title: '.mean()'
-Description: 'Calculates the mean of all elements in a PyTorch tensor or along a specified dimension.'
+Description: 'Calculates the mean of all elements or along a specified dimension in a PyTorch tensor.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -14,22 +14,29 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **.mean()** method in PyTorch computes the arithmetic mean (average) of tensor elements. It can calculate the mean for all elements in the tensor or along a specified dimension. This method is widely used in data preprocessing and analysis for summarizing data.
+The **`torch.mean()`** method in PyTorch computes the arithmetic mean (average) of a given [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It can calculate the mean of all elements or along a specified dimension in the tensor. This method is widely used in data preprocessing and analysis for summarizing data.
 
-## Syntax
+## `torch.mean()` Syntax
 
 ```pseudo
-tensor.mean(dim=None, keepdim=False)
+torch.mean(input, dim, keepdim=False, *, dtype=None, out=None)
 ```
 
-- `dim` (optional): The dimension along which the mean is computed. If not specified, the mean of all elements is calculated.
-- `keepdim` (optional): If `True`, retains the reduced dimension with size `1`. Defaults to `False`.
+**Parameters:**
 
-The function returns a tensor containing the mean value(s).
+- `input`: The input tensor.
+- `dim` (Optional): The dimension along which the mean is computed. If not specified, the mean of all elements is calculated.
+- `keepdim` (Optional): If `True`, retains the reduced dimension(s) with size `1`. Defaults to `False`.
+- `dtype` (Optional): The desired data type for the output tensor.
+- `out` (Optional): The output tensor.
 
-## Example
+**Return value:**
 
-This example demonstrates calculating the mean of all elements in a tensor and along a specific dimension:
+The `torch.mean()` method returns a tensor containing the mean value(s).
+
+## Example 1: Mean of All Elements Using `torch.mean()`
+
+This example calculates the mean of all elements in a tensor using `torch.mean()`:
 
 ```py
 import torch
@@ -38,23 +45,104 @@ import torch
 tensor = torch.tensor([[1.0, 2.0], [3.0, 4.0]])
 
 # Calculate the mean of all elements
-mean_all = tensor.mean()
-
-# Calculate the mean along dimension 0 (columns)
-mean_dim0 = tensor.mean(dim=0)
+mean_all = torch.mean(tensor)
 
 print("Mean of all elements:", mean_all)
-print("Mean along dimension 0:", mean_dim0)
 ```
 
-This example results in the following output:
+Here is the output:
 
 ```shell
 Mean of all elements: tensor(2.5000)
-Mean along dimension 0: tensor([2.0000, 3.0000])
 ```
 
-In this example:
+## Example 2: Mean Along Columns Using `torch.mean()`
 
-- `mean_all` computes the mean of all elements in the tensor.
-- `mean_dim0` computes the mean along each column (dimension 0), reducing the rows. This makes `.mean()` a versatile tool for data analysis.
+This example calculates the mean along dimension `0` (columns) in a tensor using `torch.mean()`:
+
+```py
+import torch
+
+# Create a tensor
+tensor = torch.tensor([[1.0, 2.0], [3.0, 4.0]])
+
+# Calculate the mean along dimension 0 (columns)
+mean_dim0 = torch.mean(tensor, dim=0)
+
+print("Mean along columns:", mean_dim0)
+```
+
+Here is the output:
+
+```shell
+Mean along columns: tensor([2., 3.])
+```
+
+## Example 3: Mean Along Rows Using `torch.mean()`
+
+This example calculates the mean along dimension `1` (rows) in a tensor using `torch.mean()`:
+
+```py
+import torch
+
+# Create a tensor
+tensor = torch.tensor([[1.0, 2.0], [3.0, 4.0]])
+
+# Calculate the mean along dimension 1 (rows)
+mean_dim1 = torch.mean(tensor, dim=1)
+
+print("Mean along rows:", mean_dim1)
+```
+
+Here is the output:
+
+```shell
+Mean along rows: tensor([1.5000, 3.5000])
+```
+
+## Frequently Asked Questions
+
+### 1. What is the mean function in PyTorch?
+
+`torch.mean()` computes the arithmetic mean (average) of a given tensor. By default, it calculates the mean of all elements in the tensor:
+
+```py
+import torch
+
+# Create a tensor
+x = torch.tensor([1., 2., 3., 4.])
+
+# Calculate the mean of all elements
+print(torch.mean(x)) # tensor(2.5000)
+```
+
+### 2. How do I compute the mean along a specific axis using `torch.mean()`?
+
+To compute the mean along a specific axis, Use the `dim` parameter with `torch.mean()`:
+
+```py
+import torch
+
+# Create a tensor
+x = torch.tensor([[1., 2.], [3., 4.]])
+
+# Calculate the mean along dimension 0 (columns)
+print(torch.mean(x, dim=0)) # tensor([2., 3.])
+
+# Calculate the mean along dimension 1 (rows)
+print(torch.mean(x, dim=1)) # tensor([1.5000, 3.5000])
+```
+
+### 3. What does `keepdim=True` do in `torch.mean()`?
+
+`keepdim=True` in `torch.mean()` keeps the reduced dimension(s) with size `1`:
+
+```py
+import torch
+
+# Create a tensor
+x = torch.tensor([[1., 2.], [3., 4.]])
+
+# Calculate the mean along rows with keepdim=True
+print(torch.mean(x, dim=1, keepdim=True)) # tensor([[1.5000], [3.5000]])
+```
