@@ -122,7 +122,6 @@ Logical operators are used to combine multiple boolean expressions or values. Th
 | `\|\|` | Logical OR | `(a > b) \|\| (a > c)` | true if **any** expression is true |
 | `!` | Logical NOT | `!(a > b)` | reverses the result (true → false) |
 
-
 ```java
 int a = 10;
 int b = 5;
