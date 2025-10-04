@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **union** in C is a special data type that enables a single memory location to hold different types of variables at different times.
+A **union** in C is a user-defined data type that allows storing different data types in the same memory location.
 
-Unlike [structures](https://www.codecademy.com/resources/docs/c/structures), where each member has its own memory space, all members of a union share the same memory space, and only one member can hold a value at any given time.
+Unlike [structures](https://www.codecademy.com/resources/docs/c/structures), which allocate separate memory for each member, a union uses the same memory block for all its members. This means that at any given time, only one member of a union can hold a value, making unions memory-efficient but requiring careful handling.
 
 ## Syntax
 
@@ -28,9 +28,17 @@ union union_name {
 };
 ```
 
+**Parameters:**
+
+Unions do not take parameters directly, but their members can be of different data types:
+
 - `union_name`: The name given to the union.
 - `data_type`: It can be any valid C data type (`int`, `float`, `char`, etc.).
 - `member`: The names given to the union members.
+
+**Return Value:**
+
+A union does not hold a value itself, but its members can hold values. The memory is shared among all members, so assigning a value to one member overwrites the value of the others.
 
 ## Memory Allocation
 
@@ -53,7 +61,7 @@ printf("%c\n", data.letter);  // Prints 'A' (ASCII 65)
 
 Here, `data.number = 65` stores the integer 65 in the shared memory. Since `data.letter` uses the same memory, interpreting the value as a character (`char`) results in `'A'`, which is the ASCII representation of 65.
 
-## Example
+## Example - Memory Optimization in Unions
 
 The following code demonstrates the use of a union in C, where different data types (integer, float, and string) share the same memory location:
 
@@ -92,3 +100,15 @@ Float: 3.14
 String: Hello
 Memory size: 20
 ```
+
+## Difference Between Structure and Union
+
+Structures and unions are both user-defined data types in C, but they serve different purposes. The following table highlights the key differences between structures and unions, making it easier to choose the appropriate data type based on memory usage and accessibility requirements.
+
+| Feature               | Structure                                       | Union                                         |
+| --------------------- | ----------------------------------------------- | --------------------------------------------- |
+| **Memory Allocation** | Allocates memory for all members                | Shares memory among members                   |
+| **Accessibility**     | All members can hold values simultaneously      | Only one member holds a value at a time       |
+| **Use Case**          | Suitable when all data fields need to be stored | Suitable for memory-efficient operations      |
+| **Data Integrity**    | Stores all data without overwriting             | Only the last assigned value is retained      |
+| **Memory Usage**      | Uses more memory as all members exist           | Uses less memory as only one member is active |

@@ -55,8 +55,8 @@ out.show()
 
 Original Image:
 
-![Original Image](/media/bird-thumbnail.jpg)
+![Original Image](https://raw.githubusercontent.com/Codecademy/docs/main/media/bird-thumbnail.jpg)
 
 Flipped Image:
 
-![Output Image](/media/output.jpg)
+![Output Image](https://raw.githubusercontent.com/Codecademy/docs/main/media/output.jpg)

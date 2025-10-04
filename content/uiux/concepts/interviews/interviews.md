@@ -14,7 +14,7 @@ CatalogContent:
 
 **Interviews** are a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method where a researcher asks a participant a series of questions about a topic.
 
-Because interviews rely on data self-reported by users, they are considered an [attitudinal research method](https://www.codecademy.com/resources/docs/uiux/attitudinal-research). Interviews are considered a [qualitative research method](https://www.codecademy.com/resources/docs/uiux/qualitative-research) since they focus on the in-depth motivations and thought processes behind a user's experience. Interviews are typically one-on-one, while [focus groups](https://www.codecademy.com/resources/docs/uiux/focus-groups) collect qualitative feedback from a group of participants.
+Because interviews rely on data self-reported by users, they are considered an [attitudinal research method](https://www.codecademy.com/resources/docs/uiux/attitudinal-research). Interviews are considered a [qualitative research method](https://www.codecademy.com/resources/docs/uiux/qualitative-research) since they focus on the in-depth motivations and thought processes behind a user's experience. Interviews are typically one-on-one, while [focus groups](https://www.codecademy.com/resources/docs/uiux/focus-group) collect qualitative feedback from a group of participants.
 
 ## Interview Types
 

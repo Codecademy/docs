@@ -70,4 +70,4 @@ This will display:
 
 ![SwiftUI ViewModifier Draggable](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-draggable.gif)
 
-> **Note**: `.draggable()` is the first of two parts in the drag-and-drop operation. While it can be used independently, as shown here, it is usually paired with the `.dropDestination()` modifier. For information on setting up a drop destination, see [.dropDestination()](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/dropdestination).
+> **Note**: `.draggable()` is the first of two parts in the drag-and-drop operation. While it can be used independently, as shown here, it is usually paired with the `.dropDestination()` modifier. For information on setting up a drop destination, see [.dropDestination()](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/dropDestination).

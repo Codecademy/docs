@@ -1,102 +1,124 @@
 ---
 Title: '.replace()'
-Description: 'Replace a specific substring with another substring.'
+Description: 'Replaces a given substring with another substring in a string.'
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - 'Strings'
+  - 'Functions'
   - 'Methods'
+  - 'Strings'
+  - 'Values'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
-  - 'paths/computer-science'
 ---
 
-Replace a specific substring with another substring.
+In Python, the **`.replace()`** method replaces all occurrences of a specified [substring](https://www.codecademy.com/resources/docs/python/substrings) with another substring in a string. It is commonly used for text processing, data cleaning, and formatting tasks.
 
 ## Syntax
 
-```py
+```pseudo
 string.replace(old, new, count)
 ```
 
-The `.replace()` string method takes in three parameters:
+**Parameters:**
 
-- `old`: The substring to search for. (Required)
-- `new`: The substring to replace. (Required)
-- `count`: A number specifying how many occurrences of the old value to replace. Default is all occurrences.
+- `old`: The substring to be replaced.
+- `new`: The substring to replace with.
+- `count` (optional): Specifies the number of occurrences of the given substring to be replaced. If not specified, all occurrences of the given substring is replaced.
 
-## Example 1
+**Return value:**
 
-`.replace()` can be called either directly on a string:
+The `.replace()` method returns another string with the given substring replaced.
 
-```py
-welcome = "Hello, world!".replace("world", "Codecademy")
+## Example 1: Basic Usage of `.replace()`
 
-print(welcome)
-# Output: Hello, Codecademy!
-```
-
-Or on a variable assigned to a string:
+This example uses the `.replace()` method to replace "world" with "Codecademy" in the `welcome` string:
 
 ```py
 welcome = "Hello, world!"
+
 welcome = welcome.replace("world", "Codecademy")
 
 print(welcome)
-# Output: Hello, Codecademy!
 ```
 
-Because `replace()` is a method, it returns a new string and does not modify the original string. Therefore:
+Here is the output:
+
+```shell
+Hello, Codecademy!
+```
+
+## Example 2: Using `.replace()` with `count`
+
+This example uses the `.replace()` method with the `count` parameter to replace only the first occurrence (`count = 1`) of "like" with "love" in the `var` string:
 
 ```py
-var = "x"
-var.replace("x", "y")
+var = "I like cats and cats like me."
+
+var = var.replace("like", "love", 1)
+
 print(var)
-# Output: x
 ```
 
-By default, `replace()` will replace all occurrences in the string. However, you can add an integer to specify how many strings should be replaced.
+Here is the output:
+
+```shell
+I love cats and cats like me.
+```
+
+## Codebyte Example: Removing Substrings Using `.replace()`
+
+This codebyte example uses the `.replace()` method to remove "elephant " from the `myVar` string:
+
+```codebyte/python
+myVar = "I am a sentence with an extra elephant word."
+
+newVar = myVar.replace("elephant ", "")
+
+print(newVar)
+```
+
+## Frequently Asked Questions
+
+### 1. Is `.replace()` case-sensitive?
+
+Yes, `.replace()` is case-sensitive. For example, `"Hello".replace("h", "J")` won’t work because "h" is not the same as "H".
+
+### 2. Can `.replace()` be used with variables?
+
+Yes. You can use variables for both old and new values in `.replace()`:
 
 ```py
-var = "I like cats and cats like me"
-var = var.replace("like", "LOVE")
-print(var)
-# Output: "I LOVE cats and cats LOVE me"
+old = "apple"
+new = "orange"
 
-var = "I like cats and cats like me"
-var = var.replace("like", "LOVE", 1)
-print(var)
-# Output "I LOVE cats and cats like me"
+fruit_text = "I like apple pie."
+
+print(fruit_text.replace(old, new))
 ```
 
-## Examples
+Here is the output:
 
-The `replace()` method can be used to remove sections of a string entirely:
-
-```codebyte/py
-myString = "I am a sentence with an extra elephant word."
-newString = myString.replace("elephant ", "")
-print(newString)
+```shell
+I like orange pie.
 ```
 
-It can also be called multiple times on the same string:
+### 3. Can you replace substrings in a loop using `.replace()`?
 
-```codebyte/py
-myString = "I am a sentence with an extra elephant word."
-newString = myString.replace("elephant ", "").replace("with", "without")
-print(newString)
+Yes, and you can also chain `.replace()` calls for multiple replacements:
+
+```py
+text = "I love red and blue."
+
+text = text.replace("red", "green").replace("blue", "yellow")
+
+print(text)
 ```
 
-If there are many words that need to be removed, consider using a `for` loop:
+Here is the output:
 
-```codebyte/py
-wordsToReplace = ["rocks! ", "He ", "never ", "and ", "loves "]
-mySentence = "My cat rocks! He never bites and loves me."
-
-for word in wordsToReplace:
-  mySentence = mySentence.replace(word, "")
-
-print(mySentence)
+```shell
+I love green and yellow.
 ```

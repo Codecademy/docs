@@ -5,22 +5,24 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'NumPy'
-  - 'Functions'
   - 'Arrays'
   - 'Elements'
+  - 'Functions'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-The **`.exp()`** [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) in NumPy calculates the exponential of all elements in the input array. The exponential function, `.exp(𝑥)`, returns `e^x`, where `e` is Euler's number with an approximate value of 2.71828. As a part of the NumPy library, which is widely used for numerical computing in [Python](https://www.codecademy.com/resources/docs/python), this function is particularly useful in scientific computations where exponential functions are common.
+The **`np.exp()`** [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) in NumPy computes the exponential of all elements in the input [array](https://www.codecademy.com/resources/docs/numpy/ndarray). The exponential function, `np.exp(x)`, returns `e^x`, where `e` is Euler's number with an approximate value of 2.71828. As a part of NumPy, a widely used library for numerical computing in Python, this function is particularly useful in scientific computations where exponential functions are common.
 
 ## Syntax
 
 ```pseudo
 numpy.exp(arr, out=None, where=True, casting=‘same_kind’, order=‘K’, dtype=None)
 ```
+
+**Parameters:**
 
 - `arr`: The input array or list for computing the exponential.
 - `out`: The location to store the result. It must be broadcastable to the shape of `arr`.
@@ -29,43 +31,79 @@ numpy.exp(arr, out=None, where=True, casting=‘same_kind’, order=‘K’, dty
 - `order`: Defines the memory layout order of the result: `C` for C-order, `F` for Fortran-order, `A` for automatic, and `K` for input layout.
 - `dtype`: Overrides the data type of the resultant array.
 
-> Note: In the `.exp()` function, the only mandatory parameter is `arr`. All other parameters, including `out`, `where`, `casting`, `order`, and `dtype`, are optional and have default values.
+**Return Value:**
 
-## Example
+The `np.exp()` function returns a new array containing the exponential of all elements in the input array.
 
-Here is an example demonstrating the use of the `.exp()` function:
+> **Note:** In the `np.exp()` function, the only mandatory parameter is `arr`. All other parameters, including `out`, `where`, `casting`, `order`, and `dtype`, are optional and have default values.
+
+## Example 1: Using `.exp()` with an Array
+
+This example uses the `np.exp()` function to compute the exponential of all elements in the given array:
 
 ```py
 import numpy as np
 
-# Create an input array
+# Create an array
 arr = np.array([0, 1, 2, 3])
 
-# Compute the exponential of each element in the array
+# Compute the exponential of all elements in the array
 result = np.exp(arr)
 
 # Print the result
 print("Exponential of input array:", result)
 ```
 
-The code above produces the following output:
+The output for the example will be:
 
 ```shell
 Exponential of input array: [ 1.          2.71828183  7.3890561  20.08553692]
 ```
 
-In this example, the `.exp()` function is used to compute the exponential of each element in the array `[0, 1, 2, 3]`.
+## Example 2: Using `.exp()` with a Positive Number
 
-## Codebyte Example
+This example uses the `np.exp()` function to compute the exponential of a positive number:
 
-Here is a working codebyte example demonstrating the `.exp()` function in action:
+```py
+import numpy as np
+
+# Compute the exponential of 5
+result = np.exp(5)
+
+# Print the result
+print("Exponential of 5:", result)
+```
+
+The output for the example will be:
+
+```shell
+Exponential of 5: 148.4131591025766
+```
+
+## Codebyte Example: Using `.exp()` with a Negative Number
+
+This codebyte example uses the `np.exp()` function to compute the exponential of a negative number:
 
 ```codebyte/python
 import numpy as np
 
-in_array = [1, 3, 5]
-print ("Input array : ", in_array)
+# Compute the exponential of -10
+result = np.exp(-10)
 
-out_array = np.exp(in_array)
-print ("Output array : ", out_array)
+# Print the result
+print("Exponential of -10:", result)
 ```
+
+## Frequently Asked Questions
+
+### 1. Can I use `np.exp()` with a list?
+
+Yes, `np.exp()` can be used with a list; it automatically converts the list to a NumPy array and applies the exponential function element-wise.
+
+### 2. Does NumPy exp work with complex numbers?
+
+Yes, `np.exp()` supports complex numbers and returns the exponential of each complex input using Euler's formula.
+
+### 3. What is the difference between math exp and NumPy exp?
+
+`math.exp()` works only with single scalar values, while `np.exp()` can handle arrays, lists, and complex numbers, applying the function element-wise.

@@ -1,216 +1,276 @@
 ---
 Title: 'HashMap'
-Description: 'Stores items as key-value pairs, the keys and values can be of either the same or different types.'
+Description: 'Stores items as key-value pairs, where each key is unique and can be used to fetch the associated value.'
 Subjects:
   - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'HashMap'
-  - 'Data Types'
   - 'Collections'
   - 'Data Structures'
+  - 'Data Types'
+  - 'HashMap'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-Instances of the `HashMap` class implement the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface, which means that they store items as key-value pairs.
+A **`HashMap`** is an important part of the Java collections framework and implements the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface. It stores items as key-value pairs, where each key is unique and is used to fetch the associated value. It is one of the most commonly used data structures for storing key-value pairs. It offers fast lookups, insertions, and deletions, making it an excellent choice for many programming tasks where performance matters.
 
-A `HashMap` is similar to a [`TreeMap`](https://www.codecademy.com/resources/docs/java/treemap). However, the `HashMap` stores its items sorted in no particular order. (Actually, it's sorted by the hashes of its keys, which for most purposes is essentially random.) This is due to the different storage types each collection uses internally. The `HashMap` stores its keys as hashes for lookup, whereas the `TreeMap` stores its keys in a binary tree structure for lookup. The advantage of a `HashMap` is that its operations are much faster.
+**Key characteristics:**
 
-## Syntax
+- **Null Support**: Allows a single `null` key and multiple `null` values.
+- **Order**: Does not maintain any insertion or sorted order of elements.
+- **Thread Safety**: Not synchronized by default; not safe for concurrent access without external synchronization.
+- **Performance**: Provides constant-time performance for `.get()` and `.put()` operations in average cases.
+- **Key Uniqueness**: Keys must be unique; inserting a duplicate key will overwrite the existing value.
+
+## Creating a `HashMap`
+
+The `HashMap` [class](https://www.codecademy.com/resources/docs/java/classes) in Java is part of the `java.util` package:
 
 ```pseudo
-import java.util.HashMap
+import java.util.HashMap;
 
 HashMap<KeyDataType, ValueDataType> myHashMap = new HashMap<KeyDataType, ValueDataType>();
 ```
 
-The `HashMap` class comes from the `java.util` package, therefore, it must be imported in order to be used. The `HashMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDataType` and `ValueDataType` can either be different or the same.
+In the syntax:
 
-## Accessing Items
+- `KeyDataType`: The [data type](https://www.codecademy.com/resources/docs/java/data-types) of the keys to be inserted.
+- `ValueDataType`: The data type of the values to be inserted.
 
-Keys are used for uniquely identifying a value in a `HashMap`. This allows for efficient data storage and easy access. In the example below, the course names are the keys and the teachers assigned are the values that can be accessed by passing the corresponding key into the `.get()` method.
+## Accessing Items in a `HashMap`
+
+The `.get()` [method](https://www.codecademy.com/resources/docs/java/methods) can be used to access the value of a key in a `HashMap`.
+
+### Syntax
+
+```pseudo
+hashmap_name.get(key);
+```
+
+**Parameters:**
+
+- `key`: The key whose value is to be accessed.
+
+**Return value:**
+
+The `.get()` method returns the value of the given key.
+
+### Example
+
+This example demonstrates the usage of the `.get()` method to access the value of a key in a `HashMap`:
 
 ```java
-// Main.java
-// Import the HashMap class
 import java.util.HashMap;
 
 public class Main {
   public static void main(String[] args) {
+    // Create a HashMap
     HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
-    // Add keys and values (CourseNames, Teacher)
+    // Add items to the HashMap
     courseTeacher.put("History", "Ben");
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
 
+    // Access the value of a key
     System.out.println(courseTeacher.get("Physics"));
-    System.out.println(courseTeacher.get("History"));
   }
 }
 ```
 
-This will print the following output:
+Here is the output:
 
 ```shell
 Lily
-Ben
 ```
 
-## Adding Items
+## Adding Items to a `HashMap`
 
-Items can be added to a `HashMap` using the `.put()` method. It accepts two attributes, a key and a value, and stores them as a pair (`{ key=value }`).
+The `.put()` method is used to add items to a `HashMap`.
+
+### Syntax
+
+```pseudo
+hashmap_name.put(key, value);
+```
+
+**Parameters:**
+
+- `key`: The key to be added.
+- `value`: The value for the key to be added.
+
+### Example
+
+This example demonstrates the usage of the `.put()` method to add items to a `HashMap`:
 
 ```java
 import java.util.HashMap;
 
 public class Main {
   public static void main(String[] args) {
+    // Create a HashMap
     HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
+    // Add items to the HashMap
     courseTeacher.put("History", "Ben");
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
 
+    // Print the HashMap
     System.out.println(courseTeacher);
   }
 }
 ```
 
-This will output the following "course=teacher" assignments:
+Here is the output:
 
 ```shell
-{History=Ben, Mathematics=Jeanette, Physics=Lily}
+{Mathematics=Jeanette, History=Ben, Physics=Lily}
 ```
 
-## Removing Items
+## Removing Items from a `HashMap`
 
-Items can be removed from a `HashMap` using the `.remove()` method. It accepts one parameter, the key, and removes the corresponding key-value pair from the `HashMap`.
+There are two methods that can be used to remove items from a `HashMap`:
+
+- `.remove()`: This method can be used to delete an item from a `HashMap`.
+- `.clear()`: This method can be used to delete all items from a `HashMap`.
+
+### Syntax
+
+Here is the syntax for these methods:
+
+```pseudo
+hashmap_name.remove(key);
+hashmap_name.clear();
+```
+
+**Parameters:**
+
+- `key`: The key to be deleted along with its value.
+
+### Example
+
+This example demonstrates the usage of the `.remove()` and `.clear()` methods to delete items from a `HashMap`:
 
 ```java
 import java.util.HashMap;
 
 public class Main {
   public static void main(String[] args) {
+    // Create a HashMap
     HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
+    // Add items to the HashMap
     courseTeacher.put("History", "Ben");
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
 
+    // Remove an item from the HashMap
     courseTeacher.remove("Physics");
+
+    // Print the HashMap
     System.out.println(courseTeacher);
-  }
-}
-```
 
-The following output will look like this:
-
-```shell
-{History=Ben, Mathematics=Jeanette}
-```
-
-## Removing All Items
-
-The `.clear()` method can be used to remove all the items from the `HashMap`.
-
-```java
-import java.util.HashMap;
-
-public class Main {
-  public static void main(String[] args) {
-    HashMap<String, String> courseTeacher = new HashMap<String, String>();
-
-    courseTeacher.put("History", "Ben");
-    courseTeacher.put("Mathematics", "Jeanette");
-    courseTeacher.put("Physics", "Lily");
-
+    // Remove all items from the HashMap
     courseTeacher.clear();
+
+    // Print the HashMap
     System.out.println(courseTeacher);
   }
 }
 ```
 
-An empty `HashMap` will be displayed in the output below:
+Here is the output:
 
 ```shell
+{Mathematics=Jeanette, History=Ben}
 {}
 ```
 
-## Traversing a `HashMap` using `.keySet()`
+## Iterating Over a `HashMap`
 
-A `HashMap` can be traversed with the `for`-`each` [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys, while the `.values()` method can be used to obtain only values.
+There are three methods that can be used to iterate over a `HashMap`:
+
+- `.keySet()`: Used to iterate over the keys in a `HashMap`.
+- `.values()`: Used to iterate over the values in a `HashMap`.
+- `.entrySet()`: Used to iterate over the items in a `HashMap`.
+
+### Syntax
+
+Here is the syntax for these methods:
+
+```pseudo
+hashmap_name.keySet();
+hashmap_name.values();
+hashmap_name.entrySet();
+```
+
+### Example
+
+This example demonstrates the usage of the `for-each` [loop](https://www.codecademy.com/resources/docs/java/loops) to iterate over a `HashMap`:
 
 ```java
 import java.util.HashMap;
+import java.util.Map;
 
 public class Main {
   public static void main(String[] args) {
+    // Create a HashMap
     HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
+    // Add items to the HashMap
     courseTeacher.put("History", "Ben");
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
 
-    System.out.println("Courses offered at our Institute:");
-
+    // Iterate over the keys in the HashMap
     for (String i : courseTeacher.keySet()) {
       System.out.println(i);
     }
 
-    System.out.println("\nTeachers teaching at our Institute:");
-
+    // Iterate over the values in the HashMap
     for (String i : courseTeacher.values()) {
       System.out.println(i);
     }
+
+    // Iterate over the items in the HashMap
+    for (Map.Entry<String, String> entry: courseTeacher.entrySet()) {
+      System.out.print(entry);
+      System.out.print("\n");
+    }
   }
 }
 ```
 
-The output will be:
+In the example, `Map.Entry` is a nested interface within the `Map` interface that represents a key-value pair stored in a map.
+
+Here is the output:
 
 ```shell
-Courses offered at our Institute:
 Mathematics
 History
 Physics
-
-Teachers teaching at our Institute:
 Jeanette
 Ben
 Lily
+Mathematics=Jeanette
+History=Ben
+Physics=Lily
 ```
 
-## Traversing a `HashMap` using `.entrySet()`
+## Frequently Asked Questions
 
-Alternatively, `Map.Entry()` can be used to return a `set` of key-value pairs. This might be more efficient in some cases where it's needed to access the key and the value.
+### 1. How does a `HashMap` work internally?
 
-```java
-import java.util.*;
+A `HashMap` uses an array of buckets, and each bucket is a linked list or a balanced tree (from Java 8 onward). Keys are hashed to determine the bucket index, and values are stored accordingly.
 
-public class Main {
-  public static void main(String[] args) {
-    HashMap<String, String> courseTeacher = new HashMap<String, String>();
+### 2. Is `HashMap` thread-safe?
 
-    courseTeacher.put("History", "Ben");
-    courseTeacher.put("Mathematics", "Jeanette");
-    courseTeacher.put("Physics", "Lily");
+No. `HashMap` is not synchronized. For thread-safe operations, use `Collections.synchronizedMap()` or `ConcurrentHashMap`.
 
+### 3. How to increase the performance of a HashMap?
 
-    for (Map.Entry<String, String> entry: courseTeacher.entrySet()) {
-      System.out.printf("Course: %s",entry.getKey());
-      System.out.printf("Teacher: %s \n", entry.getValue());
-    }
-
-  }
-}
-```
-
-This example results in the following output:
-
-```shell
-Course: Mathematics Teacher: Jeanette
-Course: History Teacher: Ben
-Course: Physics Teacher: Lily
-```
+- Choose an appropriate initial capacity and load factor.
+- Use immutable keys with properly implemented `hashCode()` and `equals()` methods.

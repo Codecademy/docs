@@ -47,5 +47,5 @@ import collections
 c = collections.Counter("supercalifragilisticexpialidocious")
 print(f"Counter Collection: {c}\n")
 print(f"Sorted: {sorted(c.elements())}\n")
-print("5 Most Common Items: {c.most_common(5)}")
+print(f"5 Most Common Items: {c.most_common(5)}")
 ```

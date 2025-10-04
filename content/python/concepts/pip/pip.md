@@ -44,7 +44,7 @@ python3 --version
 
 It should be noted that as per the [pip documentation](https://pip.pypa.io/en/stable/development/release-process/?highlight=python%202#:~:text=pip%E2%80%99s%20public%20API.-,Python%202%20Support,-%C2%B6), `pip` maintainers are no longer supporting Python 2 and below.
 
-To upgrade Python, [python.org](python.org) will have the latest version for install. In addition, Python 3.4 and above will have `pip` [installed by default](https://docs.python.org/3/installing/index.html#key-terms).
+To upgrade Python, [python.org](https://www.python.org/) will have the latest version for install. In addition, Python 3.4 and above will have `pip` [installed by default](https://docs.python.org/3/installing/index.html#key-terms).
 
 The following command is run to check the latest version `pip`:
 

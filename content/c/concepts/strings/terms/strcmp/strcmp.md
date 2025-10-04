@@ -1,6 +1,6 @@
 ---
 Title: 'strcmp()'
-Description: 'Compares two strings and returns an integer value.'
+Description: 'Compares two strings lexicographically and returns an integer based on their relation.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'

@@ -20,7 +20,7 @@ The step-by-step process for user research is explained below in detail.
 
 _Planning_: The first step in performing user research should be establishing a [research plan](https://www.codecademy.com/resources/docs/uiux/research-plan). Here, the team will determine and document what information they need, why they need this data, and how it will be obtained. Organizational considerations like scope, timelines, and deliverables should also be established during this phase, and all stakeholders should be identified and informed.
 
-_Execution_: Here, the research team will use the appropriate methodologies determined in the planning phase to gather data on target users. These methodologies might include [user surveys](https://codecademy.com/resources/docs/uiux/surveys), which send question sets to large groups of users; [focus groups](https://www.codecademy.com/resources/docs/uiux/focus-groups), in which a moderator leads in-depth conversations with small groups of users; or any number of other avenues of data collection.
+_Execution_: Here, the research team will use the appropriate methodologies determined in the planning phase to gather data on target users. These methodologies might include [user surveys](https://codecademy.com/resources/docs/uiux/surveys), which send question sets to large groups of users; [focus groups](https://www.codecademy.com/resources/docs/uiux/focus-group), in which a moderator leads in-depth conversations with small groups of users; or any number of other avenues of data collection.
 
 _Analysis_: After gathering large quantities of raw data, the user research team will evaluate the data for actionable insights, considering the goals established during planning. Researchers will first check the quality of the data: "Does it appear the users understood this survey question? Did this focus group stay on topic? Did this tracking tool function as expected?" They will then examine the data for trends or groupings that can be reasonably applied to the userbase at large: "Enterprise decision-makers among the userbase express ABC preference; X% of daily users exit the site at XYZ page."
 
@@ -40,7 +40,7 @@ Designers and researchers should also consider participant selection when planni
 
 ## User Research Results and Products
 
-An important skill for user researchers to cultivate is translating raw data into easily digestible information and actionable insights. **Data visualization** is a major part of that skill set, in which the research team uses visual design tools like charts and graphs to communicate this information at varying levels of depth. Research teams may also generate user [personas](https://www.codecademy.com/resources/docs/uiux/persona) and [user stories](https://www.codecademy.com/resources/docs/user-story), tools that serve as useful shorthand references for designers, developers, and marketers.
+An important skill for user researchers to cultivate is translating raw data into easily digestible information and actionable insights. **Data visualization** is a major part of that skill set, in which the research team uses visual design tools like charts and graphs to communicate this information at varying levels of depth. Research teams may also generate user [personas](https://www.codecademy.com/resources/docs/uiux/persona) and [user stories](https://www.codecademy.com/resources/docs/uiux/user-story), tools that serve as useful shorthand references for designers, developers, and marketers.
 
 ## User Research Benefits and Shortcomings
 

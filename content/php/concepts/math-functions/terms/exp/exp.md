@@ -1,6 +1,6 @@
 ---
 Title: 'exp()'
-Description: 'Returns e raised to the power of x.'
+Description: 'Calculates the mathematical constant e to the power of the provided number.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'

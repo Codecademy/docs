@@ -73,7 +73,7 @@ This query will return everything in the knowledge graph that is an instance of 
 
 ## Advantages of Semantic Technologies
 
-Proponents of semantic technologies claim that they have several advantages over other common data management technologies, including [relational](https://www.codecademy.com/resources/docs/general/relational-database) and [tabular](https://www.codecademy.com/resources/docs/general/csv) databases. These include:
+Proponents of semantic technologies claim that they have several advantages over other common data management technologies, including [relational](https://www.codecademy.com/resources/docs/general/database/relational-database) and [tabular](https://www.codecademy.com/resources/docs/general/csv) databases. These include:
 
 - Better for integrating data from heterogeneous sources
 - Better for extracting data from unstructured sources

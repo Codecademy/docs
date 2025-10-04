@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C, a **double pointer** is a [pointer](https://www.codecademy.com/resources/docs/c/concepts/pointers/terms/pointer/pointer) that holds the memory address of another pointer. It allows indirect access to the value of a variable.
+In C, a **double pointer** is a pointer that holds the memory address of another pointer. It allows indirect access to the value of a variable.
 
 ## Syntax
 

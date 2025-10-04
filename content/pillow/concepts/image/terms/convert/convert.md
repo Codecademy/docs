@@ -78,8 +78,8 @@ Mode of the converted image: L
 
 Original Image:
 
-![Original Image](/media/pillow-image-example.jpg)
+![Original Image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-image-example.jpg)
 
 Converted Image:
 
-![Grayscale Image](/media//pillow-image-grayscale-example.jpg)
+![Grayscale Image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-image-grayscale-example.jpg)

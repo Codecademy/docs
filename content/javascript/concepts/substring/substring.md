@@ -1,86 +1,100 @@
 ---
 Title: 'Substring'
-Description: 'Extracts a portion of a string between two given indices and returns a new string. If only one index is given, it goes to the end.'
+Description: 'Extracts a portion of a string between two given indices and returns a new string.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
+  - 'Data Types'
+  - 'Methods'
   - 'Strings'
-  - 'Methods '
-  - 'Data Types '
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The **`substring()`** method in JavaScript extracts a portion of a string from one position to another (exclusive) and returns a new string. If the second position is omitted, it returns characters from the first position to the end of the string.
+The **`.substring()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) in JavaScript extracts a portion of a [string](https://www.codecademy.com/resources/docs/javascript/strings) from one position to another (exclusive) and returns a new string. If the second position is omitted, it returns characters from the first position to the end of the string.
 
 ## Syntax
 
 ```pseudo
-// Returns characters from startIndex to end of string
-string.substring(startIndex);
-```
-
-Or alternatively:
-
-```pseudo
-// Returns characters from startIndex to endIndex
 string.substring(startIndex, endIndex);
 ```
 
-## Details
+**Parameters:**
 
-- `.substring()` returns characters from the start index up to, but not including, the character at the end index.
+- `startIndex`: The position where extraction begins.
+- `endIndex` (Optional): The position before which to end extraction. If omitted, `.substring()` returns characters from `startIndex` to the end of the string.
 
-- If the end index is omitted, `.substring()` returns characters from the start index through the end of the string.
+**Return value:**
 
-- If the start and end indices are equal, `.substring()` returns an empty string.
+The `.substring()` method returns a newly created string containing the substring extracted from the input string.
 
-- Indices that are less than zero or are `NaN` are interpreted as zero.
+> **Notes:**
+>
+> - If `startIndex` and `endIndex` are equal, `.substring()` returns an empty string.
+> - Indices that are greater than [`string.length`](https://www.codecademy.com/resources/docs/javascript/strings/length) are treated as `string.length`.
+> - If `startIndex` is greater than `endIndex`, then `startIndex` is treated as the end index and `endIndex` is treated as the start index.
 
-- Indices that are greater than `string.length` are treated as `string.length`.
+## Example 1: Basic Usage of `.substring()`
 
-- If the first argument is greater than the second argument, the first argument is treated as the end index and the second argument is treated as the start index.
-
-## Example 1
-
-Using `.substring()` to display characters from a given string.
-
-```js
-const str = 'Codecademy';
-
-console.log(str.substring(0, 4));
-console.log(str.substring(4, 0));
-console.log(str.substring(-4, 4));
-// Output: "Code"
-
-console.log(str.substring(4));
-console.log(str.substring(4, 99));
-// Output: cademy
-```
-
-## Example 2
-
-Using `.substring()` to display the last `6` characters from a given string.
+This example uses the `.substring()` method to extract characters from index `0` to index `4` (exclusive) in the `str` string:
 
 ```js
-const str = 'Codecademy';
+let str = 'JavaScript';
 
-console.log(str.substring(str.length - 6));
-// Output: cademy
+let result = str.substring(0, 4);
+
+console.log(result);
 ```
 
-## Codebyte Example
+Here is the output:
 
-Run the following code to understand how the `.substring()` method works:
+```shell
+Java
+```
+
+## Example 2: Using `.substring()` Without `endIndex`
+
+This example uses the `.substring()` method without the `endIndex` parameter to extract characters from index `9` to the end of the `str` string:
+
+```js
+let str = 'Frontend Developer';
+
+let result = str.substring(9);
+
+console.log(result);
+```
+
+Here is the output:
+
+```shell
+Developer
+```
+
+## Codebyte Example: Using `.substring()` with Reversed Indices
+
+This codebyte example uses the `.substring()` method with the `startIndex` parameter being greater than `endIndex` to extract characters from index `0` to index `6` in the `str` string:
 
 ```codebyte/javascript
-const sentence = 'Hello, world!';
+let str = "Hello World";
 
-const greeting = sentence.substring(0, 5);
-const exclamation = sentence.substring(7, 12);
+let result = str.substring(6, 0);
 
-console.log(greeting);
-console.log(exclamation);
+console.log(result);
 ```
+
+## Frequently Asked Questions
+
+### 1. What happens if `startIndex` or `endIndex` in `.substring()` is negative?
+
+If `startIndex` or `endIndex` in `.substring()` is negative, it is treated as `0`.
+
+### 2. How is `.substring()` different from `.slice()`?
+
+- `.substring()` swaps the indices if the first is greater than the second, unlike `.slice()`.
+- `.slice()` supports negative indices, unlike `.substring()`.
+
+### 3. Can I use `.substring()` on string literals?
+
+Yes, you can use `.substring()` on string literals because JavaScript treats them as temporary `String` objects, making them eligible for calling methods on.

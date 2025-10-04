@@ -71,7 +71,7 @@ There are three _profiles_ or _fragments_ of OWL that can be used in place of th
 OWL profiles are briefly described below:
 
 - _OWL / EL (Existential Logic)_: OWL / EL is designed for building ontologies that define large numbers of classes and properties.
-- _OWL / QL (Query Logic)_: OWL / QL is designed for building ontologies that can be used to query data in [relational databases](https://www.codecademy.com/resources/docs/general/relational-database) through traditional query languages (such as [SQL](https://www.codecademy.com/resources/docs/sql)).
+- _OWL / QL (Query Logic)_: OWL / QL is designed for building ontologies that can be used to query data in [relational databases](https://www.codecademy.com/resources/docs/general/database/relational-database) through traditional query languages (such as [SQL](https://www.codecademy.com/resources/docs/sql)).
 - _OWL / RL (Rules Logic)_: OWL / RL is designed for building ontologies that work with business rules engines.
 
 ## OWL Namespace

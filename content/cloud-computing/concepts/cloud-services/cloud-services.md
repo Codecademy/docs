@@ -63,7 +63,7 @@ Disadvantages include:
 
 GCP was introduced by Google in 2010 and is the smallest of the big three cloud-computing platforms.
 
-- GCP offers over 100 services including computing, networking, and [big data](https://www.codecademy.com/resources/docs/general/data-science/big-data).
+- GCP offers over 100 services including computing, networking, and [big data](https://www.codecademy.com/resources/docs/data-science/big-data).
 - GCP services include Google Workspace, enterprise Android, and Chrome OS.
 - As of 2021 GCP has 27 geographic regions and 146 edge locations.
 

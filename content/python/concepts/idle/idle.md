@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The [**Integrated Development Learning Environment (IDLE)**](https://docs.python.org/3/library/idle.html) is a cross-platform [IDE](https://www.codecademy.com/resources/docs/general/ide) that offers a minimal code editing experience. It has been included with Python since version 1.5.2b1.
+The [**Integrated Development Learning Environment (IDLE)**](https://docs.python.org/3/library/idle.html) is a cross-platform [IDE](https://www.codecademy.com/resources/docs/general/developer-tools/ide) that offers a minimal code editing experience. It has been included with Python since version 1.5.2b1.
 
 ![Python IDLE window on macOS](https://raw.githubusercontent.com/Codecademy/docs/main/media/python-idle.png)
 

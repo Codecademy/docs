@@ -1,23 +1,31 @@
 ---
 Title: 'Stack'
-Description: 'A stack is a linear data structure where items are added and removed from the top in a last-in, first-out (LIFO) order.'
+Description: 'Represents a last-in, first-out data structure for storing objects.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Collections'
-  - 'Stack'
   - 'Data Structures'
+  - 'Stack'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-A **`Stack`** is a linear data structure that adds and removes items from the top in a last-in, first-out (LIFO) order. The `Stack` class comes from the `java.util` package and extends the legacy `Vector` class.
+A **stack** in Java represents a _last-in, first-out_ (LIFO) data structure for storing objects. It is implemented as the `Stack` class within the `java.util` package and extends the `Vector` class. A stack allows operations such as pushing items to the top, popping items off the top, and peeking at the top item without removing it.
 
-An opposite data structure is the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface, which follows the first-in, first-out (FIFO) order. The `Stack` and `Queue` concepts can be observed in everyday life (e.g., waiting in a line of people to purchase something or washing a stack of dishes from top to bottom).
+Stacks are commonly used in programming problems involving recursion, expression evaluation, undo functionality, and backtracking algorithms.
 
-Since Java 1.6, there is a more recent implementation of LIFO stack operations, the `Deque` interface. As stated in the JDK documentation, `Deque` interface should be used in preference to the legacy `Stack` class. Whenever a `Deque` is used as a `Stack`, elements are pushed and popped from the beginning of the `Deque`. The table below shows the equivalent methods between `Stack` and `Deque`:
+A common use of stacks is implementing the _undo_ feature in text editors. Each action a user takes (e.g., typing a character) is pushed onto a stack. When the undo command is triggered, the most recent action is popped from the stack and reversed.
+
+To use the `Stack` class, it must first be imported using:
+
+```java
+import java.util.Stack;
+```
+
+Since Java 1.6, the [`Deque`](https://www.codecademy.com/resources/docs/java/deque) interface has provided a more modern and efficient way to implement LIFO stack operations. According to the JDK documentation, `Deque` should be used in preference to the legacy `Stack` class.
 
 | `Stack` method | Equivalent `Deque` method |
 | :------------: | :-----------------------: |
@@ -28,61 +36,81 @@ Since Java 1.6, there is a more recent implementation of LIFO stack operations, 
 ## Syntax
 
 ```pseudo
-import java.util.Stack;
-
-Stack<DataType> s = new Stack<>();
+Stack<Type> stackName = new Stack<>();
 ```
 
-Where `DataType` is the [data type](https://www.codecademy.com/resources/docs/java/data-types) to be stored in the stack.
+**Parameters:**
 
-**Note:** Unlike `Queue`, `Stack` is a concrete class and not an interface.
+- `Type`: The data type of elements stored in the stack (e.g., `Integer`, `String`).
+- `stackName`: The variable name of the `Stack` object.
 
-## Methods
+> **Note:** Java stacks are generic, meaning they can store any object type specified in angle brackets.
+
+## Common Stack Methods
 
 The `Stack` class provides the following methods:
 
-- `.push(item)`: adds an item to the top of the `Stack`.
-- `.pop()`: removes and returns the object at the top of the `Stack`, throwing an exception when the `Stack` is empty.
-- `.peek()`: returns the (top) of the `Stack` without removing it, and throws an exception when the `Stack` is empty.
-- `.empty()`: returns `true` if the `Stack` contains no items or `false`, otherwise.
-- `.search(item)`: returns the distance the `item` is from the top of the `Stack`, starting from `1`, or `-1` is if `item` is not in the `Stack`.
+- `.push(item)`: Adds an item to the top of the stack.
+- `.pop()`: Removes and returns the item from the top of the stack.
+- `.peek()`: Returns the item at the top without removing it.
+- `.empty()`: Returns `true` if the stack is empty.
+- `.search(item)`: Returns the 1-based position from the top of the stack if found; otherwise, returns -1.
 
-## Example
+![Diagram showing stack structure where push adds an element to the top and pop removes the top element](https://raw.githubusercontent.com/Codecademy/docs/main/media/java-stack-push-pop-diagram1.png)
 
-The following example demonstrates the `Stack` class:
+## Example: Basic Stack Operations
+
+The following example demonstrates how to use common stack methods such as `.push()`, `.pop()`, `.peek()`, `.empty()`, and `.search()`:
 
 ```java
-// Main.java
 import java.util.Stack;
-import java.util.Arrays;
 
-public class Main {
+public class StackExample {
   public static void main(String[] args) {
     Stack<String> books = new Stack<>();
-    System.out.println(books.isEmpty());
-    books.push("Effective Java");
-    books.push("Head First Java");
-    books.push("Thinking in Java");
-    System.out.println(books.size());
-    System.out.println(books.search("Effective Java"));
-    System.out.println(books.search("Java for dummies"));
-    System.out.println(books.peek());
-    System.out.println(books.pop());
-    System.out.println(books.size());
-    System.out.println(Arrays.toString(books.toArray()));
- }
+
+    // Push items onto the stack
+    books.push("Java");
+    books.push("Python");
+    books.push("C++");
+
+    // Peek at the top item
+    System.out.println("Top item: " + books.peek()); // C++
+
+    // Pop the top item
+    books.pop();
+
+    // Check if stack is empty
+    System.out.println("Is stack empty? " + books.empty());
+
+    // Search for an item
+    System.out.println("Position of Java: " + books.search("Java"));
+  }
 }
 ```
 
-This will output the following:
+This example will result in the following output:
 
 ```shell
-true
-3
-3
--1
-Thinking in Java
-Thinking in Java
-2
-[Effective Java, Head First Java]
+Top item: C++
+Is stack empty? false
+Position of Java: 2
 ```
+
+## Frequently Asked Questions
+
+### 1. What is a stack in Java?
+
+A stack is a linear data structure that follows the _last-in, first-out_ (LIFO) principle. In Java, it is represented by the `Stack` class in the `java.util` package.
+
+### 2. How do you implement a stack in Java?
+
+A stack can be implemented using the built-in `Stack` class or manually using [arrays](https://www.codecademy.com/resources/docs/java/arrays) or linked lists. The simplest approach is:
+
+```java
+Stack<Integer> stack = new Stack<>();
+```
+
+### 3. What is the difference between stack and queue in Java?
+
+A stack uses LIFO (last-in, first-out) ordering, while a [queue](https://www.codecademy.com/resources/docs/java/queue) uses FIFO (first-in, first-out). This means stacks remove the most recently added element, while queues remove the oldest one.
