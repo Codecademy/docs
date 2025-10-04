@@ -114,13 +114,11 @@ Logical operators are used to combine multiple boolean expressions or values. Th
 
 ### Operators
 
-- `&&` Logical AND – returns true if **both** expressions are true.  
+- `&&` Logical AND – returns true if **both** expressions are true.
 
-- `||` Logical OR – returns true if **any** expression is true.  
+- `||` Logical OR – returns true if **any** expression is true.
 
-- `!` Logical NOT – reverses the result (true → false).  
-
-### Java Code
+- `!` Logical NOT – reverses the result (true → false).
 
 ```java
 int a = 10;
