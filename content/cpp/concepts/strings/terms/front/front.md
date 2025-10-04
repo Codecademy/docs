@@ -106,12 +106,6 @@ int main() {
 }
 ```
 
-This example results in the following output:
-
-```shell
-Password starts with uppercase: Valid
-```
-
 ## Frequently Asked Questions
 
 ### 1. What is `front()` in C++?
