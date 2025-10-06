@@ -2,17 +2,17 @@
 Title: '.perf_counter_ns()'
 Description: 'Returns the value of a high-resolution performance counter in nanoseconds.'
 Subjects: 
-    -'Computer Science'
-    -'Data Science'
-    -'Machine Learning'
-    -'Web Development'
+  - 'Computer Science'
+  - 'Data Science'
+  - 'Machine Learning'
+  - 'Web Development'
 Tags: 
-    -'Data Structures'
-    -'Functions'
-    -'Time'
+  - 'Data Structures'
+  - 'Functions'
+  - 'Time'
 CatalogContent: 
-    -'learn-python-3'
-    -'paths/computer-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 **`.perf_counter_ns()`** is a function from the `time` module that returns a high-resolution timer value in nanoseconds as an integer.
