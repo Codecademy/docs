@@ -18,7 +18,7 @@ In C++, the `.push_front()` [method](https://www.codecademy.com/resources/docs/c
 
 ## Syntax
 
-```pseudo
+```cpp
 dequeName.push_front(value);
 ```
 
@@ -54,7 +54,7 @@ int main() {
 
 The above code generates the following output:
 
-```shell
+```
 Deque contents: 10 20 30
 ```
 
