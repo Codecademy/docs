@@ -31,7 +31,7 @@ The `.perf_counter_ns()` function takes no arguments.
 
 Returns the value of a high-resolution performance counter in nanoseconds as an integer.
 
-## Example
+## Example 1
 
 In this example, `.perf_counter_ns()` from the `time` module is used to measure elapsed time for a block of code by taking timestamps before and after execution and calculating the difference:
 
