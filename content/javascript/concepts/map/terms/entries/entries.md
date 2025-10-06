@@ -1,9 +1,9 @@
 ---
 Title: '.entries()'
-Description: 'Returns the key-value pairs of a Map object.'
+Description: 'Returns an iterator of the key–value pairs in a Map object.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Map'
   - 'Object'
@@ -12,21 +12,27 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Returns the key-value pairs of a `Map` object.
+The \*\*`.entries()` method in JavaScript Maps returns an iterator containing each key–value pair in insertion order.
 
 ## Syntax
 
-The `.entries()` function takes no arguments and returns an iterator object of key-value pairs.
-
-```js
+```pseudo
 map.entries();
 ```
 
-If the `Map` object is empty, then `entries()` returns an empty iterator object.
+**Parameters:**
+
+The `.entries()` method takes no parameters.
+
+**Return value:**
+
+An iterator object that contains the `[key, value]` pairs for each element in the `Map`, in insertion order.
+
+> **Note:** If the `Map` object is empty, then `entries()` returns an empty iterator object.
 
 ## Example
 
-The contents of a `Map` object can be printed to the console using `forEach`.
+In this example, a Map’s key-value pairs are iterated using `for...of`:
 
 ```js
 const animals = new Map([
@@ -40,27 +46,25 @@ const animals = new Map([
 
 const iterator = animals.entries();
 
-iterator.forEach((pair) => {
-  const key = pair[0];
-  const value = pair[1];
-
+for (const [key, value] of iterator) {
   console.log(`key: ${key}, value: ${value}`);
-  /*
-    "key: cat, value: 1"
-    "key: dog, value: 2"
-    "key: horse, value: 3"
-    "key: eagle, value: 4"
-    "key: bear, value: 5"
-    "key: coyote, value: 6"
-  */
-});
+}
 ```
 
-`iterator` contains the pairs in insertion order.
+The output produced will be:
+
+```shell
+key: cat, value: 1
+key: dog, value: 2
+key: horse, value: 3
+key: eagle, value: 4
+key: bear, value: 5
+key: coyote, value: 6
+```
 
 ## Codebyte Example
 
-A car dealership lists their inventory using a `Map` object. `.entries()` can be used to search the inventory and get the price of a selected car. When a user purchases a car, the corresponding key-value pair will be removed using the [`.delete()`](https://www.codecademy.com/resources/docs/javascript/map/delete) function.
+In this example, a Map is used to track car inventory, search for a specific car, and update the inventory and wallet when a purchase is made:
 
 ```codebyte/js
 const cars = new Map([
@@ -72,40 +76,31 @@ const cars = new Map([
   ['Lexus IS350', 42000]
 ]);
 
-let wallet = 100000;  // Current funds of user
+let wallet = 100000;  // Current funds
 const car = 'Lexus IS350';  // Selected car
 
-let iterator = cars.entries();
-
-// Search for the car in dealership inventory
-const found = iterator.find(entry => {
-  const carNameFromEntry = entry[0];
-  return carNameFromEntry === car;
-});
+// Convert Map entries to an array for searching
+const found = Array.from(cars.entries()).find(([carName]) => carName === car);
 
 if (found) {
-  const price = found[1]; // Price of car
+  const price = found[1];
 
   if (wallet >= price) {
-    wallet -= price;  // Deduct price from existing funds
+    wallet -= price; // Deduct funds
+    cars.delete(car); // Remove car from inventory
 
-    cars.delete(car);  // Car leaves the inventory lot
+    console.log(`${car} purchased.`);
+    console.log('Current inventory after purchase:');
 
-    console.log(`${car} purchased.`)
-    console.log('Current inventory after purchase:')
-
-    iterator = cars.entries();
-
-    iterator.forEach(entry => {
-      const car = entry[0];
-      const price = entry[1];
-      console.log(`{Car: ${car}, Price: ${price}}`);
-    });
+    // Iterate over remaining cars
+    for (const [carName, price] of cars.entries()) {
+      console.log(`{Car: ${carName}, Price: ${price}}`);
+    }
 
     console.log(`\nCurrent funds: ${wallet}`);
-    console.log(`${car} purchased. Enjoy the drive!`)
+    console.log(`${car} purchased. Enjoy the drive!`);
   } else {
-    console.log('Not enough funds in wallet.')
+    console.log('Not enough funds in wallet.');
   }
 } else {
   console.log('Car is not found in inventory.');
