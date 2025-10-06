@@ -1,5 +1,5 @@
 ---
-Title: '.entries()'
+Title: 'entries()'
 Description: 'Returns an iterator of the key–value pairs in a Map object.'
 Subjects:
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The \*\*`.entries()` method in JavaScript Maps returns an iterator containing each key–value pair in insertion order.
+The **`entries()`** method in JavaScript Maps returns an iterator containing each key–value pair in insertion order.
 
 ## Syntax
 
