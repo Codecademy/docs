@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the `.push_front()` [method](https://www.codecademy.com/resources/docs/cpp/methods) adds an element to the beginning of the deque.
+In C++, the **`.push_front()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) adds an element to the beginning of the deque.
 
 ## Syntax
 
