@@ -31,7 +31,7 @@ Since the beginning of the 21st century, data science has been used in almost ev
 ## Languages and Tools
 
 - [Python](https://www.codecademy.com/resources/docs/python)
-  - [Matplotlib](https://www.codecademy.com/resources/docs/matplotlib)
+  - [Matplotlib](https://www.codecademy.com/resources/docs/matplotlib){:target="_blank"}
   - [Pandas](https://www.codecademy.com/resources/docs/pandas)
   - [Scikit-learn](https://www.codecademy.com/article/scikit-learn-tutorial)
   - [TensorFlow](https://www.codecademy.com/resources/docs/tensorflow)
