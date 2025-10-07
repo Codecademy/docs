@@ -18,11 +18,17 @@ In C++, the `.push_front()` [method](https://www.codecademy.com/resources/docs/c
 
 ## Syntax
 
-```cpp
+```pseudo
 dequeName.push_front(value);
 ```
 
+**Parameters:**
+
 - `value`: The element to be added to the front of the deque. It can be of any [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that the `dequeName` holds.
+
+**Return value:**
+
+`void` (no value is returned).
 
 ## Example
 
@@ -54,7 +60,7 @@ int main() {
 
 The above code generates the following output:
 
-```
+```shell
 Deque contents: 10 20 30
 ```
 
