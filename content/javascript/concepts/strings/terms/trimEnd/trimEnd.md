@@ -1,18 +1,18 @@
 ---
 Title: '.trimEnd()'
-Description: 'Removes whitespace from the end of a string.'
+Description: 'Removes whitespace characters from the end of a string.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'Strings'
   - 'Methods'
+  - 'Strings'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.trimEnd()`** method removes whitespace characters from the **end** (right side) of a string. It does not modify the original string but instead returns a new string with the trailing whitespace removed.
+The **`.trimEnd()`** method removes whitespace characters from the end (right side) of a string. It does not modify the original string but instead returns a new string with the trailing whitespace removed.
 
 ## Syntax
 
@@ -20,9 +20,17 @@ The **`.trimEnd()`** method removes whitespace characters from the **end** (righ
 string.trimEnd();
 ```
 
+**Parameters:**
+
+The `.trimEnd()` method takes no parameters.
+
+**Return value:**
+
+Returns a new string with whitespace removed from the end (right side) of the original string.
+
 ## Example
 
-Removing whitespace from the end of a string using `.trimEnd()`:
+The following example removes whitespace from the end of a string using `.trimEnd()`:
 
 ```js
 const message = 'Hello World   ';
@@ -30,17 +38,18 @@ console.log(`Before trim: "${message}"`);
 console.log(`After trimEnd: "${message.trimEnd()}"`);
 ```
 
-Output:
+Here's the output of this code:
 
-```
+```shell
 Before trim: "Hello World   "
 After trimEnd: "Hello World"
 ```
 
 ## Codebyte Example
+
 The following runnable example demonstrates the `.trimEnd()` method in action:
 
-```js
+```codebyte/javascript
 // Create a string with trailing whitespace
 const greeting = 'Hi there!    ';
 
