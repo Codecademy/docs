@@ -14,20 +14,28 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, **`.log1p()`** computes the natural logarithm of one plus the input tensor element-wise.
+In PyTorch, **`.log1p()`** computes the natural logarithm of one plus the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) element-wise.
 
-This function is particularly useful for numerical stability when dealing with small values, as it helps avoid issues that can arise when directly computing the logarithm of values close to zero.
+This function improves numerical stability for small input values, avoiding issues that can occur when computing the logarithm directly.
 
 ## Syntax
 
 ```pseudo
-torch.masked_select(input, mask, *, out=None)
+torch.log1p(input, *, out=None)
 ```
+
+**Parameters:**
 
 - `input`: The input tensor for which the natural logarithm of one plus the elements will be computed.
 - `out` (Optional): A tensor to store the result. If provided, the computed values will be written to this tensor instead of creating a new one.
 
+**Return value:**
+
+Returns a new tensor with each element equal to the natural logarithm of one plus the corresponding element in the input tensor. The original tensor remains unchanged unless an `out` tensor is provided.
+
 ## Example
+
+In this example, `.log1p()` computes the natural logarithm of one plus each element in a tensor:
 
 ```py
 import torch
