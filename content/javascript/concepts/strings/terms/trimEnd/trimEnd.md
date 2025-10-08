@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.trimEnd()`** method removes whitespace characters from the end (right side) of a string. It does not modify the original string but instead returns a new string with the trailing whitespace removed.
+The **`.trimEnd()`** method removes whitespace characters from the end (right side) of a [string](https://www.codecademy.com/resources/docs/javascript/strings). It does not modify the original string but instead returns a new string with the trailing whitespace removed.
 
 ## Syntax
 
