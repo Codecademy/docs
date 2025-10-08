@@ -1,6 +1,6 @@
 ---
-Title: 'randint'
-Description: 'Generates random integers from a specified range in NumPy.'
+Title: 'randint()'
+Description: 'Generates random integers within a specified range using NumPy.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -17,14 +17,14 @@ CatalogContent:
 
 ## Syntax
 
-```python
+```pseudo
 numpy.random.randint(low, high=None, size=None, dtype=int)
 ```
 
 **Parameters:**
 
-- `low` (int): Lowest integer to be drawn (inclusive).
-- `high` (int, optional): If provided, the largest integer (exclusive). If `None`, the range is `0` to `low - 1`.
+- `low` (int): Lowest (inclusive) integer to be drawn.
+- `high` (int, optional): One above the highest integer to be drawn. If not provided, integers are drawn from the range `[0, low)`.
 - `size` (int or tuple of ints, optional): Output shape. If `None`, a single integer is returned.
 - `dtype` (data-type, optional): Desired data type of the output. Default is `int`.
 
@@ -66,7 +66,7 @@ Here:
 
 ## Codebyte Example
 
-This codebyte sample generates a single random integer and a 2×3 array of random integers from specified ranges, ensuring reproducible results using a fixed random seed.
+This codebyte sample generates a single random integer and a 2×3 array of random integers from specified ranges, ensuring reproducible results using a fixed random seed:
 
 ```codebyte/python
 import numpy as np
