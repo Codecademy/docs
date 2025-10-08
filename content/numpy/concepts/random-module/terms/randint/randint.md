@@ -50,6 +50,7 @@ print(single_int)
 arr = np.random.randint(1, 6, size=5)
 print(arr)
 ```
+
 The output for this code will be:
 
 ```shell
@@ -62,7 +63,6 @@ Here:
 - `np.random.seed(15)` ensures reproducible results.
 - `np.random.randint(10)` generates a single integer between 0 and 9.
 - `np.random.randint(1, 6, size=5)` generates an array of 5 integers between 1 and 5.
-
 
 ## Codebyte Example
 
