@@ -1,20 +1,32 @@
-# trimStart()
+---
+Title: '.trimStart()'
+Description: 'Removes whitespace characters from the start (left side) of a string.'
+Subjects:
+  - 'Computer Science'
+  - 'Web Development'
+Tags:
+  - 'Methods'
+  - 'Strings'
+CatalogContent:
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
+---
 
-The `trimStart()` method removes whitespace characters from the beginning of a string. It returns a new string without modifying the original string. This method is also available as `trimLeft()`, which is an alias for `trimStart()`.
+The **`trimStart()`** method removes whitespace characters from the beginning of a string. It returns a new string with leading whitespace removed, leaving the original string unchanged. This method is also available as `trimLeft()`, which is an alias for `trimStart()`.
 
 Whitespace characters include spaces, tabs, line breaks, and other Unicode whitespace characters.
 
 ## Syntax
 
-```javascript
+```pseudo
 string.trimStart()
 ```
 
-### Parameters
+**Parameters:**
 
 The `trimStart()` method does not take any parameters.
 
-### Return Value
+**Return value:**
 
 Returns a new string with whitespace removed from the beginning of the original string. The original string remains unchanged.
 
@@ -22,21 +34,23 @@ Returns a new string with whitespace removed from the beginning of the original 
 
 The following example demonstrates how `trimStart()` removes leading whitespace:
 
-```javascript
+```js
 const greeting = "   Hello, World!";
 const trimmedGreeting = greeting.trimStart();
 
 console.log(greeting);
-// Output: "   Hello, World!"
-
 console.log(trimmedGreeting);
-// Output: "Hello, World!"
-
 console.log(greeting.length);
-// Output: 16
-
 console.log(trimmedGreeting.length);
-// Output: 13
+```
+
+The output of this code is:
+
+```shell
+   Hello, World!
+Hello, World!
+16
+13
 ```
 
 In this example, `trimStart()` removes the three leading spaces from the string, reducing its length from 16 to 13 characters.
