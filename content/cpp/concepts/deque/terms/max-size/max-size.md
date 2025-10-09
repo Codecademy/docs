@@ -1,6 +1,6 @@
 ---
-Title: '.max-size()'
-Description: 'The .max_size() method returns the maximum number of elements that a deque container can theoretically hold as content.'
+Title: '.max_size()'
+Description: 'Returns the maximum number of elements a deque can hold.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,54 +14,66 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.max_size()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) returns the maximum number of elements in the deque. This is the maximum potential size the container can reach due to known system or library implementation limitations, but the container is by no means guaranteed to be able to reach that size: it can still fail to allocate storage at any point before that size is reached.
+In C++, the **`.max_size()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) returns the maximum number of elements in the deque. This is the maximum potential size the container can reach due to known system or library implementation limitations, but the container is by no means guaranteed to be able to reach that size, and it can still fail to allocate storage at any point before that size is reached.
 
 ## Syntax
 
-`container.max_size()`
+```pseudo
+dequeName.max_size();
+```
 
-Member function of standard containers like:
-std::deque, std::vector, std::list, std::map, etc.
+**Parameters:**
+
+The method does not take any parameters.
+
+**Return value:**
+
+Returns the maximum number of elements the `deque` can potentially hold as a value of type `size_type`.
 
 ## Example
+
+In this example, the maximum possible number of elements a `deque` can hold on the system is retrieved:
 
 ```cpp
 #include <iostream>
 #include <deque>
 
 int main() {
-    std::deque<int> mydeque;
+  std::deque<int> mydeque;
 
-    std::cout << "Maximum possible elements: " << mydeque.max_size() << '\n';
+  // Display the maximum possible number of elements
+  std::cout << "Maximum possible elements: " << mydeque.max_size() << '\n';
 }
 ```
+
 Example output on a 64-bit system:
+
 ```shell
 Maximum possible elements: 4611686018427387903
 ```
 
 ## Codebyte Example
 
-Here, member `max_size` is used to check beforehand whether the requested size will be allowed by `resize`.
+In this example, a requested size is compared with the maximum possible size of a `deque`, and the container is resized only if the size is allowed:
 
 ```codebyte/cpp
-
-// deque::max_size
 #include <iostream>
 #include <deque>
 
-int main ()
-{
-  unsigned int i;
+int main() {
+
   std::deque<int> mydeque;
+  unsigned int requested_size = 5;  // example requested size
 
-  std::cout << "Enter number of elements: ";
-  std::cin >> i;
+  if (requested_size < mydeque.max_size()) {
+    mydeque.resize(requested_size);
+    std::cout << "Deque resized to " << requested_size << " elements.\n";
+  } else {
+    std::cout << "Requested size exceeds maximum allowed.\n";
+  }
 
-  if (i<mydeque.max_size()) mydeque.resize(i);
-  else std::cout << "That size exceeds the limit.\n";
+  std::cout << "Current deque size: " << mydeque.size() << std::endl;
 
   return 0;
 }
-
 ```
