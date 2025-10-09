@@ -19,14 +19,21 @@ Quoted-printable is an encoding scheme used in email messages to represent non-A
 ## Syntax
 
 ```pseudo
-binascii.a2b_qp(data, *, header=False)
+binascii.a2b_qp(data, header=False)
 ```
 
-- `data`: A bytes or string object containing the quoted-printable encoded data to be decoded.
-- `*`: This indicates that any arguments following it must be passed using keyword syntax.
-- `header`: When set to True, it decodes the data as if it were in an email header, handling special rules for headers.
+**Parameters:**
+
+- `data`: A bytes-like object containing the quoted-printable encoded data to decode.
+- `header`: When set to `True`, it decodes the data as if it were in an email header, handling special rules for headers. Default is `False`.
+
+**Return value:**
+
+The `.a2b_qp()` function returns the decoded binary data as a bytes object.
 
 ## Example
+
+This example decodes a quoted-printable encoded byte string into its original binary form:
 
 ```py
 import binascii
@@ -48,11 +55,16 @@ b'Codecademy Docs'
 
 ## Codebyte Example
 
+This example decodes a quoted-printable encoded message body retrieved from an email:
+
 ```codebyte/python
 import binascii
 
-encoded_data = b'Codecademy=20Docs'
-decoded_data = binascii.a2b_qp(encoded_data)
+# Quoted-printable encoded email message
+email_body = b'Hello=2C=20thank=20you=20for=20joining=20Codecademy=21'
 
-print(decoded_data)
+# Decode the email message body
+decoded_body = binascii.a2b_qp(email_body)
+
+print(decoded_body)
 ```
