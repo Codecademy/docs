@@ -1,6 +1,6 @@
 ---
 Title: '.median()'
-Description: 'Produces a new Series or DataFrame with median values for the groups in a GroupBy object.'
+Description: 'Returns a Series or DataFrame containing the median of each group in a GroupBy object.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,8 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.median()`** method produces a new `Series` or [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) with median values for the groups in a [`GroupBy`](https://www.codecademy.com/resources/docs/pandas/groupby) object.  
-It calculates the middle value of each group, ignoring `NaN` values by default.
+The **`.median()`** method returns a `Series` or [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) containing the median of each group in a [`GroupBy`](https://www.codecademy.com/resources/docs/pandas/groupby) object, ignoring `NaN` values by default.
 
 ## Syntax
 
@@ -21,13 +20,17 @@ It calculates the middle value of each group, ignoring `NaN` values by default.
 groupbyobject.median(numeric_only)
 ```
 
-The `.median()` method has the following parameter:
+**Parameters:**
 
-`numeric_only`: Boolean value. If `True`, includes only numeric columns. Default is `False`.
+- `numeric_only`: Boolean value. If `True`, includes only numeric columns. Default is `False`.
+
+**Return value:**
+
+Returns a new `Series` or `DataFrame` containing the median values for each group.
 
 ## Example
 
-The following example produces a `GroupBy` object from a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) and executes the `.median()` method on it.
+The following example produces a `GroupBy` object from a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) and executes the `.median()` method on it:
 
 ```py
 import pandas as pd
@@ -56,4 +59,24 @@ This example produces the following output:
 0    A   20.0
 1    B   45.0
 2    C   60.0
+```
+
+## Codebyte Example
+
+In this example, median scores of students in different classes are computed to analyze performance:
+
+```codebyte/python
+import pandas as pd
+
+# DataFrame containing student scores for different classes
+df = pd.DataFrame({
+    'Class': ['Math', 'Math', 'Science', 'Science', 'History', 'History'],
+    'Student': ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank'],
+    'Score': [85, 90, 78, 82, 92, 88]
+})
+
+# Group by class and calculate median score
+class_median = df.groupby('Class')['Score'].median()
+
+print(class_median)
 ```
