@@ -31,10 +31,10 @@ Since the beginning of the 21st century, data science has been used in almost ev
 ## Languages and Tools
 
 - [Python](https://www.codecademy.com/resources/docs/python)
-  - Matplotlib
+  - [Matplotlib](https://www.codecademy.com/resources/docs/matplotlib)
   - [Pandas](https://www.codecademy.com/resources/docs/pandas)
-  - Scikit-learn
-  - TensorFlow
+  - [Scikit-learn](https://www.codecademy.com/article/scikit-learn-tutorial)
+  - [TensorFlow](https://www.codecademy.com/resources/docs/tensorflow)
   - NLTK
 - [R](https://www.codecademy.com/resources/docs/r) (ggplot2)
 - [JSON](https://www.codecademy.com/resources/docs/general/json)
