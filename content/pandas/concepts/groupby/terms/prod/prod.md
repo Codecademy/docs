@@ -33,9 +33,9 @@ The following example produces a `GroupBy` object from a [`DataFrame`](https://w
 import pandas as pd
 
 df = pd.DataFrame({
-    'Key' : ['A', 'A', 'B', 'B', 'C', 'C'],
-    'Value1' : [2, 3, 4, 5, 6, 9],
-    'Value2' : [10, 5, 2, 3, 4, 2]
+    'Key' : ['A', 'A', 'B', 'B', 'C', 'C','D'],
+    'Value1' : [2, 3, 4, 5, 6, 9, 10],
+    'Value2' : [10, 5, 2, 3, 4, 2, 11]
 })
 print(df, end='\n\n')
 
@@ -54,12 +54,14 @@ This example produces the following output:
 3   B       5       3
 4   C       6       4
 5   C       9       2
+6   D      10      11
 
      Value1  Value2
 Key                  
 A          6      50
 B         20       6
 C         54       8
+D         10      11
 ```
 
 ## Codebyte Example
@@ -69,9 +71,9 @@ Use the Codebytes editor below to produce a new DataFrame with the `.prod()` met
 import pandas as pd
 
 df = pd.DataFrame({
-    'Key' : ['A', 'A', 'B', 'B', 'C', 'C'],
-    'Value1' : [2, 3, 4, 5, 6, 9],
-    'Value2' : [10, 5, 2, 3, 4, 2]
+    'Key' : ['A', 'A', 'B', 'B', 'C', 'C','D'],
+    'Value1' : [2, 3, 4, 5, 6, 9, 10],
+    'Value2' : [10, 5, 2, 3, 4, 2, 11]
 })
 print(df, end='\n\n')
 
