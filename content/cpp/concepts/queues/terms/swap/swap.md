@@ -5,9 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
+  - 'Classes'
   - 'Objects'
   - 'OOP'
-  - 'Classes'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
@@ -20,8 +20,22 @@ The **`.swap()`** function swaps the values of two queues. The queues must have 
 The `.swap()` method can be used with the following syntax:
 
 ```pseudo
-queue1.swap(queue2); // or swap(queue1, queue2);
+queue1.swap(queue2);
 ```
+
+Or alternatively:
+
+```pseudo
+swap(queue1, queue2);
+```
+
+**Parameters:**
+
+The other queue whose contents are to be swapped.
+
+**Return value:**
+
+`.swap()` does not return a value.
 
 ## Example
 
@@ -57,7 +71,7 @@ world hello
 
 ## Codebyte Example
 
-The following codebyte exapmle below uses `.swap()` on two int queues:
+The following codebyte example below uses `.swap()` on two int queues:
 
 ```codebyte/cpp
 #include <iostream>
