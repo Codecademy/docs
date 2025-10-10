@@ -20,5 +20,7 @@ Mobile Development
 Networking
 Web Design
 Web Development
+<!-- Meta Data shows how quickly a website can process changes and get noticed on the web -->
++ Web MetaData   
 AI
 ```
