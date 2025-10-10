@@ -18,7 +18,7 @@ The **`.keys()`** method returns a new map [iterator](https://www.codecademy.com
 
 ## Syntax
 
-```javascript
+```pseudo
 map.keys();
 ```
 
@@ -34,7 +34,7 @@ Returns a new map iterator object containing the keys of each element in the map
 
 This example uses a `for...of` loop to iterate over the iterable object returned by `.keys()` and prints the keys of the `ratings` map:
 
-```javascript
+```js
 const ratings = new Map();
 
 ratings.set(1, 'Bad');
@@ -58,9 +58,9 @@ The code will produce this output:
 
 ## Example 2: Getting the Values
 
-In this example, the keys are saved in the `numsKeys` array, and the map's [`.get()`](https://www.codecademy.com/resources/docs/javascript/map/get) method is used to retrieve and print each value.
+In this example, the keys are saved in the `numsKeys` array, and the map's [`.get()`](https://www.codecademy.com/resources/docs/javascript/map/get) method is used to retrieve and print each value:
 
-```javascript
+```js
 const nums = new Map([
   [2, 'Two'],
   [4, 'Four'],
