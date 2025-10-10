@@ -8,7 +8,7 @@ Tags:
   - 'Classes'
   - 'Containers'
   - 'Deques'
-  - 'Data Structures"
+  - 'Data Structures'
 CatalogContent: 
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
