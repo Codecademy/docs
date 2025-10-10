@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.swap()`** [method] (https://www.codecademy.com/resources/docs/cpp/methods) exchanges the contents of one deque with another deque of the same type. After the swap, each deque contains the elements that were originally stored in the other. 
+The **`.swap()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) exchanges the contents of one [`deque`](https://www.codecademy.com/resources/docs/cpp/deque) with another deque of the same type. After the swap, each deque holds the elements that were originally in the other.
 
 ## Syntax
 
@@ -22,84 +22,89 @@ The **`.swap()`** [method] (https://www.codecademy.com/resources/docs/cpp/method
 deque1.swap(deque2);
 ```
 
-- `deque1`: The first deque that is going to take the content of deque2.
-- `deque2`: The second deque whose contents are exchanged with deque1.
+**Parameters:**
+
+- `deque2`: The deque whose contents will be exchanged with `deque1`.
+
+**Return value:**
+
+This method does not return a value.
 
 ## Example
 
-The following code demonstrates how to swap two integer variables using `.swap()`:
+This example demonstrates swapping the contents of two integer deques using `.swap()`:
 
 ```cpp
 #include <iostream>
-#include <algorithm>
+#include <deque>
 using namespace std;
 
 int main() {
-  // Create two deques of integers
-  std::deque<int> deque1 = {1, 2, 3};
-  std::deque<int> deque2 = {10, 20, 30, 40};
+  deque<int> deque1 = {1, 2, 3};
+  deque<int> deque2 = {10, 20, 30, 40};
 
-  // Display elements before swapping
-  std::cout << "Before swap:" << std::endl;
-  std::cout << "Deque 1: ";
-  for (int num : deque1) std::cout << num << " ";
-  std::cout << std::endl;
+  cout << "Before swap:" << endl;
+  cout << "Deque 1: ";
+  for (int num : deque1) cout << num << " ";
+  cout << endl;
 
-  std::cout << "Deque 2: ";
-  for (int num : deque2) std::cout << num << " ";
-  std::cout << std::endl;
+  cout << "Deque 2: ";
+  for (int num : deque2) cout << num << " ";
+  cout << endl;
 
-  // Swap contents
   deque1.swap(deque2);
 
-  // Display elements after swapping
-  std::cout << "\nAfter swap:" << std::endl;
-  std::cout << "Deque 1: ";
-  for (int num : deque1) std::cout << num << " ";
-  std::cout << std::endl;
+  cout << "\nAfter swap:" << endl;
+  cout << "Deque 1: ";
+  for (int num : deque1) cout << num << " ";
+  cout << endl;
 
-  std::cout << "Deque 2: ";
-  for (int num : deque2) std::cout << num << " ";
-  std::cout << std::endl;
+  cout << "Deque 2: ";
+  for (int num : deque2) cout << num << " ";
+  cout << endl;
 
   return 0;
 }
 ```
+
 The output of this code is:
 
 ```shell
 Before swap:
-Deque 1: 1 2 3 
-Deque 2: 10 20 30 40 
+Deque 1: 1 2 3
+Deque 2: 10 20 30 40
 
 After swap:
-Deque 1: 10 20 30 40 
+Deque 1: 10 20 30 40
 Deque 2: 1 2 3
 ```
 
+## Codebyte Example
 
-## Codebyte Example 
-
-The following codebyte shows a quick example of using the .swap() method with two deques of strings:
-
-We can currently support:
+This example swaps the contents of two deques containing strings:
 
 ```codebyte/cpp
 #include <iostream>
 #include <deque>
 #include <string>
+using namespace std;
 
 int main() {
-  std::deque<std::string> dequeA = {"apple", "banana"};
-  std::deque<std::string> dequeB = {"cherry", "date"};
+  deque<string> dequeA = {"apple", "banana"};
+  deque<string> dequeB = {"cherry", "date"};
+
+  cout << "Before swap:" << endl;
+  cout << "Deque A:";
+  for (const auto& value : dequeA) cout << ' ' << value;
+  cout << "\nDeque B:";
+  for (const auto& value : dequeB) cout << ' ' << value;
 
   dequeA.swap(dequeB);
 
-  std::cout << "Deque A:";
-  for (const auto& value : dequeA) std::cout << ' ' << value;
-
-  std::cout << "\nDeque B:";
-  for (const auto& value : dequeB) std::cout << ' ' << value;
+  cout << "\n\nAfter swap:" << endl;
+  cout << "Deque A:";
+  for (const auto& value : dequeA) cout << ' ' << value;
+  cout << "\nDeque B:";
+  for (const auto& value : dequeB) cout << ' ' << value;
 }
-
 ```
