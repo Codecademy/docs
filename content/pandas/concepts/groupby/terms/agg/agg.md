@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.agg()`** method in Pandas is used with `groupby()` to apply one or more aggregation functions (like `sum`, `mean`, `count`, etc.) to grouped data. It allows flexible and powerful summarization of DataFrame data after grouping.
+The **`.agg()`** method in Pandas is used with `groupby()` to apply one or more aggregation functions (like [`sum`](https://www.codecademy.com/resources/docs/pandas/groupby/sum), [`mean`](https://www.codecademy.com/resources/docs/pandas/groupby/mean), [`count`](https://www.codecademy.com/resources/docs/pandas/groupby/count), etc.) to grouped data. It allows flexible and powerful summarization of DataFrame data after grouping.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ DataFrameGroupBy.agg(arg, *args, **kwargs)
 
 **Parameters:**
 
-- arg: Function, string, list, or dictionary specifying the aggregation(s) to apply. Examples: `'sum'`, `'mean'`, `['min', 'max']`, or `{'col1': 'sum', 'col2': 'mean'}`
+- `arg`: Function, string, list, or dictionary specifying the aggregation(s) to apply. Examples: `'sum'`, `'mean'`, `['min', 'max']`, or `{'col1': 'sum', 'col2': 'mean'}`
 - `*args`: Additional positional arguments passed to the function.
 - `**kwargs`: Additional keyword arguments passed to the function.
 
