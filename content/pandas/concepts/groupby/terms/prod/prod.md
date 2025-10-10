@@ -20,14 +20,18 @@ The **`.prod()`** method produces a new `Series` or [`DataFrame`](https://www.co
 groupbyobject.prod(numeric_only, min_count)
 ```
 
-The `.prod()` method has the following parameters:
+**Parameters:**
 
-- `numeric_only`: Boolean value. `True` includes only int, float, and boolean columns. Default value is `False`.
-- `min_count`: Int value. Required number of valid entries in order to produce a result. Default value is 0.
+- `numeric_only`: If `True`, non-numeric columns are excluded. If `False`, attempts to include all columns (non-numeric columns are ignored in computation).
+- `min_count`: If the number of valid (non-NA) entries in a group is less than `min_count`, the result for that group is `NaN`.
+
+**Return value:**
+
+Returns a `DataFrame` (or `Series` if applied on a SeriesGroupBy object) containing the product of each numeric column for each group.
 
 ## Example
 
-The following example produces a `GroupBy` object from a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) and executes the `.prod()` method on it.
+The following example produces a `GroupBy` object from a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) and executes the `.prod()` method on it:
 
 ```py
 import pandas as pd
@@ -57,7 +61,7 @@ This example produces the following output:
 6   D      10      11
 
      Value1  Value2
-Key                  
+Key
 A          6      50
 B         20       6
 C         54       8
@@ -66,18 +70,22 @@ D         10      11
 
 ## Codebyte Example
 
-Use the Codebytes editor below to produce a new DataFrame with the `.prod()` method.
-```codebyte/py
+This example calculates the total sales value for each product category by multiplying the price and quantity sold. It demonstrates how `.prod()` can be used in a real-world grouped dataset:
+
+```codebyte/python
 import pandas as pd
 
+# Sample sales data
 df = pd.DataFrame({
-    'Key' : ['A', 'A', 'B', 'B', 'C', 'C','D'],
-    'Value1' : [2, 3, 4, 5, 6, 9, 10],
-    'Value2' : [10, 5, 2, 3, 4, 2, 11]
+    'Category': ['Electronics', 'Electronics', 'Clothing', 'Clothing', 'Books'],
+    'Price': [200, 150, 50, 30, 20],
+    'Quantity': [2, 3, 4, 5, 10]
 })
-print(df, end='\n\n')
 
-group_prod = df.groupby('Key').prod()
+print("Original DataFrame:\n", df, end='\n\n')
 
-print(group_prod)
+# Group by Category and compute the product of numeric columns
+category_prod = df.groupby('Category').prod()
+
+print("Grouped product:\n", category_prod)
 ```
