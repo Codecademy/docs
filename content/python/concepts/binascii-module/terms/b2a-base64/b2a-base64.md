@@ -96,16 +96,3 @@ Encoded: b'Q29kZWNhZGVteSBEb2NzIQ==\n'
 ```
 
 ---
-
-## Notes
-
-- The **Base64** encoding maps each group of 3 bytes of binary data to 4 printable ASCII characters.
-- It’s useful when transmitting binary data over text-based protocols like HTTP or SMTP.
-- For decoding, you can use the complementary method **`binascii.a2b_base64()`**.
-
----
-
-## Related Methods
-
-- [`binascii.a2b_base64()`](https://docs.python.org/3/library/binascii.html#binascii.a2b_base64) — Decodes a Base64-encoded ASCII string back into binary data.  
-- [`base64.b64encode()`](https://docs.python.org/3/library/base64.html#base64.b64encode) — Higher-level function from the `base64` module for similar functionality.
