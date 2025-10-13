@@ -1,16 +1,16 @@
 ---
 Title: '.perf_counter_ns()'
 Description: 'Returns the value of a high-resolution performance counter in nanoseconds.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
   - 'Machine Learning'
   - 'Web Development'
-Tags: 
+Tags:
   - 'Data Structures'
   - 'Functions'
   - 'Time'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
