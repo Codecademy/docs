@@ -1,14 +1,14 @@
 ---
 Title: '.back()'
-Description: 'Accesses the last element in a deque without removing it.'
+Description: 'Returns a reference to the last element in the deque.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
   - 'Containers'
+  - 'Data Structures'
   - 'Deques'
   - 'Methods'
-  - 'Data Structures'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
@@ -16,7 +16,7 @@ CatalogContent:
 
 In C++, the **`.back()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) returns a reference to the last element of a deque. It can be used to read or modify that element without removing it from the container.
 
-> **Note:** Calling `.back()` on an empty deque results in undefined behavior. Check `.empty()` first if the deque might be empty.
+> **Note:** Calling `.back()` on an empty deque results in undefined behavior. Use `.empty()` to check before accessing elements.
 
 ## Syntax
 
@@ -24,9 +24,13 @@ In C++, the **`.back()`** [method](https://www.codecademy.com/resources/docs/cpp
 dequeName.back();
 ```
 
-- Returns: A reference to the last element (`T&`); if the deque is `const`, returns `const T&`.
-- Complexity: Constant time.
-- Precondition: `dequeName` must not be empty.
+**Parameters:**
+
+This method does not take any parameters.
+
+**Return value:**
+
+Returns a reference to the last element of the deque. If the deque is `const`, it returns a const reference.
 
 ## Example
 
@@ -58,7 +62,7 @@ Back after modification: 99
 
 ## Codebyte Example
 
-This Codebyte demonstrates reading and modifying the last element of a deque using `.back()`:
+This example demonstrates reading and modifying the last element of a deque using `.back()`:
 
 ```codebyte/cpp
 #include <deque>
