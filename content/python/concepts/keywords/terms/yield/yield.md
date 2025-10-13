@@ -28,20 +28,20 @@ def function_name(parameters):
   # ...
 ```
 
-
 ## Example
 
 The following example shows how the yield expression is used within a generator function:
+
 ```py
 def read_huge_file(file_name):
-    
+
   with open(file_name) as file:
     for line in file:
       yield line
 ```
+
 The code above returns an iterator that contains all the lines of an input file passed as an argument.
 On each iteration, `yield` will return a single line read from the file.
-
 
 ## Codebyte Example: Printing a list of words with `return` vs. `yield`
 
@@ -70,7 +70,7 @@ for word in words:
 
 print(f"\n{'#'*20}\n")
 
-print("calling print_list_by_yield:\n")        
+print("calling print_list_by_yield:\n")
 for word in words:
     yield_obj = print_list_by_yield(word)
     for value in yield_obj:
@@ -109,8 +109,7 @@ After yield
 
 As we can see from the output above:
 
-* The function with `return` only prints the statement `"Before return"`. The statement `"After return"` is never printed,
+- The function with `return` only prints the statement `"Before return"`. The statement `"After return"` is never printed,
   because the function exits after the `return`.
-* The function with `yield` prints both statements `"Before yield"` and `"After yield"` for each word in the list.
+- The function with `yield` prints both statements `"Before yield"` and `"After yield"` for each word in the list.
   This is because the function pauses at the `yield` statement and resumes after it when the next value is requested from the iterator.
-
