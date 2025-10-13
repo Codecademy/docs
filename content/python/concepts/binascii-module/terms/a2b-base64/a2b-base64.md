@@ -1,36 +1,40 @@
 ---
 Title: '.a2b_base64()'
-Description: 'Decodes Base64 encoded data back into its original binary representation'
+Description: 'Decodes base64 encoded data back into its original binary representation.'
 Subjects:
-  - 'Python'
+  - 'Code Foundations'
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - 'Modules'
-  - 'Methods'
   - 'Encoding'
+  - 'Methods'
+  - 'Modules'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`.a2b_base64()`** method in Python's `binascii` module decodes a string of Base64 encoded data. It takes an ASCII string containing Base64 encoded data and converts it back into its original binary form.
+The **`.a2b_base64()`** method in Python's `binascii` module decodes a string of base64 encoded data. It takes an ASCII string containing base64 encoded data and converts it back into its original binary form.
 
 ## Syntax
 
-```py
+```pseudo
 binascii.a2b_base64(string)
 ```
 
-### Parameters
+**Parameters:**
 
-- `string`: A bytes-like object containing Base64 encoded data. The length must be a multiple of 4 (properly padded).
+- `string`: A bytes-like object or ASCII string containing base64-encoded data to be decoded.
 
-The method returns the decoded binary data as a bytes object.
+**Return value:**
+
+Returns the original binary data as a `bytes` object after decoding the base64 input.
 
 > **Note:** If the input string is not correctly padded to a multiple of 4, a `binascii.Error` exception is raised.
 
 ## Example
 
-The following example demonstrates using `.a2b_base64()` to decode a Base64 string:
+In this example, `.a2b_base64()` decodes a base64 string representing `"Hello World!"` back into binary form:
 
 ```py
 import binascii
@@ -56,7 +60,7 @@ Decoded as text: Hello World!
 
 ## Codebyte Example
 
-The following example shows how `.a2b_base64()` handles both valid and invalid Base64 input:
+The following example shows how `.a2b_base64()` handles both valid and invalid base64 input:
 
 ```codebyte/python
 import binascii
@@ -78,8 +82,8 @@ print(f"Decoded: {decoded_python.decode('utf-8')}")
 
 # Example with invalid padding (will cause an error)
 try:
-    invalid_encoded = b'abc'  # Not properly padded
-    binascii.a2b_base64(invalid_encoded)
+  invalid_encoded = b'abc'  # Not properly padded
+  binascii.a2b_base64(invalid_encoded)
 except binascii.Error as e:
-    print(f"\nError with invalid input 'abc': {e}")
+  print(f"\nError with invalid input 'abc': {e}")
 ```
