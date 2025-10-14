@@ -6,6 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Booleans'
+  - 'Comparison'
   - 'Operators'
 CatalogContent:
   - 'learn-c-plus-plus'
