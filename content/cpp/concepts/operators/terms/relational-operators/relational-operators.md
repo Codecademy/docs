@@ -30,7 +30,7 @@ Let's explore each of them in detail.
 
 The **equal to** ( `==`) operator determines whether two values are equal. It returns `true` if the values are equal and `false` if they are not.
 
-## Relational NOT EQUAL TO (`!=`)
+## NOT EQUAL TO (`!=`) Operator
 
 The **not equal to** (`!=`) operator determines whether two values are unequal. It returns `true` if they are not equal and `false` if they are equal.
 
