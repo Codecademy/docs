@@ -34,7 +34,7 @@ The **equal to** ( `==`) operator determines whether two values are equal. It re
 
 The **not equal to** (`!=`) operator determines whether two values are unequal. It returns `true` if they are not equal and `false` if they are equal.
 
-## Relational GREATER THAN (`>`)
+## GREATER THAN (`>`) Operator
 
 The **greater than** (`>`) operator determines whether the left operand in an expression is greater than the right operand and returns `true ` if so, `false` if not.
 
