@@ -1,40 +1,73 @@
- ---
-title: .hexlify()
-description: The .hexlify() method in Python’s binascii module converts binary data to a hexadecimal representation.
----.hexlify() is a method in Python's `binascii` module that converts binary data (bytes) into a hexadecimal representation as a bytes object. This is useful when you need a readable or transportable form of binary data.
-## Syntax
-
-```python
-binascii.hexlify(data)
+---
+Title: '.hexlify()'
+Description: 'Encodes binary data into a hexadecimal (base-16) representation.'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Encoding'
+  - 'Methods'
+  - 'Modules'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-### **## Example**
-```markdown
+The **`.hexlify()`** method, provided by Python's `binascii` module, converts binary data into its hexadecimal (base-16) ASCII representation. It’s an alias for `binascii.b2a_hex()` and is commonly used to represent binary data in a readable hex format. Each byte of input data is converted into a two-digit hexadecimal value.
+
+## Syntax
+
+```pseudo
+binascii.hexlify(data[, sep[, bytes_per_sep]])
+```
+
+**Parameters:**
+
+- `data` (bytes-like): The binary data to encode.
+- `sep` (optional, single character `str` or `bytes`): A separator to insert between hex groups.
+- `bytes_per_sep` (optional `int`): After every `bytes_per_sep` input bytes, insert `sep`. A negative value will count from the right end.
+
+**Return value:**
+
+Returns a `bytes` object containing the hexadecimal ASCII representation of the input.
+
+> **Note:** The returned string is always twice as long as the original data. If `sep` is provided, it’s inserted at the specified intervals for better readability.
+
 ## Example
 
-```python
+In this example, `.hexlify()` converts binary data into its hexadecimal form:
+
+```py
 import binascii
 
 binary_data = b'hello'
 hex_data = binascii.hexlify(binary_data)
 print(hex_data)
-# Output: b'68656c6c6f'
----
+```
 
-### **## Codebyte**
-```markdown
-## Codebyte
+The output of this code is:
+
+```shell
+b'68656c6c6f'
+```
+
+## Codebyte Example
+
+This Codebyte demonstrates converting binary data into its hexadecimal representation using `.hexlify()`:
 
 ```codebyte/python
 import binascii
 
-# Convert bytes to hexadecimal
-data = b'Python'
-hex_data = binascii.hexlify(data)
-print(hex_data)  # Output: b'507974686f6e'
+# Original binary data
+data = b'OpenAI'
+print("Original data:", data)
 
-# Convert back to original bytes
-original_data = binascii.unhexlify(hex_data)
-print(original_data)  # Output: b'Python'
+# Convert to hexadecimal
+hexed = binascii.hexlify(data)
+print("Hexlified:", hexed)
+
+# Convert to a readable string
+print("Hex as string:", hexed.decode('ascii'))
 ---
-
+```
