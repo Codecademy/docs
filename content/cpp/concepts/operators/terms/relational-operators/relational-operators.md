@@ -38,7 +38,7 @@ The **not equal to** (`!=`) operator determines whether two values are unequal. 
 
 The **greater than** (`>`) operator determines whether the left operand in an expression is greater than the right operand and returns `true ` if so, `false` if not.
 
-## Relational LESS THAN (`<`)
+## LESS THAN (`<`) Operator
 
 The **less than** (`<`) operator determines whether the left operand in an expression is less than the right operand and returns `true` if so, `false` if not.
 
