@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.values()`** method of a `Map` object returns a new Map iterator object that contains the values for each element in the Map, in insertion order.
+The **`.values()`** method of a `Map` object returns a new `Map` iterator object that contains the values for each element, in insertion order.
 
 This method does not modify the original Map and can be used to iterate through the stored values, excluding the keys.
 
