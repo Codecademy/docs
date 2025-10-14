@@ -35,7 +35,7 @@ Returns a new string with whitespace removed from the beginning of the original 
 The following example demonstrates how `trimStart()` removes leading whitespace:
 
 ```js
-const greeting = "   Hello, World!";
+const greeting = '   Hello, World!';
 const trimmedGreeting = greeting.trimStart();
 
 console.log(greeting);
