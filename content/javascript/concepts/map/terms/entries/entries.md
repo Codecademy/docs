@@ -66,7 +66,7 @@ key: coyote, value: 6
 
 In this example, a Map is used to track car inventory, search for a specific car, and update the inventory and wallet when a purchase is made:
 
-```codebyte/js
+```codebyte/javascript
 const cars = new Map([
   ['Acura NSX', 70000],
   ['BMW M3 E92', 59000],
