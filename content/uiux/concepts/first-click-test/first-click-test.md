@@ -21,12 +21,6 @@ Analyzing these initial interactions allows teams to spot usability issues early
 
 ![Screenshot of a first click heatmap from a user interace](https://raw.githubusercontent.com/Codecademy/docs/main/media/first-click-heatmap.png)
 
-## What Is First Click Testing?
-
-First Click Testing examines a user’s initial interaction when trying to complete a task on a website, app, or interface. It provides insight into whether the design naturally leads users toward their goal by a clear focus on that first decision.
-
-This method is especially helpful when testing navigation labels, UI layouts, or new prototypes with minimal effort.
-
 ## Why Is the First Click Important?
 
 Studies show that the success of many digital tasks hinges on the first user interaction. If users begin in the wrong place, they’re more likely to:
