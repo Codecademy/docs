@@ -68,7 +68,7 @@ First Click Testing can be conducted with simple tools and minimal setup. Here's
 
 **Tools commonly used:** Maze, Optimal Workshop, UXtweak, Useberry, or even clickable PDFs.
 
-## What It Measures
+## What First Click Test Measures
 
 First Click Testing is focused on _user decision-making at the very start of a task_. It helps identify whether users understand what to do next, and whether your interface intuitively supports their goals.
 
