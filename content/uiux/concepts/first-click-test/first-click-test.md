@@ -43,7 +43,7 @@ A successful first click, on the other hand:
 
 This makes first click testing a fast, cost-effective way to validate whether your interface supports intuitive user behavior.
 
-## When to Use It
+## When to Use First Click Testing
 
 First Click Testing can be conducted:
 
