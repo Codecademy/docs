@@ -15,6 +15,7 @@ CatalogContent:
 ---
 
 In C++, the `.push_front()` [method](https://www.codecademy.com/resources/docs/cpp/methods) adds an element to the beginning of the deque.
+In C++, the **`.push_front()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) adds an element to the beginning of the deque.
 
 ## Syntax
 
@@ -23,6 +24,14 @@ dequeName.push_front(value);
 ```
 
 - `value`: The element to be added to the front of the deque. It can be of any [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that the `dequeName` holds.
+
+**Parameters:**
+
+- `value`: The element to be added to the front of the deque. It can be of any [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that the `dequeName` holds.
+
+**Return value:**
+
+`void` (no value is returned).
 
 ## Example
 
@@ -61,6 +70,7 @@ Deque contents: 10 20 30
 ## Codebyte Example
 
 The following codebyte adds several values to `myDeque` with the `.push_front()` method:
+The following codebyte adds values to `myDeque` with the `.push_front()` method:
 
 ```codebyte/cpp
 #include <iostream>
