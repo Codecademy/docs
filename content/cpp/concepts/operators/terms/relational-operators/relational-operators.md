@@ -46,7 +46,7 @@ The **less than** (`<`) operator determines whether the left operand in an expre
 
 The **greater than or equal to** (`>=`) operator returns `true` if the left operand in an expression is greater than or equal to the right operand. Otherwise it returns `false`.
 
-## Relational LESS THAN OR EQUAL TO (`<=`)
+## LESS THAN OR EQUAL TO (`<=`) Operator
 
 The **less than or equal to** (`<=`) operator returns `true` if the left operand in an expression is less than or equal to the right operand. Otherwise it returns `false`.
 
