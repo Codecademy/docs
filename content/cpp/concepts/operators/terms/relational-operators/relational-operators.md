@@ -26,7 +26,7 @@ There are 6 relational operators in C++:
 
 Let's explore each of them in detail.
 
-## Relational EQUAL TO (`==`)
+## EQUAL TO (`==`) Operator
 
 The **equal to** ( `==`) operator determines whether two values are equal. It returns `true` if the values are equal and `false` if they are not.
 
