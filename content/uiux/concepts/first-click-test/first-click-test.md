@@ -74,7 +74,7 @@ First Click Testing is focused on _user decision-making at the very start of a t
 
 Key metrics include:
 
-- \*Click accuracy:\*\* Did users click the correct item or path first?
+- **Click accuracy:** Did users click the correct item or path first?
 - **Time to first click:** How long did it take them to decide?
 - **User confidence:** How confident were they in their choice?
 - **Completion rate:** Did they finish the task successfully after the first click?
