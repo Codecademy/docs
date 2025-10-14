@@ -15,7 +15,7 @@ CatalogContent:
 
 It is based on a simple but powerful insight:
 
-> If a user's first click is correct, they are more likely to complete the task successfully.
+> **Note:** If a user's first click is correct, they are more likely to complete the task successfully.
 
 Analyzing these initial interactions allows teams to spot usability issues early and validate navigation patterns, content labels or layout choices. In the following example, the heatmap illustrates where users clicked first during a task, highlighting areas of interest and potential usability issues.
 
