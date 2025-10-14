@@ -32,7 +32,7 @@ Returns a new iterator object that contains the values from the Map, in the orde
 
 ## Example
 
-In this example, the `.values()` method retrieves all values stored in a Map object:
+In this example, the `.values()` method retrieves all values stored in a `Map` object:
 
 ```js
 const studentScores = new Map([
