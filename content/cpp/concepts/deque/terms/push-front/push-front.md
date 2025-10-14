@@ -66,7 +66,7 @@ Deque contents: 10 20 30
 
 ## Codebyte Example
 
-The following codebyte adds several values to `myDeque` with the `.push_front()` method:
+The following codebyte adds values to `myDeque` with the `.push_front()` method:
 
 ```codebyte/cpp
 #include <iostream>
