@@ -66,7 +66,7 @@ First Click Testing can be conducted with simple tools and minimal setup. Here's
    - Follow-up behavior (if a full task is included)
 5. **Analyze results:** Use heatmaps, click accuracy rates, and timing data to uncover usability patterns or navigation issues.
 
-**Tools commonly used:** Maze, Optimal Workshop, UXtweak, Useberry, or even clickable PDFs.\_
+**Tools commonly used:** Maze, Optimal Workshop, UXtweak, Useberry, or even clickable PDFs.
 
 ## What It Measures
 
