@@ -5,16 +5,15 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Checksum'
   - 'Encoding'
+  - 'Error Handling'
   - 'Functions'
-  - 'Error Detection'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`.crc32()`** [function](https://docs.python.org/3/library/binascii.html#binascii.crc32) computes a **CRC-32 checksum** of the given data using a cyclic redundancy check algorithm. It is commonly used to detect accidental changes in raw data.
+The **`.crc32()`** function computes a CRC-32 checksum of the given data using a cyclic redundancy check algorithm. It is commonly used to detect accidental changes in raw data.
 
 ## Syntax
 
@@ -22,11 +21,18 @@ The **`.crc32()`** [function](https://docs.python.org/3/library/binascii.html#bi
 binascii.crc32(data, value=0)
 ```
 
+**Parameters:**
+
 - `data`: A bytes-like object containing the binary data whose CRC-32 checksum is to be computed.
-- `value` _(optional)_: An initial CRC value. This can be used to compute cumulative CRCs across multiple data blocks. Default is `0`.
-- Returns: An integer representing the CRC-32 checksum of the input data.
+- `value` (optional): An initial CRC value. This can be used to compute cumulative CRCs across multiple data blocks. Default is `0`.
+
+**Return value:**
+
+Returns an integer representing the CRC-32 checksum of the input data.
 
 ## Example
+
+In this example, the CRC-32 checksum of a single string of binary data is computed:
 
 ```py
 import binascii
@@ -46,22 +52,21 @@ This produces the following output :
 222957957
 ```
 
-> **Note:** The output value is an unsigned 32-bit integer representing the checksum of the input data.
+The output value is an unsigned 32-bit integer representing the checksum of the input data.
 
 ## Codebyte Example
+
+In this example, the CRC-32 checksum is computed incrementally for multiple chunks of data, simulating a real-world file integrity check:
 
 ```codebyte/python
 import binascii
 
-# Example: Compute CRC-32 checksum of text data
-data = b"Codecademy Docs"
-checksum = binascii.crc32(data)
+chunks = [b"Hello ", b"World!", b" CRC32"]
+crc = 0  # initial CRC
 
-print("CRC-32 Checksum:", checksum)
-```
+# Compute CRC incrementally
+for chunk in chunks:
+  crc = binascii.crc32(chunk, crc)
 
-This produces the following output:
-
-```shell
-CRC-32 Checksum: 2197138700
+print("Incremental CRC-32 Checksum:", crc)
 ```
