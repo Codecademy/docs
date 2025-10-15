@@ -36,7 +36,7 @@ deque.rotate(n=1)
 
 ## Example
 
-```py
+```python
 from collections import deque
 
 # Create a deque
