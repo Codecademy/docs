@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, **`Tensor.float_power()`** raises each element of a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) to the power of the given exponent with the result always returned in floating point.
+In PyTorch, **`.float_power()`** raises each element of a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) to the power of the given exponent with the result always returned in floating point.
 
 ## Syntax
 
@@ -28,11 +28,11 @@ torch.float_power(input, exponent, *, out=None)
 
 **Return value:**
 
-- Returns a Tensor containing the input elements raised to the specified power, with the result always in floating point dtype.
+- Returns a tensor containing the input elements raised to the specified power, with the result always in the floating point data type.
 
-## Example 1: Tensor base with scalar exponent
+## Example 1: Tensor Base with Scalar Exponent
 
-In this example, each element of the tensor is raised to the same scalar exponent 2:
+In this example, each element of the tensor is raised to the same scalar exponent `2`:
 
 ```py
 import torch
@@ -49,7 +49,7 @@ The output of this code is:
 tensor([ 1.,  4.,  9., 16.])
 ```
 
-## Example 2: Tensor base with tensor exponents
+## Example 2: Tensor Base with Tensor Exponents
 
 In this example, each element of the base tensor is raised to the corresponding element in the exponent tensor, allowing for fractional powers:
 
