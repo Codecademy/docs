@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.localtime()`** method converts a time value, given in seconds since the epoch (January 1, 1970, 00:00:00 UTC), into local time. If no value is provided, it returns the current local time instead.
+In Python, the **`.localtime()`** method converts a time value, given in seconds since the epoch (January 1, 1970, 00:00:00 UTC), into local time. If no value is provided, it returns the current local time instead.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ time.localtime(seconds)
 
 **Parameters:**
 
-- `seconds`(Optional): A number (float or int) representing seconds since the epoch. Defaults to the current time if omitted.
+- `seconds` (Optional): A number (`float` or `int`) representing seconds since the epoch. Defaults to the current time if omitted.
 
 **Return value:**
 
@@ -30,7 +30,7 @@ Returns a `time.struct_time` object representing the local time.
 
 ## Example 1: `.localtime()` With No Argument
 
-This example demonstrates when running `.localtime()` without the optional seconds argument:
+This example demonstrates when running `.localtime()` without the optional `seconds` argument:
 
 ```py
 import time
@@ -47,7 +47,7 @@ Current local time: time.struct_time(tm_year=2025, tm_mon=8, tm_mday=31, tm_hour
 
 ## Example 2: `.localtime()` With a Passed Argument
 
-In the example below, we are trying to convert 5000 seconds since the epoch into local time:
+This example converts 5000 seconds since the epoch into local time:
 
 ```py
 import time
@@ -63,9 +63,9 @@ The output of the code is:
 Python local time: time.struct_time(tm_year=1970, tm_mon=1, tm_mday=1, tm_hour=1, tm_min=23, tm_sec=20, tm_wday=3, tm_yday=1, tm_isdst=0)
 ```
 
-## Codebyte Example: `.localtime()` Used to Log a File Download Time
+## Codebyte Example: Using `.localtime()` to Log a File Download Time
 
-This example demonstrates how to record the local time when a file download is completed:
+This codebyte example demonstrates how to record the local time when a file download is completed:
 
 ```codebyte/python
 import time
