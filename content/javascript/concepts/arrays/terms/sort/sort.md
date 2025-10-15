@@ -1,68 +1,111 @@
 ---
 Title: '.sort()'
-Description: 'Returns an array with its items sorted in place.'
+Description: 'Sorts the elements of an array in place.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Arrays'
-  - 'Comparison'
   - 'Functions'
   - 'Methods'
-  - 'Sort'
-  - 'Unicode'
+  - 'Values'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.sort()`** method returns an array with its items sorted in place.
+The JS **`.sort()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) is used to sort the elements of an array in place. By default, it sorts elements as [strings](https://www.codecademy.com/resources/docs/javascript/strings) in ascending order. However, a custom comparison [function](https://www.codecademy.com/resources/docs/javascript/functions) can be provided to achieve more advanced sorting.
 
-## Syntax
+## JS `.sort()` Syntax
 
 ```pseudo
-// No parameters
-array.sort();
-
-// With optional function
-array.sort((firstElement, secondElement) => { /* function body */ };
+arr.sort(compareFn)
 ```
 
-If the `.sort()` method is used with no arguments, all items with `undefined` values are shifted to the end of the array while the remaining items are converted to [strings](https://www.codecademy.com/resources/docs/javascript/strings) and sorted by [Unicode code point value](https://en.wikipedia.org/wiki/Code_point).
+**Parameters:**
 
-An optional function is used to define how items are sorted. This is done by iterating over the `array` and comparing every `firstElement` and `secondElement` in the `/* function body */`.
+- `compareFn` (Optional): A function that defines the sort order. It takes two arguments, `a` and `b`, and should return:
+  - A negative value if `a` should come before `b`
+  - `0` if `a` and `b` are considered equal
+  - A positive value if `a` should come after `b`
 
-## Example
+**Return value:**
 
-In the following example, the `.sort()` method is applied to two arrays, `letters` and `numbers` (a mix of floats and integers):
+JS `.sort()` returns the original array with its elements sorted in the given order.
+
+## Example 1: Sorting Array of Strings Using JS `.sort()`
+
+This example uses JS `.sort()` to sort an array of strings:
 
 ```js
-const letters = ['d', 'b', 'e', 'a', 'c'];
-const numbers = [5, 2, 123, 5.01, 43.5];
-
-console.log('Letters: ', letters.sort());
-console.log('Numbers: ', numbers.sort());
+const fruits = ['banana', 'apple', 'cherry', 'date'];
+fruits.sort();
+console.log(fruits);
 ```
 
-This results in the following output:
+Here is the output:
 
 ```shell
-Letters: [ 'a', 'b', 'c', 'd', 'e' ]
-Numbers: [ 123, 2, 43.5, 45, 5, 5.01 ]
+[ 'apple', 'banana', 'cherry', 'date' ]
 ```
 
-The `letters` were sorted in alphabetical order. The items in `numbers` were sorted based on the leading number in the item's value (e.g., their Unicode value). Sorting numerical values more strictly requires a custom comparison function.
+## Example 2: Sorting Array of Numbers Using JS `.sort()`
 
-## Codebyte Example
+This example uses JS `.sort()` with a comparison function to sort an array of numbers:
 
-The following example showcases how the optional `callback` argument can be used to sort a `numbers` array in ascending and descending order:
+```js
+const numbers = [10, 5, 20, 1, 100];
+numbers.sort((a, b) => a - b);
+console.log(numbers);
+```
+
+Here is the output:
+
+```shell
+[ 1, 5, 10, 20, 100 ]
+```
+
+## Codebyte Example: Sorting Array of Objects Using JS `.sort()`
+
+This codebyte example uses JS `.sort()` to sort an array of objects:
 
 ```codebyte/javascript
-const numbers = [5, 2, 123, 5.01, 43.5];
+const users = [
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 20 },
+  { name: "Charlie", age: 30 }
+];
 
-const ascending = numbers.sort((a, b) => a - b);
-console.log("Ascending order: ", ascending);
+users.sort((a, b) => a.age - b.age);
 
-const descending = numbers.sort((a, b) => b - a);
-console.log("Descending order: ", descending);
+console.log(users);
+```
+
+## Frequently Asked Questions
+
+### 1. How do I sort numbers in descending order using JS `.sort()`?
+
+You can reverse the comparison in your function in JS `.sort()` to sort numbers in descending order:
+
+```js
+numbers.sort((a, b) => b - a);
+```
+
+### 2. Can I use `sort()` on a string?
+
+No. The `sort()` method is only available on arrays, not on strings. If you want to sort the characters of a string, you first need to convert it into an array (for example, using `split()`), apply `sort()`, and then join it back:
+
+```js
+const str = 'hello';
+const sorted = str.split('').sort().join('');
+console.log(sorted); // "ehllo"
+```
+
+### 3. What happens when `sort()` is used in a list (array)?
+
+When you call `sort()` on an array, JavaScript converts the elements to strings by default and compares them in Unicode code point order. This means that numbers may not sort as you expect:
+
+```js
+const numbers = [10, 1, 5];
+console.log(numbers.sort()); // [1, 10, 5] (string comparison)
 ```
