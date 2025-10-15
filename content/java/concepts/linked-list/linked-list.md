@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`LinkedList`** is a **doubly-linked list** implementation in `java.util` that implements `List<E>`, `Deque<E>`, `Cloneable`, and `Serializable`. Elements are stored in nodes linked to previous and next nodes, it allows `null` elements. It provides efficient insertions and removals at the list ends and implements standard deque/queue operations (push/pop, offer/poll, addFirst/addLast).
+In Java, a **`LinkedList`** is a doubly linked list implementation in `java.util` that implements `List<E>`, `Deque<E>`, `Cloneable`, and `Serializable`. Elements are stored in nodes linked to previous and next nodes. It allows `null` elements, provides efficient insertions and removals at the list ends and implements standard deque/queue operations (push/pop, offer/poll, `addFirst()`/`addLast()`).
 
 ## Syntax
 
@@ -31,25 +31,25 @@ LinkedList<Type> list = new LinkedList<>();
 
 ## Common Methods in a Linked List
 
-Common methods of `LinkedList` (inherited from List/Deque or defined in the class) include those for adding, removing, and accessing elements. Here are some of the most frequently used methods with their signatures and brief descriptions:
+Common methods of `LinkedList` (inherited from `List`/`Deque` or defined in the class) include those for adding, removing, and accessing elements. Here are some of the most frequently used methods with their signatures and brief descriptions:
 
-| Method | Description | Example |
-|--------|-------------|---------|
-| `boolean add(E e)` | Appends the specified element to the end of the list (same as `addLast(E)`). Returns `true` if the list changed. | `list.add("X")` |
-| `void add(int index, E element)` | Inserts an element at the specified position, shifting subsequent elements. | `list.add(0, "Y")` |
-| `void addFirst(E e)` | Inserts the element at the beginning (new head). | `list.addFirst("Z")` |
-| `void addLast(E e)` | Adds element at the end of the list. | `list.addLast("A")` |
-| `E get(int index)` | Returns the element at the specified position. | `list.get(2)` |
-| `E getFirst()` / `E getLast()` | Returns the first or last element. | `list.getFirst()` |
-| `E remove(int index)` | Removes and returns the element at the given position. | `list.remove(1)` |
-| `E removeFirst()` | Removes and returns the first element (head). | `list.removeFirst()` |
-| `E removeLast()` | Removes and returns the last element (tail). | `list.removeLast()` |
-| `boolean contains(Object o)` | Checks if the list contains the given element. | `list.contains("X")` |
-| `int size()` | Returns the number of elements in the list. | `list.size()` |
+| Method                           | Description                                                                                                      | Example              |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------- |
+| `boolean add(E e)`               | Appends the specified element to the end of the list (same as `addLast(E)`). Returns `true` if the list changed. | `list.add("X")`      |
+| `void add(int index, E element)` | Inserts an element at the specified position, shifting subsequent elements.                                      | `list.add(0, "Y")`   |
+| `void addFirst(E e)`             | Inserts the element at the beginning (new head).                                                                 | `list.addFirst("Z")` |
+| `void addLast(E e)`              | Adds element at the end of the list.                                                                             | `list.addLast("A")`  |
+| `E get(int index)`               | Returns the element at the specified position.                                                                   | `list.get(2)`        |
+| `E getFirst()` / `E getLast()`   | Returns the first or last element.                                                                               | `list.getFirst()`    |
+| `E remove(int index)`            | Removes and returns the element at the given position.                                                           | `list.remove(1)`     |
+| `E removeFirst()`                | Deletes and returns the first element (head).                                                                    | `list.removeFirst()` |
+| `E removeLast()`                 | Deletes and returns the last element (tail).                                                                     | `list.removeLast()`  |
+| `boolean contains(Object o)`     | Checks if the list contains the given element.                                                                   | `list.contains("X")` |
+| `int size()`                     | Returns the size or number of elements in the list.                                                              | `list.size()`        |
 
 ## Example
 
-In the example below, we create a `LinkedList` of strings and perform various operations: Adding elements (at the end and at the beginning), accessing elements by index, and removing elements from the list. We also print the list to see the changes:
+This example creates a `LinkedList` of strings and performs various operations on it:
 
 ```java
 import java.util.LinkedList;
@@ -93,12 +93,12 @@ List after removals: [Bob]
 
 ## `LinkedList` vs `ArrayList`
 
-| Feature            | `LinkedList`                    | `ArrayList`              |
-|--------------------|---------------------------------|--------------------------|
-| Access by index    | O(n) (must traverse nodes)      | O(1) (direct access)     |
-| Insert/remove ends | O(1)                            | O(n) at front, O(1) at end (amortized) |
-| Memory usage       | Higher (extra pointers per node)| Lower (contiguous array) |
-| Best use case      | Queues, stacks, frequent insert/remove at ends | General-purpose, fast random access |
+| Feature            | `LinkedList`                                   | `ArrayList`                            |
+| ------------------ | ---------------------------------------------- | -------------------------------------- |
+| Access by index    | O(n) (must traverse nodes)                     | O(1) (direct access)                   |
+| Insert/remove ends | O(1)                                           | O(n) at front, O(1) at end (amortized) |
+| Memory usage       | Higher (extra pointers per node)               | Lower (contiguous array)               |
+| Best use case      | Queues, stacks, frequent insert/remove at ends | General-purpose, fast random access    |
 
 **Rule of thumb:**
 
