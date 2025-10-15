@@ -61,7 +61,8 @@ deque([5, 1, 2, 3, 4])
 Here:
 
 - `dq.rotate(2)` moves the last two elements `[4, 5]` to the front.
-- `dq.rotate(-1)` moves the first element `[5]` to the end.
+  <<<<<<< HEAD
+- `dq.rotate(-1)` moves the first element `[4]` to the end.
 
 ## Codebyte Example
 
