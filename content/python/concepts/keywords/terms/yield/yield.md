@@ -1,5 +1,5 @@
 ---
-Title: 'yield'
+Title: 'Yield'
 Description: 'Turns a function into a generator, producing values one at a time while retaining state between calls.'
 Subjects:
   - 'Code Foundations'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`yield`** keyword is used in a [function](https://www.codecademy.com/resources/docs/python/functions) to make it a [generator function](https://www.codecademy.com/resources/docs/python/generators). Generator functions return an [iterator](https://www.codecademy.com/resources/docs/python/iterators) that produces one value per call instead of all values at once. The function maintains its state between calls, resuming from where it left off. This enhances memory efficiency for large datasets and allows better resource management, such as processing streams or database results.
+The **`yield`** keyword is used in a [function](https://www.codecademy.com/resources/docs/python/functions) to make it a [generator function](https://www.codecademy.com/resources/docs/python/generators). Generator functions return an [iterator](https://www.codecademy.com/resources/docs/python/iterators) that produces one value per call instead of all values at once. To get a value from a generator, call the `next()` function on it. The code within the function is executed up to the `yield` statement. When `yield` is encountered, the current value is returned. The function maintains its state between calls, resuming from where it left off. This enhances memory efficiency for large datasets and allows better resource management, such as processing streams or database results.
 
 ## Syntax
 
@@ -37,6 +37,7 @@ def generatorFunction():
 In this example, the generator yields numbers from 1 to 5, producing values one at a time:
 
 ```py
+# Define a generator function that yields numbers from 1 to 5
 def count_up_to_five():
   for i in range(1, 6):
     yield i
@@ -48,6 +49,26 @@ gen = count_up_to_five()
 for number in gen:
   print(number)
 ```
+
+The output of this code is:
+
+```
+1
+2
+3
+4
+5
+```
+
+> **Note:** `for` loop implicitly calls `next()` method on the generator `gen`.
+
+In this code:
+
+- `count_up_to_five` is defined as a generator function.
+- `count_up_to_five()` is called and it returns a generator object without executing the function body.
+- `for` loop calls `next()` on `gen`, which starts executing `count_up_to_five`.
+- `count_up_to_five` runs until it hits the `yield` statement, returning the current value of `i`.
+- `for` loop calls `next()` again, `count_up_to_five` function resumes right after the `yield` statement.
 
 ## Codebyte Example: Printing a list of words with `return` vs. `yield`
 
@@ -87,5 +108,5 @@ for word in words:
 
 In this code:
 
-- The `return` function prints only `"Before return"` because it exits immediately.
-- The `yield` function prints `"Before yield"` and `"After yield"` for each item, pausing at `yield` and resuming when iterated.
+- The `print_list_by_return` function prints only `"Before return"` because it exits immediately.
+- The `print_list_by_yield` function prints `"Before yield"` and `"After yield"` for each item, pausing at `yield` and resuming when iterated.
