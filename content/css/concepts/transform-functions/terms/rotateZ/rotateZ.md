@@ -4,20 +4,18 @@ Description: 'Rotates an element around the z-axis by a specified angle.'
 Subjects:
   - 'Code Foundations'
   - 'Web Design'
-  - 'Web Development'
 Tags:
   - 'CSS'
   - 'Functions'
   - 'Positioning'
 CatalogContent:
-- 'learn-css'
-- 'paths/front-end-engineer-career-path'
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The CSS **`rotateZ()`** function applies a rotation to an element around the z-axis in three-dimensional space. The transformation does not deform the element itself, which is typically an HTML element or image contributing to the web layout.
 
-The `rotateZ()` function is used within the CSS [`transform`](https://www.codecademy.com/resources/docs/css/transform-functions/transform) property and is essentially equivalent to the
-[`rotate()`](https://www.codecademy.com/resources/docs/css/transform-functions/rotate) function, with the distinction that the z-axis is explicitly specified. For example, `rotateZ(45deg)` is equivalent to `rotate(45deg)` as well as to `rotate(0 0 1 45deg)`, where the rotation is represented by a vector in which the `x` and `y` components are zero, and the `z` component is positive. Similarly `rotateZ(45deg)` is equivalent to `rotate3d(0, 0, 1, 45deg)`, where the rotation is defined along the z-axis.
+The `rotateZ()` function is used within the CSS [`transform`](https://www.codecademy.com/resources/docs/css/transform-functions/transform) property and is essentially equivalent to the [`rotate()`](https://www.codecademy.com/resources/docs/css/transform-functions/rotate) function, with the distinction that the z-axis is explicitly specified. For example, `rotateZ(45deg)` is equivalent to `rotate(45deg)` as well as to `rotate(0 0 1 45deg)`, where the rotation is represented by a vector in which the `x` and `y` components are zero, and the `z` component is positive. Similarly `rotateZ(45deg)` is equivalent to `rotate3d(0, 0, 1, 45deg)`, where the rotation is defined along the z-axis.
 
 ## Syntax
 
@@ -27,7 +25,7 @@ transform: rotateZ(a)
 
 **Parameters:**
 
-- `a`: is an angle defining the degree of rotation, which can be expressed in degrees (`deg`), radians (`rad`), gradians (`grad`), or turns (`turn`). A positive value indicates a clockwise rotation, while a negative value indicates a counterclockwise rotation.
+- `a`: is an angle defining the degree of rotation, which can be expressed in degrees (`deg`), radians (`rad`), gradians (`grad`), or turns (`turn`). A positive value specifies a clockwise rotation, while a negative value specifies a counterclockwise rotation.
 
 **Return value:**
 
