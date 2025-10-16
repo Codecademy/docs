@@ -1,41 +1,59 @@
 ---
 Title: '.reverse()'
-Description: 'Reverses the elements of a collections.deque in-place.'
+Description: 'Reverses the elements of a deque in-place.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Deques'
   - 'Collections'
-  - 'Methods'
+  - 'Deques'
   - 'Functions'
+  - 'Methods'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The `.reverse()` method of a Python `collections.deque` (https://www.codecademy.com/resources/docs/python/collections-module/deque) reverses the order of elements in the deque in-place. It does not accept any arguments and returns `None`.
+The **`.reverse()`** method of a Python [`collections.deque`](https://www.codecademy.com/resources/docs/python/collections-module/deque) reverses the order of elements in the `deque` in-place.
 
 ## Syntax
 
-```py
+```pseudo
 deque.reverse()
 ```
+
+**Parameters:**
+
+The `.reverse()` method does not take any parameters.
+
+**Return value:**
+
+`None`: The deque is modified in-place.
+
 ## Example
 
-```python
+In this example, the elements of a deque are reversed in-place, changing the order of items:
+
+```py
 from collections import deque
 
 # Create a deque
 d = deque([1, 2, 3, 4])
+
 # Reverse the order of deque's elements
 d.reverse()
-print(d)  # Output: deque([4, 3, 2, 1])
+print(d)
+```
+
+The output of this code is:
+
+```shell
+deque([4, 3, 2, 1])
 ```
 
 ## Codebyte Example
 
-The example below reverses the deque in-place to flip the sentence, then shows the result as a string
+The following example reverses the deque in-place to flip the order of words in a sentence:
 
 ```codebyte/python
 from collections import deque
@@ -43,6 +61,7 @@ from collections import deque
 words = deque(["requests", "pull", "and", "calm", "keep"])
 print("Original deque:", list(words))
 print("Original sentence:", " ".join(words))
+
 # Reverse the deque in-place to flip the sentence
 words.reverse()
 
