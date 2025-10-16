@@ -12,28 +12,27 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
-The `.copy()` [method](https://www.codecademy.com/resources/docs/python/methods) returns a shallow copy of a deque.
+The `.copy()` [method](https://www.codecademy.com/resources/docs/python/methods) returns a shallow copy of a `deque`.
 
 ## Syntax
 
-```py
-deque2 = deque1.copy()
+```pseudo
+copied_deque = original_deque.copy()
 ```
 
 **Parameters:**
 
-The `.copy()` method has no parameters.
+The `.copy()` method takes no parameters.
 
 **Return value:**
 
 Returns a new deque object that is a shallow copy of the original deque.
 
-## Example
+## Example 1: Reference copy using assignment
 
-A Python deque can be copied using the `=` assignment operator:
+The example shows that assigning one deque to another with `=` creates a reference, not a real copy:
 
 ```py
 from collections import deque
@@ -41,36 +40,51 @@ from collections import deque
 deque1 = deque([1, 2, 3, 4])
 deque2 = deque1
 
-print(deque1)  # Output: deque([1, 2, 3, 4])
-print(deque2)  # Output: deque([1, 2, 3, 4])
+print(deque1)
+print(deque2)
 ```
 
-However, if you modify `deque2`, `deque1` is also modified. This is because `deque2` is actually pointing to the `deque1` object.
+The output of this code is:
 
-If you want the original deque unchanged when the new deque is modified, you can use the `.copy()` method:
+```shell
+deque([1, 2, 3, 4])
+deque([1, 2, 3, 4])
+```
+
+However, modifications to `deque2` affect `deque1` since both refer to the same object.
+
+## Example 2: Creating a shallow copy
+
+In this example, a separate deque is created using `.copy()`, leaving the original unchanged:
 
 ```py
 from collections import deque
 
 orders = deque(['daisies', 'periwinkle'])
-
 new_orders = orders.copy()
 
 print(new_orders)
-# Output: deque(['daisies', 'periwinkle'])
 
 # Modify the new deque
 new_orders.append('roses')
 
-print(orders)      # Output: deque(['daisies', 'periwinkle'])
-print(new_orders)  # Output: deque(['daisies', 'periwinkle', 'roses'])
+print(orders)
+print(new_orders)
+```
+
+The output of this code is:
+
+```shell
+deque(['daisies', 'periwinkle'])
+deque(['daisies', 'periwinkle'])
+deque(['daisies', 'periwinkle', 'roses'])
 ```
 
 The original `orders` deque remains unchanged when `new_orders` is modified.
 
 ## Codebyte Example
 
-The following example demonstrates the difference between assignment and using `.copy()`:
+The following example demonstrates the difference between assignment and `.copy()`:
 
 ```codebyte/python
 from collections import deque
@@ -93,7 +107,3 @@ copied.append(40)
 print(f"Original2 after copy modification: {original2}")
 print(f"Copied: {copied}")
 ```
-
-## Shallow Copy
-
-If you are copying deques containing nested objects (like lists or other deques), shallow copy means that the nested objects themselves are not copied. If you modify any nested object in the new deque, changes are reflected in both the new and old deques as they reference the same nested objects. For a deep copy where nested objects are also duplicated, use the `copy.deepcopy()` function from Python's copy module.
