@@ -1,23 +1,20 @@
 ---
-Title: 'pop' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Removes and returns element from the right end of the queue' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: '.pop()'
+Description: 'Removes and returns element from the right end of the deque.'
+Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'Algorithms'
   - 'Collections'
   - 'Data Structures'
   - 'Deques'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-**deque.pop()** Removes and returns an element from the right end of the deque.
-If the deque is empty, calling ```pop()``` raises an ```IndexError```
-The ```pop()``` method works in O(1) time complexity - removing an element from either end of a deque is constant time.
-
+The **`deque.pop()`** method removes and returns an element from the right end of a deque. Removing an element from either end of a deque occurs in O(1) time.
 
 ## Syntax
 
@@ -27,19 +24,19 @@ deque.pop()
 
 **Parameters**
 
-This method does not take any parameters
+This method does not take any parameters.
 
-**Return Value**
+**Return value**
 
-Returns the element that was removed from the right end of the deque
+Returns the element that was removed from the right end of the deque.
 
 **Exceptions**
 
-- ```IndexError``` - Raised if the deque is empty when ```pop()``` is called
+- `IndexError`: Raised if the deque is empty when `.pop()` is called.
 
 ## Example
 
-This example demonstrates basic deque operation ```pop()```
+In this example, a single element is removed from the right end of the deque using `.pop()`:
 
 ```py
 from collections import deque
@@ -60,10 +57,9 @@ Removed element: 40
 Deque after pop: deque([10, 20, 30])
 ```
 
+## Codebyte Example: Popping the two rightmost elements
 
-## Codebyte Example: Popping the 2 rightmost element from deque
-
-This examples demonstrates the working of ```pop()```
+In this example, elements are removed from the right end of a deque one by one using `.pop()`:
 
 ```codebyte/python
 from collections import deque
@@ -81,7 +77,5 @@ print("Deque after first pop:", numbers)
 # Pop again
 another_item = numbers.pop()
 print("Popped another element:", another_item)
-print("Final deque:" numbers)
+print("Final deque:", numbers)
 ```
-
-
