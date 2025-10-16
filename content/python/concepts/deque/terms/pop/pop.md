@@ -22,15 +22,15 @@ The **`deque.pop()`** method removes and returns an element from the right end o
 deque.pop()
 ```
 
-**Parameters**
+**Parameters:**
 
 This method does not take any parameters.
 
-**Return value**
+**Return value:**
 
 Returns the element that was removed from the right end of the deque.
 
-**Exceptions**
+**Exceptions:**
 
 - `IndexError`: Raised if the deque is empty when `.pop()` is called.
 
