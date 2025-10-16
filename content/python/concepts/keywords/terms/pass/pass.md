@@ -1,6 +1,6 @@
 ---
 Title: 'pass'
-Description: 'Used as a placeholder when defining functions, indicating that the logic is yet to be implemented but allowing the program to run without errors.'
+Description: 'Acts as a placeholder in Python code, allowing empty code blocks (like functions or loops) to run without causing errors.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`pass`** keyword in Python is used inside a [function](https://www.codecademy.com/resources/docs/python/functions) to act as a placeholder instead of the actual logic. No output is provided.
+The **`pass`** keyword in Python acts as a placeholder in code blocks where no action is required. It prevents syntax errors when a statement is needed but no operation should occur.
 
 ## Syntax
 
@@ -23,32 +23,33 @@ def function_name():
   pass
 ```
 
-The `pass` statement is used inside a function defined using the `def` keyword. It must be written in lowercase (`pass`). Using incorrect casing like `Pass` or `PASS` will result in a `SyntaxError`.
+The `pass` statement is written in lowercase and is often used inside a [function](https://www.codecademy.com/resources/docs/python/functions), [class](https://www.codecademy.com/resources/docs/python/classes), [loop](https://www.codecademy.com/resources/docs/python/loops), or [conditional](https://www.codecademy.com/resources/docs/python/conditionals) block.
+
+> **Note:** Using incorrect casing like `Pass` or `PASS` will result in a `SyntaxError`.
 
 ## Example 1
 
-In this example, the `sum()` function is defined but its logic is not yet implemented.
+In this example, the `sum()` function is defined but its logic is not yet implemented:
 
 ```py
 def sum(a, b):
   pass  # actual logic is yet to be implemented
+
+print(sum(5,6))
 ```
 
-The output of this code is:
-
-```shell
-None
-```
+When called, this function returns `None` because no return statement is defined.
 
 ## Codebyte Example
 
-A function containing only `pass` does nothing and implicitly returns `None`, since no return statement is provided. The following code demonstrates the same:
+In real projects, developers use `pass` as a temporary placeholder in unfinished functions to keep the program running without errors:
 
 ```codebyte/python
-# Change the value of num and click run to see how the function output changes.
+# Example: Placeholder for a future login verification function
 
-def sum(a, b):
-  pass
+def verify_login(username, password):
+  pass  # Logic will be added later to check user credentials
 
-print(sum(5,6))
+print("Login system is under construction...")
+verify_login("Alice", "mypassword")
 ```
