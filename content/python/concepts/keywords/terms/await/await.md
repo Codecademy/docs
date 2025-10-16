@@ -1,19 +1,19 @@
 ---
 Title: 'await'
-Description: 'Pauses the execution of an async function until the awaited coroutine completes.'
+Description: 'Suspends the execution of an asynchronous function until the awaited coroutine, task, or awaitable object finishes.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
-  - 'Async'
-  - 'Await'
+  - 'Async Await'
+  - 'Functions'
   - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`await`** keyword pauses the execution of an asynchronous function until the awaited [coroutine](https://docs.python.org/3/library/asyncio-task.html#id2), task, or awaitable object is completed. It allows asynchronous code to be written in a way that resembles synchronous code.  
+The **`await`** keyword suspends the execution of an asynchronous function until the awaited [coroutine](https://docs.python.org/3/library/asyncio-task.html#id2), task, or awaitable object completes. It allows asynchronous code to look and behave like synchronous code.
 
 ## Syntax
 
@@ -21,54 +21,61 @@ The **`await`** keyword pauses the execution of an asynchronous function until t
 await expression
 ```
 
-The `await` keyword can only be used inside an `async` function. Using it outside an async function will raise a `SyntaxError`.
+> **Note:** The `await` keyword can only be used inside an `async` function. Using it outside an async function will raise a `SyntaxError`.
 
 ## Example
 
-The await keyword can be used to wait for an asynchronous task before continuing:
+This example pauses execution while waiting for simulated data to be fetched:
 
 ```py
 import asyncio
 
 async def fetch_data():
-    print("Fetching data...")
-    await asyncio.sleep(1)
-    print("Data received!")
-    return {"data": 42}
+  print("Fetching data...")
+  await asyncio.sleep(1)
+  print("Data received!")
+  return {"data": 42}
 
 async def main():
-    result = await fetch_data()
-    print("Result:", result)
+  result = await fetch_data()
+  print("Result:", result)
 
 asyncio.run(main())
 ```
+
 Here is the output:
 
 ```shell
-    Fetching data...
-    Data received!
-    Result: {'data': 42}
+Fetching data...
+Data received!
+Result: {'data': 42}
 ```
-In the Example:
 
-- `Async`: It is used to define an asynchronous function.
-- `Asyncio`: It provides the framework and utilities to write asynchronous programs, such as event loops, tasks, and coroutines.
+In this example:
 
+- `async` defines an asynchronous function that can contain `await`.
+- `asyncio` provides tools for running asynchronous code, such as event loops, coroutines, and tasks.
 
-## Codebyte Example
+## Example
 
-Below is another example:
+This example waits for one second before returning and printing a message:
 
-```codebyte/python
+```py
 import asyncio
 
 async def greet():
-    await asyncio.sleep(1)
-    return "Hello from await!"
+  await asyncio.sleep(1)
+  return "Hello from await!"
 
 async def main():
-    message = await greet()
-    print(message)
+  message = await greet()
+  print(message)
 
 asyncio.run(main())
+```
+
+The output of this code is:
+
+```shell
+Hello from await!
 ```
