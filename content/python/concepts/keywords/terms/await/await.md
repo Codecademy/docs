@@ -23,7 +23,7 @@ await expression
 
 > **Note:** The `await` keyword can only be used inside an `async` function. Using it outside an async function will raise a `SyntaxError`.
 
-## Example
+## Example 1
 
 This example pauses execution while waiting for simulated data to be fetched:
 
@@ -56,7 +56,7 @@ In this example:
 - `async` defines an asynchronous function that can contain `await`.
 - `asyncio` provides tools for running asynchronous code, such as event loops, coroutines, and tasks.
 
-## Example
+## Example 2
 
 This example waits for one second before returning and printing a message:
 
