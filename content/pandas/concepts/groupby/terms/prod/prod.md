@@ -70,7 +70,7 @@ D         10      11
 
 ## Codebyte Example
 
-This example calculates the total sales value for each product category by multiplying the price and quantity sold. It demonstrates how `.prod()` can be used in a real-world grouped dataset:
+This example computes the product of all prices and the product of all quantities within each category:
 
 ```codebyte/python
 import pandas as pd
