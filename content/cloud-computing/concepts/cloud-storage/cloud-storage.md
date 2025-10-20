@@ -51,6 +51,4 @@ Shared file systems that can be accessed by multiple users and applications. It 
 - Content management systems
 - Collaborative work environments
 
-[Amazon EFS](https://docs.aws.amazon.com/efs/latest/ug/whatisefs)
-[Google Filestore](https://cloud.google.com/filestore/docs)
-[Azure Files](https://learn.microsoft.com/en-us/azure/storage/files)
+All major cloud providers offer services across these three storage categories, each optimized for different performance requirements and use cases.
