@@ -34,7 +34,7 @@ with expression [as variable]:
 
 **Return value:**
 
-The value returned by the context manager’s `__enter__()` method, if assigned using `as`.
+Returns the object provided by the context manager’s `__enter__()` method, if assigned using `as`.
 
 ## Example 1: Managing File Resources
 
