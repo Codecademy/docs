@@ -25,10 +25,6 @@ Designed for storing large amounts of unstructured data. Data is stored as objec
 - Web content and static assets
 - Big data analytics
 
-[Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide)
-[Google Cloud Storage](https://cloud.google.com/storage/docs)
-[Azure Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs)
-
 ## Block storage
 
 Provides raw storage volumes that can be attached to virtual machines. Data is stored in fixed-size blocks and is ideal for:
