@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`from`** keyword in Python is used to import specific items (such as functions, classes, or variables) from a module instead of importing the entire module. It helps keep the code cleaner and avoids unnecessary namespace clutter.
+The **`from`** keyword in Python is used to import specific items (such as [functions](https://www.codecademy.com/resources/docs/python/functions), [classes](https://www.codecademy.com/resources/docs/python/classes), or [variables](https://www.codecademy.com/resources/docs/python/variables)) from a module instead of importing the entire module. It helps keep the code cleaner and avoids unnecessary namespace clutter.
 
 For example, instead of importing the entire `math` module, only the required functions can be imported.
 
