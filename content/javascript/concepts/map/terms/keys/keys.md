@@ -86,7 +86,7 @@ Eight
 
 This example uses the `.next()` method to manually iterate through the keys ​​and print them to the console:
 
-```codebyte/js
+```codebyte/javascript
 const map = new Map();
 
 map.set(1, 'One');
