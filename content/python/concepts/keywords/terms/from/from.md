@@ -5,37 +5,34 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Modules'
   - 'Imports'
-  - 'Python'
   - 'Keywords'
+  - 'Modules'
+  - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`from`** keyword in Python is used to **import specific items** (such as functions, classes, or variables) from a module instead of importing the entire module.  
-It helps keep the code cleaner and avoids unnecessary namespace clutter.
+The **`from`** keyword in Python is used to import specific items (such as functions, classes, or variables) from a module instead of importing the entire module. It helps keep the code cleaner and avoids unnecessary namespace clutter.
 
-For example, instead of importing the whole `math` module, you can import only the functions you need.
-
----
+For example, instead of importing the entire `math` module, only the required functions can be imported.
 
 ## Syntax
 
-```py
+```pseudo
 from module_name import name
 ```
 
-or
+To import multiple items:
 
-```py
+```pseudo
 from module_name import name1, name2, ...
 ```
 
-or
+To import all public names from a module (not recommended):
 
-```py
+```pseudo
 from module_name import *
 ```
 
@@ -43,9 +40,11 @@ In the syntax:
 
 - `module_name`: The name of the module to import from.
 - `name`: The specific object(s) (function, class, or variable) to import.
-- The asterisk (\*) imports all public objects from the module, though it’s not recommended in production code due to potential namespace conflicts.
+- The asterisk (`*`) imports all public objects from the module, which can lead to namespace conflicts and reduced clarity.
 
 ## Example 1: Importing a Specific Function
+
+This example demonstrates importing a single function (`sqrt`) from the `math` module:
 
 ```py
 from math import sqrt
@@ -53,22 +52,47 @@ from math import sqrt
 # Using the imported function directly
 result = sqrt(16)
 print(result)
+```
 
-#Output 4.0
+The output of this code is:
+
+```shell
+4.0
 ```
 
 ## Example 2: Importing Multiple Functions
 
+This example shows how to import more than one function from the same module:
+
 ```py
 from math import ceil, floor
 
-print(ceil(4.2))   # Output: 5
-print(floor(4.8))  # Output: 4
+print(ceil(4.2))
+print(floor(4.8))
 ```
+
+The output of this code is:
+
+```shell
+5
+4
+```
+
+## Example 3: Using `from` for Relative Imports
+
+The `from` keyword can also be used with relative imports inside packages, such as:
+
+```py
+from . import utils
+from ..helpers import format_data
+```
+
+- Relative imports use dots (`.`) to indicate the current and parent packages.
+- Explicit imports using `from` enhance code readability and prevent unnecessary components from being loaded.
 
 ## Codebyte Example
 
-The following is a runnable example demonstrating the use of the `from` keyword:
+The following example illustrates importing multiple functions (`sqrt`, `pow`) and using them directly in a program:
 
 ```codebyte/python
 # Import specific functions from the math module
@@ -82,21 +106,3 @@ power = pow(2, 3)
 print("Square root of 9 is:", root)
 print("2 raised to the power 3 is:", power)
 ```
-
-**_Output :_**
-
-- Square root of 9 is: 3.0
-- 2 raised to the power 3 is: 8.0
-
-## Notes
-
-- The from keyword can also be used with relative imports inside packages, such as:
-
-  ```py
-  from . import utils
-  from ..helpers import format_data
-  ```
-
-- Relative imports use dots (.) to indicate the current and parent packages.
-
-- Using from with explicit imports improves readability and avoids importing unnecessary code.
