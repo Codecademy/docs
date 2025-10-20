@@ -38,9 +38,6 @@ Provides raw storage volumes that can be attached to virtual machines. Data is s
 - High-performance applications
 - Applications requiring low latency
 
-[Amazon EBS](https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs)
-[Google Persistent Disk](https://cloud.google.com/compute/docs/disks/persistent-disks)
-[Azure Managed Disks](https://learn.microsoft.com/en-us/azure/virtual-machines/managed-disks-overview)
 
 ## File storage
 
