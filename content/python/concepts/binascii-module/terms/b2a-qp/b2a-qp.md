@@ -21,6 +21,8 @@ The **`.b2a_qp()`** function encodes binary data using the quoted-printable tran
 binascii.b2a_qp(data, quotetabs=false, istext=false, header=false)
 ```
 
+**Parameters:**
+
 - `data`: The binary data to encode. Must be a `bytes` or `bytearray` object.
 - `quotetabs` (optional, default = `False`): When `True`, spaces and tabs are always encoded. By default, they’re encoded only when necessary according to the quoted-printable rules.
 - `istext` (optional, default = `False`): When `True`, the input is treated as text and line endings are converted to `\r\n`. When `False`, line endings are not altered.
