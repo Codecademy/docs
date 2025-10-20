@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`extendleft()`** method adds multiple elements to the left end of a `deque` from any iterable (like a [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), or another deque). It modifies the deque in place and returns `None`.
+The **`extendleft()`** method adds multiple elements to the left end of a `deque` from any iterable (like a [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), or another deque), adding them in reverse order. It modifies the deque in place and returns `None`.
 
 ## Syntax
 
@@ -30,9 +30,11 @@ deque.extendleft(iterable)
 
 This method does not return any value. It modifies the deque in-place.
 
+> **Note:** Elements are added in reverse order of the iterable.
+
 ## Example
 
-In this example, `extendleft()` adds elements from a list and another deque to the left end of an existing deque.
+In this example, `extendleft()` adds elements from a list and another deque to the left end of an existing deque:
 
 ```py
 from collections import deque
@@ -62,12 +64,15 @@ In this example, `extendleft()` adds elements from a list and a tuple on the lef
 
 ```codebyte/python
 from collections import deque
+
 # Create a deque with some initial elements
 fruits = deque(["apple", "banana"])
 print("Initial deque:", fruits)
+
 # Add multiple elements to the left using extendleft()
 fruits.extendleft(["cherry", "date"])
 print("After extendleft with list:", fruits)
+
 # Extend again using a tuple
 fruits.extendleft(("elderberry", "fig"))
 print("After extendleft with tuple:", fruits)
