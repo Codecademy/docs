@@ -17,7 +17,7 @@ The **`.prod()`** method produces a new `Series` or [`DataFrame`](https://www.co
 ## Syntax
 
 ```pseudo
-groupbyobject.prod(numeric_only, min_count)
+groupbyobject.prod(numeric_only=False, min_count=0)
 ```
 
 **Parameters:**
