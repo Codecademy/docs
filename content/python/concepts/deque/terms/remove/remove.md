@@ -5,41 +5,39 @@ Subjects:
   - 'Computer Science'
   - 'Data Structures'
 Tags:
+  - 'Data Structures'
   - 'Deque'
   - 'Methods'
-  - 'Data Structures'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-# remove()
-
-The **`remove()`** method removes the first occurrence of a specified value from a **deque**. If the value is not found in the deque, a `ValueError` is raised. The method modifies the deque in-place and does not return a value.
+The **`remove()`** method removes the first occurrence of a specified value from a deque. If the value is not found in the deque, a `ValueError` is raised. The method modifies the deque in-place and does not return a value.
 
 ## Syntax
 
-```
+```pseudo
 deque.remove(value)
 ```
 
-### Parameters
+**Parameters:**
 
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| `value` | Any | The item to be removed from the deque. Only the first occurrence is removed. |
+- `value`: The item to be removed from the deque. Only the first occurrence is removed.
 
-### Return Value
+**Return value:**
 
 The `remove()` method returns `None`.
 
-### Exceptions
+**Exceptions:**
 
-- **`ValueError`**: Raised when the specified value is not found in the deque.
+- `ValueError`: Raised when the specified value is not found in the deque.
 
-## Example
+## Example: Removing an Element by Value
 
-```python
+In this example, the first occurrence of a given value is removed from the deque:
+
+```py
 from collections import deque
 
 # Create a deque with integer elements
@@ -48,12 +46,20 @@ numbers = deque([10, 20, 30, 20, 40])
 # Remove the first occurrence of 20
 numbers.remove(20)
 
-print(numbers)  # Output: deque([10, 30, 20, 40])
+print(numbers)
+```
+
+The output of the code is:
+
+```shell
+deque([10, 30, 20, 40])
 ```
 
 In the example above, the `remove()` method removes only the first occurrence of `20` from the deque, leaving the second occurrence of `20` intact.
 
-## Codebyte
+## Codebyte Example
+
+In this example, multiple elements are removed one at a time from the deque.
 
 ```codebyte/python
 from collections import deque
