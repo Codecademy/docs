@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`extendleft()`** method adds multiple elements to the left end of a `deque` from any iterable (like a [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), or another deque), adding them in reverse order. It modifies the deque in place and returns `None`.
+The **`extendleft()`** method adds multiple elements to the left end of a `deque` from any iterable (like a [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), or another [deque](https://www.codecademy.com/resources/docs/python/collections-module/deque), adding them in reverse order. It modifies the deque in place and returns `None`.
 
 ## Syntax
 
