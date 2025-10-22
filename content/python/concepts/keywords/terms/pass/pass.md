@@ -1,6 +1,6 @@
 ---
 Title: 'pass'
-Description: 'Acts as a placeholder in Python code, allowing empty code blocks (like functions or loops) to run without causing errors.'
+Description: 'Acts as a placeholder in Python code, allowing empty code blocks to run without causing errors.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
