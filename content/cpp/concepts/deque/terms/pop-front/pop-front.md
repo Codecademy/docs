@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`pop_front()`** method in C++ deque removes the first (front) element from the deque, reducing its size by one.
+The **`pop_front()`** method in C++ deque removes or pops the first (front) element from the deque, reducing its size by one.
 
 ## Syntax
 
