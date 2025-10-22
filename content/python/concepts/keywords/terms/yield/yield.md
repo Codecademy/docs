@@ -75,6 +75,8 @@ In this code:
 This Codebyte example shows the difference between using `return` and `yield` in a function:
 
 ```codebyte/python
+from typing import List
+
 # A list of words to print
 words: list[str] = ["Hello", "yield", "!"]
 
