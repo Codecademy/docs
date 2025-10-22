@@ -14,7 +14,7 @@ CatalogContent:
   - 'python-data-structures'
 ---
 
-The **`deque.popleft()`** method removes and returns the element from the left end (first element) of a `deque` object. A `deque` (double-ended queue) allows elements to be added or removed efficiently from both ends. Calling `.popleft()` on an empty deque raises an `IndexError`.
+The **`deque.popleft()`** method removes and returns the element from the left end (first element) of a `deque` object. A [`deque`](https://www.codecademy.com/resources/docs/python/collections-module/deque) (double-ended queue) allows elements to be added or removed efficiently from both ends. Calling `.popleft()` on an empty deque raises an `IndexError`.
 
 ## Syntax
 
