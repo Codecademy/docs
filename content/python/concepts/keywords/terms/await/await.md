@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`await`** keyword suspends the execution of an asynchronous function until the awaited [coroutine](https://docs.python.org/3/library/asyncio-task.html#id2), task, or awaitable object completes. It allows asynchronous code to look and behave like synchronous code.
+The **`await`** keyword pauses the execution of an asynchronous function until the awaited [coroutine](https://docs.python.org/3/library/asyncio-task.html#id2), task, or awaitable object completes. It lets asynchronous code read and behave more like synchronous code.
 
 ## Syntax
 
