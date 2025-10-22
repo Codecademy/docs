@@ -1,6 +1,6 @@
 ---
 Title: 'insert()'
-Description: 'Inserts a single element at the specified index in the deque, shifting elements to the right.'
+Description: 'Inserts a single element at the specified index in the deque.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
