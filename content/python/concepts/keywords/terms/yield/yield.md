@@ -78,7 +78,7 @@ This Codebyte example shows the difference between using `return` and `yield` in
 from typing import List
 
 # A list of words to print
-words: list[str] = ["Hello", "yield", "!"]
+words: List[str] = ["Hello", "yield", "!"]
 
 # Function using return
 def print_list_by_return(element: str):
