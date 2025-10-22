@@ -1,8 +1,8 @@
 ---
-Title: logical_or()
-Description: Performs an element-wise logical OR operation between two tensors.
-Subjects: PyTorch, Tensor Operations, Logical Operations
-Tags: PyTorch, Tensor
+title: logical_or()
+description: Performs an element-wise logical OR operation between two tensors.
+subjects: PyTorch, Tensor Operations, Logical Operations
+tags: PyTorch, Tensor
 ---
 
 The `logical_or()` operation performs an element-wise logical OR between two tensors. For each corresponding element pair, it returns _True_ if _either_ element is _True_, and _False_ only if _both_ elements are _False_.
