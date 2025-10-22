@@ -29,6 +29,24 @@ This operation can be used either as a function in the torch module or as a tens
 - `other` (Tensor): The second tensor to compare.
 - `out` (Tensor, optional): Tensor to store the output.
 
+## Example
+
+```python
+import torch
+
+# Example 1: Using boolean tensors
+a = torch.tensor([True, False, True, False])
+b = torch.tensor([True, True, False, False])
+print(torch.logical_or(a, b))
+# Output: tensor([True, True, True, False])
+
+# Example 2: Using integer tensors
+x = torch.tensor([1, 0, 0, 7])
+y = torch.tensor([0, 0, 3, 0])
+print(x.logical_or(y))
+# Output: tensor([True, False, True, True])
+```
+
 ## Codebyte Example
 
 ```codebyte/python
