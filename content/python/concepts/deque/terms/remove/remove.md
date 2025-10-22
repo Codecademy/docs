@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`remove()`** method removes the first occurrence of a specified value from a deque. If the value is not found in the deque, a `ValueError` is raised. The method modifies the deque in-place and does not return a value.
+The **`remove()`** method removes the first occurrence of a specified value from a [deque](https://www.codecademy.com/resources/docs/python/collections-module/deque). If the value is not found in the deque, a `ValueError` is raised. The method modifies the deque in-place and does not return a value.
 
 ## Syntax
 
