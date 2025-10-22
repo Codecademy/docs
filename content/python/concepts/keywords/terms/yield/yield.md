@@ -52,7 +52,7 @@ for number in gen:
 
 The output of this code is:
 
-```
+```shell
 1
 2
 3
