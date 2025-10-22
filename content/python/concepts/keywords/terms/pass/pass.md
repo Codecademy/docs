@@ -27,7 +27,7 @@ The `pass` statement is written in lowercase and is often used inside a [functio
 
 > **Note:** Using incorrect casing like `Pass` or `PASS` will result in a `SyntaxError`.
 
-## Example 1
+## Example
 
 In this example, the `sum()` function is defined but its logic is not yet implemented:
 
