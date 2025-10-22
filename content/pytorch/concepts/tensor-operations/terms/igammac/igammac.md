@@ -1,42 +1,22 @@
 ---
-
 Title: '.igammac()'
-
 Description: 'Computes the regularized upper incomplete gamma function.'
-
 Subjects:
-
-&nbsp; - 'AI'
-
-&nbsp; - 'Data Science'
-
-&nbsp; - 'Machine Learning'
-
+  - 'AI'
+  - 'Data Science'
+  - 'Machine Learning'
 Tags:
-
-&nbsp; - 'AI'
-
-&nbsp; - 'Deep Learning'
-
-&nbsp; - 'Functions'
-
-&nbsp; - 'Machine Learning'
-
-&nbsp; - 'PyTorch'
-
+  - 'AI'
+  - 'Deep Learning'
+  - 'Functions'
+  - 'Machine Learning'
+  - 'PyTorch'
 CatalogContent:
-
-&nbsp; - 'intro-to-py-torch-and-neural-networks'
-
-&nbsp; - 'paths/computer-science'
-
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/computer-science'
 ---
 
-
-
 In PyTorch, the `.igammac()` method is an alias for `torch.special.gammaincc()` and computes the regularized upper incomplete gamma function. This function is commonly used in probabilistic modeling, survival analysis, and statistical machine learning applications.
-
-
 
 \## Syntax
 
@@ -46,8 +26,6 @@ torch.igammac(input, other, \*, out=None)
 
 ```
 
-
-
 This is equivalent to:
 
 ```py
@@ -56,41 +34,23 @@ torch.special.gammaincc(input, other, \*, out=None)
 
 ```
 
-
-
 \### Parameters
-
-
 
 \- `input` (Tensor): The first non-negative input tensor representing the shape parameter.
 
 \- `other` (Tensor): The second non-negative input tensor representing the integration limit.
 
-
-
 \### Keyword Arguments
-
-
 
 \- `out` (Tensor, optional): The output tensor.
 
-
-
 \### Return Value
-
-
 
 Returns a tensor containing the computed regularized upper incomplete gamma function values. The function computes the probability mass from `other` to infinity under the gamma distribution.
 
-
-
 \*\*Note:\*\* The function supports broadcasting to a common shape and requires float inputs. The backward pass with respect to `input` is not currently supported.
 
-
-
 \## Example
-
-
 
 The following example demonstrates the use of `.igammac()`:
 
@@ -130,8 +90,6 @@ print("Sum of igamma and igammac:", sum\_result)
 
 ```
 
-
-
 The above code produces the following output:
 
 ```
@@ -142,11 +100,7 @@ Sum of igamma and igammac: tensor(\[1., 1., 1.])
 
 ```
 
-
-
 \## Codebyte Example
-
-
 
 The following codebyte demonstrates `.igammac()` in an interactive example:
 
@@ -187,4 +141,3 @@ print("\\nCDF values:", cdf)
 print("CDF + Survival:", cdf + survival\_prob)
 
 ```
-
