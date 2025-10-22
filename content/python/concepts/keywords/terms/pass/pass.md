@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`pass`** keyword in Python acts as a placeholder in code blocks where no action is required. It prevents syntax errors when a statement is needed but no operation should occur.
+The **`pass`** keyword in Python acts as a placeholder in code blocks (like functions or loops) where no action is required. It prevents syntax errors when a statement is needed but no operation should occur.
 
 ## Syntax
 
