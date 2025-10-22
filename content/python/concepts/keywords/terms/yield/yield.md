@@ -1,5 +1,5 @@
 ---
-Title: 'Yield'
+Title: 'yield'
 Description: 'Turns a function into a generator, producing values one at a time while retaining state between calls.'
 Subjects:
   - 'Code Foundations'
