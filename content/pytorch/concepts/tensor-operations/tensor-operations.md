@@ -21,6 +21,7 @@ In PyTorch, **tensor operations** are fundamentals for performing various tensor
 Here are the fundamental operations that can be performed on tensors:
 
 - `.expand()`: Expands the tensor along specified dimensions, creating a larger tensor with repeated values.
+- [`i0()`](concepts/tensor-operations/terms/i0/i0.md): Modified Bessel function of the first kind of order 0.
 - `.permute()`: Reorders the dimensions of the tensor according to a specified order.
 - `.tolist()`: Converts the tensor to a [Python list](https://www.codecademy.com/resources/docs/python/lists) or nested list.
 - `.narrow()`: Returns a tensor that is a narrowed view of the original tensor based on specified dimensions.
