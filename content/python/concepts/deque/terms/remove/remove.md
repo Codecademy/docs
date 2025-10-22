@@ -35,7 +35,7 @@ The `remove()` method returns `None`.
 
 ## Example: Removing an Element by Value
 
-In this example, the first occurrence of a given value is removed from the deque:
+In this example, the first occurrence of a given value is removed from the `deque`:
 
 ```py
 from collections import deque
@@ -59,7 +59,7 @@ In the example above, the `remove()` method removes only the first occurrence of
 
 ## Codebyte Example
 
-In this example, multiple elements are removed one at a time from the deque.
+In this example, multiple elements are removed from the deque, one at a time:
 
 ```codebyte/python
 from collections import deque
