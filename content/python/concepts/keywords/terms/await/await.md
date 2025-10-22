@@ -1,6 +1,6 @@
 ---
 Title: 'await'
-Description: 'Suspends the execution of an asynchronous function until the awaited coroutine, task, or awaitable object finishes.'
+Description: 'Pauses the execution of an asynchronous function until the awaited coroutine, task, or awaitable object finishes.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
