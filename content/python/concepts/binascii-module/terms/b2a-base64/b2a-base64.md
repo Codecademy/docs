@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`binascii.b2a_base64()`** function encodes binary data into a Base64-encoded ASCII string, making it easier to transmit or store binary content such as images or files in text-based formats.
+The **`binascii.b2a_base64()`** function converts binary data into a Base64-encoded ASCII string, making it easier to transmit or store binary content such as images or files in text-based formats.
 
 ## Syntax
 
