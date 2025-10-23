@@ -55,7 +55,6 @@ b'SGVsbG8sIEhhY2t0b2JlcmZlc3Qh\n'
 
 > **Note:** If the trailing newline character is not needed, set `newline=False`.
 
-
 ## Codebyte Example
 
 In this example, a short text is converted into its Base64-encoded representation, showing both the original and encoded data:
