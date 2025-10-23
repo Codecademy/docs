@@ -81,5 +81,3 @@ cond inverted with logical_not: tensor([ True, False,  True,  True])
 tensor([ True, False, False])
 tensor([1, 0, 0], dtype=torch.int16)
 ```
-
-> **Note:** For integer or floating-point tensors, first create a boolean condition (for example, `x > 0`) or cast with `.to(torch.bool)` before calling `.logical_not()`.
