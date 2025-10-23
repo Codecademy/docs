@@ -61,11 +61,11 @@ print('cond (vals > 0):', cond)
 print('cond inverted with logical_not:', cond_inv)
 
 # Numeric input — zeros are False, non-zeros are True
-print(torch.logical_not(torch.tensor([0., 1.5, -10.], dtype=torch.double)))
+print(torch.logical_not(torch.tensor([0., 2.45, -20., 3.8], dtype=torch.double)))
 
 # Using an integer out tensor (int16) to store 0/1 results
-out_buf = torch.empty(3, dtype=torch.int16)
-print(torch.logical_not(torch.tensor([0., 1.5, -10.], dtype=torch.double), out=out_buf))
+out_buf = torch.empty(4, dtype=torch.int16)
+print(torch.logical_not(torch.tensor([0., 2.45, -20., 3.8], dtype=torch.double), out=out_buf))
 ```
 
 The above code produces the following output:
@@ -77,7 +77,6 @@ logical_not(mask): tensor([False,  True, False,  True])
 vals: tensor([ 0.0000,  1.5000, -2.0000,  0.0000])
 cond (vals > 0): tensor([False,  True, False, False])
 cond inverted with logical_not: tensor([ True, False,  True,  True])
-
-tensor([ True, False, False])
-tensor([1, 0, 0], dtype=torch.int16)
+tensor([ True, False, False, False])
+tensor([1, 0, 0, 0], dtype=torch.int16)
 ```
