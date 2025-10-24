@@ -27,20 +27,21 @@ ndarray.diagonal(offset=0, axis1=0, axis2=1)
 ```
 
 ## Example 1: Extracting the main diagonal of a 2D array
+```py
 import numpy as np
 
-Create a 2D array
+#Create a 2D array
 array_2d = np.array([[1, 2, 3],
                      [4, 5, 6],
                      [7, 8, 9]])
 
-Extract the main diagonal
+#Extract the main diagonal
 main_diag = array_2d.diagonal()
 print("Original array:")
 print(array_2d)
 print("\nMain diagonal:", main_diag)
 
-
+```
 ## Output:
 
 Original array:
@@ -50,36 +51,40 @@ Original array:
 
 Main diagonal: [1 5 9]
 
+
 ## Example 2: Extracting diagonals with an offset
-Diagonal above the main
+```py
+#Diagonal above the main
 upper_diag = array_2d.diagonal(offset=1)
-Diagonal below the main
+#Diagonal below the main
 lower_diag = array_2d.diagonal(offset=-1)
 
 print("Diagonal above main:", upper_diag)
 print("Diagonal below main:", lower_diag)
 
-
+```
 ## Output:
 
 Diagonal above main: [2 6]
 Diagonal below main: [4 8]
 
+
 ## Example 3: Using axis parameters in a 3D array
-Create a 3D array
+```py
+#Create a 3D array
 array_3d = np.arange(27).reshape(3,3,3)
 
-Extract diagonal along axis 1 and axis 2
+#Extract diagonal along axis 1 and axis 2
 diag_3d = array_3d.diagonal(axis1=1, axis2=2)
 print("Original 3D array:")
 print(array_3d)
 print("\nDiagonals along axis1=1 and axis2=2:")
 print(diag_3d)
-
+```
 
 ## Output:
 
-Original 3D array:
+#Original 3D array:
 [[[ 0  1  2]
   [ 3  4  5]
   [ 6  7  8]]
@@ -98,28 +103,28 @@ Diagonals along axis1=1 and axis2=2:
  [18 22 26]]
 
 ## Codebyte Example: Computing Trace Using .diagonal()
+```py
 import numpy as np
 
-Create a 4x4 matrix
+#Create a 4x4 matrix
 matrix = np.array([[1, 2, 3, 4],
                    [5, 6, 7, 8],
                    [9, 10, 11, 12],
                    [13, 14, 15, 16]])
 
- Extract main diagonal
+#Extract main diagonal
 diag_elements = matrix.diagonal()
 print("Diagonal elements:", diag_elements)
 
- Compute trace (sum of diagonal)
+#Compute trace (sum of diagonal)
 trace = diag_elements.sum()
 print("Trace of the matrix:", trace)
 
-
+```
 ## Output:
 
 Diagonal elements: [1 6 11 16]
 Trace of the matrix: 34
-
 
 
 <details>
