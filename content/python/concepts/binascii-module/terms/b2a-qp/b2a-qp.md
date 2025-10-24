@@ -28,7 +28,7 @@ binascii.b2a_qp(data, quotetabs=false, istext=false, header=false)
 - `istext` (optional, default = `False`): When `True`, the input is treated as text and line endings are converted to `\r\n`. When `False`, line endings are not altered.
 - `header` (optional, default = `False`): When `True`, spaces are encoded as underscores, making the output suitable for email headers (RFC 2047 format).
 
-**Return value:** 
+**Return value:**
 
 Returns a bytes object containing the quoted-printable encoded ASCII representation of the input data.
 
