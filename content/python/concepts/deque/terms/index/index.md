@@ -1,6 +1,6 @@
 ---
 Title: 'index'
-Description: 'Used to find the position of the first occurrence of an element in a deque.'
+Description: 'Returns the position of the first occurrence of a specified element within the deque.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,37 +14,29 @@ CatalogContent:
   - 'paths/computer-science'  
 ---
 
-The **index(x)** method is used to find the position of the first occurrence of `x` in a [deque](https://www.codecademy.com/resources/docs/python/collections-module/deque).
-
+The **`index()`** method in a Python [deque](https://www.codecademy.com/resources/docs/python/collections-module/deque) returns the position of the first occurrence of a specified element within the deque.
 
 ## Syntax
 
 ```pseudo
-deque.index(x[, start[, stop]])
+deque.index(element, start=0, stop=len(deque))
 ```
 
-**Parameter:**
+**Parameters:**
 
-- `x`: The element to be found within the deque.
-
-- `start`: The zero based inclusive index to specify the start position of the search.
-
-- `stop`: The zero based exclusive index to specify the stop position of the search.
+- `element`: The element to be found within the deque.
+- `start` (Optional): The zero based inclusive index to specify the start position of the search.
+- `stop` (Optional): The index to end the search (default is the length of the deque).
 
 **Return value:**
 
-This method returns the zero based index of element `x` in the list.
+Returns the index (int) of the first matching element; raises a `ValueError` if the element is not found.
 
-> **Note:** This method raises a ValueError if `x` is not in the list which can potentially break your code's execution if not treated inside a [try and except](https://www.codecademy.com/resources/docs/python/keywords/try) block.
+> **Note:** This method raises a `ValueError` if the element is not in the deque, which can stop the code if not handled inside a [try and except](https://www.codecademy.com/resources/docs/python/keywords/try) block.
 
+## Example 1: Finding elements by position
 
-## Example
-
-In this example, `index()` is used to find:
-- The very first position of an element in a list.
-- The position of an element in a list after a given postion.
-- The position of an element in a list inside a given window.
-- The position of an element that is not in the list.
+In this example, `index()` is used to find the position of elements in different scenarios:
 
 ```py
 from collections import deque
@@ -66,19 +58,27 @@ print("Position of (1) between index=1 inclusive and index=6 exclusive:", dq.ind
 
 # Find the position of (10) which is not in the list.
 try:
-    print("Position of (10):", dq.index(10))
+  print("Position of (10):", dq.index(10))
 except(ValueError) as ve:
-    print("Trying to find the index of a nonexistent element will give you problems.")
-    print(ve)
-# This will raise an error
-# ValueError: 10 is not in deque
+  print("Trying to find the index of a nonexistent element will give you problems.")
+  print(ve)
 ```
 
-## Codebyte Example: Finding the index of elements in a list
+The output of this code is:
 
-In this example, `index()` finds the position of the element `"apple"` in different scenarios, showing it's possible applications and flexibility.
+```shell
+Very first position of (4): 4
+Position of (1) after index=0: 3
+Position of (1) between index=1 inclusive and index=6 exclusive: 3
+Trying to find the index of a nonexistent element will give you problems.
+10 is not in deque
+```
 
-```codebyte/python
+## Example 2: Finding elements by value range
+
+In this example, `index()` finds the position of the element `"apple"` in different scenarios, showing its flexibility and use of parameters:
+
+```py
 from collections import deque
 
 # Create a deque with some initial elements
@@ -93,4 +93,12 @@ print("Next occurrence: ", fruits.index("apple",first_occurrence_of_apple_index 
 
 # Find the index for apple between index=1 inclusive and index=4 exclusive.
 print("Index for apple, between (1) inclusive and (4) exclusive: ", fruits.index("apple",1,4))
+```
+
+The output of this code is:
+
+```shell
+First found index for apple:  0
+Next occurrence:  2
+Index for apple, between (1) inclusive and (4) exclusive:  2
 ```
