@@ -27,7 +27,7 @@ The `.dot()` method is widely used in **linear algebra**, **machine learning**, 
 
 ## Syntax
 
-```pseudo
+```py 
 ndarray.dot(b)
 
 
@@ -37,25 +37,25 @@ ndarray.dot(b)
 
 
 ## Example 1: Dot Product of Two 1-D Arrays (Vectors)
-
-This example demonstrates how .dot() computes the inner product of two one-dimensional arrays.
+```py
+#This example demonstrates how .dot() computes the inner product of two one-dimensional arrays.
 
 import numpy as np
 
- Define two 1-D arrays (vectors)
+#Define two 1-D arrays (vectors)
 a = np.array([1, 2, 3])
 b = np.array([4, 5, 6])
 
-Compute the dot product
+#Compute the dot product
 
 result = a.dot(b)
 
 print("Vector A:", a)
 print("Vector B:", b)
 print("Dot Product:", result)
-
-Output:
-
+```
+## Output:
+```
 Vector A: [1 2 3]
 Vector B: [4 5 6]
 Dot Product: 32
@@ -66,29 +66,31 @@ The dot product is calculated as: 1×4+2×5+3×6=32
 
 This operation produces a scalar value.
 
+```
 
 ## Example 2: Dot Product of Two 2-D Arrays (Matrices)
-
-When used with 2-D arrays, .dot() performs matrix multiplication, similar to the @ operator or np.matmul().
+```py
+#When used with 2-D arrays, .dot() performs matrix multiplication, similar to the @ operator or np.matmul().
 
 import numpy as np
 
-Define two matrices
+#Define two matrices
 A = np.array([[1, 2],
               [3, 4]])
 B = np.array([[5, 6],
               [7, 8]])
 
-Perform matrix multiplication using dot()
+#Perform matrix multiplication using dot()
 result = A.dot(B)
 
 print("Matrix A:\n", A)
 print("\nMatrix B:\n", B)
 print("\nDot Product (Matrix Multiplication):\n", result)
 
+```
 
-Output:
-
+# Output:
+```
 Matrix A:
 [[1 2]
  [3 4]]
@@ -104,24 +106,25 @@ Dot Product (Matrix Multiplication):
 
 Explanation:
 Each element in the resulting matrix is obtained by multiplying rows of A with columns of B and summing the products.
-
+```
 ## Codebyte Example: Using .dot() for Machine Learning Weight Multiplication
 
-This example demonstrates how .dot() is commonly used in machine learning, such as computing the output of a single-layer neural network.
+```py
+#This example demonstrates how .dot() is commonly used in machine learning, such as computing the output of a single-layer neural network.
 
 import numpy as np
 
- Input features (3 samples, 2 features each)
+#Input features (3 samples, 2 features each)
 X = np.array([
     [1, 2],
     [3, 4],
     [5, 6]
 ])
 
-Weights for 2 features -> 1 output neuron
+#Weights for 2 features -> 1 output neuron
 weights = np.array([0.5, 0.8])
 
-Compute weighted sum using dot product
+#Compute weighted sum using dot product
 outputs = X.dot(weights)
 
 print("Input Matrix (X):")
@@ -130,7 +133,7 @@ print("\nWeights:")
 print(weights)
 print("\nDot Product Result (Weighted Outputs):")
 print(outputs)
-
+```
 
 <details> 
 <summary>1. How is `.dot()` different from the `@` operator or `np.matmul()`?</summary>
