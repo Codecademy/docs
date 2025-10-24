@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`UserString`** is a class in the `collections` module. It is a custom wrapper for string objects, behaving like a string but allowing easier subclassing. Unlike directly subclassing `str`, `UserString` stores its content in the `.data` attribute.
+In Python, a **`UserString`** is a class in the `collections` module. It is a custom wrapper for string objects, behaving like a string but allowing easier subclassing. Unlike directly subclassing `str`, `UserString` stores its content in the `.data` attribute.
 
 > **Note:** While `UserString` behaves like a string and supports the same operations, some methods return a regular `str` instead of another `UserString`.
 
