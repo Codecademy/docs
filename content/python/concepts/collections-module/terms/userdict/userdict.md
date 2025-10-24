@@ -138,9 +138,9 @@ Mamta
 
 ## Codebyte Example: Default-Like Behavior
 
-In this example, a default factory is added, similar to `collections.defaultdict`, so missing keys automatically get initialized:
+In this example, a default factory is added, similar to `collections.defaultdict()`, so missing keys automatically get initialized:
 
-```py
+```codebyte/python
 from collections import UserDict
 
 class DefaultUserDict(UserDict):
