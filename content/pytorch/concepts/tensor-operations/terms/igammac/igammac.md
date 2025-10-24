@@ -16,128 +16,84 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the `.igammac()` method is an alias for `torch.special.gammaincc()` and computes the regularized upper incomplete gamma function. This function is commonly used in probabilistic modeling, survival analysis, and statistical machine learning applications.
+The **`torch.igammac()`** function in PyTorch computes the upper regularized incomplete gamma function. This function is commonly used in probabilistic modeling, survival analysis, and statistical machine learning applications. `torch.igammac()` is an alias for `torch.special.gammaincc()`, meaning both functions compute the same values and can be used interchangeably.
 
-\## Syntax
+## Syntax
 
-```py
-
+```pseudo
 torch.igammac(input, other, \*, out=None)
-
 ```
 
 This is equivalent to:
 
-```py
-
+```pseudo
 torch.special.gammaincc(input, other, \*, out=None)
-
 ```
 
-\### Parameters
+**Parameters:**
 
-\- `input` (Tensor): The first non-negative input tensor representing the shape parameter.
+- `input` (Tensor): The first non-negative input tensor representing the shape parameter (${a}$).
+- `other` (Tensor): The second non-negative input tensor representing the integration limit (${x}$).
+- `out` (Tensor, optional): The output tensor.
 
-\- `other` (Tensor): The second non-negative input tensor representing the integration limit.
+**Return value:**
 
-\### Keyword Arguments
+Returns a tensor containing the upper regularized incomplete gamma function values for each corresponding pair of elements in `input` and `other`.
 
-\- `out` (Tensor, optional): The output tensor.
+> **Note:** Supports broadcasting to a common shape and requires float inputs. The backward pass with respect to `input` is not currently supported.
 
-\### Return Value
+## Example 1: Basic Element-Wise Computation
 
-Returns a tensor containing the computed regularized upper incomplete gamma function values. The function computes the probability mass from `other` to infinity under the gamma distribution.
-
-\*\*Note:\*\* The function supports broadcasting to a common shape and requires float inputs. The backward pass with respect to `input` is not currently supported.
-
-\## Example
-
-The following example demonstrates the use of `.igammac()`:
+In this example, `torch.igammac()` computes the upper regularized incomplete gamma function for corresponding elements of two 1D tensors:
 
 ```py
-
 import torch
 
-
-
-\# Create input tensors
-
-a = torch.tensor(\[4.0])
-
-x = torch.tensor(\[3.0, 4.0, 5.0])
-
-
-
-\# Compute the regularized upper incomplete gamma
+a = torch.tensor([4.0])
+x = torch.tensor([3.0, 4.0, 5.0])
 
 result = torch.igammac(a, x)
-
-
-
 print("Upper incomplete gamma:", result)
 
-
-
-\# Verify complementary relationship
-
+# Verify complementary relationship with igamma
 lower = torch.igamma(a, x)
-
-sum\_result = lower + result
-
-
-
-print("Sum of igamma and igammac:", sum\_result)
-
+print("Sum of igamma and igammac:", lower + result)
 ```
 
-The above code produces the following output:
+This code produces the following output:
 
+```shell
+Upper incomplete gamma: tensor([0.6472, 0.4335, 0.2650])
+Sum of igamma and igammac: tensor([1., 1., 1.])
 ```
 
-Upper incomplete gamma: tensor(\[0.6472, 0.4335, 0.2650])
+## Example 2: Survival Probabilities
 
-Sum of igamma and igammac: tensor(\[1., 1., 1.])
+In this example, `torch.igammac()` calculates the survival probability (complement of CDF) for a gamma distribution at a given time point:
 
-```
-
-\## Codebyte Example
-
-The following codebyte demonstrates `.igammac()` in an interactive example:
-
-```codebyte/python
-
+```py
 import torch
 
+shape = torch.tensor([2.0, 3.0, 4.0])
+time = torch.tensor([1.5])
 
-
-\# Example: Computing survival probabilities
-
-shape = torch.tensor(\[2.0, 3.0, 4.0])
-
-time = torch.tensor(\[1.5])
-
-
-
-\# Calculate the probability of surviving past time 1.5
-
-survival\_prob = torch.igammac(shape, time)
-
-
-
-print("Shape parameters:", shape)
-
-print("Time point:", time)
-
-print("Survival probabilities:", survival\_prob)
-
-
-
-\# Show complementary relationship
-
+survival_prob = torch.igammac(shape, time)
 cdf = torch.igamma(shape, time)
 
-print("\\nCDF values:", cdf)
+print("Shape parameters:", shape)
+print("Time point:", time)
+print("Survival probabilities:", survival_prob)
+print("\nCDF values:", cdf)
+print("CDF + Survival:", cdf + survival_prob)
+```
 
-print("CDF + Survival:", cdf + survival\_prob)
+The output of this code is:
 
+```shell
+Shape parameters: tensor([2., 3., 4.])
+Time point: tensor([1.5])
+Survival probabilities: tensor([0.4422, 0.7127, 0.8221])
+
+CDF values: tensor([0.5578, 0.2873, 0.1779])
+CDF + Survival: tensor([1., 1., 1.])
 ```
