@@ -6,7 +6,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Attributes'
-  - 'Keywords'
+  - 'Classes'
   - 'Modules'
   - 'Python'
 CatalogContent:
