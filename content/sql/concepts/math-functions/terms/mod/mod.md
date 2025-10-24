@@ -9,7 +9,6 @@ Tags:
   - 'MySQL'
   - 'PostgreSQL'
   - 'SQL'
-  - 'SQLite'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
@@ -32,7 +31,7 @@ MOD(dividend, divisor)
 
 **Return value:**
 
-Returns the remainder after dividing `dividend` by `divisor`.
+Returns the remainder obtained after dividing `dividend` by `divisor`.
 
 ## Example 1
 
@@ -52,13 +51,13 @@ The output of this code is:
 
 Given a table `numbers`:
 
-| id | value |
-|----|-------|
-| 1  | 7     |
-| 2  | 12    |
-| 3  | 15    |
+| id  | value |
+| --- | ----- |
+| 1   | 7     |
+| 2   | 12    |
+| 3   | 15    |
 
-Use `MOD()` to check which values are even:
+This query uses `MOD()` to check which values are even:
 
 ```sql
 SELECT id, value, MOD(value, 2) AS remainder FROM numbers;
