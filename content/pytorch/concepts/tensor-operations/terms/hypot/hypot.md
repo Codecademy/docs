@@ -1,24 +1,26 @@
 ---
 Title: '.hypot()'
-Description: 'It calculates the hypotenuse of a right traingle given its two legs'
+Description: 'Calculates the hypotenuse of a right triangle given the lengths of its two legs.'
 Subjects:
-    - 'Data Science'
-    - 'AI'
+  - 'AI'
+  - 'Computer Science'
+  - 'Data Science'
 Tags: 
-    - 'AI'
-    - 'Trigonometry'
-    - 'Pytorch' 
-    - 'Functions'
+  - 'AI'
+  - 'Functions'
+  - 'Pytorch'
+  - 'Trigonometry'
 CatalogContent: 
-    - 'intro-to-p-torch-and-neural-networks'
-    - 'paths/data-science'
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/data-science'
 ---
 
-The **`.hypot()`** function is an element-wise operation that calculates the hypotenuse of 2 given [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors). 
+The **`torch.hypot`** function in PyTorch calculates the hypotenuse of right triangles, given the lengths of the two legs.
 
-So, to put it simply, the **`.hypot()`** operator can be considered the same as
+Element-wise, `torch.hypot()` computes:
+
 $$
-hypotenuse = \sqrt{x^2 + y^2}
+\text{out}_i = \sqrt{(\text{input}_i)^2 + (\text{other}_i)^2}
 $$
 
 ## Syntax
@@ -26,16 +28,20 @@ $$
 ```pseudo
 torch.hypot(input, other, *, out=None)
 ```
+
 **Parameters:**
-* `input` - is the first input tensor (i.e $x$ in $\sqrt{*x*^2 + y^2}$).
-* `other` - is the second input tensor (i.e $y$ in $\sqrt{x^2 + *y*^2}$).
-* `out` (Optional) - the output tensor.
 
-**Return Value**
+- `input`: The first input tensor.
+- `other`: The second input tensor. This must be broadcastable with `input`.
+- `out` (Optional): The output tensor to store the result.
 
-A tensor with the result of the hypotenuse between $\sqrt{x^2 + y^2}$.
+**Return value**
 
-## Example 1 - Basic Element-Wise Hypotenuse
+Returns a tensor containing the element-wise Euclidean norm: $\sqrt{(\text{input}_i)^2 + (\text{other}_i)^2}$.
+
+## Example 1: Basic Element-Wise Hypotenuse
+
+In this example, `torch.hypot()` calculates the hypotenuse for corresponding elements of two 1D tensors:
 
 ```py
 import torch
@@ -51,14 +57,15 @@ hypotenuse = torch.hypot(x, y)
 print(hypotenuse)
 ```
 
-This would output:
+This code would output the following:
+
 ```shell
 tensor([5., 13., 17.])
 ```
 
-## Example 2 - 2D Distance Between Points
+## Example 2L 2D Distance Between Points
 
-For 2D points stored as `x, y` coordinates, and we want to calculate each point's distance from the origin (0, 0):
+In this example, `torch.hypot()` calculates the distance from the origin for 2D points stored as x, y coordinates:
 
 ```py
 import torch
@@ -78,12 +85,14 @@ distances = torch.hypot(x, y)
 print(distances)
 ```
 
-This will output: 
+This will output:
+
 ```shell
 tensor([ 5., 13., 17. ])
 ```
 
 This example organizes the `6 x 1` tensor into `x, y` pairs, and calculates each one individually:
-* $\sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt {25} = 5$
-* $\sqrt{5^2 + 12^2} = \sqrt{25 + 144} = \sqrt {169} = 13$
-* $\sqrt{8^2 + 15^2} = \sqrt{64 + 225} = \sqrt {289} = 17$
+
+- $\sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt {25} = 5$
+- $\sqrt{5^2 + 12^2} = \sqrt{25 + 144} = \sqrt {169} = 13$
+- $\sqrt{8^2 + 15^2} = \sqrt{64 + 225} = \sqrt {289} = 17$
