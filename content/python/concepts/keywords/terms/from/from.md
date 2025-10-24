@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Imports'
+  - 'Attributes'
   - 'Keywords'
   - 'Modules'
   - 'Python'
