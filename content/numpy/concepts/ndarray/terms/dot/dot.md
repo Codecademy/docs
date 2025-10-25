@@ -28,6 +28,10 @@ ndarray.dot(b, out=None)
 - `b`: The second array (B) or scalar in the dot product operation.
 - `out` (optional): An alternative output array to place the result in. It must have the same shape and buffer length as the expected output, but the type will be cast if necessary.
 
+**Return value:**
+
+Returns the dot product as a scalar, 2-D array, or ndarray, depending on the input dimensions.
+
 ## Example
 
 This example shows how to use the `.dot()` method for matrix multiplication between two 2D NumPy arrays, `matrix_a` and `matrix_b`:
@@ -95,4 +99,3 @@ print(f"Dot product (x.dot(y)): {dot_product}")
 Here's the explanation:
 
 $$\vec{x} \cdot \vec{y} = (1 \times 5) + (2 \times 6) + (3 \times 7) = 5 + 12 + 21 = 38$$
-
