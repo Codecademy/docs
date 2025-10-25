@@ -22,12 +22,11 @@ The `.trace()` method supports optional parameters to select a diagonal offset o
 ## Syntax
 
 ```pseudo
-numpy.trace(a, offset=0, axis1=0, axis2=1, dtype=None, out=None)
+ndarray.trace(offset=0, axis1=0, axis2=1, dtype=None, out=None)
 ```
 
 **Parameters:**
 
-- `a`: Input array.
 - `offset` (Optional): The offset of the diagonal from the main diagonal. A positive value selects a diagonal above the main diagonal, while a negative value selects one below. Default is `0` (main diagonal).
 - `axis1` (Optional): The axis to be used as the first axis of the 2D sub-arrays from which the diagonals should be taken. Default is `0`.
 - `axis2` (Optional): The axis to be used as the second axis of the 2D sub-arrays from which the diagonals should be taken. Default is `1`.
