@@ -79,3 +79,22 @@ colors.remove('red')
 
 print('After remove("red"):', colors)
 ```
+
+```
+from collections import deque
+
+# Create a deque with integer elements
+numbers = deque([5, 10, 15, 10, 20])
+
+print('Original deque:', numbers)
+
+# Remove the first occurrence of 10
+numbers.remove(10)
+
+print('After remove(10):', numbers)
+
+# Remove another element
+numbers.remove(5)
+
+print('After remove(5):', numbers)
+```
