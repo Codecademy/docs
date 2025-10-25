@@ -1,35 +1,39 @@
 ---
 Title: '.nbytes'
-Description: 'The total number of bytes consumed by the elements of the array.'
+Description: 'Returns the total number of bytes consumed by the elements of the array.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'NumPy'
-  - 'Attributes'
   - 'Arrays'
+  - 'Attributes'
   - 'Memory'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`.nbytes`** attribute returns the total number of bytes consumed by the elements of a NumPy array. This value is calculated as the product of the number of elements in the array (given by **`.size`**) and the number of bytes per element (given by **`.itemsize`**).
+The **`.nbytes`** attribute returns the total number of bytes consumed by the elements of a NumPy array. This value is calculated as the product of the number of elements in the array (given by `.size`) and the number of bytes per element (given by `.itemsize`).
 
 ## Syntax
 
 ```pseudo
 ndarray.nbytes
-````
+```
 
-  - `ndarray`: The NumPy array whose memory consumption is to be determined.
-  - `.nbytes` is an **attribute**, not a method, so it does not take any arguments or require parentheses.
+**Parameters:**
 
------
+The `.nbytes` attribute takes no parameters.
+
+**Return value:**
+
+Returns an integer representing the total number of bytes consumed by the array elements.
 
 ## Example
 
-In this example, we create a one-dimensional NumPy array `arr` with 12 elements. We then use the `.nbytes` attribute to determine the total bytes consumed by the array's elements. Assuming a standard 64-bit system where the default integer type (`int64`) uses 8 bytes per element: $12 \text{ elements} \times 8 \text{ bytes}/\text{element} = 96 \text{ bytes}$.
+The following example creates a one-dimensional NumPy array `arr` with 12 elements. The `.nbytes` attribute reports the total bytes used by all array elements. On a 64-bit system where the default integer type (`int64`) uses 8 bytes per element,
+$12 \text{ elements} \times 8 \text{ bytes}/\text{element} = 96 \text{ bytes}$:
 
 ```py
 # Import NumPy
@@ -56,11 +60,9 @@ Total number of elements (.size): 12
 Total bytes consumed (.nbytes): 96
 ```
 
------
-
 ## Codebyte Example
 
-In the following codebyte example, a two-dimensional NumPy array `arr` is created with a specified data type (`float32`), and then the `.nbytes` attribute is used to report its memory consumption. Since `float32` uses 4 bytes per element, and the array has $2 \times 3 = 6$ elements, the total memory consumed is $6 \times 4 = 24$ bytes.
+The example below demonstrates a two-dimensional NumPy array `arr` with a specified data type (`float32`). Since `float32` uses 4 bytes per element and the array contains $2 \times 3 = 6$ elements, the total memory consumed is $6 \times 4 = 24$ bytes:
 
 ```codebyte/python
 import numpy as np
@@ -73,4 +75,3 @@ print(f"Array data type: {arr.dtype}")
 print(f"Bytes per element (.itemsize): {arr.itemsize}")
 print(f"Bytes consumed by elements (.nbytes): {arr.nbytes}")
 ```
-
