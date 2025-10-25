@@ -1,6 +1,6 @@
 ---
 Title: '.view()'
-Description: 'Return a new view of the array (a shallow view) that shares the original array\'s data buffer.'
+Description: 'Returns a new view of the array (shallow reference) that shares the original array’s data buffer.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
