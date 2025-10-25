@@ -15,18 +15,19 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.trace()`** method returns the sum of the elements along the diagonal of a NumPy array. The diagonal is defined as the set of elements where the row index equals the column index. This method is commonly used in linear algebra operations, such as calculating the trace of a matrix, which can provide insights into matrix properties like the sum of eigenvalues.
+The **`.trace()`** method returns the sum of the elements along the diagonal of a NumPy array. For 2D arrays, the diagonal consists of elements where the row index equals the column index. For multi-dimensional arrays, the axes specified by axis1 and axis2 define the matrix dimensions for diagonal summation.
 
-The `.trace()` method supports various parameters to customize which diagonal to sum, making it versatile for different array shapes and orientations. It can handle multi-dimensional arrays by specifying the axes to consider as the matrix dimensions.
+The `.trace()` method supports optional parameters to select a diagonal offset or specify axes, making it versatile for arrays of different shapes and orientations.
 
 ## Syntax
 
 ```pseudo
-ndarray.trace(offset=0, axis1=0, axis2=1, dtype=None, out=None)
+numpy.trace(a, offset=0, axis1=0, axis2=1, dtype=None, out=None)
 ```
 
 **Parameters:**
 
+- `a`: Input array.
 - `offset` (Optional): The offset of the diagonal from the main diagonal. A positive value selects a diagonal above the main diagonal, while a negative value selects one below. Default is `0` (main diagonal).
 - `axis1` (Optional): The axis to be used as the first axis of the 2D sub-arrays from which the diagonals should be taken. Default is `0`.
 - `axis2` (Optional): The axis to be used as the second axis of the 2D sub-arrays from which the diagonals should be taken. Default is `1`.
@@ -86,5 +87,4 @@ trace_offset_1 = matrix.trace(offset=1)
 trace_offset_minus_1 = matrix.trace(offset=-1)
 print("Trace with offset 1 (above diagonal):", trace_offset_1)
 print("Trace with offset -1 (below diagonal):", trace_offset_minus_1)
-```</content>
-<parameter name="filePath">n:\Open_Source\docs\content\numpy\concepts\ndarray\terms\trace\trace.md
+```
