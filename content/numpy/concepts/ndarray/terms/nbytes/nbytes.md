@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.nbytes`** attribute returns the total number of bytes consumed by the elements of a NumPy array. This value is calculated as the product of the number of elements in the array (given by `.size`) and the number of bytes per element (given by `.itemsize`).
+The **`.nbytes`** attribute returns the total number of bytes consumed by the elements of a [NumPy array](https://www.codecademy.com/resources/docs/numpy/ndarray). This value is calculated as the product of the number of elements in the array (given by `.size`) and the number of bytes per element (given by `.itemsize`).
 
 ## Syntax
 
