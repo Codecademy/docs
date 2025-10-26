@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-The **`.mul()`** function multiplies each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) with another tensor or a scalar and returns a tensor of the same shape as the input (or broadcasted shape when inputs have different shapes). It's part of PyTorch’s math operations used in scientific computing and deep learning.
+The **`.mul()`** function multiplies each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) with another tensor or a scalar and returns a tensor of the same shape as the input (or broadcasted shape when inputs have different shapes).
 
 ## Syntax
 
