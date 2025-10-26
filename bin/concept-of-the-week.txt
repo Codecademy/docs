@@ -1,1 +1,1 @@
-content/typescript/concepts/interfaces/interfaces.md
+content/php/concepts/operators/operators.md
