@@ -22,7 +22,13 @@ In C++, the **`.shrink_to_fit()`** [method](https://www.codecademy.com/resources
 dequeName.shrink_to_fit();
 ```
 
-- `dequeName`: The name of the deque container whose capacity is to be reduced.
+**Parameters:**
+
+This method does not take any parameters.
+
+**Return value:**
+
+This method does not return a value; it simply requests the deque to reduce its capacity.
 
 ## Example
 
