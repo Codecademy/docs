@@ -1,6 +1,6 @@
 ---
 Title: '.mul()'
-Description: 'Multiplies each element in a tensor with another tensor or scalar.'
+Description: 'Performs element-wise multiplication of two tensors or multiplies a tensor by a scalar.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
@@ -17,14 +17,14 @@ The **`.mul()`** function multiplies each element in the input [tensor](https://
 
 ## Syntax
 
-```py
+```pseudo
 torch.mul(input, other, *, out=None) → Tensor
 ```
 
 **Parameters:**
 
 - `input` (Tensor): Input tensor.
-- `other` (Tensor or Integer): The second input can be a tensor or a scalar.
+- `other` (Tensor or Integer): The second input, which can be another tensor or a scalar value.
 - `out` (Tensor, optional): Optional tensor to store the output.
 
 **Return value:**
