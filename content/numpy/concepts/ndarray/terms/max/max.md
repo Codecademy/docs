@@ -8,7 +8,8 @@ If no axis is specified, it returns the maximum value of the entire array.
 ```python
 ndarray.max(axis=None, out=None, keepdims=False, initial=<no value>, where=True)
 ```
-##Example
+## Example
+```Python
 import numpy as np
 
 arr = np.array([[1, 5, 3],
@@ -22,7 +23,10 @@ print(arr.max(axis=0))  # Output: [7 5 9]
 
 # Maximum along each row (axis 1)
 print(arr.max(axis=1))  # Output: [5 9]
-##CodeByte
+```
+
+## Codbyte
+```
 
 import numpy as np
 
@@ -31,4 +35,4 @@ arr = np.array([[2, 4, 8],
 
 print(arr.max())        # Output: 8
 print(arr.max(axis=1))  # Output: [8 6]
-
+```
