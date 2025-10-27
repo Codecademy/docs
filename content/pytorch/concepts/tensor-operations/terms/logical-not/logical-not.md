@@ -3,22 +3,22 @@ Title: '.logical_not()'
 Description: 'Performs element-wise logical NOT on boolean tensors, returning a tensor where each element is the boolean negation of the input.'
 Subjects:
   - 'AI'
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
   - 'Machine Learning'
 Tags:
   - 'Booleans'
+  - 'Functions'
   - 'PyTorch'
   - 'Tensor'
-  - 'Functions'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/data-science'
 ---
 
-In PyTorch, the **`.logical_not()`** function computes the element-wise logical negation of a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It returns a tensor where each element is `True` when the corresponding input element is `False` and vice versa. If the input tensor is not a boolean tensor, then zeros are treated as `False` and non-zeros are treated as `True`.
+In PyTorch, the **`.logical_not()`** function performs an element-wise logical negation on a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It returns a tensor where each element is `True` if the corresponding input is `False`, and `False` otherwise. For non-boolean tensors, zeros are treated as `False` and non-zeros as `True`.
 
-This operation is often used in masking, boolean indexing, and constructing complement conditions.
+This function is commonly used in masking, boolean indexing, and creating complement conditions.
 
 ## Syntax
 
@@ -28,16 +28,16 @@ torch.logical_not(input, *, out=None)
 
 **Parameters:**
 
-- `input`: A tensor of any numeric or boolean dtype. The function returns a boolean tensor.
- - `out` (Optional): A tensor to store the result. Must have the same shape as the expected output. The typical dtype for the output is boolean (`torch.bool`), but integer dtypes that can represent `0`/`1` (for example, `torch.int16`) are accepted; results will be stored as `1` (True) and `0` (False) in that tensor.
+- `input`: The input tensor containing boolean or numeric values.
+- `out` (Optional): A tensor to store the result. It must have the same shape as the output. The dtype is typically `torch.bool`, but integer types that can represent `0` and `1` (like `torch.int16`) are also supported. The results are stored as `1` for `True` and `0` for `False`.
 
 **Return value:**
 
-Returns a new boolean tensor containing the element-wise logical negation of `input`.
+Returns a new tensor containing the element-wise logical negation of the input tensor.
 
 ## Example
 
-The following example shows typical usage of `.logical_not()` for masking and boolean inversion:
+The following example demonstrates the use of `.logical_not()` for masking and boolean inversion:
 
 ```py
 import torch
