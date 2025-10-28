@@ -32,9 +32,9 @@ torch.special.gammainc(input, other, *, out=None)
 
 **Parameters:**
 
-- `input` (Tensor): The shape parameter ${a\}$ of the gamma function.
-- `other` (Tensor): The upper limit ${x\}$ of the integral.
-- `out` (Tensor, optional): The output tensor.
+- `input` (Tensor): The shape parameter `a` of the Gamma function.
+- `other` (Tensor): The upper limit `x` of the integral.
+- `out` (Tensor, optional): The output tensor to store results.
 
 **Return value:**
 
