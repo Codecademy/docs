@@ -24,7 +24,7 @@ torch.mul(input, other, *, out=None) → Tensor
 **Parameters:**
 
 - `input` (Tensor): Input tensor.
-- `other` (Tensor or Integer): The second input, which can be another tensor or a scalar value.
+- `other` (Tensor or Integer): The second input can be another tensor or a scalar value.
 - `out` (Tensor, optional): Optional tensor to store the output.
 
 **Return value:**
