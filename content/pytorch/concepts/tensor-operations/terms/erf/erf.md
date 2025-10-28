@@ -33,7 +33,7 @@ A new tensor with the same shape as `input`, containing the computed error funct
 
 ## Example 1: Basic `.erf()` Usage
 
-This example demonstrates the basic implementation of the `erf()` function with a simple 1D tensor:
+This example demonstrates the basic implementation of the `.erf()` function with a simple 1D tensor:
 
 ```py
 import torch
