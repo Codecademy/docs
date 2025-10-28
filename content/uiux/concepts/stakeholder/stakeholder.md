@@ -24,7 +24,7 @@ Stakeholders may differ based on the organization or product, but common types i
 - **End users or user representatives:** The people who use the product or act on their behalf (e.g., user advocates).
 - **Legal, compliance, or security roles:** Stakeholders who set constraints based on policies or regulations.
 
-> **Note:** Not all stakeholders speak the same language as designers. Translating UX insights into their priorities is a valuable design skill.\_
+> **Note:** Not all stakeholders speak the same language as designers. Translating UX insights into their priorities is a valuable design skill.
 
 ## Stakeholder Influence on UX
 
