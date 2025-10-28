@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-**Template literals** are string literals in JavaScript that allow embedded expressions, multi-line strings, and more readable string formatting. Introduced in ES6, they make string manipulation more powerful and expressive than traditional concatenation.
+**Template literals** are [string](https://www.codecademy.com/resources/docs/python/strings) literals in JavaScript that allow embedded expressions, multi-line strings, and more readable string formatting. Introduced in ES6, they make string manipulation more powerful and expressive than traditional concatenation.
 
 Template literals are enclosed by **backticks** (`` ` ``) instead of single or double quotes.
 
