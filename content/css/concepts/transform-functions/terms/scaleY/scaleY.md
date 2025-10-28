@@ -220,7 +220,7 @@ This example results in the following output:
 
 ## Frequently Asked Questions
 
-### 1. What is transform scale in CSS?
+### 1. What is the transform scale in CSS?
 
 Transform scale resizes elements along different axes. `scaleY()` specifically scales the element vertically.
 
