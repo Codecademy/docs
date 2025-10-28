@@ -1,6 +1,6 @@
 ---
-Title: 'Clear'
-Description: 'This function implements the clear option to remove all items from a queue'
+Title: 'clear()'
+Description: 'Removes all elements from the deque, leaving it empty.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -9,16 +9,14 @@ Tags:
   - 'Collections'
   - 'Data Structures'
   - 'Deques'
-  - 'clear'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-**Clear()** is a built-in method for arrays that allows all elements in the array to be removed. 
-In the instance of double ended queues this method removes every element from the deque.
+The **`clear()`** method in Python’s `collections.deque` class removes all elements from the deque, leaving it empty. It’s useful when the contents of the deque need to be cleared without deleting the object itself.
 
-'Clear' is useful in cases where there is a quick need to removed the entire contents of queues to save spave without actually deleting the queue itself. With this method there is a linear time complexity of O(n).
+The method modifies the deque in place and returns `None`. Its time complexity is O(n) since it removes elements one by one.
 
 ## Syntax
 
@@ -30,50 +28,49 @@ deque.clear()
 
 - `None`: This method does not take any parameters as it simply resets the deque to empty
 
-**Return value**
+**Return value:**
 
-The return value of clear() should be a check to determine if the deque is empty. This can be done using an 'if' statement with a return value of 'true' when checked if empty. Or simply a print statement to output the length of the deque.
+The return value of `clear()` should be a check to determine if the deque is empty. This can be done using an 'if' statement with a return value of 'true' when checked if empty. Or simply a print statement to output the length of the deque.
 
-## Example 1: clearing elements from a deque using an if statement
+## Example 1: Clearing all elements from a deque
 
-This example demonstates using the clear() method with an if statement
+In this example, the `clear()` method removes every element from the deque, and an `if` statement checks whether it is empty afterward:
 
 ```py
 from collections import deque
 
-#create a deque 
-
+# Create a deque
 cars = deque(["toyota", "suzuki", "honda"])
 print(f"Initial deque is as follows: {cars}")
 
-#clearing the deque
+# Clearing the deque
 cars.clear()
 
-#if statement to check if the deque has been sucessfully cleared
+# If statement to check if the deque has been sucessfully cleared
 if not cars:
   print("the deque is empty")
-return
 ```
 
+The output of this code is:
 
-## Codebyte Example: How to use the clear() method in practice for deques
- 
- This example demonstrates using the clear() method in practice 
-
-
-
- ```codebyte/phyton
- from collections import deque
-
-#create a deque 
-
-cars = deque(["toyota", "suzuki", "honda"])
-print(f"Initial deque is as follows: {cars}")
-
-#clearing the deque
-cars.clear()
-
-#output check to see if the deque is empty
-print(len(cars))
+```shell
+Initial deque: deque(['Toyota', 'Suzuki', 'Honda'])
+The deque is empty.
 ```
 
+## Codebyte Example: Clearing completed tasks
+
+In this example, a deque keeps track of recent tasks in a to-do list. After all tasks are completed, the `clear()` method is used to empty the deque and prepare it for new tasks:
+
+```codebyte/python
+from collections import deque
+
+# Create a deque of completed tasks
+completed_tasks = deque(["Write report", "Send emails", "Backup files"])
+print(f"Completed tasks: {completed_tasks}")
+
+# Clear all tasks to reuse the deque for a new session
+completed_tasks.clear()
+
+print(f"Tasks after clearing: {completed_tasks}")
+```
