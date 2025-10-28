@@ -5,15 +5,16 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'NumPy'
   - 'Arrays'
   - 'Data Structures'
+  - 'NumPy'
+  - 'Tuples'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-The **`shape`** attribute of a NumPy ndarray returns a tuple of integers indicating the size of the array in each dimension. It provides information about the structure and layout of the array.
+The **`shape`** attribute of a NumPy `ndarray` returns a [tuple](https://www.codecademy.com/resources/docs/python/tuples) of integers indicating the size of the array in each dimension. It provides information about the structure and layout of the array.
 
 ## Syntax
 
@@ -21,9 +22,17 @@ The **`shape`** attribute of a NumPy ndarray returns a tuple of integers indicat
 array.shape
 ```
 
-- `array`: The ndarray whose dimensions are to be retrieved.
+**Parameters:**
 
-The `shape` attribute returns a tuple where each element represents the number of elements along the corresponding dimension.
+This attribute does not take any parameters.
+
+**Return value:**
+
+Returns a tuple of integers representing the size of the array along each dimension.
+
+- For a 1D array, it returns a single value (e.g., `(5,)`).
+- For a 2D array, it returns two values i.e. rows and columns (e.g., `(3, 4)`).
+- For higher dimensions, it includes one integer per axis.
 
 ## Example
 
@@ -47,7 +56,7 @@ print(arr_3d.shape)
 
 The output for the above code will be:
 
-```
+```shell
 (5,)
 (2, 3)
 (2, 2, 2)
@@ -73,30 +82,3 @@ print(reshaped_array)
 reshaped_3d = original_array.reshape(2, 3, 1)
 print("Reshaped to 3D:", reshaped_3d.shape)
 ```
-
-## Frequently Asked Questions
-
-<details>
-<summary>1. Can the shape of an array be modified directly?</summary>
-<p>Yes, the <code>shape</code> attribute can be modified by assigning a new tuple to it, which reshapes the array in-place. However, the new shape must be compatible with the total number of elements. For example: <code>array.shape = (2, 3)</code> will reshape a 6-element array into a 2x3 matrix.</p>
-</details>
-
-<details>
-<summary>2. What does it mean when a dimension in shape is 1?</summary>
-<p>A dimension with size 1 indicates that the array has only one element along that axis. For example, a shape of <code>(3, 1, 4)</code> means 3 elements in the first dimension, 1 element in the second dimension, and 4 elements in the third dimension. This is often used to maintain specific dimensionality for broadcasting operations.</p>
-</details>
-
-<details>
-<summary>3. How does shape relate to the size and ndim attributes?</summary>
-<p>The <code>shape</code> attribute returns a tuple of dimensions, <code>ndim</code> returns the number of dimensions (length of the shape tuple), and <code>size</code> returns the total number of elements (product of all dimensions in shape). For example, an array with shape <code>(2, 3, 4)</code> has <code>ndim=3</code> and <code>size=24</code>.</p>
-</details>
-
-<details>
-<summary>4. What is the difference between shape and reshape?</summary>
-<p>The <code>shape</code> attribute is used to view or modify the dimensions of an existing array in-place, while <code>reshape()</code> is a method that returns a new array with a modified shape without changing the original array. Use <code>shape</code> when you want to modify the array directly, and <code>reshape()</code> when you want to preserve the original.</p>
-</details>
-
-<details>
-<summary>5. Why does a 1D array shape have a comma, like (5,)?</summary>
-<p>The comma in <code>(5,)</code> distinguishes a tuple with one element from a scalar value in parentheses. In Python, <code>(5)</code> is just the number 5, while <code>(5,)</code> is a tuple containing one element. This notation ensures that shape consistently returns a tuple regardless of the number of dimensions.</p>
-</details>
