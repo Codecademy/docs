@@ -43,6 +43,4 @@ Effective UX work includes clear communication and collaboration across function
 - **Involve stakeholders in research:** Invite them to observe sessions or contribute questions.
 - **Translate UX insights into business value:** Frame findings in terms of cost savings, retention, or satisfaction.
 - **Use accessible, jargon-free communication:** Tailor presentations to meet varying levels of domain knowledge.
-
-- _Be open to negotiation._  
-  Balance user needs with technical feasibility and business goals.
+- **Be open to negotiation:** Balance user needs with technical feasibility and business goals.
