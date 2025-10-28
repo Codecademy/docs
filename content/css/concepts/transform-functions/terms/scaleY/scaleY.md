@@ -28,7 +28,7 @@ transform: scaleY(y);
 
 **Return value:**
 
-The `scaleZ()` function returns a `<transform-function>` data type that can be used with the `transform` property.
+The `scaleY()` function returns a `<transform-function>` data type that can be used with the `transform` property.
 
 ## Example 1: Scaling a Box Vertically
 
