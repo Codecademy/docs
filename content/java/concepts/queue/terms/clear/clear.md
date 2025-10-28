@@ -210,7 +210,7 @@ Cache is empty: true
 Cache system ready for new entries.
 ```
 
-This example shows how `clear()` method works with different Queue implementations like PriorityQueue. The method is particularly useful in cache management systems where you need to periodically clear cached data to free up memory.
+This example shows how `clear()` method works with different Queue implementations like [PriorityQueue](https://www.codecademy.com/resources/docs/java/priorityqueue). The method is particularly useful in cache management systems where you need to periodically clear cached data to free up memory.
 
 ## Frequently Asked Questions
 
@@ -220,7 +220,7 @@ No, the `clear()` method only removes all elements from the queue but preserves 
 
 ### 2. What is the time complexity of the `clear()` method?
 
-The time complexity is typically O(n) where n is the number of elements in the queue, as it needs to remove each element. However, some implementations may optimize this operation.
+The time complexity is typically `O(n)` where n is the number of elements in the queue, as it needs to remove each element. However, some implementations may optimize this operation.
 
 ### 3. Can I use `clear()` on thread-safe queue implementations?
 
