@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.shrink_to_fit()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) requests the deque to reduce its capacity to match its size. This can help free up unused memory but does not guarantee that the container will actually shrink. The implementation may choose to ignore this request.
+In C++, the **`.shrink_to_fit()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) requests the [deque](https://www.codecademy.com/resources/docs/python/deque) to reduce its capacity to match its size. This can help free up unused memory, but does not guarantee that the container will actually shrink. The implementation may choose to ignore this request.
 
 ## Syntax
 
