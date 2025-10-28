@@ -24,7 +24,7 @@ transform: rotateX(angle);
 
 **Parameters:**
 
-- `z`: A CSS `<angle>` value (e.g., `45deg`, `0.5rad`) that specifies the amount of rotation around the x-axis. Positive values rotate the element downward, while negative values rotate it upward.
+- `angle`: A CSS `<angle>` value (e.g., `45deg`, `0.5rad`) that specifies the amount of rotation around the x-axis. Positive values rotate the element downward, while negative values rotate it upward.
 
 **Return value:**
 
