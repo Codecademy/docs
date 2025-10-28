@@ -221,6 +221,7 @@ This example shows how the `contains()` method can be used in system administrat
 ## Frequently Asked Questions
 
 ### 1. What is the `contains()` method in Java?
+
 The `contains()` method for queues works with any object type, including strings. When used with String elements in a queue, it checks if a specific string value exists in the queue using the `equals()` method for comparison.
 
 ### 2. What is `contains()` in a priority queue in Java?
