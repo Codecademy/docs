@@ -19,7 +19,7 @@ The **`shape`** attribute of a NumPy `ndarray` returns a [tuple](https://www.cod
 ## Syntax
 
 ```pseudo
-array.shape
+ndarray.shape
 ```
 
 **Parameters:**
