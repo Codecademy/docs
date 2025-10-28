@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-The **`.erf()``** computes the Gauss error function element-wise for each element in the input tensor. The error function is a mathematical function that appears frequently in probability, statistics, and partial differential equations, particularly in the context of the normal distribution.
+The **`.erf()`** computes the Gauss error function element-wise for each element in the input tensor. The error function is a mathematical function that appears frequently in probability, statistics, and partial differential equations, particularly in the context of the normal distribution.
 
 ## Syntax
 
