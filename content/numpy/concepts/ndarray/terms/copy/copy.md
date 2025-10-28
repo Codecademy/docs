@@ -1,43 +1,41 @@
 ---
-Title: 'NumPy ndarray - copy()'
-Description: 'Creates a new, independent copy of a NumPy ndarray.'
-Subjects: # Note: Verify/Update these based on Codecademy/docs/documentation/subjects.md
-  - 'NumPy'
-  - 'Python'
+Title: 'copy()'
+Description: 'Creates and returns a new, independent copy of a NumPy ndarray.'
+Subjects:
+  - 'Computer Science'
   - 'Data Science' 
-Tags: # Note: Verify/Update these based on Codecademy/docs/documentation/tags.md
+Tags:
   - 'Arrays'
   - 'Methods'
-  - 'Copying'
-CatalogContent: # Optional: Add relevant Codecademy course/path slugs if known
-# - 'learn-numpy' 
-# - 'paths/data-science'
+  - 'NumPy'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-Creates a new, independent copy of a NumPy array (`ndarray`). Unlike simple assignment (which creates a *view* sharing the same underlying data), the **`copy()`** method ensures that modifications to the new array do not affect the original array, and vice versa. This is essential when you need to manipulate an array while preserving the original data.
+The **`copy()`** method in NumPy creates a new, independent copy of an array (`ndarray`). Unlike simple assignment, which creates a view that shares the same underlying data, it ensures that changes to the new array do not affect the original, and vice versa. This is useful when you need to modify an array while preserving the original data.
 
 ## Syntax
 
-```py
-new_array = original_array.copy(order='C')
+```pseudo
+ndarray.copy(order='C')
 ```
+
 **Parameters**
-- `order` : {'C', 'F', 'A', 'K'}, optional Controls the memory layout of the copy.
 
-    - `'C'` (default): C-style (row-major) order.
+- `order` *(optional, str)*: Controls the memory layout of the copy.
+  - `'C'` (default): C-style (row-major) order.
+  - `'F'`: Fortran-style (column-major) order.
+  - `'A'`: Preserves the array’s order — Fortran if the original is Fortran-contiguous, otherwise C.
+  - `'K'`: Keeps the order as closely as possible to the original.
 
-    - `'F'`: Fortran-style (column-major) order.
+**Return value:**
 
-    - `'A'`: Any order (Fortran if original_array is Fortran contiguous, C otherwise).
-
-    - `'K'`: Keep the memory layout of original_array.
-
-**Return Value**
-- Returns a new `ndarray` object which is a copy of the original array.
+Returns a new `ndarray` object that is an independent copy of the original array.
 
 ## Example
-The following example demonstrates the difference between assigning an array (creating a view) and using copy() to create an independent copy.
 
+The following example demonstrates the difference between assignment (which shares data) and using `copy()` (which creates an independent copy):
 ```py
 import numpy as np
 
@@ -45,22 +43,21 @@ import numpy as np
 original = np.array([10, 20, 30])
 print(f"Original array: {original}")
 
-# Assignment creates a view (deep copy, shares data)
+# Assignment creates a reference (shares data)
 view = original
-view[0] = 111 # Modify the view
-print(f"Original after modifying view: {original}") 
-# Output shows original is changed!
+view[0] = 111
+print(f"Original after modifying view: {original}")
+
 # Reset original for clarity
 original = np.array([10, 20, 30])
 
 # copy() creates an independent copy
 copied_array = original.copy()
-copied_array[0] = 999 
-# Modify the copy
-print(f"Original after modifying copy: {original}") 
-# Output shows original is unchanged!
+copied_array[0] = 999
+print(f"Original after modifying copy: {original}")
 print(f"Copied array: {copied_array}")
 ```
+
 Output of the above example:
 
 ```shell
@@ -70,8 +67,9 @@ Original after modifying copy: [10 20 30]
 Copied array: [999 20 30]
 ```
 
-## Codebyte Example: Copying a 2D array using copy()
-This example shows copy() in action with a 2D array. It modifies the copy and leaves the original untouched, as a Deep Copy. 
+## Codebyte Example: Copying a 2D array using `copy()`
+
+This example shows how `copy()` works with a 2D array. It modifies the copy while leaving the original unchanged:
 
 ```codebyte/python
 import numpy as np
