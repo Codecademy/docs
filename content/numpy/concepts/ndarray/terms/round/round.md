@@ -1,47 +1,52 @@
 ---
-Title: 'round' 
+Title: 'round'
 Description: 'Converts the numpy array elements into the specific number of decimal places.'
-Subjects: 
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'NumPy'
   - 'Methods'
   - 'Arrays'
   - 'Elements'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
   - 'paths/computer-science'
 ---
-
 
 The `.round()` method in NumPy serves to convert array elements to the nearest whole number or a specified number of decimal places. When rounding to the nearest whole number, values with a decimal component of 0.5 or greater are rounded up to the next larger whole number.
 
 ## Syntax
 
 ### 1. Round off to the nearest whole number
+
 ```pseudo
 numpy.round(ndarray)
 ```
 
 #### Parameters
+
 - `ndarray` : Refers to the numpy array
 
 #### Return value
+
 The function returns a numpy array with float datatype and maintains the same length as input array.
 
 ### 2. Round off to `n` number of decimal places
+
 ```pseudo
 numpy.round(ndarray, decimals=n)
 ```
 
 #### Parameters
+
 - `ndarray` : Refers to the numpy array
--  `decimals` : Refers to the number of decimal places 
+- `decimals` : Refers to the number of decimal places
 
 #### Return value
+
 The function returns a numpy array with float datatype and maintains the same length as input array.
 
 ## Example 1: Rounding off the numpy arrays into the nearest whole number
