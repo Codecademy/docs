@@ -24,7 +24,7 @@ transform: scaleY(y);
 
 **Parameters:**
 
-- `z`: A number or percentage representing the scaling factor to apply along the y-axis. A value of `1` leaves the element unchanged, values greater than `1` increase the height, and values between `0` and `1` decrease the height. Negative values create a vertical reflection.
+- `y`: A number or percentage representing the scaling factor to apply along the y-axis. A value of `1` leaves the element unchanged, values greater than `1` increase the height, and values between `0` and `1` decrease the height. Negative values create a vertical reflection.
 
 **Return value:**
 
