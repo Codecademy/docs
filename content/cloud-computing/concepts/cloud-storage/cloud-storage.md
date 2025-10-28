@@ -34,7 +34,6 @@ Provides raw storage volumes that can be attached to virtual machines. Data is s
 - High-performance applications
 - Applications requiring low latency
 
-
 ## File storage
 
 Shared file systems that can be accessed by multiple users and applications. It organizes data in a hierarchical structure and is suitable for:
