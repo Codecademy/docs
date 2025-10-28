@@ -251,7 +251,7 @@ This example results in the following output:
 
 ## Frequently Asked Questions
 
-### 1. What is z scale in CSS?
+### 1. What is the z-scale in CSS?
 
 Z scale refers to scaling an element along the z-axis in 3D space, modifying depth. It becomes visible when combined with other 3D transforms and perspective.
 
@@ -259,6 +259,6 @@ Z scale refers to scaling an element along the z-axis in 3D space, modifying dep
 
 Transform scale resizes elements along different axes. While `scale()`, `scaleX()`, and `scaleY()` work in 2D, `scaleZ()` scales along the z-axis in 3D space.
 
-### 3. What is the z scale used for?
+### 3. What is the z-scale used for?
 
-Z scale is used for creating 3D effects like card flips, interactive galleries, parallax effects, and depth-based animations when combined with other 3D transforms.
+The Z scale is used for creating 3D effects like card flips, interactive galleries, parallax effects, and depth-based animations when combined with other 3D transforms.
