@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`clear()`** method in Java Queue removes all elements from the queue, making it completely empty. This method is inherited from the Collection interface and provides a convenient way to reset a queue without creating a new instance.
+The **`clear()`** method in Java [Queue](https://www.codecademy.com/resources/docs/java/queue) removes all elements from the queue, making it completely empty. This method is inherited from the [Collection](https://www.codecademy.com/resources/docs/java/collection) interface and provides a convenient way to reset a queue without creating a new instance.
 
 ## Syntax
 
