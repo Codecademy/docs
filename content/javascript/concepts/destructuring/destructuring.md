@@ -1,35 +1,43 @@
 ---
 Title: 'Destructuring'
-Description: 'Destructuring is a convenient way to extract values from arrays or properties from objects into distinct variables.'
+Description: 'Destructuring in JavaScript extracts values from arrays or properties from objects and assigns them to variables in a single, concise statement.'
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'Destructuring'
-  - 'Objects'
-  - 'Arrays'
-  - 'JavaScript'
+  - 'Arrays'
+  - 'Destructuring'
+  - 'JavaScript'
+  - 'Objects'
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-A _destructuring assignment_ allows you to unpack values from arrays or properties from objects directly into _distinct_ variables. This feature makes it easier to work with data, especially when handling complex objects or arrays.
+**Destructuring** in JavaScript extracts values from [arrays](https://www.codecademy.com/resources/docs/javascript/arrays) or properties from [objects](https://www.codecademy.com/resources/docs/javascript/objects) and assigns them to [variables](https://www.codecademy.com/resources/docs/javascript/variables) in a single, concise statement. It simplifies working with complex arrays and objects by reducing repetitive code.
 
 ## Array Destructuring
 
-Array destructuring extracts values from arrays in order, assigning them to variables in a single statement.
+Array destructuring extracts values from arrays in order, assigning them to variables in a single statement:
 
 ```js
 const colors = ['red', 'green', 'blue'];
 const [firstColor, secondColor, thirdColor] = colors;
 
-console.log(firstColor); // Output: red
-console.log(secondColor); // Output: green
-console.log(thirdColor); // Output: blue
+console.log(firstColor);
+console.log(secondColor);
+console.log(thirdColor);
 ```
 
-You can also skip items you don’t need:
+The output for this is:
+
+```shell
+red
+green
+blue
+```
+
+Items that aren’t needed can also be skipped:
 
 ```js
 const [primaryColor, , tertiaryColor] = colors;
@@ -38,7 +46,7 @@ console.log(tertiaryColor); // Output: blue
 
 ## Object Destructuring
 
-Object destructuring allows you to extract specific properties using their key names:
+Object destructuring extracts specific properties from an object using their key names:
 
 ```js
 const car = { make: 'Toyota', model: 'Camry', year: 2021 };
@@ -48,7 +56,14 @@ console.log(make); // Output: Toyota
 console.log(model); // Output: Camry
 ```
 
-You can also rename variables or assign default values:
+The output for this code is:
+
+```shell
+Toyota
+Camry
+```
+
+Variables can also be renamed or assigned default values:
 
 ```js
 const { model: carModel, color = 'white' } = car;
@@ -56,10 +71,9 @@ console.log(carModel); // Output: Camry
 console.log(color); // Output: white
 ```
 
-
 ## Nested Destructuring
 
-Destructuring supports nested structures for deeply nested objects or arrays:
+Destructuring also supports nested structures for deeply nested objects or arrays:
 
 ```js
 const user = {
@@ -68,13 +82,20 @@ info: { name: 'Alice', address: { city: 'Seattle', zip: 98101 } }
 };
 
 const { info: { name, address: { city } } } = user;
-console.log(name); // Output: Alice
-console.log(city); // Output: Seattle
+console.log(name);
+console.log(city);
+```
+
+The output of this code is:
+
+```shell
+Alice
+Seattle
 ```
 
 ## Codebyte Example
 
-The following codebyte example uses nested destructuring to extract values directly from an object.
+The following codebyte example uses nested destructuring to extract values directly from an object:
 
 ```codebyte/js
 const user = {
@@ -86,7 +107,4 @@ const user = {
 const { name, hobbies: [firstHobby], address: { city } } = user;
 
 console.log(`${name} enjoys ${firstHobby} in ${city}.`);
-// Output: John Doe enjoys reading in New York.
 ```
-
-
