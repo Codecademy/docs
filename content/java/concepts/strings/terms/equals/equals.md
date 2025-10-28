@@ -36,8 +36,8 @@ public class MyClass {
 
     // With string objects
     String myFavoriteLanguage = "Java";
-    String codeNinjasFavoriteLangauge = "Java";
-    System.out.println(myFavoriteLanguage.equals(codeNinjasFavoriteLangauge));
+    String codeNinjasFavoriteLanguage = "Java";
+    System.out.println(myFavoriteLanguage.equals(codeNinjasFavoriteLanguage));
   }
 }
 ```
