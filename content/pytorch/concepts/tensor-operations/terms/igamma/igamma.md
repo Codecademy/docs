@@ -1,6 +1,6 @@
 ---
 Title: '.igamma()'
-Description: 'Computes the lower regularized incomplete gamma function for tensor inputs.'
+Description: 'Computes the lower incomplete gamma function for tensor inputs.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
