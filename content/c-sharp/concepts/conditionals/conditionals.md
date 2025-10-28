@@ -127,7 +127,7 @@ Is this condition true ? Run this if yes : Run this if no;
 In the example below, the condition that is checked is if `input1` is equal to 10. If that condition is true, it returns the first string. Otherwise, it returns the second string:
 
 ```cs
-string getInput1(int input1) => input1 === 10 ? "I returned true" : "I returned false";
+string getInput1(int input1) => input1 == 10 ? "I returned true" : "I returned false";
 
 Console.WriteLine(getInput1(10)); // Output: "I returned true"
 Console.WriteLine(getInput1(5)); // Output: "I returned false"
