@@ -84,7 +84,7 @@ Here is the output of the above code:
 set()
 ```
 
-Example 3: Working with Lists
+## Example 3: Working with Lists
 
 This example shows how `list` as `default_factory` allows appending to keys that don’t yet exist:
 
