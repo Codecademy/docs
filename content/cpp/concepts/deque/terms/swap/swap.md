@@ -1,15 +1,15 @@
 ---
-Title: '.swap()' 
-Description: 'Exchanges the contents of one deque with another of the same type and size.' 
-Subjects: 
- - 'Code Foundations'
- - 'Computer Science'
-Tags: 
+Title: '.swap()'
+Description: 'Exchanges the contents of one deque with another of the same type and size.'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
   - 'Classes'
   - 'Containers'
   - 'Deques'
   - 'Data Structures'
-CatalogContent: 
+CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
