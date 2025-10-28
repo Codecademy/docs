@@ -210,7 +210,7 @@ Cache is empty: true
 Cache system ready for new entries.
 ```
 
-This example shows how `clear()` method works with different Queue implementations like [PriorityQueue](https://www.codecademy.com/resources/docs/java/priorityqueue). The method is particularly useful in cache management systems where you need to periodically clear cached data to free up memory.
+The following text explains how the `clear()` method works with different Queue implementations, such as [PriorityQueue](https://www.codecademy.com/resources/docs/java/priorityqueue). This method is particularly useful in cache management systems where there is a need to periodically clear cached data to free up memory.
 
 ## Frequently Asked Questions
 
