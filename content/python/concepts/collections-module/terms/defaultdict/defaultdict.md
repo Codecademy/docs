@@ -5,111 +5,128 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
+  - 'Modules'
   - 'Data Types'
   - 'Dictionaries'
-  - 'Modules'
-  - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-Python **`defaultdict`** is a [data type](https://www.codecademy.com/resources/docs/python/data-types) that belongs to the `collections` [module](https://www.codecademy.com/resources/docs/python/modules). It is a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that is used to return a dictionary-like object.
+In Python, **`defaultdict`** is a data type that belongs to the [`collections`](https://www.codecademy.com/resources/docs/python/collections-module) module. It is a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that automatically provides a default value for missing keys.
 
-## Python `defaultdict` Syntax
+## Syntax
 
 ```pseudo
-from collections import defaultdict
-
-defaultdict(default_factory)
+collections.defaultdict(default_factory)
 ```
 
 **Parameters:**
 
-- `default_factory`: A [function](https://www.codecademy.com/resources/docs/python/functions) that provides the default value for nonexistent keys. Commonly used with int, list, set, or even custom functions. Examples include:
-  - `int()`: Default value is `0`.
-  - `list()`:Default value is `[]`.
-  - `set()`: Default value is `set()`.
+- `default_factory`: A callable (such as a function or type like `int`, `list`, `set`) that provides the default value for missing keys. If set to `None`, a `KeyError` is raised when accessing a missing key.
 
 **Return value:**
 
-Returns a `defaultdict` object. If a key does not exist, accessing it will automatically create it with the value returned by `default_factory`.
+Returns a `defaultdict` object, which behaves like a dictionary but creates default values for missing keys using the specified `default_factory`.
 
-## Example 1: Counting Items Using Python `defaultdict`
+## Example 1: Using a Custom Function
 
-This example uses Python `defaultdict` to count the frequency of elements in a list:
-
-```py
-from collections import defaultdict
-
-fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
-
-fruit_count = defaultdict(int)
-
-for fruit in fruits:
-  fruit_count[fruit] += 1
-
-print(fruit_count)
-```
-
-Here is the output:
-
-```shell
-defaultdict(<class 'int'>, {'apple': 3, 'banana': 2, 'orange': 1})
-```
-
-## Example 2: Grouping Items Using Python `defaultdict`
-
-Python `defaultdict` can group items easily without checking if the key exists:
+The following example demonstrates the `defaultdict` data type with a custom function as `default_factory` argument:
 
 ```py
 from collections import defaultdict
 
-names = [('Alice', 'Math'), ('Bob', 'Science'), ('Alice', 'English')]
+def default_value():
+  return "Not Declared"
 
-grouped = defaultdict(list)
+myDefaultDict = defaultdict(default_value)
 
-for name, subject in names:
-  grouped[name].append(subject)
+myDefaultDict["first"] = 100
+myDefaultDict["second"] = 90
 
-print(grouped)
+print(myDefaultDict["first"])
+print(myDefaultDict["second"])
+print(myDefaultDict["third"])
 ```
 
-Here is the output:
+Here is the output for the above code:
 
 ```shell
-defaultdict(<class 'list'>, {'Alice': ['Math', 'English'], 'Bob': ['Science']})
+100
+90
+Not Declared
 ```
 
-## Codebyte Example: Using Custom Default Values in Python `defaultdict`
+## Example 2: Using Built-in Callables
 
-This codebyte example provides a custom default value to Python `defaultdict`:
+This example demonstrates `defaultdict` with built-in types (`int`, `list`, `str`, `set`) as the `default_factory`:
+
+```py
+from collections import defaultdict
+
+intDefaultDict = defaultdict(int)
+listDefaultDict = defaultdict(list)
+strDefaultDict = defaultdict(str)
+setDefaultDict = defaultdict(set)
+
+print(intDefaultDict[0])
+print(listDefaultDict['zero'])
+print(strDefaultDict['0'])
+print(setDefaultDict['a'])
+```
+
+Here is the output of the above code:
+
+```shell
+0
+[]
+
+set()
+```
+
+## Example 3: Working with Lists
+
+This example shows how `list` as `default_factory` allows appending to keys that don’t yet exist:
+
+```py
+from collections import defaultdict
+
+myDefaultDict = defaultdict(list)
+
+myDefaultDict['apple'].append(1)
+# myDefaultDict['apple'] does not exist so it defaults to empty list [],
+# then 1 is appended to it.
+
+myDefaultDict['orange'] = 2
+#The empty list [] is replaced by integer 2 here.
+
+print(myDefaultDict['apple'])
+print(myDefaultDict['orange'])
+```
+
+Here is the output of the above code:
+
+```shell
+[1]
+2
+```
+
+## Codebyte Example
+
+Run the following codeblock and explore more about the `defaultdict` data type:
 
 ```codebyte/python
 from collections import defaultdict
 
-def default_age():
-  return 18
+def def_val():
+  return "Unknown"
 
-ages = defaultdict(default_age)
+newDefaultDict = defaultdict(def_val)
 
-ages['John'] = 25
-ages['Doe']  # Key doesn’t exist, uses default 18
+newDefaultDict["john"] = 25
+newDefaultDict["snow"] = 40
 
-print(ages)
+print(newDefaultDict["john"])
+print(newDefaultDict["snow"])
+print(newDefaultDict["smith"])
 ```
-
-## Frequently Asked Questions
-
-### 1. What does `defaultdict` do in Python?
-
-Python `defaultdict` automatically assigns a default value to keys that do not exist, preventing KeyError and reducing the need for explicit key checks.
-
-### 2. Is `defaultdict` faster than `dict` in Python?
-
-In Python, `defaultdict` can be faster than `dict` in scenarios where missing keys are frequently accessed or initialized, as it avoids repeated conditional checks.
-
-### 3. What is the difference between `get()` and `defaultdict` in Python?
-
-- `dict.get(key, default)`: Returns the value for `key` if it exists; otherwise, returns the specified `default` without modifying the dictionary.
-- `defaultdict`: Automatically inserts the key with a default value (from `default_factory`) into the dictionary when accessed.
