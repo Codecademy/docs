@@ -1,10 +1,10 @@
 ---
 Title: 'Conditionals'
-Description: 'The if, else, elseif, and switch conditionals in PowerShell are used for control flow. They allow the choice of which sections of code are executed based on conditions.'
+Description: 'Control program flow in PowerShell using if, else, elseif, and switch to execute code based on conditions.'
 Subjects:
+  - 'Bash/Shell'
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Bash/Shell'
 Tags:
   - 'Break'
   - 'Conditionals'
@@ -26,9 +26,17 @@ There are four types of conditional statements in PowerShell:
 3. `elseif`
 4. `switch`
 
-## if
+## `if` in PowerShell
 
-The `if` statement executes a block of code if the condition expression is `True`.
+The `if` statement executes a block of code if the condition expression is `True`. Syntax for `if` in PowerShell is:
+
+```pseudo
+if (<condition>) {
+  <statements>
+}
+```
+
+### Example for `if` statement in PowerShell
 
 ```shell
 $my_num = 2
@@ -40,12 +48,25 @@ Write-Host "After the if statement"
 
 The example above prints `"A True Statement"` and `"After the if statement"` if `$my_num` is equal to `2`. Otherwise, it skips the statement within the `if` curly braces `{ }` and just prints `"After the if statement"`.
 
-## else
+## `else` in PowerShell
 
 The `else` clause always follows the `if` statement.
 
 - If the condition is `True`, the code in the `if` section is executed.
 - If the condition is `False`, the code in the `else` section is executed.
+
+Here is the syntax for `else` in PowerShell:
+
+```pseudo
+if (<condition>) {
+  <statements>
+}
+else {
+  <statements>
+}
+```
+
+### PowerShell `else` statement example
 
 ```shell
 $my_num = 2
@@ -59,9 +80,23 @@ else {
 }
 ```
 
-## elseif
+## `elseif` in PowerShell
 
-One or more `elseif` statements can be added between `if` and `else` to test multiple conditions.
+One or more `elseif` statements can be added between `if` and `else` to test multiple conditions. Here is the syntax for `elseif` in PowerShell:
+
+```pseudo
+if (<condition1>) {
+  <statements>
+}
+elseif (<condition2>) {
+  <statements>
+}
+else {
+  <statements>
+}
+```
+
+### PowerShell `elseif` statement example
 
 ```shell
 $my_num = 2
@@ -79,9 +114,19 @@ else {
 }
 ```
 
-## switch
+## `switch` in PowerShell
 
-The `switch` statement provides a simpler syntax for the same behavior as `if` / `elseif` expressions that check for equality.
+The `switch` statement provides a simpler syntax for the same behavior as `if` / `elseif` expressions that check for equality. Here is the syntax for `switch` in PowerShell:
+
+```pseudo
+switch (<value>) {
+  <pattern1> { <statements> }
+  <pattern2> { <statements> }
+  default    { <statements> }
+}
+```
+
+### Example for `switch` in Powershell
 
 ```shell
 $my_num = 2
@@ -139,3 +184,35 @@ switch ($my_num) {
   }
 }
 ```
+
+## Frequently Asked Questions
+
+### 1. How to use if condition in PowerShell?
+
+In PowerShell, the `if` statement checks whether a condition is true before running a block of code. Here is how to implement it:
+
+```shell
+$number = 10
+if ($number -gt 5) {
+  Write-Output "Number is greater than 5"
+}
+```
+
+### 2. Does PowerShell have else if?
+
+Yes, PowerShell supports `elseif` for multiple conditions.
+
+```shell
+$score = 75
+if ($score -ge 90) {
+  Write-Output "Grade: A"
+} elseif ($score -ge 75) {
+  Write-Output "Grade: B"
+} else {
+  Write-Output "Grade: C"
+}
+```
+
+### 3. Can I use ++ in PowerShell?
+
+Yes. PowerShell supports the unary `++` and `--` operators for incrementing and decrementing values. It also supports unary `-` for negation.
