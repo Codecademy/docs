@@ -54,7 +54,7 @@ Input tensor: tensor([ 0.,  1., -1.,  2., -2.])
 Error function result: tensor([ 0.0000,  0.8427, -0.8427,  0.9953, -0.9953])
 ```
 
-The error function produces values between -1 and 1, with `erf(0) = 0`, and the function approaching ±1 for large positive or negative values.
+The error function produces values between -1 and 1, with `erf(0) = 0`, and the function approaches ±1 for large positive or negative values.
 
 ## Example 2: Batch Processing with `.erf()`
 
