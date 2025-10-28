@@ -216,7 +216,6 @@ Use `rotateX(angle)` with the CSS `transform` property. Optionally combine it wi
 
 ```css
 .element {
-  transform: rotateX(45deg);
-  perspective: 500px;
+  transform: perspective(500px) rotateX(45deg);
 }
 ```
