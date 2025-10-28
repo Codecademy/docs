@@ -32,7 +32,7 @@ queueName.clear()
 
 ## Example 1: Basic Queue Clear
 
-This example demonstrates the fundamental usage of the `clear()` method with a LinkedList implementation of Queue:
+This example demonstrates the fundamental usage of the `clear()` method with a [LinkedList](https://www.codecademy.com/resources/docs/java/linked-list) implementation of Queue:
 
 ```java
 import java.util.LinkedList;
