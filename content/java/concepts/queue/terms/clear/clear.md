@@ -76,7 +76,7 @@ This example creates a queue, adds four string elements, displays the original c
 
 ## Example 2: Task Processing System
 
-This example illustrates how `clear()` can be utilized in a task processing system to reset the task queue after completing a batch of operations.
+This example illustrates how `clear()` can be utilized in a task processing system to reset the task queue after completing a batch of operations:
 
 ```java
 import java.util.LinkedList;
