@@ -57,7 +57,7 @@ Here is the output for the above code:
 Not Declared
 ```
 
-Example 2: Using Built-in Callables
+## Example 2: Using Built-in Callables
 
 This example demonstrates `defaultdict` with built-in types (`int`, `list`, `str`, `set`) as the `default_factory`:
 
