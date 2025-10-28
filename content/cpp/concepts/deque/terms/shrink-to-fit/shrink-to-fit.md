@@ -28,7 +28,7 @@ This method does not take any parameters.
 
 **Return value:**
 
-This method does not return a value; it simply requests the deque to reduce its capacity.
+This method does not return a value, it simply requests that the deque reduce its capacity.
 
 ## Example
 
