@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`async`** keyword defines an asynchronous function in Python. Asynchronous functions let a program handle multiple tasks concurrently without waiting for each to finish, improving efficiency and enabling non-blocking execution.
+The **`async`** keyword defines an [asynchronous function](https://www.codecademy.com/article/wix-what-is-async-and-await) in Python. Asynchronous functions let a program handle multiple tasks concurrently without waiting for each to finish, improving efficiency and enabling non-blocking execution.
 
 ## Syntax
 
