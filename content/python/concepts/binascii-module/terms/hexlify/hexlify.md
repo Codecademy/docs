@@ -54,7 +54,7 @@ b'507974686f6e33'
 
 This converts each byte of `'Python3'` into a two-character hexadecimal value, producing a readable byte representation.
 
-## Codebyte Example: Adding a Separator Between Hex Pairs
+## Codebyte Example: Converting to Hexadecimal and Decoding to String
 
 This codebyte demonstrates converting binary data into its hexadecimal representation using `.hexlify()`:
 
