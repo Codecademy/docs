@@ -1,14 +1,14 @@
 ---
 Title: '.figure()'
 Description: 'Creates a new figure window or activates an existing one for plotting.'
-Subjects: 
+Subjects:
   - 'Data Science'
   - 'Data Visualization'
 Tags:
   - 'Charts'
-  - 'Graphs' 
+  - 'Graphs'
   - 'Matplotlib'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
