@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.swap()`** function swaps the values of two queues. The queues must have the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types), although size can differ.
+In C++, the **`.swap()`** function swaps the values of two queues. The queues must have the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types), although size can differ.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ swap(queue1, queue2);
 
 **Parameters:**
 
-The other queue whose contents are to be swapped.
+- `queue2`: The other queue whose contents are to be swapped.
 
 **Return value:**
 
@@ -39,7 +39,7 @@ The other queue whose contents are to be swapped.
 
 ## Example
 
-This example demonstrates the usage of the swap method with string queues:
+This example demonstrates the usage of the `.swap()` method with string queues:
 
 ```cpp
 #include <iostream>
@@ -71,7 +71,7 @@ world hello
 
 ## Codebyte Example
 
-The following codebyte example below uses `.swap()` on two int queues:
+The following codebyte example below uses `.swap()` on two integer queues:
 
 ```codebyte/cpp
 #include <iostream>
