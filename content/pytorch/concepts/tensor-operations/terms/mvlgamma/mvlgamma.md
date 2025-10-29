@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`torch.mvlgamma()`** function in PyTorch computes the **multivariate log-gamma function** for tensor inputs. It is widely used in multivariate statistics, particularly to calculate normalization constants in distributions such as the Wishart or multivariate Gamma distributions. Denoted as ${(\ln(\Gamma_p(a))\)}$, the multivariate log-gamma function generalizes the standard log-gamma function to matrix-valued arguments and is evaluated **element-wise** for each tensor value. It is defined for ${\(a > \frac{p-1}{2}\)}$, where ${\(p\)}$ is the specified dimension.
+The **`torch.mvlgamma()`** function in PyTorch computes the multivariate log-gamma function for tensor inputs. It is widely used in multivariate statistics, particularly to calculate normalization constants in distributions such as the Wishart or multivariate Gamma distributions. Denoted as ${(\ln(\Gamma_p(a))\)}$, the multivariate log-gamma function generalizes the standard log-gamma function to matrix-valued arguments and is evaluated element-wise for each tensor value. It is defined for ${\(a > \frac{p-1}{2}\)}$, where ${\(p\)}$ is the specified dimension.
 
 The function is commonly applied in probability distributions over matrices, with the Wishart distribution being a frequent use case.
 
