@@ -52,7 +52,7 @@ print(f"Total number of elements (.size): {arr.size}")
 print(f"Total bytes consumed (.nbytes): {total_bytes_nbytes}")
 ```
 
-We will get a result similar to the following (the value of `arr.itemsize` might vary based on system architecture):
+The result will be similar to the following (the value of `arr.itemsize` might vary based on system architecture):
 
 ```shell
 Array: [ 0  1  2  3  4  5  6  7  8  9 10 11]
