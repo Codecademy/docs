@@ -1,6 +1,6 @@
 ---
 Title: '.a2b_hex()'
-Description: 'Converts a hexadecimal (base-16) encoded ASCII string into the original binary data (bytes).'
+Description: 'Decodes a hexadecimal (base-16) encoded ASCII string into the original binary data (bytes).'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
