@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.hexlify()`** method from Python’s `binascii` module encodes binary data into a hexadecimal (base-16) ASCII representation. It’s an alias for `binascii.b2a_hex()` and is commonly used to represent binary data in a readable hex format. Each byte of input data is converted into a two-digit hexadecimal value.
+The **`.hexlify()`** method from Python’s [`binascii`](https://www.codecademy.com/resources/docs/python/binascii-module) module encodes binary data into a hexadecimal (base-16) ASCII representation. It’s an alias for `binascii.b2a_hex()` and is commonly used to represent binary data in a readable hex format. Each byte of input data is converted into a two-digit hexadecimal value.
 
 ## Syntax
 
