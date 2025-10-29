@@ -60,7 +60,7 @@ print("\nResult (A.dot(B)):")
 print(result_matrix)
 ```
 
-We will get the following result:
+The output of the above code will be:
 
 ```shell
 Matrix A:
