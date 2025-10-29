@@ -1,5 +1,5 @@
 ---
-Title: '.fiil()'
+Title: '.fill()'
 Description: 'Fills a NumPy array with a specified scalar value.'
 Subjects:
   - 'Code Foundations'
