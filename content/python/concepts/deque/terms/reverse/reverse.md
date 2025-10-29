@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.reverse()`** method of a Python [`collections.deque`](https://www.codecademy.com/resources/docs/python/collections-module/deque) reverses the order of elements in the `deque` in-place.
+The **`.reverse()`** method of a Python [`collections.deque`](https://www.codecademy.com/resources/docs/python/collections-module/deque) reverses the order of elements in the deque in-place.
 
 ## Syntax
 
@@ -24,11 +24,11 @@ deque.reverse()
 
 **Parameters:**
 
-The `.reverse()` method does not take any parameters.
+The `.reverse()` method doesn't take any parameters.
 
 **Return value:**
 
-`None`: The deque is modified in-place.
+The deque is modified in-place.
 
 ## Example
 
