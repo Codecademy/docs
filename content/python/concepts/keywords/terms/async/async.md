@@ -1,14 +1,14 @@
 ---
 Title: 'async'
-Description: 'Allows users to define an asynchronous function in Python.' 
-Subjects: 
+Description: 'Allows users to define an asynchronous function in Python.'
+Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Async Await'
   - 'Functions'
   - 'Python'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
