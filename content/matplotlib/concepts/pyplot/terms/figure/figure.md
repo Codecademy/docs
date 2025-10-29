@@ -8,7 +8,6 @@ Tags:
   - 'Charts'
   - 'Graphs' 
   - 'Matplotlib'
-  - 'Pyplot'
 CatalogContent: 
   - 'learn-python-3'
   - 'paths/data-science'
