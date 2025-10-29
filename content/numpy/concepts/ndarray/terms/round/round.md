@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.round()`** method in NumPy rounds each element of an array to the nearest integer or to a specified number of decimal places. Values exactly halfway between two numbers are rounded to the nearest even value (also known as banker’s rounding).
+The **`.round()`** method in NumPy rounds each element of an [array](https://www.codecademy.com/resources/docs/numpy/ndarray) to the nearest integer or to a specified number of decimal places. Values exactly halfway between two numbers are rounded to the nearest even value (also known as banker’s rounding).
 
 ## Syntax
 
