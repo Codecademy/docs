@@ -99,6 +99,12 @@ plt.grid(True, alpha=0.3)
 plt.show()
 ```
 
+This creates a basic stacked area plot with three data series, demonstrating the fundamental structure of stackplot visualizations.
+
+![Stackplot Codebyte Example](../media/stackplot-codebyte-example.png)
+
+*Note: The image above shows the output of the original code. When you modify and run the codebyte, you'll see your own updated plot in the interactive output area.*
+
 ## FAQ
 
 **Q: How can I customize colors beyond the basic color list?**
