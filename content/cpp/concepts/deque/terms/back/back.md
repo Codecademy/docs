@@ -30,7 +30,7 @@ This method does not take any parameters.
 
 **Return value:**
 
-Returns a reference to the last element of the deque. If the deque is `const`, it returns a const reference.
+Returns a reference to the last element of the deque. If the deque is `const`, it returns a `const` reference.
 
 ## Example: Accessing and Updating the Last Element
 
