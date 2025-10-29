@@ -31,7 +31,7 @@ torch.log1p(input, *, out=None)
 
 **Return value:**
 
-Returns a new tensor with each element equal to the natural logarithm of one plus the corresponding element in the input tensor. The original tensor remains unchanged unless an `out` tensor is provided.
+Returns a new tensor where each element is the natural logarithm of one plus the corresponding element in the input tensor. The original tensor remains unchanged unless an `out` tensor is provided.
 
 ## Example
 
