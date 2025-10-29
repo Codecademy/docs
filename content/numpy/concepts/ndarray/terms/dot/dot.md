@@ -96,6 +96,6 @@ print(f"Vector y: {vector_y}")
 print(f"Dot product (x.dot(y)): {dot_product}")
 ```
 
-Here's the explanation:
+Calculation breakdown:
 
 $$\vec{x} \cdot \vec{y} = (1 \times 5) + (2 \times 6) + (3 \times 7) = 5 + 12 + 21 = 38$$
