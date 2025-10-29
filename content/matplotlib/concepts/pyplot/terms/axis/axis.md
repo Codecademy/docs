@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.axis()`** function in Matplotlib's `pyplot` module gets or sets properties of the plot axes, including axis limits, aspect ratio, and visibility.
+The **`.axis()`** function in Matplotlib's [`pyplot`](https://www.codecademy.com/resources/docs/matplotlib/pyplot) module gets or sets properties of the plot axes, including axis limits, aspect ratio, and visibility.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ The function can be called in several ways:
 
 **Return value:**
 
-Returns a tuple `(xmin, xmax, ymin, ymax)` representing the current axis limits.
+Returns a [tuple](https://www.codecademy.com/resources/docs/python/tuples) `(xmin, xmax, ymin, ymax)` representing the current axis limits.
 
 ## Example 1: Using `.axis()` to Control Axis Properties
 
