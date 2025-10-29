@@ -32,7 +32,7 @@ binascii.hexlify(data[, sep[, bytes_per_sep]])
 
 Returns a `bytes` object containing the hexadecimal ASCII representation of the input.
 
-> **Note:** The returned string is always twice as long as the original data. If `sep` is provided, it’s inserted at the specified intervals for better readability.
+> **Note:** The returned object is always twice as long as the original data. If `sep` is provided, it’s inserted at the specified intervals for better readability.
 
 ## Example: Converting Binary Data to Hexadecimal
 
