@@ -33,6 +33,7 @@ Returns an integer representing the total number of bytes consumed by the array 
 ## Example
 
 The following example creates a one-dimensional NumPy array `arr` with 12 elements. The `.nbytes` attribute reports the total bytes used by all array elements. On a 64-bit system where the default integer type (`int64`) uses 8 bytes per element,
+
 $12 \text{ elements} \times 8 \text{ bytes}/\text{element} = 96 \text{ bytes}$:
 
 ```py
