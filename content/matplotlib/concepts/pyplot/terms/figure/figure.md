@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`figure()`** function in Matplotlib creates a new top-level container, called a figure, which acts as the canvas for all plots and axes in Matplotlib. If a figure with the given identifier already exists, it makes that figure active instead.
+The **`.figure()`** function in Matplotlib creates a new top-level container, called a figure, which acts as the canvas for all plots and axes in Matplotlib. If a figure with the given identifier already exists, it makes that figure active instead.
 
 ## Syntax
 
