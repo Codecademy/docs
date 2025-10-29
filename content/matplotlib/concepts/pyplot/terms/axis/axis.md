@@ -47,7 +47,7 @@ Returns a tuple `(xmin, xmax, ymin, ymax)` representing the current axis limits.
 
 ## Example 1: Using `.axis()` to Control Axis Properties
 
-This example creates three subplots demonstrating different axis control modes. The first subplot uses `axis([2, 8, -0.5, 0.5])` to restrict the view to specific x and y ranges. The second subplot uses `axis('equal')` to ensure both axes use the same scale. The third subplot uses `axis('off')` to hide the axis lines, ticks, and labels.
+This example creates three subplots demonstrating different axis control modes. The first subplot uses `axis([2, 8, -0.5, 0.5])` to restrict the view to specific x and y ranges. The second subplot uses `axis('equal')` to ensure both axes use the same scale. The third subplot uses `axis('off')` to hide the axis lines, ticks, and labels:
 
 ```py
 import matplotlib.pyplot as plt
@@ -84,9 +84,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-Output:
+The output of this code is:
 
-![Output of matplotlib.pyplot.axis() method example 1](https://raw.githubusercontent.com/ylevental/docs/add-matplotlib-axis/media/matplotlib-axis-example1.png)
+![Output of matplotlib.pyplot.axis() method example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-axis-example1.png)
 
 ## Example 2: Getting and Setting Axis Limits
 
@@ -115,6 +115,6 @@ plt.grid(True, alpha=0.3)
 plt.show()
 ```
 
-Output:
+The output of this code is:
 
-![Output of matplotlib.pyplot.axis() method example 2](https://raw.githubusercontent.com/ylevental/docs/add-matplotlib-axis/media/matplotlib-axis-example2.png)
+![Output of matplotlib.pyplot.axis() method example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-axis-example2.png)
