@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`rotate()`** method of Python’s `collections.deque` rotates the elements in the deque by the specified number of steps. If the number is positive, elements move from right to left (the rightmost elements move to the beginning). If the number is negative, elements move from left to right (the leftmost elements move to the end).
+The **`rotate()`** method of Python’s [`collections.deque`](https://www.codecademy.com/resources/docs/python/deque) rotates the elements in the deque by the specified number of steps. If the number is positive, elements move from right to left (the rightmost elements move to the beginning). If the number is negative, elements move from left to right (the leftmost elements move to the end).
 
 ## Syntax
 
