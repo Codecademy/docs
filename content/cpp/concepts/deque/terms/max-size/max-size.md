@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.max_size()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) returns the maximum number of elements in the deque. This is the maximum potential size the container can reach due to known system or library implementation limitations, but the container is by no means guaranteed to be able to reach that size, and it can still fail to allocate storage at any point before that size is reached.
+In C++, the **`.max_size()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) returns the maximum number of elements a deque can hold. This value reflects the maximum possible size based on system or library constraints. However, it does not guarantee that the container can actually grow to that size—memory allocation may still fail before reaching the reported limit.
 
 ## Syntax
 
@@ -28,11 +28,11 @@ The method does not take any parameters.
 
 **Return value:**
 
-Returns the maximum number of elements the `deque` can potentially hold as a value of type `size_type`.
+Returns the maximum number of elements the deque can potentially hold as a value of type `size_type`.
 
 ## Example
 
-In this example, the maximum possible number of elements a `deque` can hold on the system is retrieved:
+In this example, the maximum possible number of elements a deque can hold on the system is retrieved:
 
 ```cpp
 #include <iostream>
@@ -54,7 +54,7 @@ Maximum possible elements: 4611686018427387903
 
 ## Codebyte Example
 
-In this example, a requested size is compared with the maximum possible size of a `deque`, and the container is resized only if the size is allowed:
+In this example, a requested size is compared with the maximum possible size of a deque, and the container is resized only if the size is allowed:
 
 ```codebyte/cpp
 #include <iostream>
