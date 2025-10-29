@@ -2,7 +2,6 @@
 Title: '.igammac()'
 Description: 'Computes the regularized upper incomplete gamma function.'
 Subjects:
-  - 'AI'
   - 'Data Science'
   - 'Machine Learning'
 Tags:
