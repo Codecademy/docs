@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.back()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) returns a reference to the last element in a deque. It allows direct access to that element for reading or modifying without removing it.
+In C++, the **`.back()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) returns a reference to the last element in a [deque](https://www.codecademy.com/resources/docs/cpp/deque). It allows direct access to that element for reading or modifying without removing it.
 
-> **Note:** Calling `.back()`on an empty deque leads to undefined behavior. Check with `.empty()` before using `.back()`.
+> **Note:** Calling `.back()` on an empty deque leads to undefined behavior. Check with [`.empty()`](https://www.codecademy.com/resources/docs/cpp/deque/empty) before using `.back()`.
 
 ## Syntax
 
