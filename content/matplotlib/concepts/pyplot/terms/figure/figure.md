@@ -18,7 +18,17 @@ The **`.figure()`** function in Matplotlib creates a new top-level container, ca
 ## Syntax
 
 ```pseudo
-matplotlib.pyplot.figure(num=None, figsize=None, dpi=None, facecolor=None, edgecolor=None, frameon=True, FigureClass=<class 'matplotlib.figure.Figure'>, clear=False, **kwargs)
+matplotlib.pyplot.figure(
+    num=None,
+    figsize=None,
+    dpi=None,
+    facecolor=None,
+    edgecolor=None,
+    frameon=True,
+    FigureClass=<class 'matplotlib.figure.Figure'>,
+    clear=False,
+    **kwargs
+)
 ```
 
 **Parameters:**
