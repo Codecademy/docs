@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.a2b_qp()`** [function](https://www.codecademy.com/resources/docs/python/functions) decodes a string of quoted-printable data back to binary.
+In Python, the **`.a2b_qp()`** [function](https://www.codecademy.com/resources/docs/python/functions) decodes a string of quoted-printable data back to binary.
 
 Quoted-printable is an encoding scheme used in email messages to represent non-ASCII characters using only ASCII characters.
 
