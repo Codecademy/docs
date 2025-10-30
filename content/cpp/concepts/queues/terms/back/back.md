@@ -1,6 +1,6 @@
 ---
 Title: '.back()'
-Description: 'Returns a reference to the element at the back of the queue.' 
+Description: 'Returns a reference to the element at the back of the queue.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
