@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.front()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) returns a reference to the first element in the deque.
+In C++, the **`.front()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) returns a reference to the first element in the [deque](https://www.codecademy.com/resources/docs/python/deque).
 
 ## Syntax
 
