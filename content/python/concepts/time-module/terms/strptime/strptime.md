@@ -15,7 +15,7 @@ CatalogContent:
 
 **`.strptime()`** is a method from Python's [time](https://www.codecademy.com/resources/docs/python/time-module) module. It converts a date and/or time string into a corresponding `struct_time` object, based on the format directives provided.
 
->> **Note:** `strptime()` with the 'p' for 'parse' is for reading a string, not writing one.
+> > **Note:** `strptime()` with the 'p' for 'parse' is for reading a string, not writing one.
 
 ## Syntax
 
@@ -47,7 +47,7 @@ The `format` parameter uses specific directives to represent the expected format
 | `%j`      | Day of the year             | 001 - 366       |
 | `%b`      | Abbreviated month name      | Jan, Feb, ...   |
 
->> **Note:** Value `61` is only supported for historical reasons (leap seconds).
+> > **Note:** Value `61` is only supported for historical reasons (leap seconds).
 
 ## Example
 
