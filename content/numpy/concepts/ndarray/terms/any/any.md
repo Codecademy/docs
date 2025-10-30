@@ -58,7 +58,7 @@ print(arr4.any())
 
 The output for the above code will be:
 
-```
+```shell
 True
 False
 Along axis 0: [ True False  True]
