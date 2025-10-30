@@ -5,7 +5,8 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Methods'
+  - 'Functions'
+  - 'Modules'
   - 'Time'
 CatalogContent:
   - 'learn-python-3'
