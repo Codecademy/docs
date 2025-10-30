@@ -33,6 +33,8 @@ Returns a tensor of the same shape as the `input`, where each element is the log
 
 ## Example
 
+The example demonstrates computing the natural logarithm of the absolute gamma function using both the functional form `torch.lgamma()` and the tensor method `.lgamma()`, then verifies both approaches produce identical results:
+
 ```py
 import torch
 
