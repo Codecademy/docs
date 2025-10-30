@@ -24,7 +24,7 @@ torch.lgamma(input, *, out=None) → Tensor
 
 **Parameters:**
 
-- `input` (Tensor): Input tensor of floating point or complex numbers. Integer tensors are not supported.
+- `input` (Tensor): Input tensor of floating point or complex numbers.
 - `out` (Optional): Output tensor to write results to.
 
 **Return value:**
