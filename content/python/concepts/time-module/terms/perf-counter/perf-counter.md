@@ -58,7 +58,7 @@ A possible outcome of this code is:
 1780743.368374651
 ```
 
-## Example 2: Using `.perf_counter()` Like a Stopwatch
+## Example 2
 
 Here, two `perf_counter()` calls are placed around [`sleep()`](https://www.codecademy.com/resources/docs/python/time-module/sleep) which adds a 5-second delay in the execution right after the first method call:
 
