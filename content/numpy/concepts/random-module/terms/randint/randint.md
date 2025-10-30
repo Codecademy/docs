@@ -58,6 +58,8 @@ The output for this code will be:
 [5 1 5 4 4]
 ```
 
+> **Note:** Exact output values may vary depending on NumPy version, but the format will be as shown.
+
 Here:
 
 - `np.random.seed(15)` ensures reproducible results.
