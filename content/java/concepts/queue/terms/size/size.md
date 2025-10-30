@@ -1,18 +1,20 @@
 ---
 Title: 'size()'
-Description: 'Returns the number of elements in a queue in Java.'
+Description: 'Returns the number of elements stored in a queue.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Collections'
+  - 'Methods'
+  - 'Numbers'
   - 'Queues'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-In Java, **`size()`** is a method that returns the number of elements currently present in a collection like a queue, helping determine how many items are stored at any given moment.
+In Java, **`size()`** method returns the number of elements currently present in a collection like a queue, helping determine how many items are stored at any given moment.
 
 ## Syntax
 
@@ -26,7 +28,7 @@ The `size()` method does not take any parameters.
 
 **Return value:**
 
-- Returns an integer representing the count of elements in the queue.
+- Returns an integer representing the number of elements in the queue.
 
 ## Example 1: Get Queue Length using Java `size()`
 
@@ -55,7 +57,7 @@ The output of this code is:
 Queue size: 3
 ```
 
-## Example 2: Check Queue Before Processing
+## Example 2: Check Queue Size Before Processing
 
 In this example, the `size()` method in Java is used to verify if a queue contains elements before processing them:
 
