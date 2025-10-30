@@ -54,8 +54,8 @@ print(arr)
 The output for this code will be:
 
 ```shell
-3
-[5 2 2 1 2]
+8
+[5 1 5 4 4]
 ```
 
 Here:
