@@ -59,7 +59,7 @@ print("\nConverted Tensor (Degrees):")
 print(degrees_tensor)
 ```
 
-The output of this code is:
+The output for the above code is as follows:
 
 ```shell
 Original Tensor (Radians):
