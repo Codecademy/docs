@@ -36,7 +36,7 @@ numpy.random.randint(low, high=None, size=None, dtype=int)
 
 ## Example
 
-This example demonstrates generating random integers:
+This example generates a random integer (0-9) and an array of 5 random integers (1-5):
 
 ```py
 import numpy as np
