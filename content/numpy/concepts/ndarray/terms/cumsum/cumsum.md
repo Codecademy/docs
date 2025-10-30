@@ -1,6 +1,6 @@
 ---
 Title: '.cumsum()'
-Description: 'Returns the cumulative sum of the elements along the given axis.'
+Description: 'Computes the cumulative sum of array elements along a specified axis.'
 Subjects:
   - 'Code Foundations'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.cumsum()`** method in NumPy returns the cumulative sum of the elements along a specified axis of an array. If no axis is specified, the method computes the cumulative sum of the flattened array.
+The **`.cumsum()`** method in NumPy computes the cumulative sum of elements along a specified axis. If no axis is provided, it returns the cumulative sum of the flattened array.
 
 ## Syntax
 
@@ -30,99 +30,95 @@ ndarray.cumsum(axis=None, dtype=None, out=None)
 
 **Return value:**
 
-Returns an array containing the result if `out` is not specified. If `out` is specified, a reference to `out` is returned.
+Returns an array containing the cumulative sum of elements, or a reference to `out` if specified.
 
-## Example 1: No Axis Specified
+## Example 1: Computing Cumulative Sum with and without Axis
 
-In this example, the cumulative sum is calculated without specifying an axis, resulting in a flattened array:
+This example calculates the cumulative sum of a 2D array:
 
 ```py
 import numpy as np
 
 array = np.array([[1, 2, 3], [4, 5, 6]])
-cumsum_result = array.cumsum()
-print(cumsum_result)
+
+# Cumulative sum of flattened array
+cumsum_flat = array.cumsum()
+
+# Cumulative sum along rows (axis=1)
+cumsum_axis1 = array.cumsum(axis=1)
+
+# Cumulative sum along columns (axis=0)
+cumsum_axis0 = array.cumsum(axis=0)
+
+print("Flattened cumulative sum:\n", cumsum_flat)
+print("\nCumulative sum along rows:\n", cumsum_axis1)
+print("\nCumulative sum along columns:\n", cumsum_axis0)
 ```
 
-The output of this code will be:
+The output of this code is:
 
 ```shell
+Flattened cumulative sum:
 [ 1  3  6 10 15 21]
-```
 
-## Example 2: Specified Axis
-
-In this next example, an axis to compute the cumulative sum is specified:
-
-```py
-import numpy as np
-
-array = np.array([[1, 2, 3], [4, 5, 6]])
-cumsum_result_0 = array.cumsum(axis=0)
-cumsum_result_1 = array.cumsum(axis=1)
-print(cumsum_result_0)
-print(cumsum_result_1)
-```
-
-The output will be:
-
-```shell
-[[1 2 3]
- [5 7 9]]
-
+Cumulative sum along rows:
 [[ 1  3  6]
  [ 4  9 15]]
+
+Cumulative sum along columns:
+[[1 2 3]
+ [5 7 9]]
 ```
 
-## Example 3: Specified Data Type
+Here:
 
-In this one, the data type for the cumulative sum result is specified:
+- When no axis is specified, NumPy flattens the array before computing the cumulative sum.
+- When an axis is specified, it computes the sum along the given dimension.
+
+## Example 2: Using dtype and Output Array
+
+In this example, custom data type (`float`) is specified for the cumulative sum, and the result is stored in a preallocated output array:
 
 ```py
 import numpy as np
 
 array = np.array([1, 2, 3])
-cumsum_result = array.cumsum(dtype=float)
-print(cumsum_result)
-```
 
-The output array will be:
+# Create an empty array for output
+output_array = np.empty_like(array, dtype=float)
 
-```shell
-[1. 3. 6.]
-```
+# Compute cumulative sum with custom dtype and output
+array.cumsum(dtype=float, out=output_array)
 
-As it can be seen, the cumulative sum values are represented as floating-point numbers this time.
-
-## Example 4: Output Array Provided
-
-In the following example, an empty output array is provided to store the cumulative sum result:
-
-```py
-import numpy as np
-
-array = np.array([1, 2, 3])
-output_array = np.empty_like(array)
-array.cumsum(out=output_array)
+print("Cumulative sum with float dtype:")
 print(output_array)
 ```
 
-The output will be:
+The output of this code is:
 
 ```shell
-[1 3 6]
+Cumulative sum with float dtype:
+[1. 3. 6.]
 ```
 
 ## Codebyte Example
 
-In this codebyte example, an array is created and the cumulative sum is calculated along both axes while also specifying the type of the output:
+In this codebyte example, the cumulative sum of a 2D array is computed along both axes using different data types for each:
 
 ```codebyte/python
 import numpy as np
 
 array = np.array([[1, 2], [3, 4]])
-cumsum_result_0 = array.cumsum(axis=0, dtype=int)
-cumsum_result_1 = array.cumsum(axis=1, dtype=float)
-print(cumsum_result_0)
-print(cumsum_result_1)
+
+# Cumulative sum along rows (axis=1) with float dtype
+cumsum_row = array.cumsum(axis=1, dtype=float)
+
+# Cumulative sum along columns (axis=0) with int dtype
+cumsum_col = array.cumsum(axis=0, dtype=int)
+
+print("Cumulative sum along rows (float):")
+print(cumsum_row)
+
+print("\nCumulative sum along columns (int):")
+print(cumsum_col)
 ```
