@@ -1,6 +1,6 @@
 ---
 Title: '.sort()'
-Description: 'Sorts the array in-place along the specified axis'
+Description: 'Sorts the array in-place along the specified axis.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.sort()`** method sorts a NumPy [array](https://www.codecademy.com/resources/docs/numpy/ndarray) in-place in ascending order along a specified axis. By default, it sorts in ascending order.
+The **`.sort()`** method sorts a NumPy [array](https://www.codecademy.com/resources/docs/numpy/ndarray) in-place in ascending order along a specified axis. It modifies the original array and does not return a new one.
 
 ## Syntax of Numpy `.sort()`
 
