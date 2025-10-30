@@ -35,13 +35,14 @@ In this example, the current UTC time is retrieved using `gmtime()`, and then a 
 
 ```py
 import time
+import calendar
 
 # Get the current time in UTC
 current_time = time.gmtime()
 print("Current UTC time:", current_time)
 
 # Convert a specific time (e.g., 1st January 2020) to UTC
-specific_time = time.mktime((2020, 1, 1, 0, 0, 0, 0, 0, 0))
+specific_time = calendar.timegm((2020, 1, 1, 0, 0, 0, 0, 0, 0))
 utc_time = time.gmtime(specific_time)
 print("Specific UTC time:", utc_time)
 ```
