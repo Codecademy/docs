@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.positive()`** method in PyTorch returns a new [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) containing the same values as the input tensor. It implements the unary plus operation (`+tensor`), creating a copy of the tensor without modifying the values. This method is useful when an explicit copy is needed or for consistency with other unary operations in mathematical expressions.
+The **`.positive()`** method in PyTorch returns a new [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) containing the same values as the input tensor. It implements the unary plus operation (`+tensor`), creating a copy of the tensor without modifying the values. This method is useful when an explicit copy or consistency with other unary operations in mathematical expressions is needed.
 
 ## Syntax
 
