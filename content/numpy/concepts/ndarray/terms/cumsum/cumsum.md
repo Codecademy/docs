@@ -77,7 +77,7 @@ Here:
 
 ## Example 2: Using dtype and Output Array
 
-In this example, custom data type (`float`) is specified for the cumulative sum, and the result is stored in a preallocated output array:
+In this example, a custom data type (`float`) is specified for the cumulative sum, and the result is stored in a preallocated output array:
 
 ```py
 import numpy as np
