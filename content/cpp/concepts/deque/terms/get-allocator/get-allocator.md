@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.get_allocator()`** method of a C++ `deque` returns a copy of the allocator object used by the deque to manage memory for its elements. This allows allocation and deallocation of raw memory for objects of the deque’s type. Modifications made through the allocator affect only the allocated memory and not the deque itself.
+The **`.get_allocator()`** method of a C++ `deque` returns a copy of the allocator object used by the [deque](https://www.codecademy.com/resources/docs/cpp/deque) to manage memory for its elements. This allows allocation and deallocation of raw memory for objects of the deque’s type. Modifications made through the allocator affect only the allocated memory and not the deque itself.
 
 ## Syntax
 
