@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.all()`** method returns `True` if all elements in an ndarray evaluate to `True`, or if all elements along a specified axis evaluate to `True`.
+In NumPy, the **`.all()`** method returns `True` if all elements in an ndarray evaluate to `True`, or if all elements along a specified axis evaluate to `True`.
 
 The `.all()` method can operate on the entire array to check if all values are truthy, or work along specific axes to perform row-wise or column-wise boolean validation. It follows Python's truth value testing conventions where non-zero numbers, non-empty arrays, and `True` values are considered truthy, while zero, empty arrays, `None`, and `False` are considered falsy. This method is particularly useful in data validation, filtering operations, and quality control checks in data science workflows.
 
@@ -129,7 +129,7 @@ Perfect class (all passed): False
 
 This example shows how the `axis` parameter controls the direction of validation. Using `axis=0` checks columns (tests), while `axis=1` checks rows (students).
 
-## Example 3: Data Quality Validation with keepdims
+## Example 3: Data Quality Validation with `keepdims`
 
 This example shows how to use `.all()` with `keepdims` for data quality checks that maintain array dimensions:
 
@@ -184,7 +184,7 @@ Quality report:
 
 The `keepdims=True` parameter maintains array dimensions, making it easier to combine validation results with other operations or create aligned reports.
 
-## Codebyte Example: Using the where Parameter for Conditional Validation
+## Codebyte Example: Using the `where` Parameter for Conditional Validation
 
 This example demonstrates selective validation using the `where` parameter:
 
