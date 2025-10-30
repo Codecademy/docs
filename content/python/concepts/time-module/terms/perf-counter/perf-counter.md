@@ -2,8 +2,8 @@
 Title: 'perf_counter()'
 Description: 'Returns a high-resolution timer value, useful for measuring short durations, including time elapsed during sleep.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
-  - 'Data Science'
 Tags:
   - 'Functions'
   - 'Modules'
