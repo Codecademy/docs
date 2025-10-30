@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In PyTorch, the **`.lgamma()`** function returns the natural logarithm of the absolute value of the [gamma function](https://en.wikipedia.org/wiki/Gamma_function) for each element in an input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors).
+In PyTorch, the **`.lgamma()`** function returns the natural logarithm of the absolute value of the gamma function for each element in an input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors).
 
 ## Syntax
 
