@@ -78,7 +78,7 @@ Trying to find the index of a nonexistent element will give you problems.
 
 In this example, `index()` finds the position of the element `"apple"` in different scenarios, showing its flexibility and use of parameters:
 
-```py
+```codebyte/python
 from collections import deque
 
 # Create a deque with some initial elements
