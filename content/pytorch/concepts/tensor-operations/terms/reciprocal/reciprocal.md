@@ -1,5 +1,5 @@
 ---
-Title: '..reciprocal()'
+Title: '.reciprocal()'
 Description: 'Computes the element-wise reciprocal of each element in the input tensor.'
 Subjects:
   - 'Computer Science'
