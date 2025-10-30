@@ -50,7 +50,6 @@ other = torch.tensor([2.0, 3.0, 4.0])
 
 # Compute the multiplication between the two tensors
 out = torch.ldexp(input, other)
-
 print(out)
 ```
 
