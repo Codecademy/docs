@@ -27,9 +27,11 @@ torch.rad2deg(input)
 ```
 
 **Parameters:**
-* `input` (Tensor): A tensor containing angular values in radians.
+
+- `input` (Tensor): A tensor containing angular values in radians.
 
 **Return value:**
+
 Returns a tensor containing the degree equivalents of the original tensor's elements. The returned tensor has the same size and data type as the original input tensor.
 
 ## Example
