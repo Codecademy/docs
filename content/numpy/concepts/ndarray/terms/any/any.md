@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`any()`** method of a NumPy ndarray returns `True` if any element in the array evaluates to `True`. It performs a logical OR operation across specified array elements. In a Boolean context, all non-zero numbers evaluate to `True`, while zero evaluates to `False`.
+The **`any()`** method of a NumPy [ndarray](https://www.codecademy.com/resources/docs/numpy/ndarray) returns `True` if any element in the array evaluates to `True`. It performs a logical OR operation across specified array elements. In a Boolean context, all non-zero numbers evaluate to `True`, while zero evaluates to `False`.
 
 ## Syntax
 
