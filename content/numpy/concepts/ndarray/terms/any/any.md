@@ -29,7 +29,7 @@ array.any(axis=None, out=None, keepdims=False, where=True)
 - `keepdims`: Optional boolean that retains reduced axes as dimensions with size one in the result when set to' True'.
 - `where`: Optional array of booleans specifying which elements to include in the check.
 
->> **Note:** The method returns either a single boolean value or an ndarray of boolean values, depending on the `axis` parameter.
+> > **Note:** The method returns either a single boolean value or an ndarray of boolean values, depending on the `axis` parameter.
 
 ## Example
 
