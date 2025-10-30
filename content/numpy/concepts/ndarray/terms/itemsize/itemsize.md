@@ -1,10 +1,9 @@
 ---
-Title: 'itemsize'
+Title: '.itemsize'
 Description: 'Returns the size in bytes of each element in a NumPy array.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Web Development'
 Tags:
   - 'Arrays'
   - 'Attributes'
@@ -15,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`itemsize`** attribute of a NumPy [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) returns the number of bytes used to store each element in the array, as determined by the array’s [`dtype`](https://www.codecademy.com/resources/docs/python/types).
+The **`.itemsize`** attribute of a NumPy `ndarray` returns the number of bytes used to store each element in the array, as determined by the array’s [`dtype`](https://www.codecademy.com/resources/docs/python/data-types).
 
 ## Syntax
 
@@ -29,11 +28,11 @@ This attribute does not take any parameters.
 
 **Return value:**
 
-Returns an integer representing the number of bytes used to store each element in the array, based on its data type (`dtype`).
+Returns an integer that represents the number of bytes used to store each element in the array, based on its data type (`dtype`).
 
 ## Example
 
-In this example, arrays with different data types return different byte sizes per element when accessed through the `itemsize` attribute:
+In this example, arrays with different data types return different byte sizes per element when accessed through the `.itemsize` attribute:
 
 ```py
 import numpy as np
@@ -61,7 +60,7 @@ True
 
 ## Codebyte Example
 
-In this example, the `itemsize` attribute is used to inspect the memory size of elements for different NumPy dtypes:
+In this example, the `.itemsize` attribute is used to inspect the memory size of elements for different NumPy dtypes:
 
 ```codebyte/python
 import numpy as np
