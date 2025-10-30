@@ -70,7 +70,7 @@ The output of this code is:
 Very first position of (4): 4
 Position of (1) after index=0: 3
 Position of (1) between index=1 inclusive and index=6 exclusive: 3
-Trying to find the index of a nonexistent element will give you problems.
+Trying to find the index of a nonexistent element will cause an error.
 10 is not in deque
 ```
 
