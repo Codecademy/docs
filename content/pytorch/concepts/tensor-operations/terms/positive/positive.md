@@ -22,6 +22,8 @@ The **`.positive()`** method in PyTorch returns a new [tensor](https://www.codec
 torch.positive(input)
 ```
 
+**Parameter:**
+
 - `input` (Tensor): The input tensor.
 
 The `.positive()` method returns a new tensor with the same values and data type as the input tensor.
