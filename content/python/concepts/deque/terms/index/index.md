@@ -74,7 +74,7 @@ Trying to find the index of a nonexistent element will give you problems.
 10 is not in deque
 ```
 
-## Example 2: Finding elements by value range
+## Codebyte Example: Finding elements by value range
 
 In this example, `index()` finds the position of the element `"apple"` in different scenarios, showing its flexibility and use of parameters:
 
