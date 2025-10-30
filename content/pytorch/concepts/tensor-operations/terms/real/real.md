@@ -1,45 +1,46 @@
-<h1><code>.real()</code></h1>
+---
+Title: '.real()'
+Description: 'Returns the real part of each element in a complex tensor in PyTorch.'
+Subjects:
+  - 'AI'
+  - 'Computer Science'
+  - 'Data Science'
+Tags: 
+  - 'AI'
+  - 'Functions'
+  - 'Pytorch'
+  - 'Trigonometry'
+CatalogContent: 
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/data-science'
+---
 
-<p>
-The <code>.real</code> attribute returns a view of the <strong>real part</strong> of a complex PyTorch tensor.
-</p>
+The **`.real()`** in PyTorch returns a view of the real part of a complex tensor. It provides access to the real component of each element while sharing the same underlying memory as the original complex tensor. Any modification to this real view directly changes the original tensor’s data.
 
-<h2>Introduction</h2>
-<p>
-In PyTorch, tensors can hold complex numbers, meaning they have both a <strong>real component</strong> and an <strong>imaginary component</strong>.
-The <code>.real</code> attribute is used to access only the real component of every element within a complex-valued tensor.
-</p>
+This method is available only for tensors with complex data types such as `torch.complex64` or `torch.complex128`.
 
-<p>
-The resulting tensor shares the same underlying memory storage as the original complex tensor.
-This means that modifying the values in the real view will directly change the values in the original complex tensor.
-</p>
+## Syntax
 
-<p>
-The attribute is only available when the tensor's data type is a complex type (e.g., <code>torch.complex64</code> or <code>torch.complex128</code>).
-</p>
+```pseudo
+torch.real(input)
+```
 
-<hr>
+**Parameters:**
 
-<h2>Syntax</h2>
+- `input` (Tensor): A complex-valued input tensor.
 
-<pre><code>tensor_name.real
-</code></pre>
+**Return value:**
 
-<p>
-Where <code>tensor_name</code> must be a complex PyTorch tensor.
-The returned tensor has the same shape as the original, but its dtype will be the corresponding real type
-(e.g., <code>torch.float32</code> if the original was <code>torch.complex64</code>).
-</p>
+Returns a tensor containing only the real components of the original complex tensor. The returned tensor shares memory with the original tensor and has the corresponding real data type (e.g., `torch.float32` for `torch.complex64`).
 
-<hr>
+## Example
 
-<h2>Example</h2>
+This example demonstrates how to access and modify the real part of a complex tensor using `.real()`:
 
-<pre><code class="language-python">import torch
+```py
+import torch
 
-# 1. Create a 2x2 complex tensor
-# The values are (Real + Imaginary*i)
+# Create a 2x2 complex tensor
 complex_tensor = torch.tensor([
     [1 + 2j, 3 + 4j],
     [5 + 6j, 7 + 8j]
@@ -48,24 +49,37 @@ complex_tensor = torch.tensor([
 print("Original Tensor:")
 print(complex_tensor)
 
-# 2. Access the real view
-real_view = complex_tensor.real
+# Access the real view
+real_view = torch.real(complex_tensor)
 
 print("\nReal Part View:")
 print(real_view)
 
-# 3. Modify a value in the real view
+# Modify a value in the real view
 real_view[0, 0] = 99.0
 
 print("\nOriginal Tensor after modification:")
 print(complex_tensor)
-</code></pre>
+```
 
-<hr>
+The output of this code is:
 
-<h2>Key Takeaways</h2>
-<ul>
-  <li><code>.real</code> returns a view — not a copy — of the real part of a complex tensor.</li>
-  <li>Any modification to <code>.real</code> directly affects the original tensor.</li>
-  <li>Only works for tensors with complex data types (<code>torch.complex64</code>, <code>torch.complex128</code>).</li>
-</ul>
+```shell
+Original Tensor:
+tensor([[1.+2.j, 3.+4.j],
+        [5.+6.j, 7.+8.j]])
+
+Real Part View:
+tensor([[1., 3.],
+        [5., 7.]])
+
+Original Tensor after modification:
+tensor([[99.+2.j,  3.+4.j],
+        [ 5.+6.j,  7.+8.j]])
+```
+
+## Key Takeaways
+
+- `.real()` returns a view, not a copy, of the real component of a complex tensor.
+- Any modification made through `.real()` affects the original complex tensor.
+- Applicable only to tensors with complex dtypes (`torch.complex64`, `torch.complex128`).
