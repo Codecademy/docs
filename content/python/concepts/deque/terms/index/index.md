@@ -11,7 +11,7 @@ Tags:
   - 'Deques'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'  
+  - 'paths/computer-science'
 ---
 
 The **`index()`** method in a Python [deque](https://www.codecademy.com/resources/docs/python/collections-module/deque) returns the position of the first occurrence of a specified element within the deque.
@@ -94,4 +94,3 @@ print("Next occurrence:", fruits.index("apple", first_occurrence_of_apple_index 
 # Find the index for "apple" between index=1 inclusive and index=4 exclusive
 print("Index for apple between (1) inclusive and (4) exclusive:", fruits.index("apple", 1, 4))
 ```
-
