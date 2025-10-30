@@ -67,7 +67,7 @@ int main() {
 }
 ```
 
-It generates the following output:
+The above code generates the following output:
 
 ```shell
 1, 2, 3
