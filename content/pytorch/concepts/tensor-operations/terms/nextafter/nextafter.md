@@ -39,5 +39,4 @@ print(f"Result Tensor:\n{result}")
 # 5.0 towards 1.0 -> slightly smaller
 # -10.0 towards -11.0 -> slightly smaller (more negative)
 # 8.0 towards 8.0 -> unchanged
----
 
