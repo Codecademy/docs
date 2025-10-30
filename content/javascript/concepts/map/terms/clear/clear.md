@@ -56,7 +56,7 @@ undefined
 
 ## Codebyte Example
 
-In this example, a fruit inventory map is initialized with values, then cleared to show the map becomes empty:
+In this example, a fruit inventory map is initialized with values, then cleared to show that the map becomes empty:
 
 ```codebyte/javascript
 const fruitInventory = new Map([
