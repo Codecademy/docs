@@ -24,11 +24,11 @@ map.clear()
 
 **Parameters:**
 
-It does not take any parameters.
+- It does not take any parameters.
 
 **Return value:**
 
-The method returns `undefined` after clearing the map.
+- The method returns `undefined` after clearing the map.
 
 ## Example
 
