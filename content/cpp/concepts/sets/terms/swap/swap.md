@@ -6,6 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Containers'
+  - 'Methods'
   - 'Sets'
 CatalogContent:
   - 'learn-c-plus-plus'
@@ -32,7 +33,7 @@ std::swap(set1, set2);
 
 **Return value:**
 
-- The function does not return anything. It simply swaps the contents.
+- The `swap()` method does not return anything. It simply swaps the contents.
 
 ## Example
 
