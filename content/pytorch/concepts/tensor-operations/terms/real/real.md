@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.real()`** in PyTorch returns a view of the real part of a complex tensor. It provides access to the real component of each element while sharing the same underlying memory as the original complex tensor. Any modification to this real view directly changes the original tensor’s data.
+The **`.real()`** method in PyTorch returns a view of the real part of a complex tensor. It provides access to the real component of each element while sharing the same underlying memory as the original complex tensor. Any modification to this real view directly changes the original tensor’s data.
 
 This method is available only for tensors with complex data types such as `torch.complex64` or `torch.complex128`.
 
