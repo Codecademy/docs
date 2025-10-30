@@ -95,10 +95,3 @@ print("Next occurrence:", fruits.index("apple", first_occurrence_of_apple_index 
 print("Index for apple between (1) inclusive and (4) exclusive:", fruits.index("apple", 1, 4))
 ```
 
-The output of this code is:
-
-```shell
-First found index for apple:  0
-Next occurrence:  2
-Index for apple, between (1) inclusive and (4) exclusive:  2
-```
