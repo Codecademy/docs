@@ -46,7 +46,7 @@ public class QueueSizeExample {
     queue.add("Banana");
     queue.add("Cherry");
 
-    System.out.println("Queue size: " + queue.size());  // Output: Queue size: 3
+    System.out.println("Queue size: " + queue.size());
   }
 }
 ```
