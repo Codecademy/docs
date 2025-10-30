@@ -76,7 +76,7 @@ tensor([[99.+2.j,  3.+4.j],
         [ 5.+6.j,  7.+8.j]])
 ```
 
-## Key Takeaways
+Here,
 
 - `.real()` returns a view, not a copy, of the real component of a complex tensor.
 - Any modification made through `.real()` affects the original complex tensor.
