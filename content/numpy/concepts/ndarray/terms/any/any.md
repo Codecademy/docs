@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`any()`** method of a NumPy ndarray returns `True` if any element in the array evaluates to `True`. It performs a logical OR operation across specified array elements. In a boolean context, all non-zero numbers evaluate to `True`, while zero evaluates to `False`.
+The **`any()`** method of a NumPy ndarray returns `True` if any element in the array evaluates to `True`. It performs a logical OR operation across specified array elements. In a Boolean context, all non-zero numbers evaluate to `True`, while zero evaluates to `False`.
 
 ## Syntax
 
@@ -22,9 +22,11 @@ The **`any()`** method of a NumPy ndarray returns `True` if any element in the a
 array.any(axis=None, out=None, keepdims=False, where=True)
 ```
 
+**Parameters**:
+
 - `axis`: Optional integer or tuple of integers specifying the axis or axes along which the logical OR operation is performed. The default `None` evaluates all elements in the array.
-- `out`: Optional output array in which to place the result. It must have the same shape as the expected output.
-- `keepdims`: Optional boolean that, when set to `True`, retains reduced axes as dimensions with size one in the result.
+- `out`: Optional output array to place the result. It must have the same shape as the expected output.
+- `keepdims`: Optional boolean that retains reduced axes as dimensions with size one in the result when set to' True'.
 - `where`: Optional array of booleans specifying which elements to include in the check.
 
 The method returns either a single boolean value or an ndarray of boolean values, depending on the `axis` parameter.
