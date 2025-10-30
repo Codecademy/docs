@@ -1,5 +1,5 @@
 ---
-Title: 'shape'
+Title: '.shape'
 Description: 'Returns a tuple representing the dimensions of an ndarray.'
 Subjects:
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`shape`** attribute of a NumPy `ndarray` returns a [tuple](https://www.codecademy.com/resources/docs/python/tuples) of integers indicating the size of the array in each dimension. It provides information about the structure and layout of the array.
+The **`.shape`** attribute of a NumPy `ndarray` returns a [tuple](https://www.codecademy.com/resources/docs/python/tuples) of integers specifying the size of the array in each dimension. It provides information about the structure and layout of the array.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ Returns a tuple of integers representing the size of the array along each dimens
 
 ## Example
 
-The following example demonstrates how to use the `shape` attribute to get the dimensions of different ndarrays:
+The following example demonstrates how to use the `.shape` attribute to get the dimensions of different ndarrays:
 
 ```py
 import numpy as np
@@ -64,7 +64,7 @@ The output for the above code will be:
 
 ## Codebyte Example
 
-The following codebyte example shows how to use the `shape` attribute and modify array dimensions:
+The following codebyte example shows how to use the `.shape` attribute and modify array dimensions:
 
 ```codebyte/python
 import numpy as np
