@@ -15,6 +15,8 @@ CatalogContent:
 
 **`.strptime()`** is a method from Python's [time](https://www.codecademy.com/resources/docs/python/time-module) module. It converts a date and/or time string into a corresponding `struct_time` object, based on the format directives provided.
 
+>> **Note**: `strptime()` with the 'p' for 'parse' is for reading a string, not writing one.
+
 ## Syntax
 
 ```pseudo
