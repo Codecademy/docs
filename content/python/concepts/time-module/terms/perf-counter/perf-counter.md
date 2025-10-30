@@ -120,7 +120,7 @@ def search_2(nums, target) -> bool:
     if nums[mid] < target:
       left = mid + 1
     else:
-      right = mid - 1;
+      right = mid - 1
 
   return False
 
