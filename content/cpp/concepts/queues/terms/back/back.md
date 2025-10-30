@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The C++ **`.back()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) is used to access the element at the back of the queue without removing it.
+The C++ **`.back()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) is used to access the element at the back of the [queue](https://www.codecademy.com/resources/docs/cpp/queues) without removing it.
 
 ## C++ `.back()` Syntax
 
