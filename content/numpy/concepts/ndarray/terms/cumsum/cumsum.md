@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - 'Arrays'
   - 'Methods'
-  - 'Numpy'
+  - 'NumPy'
   - 'Python'
 CatalogContent:
   - 'learn-python-3'
