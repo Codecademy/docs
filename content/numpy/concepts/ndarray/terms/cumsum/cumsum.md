@@ -103,7 +103,7 @@ Cumulative sum with float dtype:
 
 ## Codebyte Example
 
-In this codebyte example, the cumulative sum of a 2D array is computed along both axes using different data types for each:
+In this example, the cumulative sum of a 2D array is computed along both axes using different data types for each:
 
 ```codebyte/python
 import numpy as np
