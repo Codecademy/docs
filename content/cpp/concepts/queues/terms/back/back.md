@@ -61,7 +61,7 @@ Last element: 30
 
 ## Example 2: Using C++ `.back()` with `.push()`
 
-This example uses C++ `.back()` to return the last element of the queue after we used `.push()`:
+This example uses C++ `.back()` to return the last element of the queue after we used [`.push()`](https://www.codecademy.com/resources/docs/cpp/queues/push):
 
 ```cpp
 #include <iostream>
