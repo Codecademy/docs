@@ -1,75 +1,97 @@
-<h1>🔁 <code>.reciprocal()</code></h1>
+---
+Title: '..reciprocal()'
+Description: 'Computes the element-wise reciprocal of each element in the input tensor.'
+Subjects:
+  - 'AI'
+  - 'Computer Science'
+  - 'Data Science'
+Tags: 
+  - 'AI'
+  - 'Functions'
+  - 'Pytorch'
+  - 'Trigonometry'
+CatalogContent: 
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/data-science'
+---
 
-<p>
-The <code>.reciprocal()</code> method computes the reciprocal of every element in the input tensor, represented mathematically as 
-<span style="font-family: monospace;">1/x</span>.
-</p>
+The **`.reciprocal()`** method performs an element-wise operation that returns the multiplicative inverse of every element in the tensor. For any element `x`, the result is `1/x`. This method works with tensors that have floating-point or complex data types (such as `torch.float32`, `torch.float64`, or `torch.complex64`). If an element equals zero, the reciprocal for that position becomes infinity (`inf`).
 
-<hr />
+## Syntax
 
-<h2>📘 Introduction</h2>
+```pseudo
+torch.reciprocal(input, *, out=None)
+```
 
-<p>
-The <code>.reciprocal()</code> method is an element-wise operation that calculates the reciprocal for each element in the tensor. 
-Mathematically, for any value <em>x</em> in the tensor, the method returns <span style="font-family: monospace;">1/x</span>.
-</p>
+**Parameters:**
 
-<p>
-The method requires the tensor's data type to be a <strong>floating-point type</strong> (e.g., 
-<code>torch.float32</code>, <code>torch.float64</code>).
-If the tensor contains an element equal to zero, the reciprocal of that element will result in infinity (<code>inf</code>).
-</p>
+- `input` (Tensor): The input tensor whose elements will be inverted.
+- `out` (Tensor, optional): The output tensor to store the result. Must have the same shape as `input`.
 
-<p>
-By default, <code>.reciprocal()</code> returns a new tensor. 
-If you want to perform the operation <strong>in-place</strong> (modifying the original tensor), 
-you should use the underscore version: <code>tensor_name.reciprocal_()</code>.
-</p>
+**Return value:**
 
-<hr />
+Returns a tensor containing the element-wise reciprocals of `input`.
 
-<h2>⚙️ Syntax</h2>
+## Example 1: Compute element-wise reciprocals
 
-<pre>
-<code>tensor_name.reciprocal()</code>
-</pre>
+In this example, we create a tensor of floating-point numbers and calculate their reciprocals using `torch.reciprocal()`:
 
-<p>
-The method does not accept any arguments.
-</p>
-
-<hr />
-
-<h2>💡 Example</h2>
-
-<pre>
-<code class="language-python">
+```py
 import torch
 
-# 1. Create a tensor of floating-point numbers
-data_tensor = torch.tensor([2.0, 4.0, 0.5, 0.0])
+# Create a tensor of floating-point values
+x = torch.tensor([2.0, 4.0, 0.5, 0.0])
 
 print("Original Tensor:")
-print(data_tensor)
-# Output: tensor([2., 4., 0.5, 0.])
+print(x)
 
-# 2. Compute the reciprocal
-reciprocal_tensor = data_tensor.reciprocal()
+# Compute the reciprocal
+result = torch.reciprocal(x)
 
 print("\nReciprocal Tensor:")
-print(reciprocal_tensor)
-# Output: tensor([0.5000, 0.2500, 2.0000,    inf])
-# Note: 1/0.0 results in 'inf' (infinity)
-</code>
-</pre>
+print(result)
+# Note: Division by zero results in 'inf'
+```
 
-<hr />
+The output of this code is:
 
-<h2>📎 Key Takeaways</h2>
+```shell
+Original Tensor:
+tensor([2.0000, 4.0000, 0.5000, 0.0000])
 
-<ul>
-  <li>✅ The operation is performed <strong>element-wise</strong>.</li>
-  <li>📦 The function returns a <strong>new tensor</strong> by default.</li>
-  <li>⚙️ The input tensor must be of a <strong>floating-point data type</strong>.</li>
-  <li>⚠️ The reciprocal of <code>0</code> is represented as <strong>positive infinity (inf)</strong>.</li>
-</ul>
+Reciprocal Tensor:
+tensor([0.5000, 0.2500, 2.0000,    inf])
+```
+
+## Example 2: Using the `out` parameter
+
+In this example, the result is stored in a pre-allocated output tensor using the `out` parameter:
+
+```py
+import torch
+
+# Input tensor
+x = torch.tensor([1.0, 2.0, 0.25])
+
+# Create an empty tensor with the same shape
+out_tensor = torch.empty_like(x)
+
+# Store the result in 'out_tensor'
+torch.reciprocal(x, out=out_tensor)
+
+print("Input Tensor:")
+print(x)
+
+print("\nReciprocal stored in 'out' tensor:")
+print(out_tensor)
+```
+
+The output of this code:
+
+```shell
+Input Tensor:
+tensor([1.0000, 2.0000, 0.2500])
+
+Reciprocal stored in 'out' tensor:
+tensor([1.0000, 0.5000, 4.0000])
+```
