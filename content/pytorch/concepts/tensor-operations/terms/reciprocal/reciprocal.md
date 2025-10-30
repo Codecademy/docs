@@ -4,11 +4,11 @@ Description: 'Computes the element-wise reciprocal of each element in the input 
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Functions'
   - 'PyTorch'
   - 'Tensor'
-CatalogContent: 
+CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/data-science'
 ---
