@@ -6,9 +6,8 @@ Subjects:
   - 'Machine Learning'
 Tags:
   - 'Functions'
-  - 'Machine Learning'
   - 'Python'
-  - 'Tensor'
+  - 'PyTorch'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/computer-science'
