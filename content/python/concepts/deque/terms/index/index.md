@@ -25,12 +25,12 @@ deque.index(element, start=0, stop=len(deque))
 **Parameters:**
 
 - `element`: The element to be found within the deque.
-- `start` (Optional): The zero based inclusive index to specify the start position of the search.
+- `start` (Optional): The zero-based inclusive index to specify the start position of the search.
 - `stop` (Optional): The index to end the search (default is the length of the deque).
 
 **Return value:**
 
-Returns the index (int) of the first matching element; raises a `ValueError` if the element is not found.
+Returns the index (`int`) of the first matching element; raises a `ValueError` if the element is not found.
 
 > **Note:** This method raises a `ValueError` if the element is not in the deque, which can stop the code if not handled inside a [try and except](https://www.codecademy.com/resources/docs/python/keywords/try) block.
 
