@@ -2,7 +2,6 @@
 Title: '.real()'
 Description: 'Returns the real part of each element in a complex tensor in PyTorch.'
 Subjects:
-  - 'AI'
   - 'Computer Science'
   - 'Data Science'
 Tags: 
