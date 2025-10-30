@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`randint()`** is a function from NumPy's `random` module that generates random integers. It can generate a single integer or an array of integers within a specified range, making it useful for simulations, testing, and randomized operations.
+**`randint()`** is a function from NumPy's [`random`](https://www.codecademy.com/resources/docs/numpy/random-module) module that generates random integers. It can generate a single integer or an array of integers within a specified range, making it useful for simulations, testing, and randomized operations.
 
 ## Syntax
 
