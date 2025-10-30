@@ -5,10 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags: 
-  - 'AI'
   - 'Functions'
-  - 'Pytorch'
-  - 'Trigonometry'
+  - 'PyTorch'
+  - 'Tensor'
 CatalogContent: 
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/data-science'
