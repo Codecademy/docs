@@ -84,7 +84,7 @@ print("\nReciprocal stored in 'out' tensor:")
 print(out_tensor)
 ```
 
-The output of this code:
+The output of this code is:
 
 ```shell
 Input Tensor:
