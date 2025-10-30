@@ -4,11 +4,11 @@ Description: 'Returns the real part of each element in a complex tensor in PyTor
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Functions'
   - 'PyTorch'
   - 'Tensor'
-CatalogContent: 
+CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/data-science'
 ---
