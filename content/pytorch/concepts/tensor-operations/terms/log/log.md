@@ -1,0 +1,54 @@
+---
+Title: '.log()'
+Description: 'Returns a new tensor with the natural logarithm of each element in the input tensor.'
+Subjects:
+  - 'Computer Science'
+  - 'Machine Learning'
+Tags:
+  - 'Functions'
+  - 'Python'
+  - 'PyTorch'
+CatalogContent:
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/computer-science'
+---
+
+In PyTorch, the **`.log()`** function computes the natural logarithm of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). This is mathematically equivalent to applying the function $y_i = log_{e}(x_i)$ element-wise, where $log_{e}$ is the natural logarithm.
+
+## Syntax
+
+```pseudo
+torch.log(input, *, out=None) → Tensor
+```
+
+**Parameters:**
+
+- `input`: The input tensor containing elements for which the logarithm will be computed.
+- `out` (optional): Output tensor to store the result. Must have the same shape as `input`.
+
+**Return value:**
+
+Returns a new tensor where each element is the natural logarithm of the corresponding element within the input tensor.
+
+## Example
+
+The following example shows how to compute the element-wise natural logarithm of a tensor using `torch.log()`:
+
+```py
+import torch
+import math
+
+# Define a tensor
+x = torch.tensor([7.0 , 8.0 , 9.0 , math.log(3.)])
+
+# Compute the natural logarithm
+result = torch.log(x)
+
+print(result)
+```
+
+Here is the output:
+
+```shell
+tensor([1.9459, 2.0794, 2.1972, 0.0940])
+```
