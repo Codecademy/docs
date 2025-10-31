@@ -116,6 +116,6 @@ The `.front()` method is a member function of the `std::string` class that retur
 
 The `.front()` method returns a reference to the first character of the string. This reference can be used to both access and modify the character.
 
-### How to add characters in front of string in C++?
+### 3. How to add characters in front of a string in C++?
 
 To add characters at the beginning of a string in C++, use the `.insert()` method with position 0, or use the `+` operator to concatenate a character or string before the original string. The `.front()` method only provides access to modify the existing first character, not to insert new ones.
