@@ -9,9 +9,6 @@ Tags:
   - 'Modules'
   - 'Python'
 CatalogContent:
-  - 'learn-example-course'
-  - 'paths/example-path'
-CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
