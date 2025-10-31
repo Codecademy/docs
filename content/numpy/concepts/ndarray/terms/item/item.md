@@ -7,8 +7,7 @@ Subjects:
 Tags:
   - 'Arrays'
   - 'Methods'
-  - 'Indexing'
-  - 'Scalars'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
