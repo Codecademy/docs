@@ -2,13 +2,11 @@
 Title: '.last()'
 Description: 'Returns the last value in each group of a Pandas Series or DataFrame.'
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - 'Pandas'
   - 'DataFrame'
-  - 'GroupBy'
-  - 'Aggregation'
+  - 'Pandas'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
@@ -27,24 +25,24 @@ grouped_data.last(numeric_only=False, min_count=-1)
 **Parameters:**
 
 - `numeric_only` (bool): If `True`, only attempts to aggregate numeric columns.
-- `min_count` (int): The number of non-`NaN` values required to consider the calculation valid.
+- `min_count` (int): The required number of valid (non-NA) values to include the result. If fewer than `min_count` non-NA values are present, the result will be `NaN`.
 
-**Return Value:**
+**Return value:**
 
 Returns a Series or DataFrame containing the last non-null value for each group.
 
 ## Example
 
-The following example demonstrates how to use `.last()` to find the final status of a task for each unique project ID:
+The following example demonstrates how to use `.last()` to find the final status of a task for each project:
 
-```python
+```py
 import pandas as pd
 
 # Create a DataFrame representing chronological task status updates
 data = {
-    'project_id': ['A', 'B', 'A', 'C', 'B', 'C', 'A'],
-    'status_date': pd.to_datetime(['2025-01-01', '2025-01-05', '2025-01-10', '2025-01-15', '2025-01-20', '2025-01-25', '2025-01-30']),
-    'task_status': ['Start', 'Pending', 'In Progress', 'Start', 'Completed', 'In Progress', 'Completed']
+  'project_id': ['A', 'B', 'A', 'C', 'B', 'C', 'A'],
+  'status_date': pd.to_datetime(['2025-01-01', '2025-01-05', '2025-01-10', '2025-01-15', '2025-01-20', '2025-01-25', '2025-01-30']),
+  'task_status': ['Start', 'Pending', 'In Progress', 'Start', 'Completed', 'In Progress', 'Completed']
 }
 df = pd.DataFrame(data).set_index('status_date').sort_index()
 
@@ -56,7 +54,7 @@ last_status = df.groupby('project_id').last()
 print("\nLast Status by Project:\n", last_status)
 ```
 
-The above returns the following output:
+The above code returns the following output:
 
 ```shell
 Original Data:
@@ -78,17 +76,17 @@ B              Completed
 C          In Progress
 ```
 
-## Codebyte
+## Codebyte Example
 
-Use the Codebyte below to experiment with the `last()` method.
+This codebyte example groups data by category and returns the last recorded value from each group:
 
-```python
+```codebyte/python
 import pandas as pd
 
 # Data from a tracking system
 data = {
-    'category': ['Alpha', 'Beta', 'Alpha', 'Beta', 'Alpha'],
-    'score': [10, 5, 12, 8, 15]
+  'category': ['Alpha', 'Beta', 'Alpha', 'Beta', 'Alpha'],
+  'score': [10, 5, 12, 8, 15]
 }
 df = pd.DataFrame(data)
 
