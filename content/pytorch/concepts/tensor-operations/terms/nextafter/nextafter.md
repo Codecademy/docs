@@ -6,7 +6,7 @@ Subjects:
   - 'Machine Learning'
 Tags:
   - 'Functions'
-  - 'Operations
+  - 'Operations'
   - 'PyTorch'
   - 'Tensor'
 CatalogContent:
