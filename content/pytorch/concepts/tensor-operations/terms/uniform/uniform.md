@@ -1,15 +1,15 @@
 ---
-Title: 'numpy.random.uniform()'
-Description: 'Generates random floating-point numbers from a uniform distribution over a specified interval.'
-Subjects:
+title: 'numpy.random.uniform()'
+description: 'Generates random floating-point numbers from a uniform distribution over a specified interval.'
+subjects:
   - Data Science
   - Computer Science
-Tags:
+tags:
   - NumPy
   - Random
   - Python
   - Probability
-CatalogContent:
+catalog_content:
   - learn-python-3
   - numpy
 ---
@@ -17,68 +17,70 @@ CatalogContent:
 <h2>Definition</h2>
 
 <p>
-The <code>numpy.random.uniform()</code> function generates random floating-point numbers from a uniform distribution over a specified interval <code>[low, high)</code>. Every number within the range has an equal probability of being drawn.
+The <code>numpy.random.uniform()</code> function generates random floating-point numbers drawn from a continuous uniform distribution over the half-open interval <code>[low, high)</code>. Every number within the range has an equal probability of being drawn.
 </p>
 
-<hr />
+---
 
 <h2>Syntax</h2>
 
-<pre><code class="language-python">numpy.random.uniform(low=0.0, high=1.0, size=None)</code></pre>
+<pre><code class="language-python">
+numpy.random.uniform(low=0.0, high=1.0, size=None)
+</code></pre>
 
-<p><strong>Parameters:</strong></p>
-
-<ul>
-  <li><strong>low</strong> (<em>float</em>, optional): Lower boundary of the output interval (default is <code>0.0</code>).</li>
-  <li><strong>high</strong> (<em>float</em>, optional): Upper boundary of the output interval (default is <code>1.0</code>).</li>
-  <li><strong>size</strong> (<em>int</em> or <em>tuple of ints</em>, optional): Shape of the output array. If <code>None</code>, a single value is returned.</li>
-</ul>
-
-<p><strong>Returns:</strong></p>
+<h3>Parameters</h3>
 
 <ul>
-  <li><strong>ndarray</strong> or <strong>float</strong> — Random samples drawn from the uniform distribution.</li>
+<li><b>low</b> (<i>float</i>, optional): Lower boundary of the output interval. Default is <code>0.0</code>.</li>
+<li><b>high</b> (<i>float</i>, optional): Upper boundary of the output interval. Samples are drawn from <code>[low, high)</code>. Default is <code>1.0</code>.</li>
+<li><b>size</b> (<i>int</i> or <i>tuple of ints</i>, optional): Output shape. If <code>None</code>, a single float is returned. If an integer, returns a 1-D array; if a tuple, returns an array with that shape.</li>
 </ul>
 
-<hr />
+<h3>Returns</h3>
 
-<h2>Example 1</h2>
+<ul>
+<li><b>float</b> or <b>ndarray</b> — A single float if <code>size=None</code>, otherwise an array of floats sampled from the uniform distribution.</li>
+</ul>
 
-<pre><code class="language-python">import numpy as np
+---
+
+<h2>Example 1 — Single sample</h2>
+
+````python
+import numpy as np
 
 # Generate a single random number between 0 and 1
 random_num = np.random.uniform()
 print(random_num)
-</code></pre>
+Output (example):
 
-<p><strong>Output (example):</strong></p>
-
-<pre><code>0.72648159</code></pre>
-
-<hr />
-
-<h2>Example 2</h2>
-
-<pre><code class="language-python">import numpy as np
+Copy code
+0.72648159
+<h2>Example 2 — 1D array</h2>
+python
+Copy code
+import numpy as np
 
 # Generate a 1D array of 5 random numbers between 2 and 10
 arr = np.random.uniform(low=2, high=10, size=5)
 print(arr)
-</code></pre>
+Output (example):
 
-<p><strong>Output (example):</strong></p>
-
-<pre><code>[7.21698472 2.57190338 4.92433507 9.51208769 6.30384217]</code></pre>
-
-<hr />
-
+csharp
+Copy code
+[7.21698472 2.57190338 4.92433507 9.51208769 6.30384217]
 <h2>Codebyte Example</h2>
-
-````codebyte/python
+codebyte/python
+Copy code
 import numpy as np
 
-# Generate a 2x3 array of random floats between 2 and 5
-arr = np.random.uniform(low=2, high=5, size=(2, 3))
+# Create a reproducible Generator
+rng = np.random.default_rng(seed=0)
+
+# Generate a 2x3 array of uniform random floats in the range [2, 5)
+arr = rng.uniform(low=2, high=5, size=(2, 3))
+print("2x3 uniform random array:")
 print(arr)
-<hr /> <h2>Notes</h2> <ul> <li>The <code>uniform()</code> function draws samples from a continuous uniform distribution.</li> <li>Use <code>numpy.random.seed()</code> (legacy) or <code>np.random.default_rng(seed)</code> for reproducibility.</li> <li>If <code>size=None</code>, a single float is returned instead of an array.</li> </ul> <hr /> <h2>Related Functions</h2> <ul> <li><code>numpy.random.randint()</code> — Generates random integers from a given range.</li> <li><code>numpy.random.rand()</code> — Returns random values in a given shape.</li> <li><code>numpy.random.normal()</code> — Draws random samples from a normal (Gaussian) distribution.</li> </ul> ```
+<h2>Notes</h2> <ul> <li>For reproducible results, prefer the <code>Generator</code> API (<code>np.random.default_rng(seed)</code>) over the legacy global RNG.</li> <li>If <code>size=None</code> (default), <code>uniform()</code> returns a scalar float; otherwise it returns an array.</li> <li>The distribution is continuous; any value in <code>[low, high)</code> is possible (with equal likelihood).</li> </ul>
+<h2>Related Functions</h2> <ul> <li><code>numpy.random.randint()</code> — Generate random integers from a given range.</li> <li><code>numpy.random.rand()</code> — Generate random floats in <code>[0, 1)</code> with a given shape.</li> <li><code>numpy.random.normal()</code> — Draw samples from a normal (Gaussian) distribution.</li> </ul> ```
 ````
