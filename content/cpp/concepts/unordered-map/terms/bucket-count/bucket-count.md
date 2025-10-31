@@ -107,7 +107,7 @@ int main() {
 This example results in the following output:
 
 ```shell
-nitial bucket count: 1
+Initial bucket count: 1
 After 1 element: 13 buckets
 After 4 elements: 13 buckets
 After 9 elements: 13 buckets
