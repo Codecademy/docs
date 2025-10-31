@@ -48,7 +48,7 @@ Similar to [high-fidelity](https://www.codecademy.com/resources/docs/uiux/high-f
 
 ## Example
 
-![Image showing two UK phone number input fields side by side: one shows a continuous number (07987654321), the other uses spaced formatting (07987 654 321) for better readability.](https://raw.githubusercontent.com/Codecademy/docs/main/media/user-persona-img.png)
+![Two user personas for a tea app showing profiles, pain points, and traits.](https://raw.githubusercontent.com/Codecademy/docs/main/media/user-persona-img.png)
 
 ## Resources
 
