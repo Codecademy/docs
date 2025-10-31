@@ -29,12 +29,13 @@ scalar_value = array.item()
 ```
 
 **Parameters:**
-- `*args` : `int`, optional
 
+- `*args` : `int`, optional
     - If provided, these arguments specify the element's index to retrieve. The number of arguments must match the number of dimensions of the array. For example, `arr.item(2)` for a 1D array, `arr.item(0, 1)` for a 2D array.
     - If no arguments are provided, the array must be 0-dimensional (contain only a single scalar value), and that single value will be returned.
 
 **Return Value:**
+
 Returns a standard Python scalar (e.g., `int`, `float`, `bool`) corresponding to the selected element.
 
 ## Example: Retrieving elements using `item()`
