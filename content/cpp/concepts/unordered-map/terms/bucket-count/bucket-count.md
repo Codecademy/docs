@@ -167,7 +167,7 @@ This analysis helps understand how the hash function distributes elements across
 
 ### 1. What is the purpose of `unordered_map` in C++?
 
-An `unordered_map` is an associative container that stores key-value pairs with unique keys. It provides fast average-case O(1) operations for access, insertion, and deletion using hash tables.
+An `unordered_map` is an associative container that stores key-value pairs with unique keys. It provides fast average-case `O(1)` operations for access, insertion, and deletion using hash tables.
 
 ### 2. What is `bucket_count`?
 
@@ -175,4 +175,4 @@ The `bucket_count()` method returns the total number of buckets allocated in the
 
 ### 3. Is `unordered_map` better than map?
 
-Use `unordered_map` when fast access is the priority and ordering is not needed, as it provides O(1) average operations. Use `map` when sorted order is required or O(log n) worst-case guarantees are needed.
+Use `unordered_map` when fast access is the priority and ordering is not needed, as it provides `O(1)` average operations. Use `map` when sorted order is required or `O(log n)` worst-case guarantees are needed.
