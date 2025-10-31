@@ -18,7 +18,7 @@ The **`torch.nextafter()`** function returns the next representable floating-poi
 
 It’s useful for precise floating-point control, such as numerical stability adjustments or boundary value analysis.
 
-> **Note:** If an element in `input` is equal to the corresponding element in `other`, that element is returned unchanged in the output tensor.
+> **Note:** If an element in `input` equals the corresponding element in `other`, that element is returned unchanged in the output tensor.
 
 ## Syntax
 
@@ -29,7 +29,7 @@ torch.nextafter(input, other, out=None)
 **Parameters:**
 
 - `input` (Tensor): The input tensor containing starting floating-point values.
-- `other` (Tensor): The tensor indicating the direction for each element in `input`.
+- `other` (Tensor): The tensor indicates each element's direction in `input`.
 - `out` (Tensor, optional): The output tensor to store results. If not provided, a new tensor is returned.
 
 **Return value:**
@@ -75,7 +75,7 @@ tensor([  1.0000,   5.0000, -10.0000,   8.0000])
 
 In this:
 
-- 1.0 becomes slightly larger since it moves toward 2.0.
-- 5.0 becomes slightly smaller since it moves toward 1.0.
-- -10.0 becomes slightly more negative since it moves toward -11.0.
-- 8.0 remains unchanged since it is already equal to the corresponding value.
+- `1.0` becomes slightly larger since it moves toward `2.0`.
+- `5.0` becomes slightly smaller since it moves toward `1.0`.
+- `-10.0` becomes slightly more negative since it moves toward `-11.0`.
+- `8.0` remains unchanged since it already equals the corresponding value.
