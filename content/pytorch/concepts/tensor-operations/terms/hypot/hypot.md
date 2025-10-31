@@ -35,7 +35,7 @@ torch.hypot(input, other, *, out=None)
 - `other`: The second input tensor. This must be broadcastable with `input`.
 - `out` (Optional): The output tensor to store the result.
 
-**Return value**
+**Return value:**
 
 Returns a tensor containing the element-wise Euclidean norm: $\sqrt{(\text{input}_i)^2 + (\text{other}_i)^2}$.
 
