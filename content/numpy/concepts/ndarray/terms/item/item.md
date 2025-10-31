@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Copies an element of a NumPy array (`ndarray`) to a standard Python scalar (like `int`, `float`, `bool`) and returns it. The **`item()`** method is particularly useful for extracting a single value from an array, especially a 0-dimensional (scalar) array, into a native Python type.
+Copies an element of a NumPy array ([`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray)) to a standard Python scalar (like `int`, `float`, `bool`) and returns it. The **`item()`** method is handy for extracting a single value from an array, especially a 0-dimensional (scalar) array, into a native Python type.
 
 ## Syntax
 
@@ -29,19 +29,18 @@ element = array.item(index1, index2, ...)
 scalar_value = array.item()
 ```
 
-**Parameters**
+**Parameters:**
 - `*args` : `int`, optional
 
-    - If provided, these arguments specify the index of
-    the element to retrieve. The number of arguments must match the number of dimensions of the array. For example, `arr.item(2)` for a 1D array, `arr.item(0, 1)` for a 2D array.
-
+    - If provided, these arguments specify the element's index to retrieve. The number of arguments must match the number of dimensions of the array. For example, `arr.item(2)` for a 1D array, `arr.item(0, 1)` for a 2D array.
     - If no arguments are provided, the array must be 0-dimensional (contain only a single scalar value), and that single value will be returned.
 
-**Return Value**
+**Return Value:**
 Returns a standard Python scalar (e.g., `int`, `float`, `bool`) corresponding to the selected element.
 
-## Example
-The following example shows how to extract elements using item().
+## Example: Retrieving elements using `item()`
+
+The following example shows how to extract elements using `item()`:
 
 ```py
 
@@ -70,11 +69,11 @@ Element from 2D array: 2, Type: <class 'int'>
 Value from 0D array: 99, Type: <class 'int'>
 ```
 
-## Codebyte Example: Retrieving elements using `item()`
-This example demonstrates working of `item()`. It retrives elements from different shaped arrays using item().
+## Codebyte Example
+
+This example demonstrates the working of `item()`. It retrieves elements from different-shaped arrays using `item()`:
 
 ```codebyte/python
-
 import numpy as np
 
 # Create a 2D array
@@ -95,6 +94,4 @@ print(f"Original 0D array: {scalar_array}")
 bool_val = scalar_array.item()
 print(f"Value from 0D array: {bool_val}")
 print(f"Type of returned value: {type(bool_val)}")
-# Python Boolean datatype
-
 ```
