@@ -61,7 +61,7 @@ The above returns the following output:
 ```shell
 Original Data:
                    project_id  task_status
-status_date                              
+status_date
 2025-01-01                   A        Start
 2025-01-05                   B      Pending
 2025-01-10                   A  In Progress
@@ -72,7 +72,7 @@ status_date
 
 Last Status by Project:
               task_status
-project_id               
+project_id
 A              Completed
 B              Completed
 C          In Progress
