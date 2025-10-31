@@ -26,7 +26,6 @@ torch.positive(input)
 
 - `input` (Tensor): The input tensor.
 
-
 **Return value:**
 
 The `.positive()` method returns a new tensor with the same values and data type as the input tensor.
