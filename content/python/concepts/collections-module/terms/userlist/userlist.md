@@ -107,28 +107,3 @@ currency.append('AB')  # Output: RuntimeError: 3 string characters required
 currency.append('GBP')
 print(currency)  # Output: ['JPY', 'CHF', 'EUR', 'GBP']
 ```
-
-## Codebyte Example
-
-In this example, a class `NoRemovedItem` is defined, inheriting from `UserList`. It initializes with an iterable and stores its items via the parent class constructor. It also overrides `remove` and `pop` methods to raise a `RuntimeError` with the message "Deletion not allowed", which effectively prevents item removal.
-
-```codebyte/py
-from collections import UserList
-
-class NoRemovedItemList(UserList):
- def __init__(self, iterable):
-  # The constructor takes an iterable of items
-  super().__init__(item for item in iterable)
-
- def remove(self, other):
-  raise RuntimeError("Deletion not allowed")
-
- def pop(self, idx=None):
-  raise RuntimeError("Deletion not allowed")
-
-
-# Instantiate a NoRemovedItemList item and test its properties
-ids = NoRemovedItemList([1233, 4566, 7899, 0000])
-ids.remove(0000)  # Output: RuntimeError: Deletion not allowed
-ids.pop(0000)  # Output: RuntimeError: Deletion not allowed
-```
