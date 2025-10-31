@@ -72,9 +72,9 @@ import torch
 
 # For the following array:
 points = torch.tensor([
-    [3.0], [4.0],
-    [5.0], [12.0],
-    [8.0], [15.0],
+    [3.0, 4.0],
+    [5.0, 12.0],
+    [8.0, 15.0],
 ])
 
 # Split into x and y columns:
