@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.polygamma()`** function in PyTorch computes the polygamma function of input tensors element-wise. The polygamma function is the n-th derivative of the digamma function, where `n` is a non-negative integer
+The **`.polygamma()`** function in PyTorch computes the polygamma function of input tensors element-wise. The polygamma function is the n-th derivative of the [digamma function](https://www.codecademy.com/resources/docs/pytorch/tensor-operations/digamma), where `n` is a non-negative integer.
 
 ## Syntax
 
