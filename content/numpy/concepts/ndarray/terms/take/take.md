@@ -28,15 +28,15 @@ ndarray.take(indices, axis=None, out=None, mode='raise')
 - `axis` (Optional): Specifies the axis to take the elements. If not specified, the operation is done over a flattened array
 - `out` (Optional): An optional output array to store the selected elements. The shape and buffer length must match the expected output, but the type will be cast if necessary.
 - `mode` (Optional): Specifies how out-of-bounds indices are handled
-    - `raise`: raises an error (default)
-    - `wrap`: wraps around
-    - `clip`: clips to the valid range
+  - `raise`: raises an error (default)
+  - `wrap`: wraps around
+  - `clip`: clips to the valid range
 
 **Return value:**
 
 Returns an array containing the selected elements, or a reference to `out` if specified.
 
-## Example 
+## Example
 
 This example demonstrates the use of `ndarray.take()`:
 
@@ -53,7 +53,8 @@ The output of this code is:
 ```shell
 [10 40 50]
 ```
->> **Note:** The `take()` method can only extract elements along a single axis, it cannot directly select combinations of indices across multiple dimensions. For example:
+
+> > **Note:** The `take()` method can only extract elements along a single axis, it cannot directly select combinations of indices across multiple dimensions. For example:
 
 ```py
 import numpy as np
