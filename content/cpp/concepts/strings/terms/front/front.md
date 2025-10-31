@@ -112,7 +112,7 @@ int main() {
 
 The `.front()` method is a member function of the `std::string` class that returns a reference to the first character in the string, allowing both read and write access.
 
-### What does `front()` return?
+### 2. What does `front()` return?
 
 The `.front()` method returns a reference to the first character of the string. This reference can be used to both access and modify the character.
 
