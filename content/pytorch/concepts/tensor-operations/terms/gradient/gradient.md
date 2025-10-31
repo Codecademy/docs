@@ -89,7 +89,7 @@ print(grad[0])  # Approximates derivative dy/dx ≈ 2x
 This example results in the following output:
 
 ```shell
-tensor([0.5, 1.0, 2.0, 3.0])
+tensor([0.5000, 1.0000, 2.0000, 2.5000])
 ```
 
 ## Example 3: Multi-Dimensional Gradient
