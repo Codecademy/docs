@@ -113,7 +113,7 @@ After 4 elements: 13 buckets
 After 9 elements: 13 buckets
 ```
 
-As elements are added, the `unordered_map` automatically increases the number of buckets to maintain efficient performance and keep the load factor below a certain threshold.
+When the first element is added, the `unordered_map` automatically increases the number of buckets from 1 to 13. The bucket count then remained at 13 as more elements were added, maintaining an efficient load factor.
 
 ## Codebyte Example: Analyzing Hash Distribution
 
