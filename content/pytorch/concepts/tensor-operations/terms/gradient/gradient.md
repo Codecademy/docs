@@ -110,14 +110,6 @@ print("Gradient along dim 1:\n", gradients[1])
 print("Gradient along dim 2:\n", gradients[2])
 ```
 
-This example results in the following output:
-
-```shell
-Buckets with collisions (multiple elements):
-Bucket 3 has 2 elements (collision detected)
-  Sessions in this bucket: session_c3d4 session_g7h8
-```
-
 The output of this code is:
 
 ```shell
