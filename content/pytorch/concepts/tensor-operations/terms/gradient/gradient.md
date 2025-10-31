@@ -72,7 +72,7 @@ tensor([[1., 1., 1.],
 
 ## Example 2: Using Spacing
 
-This example shows how to specify custom spacing when computing gradients:
+The following code example shows how to specify custom spacing when computing gradients:
 
 ```py
 import torch
