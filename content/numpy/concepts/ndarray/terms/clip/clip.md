@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Numpy's **`.clip()`** is used to limit the values in an array to a specified range by replacing values outside the range with the minimum or maximum specified values.
+Numpy's **`.clip()`** is used to limit the values in an [array](https://www.codecademy.com/resources/docs/numpy/ndarray) to a specified range by replacing values outside the range with the minimum or maximum specified values.
 
 ## Syntax
 
