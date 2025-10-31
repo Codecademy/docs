@@ -1,6 +1,6 @@
 ---
 Title: 'bucket_count()'
-Description: 'Returns the total number of buckets in an unordered_map container.'
+Description: 'Returns the total number of buckets in an unordered map container.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
