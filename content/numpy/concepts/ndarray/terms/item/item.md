@@ -2,8 +2,7 @@
 Title: '.item()'
 Description: 'Copies an element of a NumPy ndarray to a standard Python scalar and returns it.'
 Subjects: 
-  - 'NumPy'
-  - 'Python'
+  - 'Computer Science'
   - 'Data Science'
 Tags: 
   - 'Arrays'
