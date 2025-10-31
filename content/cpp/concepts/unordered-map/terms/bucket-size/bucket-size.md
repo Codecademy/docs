@@ -75,6 +75,8 @@ Bucket 4 has 0 elements
 
 The output shows how elements are distributed across the buckets. Some buckets may be empty while others contain one or more elements depending on the hash function's distribution.
 
+> **Note:** Output values are implementation-dependent and may vary across different compilers and systems.
+
 ## Example 2: Analyzing Load Distribution
 
 This example shows how to use `.bucket_size()` to analyze the load distribution in an `unordered_map` storing product inventory data, which helps identify potential performance issues:
