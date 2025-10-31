@@ -10,7 +10,7 @@ Tags:
   - 'Indexing'
   - 'Scalars'
 CatalogContent:
-  - 'learn-numpy'
+  - "learn-python-3"
   - 'paths/data-science'
 ---
 
