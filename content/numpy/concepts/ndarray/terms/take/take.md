@@ -1,6 +1,6 @@
 ---
 Title: '.take()'
-Description: 'Computes the cumulative sum of array elements along a specified axis.'
+Description: 'Returns elements from an array at specific indices.'
 Subjects:
   - 'Code Foundations'
   - 'Data Science'
@@ -26,9 +26,9 @@ ndarray.take(indices, axis=None, out=None, mode='raise')
 **Parameters:**
 
 - `indices`: The 0-based indices of elements to extract
-- `axis` (Optional): Specifies the axis along which the cumulative sum is computed. If the axis is not specified, the cumsum is computed over the flattened array.
-- `out` (Optional): An optional output array in which to store the resulting cumulative sum. The shape and buffer length must match that of the expected output but the type will be cast if necessary.
-- `mode` (Optional): Specifies how out-of-boinds indices are handled
+- `axis` (Optional): Specifies the axis along which to take the specified changes. If not specified the operation is done over a flattened array
+- `out` (Optional): An optional output array in which to store the selected elements. The shape and buffer length must match that of the expected output but the type will be cast if necessary.
+- `mode` (Optional): Specifies how out-of-bounds indices are handled
     - `'raise'` - raises an error (default)
     - `'wrap'` - wraps around
     - `'clip'` - clips to the valid range
@@ -37,10 +37,9 @@ ndarray.take(indices, axis=None, out=None, mode='raise')
 
 Returns an array containing the selected elements, or a reference to `out` if specified.
 
-
 ## Example 1
 
-This example demostrates the use of ndarray.take():
+This example demonstrates the use of ndarray.take():
 
 ```py
 import numpy as np
@@ -56,9 +55,9 @@ The output of this code is:
 [10 40 50]
 ```
 
-## Note: Selecting arbitary elements
+## Note: Selecting arbitrary elements
 
-The `take()` method can only extract elments along a single axis, it cannot directly select combinations of indices across multiple dimensions
+The `take()` method can only extract elements along a single axis, it cannot directly select combinations of indices across multiple dimensions
 
 For example:
 
@@ -74,7 +73,7 @@ arr = np.array([[10, 20, 30],
 
 ```
 
-This code will throw a Syntax error
+This code will raise an error
 
 ## Codebyte Example
 
@@ -84,7 +83,7 @@ In this example, we use ndarray.take() on a 2D array:
 import numpy as np
 
 #Create a 2D NumPy array
-array = np.array([[10, 20, 30], [40, 50, 60], [70, 80, 90]])
+arr = np.array([[10, 20, 30], [40, 50, 60], [70, 80, 90]])
 print("Original array:")
 print(arr)
 
@@ -98,7 +97,7 @@ col_elements = arr.take([1,2], axis = 1)
 print("\nElements from columns 1 and 2:")
 print(col_elements)
 
-#Take woth wrap mode (handles out-of-bounds index)
+#Take with wrap mode (handles out-of-bounds index)
 wrapped = arr.take([3, -1], mode = 'wrap')
 print("\nUsing 'wrap' mode with out-of-range indices:")
 print(wrapped)
