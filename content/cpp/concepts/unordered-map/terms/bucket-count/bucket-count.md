@@ -171,7 +171,7 @@ An `unordered_map` is an associative container that stores key-value pairs with 
 
 ### 2. What is `bucket_count`?
 
-The `bucket_count()` method returns the total number of buckets allocated in the `unordered_map`'s hash table. The container automatically adjusts this count to maintain optimal performance as elements are added or removed.
+The `bucket_count()` method returns the total number of buckets allocated in the `unordered_map`'s hash table. The container automatically adjusts this count to maintain optimal performance as elements are added.
 
 ### 3. Is `unordered_map` better than map?
 
