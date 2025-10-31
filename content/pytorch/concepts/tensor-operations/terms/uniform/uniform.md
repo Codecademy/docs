@@ -1,6 +1,6 @@
 ---
-Title: "numpy.random.uniform()"
-Description: "Generates random floating-point numbers from a uniform distribution over a specified interval."
+Title: 'numpy.random.uniform()'
+Description: 'Generates random floating-point numbers from a uniform distribution over a specified interval.'
 Subjects:
   - Data Science
   - Computer Science
@@ -74,30 +74,11 @@ print(arr)
 
 <h2>Codebyte Example</h2>
 
-<pre><code class="language-python">```codebyte/python
+````codebyte/python
 import numpy as np
 
 # Generate a 2x3 array of random floats between 2 and 5
 arr = np.random.uniform(low=2, high=5, size=(2, 3))
 print(arr)
-```</code></pre>
-
-<hr />
-
-<h2>Notes</h2>
-
-<ul>
-  <li>The <code>uniform()</code> function draws samples from a continuous uniform distribution.</li>
-  <li>Use <code>numpy.random.seed()</code> (legacy) or <code>np.random.default_rng(seed)</code> for reproducibility.</li>
-  <li>If <code>size=None</code>, a single float is returned instead of an array.</li>
-</ul>
-
-<hr />
-
-<h2>Related Functions</h2>
-
-<ul>
-  <li><code>numpy.random.randint()</code> — Generates random integers from a given range.</li>
-  <li><code>numpy.random.rand()</code> — Returns random values in a given shape.</li>
-  <li><code>numpy.random.normal()</code> — Draws random samples from a normal (Gaussian) distribution.</li>
-</ul>
+<hr /> <h2>Notes</h2> <ul> <li>The <code>uniform()</code> function draws samples from a continuous uniform distribution.</li> <li>Use <code>numpy.random.seed()</code> (legacy) or <code>np.random.default_rng(seed)</code> for reproducibility.</li> <li>If <code>size=None</code>, a single float is returned instead of an array.</li> </ul> <hr /> <h2>Related Functions</h2> <ul> <li><code>numpy.random.randint()</code> — Generates random integers from a given range.</li> <li><code>numpy.random.rand()</code> — Returns random values in a given shape.</li> <li><code>numpy.random.normal()</code> — Draws random samples from a normal (Gaussian) distribution.</li> </ul> ```
+````
