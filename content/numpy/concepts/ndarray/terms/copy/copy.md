@@ -1,9 +1,9 @@
 ---
-Title: 'copy()'
+Title: '.copy()'
 Description: 'Creates and returns a new, independent copy of a NumPy ndarray.'
 Subjects:
   - 'Computer Science'
-  - 'Data Science' 
+  - 'Data Science'
 Tags:
   - 'Arrays'
   - 'Methods'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`copy()`** method in NumPy creates a new, independent copy of an array (`ndarray`). Unlike simple assignment, which creates a view that shares the same underlying data, it ensures that changes to the new array do not affect the original, and vice versa. This is useful when you need to modify an array while preserving the original data.
+The **`.copy()`** method in NumPy creates a new, independent copy of an array (`ndarray`). Unlike simple assignment, which creates a view that shares the same underlying data, it ensures that changes to the new array do not affect the original, and vice versa. This is useful when you need to modify an array while preserving the original data.
 
 ## Syntax
 
@@ -21,9 +21,9 @@ The **`copy()`** method in NumPy creates a new, independent copy of an array (`n
 ndarray.copy(order='C')
 ```
 
-**Parameters**
+**Parameters:**
 
-- `order` *(optional, str)*: Controls the memory layout of the copy.
+- `order` (optional, `str`): Controls the memory layout of the copy.
   - `'C'` (default): C-style (row-major) order.
   - `'F'`: Fortran-style (column-major) order.
   - `'A'`: Preserves the array’s order — Fortran if the original is Fortran-contiguous, otherwise C.
@@ -33,9 +33,10 @@ ndarray.copy(order='C')
 
 Returns a new `ndarray` object that is an independent copy of the original array.
 
-## Example
+## Example: Basic Usage of `.copy()`
 
-The following example demonstrates the difference between assignment (which shares data) and using `copy()` (which creates an independent copy):
+The following example demonstrates the difference between assignment (which shares data) and using `.copy()` (which creates an independent copy):
+
 ```py
 import numpy as np
 
@@ -67,9 +68,9 @@ Original after modifying copy: [10 20 30]
 Copied array: [999 20 30]
 ```
 
-## Codebyte Example: Copying a 2D array using `copy()`
+## Codebyte Example: Copying a 2D Array Using `.copy()`
 
-This example shows how `copy()` works with a 2D array. It modifies the copy while leaving the original unchanged:
+This example shows how `.copy()` works with a 2D array. It modifies the copy while leaving the original unchanged:
 
 ```codebyte/python
 import numpy as np
