@@ -13,25 +13,21 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.item()`` method in Numpy copies an element of a NumPy array ([`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray)) to a standard Python scalar (like `int`, `float`, `bool`) and returns it. The **`item()`** method is handy for extracting a single value from an array, especially a 0-dimensional (scalar) array, into a native Python type.
+The **`.item()`** method in Numpy copies an element of a NumPy array ([`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray)) to a standard Python scalar (like `int`, `float`, `bool`) and returns it. The `.item()` method is handy for extracting a single value from an array, especially a 0-dimensional (scalar) array, into a native Python type.
 
 ## Syntax
 
-```py
-# For arrays with 1 or more dimensions
-element = array.item(index_tuple)
-# OR
-element = array.item(index1, index2, ...)
-
-# For 0-dimensional (scalar) arrays
-scalar_value = array.item()
+```pseudo
+element = array.item(*args)
 ```
 
 **Parameters:**
 
+- `array` is an instance of `ndarray`.
 - `*args` : `int`, optional
-  - If provided, these arguments specify the element's index to retrieve. The number of arguments must match the number of dimensions of the array. For example, `arr.item(2)` for a 1D array, `arr.item(0, 1)` for a 2D array.
-  - If no arguments are provided, the array must be 0-dimensional (contain only a single scalar value), and that single value will be returned.
+  - If no arguments are provided, the array must have only one element (i.e., `array.size == 1`), and that single element is returned.
+  - If a single integer is provided, it is interpreted as a flat index into the array (like indexing `array.ravel()[i]`).
+  - If a tuple of integers is provided, it is interpreted as a multi-dimensional index (e.g., `arr.item((0, 1))` for a 2D array).
 
 **Return Value:**
 
