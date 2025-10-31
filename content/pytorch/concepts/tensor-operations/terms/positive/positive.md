@@ -22,7 +22,7 @@ The **`.positive()`** method in PyTorch returns a new [tensor](https://www.codec
 torch.positive(input)
 ```
 
-**Parameter:**
+**Parameters:**
 
 - `input` (Tensor): The input tensor.
 
