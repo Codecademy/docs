@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.sum()`** method returns the sum of array elements over a given axis. It can compute the sum of all elements or along specific axes in multi-dimensional arrays.
+The **`.sum()`** method returns the sum of [array](https://www.codecademy.com/resources/docs/numpy/ndarray) elements over a given axis. It can compute the sum of all elements or along specific axes in multi-dimensional arrays.
 
 ## Syntax
 
