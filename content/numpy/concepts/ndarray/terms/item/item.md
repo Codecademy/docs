@@ -1,5 +1,5 @@
 ---
-Title: 'NumPy ndarray - item()'
+Title: '.item()'
 Description: 'Copies an element of a NumPy ndarray to a standard Python scalar and returns it.'
 Subjects: 
   - 'NumPy'
