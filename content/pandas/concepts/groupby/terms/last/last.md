@@ -26,18 +26,18 @@ The method is called directly on a `GroupBy` object.
 grouped_data.last(numeric_only=False, min_count=-1)
 ```
 
-## Parameters
+**Parameters:**
 
-* `numeric_only` (bool): If `True`, only attempts to aggregate numeric columns.
-* `min_count` (int): The number of non-`NaN` values required to consider the calculation valid.
+- `numeric_only` (bool): If `True`, only attempts to aggregate numeric columns.
+- `min_count` (int): The number of non-`NaN` values required to consider the calculation valid.
 
-## Return Value
+**Return Value:**
 
 Returns a Series or DataFrame containing the last non-null value for each group.
 
 ## Example
 
-The following example demonstrates how to use `.last()` to find the final status of a task for each unique project ID.
+The following example demonstrates how to use `.last()` to find the final status of a task for each unique project ID:
 
 ```python
 import pandas as pd
@@ -58,7 +58,7 @@ last_status = df.groupby('project_id').last()
 print("\nLast Status by Project:\n", last_status)
 ```
 
-**Output:**
+The above returns the following output:
 
 ```shell
 Original Data:
@@ -99,5 +99,3 @@ last_scores = df.groupby('category').last()
 
 print("Scores by Category:\n", last_scores)
 ```
-
----
