@@ -10,7 +10,6 @@ Tags:
 CatalogContent:
   - 'learn-pytorch'
   - 'intro-to-py-torch-and-neural-networks'
-  - 'learn-python-3'
 ---
 
 In PyTorch, the **`torch.gradient()`** function estimates the gradient of a multi-dimensional function represented by a tensor. Unlike automatic differentiation methods such as `.backward()` and `tensor.grad` that compute exact gradients of a scalar function in a computational graph, `torch.gradient()` uses numerical methods (like central differences) to approximate the partial derivatives along each dimension of the input tensor.
