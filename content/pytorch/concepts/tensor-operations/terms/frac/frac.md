@@ -1,6 +1,6 @@
 ---
 Title: 'frac()'
-Description: 'Extracts the fractional part of each element in a PyTorch tensor.'
+Description: 'Returns the fractional part of each element in a PyTorch tensor.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
