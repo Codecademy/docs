@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Copies an element of a NumPy array ([`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray)) to a standard Python scalar (like `int`, `float`, `bool`) and returns it. The **`item()`** method is handy for extracting a single value from an array, especially a 0-dimensional (scalar) array, into a native Python type.
+The **`.item()`` method in Numpy copies an element of a NumPy array ([`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray)) to a standard Python scalar (like `int`, `float`, `bool`) and returns it. The **`item()`** method is handy for extracting a single value from an array, especially a 0-dimensional (scalar) array, into a native Python type.
 
 ## Syntax
 
