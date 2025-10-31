@@ -5,12 +5,12 @@ Subjects:
   - 'AI'
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'AI'
   - 'Functions'
   - 'Pytorch'
   - 'Trigonometry'
-CatalogContent: 
+CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/data-science'
 ---
