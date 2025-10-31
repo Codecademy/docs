@@ -81,7 +81,7 @@ tensor([-1.5000,  2.3000, -0.0000, -4.8000,  1.2000])
 
 In this example:
 
-- Positive values become negative: 1.5 → -1.5, 4.8 → -4.8
-- Negative values become positive: -2.3 → 2.3, -1.2 → 1.2
-- Zero remains zero: 0.0 → -0.0 (negative zero in floating-point)
+- Positive values become negative: `1.5` → `-1.5`, `4.8` → `-4.8`
+- Negative values become positive: `-2.3` → `2.3`, `-1.2` → `1.2`
+- Zero remains zero: `0.0` → `-0.0` (negative zero in floating-point)
 - All three forms (`.neg()`, `torch.neg()`, and `-`) produce identical results
