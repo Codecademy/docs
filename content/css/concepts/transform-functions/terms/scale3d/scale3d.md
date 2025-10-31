@@ -201,6 +201,6 @@ The `scale3d()` function is a CSS transform function that allows developers to r
 
 Transform 3D refers to CSS transformations that manipulate elements in three-dimensional space using properties like `transform`, `perspective`, and functions such as `scale3d()`, `rotate3d()`, and `translate3d()`. These transformations enable depth perception and spatial positioning beyond the traditional two-dimensional plane.
 
-### 3. What is z scale in CSS?
+### 3. What is the z-scale in CSS?
 
 Z scale in CSS refers to the scaling factor applied along the z-axis, which represents depth in three-dimensional space. In the `scale3d()` function, the third parameter (sz) controls the z-axis scaling. While this affects the element's transformation matrix, visible effects typically require additional 3D context provided by properties like `perspective()` or nested 3D transforms.
