@@ -40,7 +40,9 @@ blue
 Items that aren’t needed can also be skipped:
 
 ```js
+const colors = ['red', 'green', 'blue'];
 const [primaryColor, , tertiaryColor] = colors;
+
 console.log(tertiaryColor); // Output: blue
 ```
 
@@ -66,7 +68,9 @@ Camry
 Variables can also be renamed or assigned default values:
 
 ```js
+const car = { make: 'Toyota', model: 'Camry', year: 2021 };
 const { model: carModel, color = 'white' } = car;
+
 console.log(carModel); // Output: Camry
 console.log(color); // Output: white
 ```
@@ -77,11 +81,17 @@ Destructuring also supports nested structures for deeply nested objects or array
 
 ```js
 const user = {
-id: 1,
-info: { name: 'Alice', address: { city: 'Seattle', zip: 98101 } }
+  id: 1,
+  info: { name: 'Alice', address: { city: 'Seattle', zip: 98101 } },
 };
 
-const { info: { name, address: { city } } } = user;
+const {
+  info: {
+    name,
+    address: { city },
+  },
+} = user;
+
 console.log(name);
 console.log(city);
 ```
@@ -97,7 +107,7 @@ Seattle
 
 The following codebyte example uses nested destructuring to extract values directly from an object:
 
-```codebyte/js
+```codebyte/javascript
 const user = {
   name: 'John Doe',
   hobbies: ['reading', 'cycling', 'coding'],
