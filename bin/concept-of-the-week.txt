@@ -1,1 +1,1 @@
-content/typescript/concepts/interfaces/interfaces.md
+content/sklearn/concepts/probability-calibration/probability-calibration.md
