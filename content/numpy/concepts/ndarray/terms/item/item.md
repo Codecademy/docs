@@ -43,7 +43,6 @@ Returns a standard Python scalar (e.g., `int`, `float`, `bool`) corresponding to
 The following example shows how to extract elements using `item()`:
 
 ```py
-
 import numpy as np
 
 # 1D array
