@@ -78,7 +78,7 @@ Row sums: [ 6 15]
 
 Here, `axis=0` sums each column, and `axis=1` sums each row.
 
-## Codebyte Example: Using Initial Value and Where Parameter
+## Codebyte Example: Using Initial Value and `where` Parameter
 
 In this example, the `.sum()` method demonstrates how to use an initial value for the sum and how to conditionally include elements using the `where` parameter:
 
