@@ -25,10 +25,7 @@ torch.neg(input, *, out=None) → Tensor
 **Parameters:**
 
 - `input` (Tensor): The input tensor.
-
-**Keyword Arguments:**
-
-- `out` (Tensor, optional): The output tensor to store the result. If provided, the result is written to this tensor.
+- `out` (Tensor, optional): The output tensor to store the result. Must have the same shape as `input`.
 
 **Return value:**
 
