@@ -94,7 +94,7 @@ tensor([0.5000, 1.0000, 2.0000, 2.5000])
 
 ## Example 3: Multi-Dimensional Gradient
 
-This computes partial derivatives across each of the three dimensions of the tensor:
+The following code computes partial derivatives across each of the three dimensions of the tensor:
 
 ```py
 import torch
