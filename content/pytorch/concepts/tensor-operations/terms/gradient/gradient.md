@@ -159,11 +159,11 @@ tensor([[[1., 1., 1.],
 
 In PyTorch, a gradient represents the rate of change of a tensor with respect to its inputs. With `torch.gradient()`, the gradient is numerically estimated from sampled values of a function stored in a tensor, giving the partial derivatives along each dimension.
 
-### 2. What is gradient in tensor?
+### 2. What is a gradient in a tensor?
 
 The gradient in a tensor context refers to how the values inside the tensor change across its dimensions. For example, in a 2D tensor representing a surface, the gradient describes the slope in the row direction and the slope in the column direction.
 
-### 3. What is gradient used for?
+### 3. What is a gradient used for?
 
 Gradients are used to analyze how a function changes with respect to its inputs. In PyTorch, they are fundamental for:
 
