@@ -80,7 +80,7 @@ Here, `axis=0` sums each column, and `axis=1` sums each row.
 
 ## Codebyte Example: Using Initial Value and `where` Parameter
 
-In this example, the `.sum()` method demonstrates how to use an initial value for the sum and how to include elements using the `where` parameter: 
+In this example, the `.sum()` method demonstrates how to use an initial value for the sum and how to include elements using the `where` parameter:
 
 ```codebyte/python
 import numpy as np
