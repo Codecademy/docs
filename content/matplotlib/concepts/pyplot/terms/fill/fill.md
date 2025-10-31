@@ -79,5 +79,3 @@ plt.show()
 The output of this code is:
 
 ![Output of the second matplotlib.pyplot.fill() method example](https://raw.githubusercontent.com/Codecademy/docs/main/media/second-pyplot-fill.png)
-
-![Output of the third matplotlib.pyplot.fill() method example](https://raw.githubusercontent.com/Codecademy/docs/main/media/third-pyplot-fill.png)
