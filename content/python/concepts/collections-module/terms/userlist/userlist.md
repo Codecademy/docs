@@ -32,7 +32,7 @@ collections.UserList(list)
 
 A `<class 'collections.UserList'>` object is returned.
 
-## Example 1: Basic Usage of `collections.UserList`
+## Example: Basic Usage of `collections.UserList`
 
 This example showcases a basic use of `UserList` as a wrapper around a list:
 
@@ -41,69 +41,47 @@ from collections import UserList
 
 # Create a regular list
 l = ['USD', 'GBP', 'EUR']
-print(l)  # Output: ['USD', 'GBP', 'EUR']
+print(l)   
 
 # Instantiate a UserList object from the list
 ul = UserList(l)
-print(ul)  # Output: ['USD', 'GBP', 'EUR']
+print(ul)  
 
 # Print out the data type for each instantiated object
-print(type(l))  # Output: <class 'list'>
-print(type(ul))  # Output: <class 'collections.UserList'>
+print(type(l))   
+print(type(ul))   
 ```
 
-Through the `data` attribute it is possible to access the `ul` content and its built-in methods:
+The code returns the following output:
+
+```shell
+['USD', 'GBP', 'EUR']
+['USD', 'GBP', 'EUR']
+<class 'list'>
+<class 'collections.UserList'>
+```
+
+Through the `data` attribute, it is possible to access the `ul` content and its built-in methods:
 
 ```py
 print(ul.data)  # Output: ['USD', 'GBP', 'EUR']
 
 # Append a new item to the UserList object
 ul.data.append('$')
-print(ul.data)  # Output: ['USD', 'GBP', 'EUR', '$']
+print(ul.data)
 
 # Remove the item
 ul.data.remove('$')
 
 # Sort the list-like object in ascending order
 ul.data.sort()
-print(ul.data)  # Output: ['EUR', 'GBP', 'USD']
+print(ul.data)   
 ```
 
-## Example 2: Creating a Custom List Class with UserList
+The above codeb will return the following output:
 
-In the following example, the `CurrencyCodeList` class is instantiated, which inherits from `UserList` and its properties. The class stores only string items from the initial iterable; if non-string items are provided, it returns an empty `UserList` object by default. Additionally, the append `method` is overridden to accept only uppercase strings of exactly three characters; if the new item does not meet this criterion, a `RuntimeError` is raised.
-
-```py
-from collections import UserList
-
-class CurrencyCodeList(UserList):
- def __init__(self, iterable):
-  # Call the parent constructor with a generator that filters input to only strings
-  super().__init__(item for item in iterable if isinstance(item, str))
-
- def append(self, other):
-  # Check if the provided value is in lowercase, which is not allowed
-  if other == str(other.lower()):
-   raise RuntimeError("Lowercase not allowed")
-  # Check if the length of the value is exactly 3 characters, which is required
-  if len(other) != 3:
-   raise RuntimeError("3 string characters required")
-  else:
-   self.data.append(other)
-```
-
-The code here below shows that `currency` is created as an instance of `CurrencyCodeList`, inheriting its behavior from the class:
-
-```py
-currency = CurrencyCodeList(['JPY', 'CHF', 'EUR'])
-print(currency)  # Output: ['JPY', 'CHF', 'EUR']
-
-currency_wrong_type = CurrencyCodeList([000, 555, 999])
-print(currency_wrong_type)  # Output: []
-
-currency.append('$')  # Output: RuntimeError: Lowercase not allowed
-currency.append('AB')  # Output: RuntimeError: 3 string characters required
-
-currency.append('GBP')
-print(currency)  # Output: ['JPY', 'CHF', 'EUR', 'GBP']
+```shell
+['USD', 'GBP', 'EUR']
+['USD', 'GBP', 'EUR', '$']
+['EUR', 'GBP', 'USD']
 ```
