@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **UserList** class from the `collections` module acts as a wrapper around the built-in [`list`](https://www.codecademy.com/resources/docs/python/lists) type, to create custom list-like classes with modified behavior and/or new functionalities. Although directly subclassing Python’s list reduces the need for this class, UserList remains available in the standard library for convenience and backward compatibility.
+The **UserList** class from the `collections` module acts as a wrapper around the built-in [`list`](https://www.codecademy.com/resources/docs/python/lists) type, to create custom list-like [classes](https://www.codecademy.com/resources/docs/python/classes) with modified behavior or new functionalities. Although directly subclassing Python’s list reduces the need for this class, UserList remains available in the standard library for convenience and backward compatibility.
 
 ## Syntax
 
@@ -26,13 +26,13 @@ collections.UserList(list)
 
 **Parameters:**
 
-- `list`: a regular list object used to store the contents of the UserList class. The list is empty by default and can be accessible via the UserList `data` attribute.
+- `list`: a regular list object used to store the contents of the UserList class. The list is empty by default and can be accessed via the UserList `data` attribute.
 
 **Return value:**
 
 A `<class 'collections.UserList'>` object is returned.
 
-## Example 1
+## Example 1: Basic Usage of `collections.UserList`
 
 This example showcases a basic use of `UserList` as a wrapper around a list:
 
@@ -69,7 +69,7 @@ ul.data.sort()
 print(ul.data)  # Output: ['EUR', 'GBP', 'USD']
 ```
 
-## Example 2
+## Example 2: Creating a Custom List Class with UserList
 
 In the following example, the `CurrencyCodeList` class is instantiated, which inherits from `UserList` and its properties. The class stores only string items from the initial iterable; if non-string items are provided, it returns an empty `UserList` object by default. Additionally, the append `method` is overridden to accept only uppercase strings of exactly three characters; if the new item does not meet this criterion, a `RuntimeError` is raised.
 
