@@ -1,10 +1,10 @@
 ---
 Title: '.item()'
 Description: 'Copies an element of a NumPy ndarray to a standard Python scalar and returns it.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Arrays'
   - 'Methods'
   - 'Indexing'
@@ -20,7 +20,7 @@ Copies an element of a NumPy array ([`ndarray`](https://www.codecademy.com/resou
 
 ```py
 # For arrays with 1 or more dimensions
-element = array.item(index_tuple) 
+element = array.item(index_tuple)
 # OR
 element = array.item(index1, index2, ...)
 
@@ -31,8 +31,8 @@ scalar_value = array.item()
 **Parameters:**
 
 - `*args` : `int`, optional
-    - If provided, these arguments specify the element's index to retrieve. The number of arguments must match the number of dimensions of the array. For example, `arr.item(2)` for a 1D array, `arr.item(0, 1)` for a 2D array.
-    - If no arguments are provided, the array must be 0-dimensional (contain only a single scalar value), and that single value will be returned.
+  - If provided, these arguments specify the element's index to retrieve. The number of arguments must match the number of dimensions of the array. For example, `arr.item(2)` for a 1D array, `arr.item(0, 1)` for a 2D array.
+  - If no arguments are provided, the array must be 0-dimensional (contain only a single scalar value), and that single value will be returned.
 
 **Return Value:**
 
@@ -61,6 +61,7 @@ arr_0d = np.array(99)
 scalar_val = arr_0d.item() # No index needed for 0D array
 print(f"Value from 0D array: {scalar_val}, Type: {type(scalar_val)}")
 ```
+
 Output of the above example:
 
 ```shell
@@ -81,13 +82,13 @@ my_array = np.array([[5.5, 6.6], [7.7, 8.8]])
 print(f"Original 2D array:\n{my_array}\n")
 
 # Get element at (1, 0)
-item_val = my_array.item(1, 0) 
+item_val = my_array.item(1, 0)
 print(f"Value at index (1, 0): {item_val}")
-print(f"Type of returned value: {type(item_val)}\n") 
+print(f"Type of returned value: {type(item_val)}\n")
 # Python Float datatype
 
 # Create a 0D array
-scalar_array = np.array(True) 
+scalar_array = np.array(True)
 print(f"Original 0D array: {scalar_array}")
 
 # Get the scalar value
