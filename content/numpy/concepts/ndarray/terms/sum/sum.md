@@ -46,7 +46,7 @@ result = arr.sum()
 print(result)
 ```
 
-The above code gives the following output:
+The above code returns the following output:
 
 ```shell
 21
@@ -69,7 +69,7 @@ row_sum = arr.sum(axis=1)
 print("Row sums:", row_sum)
 ```
 
-The above code gives the following output:
+The above code returns the following output:
 
 ```shell
 Column sums: [5 7 9]
@@ -80,7 +80,7 @@ Here, `axis=0` sums each column, and `axis=1` sums each row.
 
 ## Codebyte Example: Using Initial Value and `where` Parameter
 
-In this example, the `.sum()` method demonstrates how to use an initial value for the sum and how to conditionally include elements using the `where` parameter:
+In this example, the `.sum()` method demonstrates how to use an initial value for the sum and how to include elements using the `where` parameter: 
 
 ```codebyte/python
 import numpy as np
