@@ -1,6 +1,6 @@
 ---
 Title: 'bucket_size()'
-Description: 'Returns the number of elements in a specific bucket of an unordered_map.'
+Description: 'Returns the number of elements in a specific bucket of an unordered map.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
