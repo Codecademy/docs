@@ -65,4 +65,4 @@ Please read through the [Contributing Guide](https://github.com/Codecademy/docs/
 
 ## Additional Notes
 
-Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/c/community/community-docs/2205) and [Codecademy Discord](https://discord.com/invite/codecademy).
+Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Community](community.codecademy.com).
