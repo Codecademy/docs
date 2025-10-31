@@ -26,7 +26,7 @@ ndarray.take(indices, axis=None, out=None, mode='raise')
 **Parameters:**
 
 - `indices`: The 0-based indices of elements to extract
-- `axis` (Optional): Specifies the axis along which to take the specified changes. If not specified the operation is done over a flattened array
+- `axis` (Optional): Specifies the axis along which to take the elements. If not specified the operation is done over a flattened array
 - `out` (Optional): An optional output array in which to store the selected elements. The shape and buffer length must match that of the expected output but the type will be cast if necessary.
 - `mode` (Optional): Specifies how out-of-bounds indices are handled
     - `'raise'` - raises an error (default)
@@ -44,7 +44,7 @@ This example demonstrates the use of ndarray.take():
 ```py
 import numpy as np
 
-array = np.array([10, 20, 30, 40, 50])
+arr = np.array([10, 20, 30, 40, 50])
 result = arr.take([0, 3, 4])
 print(result)
 ```
@@ -69,8 +69,7 @@ arr = np.array([[10, 20, 30],
                 [70, 80, 90]])
 
 # This won't work: cannot take (0,0) and (1,1) in one call
-# arr.take([(0, 0), (1, 1)])  # Invalid
-
+arr.take([(0, 0), (1, 1)]) # Invalid
 ```
 
 This code will raise an error
