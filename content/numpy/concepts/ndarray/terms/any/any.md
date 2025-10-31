@@ -1,20 +1,20 @@
 ---
 Title: 'any()'
-Description: 'Tests whether any array element along a given axis evaluates to True.'
+Description: 'Returns True if any element of the array evaluates to True, otherwise it returns False.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'NumPy'
   - 'Arrays'
-  - 'Methods'
   - 'Boolean'
+  - 'Methods'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-The **`any()`** method of a NumPy [ndarray](https://www.codecademy.com/resources/docs/numpy/ndarray) returns `True` if any element in the array evaluates to `True`. It performs a logical OR operation across specified array elements. In a Boolean context, all non-zero numbers evaluate to `True`, while zero evaluates to `False`.
+The **`any()`** method of a NumPy [ndarray](https://www.codecademy.com/resources/docs/numpy/ndarray) returns `True` if at least one element in the array evaluates to `True`. It performs a logical OR operation across specified array elements. In a Boolean context, all non-zero numbers evaluate to `True`, while zero evaluates to `False`.
 
 ## Syntax
 
@@ -24,12 +24,14 @@ array.any(axis=None, out=None, keepdims=False, where=True)
 
 **Parameters**:
 
-- `axis`: Optional integer or tuple of integers specifying the axis or axes along which the logical OR operation is performed. The default `None` evaluates all elements in the array.
-- `out`: Optional output array to place the result. It must have the same shape as the expected output.
-- `keepdims`: Optional boolean that retains reduced axes as dimensions with size one in the result when set to' True'.
-- `where`: Optional array of booleans specifying which elements to include in the check.
+- `axis` (Optional): Integer or tuple of integers specifying the axis or axes along which the logical OR operation is performed. The default `None` evaluates all elements in the array.
+- `out` (Optional): Output array to place the result. It must have the same shape as the expected output.
+- `keepdims` (Optional): If `True`, retains reduced axes as dimensions of size one in the result.
+- `where` (Optional): Array of booleans specifying which elements to include in the check.
 
-> > **Note:** The method returns either a single boolean value or an ndarray of boolean values, depending on the `axis` parameter.
+**Return value:**
+
+Returns a single boolean value or an ndarray of boolean values, depending on the `axis` parameter.
 
 ## Example
 
