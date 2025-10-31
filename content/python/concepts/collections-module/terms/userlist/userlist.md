@@ -41,15 +41,15 @@ from collections import UserList
 
 # Create a regular list
 l = ['USD', 'GBP', 'EUR']
-print(l)   
+print(l)
 
 # Instantiate a UserList object from the list
 ul = UserList(l)
-print(ul)  
+print(ul)
 
 # Print out the data type for each instantiated object
-print(type(l))   
-print(type(ul))   
+print(type(l))
+print(type(ul))
 ```
 
 The code returns the following output:
@@ -75,7 +75,7 @@ ul.data.remove('$')
 
 # Sort the list-like object in ascending order
 ul.data.sort()
-print(ul.data)   
+print(ul.data)
 ```
 
 The above codeb will return the following output:
