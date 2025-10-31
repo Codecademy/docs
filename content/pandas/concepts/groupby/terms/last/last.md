@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.last()`** method is an aggregation function used on a `GroupBy` object in Pandas. It returns the **last non-null value** in each section of the grouped data.
+The **`.last()`** method is an aggregation function used on a `GroupBy` object in Pandas. It returns the last non-null value in each section of the grouped data.
 
 This method is particularly useful for time-series data or sequentially ordered data where the final observation within a specific period or category is the most relevant.
 
