@@ -82,3 +82,37 @@ In the DOM tree, each part of the webpage is represented as a node. There are se
 - **Modifying Content & Attributes**: Properties like `innerText`, `innerHTML`, and methods such as `setAttribute()` update content and element attributes.
 - **Adding & Removing Elements**: Methods like `createElement()`, `appendChild()`, `removeChild()`, and `replaceChild()` dynamically modify the page structure.
 - **Modifying Styles**: The `style` property or `classList.add()` and `classList.remove()` methods change element appearance.
+
+## Debugging DOM Manipulation
+
+Modern browsers ship with powerful developer tools (DevTools) that let you inspect and modify the DOM in real time while watching the JavaScript that drives those changes. Such DevTools are found in the latest releases of **Chrome**, **Firefox**, and **Safari**.
+
+### 1. Opening the DevTools Console
+
+| Browser       | Shortcut                                                     |
+| ------------- | ------------------------------------------------------------ |
+| Chrome / Edge | **`Ctrl + Shift + I`** (Win/Linux) / **`⌘ + ⌥ + I`** (macOS) |
+| Firefox       | **`Ctrl + Shift + I`** (Win/Linux) / **`⌘ + ⌥ + I`** (macOS) |
+| Safari \*     | **`⌘ + ⌥ + I`** (macOS)                                      |
+
+<sub>\*Enable the **Develop** menu first in **Safari › Settings › Advanced**.</sub>
+
+### 2. DevTools Main References
+
+* **Elements / Inspector**
+  Browse and live‑edit the DOM tree.
+  *Tip:* Selecting nodes targets them on the console for manipulation. Any node highlighted can be referenced in the console with `$0`. With a node selected, **Alt + click** (Option + click on macOS) toggles expansion for all its child nodes.
+
+* **Console**
+  Execute JavaScript in the page’s context and inspect results.
+  *Shortcuts:* `$('selector')` / `$$('selector')`, `dir($0)`, `console.log()` for quick dumps, `clear()` to wipe output.
+
+* **Sources / Debugger**
+  Set breakpoints, step through code, and watch variables.
+
+* **Network**
+  Inspect HTTP requests, responses, and payload sizes.
+
+Other panels may include **_Performance_**, **_Application / Storage_**, and **_Accessibility / Lighthouse_**.
+
+> These panels appear in every major browser’s developer tools with largely consistent names, so you can carry the same workflow between Chrome, Firefox, and Safari.
