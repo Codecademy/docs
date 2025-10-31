@@ -64,7 +64,7 @@ import torch
 x = torch.tensor([1.0, 2.0, 3.0])
 
 # Compute trigamma (polygamma with n=1)
-trigamma_values = torch.polygamba(1, x)
+trigamma_values = torch.polygamma(1, x)
 print(trigamma_values)
 ```
 
