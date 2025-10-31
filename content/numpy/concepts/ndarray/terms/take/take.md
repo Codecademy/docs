@@ -14,8 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`take()`** method returns elements from an array at specific indices.
-It’s similar to regular indexing, but works across flattened or specified axes, and supports advanced indexing use cases.
+The **`take()`** method returns elements from an array at specific indices. It’s similar to regular indexing, but works across flattened or specified axes, and supports advanced indexing use cases.
 
 ## Syntax
 
@@ -26,20 +25,20 @@ ndarray.take(indices, axis=None, out=None, mode='raise')
 **Parameters:**
 
 - `indices`: The 0-based indices of elements to extract
-- `axis` (Optional): Specifies the axis along which to take the elements. If not specified the operation is done over a flattened array
-- `out` (Optional): An optional output array in which to store the selected elements. The shape and buffer length must match that of the expected output but the type will be cast if necessary.
+- `axis` (Optional): Specifies the axis to take the elements. If not specified, the operation is done over a flattened array
+- `out` (Optional): An optional output array to store the selected elements. The shape and buffer length must match the expected output, but the type will be cast if necessary.
 - `mode` (Optional): Specifies how out-of-bounds indices are handled
-    - `'raise'` - raises an error (default)
-    - `'wrap'` - wraps around
-    - `'clip'` - clips to the valid range
+    - `raise`: raises an error (default)
+    - `wrap`: wraps around
+    - `clip`: clips to the valid range
 
 **Return value:**
 
 Returns an array containing the selected elements, or a reference to `out` if specified.
 
-## Example 1
+## Example 
 
-This example demonstrates the use of ndarray.take():
+This example demonstrates the use of `ndarray.take()`:
 
 ```py
 import numpy as np
@@ -54,12 +53,7 @@ The output of this code is:
 ```shell
 [10 40 50]
 ```
-
-## Note: Selecting arbitrary elements
-
-The `take()` method can only extract elements along a single axis, it cannot directly select combinations of indices across multiple dimensions
-
-For example:
+>> **Note:** The `take()` method can only extract elements along a single axis, it cannot directly select combinations of indices across multiple dimensions. For example:
 
 ```py
 import numpy as np
@@ -72,11 +66,11 @@ arr = np.array([[10, 20, 30],
 arr.take([(0, 0), (1, 1)]) # Invalid
 ```
 
-This code will raise an error
+The above will return an error.
 
 ## Codebyte Example
 
-In this example, we use ndarray.take() on a 2D array:
+In this example, `ndarray.take()` is used on a 2D array:
 
 ```codebyte/python
 import numpy as np
@@ -100,5 +94,4 @@ print(col_elements)
 wrapped = arr.take([3, -1], mode = 'wrap')
 print("\nUsing 'wrap' mode with out-of-range indices:")
 print(wrapped)
-
 ```
