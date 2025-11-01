@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.rad2deg()`** method in PyTorch converts the elements of a tensor from **radians to degrees**. This is useful for trigonometric and rotational operations when working with angular measurements. The operation is performed element-wise, meaning it applies the conversion formula ($$\text{degrees} = \text{radians} \times \frac{180}{\pi}$$) to every value in the tensor, returning a new tensor with the results.
+The **`.rad2deg()`** function in PyTorch converts the elements of a tensor from radians to degrees. This is useful for trigonometric and rotational operations when working with angular measurements. The operation is performed element-wise, meaning it applies the conversion formula ($$\text{degrees} = \text{radians} \times \frac{180}{\pi}$$) to every value in the tensor, returning a new tensor with the results.
 
-This method is available for tensors with floating-point data types such as `torch.float16`, `torch.float32`, or `torch.float64`.
+This function is available for tensors with floating-point data types such as `torch.float16`, `torch.float32`, or `torch.float64`.
 
 ## Syntax
 
@@ -36,15 +36,15 @@ Returns a tensor containing the degree equivalents of the original tensor's elem
 
 This example demonstrates how to use `.rad2deg()` to convert common angular values ($\pi$ radians and $\frac{\pi}{2}$ radians) into degrees:
 
-```python
+```py
 import torch
 import math
 
 # Create a tensor with values in radians
 radians_tensor = torch.tensor([
-    math.pi / 2, 
-    math.pi,     
-    0.0           
+  math.pi / 2,
+  math.pi,
+  0.0
 ])
 
 print("Original Tensor (Radians):")
