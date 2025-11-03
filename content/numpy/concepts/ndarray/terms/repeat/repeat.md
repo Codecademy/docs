@@ -15,24 +15,26 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In ndarray, **`.repeat()`** method repeats the elements of an array. The elements repeat after themselves. This method belongs to the ndarray class.
+The **`.repeat()`** method of a NumPy [narray](https://www.codecademy.com/resources/docs/numpy/ndarray) returns a new array where each element is repeated a specified number of times. It can repeat all elements in a flattened array or along a particular axis in multidimensional arrays.
 
 ## Syntax
 
 ```pseudo
-ndarray.repeat(repeats, axis=none)
+ndarray.repeat(repeats, axis=None)
 ```
 
-**parameters**
-- `repeats`: The number of times an element is repeated.
-- `axis`: (optional) To repeat all the elements along the axis mentioned if the array is multidimensional.
+**Parameters:**
 
-**returns**
-An output array with the same shape and repeated elements.
+- `repeats`: Integer or array of integers. Specifies how many times each element should be repeated. If an array, it must match the length of the axis being repeated.
+- `axis` (Optional): The axis along which to repeat values. If `None`, the array is flattened before repetition.
+
+**Return value:**
+
+A new array with repeated elements. The resulting shape depends on the `repeats` value and whether an axis is specified.
 
 ## Example
 
-The following example creates an `ndarray` then uses `.repeat()` to repeat the elements.
+The following example creates an `ndarray` then uses `.repeat()` to repeat the elements:
 
 ```py
 import numpy as np
@@ -48,6 +50,7 @@ print("c repeated:", c.repeat(2,axis=0))
 ```
 
 The above code generates the following output:
+
 ```shell
 a repeated: [1 1 1]
 b repeated: [1 1 2 2 5 5 6 6]
@@ -65,14 +68,14 @@ Run the following codebyte example to understand the usage of the `.repeat()` me
 import numpy as np
 
 a = np.array([-8])
-print(a.repeat(3))
+print("a repeated 3 times:", a.repeat(3))
 
-b = np.array([[1,2,-9],[5,6,0]])
-print(b.repeat(2))
+b = np.array([[1, 2, -9], [5, 6, 0]])
+print("\nb repeated (flattened):", b.repeat(2))
 
-c = np.array([[7,8],[9,-3]])
-print(c.repeat(2, axis=1))
+c = np.array([[7, 8], [9, -3]])
+print("\nc repeated along axis 1:\n", c.repeat(2, axis=1))
 
-d = np.array([[-1,2],[0,-1]])
-print(d.repeat(4, axis= None))
+d = np.array([[-1, 2], [0, -1]])
+print("\nd repeated 4 times (no axis):", d.repeat(4, axis=None))
 ```
