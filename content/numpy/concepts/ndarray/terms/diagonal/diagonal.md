@@ -35,35 +35,43 @@ ndarray.diagonal(offset=0, axis1=0, axis2=1)
 
 Returns an array containing the diagonal elements. For 2D arrays, this is a 1D array. For higher-dimensional arrays, the result has one fewer dimension than the input.
 
-## Example 1: Extracting Diagonals from 2D Arrays
+## Example 1: Extracting Diagonals from 2D and Rectangular Arrays
 
-This example demonstrates how to use `.diagonal()` to extract different diagonals from a 2D array:
+This example demonstrates how to extract diagonals from both square and rectangular arrays using different `offset` values:
 
 ```py
 import numpy as np
 
-# Create a 3x3 array
-array_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-print("Original array:")
-print(array_2d)
+# Create a 3×3 square array
+square = np.array([[1, 2, 3],
+                   [4, 5, 6],
+                   [7, 8, 9]])
 
-# Extract main diagonal
-main_diag = array_2d.diagonal()
-print("\nMain diagonal:", main_diag)
+print("Square array:")
+print(square)
 
-# Extract diagonal above the main diagonal (offset=1)
-upper_diag = array_2d.diagonal(offset=1)
-print("Upper diagonal (offset=1):", upper_diag)
+print("\nMain diagonal:", square.diagonal())
+print("Upper diagonal (offset=1):", square.diagonal(offset=1))
+print("Lower diagonal (offset=-1):", square.diagonal(offset=-1))
 
-# Extract diagonal below the main diagonal (offset=-1)
-lower_diag = array_2d.diagonal(offset=-1)
-print("Lower diagonal (offset=-1):", lower_diag)
+# Create a 4×3 rectangular array
+rectangular = np.array([[1, 2, 3],
+                        [4, 5, 6],
+                        [7, 8, 9],
+                        [10, 11, 12]])
+
+print("\nRectangular array:")
+print(rectangular)
+
+print("\nMain diagonal:", rectangular.diagonal())
+print("Upper diagonal (offset=1):", rectangular.diagonal(offset=1))
+print("Lower diagonal (offset=-2):", rectangular.diagonal(offset=-2))
 ```
 
 The output produced by this code is:
 
 ```shell
-Original array:
+Square array:
 [[1 2 3]
  [4 5 6]
  [7 8 9]]
@@ -71,39 +79,8 @@ Original array:
 Main diagonal: [1 5 9]
 Upper diagonal (offset=1): [2 6]
 Lower diagonal (offset=-1): [4 8]
-```
 
-This code creates a 3×3 array and extracts different diagonals using various offset values. The main diagonal contains elements `[1, 5, 9]`, the upper diagonal `[2, 6]`, and the lower diagonal `[4, 8]`.
-
-## Example 2: Working with Rectangular Matrices
-
-This example shows how `.diagonal()` handles non-square matrices:
-
-```py
-import numpy as np
-
-# Create a rectangular array (4x3)
-rect_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
-print("Rectangular array (4x3):")
-print(rect_array)
-
-# Extract main diagonal
-main_diag = rect_array.diagonal()
-print("\nMain diagonal:", main_diag)
-
-# Extract upper diagonal
-upper_diag = rect_array.diagonal(offset=1)
-print("Upper diagonal (offset=1):", upper_diag)
-
-# Extract lower diagonal
-lower_diag = rect_array.diagonal(offset=-2)
-print("Lower diagonal (offset=-2):", lower_diag)
-```
-
-The code generates the following output:
-
-```shell
-Rectangular array (4x3):
+Rectangular array:
 [[ 1  2  3]
  [ 4  5  6]
  [ 7  8  9]
@@ -114,9 +91,9 @@ Upper diagonal (offset=1): [2 6]
 Lower diagonal (offset=-2): [7 11]
 ```
 
-For rectangular matrices, the diagonal length is limited by the smaller dimension, and different offsets extract different parallel diagonals.
+For rectangular matrices, the diagonal length is determined by the smaller dimension, and different offsets extract parallel diagonals above or below the main one.
 
-## Example 3: Using `.diagonal()` with Multi-Dimensional Arrays
+## Example 2: Using `.diagonal()` with Multi-Dimensional Arrays
 
 This example demonstrates how to extract diagonals from higher-dimensional arrays by specifying axes:
 
