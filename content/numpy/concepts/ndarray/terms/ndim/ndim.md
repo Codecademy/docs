@@ -81,12 +81,13 @@ The output of this code is:
 ```shell
 2
 ```
+
 ## Codebyte Example: Using `.ndim` in a NumPy Operation
 
 In this example, `.ndim` returns the total number of dimensions in a NumPy array:
 
 ```codebyte/python
-import numpy as np  
+import numpy as np
 
 arr_a = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 
@@ -95,3 +96,4 @@ print(f"array: {arr_a}, number of dimensions: {arr_a.ndim}")
 
 
 
+```
