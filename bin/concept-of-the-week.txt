@@ -1,1 +1,1 @@
-content/typescript/concepts/interfaces/interfaces.md
+content/kotlin/concepts/operators/operators.md
