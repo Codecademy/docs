@@ -1,134 +1,131 @@
 ---
-Title: total_ordering()
-Description: This term entry explains total_ordering(), which is a class decorator under the functools module.
-Subjects: Python
-Tags: Class Decorator
-Catalog Content: content/python/concepts/functools-module/terms/total-ordering/total-ordering.md
+Title: 'total_ordering()'
+Description: 'Generates missing comparison methods in a class based on a minimal set of defined ones.'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Classes'
+  - 'Modules'
+  - 'Python'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-The **`total_ordering()`** class decorator under the `functools` module modifies a class by defining any missing rich comparison methods.
+The **`total_ordering()`** decorator from the functools module simplifies the creation of fully ordered classes. By defining the `__eq__()` method and one additional comparison method (`__lt__()`, `__le__()`, `__gt__()`, or `__ge__()`), all other rich comparison methods are automatically generated.
 
-There are six rich comparison methods that define and customize operator behavior within a class:
-
-```codebyte/python
-#This is the rich comparison method that defines and customizes the '==' operator (Equal To) within a class.
-def __eq__(self, other)
-
-#This is the rich comparison method that defines and customizes the '!=' operator (Not Equal To) within a class.
-def __ne__(self, other)
-
-#This is the rich comparison method that defines and customizes the '<' operator (Less Than) within a class.
-def __lt__(self, other)
-
-#This is the rich comparison method that defines and customizes the '<=' operator (Less Than or Equal To) within a class.
-def __le__(self, other)
-
-#This is the rich comparison method that defines and customizes the '>' operator (Greater Than) within a class.
-def __gt__(self, other)
-
-#This is the rich comparison method that defines and customizes the '>=' operator (Greater Than or Equal To) within a class.
-def __ge__(self, other)
-```
-
-Instead of defining all six rich comparison methods, the **`total_ordering()`** class decorator only requires two rich comparison methods, `__eq__` and any other rich comparison method. The benefit is coding efficiency.
-
-**Requirements:**
-  - `def __eq__(self, other)` must be defined.
-  - At least one other rich comparison method must be defined.
-
-**Characteristics:**
-- **Wrapping**: Syntax `@functools.total_ordering` or `@total_ordering` wraps the next class defined. No need to call manually.
-- **Order**: Requirements themselves do not need to be ordered within the class definition, e.g. `def __eq__(self, other)` could come after `def __lt__(self, other)`.
-- **Returns**: Returns `True` or `False` boolean when called and printed.
-- **Performance**: Performance may be negatively impacted if decorators are called frequently.
+This decorator reduces redundant code in custom classes that require complete ordering behavior for comparisons, sorting, and equality checks.
 
 ## Syntax
-There are two approaches to `total_ordering` syntax:
 
-**Option 1 - Wrap**
-```codebyte/python
+```pseudo
 from functools import total_ordering
 
 @total_ordering
-class Name:
-    def __init__(self, first_comparison):
-        self.first_comparison = first_comparison
-
-    def __eq__(self, other):
-        return self.first_comparison == other.first_comparison
-
-    def __lt__(self, other):
-        return self.first_comparison < other.first_comparison
-```
-**Option 2 - Call**
-```codebyte/python
-from functools import total_ordering
-
-class Name:
-    def __init__(self, first_comparison):
-        self.first_comparison = first_comparison
-
-    def __eq__(self, other):
-        return self.first_comparison == other.first_comparison
-
-    def __lt__(self, other):
-        return self.first_comparison < other.first_comparison
-
-name = total_ordering(Name)
+class ClassName:
+  def __eq__(self, other): ...
+  def __lt__(self, other): ...
 ```
 
-## Example
-This example demonstrates that `total_ordering` defines missing rich comparison methods within a class.
-```codebyte/python
+**Parameters:**
+
+The `total_ordering()` decorator takes no parameters.
+
+**Return value:**
+
+Returns a class with the missing comparison methods (`__le__`, `__gt__`, and `__ge__`) automatically added.
+
+## Example 1: Numeric Wrapper Class
+
+The following example defines a class that compares wrapped numeric values. Only `__eq__()` and `__lt__()` are implemented; the rest are generated automatically:
+
+```py
 from functools import total_ordering
 
 @total_ordering
-class Age:
-    def __init__(self, age_number):
-        self.age_number = age_number
+class Number:
+  def __init__(self, value):
+    self.value = value
 
-    def __eq__(self, other):
-        return self.age_number == other.age_number
+  def __eq__(self, other):
+    return self.value == other.value
 
-    def __lt__(self, other):
-        return self.age_number < other.age_number
+  def __lt__(self, other):
+    return self.value < other.value
 
-#The __gt__ method (greater than) was not defined explicitly in the code above. That's where total_ordering can help!
-print(Age(20) > Age(60))
+print(Number(3) < Number(4))
+print(Number(5) >= Number(5))
+print(Number(7) > Number(1))
 ```
-Here is the output:
-```
-False
-```
-This example demonstrates the customization capabilities when using rich comparison methods and total_ordering.
-```codebyte/python
-from functools import total_ordering
 
-@total_ordering
-class Sky_Color:
-    def __init__(self, color):
-        self.color = color
+The outout of this code is:
 
-#The __eq__ method (equal to) is customized and defined as 'not equal to blue' within this class. Any class object that is not equal to blue will return a True boolean.
-    def __eq__(self, other):
-        return self.color != "blue"
-
-    def __lt__(self, other):
-        return self.color < other.color
-
-blue_color = "blue"
-print(f"Is the sky {blue_color}?")
-print(f"{blue_color == Sky_Color(blue_color)}")
-
-#The class Sky_Color does not explicitly define the '!=' operator (Not Equal To). This is automically defined by the use of total_ordering.
-print(f"\nIs the sky never {blue_color}?")
-print(f"{blue_color != Sky_Color(blue_color)}")
-```
-This will print:
-```
-Is the sky blue?
-False
-
-Is the sky never blue?
+```shell
+True
+True
 True
 ```
+
+## Example 2: Ordering Strings by Length
+
+This example demonstrates ordering based on string length instead of direct string comparison:
+
+```py
+from functools import total_ordering
+
+@total_ordering
+class Word:
+  def __init__(self, text):
+    self.text = text
+
+  def __eq__(self, other):
+    return len(self.text) == len(other.text)
+
+  def __lt__(self, other):
+    return len(self.text) < len(other.text)
+
+print(Word("apple") < Word("banana"))
+print(Word("kiwi") == Word("pear"))
+print(Word("grape") > Word("fig"))
+```
+
+The output of this code is:
+
+```shell
+True
+True
+True
+```
+
+## Codebyte Example: Prioritizing Tasks
+
+The following codebyte defines a class where objects are ordered by priority value:
+
+```codebyte/python
+from functools import total_ordering
+
+@total_ordering
+class Task:
+  def __init__(self, name, priority):
+    self.name = name
+    self.priority = priority
+
+  def __eq__(self, other):
+    return self.priority == other.priority
+
+  def __lt__(self, other):
+    return self.priority > other.priority
+
+tasks = [
+  Task("Write report", 2),
+  Task("Fix bugs", 5),
+  Task("Plan sprint", 3)
+]
+
+tasks.sort()
+for t in tasks:
+  print(t.name, t.priority)
+```
+
+Higher priority numbers are treated as greater for sorting purposes.
