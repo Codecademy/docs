@@ -58,21 +58,21 @@ The code returns the following output:
 <class 'collections.UserList'>
 ```
 
-Through the `data` attribute, it is possible to access the `ul` content and its built-in methods:
+The `UserList` behaves like a standard list, but its contents are stored in the `data` attribute:
 
 ```py
-print(ul.data)  # Output: ['USD', 'GBP', 'EUR']
+print(ul.data)  # Access the underlying list
 
-# Append a new item to the UserList object
-ul.data.append('$')
-print(ul.data)
+# Append a new item
+ul.append('$')
+print(ul)
 
-# Remove the item
-ul.data.remove('$')
+# Remove an item
+ul.remove('$')
 
 # Sort the list-like object in ascending order
-ul.data.sort()
-print(ul.data)
+ul.sort()
+print(ul)
 ```
 
 The above code will return the following output:
@@ -83,7 +83,7 @@ The above code will return the following output:
 ['EUR', 'GBP', 'USD']
 ```
 
-## Codebyte Example: Creating a Custom List Using UserList
+## Codebyte Example: Creating a Custom List Using `UserList`
 
 The following example demonstrates how `UserList` can be subclassed to restrict unwanted behavior, here, preventing negative numbers from being added:
 
