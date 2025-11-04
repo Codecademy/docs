@@ -4,7 +4,6 @@ Description: 'Returns the repeated elements of an array.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Web Development'
 Tags:
   - 'Arrays'
   - 'Data Structures'
@@ -15,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.repeat()`** method of a NumPy [narray](https://www.codecademy.com/resources/docs/numpy/ndarray) returns a new array where each element is repeated a specified number of times. It can repeat all elements in a flattened array or along a particular axis in multidimensional arrays.
+The **`.repeat()`** method of a NumPy `ndarray` returns a new array where each element is repeated a specified number of times. It can repeat all elements in a flattened array or along a particular axis in multidimensional arrays.
 
 ## Syntax
 
@@ -26,7 +25,7 @@ ndarray.repeat(repeats, axis=None)
 **Parameters:**
 
 - `repeats`: Integer or array of integers. Specifies how many times each element should be repeated. If an array, it must match the length of the axis being repeated.
-- `axis` (Optional): The axis along which to repeat values. If `None`, the array is flattened before repetition.
+- `axis` (Optional): The axis along which the values are to be repeated. If `None`, the array is flattened before repetition.
 
 **Return value:**
 
@@ -34,7 +33,7 @@ A new array with repeated elements. The resulting shape depends on the `repeats`
 
 ## Example
 
-The following example creates an `ndarray` then uses `.repeat()` to repeat the elements:
+The following example creates an `ndarray`, then uses `.repeat()` to repeat the elements:
 
 ```py
 import numpy as np
