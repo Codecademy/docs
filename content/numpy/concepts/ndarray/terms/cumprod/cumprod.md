@@ -9,13 +9,12 @@ Tags:
   - 'Linear Algebra'
   - 'Matrices'
   - 'NumPy'
-  - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-In ndarray, the **`.cumprod()`** method returns the cumulative product of the array elements over a specified axis. This method belongs to the `ndarray` class.
+In NumPy, the **`.cumprod()`** method returns the cumulative product of the array elements over a particular axis. This method belongs to the `ndarray` class.
 
 ## Syntax
 
@@ -31,7 +30,7 @@ ndarray.cumprod(axis=None, dtype=None, out=None)
 
 **Return value:**
 
-Returns a new array containing the cumulative product of elements along the specified axis. If `out` is provided, the result is placed into it.
+Returns a new array that contains the cumulative product of elements along the specified axis. If `out` is provided, the result is placed into it.
 
 ## Example 1: Cumulative Product of a 1D Array
 
@@ -80,7 +79,7 @@ print("\nCumulative product along columns (axis=0):")
 print(col_cumprod)
 ```
 
-The output of this code:
+The output of this code is:
 
 ```shell
 Original array:
