@@ -13,8 +13,7 @@ CatalogContent:
   - 'py-torch-for-classification'
 ---
 
-The **`.remainder()`** function computes the element-wise remainder of division between two tensors or between a tensor and a scalar. The result always has the same sign as the divisor, unlike torch.fmod(), which matches the sign of the dividend.
-This operation works with both integer and floating-point tensors.
+In PyTorch, the **`.remainder()`** function computes the element-wise remainder of division between two tensors or between a tensor and a scalar. The result always has the same sign as the divisor, unlike `.fmod()`, which matches the sign of the dividend. This operation works with both integer and floating-point tensors.
 
 ## Syntax
 
@@ -35,26 +34,26 @@ Returns a tensor containing the element-wise remainder of the division.
 - If `other` is a scalar, the operation is applied using the same divisor for all elements.
 - If `other` is a tensor, element-wise division is performed.
 
-## Example 1: Divide a 1D tensor by an integer
+## Example 1: Divide a 1D Tensor by an Integer
 
 This example computes the remainder of each element in `x` when divided by 2, keeping the sign consistent with the divisor:
 
 ```py
 import torch
 
-x = torch.tensor([-3, -2, -1, 0, 1, 2, 3])
-print(torch.remainder(x, 2))
+x = torch.tensor([-3, -4, -1, -6, 4, 7, 8])
+print(torch.remainder(x, 3))
 ```
 
 The output of this code is:
 
 ```shell
-tensor([1, 0, 1, 0, 1, 0, 1])
+tensor([0, 2, 2, 0, 1, 1, 2])
 ```
 
-## Example 2: Divide a 2D tensor by an integer
+## Example 2: Divide a 2D Tensor by an Integer
 
-In this example each negative number wraps around within the range `[0, 4)` since the remainder must match the divisor’s sign:
+In this example, each negative number wraps around within the range `[0, 4)` since the remainder must match the divisor’s sign:
 
 ```py
 import torch
@@ -71,7 +70,7 @@ tensor([[1, 2, 3],
         [3, 2, 1]])
 ```
 
-## Example 3: Divide a tensor by another tensor
+## Example 3: Divide a Tensor by Another Tensor
 
 This example demonstrates element-wise remainder calculation between two tensors of the same shape:
 
@@ -89,9 +88,9 @@ The output of this code is:
 tensor([ 1,  1, -1, -1])
 ```
 
-> **Note:** If `input` and `other` don’t share the same shape, PyTorch tries automatic size expansion (broadcasting). Dimensions match when they’re equal or one of them is 1 (aligned from the right). If no match is possible, a size-mismatch error is raised. For example: shape `(2, 3)` ÷ `(3,) → expands to (2, 3)` or shape `(2, 3)` ÷ `(2,) → mismatch.`
+> **Note:** If `input` and `other` don’t share the same shape, PyTorch tries automatic size expansion (broadcasting). Dimensions match when they’re equal or one of them is 1 (aligned from the right). If no match is possible, a size-mismatch error is raised.
 
-## Example 4: Divide a floating-point tensor by a number
+## Example 4: Divide a Floating-Point Tensor by a Number
 
 This example calculates remainders for floating-point values, preserving the sign of the divisor:
 
