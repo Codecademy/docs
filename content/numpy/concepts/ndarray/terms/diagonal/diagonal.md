@@ -9,13 +9,12 @@ Tags:
   - 'Linear Algebra'
   - 'Matrices'
   - 'NumPy'
-  - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-The **`.diagonal()`** method returns the specified diagonal elements of a [NumPy](https://www.codecademy.com/resources/docs/numpy) array. For 2D arrays, the diagonal consists of elements where the row index equals the column index (or with an offset). For multi-dimensional arrays, the axes specified by `axis1` and `axis2` define the matrix dimensions from which to extract the diagonal.
+The **`.diagonal()`** method returns the specified diagonal elements of a NumPy array. For 2D arrays, the diagonal consists of elements where the row index equals the column index (or with an offset). For multi-dimensional arrays, the axes specified by `axis1` and `axis2` define the matrix dimensions from which to extract the diagonal.
 
 Unlike [`.trace()`](https://www.codecademy.com/resources/docs/numpy/ndarray/trace), which returns the sum of diagonal elements, `.diagonal()` returns the actual diagonal elements as an array. This method typically returns a view rather than a copy, making it memory-efficient for large arrays.
 
