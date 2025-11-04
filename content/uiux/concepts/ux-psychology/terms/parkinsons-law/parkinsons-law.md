@@ -20,8 +20,6 @@ Originally coined by Cyril Northcote Parkinson, this idea explains why tasks oft
 
 Understanding Parkinson’s Law helps designers create experiences that feel _efficient, focused, and time-aware_.
 
-![Graph showing effort relative to time available](https://raw.githubusercontent.com/Codecademy/docs/main/media/parkinsons-law-graph-img.png)
-
 ## Application of Parkinson’s Law in UX Design
 
 In digital products, time constraints, whether real or perceived, strongly influence how users behave.
