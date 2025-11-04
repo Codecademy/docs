@@ -638,3 +638,46 @@ This example results in the following output:
 -4
 ```
 The initial value acts as a baseline for comparison. Since all array values are greater than `-10`, the maximum value `-4` is returned.
+
+<br/>
+
+###### e. Empty array with initial
+```py
+import numpy as np
+
+arr = np.array([])
+
+# Works only when initial is provided
+result = arr.max(initial=5)
+
+print(result)
+```
+
+This example results in the following output:
+
+```shell
+5
+```
+When the array is empty, the `initial` value is returned.
+Without `initial`, an empty array would cause a `ValueError`.
+
+<br/>
+
+###### f. Using initial to define a safe fallback
+```py
+import numpy as np
+
+arr = np.array([-3, -9, -1])
+
+# Use initial to ensure at least 0 is returned, even if all are negative
+result = arr.max(initial=0)
+
+print(result)
+```
+
+This example results in the following output:
+
+```shell
+0
+```
+Even though all elements are negative, `initial=0` ensures a non-negative fallback result
