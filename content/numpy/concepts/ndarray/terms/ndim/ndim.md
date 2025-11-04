@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.ndim`** attribute returns the number of dimensions (axes) of a [NumPy array](https://www.codecademy.com/resources/docs/numpy/ndarray). A 1D array acts like a list, a 2D array forms a matrix, and higher dimensions represent tensors which are common in data science and machine learning.
+The **`ndim`** attribute returns the number of dimensions (axes) of a [NumPy array](https://www.codecademy.com/resources/docs/numpy/ndarray). A 1D array acts like a list, a 2D array forms a matrix, and higher dimensions represent tensors which are common in data science and machine learning.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ The `.ndim` attribute takes no parameters.
 
 Returns an integer representing the number of array dimensions (axes).
 
-## Example 1: Checking Dimensions of Different Arrays
+## Example: Checking Dimensions of Different Arrays
 
 This example demonstrates how `ndim` behaves for 0D (scalar), 1D (list), and 2D (matrix) arrays:
 
@@ -62,7 +62,7 @@ The output of this code is:
 Dimensions: 2
 ```
 
-## Codebyte Example: Using `.ndim` in a NumPy Operation
+## Codebyte Example: Using `ndim` in a NumPy Operation
 
 In this example, `ndim` is used to identify the number of dimensions in different types of image data like grayscale (2D) and color (3D):
 
