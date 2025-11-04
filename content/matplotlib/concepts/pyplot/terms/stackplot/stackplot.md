@@ -1,5 +1,5 @@
 ---
-Title: 'stackplot()'
+Title: '.stackplot()'
 Description: 'Creates a stacked area plot to show how multiple datasets contribute cumulatively over time or categories.'
 Subjects:
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`stackplot()`** method in matplotlib creates stacked area plots (also known as stacked area charts) that display multiple datasets as vertically stacked areas. Each area represents the cumulative contribution of different categories to a total, making it ideal for visualizing proportional relationships as those relationships change over time.
+The **`.stackplot()`** method in Matplotlib creates stacked area plots (also known as stacked area charts) that display multiple datasets as vertically stacked areas. Each area represents the cumulative contribution of different categories to a total, making it ideal for visualizing proportional relationships as those relationships change over time.
 
 ## Syntax
 
@@ -66,7 +66,7 @@ plt.legend(loc='upper left')
 plt.show()
 ```
 
-This creates a stacked area chart where each colored area represents a product category's contribution to total sales.
+This creates a stacked area chart where each colored area represents a product category's contribution to total sales:
 
 ![Stackplot Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/stackplot-example.png)
 
@@ -98,6 +98,6 @@ plt.grid(True, alpha=0.3)
 plt.show()
 ```
 
-This creates a basic stacked area plot with three data series, demonstrating the fundamental structure of stackplot visualizations.
+This creates a basic stacked area plot with three data series, demonstrating the fundamental structure of stackplot visualizations:
 
 ![Stackplot Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/stackplot-example-2.png)
