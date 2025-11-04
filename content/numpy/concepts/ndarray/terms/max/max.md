@@ -2525,3 +2525,257 @@ This example results in the following output:
 [3.4] (1,)
 ```
 Preserves a `(1,)` shape while selecting the larger of the array max and the baseline.
+
+<br/>
+
+#### J) `where` and `initial` Together
+###### a. Basic mask (no fallback needed)
+```py
+import numpy as np
+arr = np.array([[2, 8, 5],
+                [4, 1, 9]])
+mask = arr > 5
+res = arr.max(where=mask)
+print(res)
+```
+This example results in the following output:
+```shell
+9
+```
+Considers only elements greater than 5; at least one match exists, so no baseline is needed.
+
+<br/>
+
+###### b. Full-True mask with low baseline (ignored)
+```py
+import numpy as np
+arr = np.array([[2, 8, 5],
+                [4, 1, 9]])
+mask = np.ones_like(arr, dtype=bool)
+res = arr.max(where=mask, initial=3)
+print(res)
+```
+This example results in the following output:
+```shell
+9
+```
+All elements are valid; the array’s true maximum beats the baseline 3.
+
+<br/>
+
+###### c. Full-True mask with high baseline (dominates)
+```py
+import numpy as np
+arr = np.array([[2, 8, 5],
+                [4, 1, 9]])
+mask = np.ones_like(arr, dtype=bool)
+res = arr.max(where=mask, initial=12)
+print(res)
+```
+This example results in the following output:
+```shell
+12
+```
+Because the baseline exceeds every element, the result is the baseline.
+
+<br/>
+
+###### d. Sparse mask (select specific positions)
+```py
+import numpy as np
+arr = np.array([[10, 20, 30],
+                [40, 50, 60]])
+mask = np.zeros_like(arr, dtype=bool)
+mask[0, 2] = True; mask[1, 1] = True
+res = arr.max(where=mask)
+print(res)
+```
+This example results in the following output:
+```shell
+50
+```
+Only positions (0,2) and (1,1) are compared; 50 is the maximum among selected entries.
+
+<br/>
+
+###### e. All-False mask with safe fallback
+```py
+import numpy as np
+arr = np.array([[3, 5],
+                [2, 4]])
+mask = np.zeros_like(arr, dtype=bool)   # No positions selected
+res = arr.max(where=mask, initial=-1)
+print(res)
+```
+This example results in the following output:
+```shell
+-1
+```
+No elements are eligible; the baseline supplies a safe, explicit fallback result.
+
+<br/>
+
+###### f. 1D array with condition and baseline
+```py
+import numpy as np
+arr = np.array([2, 11, 4, 7, 10])
+mask = (arr % 2) == 0                 # Evens only
+res = arr.max(where=mask, initial=0)
+print(res)
+```
+This example results in the following output:
+```shell
+10
+```
+Compares only even numbers; 10 wins over the baseline 0.
+
+<br/>
+
+###### g. Comparison-based mask from another array
+```py
+import numpy as np
+arr = np.array([[2, 8, 5],
+                [4, 6, 9]])
+thr = np.array([[3, 7, 1],
+                [5, 0, 8]])
+mask = arr > thr
+res = arr.max(where=mask, initial=0)
+print(res)
+```
+This example results in the following output:
+```shell
+9
+```
+Mask is built by `arr > thr`; the maximum over permitted positions is 9, exceeding the baseline.
+
+<br/>
+
+###### h. 3D array with thresholded mask
+```py
+import numpy as np
+arr = np.arange(24).reshape(2, 3, 4)   # 0..23
+mask = arr >= 20
+res = arr.max(where=mask, initial=0)
+print(res)
+```
+This example results in the following output:
+```shell
+23
+```
+Only values ≥ 20 are considered; the maximum among them is 23.
+
+<br/>
+
+###### i. Negative inputs with nonnegative floor
+```py
+import numpy as np
+arr = np.array([-8, -4, -6])
+mask = arr > -7                      # Select -4 and -6
+res = arr.max(where=mask, initial=0)
+print(res)
+```
+This example results in the following output:
+```shell
+0
+```
+The baseline 0 exceeds all selected negatives, ensuring a nonnegative result.
+
+<br/>
+
+###### j. Float array with float baseline
+```py
+import numpy as np
+arr = np.array([1.2, 3.4, 2.8])
+mask = arr > 2.0
+res = arr.max(where=mask, initial=2.5)
+print(res)
+```
+This example results in the following output:
+```shell
+3.4
+```
+Considers values greater than 2.0; 3.4 beats the baseline 2.5.
+
+<br/>
+
+###### k. Runtime threshold baseline pattern
+```py
+import numpy as np
+arr = np.array([3, 5, 9, 1, 7])
+threshold = 6
+mask = arr > threshold
+res = arr.max(where=mask, initial=threshold)
+print(res)
+```
+This example results in the following output:
+```shell
+9
+```
+A common pattern: use the same threshold for both masking and fallback.
+
+<br/>
+
+###### l. Broadcast row mask (2×3) with baseline
+```py
+import numpy as np
+arr = np.array([[2, 8, 5],
+                [4, 1, 9]])
+row_mask = np.array([[True],
+                     [False]])       # Use only first row
+res = arr.max(where=row_mask, initial=-1)
+print(res)
+```
+This example results in the following output:
+```shell
+8
+```
+Broadcasts a (2,1) mask across columns; the result is the maximum from the first row, compared against the baseline.
+
+<br/>
+
+###### m. Empty array with `initial`
+```py
+import numpy as np
+arr = np.array([], dtype=int)
+res = arr.max(where=True, initial=7)
+print(res)
+```
+This example results in the following output:
+```shell
+7
+```
+For empty arrays, `initial` provides the only valid result, avoiding errors.
+
+<br/>
+
+###### n. Baseline equal to the true maximum
+```py
+import numpy as np
+arr = np.array([3, 7, 2])
+mask = np.ones_like(arr, dtype=bool)
+res = arr.max(where=mask, initial=7)
+print(res)
+```
+This example results in the following output:
+```shell
+7
+```
+If `initial` equals the actual maximum, the result remains unchanged but still validated.
+
+<br/>
+
+###### o. Scalar broadcast mask (`where=True`/`where=False`)
+```py
+import numpy as np
+arr = np.array([2, 4, 6])
+res_true = arr.max(where=True, initial=0)
+res_false = arr.max(where=False, initial=-5)
+print(res_true, res_false)
+```
+This example results in the following output:
+```shell
+6 -5
+```
+A scalar `True` includes all elements; scalar `False` excludes all, so baseline alone is returned.
+
+<br/>
