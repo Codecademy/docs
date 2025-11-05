@@ -23,7 +23,7 @@ queue.emplace(args...)
 
 **Parameters:**
 
-- `args…` (variadic template parameters): Arguments forwarded to construct the new element of type `T`.
+- `args...` (variadic template parameters): Arguments forwarded to construct the new element of type `T`.
 
 **Return value:**
 
