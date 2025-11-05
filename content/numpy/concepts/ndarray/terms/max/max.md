@@ -130,6 +130,8 @@ This example results in the following output:
 
 <br/>
 
+---
+
 #### B) `out`
 ###### a. Preallocate output buffer for column-wise maxima.
 ```py
@@ -244,6 +246,8 @@ This example results in the following output:
 
 <br/>
 
+---
+
 #### C) `keepdims`
 ###### a. Default behavior — `keepdims=False`
 ```py
@@ -318,6 +322,8 @@ With keepdims:    [[9]] Shape: (1, 1)
 The result value is the same, but `keepdims=True` retains an extra dimension, making it compatible for broadcasting with the original array.
 
 <br/>
+
+---
 
 #### D) `where`
 ###### a. Basic use: include only elements satisfying a condition
@@ -553,6 +559,8 @@ When no axis is provided, NumPy flattens both the array and mask before applying
 
 <br/>
 
+---
+
 #### E) `initial`
 ###### a. Default behavior — no `initial` provided
 ```py
@@ -683,6 +691,8 @@ This example results in the following output:
 Even though all elements are negative, `initial=0` ensures a non-negative fallback result
 
 <br/>
+
+---
 
 ### Multi-Parameter Examples
 #### A) `axis` + `out` Together
@@ -900,6 +910,8 @@ Flat buffer (reshaped) received result:
 Writes results into a reshaped view of a flat buffer, efficiently reusing memory.
 
 <br/>
+
+---
 
 #### B) `axis` and `keepdims` Together
 ###### a. 2D — `axis=None`, `keepdims=False` (default)
@@ -1198,6 +1210,8 @@ This example results in the following output:
 Computes the global maximum over the 1-D array; returns a scalar.
 
 <br/>
+
+---
 
 #### C) `axis` and `where` Together
 
@@ -1552,6 +1566,8 @@ Flattens and compares only elements that are even or greater than nine, returnin
 
 <br/>
 
+---
+
 #### D) `axis` and `initial` Together
 
 ###### a. 1D — `axis=0`, `initial` larger than all
@@ -1697,6 +1713,8 @@ This example results in the following output:
 For each row across depth, the result is `max(row_max, 5)`; only smaller rows are raised.
 
 <br/>
+
+---
 
 #### E) `out` and `keepdims` Together
 
@@ -1850,6 +1868,8 @@ This example results in the following output:
 Retains 2D shape `(1, 1)` while computing the overall maximum; useful for dimensional consistency.
 
 <br/>
+
+---
 
 #### F) `out` and `where` Together
 
@@ -2041,6 +2061,8 @@ The masked maximum overwrites the prefilled scalar buffer in place.
 
 <br/>
 
+---
+
 #### G) `out` and `initial` Together
 ###### a. Basic: `initial` smaller than the true max
 ```py
@@ -2188,6 +2210,8 @@ This example results in the following output:
 `np.max` mirrors `ndarray.max`; with `initial=8`, the true max (11) still wins.
 
 <br/>
+
+---
 
 #### H) `keepdims` and `where` Together
 ###### a. Basic 2D array with conditional mask, `keepdims=False` (default)
@@ -2363,6 +2387,8 @@ Keeps one dimension as size one (`(1,)`) while performing the same masked reduct
 
 <br/>
 
+---
+
 #### I) `keepdims` and `initial` Together
 ###### a. 2D — `keepdims=False` (default), baseline below true max
 ```py
@@ -2527,6 +2553,8 @@ This example results in the following output:
 Preserves a `(1,)` shape while selecting the larger of the array max and the baseline.
 
 <br/>
+
+---
 
 #### J) `where` and `initial` Together
 ###### a. Basic mask (no fallback needed)
@@ -2779,3 +2807,351 @@ This example results in the following output:
 A scalar `True` includes all elements; scalar `False` excludes all, so baseline alone is returned.
 
 <br/>
+
+---
+
+#### K) `axis` + `out` + `keepdims` (No Errors)
+###### a. 1D — `axis=0`, keep dimension, write to 1-D buffer
+```py
+import numpy as np
+arr = np.array([3, 9, 2])
+out_keep = np.empty((1,), dtype=arr.dtype)
+arr.max(axis=0, keepdims=True, out=out_keep)
+print(out_keep, out_keep.shape)
+```
+This example results in the following output:
+```shell
+[9] (1,)
+```
+Row is reduced but dimension is preserved; result goes into a `(1,)` buffer.
+
+<br/>
+
+###### b. 1D — axis=None, keep dimension, write to 1-D buffer
+```py
+import numpy as np
+arr = np.array([4, 1, 7])
+out_keep = np.empty((1,), dtype=arr.dtype)
+arr.max(axis=None, keepdims=True, out=out_keep)
+print(out_keep, out_keep.shape)
+```
+This example results in the following output:
+```shell
+[7] (1,)
+```
+Global maximum with `keepdims=True`; NumPy returns a `(1,)` result that fits the buffer.
+
+<br/>
+
+###### c. 2D — Global max with dims kept; write to `(1,1)` buffer
+```py
+import numpy as np
+arr = np.array([[2, 8, 5],
+                [4, 1, 9]])
+out_11 = np.empty((1, 1), dtype=arr.dtype)
+arr.max(axis=None, keepdims=True, out=out_11)
+print(out_11, out_11.shape)
+```
+This example results in the following output:
+```shell
+[[9]] (1, 1)
+```
+Flattens conceptually, but returns a `(1,1)` array because `keepdims=True`.
+
+<br/>
+
+###### d. 2D — `axis=-1` (last axis), keepdims; write to `(2,1)` buffer
+```py
+import numpy as np
+arr = np.array([[3, 1, 7],
+                [2, 9, 4]])
+out_21 = np.empty((2, 1), dtype=arr.dtype)
+arr.max(axis=-1, keepdims=True, out=out_21)
+print(out_21, out_21.shape)
+```
+This example results in the following output:
+```shell
+[[7]
+ [9]] (2, 1)
+```
+Per-row maxima using negative axis; reduced axis kept as size one.
+
+<br/>
+
+###### e. 3D — `axis=1`, no keepdims; write to `(2,4)` buffer
+```py
+import numpy as np
+arr = np.arange(24).reshape(2, 3, 4)   # (2,3,4)
+out_24 = np.empty((2, 4), dtype=arr.dtype)
+arr.max(axis=1, keepdims=False, out=out_24)
+print(out_24.shape); print(out_24)
+```
+This example results in the following output:
+```shell
+(2, 4)
+[[ 8  9 10 11]
+ [20 21 22 23]]
+```
+Reduces the middle axis; results stored directly in a `(2,4)` buffer.
+
+<br/>
+
+###### f. 3D — `axis=2`, keepdims; write to `(2,3,1)` buffer
+```py
+import numpy as np
+arr = np.arange(24).reshape(2, 3, 4)
+out_231 = np.empty((2, 3, 1), dtype=arr.dtype)
+arr.max(axis=2, keepdims=True, out=out_231)
+print(out_231.shape); print(out_231)
+```
+This example results in the following output:
+```shell
+(2, 3, 1)
+[[[ 3]
+  [ 7]
+  [11]]
+
+ [[15]
+  [19]
+  [23]]]
+```
+Reduces the last axis and preserves it as length-1 for easy broadcasting.
+
+<br/>
+
+###### g. 3D — `axis=1`, keepdims; write to `(2,1,4)` buffer
+```py
+import numpy as np
+arr = np.arange(24).reshape(2, 3, 4)
+out_214 = np.empty((2, 1, 4), dtype=arr.dtype)
+arr.max(axis=1, keepdims=True, out=out_214)
+print(out_214.shape); print(out_214)
+```
+This example results in the following output:
+```shell
+(2, 1, 4)
+[[[ 8  9 10 11]]
+
+ [[20 21 22 23]]]
+```
+Keeps the reduced middle axis as size one; buffer matches the preserved shape.
+
+<br/>
+
+###### h. 2D — `axis=0`, keepdims; write into a reshaped view buffer
+```py
+import numpy as np
+arr = np.array([[4, 6, 1],
+                [2, 9, 7]])
+flat = np.empty(3, dtype=arr.dtype)
+out_view = flat.reshape(1, 3)          # view with kept dim
+arr.max(axis=0, keepdims=True, out=out_view)
+print(out_view, out_view.shape)
+```
+This example results in the following output:
+```shell
+[[4 9 7]] (1, 3)
+```
+Stores column maxima into a reshaped view; demonstrates memory reuse with a kept dimension.
+
+<br/>
+
+###### i. 2D — Global max, `keepdims=False`, float out from int array
+```py
+import numpy as np
+arr = np.array([[2, 11, 4],
+                [3,  7, 6]], dtype=np.int32)
+out_scalar = np.empty((), dtype=np.float64)
+arr.max(axis=None, keepdims=False, out=out_scalar)
+print(out_scalar, out_scalar.shape)
+```
+This example results in the following output:
+```shell
+11.0 ()
+```
+Global max written to a 0-D float buffer; safe upcast from int to float.
+
+
+---
+
+###### Quick pointers
+- For `axis=None` with `keepdims=True`, match `out` to `(1,)*arr.ndim` (e.g., `(1,)`, `(1,1)`, `(1,1,1)`).
+- For `keepdims=False`, match `out` to the reduced shape (e.g., `(n,)`, `(m,n)`, or `()` for scalars).
+
+---
+
+<br/>
+
+#### `axis` + `out` + `where` (No Errors)
+###### a. 1D — `axis=0` with even mask → scalar in 0-D `out`
+```py
+import numpy as np
+arr = np.array([3, 10, 7, 12])
+mask = (arr % 2) == 0
+out0 = np.empty((), dtype=arr.dtype)     # 0-D buffer for scalar result
+arr.max(axis=0, where=mask, out=out0)
+print(out0, out0.shape)
+```
+This example results in the following output:
+```shell
+12 ()
+```
+Reduces a 1-D array along axis 0, comparing only even entries, and writes the scalar maximum to a 0-D buffer.
+
+<br/>
+
+###### b. 2D — `axis=0` with row broadcast mask `(2,1)`; result into `(ncols,)`
+```py
+import numpy as np
+arr = np.array([[2, 8, 5],
+                [4, 1, 9]])
+row_mask = np.array([[True],[False]])    # Use only first row across all columns
+out_cols = np.empty(3, dtype=arr.dtype)  # shape matches (ncols,)
+arr.max(axis=0, where=row_mask, out=out_cols)
+print(out_cols)
+```
+This example results in the following output:
+```shell
+[2 8 5]
+```
+Column-wise reduction that considers only the first row via broadcasting; results go directly into a 1-D buffer.
+
+<br/>
+
+###### c. 2D — `axis=1` with column mask `(1,n)`; result into `(nrows,)`
+```py
+import numpy as np
+arr = np.array([[2, 8, 5],
+                [4, 1, 9]])
+col_mask = np.array([[True, False, True]])  # choose columns 0 and 2
+out_rows = np.empty(2, dtype=arr.dtype)     # shape matches (nrows,)
+arr.max(axis=1, where=col_mask, out=out_rows)
+print(out_rows)
+```
+This example results in the following output:
+```shell
+[5 9]
+```
+Row-wise reduction that ignores masked-off columns; one maximum per row written to `out_rows`.
+
+<br/>
+
+###### d. 2D — `axis=-1` (last axis) with pairwise comparison mask; result into `(nrows,)`
+```py
+import numpy as np
+arr = np.array([[2, 8, 5],
+                [4, 6, 9]])
+thr = np.array([[1, 9, 0],
+                [4, 5, 8]])
+mask = arr > thr
+out_rows = np.empty(arr.shape[0], dtype=arr.dtype)
+arr.max(axis=-1, where=mask, out=out_rows)
+print(out_rows)
+```
+This example results in the following output:
+```shell
+[5 9]
+```
+Compares each row only where `arr > thr`, then writes each row’s maximum to a 1-D output buffer.
+
+<br/>
+
+###### e. 3D — `axis=0` with layer-select mask `(2,1,1)`; result into `(3,4)`
+```py
+import numpy as np
+arr = np.arange(24).reshape(2,3,4)               # (layers, rows, cols)
+mask = np.array([True, False])[:, None, None]     # take only first layer
+out_034 = np.empty((3,4), dtype=arr.dtype)
+arr.max(axis=0, where=mask, out=out_034)
+print(out_034.shape); print(out_034)
+```
+This example results in the following output:
+```shell
+(3, 4)
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]]
+```
+Reduces across layers using a broadcast mask that selects only layer 0; writes the 2-D result into `(3,4)`.
+
+<br/>
+
+###### f. 3D — `axis=1` with “at least one True per (batch,col)” mask; result into `(2,4)`
+```py
+import numpy as np
+arr = np.arange(24).reshape(2,3,4)
+mask = np.zeros_like(arr, dtype=bool)
+mask[:, 0, :] = True                      # ensure a valid candidate along axis=1
+out_24 = np.empty((2,4), dtype=arr.dtype)
+arr.max(axis=1, where=mask, out=out_24)
+print(out_24.shape); print(out_24)
+```
+This example results in the following output:
+```shell
+(2, 4)
+[[ 0  1  2  3]
+ [12 13 14 15]]
+```
+For each batch/column, at least one True ensures a defined maximum; results saved into `(2,4)`.
+
+<br/>
+
+###### g. 3D — `axis=2` with periodic mask `(1,1,4)`; result into `(2,3)`
+```py
+import numpy as np
+arr = np.arange(24).reshape(2,3,4)
+mask = np.array([True, False, True, False])[None, None, :]  # select indices 0 and 2
+out_23 = np.empty((2,3), dtype=arr.dtype)
+arr.max(axis=2, where=mask, out=out_23)
+print(out_23.shape); print(out_23)
+```
+This example results in the following output:
+```shell
+(2, 3)
+[[ 2  6 10]
+ [14 18 22]]
+```
+Reduces over the last axis considering only positions 0 and 2; writes per-row maxima to `(2,3)`.
+
+<br/>
+
+###### h. 2D — `axis=0` with reshaped view as `out` and broadcast row mask
+```py
+import numpy as np
+arr = np.array([[4, 6, 1],
+                [2, 9, 7]])
+row_mask = np.array([[True],[False]])       # first row only
+flat = np.empty(3, dtype=arr.dtype)         # flat storage
+out_view = flat.reshape(3)                   # view shaped for (ncols,)
+arr.max(axis=0, where=row_mask, out=out_view)
+print(out_view)                              # backed by the same memory as 'flat'
+```
+This example results in the following output:
+```shell
+[4 6 1]
+```
+Stores column-wise masked maxima into a reshaped view, demonstrating safe memory reuse.
+
+<br/>
+
+###### i. 1D — `axis=0` with float `out` upcast and threshold mask
+```py
+import numpy as np
+arr = np.array([1, 6, 3], dtype=np.int32)
+mask = arr >= 3
+out0f = np.empty((), dtype=np.float64)   # 0-D float buffer
+arr.max(axis=0, where=mask, out=out0f)
+print(out0f, out0f.shape)
+```
+This example results in the following output:
+```shell
+6.0 ()
+```
+Computes the masked scalar max and writes it to a 0-D float buffer, exercising safe dtype upcasting.
+
+<br/>
+
+---
+
+
+**Tip:** For scalar results (1-D with `axis=0`, or any shape with `axis=None`), use a **0-D** `out` buffer (`np.empty((), ...)`). For non-scalar results, match `out.shape` to the **reduced** shape.
