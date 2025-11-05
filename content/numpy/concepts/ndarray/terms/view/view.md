@@ -6,7 +6,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Array'
-  - 'Data View'
+  - 'Data'
   - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
