@@ -4,18 +4,17 @@ Description: 'Returns the number of dimensions (axes) of a NumPy array.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Data Science'
 Tags:
   - 'Arrays'
   - 'Attributes'
-  - 'Shape'
   - 'NumPy'
+  - 'Shape'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`ndim`** attribute returns the number of dimensions (axes) of a [NumPy array](https://www.codecademy.com/resources/docs/numpy/ndarray). A 1D array acts like a list, a 2D array forms a matrix, and higher dimensions represent tensors which are common in data science and machine learning.
+The **`ndim`** attribute returns the total number of dimensions (axes) of a NumPy array. A 1D array acts like a list, a 2D array forms a matrix, and higher dimensions represent tensors which are common in data science and machine learning.
 
 ## Syntax
 
@@ -25,7 +24,7 @@ ndarray.ndim
 
 **Parameters:**
 
-The `.ndim` attribute takes no parameters.
+The `ndim` attribute takes no parameters.
 
 **Return value:**
 
