@@ -3155,3 +3155,92 @@ Computes the masked scalar max and writes it to a 0-D float buffer, exercising s
 
 
 **Tip:** For scalar results (1-D with `axis=0`, or any shape with `axis=None`), use a **0-D** `out` buffer (`np.empty((), ...)`). For non-scalar results, match `out.shape` to the **reduced** shape.
+
+---
+
+<br/>
+
+#### `axis` + `out` + `initial` (No Errors)
+###### a. 1D — `axis=0`, scalar `out`, baseline dominates
+```py
+import numpy as np
+arr = np.array([3, 5, 1])
+out0 = np.empty((), dtype=arr.dtype)
+arr.max(axis=0, initial=10, out=out0)
+print(out0, out0.shape)
+```
+This example results in the following output:
+```shell
+10 ()
+```
+Reduces along the only axis; since `initial=10` > array max, the baseline is written to a 0-D buffer.
+
+<br/>
+
+###### b. 1D — `axis=0`, scalar `out`, baseline below true max
+```py
+import numpy as np
+arr = np.array([3, 5, 1])
+out0 = np.empty((), dtype=arr.dtype)
+arr.max(axis=0, initial=2, out=out0)
+print(out0)
+```
+This example results in the following output:
+```shell
+5
+```
+The true maximum (5) beats the baseline and is stored in-place.
+
+<br/>
+
+###### c. 2D — `axis=0` (columns), 1-D `out`, per-column baseline
+```py
+import numpy as np
+arr = np.array([[1, 4, 6],
+                [7, 2, 3]])
+# Column maxima are [7,4,6]; baseline lifts only columns below 5
+out_cols = np.empty(3, dtype=arr.dtype)
+arr.max(axis=0, initial=5, out=out_cols)
+print(out_cols)
+```
+This example results in the following output:
+```shell
+[7 5 6]
+```
+Writes column-wise results; each entry is `max(column_max, 5)`.
+
+<br/>
+
+###### d. 2D — `axis=1` (rows), 1-D `out`, high baseline
+```py
+import numpy as np
+arr = np.array([[1, 4, 6],
+                [7, 2, 3]])
+out_rows = np.empty(2, dtype=arr.dtype)
+arr.max(axis=1, initial=8, out=out_rows)
+print(out_rows)
+```
+This example results in the following output:
+```shell
+[8 8]
+```
+Each row’s maximum is compared with 8; both rows are raised to the baseline.
+
+<br/>
+
+###### e. 2D — `axis=-1` (last axis), 1-D `out`, moderate baseline
+```py
+import numpy as np
+arr = np.array([[2, 9, 5],
+                [4, 6, 3]])
+out_rows = np.empty(2, dtype=arr.dtype)
+arr.max(axis=-1, initial=6, out=out_rows)
+print(out_rows)
+```
+This example results in the following output:
+```shell
+[9 6]
+```
+Row maxima are compared with 6; the second row is lifted to 6.
+
+<br/>
