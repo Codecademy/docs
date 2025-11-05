@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`total_ordering()`** decorator from the functools module simplifies the creation of fully ordered classes. By defining the `__eq__()` method and one additional comparison method (`__lt__()`, `__le__()`, `__gt__()`, or `__ge__()`), all other rich comparison methods are automatically generated.
+In Python, the **`total_ordering()`** decorator from the `functools` module simplifies the creation of fully ordered classes. By defining the `__eq__()` method and one additional comparison method (`__lt__()`, `__le__()`, `__gt__()`, or `__ge__()`), all other rich comparison methods are automatically generated.
 
 This decorator reduces redundant code in custom classes that require complete ordering behavior for comparisons, sorting, and equality checks.
 
