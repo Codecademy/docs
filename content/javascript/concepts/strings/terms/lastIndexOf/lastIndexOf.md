@@ -26,6 +26,10 @@ string.lastIndexOf(searchValue, fromIndex)
 - `searchValue`: The substring to search for.
 - `fromIndex` (optional): The position to start searching backward from. Defaults to the string’s length.
 
+**Return value:**
+
+Returns an integer representing the index of the last occurrence of the specified substring within the string. If the substring isn’t found, it returns `-1`.
+
 ## Example 1: Finding the Last Mention of a Name
 
 In this example, a chat message contains multiple mentions of a person’s name, and the method finds the last one:
