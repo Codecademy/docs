@@ -1,6 +1,6 @@
 ---
 Title: 'Postel’s Law'
-Description: 'Postel’s Law, or the Robustness Principle, encourages flexible input handling while ensuring predictable output in UX design'
+Description: 'Postel’s Law, or the Robustness Principle, encourages flexible input handling while ensuring predictable output in UX design.'
 Subjects:
   - 'Web Design'
   - 'Web Development'
@@ -34,7 +34,7 @@ This principle reduces user frustration by allowing users to complete tasks even
 - **Increased usability and task success rates:** Flexible input handling prevents user errors from turning into blockers.
 - **Greater inclusivity and accessibility:** Supporting different patterns of interaction helps users with diverse needs and tools.
 - **Stronger resilience in edge cases:** Systems are less likely to crash or behave unexpectedly under unusual input conditions.
-- **Higher trust in the interface:** When users feel understood and supported, they are more likely to engage fully with a product.
+- **Higher trust in the interface:** When users feel understood and supported, they're more likely to engage fully with a product.
 
 ## When and Where to Apply Postel's Law
 
