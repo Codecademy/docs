@@ -18,8 +18,6 @@ This checksum helps detect errors in data transmission or storage by verifying t
 
 ## Syntax
 
-The method takes the binary data to be checked and an optional initial CRC value.
-
 ```pseudo
 binascii.crc_hqx(data, value)
 ```
@@ -35,7 +33,7 @@ Returns a 16-bit integer representing the computed CRC checksum of the input dat
 
 ## Example
 
-In this example, the checksum is computed for a byte string, once with a non-zero starting value and once with an initial value of 0:
+In this example, the checksum is computed for a byte string, once with a non-zero starting value and once with an initial value of `0`:
 
 ```py
 import binascii
@@ -64,7 +62,7 @@ CRC (starting from 0): 0x67ce
 
 ## Codebyte Example
 
-This example below computes the CRC-HQX checksum for a byte string using a starting value of 0:
+This example below computes the CRC-HQX checksum for a byte string using a starting value of `0`:
 
 ```codebyte/python
 import binascii
