@@ -1,45 +1,43 @@
 ---
 Title: '.crc_hqx()'
-Description: 'Computes the CRC-CCITT hash value for binary data, specifically using the CRC-HQX standard.'
+Description: 'Computes a 16-bit CRC (CRC-CCITT) checksum of binary data using the CRC-HQX algorithm.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Python'
-  - 'binascii'
-  - 'hashing'
-  - 'checksum'
+  - 'Algorithms'
+  - 'Functions'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`.crc_hqx()`** method is a function within Python's built-in `binascii` module used to compute a 16-bit Cyclic Redundancy Check (CRC) value. This specific implementation uses the parameters of the **CRC-HQX** standard (known for its use in the original Mac OS).
+The **`.crc_hqx()`** function in Python’s built-in `binascii` module computes a 16-bit Cyclic Redundancy Check (CRC) value using the CRC-HQX algorithm, commonly used in the original Mac OS.
 
-Checksums are primarily used to detect errors in data transmission or storage, ensuring that the data received is identical to the data sent.
+This checksum helps detect errors in data transmission or storage by verifying that the received data matches the original data.
 
 ## Syntax
 
 The method takes the binary data to be checked and an optional initial CRC value.
 
 ```pseudo
-binascii.crc_hqx(data, crc)
+binascii.crc_hqx(data, value)
 ```
 
-## Parameters
+**Parameters:**
 
-* `data` (bytes-like object): The binary data for which the CRC value should be calculated.
-* `crc` (integer): An optional 16-bit starting value for the checksum calculation. If omitted, the initial value is `0`.
+- `data` (bytes-like object): The binary data for which the CRC value is computed.
+- `value` (integer): An optional 16-bit starting value for the checksum calculation. If omitted, the initial value is `0`.
 
-## Return Value
+**Return value:**
 
-Returns an integer representing the 16-bit CRC-HQX checksum of the input data.
+Returns a 16-bit integer representing the computed CRC checksum of the input data, according to the CRC-HQX algorithm.
 
 ## Example
 
-This example demonstrates computing the checksum for a short byte string, both with and without an initial CRC value.
+In this example, the checksum is computed for a byte string, once with a non-zero starting value and once with an initial value of 0:
 
-```python
+```py
 import binascii
 
 data = b"Codecademy Docs"
@@ -56,19 +54,19 @@ print(f"CRC (with initial value 0xAAAA): 0x{crc_with_initial:04x}")
 print(f"CRC (starting from 0): 0x{crc_without_initial:04x}")
 ```
 
-**Output:**
+The output of this code is:
 
 ```shell
 Data: b'Codecademy Docs'
-CRC (with initial value 0xAAAA): 0x05f0
-CRC (starting from 0): 0xa663
+CRC (with initial value 0xAAAA): 0x134c
+CRC (starting from 0): 0x67ce
 ```
 
-## Codebyte
+## Codebyte Example
 
-Use the Codebyte below to calculate the CRC-HQX checksum for your own byte string.
+This example below computes the CRC-HQX checksum for a byte string using a starting value of 0:
 
-```python
+```codebyte/python
 import binascii
 
 data_to_check = b"Python Contributor"
