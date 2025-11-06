@@ -3244,3 +3244,21 @@ This example results in the following output:
 Row maxima are compared with 6; the second row is lifted to 6.
 
 <br/>
+
+###### f. 3D — `axis=0` (across layers), 2-D `out`, baseline fills low cells
+```py
+import numpy as np
+arr = np.arange(24).reshape(2,3,4)  # (layers, rows, cols)
+out_2d = np.empty((3,4), dtype=arr.dtype)
+arr.max(axis=0, initial=15, out=out_2d)
+print(out_2d)
+```
+This example results in the following output:
+```shell
+[[15 15 15 15]
+ [16 17 18 19]
+ [20 21 22 23]]
+```
+For each (row,col), result is `max(max_over_layers, 15)`; only early positions are lifted
+
+<br/>
