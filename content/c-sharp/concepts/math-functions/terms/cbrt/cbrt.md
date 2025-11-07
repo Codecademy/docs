@@ -1,5 +1,5 @@
 ---
-Title: '.Cbrt()'
+Title: 'Cbrt()'
 Description: 'Returns the cube root of the given number.'
 Subjects:
   - 'Computer Science'
@@ -13,23 +13,31 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.Cbrt()`** method returns the cube root of the number given.
+The **`Math.Cbrt()`** method in C# returns the cube root of a given number. It handles positive, negative, and special floating-point values such as `NaN` and infinities.
 
 ## Syntax
+
 ```pseudo
-Math.Cbrt(x);
+Math.Cbrt(double x)
 ```
 
-The method takes only one parameter, the variable `x`, of type `double`. The function will return a value of type `double` unless the value passed is one of the following:
+**Parameters:**
+
+- `x` (double): The number whose cube root is to be calculated.
+
+**Return value:**
+
+The function will return a value of type `double` unless the value passed is one of the following:
 
 - If `x` is `NaN`, the function will return `NaN`.
 - If `x` is `PositiveInfinity`, the function will return `PositiveInfinity`.
 - If `x` is `NegativeInfinity`, the function will return `NegativeInfinity`.
-- If `x` is negative, the function will return the real cube root (a negative value).
+- If `x` is negative, returns the real cube root (a negative number).
 
 ## Example
 
-The following example demonstrates the `Math.Cbrt()` method. Four different values are passed to the method, and the return values are printed with the `Console.WriteLine()` method.
+In this example, different numeric values are passed to `Math.Cbrt()` to calculate their cube roots:
+
 ```cs
 using System;
 
@@ -51,16 +59,18 @@ namespace MyCubeRoot {
 ```
 
 This example results in the following output:
+
 ```shell
-3
+3.0000000000000004
 -2
 10
-0.5
+0.49999999999999994
 ```
 
 ## Codebyte Example
 
-The following example is runnable and uses the `Math.Cbrt()` method to return a `double` type value of the cube root of `64`:
+In this example, the cube root of 64 is calculated using `Math.Cbrt()` and printed to the console:
+
 ```codebyte/csharp
 using System;
 
