@@ -1,6 +1,6 @@
 ---
 Title: 'CopySign()'
-Description: 'Returns a value with the magnitude of one number and the sign of another.'
+Description: 'Returns a value with the magnitude of the first operand and the sign of the second operand.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -14,28 +14,28 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The C# **`Math.CopySign()`** method returns a value with the magnitude of the first argument and the sign of the second argument. It is helpful when aligning numeric signs while preserving absolute values.
+The **`Math.CopySign()`** method in C# returns a value that combines the magnitude of the first argument with the sign of the second. It’s useful for matching the sign of one number to another while keeping the original magnitude.
 
 ## Syntax of C# `Math.CopySign()`
 
 ```pseudo
-Math.CopySign(magnitude, sign);
+Math.CopySign(double x, double y)
 ```
 
 **Parameters:**
 
-- `magnitude`: A `double` or `float` whose absolute value will be used in the result.
-- `sign`: A `double` or `float` whose sign will be applied to the result.
+- `x` (double): The value whose magnitude (absolute value) will be used.
+- `y` (double): The value whose sign will be applied to the result.
 
 **Return value:**
 
-- Returns a `double` or `float` that combines the magnitude of `magnitude` with the sign of `sign`.
-- If `magnitude` is `NaN`, the result is `NaN`.
-- If `sign` is `NaN`, the result preserves the magnitude of `magnitude` with a positive sign.
+- Returns a `double` value with the magnitude of `x` and the sign of `y`.
+- If `x` is `NaN`, the result is `NaN`.
+- If `y` is `NaN`, the result is treated as if `y` were positive.
 
-## Example
+## Example: Adjusting velocity based on direction
 
-The following example keeps a projectile speed positive while matching the direction of a steering input:
+In this example, `Math.CopySign()` is used to adjust a projectile’s velocity so that its direction matches a steering input:
 
 ```cs
 using System;
@@ -60,7 +60,9 @@ This program outputs:
 Adjusted velocity: -18.75
 ```
 
-## Codebyte Example
+## Codebyte Example: Standardizing numeric sign alignment
+
+In this example, `Math.CopySign()` ensures a set of magnitudes follow given directional signs, even when the sign is `NaN`:
 
 ```codebyte/csharp
 using System;
