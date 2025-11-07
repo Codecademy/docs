@@ -39,7 +39,7 @@ Math.Truncate(decimal d)
 
 > **Note:** `Math.Truncate()` always rounds towards zero. This means `Math.Truncate(2.8)` is 2, and `Math.Truncate(-2.8)` is -2. This is different from `Math.Floor()`, which always rounds down (e.g., `Math.Floor(-2.8)` would be -3).
 
-## Example 1: Using double
+## Example 1: Using `double`
 
 In this example, a double value is truncated to its integer part:
 
@@ -64,7 +64,7 @@ Truncating 12.9 gives: 12
 Truncating -4.7 gives: -4
 ```
 
-## Example 2: Using decimal
+## Example 2: Using `decimal`
 
 In this example, a `decimal` value is truncated without using the `m` suffix by explicitly casting a `double` to `decimal`:
 
