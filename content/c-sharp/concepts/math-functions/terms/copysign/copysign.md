@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`Math.CopySign()`** method in C# returns a value that combines the magnitude of the first argument with the sign of the second. It’s useful for matching the sign of one number to another while keeping the original magnitude.
 
-## Syntax of C# `Math.CopySign()`
+## Syntax
 
 ```pseudo
 Math.CopySign(double x, double y)
