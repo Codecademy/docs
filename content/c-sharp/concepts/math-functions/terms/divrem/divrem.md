@@ -2,12 +2,12 @@
 Title: '.DivRem()'
 Description: 'Calculates the quotient of two numbers and returns the remainder in an output parameter.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
+  - 'Arithmetic'
   - 'Methods'
   - 'Numbers'
-  - 'Arithmetic'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
@@ -18,12 +18,16 @@ The **`.DivRem()`** method calculates the quotient of two numbers and returns th
 ## Syntax
 
 ```pseudo
-Math.DivRem(dividend, divisor, out remainder)
+public static long DivRem(long dividend, long divisor, out long remainder);
 ```
+
+**Parameters:**
 
 - `dividend`: The number to be divided (type `int` or `long`).
 - `divisor`: The number to divide by (type `int` or `long`).
 - `remainder`: An output parameter that receives the remainder (type `int` or `long`).
+
+**Return value:**
 
 The method returns the quotient as an `int` or `long` depending on the parameter types used.
 
