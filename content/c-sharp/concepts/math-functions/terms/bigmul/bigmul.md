@@ -1,6 +1,6 @@
 ---
 Title: '.BigMul()'
-Description: 'Returns the full product of two integers, preventing overflow.'
+Description: 'Multiplies two integer values and returns the full extended result to prevent overflow.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.BigMul()`** method multiplies two integers of the same type and returns the full product as a larger data type to prevent overflow.
+The **`Math.BigMul()`** method multiplies two integer values and returns the full extended result to avoid overflow. It ensures that the product fits within a larger data type when the operands are 32-bit or 64-bit integers.
 
 ## Syntax
 
@@ -32,32 +32,25 @@ Returns the full product of `x` and `y` as a single 64-bit or 128-bit integer, d
 - If `x` and `y` are of type `int` or `uint`, the return type is `long` and `ulong`, respectively.
 - If `x` and `y` are of type `long` or `ulong`, the return type is `Int128` and `UInt128`, respectively.
 
-> **Note:** The `Int128` and `UInt128` types are available starting in .NET 9. For earlier versions, use the three-parameter overload of `Math.BigMul()` to split the result into high and low 64-bit parts.
+> **Note:** The `Int128` and `UInt128` types were introduced in .NET 7. In earlier versions, `Math.BigMul(long, long, out long high)` can be used to obtain the high and low 64-bit parts of the product.
 
 ## Example: Basic Usage
 
-The following example computes the full product of two `int` values and two `long` values:
+In this example, the full product of two `int` values is calculated without overflow:
 
 ```cs
 using System;
 
 public class Example {
-  public static void Main (string[] args) {
+  public static void Main() {
     // Integer values (32-bit)
     int intX = 100000;
     int intY = 500000;
 
-    // Long values (64-bit)
-    long longX = -3000000000;
-    long longY = 4000000000;
-
-    // Compute the products
+    // Compute the product safely
     long intResult = Math.BigMul(intX, intY);
-    Int128 longResult = Math.BigMul(longX, longY);
 
-    // Display results
     Console.WriteLine($"Math.BigMul({intX}, {intY}) = {intResult}");
-    Console.WriteLine($"Math.BigMul({longX}, {longY}) = {longResult}");
   }
 }
 ```
@@ -66,7 +59,6 @@ This example outputs the following:
 
 ```shell
 Math.BigMul(100000, 500000) = 50000000000
-Math.BigMul(-3000000000, 4000000000) = -12000000000000000000
 ```
 
 ## Codebyte Example
