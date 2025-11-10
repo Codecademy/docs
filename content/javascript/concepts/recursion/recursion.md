@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Recursion** is a technique where a function calls itself to solve smaller instances of the same problem until a specific condition called the base case is met. It’s commonly used when a task can be broken down into repeated sub-tasks.
+**Recursion** is a technique where a [function](https://www.codecademy.com/resources/docs/javascript/functions) calls itself to solve smaller instances of the same problem until a specific condition called the base case is met. It’s commonly used when a task can be broken down into repeated sub-tasks.
 
 A recursive function must always have two parts:
 
