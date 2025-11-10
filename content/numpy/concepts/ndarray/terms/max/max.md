@@ -3562,4 +3562,1017 @@ Each row uses a different mask pattern; `keepdims=True` returns a column vector 
 
 ---
 
+#### O) `axis` + `keepdims` + `initial` (No Errors)
+###### a. 2D — `axis=0`, `keepdims=True`, baseline dominates
+```py
+import numpy as np
+arr = np.array([3, 5, 1])
+res = arr.max(axis=0, keepdims=False, initial=10)
+print(res, res.shape)
+```
+This example results in the following output:
+```shell
+10 ()
+```
+Baseline exceeds all elements, so the scalar result is `10`.
 
+<br>
+
+###### b. 1D — `axis=0`, `keepdims=True`, baseline below true max
+```py
+import numpy as np
+arr = np.array([3, 5, 1])
+res = arr.max(axis=0, keepdims=True, initial=2)
+print(res, res.shape)
+```
+This example results in the following output:
+```shell
+[5] (1,)
+```
+Keeps one dimension; result is the true max `[5]`.
+
+<br>
+
+###### c. 2D — `axis=0`, `keepdims=True`, per-column baseline lift
+```py
+import numpy as np
+arr = np.array([[1, 4, 6],
+                [7, 2, 3]])
+res = arr.max(axis=0, keepdims=True, initial=5)
+print(res, res.shape)
+```
+This example results in the following output:
+```shell
+[[7 5 6]] (1, 3)
+```
+Column maxima are compared with `5`; only the middle column is lifted.
+
+<br>
+
+###### d. 2D — `axis=1`, `keepdims=True`, high baseline dominates rows
+```py
+import numpy as np
+arr = np.array([[1, 4, 6],
+                [7, 2, 3]])
+res = arr.max(axis=1, keepdims=True, initial=8)
+print(res, res.shape)
+```
+This example results in the following output:
+```shell
+[[8]
+ [8]] (2, 1)
+```
+Row maxima are overridden by the higher baseline `8`.
+
+<br>
+
+###### e. 2D — `axis=-1`, `keepdims=True`, mixed baseline effect
+```py
+import numpy as np
+arr = np.array([[2, 9, 5],
+                [4, 6, 3]])
+res = arr.max(axis=-1, keepdims=True, initial=6)
+print(res, res.shape)
+```
+This example results in the following output:
+```shell
+[[9]
+ [6]] (2, 1)
+```
+Per row: take `max(row_max, 6)`; second row lifts to `6`.
+
+<br>
+
+###### f. 3D — `axis=0`, `keepdims=True`, early cells filled by baseline
+```py
+import numpy as np
+arr = np.arange(24).reshape(2,3,4)   # (layers, rows, cols)
+res = arr.max(axis=0, keepdims=True, initial=15)
+print(res.shape); print(res)
+```
+This example results in the following output:
+```shell
+(1, 3, 4)
+[[[15 15 15 15]
+  [16 17 18 19]
+  [20 21 22 23]]]
+```
+Across layers: each (row,col) is `max(layer_max, 15)`.
+
+<br>
+
+###### g. 3D — `axis=1`, `keepdims=False`, baseline below slice maxima
+```py
+import numpy as np
+arr = np.arange(24).reshape(2,3,4)
+res = arr.max(axis=1, keepdims=False, initial=5)
+print(res.shape); print(res)
+```
+This example results in the following output:
+```shell
+(2, 4)
+[[ 8  9 10 11]
+ [20 21 22 23]]
+```
+Middle-axis reduction; true maxima exceed the baseline.
+
+<br>
+
+###### h. 3D — `axis=2`, `keepdims=True`, baseline partially dominates
+```py
+import numpy as np
+arr = np.array([[[0,1,2,3],
+                 [4,5,6,7],
+                 [8,9,10,11]],
+                [[12,13,14,15],
+                 [16,17,18,19],
+                 [20,21,22,23]]])
+res = arr.max(axis=2, keepdims=True, initial=9)
+print(res.shape); print(res)
+```
+This example results in the following output:
+```shell
+(2, 3, 1)
+[[[ 9]
+  [ 9]
+  [11]]
+
+ [[15]
+  [19]
+  [23]]]
+```
+Per row across depth: `max(depth_max, 9)`; early rows lift to `9`.
+
+<br>
+
+###### i. Empty along reduced axis — shape `(0,3)`, `axis=0`, `keepdims=False`
+```py
+import numpy as np
+arr = np.empty((0,3), dtype=int)
+res = arr.max(axis=0, keepdims=False, initial=5)
+print(res, res.shape)
+```
+This example results in the following output:
+```shell
+[5 5 5] (3,)
+```
+Empty reduction along columns returns the baseline repeated per column.
+
+<br>
+
+###### j. Empty 1D —`axis=0`, `keepdims=True`
+```py
+import numpy as np
+arr = np.array([], dtype=int)
+res = arr.max(axis=0, keepdims=True, initial=7)
+print(res, res.shape)
+```
+This example results in the following output:
+```shell
+[7] (1,)
+```
+Empty 1D with `keepdims=True` returns a `(1,)` array containing the baseline.
+
+<br>
+
+###### k. Empty 3D in reduced axis — shape `(2,0,4)`, `axis=1`, `keepdims=True`
+```py
+import numpy as np
+arr = np.empty((2,0,4), dtype=int)
+res = arr.max(axis=1, keepdims=True, initial=9)
+print(res.shape); print(res)
+```
+This example results in the following output:
+```shell
+(2, 1, 4)
+[[[9 9 9 9]]
+
+ [[9 9 9 9]]]
+```
+For each (batch,col), no elements exist, so the retained axis is filled with the baseline.
+
+<br>
+
+###### l. Baseline equals true max — shape & value preserved
+```py
+import numpy as np
+arr = np.array([[2, 8, 5],
+                [4, 1, 9]])
+res = arr.max(axis=0, keepdims=True, initial=9)
+print(res, res.shape)
+```
+This example results in the following output:
+```shell
+[[9 9 9]] (1, 3)
+```
+Column maxima `[4,8,9]` become `max(col_max, 9)`, yielding `[9,9,9]` with kept dimension.
+
+<br>
+
+
+---
+
+### Coverage notes
+- **Axes:** `0`, `1`, `2`, `-1` across **1D–3D** arrays  
+- **`keepdims`:** `True` and `False`  
+- **`initial`:** lower than max, greater than all, **equal to max**, and **empty-axis** reductions (valid due to baseline)  
+
+All examples are non-error, runnable, and focused on this specific parameter trio.
+
+---
+
+#### P) `axis` + `where` + `initial` (No Errors)
+###### a. 1D — `axis=0`, even-only mask, baseline as floor
+```py
+import numpy as np
+arr   = np.array([3, 10, 7, 12])
+mask  = (arr % 2) == 0                 # keep 10, 12
+res   = arr.max(axis=0, where=mask, initial=5)
+print(res)
+```
+This example results in the following output:
+```shell
+12
+```
+Compares only even entries; `initial=5` is ignored because the masked max (12) is larger.
+
+<br>
+
+###### b. 1D — `axis=0`, all-False mask, result is baseline
+```py
+import numpy as np
+arr   = np.array([3, 1, 2])
+mask  = np.zeros_like(arr, dtype=bool) # no candidates
+res   = arr.max(axis=0, where=mask, initial=9)
+print(res)
+```
+This example results in the following output:
+```shell
+9
+```
+No elements pass the mask; `initial` supplies a safe, defined result.
+
+<br>
+
+###### c. 2D — `axis=0`, broadcast row mask, baseline fills weak columns
+```py
+import numpy as np
+arr    = np.array([[2, 8, 5],
+                   [4, 1, 3]])
+row_m  = np.array([[True],[False]])     # use only first row
+res    = arr.max(axis=0, where=row_m, initial=6)
+print(res)
+```
+This example results in the following output:
+```shell
+[6 8 6]
+```
+Column-wise reduction considers only the first row; columns below 6 are lifted by the baseline.
+
+<br>
+
+###### d. 2D — `axis=0`, value mask can empty slices; baseline protects
+```py
+import numpy as np
+arr   = np.array([[2, 9, 5],
+                  [3, 4, 1]])
+mask  = arr > 6                         # [[F,T,F],[F,F,F]]
+res   = arr.max(axis=0, where=mask, initial=7)
+print(res)
+```
+This example results in the following output:
+```shell
+[7 9 7]
+```
+Only column 1 has a candidate; other columns take the baseline.
+
+<br>
+
+###### e. 2D — `axis=1`, column mask, baseline overrides some rows
+```py
+import numpy as np
+arr   = np.array([[2, 8, 5],
+                  [4, 1, 3]])
+col_m = np.array([[True, False, True]])  # keep cols 0 and 2
+res   = arr.max(axis=1, where=col_m, initial=6)
+print(res)
+```
+This example results in the following output:
+```shell
+[6 6]
+```
+Per row, only the selected columns are considered; both row maxima are below 6, so baseline dominates.
+
+<br>
+
+###### f. 2D — `axis=-1`, pairwise comparison mask, baseline as floor
+```py
+import numpy as np
+arr = np.array([[2, 8, 5],
+                [4, 6, 9]])
+thr = np.array([[1, 9, 0],
+                [4, 5, 8]])
+mask = arr > thr                       # [[T,F,T],[F,T,T]]
+res  = arr.max(axis=-1, where=mask, initial=6)
+print(res)
+```
+This example results in the following output:
+```shell
+[6 9]
+```
+Row-wise, masked maxima are compared against 6; first row lifts to 6, second remains 9.
+
+<br>
+
+###### g. 3D — `axis=0`, layer-select mask, baseline fills early cells
+```py
+import numpy as np
+arr  = np.arange(24).reshape(2,3,4)          # (layers, rows, cols)
+mask = np.array([True, False])[:, None, None] # use layer 0 only
+res  = arr.max(axis=0, where=mask, initial=5)
+print(res.shape); print(res)
+```
+This example results in the following output:
+```
+(3, 4)
+[[ 5  5  5  5]
+ [ 5  5  6  7]
+ [ 8  9 10 11]]
+```
+Reduces across layers but only reads layer 0; positions below 5 are lifted to baseline.
+
+<br>
+
+###### h. 3D — `axis=1`, ensure at least one True per (batch,col) via baseline
+```py
+import numpy as np
+arr  = np.arange(24).reshape(2,3,4)
+mask = np.zeros_like(arr, dtype=bool)   # all False would be invalid
+mask[:, 1, 2] = True                    # single True per (batch,col) at depth index 2
+res  = arr.max(axis=1, where=mask, initial=10)
+print(res.shape); print(res)
+```
+This example results in the following output:
+```shell
+(2, 4)
+[[10 10 14 10]
+ [10 10 22 10]]
+```
+For each (batch,col), only one depth element is considered; `initial=10` fills other columns if that element is <10.
+
+<br>
+
+###### i. 3D — `axis=2`, periodic mask, baseline partially dominates
+```py
+import numpy as np
+arr  = np.arange(24).reshape(2,3,4)
+mask = np.array([True, False, True, False])[None, None, :]  # keep indices 0 and 2
+res  = arr.max(axis=2, where=mask, initial=9)
+print(res.shape); print(res)
+```
+This example results in the following output:
+```shell
+(2, 3)
+[[ 9  9 11]
+ [13 17 21]]
+```
+For each row across depth, compare masked values with baseline 9; early rows lift to 9 where needed.
+
+<br>
+
+###### j. 3D — `axis=2`, mask all False for one row; baseline saves it
+```py
+import numpy as np
+arr  = np.arange(24).reshape(2,3,4)
+mask = np.zeros_like(arr, dtype=bool)
+mask[0, 0, :] = True        # only row (0,0, :) has candidates
+res  = arr.max(axis=2, where=mask, initial=100)
+print(res.shape); print(res)
+```
+This example results in the following output:
+```shell
+(2, 3)
+[[ 100  100  100]
+ [  3  100  100]]
+```
+Only the first row/first slice has candidates; all other positions take the baseline, avoiding errors cleanly.
+
+<br>
+
+
+---
+
+### Coverage notes
+- **Axes:** `0`, `1`, `2`, `-1` across **1D–3D** arrays  
+- **Masks:** same-shape, broadcast row/column, pairwise comparison, periodic, and even **all-False** (made valid via `initial`)  
+- **`initial`:** used as a per-slice fallback/floor to guarantee defined results in every case
+
+---
+
+<br>
+
+#### Q) `out` + `keepdims` + `where` (No Errors)
+###### a. 1D — Scalar result in 0-D `out` (keepdims=False)
+```py
+import numpy as np
+arr  = np.array([3, 10, 7, 12])
+mask = (arr % 2) == 0                  # pick 10,12
+
+out0 = np.empty((), dtype=arr.dtype)   # 0-D buffer
+arr.max(where=mask, keepdims=False, out=out0)
+print(out0, out0.shape)
+```
+This example results in the following output:
+```shell
+12 ()
+```
+Masked global maximum written to a scalar (0-D) buffer.
+
+<br>
+
+###### b. 1D — Keep dimension; write to shape (1,) `out`
+```py
+import numpy as np
+arr  = np.array([2, 11, 4, 7, 10])
+mask = arr > 5
+
+out1 = np.empty((1,), dtype=arr.dtype)  # (1,) for keepdims on 1-D
+arr.max(where=mask, keepdims=True, out=out1)
+print(out1, out1.shape)
+```
+This example results in the following output:
+```shell
+[11] (1,)
+```
+Global masked max with `keepdims=True` preserves one dimension.
+
+<br>
+
+###### c. 2D — Scalar result; threshold mask; 0-D `out`
+```py
+import numpy as np
+arr  = np.array([[2, 8, 5],
+                 [4, 1, 9]])
+mask = arr >= 6
+
+out0 = np.empty((), dtype=arr.dtype)
+arr.max(where=mask, keepdims=False, out=out0)
+print(out0, out0.shape)
+```
+This example results in the following output:
+```shell
+9 ()
+```
+Masks values ≥6 across the whole array; writes the single maximum into a scalar buffer.
+
+###### d. 2D — Keep dims as (1,1); full-True mask; `(1,1)` `out`
+```py
+import numpy as np
+arr  = np.array([[1, 3, 5],
+                 [2, 6, 4]])
+mask = np.ones_like(arr, dtype=bool)
+
+out11 = np.empty((1,1), dtype=arr.dtype)
+arr.max(where=mask, keepdims=True, out=out11)
+print(out11, out11.shape)
+```
+This example results in the following output:
+```shell
+[[6]] (1, 1)
+```
+Equivalent to normal global max, but returns a `(1,1)` array for easy broadcasting.
+
+<br>
+
+###### e. 2D — Keep dims; row-broadcast mask selects first row only
+```py
+import numpy as np
+arr   = np.array([[2, 8, 5],
+                  [4, 1, 9]])
+mask  = np.array([[True],[False]])     # shape (2,1), broadcasts over columns
+
+out11 = np.empty((1,1), dtype=arr.dtype)
+arr.max(where=mask, keepdims=True, out=out11)
+print(out11, out11.shape)
+```
+This example results in the following output:
+```shell
+[[8]] (1, 1)
+```
+Global reduction considers only the first row via broadcasting; result keeps `(1,1)` shape.
+
+<br>
+
+###### f. 3D — Scalar result; comparison-derived mask; 0-D float `out`
+```py
+import numpy as np
+arr  = np.arange(24).reshape(2,3,4)        # 0..23
+thr  = 15
+mask = arr > thr
+
+out0f = np.empty((), dtype=np.float64)     # upcast target
+arr.max(where=mask, keepdims=False, out=out0f)
+print(out0f, out0f.shape)
+```
+This example results in the following output:
+```shell
+23.0 ()
+```
+Compares against a scalar threshold; writes the masked maximum to a 0-D float buffer (safe upcast).
+
+<br>
+
+###### g. 3D — Keep dims as `(1,1,1)`; periodic last-axis mask
+```py
+import numpy as np
+arr  = np.arange(24).reshape(2,3,4)
+mask = np.array([True, False, True, False])[None, None, :]  # pick indices 0 and 2
+
+out111 = np.empty((1,1,1), dtype=arr.dtype)
+arr.max(where=mask, keepdims=True, out=out111)
+print(out111, out111.shape)
+```
+This example results in the following output:
+```shell
+[[[22]]] (1, 1, 1)
+```
+Global reduction but restricted to positions 0 and 2 across the last axis; keeps all dims as size one.
+
+<br>
+
+###### h. 2D — Keep dims; write into a reshaped view buffer
+```py
+import numpy as np
+arr    = np.array([[4, 6, 1],
+                   [2, 9, 7]])
+mask   = arr % 2 == 1                   # odd elements only
+
+flat   = np.empty(1, dtype=arr.dtype)   # storage of size 1
+out11v = flat.reshape(1,1)               # view with shape (1,1)
+arr.max(where=mask, keepdims=True, out=out11v)
+print(out11v, out11v.shape)
+```
+This example results in the following output:
+```shell
+[[9]] (1, 1)
+```
+Writes masked global max into a `(1,1)` view backed by a flat buffer.
+
+<br>
+
+###### i. 3D — Keep dims; layer-broadcast mask selects first layer
+```py
+import numpy as np
+arr   = np.arange(24).reshape(2,3,4)
+mask  = np.array([True, False])[:, None, None]  # use only layer 0
+
+out111 = np.empty((1,1,1), dtype=arr.dtype)
+arr.max(where=mask, keepdims=True, out=out111)
+print(out111, out111.shape)
+```
+This example results in the following output:
+```shell
+[[[11]]] (1, 1, 1)
+```
+Global reduction limited to the first layer; dimensionality preserved as `(1,1,1)`.
+
+<br>
+
+###### j. Overwriting a prefilled scalar buffer (0-D `out`)
+```py
+import numpy as np
+arr  = np.array([[5, 3, 9],
+                 [2, 7, 1]])
+mask = arr >= 5
+
+out0 = np.array(-999, dtype=arr.dtype)  # sentinel
+arr.max(where=mask, keepdims=False, out=out0)
+print(out0)
+```
+This example results in the following output:
+```shell
+9
+```
+The masked maximum overwrites the prefilled 0-D buffer in place.
+
+<br>
+
+---
+
+### Notes & Tips
+- With **no `axis`**, the reduction is **global**.  
+- If `keepdims=False`, use a **0-D** `out`; if `keepdims=True`, make `out.shape == (1,)*arr.ndim`.  
+- Masks may **broadcast** (e.g., `(2,1)` on a `(2,3)` array) but must allow **at least one True overall**.
+
+---
+
+<br>
+
+#### R) `out` + `keepdims` + `initial` (No Errors)
+###### a. 1D — Scalar result; `keepdims=False`; baseline below true max
+```py
+import numpy as np
+arr  = np.array([3, 5, 1])
+out0 = np.empty((), dtype=arr.dtype)          # 0-D buffer
+arr.max(keepdims=False, initial=2, out=out0)
+print(out0, out0.shape)
+```
+This example results in the following output:
+```shell
+5 ()
+```
+Global maximum beats the baseline; written into a scalar buffer.
+
+<br>
+
+###### b. 1D — Keep dimension; out shape (1,); baseline dominates
+```py
+import numpy as np
+arr  = np.array([3, 5, 1])
+out1 = np.empty((1,), dtype=arr.dtype)
+arr.max(keepdims=True, initial=10, out=out1)
+print(out1, out1.shape)
+```
+This example results in the following output:
+```shell
+[10] (1,)
+```
+Preserves one dimension; baseline exceeds all elements.
+
+<br>
+
+###### c. 2D — `keepdims=True`; `(1,1)` `out`; moderate baseline
+```py
+import numpy as np
+arr   = np.array([[2, 8, 5],
+                  [4, 1, 9]])
+out11 = np.empty((1,1), dtype=arr.dtype)
+arr.max(keepdims=True, initial=6, out=out11)
+print(out11, out11.shape)
+```
+This example results in the following output:
+```shell
+[[9]] (1, 1)
+```
+Global max (9) wins over baseline 6; dims retained for broadcasting.
+
+<br>
+
+###### d. 2D — `keepdims=False`; 0-D `out`; high baseline dominates
+```py
+import numpy as np
+arr  = np.array([[1, 4, 6],
+                 [7, 2, 3]])
+out0 = np.empty((), dtype=arr.dtype)
+arr.max(keepdims=False, initial=10, out=out0)
+print(out0, out0.shape)
+```
+This example results in the following output:
+```shell
+10 ()
+```
+Returns the baseline since it’s greater than every element.
+
+<br>
+
+###### e. 3D — `keepdims=True`; `(1,1,1)` `out`; baseline below true max
+```py
+import numpy as np
+arr    = np.arange(24).reshape(2,3,4)        # 0..23
+out111 = np.empty((1,1,1), dtype=arr.dtype)
+arr.max(keepdims=True, initial=5, out=out111)
+print(out111, out111.shape)
+```
+This example results in the following output:
+```shell
+[[[23]]] (1, 1, 1)
+```
+Global maximum (23) exceeds the baseline; all dims kept as size one.
+
+<br>
+
+###### f. 3D — `keepdims=True`; float `out`; float baseline
+```py
+import numpy as np
+arr    = np.arange(24, dtype=np.int32).reshape(2,3,4)
+out111 = np.empty((1,1,1), dtype=np.float64)
+arr.max(keepdims=True, initial=22.5, out=out111)
+print(out111, out111.dtype)
+```
+This example results in the following output:
+```shell
+[[[23.]]] float64
+```
+Safe upcast: int array reduced into a float buffer with a float baseline.
+
+<br>
+
+###### g. Overwrite a prefilled 0-D buffer in place
+```py
+import numpy as np
+arr  = np.array([5, 3, 9])
+out0 = np.array(-999, dtype=arr.dtype)   # sentinel
+arr.max(keepdims=False, initial=0, out=out0)
+print(out0)
+```
+This example results in the following output:
+```shell
+9
+```
+The computed maximum overwrites the existing scalar value.
+
+<br>
+
+###### h. Empty 1D input — `keepdims=False`; baseline supplies result
+```py
+import numpy as np
+arr  = np.array([], dtype=int)
+out0 = np.empty((), dtype=int)
+arr.max(keepdims=False, initial=7, out=out0)
+print(out0, out0.shape)
+```
+This example results in the following output:
+```shell
+7 ()
+```
+No elements; reduction returns the baseline in a scalar buffer.
+
+<br>
+
+###### i. Empty 2D input — `keepdims=True`; `(1,1)` `out`
+```py
+import numpy as np
+arr   = np.empty((0,0), dtype=int)
+out11 = np.empty((1,1), dtype=int)
+arr.max(keepdims=True, initial=5, out=out11)
+print(out11, out11.shape)
+```
+This example results in the following output:
+```shell
+[[5]] (1, 1)
+```
+With no data, baseline fills the kept-dims result.
+
+<br>
+
+###### j. Write into a reshaped view buffer (memory reuse)
+```py
+import numpy as np
+arr   = np.array([[4, 6, 1],
+                  [2, 9, 7]])
+store = np.empty(1, dtype=arr.dtype)      # single cell
+out11 = store.reshape(1,1)                 # view -> (1,1)
+arr.max(keepdims=True, initial=3, out=out11)
+print(out11, out11.shape)
+```
+This example results in the following output:
+```shell
+[[9]] (1, 1)
+```
+Masked global max not used; still demonstrates writing to a reshaped single-cell view.
+
+<br>
+
+###### k. Reuse the same `out` with different arrays/baselines
+```py
+import numpy as np
+A = np.array([2, 9, 1])
+B = np.array([3, 5, 7])
+out0 = np.empty((), dtype=int)
+
+A.max(keepdims=False, initial=0,  out=out0); print("A:", out0)
+B.max(keepdims=False, initial=10, out=out0); print("B:", out0)
+```
+This example results in the following output:
+```shell
+A: 9
+B: 10
+```
+One scalar buffer reused; first call returns true max, second returns the dominating baseline.
+
+<br>
+
+
+---
+
+### Notes & Tips
+- With **no `axis`**, reduction is **global**.  
+- Use **0-D `out`** for `keepdims=False`; use **`(1,)*arr.ndim`** for `keepdims=True`.  
+- `initial` guarantees a defined result for empty inputs (or when enforcing a floor).
+
+---
+
+<br>
+
+#### S) `out` + `where` + `initial` (No Errors)
+###### a. 1D — Even-only mask; baseline lower than true masked max
+```py
+import numpy as np
+arr  = np.array([3, 10, 7, 12])
+mask = (arr % 2) == 0                # 10, 12
+out0 = np.empty((), dtype=arr.dtype)
+arr.max(where=mask, initial=5, out=out0)
+print(out0)
+```
+This example results in the following output:
+```shell
+12
+```
+Compares only even entries; 12 beats the baseline and is written to the scalar buffer.
+
+<br>
+
+###### b. 1D — All-False mask; result is baseline
+```py
+import numpy as np
+arr  = np.array([3, 1, 2])
+mask = np.zeros_like(arr, dtype=bool)
+out0 = np.empty((), dtype=arr.dtype)
+arr.max(where=mask, initial=9, out=out0)
+print(out0)
+```
+This example results in the following output:
+```shell
+9
+```
+No candidate passes the mask, so the baseline is returned.
+
+<br>
+
+###### c. 2D — Row-broadcast mask (first row only); baseline as floor
+```py
+import numpy as np
+arr   = np.array([[2, 8, 5],
+                  [4, 1, 9]])
+mask  = np.array([[True],[False]])   # (2,1) → first row only
+out0  = np.empty((), dtype=arr.dtype)
+arr.max(where=mask, initial=6, out=out0)
+print(out0)
+```
+This example results in the following output:
+```shell
+8
+```
+Global masked reduction sees only the first row; 8 exceeds the baseline.
+
+<br>
+
+###### d. 2D — Pairwise comparison mask; float `out` and float baseline
+```py
+import numpy as np
+arr   = np.array([[2, 9, 5],
+                  [3, 4, 1]], dtype=np.int32)
+thr   = np.array([[3, 7, 6],
+                  [2, 5, 0]])
+mask  = arr > thr                    # [[F,T,F],[T,F,T]]
+out0f = np.empty((), dtype=np.float64)
+arr.max(where=mask, initial=4.5, out=out0f)
+print(out0f)
+```
+This example results in the following output:
+```shell
+9.0
+```
+Only permitted positions are compared; result is safely upcast to float in the output.
+
+<br>
+
+###### e. 2D — Sparse mask (specific cells); baseline between candidates
+```py
+import numpy as np
+arr  = np.array([[10, 20, 30],
+                 [40, 50, 60]])
+mask = np.zeros_like(arr, dtype=bool)
+mask[0,2] = True; mask[1,1] = True      # pick 30 and 50
+out0 = np.empty((), dtype=arr.dtype)
+arr.max(where=mask, initial=45, out=out0)
+print(out0)
+```
+This example results in the following output:
+```shell
+50
+```
+Chooses between 30, 50, and baseline 45; 50 wins.
+
+<br>
+
+###### f. 3D — Threshold mask; baseline dominates
+```py
+import numpy as np
+arr  = np.arange(24).reshape(2,3,4)     # 0..23
+mask = arr >= 20
+out0 = np.empty((), dtype=arr.dtype)
+arr.max(where=mask, initial=24, out=out0)
+print(out0)
+```
+This example results in the following output:
+```shell
+24
+```
+Masked candidates’ maximum is 23; baseline 24 is larger and becomes the result.
+
+<br>
+
+###### g. 3D — Layer-select mask (first layer only); baseline below candidate
+```py
+import numpy as np
+arr   = np.arange(24).reshape(2,3,4)
+mask  = np.array([True, False])[:, None, None]   # layer 0 only
+out0  = np.empty((), dtype=arr.dtype)
+arr.max(where=mask, initial=5, out=out0)
+print(out0)
+```
+This example results in the following output:
+```shell
+11
+```
+Reduces over only layer 0 (values 0–11); the largest allowed is 11, beating the baseline.
+
+<br>
+
+###### h. 3D — All-False mask; baseline provides safe fallback
+```py
+import numpy as np
+arr  = np.arange(24).reshape(2,3,4)
+mask = np.zeros_like(arr, dtype=bool)
+out0 = np.empty((), dtype=arr.dtype)
+arr.max(where=mask, initial=100, out=out0)
+print(out0)
+```
+This example results in the following output:
+```shell
+100
+```
+With no eligible elements, the specified baseline is returned.
+
+<br>
+
+###### i. Reuse the same scalar `out` across calls with different masks/baselines
+```py
+import numpy as np
+a = np.array([2, 9, 1])
+b = np.array([3, 5, 7])
+
+out0 = np.empty((), dtype=int)
+
+a_mask = a > 3
+a.max(where=a_mask, initial=0,  out=out0); print("a:", out0)
+
+b_mask = b % 2 == 0
+b.max(where=b_mask, initial=10, out=out0); print("b:", out0)
+```
+This example results in the following output:
+```shell
+a: 9
+b: 10
+```
+The same 0-D buffer is overwritten in place across different arrays and masks.
+
+<br>
+
+###### j. Overwrite a prefilled 0-D buffer
+```py
+import numpy as np
+arr  = np.array([[5, 3, 9],
+                 [2, 7, 1]])
+mask = arr >= 5
+out0 = np.array(-999, dtype=arr.dtype)  # sentinel
+arr.max(where=mask, initial=0, out=out0)
+print(out0)
+```
+This example results in the following output:
+```shell
+9
+```
+Masked maximum replaces the prefilled sentinel in the scalar output.
+
+<br>
+
+###### k. Functional form `np.max` with `out`, `where`, `initial`
+```py
+import numpy as np
+arr  = np.array([2, 11, 4])
+mask = arr > 3
+out0 = np.empty((), dtype=arr.dtype)
+np.max(arr, where=mask, initial=8, out=out0)
+print(out0)
+```
+This example results in the following output:
+```shell
+11
+```
+`np.max` mirrors `ndarray.max`; with masking and a baseline, the largest permitted value is returned into `out0`.
+
+<br>
+
+
+---
+
+### Tips
+- With **no `axis`**, this is a **global** reduction.  
+- Use a **0-D scalar `out`** (`np.empty((), dtype=...)`) for the result container.  
+- `initial` guarantees a defined result when the mask is **all False** or very restrictive.
+
+---
+
+<br>
