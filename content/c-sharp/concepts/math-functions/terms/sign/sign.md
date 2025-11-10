@@ -2,8 +2,8 @@
 Title: '.Sign()'
 Description: 'Returns an integer value indicating the sign of a number.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Functions'
   - 'Math'
