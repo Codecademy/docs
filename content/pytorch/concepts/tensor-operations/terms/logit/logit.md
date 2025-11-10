@@ -1,31 +1,47 @@
-# Logit
+---
+Title: '.logit()'
+Description: 'Returns the logit of each element in the input tensor.'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Elements'
+  - 'Methods'
+  - 'PyTorch'
+  - 'Tensor'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/data-science'
+---
 
-## Introduction
-The logit is the inverse of the sigmoid (logistic) function. For a probability p in the open interval (0, 1), the logit is defined as logit(p) = log(p / (1 - p)). In PyTorch the logit operation converts probability-like values to the real line, which is useful for models or computations that work in log-odds space.
+The **`torch.logit()`** function computes the logit (log-odds) of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). The logit function is the inverse of the logistic sigmoid function, defined as:
 
-Inputs equal to 0 or 1 produce infinite values; to avoid this, PyTorch's logit supports an optional eps argument to clamp inputs away from 0 and 1.
+$$\text{logit}(x) = \log\left(\frac{x}{1 - x}\right)$$
 
-torch.sigmoid(torch.logit(p)) returns approximately p (subject to numerical precision).
-
-### Use case
-The logit function is useful in binary classification tasks and logistic regression, where outputs in probability space need to be mapped to log-odds for linear modeling or loss computation.
+This operation is widely used in statistics and machine learning, particularly in logistic regression and neural network transformations. This function is an alias for `torch.special.logit()`.
 
 ## Syntax
-Python (PyTorch):
 
-```python
-torch.logit(input, eps=None, *, out=None) -> Tensor
+```pseudo
+torch.logit(input, eps=None, *, out=None)
 ```
 
-- input (Tensor): Input tensor containing probability values (expected in (0, 1)).
-- eps (float, optional): If not None, input values are clamped into [eps, 1 - eps] before computing the logit. 
-- out (Tensor, optional): Output tensor.
+**Parameters:**
 
-Returns a tensor of the same shape containing the log-odds: log(p / (1 - p)). 
+- `input` (Tensor): The input tensor, where each element should be in the range `(0, 1)` when `eps` is not provided.
+- `eps` (float, optional): A small value added for numerical stability. Values less than `eps` are clamped to `eps`, and values greater than `1 - eps` are clamped to `1 - eps`.
+- `out` (Tensor, optional): The output tensor to store the result.
 
-## Example
+**Return value:**
 
-```python
+Returns a tensor containing the logit transformation of the input values.
+
+## Example 1
+
+In this example, probabilities are converted into logits and then passed through a sigmoid function to verify the inverse relationship:
+
+```py
 import torch
 
 probs = torch.tensor([0.2, 0.5, 0.8])
@@ -37,20 +53,33 @@ print("logits:", logits)
 print("sigmoid(logits):", recovered)
 ```
 
-Expected output (values may be printed with different formatting):
+Expected output (values may vary slightly due to precision):
 
-```
+```shell
 probs: tensor([0.2000, 0.5000, 0.8000])
 logits: tensor([-1.3863,  0.0000,  1.3863])
 sigmoid(logits): tensor([0.2000, 0.5000, 0.8000])
 ```
 
-Example showing eps to avoid infinities:
+## Example 2
 
-```python
+In this example, the `eps` parameter is used to prevent infinities when the input contains 0 or 1:
+
+```py
+import torch
+
 x = torch.tensor([0.0, 1.0])
-# Without eps: yields -inf and +inf
+
+# Without eps: produces -inf and +inf
 print(torch.logit(x, eps=None))
-# With eps: clamps to [eps, 1-eps] first
+
+# With eps: clamps input to [eps, 1 - eps] before applying logit
 print(torch.logit(x, eps=1e-6))
+```
+
+The output of this code is:
+
+```shell
+tensor([-inf, inf])
+tensor([-13.8155,  13.8023])
 ```
