@@ -1,51 +1,52 @@
 ---
 Title: 'Recursion'
-Description: 'Recursion is a way of repeating tasks that rely on a condition to stop'
+Description: 'Recursion is a technique where a function calls itself to solve smaller instances of the same problem.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'Recursion'
   - 'Functions'
   - 'Loops'
+  - 'Recursion'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-Recursion is a way to solve problems that involve repeating a task a certain number of times with a specific condition in mind. When that condition is met, the repetition stops. Very often, it's implemented in the form of recursive functions.
+**Recursion** is a technique where a function calls itself to solve smaller instances of the same problem until a specific condition called the base case is met. It’s commonly used when a task can be broken down into repeated sub-tasks.
 
-## Recursive function
+A recursive function must always have two parts:
 
-The `recursive function` will repeat a task until a certain defined `condition` is met. Its main characteristic is that it calls itself a number of times to reiterate the task, considering this predetermined condition. When the condition is met, the function stops running, and the recursive function achieves its goal.
+- **Base case:** Defines when the recursion should stop to prevent infinite calls.
+- **Recursive call:** The function calls itself to continue solving the smaller problem until the base case is reached.
 
-This `condition` is needed for the function to be done. Typically, this is done in the first step of the function. Being the condition missing, the function would run forever, causing an error or crash.
-
-The `recursive call` is also needed to repeat the task until the condition is met. The function calls itself a number of times. Typically, this is done towards the end of the function.
+If the base case is missing, the function will keep calling itself indefinitely, causing a stack overflow error.
 
 ## Syntax
 
-```javascript
+```pseudo
 function recursiveFunction() {
-  // Code block to be executed
-  recursiveFunction()
+  // Code block to execute
+  recursiveFunction(); // Recursive call
 }
 ```
 
 ## Example
 
+In this example, the function prints numbers from 1 to 10 by calling itself until a condition is met:
+
 ```js
-let count = 0; //step 1
+let count = 0;
 
 function countToTen() {
-  if (count < 10) { // step 2
-    count = count+1; //step 3
-    console.log(count); //step 3
-    countToTen(); //step 4
+  if (count < 10) {
+    count = count + 1;
+    console.log(count);
+    countToTen(); // Recursive call
   }
 }
-  
-countToTen(); //step 5
+
+countToTen();
 ```
 
 The output would be:
@@ -63,25 +64,29 @@ The output would be:
 10
 ```
 
-Explanation:
+Here’s what happens step by step:
 
--1) Set the variable to work with (out of the function).
--2) Decide what condition should be met.
--3) Increase the count by 1 in each function call and output the result.
--4) Repeat the function (recursive call) until the condition is met (in this case: count less than 10).
--5) Run or call the function.
+- A variable `count` is initialized outside the function.
+- The function checks if `count` is less than 10.
+- If true, it increments `count`, prints it, and calls itself again.
+- When `count` reaches 10, the base case condition fails, and recursion stops.
 
-This method of iterating can be compared to a Loop, another form of recursion. The main difference is that the Loop doesn't have to call itself; it's done using other algorithm structures. For detailed information and application, check the "Loops" entry.
+This process is similar to how loops work, but recursion uses function calls instead of loop structures.
 
-## Codebyte
+## Codebyte Example
+
+In this example, the function repeatedly calls itself to print numbers from 1 to 10, stopping once the base case condition (`count < 10`) is no longer true:
 
 ```codebyte/javascript
-let count = 0; //step 1
+let count = 0;
 
 function countToTen() {
-  if (count < 10) { // step 2
-    count = count+1; //step 3
-    console.log(count); //step 3
-    countToTen(); //step 4
+  if (count < 10) {
+    count++;
+    console.log(count);
+    countToTen();
   }
 }
+
+countToTen();
+```
