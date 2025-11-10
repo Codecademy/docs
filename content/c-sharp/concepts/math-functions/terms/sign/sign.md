@@ -7,8 +7,8 @@ Subjects:
 Tags:
   - 'Functions'
   - 'Math'
-  - 'Numbers'
   - 'Methods'
+  - 'Numbers'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
@@ -24,7 +24,7 @@ Math.Sign(number);
 
 **Parameters:**
 
-- `number`: The numeric value for which to determine the sign. This can be of type: `sbyte`, `short`, `int`, `long`, `float`, `double`, `decimal` or `IntPtr`.
+- `number`: The numeric value for which to determine the sign. Supported types include: `sbyte`, `short`, `int`, `long`, `float`, `double`, and `decimal`.
 
 **Return value:**
 
@@ -34,9 +34,9 @@ Returns an integer value that indicates the sign of the specified number:
 - `0`: if the number is equal to zero
 - `1`: if the number is positive
 
-## Example: Basic Usage
+## Example: Basic Usage of `Math.Sign()`
 
-In this example, the sign of various numeric values is determined using the `Math.Sign()` method and printed to the console.
+In this example, the sign of various numeric values is determined using the `Math.Sign()` method and printed to the console:
 
 ```cs
 using System;
@@ -75,7 +75,7 @@ Math.Sign(-0.01) = -1
 
 ## Codebyte Example
 
-In this example, a random number between -100 and 100 is generated, and its sign is determined using the `Math.Sign()` method. A message is printed to indicate whether the random number is negative, positive, or zero.
+In this example, a random number between -100 and 100 is generated, and its sign is determined using the `Math.Sign()` method. A message is printed to indicate whether the random number is negative, positive, or zero:
 
 ```codebyte/csharp
 using System;
