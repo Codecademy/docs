@@ -5,16 +5,16 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Methods'
-  - 'Numbers'
   - 'Arithmetic'
   - 'Functions'
+  - 'Methods'
+  - 'Numbers'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
 ---
 
-The **`Math.SinCos()`** class method returns both the sine and cosine of a given angle as a tuple.
+The **`Math.SinCos()`** method returns both the sine and cosine of a specified angle (in radians) as a [tuple](https://www.codecademy.com/resources/docs/python/tuples).
 
 ## Syntax
 
@@ -22,13 +22,19 @@ The **`Math.SinCos()`** class method returns both the sine and cosine of a given
 Math.SinCos(angle);
 ```
 
-The `Math.SinCos()` method takes only one parameter, `angle`, an angle in radians of type `double`. The method returns a tuple containing both the sine and cosine of the `angle` as `double` values. If the value of `angle` equals `NaN`, `NegativeInfinity`, or `PositiveInfinity`, the method returns `NaN` for both values.
+**Parameters:**
+
+- `angle`: A double-precision floating-point number representing an angle in radians.
+
+**Return value:**
+
+The method returns a tuple containing both the sine and cosine of the `angle` as `double` values. If the value of `angle` equals `NaN`, `NegativeInfinity`, or `PositiveInfinity`, the method returns `NaN` for both values.
 
 > **Note:** This method is more efficient than calling `Math.Sin()` and `Math.Cos()` separately when both values are needed.
 
-## Example
+## Example 1
 
-The following example first converts `45` degrees to radians, then uses the `Math.SinCos()` method to return both the sine and cosine of that angle. Finally, the `Console.WriteLine()` function prints the results to the console:
+In this example, the code converts 45 degrees to radians and uses the `Math.SinCos()` method to return both the sine and cosine of that angle:
 
 ```cs
 using System;
@@ -53,11 +59,11 @@ The sine of 45 degrees is: 0.7071067811865476
 The cosine of 45 degrees is: 0.7071067811865476
 ```
 
-## Codebyte Example
+## Example 2
 
-The following example is runnable and returns both the sine and cosine of the `angle` given in degrees:
+In this example, both sine and cosine values of a 30° angle are calculated using `Math.SinCos()`:
 
-```codebyte/csharp
+```cs
 using System;
 
 public class Example {
@@ -73,3 +79,12 @@ public class Example {
   }
 }
 ```
+
+The output of this code is:
+
+```shell
+The sine of 30 degrees is: 0.5
+The cosine of 30 degrees is: 0.8660254037844386
+```
+
+> **Note:** The `Math.SinCos()` method is supported starting from .NET 6 and later. It is not available in earlier .NET versions.
