@@ -1,31 +1,55 @@
 ---
-Title: nonzero()
-Concept: ndarray
+Title: 'nonzero()'
+Description: 'Returns the indices of the array elements that are non-zero.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Array'
+  - 'Data'
+  - 'NumPy'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/data-science'
 ---
 
-# nonzero()
-
-The `nonzero()` method in NumPy returns the indices of the array elements that are non-zero (or `True` when the array is treated as a boolean). It is often used to identify or extract the locations of non-zero elements in an array.
+The **`numpy.ndarray.nonzero()`** method returns the indices of elements in an [array](https://www.codecademy.com/resources/docs/numpy/ndarray) that are non-zero or evaluate to `True`. It is often used to locate positions of meaningful or valid data within an array.
 
 ## Syntax
 
-```python
-numpy.nonzero(a)
+```pseudo
+ndarray.nonzero()
+```
 
-```markdown
-## Example
+**Parameters:**
 
-```python
+This method takes no parameters.
+
+**Return value:**
+
+Returns a [tuple](https://www.codecademy.com/resources/docs/python/tuples) of arrays, one for each dimension, containing the indices of elements that are non-zero.
+
+## Example: Finding Non-Zero Elements in a 1D Array
+
+In this example, the indices of all non-zero elements in a 1D NumPy array are returned:
+
+```py
 import numpy as np
 
-a = np.array([[0, 2, 0],
-              [3, 0, 4]])
-
-result = np.nonzero(a)
+arr = np.array([0, 2, 0, 4, 5])
+result = arr.nonzero()
 print(result)
+```
 
-```markdown
-## Codebyte
+The output of this code is:
+
+```shell
+(array([1, 3, 4]),)
+```
+
+## Codebyte Example
+
+In this example, the positions of non-zero elements in a 2D array are identified:
 
 ```codebyte/python
 import numpy as np
@@ -36,4 +60,5 @@ a = np.array([[0, 5, 0],
 rows, cols = a.nonzero()
 
 for r, c in zip(rows, cols):
-    print(f"Non-zero element {a[r, c]} found at position ({r}, {c})")
+  print(f"Non-zero element {a[r, c]} found at position ({r}, {c})")
+```
