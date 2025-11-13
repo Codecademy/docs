@@ -5,9 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
+  - 'Arithmetic'
   - 'Methods'
   - 'Numbers'
-  - 'Arithmetic'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
@@ -21,26 +21,25 @@ The **`Math.Atanh()`** method returns the inverse hyperbolic tangent (hyperbolic
 Math.Atanh(value);
 ```
 
-The `Math.Atanh()` method takes one parameter:
+**Parameters:**
 
 - `value`: A double-precision floating-point number in the range -1 to 1, representing the hyperbolic tangent value.
 
-## Return Value
+**Return value:**
 
-The `Math.Atanh()` method returns:
+The `Math.Atanh()` method returns the inverse hyperbolic tangent of the given `value` as a `double`.
 
-- The inverse hyperbolic tangent of the `value` as a `double`.
+It returns:
+
 - `NaN` (Not a Number) if the `value` is less than -1 or greater than 1.
 - `NegativeInfinity` if the `value` is exactly -1.
 - `PositiveInfinity` if the `value` is exactly 1.
 
-## Example
-
-### Basic Example
+## Example: Basic Usage of `Math.Atanh()`
 
 The following example demonstrates the basic usage of `Math.Atanh()`:
 
-```codebyte/csharp
+```cs
 using System;
 
 class Program
@@ -57,12 +56,12 @@ class Program
 This will output:
 
 ```shell
-Atanh(0.5) = 0.5493061443340549
+Atanh(0.5) = 0.5493061443340548
 ```
 
 ## Codebyte Example
 
-The following example is runnable and shows how `Math.Atanh()` behaves with different input values:
+In this example, different values are passed to `Math.Atanh()` to observe how the result changes:
 
 ```codebyte/csharp
 using System;
