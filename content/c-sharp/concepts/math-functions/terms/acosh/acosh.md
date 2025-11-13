@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.Acosh()`** method is a static method that returns the inverse hyperbolic cosine of a specified number.
+The **`Math.Acosh()`** method returns the inverse hyperbolic cosine (also known as hyperbolic arccosine) of a specified number. It computes the value whose hyperbolic cosine equals the given number.
 
 ## Syntax
 
@@ -24,18 +24,18 @@ Math.Acosh(number);
 
 **Parameters:**
 
-- `number`: A numeric value of type `double` for which to calculate the inverse hyperbolic cosine. The value must be greater than or equal to 1.
+- `number`: A double-precision floating-point value greater than or equal to 1, for which to compute the inverse hyperbolic cosine.
 
 **Return value:**
 
 The `Math.Acosh()` method returns:
 
-- The inverse hyperbolic cosine of the specified number in radians as a `double` if the input is greater than or equal to 1.
+- The inverse hyperbolic cosine of the specified number in radians as a `double`.
 - `NaN` if the input is less than 1 or `NaN`.
 
 ## Example: Basic Usage of `Math.Acosh()`
 
-In this example, the inverse hyperbolic cosine of a specified number is calculated using the `Math.Acosh()` method, and the result is printed to the console:
+This example calculates the inverse hyperbolic cosine of a number using `Math.Acosh()` and displays the result in radians:
 
 ```cs
 using System;
@@ -45,9 +45,7 @@ public class Example
   public static void Main()
   {
     double number = 1.5;
-
     double result = Math.Acosh(number);
-
     Console.WriteLine($"Math.Acosh({number}) = {result} radians");
   }
 }
