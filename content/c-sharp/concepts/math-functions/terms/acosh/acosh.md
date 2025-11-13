@@ -1,5 +1,5 @@
 ---
-Title: '.Acosh()'
+Title: 'Acosh()'
 Description: 'Returns the inverse hyperbolic cosine of a specified number.'
 Subjects:
   - 'Computer Science'
