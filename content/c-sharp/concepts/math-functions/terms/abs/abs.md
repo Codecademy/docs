@@ -1,5 +1,5 @@
 ---
-Title: 'Abs()'
+Title: '.Abs()'
 Description: 'Returns the absolute value of a specified number.'
 Subjects:
   - 'Computer Science'
