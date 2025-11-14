@@ -56,7 +56,7 @@ Here's how you can contribute to Codecademy Docs:
 - Submit your work:
   - Submit a Pull Request of your entry for your assigned Issue.
 - Collaborate and provide feedback:
-  - Reply to the thread on [Possible Content Discussion]([https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868](https://community.codecademy.com/)) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues.
+  - Reply to the thread on [Possible Content Discussion](https://community.codecademy.com/) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues.
   - Share your thoughts in this [Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
 
 Whether you are a code newbie or a seasoned hacker, there's something for you!
