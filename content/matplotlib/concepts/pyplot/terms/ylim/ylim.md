@@ -94,3 +94,5 @@ plt.show()
 ```
 
 This example retrieves the automatically calculated y-axis limits and expands them by 20% on both sides, providing more whitespace around the data.
+![Quadratic function with expanded y-axis](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-pyplot-ylim-example-2.png)
+
