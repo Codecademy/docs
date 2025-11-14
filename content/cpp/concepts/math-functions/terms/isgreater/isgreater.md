@@ -14,9 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`isgreater()`** function performs a strict greater-than comparison between two floating-point values and returns `true` only if the first argument is greater than the second. Unlike the regular `>` operator, `isgreater()` never raises floating-point exceptions and always returns `false` when either argument is NaN (Not-a-Number).
-
-The **`isgreater()`** function compares two floating-point values and returns `true` only when the first is strictly greater than the second. It follows IEEE-754 rules, never raises floating-point exceptions, and always returns false if either argument is `NaN`. Integer inputs are promoted to floating-point. The function is available through the `<cmath>` header.
+The **`isgreater()`** [function](https://www.codecademy.com/resources/docs/cpp/functions) compares two floating-point values and returns `true` only when the first is strictly greater than the second. It follows IEEE-754 rules, never raises floating-point exceptions, and always returns `false` if either argument is `NaN`. Integer inputs are promoted to floating-point. The function is available through the `<cmath>` header.
 
 ## Syntax
 
