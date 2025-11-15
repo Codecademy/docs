@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.CopySign()`** method in C# returns a value that combines the magnitude of the first argument with the sign of the second. It’s useful for matching the sign of one number to another while keeping the original magnitude.
+The **`Math.CopySign()`** [method](https://www.codecademy.com/resources/docs/c-sharp/methods) in C# returns a value that combines the magnitude of the first argument with the sign of the second. It’s useful for matching the sign of one number to another while keeping the original magnitude.
 
 ## Syntax
 
@@ -33,7 +33,7 @@ Math.CopySign(double x, double y)
 - If `x` is `NaN`, the result is `NaN`.
 - If `y` is `NaN`, the result is treated as if `y` were positive.
 
-## Example: Adjusting velocity based on direction
+## Example: Adjusting Velocity Based on Direction
 
 In this example, `Math.CopySign()` is used to adjust a projectile’s velocity so that its direction matches a steering input:
 
@@ -60,7 +60,7 @@ This program outputs:
 Adjusted velocity: -18.75
 ```
 
-## Codebyte Example: Standardizing numeric sign alignment
+## Codebyte Example: Standardizing Numeric Sign Alignment
 
 In this example, `Math.CopySign()` ensures a set of magnitudes follow given directional signs, even when the sign is `NaN`:
 
