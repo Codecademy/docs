@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.Truncate()`** method in C# returns the integer part of a specified number by removing any fractional digits. It works with both `decimal` and `double` types.
+The **`Math.Truncate()`** [method](https://www.codecademy.com/resources/docs/c-sharp/methods) in C# returns the integer part of a specified number by removing any fractional digits. It works with both `decimal` and `double` [types](https://www.codecademy.com/resources/docs/c-sharp/data-types).
 
 ## Syntax
 
@@ -37,11 +37,11 @@ Math.Truncate(decimal d)
 - Returns a `double` if a `double` is passed and a `decimal` if a `decimal` is passed.
 - Special values like `NaN`, `PositiveInfinity`, and `NegativeInfinity` are returned as-is.
 
-> **Note:** `Math.Truncate()` always rounds towards zero. This means `Math.Truncate(2.8)` is 2, and `Math.Truncate(-2.8)` is -2. This is different from `Math.Floor()`, which always rounds down (e.g., `Math.Floor(-2.8)` would be -3).
+> **Note:** `Math.Truncate()` always rounds towards zero. This means `Math.Truncate(2.8)` is 2, and `Math.Truncate(-2.8)` is -2. This is different from [`Math.Floor()`](https://www.codecademy.com/resources/docs/c-sharp/math-functions/floor), which always rounds down (e.g., `Math.Floor(-2.8)` would be -3).
 
 ## Example 1: Using `double`
 
-In this example, a double value is truncated to its integer part:
+In this example, a `double` value is truncated to its integer part:
 
 ```cs
 using System;
