@@ -2,18 +2,18 @@
 Title: 'Cbrt()'
 Description: 'Returns the cube root of the given number.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Arithmetic'
-  - 'Numbers'
   - 'Methods'
+  - 'Numbers'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
 ---
 
-The **`Math.Cbrt()`** method in C# returns the cube root of a given number. It handles positive, negative, and special floating-point values such as `NaN` and infinities.
+The **`Math.Cbrt()`** [method](https://www.codecademy.com/resources/docs/c-sharp/methods) in C# returns the cube root of a given number. It handles positive, negative, and special floating-point values such as `NaN` and infinities.
 
 ## Syntax
 
@@ -27,12 +27,12 @@ Math.Cbrt(double x)
 
 **Return value:**
 
-The function will return a value of type `double` unless the value passed is one of the following:
+The method will return a value of [type](https://www.codecademy.com/resources/docs/c-sharp/data-types) `double` unless the value passed is one of the following:
 
-- If `x` is `NaN`, the function will return `NaN`.
-- If `x` is `PositiveInfinity`, the function will return `PositiveInfinity`.
-- If `x` is `NegativeInfinity`, the function will return `NegativeInfinity`.
-- If `x` is negative, returns the real cube root (a negative number).
+- If `x` is `NaN`, the method will return `NaN`.
+- If `x` is `PositiveInfinity`, the method will return `PositiveInfinity`.
+- If `x` is `NegativeInfinity`, the method will return `NegativeInfinity`.
+- If `x` is negative, the method will return the real cube root (a negative number).
 
 ## Example
 
