@@ -1,5 +1,5 @@
 ---
-Title: 'nonzero()'
+Title: '.nonzero()'
 Description: 'Returns the indices of the array elements that are non-zero.'
 Subjects:
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`numpy.ndarray.nonzero()`** method returns the indices of elements in an [array](https://www.codecademy.com/resources/docs/numpy/ndarray) that are non-zero or evaluate to `True`. It is often used to locate positions of meaningful or valid data within an array.
+The **`.nonzero()`** method returns the indices of elements in a NumPy array that are non-zero or evaluate to `True`. It is often used to locate positions of meaningful or valid data within an array.
 
 ## Syntax
 
