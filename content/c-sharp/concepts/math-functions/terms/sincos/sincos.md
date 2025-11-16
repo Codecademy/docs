@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.SinCos()`** method returns both the sine and cosine of a specified angle (in radians) as a [tuple](https://www.codecademy.com/resources/docs/python/tuples).
+The **`Math.SinCos()`** method returns both the sine and cosine of a specified angle (in radians) as a tuple.
 
 ## Syntax
 
