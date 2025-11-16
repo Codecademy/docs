@@ -37,7 +37,7 @@ matplotlib.pyplot.plot(x, y, fmt='', data=None, **kwargs)
 
 Returns a list of `Line2D` objects representing the plotted data.
 
-## Example 1: Creating a Basic Line Plot
+## Example: Creating a Basic Line Plot
 
 This example demonstrates how to create a simple line plot with plt.plot() to visualize the relationship between two numerical variables:
 
