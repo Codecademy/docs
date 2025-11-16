@@ -17,7 +17,7 @@ CatalogContent:
 
 The **`.plot()`** function in [Matplotlib](https://www.codecademy.com/resources/docs/matplotlib/pyplot) is the primary method used to create line plots and marker plots. It takes one or two sets of data points (x and y coordinates) and draws lines connecting them, displays markers at each point, or both. This function is one of the most commonly used tools in data visualization for showing trends, patterns, and relationships between variables.
 
-Line plots are ideal for illustrating how data changes over time or across continuous intervals. They’re widely used in fields such as statistics, engineering, and data science for exploratory data analysis and model visualization.
+Line plots are ideal for illustrating how data changes over time or across continuous intervals. It's widely used in fields such as statistics, engineering, and data science for exploratory data analysis and model visualization.
 
 ## Syntax
 
