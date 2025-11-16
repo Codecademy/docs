@@ -29,9 +29,9 @@ public static long DivRem(long dividend, long divisor, out long remainder);
 
 **Return value:**
 
-The method returns the quotient as an `int` or `long` depending on the parameter types used.
+The method returns the quotient as an `int` or `long`, depending on the parameter types used.
 
-**Note:** This method throws a `DivideByZeroException` if the `divisor` is zero.
+> **Note:** This method throws a `DivideByZeroException` if the `divisor` is zero.
 
 ## Example
 
