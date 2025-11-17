@@ -1,53 +1,82 @@
----
-Title: '.uniform()'
-Description: 'Returns a pseudo-random floating-point number between two given numbers.'
+
+
+# Title: 'uniform()'
+
+# Description: 'The `uniform()` function in NumPy generates random floating-point numbers sampled from a continuous uniform distribution over a specified interval.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
+  - 'NumPy'
   - 'Random'
-  - 'Functions'
+  - 'Uniform Distribution'
+  - 'Python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
-The `.uniform()` method takes two numbers as arguments and returns a pseudo-random floating-point number between them. The result is inclusive of the first value, and possibly inclusive of the second value, depending on rounding.
+# uniform()
+
+The `uniform()` function in NumPy generates random floating-point values sampled from a **continuous uniform distribution** over the interval `[low, high)`.  
+Every value in this range has an equal probability of being selected.
+
+This function is commonly used in simulations, randomized algorithms, data augmentation, and generating synthetic datasets.
+
+---
 
 ## Syntax
 
-```pseudo
-random.uniform(value1, value2)
-```
+```python
+numpy.random.uniform(low=0.0, high=1.0, size=None)
+````
 
-Where `value1` and `value2` are numbers bounding the choice of a random floating-point number.
+### Parameters
+
+* **`low`** (float, optional)
+  The lower bound of the interval. Default is `0.0`.
+
+* **`high`** (float, optional)
+  The upper bound of the interval. Default is `1.0`.
+
+* **`size`** (int or tuple of ints, optional)
+  The shape of the output.
+
+  * `None` returns a single float
+  * An integer returns a 1D array
+  * A tuple returns a multi-dimensional array
+
+### Returns
+
+* **float or ndarray**
+  Random value(s) drawn from the specified uniform distribution.
+
+---
 
 ## Example
 
-In the example below, `.uniform()` is used to return a random floating-point number between 10 and 20:
+```python
+import numpy as np
 
-```py
-import random
+# Generate a single random value between 5 and 10
+value = np.random.uniform(5, 10)
+print(value)
 
-print(random.uniform(10,20))
+# Generate a 2×3 array of values between 0 and 1
+array = np.random.uniform(0, 1, size=(2, 3))
+print(array)
 ```
 
-Example output:
+---
 
-```shell
-13.188312896316244
-```
-
-## Codebyte Example
-
-The following example prints random floating-point numbers between 10 and 15, 100 and 150, -10 and 10, and 0.75 and 0.90.
+## Codebyte
 
 ```codebyte/python
-import random
+import numpy as np
 
-print(random.uniform(10,15))
-print(random.uniform(100,150))
-print(random.uniform(-10,10))
-print(random.uniform(0.75,0.90))
+# Generate three random numbers between 2 and 4
+result = np.random.uniform(2, 4, size=3)
+print("Uniform random values:", result)
 ```
+
+
