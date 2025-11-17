@@ -6,7 +6,7 @@ Subjects:
   - 'Game Development'
 Tags:
   - 'Containers'
-  - 'Deques'
+  - 'Map'
   - 'Methods'
   - 'STL'
 CatalogContent:
