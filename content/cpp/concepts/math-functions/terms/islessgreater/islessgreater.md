@@ -1,6 +1,6 @@
 ---
 Title: 'islessgreater()'
-Description: 'Determines whether a floating-point value is less than or greater than another without setting floating-point exceptions.'
+Description: 'Determines if a value is less than or greater than another.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -40,11 +40,11 @@ using namespace std;
 int main() {
   double x = 5.0;
   double y = 10.0;
-  
+
   cout << "islessgreater(5.0, 10.0): " << islessgreater(x, y) << "\n";
   cout << "islessgreater(10.0, 5.0): " << islessgreater(y, x) << "\n";
   cout << "islessgreater(5.0, 5.0): " << islessgreater(x, x) << "\n";
-  
+
   return 0;
 }
 ```
@@ -73,11 +73,11 @@ int main() {
   double d2 = 100.0;
   long double ld1 = 1.5L;
   long double ld2 = 2.5L;
-  
+
   // NaN comparison
   double nan_val = 0.0 / 0.0;
   double normal_val = 5.0;
-  
+
   cout << "islessgreater(3.14, 2.71): " << islessgreater(f1, f2) << "\n";
   cout << "islessgreater(100.0, 100.0): " << islessgreater(d1, d2) << "\n";
   cout << "islessgreater(1.5L, 2.5L): " << islessgreater(ld1, ld2) << "\n";
