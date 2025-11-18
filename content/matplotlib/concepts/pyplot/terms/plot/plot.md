@@ -63,6 +63,7 @@ plt.grid(True, linestyle='--', alpha=0.6)
 # Display the plot
 plt.show()
 ```
+
 This example visualizes the relationship between an independent variable, X-axis, and a dependent variable, Y-axis, using a single continuous line. The plot shows the change in Y values as X increases from 1.0 to 5.0.
 
 - Single Series: The plot displays one series of data, represented by a single blue line, showing the progression of the Y-axis value relative to the X-axis value.
