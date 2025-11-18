@@ -63,3 +63,11 @@ plt.grid(True, linestyle='--', alpha=0.6)
 # Display the plot
 plt.show()
 ```
+This example visualizes the relationship between an independent variable, X-axis, and a dependent variable, Y-axis, using a single continuous line. The plot shows the change in Y values as X increases from 1.0 to 5.0.
+
+- Single Series: The plot displays one series of data, represented by a single blue line, showing the progression of the Y-axis value relative to the X-axis value.
+- Data Points and Trend: The line connects the following data points: $(1.0, 2.0)$, $(2.0, 4.0)$, $(3.0, 1.0)$, $(4.0, 6.0)$, and $(5.0, 3.0)$. The plot illustrates clear changes in direction: an initial increase, a sharp decrease, a significant increase to the maximum value, and a final decrease.
+- Labels and Title: The plot is clearly titled "Basic Line Plot Example" and has "X-axis" and "Y-axis" labels for clarity.
+- Grid: A light dashed grid is present, running horizontally and vertically across the plot, which aids in precisely reading the coordinate values of the data points off the chart.
+
+![Line plot illustrating a fluctuating, piecewise linear trend between the X-axis and Y-axis, with a single blue line connecting 5 data points, a grid, and labeled axes](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplot-plot-output.png)
