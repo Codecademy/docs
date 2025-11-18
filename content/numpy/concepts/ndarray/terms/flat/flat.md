@@ -1,43 +1,41 @@
 ---
-Title: '.flat'
-Description: 'Returns a 1-D iterator over the elements of an array, allowing linear access to multi-dimensional data.'
+Title: 'flat'
+Description: 'Returns a 1-D iterator over the elements of an ndarray.'
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - 'NumPy'
   - 'Array'
   - 'Iterator'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-The **`.flat`** attribute is a powerful feature of the NumPy `ndarray`. It returns a **1-D iterator** over all the elements of a multi-dimensional array, allowing you to access or iterate through the array's elements as if it were a single, flat list.
-
-This is highly useful for loops where the actual dimensionality or shape of the array is irrelevant, and you simply need to process every element in a linear fashion. The order of iteration follows the standard C-style (row-major) ordering.
+The **`.flat`** attribute returns a 1-D [iterator](https://www.codecademy.com/resources/docs/python/iterators) over all elements of a multi-dimensional array, allowing access to each element as if the array were a single flat list. This is useful for loops where the dimensionality or shape of the array is irrelevant and every element needs to be processed in linear order. Iteration follows standard C-style (row-major) ordering.
 
 ## Syntax
 
-The `.flat` attribute is accessed directly on the NumPy array object.
+The `flat` attribute is accessed directly on the NumPy array object:
 
 ```pseudo
 array.flat
 ```
 
-## Parameters
+**Parameters:**
 
 The attribute takes no parameters.
 
-## Return Value
+**Return value:**
 
-Returns an object of type `numpy.flatiter`, which is an iterator designed for efficient, single-dimension traversal of the array data.
+Returns an object of type `numpy.flatiter`, which provides efficient, one-dimensional traversal of the array data.
 
 ## Example
 
-This example demonstrates how to use `.flat` to iterate through every element of a 2x3 array without needing nested loops.
+This example demonstrates how to use `flat` to iterate through every element of a 2x3 array without needing nested loops:
 
-```python
+```py
 import numpy as np
 
 # Create a 2x3 array
@@ -50,7 +48,7 @@ print("\nIterating using .flat:")
 for element in multi_dim_array.flat:
   print(element)
 
-# .flat can also be used for assignment
+# flat can also be used for assignment
 flat_view = multi_dim_array.flat
 flat_view[0] = 99
 
@@ -58,9 +56,9 @@ print("\nArray after assignment via .flat:")
 print(multi_dim_array)
 ```
 
-Output:
+The output for this code is:
 
-```
+```shell
 Original Array:
 [[1 2 3]
  [4 5 6]]
@@ -78,16 +76,16 @@ Array after assignment via .flat:
  [ 4  5  6]]
 ```
 
-## Codebyte
+## Codebyte Example
 
-Use the Codebyte below to access elements of a multi-dimensional array using a single index via `.flat`.
+Use the Codebyte below to access elements of a multi-dimensional array using a single index via `flat`:
 
-```python
+```codebyte/python
 import numpy as np
 
 my_array = np.array([
-    [10, 11], 
-    [20, 21], 
+    [10, 11],
+    [20, 21],
     [30, 31]
 ])
 
