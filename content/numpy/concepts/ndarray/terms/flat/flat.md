@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.flat`** attribute returns a 1-D [iterator](https://www.codecademy.com/resources/docs/python/iterators) over all elements of a multi-dimensional array, allowing access to each element as if the array were a single flat list. This is useful for loops where the dimensionality or shape of the array is irrelevant and every element needs to be processed in linear order. Iteration follows standard C-style (row-major) ordering.
+The **`flat`** attribute returns a 1-D [iterator](https://www.codecademy.com/resources/docs/python/iterators) over all elements of a multi-dimensional array, allowing access to each element as if the array were a single flat list. This is useful for loops where the dimensionality or shape of the array is irrelevant and every element needs to be processed in linear order. Iteration follows standard C-style (row-major) ordering.
 
 ## Syntax
 
