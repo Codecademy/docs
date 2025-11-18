@@ -1,4 +1,3 @@
-
 ---
 Title: 'isless()'
 Description: 'Returns true if first argument less than second argument, false otherwise.'
