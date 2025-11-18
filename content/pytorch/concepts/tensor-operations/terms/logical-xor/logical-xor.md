@@ -5,10 +5,10 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
+  - 'Booleans'
   - 'Functions'
   - 'PyTorch'
   - 'Tensor'
-  - 'Boolean Logic'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/data-science'
@@ -16,37 +16,35 @@ CatalogContent:
 
 The **`.logical_xor()`** method computes the **Exclusive OR (XOR)** operation element-wise between two input tensors. The resulting tensor contains Boolean (`True` or `False`) values.
 
-The XOR operation returns `True` if **exactly one** of the corresponding elements in the input tensors evaluates to `True`. It returns `False` if both elements are `True` or if both are `False` (zero).
-
-Inputs are treated as Boolean: non-zero values are interpreted as `True`, and zero values are interpreted as `False`.
+According to the XOR rule, an element is `True` only if exactly one of the corresponding inputs is truthy. Inputs are interpreted as Boolean values where non-zero means `True` and zero means `False`.
 
 ## Syntax
 
-The method is called on the first tensor and takes the second tensor as an argument.
-
 ```pseudo
-input_tensor_a.logical_xor(input_tensor_b)
+torch.logical_xor(input, other, out)
 ```
 
-## Parameters
+**Parameters:**
 
-* `input_tensor_b` (Tensor): The second tensor to compare. Must be broadcastable with the first tensor.
+- `input`: A boolean tensor (or a tensor that can be cast to boolean).
+- `other`: A boolean tensor of the same shape or broadcastable to `input`.
+- `out` (optional): A tensor for storing the result in-place.
 
-## Return Value
+**Return value:**
 
-Returns a tensor of type `torch.bool` (Boolean) containing the element-wise result of the logical XOR operation.
+Returns a boolean tensor where each element is `True` when exactly one of the corresponding elements in `input` and `other` is true.
 
-## Example
+## Example 1
 
-This example demonstrates the logical XOR operation using various combinations of non-zero (True) and zero (False) values.
+This example shows the logical XOR applied to two 2×2 tensors:
 
-```python
+```py
 import torch
 
-# Tensor A: 
+# Tensor A:
 # [True, False]
 # [True, True]
-tensor_a = torch.tensor([[1, 0], [5, 10]]) 
+tensor_a = torch.tensor([[1, 0], [5, 10]])
 
 # Tensor B:
 # [True, True]
@@ -59,16 +57,16 @@ tensor_b = torch.tensor([[2, 3], [0, 1]])
 # [0 XOR 3] -> False XOR True -> True
 # [5 XOR 0] -> True XOR False -> True
 # [10 XOR 1] -> True XOR True -> False
-result_tensor = tensor_a.logical_xor(tensor_b)
+result_tensor = torch.logical_xor(tensor_a, tensor_b)
 
 print("Tensor A:\n", tensor_a)
 print("\nTensor B:\n", tensor_b)
 print("\nA.logical_xor(B) Result (Boolean):\n", result_tensor)
 ```
 
-Output:
+The output of this code is:
 
-```
+```shell
 Tensor A:
 tensor([[ 1,  0],
         [ 5, 10]])
@@ -82,18 +80,24 @@ tensor([[False,  True],
         [ True, False]])
 ```
 
-## Codebyte
+## Example 2
 
-Use the Codebyte below to experiment with the `logical_xor()` method on two 1-D tensors.
+This example demonstrates XOR on two 1-D tensors so each result maps cleanly to a single pair of elements:
 
-```python
+```py
 import torch
 
 x = torch.tensor([1, 0, 10, 0])
 y = torch.tensor([0, 5, 0, 0])
 
 # Compute x logical XOR y
-xor_result = x.logical_xor(y)
+xor_result = torch.logical_xor(x, y)
 
 print(xor_result)
+```
+
+The output of this code is:
+
+```shell
+tensor([ True,  True,  True, False])
 ```
