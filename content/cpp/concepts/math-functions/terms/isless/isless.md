@@ -77,14 +77,15 @@ This example demonstrates using `isless()` inside mathematical conditions cleanl
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
+using namespace std;
 
 void compare(double x, double y) {
-    if (std::isless(x, y)) {
-        std::cout << x << " is LESS than " << y << "\n";
-    } else if (std::isless(y, x)) {
-        std::cout << x << " is GREATER than " << y << "\n";
+    if (isless(x, y)) {
+        cout << x << " is LESS than " << y << "\n";
+    } else if (isless(y, x)) {
+        cout << x << " is GREATER than " << y << "\n";
     } else {
-        std::cout << x << " and " << y << " are NOT comparable (maybe NaN?)\n";
+        cout << x << " and " << y << " are NOT comparable (maybe NaN?)\n";
     }
 }
 
