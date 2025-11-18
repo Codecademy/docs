@@ -5,15 +5,15 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Math'
-  - 'Functions'
   - 'Booleans'
+  - 'Functions'
+  - 'Math'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The C++ **`isless()`** function returns true if first argument is lesser than the second, false otherwise. This math function is part of the C++ standard library and is defined in the `<cmath>` header file.
+The C++ **`isless()`** function returns `true` if the first argument is strictly less than the second, and `false` otherwise. It performs a quiet floating-point comparison, never raises exceptions, and returns `false` if either value is `NaN`. The function is defined in the `<cmath>` header.
 
 ## Syntax
 
@@ -23,11 +23,11 @@ bool isless(x, y);
 
 **Parameters:**
 
-- `x, y`: A floating-point number (double, float, or long double) or integer values [data type](https://www.codecademy.com/resources/docs/cpp/data-types).
+- `x, y`: Floating-point values (`double`, `float`, or `long double`) or integers, which are promoted to floating-point types.
 
 **Return value:**
 
-- The `isless()` function returns true or false. True if `x < y`, false otherwise. If one or both of the parameters is NaN, the function returns false.
+The `isless()` function returns `true` if `x < y` and both values are valid numbers. Returns `false` if the comparison is `false` or if either argument is `NaN`.
 
 ## Example
 
@@ -38,28 +38,26 @@ The following example uses the `isless()` function to compare and determine if t
 #include <cmath>
 using namespace std;
 
-int main()
-{
-	bool result; // true 1, false 0
-	int x, y;
-	
-	x = 5;
-	y = 7;
-	result = isless(x, y); // true 1
-	cout << x << " is less than " << y << ": " << result << endl;
-	
-	x = 9;
-	y = 3;
-	result = isless(x, y); // false 0
-	cout << x << " is less than " << y << ": " << result << endl;
+int main() {
+  bool result;
+  int x, y;
 
-	double z = nan("1");
-	result = isless(x, z); // false 0
-	cout << x << " is less than " << z << ": " << result << endl;
+  x = 5;
+  y = 7;
+  result = isless(x, y);
+  cout << x << " is less than " << y << ": " << result << endl;
 
-	return 0;
+  x = 9;
+  y = 3;
+  result = isless(x, y);
+  cout << x << " is less than " << y << ": " << result << endl;
+
+  double z = nan("1");
+  result = isless(x, z);
+  cout << x << " is less than nan: " << result << endl;
+
+  return 0;
 }
-
 ```
 
 This produces the following output:
@@ -70,9 +68,9 @@ This produces the following output:
 9 is less than nan: 0
 ```
 
-## Codebyte Example: Using `isless()` inside Condition Logic
+## Codebyte Example
 
-This example demonstrates using `isless()` inside mathematical conditions cleanly. It avoids undefined behavior from comparing with NaNs.
+This example uses `isless()` inside conditional logic to safely compare values, including NaNs:
 
 ```codebyte/cpp
 #include <iostream>
@@ -80,24 +78,24 @@ This example demonstrates using `isless()` inside mathematical conditions cleanl
 using namespace std;
 
 void compare(double x, double y) {
-    if (isless(x, y)) {
-        cout << x << " is LESS than " << y << "\n";
-    } else if (isless(y, x)) {
-        cout << x << " is GREATER than " << y << "\n";
-    } else {
-        cout << x << " and " << y << " are NOT comparable (maybe NaN?)\n";
-    }
+  if (isless(x, y)) {
+    cout << x << " is LESS than " << y << "\n";
+  } else if (isless(y, x)) {
+    cout << x << " is GREATER than " << y << "\n";
+  } else {
+    cout << x << " and " << y << " are NOT comparable (possibly NaN)\n";
+  }
 }
 
 int main() {
-    compare(3.0, 7.0);
-    compare(9.0, 2.0);
-    compare(std::nan(""), 5.0);
+  compare(3.0, 7.0);
+  compare(9.0, 2.0);
+  compare(nan(""), 5.0);
 }
 ```
 
-## When should we use `isless()`
+Use `isless()` in situations where direct comparison operators might behave unpredictably:
 
-- When NaN might appear in the comparison or calculations.
-- When building SAFE comparison functions.
-- In sorting or filtering.
+- When comparisons may involve `NaN`, since `isless()` guarantees a defined boolean result.
+- When writing safe comparison logic that avoids undefined behavior.
+- When building math-heavy code such as sorting, filtering, or numerical checks that require robust comparisons.
