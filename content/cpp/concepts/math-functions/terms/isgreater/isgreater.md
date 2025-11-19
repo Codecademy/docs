@@ -41,16 +41,20 @@ The following example checks whether one number is greater than another, includi
 
 ```cpp
 #include <iostream>
+#include <iostream>
 #include <cmath>
+
+using namespace std;
 
 int main() {
   double x = 10.5;
   double y = 5.2;
-  double z = std::nan("1");
+  double z = nan("1");
 
-  std::cout << std::boolalpha;
-  std::cout << "isgreater(x, y): " << std::isgreater(x, y) << std::endl;
-  std::cout << "isgreater(x, z): " << std::isgreater(x, z) << " (NaN comparison)" << std::endl;
+  cout << boolalpha;
+  cout << "isgreater(x, y): " << isgreater(x, y) << endl;
+  cout << "isgreater(x, z): " << isgreater(x, z) << " (NaN comparison)" << endl;
+
   return 0;
 }
 ```
