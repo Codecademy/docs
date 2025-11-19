@@ -38,6 +38,7 @@ matplotlib.pyplot.step(x, y, *args, where='pre', **kwargs)
 A list of `matplotlib.lines.Line2D` objects representing the plotted steps.
 
 > **Notes:**
+>
 > - Use `plt.stairs()` if you have explicit step edges (left/right boundaries) rather than sample positions.
 > - `step()` is a thin wrapper around `plot()` and supports most `plot` formatting options.
 
