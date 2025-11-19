@@ -1,1 +1,1 @@
-content/kotlin/concepts/operators/operators.md
+content/kotlin/concepts/strings/strings.md
