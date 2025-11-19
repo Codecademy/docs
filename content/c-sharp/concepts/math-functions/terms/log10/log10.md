@@ -17,7 +17,7 @@ CatalogContent:
 In C#, the **Log10()** method is a Math method used to return the base 10 logarithm of a specified number.
 The base 10 logarithm (or decimal logarithm) is the continuous function that transforms a product into a sum and whose value is 1 for x = 10.
 
-## Syntax of C# `Math.Log10()
+## Syntax of C# `Math.Log10()`
 
 ```pseudo
 Math.Log10(number);
@@ -29,7 +29,7 @@ Math.Log10(number);
 
 **Return Value**
 
-Returns the logarithm of `number`(base 10 log of `number`) and its type is System.Double. 
+Returns the logarithm of `number` (base 10 log of `number`) and its type is System.Double. 
 Note: Parameter `number` is always specified as a base 10 number. The return value is depend on the argument passed. 
 Below are some cases:
 - If the argument is positive then method will return the natural logarithm or log10(number).
