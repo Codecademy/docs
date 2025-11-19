@@ -28,8 +28,6 @@ Math.Acosh(number);
 
 **Return value:**
 
-The `Math.Acosh()` method returns:
-
 - The inverse hyperbolic cosine of the specified number in radians as a `double`.
 - `NaN` if the input is less than 1 or `NaN`.
 
