@@ -26,7 +26,7 @@ isgreater(x, y)
 
 - `x`, `y`: Arithmetic values (integers or floating-point types).
 
-Integer arguments are promoted to the appropriate floating-point type.
+> **Note:** Integer arguments are promoted to the appropriate floating-point type.
 
 **Return value:**
 
