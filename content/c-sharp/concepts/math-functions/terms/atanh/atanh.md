@@ -23,7 +23,7 @@ Math.Atanh(value);
 
 **Parameters:**
 
-- `value`: A double-precision floating-point number in the range -1 to 1, representing the hyperbolic tangent value.
+- `value`: A double-precision floating-point number in the range `-1` to `1`, representing the hyperbolic tangent value.
 
 **Return value:**
 
@@ -31,9 +31,9 @@ The `Math.Atanh()` method returns the inverse hyperbolic tangent of the given `v
 
 It returns:
 
-- `NaN` (Not a Number) if the `value` is less than -1 or greater than 1.
-- `NegativeInfinity` if the `value` is exactly -1.
-- `PositiveInfinity` if the `value` is exactly 1.
+- `NaN` (Not a Number) if the `value` is less than `-1` or greater than `1`.
+- `NegativeInfinity` if the `value` is exactly `-1`.
+- `PositiveInfinity` if the `value` is exactly `1`.
 
 ## Example: Basic Usage of `Math.Atanh()`
 
