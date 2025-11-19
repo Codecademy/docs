@@ -22,7 +22,7 @@ CatalogContent:
 matplotlib.pyplot.step(x, y, *args, where='pre', **kwargs)
 ```
 
-**Parameters**
+**Parameters:**
 
 - `x` (array-like): 1-D sequence of x positions. It is assumed (but not enforced) that `x` is increasing.
 - `y` (array-like): Sequence of y-values. Must have the same length as `x`.
@@ -33,7 +33,7 @@ matplotlib.pyplot.step(x, y, *args, where='pre', **kwargs)
   - `'mid'`: each step is centered between neighbors; level changes occur at midpoints between successive x values.
 - `**kwargs`: any other keyword arguments accepted by `matplotlib.pyplot.plot`, such as `label`, `linewidth`, `linestyle`, `alpha`, etc.
 
-**Returns**
+**Returns:**
 
 A list of `matplotlib.lines.Line2D` objects representing the plotted steps.
 
@@ -43,7 +43,7 @@ A list of `matplotlib.lines.Line2D` objects representing the plotted steps.
 
 ## Example
 
-The example below draws three step series using `where='pre'`, `where='mid'` and `where='post'`.
+The example below draws three three-step series using `where='pre'`, `where='mid'`, and `where='post'`.
 
 ```py
 import numpy as np
