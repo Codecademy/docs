@@ -24,12 +24,12 @@ Math.Acosh(number);
 
 **Parameters:**
 
-- `number`: A double-precision floating-point value greater than or equal to 1, for which to compute the inverse hyperbolic cosine.
+- `number`: A double-precision floating-point value greater than or equal to `1`, for which to compute the inverse hyperbolic cosine.
 
 **Return value:**
 
 - The inverse hyperbolic cosine of the specified number in radians as a `double`.
-- `NaN` if the input is less than 1 or `NaN`.
+- `NaN` if the input is less than `1` or `NaN`.
 
 ## Example: Basic Usage of `Math.Acosh()`
 
