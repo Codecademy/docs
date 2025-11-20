@@ -1,5 +1,5 @@
 ---
-Title: 'log10()'
+Title: 'Log10()'
 Description: 'Returns the base-10 logarithm of a specified number.'
 Subjects:
   - 'Computer Science'
