@@ -18,7 +18,6 @@ The **`islessgreater()`** function determines whether a floating-point value is 
 ```pseudo
 islessgreater(x, y)
 ```
-
 **Parameters:**
 
 - `x`: A floating-point or integer value to compare.
