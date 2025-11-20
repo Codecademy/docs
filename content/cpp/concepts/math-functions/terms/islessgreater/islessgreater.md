@@ -24,7 +24,9 @@ The function takes two parameters:
 - `x`: A floating-point or integer value to compare.
 - `y`: A floating-point or integer value to compare.
 
-The return value is `true` if `x` is less than or greater than `y` (i.e., `x < y || x > y`). Otherwise, `false` is returned.
+**Return value:**
+
+The function returns `true` if the two values are unequal and one is strictly less than or strictly greater than the other. It returns `false` when the values are equal or when either argument is `NaN`.
 
 > **Note:** This function is particularly useful when working with floating-point values that might be `NaN`, as it provides a "quiet" comparison that won't trigger floating-point exceptions.
 
@@ -51,7 +53,7 @@ int main() {
 
 This produces the following output:
 
-```
+```shell
 islessgreater(5.0, 10.0): 1
 islessgreater(10.0, 5.0): 1
 islessgreater(5.0, 5.0): 0
