@@ -23,11 +23,11 @@ islessgreater(x, y)
 - `x`: A floating-point or integer value to compare.
 - `y`: A floating-point or integer value to compare.
 
-> **Note:** This function is particularly useful when working with floating-point values that might be `NaN`, as it provides a "quiet" comparison that won't trigger floating-point exceptions.
-
 **Return value:**
 
 The function returns `true` if the two values are unequal and one is strictly less than or strictly greater than the other. It returns `false` when the values are equal or when either argument is `NaN`.
+
+> **Note:** This function is particularly useful when working with floating-point values that might be `NaN`, as it provides a "quiet" comparison that won't trigger floating-point exceptions.
 
 ## Example
 
