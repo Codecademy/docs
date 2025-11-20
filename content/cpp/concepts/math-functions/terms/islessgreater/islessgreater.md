@@ -23,7 +23,6 @@ The function takes two parameters:
 
 - `x`: A floating-point or integer value to compare.
 - `y`: A floating-point or integer value to compare.
-
 **Return value:**
 
 The function returns `true` if the two values are unequal and one is strictly less than or strictly greater than the other. It returns `false` when the values are equal or when either argument is `NaN`.
