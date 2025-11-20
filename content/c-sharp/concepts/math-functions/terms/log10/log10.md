@@ -1,9 +1,9 @@
 ---
 Title: 'log10()'
-Description: 'Returns the base 10 logarithm of a specified number'
+Description: 'Returns the base-10 logarithm of a specified number.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Arithmetic'
   - 'Functions'
@@ -14,8 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C#, the **Log10()** method is a Math method used to return the base 10 logarithm of a specified number.
-The base 10 logarithm (or decimal logarithm) is the continuous function that transforms a product into a sum and whose value is 1 for x = 10.
+In C#, the **`Math.Log10()`** method returns the base-10 logarithm of a given number. This logarithm represents the power to which 10 must be raised to obtain the input value. The method is defined in the `System` namespace.
 
 ## Syntax of C# `Math.Log10()`
 
@@ -25,69 +24,46 @@ Math.Log10(number);
 
 **Parameters**
 
-- `number`: the specified number whose logarithm to be calculated and its type is System.Double.
+- `number`: A `double` value whose base-10 logarithm is computed.
 
-**Return Value**
+**Return value:**
 
-Returns the logarithm of `number` (base 10 log of `number`) and its type is System.Double. 
-Note: Parameter `number` is always specified as a base 10 number. The return value is depend on the argument passed. 
-Below are some cases:
-- If the argument is positive then method will return the natural logarithm or log10(number).
-- If the argument is zero, then the result is NegativeInfinity.
-- If the argument is Negative(less than zero) or equal to NaN, then the result is NaN.
-- If the argument is PositiveInfinity, then the result is PositiveInfinity.
-- If the argument is NegativeInfinity, then the result is NaN.
+Returns a `double` that represents the base-10 logarithm of `number`. Behavior for special inputs:
+
+- If the input is a positive number, the method returns its base-10 logarithm.
+- If the input is zero, the method returns `NegativeInfinity`.
+- If the input is a negative number, the method returns `NaN`.
+- If the input is `NaN`, the method returns `NaN`.
+- If the input is `PositiveInfinity`, the method returns `PositiveInfinity`.
+- If the input is `NegativeInfinity`, the method returns NaN.
 
 ## Example
 
-The following example shows Log10() returns for different possible values:
+The example below demonstrates the return values of `Math.Log10()` for different inputs:
 
 ```cs
 using System;
 
 class Geeks {
+  public static void Main(String[] args) {
+    double a = 4.55;
+    double b = 0;
+    double c = -2.45;
+    double nan = Double.NaN;
+    double positiveInfinity = Double.PositiveInfinity;
+    double negativeInfinity = Double.NegativeInfinity;
 
-    // Main Method
-    public static void Main(String[] args)
-    {
-
-        // double values whose logarithm 
-        // to be calculated
-        double a = 4.55;
-        double b = 0;
-        double c = -2.45;
-        double nan = Double.NaN;
-        double positiveInfinity = Double.PositiveInfinity;     
-        double negativeInfinity = Double.NegativeInfinity;
-
-        // Input is positive number so output
-        // will be logarithm of number
-        Console.WriteLine(Math.Log10(a));
-
-        // positive zero as argument, so output 
-        // will be -Infinity
-        Console.WriteLine(Math.Log10(b));
-
-        // Input is negative number so output
-        // will be NaN
-        Console.WriteLine(Math.Log10(c));
-
-        // Input is NaN so output
-        // will be NaN
-        Console.WriteLine(Math.Log10(nan));
-
-        // Input is PositiveInfinity so output
-        // will be Infinity
-        Console.WriteLine(Math.Log10(positiveInfinity));
-
-        // Input is NegativeInfinity so output
-        // will be NaN
-        Console.WriteLine(Math.Log10(negativeInfinity));
-    }
+    Console.WriteLine(Math.Log10(a));
+    Console.WriteLine(Math.Log10(b));
+    Console.WriteLine(Math.Log10(c));
+    Console.WriteLine(Math.Log10(nan));
+    Console.WriteLine(Math.Log10(positiveInfinity));
+    Console.WriteLine(Math.Log10(negativeInfinity));
+  }
 }
 ```
 
-Output of the code:
+The output of the code is:
 
 ```shell
 0.658011396657112
@@ -98,21 +74,19 @@ Infinity
 NaN
 ```
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
-The following example uses `Math.Log10()` to calculate base 10 logarithm of `x`. The result is stored in the `result` variable.
+This example calculates the base-10 logarithm of `x` and prints the result:
 
 ```codebyte/csharp
 using System;
 
-class Program
-{
-    static void Main()
-    {
-        double x = 10.0;
-        double result = Math.Log10(x);
+class Program {
+  static void Main() {
+    double x = 10.0;
+    double result = Math.Log10(x);
 
-        Console.WriteLine($"The base 10 logarithm of {x} is {result}");
-    }
+    Console.WriteLine($"The base 10 logarithm of {x} is {result}");
+  }
 }
 ```
