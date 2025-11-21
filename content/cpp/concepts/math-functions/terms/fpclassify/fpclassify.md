@@ -1,6 +1,6 @@
 ---
 Title: 'fpclassify()'
-Description: 'Classifies a floating-point value into specific categories such as zero, normal, subnormal, infinite, or NaN.'
+Description: 'Classifies a floating-point value into categories such as zero, normal, subnormal, infinite, or NaN.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -52,27 +52,27 @@ int main() {
   double zero = 0.0;
   double inf = INFINITY;
   double nan = NAN;
-  
+
   cout << "Classification of " << normal << ": ";
   if (fpclassify(normal) == FP_NORMAL) {
     cout << "Normal" << endl;
   }
-  
+
   cout << "Classification of " << zero << ": ";
   if (fpclassify(zero) == FP_ZERO) {
     cout << "Zero" << endl;
   }
-  
+
   cout << "Classification of inf: ";
   if (fpclassify(inf) == FP_INFINITE) {
     cout << "Infinite" << endl;
   }
-  
+
   cout << "Classification of nan: ";
   if (fpclassify(nan) == FP_NAN) {
     cout << "NaN" << endl;
   }
-  
+
   return 0;
 }
 ```
@@ -98,10 +98,10 @@ using namespace std;
 
 int main() {
   double values[] = {1.0, 0.0, INFINITY, NAN, -5.5};
-  
+
   for (double val : values) {
     cout << "fpclassify(" << val << ") = ";
-    
+
     switch(fpclassify(val)) {
       case FP_INFINITE:
         cout << "Infinite";
@@ -121,7 +121,7 @@ int main() {
     }
     cout << endl;
   }
-  
+
   return 0;
 }
 ```
