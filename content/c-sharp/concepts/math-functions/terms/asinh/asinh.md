@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.Asinh()`** is a static method that returns the inverse hyperbolic sine of a number, in radians. This method appears frecuently in _advanced mathematics_, such as physics, geometry, machine learning, and numerical analysis.
+The **`Math.Asinh()`** method returns the inverse hyperbolic sine of a number, in radians. This method appears frequently in advanced mathematics, including physics, geometry, machine learning, and numerical analysis.
 
 > **Note:** The static method `Math.Asinh()` was introduced in .NET Core 2.1.
 
@@ -25,9 +25,7 @@ Math.Asinh(double value);
 
 **Parameters:**
 
-`value`: A real number.
-
-> **Note:** `value` must be greater than or equal to NegativeInfinity, but less than or equal to PositiveInfinity.
+- `value`: A real number. If value is `NaN`, the method returns `NaN`.
 
 **Return value:**
 
@@ -35,19 +33,16 @@ The inverse hyperbolic sine of `value`, in radians.
 
 ## Example
 
-The following example demonstrates the `Math.Asinh()` method and writes the result to the console.
+The following example demonstrates the `Math.Asinh()` method and writes the result to the console:
 
 ```cs
 using System;
-
 class Program
 {
   static void Main()
   {
     double x = 2;
-
     double result = Math.Asinh(x);
-
     Console.WriteLine(result);
   }
 }
@@ -61,17 +56,15 @@ The example will result in the following output:
 
 ## Codebyte Example
 
-The following codebyte example uses the `Math.PI` constant field to convert the result to degrees.
+The following codebyte example uses the `Math.PI` constant field to convert the result to degrees:
 
 ```codebyte/csharp
 using System;
-
 class Program
 {
   static void Main()
   {
     double x = 4;
-
     double radians = Math.Asinh(x);
     double degrees = radians * (180 / Math.PI);
 
