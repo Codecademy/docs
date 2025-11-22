@@ -43,7 +43,6 @@ The following example demonstrates various classifications using `fpclassify()`:
 ```cpp
 #include <iostream>
 #include <cmath>
-#include <limits>
 
 using namespace std;
 
