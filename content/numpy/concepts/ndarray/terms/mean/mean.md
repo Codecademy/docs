@@ -23,10 +23,10 @@ ndarray.mean(axis=None, dtype=None, out=None, keepdims=False, initial=<no value>
 
 **Parameters:**
 
-- `axis` (optional): Axis or axes along which the mean is computed. If omitted, the mean of all elements is returned.
+- `axis` (optional): The axis or axes along which the mean is computed. If omitted, the mean of all elements is returned.
 - `dtype` (optional): Data type used during the calculation.
 - `out` (optional): Output array for storing the result.
-- `keepdims` (optional): Preserves reduced dimensions when set to True.
+- `keepdims` (optional): Preserves reduced dimensions when set to `True`.
 - `initial` (optional): Starting value for the sum.
 - `where` (optional): A boolean mask that selects elements included in the mean.
 
@@ -60,7 +60,7 @@ The output of this code is:
 
 ```shell
 Overall mean: 7.0
-Row-wise mean: [4. 10.]
+Row-wise mean: [ 4. 10.]
 ```
 
 ## Example 2
@@ -71,7 +71,7 @@ In this example, a boolean mask is used with where to compute the mean only acro
 import numpy as np
 
 arr = np.array([10, 20, 0, 40, 0])
-mask = arr > 0  # select only non-zero values
+mask = arr > 0  # Select only non-zero values
 
 masked_mean = arr.mean(where=mask)
 
@@ -86,7 +86,7 @@ Mean of non-zero values: 23.333333333333332
 
 ## Codebyte Example
 
-Use this Codebyte to compute the mean along a specific axis in a 2-D array:
+Use this codebyte to compute the mean along a specific axis in a 2D array:
 
 ```codebyte/python
 import numpy as np
@@ -105,14 +105,14 @@ print("Column-wise mean:", column_mean)
 
 ## Frequently Asked Questions
 
-### 1. What is a NumPy Ndarray in Python?
+### 1. What is a NumPy ndarray?
 
-A NumPy ndarray is a multidimensional, fixed-size array optimized for numerical computation. It stores elements of the same data type and supports fast vectorized operations, making it the core data structure of NumPy.
+A NumPy `ndarray` is a multidimensional, fixed-size array optimized for numerical computation. It stores elements of the same data type and supports fast vectorized operations, making it the core data structure of NumPy.
 
-### 2. What is NumPy mean in NumPy?
+### 2. What is NumPy `mean()`?
 
 The `mean()` function computes the arithmetic average of the selected array elements. It supports axes, masks, and type casting, making it suitable for both simple and high-performance statistical calculations.
 
 ### 3. How does `mean()` work in Python?
 
-The method sums the selected elements of the array and divides by the number of included elements. When an axis is specified, this process is applied along that dimension, returning an array of means.
+The `mean()` method sums the selected elements of the array and divides by the number of included elements. When an axis is specified, this process is applied along that dimension, returning an array of means.
