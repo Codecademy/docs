@@ -1,5 +1,5 @@
 ---
-Title: 'at()'
+Title: '.at()'
 Description: 'Accesses an element at a specified index in a deque with bounds checking.'
 Subjects:
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`at()`** function accesses the element at a given index in a deque while performing bounds checking. If the index is out of range, the function throws an `std::out_of_range` exception. This makes it a safer alternative to the subscript operator `[]`, which offers no safety checks.
+The C++ **`.at()`** [function](https://www.codecademy.com/resources/docs/cpp/functions) accesses the element at a given index in a deque while performing bounds checking. If the index is out of range, the function throws an `std::out_of_range` [exception](https://www.codecademy.com/resources/docs/cpp/exceptions). This makes it a safer alternative to the subscript operator `[]`, which offers no safety checks.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ deque.at(pos)
 
 **Return value:**
 
-Returns a reference to the element at the specified position.
+Returns a reference to the element at the given position.
 
 **Exceptions:**
 
@@ -36,7 +36,7 @@ Throws `std::out_of_range` if `pos` is invalid.
 
 ## Example 1: Accessing Elements Safely
 
-In this example, `at()` retrieves elements from valid positions in the deque:
+In this example, `.at()` retrieves elements from valid positions in the deque:
 
 ```cpp
 #include <iostream>
@@ -60,7 +60,7 @@ Element at index 2: 30
 Element at index 0: 10
 ```
 
-The `at()` function returns elements at positions 2 and 0 with built-in bounds checking.
+The `.at()` function returns elements at positions 2 and 0 with built-in bounds checking.
 
 ## Example 2: Handling Out-of-Range Access
 
@@ -92,7 +92,7 @@ Error: deque::_M_range_check: __n (which is 5)>= this->size() (which is 3)
 
 ## Codebyte Example
 
-This example demonstrates safe element access and shows how `at()` behaves when an invalid index is used:
+This example demonstrates safe element access and shows how `.at()` behaves when an invalid index is used:
 
 ```codebyte/cpp
 #include <iostream>
