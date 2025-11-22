@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`rfind()`** function returns the position of the last occurrence of a specified substring or character within a `std::string`. The search proceeds from right to left, and the function returns `std::string::npos` if no match is found.
+The C++ **`rfind()`** [function](https://www.codecademy.com/resources/docs/cpp/functions) returns the position of the last occurrence of a given substring or character within a `std::string`. The search proceeds from right to left, and the function returns `std::string::npos` if no match is found.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ string_object.rfind(val, pos = npos);
 **Parameters:**
 
 - `val`: A character or string to search for.
-- `pos`: (Optional) The position to start searching backward from. Defaults to `std::string::npos`, meaning the end of the string.
+- `pos` (Optional): The position to start searching backward from. Defaults to `std::string::npos`, meaning the end of the string.
 
 **Return value:**
 
