@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`rehash()`** function changes the number of internal buckets in a `std::unordered_map` so the container holds at least the specified number. This operation redistributes all existing elements across the new bucket structure and helps reduce collisions when the container grows.
+The C++ **`rehash()`** function changes the number of internal buckets in a `std::unordered_map` so the container holds at least the specified number. This operation redistributes all existing elements across the new bucket structure and helps reduce collisions when the container grows.
 
 ## Syntax
 
@@ -32,7 +32,7 @@ This function does not return a value.
 
 ## Example 1
 
-In this example, the bucket count of an unordered_map is expanded before inserting more elements:
+In this example, the bucket count of an `unordered_map` is expanded before inserting more elements:
 
 ```cpp
 #include <iostream>
@@ -58,7 +58,7 @@ int main() {
 The output of this code is:
 
 ```shell
-Initial bucket count: 7
+Initial bucket count: 3
 Bucket count after rehash(30): 31
 ```
 
@@ -113,14 +113,14 @@ int main() {
 
 ## Frequently Asked Questions
 
-### 1. What is the rehash function in C++?
+### 1. What is the rehash() function in C++?
 
 The `rehash()` function forces an unordered container to reorganize its internal bucket count so it has at least the number provided. This helps control the load factor and reduces collisions in hash-based lookups. It is typically used when anticipating container growth.
 
-### 2. What is the difference between `unordered_set` and `unordered_map` in C++?
+### 2. What is the difference between unordered_set and unordered_map in C++?
 
 `unordered_set` stores only unique keys, while `unordered_map` stores key–value pairs. Both provide average constant-time lookups based on hashing, but `unordered_map` supports retrieval of associated values, whereas `unordered_set` focuses solely on whether a key exists.
 
-### 3. What is the use of `unordered_set` in C++?
+### 3. What is the use of unordered_set in C++?
 
 `unordered_set` offers fast insertion, deletion, and search of unique keys using hash tables. It is useful when values do not need to be associated with keys and when order does not matter, but fast existence checks do.
