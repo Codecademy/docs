@@ -1,1 +1,1 @@
-content/java/concepts/printwriter/printwriter.md
+content/kotlin/concepts/variables/variables.md
