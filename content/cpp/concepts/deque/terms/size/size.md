@@ -91,7 +91,7 @@ Size after one insert at front: 2
 
 ## Codebyte Example
 
-In this example, the size method is repeatedly checked in a loop until the deque becomes empty:
+In this example, the `size()` method is repeatedly checked in a loop until the deque becomes empty:
 
 ```codebyte/cpp
 #include <iostream>
