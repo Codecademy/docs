@@ -27,7 +27,7 @@ queue.emplace(args...)
 
 **Return value:**
 
-None (void). The new element is added to the end of the queue, and the queue size increases by one.
+Since C++17: A reference to the inserted element (the value returned by the underlying container's `emplace_back` method).
 
 ## Example 1: Enqueueing log entries into a queue
 
