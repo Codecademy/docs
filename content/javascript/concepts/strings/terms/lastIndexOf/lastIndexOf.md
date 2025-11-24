@@ -2,15 +2,15 @@
 Title: '.lastIndexOf()'
 Description: 'Returns the index of the last occurrence of a specified substring within a string, or -1 if the substring is not found.'
 Subjects:
-- 'Computer Science'
-- 'Web Development'
+  - 'Computer Science'
+  - 'Web Development'
 Tags:
-- 'Strings'
-- 'Methods'
-- 'JavaScript'
+  - 'Strings'
+  - 'Methods'
+  - 'JavaScript'
 CatalogContent:
-- 'learn-javascript'
-- 'paths/web-development'
+  - 'learn-javascript'
+  - 'paths/web-development'
 ---
 
 The **`.lastIndexOf()`** method in JavaScript returns the position of the last occurrence of a specified substring within a [string](https://www.codecademy.com/resources/docs/javascript/strings). If the substring is not found, it returns `-1`. It performs a case-sensitive search and can take an optional starting position from which to begin the search backwards.
