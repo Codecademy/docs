@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`size()`** function returns the number of elements currently stored in a `std::deque` container. It has constant time complexity (O(1)) and is marked noexcept since C++11.
+The **`size()`** function returns the number of elements currently stored in a [`std::deque`](https://www.codecademy.com/resources/docs/cpp/deque) container. It has constant time complexity (`O(1)`) and is marked noexcept since C++ 11.
 
 ## Syntax
 
