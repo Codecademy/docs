@@ -59,7 +59,7 @@ console.log(prevError);
 The output of this code is:
 
 ```shell
-0
+38
 ```
 
 ## Codebyte Example: Locating the Last Hashtag in a Social Media Caption
