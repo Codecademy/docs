@@ -114,7 +114,7 @@ int main() {
 
 ### 1. What does `size()` do in C++?
 
-The `size()` function in C++ returns the number of elements present in a container, such as a `std::deque`, `std::vector`, or `std::string`. It gives the current length of the container in constant time (O(1)) without modifying it.
+The `size()` function in C++ returns the number of elements present in a container, such as a `std::deque`, `std::vector`, or `std::string`. It gives the current length of the container in constant time (`O(1)`) without modifying it.
 
 ### 2. What is a deque function in C++?
 
