@@ -32,7 +32,7 @@ Returns a value of type `size_type` (an unsigned integral type) representing the
 
 ## Example 1
 
-In this example, the size method is used to check the element count of an initially empty deque, then after `push_back` operations:
+In this example, the size method is used to check the element count of an initially empty deque, then after [`push_back`](https://www.codecademy.com/resources/docs/cpp/deque/push-back) operations:
 
 ```cpp
 #include <deque>
