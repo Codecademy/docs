@@ -2,26 +2,32 @@
 Title: '.begin()'
 Description: 'Returns an iterator pointing to the first element in the unordered_set.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'Methods'
-  - 'Unordered Sets'
   - 'Iterators'
+  - 'Methods'
+  - 'Sets'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The **`.begin()`** method returns an iterator pointing to the first element in the `unordered_set` container. Since `unordered_set` is an unordered container, the "first" element is not determined by any particular order.
+The **`.begin()`** method returns an iterator pointing to the first element in the `unordered_set` container. Because `unordered_set` does not maintain sorted order, the element returned by `.begin()` is simply the first element in its internal bucket structure, not the "smallest" or "first" in any logical sense.
 
 ## Syntax
 
-```cpp
+```pseudo
 unordered_set.begin();
 ```
 
-The method takes no parameters and returns an iterator to the first element. If the container is empty, the returned iterator will be equal to `.end()`.
+**Parameters:**
+
+The `.begin()` method takes no parameters.
+
+**Return value:**
+
+Returns an iterator to the first element. If the container is empty, the iterator equals `.end()`.
 
 ## Example
 
@@ -45,7 +51,7 @@ int main() {
 
 This outputs the elements in the unordered_set (order may vary):
 
-```
+```shell
 Elements in the unordered_set: 50 40 30 20 10
 ```
 
