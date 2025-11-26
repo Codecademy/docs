@@ -54,7 +54,7 @@ plt.show()
 
 The output of this code is:
 
-![]()
+![A sine wave plot with a shaded region under the curve created using fill_between(), showing area fill and transparency.](https://raw.githubusercontent.com/Codecademy/docs/main/media/Figure_1.png)
 
 ## Example
 
@@ -77,4 +77,4 @@ plt.legend()
 plt.show()
 ```
 
-![]()
+![A plot of y = x and y = x² with the area between the two curves shaded using fill_between(), illustrating curve comparison and filled regions.](https://raw.githubusercontent.com/Codecademy/docs/main/media/Figure_2.png)
