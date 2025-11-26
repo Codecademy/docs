@@ -1,47 +1,42 @@
 ---
-Title: '.count()'
+Title: 'count()'
 Description: 'Returns the number of elements with a specific key in an unordered_set.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
-  - 'Programming'
 Tags:
-  - 'C++'
-  - 'Unordered Set'
+  - 'Methods'
+  - 'Sets'
   - 'STL'
-  - 'Searching'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The **`.count()`** method is used to determine if a specific element (key) is present within a C++ `std::unordered_set`.
+The **`count()`** method checks whether a given key exists in a `std::unordered_set`. Since this container stores only unique elements, `count()` will always return either:
 
-Because `std::unordered_set` only allows **unique** elements, the `.count()` method will only ever return one of two possible values:
-
-1.  **`1`**: If the element is found in the set.
-2.  **`0`**: If the element is not found in the set.
+1.  `1`: If the element is found in the set.
+2.  `0`: If the element is not found in the set.
 
 This method is commonly used as a fast, O(1) average time complexity way to check for element existence.
 
 ## Syntax
 
-The `.count()` method takes one argument: the value (key) to search for.
-
-```cpp
+```pseudo
 unordered_set_name.count(key);
 ```
 
-## Parameters
+**Parameters:**
 
-* `key` (const Key&): The value of the element to search for. Must be of the same type as the elements stored in the `unordered_set`.
+- `key` (const Key&): The value of the element to search for. Must be of the same type as the elements stored in the `unordered_set`.
 
-## Return Value
+**Return value:**
 
-Returns an integer (`1` if the element exists, `0` otherwise).
+Returns an integer. `1` if the element exists, `0` otherwise.
 
 ## Example
 
-This example demonstrates using `.count()` to check for the presence of elements within a set of strings.
+This example demonstrates using `count()` to check for the presence of elements within a set of strings:
 
 ```cpp
 #include <iostream>
@@ -74,9 +69,9 @@ int main() {
 }
 ```
 
-Output:
+The output of the code is:
 
-```
+```shell
 Inventory contains:
 - Potion
 - Shield
@@ -86,26 +81,26 @@ Inventory contains:
 'Axe' is not present (Count: 0).
 ```
 
-## Codebyte
+## Codebyte Example
 
-Use the Codebyte below to check for the presence of an item in a set of integers.
+Use the Codebyte below to check for the presence of an item in a set of integers:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <unordered_set>
 
 int main() {
   std::unordered_set<int> unique_ids = {101, 205, 330};
-  
+
   int search_key = 205;
   int missing_key = 400;
 
   // Check the count for the element 205
-  std::cout << "Count for " << search_key << ": " 
+  std::cout << "Count for " << search_key << ": "
             << unique_ids.count(search_key) << "\n";
-  
+
   // Check the count for the element 400
-  std::cout << "Count for " << missing_key << ": " 
+  std::cout << "Count for " << missing_key << ": "
             << unique_ids.count(missing_key) << "\n";
 
   return 0;
