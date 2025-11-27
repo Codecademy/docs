@@ -18,7 +18,7 @@ In JavaScript, an **Array** is a list of ordered, stored data. It can hold items
 
 Arrays can be created by using square brackets `[]`, with individual elements separated by commas:
 
-```js
+```javascript
 // An array containing numbers
 const numberArray = [0, 1, 2, 3];
 
