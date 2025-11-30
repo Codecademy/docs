@@ -1,6 +1,6 @@
 ---
 Title: '.flat' 
-Description: is a property on NumPy arrays that gives you a 1D iterator over every element in the array. It doesn’t copy the data — it’s just a view you can iterate through.
+Description: is a property on NumPy arrays that gives you a 1D iterator over every element in the array. It does not copy the data — it’s just a view you can iterate through.
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
@@ -11,14 +11,14 @@ Tags:
   - 'Data Structures'
   - 'NumPy'
 CatalogContent: 
-  - '[numpy.ndarray.flat](https://numpy.org/doc/2.2/reference/generated/numpy.ndarray.flat.html#numpy.ndarray.flat)'
-  - '[geeksForGeeks/numpy-ndarray-flat](https://www.geeksforgeeks.org/python/numpy-ndarray-flat-python/)'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 **.flat** is a property on NumPy arrays that gives you a 1D iterator over every element in the array. It doesn’t copy the data — it’s just a view you can iterate through.
 
 ## Syntax
 
-```psedu
+```pseudo
 ndarray.flat
 ```
 
@@ -44,7 +44,7 @@ Output:
 6
 ```
 
-### Indexing Through flat
+### Indexing with  `flat`
 ```
 a = np.array([[10, 20],
               [30, 40]])
@@ -53,11 +53,11 @@ print(a.flat[2])  # Third value in row-major order
 ```
 
 Output:
-```
+```shell
 30
 ```
 
-### Assigning Through flat
+### Assigning with `.flat`
 ```
 a = np.array([[1, 2],
               [3, 4]])
@@ -68,12 +68,12 @@ print(a)
 ```
 
 Output:
-```
+```shell
 [[ 1 99]
  [ 3  4]]
 ```
 
-### Filling an Array Using .flat
+### Filling an Array Using `.flat`
 ```
 a = np.zeros((2, 3))
 
@@ -84,13 +84,13 @@ print(a)
 ```
 
 Output:
-```
+```shell
 [[1. 2. 3.]
  [4. 5. 6.]]
 ```
-## Codebyte Example (if applicable)
+## Codebyte Example
 
-```codebyte/python
+```codebyte/py
 import numpy as np
 array = np.array([[1,2,3],[4,5,6],[7,8,9]])
 print(array)
