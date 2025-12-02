@@ -8,7 +8,7 @@ Tags:
   - 'Collections'
   - 'Data Structures'
   - 'Queues'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
 ---
