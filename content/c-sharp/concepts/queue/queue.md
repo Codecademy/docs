@@ -1,27 +1,35 @@
 ---
 Title: 'Queue'
-Description: 'Queue is a type of data structure that allows insertion of elements to the rear and removal of elements from the front.'
+Description: 'Queue is a first-in, first-out (FIFO) data structure that allows insertion of elements to the read and removal of elements from the front.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'Queues'
+  - 'Collections'
   - 'Data Structures'
-  - 'Data Types'
-CatalogContent:
+  - 'Queues'
+CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-c-sharp'
   - 'paths/computer-science'
 ---
 
-`Queue` is a data structure representing a first-in, first-out collection of objects that allows insertion of elements to the rear and removal of elements from the front, with the additional capability of inspecting the front-most element without removing it. In `C#`, it is implemented by the `Queue<T>` class from `.NET`.
+**`Queue`** is a data structure representing a first-in, first-out (FIFO) collection of elements that allows insertion of new elements to the rear, and removal of elements from the front.
 
 ## Queue Operations
 
 There are three main methods that `Queue<T>` exposes: Enqueue, Dequeue, and Peek.
 
-- `Enqueue` adds an element to the end of the `Queue<T>` instance.
-- `Dequeue` removes an element from the front of the `Queue<T>` instance.
+- `Enqueue` adds an element to the end of the `Queue<T>` instance. `Null` is an acceptable value for reference type elements.
+- `Dequeue` returns and removes an element from the front of the `Queue<T>` instance.
 - `Peek` returns the front-most element in the `Queue<T>` instance without removing it.
+
+## Notes
+
+1. `Queue<T>` accepts `null` as a valid value for reference types, and allows insertion of duplicate elements.
+2. The `Peek()` and `Dequeue()` methods will throw an `InvalidOperationException` if the queue is empty.
+3. `Enqueue()`, `Dequeue()`, and `Peek()` are O(1) amortized.
+4. `Queue<T>` is not thread-safe. Consider using `ConcurrentQueue<T>` for concurrent access.
+5. The `Capacity` property returns the maximum number of element the `Queue<T>` instance can currently hold. This value is increased automatically as elements are added to the collection, and can be reduced by calling the `TrimExcess(int)` method.
 
 ## Example
 
@@ -71,12 +79,11 @@ Dequeue: five
 
 ## Codebyte Example
 
-Use this example to experiment with using a `Queue<T>`. Enjoy coding!
+Use this example to experiment with using a `Queue<T>`. `T`, in this example, is `int`. Enjoy coding!
 
 ```codebyte/csharp
 using System;
 using System.Collections.Generic;
-
 public class Example
 {
   public static void Main()
@@ -86,19 +93,13 @@ public class Example
     // Add elements to the rear
     queue.Enqueue(1);
     queue.Enqueue(2);
-
+    
     // Peek at the front element
     int peek = queue.Peek(); // returns front element without removing it
-
+    
     // Remove elements from the front
     int front = queue.Dequeue(); // removes 1 from the queue
     int second = queue.Dequeue(); // removes 2 from the queue
   }
 }
 ```
-
-## Notes
-
-1. The `Peek()` and `Dequeue()` methods will throw an `InvalidOperationException` if the queue is empty.
-2. `Enqueue()`, `Dequeue()`, and `Peek()` are O(1) amortized.
-3. `Queue<T>` is not thread-safe. Consider using `ConcurrentQueue<T>` for concurrent access.
