@@ -19,7 +19,7 @@ The **`cbegin()`** method returns a constant iterator that points to the first e
 
 ```pseudo
 unordered_set_name.cbegin(n);
-````
+```
 
 **Return value:**
 
@@ -33,7 +33,7 @@ unordered_set_name.cbegin(n);
 
 **Parameters:**
 
-* `n` (size_type): The bucket index. Must be less than `bucket_count()`.
+- `n` (size_type): The bucket index. Must be less than `bucket_count()`.
 
 **Return value:**
 
