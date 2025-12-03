@@ -40,6 +40,42 @@ An `OUTER JOIN` will combine rows from different tables even if the join conditi
 - [`RIGHT JOIN`](https://www.codecademy.com/resources/docs/sql/commands/right-join), which combines matches with all rows from the right-side table.
 - [`FULL OUTER JOIN`](https://www.codecademy.com/resources/docs/sql/commands/full-outer-join), which combines matches with all rows from the left- and right-side tables.
 
+## CROSS JOIN
+
+A `CROSS JOIN` clause combines each row from one table with each row from another in the result set. This result is also known as a cartesian product.
+
+The following query returns every combination of `shirt_color` and `pants_color`:
+
+```sql
+SELECT shirts.shirt_color,
+   pants.pants_color
+FROM shirts
+CROSS JOIN pants;
+```
+
+For example, if we have a `shirts` table:
+
+| shirt_color |
+| ----------- |
+| 'white'     |
+| 'grey'      |
+
+And a `pants` table:
+
+| pants_color |
+| ----------- |
+| 'light'     |
+| 'dark'      |
+
+The result of the query would contain every combination of the two tables:
+
+| shirt_color | pants_color |
+| ----------- | ----------- |
+| 'white'     | 'light'     |
+| 'white'     | 'dark'      |
+| 'grey'      | 'light'     |
+| 'grey'      | 'dark'      |
+
 ## UNION
 
 The [`UNION`](https://www.codecademy.com/resources/docs/sql/commands/union) clause is used to combine results that appear from multiple [`SELECT`](https://www.codecademy.com/resources/docs/sql/commands/select) statements and filter duplicates.
