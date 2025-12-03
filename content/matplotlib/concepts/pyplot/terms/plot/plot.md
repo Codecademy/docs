@@ -22,16 +22,16 @@ Line plots are ideal for illustrating how data changes over time or across conti
 ## Syntax
 
 ```pseudo
-matplotlib.pyplot.plot(x, y, fmt='', data=None, **kwargs)
+matplotlib.pyplot.plot(*args, scalex=True, scaley=True, data=None, **kwargs)
 ```
 
 **Parameters:**
 
-- `x`: Sequence of x-axis coordinates.
-- `y`: Sequence of y-axis coordinates.
-- `fmt`: (Optional) A format string defining line style, marker, and color (e.g., 'ro--' for red circles with a dashed line).
-- `data`: (Optional) DataFrame or dict from which variables are extracted.
-- `**kwargs`: Additional keyword arguments for customization, such as color, linewidth, marker, or label.
+- `*args`: Values for y, or x and y, optionally followed by a format string.
+- `scalex`: Auto-scale the x-axis (default True).
+- `scaley`: Auto-scale the y-axis (default True).
+- `data`: Optional dict or DataFrame for referencing variables by name.
+- `**kwargs`: Style and configuration options like color, label, linewidth, marker.
 
 **Return value:**
 
@@ -64,7 +64,7 @@ plt.grid(True, linestyle='--', alpha=0.6)
 plt.show()
 ```
 
-This example visualizes the relationship between an independent variable, X-axis, and a dependent variable, Y-axis, using a single continuous line. The plot shows the change in Y values as X increases from 1.0 to 5.0.
+This example visualizes the relationship between an independent variable, X-axis, and a dependent variable, Y-axis, using a single continuous line. The plot shows the change in Y values as X increases from 1.0 to 5.0. This plot highlights a few useful details worth noting:
 
 - Single Series: The plot displays one series of data, represented by a single blue line, showing the progression of the Y-axis value relative to the X-axis value.
 - Data Points and Trend: The line connects the following data points: $(1.0, 2.0)$, $(2.0, 4.0)$, $(3.0, 1.0)$, $(4.0, 6.0)$, and $(5.0, 3.0)$. The plot illustrates clear changes in direction: an initial increase, a sharp decrease, a significant increase to the maximum value, and a final decrease.
