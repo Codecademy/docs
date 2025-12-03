@@ -1,1 +1,1 @@
-content/kotlin/concepts/variables/variables.md
+content/kotlin/concepts/classes/classes.md
