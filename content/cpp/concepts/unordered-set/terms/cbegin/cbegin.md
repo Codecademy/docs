@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`cbegin()`** method returns a constant iterator that points to the first element of an `std::unordered_set`. A constant iterator allows read-only access to elements and prevents modification. Because `unordered_set` does not maintain any defined order, the element returned by `cbegin()` depends on its internal hash table structure.
+The **`cbegin()`** method returns a constant iterator that points to the first element of an [`std::unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set). A constant iterator allows read-only access to elements and prevents modification. Because `unordered_set` does not maintain any defined order, the element returned by `cbegin()` depends on its internal hash table structure.
 
 ## Syntax
 
