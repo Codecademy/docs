@@ -13,13 +13,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`cbegin()`** method returns a constant iterator that points to the first element of an [`std::unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set). A constant iterator allows read-only access to elements and prevents modification. Because `unordered_set` does not maintain any defined order, the element returned by `cbegin()` depends on its internal hash table structure.
+The **`cbegin()`** method returns a constant iterator that points to the first element of an [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set). A constant iterator allows read-only access to elements and prevents modification. Because `unordered_set` does not maintain any defined order, the element returned by `cbegin()` depends on its internal hash table structure.
 
 ## Syntax
 
 ```pseudo
 unordered_set_name.cbegin(n);
-```
+````
 
 **Return value:**
 
@@ -33,7 +33,7 @@ unordered_set_name.cbegin(n);
 
 **Parameters:**
 
-- `n` (size_type): The bucket index. Must be less than `bucket_count()`.
+* `n` (size_type): The bucket index. Must be less than `bucket_count()`.
 
 **Return value:**
 
@@ -47,17 +47,18 @@ This example demonstrates obtaining the starting element of an `unordered_set` u
 #include <iostream>
 #include <string>
 #include <unordered_set>
+using namespace std;
 
 int main() {
-  std::unordered_set<int> unique_numbers = {10, 5, 20, 15};
+  unordered_set<int> unique_numbers = {10, 5, 20, 15};
 
   auto it = unique_numbers.cbegin();
 
-  std::cout << "The first element in internal order is: " << *it << "\n";
+  cout << "The first element in internal order is: " << *it << "\n";
 
   ++it;
   if (it != unique_numbers.cend()) {
-    std::cout << "The second element is: " << *it << "\n";
+    cout << "The second element is: " << *it << "\n";
   }
 
   // *it = 99; // Error: cannot modify through const_iterator
@@ -82,19 +83,20 @@ In this example, the code retrieves a constant iterator for a specific bucket in
 ```codebyte/cpp
 #include <iostream>
 #include <unordered_set>
+using namespace std;
 
 int main() {
-  std::unordered_set<std::string> words = {"cat", "dog", "rabbit", "lion"};
+  unordered_set<string> words = {"cat", "dog", "rabbit", "lion"};
 
   size_t bucket = 0;
 
   auto it = words.cbegin(bucket);
   auto end = words.cend(bucket);
 
-  std::cout << "Elements in bucket " << bucket << ":\n";
+  cout << "Elements in bucket " << bucket << ":\n";
 
   for (; it != end; ++it) {
-    std::cout << "  " << *it << "\n";
+    cout << "  " << *it << "\n";
   }
 
   return 0;
