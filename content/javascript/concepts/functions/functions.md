@@ -34,7 +34,7 @@ function sum(number1, number2) {
 
 ## Calling Functions
 
-Functions can be called, or executed, elsewhere in code using parentheses following the function name. When a function is called, the code inside its function body runs.Arguments are the values you pass to a function when you call it. These values are received by the function’s parameters.
+Functions are executed by writing their name followed by parentheses. When a function is called, the code inside its body runs. Arguments are the values passed into a function during the call, and those values are accessed through the function’s parameters.
 
 ```js
 // Defining the function
