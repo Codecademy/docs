@@ -78,7 +78,7 @@ The second element is: 5
 
 ## Codebyte Example
 
-In this example, the code retrieves a constant iterator for a specific bucket in the unordered_set and prints all elements stored in that bucket:
+In this example, the code retrieves a constant iterator for a specific bucket in the `unordered_set` and prints all elements stored in that bucket:
 
 ```codebyte/cpp
 #include <iostream>
