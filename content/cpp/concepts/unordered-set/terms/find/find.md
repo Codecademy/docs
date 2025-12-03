@@ -3,24 +3,17 @@ Title: '.find()'
 Description: 'Searches the container for an element with a specific key and returns an iterator to it if found.'
 Subjects:
   - 'Computer Science'
-  - 'Programming'
+  - 'Game Development'
 Tags:
-  - 'C++'
-  - 'Unordered Set'
-  - 'STL'
   - 'Methods'
+  - 'Sets'
+  - 'STL'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The **`.find()`** method searches an `std::unordered_set` for a specific
-key.
-
-If the key is found, `.find()` returns an iterator pointing to that
-element. If it is not found, the method returns an iterator equal to
-`unordered_set::end()`, representing the position past the last element
-in the container.
+The **`.find()`** method searches an `std::unordered_set` for a specific key. If the key is found, the method returns an iterator pointing to that element. If the key is not found, it returns an iterator equal to `unordered_set::end()`, which represents the past-the-end position in the container.
 
 ## Syntax
 
@@ -34,10 +27,11 @@ set_name.find(key);
 
 **Return value:**
 
-Returns an iterator pointing to the matching element if found.\
-If the key is not present, it returns an iterator equal to `end()`.
+Returns an iterator to the element with a key equivalent to key, if such an element exists. Otherwise, it returns an iterator equal to `end()`.
 
-## Example
+## Example: Using `.find()` to Locate an Existing and Missing Key
+
+In this example, `.find()` checks whether specific fruit names exist in the set:
 
 The example below demonstrates using `.find()` with an `unordered_set`:
 
@@ -74,7 +68,9 @@ Found: banana
 grape not found in the set.
 ```
 
-## Codebyte Example
+## Codebyte Example: Using `.find()` to Validate Presence of Colors
+
+In this example, `.find()` tests for a valid color and then checks a color that does not exist:
 
 The following runnable example shows how to use `.find()` to look up
 elements in an `unordered_set`:
