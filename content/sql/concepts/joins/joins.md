@@ -55,24 +55,24 @@ For example, here's the `shirts` table:
 
 | shirt_color |
 | ----------- |
-| white     |
-| grey      |
+| white       |
+| grey        |
 
 And the `pants` table:
 
 | pants_color |
 | ----------- |
-| light     |
-| dark      |
+| light       |
+| dark        |
 
 The result of the query would contain every combination of the two tables:
 
 | shirt_color | pants_color |
 | ----------- | ----------- |
-| white     | light     |
-| white     | dark      |
-| grey      | light     |
-| grey      | dark      |
+| white       | light       |
+| white       | dark        |
+| grey        | light       |
+| grey        | dark        |
 
 ## UNION
 
