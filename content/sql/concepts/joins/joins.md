@@ -42,9 +42,7 @@ An `OUTER JOIN` will combine rows from different tables even if the join conditi
 
 ## CROSS JOIN
 
-A `CROSS JOIN` clause combines each row from one table with each row from another in the result set. This result is also known as a cartesian product.
-
-The following query returns every combination of `shirt_color` and `pants_color`:
+A `CROSS JOIN` clause combines each row from one table with each row from another in the result set. This result is also known as a `Cartesian product`. The following query returns every combination of `shirt_color` and `pants_color`:
 
 ```sql
 SELECT shirts.shirt_color,
