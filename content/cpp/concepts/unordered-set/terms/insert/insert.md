@@ -1,69 +1,45 @@
 ---
-Title: insert()
-Description: Inserts element(s) into an unordered_set if they do not already exist.
+Title: 'insert()'
+Description: 'Inserts element(s) into an unordered_set if they do not already exist.'
 Subjects:
-  - Code Foundations
-  - Computer Science
-tags:
-  - Data Structures
-  - Methods
-  - Sets
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Data Structures'
+  - 'Methods'
+  - 'Sets'
 CatalogContent:
-  - learn-c-plus-plus
-  - paths/computer-science
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
-The **`insert()`** member function of C++’s `std::unordered_set` attempts to insert one or more new elements into the container **only if** an equivalent element does not already exist. `unordered_set` stores unique elements and uses a **hash table** for fast lookups, insertions, and deletions.
-
-Internally, each element’s key is transformed by a **hash function** into a bucket index. When multiple elements hash to the same bucket — known as a **hash collision** — they are grouped together within that bucket. Although average insertion and lookup are constant time (`O(1)`), heavy collisions can cause performance to degrade to linear time (`O(n)`).
+The **`insert()`** member function of `std::unordered_set` adds new elements only when no equivalent element is already present. The container stores unique values and uses a hash table for fast lookups, insertions, and deletions.
 
 ## Syntax
 
-```cpp
-// Single element insertion (copy)
-std::pair<iterator, bool> insert(const value_type& value);
-
-// Single element insertion (move)
-std::pair<iterator, bool> insert(value_type&& value);
-
-// Hint insertion (ignored for unordered containers)
-iterator insert(const_iterator hint, const value_type& value);
-
-// Range insertion
-void insert(InputIterator first, InputIterator last);
-
-// Initializer list insertion
-void insert(std::initializer_list<value_type> ilist);
-
-// Node handle insertion (C++17)
-insert_return_type insert(node_type&& nh);
-iterator insert(const_iterator hint, node_type&& nh);
+```pseudo
+unordered_set_name.insert(value);
 ```
 
-**Parameters**
+Or, alternatively:
 
-| Parameter     | Description                                                            |
-| ------------- | ---------------------------------------------------------------------- |
-| `value`       | The element to be inserted.                                            |
-| `hint`        | Iterator hint suggesting where to insert the element (may be ignored). |
-| `first, last` | Input iterators defining a range of elements to insert.                |
-| `ilist`       | Initializer list of elements to insert.                                |
-| `nh`          | Node handle extracted from another unordered container.                |
+```pseudo
+unordered_set_name.insert(first, last);
+```
 
-**Return Value**
+**Parameters:**
 
-- Returns a `std::pair`:
+- `value`: The element to insert.
+- `first`, `last`: Input iterators that define a range of elements to insert.
 
-  - `iterator`: Points to the inserted element, or to the existing element if no insertion occurred.
-  - `bool`: `true` if insertion took place, `false` if the element already existed.
+**Return value:**
 
-For range and initializer list overloads, the return type is `void`.
+- For a single value, the function returns a pair containing an iterator to the element and a boolean that indicates whether the insertion happened.
+- For a range, the function returns `void`.
 
-**Note: Move Semantics**
+## Example 1: Basic `insert()` Usage
 
-When calling `insert()`` with std::move(obj), the function may take advantage of move semantics to transfer resources from obj instead of copying them. This uses the rvalue reference overload `value_type&& value` which can improve performance when inserting large objects, because it reuses existing resources (like memory buffers) rather than duplicating them. However, if the insertion fails because the element already exists, the state of the moved-from object (obj) is valid but unspecified — it may be empty or altered.
-
-## Example 1: Basic `insert()` Usage - Library Book Catalog
+In this example, `insert()` adds book titles and prevents duplicates:
 
 ```cpp
 #include <iostream>
@@ -93,7 +69,7 @@ int main() {
 }
 ```
 
-**Output:**
+The output of this code is:
 
 ```shell
 Added: The Hobbit
@@ -105,9 +81,11 @@ Books in catalog:
 - The Hobbit
 ```
 
-This example models a simple library catalog where each title must be unique. `unordered_set::insert()` prevents duplicate titles from being added, demonstrating how the container automatically enforces uniqueness while allowing constant-time average insertion.
+This example models a library catalog where each title must be unique. `unordered_set::insert()` prevents duplicate titles from being added, demonstrating how the container automatically enforces uniqueness while allowing constant-time average insertion.
 
 ## Example 2: Managing Unique Usernames
+
+In this example, `insert()` prevents duplicate usernames from being added:
 
 ```cpp
 #include <iostream>
@@ -140,7 +118,7 @@ int main() {
 }
 ```
 
-**Output:**
+The output of this code is:
 
 ```shell
 Username 'mighty_meat' added successfully.
@@ -157,9 +135,9 @@ Current registered users:
 - bilbo_baggins
 ```
 
-This example models a login system where usernames must remain unique. The `insert()` method ensures that duplicates are automatically rejected.
-
 ## Codebyte Example: Word Filter with `insert()`
+
+In this example, the program collects only unique words:
 
 ```codebyte/cpp
 #include <iostream>
@@ -190,19 +168,3 @@ int main() {
   return 0;
 }
 ```
-
-This example acts as a word collector that keeps only unique entries. Each attempt to insert a duplicate word is automatically rejected by the `unordered_set`.
-
-## FAQ
-
-**Q: How does `insert()` differ from `emplace()`?**
-`insert()` inserts an existing object, while `emplace()` constructs it directly in-place using provided arguments—often more efficient.
-
-**Q: What happens if I insert a duplicate element?**
-The operation fails, and the returned `bool` in the result pair is `false`.
-
-**Q: Can `insert()` invalidate iterators?**
-Only if a rehash occurs when inserting (for example, after exceeding the load factor threshold).
-
-**Q: What’s the time complexity of `insert()`?**
-Average: **O(1)**; Worst case: **O(n)** when hash collisions occur.
