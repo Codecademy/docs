@@ -53,14 +53,14 @@ FROM shirts
 CROSS JOIN pants;
 ```
 
-For example, if we have a `shirts` table:
+For example, here's the `shirts` table:
 
 | shirt_color |
 | ----------- |
 | 'white'     |
 | 'grey'      |
 
-And a `pants` table:
+And the `pants` table:
 
 | pants_color |
 | ----------- |
