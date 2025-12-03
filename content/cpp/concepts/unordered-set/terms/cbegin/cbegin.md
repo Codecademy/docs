@@ -1,6 +1,6 @@
 ---
 Title: 'cbegin()'
-Description: 'Returns a constant iterator pointing to either the first element of the unordered_set or the first element in a specific bucket.'
+Description: 'Returns a constant iterator pointing to either the first element of the unordered set or the first element in a specific bucket.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
