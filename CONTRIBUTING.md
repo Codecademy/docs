@@ -160,9 +160,9 @@ You're accountable for all AI-assisted content.
 
 You may use AI to generate drafts or refine your writing, but you must personally review and improve all AI-assisted content before submitting. Every entry must follow:
 
-- The Docs entry template
-- Our content standards
-- Our style guidelines
+- [The Docs entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md)
+- [Our content standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md)
+- [Our style guidelines](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md)
 
 > **Note:** If we detect plagiarism in your entry, you will be banned from contributing to Docs.
 
