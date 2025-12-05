@@ -33,27 +33,26 @@ This method does not return a value (`void`).
 
 ## Example
 
-This example demonstrates using `.rehash()` to change the bucket count of an `unordered_set`:
+This example demonstrates using `rehash()` to change the bucket count of an `unordered_set`:
 
 ```cpp
 #include <iostream>
 #include <unordered_set>
-using namespace std;
 
 int main() {
-  unordered_set<int> numbers = {10, 20, 30, 40, 50};
+  std::unordered_set<int> numbers = {10, 20, 30, 40, 50};
 
-  cout << "Initial bucket count: " << numbers.bucket_count() << endl;
-  cout << "Number of elements: " << numbers.size() << endl;
-  cout << "Load factor: " << numbers.load_factor() << endl;
+  std::cout << "Initial bucket count: " << numbers.bucket_count() << "\n";
+  std::cout << "Number of elements: " << numbers.size() << "\n";
+  std::cout << "Load factor: " << numbers.load_factor() << "\n";
 
   // Increase the number of buckets
   numbers.rehash(20);
 
-  cout << "\nAfter rehash(20):" << endl;
-  cout << "New bucket count: " << numbers.bucket_count() << endl;
-  cout << "Number of elements: " << numbers.size() << endl;
-  cout << "Load factor: " << numbers.load_factor() << endl;
+  std::cout << "\nAfter rehash(20):\n";
+  std::cout << "New bucket count: " << numbers.bucket_count() << "\n";
+  std::cout << "Number of elements: " << numbers.size() << "\n";
+  std::cout << "Load factor: " << numbers.load_factor() << "\n";
 
   return 0;
 }
@@ -76,22 +75,22 @@ Load factor: 0.217391
 
 ## Codebyte Example
 
-In this example, the code demonstrates how `.rehash()` can be used to optimize an `unordered_set` before inserting a large number of elements, reducing the need for automatic rehashing:
+In this example, the code demonstrates how `rehash()` can be used to optimize an `unordered_set` before inserting a large number of elements, reducing the need for automatic rehashing:
 
 ```codebyte/cpp
 #include <iostream>
 #include <unordered_set>
-using namespace std;
+#include <string>
 
 int main() {
-  unordered_set<string> words;
+  std::unordered_set<std::string> words;
 
-  cout << "Initial bucket count: " << words.bucket_count() << endl;
+  std::cout << "Initial bucket count: " << words.bucket_count() << "\n";
 
   // Pre-allocate buckets for expected elements
   words.rehash(100);
 
-  cout << "Bucket count after rehash(100): " << words.bucket_count() << endl;
+  std::cout << "Bucket count after rehash(100): " << words.bucket_count() << "\n";
 
   // Insert elements
   words.insert("apple");
@@ -99,9 +98,9 @@ int main() {
   words.insert("cherry");
   words.insert("date");
 
-  cout << "Bucket count after insertions: " << words.bucket_count() << endl;
-  cout << "Current load factor: " << words.load_factor() << endl;
-  cout << "Max load factor: " << words.max_load_factor() << endl;
+  std::cout << "Bucket count after insertions: " << words.bucket_count() << "\n";
+  std::cout << "Current load factor: " << words.load_factor() << "\n";
+  std::cout << "Max load factor: " << words.max_load_factor() << "\n";
 
   return 0;
 }
