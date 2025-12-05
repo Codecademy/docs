@@ -1,32 +1,33 @@
 ---
 Title: 'isgreaterequal()'
-Description: 'Determines if the floating-point number `x` is greater than or equal to the floating-point number `y`, without setting floating-point exceptions.'
+Description: 'Determines whether the first floating-point value is greater than or equal to the second, without raising floating-point exceptions.'
 Subjects:
-
+  - 'Computer Science'
+  - 'Game Development'
 Tags:
   - 'Functions'
-  - 'Comparison'
   - 'Math'
 CatalogContent:
   - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
-The **`isgreaterequal()`** [function](https://www.codecademy.com/resources/docs/cpp/functions) compares two floating-point values and returns `true` only when the first is greater than or equal to the second. Never raises floating-point exceptions, and always returns `false` if one or both arguments is `NaN`. The function is available through the `<cmath>` header.
+The **`isgreaterequal()`** [function](https://www.codecademy.com/resources/docs/cpp/functions) compares two arithmetic values and returns `true` only when the first is greater than or equal to the second. It never raises floating-point exceptions and always returns `false` if either argument is `NaN`. The function is available through the `<cmath>` header.
 
 ## Syntax
 
-```
+```pseudo
 isgreaterequal(x, y)
 ```
 
 **Parameters:**
 
-- `x`, `y`: floating-point or integers types.
+- `x`, `y`: Floating-point or integers types.
 
-
-> **Notes:** 
-> + The function `isgreaterequal()`is defined with overloads so it works with any mix of arithmetic values.
-> + The built-in operator>= for floating-point numbers may raise `FE_INVALID` if one or both of the arguments is NaN. The function `isgreaterequal()` is a "quiet" version of operator>=.
+> **Notes:**
+>
+> - The function `isgreaterequal()` is defined with overloads so it works with any mix of arithmetic values.
+> - The built-in operator `>=` for floating-point numbers may raise `FE_INVALID` if one or both of the arguments is `NaN`. The function `isgreaterequal()` is a "quiet" version of operator `>=`.
 
 **Return value:**
 
@@ -64,7 +65,7 @@ The output of this code is as follows:
 ```shell
 5.5 isgreaterequal to 3: true
 3 isgreaterequal to 5.5: false
-5.5 isgreaterequal to nan: false
+5.5 isgreaterequal to nan: false (NaN comparison)
 ```
 
 ## Codebyte Example
