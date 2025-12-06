@@ -15,6 +15,22 @@ CatalogContent:
 
 **`Queue`** is a [data structure](https://www.codecademy.com/resources/docs/general/data-structures) representing a first-in, first-out (FIFO) collection of elements that allows insertion of new elements to the rear, and removal of elements from the front.
 
+## Syntax
+
+The syntax to create a new queue is:
+
+```pseudo
+Queue<T> queueName = new Queue<T>();
+```
+
+**Parameters:**
+
+- `T`: The type of elements the queue will store.
+
+**Return value:**
+
+Creating a queue with new `Queue<T>()` returns a new empty `Queue<T>` instance.
+
 ## Queue Operations
 
 `Queue<T>` provides three primary operations:
