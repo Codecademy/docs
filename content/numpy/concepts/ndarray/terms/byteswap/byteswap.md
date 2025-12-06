@@ -23,7 +23,7 @@ ndarray.byteswap(inplace=False)
 
 **Parameters:**
 
-- `inplace` (optional): When set to `True`, the byte order of the existing array is swapped in place. When False, a new array with swapped bytes is returned.
+- `inplace` (optional): When set to `True`, the byte order of the existing array is swapped in place. When `False`, a new array with swapped bytes is returned.
 
 **Return value:**
 
@@ -57,7 +57,7 @@ Original array:
 Original dtype: int32
 
 After byteswap():
-[16777216         1         4]
+[16777216    65536   262144]
 Swapped dtype: int32
 ```
 
@@ -81,12 +81,12 @@ The output of this code is:
 
 ```shell
 Before inplace byteswap: [100 200 300]
-After inplace byteswap: [1677721600  335544320  503316480]
+After inplace byteswap: [1677721600 -939524096  738263040]
 ```
 
 ## Codebyte Example
 
-Use the Codebyte below to inspect how byteswap affects a 2-D array and observe the internal memory representation change:
+Use the codebyte below to inspect how `byteswap()` affects a 2-D array and observe the internal memory representation change:
 
 ```codebyte/python
 import numpy as np
@@ -102,15 +102,15 @@ print("\nByteswapped:")
 print(swapped)
 ```
 
-## Frequently Asked Question
+## Frequently Asked Questions
 
-### 1. What is the function of byteswap in Python?
+### 1. What is the function of byteswap() in Python?
 
 The `byteswap()` method reverses the byte order of every element in a NumPy array. It is commonly used when preparing data for systems with different endianness or when interpreting binary data from external sources.
 
 ### 2. What are bytes and bytearrays in Python?
 
-A `bytes` object is an immutable sequence of byte values, while a bytearray is a mutable version of the same concept. Both store raw binary data and are often used for file handling, networking, and low-level memory operations.
+A `bytes` object in Python is an immutable sequence of byte values, while a bytearray is a mutable version of the same concept. Both store raw binary data and are often used for file handling, networking, and low-level memory operations.
 
 ### 3. How to shuffle a NumPy ndarray?
 
