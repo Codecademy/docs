@@ -28,17 +28,21 @@ Or to get current limits:
 bottom, top = pyplot.ylim()
 ```
 
+**Parameters:**
+
 The `ylim()` function accepts the following parameters:
 
 - `bottom` (optional): A float representing the lower y-axis limit. If not provided, the current lower limit is returned.
 - `top` (optional): A float representing the upper y-axis limit. If not provided, the current upper limit is returned.
+
+**Return value:**
 
 The function returns:
 
 - A tuple `(bottom, top)` containing the current y-axis limits if no arguments are provided.
 - The new y-axis limits as a tuple if arguments are provided.
 
-## Example
+## Example 1: Setting Y-Axis Limits
 
 The following example demonstrates how to use `ylim()` to set y-axis limits:
 
