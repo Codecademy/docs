@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.logical_or()`** function performs an element-wise logical OR operation between two [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors). The result contains Boolean values where each element is `True` if either corresponding element in the inputs evaluates to non-zero. Inputs are interpreted as Boolean: zero values are considered `False`, and non-zero values are considered `True`.
+The **`.logical_or()`** function performs an element-wise logical OR operation between two [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors). Each input value is converted to a Boolean value (zero → `False`, non-zero → `True`) before the operation. The output is a Boolean tensor where each element is `True` if at least one of the corresponding input elements is `True`.
 
 ## Syntax
 
@@ -29,7 +29,7 @@ torch.logical_or(input, other, out)
 
 **Return value:**
 
-Returns a Boolean tensor where each position is `True` if either corresponding element in the inputs evaluates as `True`.
+Returns a Boolean tensor where each element is `True` if at least one of the corresponding input elements is `True`.
 
 ## Example 1
 
@@ -52,16 +52,16 @@ The output of this code is:
 
 ```shell
 Tensor A:
-tensor([[0, 1],
+ tensor([[0, 1],
         [2, 0]])
 
 Tensor B:
-tensor([[3, 0],
+ tensor([[3, 0],
         [0, 5]])
 
 A OR B:
-tensor([[ True,  True],
-        [ True,  True]])
+ tensor([[True, True],
+        [True, True]])
 ```
 
 ## Example 2
@@ -82,19 +82,19 @@ print(result)
 The output of this code is:
 
 ```shell
-tensor([ True,  True,  True,  True])
+tensor([True, True, True, True])
 ```
 
 ## Frequently Asked Questions
 
 ### 1. What are the tensor operations in PyTorch?
 
-Tensor operations include arithmetic, logical operations, reductions, reshaping, indexing, broadcasting, and matrix operations. These operations run efficiently on CPU or GPU and form the core building blocks of neural network workflows.
+Tensor operations in PyTorch include arithmetic, logical operations, reductions, reshaping, indexing, broadcasting, and matrix operations. These operations run efficiently on CPU or GPU and form the core building blocks of neural network workflows.
 
 ### 2. Why use tensor instead of NumPy?
 
 Tensors support automatic differentiation and execute seamlessly on GPUs, which makes them suited for deep learning workloads. They also integrate tightly with PyTorch's computation graph, while NumPy arrays operate only on the CPU and lack gradient support.
 
-### 3. What does CPU() do in PyTorch?
+### 3. What does cpu() do in PyTorch?
 
 The `.cpu()` method moves a tensor or model from a GPU device to the system’s CPU. This is useful for running operations on hardware without CUDA support or preparing data for libraries that operate only on CPU-based arrays.
