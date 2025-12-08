@@ -11,7 +11,6 @@ Cybersecurity
 Data Science
 Data Visualization
 Developer Tools
-Data Structure
 Discrete Math
 Game Development
 Information Technology
@@ -22,4 +21,5 @@ Mobile Development
 Networking
 Web Design
 Web Development
+
 ```
