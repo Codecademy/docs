@@ -1,1 +1,1 @@
-content/kotlin/concepts/variables/variables.md
+content/uiux/concepts/convergent-thinking/convergent-thinking.md
