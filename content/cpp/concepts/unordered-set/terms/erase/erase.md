@@ -1,106 +1,117 @@
 ---
 Title: 'erase()'
-Description: 'removes elements from an unordered set'
-Subjects: 
-    - 'Computer Science'
-Tags: 
-    - 'Methods'
-    - 'unordered-sets'
+Description: 'Removes one or more specified elements from the unordered_set.'
+Subjects:
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Methods'
+  - 'Sets'
 CatalogContent: 
-    - 'learn-C++'
-    - 'paths/computer-science'
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
-# 'C++ Unordered-sets: erase()'
-
-The 'erase()' function removes elements from an unordered set.
-It can erase a single element by key, a single element by iterator, or a range of elements using two iterators.
-Only iterators pointing to erased elements are invalidated; all others remain valid.
+The **`erase()`** function removes elements from an `unordered_set`. It can erase a single element by key, a single element by iterator, or a range of elements using two iterators, and only iterators pointing to erased elements are invalidated while the rest remain valid.
 
 ## Syntax
 
-Erase by Key
-```
-size_t erase(const Key& key);
-```
+The `erase()` function removes elements from an `unordered_set` in three ways: by key, by iterator, or by a range of iterators:
 
-Erase by Iterator
-```
-iterator erase(const_iterator pos);
+```pseudo
+set.erase(key);              // erase by key
+set.erase(iterator);         // erase by iterator
+set.erase(first, last);      // erase by range
 ```
 
-Erase a Range of Iterators
-```
-iterator erase(const_iterator first, const_iterator last);
-```
+**Parameters:**
 
-Erase by Key: Removes all elements matching `key` (in an `unordered_set`, that's at most one). Returns the number of elements removed.
+- `key`: A value of the set’s key type. All elements matching this key are removed (at most one since `unordered_set` stores unique keys).
+- `iterator`: An iterator pointing to the element to remove.
+- `first`, `last`: A pair of iterators defining the range to erase. Removes all elements in `[first, last)`.
 
-Erase by Iterator: Removes the element at `pos`. Returns an iterator to the element that followed the erased one.
+**Return value:**
 
-Erase a Range of Iterators: Removes all elements in the half-open range `[first, last]`. Returns an iterator to the element that followed the last removed one.
+- When erasing by key: returns the number of elements removed, as a `size_type`.
+- When erasing by iterator: returns an iterator pointing to the element that follows the erased one.
+- When erasing by range: returns an iterator pointing to the element that follows the last erased element.
 
-## Example
+## Example 1: Erasing by key, iterator, and range
+
+In this example the program removes elements using all three `erase()` overloads and prints the remaining contents of the `unordered_set`:
 
 ```cpp
 #include <iostream>
 #include <unordered_set>
 
 int main() {
-    std::unordered_set<int> numbers = {1, 2, 3, 4, 5};
+  std::unordered_set<int> numbers = {1, 2, 3, 4, 5};
 
-    // Erase by key
-    numbers.erase(3);
+  // Erase by key
+  numbers.erase(3);
 
-    // Erase by iterator
-    auto it = numbers.find(4);
-    if (it != numbers.end()) {
-        numbers.erase(it);
-    }
+  // Erase by iterator
+  auto it = numbers.find(4);
+  if (it != numbers.end()) {
+    numbers.erase(it);
+  }
 
-    // Erase using a range
-    auto first = numbers.begin();
-    auto last = numbers.find(5);
-    numbers.erase(first, last);
+  // Erase using a range
+  auto first = numbers.begin();
+  auto last = numbers.find(5);
+  numbers.erase(first, last);
 
-    for (int n : numbers) {
-        std::cout << n << " "; // expected output: 5
-    }
+  for (int n : numbers) {
+    std::cout << n << " ";
+  }
+
+  return 0;
 }
 ```
-## Codebyte
 
-The following example creates an `unordered_set<int>`, then demonstrates all three `erase()` overloads:  
-* Erasing by key  
-* Erasing by iterators  
-* Erasing by iterator range  
+The output of this code is:
+
+```shell
+5 2 1
+```
+
+> **Note:** The order and even the elements removed by a range erase depend on the internal bucket ordering of the `unordered_set`, which is not guaranteed. The final printed sequence may vary across systems.
+
+## Codebyte Example
+
+In this example the program demonstrates each `erase()` form and prints the set contents after every removal step:
 
 ```codebyte/cpp
 #include <iostream>
 #include <unordered_set>
 
 int main() {
-    std::unordered_set<int> s = {1, 2, 3, 4, 5};
+  std::unordered_set<int> s = {1, 2, 3, 4, 5};
 
-    // 1. Erase by key
-    s.erase(3);  
-    // set is now {1, 2, 4, 5}
+  // 1. Erase by key
+  s.erase(3);
+  std::cout << "After erasing 3: ";
+  for (int v : s) std::cout << v << " ";
+  std::cout << "\n";
 
-    // 2. Erase by iterator
-    auto it = s.find(4);
-    if (it != s.end()) {
-        s.erase(it);
-    }
-    // set is now {1, 2, 5}
+  // 2. Erase by iterator
+  auto it = s.find(4);
+  if (it != s.end()) {
+    s.erase(it);
+  }
+  std::cout << "After erasing iterator to 4: ";
+  for (int v : s) std::cout << v << " ";
+  std::cout << "\n";
 
-    // 3. Erase by iterator range
-    auto first = s.begin();
-    auto last = s.end();
-    // this removes everything in the set
-    s.erase(first, last);
+  // 3. Erase by iterator range
+  auto first = s.begin();
+  auto last = s.end();
+  s.erase(first, last);
 
-    // set is now empty
+  std::cout << "After erasing full range: ";
+  for (int v : s) std::cout << v << " ";
+  std::cout << "(empty)\n";
 
-    return 0;
+  return 0;
 }
 ```
