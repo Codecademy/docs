@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, the **`.addEntries()`** method allows you to add multiple key-value pairs to an existing `Map` by providing it with an iterable of `MapEntry` objects. This is useful when inserting several entries at once, especially when transforming lists into maps or combining data from multiple sources.
+In Dart, the **`.addEntries()`** method adds multiple key-value pairs to an existing `Map` using an iterable of `MapEntry` objects. It’s useful for inserting several entries at once, such as when transforming lists into maps or merging data.
 
 ## Syntax
 
@@ -21,8 +21,13 @@ In Dart, the **`.addEntries()`** method allows you to add multiple key-value pai
 mapVariable.addEntries(iterableOfMapEntries)
 ```
 
-- `mapVariable`: The map you want to add entries into.
-- `iterableOfMapEntries`: An iterable containing `MapEntry` objects (`MapEntry(key, value)`).
+**Parameters:**
+
+- `iterableOfMapEntries`: An iterable of `MapEntry<K, V>` objects, where `K` and `V` match the map’s key and value types.
+
+**Return value:**
+
+- `void`: The method does not return anything; it modifies the existing map in place.
 
 ## Example
 
@@ -47,7 +52,7 @@ void main() {
 }
 ```
 
-**Output:**
+The output of this code is as follows:
 
 ```shell
 {Apples: 5, Bananas: 3, Oranges: 4, Grapes: 10}
