@@ -133,14 +133,6 @@ To link your Codecademy user profile to GitHub:
 - Typos/bugs
 - Plagiarism
 
-## What is the policy for using generative AI?
-
-We will not accept entries that were exclusively generated through an AI tool. We have this policy because:
-
-- AI-generated content is often confidently incorrect, leading to the spread of inaccurate or misleading information.
-- We provide authorship credit for submissions, and to submit AI-generated work under one's own name would be a violation of our plagiarism policy.
-- Docs is an educational space for people to learn how to write effective technical documentation. Using generative AI, at this point, negatively impacts that desired learning goal.
-
 ## How do we update a PR branch?
 
 To keep your PR branch up to date, navigate to the branch on your fork. Then press `Fetch upstream` and `Fetch and merge`.
@@ -157,6 +149,60 @@ git fetch upstream
 git rebase upstream main
 git push
 ```
+
+## Can I use AI tools when contributing?
+
+Yes! You can use AI tools to help create our Docs entries. [Codecademy Docs](https://github.com/Codecademy/docs) is an open-source project designed to help you learn how to contribute to open source, collaborate with the community, and use GitHub. It’s not meant to test whether you can write perfect technical content on your own.
+
+AI can assist you with drafting, rewriting, or structuring content. However, you are responsible for ensuring your work meets Codecademy’s quality and [style standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md). AI is a tool to help you, but it doesn't replace the standards we expect.
+
+You're accountable for all AI-assisted content.
+
+You may use AI to generate drafts or refine your writing, but you must personally review and improve all AI-assisted content before submitting. Every entry must follow:
+
+- [The Docs entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md)
+- [Our content standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md)
+- [Our style guidelines](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md)
+
+> **Note:** If we detect plagiarism in your entry, you will be banned from contributing to Docs.
+
+## What you need to verify
+
+Even if AI produced the initial version of the entry, you must ensure that:
+
+- The content is accurate, technically correct, and fact-checked.
+- All explanations are clear and aligned with Codecademy Docs writing style.
+- Code examples compile or run correctly when required.
+- The text is not plagiarized or copied from external sources.
+- The final entry sounds intentional, not generic, or filled with filler text.
+- The formatting follows the Docs template exactly.
+
+AI output often contains vague definitions, hallucinated details, or inconsistent explanations. You must correct and refine these issues before submitting a pull request.
+
+## Quality standards apply to all entries
+
+Regardless of how you created the content, every entry must:
+
+- Use original wording.
+- Include accurate definitions and examples.
+- Follow the required structure, headings, and formatting.
+- Maintain a simple, educational, and neutral tone.
+- Avoid unnecessary complexity or overly broad explanations.
+- Fit the scope of a Docs reference entry.
+
+> **Note:** If your submission doesn't meet these standards, we'll ask you to revise it.
+
+## What happens during review?
+
+Maintainers (Codecademy’s content team who reviews all contributions) may request edits on any AI-assisted entry if it:
+
+- Does not follow our template.
+- Contains unclear, generic, or contradictory information.
+- Includes mistakes or technical inaccuracies.
+- Appears copied.
+- Lacks the clarity expected from Docs entries.
+
+You're expected to respond to feedback and make the requested improvements within 1 week, or your PR will be closed due to inactivity.
 
 Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://community.codecademy.com/).
 
