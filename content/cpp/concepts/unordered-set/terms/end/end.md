@@ -1,5 +1,6 @@
+---
 Title: 'end()'
-Description: 'Returns an iterator that points to the past-the-end position of the unordered set or the end position in a specific bucket.'
+Description: 'Returns an iterator pointing just past the last element of the unordered set, marking the end of the container’s range.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -19,6 +20,10 @@ The **`end()`** method returns an iterator that points to the past-the-end posit
 ```pseudo
 unordered_set_name.end();
 ```
+
+**Parameters:**
+
+The `end()` function takes no parameters.
 
 **Return value:**
 
@@ -40,7 +45,7 @@ A `local_iterator` pointing to the past-the-end position in bucket `n`. If the b
 
 ## Example
 
-This example shows iterating over an `unordered_set` using `begin()` and `end()`:
+In this example, iteration runs from `begin()` to `end()` to print every element in the `unordered_set`:
 
 ```cpp
 #include <iostream>
@@ -67,7 +72,7 @@ A sample output might be:
 15
 ```
 
-> **Note:** The iterator returned by `end()` marks the boundary for iteration and cannot be dereferenced.
+> **Note:** The output order may vary because `unordered_set` does not store elements in any defined sequence.
 
 ## Codebyte Example
 
@@ -95,14 +100,3 @@ int main() {
   return 0;
 }
 ```
-
-A sample output might be:
-
-```shell
-Elements in bucket 0:
-  cat
-  dog
-  lion
-```
-
-Exact elements shown depend on the hash function and bucket count; your output may differ.
