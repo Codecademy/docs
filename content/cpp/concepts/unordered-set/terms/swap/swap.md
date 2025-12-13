@@ -13,23 +13,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`swap()`** method exchanges the contents of one [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set) with another. This operation runs in constant time because it swaps internal structures rather than moving individual elements.
+The **`swap()`** method exchanges the contents of one [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set) with another. This operation runs in constant time by swapping internal structures rather than moving individual elements.
 
 After the swap, both containers take ownership of each other's elements. Iterators and references remain valid but now refer to elements stored in the opposite container.
 
-The two unordered sets need not have the same size but should have the same template parameters.
+The two `unordered_set` containers do not need to have the same size, but they must be of the same type.
 
 ## Syntax
 
-The `swap()` method can be used with the following syntax:
+The `swap()` method can be used in the following syntax:
 
-1. Member Function
+1/. Member Function
 
 ```pseudo
 unordered_set_first.swap(unordered_set_second);
 ```
 
-1. Non-Member Function
+2/. Non-Member Function
 
 ```pseudo
 swap(unordered_set_first, unordered_set_second);
@@ -39,12 +39,13 @@ swap(unordered_set_first, unordered_set_second);
 
 - `unordered_set_second`: Another `unordered_set` with the same template parameters(element type, hash, predicate, allocator) as `unordered_set_first`.
 
-**Return Value:**
+**Return value:**
+
 This method returns nothing (`void`).
 
 ## Example
 
-This example demonstrates swapping contents between two `unordered_set` containers:
+In this example, the contents of two `unordered_set` containers are exchanged using the member `swap()` function:
 
 ```cpp
 #include <iostream>
@@ -77,12 +78,11 @@ int main() {
 
   return 0;
 }
-
 ```
 
 The expected output of this code is:
 
-```
+```shell
 Before swap:
 setA contents: 3 2 1
 setB contents: 20 10
@@ -90,8 +90,9 @@ setB contents: 20 10
 After swap:
 setA contents: 20 10
 setB contents: 3 2 1
-
 ```
+
+> **Note:** The output order may vary because `unordered_set` does not maintain a defined element order.
 
 ## Codebyte Example
 
@@ -128,5 +129,4 @@ int main() {
 
   return 0;
 }
-
 ```
