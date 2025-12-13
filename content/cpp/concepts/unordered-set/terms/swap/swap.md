@@ -37,7 +37,7 @@ swap(unordered_set_first, unordered_set_second);
 
 **Parameters:**
 
-- `unordered_set_second`: Another `unordered_set` with the same template parameters(element type, hash, predicate, allocator) as `unordered_set_first`.
+- `unordered_set_second`: Another `unordered_set` with the same template parameters (element type, hash, predicate, allocator) as `unordered_set_first`.
 
 **Return value:**
 
