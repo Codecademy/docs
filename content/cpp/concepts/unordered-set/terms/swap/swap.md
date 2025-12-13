@@ -41,7 +41,7 @@ swap(unordered_set_first, unordered_set_second);
 
 **Return value:**
 
-This method returns nothing (`void`).
+This function returns nothing (`void`).
 
 ## Example
 
