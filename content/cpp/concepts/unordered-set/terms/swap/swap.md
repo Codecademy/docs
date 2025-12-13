@@ -23,13 +23,13 @@ The two `unordered_set` containers do not need to have the same size, but they m
 
 The `swap()` method can be used in the following syntax:
 
-1/. Member Function
+1\. Member Function
 
 ```pseudo
 unordered_set_first.swap(unordered_set_second);
 ```
 
-2/. Non-Member Function
+2\. Non-Member Function
 
 ```pseudo
 swap(unordered_set_first, unordered_set_second);
