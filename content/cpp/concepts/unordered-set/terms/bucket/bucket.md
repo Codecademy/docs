@@ -1,6 +1,6 @@
 ---
 Title: 'Bucket()'
-Description: 'Uses a hash function internally to organize elements into various "buckets" to facilitate fast lookups. Allows a programmer to inspect the internal distribution of elements.'
+Description:  ‘Uses a hash function internally to organize elements into various “buckets” to facilitate fast lookups. Allows a programmer to inspect the internal distribution of elements.’
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -15,51 +15,61 @@ CatalogContent:
 ---
 # bucket()
 
-In C++, the `bucket()` function returns the bucket number where a specific element is stored in the `unordered_set` container.
+In C++, the `bucket()` function returns the index of the bucket in which a specific element is stored within an [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set).
 
-The *bucket* is a slot in the `unordered_set`'s internal hash table where elements are stored.
-
-
+It can be used to understand the internal hash table structure, check the distribution of elements, or implement custom traversal logic.
 
 ## Syntax
-
+### Syntax to locate specific element
 ```psuedo
-size_ type bucket( const key& key) const;
+unordered_set.bucket(x);
 ```
 
-## Example
+**Parameters:** 
+ - `x`: The element value you are locating.
+
+**Return Value:**
+
+The `bucket()` function returns the index of the bucket containing the specified element. If the element is not present, it returns the index for the bucket where the element would be placed based on its hash value.
+
+## Example: Using .bucket() to locate a specific element
 
 ```cpp
 #include <iostream>
 #include <string>
 #include <unordered_set>
 
-int main ()
-{
-  std::unordered_set<std::string> myset = {"earth","wind","water","fire"};
+int main() {
+    std::unordered_set<std::string> benders = {"earth","air","water","fire"};
 
-  for (const std::string& x: myset) {
-    std::cout << x << " is in bucket #" << myset.bucket(x) << std::endl;
-  }
+//Find bucket index for a specific element
+    std::cout << "airbenders are in bucket: " << benders.bucket("air") << std::endl;
 
-  return 0;
+return 0;
 }
 ```
 The output for this code is: 
 ```cpp
-water is in bucket #0
-fire is in bucket #2
-wind is in bucket #2
-earth is in bucket #4
+airbenders are in bucket: 0
 ``` 
 
-## Codebyte Example (if applicable)
+> **Note:** The output may vary depending on the specific C++ implementation and hash function.
 
 
+## Codebyte Example: Iterating Through a Set
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
 
 ```codebyte/cpp
-# Example runnable code block.
-console.log('Hello, World!');
+#include <iostream>
+#include <string>
+#include <unordered_set>
+
+int main() {
+    std::unordered_set<std::string> houses = {"gryffindor", "hufflepuff", "slytherin", "ravenclaw"};
+      
+      for (const std::string& x: houses) {
+    std::cout << x << " house is in bucket: " << houses.bucket(x) << std::endl;
+  }
+return 0;
+}
 ```
