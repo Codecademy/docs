@@ -1,17 +1,16 @@
 ---
-Title: "max_bucket_count()"
-Description: "Returns the maximum number of buckets that the unordered set can have."
+Title: 'max_bucket_count()'
+Description: 'Returns the maximum number of buckets that the unordered_set can have.'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - "Methods"
-  - "Sets"
-  - "Hash Tables"
-  - "STL"
+  - 'Methods'
+  - 'Sets'
+  - 'STL'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 The **`max_bucket_count()`** method returns the maximum number of buckets that an [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set) container can have. This value represents a theoretical upper limit imposed by the system or library implementation, not the current number of buckets in use. The actual number of buckets used by the container is typically much smaller and can be queried using `bucket_count()`.
@@ -22,9 +21,13 @@ The **`max_bucket_count()`** method returns the maximum number of buckets that a
 unordered_set_name.max_bucket_count();
 ```
 
+**Parameters:**
+
+This method takes no parameters.
+
 **Return value:**
 
-Returns a `size_type` value representing the maximum possible number of buckets the container could theoretically hold. This is a system-dependent constant that is typically a very large number.
+Returns a `size_type` value representing the maximum possible number of buckets the container could theoretically hold. This is an implementation-defined limit that is typically a very large number.
 
 ## Example
 
