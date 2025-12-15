@@ -1,6 +1,6 @@
 # My Issue Suggestion
 
-I have noticed that Codecademy has a number of Python related projects that start with the use of a installing or using Pip. (Onsite and Off Platform)
+I have noticed that Codecademy has a number of Python related projects that start with the installing or using Pip. (Onsite and Off Platform)
 I have used Python2, Python3, and recently updated my MacBook to Python3.14.
 When using Git (zsh) and attempting to follow Codecademy Projects steps involving pip/pip libraries for various python off-platform projects i encountered an issue.
 
