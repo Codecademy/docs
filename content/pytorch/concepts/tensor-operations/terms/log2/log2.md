@@ -4,7 +4,6 @@ Description: 'Computes the base-2 logarithm of each element in the input tensor 
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Data Science'
 Tags:
   - 'Elements'
   - 'Methods'
@@ -32,9 +31,9 @@ torch.log2(input, *, out=None) → Tensor
 
 Returns a new tensor of the same shape as `input` where each element is `log₂(input[i])`.
 
-## Example 1: Basic Usage of `torch.log2()`
+## Example 1: Basic Usage of `.log2()`
 
-In this example, the base-2 logarithm is computed for a tensor of powers of two:
+In this example, the base-2 logarithm is computed for a tensor containing powers of 2:
 
 ```py
 import torch
@@ -54,7 +53,7 @@ The output of this code is:
 tensor([1., 2., 3., 4., 5.])
 ```
 
-## Example 2: Applying `torch.log2()` on Random Values
+## Example 2: Applying `.log2()` on Random Values
 
 In this example, a tensor with random positive values is transformed using base-2 logarithm to analyze data on a log scale:
 
