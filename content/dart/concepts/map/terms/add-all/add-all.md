@@ -1,6 +1,6 @@
 ---
 Title: '.addAll()'
-Description: 'Adds all key-value pairs from another Map to an existing Map.'
+Description: 'Adds all key-value pairs from another `Map` into the current map.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -23,16 +23,15 @@ If a key from the source map already exists in the target map, its value will be
 mapVariable.addAll(otherMap)
 ```
 
-- `mapVariable`: The map that will receive the new entries.
-- `otherMap`: A map containing key-value pairs to be added.
+`mapVariable` is the `Map` object to which new key–value pairs will be added.
 
 **Parameters:**
 
-- `otherMap`: A `Map<K, V>` whose key and value types must match those of the target map.
+- `otherMap`: A map whose key–value pairs are added to `mapVariable`. If a key already exists, its value is overwritten.
 
 **Return value:**
 
-- `void`: This method does not return a value; it modifies the map in place.
+This method returns `void`. The original map is modified in place.
 
 ## Example
 
@@ -55,8 +54,6 @@ void main() {
   print(inventory);
 }
 ```
-
-**Output:**
 
 The output of this code is as follows:
 
