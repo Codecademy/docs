@@ -1,5 +1,5 @@
 ---
-Title: 'sigmoid'
+Title: '.sigmoid()'
 Description: 'The sigmoid function is an S-shaped curve typically used in binary classification problems'
 Subjects:
   - 'AI'
@@ -19,7 +19,7 @@ CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
 ---
 
-A **sigmoid** function is an S-shaped curve which maps any real-valued input to a bounded output, typically between 0 and 1. Sigmoid functions are regularly used as activation functions in non-linear classification problems, for example in neural networks, where the probability of a binary outcome is required.
+A **`.sigmoid()`** function is an S-shaped curve which maps any real-valued input to a bounded output, typically between 0 and 1. Sigmoid functions are regularly used as activation functions in non-linear classification problems, for example in neural networks, where the probability of a binary outcome is required.
 
 Although there are a range of sigmoid functions, in the field of AI the sigmoid function is usually synonymous with the logistic function, which is bound between 0 and 1.
 
