@@ -4,7 +4,6 @@ Description: 'Computes the element-wise logarithm of the sum of exponentials of 
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Data Science'
 Tags:
   - 'Elements'
   - 'Methods'
@@ -15,11 +14,11 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.logaddexp()`** function in PyTorch computes the point-wise value of:
+The **`.logaddexp()`** function in PyTorch computes the element-wise logarithm of the sum of exponentials of two input [tensors](https://www.codecademy.com/resources/docs/pytorch/tensors). If the tensors are `x` and `y`, the mathematical formula will be:
 
 $$\log(\exp(x) + \exp(y))$$
 
-for two input tensors `x` and `y`. This operation is particularly useful for combining log-space values (such as log-probabilities) in a numerically stable way.
+This operation is particularly useful for combining log-space values (such as log-probabilities) in a numerically stable way.
 
 ## Syntax
 
@@ -39,7 +38,7 @@ Returns a new tensor of the same shape as the broadcasted `input` and `other`, w
 
 $$\log\left(\exp(\text{input}[i]) + \exp(\text{other}[i])\right)$$
 
-## Example 1: Combining log-probabilities
+## Example 1: Combining Log-Probabilities
 
 In this example, two tensors representing log-probabilities are combined using `.logaddexp()`:
 
@@ -53,13 +52,13 @@ result = torch.logaddexp(x, y)
 print(result)
 ```
 
-The ouput of this code is:
+The output of this code is:
 
 ```shell
 tensor([ 0.3544, -0.2870, -2.7986])
 ```
 
-## Example 2: Broadcasting two tensors of different shapes
+## Example 2: Broadcasting Two Tensors of Different Shapes
 
 In this example, a tensor and a scalar are combined with broadcasting using `.logaddexp()`:
 
