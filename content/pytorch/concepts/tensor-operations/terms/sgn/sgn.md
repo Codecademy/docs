@@ -53,7 +53,7 @@ The output of this code is:
 tensor([-1., -1.,  0.,  1.,  1.])
 ```
 
-## Example 2: Using `.sgn()` with a 2D Tensor
+## Example 2: Applying `.sgn()` element-wise to a 2D tensor
 
 In this example, `.sgn()` is applied to a 2D tensor:
 
