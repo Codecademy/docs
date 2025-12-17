@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`groupby().size()`** method in pandas returns the number of rows or elements in each group created by the `groupby()` function. It provides a quick way to determine group sizes without applying an aggregation function.
+The **`size()`** method in pandas returns the number of rows or elements in each group created by the `groupby()` [function](https://www.codecademy.com/resources/docs/pandas/built-in-functions). It provides a quick way to determine group sizes without applying an aggregation function.
 
 ## Syntax
 
@@ -22,15 +22,15 @@ DataFrameGroupBy.size()
 
 **Parameters:**
 
-The `size()` method does not take any parameters.
+The `size()` method doesn't take any parameters.
 
 **Return value:**
 
 The `size()` method returns a Series containing the size (row count) of each group created by `groupby()`.
 
-## Example 1: Counting rows by group
+## Example 1: Counting Rows by Group
 
-In this example, a DataFrame of employees is grouped by their department, and `size()` counts how many employees belong to each department:
+In this example, a [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) of employees is grouped by their department, and `size()` counts how many employees belong to each department:
 
 ```py
 import pandas as pd
@@ -55,7 +55,7 @@ IT         2
 dtype: int64
 ```
 
-## Example 2: Using multiple grouping columns
+## Example 2: Using Multiple Grouping Columns
 
 In this example, `size()` counts the number of members in each combination of team and shift within a dataset:
 
@@ -85,7 +85,7 @@ C     Day      1
 dtype: int64
 ```
 
-## Codebyte Example: Counting transactions per product
+## Codebyte Example: Counting Transactions Per Product
 
 In this example, `size()` is used to count how many sales transactions occurred for each product in a store dataset:
 
@@ -103,11 +103,11 @@ print(counts)
 
 ## Frequently Asked Questions
 
-### 1. What is the pandas groupby size method?
+### 1. What is the pandas `groupby().size()` method?
 
 `groupby().size()` returns the number of rows in each group created by `groupby()`.
 
-###2. What is the purpose of `groupby()` in pandas?
+### 2. What is the purpose of `groupby()` in pandas?
 
 `groupby()` splits data into groups based on selected column values to enable aggregation and summarization.
 
