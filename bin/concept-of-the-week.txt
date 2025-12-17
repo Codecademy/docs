@@ -1,1 +1,1 @@
-content/kotlin/concepts/operators/operators.md
+content/uiux/concepts/quantitative-research/quantitative-research.md
