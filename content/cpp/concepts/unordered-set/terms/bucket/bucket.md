@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**bucket()** in C++ returns the index of the bucket in which a specific element is stored within an [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set).
+**bucket** in C++ returns the index of the bucket in which a specific element is stored within an [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set).
 
 It can be used to understand the internal hash table structure, check the distribution of elements, or implement custom traversal logic.
 
