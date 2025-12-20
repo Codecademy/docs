@@ -57,6 +57,7 @@ The above program gives the following output:
 1
 0
 ```
+
 > **Note:** If two keys are considered equal by key_eq(), they must also produce the same hash value. Failing to maintain this consistency results in undefined behavior.
 
 ```codebyte/cpp
@@ -109,6 +110,7 @@ int main() {
 ```
 
 The above program gives the following output
+
 ```
 1
 1
