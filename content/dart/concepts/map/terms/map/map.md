@@ -1,13 +1,13 @@
 ---
-Title: 'Map.map()'
-Description: 'Map.map() transforms each key-value pair in a Dart Map into a new Map.'
+Title: '.map()'
+Description: '.map() transforms each key-value pair in a Dart Map into a new Map.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
   - 'Dart'
   - 'Data Structures'
-  - 'Methods'
+  - 'Map'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
