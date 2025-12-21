@@ -38,4 +38,8 @@ $ git clone https://github.com/Codecademy/docs.git
   remote: Total 21512 (delta 2233), reused 1727 (delta 1466), pack-reused 17995
   Receiving objects: 100% (21512/21512), 3.48 MiB | 9.56 MiB/s, done.
   Resolving deltas: 100% (10600/10600), done.
+
+  ## Simple Explanation
+The `git clone` command is used to copy a remote Git repository to your local machine so you can work on the project locally.
+
 ```
