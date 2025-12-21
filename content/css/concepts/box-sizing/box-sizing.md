@@ -1,6 +1,6 @@
 ---
 Title: 'Box Sizing'
-Description: 'Shorthand property that sets different ways to compute width and height for an element in a single declaration.'
+Description: 'Controls how the browser calculates an element’s total width and height in the CSS box model.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,7 +13,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `box-sizing` property allows us to include the padding and border in the calculation of an element's height and width.
+The `box-sizing` property defines how the **width and height of an element are calculated**, determining whether padding and borders are included in the element’s total size.
+
+This property is essential for building predictable and responsive layouts.
+
+---
 
 ## Syntax
 
@@ -21,37 +25,74 @@ The `box-sizing` property allows us to include the padding and border in the cal
 box-sizing: value;
 ```
 
-The `value` for `box-sizing` property can be one of the following:
+## Values
 
-- **border-box:** Any assigned padding or border is included in the calculation of the height or width of an element. If an element's width is set to `100px` and padding is set to `30px`, the padding will be included in the element's set width resulting in the total width still being `100px`.
-- **content-box:** Default CSS behavior, the assigned height or width of an element plus any padding will be the total height or weight. If an element's width is set to `100px` and padding is set to `50px`, the total width for the element will be `150px`.
+The box-sizing property accepts the following values:
+
+## border-box
+
+Includes padding and border within the specified width and height of an element.
+This ensures the element’s total size remains fixed and predictable.
+
+## Example:
+
+If an element has width: 100px and padding: 30px, the total width remains 100px.
+
+## content-box (default)
+
+Width and height apply only to the content. Padding and border are added outside the defined size.
+
+## Example:
+
+If an element has width: 100px and padding: 50px, the total width becomes 150px.
 
 ## Example 1
 
-Setting a `div` elements `box-sizing` to `border-box`:
+Setting a div element’s box-sizing to border-box:
 
-```css
 .div {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
-```
 
 ## Example 2
 
-Setting a `div` elements `box-sizing` to `content-box`:
+Setting a div element’s box-sizing to content-box:
 
-```css
 .div {
-  box-sizing: content-box;
+box-sizing: content-box;
 }
-```
 
-Examples 1 and 2 can be illustrated as follows:
+## Visual Illustration
 
-![Illustrates examples 1, and 2 with `box-sizing` set to `border-box`, and `content-box`](https://raw.githubusercontent.com/Codecademy/docs/main/media/box-sizing-example.png 'Box-Sizing Example')
+![alt text](image.png)
 
-This output image has two `div` containers with a width of 300px, a border of 1px, and a padding of 20px. Inside each container is a `div` with a width of 100%.
+## In the illustration:
 
-The first container `div` is set to `border-box`. Its total width including the black border, tan padding, and blue `div` is 300px.
+-Both container elements have a width of 300px, a 1px border, and 20px padding.
 
-The second container `div` is set to `content-box`. The width of the blue content `div` is 300px. The total width of the container `div` with padding, border, and content `div` is 342px.
+-Each container holds a child div with width: 100%.
+
+## Results:
+
+-border-box:
+The total width of the container (content + padding + border) remains 300px.
+
+-content-box:
+The content alone is 300px, resulting in a total width of 342px after adding padding and borders.
+
+## Best Practice
+
+Most modern projects apply border-box globally for consistent sizing:
+
+_,
+_::before,
+\*::after {
+box-sizing: border-box;
+}
+
+This approach simplifies layout calculations and helps prevent unexpected overflow issues.
+
+## Summary
+
+The box-sizing property controls how an element’s size is calculated in the CSS box model.
+While content-box is the default behavior, border-box is widely preferred for modern layouts because it provides better control, predictability, and maintainability.
