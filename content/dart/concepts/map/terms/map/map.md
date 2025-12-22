@@ -1,6 +1,6 @@
 ---
 Title: '.map()'
-Description: '.map() transforms each key-value pair in a Dart Map into a new Map.'
+Description: 'Creates a new map by transforming each key–value pair of an existing map using a provided function.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, the `.map()` method is used to create a new map by transforming each key-value pair of an existing map using a provided function.
+In Dart, the **`.map()`** method creates a new map by transforming each key–value pair of an existing map using a provided function.
 
 ## Syntax
 
@@ -21,10 +21,20 @@ In Dart, the `.map()` method is used to create a new map by transforming each ke
 myMap.map((key, value) => MapEntry(newKey, newValue))
 ```
 
-- `myMap`: The map whose entries are to be transformed.
-- `key`: The key from the original map.
-- `value`: The value associated with the key.
-- `MapEntry`: Represents a single key-value pair in the new map.
+Here, `myMap` is the map whose entries are to be transformed.
+
+**Parameters:**
+
+- A function that takes two arguments:
+  - `key`: The key from the original map.
+  - `value`: The value associated with that key.
+- The function must return a `MapEntry`, which defines the key–value pair in the new map.
+
+**Return value:**
+
+The `.map()` method returns a new `Map` containing the transformed key–value pairs.
+
+> **Note:** The original map remains unchanged.
 
 ## Example 1
 
