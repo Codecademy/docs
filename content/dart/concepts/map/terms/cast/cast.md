@@ -1,6 +1,6 @@
 ---
 Title: '.cast()'
-Description: 'Returns a new Map with the same entries but with different key and value types.'
+Description: 'Returns a new map with the same entries but with keys and values cast to the specified types.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -25,7 +25,18 @@ mapVariable.cast<NewKeyType, NewValueType>()
 
 `mapVariable` is the `Map` object whose entries are cast to new types.
 
+**Parameters:**
+
+- `NewKeyType`: The target key type to cast the map’s keys to.
+- `NewValueType`: The target value type to cast the map’s values to.
+
+**Return value:**
+
+Returns a new `Map<K, V>` view of the original map, where keys and values are cast to the specified types.
+
 ## Example
+
+In this example, a dynamically typed map is cast to a `Map<String, int>` so its entries can be accessed with strong typing:
 
 ```dart
 void main() {
@@ -40,7 +51,7 @@ void main() {
 }
 ```
 
-**Output:**
+The output of this code is:
 
 ```shell
 {Alice: 90, Bob: 85}
