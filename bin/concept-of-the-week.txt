@@ -1,1 +1,1 @@
-content/typescript/concepts/interfaces/interfaces.md
+content/postgresql/concepts/subscripts/subscripts.md
