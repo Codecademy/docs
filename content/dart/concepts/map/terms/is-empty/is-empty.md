@@ -21,7 +21,8 @@ In Dart, the **`.isEmpty`** property is used to check if a `Map` contains no key
 map.isEmpty
 ```
 
-- `mapName`: The `Map` to be checked.
+- `map`: The `Map` is object.
+- 
 
 ## Example
 
