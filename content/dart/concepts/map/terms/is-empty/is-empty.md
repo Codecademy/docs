@@ -18,7 +18,7 @@ In Dart, the **`.isEmpty`** property is used to check if a `Map` contains no key
 ## Syntax
 
 ```pseudo
-mapName.isEmpty
+map.isEmpty
 ```
 
 - `mapName`: The `Map` to be checked.
@@ -41,7 +41,7 @@ void main() {
 }
 ```
 
-The above code produces the following output:
+The above example produces the following output:
 
 ```shell
 true
@@ -62,7 +62,7 @@ void main() {
 }
 ```
 
-The above code produces the following output:
+The above example produces the following output:
 
 ```shell
 No user data available.
