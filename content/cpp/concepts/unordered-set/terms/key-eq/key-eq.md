@@ -6,12 +6,12 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Comparison'
+  - 'Containers'
   - 'Equality'
   - 'Functions'
-  - 'Containers'
+  - 'Hashes'
   - 'Sets'
   - 'STL'
-  - 'Hashes'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
