@@ -2,8 +2,8 @@
 Title: '.update()'
 Description: 'Updates the value for a specific key in a Map using a provided function.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Dart'
   - 'Methods'
@@ -64,7 +64,7 @@ void main() {
   Map<String, int> fruits = {'Apple': 5};
 
   // 'Orange' does not exist, so ifAbsent adds it
-  fruits.update('Orange', (value) => value, ifAbsent: () => 10);
+  fruits.update('Orange', (value) => value + 5, ifAbsent: () => 10);
 
   print(fruits);
 }
