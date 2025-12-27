@@ -22,7 +22,6 @@ map.isEmpty
 ```
 
 - `map`: The `Map` is object.
-- 
 
 ## Example
 
