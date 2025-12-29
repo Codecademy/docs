@@ -1,17 +1,17 @@
 ---
-Title: 'bucket_size()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Returns the number of elements stored in a specific bucket of an unordered_map.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: 'bucket_size()'
+Description: 'Returns the number of elements stored in a specific bucket of an unordered_map.'
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'Optimization'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The **.bucket_size()** method returns the number of elements stored in a specific bucket of an [`unordered_map](https://www.codecademy.com/resources/docs/cpp/unordered-map). In C++, an unordered_map uses a hash table internally where elements are distributed across multiple buckets based on their key’s hash value. This method helps analyze the distribution of elements and can be useful for performance optimization and understanding collision handling in the hash table.
+The **.bucket_size()** method returns the number of elements stored in a specific bucket of an [`unordered_map`](https://www.codecademy.com/resources/docs/cpp/unordered-map). In C++, an unordered_map uses a hash table internally where elements are distributed across multiple buckets based on their key’s hash value. This method helps analyze the distribution of elements and can be useful for performance optimization and understanding collision handling in the hash table.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ unordered_map.bucket_size(n)
 ```
 **Parameters:**
 
-*n*: The bucket number to query. This value must be less than the total number of buckets returned by .bucket_count(). It is of type size_type, which is an unsigned integral type.
+n: The bucket number to query. This value must be less than the total number of buckets returned by .bucket_count(). It is of type size_type, which is an unsigned integral type.
 Return value:
 
 The .bucket_size() method returns the number of elements in bucket n as an unsigned integer of type size_type.
@@ -29,8 +29,7 @@ The .bucket_size() method returns the number of elements in bucket n as an unsig
 
 This example demonstrates how to use .bucket_size() to check the number of elements in each bucket of an unordered_map:
 
-```
-#include <iostream>
+```#include <iostream>
 #include <unordered_map>
 #include <string>
 
@@ -56,8 +55,7 @@ int main() {
 }
 ```
 This example results in the following output:
-```
-Total buckets: 5
+```Total buckets: 5
 
 Bucket 0 has 1 elements
 Bucket 1 has 1 elements
