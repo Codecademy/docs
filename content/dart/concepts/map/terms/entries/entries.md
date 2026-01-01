@@ -1,6 +1,6 @@
 ---
 Title: '.entries'
-Description: 'Returns an iterable collection containing all key-value pairs as MapEntry objects in a map.'
+Description: 'Returns an iterable view of all key-value pairs in a map as MapEntry objects.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, the **`.entries`** property returns an iterable collection containing all key-value pairs as `MapEntry` objects in a map. This allows you to iterate over both keys and values together.
+In Dart, the **`.entries`** property returns an iterable view of a `Map`’s contents, where each element is a `MapEntry` containing a key and its corresponding value. This property is useful when both keys and values need to be accessed together during iteration.
 
 ## Syntax
 
@@ -21,11 +21,17 @@ In Dart, the **`.entries`** property returns an iterable collection containing a
 myMap.entries
 ```
 
-- `myMap`: The map name that needs to be iterated.
+**Parameters:**
 
-## Example
+This property takes no parameters.
 
-The following example demonstrates the usage of the `.entries` property:
+**Return value:**
+
+Returns an `Iterable<MapEntry<K, V>>`, where each `MapEntry` represents a key–value pair from the map.
+
+## Example 1: Iterating over keys and values together
+
+In this example, `.entries` is used to iterate through a map and access both the key and value for each entry:
 
 ```dart
 void main() {
