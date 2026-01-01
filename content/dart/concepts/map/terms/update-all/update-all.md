@@ -17,18 +17,26 @@ The **`.updateAll()`** method in Dart updates all values in a map by applying a 
 
 ## Syntax
 
-```dart
+```pseudo
 map.updateAll((key, value) => newValue)
 ```
 
-- `map`: The map to be updated.
-- `key`: The key in each key-value pair.
+**Parameters:**
+
+A function that takes two arguments:
+
+- `key`: The current key in the map.
 - `value`: The current value associated with the key.
-- `newValue`: The new value to replace the current value.
+
+The function must return the new value to replace the existing one.
+
+**Return value:**
+
+Returns `void`. The map is modified in place.
 
 ## Example
 
-In the following example, the `.updateAll()` method is used to increase all scores by 10:
+In the following example, the `.updateAll()` method increases every score in the map by 10 using a transformation function:
 
 ```dart
 void main() {
@@ -37,12 +45,12 @@ void main() {
     'Bob': 90,
     'Charlie': 85
   };
-  
+
   print('Original scores: $scores');
-  
+
   // Increase all scores by 10
   scores.updateAll((name, score) => score + 10);
-  
+
   print('Updated scores: $scores');
 }
 ```
