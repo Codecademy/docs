@@ -18,21 +18,18 @@ In Dart, the **`.update()`** method is used to update the value for a specific k
 ## Syntax
 
 ```pseudo
-mapVariable.update(key, (value) => newValue)
+map.update(key, update, ifAbsent)
 ```
 
-- `mapVariable`: The `Map` to be updated.
-- `key`: The key whose value needs to be updated.
-- `value`: The current value associated with the key.
-- `newValue`: The new value to replace the existing value.
+**Parameters:**
 
-An optional `ifAbsent` parameter can be used to add a key if it does not exist:
+- `key`: The key whose value is to be updated.
+- `update`: A function that takes the current value associated with `key` and returns the new value.
+- `ifAbsent` (optional): A function that provides a value to insert if `key` does not exist in the map.
 
-```pseudo
-mapVariable.update(key, (value) => newValue, ifAbsent: () => defaultValue)
-```
+**Return value:**
 
-- `ifAbsent`: A function that returns a default value if the key is not found.
+Returns the new value associated with `key` after the update or insertion.
 
 ## Example 1
 
