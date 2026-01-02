@@ -10,7 +10,7 @@ Tags:
   - 'STL'
 CatalogContent:
   - 'learn-c-plus-plus'
-  - 'paths/computer-science' 
+  - 'paths/computer-science'
 ---
 
 The **`rehash()`** method sets the number of buckets in an [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set) to a specified value or more, causing the container to reorganize its elements according to their hash values. This can help optimize the performance of the container by reducing the load factor and the number of hash collisions.
