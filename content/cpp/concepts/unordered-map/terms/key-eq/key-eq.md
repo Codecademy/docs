@@ -3,7 +3,7 @@ Title: '.key_eq()'
 Description: 'Returns the key equality comparison function used by the `unordered_map` container.'
 Subjects:
   - 'Computer Science'
-  - 'Data Scienec'
+  - 'Data Science'
 Tags:
   - 'Classes'
   - 'Map'

@@ -85,7 +85,7 @@ Raising the load factor allows more elements per bucket, delaying rehashing and 
 
 This example sets a lower load factor to prioritize faster lookups in a time-critical application:
 
-```codebye/cpp
+```codebyte/cpp
 #include <iostream>
 #include <unordered_map>
 

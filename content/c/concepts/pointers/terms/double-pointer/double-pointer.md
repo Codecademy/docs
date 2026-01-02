@@ -67,5 +67,5 @@ Address of doublePointer: 0x7ffcbffdcc20
 In the example:
 
 - `value` is an integer variable.
-- `pointer` is a pointer tha stores the address of `value`.
+- `pointer` is a pointer the stores the address of `value`.
 - `doublePointer` is a double pointer that stores the address of the pointer.

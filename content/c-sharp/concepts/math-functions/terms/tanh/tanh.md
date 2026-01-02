@@ -18,7 +18,7 @@ The **`Math.Tanh()`** method returns the hyperbolic tangent of a given angle in 
 ## Syntax
 
 ```pseudo
-Math.Tahn(x);
+Math.Tanh(x);
 ```
 
 This method accepts a single parameter,`x`, which is the angle in radians. It returns the hyperbolic tangent value of `x`.

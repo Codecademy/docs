@@ -124,7 +124,7 @@ std::cout << weight2 << std::endl;
 // Output: 122
 ```
 
-Not all types can be converted. The example below shows a type that can not be accepted:
+Not all types can be converted. The example below shows a type that cannot be accepted:
 
 ```cpp
 std::string s = static_cast<std::string>(weight2);

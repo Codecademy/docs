@@ -3,7 +3,7 @@ Title: '.empty()'
 Description: 'Checks if a given map is empty.'
 Subjects:
   - 'Computer Science'
-  - 'Game Deelopment'
+  - 'Game Development'
 Tags:
   - 'Data Structures'
   - 'Documentation'

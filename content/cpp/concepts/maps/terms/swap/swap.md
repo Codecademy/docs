@@ -28,7 +28,7 @@ map1.swap(map2);
 
 ## Example
 
-The following example shows how the `swap()` funcrion works:
+The following example shows how the `swap()` function works:
 
 ```cpp
 #include <iostream>
