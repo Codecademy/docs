@@ -91,11 +91,11 @@ public class BankAccount {
 
 Static classes are defined using the `static` keyword and exclusively contain static members, such as methods, properties, and fields. Unlike regular classes, static classes cannot be instantiated with the `new` keyword. Instead, their members are accessed using the class name itself. These classes are commonly used for utility functions or to group related functionalities.
 
-The `static` keyword forces all fields, methods, and properties to require this keyword. This means that if a user tries to create any of these without the `static` keyword, the code will not run and will produce a compile-time error. The reason behind this is that the user can not create an instance of a static class without using this keyword. Any methods, properties and fields that are not marked as `static` would be unreachable.
+The `static` keyword forces all fields, methods, and properties to require this keyword. This means that if a user tries to create any of these without the `static` keyword, the code will not run and will produce a compile-time error. The reason behind this is that the user cannot create an instance of a static class without using this keyword. Any methods, properties and fields that are not marked as `static` would be unreachable.
 
 ### Example
 
-In the example below, a static class called `MyStaticClass` is created. The commented out code shows what a user can not do with static classes. If these commented out pieces of code were to be uncommented, the code would not compile. The example also shows how properties and methods in the `MyStaticClass` class are created and used in the `CallingClass` class:
+In the example below, a static class called `MyStaticClass` is created. The commented out code shows what a user cannot do with static classes. If these commented out pieces of code were to be uncommented, the code would not compile. The example also shows how properties and methods in the `MyStaticClass` class are created and used in the `CallingClass` class:
 
 ```cs
 using System;

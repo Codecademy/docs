@@ -19,7 +19,7 @@ A **`String`** is a sequence of characters (such as letters, numbers, and symbol
 
 Here is the syntax for single, double, and triple quoted strings in Dart:
 
-```psuedo
+```pseudo
   String singleQuoteString = 'This is a Dart string with a single quote.';
   String doubleQuoteString = "This is a Dart string with double quotes.";
   String multiLineString = '''

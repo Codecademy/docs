@@ -19,11 +19,11 @@ In the NumPy library, the **`.round()`** method rounds a number or an array of n
 
 ## Syntax
 
-```psuedo
+```pseudo
 numpy.round(array, decimals=0, out=None)
 ```
 
-- `array`: Represents either a single number or an array of numbers. Each element, wheather a float or integer, will be rounded.
+- `array`: Represents either a single number or an array of numbers. Each element, whether a float or integer, will be rounded.
 - `decimal`: Optional parameter that specifies the number of decimal places to which the numbers or elements in the array will be rounded. The default value is 0, and it accepts both positive and negative integers.
 - `out`: Optional parameter that allows specifying an output array where the rounded results will be stored. If not provided, a new array will be created to store the rounded values.
 
@@ -47,7 +47,7 @@ print("# Case 2")
 print(array_rounded)
 
 # Case 3: np.round() accepts an array, float or integer as it's first and only required parameter. It also accepts a second integer to indicate the decimal place.
-# Printing with the repr() function will output the result with commas seperating the elements.
+# Printing with the repr() function will output the result with commas separating the elements.
 unrounded_list = [4.5674, 19.3455, 56.3946]
 rounded_list = np.round(unrounded_list, 2)
 print("# Case 3")

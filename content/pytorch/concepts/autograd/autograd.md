@@ -166,7 +166,7 @@ tensor([[[27., 27., 27.],
          [27., 27., 27.]]], grad_fn=<MulBackward0>)
 ```
 
-Backpropogate with random numbers.
+Backpropagate with random numbers.
 
 > **Note** This function will fail if the retained variables are not specified in earlier steps.
 
@@ -177,7 +177,7 @@ y.backward(gradient)
 print(x.grad)
 ```
 
-This example results in the following ouptut:
+This example results in the following output:
 
 ```shell
 Tensor([[[ 3.9394,  5.6904,  3.2610],

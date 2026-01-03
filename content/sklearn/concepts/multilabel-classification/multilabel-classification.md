@@ -22,7 +22,7 @@ Scikit-learn offers tools like `OneVsRestClassifier`, `ClassifierChain`, and `Mu
 
 ## Syntax
 
-Here's the syntax for using multiabel classification in sklearn:
+Here's the syntax for using multilabel classification in sklearn:
 
 ```pseudo
 from sklearn.multioutput import MultiOutputClassifier

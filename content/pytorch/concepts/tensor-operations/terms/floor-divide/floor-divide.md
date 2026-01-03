@@ -36,7 +36,7 @@ It returns a new tensor of the same shape as the `input`, containing the result 
 
 ## Example
 
-In this example, we use `floor_divide()` to perform divison of two tensors `x` and `y` :
+In this example, we use `floor_divide()` to perform division of two tensors `x` and `y` :
 
 ```py
 import torch
