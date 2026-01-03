@@ -40,7 +40,7 @@ map.forEach((key, value) => expression);
 
 ## Example 1
 
-The the following example, the `.forEach()` is used to print each key-value pair:
+The following example, the `.forEach()` is used to print each key-value pair:
 
 ```dart
 void main() {
@@ -66,7 +66,7 @@ Charlie is 35 years old.
 
 ## Example 2
 
-The the following example, The `.forEach()` method uses an arrow function to print each product and its price in a formatted string:
+The following example, The `.forEach()` method uses an arrow function to print each product and its price in a formatted string:
 
 ```dart
 void main() {

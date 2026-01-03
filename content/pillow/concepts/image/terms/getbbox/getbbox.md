@@ -68,4 +68,4 @@ This code produces the following output:
 (0, 0, 672, 322)
 ```
 
-The output indicates that the non-zero (non-backround) area of the image starts at (0, 0) and extends to (672, 322).
+The output indicates that the non-zero (non-background) area of the image starts at (0, 0) and extends to (672, 322).

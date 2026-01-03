@@ -30,7 +30,7 @@ plotly.express.box(data_frame=None, x=None, y=None, color=None, labels=None, tit
 - `labels`: Key-value pairs with the original column names as the key and the custom column names as the value.
 - `title`: The title of the box plot.
 
-Tthe only required parameter is `data_frame`, while all others are optional and used to customize the plot.
+The only required parameter is `data_frame`, while all others are optional and used to customize the plot.
 
 > **Note:** The ellipsis (...) indicates that there can be additional optional arguments beyond those listed here.
 

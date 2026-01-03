@@ -142,7 +142,7 @@ Number of invalid dates converted to NaT: 1
 Clean data shape: (4, 3)
 ```
 
-This example demonstrates handling real-world financial data where dates might be in different formats or contain invalid entries. Using `errors='coerce'` converts unparseable dates to NaT (Not a Time), allowing the analysis to continue with valid data.
+This example demonstrates handling real-world financial data where dates might be in different formats or contain invalid entries. Using `errors='coerce'` converts unparsable dates to NaT (Not a Time), allowing the analysis to continue with valid data.
 
 ## Codebyte Example: Sensor Data Time Series Analysis
 

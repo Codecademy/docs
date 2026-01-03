@@ -27,7 +27,7 @@ plotly.express.scatter(data_frame=None, x=None, y=None, color=None, symbol=None,
 - `y`: The column name in `data_frame`, `Series` or array_like object for y-axis data.
 - `color`: The column name in `data_frame`, `Series` or array_like object specifying marker colors.
 - `symbol`: The column name in `data_frame`, `Series` or array_like object assigning marker symbols.
-- `size`: The column name in `data_frame`, `Series` or array_like object assgining marker sizes.
+- `size`: The column name in `data_frame`, `Series` or array_like object assigning marker sizes.
 
 Both the `x` and `y` parameters are required and represent either a string, integer, `Series`, or array-like object. Other parameters are optional and can modify plot features such as marker sizes and/or colors. If `data_frame` is missing, a `DataFrame` is constructed using the other arguments.
 

@@ -394,7 +394,7 @@ void main() {
 }
 ```
 
-> Note: In the case of a short-hand method, a `return` keyword is not used in it's expression and will thus return the specified result by default.
+> Note: In the case of a short-hand method, a `return` keyword is not used in its expression and will thus return the specified result by default.
 
 The output is following:
 
