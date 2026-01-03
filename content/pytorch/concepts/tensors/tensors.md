@@ -26,7 +26,7 @@ CatalogContent:
 
 Tensors can be created with several methods. If the values within the tensor do not matter, `torch.empty()` should be used:
 
-```psuedo
+```pseudo
 myTensor = torch.empty(dimension1Size, dimension2Size, dimensionNSize)
 ```
 

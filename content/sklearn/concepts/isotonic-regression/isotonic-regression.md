@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/intermediate-machine-learning-skill-path'
 ---
 
-**Isotonic Regression** is a technique of using a free-form line to establish a non-linear path. The path is created by a set of data points. In this technique, predictor variables and target vairables increase or decrease, monotonically, in a non-oscilatory manner. The word "isotonic" (_iso_ and _tonos_) comes from the Greek, meaning _equal_ and _to stretch_, respectively.
+**Isotonic Regression** is a technique of using a free-form line to establish a non-linear path. The path is created by a set of data points. In this technique, predictor variables and target variables increase or decrease, monotonically, in a non-oscillatory manner. The word "isotonic" (_iso_ and _tonos_) comes from the Greek, meaning _equal_ and _to stretch_, respectively.
 
 ## Syntax
 

@@ -28,7 +28,7 @@ Common modes include the following:
 | `r`   | Read: Start from the beginning of the file.                                                                  |
 | `r+`  | Read and write: Start from the beginning of the file.                                                        |
 | `w`   | Write: Start from the beginning of the file.                                                                 |
-| `w+`  | Rread and write: Overwrite the existing or create a new one.                                                 |
+| `w+`  | Read and write: Overwrite the existing or create a new one.                                                 |
 | `a`   | Append (write-only): Start writing from the end of the existing file or create a new one.                    |
 | `a+`  | Append (read and write): Start reading and/or writing from the end of the existing file or create a new one. |
 

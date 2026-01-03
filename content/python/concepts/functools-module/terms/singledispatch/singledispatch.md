@@ -34,7 +34,7 @@ def func(arg, ...):
 - `singledispatch()` returns a single-dispatch generic function object.
 - Additional implementations can be registered for different types using the .register(type) method on the generic function.
 
-## Example 1: Creat a generic function `process`
+## Example 1: Create a generic function `process`
 
 This example uses the `singledispatch` decorator to handle different input types in a custom way:
 

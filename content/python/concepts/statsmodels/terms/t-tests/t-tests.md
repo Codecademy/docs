@@ -61,7 +61,7 @@ else:
   print("Fail to reject the null hypothesis: No significant difference from 10.")
 ```
 
-The code above generates the following ouput:
+The code above generates the following output:
 
 ```shell
 t-statistic: -1.2545000963743562

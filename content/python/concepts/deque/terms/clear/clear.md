@@ -46,7 +46,7 @@ print(f"Initial deque is as follows: {cars}")
 # Clearing the deque
 cars.clear()
 
-# If statement to check if the deque has been sucessfully cleared
+# If statement to check if the deque has been successfully cleared
 if not cars:
   print("the deque is empty")
 ```
