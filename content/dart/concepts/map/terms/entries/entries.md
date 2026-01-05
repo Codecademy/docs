@@ -17,7 +17,7 @@ In Dart, the **`.entries`** property returns an iterable view of a `Map`’s con
 
 ## Syntax
 
-```pseudo
+```dart
 myMap.entries
 ```
 
@@ -54,3 +54,5 @@ Alice: 95
 Bob: 87
 Charlie: 92
 ```
+
+This property is useful when both keys and values are needed during iteration.
