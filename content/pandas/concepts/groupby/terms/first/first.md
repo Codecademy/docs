@@ -1,5 +1,5 @@
 ---
-Title: '.prod()'
+Title: 'first()'
 Description: 'Returns the first non-null value from each group.'
 Subjects:
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`groupby().first()`** method in pandas returns the first non-null value from each group created by a `groupby()` operation. It is commonly used to extract representative or initial entries for grouped data, such as the first transaction, first record, or earliest occurrence.
+The **`first()`** method in pandas returns the first non-null value from each group created by a `groupby()` operation. It is commonly used to extract representative or initial entries for grouped data, such as the first transaction, first record, or earliest occurrence.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ DataFrameGroupBy.first(numeric_only=False, min_count=-1, skipna=True)
 
 **Return value:**
 
-Returns a Series or DataFrame. First non-null values within each group.
+Returns a Series or [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) containing the first non-null value from each group.
 
 ## Example 1
 
@@ -52,10 +52,10 @@ The output of this code is:
 
 ```shell
            Employee  Salary
-Department
+Department                 
 Finance         Bob   60000
-HR             Alice   50000
-IT             David   58000
+HR            Alice   50000
+IT            David   58000
 ```
 
 ## Example 2
@@ -81,10 +81,10 @@ The output of this code is:
 
 ```shell
          Temperature  Humidity
-City
-Chennai         NaN        70
-Delhi          32.0        80
-Mumbai         30.0        75
+City                          
+Chennai         27.0        70
+Delhi           32.0        80
+Mumbai          30.0        75
 ```
 
 ## Codebyte Example
@@ -107,9 +107,9 @@ print(result)
 
 ## Frequently Asked Questions
 
-### 1. What does groupby `first()` do?
+### 1. What does `groupby().first()` do?
 
-It returns the first non-null record from each group in a grouped pandas object.
+`groupby().first()` returns the first non-null record from each group in a grouped pandas object.
 
 ### 2. How do you get the first in a pandas group?
 
