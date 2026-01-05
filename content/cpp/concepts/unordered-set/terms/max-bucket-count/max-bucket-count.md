@@ -1,6 +1,6 @@
 ---
 Title: 'max_bucket_count()'
-Description: 'Returns the maximum number of buckets that the unordered_set can have.'
+Description: 'Returns the maximum number of buckets that the unordered set can have.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
