@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.sgn()`** function computes the sign of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors), applied element-wise. For real-valued tensors, it returns -1 for negative values, 0 for zero, and 1 for positive values. For complex-valued tensors, it returns the complex sign (the tensor divided by its absolute value), which gives the unit vector in the direction of each complex number.
+The **`.sgn()`** function computes the sign of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors), applied element-wise. For real-valued tensors, it returns `-1` for negative values, `0` for zero, and `1` for positive values. For complex-valued tensors, it returns the complex sign (the tensor divided by its absolute value), which gives the unit vector in the direction of each complex number.
 
 ## Syntax
 
