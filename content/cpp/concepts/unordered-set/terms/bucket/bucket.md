@@ -1,6 +1,6 @@
 ---
 Title: 'bucket()'
-Description:  'Returns the index of the bucket in which a specified element would be stored in an unordered set.'
+Description: 'Returns the index of the bucket in which a specified element would be stored in an unordered set.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -24,9 +24,9 @@ This method is useful for inspecting the container’s internal hash table struc
 unordered_set.bucket(x);
 ```
 
-**Parameters:** 
+**Parameters:**
 
- - `x`: The element whose bucket index is queried.
+- `x`: The element whose bucket index is queried.
 
 **Return value:**
 
@@ -51,11 +51,11 @@ return 0;
 }
 ```
 
-The output for this code is: 
+The output for this code is:
 
 ```shell
 airbenders are in bucket: 0
-``` 
+```
 
 > **Note:** The output may vary depending on the specific C++ implementation and hash function.
 
@@ -72,7 +72,7 @@ using namespace std;
 
 int main() {
   unordered_set<string> houses = {"gryffindor", "hufflepuff", "slytherin", "ravenclaw"};
-      
+
   for (const string& x : houses) {
     cout << x << " house is in bucket: " << houses.bucket(x) << endl;
   }
