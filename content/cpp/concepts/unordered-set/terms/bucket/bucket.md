@@ -68,12 +68,14 @@ In this example, each element in the set is printed along with the bucket it bel
 #include <string>
 #include <unordered_set>
 
+using namespace std;
+
 int main() {
-  std::unordered_set<std::string> houses = {"gryffindor", "hufflepuff", "slytherin", "ravenclaw"};
+  unordered_set<string> houses = {"gryffindor", "hufflepuff", "slytherin", "ravenclaw"};
       
-  for (const std::string& x: houses) {
-    std::cout << x << " house is in bucket: " << houses.bucket(x) << std::endl;
+  for (const string& x : houses) {
+    cout << x << " house is in bucket: " << houses.bucket(x) << endl;
   }
-return 0;
+  return 0;
 }
 ```
