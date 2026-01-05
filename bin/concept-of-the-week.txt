@@ -1,1 +1,1 @@
-content/uiux/concepts/quantitative-research/quantitative-research.md
+content/sklearn/concepts/quadratic-regression-analysis/quadratic-regression-analysis.md
