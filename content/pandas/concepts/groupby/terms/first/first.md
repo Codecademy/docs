@@ -52,7 +52,7 @@ The output of this code is:
 
 ```shell
            Employee  Salary
-Department                 
+Department
 Finance         Bob   60000
 HR            Alice   50000
 IT            David   58000
@@ -81,7 +81,7 @@ The output of this code is:
 
 ```shell
          Temperature  Humidity
-City                          
+City
 Chennai         27.0        70
 Delhi           32.0        80
 Mumbai          30.0        75
