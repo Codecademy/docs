@@ -1,108 +1,91 @@
 ---
 Title: 'bucket_size()'
-Description: 'Returns the number of elements stored in a specific bucket of an unordered_map.'
+Description: 'Returns the number of elements stored in a specific bucket of an unordered_set.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Optimization'
+  - 'Containers'
+  - 'Sets'
+  - 'STL'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The **.bucket_size()** method returns the number of elements stored in a specific bucket of an [`unordered_map`](https://www.codecademy.com/resources/docs/cpp/unordered-map). In C++, an unordered_map uses a hash table internally where elements are distributed across multiple buckets based on their key’s hash value. This method helps analyze the distribution of elements and can be useful for performance optimization and understanding collision handling in the hash table.
+The **`bucket_size()`** method returns the number of elements stored in a specific bucket of an [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set). An `unordered_set` stores elements in a hash table, where values are distributed into buckets based on their hash. This method is useful for inspecting bucket distribution and understanding hash collisions.
+
 
 ## Syntax
 
 ```pseudo
-unordered_map.bucket_size(n)
+unordered_set_name.bucket_size(n)
 ```
+
 **Parameters:**
 
-n: The bucket number to query. This value must be less than the total number of buckets returned by .bucket_count(). It is of type size_type, which is an unsigned integral type.
-Return value:
+n: The bucket number to query. This value must be less than the total number of buckets returned by `bucket_count()`. It is of type `size_type`, which is an unsigned integral type.
 
-The .bucket_size() method returns the number of elements in bucket n as an unsigned integer of type size_type.
+**Return value:**
+
+The `bucket_size()` method returns the number of elements in bucket `n` as an unsigned integer of type `size_type`.
 
 ## Example
 
-This example demonstrates how to use .bucket_size() to check the number of elements in each bucket of an unordered_map:
+This example shows how to inspect how elements are distributed across buckets in an `unordered_set`:
 
-```#include <iostream>
-#include <unordered_map>
-#include <string>
+```cpp
+#include <iostream>
+#include <unordered_set>
 
 int main() {
-  // Create an unordered_map with string keys and integer values
-  std::unordered_map<std::string, int> ages = {
-    {"Alice", 25},
-    {"Bob", 30},
-    {"Charlie", 35},
-    {"Diana", 28}
-  };
+  std::unordered_set<int> numbers = {10, 20, 30, 40, 50};
 
-  // Get the total number of buckets
-  unsigned int total_buckets = ages.bucket_count();
-  std::cout << "Total buckets: " << total_buckets << "\n\n";
+  std::size_t totalBuckets = numbers.bucket_count();
+  std::cout << "Total buckets: " << totalBuckets << "\n";
 
-  // Display the number of elements in each bucket
-  for (unsigned int i = 0; i < total_buckets; i++) {
-    std::cout << "Bucket " << i << " has " << ages.bucket_size(i) << " elements\n";
+  for (std::size_t i = 0; i < totalBuckets; i++) {
+    std::cout << "Bucket " << i
+              << " has " << numbers.bucket_size(i)
+              << " elements\n";
   }
 
   return 0;
 }
 ```
 This example results in the following output:
-```Total buckets: 5
 
-Bucket 0 has 1 elements
-Bucket 1 has 1 elements
-Bucket 2 has 2 elements
+```shell
+Total buckets: 5
+Bucket 0 has 5 elements
+Bucket 1 has 0 elements
+Bucket 2 has 0 elements
 Bucket 3 has 0 elements
 Bucket 4 has 0 elements
-
 ```
-The output shows how elements are distributed across the buckets. Some buckets may be empty while others contain one or more elements depending on the hash function’s distribution.
 
-## Codebyte Example (if applicable)
+This output shows how many elements are placed in each bucket. Some buckets may be empty, while others may contain multiple elements depending on the hash distribution.
 
-This example demonstrates using .bucket_size() to identify buckets with multiple elements, which indicates hash collisions in a user authentication system:
+## Codebyte Example
 
-```codebyte/js
+This example demonstrates using `bucket_size()` to detect hash collisions by finding buckets that contain more than one element:
+
+```codebyte/cpp
 #include <iostream>
-#include <unordered_map>
-#include <string>
+#include <unordered_set>
 
 int main() {
-  // Create a map storing user sessions with session IDs
-  std::unordered_map<std::string, std::string> sessions = {
-    {"session_a1b2", "user_101"},
-    {"session_c3d4", "user_102"},
-    {"session_e5f6", "user_103"},
-    {"session_g7h8", "user_104"},
-    {"session_i9j0", "user_105"},
-    {"session_k1l2", "user_106"}
-  };
+  std::unordered_set<int> values = {1, 2, 3, 4, 5, 6, 7, 8};
 
-  unsigned int total_buckets = sessions.bucket_count();
+  std::size_t totalBuckets = values.bucket_count();
 
-  std::cout << "Buckets with collisions (multiple elements):\n";
+  std::cout << "Buckets with collisions:\n";
 
-  // Find and report buckets with more than one element
-  for (unsigned int i = 0; i < total_buckets; i++) {
-    unsigned int size = sessions.bucket_size(i);
-
-    if (size > 1) {
-      std::cout << "Bucket " << i << " has " << size << " elements (collision detected)\n";
-
-      // Display which sessions are in this bucket
-      std::cout << "  Sessions in this bucket: ";
-      for (auto it = sessions.begin(i); it != sessions.end(i); ++it) {
-        std::cout << it->first << " ";
-      }
-      std::cout << "\n";
+  for (std::size_t i = 0; i < totalBuckets; i++) {
+    if (values.bucket_size(i) > 1) {
+      std::cout << "Bucket " << i
+                << " has " << values.bucket_size(i)
+                << " elements\n";
     }
   }
 
