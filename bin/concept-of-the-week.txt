@@ -1,1 +1,1 @@
-content/kotlin/concepts/operators/operators.md
+content/sklearn/concepts/quadratic-regression-analysis/quadratic-regression-analysis.md
