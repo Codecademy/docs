@@ -1,25 +1,39 @@
 ---
-title: "Dart Map: removeWhere()"
-description: "Removes all entries from a Dart Map that satisfy a given condition."
-subjects:
-  - "Computer Science"
-languages:
-  - "Dart"
+Title: '.removeWhere()'
+Description: 'Removes all key–value pairs from a Map that satisfy a given condition.'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Dart'
+  - 'Map'
+  - 'Methods'
+CatalogContent:
+  - 'learn-dart'
+  - 'paths/computer-science'
 ---
 
-## Introduction
-
-The `removeWhere()` method removes key-value pairs from a Dart `Map` when a given condition evaluates to `true`.
-
-It iterates through each entry in the map and deletes those that match the provided predicate.
+In Dart, the **`.removeWhere()`** method removes key–value pairs from a `Map` when a given condition evaluates to `true`. The condition is provided as a function that is applied to each key and value in the map.
 
 ## Syntax
 
-```dart
+```pseudo
 map.removeWhere((key, value) => condition);
 ```
 
-## Example
+**Parameters:**
+
+- `key`: The current key in the map.
+- `value`: The value associated with the key.
+- `condition`: A function that returns `true` for entries that should be removed.
+
+**Return value:**
+
+The `.removeWhere()` method returns `void`. The map is modified in place.
+
+## Example: Removing entries based on a condition
+
+In this example, entries with scores below 60 are removed from the map:
 
 ```dart
 void main() {
@@ -33,11 +47,11 @@ void main() {
   scores.removeWhere((name, score) => score < 60);
 
   print(scores);
-} 
+}
 ```
 
-## Output
+The output of this code is:
 
-```text
+```shell
 {Alice: 85, Charlie: 67}
 ```
