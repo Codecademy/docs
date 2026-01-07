@@ -15,7 +15,6 @@ CatalogContent:
 
 The **`bucket_size()`** method returns the number of elements stored in a specific bucket of an [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set). An `unordered_set` stores elements in a [hash table](https://www.codecademy.com/resources/docs/general/data-structures/hash-table), where values are distributed into buckets based on their hash. This method helps inspect bucket distribution and understanding hash collisions.
 
-
 ## Syntax
 
 ```pseudo
