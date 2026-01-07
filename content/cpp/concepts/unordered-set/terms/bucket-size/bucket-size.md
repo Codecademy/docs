@@ -1,6 +1,6 @@
 ---
 Title: 'bucket_size()'
-Description: 'Returns the number of elements stored in a specific bucket of an unordered_set.'
+Description: 'Returns the number of elements stored in a specific bucket of an unordered set.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
