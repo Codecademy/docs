@@ -100,7 +100,7 @@ It's perfect for real-world scenarios like food, coupons, or subscription expira
 
 > **Note:** The outputs produced for all these example codes will vary depending on the input dates and the current date when the code is run.
 
-## Frequenty Asked Questions
+## Frequently Asked Questions
 
 <details>
 <summary>1. Can I use `.date()` on a `date` object?</summary>

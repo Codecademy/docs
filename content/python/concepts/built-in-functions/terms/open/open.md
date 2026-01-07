@@ -128,7 +128,7 @@ Mike Johnson works in HR and earns $65000 per year.
 
 This example demonstrates opening a CSV file with specific parameters. The `newline=""` parameter ensures consistent newline handling across different platforms, and `encoding="utf-8"` specifies the character encoding to properly handle international characters.
 
-## Frequenty Asked Questionss
+## Frequently Asked Questions
 
 <details>
 <summary>1. Does `open()` create a file in Python?</summary>

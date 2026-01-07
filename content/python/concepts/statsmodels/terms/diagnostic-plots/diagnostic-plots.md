@@ -33,7 +33,7 @@ The `plot_partregress_grid()` method generates diagnostic plots for all explanat
 
 The syntax for using `plot_partregress_grid()` is:
 
-```psuedo
+```pseudo
 results.plot_partregress_grid()
 ```
 

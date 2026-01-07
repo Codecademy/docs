@@ -70,7 +70,7 @@ class TestRest {
     this.successInsert = 'Successful insert!'
     this.error = 'Error!'
     this.errorNotFound = 'Data not found!'
-    this.errorNotAvaliable = 'Process not avaliable!'
+    this.errorNotAvaliable = 'Process not available!'
     this.errorAction = 'You will be redirected!'
   }
 }

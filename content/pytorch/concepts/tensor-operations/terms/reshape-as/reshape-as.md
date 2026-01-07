@@ -42,7 +42,7 @@ import torch
 tensor_a = torch.arange(6)
 
 # Other tensor
-# 2D tensor with shpae (2, 3)
+# 2D tensor with shape (2, 3)
 tensor_b = torch.zeros(2, 3)
 
 # Reshape tensor_a to the shape of tensor_b

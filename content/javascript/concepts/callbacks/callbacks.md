@@ -118,7 +118,7 @@ var url = 'https://jsonplaceholder.typicode.com/posts/1'; // Sample API endpoint
 fetchData(url, handleResponse); // Call the fetch function and pass the callback
 ```
 
-In the code above, the `fetchData` function takes two arguments `url` and `handleResponse`. `url` is the API url from which we have to get the data. `handleResponse` is the callback funtion that gets executed when the network request returns either data or an error.
+In the code above, the `fetchData` function takes two arguments `url` and `handleResponse`. `url` is the API url from which we have to get the data. `handleResponse` is the callback function that gets executed when the network request returns either data or an error.
 
 The output will look like this:
 

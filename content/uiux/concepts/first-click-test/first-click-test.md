@@ -19,7 +19,7 @@ It is based on a simple but powerful insight:
 
 Analyzing these initial interactions allows teams to spot usability issues early and validate navigation patterns, content labels or layout choices. In the following example, the heatmap illustrates where users clicked first during a task, highlighting areas of interest and potential usability issues.
 
-![Screenshot of a first click heatmap from a user interace](https://raw.githubusercontent.com/Codecademy/docs/main/media/first-click-heatmap.png)
+![Screenshot of a first click heatmap from a user interface](https://raw.githubusercontent.com/Codecademy/docs/main/media/first-click-heatmap.png)
 
 ## Why Is the First Click Important?
 

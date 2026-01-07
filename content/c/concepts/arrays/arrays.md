@@ -55,13 +55,13 @@ In the syntax:
 
 - `value1, value2, ..., valueN`: The elements to be stored in the array.
 
-This example declares and intializes the `grades` array with values:
+This example declares and initializes the `grades` array with values:
 
 ```c
 int grades[] = {96, 90, 78, 84, 88, 92};
 ```
 
-> **Note:** When arrays are initalized during declaration, the length is generally omitted.
+> **Note:** When arrays are initialized during declaration, the length is generally omitted.
 
 ## Accessing Array Elements
 
