@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`bucket_size()`** method returns the number of elements stored in a specific bucket of an [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set). An `unordered_set` stores elements in a [hash table](https://www.codecademy.com/resources/docs/general/data-structures/hash-table), where values are distributed into buckets based on their hash. This method is useful for inspecting bucket distribution and understanding hash collisions.
+The **`bucket_size()`** method returns the number of elements stored in a specific bucket of an [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set). An `unordered_set` stores elements in a [hash table](https://www.codecademy.com/resources/docs/general/data-structures/hash-table), where values are distributed into buckets based on their hash. This method helps inspect bucket distribution and understanding hash collisions.
 
 
 ## Syntax
@@ -38,21 +38,24 @@ This example shows how to inspect how elements are distributed across buckets in
 #include <iostream>
 #include <unordered_set>
 
+using namespace std;
+
 int main() {
-  std::unordered_set<int> numbers = {10, 20, 30, 40, 50};
+  unordered_set<int> numbers = {10, 20, 30, 40, 50};
 
-  std::size_t totalBuckets = numbers.bucket_count();
-  std::cout << "Total buckets: " << totalBuckets << "\n";
+  size_t totalBuckets = numbers.bucket_count();
+  cout << "Total buckets: " << totalBuckets << "\n";
 
-  for (std::size_t i = 0; i < totalBuckets; i++) {
-    std::cout << "Bucket " << i
-              << " has " << numbers.bucket_size(i)
-              << " elements\n";
+  for (size_t i = 0; i < totalBuckets; i++) {
+    cout << "Bucket " << i
+         << " has " << numbers.bucket_size(i)
+         << " elements\n";
   }
 
   return 0;
 }
 ```
+
 This example results in the following output:
 
 ```shell
@@ -64,7 +67,7 @@ Bucket 3 has 0 elements
 Bucket 4 has 0 elements
 ```
 
-This output shows how many elements are placed in each bucket. Some buckets may be empty, while others may contain multiple elements depending on the hash distribution.
+This output displays the number of elements assigned to each bucket. Some buckets may be empty, while others may contain multiple elements depending on the hash distribution.
 
 ## Codebyte Example
 
@@ -74,18 +77,19 @@ This example demonstrates using `bucket_size()` to detect hash collisions by fin
 #include <iostream>
 #include <unordered_set>
 
+using namespace std;
+
 int main() {
-  std::unordered_set<int> values = {1, 2, 3, 4, 5, 6, 7, 8};
+  unordered_set<int> values = {1, 2, 3, 4, 5, 6, 7, 8};
 
-  std::size_t totalBuckets = values.bucket_count();
+  size_t totalBuckets = values.bucket_count();
+  cout << "Buckets with collisions:\n";
 
-  std::cout << "Buckets with collisions:\n";
-
-  for (std::size_t i = 0; i < totalBuckets; i++) {
+  for (size_t i = 0; i < totalBuckets; i++) {
     if (values.bucket_size(i) > 1) {
-      std::cout << "Bucket " << i
-                << " has " << values.bucket_size(i)
-                << " elements\n";
+      cout << "Bucket " << i
+           << " has " << values.bucket_size(i)
+           << " elements\n";
     }
   }
 
