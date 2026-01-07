@@ -24,7 +24,7 @@ unordered_set_name.bucket_size(n)
 
 **Parameters:**
 
-n: The bucket number to query. This value must be less than the total number of buckets returned by `bucket_count()`. It is of type `size_type`, which is an unsigned integral type.
+`n`: The bucket number to query. This value must be less than the total number of buckets returned by `bucket_count()`. It is of type `size_type`, which is an unsigned integral type.
 
 **Return value:**
 
