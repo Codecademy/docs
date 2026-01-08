@@ -1,14 +1,13 @@
 ---
 Title: 'reserve()'
-Description: 'Requests capacity change for std::unordered_set so it can accommodate at least n elements without exceeding the maximum load factor.'
+Description: 'Requests capacity change for `std::unordered_set` so it can accommodate at least n elements without exceeding the maximum load factor.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Iterators'
+  - 'Containers'
   - 'Sets'
   - 'STL'
-  - 'Algorithms'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
@@ -28,14 +27,7 @@ unordered_set_name.reserve(n);
 
 **Return value:**
 
-- `void`
-
-**Notes:**
-
-- Effectively calls `rehash(ceil(n / max_load_factor()))`.
-- May invalidate iterators if a rehash occurs; references and pointers to elements remain valid.
-- Use `rehash(k)` to set the bucket count directly; use `reserve(n)` to plan for element count.
-- Does not impose ordering; iteration order remains implementation-defined.
+This method doesn't return anything (`void`).
 
 ## Example
 
@@ -66,6 +58,17 @@ int main() {
 
   return 0;
 }
+```
+
+The output of this code is:
+
+```shell
+Buckets before: 3
+Buckets after: 11
+Max load factor: 1
+Load factor: 0.272727
+Size: 7
+Buckets final: 11
 ```
 
 ## Codebyte Example
