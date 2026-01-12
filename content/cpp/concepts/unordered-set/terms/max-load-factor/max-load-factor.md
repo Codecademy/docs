@@ -15,14 +15,16 @@ CatalogContent:
 
 The **`max_load_factor()`** method has two forms:
 
-1- Does not accept any parameters and returns the current maximum load factor of the [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set).
+1. A version that takes no arguments and returns the current maximum load factor of the [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set).
 
-2- Accepts one parameter and sets it as the new maximum load factor, and does not return any values.
+2. A version that takes one argument and sets it as the new maximum load factor. This version does not return a value.
 
-The load factor is the ratio between the number of container elements and the number of container buckets (size / bucket_count).
-If two elements are located in the same bucket, it may cause a collision in the hash table of the container. That's why the container uses the max load factor as the threshold that forces an increase in the number of buckets and thus causes a rehash.
+The **load factor** is defined as:
+`load_factor = number_of_elements / number_of_buckets`
 
-By default, the maximum load factor of an unordered set is 1.0.
+If multiple elements are placed into the same bucket, hash collisions may occur. To limit this, the container uses the **maximum load factor** as a threshold. When inserting an element would cause the load factor to exceed this value, the container automatically increases the number of buckets and performs a **rehash**.
+
+By default, the maximum load factor of an `unordered_set` is **1.0**.
 
 
 ## Syntax
