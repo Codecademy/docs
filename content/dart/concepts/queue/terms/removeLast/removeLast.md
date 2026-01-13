@@ -15,7 +15,7 @@ CatalogContent:
 ---
 
 The **`.removeLast()`** method removes and returns the last element of a `Queue`. 
-If the queue is empty, it throws a `StateError`
+If the queue is empty, it throws a `StateError`.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ queue.removeLast()
 
 ## Example
 
-In the following example, the element `5` is removed from the queue using the `.remove()` method:
+In the following example, the element `5` is removed from the queue using the `.removeLast()` method:
 
 ```dart
 import 'dart:collection';
