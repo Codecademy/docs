@@ -1,6 +1,6 @@
 ---
 Title: 'max_load_factor()'
-Description: 'Get or set the maximum load factor for the unordered set'
+Description: 'Gets or sets the maximum load factor of the unordered set.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,27 +13,26 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`max_load_factor()`** method has two forms:
+The **`max_load_factor()`** method gets or sets the maximum load factor of an `unordered_set`. The load factor is defined as the ratio of the number of elements to the number of buckets:
 
-1. A version that takes no arguments and returns the current maximum load factor of the [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set).
-
-2. A version that takes one argument and sets it as the new maximum load factor. This version does not return a value.
-
-The **load factor** is defined as:
 `load_factor = number_of_elements / number_of_buckets`
 
-If multiple elements are placed into the same bucket, hash collisions may occur. To limit this, the container uses the **maximum load factor** as a threshold. When inserting an element would cause the load factor to exceed this value, the container automatically increases the number of buckets and performs a **rehash**.
-
-By default, the maximum load factor of an `unordered_set` is **1.0**.
-
+When the current load factor exceeds the maximum load factor, the container automatically rehashes to increase the number of buckets and maintain efficient lookup performance.
 
 ## Syntax
 
 ```pseudo
-unordered_set_name.max_load_factor(); // returns the maximum load factor
-
-unordered_set_name.max_load_factor(double z); // sets z as the maximum load factor
+unordered_set_name.max_load_factor(value);
 ```
+
+**Parameters:**
+
+- `value` (float, optional): The new maximum load factor to set for the container.
+
+**Return value:**
+
+- When called without arguments, returns the current maximum load factor as a `float`.
+- When called with an argument, sets the maximum load factor and returns nothing (`void`).
 
 ## Example
 
@@ -45,30 +44,24 @@ Most standard library implementations pre-allocate a relatively large number of 
 #include <unordered_set>
 
 int main() {
-    std::unordered_set<int> s;
-    std::cout << "Initial maximum load factor: " << s.max_load_factor() << "\n";
-    s.rehash(1); // Forces the container to start with 1 bucket
-    s.max_load_factor(0.5f);
+  std::unordered_set<int> s;
+  std::cout << "Initial maximum load factor: " << s.max_load_factor() << "\n";
+  s.rehash(1); // Forces the container to start with 1 bucket
+  s.max_load_factor(0.5f);
 
-    std::cout << "Initial buckets: " << s.bucket_count() << "\n\n";
+  std::cout << "Initial buckets: " << s.bucket_count() << "\n\n";
 
-    s.insert(5);
+  s.insert(5);
 
-    std::cout << "After inserting 5:\n";
-    std::cout << "max_load_factor = " << s.max_load_factor() << "\n";
-    std::cout << "size            = " << s.size() << "\n";
-    std::cout << "bucket_count    = " << s.bucket_count() << "\n";
-    std::cout << "load_factor     = " << s.load_factor() << "\n";
+  std::cout << "After inserting 5:\n";
+  std::cout << "max_load_factor = " << s.max_load_factor() << "\n";
+  std::cout << "size            = " << s.size() << "\n";
+  std::cout << "bucket_count    = " << s.bucket_count() << "\n";
+  std::cout << "load_factor     = " << s.load_factor() << "\n";
 }
-
 ```
-Even though `rehash(1)` was called, the insertion caused the container to increase the number of buckets to satisfy the constraint:
 
-`size / bucket_count <= max_load_factor`
-
-Since `max_load_factor = 0.5`, at least two buckets are required for one element, and the implementation chose 23.
-
-Output of this code:
+The output of this code:
 
 ```shell
 Initial maximum load factor: 1
@@ -81,29 +74,35 @@ bucket_count    = 23
 load_factor     = 0.0434783
 ```
 
+> **Note:** Actual bucket counts may vary depending on the standard library implementation.
+
 ## Codebyte Example
 
-Test and modify the code below:
+This example sets a custom maximum load factor before inserting elements, ensuring the container maintains lower collision density as it grows:
 
 ```codebyte/cpp
 #include <iostream>
 #include <unordered_set>
 
 int main() {
-    std::unordered_set<int> s;
-    std::cout << "Initial maximum load factor: " << s.max_load_factor() << "\n";
-    s.rehash(1); // Forces the container to start with 1 bucket
-    s.max_load_factor(0.5f);
+  std::unordered_set<int> values;
 
-    std::cout << "Initial buckets: " << s.bucket_count() << "\n\n";
+  // Set a stricter maximum load factor
+  values.max_load_factor(0.7f);
 
-    s.insert(5);
+  std::cout << "Max load factor set to: "
+            << values.max_load_factor() << "\n";
 
-    std::cout << "After inserting 5:\n";
-    std::cout << "max_load_factor = " << s.max_load_factor() << "\n";
-    std::cout << "size            = " << s.size() << "\n";
-    std::cout << "bucket_count    = " << s.bucket_count() << "\n";
-    std::cout << "load_factor     = " << s.load_factor() << "\n";
+  // Insert multiple elements
+  for (int i = 0; i < 20; ++i) {
+    values.insert(i);
+  }
+
+  std::cout << "Size: " << values.size() << "\n";
+  std::cout << "Bucket count: " << values.bucket_count() << "\n";
+  std::cout << "Current load factor: "
+            << values.load_factor() << "\n";
+
+  return 0;
 }
-
 ```
