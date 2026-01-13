@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, **`.isEmpty`** is used to check whether any collection of values (not only queue, but also Set/List/Map/etc.) is empty or not, that is - does it have 0 elements? It returns `true` if so and `false` if there's at least one element. This property is part of the `Queue` class under the `dart:collection` library.
+In Dart, **`.isEmpty`** is a property used to check whether a `Queue` contains any elements. It returns `true` if the queue has zero elements and `false` if it contains one or more elements. This property is available on the `Queue` class from the `dart:collection` library.
 
 ## Syntax
 
@@ -23,13 +23,20 @@ queue.isEmpty
 
 - `queue`: The name of the queue to check for emptiness.
 
+**Parameters:**
+
+This property takes no parameters.
+
+**Return value:**
+
 The property returns a boolean value:
-- `true`: The queue contains no elements.
-- `false`: The queue contains one or more elements.
+
+- `true` if the queue contains no elements
+- `false` if the queue contains one or more elements
 
 ## Example
 
-The following example demonstrates the usage of the `.isEmpty` property. When the Queue is freshly created, **`.isEmpty`** returns `true`. After being populated, it returns `false`.
+This example shows that `.isEmpty` returns `true` for an empty queue and `false` after elements are added:
 
 ```dart
 import 'dart:collection';
@@ -52,7 +59,7 @@ void main() {
 }
 ```
 
-Output for the above:
+The output of this code is:
 
 ```shell
 Is queue empty? true
@@ -62,4 +69,3 @@ Number of elements: 3
 24
 36
 ```
-
