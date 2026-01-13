@@ -8,7 +8,7 @@ Tags:
   - 'Deep Learning'
   - 'Machine Learning'
   - 'PyTorch'
-  - 'Tensors'
+  - 'Tensor'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/computer-science'
@@ -33,7 +33,7 @@ torch.sinh(input, *, out=None) → Tensor
 
 Returns a new tensor where each element is the hyperbolic sine of the corresponding element in the input tensor.
 
-## Example 1: Single Element Tensor
+## Example 1: Computing the Hyperbolic Sine of a Scalar Tensor
 
 This example demonstrates computing the hyperbolic sine of a single-element tensor:
 
@@ -57,7 +57,7 @@ Input: tensor([2.])
 sinh(2.0): tensor([3.6269])
 ```
 
-## Example 2: 1D Array
+## Example 2: Applying `.sinh()` to a One-Dimensional Tensor
 
 This example shows how to compute the hyperbolic sine of a 1D tensor:
 
@@ -83,7 +83,7 @@ Hyperbolic sine: tensor([ 0.0000,  1.1752, -1.1752,  3.6269, -3.6269])
 
 > **Note:** The hyperbolic sine function is antisymmetric, meaning $\sinh(-x) = -\sinh(x)$, which is why `sinh(1.0)` and `sinh(-1.0)` have opposite signs but equal magnitudes.
 
-## Example 3: Multi-Dimensional Array
+## Example 3: Applying `.sinh()` to a Multi-Dimensional Tensor
 
 This example demonstrates computing the hyperbolic sine of a 2D tensor:
 
