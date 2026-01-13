@@ -2,21 +2,21 @@
 Title: '.sinh()'
 Description: 'Computes the hyperbolic sine of each element in a PyTorch tensor.'
 Subjects:
-  - 'Machine Learning'
   - 'Data Science'
+  - 'Machine Learning'
 Tags:
-  - 'PyTorch'
   - 'Deep Learning'
   - 'Machine Learning'
+  - 'PyTorch'
   - 'Tensors'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/computer-science'
 ---
 
-The **`.sinh()`** function in PyTorch computes the hyperbolic sine of each element in the input tensor. This operation applies the mathematical function $\sinh(x) = \frac{e^x - e^{-x}}{2}$ element-wise to all values in the tensor.
+The **`.sinh()`** function in PyTorch computes the hyperbolic sine of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). This operation applies the mathematical function $\sinh(x) = \frac{e^x - e^{-x}}{2}$ element-wise to all values in the tensor.
 
-The hyperbolic sine function is commonly used in neural network activation functions, numerical methods, and scientific computing applications involving hyperbolic trigonometric transformations.
+The hyperbolic sine function is commonly used in numerical methods, scientific computing, and some experimental neural network architectures involving hyperbolic functions.
 
 ## Syntax
 
@@ -52,7 +52,7 @@ print("sinh(2.0):", result)
 
 This produces the following output:
 
-```
+```shell
 Input: tensor([2.])
 sinh(2.0): tensor([3.6269])
 ```
@@ -76,12 +76,12 @@ print("Hyperbolic sine:", result)
 
 This produces the following output:
 
-```
+```shell
 Input tensor: tensor([ 0.,  1., -1.,  2., -2.])
 Hyperbolic sine: tensor([ 0.0000,  1.1752, -1.1752,  3.6269, -3.6269])
 ```
 
-Note that the hyperbolic sine function is antisymmetric, meaning $\sinh(-x) = -\sinh(x)$, which is why `sinh(1.0)` and `sinh(-1.0)` have opposite signs but equal magnitudes.
+> **Note:** The hyperbolic sine function is antisymmetric, meaning $\sinh(-x) = -\sinh(x)$, which is why `sinh(1.0)` and `sinh(-1.0)` have opposite signs but equal magnitudes.
 
 ## Example 3: Multi-Dimensional Array
 
@@ -105,7 +105,7 @@ print(result)
 
 This produces the following output:
 
-```
+```shell
 Input tensor:
 tensor([[0.0000, 0.5000, 1.0000],
         [1.5000, 2.0000, 2.5000]])
