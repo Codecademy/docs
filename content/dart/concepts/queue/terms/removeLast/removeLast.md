@@ -6,22 +6,29 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Dart'
+  - 'Data Structures'
   - 'Methods'
   - 'Queues'
-  - 'Data Structures'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
 
-The **`.removeLast()`** method removes and returns the last element of a `Queue`. 
-If the queue is empty, it throws a `StateError`.
+The **`.removeLast()`** method removes and returns the last element of a `Queue`. If the queue is empty, it throws a `StateError`.
 
 ## Syntax
 
 ```pseudo
 queue.removeLast()
 ```
+
+**Parameters:**
+
+This method takes no parameters.
+
+**Return value:**
+
+Returns the element that was removed from the end of the queue.
 
 ## Example
 
