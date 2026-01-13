@@ -36,8 +36,7 @@ unordered_set_name.max_load_factor(value);
 
 ## Example
 
-This example demonstrates how to read and modify the maximum load factor and how it affects the number of buckets in the container.
-Most standard library implementations pre-allocate a relatively large number of buckets, so `rehash()` is used here to force the container to start small and make the effect visible.
+This example shows how to read and set the maximum load factor and how it influences bucket allocation. `rehash()` is used to start with fewer buckets so the effect is easier to observe:
 
 ```cpp
 #include <iostream>
