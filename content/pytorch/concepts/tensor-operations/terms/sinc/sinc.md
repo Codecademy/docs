@@ -3,8 +3,8 @@ Title: '.sinc()'
 Description: 'Computes the normalized sinc function of each element in a PyTorch tensor.'
 Subjects:
   - 'Computer Science'
-  - 'Machine Learning'
   - 'Data Science'
+  - 'Machine Learning'
 Tags:
   - 'Deep Learning'
   - 'Integers'
