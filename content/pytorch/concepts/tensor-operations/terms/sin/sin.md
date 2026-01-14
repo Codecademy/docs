@@ -3,8 +3,8 @@ Title: '.sin()'
 Description: 'Computes the sine of each element in a PyTorch tensor.'
 Subjects:
   - 'Computer Science'
-  - 'Machine Learning'
   - 'Data Science'
+  - 'Machine Learning'
 Tags:
   - 'Integers'
   - 'Python'
