@@ -8,7 +8,7 @@ Tags:
   - 'Deep Learning'
   - 'Machine Learning'
   - 'PyTorch'
-  - 'Tensor'
+  - 'Tensors'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/computer-science'
@@ -33,7 +33,7 @@ torch.sqrt(input, *, out=None) → Tensor
 
 Returns a new tensor where each element is the square root of the corresponding element in the input tensor.
 
-## Example 1: Applying `.sqrt()` to Scalar and 1D Tensors
+## Example 1: Applying `.sqrt()` to Single-Element and 1D Tensors
 
 This example shows how to compute the square root of both a scalar and a 1D tensor:
 
@@ -67,7 +67,7 @@ Square root: tensor([0., 1., 2., 3., 4., 5.])
 
 **Note:** $\sqrt{0} = 0$ and the square root function is only defined for non-negative real numbers. Attempting to compute the square root of negative numbers will result in `nan` (not a number) values.
 
-## Example 2: Applying `.sqrt()` to Multi-Dimensional Array
+## Example 2: Applying `.sqrt()` to a Multi-Dimensional Array
 
 This example demonstrates computing the square root of a 2D tensor:
 
