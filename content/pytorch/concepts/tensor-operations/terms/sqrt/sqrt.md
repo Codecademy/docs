@@ -65,7 +65,7 @@ Input tensor: tensor([ 0.,  1.,  4.,  9., 16., 25.])
 Square root: tensor([0., 1., 2., 3., 4., 5.])
 ```
 
-**Note:** $\sqrt{0} = 0$ and the square root function is only defined for non-negative real numbers. Attempting to compute the square root of negative numbers will result in `nan` (not a number) values.
+> **Note:** $\sqrt{0} = 0$ and the square root function is only defined for non-negative real numbers. Attempting to compute the square root of negative numbers will result in `nan` (not a number) values.
 
 ## Example 2: Applying `.sqrt()` to a Multi-Dimensional Array
 
