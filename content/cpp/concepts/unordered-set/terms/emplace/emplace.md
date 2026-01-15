@@ -21,12 +21,12 @@ If an equivalent element already exists in the set, no insertion occurs.
 ## Syntax
 
 ```pseudo
-unordered_set.emplace(args...)
+unordered_set_name.emplace(element)
 ```
 
 **Parameters:**
 
-- `args...`: Arguments forwarded to the constructor of the element type.
+- `element`: The value to be inserted into the `unordered_set`.
 
 **Return value:**
 
