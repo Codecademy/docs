@@ -19,6 +19,6 @@ The R programming language can be installed via [the Comprehensive R Archive Net
 
 - [Windows (Microsoft)](https://cran.r-project.org/bin/windows/)
 
-- [macOS (Apple)](https://cran.r-project.org/bin/macosx/)
+- [macOS (Apple)](https://cran.r-project.org/bin/macosx/) (when using packages from tidyverse, it is recommended to avoid installing R via Homebrew)
 
 - [Linux](https://cran.r-project.org/bin/linux/) (there are separate processes for [Debian](https://cran.r-project.org/bin/linux/debian), [Fedora/Redhat](https://cran.r-project.org/bin/linux/fedora), and [Ubuntu](https://cran.r-project.org/bin/linux/ubuntu))
