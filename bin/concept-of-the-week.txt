@@ -1,1 +1,1 @@
-content/kotlin/concepts/operators/operators.md
+content/general/concepts/virtual-reality/virtual-reality.md
