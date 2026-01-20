@@ -1,4 +1,4 @@
-git---
+---
 Title: '.addFirst()'
 Description: 'Adds an element at the beginning of a queue.'
 Subjects:
@@ -13,24 +13,26 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, the **`.addFirst()`** method adds an element at the beginning of a `Queue`. This method is part of the `Queue` class under the `dart:collection` library.
+In Dart, the **`.addFirst()`** method inserts an element at the front of a `Queue`. Existing elements are shifted back, and the newly added element becomes the first item in the queue. This method is part of the `Queue` class under the `dart:collection` library.
 
 ## Syntax
+
 ```pseudo
 queue.addFirst(element);
 ```
 
 **Parameters:**
 
-- `element`: The element to be added at the beginning of the queue.
+- `element`: The element to add to the front of the queue
 
 **Return value:**
 
-This method does not return a value.
+This method does not return a value (`void`).
 
 ## Example
 
 The following example demonstrates the usage of the `.addFirst()` method:
+
 ```dart
 import 'dart:collection';
 
@@ -51,6 +53,7 @@ void main() {
 ```
 
 The output for the above code is as follows:
+
 ```shell
 Original queue: {20, 30, 40}
 After addFirst(10): {10, 20, 30, 40}
