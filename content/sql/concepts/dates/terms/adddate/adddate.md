@@ -76,9 +76,31 @@ SELECT ADDDATE('2026-01-16', INTERVAL 5 DAY);
   -> 2026-01-21
 ```
 
-In the same vein, using `ADDDATE(date, 7)` and `ADDDATE(date, INTERVAL 1 WEEK)` will return the same result, as well as `ADDDATE(datetime, INTERVAL 60 SECOND)` and `ADDDATE(datetime, INTERVAL 1 MINUTE)`;
-
 ## Example 2
+
+Given a date value, we can add one week or 7 days to achieve the same result.
+
+```sql
+SELECT ADDDATE('2026-05-29', 7);
+  -> 2026-06-05
+
+SELECT ADDDATE('2026-05-29', INTERVAL 1 WEEK);
+  -> 2026-06-05
+```
+
+## Example 3
+
+Given a datetime value, we can add 60 seconds or 1 minute to achieve the same result.
+
+```sql
+SELECT ADDDATE('2026-06-12 18:00:00', INTERVAL 60 SECOND);
+  -> 2026-06-12 18:01:00
+
+SELECT ADDDATE('2026-06-12 18:00:00', INTERVAL 1 MINUTE);
+  -> 2026-06-12 18:01:00
+```
+
+## Example 4
 
 The parameter `unit` can be one of the following composite interval expressions and their respective formats.
 
@@ -110,7 +132,7 @@ SELECT ADDDATE('2026-09-25 16:00:00', INTERVAL '2.837' SECOND_MICROSECOND);
   -> 2026-09-25 16:00:02.837000
 ```
 
-## Example 3
+## Example 5
 
 Consider the following list of San Diego bus routes and their arrival times. This table will be named `sd_bus_routes`.
 
