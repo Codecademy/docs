@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`ArrayDeque`** class in Java’s `java.util` package implements the `Deque<E>` interface using a resizable circular [array](https://www.codecademy.com/resources/docs/java/arrays). It allows elements to be added or removed efficiently from both the front and the end of the queue.
+The **`ArrayDeque`** class in Java’s `java.util` package implements the [`Deque<E>`](https://www.codecademy.com/resources/docs/java/deque) interface using a resizable circular [array](https://www.codecademy.com/resources/docs/java/arrays). It allows elements to be added or removed efficiently from both the front and the end of the queue.
 
-This class provides better performance than `LinkedList` when used as a queue or stack and does not permit `null` elements. It is not thread-safe and must be externally synchronized for concurrent use.
+This class provides better performance than [`LinkedList`](https://www.codecademy.com/resources/docs/java/linked-list) when used as a [queue](https://www.codecademy.com/resources/docs/java/queue) or [stack](https://www.codecademy.com/resources/docs/java/stack) and does not permit `null` elements. It is not thread-safe and must be externally synchronized for concurrent use.
 
 ## Syntax
 
