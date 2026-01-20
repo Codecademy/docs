@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`count()`** method of a `collections.deque` object counts how many times a given value appears in the [deque](https://www.codecademy.com/resources/docs/java/deque). It provides a direct way to determine the frequency of a specific element within the deque container.
+The **`count()`** method of a [`collections.deque`](https://www.codecademy.com/resources/docs/python/collections-module/deque) object counts how many times a given value appears in the deque. It provides a direct way to determine the frequency of a specific element within the deque container.
 
 ## Syntax
 
