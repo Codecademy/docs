@@ -78,14 +78,14 @@ print(f"The colour {target_colour!r} appears {count_red} times in the deque.")
 
 ## Frequently Asked Questions
 
-### 1. What does `size()` do in C++?
+### 1. What is the time complexity of the `count()` method in Python deque?
 
-The `size()` member function returns the number of elements currently stored in a container such as `std::deque`, `std::vector`, or `std::list`, typically in constant time.
+The `count()` method has `O(n)` time complexity, where n is the number of elements in the deque. This is because the method must iterate through all elements in the deque to count occurrences of the specified value.
 
-### 2. What is a deque function in C++?
+### 2. What does `count()` return if the element is not found in the deque?
 
-A deque (double-ended queue) in C++ is an STL container that allows efficient insertion and removal of elements at both the front and back, with functions like `push_back()`, `pop_front()`, `size()`, and others.
+The `count()` method returns 0 if the specified element is not present in the deque. It does not raise an exception or return None, it simply indicates that there are zero occurrences of that value.
 
-### 3. How to get the size of a deque in C++?
+### 3. How does `count()` determine equality when counting elements?
 
-By calling the `size()` method on the deque object (e.g., `d.size()`), which returns an unsigned integral value (`size_type`) indicating the element count.
+The `count()` method uses the equality operator `(==)` to compare elements. For custom objects, it will use the object's `__eq__()` method if defined. Two objects are considered equal if `obj1 == obj2` evaluates to True.
