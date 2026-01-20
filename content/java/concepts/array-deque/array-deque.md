@@ -41,7 +41,7 @@ ArrayDeque<E> deque = new ArrayDeque<>(Collection<? extends E> c);
 **Parameters:**
 
 - `E`: The type of elements maintained by this deque.
-- `initialCapacity`: The initial number of elements that the deque can hold.
+- `numElements`: The initial number of elements that the deque can hold.
 - `c`: A collection whose elements are to be placed into the deque.
 
 **Return value:**
