@@ -20,7 +20,7 @@ This class provides better performance than [`LinkedList`](https://www.codecadem
 
 ## Syntax
 
-In Java, the declaration of ArrayDeque can be done as:
+In Java, the declaration of `ArrayDeque` can be done as:
 
 ```pseudo
 ArrayDeque<E> deque = new ArrayDeque<>();
