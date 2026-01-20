@@ -46,7 +46,7 @@ ArrayDeque<E> deque = new ArrayDeque<>(Collection<? extends E> c);
 
 **Return value:**
 
-Creates a new `ArrayDeque<E>` instance.
+It creates a new `ArrayDeque<E>` instance.
 
 ## Example 1: Using `ArrayDeque` as a Queue (FIFO)
 
