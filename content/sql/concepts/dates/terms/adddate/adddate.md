@@ -62,14 +62,14 @@ SELECT ADDDATE(date, INTERVAL value unit);
 
 ## Example 1
 
-Let's use the first variation of `ADDDATE`. We'll add a few days to the date `2026-01-16`.
+Let's use the first variation of `ADDDATE` by adding a few days to the date `2026-01-16`.
 
 ```sql
 SELECT ADDDATE('2026-01-16', 5);
   -> 2026-01-21
 ```
 
-We can use the second variation of `ADDDATE` to get the same result.
+Using the second variation of `ADDDATE` to get the same result:
 
 ```sql
 SELECT ADDDATE('2026-01-16', INTERVAL 5 DAY);
@@ -120,7 +120,7 @@ Consider the following list of San Diego bus routes and their arrival times. Thi
 | 2        | Downtown - North Park                     | 2026-08-28 16:14:00 |
 | 3        | UCSD Med. Ctr. / Hillcrest Euclid Trolley | 2026-08-28 16:26:00 |
 
-August 28, 2026 is a Friday and the timestamps are in the afternoon. Let's say all three routes will be delayed due to San Diego traffic: route 1 by 10 minutes, route 2 by 12 minutes, and route 3 by 15 minutes. First, we'll need to add a new column to this table for the updated times.
+August 28, 2026 is a Friday and the timestamps are in the afternoon. Let's say all three routes will be delayed due to San Diego traffic: route 1 by 10 minutes, route 2 by 12 minutes, and route 3 by 15 minutes. First, let's add a new column to this table for the updated times.
 
 ```sql
 ALTER TABLE sd_bus_routes
@@ -133,7 +133,7 @@ ADD UPDATED_ARRIVAL_TIME DATETIME;
 | 2        | Downtown - North Park                     | 2026-08-28 16:14:00 | null                 |
 | 3        | UCSD Med. Ctr. / Hillcrest Euclid Trolley | 2026-08-28 16:26:00 | null                 |
 
-Then, we'll update values in the new column by runing `ADDDATE` on for each respective `ARRIVAL_TIME` value.
+Then, let's update values in the new column by runing `ADDDATE` on for each respective `ARRIVAL_TIME` value.
 
 ```sql
 UPDATE sd_bus_routes
