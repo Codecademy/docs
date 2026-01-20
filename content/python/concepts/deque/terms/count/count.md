@@ -63,7 +63,7 @@ The output of this code is:
 0
 ```
 
-## Codebyte Example
+## Codebyte Example: Using `count()` with string elements
 
 In this example, the `count()` method is used to compute the frequency of a specific item in a deque of strings representing colours:
 
