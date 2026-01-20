@@ -46,7 +46,7 @@ The output of this code is:
 3
 ```
 
-## Example 2
+## Example 2: Counting non-existent elements returns zero
 
 In this example, the method counts an element not present in the deque, returning zero:
 
