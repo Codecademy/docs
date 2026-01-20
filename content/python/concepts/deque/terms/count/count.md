@@ -29,7 +29,7 @@ deque_object.count(value)
 
 Returns an integer representing the number of elements in the deque that are equal to `value`.
 
-## Example 1: Using `count()` to Find Repeated Values
+## Example 1: Using `count()` to find repeated values
 
 In this example, the `count()` method is used to find how many times the value `3` appears in a deque:
 
