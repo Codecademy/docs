@@ -29,7 +29,7 @@ ArrayDeque<E> deque = new ArrayDeque<>();
 Or, alternatively:
 
 ```pseudo
-ArrayDeque<E> deque = new ArrayDeque<>(int initialCapacity);
+ArrayDeque<E> deque = new ArrayDeque<>(int numElements);
 ```
 
 Or, alternatively:
