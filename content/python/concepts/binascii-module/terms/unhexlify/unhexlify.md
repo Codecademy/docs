@@ -22,11 +22,11 @@ binascii.unhexlify(hexstr)
 
 **Parameters:**
 
-- `hexstr`: A string or bytes that represents hexadecimal digits. Must contain an even number of hex digits.
+- `hexstr`: A string (or bytes) that represents hexadecimal digits. Must contain an even number of hex digits.
 
 **Return value:**
 
-Returns a bytes object that represents the binary data produced by decoding the hex string. Raises `binascii.Error` if `hexstr` has odd length or contains non-hex characters.
+Returns a `bytes` object that represents the binary data produced by decoding the hex string. Raises `binascii.Error` if `hexstr` has odd length or contains non-hex characters.
 
 ## Example 1
 
@@ -54,7 +54,7 @@ In this example, a hex string representing a small binary file header is convert
 ```py
 import binascii
 
-hex_string = "424D368403000000"  # typical “BM” header for a bitmap file
+hex_string = "424D368403000000"  # Typical “BM” header for a bitmap file
 binary_data = binascii.unhexlify(hex_string)
 print(binary_data)
 print(list(binary_data[:4]))
@@ -74,26 +74,26 @@ In this example, a hex-encoded network message is converted into bytes for proce
 ```codebyte/python
 import binascii
 
-hex_message = "7e450d0a00ff"  # sample hex message
+hex_message = "7e450d0a00ff"  # Sample hex message
 message_bytes = binascii.unhexlify(hex_message)
 
 print("Raw bytes:", message_bytes)
-# Example further processing:
 
+# Example further processing
 checksum = sum(message_bytes) & 0xff
 print(f"Checksum: 0x{checksum:02x}")
 ```
 
 ## Frequently Asked Questions
 
-### 1. What is Binascii Unhexlify in Python?
+### 1. What is `binascii.unhexlify()` in Python?
 
-It’s a method that decodes a string of hexadecimal digits into the equivalent binary `bytes`.
+`binascii.unhexlify()` is a method that decodes a string of hexadecimal digits into the equivalent binary data (a `bytes` object).
 
 ### 2. What does the `binascii` module do in Python?
 
 The `binascii` module provides low-level functions for converting between binary data and ASCII-encoded binary representations (e.g., hex, base64).
 
-### 3. What is the Binascii error in Python Base64?
+### 3. What is `binascii.Error` in Python `base64`?
 
 Some `binascii` functions (such as those used by `base64` wrappers) raise `binascii.Error` when the input doesn’t conform to the expected format (e.g., invalid characters or incorrect padding).
