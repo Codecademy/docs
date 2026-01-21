@@ -78,10 +78,9 @@ Bitwise operators are used to manipulate individual bits of a number.
 - `|` Bitwise OR
 - `^` Bitwise XOR
 - `~` Bitwise complement
-- `<<` Signed right shift operator
-- `>>` Signed left shift operator
+- `<<` Left shift operator
+- `>>` Signed right shift operator
 - `>>>` Unsigned right shift operator
-- `<<<` Unsigned left shift operator
 
 They can only be operated on data of `int`, `char`, `byte`, `long`, and `short`.
 
