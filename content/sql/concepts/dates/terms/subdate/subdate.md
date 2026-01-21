@@ -21,11 +21,13 @@ SUBDATE(date, INTERVAL value unit)
 ```
 
 **Parameters:**
+
 - `date`: The starting date or datetime value.
 - `value`: The amount of time to subtract.
 - `unit`: The unit of time to subtract (e.g., `DAY`, `MONTH`, `YEAR`, `HOUR` etc).
 
 **Note:**
+
 - This function works the same as `DATE_SUB()`.
 - This syntax is specific to MySQL. Other databases like SQL Server use `DATEADD()` with negative numbers.
 
@@ -40,6 +42,7 @@ SELECT SUBDATE('2026-01-21', INTERVAL 1 MONTH);
 ```
 
 ## Example 2 - Shorthand Syntax
+
 If using the shorthand syntax (without `INTERVAL`), the second argument is treated strictly as days.
 
 ```sql
