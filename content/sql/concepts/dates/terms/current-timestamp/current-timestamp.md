@@ -24,8 +24,8 @@ The optional `precision` parameter specifies the desired number digits after the
 
 > Note:
 >
-> > - This function works the same as `NOW([precision])`.
-> > - This syntax is specific to MySQL. A variant for Oracle SQL and SQL Server exists under `CURRENT_TIMESTAMP` without the bracket pair `()`.
+> - This function works the same as `NOW([precision])`.
+> - This syntax is specific to MySQL. A variant for Oracle SQL and SQL Server exists under `CURRENT_TIMESTAMP` without the bracket pair `()`.
 
 ## Example 1 - String Format
 
