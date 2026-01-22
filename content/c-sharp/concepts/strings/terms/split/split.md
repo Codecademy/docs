@@ -80,7 +80,7 @@ class EqualsMethod {
           Console.WriteLine($"Substring: {sub}");
         }
 
-       // To remove spaces alongwith the comma, specify ', ' as the delimiter.
+       // To remove spaces along with the comma, specify ', ' as the delimiter.
         subs = s1.Split(", ");
         foreach (var sub in subs)
         {

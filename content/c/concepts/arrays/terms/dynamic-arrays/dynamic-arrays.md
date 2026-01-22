@@ -67,7 +67,7 @@ When the dynamically allocated memory is no longer needed, use [`free()`](https:
 
 The syntax for using `free()` is as follows:
 
-```psuedo
+```pseudo
 free(arr);
 ```
 

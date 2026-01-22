@@ -29,7 +29,7 @@ queue.emplace(args...)
 
 Since C++17: A reference to the inserted element (the value returned by the underlying container's `emplace_back` method).
 
-## Example 1: Enqueueing log entries into a queue
+## Example 1: Enqueuing log entries into a queue
 
 In this example, log messages are constructed in place and enqueued for later processing:
 

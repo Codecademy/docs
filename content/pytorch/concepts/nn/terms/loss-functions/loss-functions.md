@@ -90,7 +90,7 @@ The output for this example will be as follows:
 
 ```shell
 Initial Loss: 1.0875437259674072
-Loss after one optimiation step: 1.0775121450424194
+Loss after one optimization step: 1.0775121450424194
 ```
 
 ## Example 2

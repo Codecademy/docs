@@ -20,12 +20,12 @@ The memory allocation can be done either before or at the time of program implem
 
 In this type of allocation, the compiler allocates a fixed amount of memory during compile time and the operating system internally uses a data structure known as stack to manage the memory.
 
-Exact memory requirements must be known in advance as once memory is allocated it can not be changed.
+Exact memory requirements must be known in advance as once memory is allocated it cannot be changed.
 
 ```c
 int days; // Needs to be initialized or assigned some value at run time
 int snowfall = 0; // Normal variable
-const int maxScore = 10; // Constant, can not be changed
+const int maxScore = 10; // Constant, cannot be changed
 ```
 
 ## Dynamic Memory Allocation

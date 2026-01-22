@@ -36,7 +36,7 @@ class EnumName(Enum):
 
 The `enum` module provides the `Enum` class for creating enumerations. It also includes:
 
-- `IntEnum`: Ensures that the values of the enuemration are integers.
+- `IntEnum`: Ensures that the values of the enumeration are integers.
 - `Flag`: Allows combining constants with bitwise operations.
 - `Auto`: Automatically assigns values to the enumeration members.
 

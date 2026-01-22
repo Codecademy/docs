@@ -58,7 +58,7 @@ This example results in the following output:
 
 The callback function adds each `currentValue` to the `accumulator`, starting with an initial value of 0.
 
-## Example 2: Using `array.reduce()` to Calulate Shopping Cart Total
+## Example 2: Using `array.reduce()` to Calculate Shopping Cart Total
 
 This example shows how `.reduce()` in JavaScript can calculate the total price of items in a shopping cart, a common real-world scenario:
 

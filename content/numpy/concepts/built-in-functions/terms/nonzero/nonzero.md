@@ -17,7 +17,7 @@ The **`.nonzero()`** function identifies and returns the indices of the non-zero
 
 ## Syntax
 
-```psuedo
+```pseudo
 numpy.nonzero(a)
 ```
 
@@ -75,7 +75,7 @@ print("Non-zero Indices:", nonzero_indices)
 print("Non-zero Values:", no_zero_array2)
 ```
 
-The outut for this example will be:
+The output for this example will be:
 
 ```shell
 Array: [[1 2]

@@ -19,7 +19,7 @@ The **`.asTimeZone()`** method in Kotlin converts a `UtcOffset` object to a time
 
 ## Syntax
 
-```psuedo
+```pseudo
 fun UtcOffset.asTimeZone(): FixedOffsetTimeZone
 ```
 
