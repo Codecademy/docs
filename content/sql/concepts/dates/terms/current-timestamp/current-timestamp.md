@@ -1,7 +1,8 @@
 ---
-Title: 'CURRENT_TIMESTAMP()'
-Description: 'Get the current date and time.'
+Title: 'CURRENT_TIMESTAMP'
+Description: 'Returns the current date and time.'
 Subjects:
+  - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Database'
@@ -12,89 +13,77 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`CURRENT_TIMESTAMP()`** function returns the current date and time in the string format `YYYY-MM-DD HH:MM:SS`.
+The **`CURRENT_TIMESTAMP`** function returns the current date and time in the string format `YYYY-MM-DD HH:MM:SS`.
 
 ## Syntax
 
 ```pseudo
-CURRENT_TIMESTAMP([precision])
+CURRENT_TIMESTAMP
 ```
 
-The optional `precision` parameter specifies the desired number digits after the decimal.
+**Parameters:**
 
-> Note:
->
-> - This function works the same as `NOW([precision])`.
-> - This syntax is specific to MySQL. A variant for Oracle SQL and SQL Server exists under `CURRENT_TIMESTAMP` without the bracket pair `()`.
+`CURRENT_TIMESTAMP` does not accept any parameters in standard SQL implementations.
 
-## Example 1 - String Format
+**Return value:**
+
+Returns the current date and time as a `DATETIME` value (in SQL Server) or `TIMESTAMP` value (in other systems) in the format `YYYY-MM-DD HH:MM:SS.mmm`.
+
+## Example 1: Basic Usage
+
+In this example, `CURRENT_TIMESTAMP` retrieves the current date and time from the database server:
 
 ```sql
-SELECT CURRENT_TIMESTAMP();
+SELECT CURRENT_TIMESTAMP;
 ```
+
+A possible output of this code is:
 
 ```shell
 2026-01-21 19:39:23
 ```
 
-## Example 2 - Numeric Format
+## Example 2: Using as Default Value
 
-If `CURRENT_TIMESTAMP()` is used in a numerical context, i.e. in an arithmetic calculation, then it will return a numeric value in the format `YYYYMMDDHHMMSS`.
-
-```sql
--- Return with 2 decimal digits
-SELECT CURRENT_TIMESTAMP() + 67;
-```
-
-```shell
-20260121203123.56
-```
-
-## Example 3 - Precision
-
-The optional parameter `precision` accepts an `INT` value between 0 and 6. If `precision` is between 1 and 6, then the value returned will have a fractional portion where `precision` is the number of digits after the decimal point.
-
-If `CURRENT_TIMESTAMP()` is used alone, then the string format returned will be in the form `YYYY-MM-DD HH:MM:SS.dddddd`.
+In this example, `CURRENT_TIMESTAMP` is used as a default value for the `order_date` column, automatically capturing the timestamp when a new record is inserted:
 
 ```sql
--- Ask for 3 decimal digits
-SELECT CURRENT_TIMESTAMP(3);
+CREATE TABLE orders (
+  order_id INT PRIMARY KEY,
+  order_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+  product_name VARCHAR(100)
+);
+
+INSERT INTO orders (order_id, product_name) 
+VALUES (1, 'Laptop');
+
+SELECT * FROM orders;
 ```
+
+The output shows that the `order_date` was automatically populated:
 
 ```shell
-2026-01-21 20:38:29.584
+order_id    order_date              product_name                                                                                        
+----------- ----------------------- ----------------------------------------------------------------------------------------------------
+          1 2026-01-22 11:43:29.737 Laptop
 ```
 
-If `CURRENT_TIMESTAMP()` is used in a numerical calculation, then the value returned will be in the format `YYYYMMDDHHMMSS.dddddd`.
+## Example 3: Comparing Timestamps
+
+In this example, `CURRENT_TIMESTAMP` is used with [`DATEDIFF()`](https://www.codecademy.com/resources/docs/sql/dates/datediff) to calculate how many minutes have elapsed since an order was placed:
 
 ```sql
--- Ask for 3 decimal digits and add a value to the function
-SELECT CURRENT_TIMESTAMP(3) + 67;
+SELECT 
+  order_id,
+  product_name,
+  DATEDIFF(minute, order_date, CURRENT_TIMESTAMP) AS minutes_ago
+FROM orders;
 ```
+
+The output of this code is:
 
 ```shell
-20260121203896.586
-```
-
-If `precision` is 0, then the decimal portion is omitted.
-
-```sql
--- Ask for no decimal digits
-SELECT CURRENT_TIMESTAMP(0);
-SELECT CURRENT_TIMESTAMP(0) + 67;
-```
-
-```shell
-2026-01-21 20:39:37
-20260121204004
-```
-
-## Codebyte Example
-
-Run the lines below to see the function in action.
-
-```codebyte/sql
-SELECT CURRENT_TIMESTAMP();
-SELECT CURRENT_TIMESTAMP(6);
-SELECT CURRENT_TIMESTAMP(6) + 67;
+order_id | product_name | minutes_ago
+---------|--------------|------------
+1        | Laptop       | 120
 ```
