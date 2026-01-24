@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`ndarray.argmin()`** method returns the index position of the minimum value in a NumPy array. The search can be performed on the flattened array or along a specified axis, and the result reflects where the smallest element appears rather than the value itself.
+The **`ndarray.argmin()`** method returns the index of the minimum value in a NumPy array. The search can be performed on the flattened array or along a specified axis, and the result reflects where the smallest element appears rather than the value itself.
 
 ## Syntax
 
@@ -24,11 +24,11 @@ ndarray.argmin(axis=None, out=None, *, keepdims=False)
 **Parameters:**
 
 - `axis` (optional): Axis along which to find the minimum index.
-  - `None`: searches the entire flattened array
-  - `0`: searches column-wise
-  - `1`: searches row-wise
-- `out` (optional): Output array that receives the result. Must have an appropriate shape.
-- `keepdims` (optional): If true, the reduced axes are kept with size 1, preserving the dimension structure.
+  - `None` (default): Searches the entire flattened array.
+  - `0`: Searches column-wise
+  - `1`: Searches row-wise
+- `out` (optional): Output array that receives the result. Must have the appropriate shape.
+- `keepdims` (optional): If `True`, the reduced axes are kept with size 1, preserving the dimension structure.
 
 **Return value:**
 
@@ -54,7 +54,7 @@ The output of this code is:
 
 ## Example 2: Finding Minimum Indices Along Rows
 
-In this example, `argmin()` is applied along axis 1, so each row returns the index of its smallest element:
+In this example, `argmin()` is applied along `axis=1`, so each row returns the index of its smallest element:
 
 ```py
 import numpy as np
@@ -74,7 +74,7 @@ The output of this code is:
 
 ## Codebyte Example
 
-In this example, the minimum index is found both in the flattened array and along each column to show how the output changes with the axis parameter:
+In this example, the minimum index is found both in the flattened array and along each column to show how the output changes with the `axis` parameter:
 
 ```codebyte/python
 import numpy as np
@@ -92,14 +92,14 @@ print("Index of minimum in each column:", col_indices)
 
 ## Frequently Asked Questions
 
-### 1. What does NumPy argmin do?
+### 1. What does NumPy `argmin()` do?
 
 NumPy's `argmin()` returns the index location of the smallest element inside an array. Instead of giving the minimum value, it identifies where that value appears, which is essential for position-based analysis.
 
-### 2. What does argmin do?
+### 2. What is the difference between `argmin()` and `nanargmin()`?
 
-`argmin()` locates the position of the lowest value in the data. It works on any dimension and can operate on the full array or only along a chosen axis, depending on the analytical need.
+`argmin()` considers all values, including NaNs, while `nanargmin()` ignores NaNs and returns the index of the smallest non-NaN value.
 
-### 3. What is the difference between argmin and min in Python?
+### 3. What is the difference between `argmin()` and `min()` in Python?
 
-`min()` (or `ndarray.min()`) returns the smallest value itself, while `argmin()` returns the index where that value occurs. One answers “what is the smallest value,” and the other answers “where is that smallest value located.”
+`min()` (or `ndarray.min()`) returns the smallest value itself, while `argmin()` returns the index where that value occurs. One answers “what is the smallest value”, and the other answers “where is that smallest value located”.
