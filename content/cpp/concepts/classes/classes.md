@@ -116,8 +116,8 @@ Points are equal: false
 
 # Base class pointers
 
-A base class pointer gives you the opportunity to create a pointer of type Base, and it can point to any type of class from that hierarchy (it needs to have the Is-A relationship).
-If you use [dynamic polymorphism](https://github.com/Codecademy/docs/blob/main/content/cpp/concepts/polymorphism/polymorphism.md), then the compiler will know exactly which function to call (based on the type of the pointed object).
+A base class pointer gives you the opportunity to create a [pointer](https://github.com/Codecademy/docs/blob/main/content/cpp/concepts/pointers/pointers.md) of type Base, and it can point to any type of class from that hierarchy (it needs to have the Is-A relationship).
+If you use [dynamic polymorphism](https://github.com/Codecademy/docs/blob/main/content/cpp/concepts/polymorphism/polymorphism.md), then C++ will know exactly at runtime which function to call (based on the actual object the pointer points to).
 
 
 It's easier to see it work in an example:
@@ -134,6 +134,7 @@ public:
         std::cout << "Hello from " << message;
         std::cout << "The number: " << num << "\n";
     }
+    //good practice to have virtual destructors if your class uses virtual methods.
     virtual ~Base() = default;
 };
 
@@ -142,7 +143,7 @@ public:
     static constexpr const char* message = "Derived 1 class. Indeed they are.\n";
     static constexpr int num = 2;
     //this is not called overloading anymore.
-    //This is called overriding.
+    //this is called overriding.
     virtual void sayHi() override{
         std::cout << "Hello from " << message;
         std::cout << "The number: " << num << "\n";
@@ -167,7 +168,7 @@ int main(){
 
 The output:
 ```shell
-Hello from Base class. Cas are cute.
+Hello from Base class. Cats are cute.
 The number: 1
 Hello from Derived 1 class. Indeed they are.
 The number: 2
@@ -176,16 +177,14 @@ The number: 2
 999
 ```
 
-As you can see, because **p1** is a base pointer of type Base.
-C++ will dynamically bound it and will use the method from the Base class.  
-But, **p2** is a base pointer of type Derived1, and together with dynamic polymorphism, it uses it's own implementation of the "sayHi()" method.    
+As you can see:
+* **p1** is a pointer of type Base. C++ will dynamically bound it and will use the method from the Base class.
+* **p2** is a pointer of type Base that points to a Derived1 Object. Because "sayHi()" is virtual, C++ dynamically triggers the Derived1's own implementation of the "sayHi()" method.    
 
 
 ## The keywords used:
-* override (C++11) - specifies that this method is overrided, means if the signature of the method is **NOT** the same as the one from the base class, the compiler will throw an error **'virtual void Derived1::sayHi()' marked 'override', but does not override'**. 
-Why do we need this? Because to override methods, the signatures MUST be the same. If the derived method has a different signature, then thats not overriding anymore.
+* override (C++11) - specifies that this method is overridden, means if the signature of the method is **NOT** the same as the one from the base class, the compiler will throw an error **'virtual void Derived1::sayHi()' marked 'override', but does not override'**. 
+Why do we need this? Because to override methods, the signatures MUST be the same. If the derived method has a different signature, then that's not overriding anymore.
 * default (C++11) - uses the compiler-generated version of the virtual destructor.
-
-**!** It's good practice to create virtual destructors if your class has dynamic polymorphism.
-
-
+* static - it's a shared variable, it doesn't participate in polymorphism. Therefore the value will be the same in all instances.
+* constexpr (C++11) - specifies that the value of the variable can be evaluated at compile-time.
