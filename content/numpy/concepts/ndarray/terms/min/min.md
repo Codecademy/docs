@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`ndarray.min()`** method returns the smallest value in a NumPy array. You can get the minimum of the entire array or the minimum along a specific axis. The result is always returned as a scalar or a new array depending on the axis used.
+The **`ndarray.min()`** method returns the smallest value in a NumPy array. It can find the minimum of the entire array or along a specific axis. The result is always returned as a scalar or a new array depending on the axis used.
 
 ## Syntax
 
@@ -24,17 +24,17 @@ ndarray.min(axis=None, out=None, keepdims=False, initial=<no value>, where=True)
 **Parameters:**
 
 - `axis` (optional): Axis along which the minimum is computed.
-  - `None` (default): computes the minimum of the entire array
-  - `0`: computes column-wise minimum
-  - `1`: computes row-wise minimum
+  - `None` (default): Computes the minimum of the entire array.
+  - `0`: Computes the column-wise minimum of the entire array.
+  - `1`: Computes the row-wise minimum of the entire array.
 - `out` (optional): Output array to store the result. Must have the correct shape.
-- `keepdims` (bool): If True, retains reduced dimensions with size 1.
+- `keepdims` (bool): If `True`, retains reduced dimensions with size 1.
 - `initial` (optional): Starting value used for comparison before array elements are considered.
-- `where` (array_like of bool): Condition that selects elements included in the reduction.
+- `where` (array_like of bool): Condition that selects elements to be included in the reduction.
 
 **Return value:**
 
-A scalar or array containing the minimum values. If an axis is specified, the result is returned with one fewer dimension unless keepdims=True is used.
+A scalar or array containing the minimum values. If an axis is specified, the result is returned with one fewer dimension unless `keepdims=True` is used.
 
 ## Example 1: Minimum of an Entire Array
 
@@ -94,17 +94,17 @@ print("Row-wise minimums:", row_min)
 
 ## Frequently Asked Questions
 
-### 1. What is a NumPy ndarray in Python?
+### 1. What is a NumPy `ndarray` in Python?
 
-A multidimensional array object used for efficient numerical computing.
+NumPy `ndarray` is a multidimensional array object used for efficient numerical computing.
 
 ### 2. What is the `min()` function in NumPy?
 
-A reduction method that returns the smallest value in an array or along a specific axis.
+`min()` is a reduction method that returns the smallest value in a NumPy array or along a specific axis.
 
-### 3. What is %s and %d in Python?
+### 3. What is `%s` and `%d` in Python?
 
-They are old-style string formatting placeholders:
+`%s` and `%d` are old-style string formatting placeholders:
 
-- `%s` inserts a string.
-- `%d` inserts an integer.
+- `%s`: Inserts a string.
+- `%d`: Inserts an integer.
