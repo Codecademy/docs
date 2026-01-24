@@ -1,6 +1,6 @@
 ---
 Title: 'SUBDATE()'
-Description: 'Subtract a specific time interval (like days, months, or years) from a given date'
+Description: 'Subtract a specific time interval (like days, months, or years) from a given date.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
