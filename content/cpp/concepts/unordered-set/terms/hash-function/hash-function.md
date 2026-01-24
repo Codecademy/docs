@@ -1,5 +1,5 @@
 ---
-Title: hash?function()'
+Title: hash_function()'
 Description: 'Returns the hash function object used by the unordered set.'
 Subjects:
   - 'Code Foundations'
@@ -82,3 +82,4 @@ int main() {
     return 0;
 }
 ```
+
