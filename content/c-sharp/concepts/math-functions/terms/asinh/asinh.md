@@ -6,30 +6,30 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Arithmetic'
-  - 'Method'
+  - 'Methods'
   - 'Numbers'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
 ---
 
-The **`Math.Asinh()`** method returns the inverse hyperbolic sine of a number, in radians. This method appears frequently in advanced mathematics, including physics, geometry, machine learning, and numerical analysis.
+The **`Math.Asinh()`** [method](https://www.codecademy.com/resources/docs/c-sharp/methods) returns the inverse hyperbolic sine of a number, in radians. This method appears frequently in advanced mathematics, including physics, geometry, machine learning, and numerical analysis.
 
 > **Note:** The static method `Math.Asinh()` was introduced in .NET Core 2.1.
 
 ## Syntax
 
 ```pseudo
-Math.Asinh(double value);
+Math.Asinh(value);
 ```
 
 **Parameters:**
 
-- `value`: A real number. If value is `NaN`, the method returns `NaN`.
+- `value` (double): A real number. If value is `NaN`, the method returns `NaN`.
 
 **Return value:**
 
-The inverse hyperbolic sine of `value`, in radians.
+Returns the inverse hyperbolic sine of `value`, in radians.
 
 ## Example
 
@@ -56,7 +56,7 @@ The example will result in the following output:
 
 ## Codebyte Example
 
-The following codebyte example uses the `Math.PI` constant field to convert the result to degrees:
+The following codebyte example uses the `Math.PI` constant field to convert the result into degrees:
 
 ```codebyte/csharp
 using System;
