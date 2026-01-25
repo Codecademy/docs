@@ -69,6 +69,7 @@ The output of this code is:
 4
 ```
 
+> **Note:** The output order is implementation-dependent and may vary between different compilers, runs, or systems due to internal hash table organization.
 ## Example 2: Using `cend()` with a bucket
 
 In this example, `cend(n)` is used to mark the end of iteration for a specific bucket:
