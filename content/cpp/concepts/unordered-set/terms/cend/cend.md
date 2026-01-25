@@ -126,7 +126,7 @@ int main() {
 
 ### 1. What is the `cend()` function in `unordered_set`?
 
-The `end()` function returns an iterator pointing to the position just past the last element of an `unordered_set`, marking the end of the container’s range.
+The `cend()` function returns a constant iterator pointing to the position just past the last element of an `unordered_set`, marking the end of the container's range.
 
 ### 2. Why use `unordered_set` in C++?
 
