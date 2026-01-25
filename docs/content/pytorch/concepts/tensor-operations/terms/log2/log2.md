@@ -20,7 +20,7 @@ The **`.log2()`** method in PyTorch returns a new [tensor](https://www.codecadem
 ## Syntax
 
 ```pseudo
-torch.log2(input, *, out=None) → Tensor
+torch.log2(input: Tensor, *, out: Optional[Tensor]) → Tensor
 ```
 
 **Parameters:**
