@@ -124,7 +124,7 @@ int main() {
 
 ## Frequently Asked Questions
 
-### 1. What is the end function in unordered set?
+### 1. What is the `cend()` function in `unordered_set`?
 
 The `end()` function returns an iterator pointing to the position just past the last element of an `unordered_set`, marking the end of the container’s range.
 
