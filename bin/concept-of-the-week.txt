@@ -1,1 +1,1 @@
-content/uiux/concepts/convergent-thinking/convergent-thinking.md
+content/html/concepts/semantic-html/semantic-html.md
