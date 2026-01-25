@@ -21,7 +21,7 @@ Because `unordered_set` does not maintain a defined order, iteration using [`cbe
 ## Syntax
 
 ```pseudo
-unordered_set_name.cend();
+const_iterator cend() const noexcept;
 ```
 
 Or, to work with a specific bucket:
