@@ -98,6 +98,6 @@ Use the `append(value)` method on the deque object to add the element `value` to
 
 In the context of a `deque`, `append()` adds an element at the back end of the container, supporting efficient queue- or stack-like operations.
 
-### 3. What is the deque function in Python?
+### 3. What is the deque in Python?
 
 The `deque` class in the `collections` module is a double-ended queue that supports fast appends and pops from both ends, making it useful for queues, stacks, and history buffers.
