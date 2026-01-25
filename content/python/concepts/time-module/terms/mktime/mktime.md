@@ -37,7 +37,7 @@ This example converts a local time tuple directly into seconds since epoch:
 ```py
 import time
 
-time_tuple = (2025, 4, 11, 14, 30, 0, 0, 0, -1)  # year, month, day, hour, minute, second, weekday, yearday, isdst
+time_tuple = (2025, 4, 11, 14, 30, 0, 4, 101, -1)  # year, month, day, hour, minute, second, weekday, yearday, isdst
 timestamp = time.mktime(time_tuple)
 print("Timestamp:", timestamp)
 ```
