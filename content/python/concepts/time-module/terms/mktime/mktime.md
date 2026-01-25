@@ -70,7 +70,7 @@ Current local seconds since epoch: 1762169287.0
 
 ## Codebyte Example
 
-This interactive example shows conversion and round-trip (timestamp ↔ struct_time) behaviour:
+This interactive example shows conversion and round-trip (timestamp ↔ `struct_time`) behaviour:
 
 ```codebyte/python
 import time
