@@ -39,7 +39,7 @@ const_local_iterator cend(size_type n) const;
 - No-parameter version: Returns a `const_iterator` pointing to the past-the-end position of the entire `unordered_set`.
 - Bucket version: Returns a `const_local_iterator` pointing to the past-the-end position of bucket `n`.
 
-Example 1: Iterating with constant iterators
+## Example 1: Iterating with constant iterators
 
 In this example, `cbegin()` and `cend()` are used to iterate over an `unordered_set` without allowing modification of elements:
 
