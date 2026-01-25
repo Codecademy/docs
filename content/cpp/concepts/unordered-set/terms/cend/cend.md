@@ -97,7 +97,7 @@ int main() {
 The output of this code is:
 
 ```shell
-5
+Elements in bucket 3: 3 
 ```
 
 ## Codebyte Example
