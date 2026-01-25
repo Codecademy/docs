@@ -121,7 +121,6 @@ int main() {
 }
 ```
 
-> **Note:** The output order may vary because unordered_set does not store elements in a defined sequence.
 
 ## Frequently Asked Questions
 
