@@ -36,7 +36,8 @@ const_local_iterator cend(size_type n) const;
 
 **Return value:**
 
-Returns a `const_iterator` pointing to the past-the-end position of the `unordered_set`.
+- No-parameter version: Returns a `const_iterator` pointing to the past-the-end position of the entire `unordered_set`.
+- Bucket version: Returns a `const_local_iterator` pointing to the past-the-end position of bucket `n`.
 
 Example 1: Iterating with constant iterators
 
