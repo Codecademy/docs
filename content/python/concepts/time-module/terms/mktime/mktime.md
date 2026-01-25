@@ -48,6 +48,8 @@ The output of this code can be:
 Timestamp: 1744381800.0
 ```
 
+> Note: The exact timestamp value depends on system's local timezone. The value shown represents the result in UTC. In other timezones, the output will differ by the timezone offset.
+
 ## Example 2: Convert current local time (via struct_time) to timestamp
 
 This example gets the current local time in `struct_time` form and then uses `.mktime()` to convert it to an epoch seconds value:
