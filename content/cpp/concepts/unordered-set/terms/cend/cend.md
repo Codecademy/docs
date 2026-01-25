@@ -27,7 +27,7 @@ const_iterator cend() const noexcept;
 Or, to work with a specific bucket:
 
 ```pseudo
-unordered_set_name.cend(n);
+const_local_iterator cend(size_type n) const;
 ```
 
 **Parameters:**
