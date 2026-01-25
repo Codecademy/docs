@@ -134,4 +134,4 @@ The `end()` function returns an iterator pointing to the position just past the 
 
 ### 3. Difference between end and cend?
 
-`end()` returns a modifiable iterator, while `cend()` returns a constant iterator that does not allow modification of elements.
+Both `end()` and `cend()` return iterators that cannot modify elements (all iterators in `unordered_set` point to const elements). The difference is that `end()` returns an `iterator` or `const_iterator` depending on whether the container is const, while `cend()` always returns `const_iterator`.
