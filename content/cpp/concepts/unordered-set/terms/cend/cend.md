@@ -82,8 +82,10 @@ using namespace std;
 int main() {
   unordered_set<int> nums = {1, 2, 3, 4, 5};
 
-  size_t bucket = 0;
-
+  // Find which bucket contains the element 3
+  size_t bucket = nums.bucket(3);
+  
+  cout << "Elements in bucket " << bucket << ": ";
   for (auto it = nums.cbegin(bucket); it != nums.cend(bucket); ++it) {
     cout << *it << " ";
   }
