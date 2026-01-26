@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-The **`.tan()`** function returns the tangent of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It is part of PyTorch’s math operations used in deep learning and scientific computing.
+The **`torch.tan()`** function returns the tangent of each element in the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It is part of PyTorch’s math operations used in deep learning and scientific computing.
 
 ## Syntax
 
-```py
+```pseudo
 torch.tan(input, *, out=None) → Tensor
 ```
 
@@ -30,9 +30,9 @@ torch.tan(input, *, out=None) → Tensor
 
 A tensor containing the tangent of each input element, with the same shape as the input tensor.
 
-## Example 1: Using `.tan()` with a 1D tensor
+## Example 1: Using `torch.tan()` with a 1D tensor
 
-In this example, `.tan()` computes the tangent of a 1D tensor containing angles in radians:
+In this example, `torch.tan()` computes the tangent of a 1D tensor containing angles in radians:
 
 ```py
 import torch
@@ -52,9 +52,9 @@ The output of this code is:
 tensor([0.0000, 1.0000, 0.5774])
 ```
 
-## Example 2: Applying `.tan()` with a 2D tensor
+## Example 2: Applying `torch.tan()` with a 2D tensor
 
-In this example, `.tan()` is applied to a 2D tensor of angles in radians:
+In this example, `torch.tan()` is applied to a 2D tensor of angles in radians:
 
 ```py
 import torch
@@ -71,6 +71,6 @@ print(result)
 The output of this code is:
 
 ```shell
-tensor([[0.0000, 1.0000],
-        [0.0000, 0.5774]])
+tensor([[0.0000e+00, 1.0000e+00],
+        [8.7423e-08, 5.7735e-01]])
 ```
