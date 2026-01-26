@@ -11,7 +11,7 @@ Tags:
   - 'SQL'
 CatalogContent:
   - 'learn-sql'
-  - 'paths/analize-data-with-sql'
+  - 'paths/analyze-data-with-sql'
 ---
 
 The **`NOW()`** function returns the current date and time in timestamp format.
@@ -37,12 +37,12 @@ Returns the current date and time.
 In this example, the current date and time is returned using the `NOW()` function:
 
 ```sql
-SELECT NOW() as current_timestamp;
+SELECT NOW() AS now_time;
 ```
 
-The [`AS`](https://www.codecademy.com/resources/docs/sql/commands/as) keyword is used to name the resulting column `current_timestamp` in the output:
+The [`AS`](https://www.codecademy.com/resources/docs/sql/commands/as) keyword is used to name the resulting column `now_time` in the output:
 
-| current_timestamp   |
+| now_time            |
 | ------------------- |
 | 2026-01-20 21:38:45 |
 
@@ -68,6 +68,8 @@ The following query verifies the new user created:
 SELECT * FROM users
 WHERE username = 'emiller';
 ```
+
+The output will be:
 
 | id  | username | email             | created_at          |
 | --- | -------- | ----------------- | ------------------- |
