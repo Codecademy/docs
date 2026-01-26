@@ -66,7 +66,7 @@ Here, `nonlocal` ensures that `count` is updated in the `outer_function` scope r
 
 ## Example 2
 
-In this real-world example, `nonlocal` helps track the number of times a closure is called:
+In this example, `nonlocal` helps track the number of times a closure is called:
 
 ```py
 def make_counter():
