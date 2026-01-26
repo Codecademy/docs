@@ -1,1 +1,1 @@
-content/java/concepts/printwriter/printwriter.md
+content/html/concepts/semantic-html/semantic-html.md
