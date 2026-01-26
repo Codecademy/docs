@@ -27,7 +27,7 @@ nonlocal variable_name1, variable_name2, ...
 
 **Parameters:**
 
-- `variable_name`: The name of a variable defined in the nearest enclosing (non-global) scope.
+- `variable_name`: The name of a variable that must already be bound (previously assigned) in an enclosing (non-global) scope. Multiple variable names can be specified, separated by commas.
 
 **Behavior:**
 
