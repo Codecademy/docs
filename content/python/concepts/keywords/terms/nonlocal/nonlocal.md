@@ -31,7 +31,7 @@ nonlocal variable_name1, variable_name2, ...
 
 **Behavior:**
 
-- Declares that the variable belongs to the outer function scope.
+- Declares that the variable belongs to the nearest enclosing (non-global) function scope. The variable must already exist in that scope.
 - Changes to this variable inside the inner function affect the variable in the enclosing scope.
 
 ## Example 1
