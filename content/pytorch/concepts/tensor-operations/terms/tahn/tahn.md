@@ -1,8 +1,8 @@
 ---
-Title: '.tahn()'
-Description: 'torch.tanh is a PyTorch mathematical function that applies the hyperbolic tangent to every element of an input tensor.'
+Title: '.tanh()'
+Description: 'Applies the hyperbolic tangent function to each element of a tensor, squashing values into the range −1 to 1.'
 Subjects:
-  - 'AI'
+  - 'Computer Science'
   - 'Data Science'
 Tags: 
   - 'AI'
@@ -14,21 +14,26 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.tahn()`** function returns a new tensor whose elements are the hyperbolic tangent of the corresponding elements in the input tensor. The output is computed element‑wise, meaning each value is transformed independently. An optional out argument allows you to write the result into an existing tensor.
+The **`torch.tanh`** function applies the hyperbolic tangent to each element of a tensor and returns a new tensor with values smoothly mapped to the range −1 to 1.
 
 ## Syntax
 
-torch.tanh(input, out=some_tensor)
-  out'i' = tanh( input'i' )
-  
+```pseudo
+torch.tanh(input, *, out=None)
+```
 
-Parameters
-- `input`: The input tensioner
-Keyword Arguments
-- `out`  : (Tensor, optional) – the output tensor.
+**Parameters:**
+
+- `input`: The input tensor
+- `out` (optional): An optional tensor to store the result in (for memory reuse or performance control).
+
+**Return value:**
+
+Returns a new tensor of the same shape as input, with each value transformed to fall within the range −1 to 1.
 
 ## Example
 
+In this example, `torch.tanh()` is applied to a randomly generated tensor to demonstrate how the function maps all values into the range −1 to 1:
 
 ```py
 import torch
@@ -38,7 +43,7 @@ x = torch.randn(3, 4)
 print("Original tensor:")
 print(x)
 
-# Apply TanH activation
+# Apply tanh activation
 y = torch.tanh(x)
 print("\nAfter TanH activation:")
 print(y)
@@ -48,18 +53,19 @@ print("\nMinimum value:", y.min().item())
 print("Maximum value:", y.max().item())
 ```
 
-terminal output
+The output of this code is:
 
-``shell
+```shell
 Original tensor:
-tensor([[ 1.0010, -0.5352, -1.0885, -0.2962],
-        [-0.6553, -0.7878, -0.9948, -0.6779],
-        [ 0.8341,  0.1717, -1.2512, -0.1460]])
-After TanH activation:
-tensor([[ 0.7620, -0.4893, -0.7963, -0.2878],
-        [-0.5752, -0.6571,  0.7594, -0.5901],
-        [ 0.6827, 0.1700,  -0.8486, -0.1449]])
+tensor([[ 0.5133,  0.7606, -0.4920,  0.8213],
+        [-0.4287,  1.6746,  1.4581,  1.4763],
+        [-0.8600, -0.2881,  2.4279, -0.0736]])
 
-Minimum value: 0.8486084938049316
-Maximum value: 0.7620325684547424
-``
+After TanH activation:
+tensor([[ 0.4725,  0.6414, -0.4558,  0.6758],
+        [-0.4042,  0.9322,  0.8973,  0.9008],
+        [-0.6962, -0.2804,  0.9846, -0.0734]])
+
+Minimum value: -0.6962396502494812
+Maximum value: 0.9845553636550903
+```
