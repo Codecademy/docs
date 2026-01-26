@@ -95,7 +95,7 @@ The output of this code:
 
 ## Codebyte Example
 
-In this example, a variable in the outer function is updated from within a nested function using the nonlocal keyword:
+In this example, a variable in the outer function is updated from within a nested function using the `nonlocal` keyword:
 
 ```py
 def outer():
