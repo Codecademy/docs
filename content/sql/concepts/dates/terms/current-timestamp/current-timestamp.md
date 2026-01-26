@@ -1,5 +1,5 @@
 ---
-Title: 'CURRENT_TIMESTAMP'
+Title: 'CURRENT_TIMESTAMP()'
 Description: 'Returns the current date and time.'
 Subjects:
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`CURRENT_TIMESTAMP`** function returns the current date and time in the string format `YYYY-MM-DD HH:MM:SS`.
+The **`CURRENT_TIMESTAMP()`** function returns the current date and time in the string format `YYYY-MM-DD HH:MM:SS`.
 
 ## Syntax
 
@@ -54,7 +54,7 @@ CREATE TABLE orders (
   product_name VARCHAR(100)
 );
 
-INSERT INTO orders (order_id, product_name) 
+INSERT INTO orders (order_id, product_name)
 VALUES (1, 'Laptop');
 
 SELECT * FROM orders;
@@ -63,7 +63,7 @@ SELECT * FROM orders;
 The output shows that the `order_date` was automatically populated:
 
 ```shell
-order_id    order_date              product_name                                                                                        
+order_id    order_date              product_name
 ----------- ----------------------- ----------------------------------------------------------------------------------------------------
           1 2026-01-22 11:43:29.737 Laptop
 ```
@@ -73,7 +73,7 @@ order_id    order_date              product_name
 In this example, `CURRENT_TIMESTAMP` is used with [`DATEDIFF()`](https://www.codecademy.com/resources/docs/sql/dates/datediff) to calculate how many minutes have elapsed since an order was placed:
 
 ```sql
-SELECT 
+SELECT
   order_id,
   product_name,
   DATEDIFF(minute, order_date, CURRENT_TIMESTAMP) AS minutes_ago
