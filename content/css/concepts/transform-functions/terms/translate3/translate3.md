@@ -39,20 +39,20 @@ This example moves a square 150 px to the right along the X-axis:
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <style>
-    .box {
-      width: 100px;
-      height: 100px;
-      background: coral;
-      transform: translate3d(150px, 0, 0);
-      transition: transform 0.5s ease;
-    }
-  </style>
-</head>
-<body>
-  <div class="box"></div>
-</body>
+  <head>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background: coral;
+        transform: translate3d(150px, 0, 0);
+        transition: transform 0.5s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
 </html>
 ```
 
@@ -67,25 +67,25 @@ This example moves an element 50 px down and 100 px closer to the viewer, creati
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <style>
-    .scene {
-      perspective: 500px;
-    }
-    .card {
-      width: 120px;
-      height: 120px;
-      background: teal;
-      transform: translate3d(0, 50px, 100px);
-      transition: transform 0.5s ease;
-    }
-  </style>
-</head>
-<body>
-  <div class="scene">
-    <div class="card"></div>
-  </div>
-</body>
+  <head>
+    <style>
+      .scene {
+        perspective: 500px;
+      }
+      .card {
+        width: 120px;
+        height: 120px;
+        background: teal;
+        transform: translate3d(0, 50px, 100px);
+        transition: transform 0.5s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="scene">
+      <div class="card"></div>
+    </div>
+  </body>
 </html>
 ```
 
@@ -100,30 +100,30 @@ This example uses percentage values for X and Y movement, and a fixed pixel valu
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <style>
-    .container {
-      width: 300px;
-      height: 300px;
-      background: lightgray;
-      perspective: 600px;
-      position: relative;
-    }
-    .icon {
-      width: 80px;
-      height: 80px;
-      background: mediumseagreen;
-      position: absolute;
-      transform: translate3d(25%, 25%, 60px);
-      transition: transform 0.5s ease;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="icon"></div>
-  </div>
-</body>
+  <head>
+    <style>
+      .container {
+        width: 300px;
+        height: 300px;
+        background: lightgray;
+        perspective: 600px;
+        position: relative;
+      }
+      .icon {
+        width: 80px;
+        height: 80px;
+        background: mediumseagreen;
+        position: absolute;
+        transform: translate3d(25%, 25%, 60px);
+        transition: transform 0.5s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="icon"></div>
+    </div>
+  </body>
 </html>
 ```
 
