@@ -85,7 +85,7 @@ int main() {
 
   // Find which bucket contains the element 3
   size_t bucket = nums.bucket(3);
-  
+
   cout << "Elements in bucket " << bucket << ": ";
   for (auto it = nums.cbegin(bucket); it != nums.cend(bucket); ++it) {
     cout << *it << " ";
@@ -98,7 +98,7 @@ int main() {
 The output of this code is:
 
 ```shell
-Elements in bucket 3: 3 
+Elements in bucket 3: 3
 ```
 
 ## Codebyte Example
@@ -120,7 +120,6 @@ int main() {
   return 0;
 }
 ```
-
 
 ## Frequently Asked Questions
 
