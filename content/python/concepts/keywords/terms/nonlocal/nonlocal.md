@@ -22,6 +22,7 @@ This keyword is especially useful when building closures or decorators where sta
 
 ```pseudo
 nonlocal variable_name
+nonlocal variable_name1, variable_name2, ...
 ```
 
 **Parameters:**
