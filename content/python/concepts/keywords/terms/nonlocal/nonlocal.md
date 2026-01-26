@@ -85,7 +85,7 @@ print(count_calls())
 print(count_calls())
 ```
 
-The outpput of this code:
+The output of this code:
 
 ```shell
 1
