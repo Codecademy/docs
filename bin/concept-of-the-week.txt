@@ -1,1 +1,1 @@
-content/general/concepts/virtual-reality/virtual-reality.md
+content/html/concepts/semantic-html/semantic-html.md
