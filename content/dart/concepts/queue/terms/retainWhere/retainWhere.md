@@ -1,52 +1,55 @@
 ---
-Title: '.retainWhere'
-Description: 'Remove all the elements that fail to satisfy a test in a queue.'
+Title: '.retainWhere()'
+Description: 'Retains only the elements that satisfy a given condition.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
   - 'Dart'
+  - 'Methods'
   - 'Queues'
-  - 'Properties'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
 
-In Dart, the **`.length`** property removes all the elements that fail to satisfy a test in a queue.
+The **`.retainWhere()`** method removes all elements from a `Queue` that do not satisfy the given condition, keeping only the elements for which the condition returns `true`.
 
 ## Syntax
 
 ```pseudo
-queueName.retainWhere()
+queue.retainWhere(test)
 ```
 
-- `queueName`: The name of the queue to be checked.
+**Parameters:**
 
-## Example
+- `test` (bool Function(E element)): A function that returns `true` for elements that should be retained in the queue.
 
-The below example creates a queue named `example_queue`, appends five integer elements to it, and checks if any of its strictly superior to 4 using the `.retainWhere ()` property:
+**Return value:**
+
+Returns `void`. The original queue is updated by retaining only the matching elements.
+
+## Example: Retaining elements in a queue based on a condition
+
+In this example, a queue is created and populated with integers. The `.retainWhere()` method is then used to keep only the elements that are less than 4:
 
 ```dart
-import 'dart:convert';
 import 'dart:collection';
 
-void main()
-{
-  // Initializing a queue
+void main() {
   Queue<int> example_queue = Queue<int>();
 
-  // Appending elements to the queue
   example_queue.addAll([1, 3, 5, 2, 0]);
 
-  // Check if any element it's superior to 4
+  // Keep elements less than 4
   example_queue.retainWhere((element) => element < 4);
-  print("The queue with the correct numbers is: ${example_queue.retainWhere()}");
+
+  print("The queue with the correct numbers is: $example_queue");
 }
 ```
 
 The above code will give the following output:
 
 ```shell
-The queue with the correct numbers is: 1, 3, 2, 0 
+The queue with the correct numbers is: {1, 3, 2, 0}
 ```
