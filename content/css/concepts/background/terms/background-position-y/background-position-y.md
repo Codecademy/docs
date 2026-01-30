@@ -19,8 +19,8 @@ CatalogContent:
 **Note:** This property will be overridden if `background` or `background-position` properties are applied after it.
 
 ```css
-background-position-y: <value>; // single value
-background-position-y: <direction> <value>; // mutltiple values
+background-position-y: <value>; 
+background-position-y: <direction> <value>;
 
 ```
 
