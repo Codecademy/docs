@@ -14,23 +14,21 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`ylim()`** function in Matplotlib's pyplot module sets or retrieves the y-axis limits (minimum and maximum values) of the current plot. This function is essential for controlling the vertical range of data displayed in visualizations, allowing for better focus on specific data ranges or standardized comparisons across multiple plots.
+The **`ylim()`** function in Matplotlib's `pyplot` module sets or retrieves the y-axis limits (minimum and maximum values) of the current plot. This function is essential for controlling the vertical range of data displayed in visualizations, allowing for better focus on specific data ranges or standardized comparisons across multiple plots.
 
 ## Syntax
 
 ```pseudo
-pyplot.ylim(bottom, top)
+plt.ylim(bottom, top)
 ```
 
-Or to get current limits:
+Or, to get current limits:
 
 ```pseudo
-bottom, top = pyplot.ylim()
+bottom, top = plt.ylim()
 ```
 
 **Parameters:**
-
-The `ylim()` function accepts the following parameters:
 
 - `bottom` (optional): A float representing the lower y-axis limit. If not provided, the current lower limit is returned.
 - `top` (optional): A float representing the upper y-axis limit. If not provided, the current upper limit is returned.
@@ -64,9 +62,9 @@ plt.grid(True)
 plt.show()
 ```
 
-This code produces a sine wave plot with y-axis limits set from -2 to 2, providing extra vertical space above and below the sine wave values.
+This code produces a sine wave plot with y-axis limits set from `-2` to `2`, providing extra vertical space above and below the sine wave values:
 
-![Sine wave plot with y-limits from -2 to 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-pyplot-ylim-example.png)
+![Sine wave plot with y-limits from -2 to 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-pyplot-ylim-example-1.png)
 
 ## Example 2: Retrieving Current Limits
 
@@ -85,7 +83,6 @@ plt.plot(x, y)
 
 # Get current y-axis limits
 current_bottom, current_top = plt.ylim()
-print(f"Current limits: bottom={current_bottom}, top={current_top}")
 
 # Expand the limits by 20%
 range_y = current_top - current_bottom
@@ -97,5 +94,6 @@ plt.title('Quadratic Function with Expanded Y-axis')
 plt.show()
 ```
 
-This example retrieves the automatically calculated y-axis limits and expands them by 20% on both sides, providing more whitespace around the data.
+This example retrieves the automatically calculated y-axis limits and expands them by 20% on both sides, providing more whitespace around the data:
+
 ![Quadratic function with expanded y-axis](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-pyplot-ylim-example-2.png)
