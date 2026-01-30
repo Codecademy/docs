@@ -64,7 +64,7 @@ const       -110.4353   2.23e+05     -0.000      1.000   -4.38e+05    4.38e+05
 x1            44.2438   9.07e+04      0.000      1.000   -1.78e+05    1.78e+05
 ==============================================================================
 
-Complete Separation: The results show that there iscomplete separation or perfect prediction.
+Complete Separation: The results show that there is complete separation or perfect prediction.
 In this case the Maximum Likelihood Estimator does not exist and the parameters
 are not identified.
 ```

@@ -42,7 +42,7 @@ from PIL import Image
 # Original image is 2000x2000 pixels.
 img = Image.open('pillow-resize-earth.png')
 
-# showccasing the original image
+# showcasing the original image
 img.show()
 
 img_resized = img.resize((500, 500))

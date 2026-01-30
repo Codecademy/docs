@@ -72,7 +72,7 @@ This renders properly, but the following example would cause errors:
 
 ## Nested comments
 
-Nested cooments are not recommended because they may cause unexpected behavior. An HTML comment ends at the first occurrence of a closing tag (`-->`), so anything written after that may be rendered on the page—even if it's intended to be hidden. Example:
+Nested comments are not recommended because they may cause unexpected behavior. An HTML comment ends at the first occurrence of a closing tag (`-->`), so anything written after that may be rendered on the page—even if it's intended to be hidden. Example:
 
 ```html
 <!-- Outer comment <!-- Inner comment -->

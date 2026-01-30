@@ -27,7 +27,7 @@ scipy.signal.find_peaks(x, height=None, threshold=None, distance=None, prominenc
 - `prominence` (Optional): Minimum prominence of peaks.
 - `width` (Optional): Required width of peaks in samples.
 - `wlen` (Optional): Used for calculating the prominence of peaks; specifies the size of the window.
-- `rel_height` (Otional): Used for measuring the width at relative height.
+- `rel_height` (Optional): Used for measuring the width at relative height.
 - `plateau_size` (Optional): Specifies the size of flat peaks (plateaus).
 
 ## Example

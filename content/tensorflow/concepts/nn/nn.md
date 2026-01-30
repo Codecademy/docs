@@ -35,7 +35,7 @@ A neural network in TensorFlow includes the following layers:
 
 The basic steps in the process of implementing a neural network with TensorFlow include:
 
-1. **Collect and Load Data**: TensorFlow provides the [`tf.data.Dataset` API](https://www.tensorflow.org/api_docs/python/tf/data/Dataset) to create and prepocess a dataset from your input data.
+1. **Collect and Load Data**: TensorFlow provides the [`tf.data.Dataset` API](https://www.tensorflow.org/api_docs/python/tf/data/Dataset) to create and preprocess a dataset from your input data.
 
 2. **Build the Model**: The [Keras](https://www.tensorflow.org/guide/keras) high-level API provides functionality to construct different neural networks architectures in TensorFlow. The simplest type of model is the [`Sequential` model](https://www.tensorflow.org/guide/keras/sequential_model), which has a single input tensor and a single output tensor.
 
@@ -43,6 +43,6 @@ The basic steps in the process of implementing a neural network with TensorFlow 
 
 4. **Compile the Model**: Keras [`Model.compile` method](https://www.tensorflow.org/api_docs/python/tf/keras/Model#compile) is used to configure the model's training process, specify how it should learn, and how to minimize errors.
 
-5. **Train the Model**: The `Model.fit` method can be used to train the model for a choosen number of epochs (e.g., `model.fit(x_train, y_train, epochs=5)`). A higher number of epochs will require more computing power and time.
+5. **Train the Model**: The `Model.fit` method can be used to train the model for a chosen number of epochs (e.g., `model.fit(x_train, y_train, epochs=5)`). A higher number of epochs will require more computing power and time.
 
 6. **Use the Model**: The trained model is an object that can be used to pass in data and get predictions. TensorFlow provides several options to [save, serialize and export models](https://www.tensorflow.org/guide/keras/serialization_and_saving).

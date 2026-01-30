@@ -32,7 +32,7 @@ The function returns a reverse iterator that points to the last element of the c
 
 ## Example
 
-The following exmaple demonstrates the usage of the `.rbegin()` function:
+The following example demonstrates the usage of the `.rbegin()` function:
 
 ```cpp
 #include <iostream>

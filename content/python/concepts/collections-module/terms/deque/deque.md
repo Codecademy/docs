@@ -23,7 +23,7 @@ my_deque = deque(iterable, maxlen)
 ```
 
 - `my_deque`: The name of the deque object to be created.
-- `iterable`: The iterable to be used for intializing the deque.
+- `iterable`: The iterable to be used for initializing the deque.
 - `maxlen`: The maximum length for the deque.
 
 ## Example

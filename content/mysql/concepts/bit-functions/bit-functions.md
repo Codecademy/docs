@@ -110,7 +110,7 @@ Comparison of each bit position:
 - If the bits are the same, the resulting bit is 0
 
 - 5 in binary is represented as 101 and 0 in binary is represented as 000.
-- Bit Position 2 is is the leftmost bit in a 3-bit binary number
+- Bit Position 2 is the leftmost bit in a 3-bit binary number
 - Bit Position 1 is the middle bit in a 3-bit binary number
 - Bit Position 0 is the rightmost bit in a 3-bit binary number
 

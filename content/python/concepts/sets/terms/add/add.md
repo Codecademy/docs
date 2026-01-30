@@ -65,7 +65,7 @@ After adding string: {1, 2, 3, 4, 'hello'}
 
 The code demonstrates that adding an existing element (2) does not affect the set, while new elements are successfully added regardless of their data type.
 
-## Example 2: Using Pythons's `.add()` in User Management System
+## Example 2: Using Python's `.add()` in User Management System
 
 This example shows how to use `.add()` in a practical user management scenario where there is a need to track unique user IDs:
 
