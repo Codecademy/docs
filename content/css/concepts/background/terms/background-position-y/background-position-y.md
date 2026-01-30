@@ -1,6 +1,6 @@
 ---
 Title: 'background-position-y'
-Description: 'Sets the initial vertical position for every background image. The position is relative to the position layer set by background-origin.'
+Description: 'Sets the initial vertical position for every background image. The position is relative to the position set by background-origin property..'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -19,7 +19,9 @@ CatalogContent:
 **Note:** This property will be overridden if `background` or `background-position` properties are applied after it.
 
 ```css
-background-position-y: <value>;
+background-position-y: <value>; // single value
+background-position-y: <direction> <value>; // mutltiple values
+
 ```
 
 where `<value>` can be one of the following:
@@ -32,57 +34,133 @@ where `<value>` can be one of the following:
   - `0%`: top edge of the background image is aligned with top edge of the container
   - `50%%`: centers the background image inside a container
   - `100%`: bottom edge of the background image is aligned with bottom edge of the container
-- `padding-box`: Relative positioning to the padding box.
-- `border-box`: Relative positioning to the border box.
-- Global values: `inherit`, `initial`, `revert`, `unset`
+- Length values
+  - `10px` `5cm` `2rem` `2em`: top edge of the background image is moved from top of the container
+- Multiple values
+
+and `direction` can be one of the following
+  - `top`: move from top, default direction
+  - `bottom`: move from  bottom
+
 
 ## Example 1
 
-Set background positioning to the edge of the content box:
+Set `background-position-y` using keywords:
 
 ```css
-.main {
-  border: 5px dashed #4d4d4d;
-  padding: 1rem;
-  background: url(images/background-origin.jpg) no-repeat;
-  background-origin: content-box;
+.img {
+  border: 2px dashed black;
+  width: 200px;
+  height: 200px;
+  background-image: url("./assets/box.png");
+  background-repeat: no-repeat;
 }
+
+.img.top {
+    background-position-y: top;
+}
+
+.img.center {
+    background-position-y: center;
+}
+
+.img.bottom {
+    background-position-y: bottom;
+}
+
 ```
 
 The resulting output of the code block above is:
 
-![Background origin set to padding-box](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-origin-content.png 'background-origin: padding-box')
+![Background-position-y-keywords](../../../../../../media//background-position-y-keywords.png) 
 
 ## Example 2
 
-Set background positioning to the inside edge of the border, respecting its padding:
+Set `background-position-y` using percentages:
 
 ```css
-.main {
-  border: 5px dashed #4d4d4d;
-  padding: 1rem;
-  background: url(images/background-origin.jpg) no-repeat;
-  background-origin: padding-box;
+.img {
+  border: 2px dashed black;
+  width: 200px;
+  height: 200px;
+  background-image: url("./assets/box.png");
+  background-repeat: no-repeat;
+}
+
+.img.top {
+    background-position-y: 0%;
+}
+
+.img.center {
+    background-position-y: 50%;
+}
+
+.img.bottom {
+    background-position-y: 100%;
 }
 ```
 
 The resulting output of the code block above is:
 
-![Background origin set to padding-box](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-origin-padding.png 'background-origin: padding-box')
+![Background-position-y-percentages](../../../../../../media//background-position-y-keywords.png) 
 
 ## Example 3
 
-Set background positioning to the edge of the border:
+Set `background-position-y` using length:
 
 ```css
-.main {
-  border: 5px dashed #4d4d4d;
-  padding: 1rem;
-  background: url(images/background-origin.jpg) no-repeat;
-  background-origin: border-box;
+.img {
+  border: 2px dashed black;
+  width: 200px;
+  height: 200px;
+  background-image: url("./assets/box.png");
+  background-repeat: no-repeat;
+}
+
+.img.top {
+    background-position-y: 1cm;
+}
+
+.img.center {
+    background-position-y: 5rem;
+}
+
+.img.bottom {
+    background-position-y: 7em;
 }
 ```
 
 The resulting output of the code block above is:
 
-![Background origin set to padding-box](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-origin-border.png 'background-origin: padding-box')
+![Background-position-y-percentages](../../../../../../media//background-position-y-length.png) 
+
+## Example 4
+
+Set `background-position-y` using multiple values:
+
+```css
+.img {
+  border: 2px dashed black;
+  width: 200px;
+  height: 200px;
+  background-image: url("./assets/box.png");
+  background-repeat: no-repeat;
+}
+
+.img.top {
+    background-position-y: bottom 20%;
+}
+
+.img.center {
+    background-position-y: bottom 7rem;
+}
+
+.img.bottom {
+    background-position-y: bottom 2cm;
+}
+```
+
+The resulting output of the code block above is:
+
+![Background-position-y-multiple-values](../../../../../../media//background-position-y-multiple-values.png) 
+
