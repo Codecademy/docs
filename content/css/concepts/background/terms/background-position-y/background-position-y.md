@@ -134,33 +134,4 @@ The resulting output of the code block above is:
 
 ![Background-position-y-percentages](../../../../../../media//background-position-y-length.png) 
 
-## Example 4
-
-Set `background-position-y` using multiple values:
-
-```css
-.img {
-  border: 2px dashed black;
-  width: 200px;
-  height: 200px;
-  background-image: url("./assets/box.png");
-  background-repeat: no-repeat;
-}
-
-.img.top {
-    background-position-y: bottom 20%;
-}
-
-.img.center {
-    background-position-y: bottom 7rem;
-}
-
-.img.bottom {
-    background-position-y: bottom 2cm;
-}
-```
-
-The resulting output of the code block above is:
-
-![Background-position-y-multiple-values](../../../../../../media//background-position-y-multiple-values.png) 
 
