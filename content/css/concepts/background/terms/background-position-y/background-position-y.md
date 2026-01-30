@@ -19,8 +19,8 @@ CatalogContent:
 **Note:** This property will be overridden if `background` or `background-position` properties are applied after it.
 
 ```css
-background-position-y: <value>;
-background-position-y: <direction> <value>;
+background-position-y: <value>; // single value
+background-position-y: <direction> <value>; // mutltiple values
 
 ```
 
@@ -106,7 +106,7 @@ The resulting output of the code block above is:
 
 ## Example 3
 
-Set `background-position-y` using length:
+Set `background-position-y` using multiple values:
 
 ```css
 .img {
@@ -118,20 +118,19 @@ Set `background-position-y` using length:
 }
 
 .img.top {
-    background-position-y: 1cm;
+    background-position-y: bottom 20%;
 }
 
 .img.center {
-    background-position-y: 5rem;
+    background-position-y: bottom 7rem;
 }
 
 .img.bottom {
-    background-position-y: 7em;
+    background-position-y: bottom 2cm;
 }
 ```
 
 The resulting output of the code block above is:
 
-![Background-position-y-percentages](../../../../../../media//background-position-y-length.png) 
-
+![Background-position-y-multiple-values](../../../../../../media//background-position-y-multiple-values.png) 
 
