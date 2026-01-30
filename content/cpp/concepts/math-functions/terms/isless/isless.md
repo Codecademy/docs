@@ -1,6 +1,6 @@
 ---
 Title: 'isless()'
-Description: 'Returns true if first argument less than second argument, false otherwise.'
+Description: 'Returns true if the first argument is strictly less than the second argument, and false otherwise.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The C++ **`isless()`** function returns `true` if the first argument is strictly less than the second, and `false` otherwise. It performs a quiet floating-point comparison, never raises exceptions, and returns `false` if either value is `NaN`. The function is defined in the `<cmath>` header.
+The C++ **`isless()`** [function](https://www.codecademy.com/resources/docs/cpp/functions) returns `true` if the first argument is strictly less than the second argument, and `false` otherwise. It performs a quiet floating-point comparison, never raises [exceptions](https://www.codecademy.com/resources/docs/cpp/exceptions), and returns `false` if either value is `NaN`. The function is defined in the `<cmath>` header.
 
 ## Syntax
 
@@ -23,7 +23,10 @@ bool isless(x, y);
 
 **Parameters:**
 
-- `x, y`: Floating-point values (`double`, `float`, or `long double`) or integers, which are promoted to floating-point types.
+- `x`: The first value for comparison.
+- `y`: The second value for comparison.
+
+Both `x` and `y` are either floating-point values (`double`, `float`, or `long double`) or integers, which are implicitly converted to a floating-point type.
 
 **Return value:**
 
@@ -31,7 +34,7 @@ The `isless()` function returns `true` if `x < y` and both values are valid numb
 
 ## Example
 
-The following example uses the `isless()` function to compare and determine if the first argument is lesser than the second argument:
+The following example uses the `isless()` function to compare and determine if the first argument is strictly less than the second argument:
 
 ```cpp
 #include <iostream>
@@ -54,7 +57,7 @@ int main() {
 
   double z = nan("1");
   result = isless(x, z);
-  cout << x << " is less than nan: " << result << endl;
+  cout << x << " is less than NaN: " << result << endl;
 
   return 0;
 }
@@ -65,7 +68,7 @@ This produces the following output:
 ```shell
 5 is less than 7: 1
 9 is less than 3: 0
-9 is less than nan: 0
+9 is less than NaN: 0
 ```
 
 ## Codebyte Example
