@@ -36,9 +36,8 @@ where `<value>` can be one of the following:
   - `100%`: bottom edge of the background image is aligned with bottom edge of the container
 - Length values
   - `10px` `5cm` `2rem` `2em`: top edge of the background image is moved from top of the container
-- Multiple values
 
-and `direction` can be one of the following
+and `<direction>` can be one of the following
   - `top`: move from top, default direction
   - `bottom`: move from  bottom
 
