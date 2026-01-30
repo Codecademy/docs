@@ -1,6 +1,6 @@
 ---
 Title: 'reserve()'
-Description: 'Requests capacity change for `std::unordered_set` so it can accommodate at least n elements without exceeding the maximum load factor.'
+Description: 'Requests capacity change for an unordered set so it can accommodate at least n elements without exceeding the maximum load factor.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`reserve()`** method requests a capacity change for an [`std::unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set). It sets the number of buckets to the amount needed to accommodate at least `n` elements without exceeding the container’s `max_load_factor()`. Calling `reserve(n)` may trigger a rehash; if it does, all iterators are invalidated, but references and pointers to elements remain valid. This operation does not sort or otherwise order elements.
+The **`reserve()`** method requests a capacity change for an `std::unordered_set`. It sets the number of buckets to the amount needed to accommodate at least `n` elements without exceeding the container’s `max_load_factor()`. Calling `reserve(n)` may trigger a rehash; if it does, all iterators are invalidated, but references and pointers to elements remain valid. This operation does not sort elements or impose any ordering.
 
 ## Syntax
 
