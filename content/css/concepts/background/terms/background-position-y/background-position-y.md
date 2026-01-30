@@ -1,6 +1,6 @@
 ---
 Title: 'background-position-y'
-Description: 'Sets the initial vertical position for every background image. The position is relative to the position set by background-origin property..'
+Description: 'Sets the initial vertical position for every background image. The position is relative to the position set by background-origin property.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
