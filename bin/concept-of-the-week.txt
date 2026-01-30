@@ -1,1 +1,1 @@
-content/kotlin/concepts/strings/strings.md
+content/html/concepts/semantic-html/semantic-html.md
