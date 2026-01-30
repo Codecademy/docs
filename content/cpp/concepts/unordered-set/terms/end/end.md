@@ -13,23 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`end()`** method returns an iterator that points to the past-the-end position of an [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set). This iterator marks one past the last element and cannot be dereferenced. Because `unordered_set` does not maintain a defined order, iteration proceeds in the container’s internal hash-table order.
+The **`end()`** method returns an iterator that points to the past-the-end position of an `unordered_set`. This iterator marks one past the last element and cannot be dereferenced. Because `unordered_set` does not maintain a defined order, iteration proceeds in the container’s internal hash-table order.
 
 ## Syntax
-
-```pseudo
-unordered_set_name.end();
-```
-
-**Parameters:**
-
-The `end()` function takes no parameters.
-
-**Return value:**
-
-Returns an `iterator` pointing to the past-the-end position of the `unordered_set`.
-
-Or, to work with a specific bucket:
 
 ```pseudo
 unordered_set_name.end(n);
@@ -37,11 +23,12 @@ unordered_set_name.end(n);
 
 **Parameters:**
 
-- `n` (size_type): The bucket index. Must be less than `bucket_count()`.
+- `n` (size_type, optional): The bucket index. Must be less than `bucket_count()`.
 
 **Return value:**
 
-A `local_iterator` pointing to the past-the-end position in bucket `n`. If the bucket is empty, `begin(n) == end(n)`.
+- If `n` isn't provided, returns an iterator pointing to the past-the-end position of the `unordered_set`.
+- If `n` is provided, returns a `local_iterator` pointing to the past-the-end position in bucket `n`. If the bucket is empty, `begin(n) == end(n)`.
 
 ## Example
 
@@ -50,6 +37,7 @@ In this example, iteration runs from `begin()` to `end()` to print every element
 ```cpp
 #include <iostream>
 #include <unordered_set>
+
 using namespace std;
 
 int main() {
@@ -63,7 +51,7 @@ int main() {
 }
 ```
 
-A sample output might be:
+Here is a possible output:
 
 ```shell
 20
@@ -81,12 +69,14 @@ This example retrieves iterators for a specific bucket in the `unordered_set` an
 ```codebyte/cpp
 #include <iostream>
 #include <unordered_set>
+#include <string>
+
 using namespace std;
 
 int main() {
   unordered_set<string> words = {"cat", "dog", "rabbit", "lion"};
 
-  size_t bucket = 0;
+  size_t bucket = 1;
 
   auto it = words.begin(bucket);
   auto last = words.end(bucket);
