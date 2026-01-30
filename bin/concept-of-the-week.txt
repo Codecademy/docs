@@ -1,1 +1,1 @@
-content/kotlin/concepts/classes/classes.md
+content/html/concepts/semantic-html/semantic-html.md
