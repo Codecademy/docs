@@ -19,9 +19,8 @@ CatalogContent:
 **Note:** This property will be overridden if `background` or `background-position` properties are applied after it.
 
 ```css
-background-position-y: <value>; 
+background-position-y: <value>;
 background-position-y: <direction> <value>;
-
 ```
 
 where `<value>` can be one of the following:
@@ -38,9 +37,9 @@ where `<value>` can be one of the following:
   - `10px` `5cm` `2rem` `2em`: top edge of the background image is moved from top of the container
 
 and `<direction>` can be one of the following
-  - `top`: move from top, default direction
-  - `bottom`: move from  bottom
 
+- `top`: move from top, default direction
+- `bottom`: move from bottom
 
 ## Example 1
 
@@ -51,27 +50,26 @@ Set `background-position-y` using keywords:
   border: 2px dashed black;
   width: 200px;
   height: 200px;
-  background-image: url("./assets/box.png");
+  background-image: url('./assets/box.png');
   background-repeat: no-repeat;
 }
 
 .img.top {
-    background-position-y: top;
+  background-position-y: top;
 }
 
 .img.center {
-    background-position-y: center;
+  background-position-y: center;
 }
 
 .img.bottom {
-    background-position-y: bottom;
+  background-position-y: bottom;
 }
-
 ```
 
 The resulting output of the code block above is:
 
-![Background-position-y-keywords](../../../../../../media//background-position-y-keywords.png) 
+![Background-position-y-keywords](../../../../../../media//background-position-y-keywords.png)
 
 ## Example 2
 
@@ -82,26 +80,26 @@ Set `background-position-y` using percentages:
   border: 2px dashed black;
   width: 200px;
   height: 200px;
-  background-image: url("./assets/box.png");
+  background-image: url('./assets/box.png');
   background-repeat: no-repeat;
 }
 
 .img.top {
-    background-position-y: 0%;
+  background-position-y: 0%;
 }
 
 .img.center {
-    background-position-y: 50%;
+  background-position-y: 50%;
 }
 
 .img.bottom {
-    background-position-y: 100%;
+  background-position-y: 100%;
 }
 ```
 
 The resulting output of the code block above is:
 
-![Background-position-y-percentages](../../../../../../media//background-position-y-keywords.png) 
+![Background-position-y-percentages](../../../../../../media//background-position-y-keywords.png)
 
 ## Example 3
 
@@ -112,24 +110,23 @@ Set `background-position-y` using multiple values:
   border: 2px dashed black;
   width: 200px;
   height: 200px;
-  background-image: url("./assets/box.png");
+  background-image: url('./assets/box.png');
   background-repeat: no-repeat;
 }
 
 .img.top {
-    background-position-y: bottom 20%;
+  background-position-y: bottom 20%;
 }
 
 .img.center {
-    background-position-y: bottom 7rem;
+  background-position-y: bottom 7rem;
 }
 
 .img.bottom {
-    background-position-y: bottom 2cm;
+  background-position-y: bottom 2cm;
 }
 ```
 
 The resulting output of the code block above is:
 
-![Background-position-y-multiple-values](../../../../../../media//background-position-y-multiple-values.png) 
-
+![Background-position-y-multiple-values](../../../../../../media//background-position-y-multiple-values.png)
