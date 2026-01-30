@@ -5,15 +5,15 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Array'
-  - 'Iterator'
+  - 'Arrays'
+  - 'Iterators'
   - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-The **`flat`** attribute returns a 1-D [iterator](https://www.codecademy.com/resources/docs/python/iterators) over all elements of a multi-dimensional array, allowing access to each element as if the array were a single flat list. This is useful for loops where the dimensionality or shape of the array is irrelevant and every element needs to be processed in linear order. Iteration follows standard C-style (row-major) ordering.
+The **`flat`** attribute returns a 1-D [iterator](https://www.codecademy.com/resources/docs/python/iterators) over all elements of an `ndarray`, allowing access to each element as if the array were a single flat list. This is useful for loops where the dimensionality or shape of the array is irrelevant and every element needs to be processed in linear order. Iteration follows standard C-style (row-major) ordering.
 
 ## Syntax
 
@@ -78,18 +78,18 @@ Array after assignment via .flat:
 
 ## Codebyte Example
 
-Use the Codebyte below to access elements of a multi-dimensional array using a single index via `flat`:
+Use the codebyte below to access elements of a multi-dimensional array using a single index via `flat`:
 
 ```codebyte/python
 import numpy as np
 
 my_array = np.array([
-    [10, 11],
-    [20, 21],
-    [30, 31]
+  [10, 11],
+  [20, 21],
+  [30, 31]
 ])
 
-# Access the element at the flattened index 3 (which is element 2,1)
+# Access the element at the flattened index 3 (which is element at position [1, 1])
 flat_index_3 = my_array.flat[3]
 
 print(f"Original array shape: {my_array.shape}")
