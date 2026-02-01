@@ -1,1 +1,1 @@
-content/general/concepts/virtual-reality/virtual-reality.md
+content/git/concepts/checkout/checkout.md
