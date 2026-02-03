@@ -1,19 +1,18 @@
 ---
 Title: 'align-content'
-Description: 'A flexbox property that controls the spacing between rows/columns of flex items, provided there are multiple lines of content.'
+Description: 'Controls the spacing and alignment between rows or columns of items in a flex or grid container when there are multiple lines of content.'
 Subjects:
-  - 'Web Development'
   - 'Web Design'
+  - 'Web Development'
 Tags:
   - 'Flexbox'
   - 'Layout'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
-A flexbox property that controls the spacing between rows/columns of flex items, provided there are multiple lines of content.
+In CSS, **`align-content`** property controls how multiple rows or columns of flex items are spaced and aligned along the cross axis when a flex container wraps onto multiple lines.
 
 However, it only has an effect when:
 
@@ -21,31 +20,30 @@ However, it only has an effect when:
 - There is extra space in the cross-axis of the container
 - If all items fit on one line, `align-content` will have no effect
 
----
-
 ## Syntax
 
-```css
-#section-c {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: stretch;
-};
+```pseudo
+align-content: value;
 ```
 
-The `<align-content>` can be any of the following:
+**Parameters:**
 
-- stretch
-- flex-start
-- flex-end
-- center
-- space-between
-- space-around
-- space-evenly
+- `value`: Defines how the lines of content are spaced and aligned along the cross axis. Common values include:
+  - `flex-start`
+  - `flex-end`
+  - `center`
+  - `space-between`
+  - `space-around`
+  - `space-evenly`
+  - `stretch (default)`
 
-## Example
+**Return value:**
 
-A container example with flex items that wrap into multiple rows, align-content controls the space between those rows and instead spreads them out vertically.
+This property sets a layout rule and does not return a value.
+
+## Example: Aligning wrapped flex rows using `align-content`
+
+In this example, a flex container wraps its items into multiple rows, and `align-content: space-between` distributes the extra vertical space evenly between those rows along the cross axis:
 
 ```css
 .container {
