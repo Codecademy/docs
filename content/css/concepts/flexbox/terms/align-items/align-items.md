@@ -56,28 +56,43 @@ For the above piece of HTML code, align-items can be used as follows
 ```css
 /* using grid */
 .container {
-  height: 200px
+  height: 300px;
+  width: 300px;
+  border: 2px solid red;
   display: flex;
   align-items: center;
 }
-
 p {
-  height: 50px;
-  width: 40px;
+  width: 80px;
+  border: 1px solid blue;
 }
 ```
+
+The above code output is shown below:
+
+![align-items implementation using flexbox where the paragraphs inside 'div' are centered](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-align-items-example-using-flexbox.jpg)
+
 or 
 
 ```css
 /* using grid */
 .container {
-  height: 200px
+  height: 300px;
+  width: 300px;
+  border: 2px solid red;
   display: grid;
   align-items: end;
 }
-
 p {
-  height: 50px;
-  width: 40px;
+  width: 80px;
+  border: 1px solid blue;
 }
 ```
+
+The above code output is shown below:
+
+![align-items implementation using grid where the paragraphs inside 'div' are positioned at the end](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-align-items-example-using-grid.jpg)
+
+The image below shows some of the align-items property values in flexbox and their corresponding alignment.
+
+![align-items property values in flexbox and their corresponding alignment](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-align-items-illustration.jpg)
