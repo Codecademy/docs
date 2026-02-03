@@ -32,7 +32,7 @@ background-position-y: <value>;
 
 - None. This property sets a style rule and does not return a value
 
-**Note:** This property will be overridden if `background` or `background-position` properties are applied after it.
+> **Note:** This property will be overridden if `background` or `background-position` properties are applied after it.
 
 ## Example 1: Keyword-based vertical positioning
 
