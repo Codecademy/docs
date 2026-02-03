@@ -9,14 +9,12 @@ margin-block: <start> <end>;
 - `<end>`: sets the margin at the end of the block (bottom in normal writing mode)
 
 ## Example
-
 ```
 .box {
   margin-block: 10px 20px;
 }
 ```
-
 In this example, the `.box` element will have a 10px margin at the start of the block and a 20px margin at the end of the block.
 
-## Notes
-`margin-block` is a logical property and will adapt based on writing mode, unlike `margin-top` and `margin-bottom`.
+> [!NOTE]
+> `margin-block` is a logical property and will adapt based on writing mode, unlike `margin-top` and `margin-bottom`. 
