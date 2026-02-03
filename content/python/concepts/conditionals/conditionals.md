@@ -91,3 +91,40 @@ else:
 ```
 
 What do you think will happen if `pH` is changed to 7?
+
+
+```
+## Nested If Statements
+
+Nested `if` statements are used when you want to check a condition inside another condition. This is useful when decisions depend on multiple factors. The outer if runs first, and only `if` it evaluates to `True` does the inner `if` get evaluated.
+
+Nested `if` statements help make your code more organized and allow more complex decision-making without repeating conditions.
+
+```py
+age = 20
+has_membership = True
+
+if age >= 18:
+    print("You are an adult.")
+    
+    if has_membership:
+        print("You can enter the club.")
+    else:
+        print("You need a membership to enter.")
+else:
+    print("You are too young to enter.")
+```
+
+Explanation:
+
+1. The outer if checks if the person is 18 or older.
+
+2. Only if the outer condition is True, the inner if checks whether they have a membership.
+
+3. This prevents repeating the age check for every membership condition.
+
+Output: 
+```
+You are an adult.
+You can enter the club.
+```
