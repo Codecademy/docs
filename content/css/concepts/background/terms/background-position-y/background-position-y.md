@@ -1,9 +1,9 @@
 ---
 Title: 'background-position-y'
-Description: 'Sets the initial vertical position for every background image. The position is relative to the position set by background-origin property.'
+Description: 'Sets the vertical position of a background image inside an element.'
 Subjects:
-  - 'Web Development'
   - 'Web Design'
+  - 'Web Development'
 Tags:
   - 'Background'
   - 'Box Model'
@@ -11,39 +11,32 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
+
+In CSS, **`background-position-y`** controls how far up or down the background image is placed inside an element, letting you adjust its vertical alignment without affecting the horizontal position.
 
 ## Syntax
 
-**Note:** This property will be overridden if `background` or `background-position` properties are applied after it.
-
-```css
+```pseudo
 background-position-y: <value>;
-background-position-y: <direction> <value>;
 ```
 
-where `<value>` can be one of the following:
+**Parameters:**
 
-- Keywords values
-  - `top`: aligns top edge of the background image with the top edge of the container
-  - `center`: aligns center of the background image with the center of the container
-  - `bottom`: aligns the bottom of the background image with the bottom edge of the container
-- Percentage values:
-  - `0%`: top edge of the background image is aligned with top edge of the container
-  - `50%%`: centers the background image inside a container
-  - `100%`: bottom edge of the background image is aligned with bottom edge of the container
-- Length values
-  - `10px` `5cm` `2rem` `2em`: top edge of the background image is moved from top of the container
+- `value`: Specifies the vertical position of the background image. Common values include:
+  - `top`, `center`, `bottom`
+  - Length values like `10px`, `2rem`
+  - Percentage values like `50%`
 
-and `<direction>` can be one of the following
+**Return value:**
 
-- `top`: move from top, default direction
-- `bottom`: move from bottom
+- None. This property sets a style rule and does not return a value
 
-## Example 1
+**Note:** This property will be overridden if `background` or `background-position` properties are applied after it.
 
-Set `background-position-y` using keywords:
+## Example 1: Keyword-based vertical positioning
+
+In this example, `background-position-y` uses keywords to align the background image at the top, center, or bottom of the element while keeping the horizontal position unchanged:
 
 ```css
 .img {
@@ -69,41 +62,11 @@ Set `background-position-y` using keywords:
 
 The resulting output of the code block above is:
 
-![Background-position-y-keywords](../../../../../../media//background-position-y-keywords.png)
+![Background-position-y-keywords](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-position-y-keywords.png)
 
-## Example 2
+## Example 2: Value-based vertical positioning
 
-Set `background-position-y` using percentages:
-
-```css
-.img {
-  border: 2px dashed black;
-  width: 200px;
-  height: 200px;
-  background-image: url('./assets/box.png');
-  background-repeat: no-repeat;
-}
-
-.img.top {
-  background-position-y: 0%;
-}
-
-.img.center {
-  background-position-y: 50%;
-}
-
-.img.bottom {
-  background-position-y: 100%;
-}
-```
-
-The resulting output of the code block above is:
-
-![Background-position-y-percentages](../../../../../../media//background-position-y-keywords.png)
-
-## Example 3
-
-Set `background-position-y` using multiple values:
+In this example, `background-position-y` uses percentage and length values to precisely control how far down the background image is positioned inside the element:
 
 ```css
 .img {
@@ -129,4 +92,4 @@ Set `background-position-y` using multiple values:
 
 The resulting output of the code block above is:
 
-![Background-position-y-multiple-values](../../../../../../media//background-position-y-multiple-values.png)
+![Background-position-y-multiple-values](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-position-y-multiple-values.png)
