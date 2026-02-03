@@ -31,12 +31,11 @@ torch.softmax(input, dim, dtype=None)
 
 - `input`: The input tensor containing the raw scores (logits).
 - `dim`: A dimension along which Softmax will be computed. Every slice along dim will sum to 1.
-- `rounding_mode` (Optional): Controls the rounding behavior. Can be `None` (default), `trunc`, or `floor`.
 - `dtype` (Optional): The desired data type of the returned tensor.
 
 **Return value:**
 
-A tensor of the same shape as `input`, with values scaled between 0 and 1.
+Returns a tensor of the same shape as `input`, with values scaled between 0 and 1.
 
 ## Example 1: Basic Softmax on a 1D Tensor
 
@@ -67,7 +66,7 @@ The function converts raw logits into probabilities where the highest input valu
 
 ## Example 2: Softmax on a 2D Tensor
 
-In real-world scenarios, data is processed in batches. For a 2D tensor where rows represent samples and columns represent classes, we usually apply softmax along `dim=1`.
+For batched inputs where rows represent samples and columns represent classes, Softmax is typically applied along the class dimension:
 
 ```py
 import torch
@@ -95,4 +94,4 @@ Probabilities:
 Sum of each row: tensor([1.0000, 1.0000])
 ```
 
-By specifying dim=1, the operation is applied independently to each row (sample), ensuring that the class probabilities for each individual sample sum to 1.0.
+By specifying `dim=1`, the operation is applied independently to each row (sample), ensuring that the class probabilities for each individual sample sum to 1.0.
