@@ -89,3 +89,90 @@ const getBoundFullName = person.fullName.bind(person);
 
 console.log(getBoundFullName());
 ```
+
+## Common Built-in Array Methods
+
+While custom methods can be defined in objects, JavaScript also provides built-in methods for the `Array` object to handle common data manipulation tasks.
+
+### `.shift()`
+
+Removes the first item from an array and returns it. This method **modifies** the original array.
+
+```javascript
+const colors = ['red', 'blue', 'green'];
+const removedColor = colors.shift();
+
+console.log(colors); // Output: ['blue', 'green']
+```
+
+---
+
+### `.unshift()`
+
+Adds one or more items to the beginning of an array. This method **modifies** the original array.
+
+```javascript
+const numbers = [2, 3, 4];
+numbers.unshift(1);
+
+console.log(numbers); // Output: [1, 2, 3, 4]
+```
+
+---
+
+### `.concat()`
+
+Combines two or more arrays and returns a **new** array. The original arrays remain unchanged.
+
+```javascript
+const morning = ['eggs', 'toast'];
+const lunch = ['salad', 'soup'];
+const meals = morning.concat(lunch);
+
+console.log(meals); // Output: ['eggs', 'toast', 'salad', 'soup']
+```
+
+---
+
+### `.slice()`
+
+Selects a portion of an array and returns a **new** array. It does **not** modify the original array.
+
+```javascript
+const fruits = ['apple', 'orange', 'banana', 'pear'];
+const favorites = fruits.slice(1, 3);
+
+console.log(favorites); // Output: ['orange', 'banana']
+```
+
+---
+
+### `.splice()`
+
+Adds or removes elements at a specific index. This method **modifies** the original array.
+
+```javascript
+const items = ['pen', 'paper', 'ruler'];
+// At index 1, remove 0 items, and add 'eraser'
+items.splice(1, 0, 'eraser');
+
+console.log(items); // Output: ['pen', 'eraser', 'paper', 'ruler']
+```
+
+---
+
+### `.join()`
+
+Combines all array elements into a single string, separated by the specified delimiter.
+
+```javascript
+const alphabet = ['a', 'b', 'c'];
+const result = alphabet.join('-');
+
+console.log(result); // Output: "a-b-c"
+```
+
+
+
+
+
