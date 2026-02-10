@@ -1,1 +1,1 @@
-content/kotlin/concepts/strings/strings.md
+content/kotlin/concepts/interfaces/interfaces.md
