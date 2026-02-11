@@ -13,12 +13,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`count()`** method checks whether a given key exists in a `std::unordered_set`. Since this container stores only unique elements, `count()` will always return either:
+The **`count()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) in C++ checks whether a given key exists in a `std::unordered_set`. Since this container stores only unique elements, `count()` will always return one of these two values:
 
-1.  `1`: If the element is found in the set.
-2.  `0`: If the element is not found in the set.
+- `1`: If the element is found in the set.
+- `0`: If the element is not found in the set.
 
-This method is commonly used as a fast, O(1) average time complexity way to check for element existence.
+This method is commonly used as a fast, _O(1)_ average time complexity way to check for element existence.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ Returns an integer. `1` if the element exists, `0` otherwise.
 
 ## Example
 
-This example demonstrates using `count()` to check for the presence of elements within a set of strings:
+This example demonstrates using `count()` to check for the presence of elements within a set of [strings](https://www.codecademy.com/resources/docs/cpp/strings):
 
 ```cpp
 #include <iostream>
@@ -55,12 +55,12 @@ int main() {
     std::cout << "- " << item << "\n";
   }
 
-  // 1. Check for an existing element
+  // Check for an existing element
   if (inventory.count("Sword")) {
     std::cout << "\n'Sword' is present (Count: " << inventory.count("Sword") << ").\n";
   }
 
-  // 2. Check for a missing element
+  // Check for a missing element
   if (inventory.count("Axe") == 0) {
     std::cout << "'Axe' is not present (Count: " << inventory.count("Axe") << ").\n";
   }
@@ -83,7 +83,7 @@ Inventory contains:
 
 ## Codebyte Example
 
-Use the Codebyte below to check for the presence of an item in a set of integers:
+Run the codebyte below to check for the presence of an item in a set of integers:
 
 ```codebyte/cpp
 #include <iostream>
