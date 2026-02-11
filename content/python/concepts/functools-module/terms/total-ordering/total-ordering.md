@@ -59,7 +59,7 @@ print(Number(5) >= Number(5))
 print(Number(7) > Number(1))
 ```
 
-The outout of this code is:
+The output of this code is:
 
 ```shell
 True

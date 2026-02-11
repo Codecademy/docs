@@ -66,7 +66,7 @@ for point, prob in zip(points, probabilities):
   print(f"P(X ≤ {point:.1f}) = {prob:.3f}")
 ```
 
-The code above generates the ouput as follows:
+The code above generates the output as follows:
 
 ```shell
 Cumulative probabilities:

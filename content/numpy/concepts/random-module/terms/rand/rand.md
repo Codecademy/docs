@@ -56,7 +56,7 @@ fourD_array = np.random.rand(2, 4, 3)
 print("This is a 3D array with shape (2, 4, 3):", fourD_array, "\n")
 ```
 
-The possible ouput for this code can be:
+The possible output for this code can be:
 
 ```shell
 This is a single float: 0.062282333140694646

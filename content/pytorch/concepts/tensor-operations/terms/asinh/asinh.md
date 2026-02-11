@@ -20,7 +20,7 @@ The PyTorch method **`.asinh()`** returns the inverse hyperbolic sine of each el
 
 ## Syntax
 
-```psuedo
+```pseudo
 torch.asinh(input, *, out=None) → Tensor
 ```
 

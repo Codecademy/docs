@@ -20,7 +20,7 @@ In the NumPy library, the **`.floor()`** method rounds down a number or an array
 
 ## Syntax
 
-```psuedo
+```pseudo
 numpy.floor(input, out=None)
 ```
 

@@ -51,7 +51,7 @@ np.random.shuffle(arr)
 print("Shuffled Array:", arr)
 ```
 
-This could could result in the following possible output:
+This could result in the following possible output:
 
 ```shell
 Original Array: [1 2 3 4 5]

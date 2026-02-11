@@ -17,7 +17,7 @@ The **`math.isfinite()`** function returns `True` when a number is finite and `F
 
 ## Syntax
 
-```psuedo
+```pseudo
 math.isfinite(x)
 ```
 

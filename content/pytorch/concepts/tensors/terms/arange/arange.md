@@ -1,6 +1,6 @@
 ---
 Title: '.arange()'
-Description: 'Returns a 1-dimentional tensor with values from a specified range.'
+Description: 'Returns a 1-dimensional tensor with values from a specified range.'
 Subjects:
   - 'AI'
   - 'Data Science'

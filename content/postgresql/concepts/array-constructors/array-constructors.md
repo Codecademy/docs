@@ -37,7 +37,7 @@ INSERT INTO example1 (numbers) VALUES (ARRAY[1, 2, 3, 4]);
 INSERT INTO example1 (numbers) VALUES ('{5, 6, 7, 8}');
 ```
 
-When the example above is run it would create a a table name called `example1` with 2 rows. The `numbers` column contains a one-dimensional array of integers.
+When the example above is run it would create a table name called `example1` with 2 rows. The `numbers` column contains a one-dimensional array of integers.
 
 `example1` table:
 

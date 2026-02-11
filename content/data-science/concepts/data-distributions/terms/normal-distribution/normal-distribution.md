@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **normal distribution**, otherwise known as the Gaussian distribution, is one of the most signifcant probability distributions used for continuous data. It is defined by two parameters:
+The **normal distribution**, otherwise known as the Gaussian distribution, is one of the most significant probability distributions used for continuous data. It is defined by two parameters:
 
 - **Mean (μ)**: The central value of the distribution.
 - **Standard Deviation (σ)**: Computes the amount of variation or dispersion in the data.

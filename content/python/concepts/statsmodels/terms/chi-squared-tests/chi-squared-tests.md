@@ -18,7 +18,7 @@ The **Chi-Square test** in statsmodels is used to test whether observed proporti
 
 ## Syntax
 
-```psuedo
+```pseudo
 scipy.stats.chisquare(f_obs, f_exp=None, ddof=0, axis=0)
 ```
 
@@ -62,7 +62,7 @@ else:
   print("Fail to reject the null hypothesis: The proportions are not significantly different.")
 ```
 
-The code above generates the ouput as follows:
+The code above generates the output as follows:
 
 ```shell
 Chi-square statistic: 38.0

@@ -18,7 +18,7 @@ The **`.astype()`** function in NumPy allows changing the data type of the eleme
 
 ## Syntax
 
-```psuedo
+```pseudo
 ndarray.astype(dtype, order='K', casting='unsafe', subok=True, copy=True)
 ```
 
