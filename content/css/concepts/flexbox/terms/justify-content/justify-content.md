@@ -1,6 +1,6 @@
 ---
 Title: 'justify-content'
-Description: 'A property that defines the space between and around items within a container.'
+Description: 'Aligns and distributes space between items along the main axis in Flexbox or the inline axis in Grid.'
 Subjects:
   - 'Web Design'
   - 'Web Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`justify-content`** property defines the space between and around items within a container along the flexbox's main axis or [`grid's`](https://www.codecademy.com/resources/docs/css/grids) inline axis.
+The **`justify-content`** property aligns and distributes space between items along the main axis of a flex container, or aligns [`grid's`](https://www.codecademy.com/resources/docs/css/grids) tracks along the inline axis of a grid container.
 
 ## Syntax
 
@@ -21,21 +21,22 @@ The **`justify-content`** property defines the space between and around items wi
 justify-content: value;
 ```
 
-The `value` can be any of the following:
+**Parameters:**
 
-- `space-around`
-- `space-between`
-- `space-evenly`
-- `stretch`
-- `center`
-- `flex-start`
-- `flex-end`
-- `start`
-- `end`
+- `value`: Specifies how content is aligned or spaced. Common values include:
+  - `space-around`
+  - `space-between`
+  - `space-evenly`
+  - `stretch`
+  - `center`
+  - `flex-start`
+  - `flex-end`
+  - `start`
+  - `end`
 
 ## Example
 
-In the following example, the `justify-content: space-around` property is used to distribute the flex items along the main axis. This creates equal space between the items, and half-sized spaces on both ends of the container.
+In the following example, the `justify-content: space-around` property is used to distribute the flex items along the main axis. This creates equal space between the items, and half-sized spaces on both ends of the container:
 
 ```css
 .flex-container {
