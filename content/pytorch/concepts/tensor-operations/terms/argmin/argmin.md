@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.argmin()`** method in PyTorch returns the index of the minimum value in a flattened [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) tensor by default, or along a specified dimension. If a dimension is specified, it returns the indices of the minimum values along that dimension. This method is commonly used in tasks such as finding the closest data point, selecting the best prediction, or identifying the least likely class in machine learning workflows.
+The **`.argmin()`** method in PyTorch returns the index of the minimum value in a flattened [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) tensor by default, or along a specified dimension. This method is commonly used in tasks such as finding the closest data point, selecting the best prediction, or identifying the least likely class in machine learning workflows.
 
 ## Syntax
 
