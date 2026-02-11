@@ -4,17 +4,16 @@ Description: 'Classifies a floating-point value into categories such as zero, no
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Game Development'
 Tags:
+  - 'Classification'
   - 'Functions'
   - 'Math'
-  - 'Classification'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The **`fpclassify()`** [function](https://www.codecademy.com/resources/docs/cpp/functions) returns an integer value indicating the classification of a floating-point number. It categorizes values as normal, subnormal, zero, infinite, or NaN (Not-a-Number). The function is available through the `<cmath>` header.
+The **`fpclassify()`** [function](https://www.codecademy.com/resources/docs/cpp/functions) in C++ returns an integer value indicating the classification of a floating-point number. It categorizes values as normal, subnormal, zero, infinite, or NaN (Not-a-Number). The function is available through the `<cmath>` header.
 
 ## Syntax
 
@@ -31,7 +30,7 @@ fpclassify(x)
 The `fpclassify()` function returns one of the following integer constants:
 
 - `FP_INFINITE`: The value is positive or negative infinity.
-- `FP_NAN`: The value is Not-a-Number.
+- `FP_NAN`: The value is NaN (Not-a-Number).
 - `FP_ZERO`: The value is zero.
 - `FP_SUBNORMAL`: The value is a subnormal (denormalized) number.
 - `FP_NORMAL`: The value is a normal finite non-zero number.
