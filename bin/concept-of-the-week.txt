@@ -1,1 +1,1 @@
-content/sklearn/concepts/quadratic-regression-analysis/quadratic-regression-analysis.md
+content/kotlin/concepts/interfaces/interfaces.md
