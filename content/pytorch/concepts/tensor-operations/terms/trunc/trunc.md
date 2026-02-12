@@ -14,11 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, **`.trunc()`** removes the decimal part of each element and keeps only the integer part, moving values toward zero.
-
-- Positive numbers: 1.9 → 1.0
-- Negative numbers: -2.7 → -2.0
-- It does not round; it simply cuts off the fraction.
+In PyTorch, **`.trunc()`** removes the fractional component of each element in a tensor by truncating values toward zero. If the input tensor has an integer dtype, the values remain unchanged.
 
 ## Syntax
 
@@ -26,22 +22,24 @@ In PyTorch, **`.trunc()`** removes the decimal part of each element and keeps on
 torch.trunc(input, out=None)
 ```
 
-- `input`: The input tensor.
-- `out`: Optional output tensor to write results into.
-
 Alternative tensor method:
 
 ```pseudo
 tensor.trunc()
 ```
 
+**Parameters:**
+
+- `input`: The input tensor.
+- `out` (optional): Output tensor to write results into.
+
 **Return value:**
 
-Returns a tensor of the same dtype as `input`, with fractional parts removed (toward zero).
+Returns a tensor of the same dtype as `input`, with fractional parts removed (toward zero). Floating-point tensors are truncated, while integer tensors are unaffected.
 
-## Examples
+## Example 1: Basic truncation on 1D tensor
 
-Example 1: Basic truncation on 1D tensor
+In this example, `torch.trunc()` removes the fractional parts of values in a 1D tensor, truncating each number toward zero:
 
 ```py
 import torch
@@ -58,7 +56,9 @@ The above code will result in the following output:
 tensor([ 1., -2.,  0.,  3.])
 ```
 
-Example 2: Using the out parameter
+## Example 2: Using the `out` parameter
+
+In this example, `torch.trunc()` uses the `out` parameter to store the truncated results in a preallocated tensor:
 
 ```py
 import torch
@@ -76,7 +76,9 @@ A sample output might be:
 tensor([ 3.,  0., -0., -0.])
 ```
 
-Example 3: Method form on a 2D tensor
+## Example 3: Method form on a 2D tensor
+
+In this example, the `.trunc()` tensor method truncates all elements of a 2D tensor toward zero:
 
 ```py
 import torch
@@ -84,7 +86,6 @@ import torch
 m = torch.tensor([[ 2.8, -1.2,  0.4],
                   [-3.9,  7.1, -0.5]])
 n = m.trunc()
-
 print(n)
 ```
 
