@@ -43,6 +43,10 @@ Skew our `.box` element along the x-axis by 30deg:
 }
 ```
 
+The output of the code above is shown below:
+
+![A box element skewed 30 degrees along the x-axis by CSS skewX function](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-transform-skewX-1.jpg)
+
 ## Example2
 
 Skew our `.box` element along the x-axis by 0.2turn:
@@ -55,3 +59,7 @@ Skew our `.box` element along the x-axis by 0.2turn:
   transform: skewX(-0.2turn);
 }
 ```
+
+The output of the code above is shown below:
+
+![A box element skewed -0.2 turns along the x-axis by CSS skewX function](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-transform-skewX-2.jpg)
