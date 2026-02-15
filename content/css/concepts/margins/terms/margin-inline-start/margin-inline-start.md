@@ -50,3 +50,5 @@ In this example, `margin-inline-start` adds 10px of space at the beginning of th
   border: 1px solid #333;
 }
 ```
+
+![Output of margin-inline-start](../media/margin-inline-start-output-image.png)
