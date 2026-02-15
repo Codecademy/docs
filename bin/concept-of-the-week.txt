@@ -1,1 +1,1 @@
-content/kotlin/concepts/interfaces/interfaces.md
+content/swift/concepts/ranges/ranges.md
