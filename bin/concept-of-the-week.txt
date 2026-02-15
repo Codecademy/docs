@@ -1,1 +1,1 @@
-content/postgresql/concepts/subscripts/subscripts.md
+content/swift/concepts/ranges/ranges.md
