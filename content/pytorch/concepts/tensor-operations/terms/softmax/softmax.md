@@ -19,7 +19,7 @@ The Softmax function for an element $x_i$ in a vector $x$ is defined as:
 
 $$\text{Softmax}(x_{i}) = \frac{\exp(x_i)}{\sum_{j} \exp(x_j)}$$
 
-By exponentiating the inputs, the function ensures all outputs are non-negative. By dividing by the sum of these exponentials, it ensures that the resulting values sum to exactly 1.
+By exponentiating the inputs, the function ensures all outputs are non-negative. Dividing by the sum of these exponentials ensures that the resulting values sum to exactly 1.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ torch.softmax(input, dim, dtype=None)
 **Parameters:**
 
 - `input`: The input tensor containing the raw scores (logits).
-- `dim`: A dimension along which Softmax will be computed. Every slice along dim will sum to 1.
+- `dim`: A dimension along which Softmax will be computed. Every slice along the dim will sum to `1`.
 - `dtype` (Optional): The desired data type of the returned tensor.
 
 **Return value:**
@@ -62,7 +62,7 @@ Probabilities: tensor([0.0900, 0.2447, 0.6652])
 Sum of probabilities: 1.0
 ```
 
-The function converts raw logits into probabilities where the highest input value (3.0) yields the highest probability (~0.66), and the sum of all probabilities equals 1.0.
+The function converts raw logits into probabilities where the highest input value (3.0) yields the highest probability (~0.66), and the sum of all probabilities equals `1.0`.
 
 ## Example 2: Softmax on a 2D Tensor
 
@@ -94,4 +94,4 @@ Probabilities:
 Sum of each row: tensor([1.0000, 1.0000])
 ```
 
-By specifying `dim=1`, the operation is applied independently to each row (sample), ensuring that the class probabilities for each individual sample sum to 1.0.
+By specifying `dim=1`, the operation is applied independently to each row (sample), ensuring that the class probabilities for each individual sample sum to `1.0`.
