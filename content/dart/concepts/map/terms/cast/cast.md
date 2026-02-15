@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, the **`.cast()`** method returns a new `Map` containing the same key–value pairs as the original map, but with the specified key and value types. The returned map performs type checks when accessing or modifying its entries.
+In Dart, the **`.cast()`** method returns a new `Map` containing the same key–value pairs as the original map, but with the specified key and value types. The returned map performs runtime type checks when reading or writing entries. If a key or value does not match the specified types, a `TypeError` is thrown.
 
 This method is commonly used when working with dynamically typed maps that need to be treated as a map with specific types.
 
