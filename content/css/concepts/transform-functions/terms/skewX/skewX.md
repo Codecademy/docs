@@ -38,8 +38,6 @@ None. This function produces a transform value that modifies the element’s ren
 
 In this example, the element is skewed horizontally by 30deg:
 
-Skew our `.box` element along the x-axis by `30deg`:
-
 ```css
 .box {
   width: 50px;
