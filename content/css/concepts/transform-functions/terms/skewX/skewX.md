@@ -27,7 +27,8 @@ transform: skewX(<value>);
   - Radians (`rad`)
   - Gradians (`grad`)
   - Turns (`turn`)
-    The value may be positive or negative.
+
+The value may be positive or negative.
 
 **Return value:**
 
