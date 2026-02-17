@@ -1,6 +1,6 @@
 ---
-Title: 'rotateX()'
-Description: 'Rotates an element around the x-axis in 3D space.'
+Title: 'rotateY()'
+Description: 'Rotates an element around the Y-axis in 3D space.'
 Subjects:
   - 'Web Design'
   - 'Web Development'
@@ -14,35 +14,35 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`rotateX()`** function is a CSS transform function that rotates an element around the x-axis, which runs horizontally through the element. It is primarily used to create 3D rotation effects, especially when combined with perspective.
+The **`rotateY()`** function is a CSS transform function that rotates an element around the Y-axis, which runs vertically through the element. It is primarily used to create 3D rotation effects, especially when combined with **`perspective()`** transform function.
 
 ## Syntax
 
 ```pseudo
-transform: rotateX(angle);
+transform: rotateY(angle);
 ```
 
 **Parameters:**
 
-- `angle`: A CSS `<angle>` value (e.g., `45deg`, `0.5rad`) that specifies the amount of rotation around the x-axis. Using a positive angle results in clockwise rotation (the top moves back, and the bottom moves forward). Using a negative angle causes counter-clockwise rotation (the top moves forward, and the bottom moves back).
+- `angle`: A CSS `<angle>` value (e.g., `45deg`, `0.785rad`, `0.125turn` ) that specifies the amount of rotation around the Y-axis. Using a positive angle results in clockwise rotation (the right moves back, and the left moves forward). Using a negative angle causes counter-clockwise rotation (the right moves forward, and the left moves back).
 
 **Return value:**
 
-The `rotateX()` function returns a `<transform-function>` value that can be used with the `transform` property.
+The `rotateY()` function returns a `<transform-function>` value that can be used with the `transform` property.
 
-## Example 1: Tilting a Card Forward
+## Example 1: Rotating a Card left
 
-In this example, a card element is rotated forward along the x-axis to create a tilt effect. The HTML code is:
+In this example, a card element is rotated left along the Y-axis to create a spinning effect. The HTML code is:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
-    <title>RotateX Card Example</title>
+    <title>RotateY Card Example</title>
   </head>
   <body>
-    <div class="card">Tilted Card</div>
+    <div class="card">Rotated Card</div>
   </body>
 </html>
 ```
@@ -68,27 +68,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: rotateX(30deg);
+  transform: rotateY(30deg);
 }
 ```
 
 This example results in the following output:
 
-![A rectangular card rotated forward along the x-axis at 30 degrees, creating a 3D tilt effect with depth perception.](https://raw.githubusercontent.com/Codecademy/docs/main/media/rotateX1.png)
+![A rectangular card rotated left along the Y-axis at 30 degrees, creating a 3D tilt effect with depth perception.](https://raw.githubusercontent.com/Codecademy/docs/main/media/rotateY1.png)
 
-## Example 2: Interactive Flip on Hover
+## Example 2: Interactive Turn on Hover
 
-In this example, a card flips forward when hovered over, simulating a 3D interactive effect. The HTML code is:
+In this example, a card rotates left when hovered over, simulating a 3D interactive effect. The HTML code is:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
-    <title>RotateX Hover Animation</title>
+    <title>RotateY Hover Animation</title>
   </head>
   <body>
-    <div class="flip-card">Hover Me</div>
+    <div class="turn-card">Hover Me</div>
   </body>
 </html>
 ```
@@ -104,7 +104,7 @@ body {
   background-color: #ecf0f1;
 }
 
-.flip-card {
+.turn-card {
   width: 150px;
   height: 80px;
   font-size: 18px;
@@ -118,18 +118,18 @@ body {
   transition: transform 0.5s ease;
 }
 
-.flip-card:hover {
-  transform: rotateX(180deg);
+.turn-card:hover {
+  transform: rotateY(180deg);
 }
 ```
 
 This example results in the following output:
 
-![A rectangular card that flips forward 180 degrees along the x-axis when hovered, showing a 3D flip animation effect.](https://raw.githubusercontent.com/Codecademy/docs/main/media/rotateX2.gif)
+![A rectangular card that rotates left 180 degrees along the Y-axis when hovered, showing a 3D flip animation effect.](https://raw.githubusercontent.com/Codecademy/docs/main/media/rotateY2.gif)
 
 ## Example 3: Image Panel Stack with 3D Rotation
 
-In this example, multiple images are stacked and rotated along the x-axis for a layered 3D effect. The HTML code is:
+In this example, multiple images are stacked and rotated along the Y-axis for a layered 3D effect. The HTML code is:
 
 ```html
 <!DOCTYPE html>
@@ -180,42 +180,42 @@ body {
 }
 
 .panel1 {
-  transform: rotateX(15deg);
+  transform: rotateY(15deg);
 }
 
 .panel2 {
-  transform: rotateX(30deg);
+  transform: rotateY(30deg);
 }
 
 .panel3 {
-  transform: rotateX(45deg);
+  transform: rotateY(45deg);
 }
 
 .image-panel:hover {
-  transform: rotateX(60deg);
+  transform: rotateY(60deg);
 }
 ```
 
 This example results in the following output:
 
-![Three stacked square panels rotated along the x-axis with increasing angles, creating a layered 3D effect; each panel rotates further on hover.](https://raw.githubusercontent.com/Codecademy/docs/main/media/rotateX3.gif)
+![Three stacked square panels rotating along the Y-axis with increasing angles, creating a layered 3D effect; each panel rotates further on hover.](https://raw.githubusercontent.com/Codecademy/docs/main/media/rotateY3.gif)
 
 ## Frequently Asked Questions
 
-### 1. What is `rotateX`?
+### 1. What is `rotateY`?
 
-`rotateX()` is a CSS transform function that rotates an element forward or backward around its horizontal x-axis, creating a 3D rotation effect.
+`rotateY()` is a CSS transform function that rotates an element left or right around its vertical Y-axis, creating a 3D rotation effect.
 
 ### 2. What is `rotate()` in CSS?
 
 `rotate()` rotates an element around a single 2D axis (the z-axis) in its plane. It is simpler than `rotateX()` and does not create a 3D effect.
 
-### 3. How to use `rotateX`?
+### 3. How to use `rotateY`?
 
-Use `rotateX(angle)` with the CSS `transform` property. Optionally combine it with `perspective` to enhance the 3D visual effect. Example:
+Use `rotateY(angle)` with the CSS `transform` property. Optionally combine it with `perspective` to enhance the 3D visual effect. Example:
 
 ```css
 .element {
-  transform: perspective(500px) rotateX(45deg);
+  transform: perspective(500px) rotateY(45deg);
 }
 ```
