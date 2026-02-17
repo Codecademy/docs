@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`rotateY()`** function is a CSS transform function that rotates an element around the Y-axis, which runs vertically through the element. It is primarily used to create 3D rotation effects, especially when combined with **`perspective()`** transform function.
+The **`rotateY()`** function is a CSS transform function that rotates an element around the Y-axis, which runs vertically through the element. It is primarily used to create 3D rotation effects, especially when combined with the **`perspective()`** transform function.
 
 ## Syntax
 
