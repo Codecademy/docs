@@ -1,97 +1,76 @@
 ---
-Title: align-items
-Description: A property that controls how items are aligned within a container
+Title: 'align-items'
+Description: Controls how items are aligned within a container
 Subjects:
-  - 'Web Devellopment'
   - 'Web Design'
-Tags: 
+  - 'Web Development'
+Tags:
   - 'Flexbox'
   - 'Grid'
   - 'Layout'
-CatalogContent: 
+CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
-**Align-items** is a flexbox and grid property that specifies how items inside a container are aligned. In flexbox, align-items controls how these items are aligned across the axis perpendicular  to the main axis, which is specified by flex-direction. In grid, it controls the alignment in the block direction (vertical by default).
+**`align-items`** is a flexbox and grid property that specifies how items inside a container are aligned. In flexbox, align-items controls how these items are aligned across the cross-axis (the axis perpendicular to the main axis), which is specified by flex-direction. In a grid, it controls the alignment in the block direction (vertical by default)..
 
-## Synthax
+## Syntax
+
+```pseudo
+align-items: <value>;
+```
+
+**Parameters:**
+
+- `<value>`: Specifies how items inside a container are aligned. Common values include:
+  - `stretch (default)`
+  - `flex-start`
+  - `flex-end`
+  - `center`
+  - `start`
+  - `end`
+  - `baseline`
+
+**Return value:**
+
+- None. This property sets a layout rule and does not return a value.
+
+## Example 1: Using `align-items` with flex
+
+In this example, `align-items: center` is applied to a flex container to align its child elements vertically centered along the cross-axis.
 
 ```css
 .container {
-  display: flex;
-  align-items: <value>;
-}
-```
-or 
-```css
-.container {
-  display: grid;
-  align-items: <value>;
-}
-```
-
-The `<value>` can be:
-* `stretch`: items stretched to fill the container
-* `flex-start`: items aligned to the start of the container
-* `flex-end`: items aligned to the end of the container
-* `center`: items aligned to the center of their axis
-* `start`: items aligned to the start of the container (used in grid)
-* `end`: items are aligned to the end of the container (used in grid)
-* `baseline`: items aligned to their baseline
-
-## Example
-
-```html
-<div class="container">
-	<p>paragraph 1</p>
-	<p>paragraph 2</p>
-	<p>paragraph 3</p>
-</div>
-```
-
-For the above piece of HTML code, align-items can be used as follows
-
-```css
-/* using grid */
-.container {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 400px;
   border: 2px solid red;
   display: flex;
   align-items: center;
 }
-p {
-  width: 80px;
-  border: 1px solid blue;
-}
 ```
 
-The above code output is shown below:
+The output of the code above is shown below:
 
-![align-items implementation using flexbox where the paragraphs inside 'div' are centered](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-align-items-example-using-flexbox.jpg)
+![align-items implementation using flexbox where the paragraphs inside 'div' are centered](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-align-items-1.jpg)
 
-or 
+## Example 2: Using `align-items` with grid
+
+In this example, `align-items: end` is applied to a grid container to align its child elements to the bottom of their grid cell.
 
 ```css
-/* using grid */
 .container {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 400px;
   border: 2px solid red;
   display: grid;
   align-items: end;
 }
-p {
-  width: 80px;
-  border: 1px solid blue;
-}
 ```
 
-The above code output is shown below:
+The output of the code above is shown below:
 
-![align-items implementation using grid where the paragraphs inside 'div' are positioned at the end](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-align-items-example-using-grid.jpg)
+![align-items implementation using grid where the paragraphs inside 'div' are positioned at the end](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-align-items-2.jpg)
 
 The image below shows some of the align-items property values in flexbox and their corresponding alignment.
 
