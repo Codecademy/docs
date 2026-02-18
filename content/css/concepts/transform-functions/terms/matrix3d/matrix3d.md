@@ -227,7 +227,7 @@ body {
 
 This example results in the following output:
 
-![A white card that lifts forward and tilts slightly on hover, creating a refined parallax feel.](https://raw.githubusercontent.com/Codecademy/docs/main/media/matrix3d3.png)
+![A white card that lifts forward and tilts slightly on hover, creating a refined parallax feel.](https://raw.githubusercontent.com/Codecademy/docs/main/media/matrix3d3.gif)
 
 ## Frequently Asked Questions
 
