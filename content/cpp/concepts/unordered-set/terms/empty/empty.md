@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.empty()`** method checks whether an [`unordered_set`](https://www.codecademy.com/resources/docs/cpp/unordered-set) container has no elements. It returns `true` if the container is empty (i.e., its size is 0) and `false` otherwise.
+The **`.empty()`** method checks whether an `unordered_set` has no elements. It returns `true` if the container is empty (i.e., its size is 0) and `false` otherwise.
 
 ## Syntax
 
@@ -22,13 +22,11 @@ The **`.empty()`** method checks whether an [`unordered_set`](https://www.codeca
 unordered_set_name.empty()
 ```
 
-- `unordered_set_name`: The name of the `unordered_set` being checked for emptiness.
-
 **Parameters:**
 
 This method does not take any parameters.
 
-**Return Value:**
+**Return value:**
 
 Returns `true` if the `unordered_set` is empty and `false` otherwise.
 
@@ -90,7 +88,7 @@ int main() {
   }
 
   std::cout << "\n";
-  std::cout << "Unordered set is now empty: " << std::boolalpha << numbers.empty() << "\n";
+  std::cout << "Unordered set is now empty? - " << std::boolalpha << numbers.empty() << "\n";
 
   return 0;
 }
