@@ -38,7 +38,7 @@ type[] arrayName = { value1, value2, value3, ... valueN };
 type[] arrayName = [];
 
 // Create the array variable and initialize it by specifying the contents:
-type[] arrayName = [ value1, value2, value3, ... valueN ]
+type[] arrayName = [ value1, value2, value3, ... valueN ];
 ```
 
 > **Note:** Arrays in C# have a set size, meaning the number of elements they hold cannot be changed once the array has been created.
