@@ -22,7 +22,7 @@ isgreaterequal(x, y)
 
 **Parameters:**
 
-- `x`, `y`: Floating-point or integers types.
+- `x`, `y`: Floating-point or integer values.
 
 > **Notes:**
 >
@@ -52,20 +52,20 @@ int main() {
   double z = nan("1");
 
   cout << boolalpha;
-  cout << x << " isgreaterequal to " << y << ": " << isgreaterequal(x, y) << endl;
-  cout << y << " isgreaterequal to " << x << ": " << isgreaterequal(y, x) << endl;
-  cout << x << " isgreaterequal to " << z << ": " << isgreaterequal(x, z) << " (NaN comparison)" << endl;
+  cout << x << " is greater than or equal to " << y << ": " << isgreaterequal(x, y) << endl;
+  cout << y << " is greater than or equal to " << x << ": " << isgreaterequal(y, x) << endl;
+  cout << x << " is greater than or equal to " << z << ": " << isgreaterequal(x, z) << " (NaN comparison)" << endl;
 
   return 0;
 }
 ```
 
-The output of this code is as follows:
+The output for this code is as follows:
 
 ```shell
-5.5 isgreaterequal to 3: true
-3 isgreaterequal to 5.5: false
-5.5 isgreaterequal to nan: false (NaN comparison)
+5.5 is greater than or equal to 3: true
+3 is greater than or equal to 5.5: false
+5.5 is greater than or equal to nan: false (NaN comparison)
 ```
 
 ## Codebyte Example
@@ -82,8 +82,8 @@ int main() {
   float b = 7.3;
 
   cout << boolalpha;
-  cout << a << " isgreaterequal to " << b << ": " << isgreaterequal(a, b) << endl;
-  cout << b << " isgreaterequal to " << a << ": " << isgreaterequal(b, a) << endl;
+  cout << a << " is greater than or equal to " << b << ": " << isgreaterequal(a, b) << endl;
+  cout << b << " is greater than or equal to " << a << ": " << isgreaterequal(b, a) << endl;
 
   return 0;
 }
