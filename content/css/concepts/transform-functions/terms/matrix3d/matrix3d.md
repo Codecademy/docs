@@ -8,15 +8,14 @@ Tags:
   - 'Animation'
   - 'CSS'
   - 'Functions'
-  - 'Transform'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`matrix3d()`** function is a CSS transform that defines how an element is rotated, scaled, skewed, and translated (moved) in three-dimensional space using a single 4x4 homogeneous matrix of 16 values. 
+The **`matrix3d()`** function is a CSS transform that defines how an element is rotated, scaled, skewed, and translated (moved) in three-dimensional space using a single 4x4 homogeneous matrix of 16 values.
 
-> **Heads up**: `matrix3d()` is verbose and error-prone to write by hand. Prefer higher-level functions like translate3d(), rotateX(), rotateY(), rotateZ(), scale3d(), and perspective() unless you specifically need a baked/combined matrix or a transform not directly expressible via the shorthand functions.
+> **Note**: `matrix3d()` is verbose and error-prone to write by hand. In most cases, higher-level transform functions such as [`translate3d()`](https://www.codecademy.com/resources/docs/css/transform-functions/translate3), [`rotateX()`](https://www.codecademy.com/resources/docs/css/transform-functions/rotateX), `rotateY()`, [`rotateZ()`](https://www.codecademy.com/resources/docs/css/transform-functions/rotateZ), [`scale3d()`](https://www.codecademy.com/resources/docs/css/transform-functions/scale3d), and `perspective()` are easier to read and maintain. `matrix3d()` is primarily useful when applying a precomputed matrix or when combining multiple transforms into a single operation.
 
 ## Syntax
 
@@ -27,17 +26,18 @@ transform: matrix3d(a1, a2, a3, a4,
                     d1, d2, d3, d4);
 ```
 
-**Parameters (What each slot represents):**
+**Parameters:**
 
 While any set of real numbers is allowed, common meanings when composing typical 3D transforms (with a right-handed coordinate system and the element’s origin as the reference) are:
 
-* **a1..c3**: Linear transformation components (combinations of scale, rotate, skew across x/y/z).
-* **a4, b4, c4**: Perspective components (projective terms). For an **affine** transform (no perspective), these are usually 0.
-* **d1, d2, d3**: Translation along **x, y, z** respectively.
-* **d4**: Homogeneous coordinate (typically **1**).
+- `a1..c3`: Linear transformation components (combinations of scale, rotate, skew across x/y/z).
+- `a4, b4, c4`: Perspective components (projective terms). For an affine transform (no perspective), these are usually 0.
+- `d1, d2, d3`: Translation along x, y, z respectively.
+- `d4`: Homogeneous coordinate (typically 1).
 
-For a **pure affine 3D transform** (no perspective), a typical matrix looks like:
-```
+For a pure affine 3D transform (no perspective), a typical matrix looks like:
+
+```shell
 | m11 m12 m13 0 |
 | m21 m22 m23 0 |
 | m31 m32 m33 0 |
@@ -48,9 +48,9 @@ For a **pure affine 3D transform** (no perspective), a typical matrix looks like
 
 The `matrix3d()` function returns a `<transform-function>` value that can be used with the `transform` property.
 
-## Example 1: Minimal Perspective "card tilt" with `matrix3d()`
+## Example 1: Minimal Perspective card tilt with `matrix3d()`
 
-This example applies a slight perspective and rotation effect equivalent to a modest tilt. 
+This example applies a slight perspective and rotation effect equivalent to a modest tilt:
 
 The HTML code is:
 
@@ -106,7 +106,7 @@ This example results in the following output:
 
 ## Example 2: Replacing chained transforms with a single `matrix3d()`
 
-We first write the readable version, then show the equivalent `matrix3d()` one might bake in after precomputing the matrix (e.g., via a design tool or small script). 
+The first element uses readable transform functions. The second uses an approximately equivalent precomputed matrix:
 
 The HTML code is:
 
@@ -164,7 +164,6 @@ body {
      0,       0,      40,       1
   );
 }
-
 ```
 
 This example results in the following output:
@@ -173,7 +172,7 @@ This example results in the following output:
 
 ## Example 3: Subtle 3D hover parallax with perspective
 
-A card gains depth on hover using a `matrix3d()` that adds a touch of rotation and translation. 
+A card gains depth on hover using a `matrix3d()` that adds a touch of rotation and translation:
 
 The HTML code is:
 
@@ -228,43 +227,3 @@ body {
 This example results in the following output:
 
 ![A white card that lifts forward and tilts slightly on hover, creating a refined parallax feel.](https://raw.githubusercontent.com/Codecademy/docs/main/media/matrix3d3.gif)
-
-## Frequently Asked Questions
-
-### 1. What is `matrix3d()` in CSS?
-
-`matrix3d()` is a CSS function that specifies a **4×4 transformation matrix**, enabling 3D transforms (and perspective) in a single, precise instruction. It’s the most general form of CSS transforms.
-
-### 2. When should I use `matrix3d()` instead of rotateX(), translate3d(), etc.?
-
-Use higher-level functions for readability and maintainability. Use `matrix3d()` when:
-
-* You want to **bake** a chain of transforms into a single matrix for performance or distribution.
-* You need a transform that’s hard to express with built-ins.
-* You are **interoperating** with tooling or math libraries that already produce 4×4 matrices.
-
-### 3. How do I include perspective with `matrix3d()`?
-
-You can either:
-
-* Use the **perspective property** on a parent (most common for UI effects), or
-* Embed perspective in the matrix by using non-zero a4, b4, or c4 (advanced). For typical UI, the parent’s perspective is simpler and easier to reason about.
-
-### 4. Does transform order matter with `matrix3d()`?
-
-Yes. When chaining transforms like transform: A B C;, the **rightmost transform is applied first**. If you precompute a `matrix3d()`, ensure you multiply your matrices in the correct order to match CSS behavior.
-
-### 5. Any tips for working safely with `matrix3d()`?
-
-* Start from known-good chained transforms, then export or compute the matrix.
-* Keep an identity matrix handy for comparisons and debugging.
-* Use small, incremental changes; a wrong number can easily flip or flatten your element.
-* Combine with transform-style: preserve-3d; on parents if you’re composing multiple 3D children, and consider backface-visibility: hidden; for clean flips.
-
-## See also
-
-* matrix() (2D), translate3d(), scale3d(), rotateX(), rotateY(), rotateZ(), skew()
-* perspective (property) and perspective() function
-* transform-origin, transform-style, backface-visibility
-
-If you want, I can also generate a quick helper script to multiply common transforms and output a ready-to-paste `matrix3d()` for your exact angles/distances.
