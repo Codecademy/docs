@@ -8,7 +8,6 @@ Tags:
   - 'Animation'
   - 'CSS'
   - 'Functions'
-  - 'Transform'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
