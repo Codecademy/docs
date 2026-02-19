@@ -8,7 +8,6 @@ Tags:
   - 'Animation'
   - 'CSS'
   - 'Functions'
-  - 'Transform'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
@@ -68,7 +67,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: rotateY(30deg);
+  transform: perspective(150) rotateY(30deg);
 }
 ```
 
@@ -78,7 +77,8 @@ This example results in the following output:
 
 ## Example 2: Interactive Turn on Hover
 
-In this example, a card rotates left when hovered over, simulating a 3D interactive effect. The HTML code is:
+In this example, a card rotates left when hovered over, we use **`perspective()`** to give it more of a 3D affect highlighting the rotation.
+The HTML code is:
 
 ```html
 <!DOCTYPE html>
@@ -115,7 +115,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 0.5s ease;
+  transition: transform 2s ease;
+  transform: perspective(150px);
 }
 
 .turn-card:hover {
@@ -176,7 +177,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   border-radius: 6px;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .panel1 {
@@ -200,22 +201,5 @@ This example results in the following output:
 
 ![Three stacked square panels rotating along the Y-axis with increasing angles, creating a layered 3D effect; each panel rotates further on hover.](https://raw.githubusercontent.com/Codecademy/docs/main/media/rotateY3.gif)
 
-## Frequently Asked Questions
 
-### 1. What is `rotateY`?
 
-`rotateY()` is a CSS transform function that rotates an element left or right around its vertical Y-axis, creating a 3D rotation effect.
-
-### 2. What is `rotate()` in CSS?
-
-`rotate()` rotates an element around a single 2D axis (the z-axis) in its plane. It is simpler than `rotateX()` and does not create a 3D effect.
-
-### 3. How to use `rotateY`?
-
-Use `rotateY(angle)` with the CSS `transform` property. Optionally combine it with `perspective` to enhance the 3D visual effect. Example:
-
-```css
-.element {
-  transform: perspective(500px) rotateY(45deg);
-}
-```
