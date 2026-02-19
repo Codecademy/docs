@@ -199,23 +199,3 @@ body {
 This example results in the following output:
 
 ![Three stacked square panels rotating along the Y-axis with increasing angles, creating a layered 3D effect; each panel rotates further on hover.](https://raw.githubusercontent.com/Codecademy/docs/main/media/rotateY3.gif)
-
-## Frequently Asked Questions
-
-### 1. What is `rotateY`?
-
-`rotateY()` is a CSS transform function that rotates an element left or right around its vertical Y-axis, creating a 3D rotation effect.
-
-### 2. What is `rotate()` in CSS?
-
-`rotate()` rotates an element around a single 2D axis (the z-axis) in its plane. It is simpler than `rotateX()` and does not create a 3D effect.
-
-### 3. How to use `rotateY`?
-
-Use `rotateY(angle)` with the CSS `transform` property. Optionally combine it with `perspective` to enhance the 3D visual effect. Example:
-
-```css
-.element {
-  transform: perspective(500px) rotateY(45deg);
-}
-```
