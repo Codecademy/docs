@@ -27,7 +27,7 @@ Non-zero numeric values evaluate as `True`, and zero evaluates as `False`.
 torch.all(input, dim, keepdim=False, *, out=None)
 ```
 
-Or alternatively in tensor method form:
+Or alternatively, in tensor method form:
 
 ```pseudo
 tensor.all(dim=None, keepdim=False)
