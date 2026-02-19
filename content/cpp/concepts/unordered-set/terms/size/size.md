@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`size()`** member function of `unordered_set` returns the number of elements currently stored in the container as a `size_type`. If the `unordered_set` is empty, it returns 0.
+The **`size()`** member [function](https://www.codecademy.com/resources/docs/cpp/functions) of `unordered_set` is used to return the number of elements currently stored in the container as a `size_type`. If the `unordered_set` is empty, it returns `0`.
 
 ## Syntax
 
@@ -32,7 +32,7 @@ Returns a `size_type` value representing the number of elements in the `unordere
 
 ## Example 1: Basic Usage of `size()`
 
-In this example the program inserts one element into an `unordered_set` and prints its size:
+In this example, the program inserts one element into an `unordered_set` and prints its size:
 
 ```cpp
 #include <iostream>
@@ -54,11 +54,9 @@ The output of this code is:
 Size: 1
 ```
 
-This returns 1, because the unordered_set only has 1 element.
+## Example 2: Counting Unique Elements
 
-## Example 2: Counting unique elements
-
-In this example the program initializes an `unordered_set` with duplicates, prints its size, and displays the unique elements:
+In this example, the program initializes an `unordered_set` with integers (including duplicates), prints its size, and displays its elements:
 
 ```cpp
 #include <iostream>
@@ -86,11 +84,11 @@ The elements are: 7 5 4 3 2 1
 
 > **Note:** The order of elements may vary.
 
-This returns 6, because an `unordered_set` cannot contain duplicates. The unique elements are: 7, 5, 4, 3, 2, 1
+Since an `unordered_set` cannot contain duplicates, the code returns `6` as its size and only the unique elements in the container.
 
-## Codebyte example
+## Codebyte Example
 
-In this example the program compares `size()` with `sizeof()` to show that element count and memory footprint are unrelated:
+In this example, the program compares `size()` with `sizeof()` to show that element count and memory footprint are unrelated:
 
 ```codebyte/cpp
 #include <iostream>
