@@ -1,1 +1,1 @@
-content/git/concepts/checkout/checkout.md
+content/swift/concepts/ranges/ranges.md
