@@ -201,5 +201,3 @@ This example results in the following output:
 
 ![Three stacked square panels rotating along the Y-axis with increasing angles, creating a layered 3D effect; each panel rotates further on hover.](https://raw.githubusercontent.com/Codecademy/docs/main/media/rotateY3.gif)
 
-
-
