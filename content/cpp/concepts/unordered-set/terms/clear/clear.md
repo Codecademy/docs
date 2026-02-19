@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`clear()`** method is used to remove all elements from an `std::unordered_set`. After calling this method, the set will be empty, and its size will be zero.
+The **`clear()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) is used to remove all elements from an `std::unordered_set`. After calling this method, the set will be empty, and its size will be zero.
 
 The capacity of the set's internal storage (the number of buckets) is typically not reduced by `clear()`. The container’s bucket structure is typically preserved, while memory used by individual elements is released.
 
-All iterators, pointers, and references pointing to elements within the set are invalidated after calling `clear()`.
+All iterators, [pointers](https://www.codecademy.com/resources/docs/cpp/pointers), and references pointing to elements within the set are invalidated after calling `clear()`.
 
 ## Syntax
 
@@ -35,7 +35,7 @@ The method returns `void` (nothing).
 
 ## Example
 
-In this example, `clear()` is used to remove all elements from an `unordered_set` and verify that its size becomes zero:
+This example uses `clear()` to remove all elements from an `unordered_set` and then verifies if its size is zero:
 
 ```cpp
 #include <iostream>
@@ -50,13 +50,13 @@ int main() {
     "Mars"
   };
 
-  std::cout << "--- Before clear() ---\n";
+  std::cout << "--- Before using clear() ---\n";
   std::cout << "Size: " << planets.size() << "\n";
 
   // Call clear() to remove all elements
   planets.clear();
 
-  std::cout << "\n--- After clear() ---\n";
+  std::cout << "\n--- After using clear() ---\n";
   std::cout << "Size: " << planets.size() << "\n";
 
   if (planets.empty()) {
@@ -70,17 +70,17 @@ int main() {
 The output of this code is:
 
 ```shell
---- Before clear() ---
+--- Before using clear() ---
 Size: 4
 
---- After clear() ---
+--- After using clear() ---
 Size: 0
 The set is now empty.
 ```
 
 ## Codebyte Example
 
-In this example, `clear()` removes all elements from an `unordered_set`, after which new elements can still be inserted:
+In this example, `clear()` removes all elements from an `unordered_set`, after which a new element is inserted:
 
 ```codebyte/cpp
 #include <iostream>
