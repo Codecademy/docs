@@ -1,6 +1,6 @@
 ---
 Title: 'max_size()'
-Description: 'Returns the maximum number of elements that the container can theoretically hold.'
+Description: 'Returns the maximum number of elements that an unordered_set can theoretically hold.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.max_size()`** member function returns the maximum number of elements a container can theoretically hold. This limit depends on the system and the implementation of the standard library, not on actual available memory.
+The **`.max_size()`** member [function](https://www.codecademy.com/resources/docs/cpp/functions) returns the maximum number of elements an `unordered_set` can theoretically hold. This limit depends on the system and the implementation of the standard library, not on actual available memory.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ The method returns a value of type `size_type`, representing the theoretical max
 
 ## Example 1: Basic Usage
 
-In this example the program prints the maximum number of elements an `unordered_set` can theoretically hold:
+In this example, the program prints the maximum number of elements an `unordered_set` can theoretically hold:
 
 ```cpp
 #include <iostream>
@@ -46,7 +46,7 @@ int main() {
 }
 ```
 
-This example outputs the maximum possible size of the `unordered_set`:
+The output will be:
 
 ```shell
 Maximum size: 1152921504606846975
@@ -54,9 +54,9 @@ Maximum size: 1152921504606846975
 
 > **Note:** The actual value may vary depending on the system and implementation.
 
-## Example 2: Different Data Types
+## Example 2: Using Different Data Types
 
-In this example the `max_size()` value is shown for `unordered_set` containers holding different data types:
+In this example, the `max_size()` value is shown for `unordered_set` containers holding different [data types](https://www.codecademy.com/resources/docs/cpp/data-types):
 
 ```cpp
 #include <iostream>
@@ -67,25 +67,25 @@ int main() {
   std::unordered_set<double> double_set;
   std::unordered_set<char> char_set;
 
-  std::cout << "int max_size: " << int_set.max_size() << std::endl;
-  std::cout << "double max_size: " << double_set.max_size() << std::endl;
-  std::cout << "char max_size: " << char_set.max_size() << std::endl;
+  std::cout << "int max size: " << int_set.max_size() << std::endl;
+  std::cout << "double max size: " << double_set.max_size() << std::endl;
+  std::cout << "char max size: " << char_set.max_size() << std::endl;
 
   return 0;
 }
 ```
 
-This demonstrates that `max_size()` can vary based on the element type:
+The output will be:
 
 ```shell
-int max_size: 1152921504606846975
-double max_size: 1152921504606846975
-char max_size: 1152921504606846975
+int max size: 1152921504606846975
+double max size: 1152921504606846975
+char max size: 1152921504606846975
 ```
 
 ## Codebyte Example
 
-In this example the program compares the current size of an `unordered_set` with its theoretical maximum:
+In this example, the program compares the current size of an `unordered_set` with its theoretical maximum:
 
 ```codebyte/cpp
 #include <iostream>
