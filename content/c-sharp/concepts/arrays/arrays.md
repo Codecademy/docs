@@ -24,11 +24,21 @@ type[] arrayName;
 // Create the array variable and initialize it with an array of N items:
 type[] arrayName = new type[N];
 
+// Classic Syntax
+
 // Create the array variable and initialize it by specifying the contents:
 type[] arrayName = new type[] { value1, value2, value3, ... valueN };
 
 // Alternative way of creating the array and specifying the contents:
 type[] arrayName = { value1, value2, value3, ... valueN };
+
+// Collection Expression Syntax (C# 12+)
+
+// Create an empty array:
+type[] arrayName = [];
+
+// Create the array variable and initialize it by specifying the contents:
+type[] arrayName = [ value1, value2, value3, ... valueN ];
 ```
 
 > **Note:** Arrays in C# have a set size, meaning the number of elements they hold cannot be changed once the array has been created.
@@ -44,8 +54,8 @@ public class Example
 {
   public static void Main(string[] args)
   {
-    char[] vowels = {'a', 'e', 'i', 'o', 'u'};
-    //      indexes:  0    1    2    3    4
+    char[] vowels = [ 'a', 'e', 'i', 'o', 'u' ];
+    //     indexes:    0    1    2    3    4
 
     Console.WriteLine(vowels[0]); // Output: a
 
