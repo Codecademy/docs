@@ -47,7 +47,7 @@ In this example, the `.box` element is moved `100px` to the right and `100px` do
 
 Here is the output:
 
-![Matrix translation example](https://raw.githubusercontent.com/Codecademy/docs/main/media/matrix-example-1.png)
+![A coral colored box translated 100 pixels to the right and 100 pixels down using the CSS matrix() function](https://raw.githubusercontent.com/Codecademy/docs/main/media/matrix-example-1.png)
 
 ## Example 2: Scaling Elements in CSS Using `matrix()`
 
@@ -65,7 +65,7 @@ In this example, the `.box` element is scaled to `1.5` times its original size h
 
 Here is the output:
 
-![Matrix scaling example](https://raw.githubusercontent.com/Codecademy/docs/main/media/matrix-example-2.png)
+![A medium sea green colored box scaled to 1.5 times its original width and 2 times its original height using the CSS matrix() function](https://raw.githubusercontent.com/Codecademy/docs/main/media/matrix-example-2.png)
 
 ## Example 3: Combined Transformation in CSS With the Help of `matrix()`
 
@@ -83,4 +83,4 @@ This example creates a complex transformation by combining scaling, skewing, and
 
 Here is the output:
 
-![Matrix combined transformation example](https://raw.githubusercontent.com/Codecademy/docs/main/media/matrix-example-3.png)
+![A steel blue colored box with combined transformations scaled by 1.2, skewed, and translated 50 pixels right and 30 pixels down using the CSS matrix() function](https://raw.githubusercontent.com/Codecademy/docs/main/media/matrix-example-3.png)
