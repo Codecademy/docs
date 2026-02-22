@@ -31,7 +31,7 @@ transform: matrix(a, b, c, d, e, f);
 - `e`: Controls horizontal translation in pixels. A value of `0` results in no horizontal movement.
 - `f`: Controls vertical translation in pixels. A value of `0` results in no vertical movement.
 
-## Example 1: Basic Translation in CSS Using `matrix()`
+## Example 1
 
 In this example, the `.box` element is moved `100px` to the right and `100px` down using CSS `matrix()`, demonstrating how the `e` and `f` parameters control horizontal and vertical translation:
 
@@ -49,7 +49,7 @@ Here is the output:
 
 ![A coral colored box translated 100 pixels to the right and 100 pixels down using the CSS matrix() function](https://raw.githubusercontent.com/Codecademy/docs/main/media/matrix-example-1.png)
 
-## Example 2: Scaling Elements in CSS Using `matrix()`
+## Example 2
 
 In this example, the `.box` element is scaled to `1.5` times its original size horizontally and `2` times vertically by modifying the `a` and `d` parameters:
 
@@ -67,7 +67,7 @@ Here is the output:
 
 ![A medium sea green colored box scaled to 1.5 times its original width and 2 times its original height using the CSS matrix() function](https://raw.githubusercontent.com/Codecademy/docs/main/media/matrix-example-2.png)
 
-## Example 3: Combined Transformation in CSS With the Help of `matrix()`
+## Example 3
 
 This example creates a complex transformation by combining scaling, skewing, and translation in a single `matrix()` function:
 
