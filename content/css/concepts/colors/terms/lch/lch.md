@@ -5,7 +5,7 @@ Subjects:
   - 'Web Design'
   - 'Web Development'
 Tags:
-  - 'Color'
+  - 'Colors'
   - 'Functions'
   - 'Methods'
   - 'Style'
