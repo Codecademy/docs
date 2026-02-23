@@ -51,4 +51,4 @@ In this example, `margin-inline-start` adds 10px of space at the beginning of th
 }
 ```
 
-![Output of margin-inline-start](../media/margin-inline-start-output-image.png)
+![Output of margin-inline-start](https://raw.githubusercontent.com/Codecademy/docs/main/media/margin-inline-start-output-image.png)
