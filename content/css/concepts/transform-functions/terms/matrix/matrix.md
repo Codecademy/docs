@@ -5,7 +5,7 @@ Subjects:
   - 'Web Design'
   - 'Web Development'
 Tags:
-  - 'Elements'
+  - 'Animation'
   - 'Functions'
   - 'Positioning'
   - 'Values'
@@ -14,12 +14,20 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The CSS `matrix()` function uses a 2D matrix to scale, rotate, skew, and move an element. This combined setup puts multiple changes into one step and is commonly used in detailed animations(https://www.codecademy.com/resources/docs/css/animations), exact placement, or creative web layouts.
+The CSS **`matrix()`** function uses a 2D matrix to scale, rotate, skew, and move an element. This combined setup puts multiple changes into one step and is commonly used in detailed [animations](https://www.codecademy.com/resources/docs/css/animations), exact placement, or creative web layouts.
 
 ## Syntax
 
 ```pseudo
 transform: matrix(a, b, c, d, e, f);
+```
+
+Corresponds to the matrix:
+
+```plaintext
+| a c e |
+| b d f |
+| 0 0 1 |
 ```
 
 **Parameters:**
