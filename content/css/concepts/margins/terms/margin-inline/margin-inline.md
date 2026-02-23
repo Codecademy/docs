@@ -51,6 +51,10 @@ h1 {
 }
 ```
 
+The output will be as follows:
+
+![An h1 heading centered on the page with equal horizontal spacing of 20 pixels on both the left and right sides.](https://raw.githubusercontent.com/Codecademy/docs/main/media/margin-inline-example-1.png)
+
 ## Example 2
 
 This example sets the inline-start margin of the `h1` element to be `10px` and inline-end margin to be `30px`:
@@ -61,6 +65,10 @@ h1 {
 }
 ```
 
+The output will be as follows:
+
+![An h1 heading with uneven horizontal spacing, showing a smaller left margin of 10 pixels and a larger right margin of 30 pixels.](https://raw.githubusercontent.com/Codecademy/docs/main/media/margin-inline-example-2.png)
+
 ## Example 3
 
 The following example sets the inline margins of the `h1` element to be `5%`:
@@ -70,3 +78,7 @@ h1 {
   margin-inline: 5%;
 }
 ```
+
+The output will be as follows:
+
+![An h1 heading with proportional horizontal spacing, displaying equal left and right margins set to 5 percent of the containing element’s width.](https://raw.githubusercontent.com/Codecademy/docs/main/media/margin-inline-example-3.png)
