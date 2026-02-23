@@ -43,7 +43,7 @@ h1 {
 }
 ```
 
-![lch() Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-lch-example-1.jpg)
+![A large h1 heading displayed in a bright orange-yellow color with medium lightness against a white background.](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-lch-example-1.jpg)
 
 ## Example 2
 
@@ -55,7 +55,7 @@ p {
 }
 ```
 
-![lch() Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-lch-example-2.jpg)
+![A paragraph of text shown in a soft, light purple color with moderate color intensity on a white background.](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-lch-example-2.jpg)
 
 ## Example 3
 
@@ -67,4 +67,4 @@ div {
 }
 ```
 
-![lch() Example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-lch-example-3.jpg)
+![A rectangular div with a semi-transparent green background, allowing the underlying white background to faintly show through.](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-lch-example-3.jpg)
