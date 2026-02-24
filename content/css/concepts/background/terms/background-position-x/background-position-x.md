@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The CSS background-position-x property sets the horizontal (x-axis) position of a background image. The position is calculated relative to the box defined by the [`background-origin`](https://www.codecademy.com/resources/docs/css/background/background-origin) property.
+The CSS **`background-position-x`** property sets the horizontal (x-axis) position of a background image. The position is calculated relative to the box defined by the [`background-origin`](https://www.codecademy.com/resources/docs/css/background/background-origin) property.
 
 If the `background` or [`background-position`](https://www.codecademy.com/resources/docs/css/background/background-position) shorthand properties are declared after `background-position-x`, their values override it.
 
