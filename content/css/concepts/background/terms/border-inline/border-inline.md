@@ -1,9 +1,9 @@
 ---
 Title: 'border-inline'
-Description: 'Shorthand property that defines the width, color, and style of the inline start and inline end borders of an element.'
+Description: 'Sets the width, style, and color of an element’s inline-start and inline-end borders.'
 Subjects:
-  - 'Web Development'
   - 'Web Design'
+  - 'Web Development'
 Tags:
   - 'Borders'
   - 'Box Model'
@@ -11,33 +11,33 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
-Shorthand property that defines the width, color, and style of the inline start and inline end borders of an element.
-
-The affected sides depend on the writing mode and text direction.
+The **`border-inline`** property is a shorthand property that sets the width, style, and color of an element’s inline-start and inline-end borders. The physical sides affected depend on the writing mode and text direction.
 
 ## Syntax
 
-```css
+```pseudo
 border-inline: <value>;
 ```
 
-By default, `border-inline` will have a style of `none` and a width of `medium`.
-The default color is the value of the `color` property.
+**Parameters:**
 
-`<value>` can be one of the following:
+- `<value>`: May include one or more of the following, in any order:
+  - `<line-width>`: Sets the border thickness (e.g., `1px`, `thin`, `medium`, `thick`).
+  - `<line-style>`: Sets the border style (e.g., `solid`, `dashed`, `dotted`, `double`, `none`).
+  - `<color>`: Sets the border color (e.g., `red`, `#333`, `rgb(0 0 0)`).
+  - **Global values:** `inherit`, `initial`, `revert`, `revert-layer`, `unset`.
 
-- `border-style` defines the appearance of the border.
-- `border-width` defines the thickness of the border.
-- `border-color` defines the color of the border.
+If a single value is provided, it applies to both inline-start and inline-end borders.
 
-> **Note:** Values can be provided in any order.
+**Return value:**
 
-## Example
+None. Sets the computed values of `border-inline-start` and `border-inline-end`.
 
-Set the inline borders of the `p` element to be blue, 2 pixels thick, and solid:
+## Example 1
+
+The following example sets the inline borders of the `p` element to be blue, 2 pixels thick, and solid:
 
 ```css
 p {
@@ -45,9 +45,9 @@ p {
 }
 ```
 
-## Example
+## Example 2
 
-Set the inline borders of the `div` element to be red, 5 pixels thick, and dashed:
+The following example set the inline borders of the `div` element to be red, 5 pixels thick, and dashed:
 
 ```css
 div {
