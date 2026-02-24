@@ -1,38 +1,38 @@
 ---
 Title: 'skewY()'
-Description: 'Tilts an element along the y-axis on a two-dimensional plane.'
+Description: 'Skews an element along the y-axis in a two-dimensional plane.'
 Subjects:
-  - 'Web Development'
   - 'Web Design'
+  - 'Web Development'
 Tags:
   - 'Functions'
   - 'Positioning'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
-The `skewY()` function tilts an element along the y-axis on a two-dimensional plane.
+The **`skewY()`** function skews an element along the vertical axis by shifting it up or down based on the specified angle.
 
 ## Syntax
 
-```css
+```pseudo
 transform: skewY(<angle>);
 ```
 
-where a required `<angle>` can be one of the following:
+**Parameters:**
 
-- Degree value: `30deg`
-- Radian value: `0.5rad`
-- Gradian value: `100grad`
-- Turn value: `.25turn`
+- `<angle>`: Specifies the angle of the vertical skew. Accepts angle units such as `deg`, `rad`, `grad`, or `turn` (e.g., `20deg`, `0.2rad`).
 
-Negative values skew the element in the opposite direction.
+A positive value skews the element so that the top shifts to the right and the bottom shifts to the left. A negative value skews it in the opposite direction.
+
+**Return value:**
+
+Returns a `<transform-function>` value that represents a 2D vertical skew transformation and can be used with the `transform` property.
 
 ## Example
 
-Skew the `.rectangle` element along the y-axis by `20deg`:
+The following example skews the `.rectangle` element along the y-axis by `20deg`:
 
 ```css
 .rectangle {
