@@ -14,21 +14,24 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.max()`** method in PyTorch returns the maximum value from a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It can find the maximum value across the entire tensor. This method is commonly used in data analysis, finding peak values, and various neural network operations.
+The **`.max()`** method in PyTorch returns the maximum value from a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors). It can find the maximum value across the entire tensor or along a specified dimension. This method is commonly used in data analysis, finding peak values, and various neural network operations.
 
 ## Syntax
 
 ```pseudo
-torch.max(input) → Tensor
+torch.max(input, dim=None, keepdim=False) → Tensor or (Tensor, LongTensor)
 ```
 
 **Parameters:**
 
 - `input` (Tensor): The input tensor.
+- `dim` (int, optional): The dimension along which to find the maximum values. If not specified, returns the maximum value of the entire tensor.
+- `keepdim` (bool, optional): Whether the output tensor retains the reduced dimension. Defaults to `False`.
 
 **Return value:**
 
-Returns a tensor containing the maximum value from the `input`.
+- When `dim` is not specified: Returns a tensor containing the single maximum value from the entire tensor.
+- When `dim` is specified: Returns a named tuple `(values, indices)` where `values` contains the maximum values along the specified dimension, and `indices` contains the indices of those maximum values.
 
 ## Example
 
@@ -37,47 +40,56 @@ The following example demonstrates how to use the `.max()` method to find the ma
 ```py
 import torch
 
-# Create a tensor with various values
-tensor = torch.tensor([1.5, -2.3, 0.0, 4.8, -1.2])
+# Create a 2D tensor
+tensor = torch.tensor([[1.5, -2.3, 0.0],
+                       [4.8, -1.2, 3.6]])
 
-# Find the maximum value using the method form
-max_value = tensor.max()
+# Find the maximum value of the entire tensor
+max_value = torch.max(tensor)
 
-# Alternative: use the functional form
-max_functional = torch.max(tensor)
+# Find maximum values along each column (dim=0)
+max_cols = torch.max(tensor, dim=0)
+
+# Find maximum values along each row (dim=1)
+max_rows = torch.max(tensor, dim=1)
 
 print("Original Tensor:")
 print(tensor)
 
-print("\nMaximum Value (using .max()):")
+print("\nMaximum Value (entire tensor):")
 print(max_value)
 
-print("\nMaximum Value (using torch.max()):")
-print(max_functional)
+print("\nMaximum Values (along columns, dim=0):")
+print("Values:", max_cols.values)
+print("Indices:", max_cols.indices)
 
-print("\nMaximum as Python number (using .item()):")
-print(max_value.item())
+print("\nMaximum Values (along rows, dim=1):")
+print("Values:", max_rows.values)
+print("Indices:", max_rows.indices)
 ```
 
 This example results in the following output:
 
 ```shell
 Original Tensor:
-tensor([ 1.5000, -2.3000,  0.0000,  4.8000, -1.2000])
+tensor([[ 1.5000, -2.3000,  0.0000],
+        [ 4.8000, -1.2000,  3.6000]])
 
-Maximum Value (using .max()):
+Maximum Value (entire tensor):
 tensor(4.8000)
 
-Maximum Value (using torch.max()):
-tensor(4.8000)
+Maximum Values (along columns, dim=0):
+Values: tensor([4.8000, -1.2000, 3.6000])
+Indices: tensor([1, 1, 1])
 
-Maximum as Python number (using .item()):
-4.800000190734863
+Maximum Values (along rows, dim=1):
+Values: tensor([1.5000, 4.8000])
+Indices: tensor([0, 0])
 ```
 
 In this example:
 
-- The tensor contains five values: `1.5`, `-2.3`, `0.0`, `4.8`, and `-1.2`
-- The `.max()` method identifies `4.8` as the maximum value in the tensor
-- Both `.max()` and `torch.max()` produce identical results: `tensor(4.8000)`
-- The `.item()` method converts the tensor result to a Python float: `4.800000190734863`
+- **Entire tensor**: The maximum value across all elements is `4.8000`.
+- **Along columns (`dim=0`)**: The maximum values in each column are `4.8000`, `-1.2000`, and `3.6000`, all found in row `1` (index `1`).
+- **Along rows (`dim=1`)**: The maximum values in each row are `1.5000` (at index `0`) and `4.8000` (at index `0`).
+- When `dim` is specified, the method returns both the maximum values and their indices as a named tuple.
