@@ -39,6 +39,10 @@ h1 {
 }
 ```
 
+This will display:
+
+![margin-block-example-1](../../../../../../media/margin-block-example-1.png)
+
 ## Example 2
 
 The following example sets the start margin to `5%` and end margin `-10px`:
@@ -48,6 +52,10 @@ h1 {
   margin-block: 5% -10px;
 }
 ```
+
+This will display:
+
+![margin-block-example-2](../../../../../../media/margin-block-example-2.png)
 
 ## Example 3
 
@@ -59,3 +67,7 @@ h1 {
   writing-mode: vertical-rl; /* block-start is top, block-end is bottom in vertical mode */
 }
 ```
+
+This will display:
+
+![margin-block-example-3](../../../../../../media/margin-block-example-3.png)
