@@ -45,7 +45,7 @@ var body: some View {
 }
 ```
 
-This will render a button with default styles and the `"Login"` text, ensuring its visibility to screen readers and adaptive technologies.
+The `"Login"` string title automatically becomes the button's accessibility label, so screen readers announce it without needing an explicit `.accessibilityLabel()` modifier.
 
 ## Accessibility Modifiers
 
@@ -81,35 +81,37 @@ SwiftUI provides a range of modifiers to fine-tune the accessibility of an app's
 
   ```swift
   var body: some View {
-      Text("Terms and Conditions")
-          .onTapGesture { /* open link */ }
-          .accessibilityAddTraits(.isLink)
+      Text("Settings")
+          .font(.headline)
+          .accessibilityAddTraits(.isHeader)
   }
   ```
 
-  This adds the `.isLink` trait to a tappable `Text` view, informing assistive technologies that the element behaves as a link.
+  This adds the `.isHeader` trait to the `Text` view, allowing VoiceOver users to navigate between section headings using the rotor.
 
   > **Note:** Standard views like `Button` already include appropriate traits automatically, so adding `.isButton` to a `Button` is redundant.
 
 - `.accessibilityAction()` modifier can enhance interactive elements by adding accessibility-specific actions. The following example shows a toggle button with a custom accessibility action:
 
   ```swift
-  @State private var isButtonPressed = false
+  @State private var isActive = false
 
   var body: some View {
       Button(action: {
-          self.isButtonPressed.toggle()
+          isActive.toggle()
       }) {
-          Text("Toggle")
-              .background(isButtonPressed ? Color.purple : Color.yellow)
+          Text(isActive ? "Active" : "Inactive")
+              .padding()
+              .background(isActive ? Color.green : Color.gray)
       }
-      .accessibilityAction(named: "Toggle Color") {
-          self.isButtonPressed.toggle()
+      .accessibilityValue(isActive ? "Active" : "Inactive")
+      .accessibilityAction(named: "Toggle State") {
+          isActive.toggle()
       }
   }
   ```
 
-  This will render a button with yellow [background](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/background), as the initial state of `isButtonPressed` is `false`, with the `"Toggle"` text. When the button is pressed, the background color will change to purple. The `.accessibilityAction()` modifier adds an accessibility action to the button for toggling the color and providing context-specific actions.
+  The `.accessibilityValue()` modifier announces the current state to screen readers, ensuring the toggle state is not conveyed by color alone. The `.accessibilityAction()` modifier adds a named action that assistive technologies can present to users.
 
 - `.accessibilityElement(children:)` controls how child views appear in the accessibility tree. The three options are `.combine` (merges children into one element), `.contain` (keeps children as separate elements), and `.ignore` (hides children from assistive technologies):
 
@@ -147,6 +149,7 @@ In addition to accessibility modifiers, some general techniques can help design 
 - Adjusting focus management with `@FocusState` and the `.focused()` modifier allows control over which element initially gets focus, enhancing the user experience for keyboard and screen reader users:
 
   ```swift
+  @State private var username = ""
   @FocusState private var isUsernameFocused: Bool
 
   var body: some View {
@@ -213,7 +216,7 @@ In addition to accessibility modifiers, some general techniques can help design 
 
 - VoiceOver integration during development: VoiceOver is a built-in screen reader for iOS and macOS to assist visually impaired users. VoiceOver automatically interacts with the accessibility labels, hints, traits, and other modifiers applied to UI elements. Enable it on a testing device and navigate through the app's interface to identify areas where labels are missing, navigation might be confusing, or interactions are not intuitive.
 
-- [Gesture](https://www.codecademy.com/resources/docs/swiftui/gestures) design: Creating intuitive gestures that align with user expectations. Prioritize familiar gestures like single-finger taps and two-finger swipes for navigation. Ensure haptic feedback for gesture confirmation, benefiting users with visual impairments. Test gestures with VoiceOver enabled to guarantee compatibility with screen readers.
+- [Gesture](https://www.codecademy.com/resources/docs/swiftui/gestures) design: VoiceOver replaces the standard gesture system, so custom gestures like swipes and long presses are not available to VoiceOver users by default. Ensure all custom gestures have accessible alternatives by adding `.accessibilityAction()` modifiers, and prefer `Button` or `Link` for tappable elements so VoiceOver can activate them automatically.
 
 ## Recent Accessibility Features
 
