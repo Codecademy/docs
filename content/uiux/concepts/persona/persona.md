@@ -46,6 +46,10 @@ Similar to [high-fidelity](https://www.codecademy.com/resources/docs/uiux/high-f
 
 ![Illustrations of three tools used by user researchers to communicate their research findings: personas, storyboards, and journey maps.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/ux-research.png)
 
+## Example
+
+![Two user personas for a tea app showing profiles, pain points, and traits.](https://raw.githubusercontent.com/Codecademy/docs/main/media/user-persona-img.png)
+
 ## Resources
 
 - [Codecademy: Creating User Personas](https://www.codecademy.com/article/ui-design-personas)
