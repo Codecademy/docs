@@ -1,6 +1,6 @@
 ---
 Title: '.max()'
-Description: 'Returns the maximum value of a tensor.'
+Description: 'Returns the maximum value of a tensor, either across the entire tensor or along a specified dimension.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -19,7 +19,7 @@ The **`.max()`** method in PyTorch returns the maximum value from a [tensor](htt
 ## Syntax
 
 ```pseudo
-torch.max(input, dim=None, keepdim=False) → Tensor or (Tensor, LongTensor)
+torch.max(input, dim=None, keepdim=False, *, out=None) → Tensor or (Tensor, LongTensor)
 ```
 
 **Parameters:**
@@ -27,11 +27,12 @@ torch.max(input, dim=None, keepdim=False) → Tensor or (Tensor, LongTensor)
 - `input` (Tensor): The input tensor.
 - `dim` (int, optional): The dimension along which to find the maximum values. If not specified, returns the maximum value of the entire tensor.
 - `keepdim` (bool, optional): Whether the output tensor retains the reduced dimension. Defaults to `False`.
+- `out` (tuple of Tensors, optional): Optional tuple of two tensors to store the output values and indices.
 
 **Return value:**
 
-- When `dim` is not specified: Returns a tensor containing the single maximum value from the entire tensor.
-- When `dim` is specified: Returns a named tuple `(values, indices)` where `values` contains the maximum values along the specified dimension, and `indices` contains the indices of those maximum values.
+- When `dim` is not specified, it returns a tensor containing the single maximum value from the entire tensor.
+- When `dim` is specified, it returns a named tuple `(values, indices)` where `values` contains the maximum values along the specified dimension, and `indices` contains the indices of those maximum values.
 
 ## Example
 
