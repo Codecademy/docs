@@ -1,39 +1,37 @@
 ---
 Title: 'margin-block'
-Description: 'margin-block property defines margin at the start and end of an element.'
+Description: 'Sets the margins on the block-start and block-end sides of an element.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
-  - 'Margin'
   - 'Box Model'
+  - 'Margin'
   - 'Positioning'
 CatalogContent:
   - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-Defines margin at the start and end of an element. It depends on the block direction.
+The **`margin-block`** property sets the margins on the block-start and block-end sides of an element, controlling vertical spacing based on the writing mode and text direction.
 
 ## Syntax
 
-```css
-margin-bottom: <value>;
-margin-bottom: <value1> <value2>;
+```pseudo
+margin-block: <value>;
 ```
 
-If there is only one value, that value is used for start and end margins for an element.
-If there are two values, <value1> represents start margin and <value2> represents end margin.
+**Parameters:**
 
-`<value>` can be one of the following:
+- `<value>`: Specifies the margin size for block-start and block-end. Can be a length (`px`, `em`, `rem`), percentage (`%`), `auto`, or global values (`inherit`, `initial`, `unset`, `revert`).
 
-- Length: `20px` `-20%`
-- Percentage: `5%` `-5%`
+**Return value:**
 
-**Note:** Values provided may be negative. To specify start and end margin direction use `writing-mode` property.
+None. Sets a layout style on the element; it does not return a value.
 
 ## Example 1
 
-Sets the start and end margin:
+The following example sets the start and end margin:
 
 ```css
 h1 {
@@ -43,7 +41,7 @@ h1 {
 
 ## Example 2
 
-Sets the start margin to `5%` and end margin `-10px`:
+The following example sets the start margin to `5%` and end margin `-10px`:
 
 ```css
 h1 {
@@ -53,11 +51,11 @@ h1 {
 
 ## Example 3
 
-Sets right margin to `10px` and left margin to `20px`
+The following example demonstrates block margins in vertical writing mode:
 
 ```css
 h1 {
   margin-block: 10px 20px;
-  writing-mode: vertical-rl;
+  writing-mode: vertical-rl; /* block-start is top, block-end is bottom in vertical mode */
 }
 ```
