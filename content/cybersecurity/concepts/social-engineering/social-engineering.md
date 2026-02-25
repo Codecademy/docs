@@ -1,6 +1,6 @@
 ---
 Title: 'Social Engineering'
-Description: 'Social engineering is the psychological manipulation of people into performing actions or divulging confidential information by targeting the "human element."'
+Description: 'Social engineering is the psychological manipulation of people into performing actions or divulging confidential information by targeting the "human element".'
 Subjects:
   - 'Computer Science'
   - 'Cybersecurity'
