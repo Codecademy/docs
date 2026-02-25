@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.removeFirst()`** method in Dart is used to remove and return the first element from a queue if it exists.
+The **`.removeFirst()`** method in Dart is used to remove and return the first element from a queue.
 
 ## Syntax
 
@@ -22,6 +22,8 @@ E removeFirst()
 ```
 
 - `E`: The type of elements in the queue.
+
+**Note:** Calling this method on an empty queue will throw a `StateError`.
 
 ## Example
 
