@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.removeFirst()`** method in Dart is used to remove and return the first element from a queue.
+The **`.removeFirst()`** method in Dart is used to remove and return the first element from a `Queue`.
 
 ## Syntax
 
@@ -21,9 +21,15 @@ The **`.removeFirst()`** method in Dart is used to remove and return the first e
 E removeFirst()
 ```
 
-- `E`: The type of elements in the queue.
+**Parameters:**
 
-**Note:** Calling this method on an empty queue will throw a `StateError`.
+None.
+
+**Return value:**
+
+This method returns the first element (`E`) in the queue.
+
+> **Note:** Calling this method on an empty queue will throw a `StateError`.
 
 ## Example
 
@@ -36,14 +42,14 @@ void main() {
   // Creating a queue
   Queue<int> queue = Queue.from([1, 2, 3, 4, 5]);
 
-  // Outputting the original queue
+  // Print the original queue
   print('Original Queue: $queue');
 
-  // Removing the first element from the queue
+  // Remove the first element
   int removedElement = queue.removeFirst();
   print('Removed Element: $removedElement');
 
-  // Outputting the modified queue
+  // Print the modified queue
   print('Modified Queue: $queue');
 }
 ```
