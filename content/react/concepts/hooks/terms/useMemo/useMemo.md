@@ -2,6 +2,7 @@
 Title: 'useMemo()'
 Description: 'Returns a memoized value that only recalculates when one of its dependencies changes, helping to avoid expensive calculations on every render.'
 Subjects:
+  - 'Computer Science'
   - 'Web Development'
 Tags:
   - 'Components'
@@ -11,14 +12,14 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`useMemo()`** hook is used to store the result of an expensive calculation and only recalculate it when its dependencies change. This helps to improve performance by skipping unnecessary work during re-renders.
+The **`useMemo()`** hook memoizes the result of a computation and recomputes it only when one of its dependencies changes. It is primarily used to optimize performance by avoiding unnecessary recalculations during re-renders.
 
 When a [component](https://www.codecademy.com/resources/docs/react/components) re-renders, all the code inside it runs again. If there is a slow or heavy calculation, it will run every time — even if the inputs have not changed. The `useMemo()` hook solves this by remembering (or "memoizing") the result and only recalculating when needed.
 
 ## Syntax
 
 ```pseudo
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 
 const memoizedValue = useMemo(() => {
   return computedResult;
@@ -26,7 +27,7 @@ const memoizedValue = useMemo(() => {
 ```
 
 - The first argument is a [function](https://www.codecademy.com/resources/docs/javascript/functions) that returns the value to be memoized.
-- The second argument is an [array](https://www.codecademy.com/resources/docs/javascript/arrays) of dependencies. The function will only run again when one of these values changes.
+- The second argument is an [array](https://www.codecademy.com/resources/docs/javascript/arrays) of dependencies. React performs a shallow comparison of these values and only recomputes when one changes.
 - If the dependency array is empty (`[]`), the value is calculated only once when the component first mounts.
 
 > **Note:** `useMemo()` is meant for performance optimization. The code should still work correctly without it — it should not be used to control when code runs.
@@ -68,4 +69,4 @@ function FilteredList() {
 }
 ```
 
-Clicking the **"Re-render"** button updates the `count` state and causes the component to re-render. But since `threshold` has not changed, `useMemo()` returns the stored result and skips the filtering step. The `console.log` will only appear when the **"Increase Threshold"** button is clicked.
+Clicking the re-render button updates the `count` state and causes the component to re-render. But since `threshold` has not changed, `useMemo()` returns the stored result and skips the filtering step. The `console.log` will only appear when the increase threshold button is clicked.
