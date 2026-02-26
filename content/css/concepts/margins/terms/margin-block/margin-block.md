@@ -41,7 +41,7 @@ h1 {
 
 This will display:
 
-![margin-block-example-1](../../../../../../media/margin-block-example-1.png)
+![margin-block-example-1](https://raw.githubusercontent.com/Codecademy/docs/main/media/margin-block-example-1.png)
 
 ## Example 2
 
@@ -55,7 +55,7 @@ h1 {
 
 This will display:
 
-![margin-block-example-2](../../../../../../media/margin-block-example-2.png)
+![margin-block-example-2](https://raw.githubusercontent.com/Codecademy/docs/main/media/margin-block-example-2.png)
 
 ## Example 3
 
@@ -70,4 +70,4 @@ h1 {
 
 This will display:
 
-![margin-block-example-3](../../../../../../media/margin-block-example-3.png)
+![margin-block-example-3](https://raw.githubusercontent.com/Codecademy/docs/main/media/margin-block-example-3.png)
