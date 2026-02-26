@@ -17,9 +17,7 @@ This hook is primarily used as a performance optimization. It is especially usef
 
 ## Syntax
 
-The **`useCallback()`** hook caches a function definition between re-renders of a [component](https://www.codecademy.com/resources/docs/react/components). It returns a memoized version of the function that only changes if one of its dependencies changes.
-
-This hook is primarily used as a performance optimization. It is especially useful when passing functions as [props](https://www.codecademy.com/resources/docs/react/props) to child components to prevent unnecessary re-rendering.
+The **`useCallback()`** hook caches a function definition between re-renders of a [component](https://www.codecademy.com/resources/docs/react/components). It returns a memoized version of the function that only changes if one of its dependencies changes. This hook is primarily used as a performance optimization. It is especially useful when passing functions as [props](https://www.codecademy.com/resources/docs/react/props) to child components to prevent unnecessary re-rendering.
 
 ```pseudo
 const memoizedFunction = useCallback(
@@ -30,9 +28,7 @@ const memoizedFunction = useCallback(
 );
 ```
 
-## Example 
-
-The following example, `useCallback()` is used to prevent unnecessary re-rendering of a child component wrapped in `React.memo():`
+## Example
 
 ```js
 import React, { useState, useCallback, memo } from 'react';
