@@ -1,3 +1,11 @@
+<div align="center">
+  <strong>:warning: Contribution Status Update</strong><br>
+    Community contributions to Codecademy Docs are now closed.
+</div>
+<br>
+Codecademy Docs remains live and publicly accessible; however, we are no longer reviewing or merging external pull requests. We are incredibly grateful to the community members who contributed their time and expertise to help build Docs into what it is today.
+
+---
 <!-- markdownlint-disable MD041 MD002 -->
 <div align="center">
   <h1>📕 Docs</h1>
